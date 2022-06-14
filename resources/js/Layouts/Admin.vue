@@ -8,6 +8,14 @@ import BreezeResponsiveNavLink from '@/Components/ResponsiveNavLink.vue';
 import { Link } from '@inertiajs/inertia-vue3';
 
 const showingNavigationDropdown = ref(false);
+const navigation = [
+  { name: 'Dashboard', href: '#', current: true },
+  { name: 'Team', href: '#', current: false },
+  { name: 'Projects', href: '#', current: false },
+  { name: 'Calendar', href: '#', current: false },
+  { name: 'Documents', href: '#', current: false },
+  { name: 'Reports', href: '#', current: false },
+];
 </script>
 
 <template>
@@ -27,9 +35,9 @@ const showingNavigationDropdown = ref(false);
 
                             <!-- Navigation Links -->
                             <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-                                <BreezeNavLink :href="route('dashboard')" :active="route().current('dashboard')">
+                                <!-- <BreezeNavLink :href="route('dashboard')" :active="route().current('dashboard')">
                                     Dashboard
-                                </BreezeNavLink>
+                                </BreezeNavLink> -->
                             </div>
                         </div>
 
@@ -94,15 +102,23 @@ const showingNavigationDropdown = ref(false);
                 </div>
             </nav>
 
-            <!-- Page Heading -->
-            <header class="bg-white shadow" v-if="$slots.header">
-                <div class="py-6 px-4 sm:px-6 lg:px-8">
-                    <slot name="header" />
-                </div>
-            </header>
-
             <!-- Page Content -->
-            <main>
+            <main class="flex">
+                <aside class="hidden lg:flex lg:flex-shrink-0">
+                    <div class="flex flex-col w-64">
+                        <div class="flex-1 flex flex-col min-h-0">
+                            <div class="flex-1 flex flex-col py-8 overflow-y-auto">
+                                <nav class="space-y-2 px-4" aria-label="Sidebar">
+                                    <a v-for="item in navigation" :key="item.name" :href="item.href" :class="[item.current ? 'bg-gray-100 text-gray-900' : 'text-gray-600 hover:bg-gray-50 hover:text-gray-900', 'flex items-center px-3 py-2 text-sm font-medium rounded-md']" :aria-current="item.current ? 'page' : undefined">
+                                        <span class="truncate">
+                                            {{ item.name }}
+                                        </span>
+                                    </a>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
                 <slot />
             </main>
         </div>
