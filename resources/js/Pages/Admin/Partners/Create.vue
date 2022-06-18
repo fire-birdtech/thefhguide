@@ -2,6 +2,7 @@
 import AdminLayout from '@/Layouts/Admin';
 import { Head, Link, useForm } from '@inertiajs/inertia-vue3';
 import BreezeInput from '@/Components/Input';
+import BreezeInputError from '@/Components/InputError';
 import BreezeLabel from '@/Components/Label';
 import PrimaryButton from '@/Components/PrimaryButton';
 import SecondaryButton from '@/Components/SecondaryButton';
@@ -35,6 +36,7 @@ const submit = () => {
                                     <BreezeLabel for="name" value="Partner name" class="sm:mt-px sm:pt-2" />
                                     <div class="mt-1 sm:mt-0 sm:col-span-4">
                                         <BreezeInput type="text" v-model="partner.name" id="name" class="block w-full" />
+                                        <BreezeInputError class="mt-1" :message="partner.errors.name" />
                                     </div>
                                 </div>
 
@@ -42,6 +44,7 @@ const submit = () => {
                                     <BreezeLabel for="website_url" value="Website URL" class="sm:mt-px sm:pt-2" />
                                     <div class="mt-1 sm:mt-0 sm:col-span-4">
                                         <BreezeInput type="text" v-model="partner.website_url" id="name" class="block w-full" />
+                                        <BreezeInputError class="mt-1" :message="partner.errors.website_url" />
                                     </div>
                                 </div>
                             </div>
