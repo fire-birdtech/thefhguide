@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\PartnerController;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
@@ -34,6 +35,7 @@ Route::group([
     'as' => 'admin.'
 ], function () {
     Route::get('dashboard', fn () => inertia('Admin/Dashboard'))->name('dashboard');
+    Route::resource('partners', PartnerController::class);
 });
 
 require __DIR__.'/auth.php';
