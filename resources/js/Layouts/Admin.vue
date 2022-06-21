@@ -9,12 +9,15 @@ import { Link } from '@inertiajs/inertia-vue3';
 
 const showingNavigationDropdown = ref(false);
 const navigation = [
-  { name: 'Dashboard', href: route('admin.dashboard'), components: ['Admin/Dashboard'] },
-  { name: 'Partners', href: route('admin.partners.index'), components: ['Admin/Partners/Index','Admin/Partners/Create','Admin/Partners/Show','Admin/Partners/Edit'] },
-  { name: 'Projects', href: '#', components: [] },
-  { name: 'Calendar', href: '#', components: [] },
-  { name: 'Documents', href: '#', components: [] },
-  { name: 'Reports', href: '#', components: [] },
+    { name: 'Dashboard', href: route('admin.dashboard'), components: ['Admin/Dashboard'] },
+    { name: 'Projects', href: route('admin.projects.index'), components: [
+        'Admin/Projects/Index','Admin/Projects/Create','Admin/Projects/Show','Admin/Projects/Edit'
+    ]},
+    { name: 'Partners', href: route('admin.partners.index'), components: [
+        'Admin/Partners/Index','Admin/Partners/Create','Admin/Partners/Show','Admin/Partners/Edit'
+    ]},
+    { name: 'Collections', href: '#', components: [] },
+    { name: 'Navigation', href: '#', components: [] },
 ];
 </script>
 

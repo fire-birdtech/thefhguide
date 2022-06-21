@@ -7,11 +7,9 @@ use Illuminate\Database\Eloquent\Model;
 use Spatie\Sluggable\HasSlug;
 use Spatie\Sluggable\SlugOptions;
 
-class Partner extends Model
+class Project extends Model
 {
     use HasFactory, HasSlug;
-
-    protected $guarded = ['id'];
 
     /**
      * Get the options for generating the slug.
@@ -33,8 +31,10 @@ class Partner extends Model
         return 'slug';
     }
 
-    public function projects()
+    protected $guarded = ['id'];
+
+    public function projectable()
     {
-        return $this->morphMany(Project::class, 'projectable');
+        return $this->morphTo();
     }
 }

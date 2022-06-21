@@ -29,14 +29,14 @@ const submit = () => {
                         <BreezeLabel for="name" value="Partner name" class="sm:mt-px sm:pt-2" />
                         <div class="mt-1 sm:mt-0 sm:col-span-4">
                             <BreezeInput type="text" v-model="partner.name" id="name" class="block w-full" />
-                            <BreezeInputError class="mt-1" :message="partner.errors.name" />
+                            <BreezeInputError class="mt-1" :message="partner.errors?.name" />
                         </div>
                     </div>
                     <div class="px-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:items-start sm:border-t sm:border-gray-200 sm:py-4">
                         <BreezeLabel for="website_url" value="Website URL" class="sm:mt-px sm:pt-2" />
                         <div class="mt-1 sm:mt-0 sm:col-span-4">
                             <BreezeInput type="text" v-model="partner.website_url" id="name" class="block w-full" />
-                            <BreezeInputError class="mt-1" :message="partner.errors.website_url" />
+                            <BreezeInputError class="mt-1" :message="partner.errors?.website_url" />
                         </div>
                     </div>
                     <div class="px-6 py-4 sm:border-t sm:border-gray-200">
