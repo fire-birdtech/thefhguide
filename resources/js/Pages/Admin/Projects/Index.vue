@@ -38,7 +38,7 @@ defineProps({
                                     </tr>
                                 </thead>
                                 <tbody class="bg-white">
-                                    <tr v-for="(project, projectIdx) in projects" :key="project.id.email" :class="projectIdx % 2 === 0 ? undefined : 'bg-gray-50'">
+                                    <tr v-for="(project, projectIdx) in projects" :key="project.id" :class="projectIdx % 2 === 0 ? undefined : 'bg-gray-50'">
                                         <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-semibold text-gray-900 hover:text-gray-700 sm:pl-6">
                                             <Link :href="route('admin.projects.show', [project.slug])">{{ project.name }}</Link>
                                         </td>

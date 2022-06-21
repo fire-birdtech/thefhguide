@@ -5,7 +5,6 @@ namespace App\Http\Controllers;
 use App\Http\Requests\PartnerRequest;
 use App\Models\Partner;
 use Illuminate\Http\RedirectResponse;
-use Illuminate\Http\Request;
 use Inertia\Response;
 
 class PartnerController extends Controller
@@ -54,7 +53,7 @@ class PartnerController extends Controller
     public function show(Partner $partner)
     {
         return inertia('Admin/Partners/Show', [
-            'partner' => $partner,
+            'partner' => $partner->load('projects'),
         ]);
     }
 
