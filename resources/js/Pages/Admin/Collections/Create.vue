@@ -24,7 +24,7 @@ const submit = () => {
             <h3 class="text-lg leading-6 font-medium text-gray-900 mt-2"> Create Collection </h3>
             <div class="mt-4 bg-white shadow overflow-hidden sm:rounded-lg">
                 <form @submit.prevent="submit" class="sm:divide-y sm:divide-gray-200">
-                    <div class="px-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:items-start sm:border-t sm:border-gray-200 sm:py-4">
+                    <div class="px-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:items-start sm:py-4">
                         <BreezeLabel for="name" value="Collection name" class="sm:mt-px sm:pt-2" />
                         <div class="mt-1 sm:mt-0 sm:col-span-4">
                             <BreezeInput type="text" v-model="collection.name" id="name" class="block w-full" />
