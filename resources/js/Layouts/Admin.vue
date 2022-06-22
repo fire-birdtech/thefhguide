@@ -16,7 +16,9 @@ const navigation = [
     { name: 'Partners', href: route('admin.partners.index'), components: [
         'Admin/Partners/Index','Admin/Partners/Create','Admin/Partners/Show','Admin/Partners/Edit'
     ]},
-    { name: 'Collections', href: '#', components: [] },
+    { name: 'Collections', href: route('admin.collections.index'), components: [
+        'Admin/Collections/Index','Admin/Collections/Create','Admin/Collections/Show','Admin/Collections/Edit'
+    ] },
     { name: 'Navigation', href: '#', components: [] },
 ];
 </script>

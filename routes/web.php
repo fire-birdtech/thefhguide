@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CollectionController;
 use App\Http\Controllers\PartnerController;
 use App\Http\Controllers\ProjectController;
 use Illuminate\Foundation\Application;
@@ -38,6 +39,7 @@ Route::group([
     Route::get('dashboard', fn () => inertia('Admin/Dashboard'))->name('dashboard');
     Route::resource('partners', PartnerController::class);
     Route::resource('projects', ProjectController::class);
+    Route::resource('collections', CollectionController::class);
 });
 
 require __DIR__.'/auth.php';
