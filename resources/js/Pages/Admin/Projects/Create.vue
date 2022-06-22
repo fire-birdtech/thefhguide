@@ -11,10 +11,10 @@ import { Listbox, ListboxButton, ListboxLabel, ListboxOption, ListboxOptions } f
 import { CheckIcon, SelectorIcon } from '@heroicons/vue/solid';
 
 const props = defineProps({
-    partners: Array,
+    projectables: Array,
 });
 
-const selected = ref(props.partners[0]);
+const selected = ref(props.projectables[0]);
 
 const project = useForm({
     name: "",
@@ -62,10 +62,10 @@ const submit = () => {
 
                                             <transition leave-active-class="transition ease-in duration-100" leave-from-class="opacity-100" leave-to-class="opacity-0">
                                                 <ListboxOptions class="absolute z-10 mt-1 w-full bg-white shadow-lg max-h-60 rounded-md py-1 text-base ring-1 ring-black ring-opacity-5 overflow-auto focus:outline-none sm:text-sm">
-                                                    <ListboxOption as="template" v-for="partner in partners" :key="partner.id" :value="partner" v-slot="{ active, selected }">
+                                                    <ListboxOption as="template" v-for="projectable in projectables" :key="projectable.id" :value="projectable" v-slot="{ active, selected }">
                                                         <li :class="[active ? 'text-white bg-indigo-600' : 'text-gray-900', 'cursor-default select-none relative py-2 pl-3 pr-9']">
                                                             <span :class="[selected ? 'font-semibold' : 'font-normal', 'block truncate']">
-                                                                {{ partner.name }}
+                                                                {{ projectable.name }}
                                                             </span>
 
                                                             <span v-if="selected" :class="[active ? 'text-white' : 'text-indigo-600', 'absolute inset-y-0 right-0 flex items-center pr-4']">

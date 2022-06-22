@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\ProjectRequest;
+use App\Models\Collection;
 use App\Models\Partner;
 use App\Models\Project;
 
@@ -27,8 +28,10 @@ class ProjectController extends Controller
      */
     public function create()
     {
+        $partners = Partner::orderBy('name', 'asc')->get();
+        $collections = Collection::orderBy('name', 'asc')->get();
         return inertia('Admin/Projects/Create', [
-            'partners' => Partner::orderBy('name', 'asc')->get(),
+            'projectables' => collect($partners)->merge($collections)->sortBy('name')->values()->all(),
         ]);
     }
 
@@ -67,8 +70,10 @@ class ProjectController extends Controller
      */
     public function edit(Project $project)
     {
+        $partners = Partner::orderBy('name', 'asc')->get();
+        $collections = Collection::orderBy('name', 'asc')->get();
         return inertia('Admin/Projects/Edit', [
-            'partners' => Partner::orderBy('name', 'asc')->get(),
+            'projectables' => collect($partners)->merge($collections)->sortBy('name')->values()->all(),
             'project' => $project->load('projectable'),
         ]);
     }
@@ -109,6 +114,9 @@ class ProjectController extends Controller
         return Partner::where([
             ['id', $projectable['id']],
             ['name', $projectable['name']]
-        ])->firstOrFail();
+        ])->first() ?? Collection::where([
+            ['id', $projectable['id']],
+            ['name', $projectable['name']]
+        ])->first();
     }
 }
