@@ -31,16 +31,12 @@ const submit = () => {
 
     <AdminLayout>
         <div class="w-full py-8 px-4 sm:px-6 lg:px-8">
-            <div class="bg-white py-6 rounded-md shadow">
+            <h3 class="text-lg leading-6 font-medium text-gray-900"> Create Project </h3>
+            <div class="mt-4 bg-white rounded-md shadow">
                 <form @submit.prevent="submit" class="space-y-6 divide-y divide-gray-200">
                     <div class="space-y-8 divide-y divide-gray-200 sm:space-y-5">
                         <div>
-                            <div class="px-6">
-                                <h3 class="text-lg leading-6 font-medium text-gray-900">Create a new Project</h3>
-                                <p class="mt-1 max-w-2xl text-sm text-gray-500">This information will be displayed publicly so be careful what you share.</p>
-                            </div>
-
-                            <div class="mt-6 space-y-6 sm:space-y-5">
+                            <div class="space-y-6 sm:space-y-5">
                                 <div class="px-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:items-start sm:border-t sm:border-gray-200 sm:pt-5">
                                     <BreezeLabel for="name" value="Project name" class="sm:mt-px sm:pt-2" />
                                     <div class="mt-1 sm:mt-0 sm:col-span-4">
@@ -81,7 +77,7 @@ const submit = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="px-6 pt-4">
+                    <div class="px-6 py-4">
                         <div class="flex justify-end">
                             <SecondaryButton :href="route('admin.projects.index')" as="link">Cancel</SecondaryButton>
                             <PrimaryButton type="submit" class="ml-3">Save</PrimaryButton>
