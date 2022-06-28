@@ -58,7 +58,7 @@ class ProjectController extends Controller
     public function show(Project $project)
     {
         return inertia('Admin/Projects/Show', [
-            'project' => $project->load('projectable'),
+            'project' => $project->load(['goals', 'projectable']),
         ]);
     }
 

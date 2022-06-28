@@ -4,11 +4,11 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Spatie\Sluggable\HasSlug;
 use Spatie\Sluggable\SlugOptions;
 
-class Project extends Model
+class Goal extends Model
 {
     use HasFactory, HasSlug;
 
@@ -34,13 +34,8 @@ class Project extends Model
 
     protected $guarded = ['id'];
 
-    public function projectable()
+    public function project(): BelongsTo
     {
-        return $this->morphTo();
-    }
-
-    public function goals(): HasMany
-    {
-        return $this->hasMany(Goal::class);
+        return $this->belongsTo(Project::class);
     }
 }

@@ -22,13 +22,16 @@
         "laravel-mix": "^6.0.6",
         "lodash": "^4.17.19",
         "postcss": "^8.4.6",
-        "tailwindcss": "^3.0.18",
+        "tailwindcss": "^3.1.4",
         "vue": "^3.2.31",
         "vue-loader": "^17.0.0",
         "webpack-node-externals": "^3.0.0"
     },
     "dependencies": {
-        "@headlessui/vue": "^1.6.4",
-        "@heroicons/vue": "^1.0.6"
+        "@headlessui/vue": "^1.6.5",
+        "@heroicons/vue": "^1.0.6",
+        "@tiptap/extension-link": "^2.0.0-beta.43",
+        "@tiptap/starter-kit": "^2.0.0-beta.190",
+        "@tiptap/vue-3": "^2.0.0-beta.96"
     }
 }

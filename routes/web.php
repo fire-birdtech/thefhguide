@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\CollectionController;
+use App\Http\Controllers\GoalController;
 use App\Http\Controllers\PartnerController;
 use App\Http\Controllers\ProjectController;
 use Illuminate\Foundation\Application;
@@ -40,6 +41,7 @@ Route::group([
     Route::resource('partners', PartnerController::class);
     Route::resource('projects', ProjectController::class);
     Route::resource('collections', CollectionController::class);
+    Route::resource('goals', GoalController::class)->except(['index']);
 });
 
 require __DIR__.'/auth.php';

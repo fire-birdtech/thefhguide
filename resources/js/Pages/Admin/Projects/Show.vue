@@ -3,10 +3,11 @@ import { ref } from 'vue';
 import AdminLayout from '@/Layouts/Admin';
 import { Head, Link } from '@inertiajs/inertia-vue3';
 import SecondaryButton from '@/Components/SecondaryButton';
-import { PencilAltIcon, TrashIcon } from '@heroicons/vue/outline';
+import { EyeIcon, PencilAltIcon, TrashIcon } from '@heroicons/vue/outline';
 import { Inertia } from '@inertiajs/inertia';
 import DeleteModal from '@/Components/DeleteModal';
 import { DialogTitle } from '@headlessui/vue';
+import PrimaryButton from '@/Components/PrimaryButton';
 
 const props = defineProps({
     project: Object,
@@ -55,6 +56,52 @@ const destroy = () => {
                         </dd>
                     </div>
                 </dl>
+            </div>
+            <div class="mt-12">
+                <div class="-ml-4 -mt-2 flex items-center justify-between flex-wrap sm:flex-nowrap">
+                    <div class="ml-4 mt-2">
+                        <h3 class="text-lg leading-6 font-medium text-gray-900"> Goals </h3>
+                    </div>
+                    <div class="ml-4 mt-2 space-x-2">
+                        <PrimaryButton :href="`${route('admin.goals.create')}?project=${project.id}`" as="link"> Add goal </PrimaryButton>
+                    </div>
+                </div>
+                <div class="mt-4 flex flex-col">
+                    <div class="-my-2 -mx-4 overflow-x-auto sm:-mx-6 lg:-mx-8">
+                        <div class="inline-block min-w-full py-2 align-middle md:px-6 lg:px-8">
+                            <div class="overflow-hidden shadow ring-1 ring-black ring-opacity-5 md:rounded-lg">
+                                <table class="min-w-full divide-y divide-gray-300">
+                                    <thead class="bg-gray-50">
+                                        <tr>
+                                            <th scope="col" class="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-6">Name</th>
+                                            <!-- <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Belongs to</th> -->
+                                            <th scope="col" class="relative py-3.5 pl-3 pr-4 sm:pr-6">
+                                                <span class="sr-only">Manage</span>
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="bg-white">
+                                        <tr v-for="(goal, goalIdx) in project.goals" :key="goal.id" :class="goalIdx % 2 === 0 ? undefined : 'bg-gray-50'">
+                                            <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-semibold text-gray-900 hover:text-gray-700 sm:pl-6">
+                                                <Link :href="route('admin.goals.show', [goal.slug])">{{ goal.name }}</Link>
+                                            </td>
+                                            <td class="flex justify-end whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium space-x-2 sm:pr-6">
+                                                <Link :href="route('admin.goals.show', [goal.slug])" class="text-indigo-600 hover:text-indigo-900">
+                                                    <EyeIcon class="h-6 w-6" />
+                                                    <span class="sr-only">View {{ goal.name }}</span>
+                                                </Link>
+                                                <Link :href="route('admin.goals.edit', [goal.slug])" class="text-indigo-600 hover:text-indigo-900">
+                                                    <PencilAltIcon class="h-6 w-6" />
+                                                    <span class="sr-only">Edit {{ goal.name }}</span>
+                                                </Link>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
