@@ -34,7 +34,7 @@ const editor = useEditor({
     },
     editorProps: {
         attributes: {
-            class: 'prose prose-sm sm:prose lg:prose-lg xl:prose-2xl text-sm p-3 h-44 border-gray-300 rounded-bl-md rounded-br-md focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 focus:outline-none',
+            class: 'prose prose-sm sm:prose lg:prose-lg xl:prose-2xl text-sm p-3 h-44 border-gray-300 rounded-bl-md rounded-br-md overflow-auto focus:outline-none',
         },
     },
 });
@@ -84,6 +84,6 @@ const setLink = () => {
                 unset link
             </EditorButton>
         </div>
-        <EditorContent class="prose overflow-auto" :editor="editor" />
+        <EditorContent class="focus:ring focus:ring-indigo-200 focus:ring-opacity-50 focus:outline-none" :editor="editor" />
     </div>
 </template>

@@ -1,0 +1,81 @@
+<script setup>
+import AdminLayout from '@/Layouts/Admin';
+import { Head } from '@inertiajs/inertia-vue3';
+import BreezeInput from '@/Components/Input';
+import BreezeInputError from '@/Components/InputError';
+import BreezeLabel from '@/Components/Label';
+import TextEditor from '@/Components/TextEditor';
+import PrimaryButton from '@/Components/PrimaryButton';
+import SecondaryButton from '@/Components/SecondaryButton';
+import { Inertia } from '@inertiajs/inertia';
+
+const props = defineProps({
+    choice: Object,
+});
+
+const submit = () => {
+    Inertia.put(route('admin.choices.update', [props.choice.id]), props.choice);
+}
+</script>
+
+<template>
+    <Head :title="`Admin - Edit ${choice.name}`" />
+
+    <AdminLayout>
+        <div class="w-full py-8 px-4 sm:px-6 lg:px-8">
+            <h3 class="text-lg leading-6 font-medium text-gray-900 mt-2"> Edit Choice: {{ choice.name }} </h3>
+            <div class="mt-4 bg-white shadow overflow-hidden sm:rounded-lg">
+                <form @submit.prevent="submit" class="sm:divide-y sm:divide-gray-200">
+                    <div class="px-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:items-start sm:border-t sm:border-gray-200 sm:py-4">
+                        <BreezeLabel for="name" value="Goal name" class="sm:mt-px sm:pt-2" />
+                        <div class="mt-1 sm:mt-0 sm:col-span-4">
+                            <BreezeInput type="text" v-model="choice.name" id="name" class="block w-full" />
+                            <BreezeInputError class="mt-1" :message="choice.errors?.name" />
+                        </div>
+                    </div>
+                    <div class="px-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:items-start sm:border-t sm:border-gray-200 sm:py-4">
+                        <BreezeLabel for="name" value="Summary" class="sm:mt-px sm:pt-2" />
+                        <div class="mt-1 sm:mt-0 sm:col-span-4">
+                            <TextEditor v-model="choice.summary" />
+                            <BreezeInputError class="mt-1" :message="choice.errors?.summary" />
+                        </div>
+                    </div>
+                    <div class="px-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:items-start sm:border-t sm:border-gray-200 sm:py-4">
+                        <BreezeLabel for="name" value="Instructions" class="sm:mt-px sm:pt-2" />
+                        <div class="mt-1 sm:mt-0 sm:col-span-4">
+                            <TextEditor v-model="choice.instructions" />
+                            <BreezeInputError class="mt-1" :message="choice.errors?.instructions" />
+                        </div>
+                    </div>
+                    <div class="px-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:items-start sm:border-t sm:border-gray-200 sm:py-4">
+                        <BreezeLabel for="name" value="Resources" class="sm:mt-px sm:pt-2" />
+                        <div class="mt-1 sm:mt-0 sm:col-span-4">
+                            <TextEditor v-model="choice.resources" />
+                            <BreezeInputError class="mt-1" :message="choice.errors?.resources" />
+                        </div>
+                    </div>
+                    <div class="px-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:items-start sm:border-t sm:border-gray-200 sm:py-4">
+                        <BreezeLabel for="name" value="Review" class="sm:mt-px sm:pt-2" />
+                        <div class="mt-1 sm:mt-0 sm:col-span-4">
+                            <TextEditor v-model="choice.review" />
+                            <BreezeInputError class="mt-1" :message="choice.errors?.review" />
+                        </div>
+                    </div>
+                    <div class="px-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:items-start sm:border-t sm:border-gray-200 sm:py-4">
+                        <BreezeLabel for="name" value="Exercises" class="sm:mt-px sm:pt-2" />
+                        <div class="mt-1 sm:mt-0 sm:col-span-4">
+                            <TextEditor v-model="choice.exercises" />
+                            <BreezeInputError class="mt-1" :message="choice.errors?.exercises" />
+                        </div>
+                    </div>
+                    <div class="px-6 py-4 sm:border-t sm:border-gray-200">
+                        <div class="flex justify-end">
+                            <SecondaryButton :href="route('admin.choices.show', [choice.id])" as="link">Cancel</SecondaryButton>
+                            <PrimaryButton type="submit" class="ml-3">Save</PrimaryButton>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </AdminLayout>
+</template>

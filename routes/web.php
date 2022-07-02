@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ChoiceController;
 use App\Http\Controllers\CollectionController;
 use App\Http\Controllers\GoalController;
 use App\Http\Controllers\PartnerController;
@@ -42,6 +43,7 @@ Route::group([
     Route::resource('projects', ProjectController::class);
     Route::resource('collections', CollectionController::class);
     Route::resource('goals', GoalController::class)->except(['index']);
+    Route::resource('choices', ChoiceController::class)->except(['index']);
 });
 
 require __DIR__.'/auth.php';

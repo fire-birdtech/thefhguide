@@ -53,7 +53,7 @@ class GoalController extends Controller
     public function show(Goal $goal)
     {
         return inertia('Admin/Goals/Show', [
-            'goal' => $goal->load('project'),
+            'goal' => $goal->load(['choices', 'project']),
         ]);
     }
 
