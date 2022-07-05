@@ -6,10 +6,11 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Spatie\Sluggable\HasSlug;
 use Spatie\Sluggable\SlugOptions;
+use Venturecraft\Revisionable\RevisionableTrait as HasRevisions;
 
 class Collection extends Model
 {
-    use HasFactory, HasSlug;
+    use HasFactory, HasRevisions, HasSlug;
 
     protected $guarded = ['id'];
 

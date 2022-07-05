@@ -7,10 +7,11 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Spatie\Sluggable\HasSlug;
 use Spatie\Sluggable\SlugOptions;
+use Venturecraft\Revisionable\RevisionableTrait as HasRevisions;
 
 class Project extends Model
 {
-    use HasFactory, HasSlug;
+    use HasFactory, HasRevisions, HasSlug;
 
     /**
      * Get the options for generating the slug.
