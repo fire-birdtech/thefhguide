@@ -19,7 +19,7 @@ const navigation = [
     { name: 'Collections', href: route('admin.collections.index'), components: [
         'Admin/Collections/Index','Admin/Collections/Create','Admin/Collections/Show','Admin/Collections/Edit'
     ] },
-    { name: 'Navigation', href: '#', components: [] },
+    // { name: 'Navigation', href: '#', components: [] },
 ];
 </script>
 
