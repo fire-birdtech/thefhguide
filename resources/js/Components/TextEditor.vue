@@ -2,7 +2,7 @@
 import { useEditor, EditorContent } from '@tiptap/vue-3';
 import Link from '@tiptap/extension-link';
 import StarterKit from '@tiptap/starter-kit';
-import { toRef, unref, watch } from 'vue';
+import { unref } from 'vue';
 import EditorButton from '@/Components/EditorButton';
 
 const props = defineProps({
@@ -13,14 +13,6 @@ const props = defineProps({
 });
 
 const emit = defineEmits(['update:modelValue']);
-
-// watch(toRef(props, "modelValue"), (value) => {
-//     unref(editor);
-//     if (editor.getHTML() === value) {
-//         return;
-//     }
-//     editor.commandManager.setContent(value, false);
-// });
 
 const editor = useEditor({
     content: props.modelValue,
@@ -34,7 +26,7 @@ const editor = useEditor({
     },
     editorProps: {
         attributes: {
-            class: 'prose prose-sm sm:prose lg:prose-lg xl:prose-2xl text-sm p-3 h-44 border-gray-300 rounded-bl-md rounded-br-md overflow-auto focus:outline-none',
+            class: 'prose prose-sm prose-a:text-blue-500 text-sm p-3 min-h-44 border-gray-300 rounded-bl-md rounded-br-md overflow-auto focus:outline-none',
         },
     },
 });
@@ -76,6 +68,9 @@ const setLink = () => {
             </EditorButton>
             <EditorButton @click="editor.chain().focus().toggleHeading({ level: 4 }).run()" :active="editor.isActive('heading', { level: 4 })">
                 h4
+            </EditorButton>
+            <EditorButton @click="editor.chain().focus().toggleOrderedList().run()" :class="{ 'is-active': editor.isActive('orderedList') }">
+                ordered list
             </EditorButton>
             <EditorButton @click="setLink" :active="editor.isActive('link')">
                 set link

@@ -9,17 +9,17 @@ import PrimaryButton from '@/Components/PrimaryButton';
 import SecondaryButton from '@/Components/SecondaryButton';
 
 const props = defineProps({
-    goal: Number,
+    goal: String,
 });
 
 const choice = useForm({
     name: '',
     goal_id: props.goal,
-    summary: '<p>This is a paragraph</p>',
-    instructions: '<p>This is a paragraph</p>',
-    resources: '<p>This is a paragraph</p>',
-    review: '<p>This is a paragraph</p>',
-    exercises: '<p>This is a paragraph</p>',
+    summary: '',
+    instructions: '',
+    resources: '',
+    review: '',
+    exercises: '',
 });
 
 const submit = () => {

@@ -15,7 +15,7 @@ const props = defineProps({
 const goal = useForm({
     name: '',
     project_id: props.project,
-    summary: '<p>This is a paragraph</p>',
+    summary: null,
     show_me_video_url: '',
 });
 

@@ -13,8 +13,11 @@ module.exports = {
             fontFamily: {
                 sans: ['Open Sans', ...defaultTheme.fontFamily.sans],
             },
+            minHeight: {
+                '44': '11rem',
+            },
         },
     },
 
-    plugins: [require('@tailwindcss/forms')],
+    plugins: [require('@tailwindcss/forms'), require('@tailwindcss/typography')],
 };

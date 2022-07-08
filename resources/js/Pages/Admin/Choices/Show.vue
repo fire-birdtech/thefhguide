@@ -44,29 +44,29 @@ const destroy = () => {
             </div>
             <div class="mt-4 bg-white shadow overflow-hidden sm:rounded-lg">
                 <dl class="sm:divide-y sm:divide-gray-200">
-                    <div class="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                    <div class="py-4 sm:py-5 sm:grid sm:grid-cols-4 sm:gap-4 sm:px-6">
                         <dt class="text-sm font-medium text-gray-500">Name</dt>
-                        <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2"> {{ choice.name }} </dd>
+                        <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-3"> {{ choice.name }} </dd>
                     </div>
-                    <div class="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                    <div class="py-4 sm:py-5 sm:grid sm:grid-cols-4 sm:gap-4 sm:px-6">
                         <dt class="text-sm font-medium text-gray-500">Summary</dt>
-                        <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2" v-html="choice.summary" />
+                        <dd class="mt-1 prose text-sm text-gray-900 sm:-my-4 sm:col-span-3" v-html="choice.summary" />
                     </div>
-                    <div class="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                    <div class="py-4 sm:py-5 sm:grid sm:grid-cols-4 sm:gap-4 sm:px-6">
                         <dt class="text-sm font-medium text-gray-500">Instructions</dt>
-                        <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2" v-html="choice.instructions" />
+                        <dd class="mt-1 prose text-sm text-gray-900 sm:-my-4 sm:col-span-3" v-html="choice.instructions" />
                     </div>
-                    <div class="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                    <div class="py-4 sm:py-5 sm:grid sm:grid-cols-4 sm:gap-4 sm:px-6">
                         <dt class="text-sm font-medium text-gray-500">Resources</dt>
-                        <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2" v-html="choice.resources" />
+                        <dd class="mt-1 prose text-sm text-gray-900 sm:-my-4 sm:col-span-3" v-html="choice.resources" />
                     </div>
-                    <div class="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                    <div class="py-4 sm:py-5 sm:grid sm:grid-cols-4 sm:gap-4 sm:px-6">
                         <dt class="text-sm font-medium text-gray-500">Review</dt>
-                        <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2" v-html="choice.review" />
+                        <dd class="mt-1 prose text-sm text-gray-900 sm:-my-4 sm:col-span-3" v-html="choice.review" />
                     </div>
-                    <div class="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                    <div class="py-4 sm:py-5 sm:grid sm:grid-cols-4 sm:gap-4 sm:px-6">
                         <dt class="text-sm font-medium text-gray-500">Exercises</dt>
-                        <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2" v-html="choice.exercises" />
+                        <dd class="mt-1 prose text-sm text-gray-900 sm:-my-4 sm:col-span-3" v-html="choice.exercises" />
                     </div>
                 </dl>
             </div>
