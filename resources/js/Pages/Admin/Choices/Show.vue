@@ -2,8 +2,9 @@
 import { ref } from 'vue';
 import AdminLayout from '@/Layouts/Admin';
 import { Head, Link } from '@inertiajs/inertia-vue3';
+import PrimaryButton from '@/Components/PrimaryButton';
 import SecondaryButton from '@/Components/SecondaryButton';
-import { EyeIcon, PencilAltIcon, TrashIcon } from '@heroicons/vue/outline';
+import { ClipboardListIcon, EyeIcon, PencilAltIcon, TrashIcon } from '@heroicons/vue/outline';
 import { Inertia } from '@inertiajs/inertia';
 import DeleteModal from '@/Components/DeleteModal';
 import { DialogTitle } from '@headlessui/vue';
@@ -32,14 +33,18 @@ const destroy = () => {
                     <h3 class="text-lg leading-6 font-medium text-gray-900"> Choice Details: {{ choice.name }} </h3>
                 </div>
                 <div class="ml-4 mt-2 space-x-2">
-                    <SecondaryButton @click="open = true">
+                    <SecondaryButton @click="open = true" title="Delete choice">
                         <TrashIcon class="h-5 w-5" aria-hidden="true" />
                         <span class="sr-only">Delete {{ choice.name }}</span>
                     </SecondaryButton>
-                    <SecondaryButton :href="route('admin.choices.edit', [choice.id])" as="link">
+                    <SecondaryButton :href="route('admin.choices.edit', [choice.id])" as="link" title="Edit choice">
                         <PencilAltIcon class="h-5 w-5" aria-hidden="true" />
                         <span class="sr-only">Edit {{ choice.name }}</span>
                     </SecondaryButton>
+                    <PrimaryButton :href="route('admin.goals.show', [choice.goal.slug])" as="link" title="Go to goal">
+                        <ClipboardListIcon class="h-5 w-5" aria-hidden="true" />
+                        <span class="sr-only">Go to project</span>
+                    </PrimaryButton>
                 </div>
             </div>
             <div class="mt-4 bg-white shadow overflow-hidden sm:rounded-lg">

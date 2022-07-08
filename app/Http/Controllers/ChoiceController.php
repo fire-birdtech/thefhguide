@@ -55,7 +55,7 @@ class ChoiceController extends Controller
     public function show(Choice $choice)
     {
         return inertia('Admin/Choices/Show', [
-            'choice' => $choice,
+            'choice' => $choice->load('goal'),
         ]);
     }
 
