@@ -50,21 +50,24 @@ const submit = () => {
                     <div class="px-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:items-start sm:border-t sm:border-gray-200 sm:py-4">
                         <BreezeLabel for="name" value="Resources" class="sm:mt-px sm:pt-2" />
                         <div class="mt-1 sm:mt-0 sm:col-span-4">
-                            <TextEditor v-model="choice.resources" />
+                            <TextEditor v-if="choice.resources" v-model="choice.resources" />
+                            <SecondaryButton @click.prevent="choice.resources = !choice.resources" v-else>Add resources</SecondaryButton>
                             <BreezeInputError class="mt-1" :message="choice.errors?.resources" />
                         </div>
                     </div>
                     <div class="px-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:items-start sm:border-t sm:border-gray-200 sm:py-4">
                         <BreezeLabel for="name" value="Review" class="sm:mt-px sm:pt-2" />
                         <div class="mt-1 sm:mt-0 sm:col-span-4">
-                            <TextEditor v-model="choice.review" />
+                            <TextEditor v-if="choice.review" v-model="choice.review" />
+                            <SecondaryButton @click.prevent="choice.review = !choice.review" v-else>Add review</SecondaryButton>
                             <BreezeInputError class="mt-1" :message="choice.errors?.review" />
                         </div>
                     </div>
                     <div class="px-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:items-start sm:border-t sm:border-gray-200 sm:py-4">
                         <BreezeLabel for="name" value="Exercises" class="sm:mt-px sm:pt-2" />
                         <div class="mt-1 sm:mt-0 sm:col-span-4">
-                            <TextEditor v-model="choice.exercises" />
+                            <TextEditor v-if="choice.exercises" v-model="choice.exercises" />
+                            <SecondaryButton @click.prevent="choice.exercises = !choice.exercises" v-else>Add exercises</SecondaryButton>
                             <BreezeInputError class="mt-1" :message="choice.errors?.exercises" />
                         </div>
                     </div>
