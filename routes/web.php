@@ -1,8 +1,10 @@
 <?php
 
+use App\Http\Controllers\AdminController;
 use App\Http\Controllers\ChoiceController;
 use App\Http\Controllers\CollectionController;
 use App\Http\Controllers\GoalController;
+use App\Http\Controllers\InvitationController;
 use App\Http\Controllers\PartnerController;
 use App\Http\Controllers\ProjectController;
 use Illuminate\Foundation\Application;
@@ -27,6 +29,12 @@ Route::get('/', function () {
         'laravelVersion' => Application::VERSION,
         'phpVersion' => PHP_VERSION,
     ]);
+})->name('home');
+
+Route::middleware('guest')->group(function () {
+    Route::get('invitations/accept', [InvitationController::class, 'accept'])->name('invitations.accept');
+    Route::post('invitations/accept', [InvitationController::class, 'process'])->name('invitations.accept');
+    Route::post('invitations/register', [InvitationController::class, 'register'])->name('invitations.register');
 });
 
 Route::get('/dashboard', function () {
@@ -44,6 +52,12 @@ Route::group([
     Route::resource('collections', CollectionController::class);
     Route::resource('goals', GoalController::class)->except(['index']);
     Route::resource('choices', ChoiceController::class)->except(['index']);
+    Route::resource('editors', AdminController::class);
+    Route::post('editors/invite', [AdminController::class, 'storeInvite'])->name('editors.invite');
+    Route::resource('invitations', InvitationController::class);
+    Route::post('invitations/resend', [InvitationController::class, 'resend'])->name('invitations.resend');
 });
+
+Route::get('expired', fn () => inertia('Errors/Expired'))->name('expired');
 
 require __DIR__.'/auth.php';
