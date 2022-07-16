@@ -81,6 +81,8 @@ class InvitationController extends Controller
             Auth::login($user);
         }
 
+        Invitation::destroy($request->id);
+
         return redirect(RouteServiceProvider::ADMINHOME);
     }
 
