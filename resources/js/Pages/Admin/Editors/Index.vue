@@ -54,7 +54,7 @@ const deleteInvitation = () => {
             <div class="sm:flex sm:items-center">
                 <div class="sm:flex-auto">
                     <h1 class="text-xl font-semibold text-gray-900">Editors</h1>
-                    <p class="mt-2 text-sm text-gray-700">A list of all the editors including their name and email.</p>
+                    <p class="mt-2 text-sm text-gray-700">A list of all the editors including their name, email, and type.</p>
                 </div>
                 <div class="mt-4 sm:mt-0 sm:ml-16 sm:flex-none">
                     <PrimaryButton :href="route('admin.editors.create')" as="link">Invite editor</PrimaryButton>
@@ -69,6 +69,7 @@ const deleteInvitation = () => {
                                     <tr>
                                         <th scope="col" class="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-6">Name</th>
                                         <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Email</th>
+                                        <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">User Type</th>
                                         <th scope="col" class="relative py-3.5 pl-3 pr-4 sm:pr-6">
                                             <span class="sr-only">Manage</span>
                                         </th>
@@ -80,6 +81,7 @@ const deleteInvitation = () => {
                                             <Link :href="route('admin.editors.show', [editor.id])">{{ editor.name }}</Link>
                                         </td>
                                         <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">{{ editor.email }}</td>
+                                        <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">{{ editor.type }}</td>
                                         <td class="flex justify-end whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium space-x-2 sm:pr-6">
                                             <Link :href="route('admin.editors.show', [editor.id])" class="text-indigo-600 hover:text-indigo-900">
                                                 <EyeIcon class="h-6 w-6" />
