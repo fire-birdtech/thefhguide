@@ -1,6 +1,6 @@
 <script setup>
 const navigation = [
-    { name: 'Dashboard', href: route('manager.dashboard'), components: ['Manager/Dashboard'] },
+    { name: 'Dashboard', href: route('editor.dashboard'), components: ['Editor/Dashboard'] },
 ];
 </script>
 
