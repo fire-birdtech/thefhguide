@@ -10,9 +10,12 @@ const navigation = [
             <div class="flex-1 flex flex-col min-h-0">
                 <div class="flex-1 flex flex-col py-8 overflow-y-auto">
                     <nav class="space-y-2 px-4" aria-label="Sidebar">
-                        <Link v-for="item in navigation" :key="item.name" :href="item.href" :class="[item.components.includes($page.component) ? 'bg-gray-200 text-gray-900 font-semibold' : 'text-gray-600 hover:bg-gray-200 hover:text-gray-900', 'flex items-center px-3 py-2 text-sm font-medium rounded-md']" :aria-current="item.current ? 'page' : undefined">
+                        <Link v-for="item in navigation" :key="item.name" :href="item.href" :class="[item.components.includes($page.component) ? 'bg-gray-200 text-gray-900 font-semibold' : 'text-gray-600 hover:bg-gray-200 hover:text-gray-900', 'group flex items-center px-3 py-2 text-sm font-medium rounded-md']" :aria-current="item.current ? 'page' : undefined">
                             <span class="truncate">
                                 {{ item.name }}
+                            </span>
+                            <span v-if="item.count" :class="[item.current ? 'bg-white' : 'bg-gray-100 text-gray-600 group-hover:bg-gray-200', 'ml-auto inline-block py-0.5 px-3 text-xs rounded-full']">
+                                {{ item.count }}
                             </span>
                         </Link>
                     </nav>
