@@ -7,6 +7,10 @@ import BreezeNavLink from '@/Components/NavLink.vue';
 import BreezeResponsiveNavLink from '@/Components/ResponsiveNavLink.vue';
 import { Link } from '@inertiajs/inertia-vue3';
 
+defineProps({
+    type: String,
+});
+
 const showingNavigationDropdown = ref(false);
 const navigation = [
     { name: 'Dashboard', href: route('admin.dashboard'), components: ['Admin/Dashboard'] },
@@ -33,9 +37,7 @@ const navigation = [
                         <div class="flex">
                             <!-- Logo -->
                             <div class="shrink-0 flex items-center">
-                                <Link :href="route('dashboard')">
-                                    <BreezeApplicationLogo class="block h-9 w-auto" />
-                                </Link>
+                                <BreezeApplicationLogo class="block h-9 w-auto" />
                             </div>
 
                             <!-- Navigation Links -->
