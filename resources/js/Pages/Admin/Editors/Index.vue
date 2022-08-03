@@ -49,7 +49,7 @@ const deleteInvitation = () => {
 <template>
     <Head title="Admin - Editors" />
 
-    <AdminLayout>
+    <AdminLayout type="admin">
         <div class="w-full py-8 px-4 sm:px-6 lg:px-8">
             <div class="sm:flex sm:items-center">
                 <div class="sm:flex-auto">

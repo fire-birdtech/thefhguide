@@ -25,7 +25,7 @@ const destroy = () => {
 <template>
     <Head :title="`Admin - ${collection.name}`" />
 
-    <AdminLayout>
+    <AdminLayout type="admin">
         <div class="w-full py-8 px-4 sm:px-6 lg:px-8">
             <div>
                 <div class="-ml-4 -mt-2 flex items-center justify-between flex-wrap sm:flex-nowrap">

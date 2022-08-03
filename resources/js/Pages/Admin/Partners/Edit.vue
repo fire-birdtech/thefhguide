@@ -20,7 +20,7 @@ const submit = () => {
 <template>
     <Head :title="`Admin - Edit ${partner.name}`" />
 
-    <AdminLayout>
+    <AdminLayout type="admin">
         <div class="w-full py-8 px-4 sm:px-6 lg:px-8">
             <h3 class="text-lg leading-6 font-medium text-gray-900 mt-2"> Edit Partner: {{ partner.name }} </h3>
             <div class="mt-4 bg-white shadow overflow-hidden sm:rounded-lg">
