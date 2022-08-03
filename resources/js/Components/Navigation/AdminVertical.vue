@@ -1,4 +1,6 @@
 <script setup>
+import { Link } from '@inertiajs/inertia-vue3';
+
 const navigation = [
     { name: 'Dashboard', href: route('admin.dashboard'), components: ['Admin/Dashboard'] },
     { name: 'Projects', href: route('admin.projects.index'), components: [
