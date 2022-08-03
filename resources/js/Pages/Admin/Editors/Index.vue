@@ -81,7 +81,9 @@ const deleteInvitation = () => {
                                             <Link :href="route('admin.editors.show', [editor.id])">{{ editor.name }}</Link>
                                         </td>
                                         <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">{{ editor.email }}</td>
-                                        <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">{{ editor.type }}</td>
+                                        <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
+                                            <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-indigo-100 text-indigo-800"> {{ editor.type }} </span>
+                                        </td>
                                         <td class="flex justify-end whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium space-x-2 sm:pr-6">
                                             <Link :href="route('admin.editors.show', [editor.id])" class="text-indigo-600 hover:text-indigo-900">
                                                 <EyeIcon class="h-6 w-6" />
