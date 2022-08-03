@@ -41,6 +41,8 @@ Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
+require __DIR__.'/editor.php';
+
 Route::group([
     'middleware' => ['auth', 'verified'],
     'prefix' => 'admin',
