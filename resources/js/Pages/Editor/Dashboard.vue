@@ -6,7 +6,7 @@ import { Head } from '@inertiajs/inertia-vue3';
 <template>
     <Head title="Editor Dashboard" />
 
-    <AdminLayout>
+    <AdminLayout type="editor">
         <div class="py-8">
             <div class="sm:px-6 lg:px-8">
                 <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
