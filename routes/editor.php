@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContentController;
 use Illuminate\Support\Facades\Route;
 
 Route::group([
@@ -8,4 +9,5 @@ Route::group([
     'as' => 'editor.'
 ], function () {
     Route::get('dashboard', fn () => inertia('Editor/Dashboard'))->name('dashboard');
+    Route::get('content', [ContentController::class, 'index'])->name('content.index');
 });
