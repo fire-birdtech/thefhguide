@@ -6,6 +6,7 @@ use App\Http\Requests\AdminInvitationRequest;
 use App\Mail\AdminInvitation;
 use App\Models\Admin;
 use App\Models\Invitation;
+use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 
@@ -32,6 +33,19 @@ class AdminController extends Controller
     public function create()
     {
         return inertia('Admin/Editors/Create');
+    }
+
+    /**
+     * Display the specified resource.
+     *
+     * @param  \App\Models\User  $user
+     * @return \Illuminate\Http\Response
+     */
+    public function show(User $user)
+    {
+        return inertia('Admin/Editors/Show', [
+            'user' => $user->load('roles'),
+        ]);
     }
 
     /**
