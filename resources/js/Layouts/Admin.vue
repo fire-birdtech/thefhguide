@@ -14,19 +14,6 @@ defineProps({
 });
 
 const showingNavigationDropdown = ref(false);
-const navigation = [
-    { name: 'Dashboard', href: route('admin.dashboard'), components: ['Admin/Dashboard'] },
-    { name: 'Projects', href: route('admin.projects.index'), components: [
-        'Admin/Projects/Index','Admin/Projects/Create','Admin/Projects/Show','Admin/Projects/Edit'
-    ]},
-    { name: 'Partners', href: route('admin.partners.index'), components: [
-        'Admin/Partners/Index','Admin/Partners/Create','Admin/Partners/Show','Admin/Partners/Edit'
-    ]},
-    { name: 'Collections', href: route('admin.collections.index'), components: [
-        'Admin/Collections/Index','Admin/Collections/Create','Admin/Collections/Show','Admin/Collections/Edit'
-    ] },
-    // { name: 'Navigation', href: '#', components: [] },
-];
 </script>
 
 <template>
