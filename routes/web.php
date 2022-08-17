@@ -54,7 +54,10 @@ Route::group([
     Route::resource('collections', CollectionController::class);
     Route::resource('goals', GoalController::class)->except(['index']);
     Route::resource('choices', ChoiceController::class)->except(['index']);
-    Route::resource('editors', AdminController::class);
+    Route::get('editors', [AdminController::class, 'index'])->name('editors.index');
+    Route::get('editors/create', [AdminController::class, 'create'])->name('editors.create');
+    Route::get('editors/show/{user}', [AdminController::class, 'show'])->name('editors.show');
+    Route::get('editors/edit/{user}', [AdminController::class, 'edit'])->name('editors.edit');
     Route::post('editors/invite', [AdminController::class, 'storeInvite'])->name('editors.invite');
     Route::resource('invitations', InvitationController::class);
     Route::post('invitations/resend', [InvitationController::class, 'resend'])->name('invitations.resend');
