@@ -13,7 +13,7 @@ const navigation = [
         'Admin/Collections/Index','Admin/Collections/Create','Admin/Collections/Show','Admin/Collections/Edit'
     ] },
     { name: 'Editors', href: route('admin.editors.index'), components: [
-        'Admin/Editors/Index','Admin/Editors/Create','Admin/Editors/Show'
+        'Admin/Editors/Index','Admin/Editors/Create','Admin/Editors/Show','Admin/Editors/Edit'
     ] },
 ];
 </script>
