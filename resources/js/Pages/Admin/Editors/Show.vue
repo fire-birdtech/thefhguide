@@ -1,6 +1,8 @@
 <script setup>
 import { Head } from '@inertiajs/inertia-vue3';
 import AdminLayout from '@/Layouts/Admin';
+import SecondaryButton from '@/Components/SecondaryButton';
+import { PencilAltIcon } from '@heroicons/vue/outline';
 
 const props = defineProps({
     user: Object,
@@ -16,6 +18,12 @@ const props = defineProps({
                 <div class="-ml-4 -mt-2 flex items-center justify-between flex-wrap sm:flex-nowrap">
                     <div class="ml-4 mt-2">
                         <h3 class="text-lg leading-6 font-medium text-gray-900"> Editor Details: {{ user.name }} </h3>
+                    </div>
+                    <div class="ml-4 mt-2 space-x-2">
+                        <SecondaryButton :href="route('admin.editors.edit', [user.id])" as="link" title="Edit user">
+                            <PencilAltIcon class="h-5 w-5" aria-hidden="true" />
+                            <span class="sr-only">Edit {{ user.name }}</span>
+                        </SecondaryButton>
                     </div>
                 </div>
                 <div class="mt-4 bg-white shadow overflow-hidden sm:rounded-lg">

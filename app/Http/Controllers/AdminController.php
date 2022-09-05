@@ -49,6 +49,19 @@ class AdminController extends Controller
     }
 
     /**
+     * Show the form for editing the specified resource.
+     *
+     * @param  \App\Models\Project  $project
+     * @return \Illuminate\Http\Response
+     */
+    public function edit(User $user)
+    {
+        return inertia('Admin/Editors/Edit', [
+            'user' => $user->load('roles'),
+        ]);
+    }
+
+    /**
      * Store a newly created invitation resource in storage.
      *
      * @param  \App\Http\Requests\AdminRequest  $request
