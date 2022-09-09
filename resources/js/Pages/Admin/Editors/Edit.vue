@@ -9,6 +9,7 @@ import PrimaryButton from '@/Components/PrimaryButton';
 import SecondaryButton from '@/Components/SecondaryButton';
 import { Listbox, ListboxButton, ListboxLabel, ListboxOption, ListboxOptions } from '@headlessui/vue';
 import { CheckIcon, SelectorIcon } from '@heroicons/vue/solid';
+import { Inertia } from '@inertiajs/inertia';
 
 const props = defineProps({
     user: Object,
@@ -20,10 +21,15 @@ const roles = [
 ];
 
 const findRole = () => {
-    return roles.find(role => role.name === props.user.roles[0]?.name) || { name: "No role" };
+    return roles.find(role => role.value === props.user.roles[0]?.name) || { name: "No role" };
 }
 
 const selected = ref(findRole());
+
+const submit = () => {
+    props.user.role = selected.value.value;
+    Inertia.put(route('admin.editors.update', [props.user.id]), props.user);
+}
 </script>
 
 <template>
@@ -49,7 +55,7 @@ const selected = ref(findRole());
                         </div>
                     </div>
                     <div class="px-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:items-start sm:border-t sm:border-gray-200 sm:py-4">
-                        <BreezeLabel for="name" value="Role and permissions" class="sm:mt-px sm:pt-2" />
+                        <BreezeLabel for="name" value="Role" class="sm:mt-px sm:pt-2" />
                         <div class="mt-1 sm:mt-0 sm:col-span-1">
                             <Listbox as="div" v-model="selected">
                                 <div class="relative">

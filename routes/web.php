@@ -58,6 +58,7 @@ Route::group([
     Route::get('editors/create', [AdminController::class, 'create'])->name('editors.create');
     Route::get('editors/show/{user}', [AdminController::class, 'show'])->name('editors.show');
     Route::get('editors/edit/{user}', [AdminController::class, 'edit'])->name('editors.edit');
+    Route::put('editors/edit/{user}', [AdminController::class, 'update'])->name('editors.update');
     Route::post('editors/invite', [AdminController::class, 'storeInvite'])->name('editors.invite');
     Route::resource('invitations', InvitationController::class);
     Route::post('invitations/resend', [InvitationController::class, 'resend'])->name('invitations.resend');

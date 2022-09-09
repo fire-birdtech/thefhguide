@@ -37,9 +37,9 @@ const props = defineProps({
                             <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2"> {{ user.email }} </dd>
                         </div>
                         <div class="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-                            <dt class="text-sm font-medium text-gray-500">Type</dt>
+                            <dt class="text-sm font-medium text-gray-500">Role</dt>
                             <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
-                                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-indigo-100 text-indigo-800"> {{ user.type }} </span>
+                                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-indigo-100 text-indigo-800"> {{ user.roles[0].name }} </span>
                             </dd>
                         </div>
                     </dl>

@@ -4,11 +4,11 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\AdminInvitationRequest;
 use App\Mail\AdminInvitation;
-use App\Models\Admin;
 use App\Models\Invitation;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
+use Spatie\Permission\Models\Role;
 
 class AdminController extends Controller
 {
@@ -20,7 +20,7 @@ class AdminController extends Controller
     public function index()
     {
         return inertia('Admin/Editors/Index', [
-            'editors' => Admin::all(),
+            'users' => User::role(['admin', 'editor'])->with('roles')->get(),
             'invitations' => Invitation::all(),
         ]);
     }
@@ -59,6 +59,23 @@ class AdminController extends Controller
         return inertia('Admin/Editors/Edit', [
             'user' => $user->load('roles'),
         ]);
+    }
+
+    /**
+     * Update the specified resource in storage.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @param  \App\Models\User  $user
+     * @return \Illuminate\Http\Response
+     */
+    public function update(Request $request, User $user)
+    {
+        // $user->update($request->validated());
+        // $user->save();
+
+        $user->assignRole($request->role);
+
+        return redirect()->route('admin.editors.show', [$user->id]);
     }
 
     /**

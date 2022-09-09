@@ -7,12 +7,13 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
-use Parental\HasChildren;
 use Spatie\Permission\Traits\HasRoles;
 
 class User extends Authenticatable
 {
-    use HasApiTokens, HasChildren, HasFactory, HasRoles, Notifiable;
+    use HasApiTokens, HasFactory, HasRoles, Notifiable;
+
+    protected $guard_name = 'web';
 
     /**
      * The attributes that are mass assignable.
@@ -46,11 +47,13 @@ class User extends Authenticatable
     ];
 
     /**
-     * The usable types for child models
+     * Scope a query to only include users with an admin or editor role
+     * 
+     * @param \Illuminate\Database\Eloquent\Builder  $query
+     * @return \Illuminate\Database\Eloquent\Builder
      */
-    protected $childTypes = [
-        'admin' => Admin::class,
-        'editor' => Editor::class,
-        'user' => User::class,
-    ];
+    public function scopeAdminEditor($query)
+    {
+        return $query->hasRole(['admin', 'editor']);
+    }
 }
