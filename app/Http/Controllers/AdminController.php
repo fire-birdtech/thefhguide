@@ -32,7 +32,9 @@ class AdminController extends Controller
      */
     public function create()
     {
-        return inertia('Admin/Editors/Create');
+        return inertia('Admin/Editors/Create', [
+            'roles' => Role::all(),
+        ]);
     }
 
     /**
@@ -76,20 +78,6 @@ class AdminController extends Controller
         $user->assignRole($request->role);
 
         return redirect()->route('admin.editors.show', [$user->id]);
-    }
-
-    /**
-     * Store a newly created invitation resource in storage.
-     *
-     * @param  \App\Http\Requests\AdminRequest  $request
-     * @return \Illuminate\Http\Response
-     */
-    public function storeInvite(AdminInvitationRequest $request)
-    {
-        $invitation = Invitation::create($request->validated());
-        $this->sendInvitationEmail($invitation);
-
-        return redirect()->route('admin.editors.index');
     }
 
     /**

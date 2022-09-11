@@ -2,11 +2,11 @@
 
 namespace Tests\Feature;
 
-use App\Http\Controllers\AdminController;
 use App\Mail\AdminInvitation;
 use App\Models\Invitation;
 use App\Models\User;
 use App\Providers\RouteServiceProvider;
+use Database\Seeders\RolesAndPermissionsSeeder;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Foundation\Testing\WithFaker;
 use Illuminate\Support\Facades\Mail;
@@ -17,12 +17,14 @@ class InvitationTest extends TestCase
     use RefreshDatabase, WithFaker;
 
     /**
-     * A test for inviting a new user  to be an admin.
+     * A test for inviting a new user to be an admin.
      *
      * @return void
      */
     public function test_admin_can_invite_new_user_to_be_admin()
     {
+        $this->seed(RolesAndPermissionsSeeder::class);
+
         Mail::fake();
 
         $email = $this->faker->email();
@@ -31,6 +33,7 @@ class InvitationTest extends TestCase
         $invitation = Invitation::create([
             'email' => $email,
             'name' =>  $name,
+            'role' => 'admin'
         ]);
 
         Mail::to($invitation->email)->send(new AdminInvitation($invitation));
@@ -41,6 +44,7 @@ class InvitationTest extends TestCase
             'name' => $name,
             'email' => $email,
             'id' => $invitation->id,
+            'role' => $invitation->role,
             'password' => 'password',
             'password_confirmation' => 'password',
         ]);
@@ -59,6 +63,8 @@ class InvitationTest extends TestCase
      */
     public function test_admin_can_invite_existing_user_to_be_admin()
     {
+        $this->seed(RolesAndPermissionsSeeder::class);
+        
         Mail::fake();
 
         $user = User::factory()->create();
@@ -66,6 +72,7 @@ class InvitationTest extends TestCase
         $invitation = Invitation::create([
             'email' => $user->email,
             'name' => $user->name,
+            'role' => 'admin',
         ]);
 
         Mail::to($invitation->email)->send(new AdminInvitation($invitation));
@@ -75,6 +82,7 @@ class InvitationTest extends TestCase
         $response = $this->post(route('invitations.accept'), [
             'email' => $user->email,
             'id' => $invitation->id,
+            'role' => $invitation->role,
         ]);
 
         $this->assertAuthenticated();

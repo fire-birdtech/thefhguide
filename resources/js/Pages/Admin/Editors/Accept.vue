@@ -14,12 +14,14 @@ const registerForm = useForm({
     name: props.invitation.name,
     email: props.invitation.email,
     id: props.invitation.id,
+    role: props.invitation.role,
     password: '',
     password_confirmation: '',
 });
 
 const acceptForm = useForm({
     email: props.invitation.email,
+    role: props.invitation.role,
     id: props.invitation.id,
 });
 

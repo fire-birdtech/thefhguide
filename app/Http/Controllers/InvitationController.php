@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\AdminInvitationRequest;
 use App\Http\Requests\InvitationRegisterRequest;
 use App\Mail\AdminInvitation;
-use App\Models\Admin;
 use App\Models\Invitation;
 use App\Models\User;
 use App\Providers\RouteServiceProvider;
@@ -16,6 +16,20 @@ use Illuminate\Support\Facades\Mail;
 
 class InvitationController extends Controller
 {
+    /**
+     * Store a newly created invitation resource in storage.
+     *
+     * @param  \App\Http\Requests\AdminRequest  $request
+     * @return \Illuminate\Http\Response
+     */
+    public function store(AdminInvitationRequest $request)
+    {
+        $invitation = Invitation::create($request->validated());
+        $this->sendInvitationEmail($invitation);
+
+        return redirect()->route('admin.editors.index');
+    }
+
     /**
      * Remove the specified resource from storage.
      *
@@ -56,11 +70,13 @@ class InvitationController extends Controller
 
     public function register(InvitationRegisterRequest $request)
     {
-        $user = Admin::create([
+        $user = User::create([
             'name' => $request->name,
             'email' => $request->email,
             'password' => Hash::make($request->password),
         ]);
+
+        $user->assignRole($request->role);
 
         event(new Registered($user));
 
@@ -74,8 +90,7 @@ class InvitationController extends Controller
     public function process(Request $request)
     {
         $user = User::where('email', $request->email)->first();
-        $user->type = 'admin';
-        $user->save();
+        $user->assignRole($request->role);
 
         if (!Auth::check()) {
             Auth::login($user);
