@@ -17,7 +17,7 @@ defineProps({
             <div class="sm:flex sm:items-center">
                 <div class="sm:flex-auto">
                     <h1 class="text-xl font-semibold text-gray-900">Projects</h1>
-                    <p class="mt-2 text-sm text-gray-700">A list of all the projects including their name and which partner or collection they belong to.</p>
+                    <p class="mt-2 text-sm text-gray-700">A list of all the projects including their name and which collection they belong to.</p>
                 </div>
                 <div class="mt-4 sm:mt-0 sm:ml-16 sm:flex-none">
                     <PrimaryButton :href="route('admin.projects.create')" as="link">Add project</PrimaryButton>

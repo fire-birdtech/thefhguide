@@ -33,7 +33,7 @@ const submit = () => {
                     </div>
                     <div class="px-6 py-4 sm:border-t sm:border-gray-200">
                         <div class="flex justify-end">
-                            <SecondaryButton :href="route('admin.partners.index')" as="link">Cancel</SecondaryButton>
+                            <SecondaryButton :href="route('admin.collections.index')" as="link">Cancel</SecondaryButton>
                             <PrimaryButton type="submit" class="ml-3">Save</PrimaryButton>
                         </div>
                     </div>
