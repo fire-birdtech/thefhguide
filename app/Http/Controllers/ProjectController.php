@@ -15,7 +15,7 @@ class ProjectController extends Controller
      */
     public function index()
     {
-        return inertia('Admin/Projects/Index', [
+        return inertia('Editor/Content/Projects/Index', [
             'projects' => Project::orderBy('updated_at', 'desc')->with('projectable')->get(),
         ]);
     }
@@ -28,7 +28,7 @@ class ProjectController extends Controller
     public function create()
     {
         $collections = Collection::orderBy('name', 'asc')->get();
-        return inertia('Admin/Projects/Create', [
+        return inertia('Editor/Content/Projects/Create', [
             'projectables' => collect($collections)->sortBy('name')->values()->all(),
         ]);
     }
@@ -44,7 +44,7 @@ class ProjectController extends Controller
         $projectable = $this->findProjectable($request->projectable);
         $projectable->projects()->save(new Project($request->validated()));
 
-        return redirect()->route('admin.projects.index');
+        return redirect()->route('editor.projects.index');
     }
 
     /**
@@ -55,7 +55,7 @@ class ProjectController extends Controller
      */
     public function show(Project $project)
     {
-        return inertia('Admin/Projects/Show', [
+        return inertia('Editor/Content/Projects/Show', [
             'project' => $project->load(['goals', 'projectable']),
         ]);
     }
@@ -69,7 +69,7 @@ class ProjectController extends Controller
     public function edit(Project $project)
     {
         $collections = Collection::orderBy('name', 'asc')->get();
-        return inertia('Admin/Projects/Edit', [
+        return inertia('Editor/Content/Projects/Edit', [
             'projectables' => collect($collections)->sortBy('name')->values()->all(),
             'project' => $project->load('projectable'),
         ]);
@@ -90,7 +90,7 @@ class ProjectController extends Controller
         $projectable = $this->findProjectable($request->projectable);
         $projectable->projects()->save($project);
 
-        return redirect()->route('admin.projects.show', [$project->slug]);
+        return redirect()->route('editor.projects.show', [$project->slug]);
     }
 
     /**
@@ -103,7 +103,7 @@ class ProjectController extends Controller
     {
         $project->delete();
 
-        return redirect()->route('admin.projects.index');
+        return redirect()->route('editor.projects.index');
     }
 
     public function findProjectable($projectable)
