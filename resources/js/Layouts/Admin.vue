@@ -10,7 +10,10 @@ import AdminNav from '@/Components/Navigation/AdminVertical.vue';
 import EditorNav from '@/Components/Navigation/EditorVertical.vue';
 
 defineProps({
-    type: String,
+    type: {
+        type: String,
+        default: 'editor',
+    }
 });
 
 const showingNavigationDropdown = ref(false);

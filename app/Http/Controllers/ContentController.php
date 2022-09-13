@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Collection;
 use Illuminate\Http\Request;
 
 class ContentController extends Controller
@@ -13,6 +14,8 @@ class ContentController extends Controller
      */
     public function index()
     {
-        return inertia('Editor/Content/Index');
+        return inertia('Editor/Content/Index', [
+            'collections' => Collection::all()
+        ]);
     }
 }
