@@ -2,7 +2,6 @@
 
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\ChoiceController;
-use App\Http\Controllers\CollectionController;
 use App\Http\Controllers\ContentController;
 use App\Http\Controllers\GoalController;
 use App\Http\Controllers\InvitationController;
@@ -51,7 +50,6 @@ Route::group([
     Route::get('dashboard', fn () => inertia('Admin/Dashboard'))->name('dashboard');
     Route::get('content', [ContentController::class, 'index'])->name('content.index');  
     Route::resource('projects', ProjectController::class);
-    Route::resource('collections', CollectionController::class);
     Route::resource('goals', GoalController::class)->except(['index']);
     Route::resource('choices', ChoiceController::class)->except(['index']);
     Route::get('editors', [AdminController::class, 'index'])->name('editors.index');

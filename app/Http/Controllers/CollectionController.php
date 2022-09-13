@@ -15,7 +15,7 @@ class CollectionController extends Controller
      */
     public function index()
     {
-        return inertia('Admin/Collections/Index', [
+        return inertia('Editor/Content/Collections/Index', [
             'collections' => Collection::all(),
         ]);
     }
@@ -27,7 +27,7 @@ class CollectionController extends Controller
      */
     public function create()
     {
-        return inertia('Admin/Collections/Create');
+        return inertia('Editor/Content/Collections/Create');
     }
 
     /**
@@ -40,7 +40,7 @@ class CollectionController extends Controller
     {
         Collection::create($request->validated());
 
-        return redirect()->route('admin.collections.index');
+        return redirect()->route('editor.collections.index');
     }
 
     /**
@@ -51,7 +51,7 @@ class CollectionController extends Controller
      */
     public function show(Collection $collection)
     {
-        return inertia('Admin/Collections/Show', [
+        return inertia('Editor/Content/Collections/Show', [
             'collection' =>  $collection->load('projects'),
         ]);
     }
@@ -64,7 +64,7 @@ class CollectionController extends Controller
      */
     public function edit(Collection $collection)
     {
-        return inertia('Admin/Collections/Edit', [
+        return inertia('Editor/Content/Collections/Edit', [
             'collection' => $collection,
         ]);
     }
@@ -81,7 +81,7 @@ class CollectionController extends Controller
         $collection->name = $request['name'];
         $collection->save();
 
-        return redirect()->route('admin.collections.show', [$collection->slug]);
+        return redirect()->route('editor.collections.show', [$collection->slug]);
     }
 
     /**
@@ -94,6 +94,6 @@ class CollectionController extends Controller
     {
         $collection->delete();
 
-        return redirect()->route('admin.collections.index');
+        return redirect()->route('editor.collections.index');
     }
 }
