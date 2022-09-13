@@ -26,7 +26,7 @@ class ChoiceController extends Controller
      */
     public function create(Request $request)
     {
-        return inertia('Admin/Choices/Create', [
+        return inertia('Editor/Content/Choices/Create', [
             'goal' =>  $request->goal,
         ]);
     }
@@ -43,7 +43,7 @@ class ChoiceController extends Controller
 
         Choice::create($request->validated());
 
-        return redirect()->route('admin.goals.show', [$goal->slug]);
+        return redirect()->route('editor.goals.show', [$goal->slug]);
     }
 
     /**
@@ -54,7 +54,7 @@ class ChoiceController extends Controller
      */
     public function show(Choice $choice)
     {
-        return inertia('Admin/Choices/Show', [
+        return inertia('Editor/Content/Choices/Show', [
             'choice' => $choice->load('goal'),
         ]);
     }
@@ -67,7 +67,7 @@ class ChoiceController extends Controller
      */
     public function edit(Choice $choice)
     {
-        return inertia('Admin/Choices/Edit', [
+        return inertia('Editor/Content/Choices/Edit', [
             'choice' => $choice,
         ]);
     }
@@ -89,7 +89,7 @@ class ChoiceController extends Controller
         $choice->exercises = $request->exercises;
         $choice->save();
 
-        return redirect()->route('admin.choices.show', [$choice->id]);
+        return redirect()->route('editor.choices.show', [$choice->id]);
     }
 
     /**
@@ -104,6 +104,6 @@ class ChoiceController extends Controller
 
         $choice->delete();
 
-        return redirect()->route('admin.goals.show', [$goal->slug]);
+        return redirect()->route('editor.goals.show', [$goal->slug]);
     }
 }
