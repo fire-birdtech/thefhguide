@@ -26,7 +26,7 @@ class GoalController extends Controller
      */
     public function create(Request $request)
     {
-        return inertia('Admin/Goals/Create', [
+        return inertia('Editor/Content/Goals/Create', [
             'project' => $request->project,
         ]);
     }
@@ -41,7 +41,7 @@ class GoalController extends Controller
     {
         $goal = Goal::create($request->validated());
 
-        return redirect()->route('admin.goals.show', [$goal->slug]);
+        return redirect()->route('editor.goals.show', [$goal->slug]);
     }
 
     /**
@@ -52,7 +52,7 @@ class GoalController extends Controller
      */
     public function show(Goal $goal)
     {
-        return inertia('Admin/Goals/Show', [
+        return inertia('Editor/Content/Goals/Show', [
             'goal' => $goal->load(['choices', 'project']),
         ]);
     }
@@ -65,7 +65,7 @@ class GoalController extends Controller
      */
     public function edit(Goal $goal)
     {
-        return inertia('Admin/Goals/Edit', [
+        return inertia('Editor/Content/Goals/Edit', [
             'goal' => $goal,
         ]);
     }
@@ -84,7 +84,7 @@ class GoalController extends Controller
         $goal->show_me_video_url = $request->show_me_video_url;
         $goal->save();
 
-        return redirect()->route('admin.goals.show', [$goal->slug]);
+        return redirect()->route('editor.goals.show', [$goal->slug]);
     }
 
     /**
@@ -99,6 +99,6 @@ class GoalController extends Controller
 
         $goal->delete();
 
-        return redirect()->route('admin.projects.show', [$project->slug]);
+        return redirect()->route('editor.projects.show', [$project->slug]);
     }
 }

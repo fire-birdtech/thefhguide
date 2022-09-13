@@ -3,7 +3,6 @@
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\ChoiceController;
 use App\Http\Controllers\ContentController;
-use App\Http\Controllers\GoalController;
 use App\Http\Controllers\InvitationController;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
@@ -48,7 +47,6 @@ Route::group([
 ], function () {
     Route::get('dashboard', fn () => inertia('Admin/Dashboard'))->name('dashboard');
     Route::get('content', [ContentController::class, 'index'])->name('content.index');  
-    Route::resource('goals', GoalController::class)->except(['index']);
     Route::resource('choices', ChoiceController::class)->except(['index']);
     Route::get('editors', [AdminController::class, 'index'])->name('editors.index');
     Route::get('editors/create', [AdminController::class, 'create'])->name('editors.create');

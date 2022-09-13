@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\CollectionController;
 use App\Http\Controllers\ContentController;
+use App\Http\Controllers\GoalController;
 use App\Http\Controllers\ProjectController;
 use Illuminate\Support\Facades\Route;
 
@@ -14,4 +15,5 @@ Route::group([
     Route::get('content', [ContentController::class, 'index'])->name('content.index');
     Route::resource('collections', CollectionController::class);
     Route::resource('projects', ProjectController::class);
+    Route::resource('goals', GoalController::class)->except(['index']);
 });
