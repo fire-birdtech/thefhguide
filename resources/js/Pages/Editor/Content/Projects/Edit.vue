@@ -23,7 +23,7 @@ const selected = ref(props.projectables[
 ]);
 
 const submit = () => {
-    Inertia.put(route('admin.projects.update', [props.project.slug]), props.project);
+    Inertia.put(route('editor.projects.update', [props.project.slug]), props.project);
 }
 
 watch(selected, (newSelected, oldSelected) => {
@@ -77,7 +77,7 @@ watch(selected, (newSelected, oldSelected) => {
                     </div>
                     <div class="px-6 py-4 mt-4 sm:border-t sm:border-gray-200">
                         <div class="flex justify-end">
-                            <SecondaryButton :href="route('admin.projects.show', [project.slug])" as="link">Cancel</SecondaryButton>
+                            <SecondaryButton :href="route('editor.projects.show', [project.slug])" as="link">Cancel</SecondaryButton>
                             <PrimaryButton type="submit" class="ml-3">Save</PrimaryButton>
                         </div>
                     </div>

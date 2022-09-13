@@ -19,7 +19,7 @@ const close = () => {
     open.value = false;
 }
 const destroy = () => {
-    Inertia.delete(route('admin.choices.destroy', [props.choice.id]));
+    Inertia.delete(route('editor.choices.destroy', [props.choice.id]));
 }
 </script>
 
@@ -37,11 +37,11 @@ const destroy = () => {
                         <TrashIcon class="h-5 w-5" aria-hidden="true" />
                         <span class="sr-only">Delete {{ choice.name }}</span>
                     </SecondaryButton>
-                    <SecondaryButton :href="route('admin.choices.edit', [choice.id])" as="link" title="Edit choice">
+                    <SecondaryButton :href="route('editor.choices.edit', [choice.id])" as="link" title="Edit choice">
                         <PencilAltIcon class="h-5 w-5" aria-hidden="true" />
                         <span class="sr-only">Edit {{ choice.name }}</span>
                     </SecondaryButton>
-                    <PrimaryButton :href="route('admin.goals.show', [choice.goal.slug])" as="link" title="Go to goal">
+                    <PrimaryButton :href="route('editor.goals.show', [choice.goal.slug])" as="link" title="Go to goal">
                         <ClipboardListIcon class="h-5 w-5" aria-hidden="true" />
                         <span class="sr-only">Go to project</span>
                     </PrimaryButton>

@@ -19,7 +19,7 @@ const close = () => {
     open.value = false;
 }
 const destroy = () => {
-    Inertia.delete(route('admin.goals.destroy', [props.goal.slug]));
+    Inertia.delete(route('editor.goals.destroy', [props.goal.slug]));
 }
 </script>
 
@@ -38,11 +38,11 @@ const destroy = () => {
                             <TrashIcon class="h-5 w-5" aria-hidden="true" />
                             <span class="sr-only">Delete {{ goal.name }}</span>
                         </SecondaryButton>
-                        <SecondaryButton :href="route('admin.goals.edit', [goal.slug])" as="link" title="Edit goal">
+                        <SecondaryButton :href="route('editor.goals.edit', [goal.slug])" as="link" title="Edit goal">
                             <PencilAltIcon class="h-5 w-5" aria-hidden="true" />
                             <span class="sr-only">Edit {{ goal.name }}</span>
                         </SecondaryButton>
-                        <PrimaryButton :href="route('admin.projects.show', [goal.project.slug])" as="link" title="Go to project">
+                        <PrimaryButton :href="route('editor.projects.show', [goal.project.slug])" as="link" title="Go to project">
                             <ClipboardListIcon class="h-5 w-5" aria-hidden="true" />
                             <span class="sr-only">Go to project</span>
                         </PrimaryButton>
@@ -70,7 +70,7 @@ const destroy = () => {
                             <h3 class="text-lg leading-6 font-medium text-gray-900"> Choices </h3>
                         </div>
                         <div class="ml-4 mt-2 space-x-2">
-                            <PrimaryButton :href="`${route('admin.choices.create')}?goal=${goal.id}`" as="link"> Add choice </PrimaryButton>
+                            <PrimaryButton :href="`${route('editor.choices.create')}?goal=${goal.id}`" as="link"> Add choice </PrimaryButton>
                         </div>
                     </div>
                     <div class="mt-4 flex flex-col">
@@ -89,14 +89,14 @@ const destroy = () => {
                                         <tbody class="bg-white">
                                             <tr v-for="(choice, choiceIdx) in goal.choices" :key="choice.id" :class="choiceIdx % 2 === 0 ? undefined : 'bg-gray-50'">
                                                 <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-semibold text-gray-900 hover:text-gray-700 sm:pl-6">
-                                                    <Link :href="route('admin.choices.show', [choice.id])">{{ choice.name }}</Link>
+                                                    <Link :href="route('editor.choices.show', [choice.id])">{{ choice.name }}</Link>
                                                 </td>
                                                 <td class="flex justify-end whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium space-x-2 sm:pr-6">
-                                                    <Link :href="route('admin.choices.show', [choice.id])" class="text-indigo-600 hover:text-indigo-900">
+                                                    <Link :href="route('editor.choices.show', [choice.id])" class="text-indigo-600 hover:text-indigo-900">
                                                         <EyeIcon class="h-6 w-6" />
                                                         <span class="sr-only">View {{ choice.name }}</span>
                                                     </Link>
-                                                    <Link :href="route('admin.choices.edit', [choice.id])" class="text-indigo-600 hover:text-indigo-900">
+                                                    <Link :href="route('editor.choices.edit', [choice.id])" class="text-indigo-600 hover:text-indigo-900">
                                                         <PencilAltIcon class="h-6 w-6" />
                                                         <span class="sr-only">Edit {{ choice.name }}</span>
                                                     </Link>

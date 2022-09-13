@@ -23,7 +23,7 @@ const choice = useForm({
 });
 
 const submit = () => {
-    choice.post(route('admin.choices.store'));
+    choice.post(route('editor.choices.store'));
 }
 </script>
 
@@ -85,7 +85,7 @@ const submit = () => {
                     </div>
                     <div class="px-6 py-4">
                         <div class="flex justify-end">
-                            <SecondaryButton :href="route('admin.projects.index')" as="link">Cancel</SecondaryButton>
+                            <SecondaryButton :href="route('editor.projects.index')" as="link">Cancel</SecondaryButton>
                             <PrimaryButton type="submit" class="ml-3">Save</PrimaryButton>
                         </div>
                     </div>

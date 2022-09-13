@@ -14,7 +14,7 @@ const props = defineProps({
 });
 
 const submit = () => {
-    Inertia.put(route('admin.choices.update', [props.choice.id]), props.choice);
+    Inertia.put(route('editor.choices.update', [props.choice.id]), props.choice);
 }
 </script>
 
@@ -73,7 +73,7 @@ const submit = () => {
                     </div>
                     <div class="px-6 py-4 sm:border-t sm:border-gray-200">
                         <div class="flex justify-end">
-                            <SecondaryButton :href="route('admin.choices.show', [choice.id])" as="link">Cancel</SecondaryButton>
+                            <SecondaryButton :href="route('editor.choices.show', [choice.id])" as="link">Cancel</SecondaryButton>
                             <PrimaryButton type="submit" class="ml-3">Save</PrimaryButton>
                         </div>
                     </div>

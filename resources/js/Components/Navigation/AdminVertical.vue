@@ -3,10 +3,10 @@ import { Link } from '@inertiajs/inertia-vue3';
 
 const navigation = [
     { name: 'Dashboard', href: route('admin.dashboard'), components: ['Admin/Dashboard'] },
-    { name: 'Projects', href: route('admin.projects.index'), components: [
+    { name: 'Projects', href: route('editor.projects.index'), components: [
         'Admin/Projects/Index','Admin/Projects/Create','Admin/Projects/Show','Admin/Projects/Edit'
     ]},
-    { name: 'Collections', href: route('admin.collections.index'), components: [
+    { name: 'Collections', href: route('editor.collections.index'), components: [
         'Admin/Collections/Index','Admin/Collections/Create','Admin/Collections/Show','Admin/Collections/Edit'
     ] },
     { name: 'Editors', href: route('admin.editors.index'), components: [

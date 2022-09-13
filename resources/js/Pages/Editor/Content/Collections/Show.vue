@@ -18,7 +18,7 @@ const close = () => {
     open.value = false;
 }
 const destroy = () => {
-    Inertia.delete(route('admin.collections.destroy', [props.collection.slug]));
+    Inertia.delete(route('editor.collections.destroy', [props.collection.slug]));
 }
 </script>
 
@@ -37,7 +37,7 @@ const destroy = () => {
                             <TrashIcon class="h-5 w-5" aria-hidden="true" />
                             <span class="sr-only">Delete {{ collection.name }}</span>
                         </SecondaryButton>
-                        <SecondaryButton :href="route('admin.collections.edit', [collection.slug])" as="link">
+                        <SecondaryButton :href="route('editor.collections.edit', [collection.slug])" as="link">
                             <PencilAltIcon class="h-5 w-5" aria-hidden="true" />
                             <span class="sr-only">Edit {{ collection.name }}</span>
                         </SecondaryButton>
@@ -75,14 +75,14 @@ const destroy = () => {
                                     <tbody class="bg-white">
                                         <tr v-for="(project, projectIdx) in collection.projects" :key="project.id" :class="projectIdx % 2 === 0 ? undefined : 'bg-gray-50'">
                                             <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-semibold text-gray-900 hover:text-gray-700 sm:pl-6">
-                                                <Link :href="route('admin.projects.show', [project.slug])">{{ project.name }}</Link>
+                                                <Link :href="route('editor.projects.show', [project.slug])">{{ project.name }}</Link>
                                             </td>
                                             <td class="flex justify-end whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium space-x-2 sm:pr-6">
-                                                <Link :href="route('admin.projects.show', [project.slug])" class="text-indigo-600 hover:text-indigo-900">
+                                                <Link :href="route('editor.projects.show', [project.slug])" class="text-indigo-600 hover:text-indigo-900">
                                                     <EyeIcon class="h-6 w-6" />
                                                     <span class="sr-only">View {{ project.name }}</span>
                                                 </Link>
-                                                <Link :href="route('admin.projects.edit', [project.slug])" class="text-indigo-600 hover:text-indigo-900">
+                                                <Link :href="route('editor.projects.edit', [project.slug])" class="text-indigo-600 hover:text-indigo-900">
                                                     <PencilAltIcon class="h-6 w-6" />
                                                     <span class="sr-only">Edit {{ project.name }}</span>
                                                 </Link>

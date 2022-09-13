@@ -14,7 +14,7 @@ const props = defineProps({
 });
 
 const submit = () => {
-    Inertia.put(route('admin.goals.update', [props.goal.slug]), props.goal);
+    Inertia.put(route('editor.goals.update', [props.goal.slug]), props.goal);
 }
 </script>
 
@@ -49,7 +49,7 @@ const submit = () => {
                     </div>
                     <div class="px-6 py-4 sm:border-t sm:border-gray-200">
                         <div class="flex justify-end">
-                            <SecondaryButton :href="route('admin.goals.show', [goal.slug])" as="link">Cancel</SecondaryButton>
+                            <SecondaryButton :href="route('editor.goals.show', [goal.slug])" as="link">Cancel</SecondaryButton>
                             <PrimaryButton type="submit" class="ml-3">Save</PrimaryButton>
                         </div>
                     </div>

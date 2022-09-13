@@ -20,7 +20,7 @@ const goal = useForm({
 });
 
 const submit = () => {
-    goal.post(route('admin.goals.store'));
+    goal.post(route('editor.goals.store'));
 }
 </script>
 
@@ -61,7 +61,7 @@ const submit = () => {
                     </div>
                     <div class="px-6 py-4">
                         <div class="flex justify-end">
-                            <SecondaryButton :href="route('admin.projects.index')" as="link">Cancel</SecondaryButton>
+                            <SecondaryButton :href="route('editor.projects.index')" as="link">Cancel</SecondaryButton>
                             <PrimaryButton type="submit" class="ml-3">Save</PrimaryButton>
                         </div>
                     </div>

@@ -19,7 +19,7 @@ const close = () => {
     open.value = false;
 }
 const destroy = () => {
-    Inertia.delete(route('admin.projects.destroy', [props.project.slug]));
+    Inertia.delete(route('editor.projects.destroy', [props.project.slug]));
 }
 </script>
 
@@ -37,7 +37,7 @@ const destroy = () => {
                         <TrashIcon class="h-5 w-5" aria-hidden="true" />
                         <span class="sr-only">Delete {{ project.name }}</span>
                     </SecondaryButton>
-                    <SecondaryButton :href="route('admin.projects.edit', [project.slug])" as="link">
+                    <SecondaryButton :href="route('editor.projects.edit', [project.slug])" as="link">
                         <PencilAltIcon class="h-5 w-5" aria-hidden="true" />
                         <span class="sr-only">Edit {{ project.name }}</span>
                     </SecondaryButton>
@@ -52,7 +52,7 @@ const destroy = () => {
                     <div class="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                         <dt class="text-sm font-medium text-gray-500">Belongs to</dt>
                         <dd class="mt-1 text-sm font-bold text-gray-900 sm:mt-0 sm:col-span-2">
-                            <Link class="hover:text-gray-600" :href="route('admin.collections.show', [project.projectable.slug])"> {{ project.projectable.name }} </Link>
+                            <Link class="hover:text-gray-600" :href="route('editor.collections.show', [project.projectable.slug])"> {{ project.projectable.name }} </Link>
                         </dd>
                     </div>
                 </dl>
@@ -63,7 +63,7 @@ const destroy = () => {
                         <h3 class="text-lg leading-6 font-medium text-gray-900"> Goals </h3>
                     </div>
                     <div class="ml-4 mt-2 space-x-2">
-                        <PrimaryButton :href="`${route('admin.goals.create')}?project=${project.id}`" as="link"> Add goal </PrimaryButton>
+                        <PrimaryButton :href="`${route('editor.goals.create')}?project=${project.id}`" as="link"> Add goal </PrimaryButton>
                     </div>
                 </div>
                 <div class="mt-4 flex flex-col">
@@ -83,14 +83,14 @@ const destroy = () => {
                                     <tbody class="bg-white">
                                         <tr v-for="(goal, goalIdx) in project.goals" :key="goal.id" :class="goalIdx % 2 === 0 ? undefined : 'bg-gray-50'">
                                             <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-semibold text-gray-900 hover:text-gray-700 sm:pl-6">
-                                                <Link :href="route('admin.goals.show', [goal.slug])">{{ goal.name }}</Link>
+                                                <Link :href="route('editor.goals.show', [goal.slug])">{{ goal.name }}</Link>
                                             </td>
                                             <td class="flex justify-end whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium space-x-2 sm:pr-6">
-                                                <Link :href="route('admin.goals.show', [goal.slug])" class="text-indigo-600 hover:text-indigo-900">
+                                                <Link :href="route('editor.goals.show', [goal.slug])" class="text-indigo-600 hover:text-indigo-900">
                                                     <EyeIcon class="h-6 w-6" />
                                                     <span class="sr-only">View {{ goal.name }}</span>
                                                 </Link>
-                                                <Link :href="route('admin.goals.edit', [goal.slug])" class="text-indigo-600 hover:text-indigo-900">
+                                                <Link :href="route('editor.goals.edit', [goal.slug])" class="text-indigo-600 hover:text-indigo-900">
                                                     <PencilAltIcon class="h-6 w-6" />
                                                     <span class="sr-only">Edit {{ goal.name }}</span>
                                                 </Link>

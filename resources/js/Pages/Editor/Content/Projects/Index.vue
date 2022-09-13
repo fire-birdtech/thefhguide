@@ -20,7 +20,7 @@ defineProps({
                     <p class="mt-2 text-sm text-gray-700">A list of all the projects including their name and which collection they belong to.</p>
                 </div>
                 <div class="mt-4 sm:mt-0 sm:ml-16 sm:flex-none">
-                    <PrimaryButton :href="route('admin.projects.create')" as="link">Add project</PrimaryButton>
+                    <PrimaryButton :href="route('editor.projects.create')" as="link">Add project</PrimaryButton>
                 </div>
             </div>
             <div class="mt-8 flex flex-col">
@@ -40,15 +40,15 @@ defineProps({
                                 <tbody class="bg-white">
                                     <tr v-for="(project, projectIdx) in projects" :key="project.id" :class="projectIdx % 2 === 0 ? undefined : 'bg-gray-50'">
                                         <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-semibold text-gray-900 hover:text-gray-700 sm:pl-6">
-                                            <Link :href="route('admin.projects.show', [project.slug])">{{ project.name }}</Link>
+                                            <Link :href="route('editor.projects.show', [project.slug])">{{ project.name }}</Link>
                                         </td>
                                         <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">{{ project?.projectable?.name }}</td>
                                         <td class="flex justify-end whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium space-x-2 sm:pr-6">
-                                            <Link :href="route('admin.projects.show', [project.slug])" class="text-indigo-600 hover:text-indigo-900">
+                                            <Link :href="route('editor.projects.show', [project.slug])" class="text-indigo-600 hover:text-indigo-900">
                                                 <EyeIcon class="h-6 w-6" />
                                                 <span class="sr-only">View {{ project.name }}</span>
                                             </Link>
-                                            <Link :href="route('admin.projects.edit', [project.slug])" class="text-indigo-600 hover:text-indigo-900">
+                                            <Link :href="route('editor.projects.edit', [project.slug])" class="text-indigo-600 hover:text-indigo-900">
                                                 <PencilAltIcon class="h-6 w-6" />
                                                 <span class="sr-only">Edit {{ project.name }}</span>
                                             </Link>
