@@ -16,7 +16,7 @@ class ProjectController extends Controller
     public function index()
     {
         return inertia('Editor/Content/Projects/Index', [
-            'projects' => Project::orderBy('updated_at', 'desc')->with('projectable')->get(),
+            'projects' => Project::orderBy('updated_at', 'desc')->with('collection')->get(),
         ]);
     }
 
@@ -29,7 +29,7 @@ class ProjectController extends Controller
     {
         $collections = Collection::orderBy('name', 'asc')->get();
         return inertia('Editor/Content/Projects/Create', [
-            'projectables' => collect($collections)->sortBy('name')->values()->all(),
+            'collections' => $collections,
         ]);
     }
 
@@ -41,8 +41,8 @@ class ProjectController extends Controller
      */
     public function store(ProjectRequest $request)
     {
-        $projectable = $this->findProjectable($request->projectable);
-        $projectable->projects()->save(new Project($request->validated()));
+        $collection = Collection::find($request->collection['id']);
+        $collection->projects()->save(new Project($request->validated()));
 
         return redirect()->route('editor.projects.index');
     }
@@ -56,7 +56,7 @@ class ProjectController extends Controller
     public function show(Project $project)
     {
         return inertia('Editor/Content/Projects/Show', [
-            'project' => $project->load(['goals', 'projectable']),
+            'project' => $project->load(['goals', 'collection']),
         ]);
     }
 
@@ -70,8 +70,8 @@ class ProjectController extends Controller
     {
         $collections = Collection::orderBy('name', 'asc')->get();
         return inertia('Editor/Content/Projects/Edit', [
-            'projectables' => collect($collections)->sortBy('name')->values()->all(),
-            'project' => $project->load('projectable'),
+            'collections' => $collections,
+            'project' => $project->load('collection'),
         ]);
     }
 
@@ -87,8 +87,8 @@ class ProjectController extends Controller
         $project->name = $request->name;
         $project->save();
 
-        $projectable = $this->findProjectable($request->projectable);
-        $projectable->projects()->save($project);
+        $collection = Collection::find($request->collection['id']);
+        $collection->projects()->save($project);
 
         return redirect()->route('editor.projects.show', [$project->slug]);
     }
@@ -104,13 +104,5 @@ class ProjectController extends Controller
         $project->delete();
 
         return redirect()->route('editor.projects.index');
-    }
-
-    public function findProjectable($projectable)
-    {
-        return Collection::where([
-            ['id', $projectable['id']],
-            ['name', $projectable['name']]
-        ])->first();
     }
 }

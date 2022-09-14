@@ -42,7 +42,7 @@ defineProps({
                                         <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-semibold text-gray-900 hover:text-gray-700 sm:pl-6">
                                             <Link :href="route('editor.projects.show', [project.slug])">{{ project.name }}</Link>
                                         </td>
-                                        <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">{{ project?.projectable?.name }}</td>
+                                        <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">{{ project?.collection?.name }}</td>
                                         <td class="flex justify-end whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium space-x-2 sm:pr-6">
                                             <Link :href="route('editor.projects.show', [project.slug])" class="text-indigo-600 hover:text-indigo-900">
                                                 <EyeIcon class="h-6 w-6" />
