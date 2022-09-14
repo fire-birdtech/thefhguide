@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Spatie\Sluggable\HasSlug;
 use Spatie\Sluggable\SlugOptions;
@@ -35,9 +36,9 @@ class Project extends Model
 
     protected $guarded = ['id'];
 
-    public function projectable()
+    public function collection(): BelongsTo
     {
-        return $this->morphTo();
+        return $this->belongsTo(Collection::class);
     }
 
     public function goals(): HasMany

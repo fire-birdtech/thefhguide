@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 use Spatie\Sluggable\HasSlug;
 use Spatie\Sluggable\SlugOptions;
 use Venturecraft\Revisionable\RevisionableTrait as HasRevisions;
@@ -34,8 +35,8 @@ class Collection extends Model
         return 'slug';
     }
 
-    public function projects()
+    public function projects(): HasMany
     {
-        return $this->morphMany(Project::class, 'projectable');
+        return $this->HasMany(Project::class);
     }
 }
