@@ -14,7 +14,10 @@ return new class extends Migration
     public function up()
     {
         Schema::table('projects', function (Blueprint $table) {
-            $table->longText('instructions')->nullable()->after('slug');
+            $table->foreignId('collection_id')
+                  ->constrained()
+                  ->cascadeOnDelete()
+                  ->cascadeOnUpdate();
         });
     }
 
@@ -26,7 +29,11 @@ return new class extends Migration
     public function down()
     {
         Schema::table('projects', function (Blueprint $table) {
-            $table->dropColumn('instructions');
+            $table->dropForeign(['collection_id']);
+        });
+
+        Schema::table('projects', function (Blueprint $table) {
+            $table->dropColumn('collection_id');
         });
     }
 };
