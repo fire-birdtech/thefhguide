@@ -6,8 +6,7 @@ import BreezeDropdownLink from '@/Components/DropdownLink.vue';
 import BreezeNavLink from '@/Components/NavLink.vue';
 import BreezeResponsiveNavLink from '@/Components/ResponsiveNavLink.vue';
 import { Link } from '@inertiajs/inertia-vue3';
-import AdminNav from '@/Components/Navigation/AdminVertical.vue';
-import EditorNav from '@/Components/Navigation/EditorVertical.vue';
+import VerticalNav from '@/Components/Navigation/Vertical.vue';
 
 defineProps({
     type: {
@@ -103,8 +102,7 @@ const showingNavigationDropdown = ref(false);
 
             <!-- Page Content -->
             <main class="flex">
-                <AdminNav v-if="type === 'admin'" />
-                <EditorNav v-if="type === 'editor'" />
+                <VerticalNav />
                 <slot />
             </main>
         </div>

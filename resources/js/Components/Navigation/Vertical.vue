@@ -1,10 +1,17 @@
 <script setup>
-import { Link } from '@inertiajs/inertia-vue3';
+import { Link, usePage } from '@inertiajs/inertia-vue3';
+import { computed } from '@vue/runtime-core';
+
+const admin = computed(() => usePage().canManageEditors);
 
 const navigation = [
-    { name: 'Dashboard', href: route('editor.dashboard'), components: ['Editor/Dashboard'] },
-    { name: 'Content', href: route('editor.content.index'), components: [
-        'Editor/Content/Index',
+    { name: 'Dashboard', href: admin ? route('admin.dashboard') : route('editor.dashboard'), show: true, components: ['Admin/Dashboard', 'Editor/Dashboard'] },
+    { name: 'Content', href: route('editor.content.index'), show: true, components: [
+        'Editor/Content/Index', 'Editor/Collections/Index','Editor/Collections/Create','Editor/Collections/Show','Editor/Collections/Edit',
+        'Editor/Projects/Index','Editor/Projects/Create','Editor/Projects/Show','Editor/Projects/Edit',
+    ]},
+    { name: 'Editors', href: route('admin.editors.index'), show: admin, components: [
+        'Admin/Editors/Index','Admin/Editors/Create','Admin/Editors/Show','Admin/Editors/Edit'
     ]},
 ];
 </script>
