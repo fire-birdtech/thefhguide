@@ -168,7 +168,11 @@ return [
     ],
 
     'roles_permissions' => [
-        'admin' => [
+        [
+            'name' => 'super admin',
+            'permissions' => []
+        ],
+        [
             'name' => 'admin',
             'permissions' => [
                 'manage users',
@@ -178,7 +182,7 @@ return [
                 'manage choices',
             ],
         ],
-        'editor' => [
+        [
             'name' => 'editor',
             'permissions' => [
                 'manage projects',

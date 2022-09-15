@@ -33,7 +33,7 @@ class AdminController extends Controller
     public function create()
     {
         return inertia('Admin/Editors/Create', [
-            'roles' => Role::all(),
+            'roles' => Role::all()->except(1),
         ]);
     }
 
