@@ -84,7 +84,11 @@ class InvitationController extends Controller
 
         Invitation::destroy($request->id);
 
-        return redirect(RouteServiceProvider::ADMINHOME);
+        if ($user->hasRole('admin')) {
+            return redirect(RouteServiceProvider::ADMINHOME);
+        }
+
+        return redirect(RouteServiceProvider::EDITORHOME);
     }
 
     public function process(Request $request)
@@ -98,7 +102,11 @@ class InvitationController extends Controller
 
         Invitation::destroy($request->id);
 
-        return redirect(RouteServiceProvider::ADMINHOME);
+        if ($user->hasRole('admin')) {
+            return redirect(RouteServiceProvider::ADMINHOME);
+        }
+
+        return redirect(RouteServiceProvider::EDITORHOME);
     }
 
     /**
