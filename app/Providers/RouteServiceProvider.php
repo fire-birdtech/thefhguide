@@ -26,6 +26,15 @@ class RouteServiceProvider extends ServiceProvider
      *
      * @var string
      */
+    public const EDITORHOME = '/editor/dashboard';
+
+    /**
+     * The path to the admin "home" route for your application.
+     *
+     * Typically, admins are redirected here after authentication.
+     *
+     * @var string
+     */
     public const ADMINHOME = '/admin/dashboard';
 
     /**
