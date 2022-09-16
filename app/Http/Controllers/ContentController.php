@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Collection;
+use App\Models\Project;
 use Illuminate\Http\Request;
 
 class ContentController extends Controller
@@ -15,7 +16,8 @@ class ContentController extends Controller
     public function index()
     {
         return inertia('Editor/Content/Index', [
-            'collections' => Collection::all()
+            'collections' => Collection::all(),
+            'projects' => Project::orderBy('updated_at', 'desc')->with('collection')->limit(12)->get()
         ]);
     }
 }
