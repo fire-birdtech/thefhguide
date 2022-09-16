@@ -2,7 +2,7 @@
 import AdminLayout from '@/Layouts/Admin';
 import { Head, Link } from '@inertiajs/inertia-vue3';
 import PrimaryButton from '@/Components/PrimaryButton';
-import { EyeIcon, PencilAltIcon } from '@heroicons/vue/outline';
+import { EyeIcon, PencilSquareIcon } from '@heroicons/vue/24/outline';
 
 defineProps({
     collections: Array,
@@ -47,7 +47,7 @@ defineProps({
                                                 <span class="sr-only">View {{ collection.name }}</span>
                                             </Link>
                                             <Link :href="route('editor.collections.edit', [collection.slug])" class="text-indigo-600 hover:text-indigo-900">
-                                                <PencilAltIcon class="h-6 w-6" />
+                                                <PencilSquareIcon class="h-6 w-6" />
                                                 <span class="sr-only">Edit {{ collection.name }}</span>
                                             </Link>
                                         </td>

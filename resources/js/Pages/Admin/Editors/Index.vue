@@ -3,7 +3,7 @@ import { ref } from 'vue';
 import { Head, Link } from '@inertiajs/inertia-vue3';
 import AdminLayout from '@/Layouts/Admin';
 import PrimaryButton from '@/Components/PrimaryButton';
-import { EyeIcon, PencilAltIcon, TrashIcon } from '@heroicons/vue/outline';
+import { EyeIcon, PencilSquareIcon, TrashIcon } from '@heroicons/vue/24/outline';
 import SecondaryButton from '@/Components/SecondaryButton';
 import { Inertia } from '@inertiajs/inertia';
 import DeleteModal from '@/Components/DeleteModal';
@@ -90,7 +90,7 @@ const deleteInvitation = () => {
                                                 <span class="sr-only">View {{ user.name }}</span>
                                             </Link>
                                             <Link :href="route('admin.editors.edit', [user.id])" class="text-indigo-600 hover:text-indigo-900">
-                                                <PencilAltIcon class="h-6 w-6" />
+                                                <PencilSquareIcon class="h-6 w-6" />
                                                 <span class="sr-only">Edit {{ user.name }}</span>
                                             </Link>
                                         </td>

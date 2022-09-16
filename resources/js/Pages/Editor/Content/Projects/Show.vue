@@ -3,7 +3,7 @@ import { ref } from 'vue';
 import AdminLayout from '@/Layouts/Admin';
 import { Head, Link } from '@inertiajs/inertia-vue3';
 import SecondaryButton from '@/Components/SecondaryButton';
-import { EyeIcon, PencilAltIcon, TrashIcon } from '@heroicons/vue/outline';
+import { EyeIcon, PencilSquareIcon, TrashIcon } from '@heroicons/vue/24/outline';
 import { Inertia } from '@inertiajs/inertia';
 import DeleteModal from '@/Components/DeleteModal';
 import { DialogTitle } from '@headlessui/vue';
@@ -38,7 +38,7 @@ const destroy = () => {
                         <span class="sr-only">Delete {{ project.name }}</span>
                     </SecondaryButton>
                     <SecondaryButton :href="route('editor.projects.edit', [project.slug])" as="link">
-                        <PencilAltIcon class="h-5 w-5" aria-hidden="true" />
+                        <PencilSquareIcon class="h-5 w-5" aria-hidden="true" />
                         <span class="sr-only">Edit {{ project.name }}</span>
                     </SecondaryButton>
                 </div>
@@ -91,7 +91,7 @@ const destroy = () => {
                                                     <span class="sr-only">View {{ goal.name }}</span>
                                                 </Link>
                                                 <Link :href="route('editor.goals.edit', [goal.slug])" class="text-indigo-600 hover:text-indigo-900">
-                                                    <PencilAltIcon class="h-6 w-6" />
+                                                    <PencilSquareIcon class="h-6 w-6" />
                                                     <span class="sr-only">Edit {{ goal.name }}</span>
                                                 </Link>
                                             </td>

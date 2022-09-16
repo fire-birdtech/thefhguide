@@ -4,7 +4,7 @@ import AdminLayout from '@/Layouts/Admin';
 import { Head, Link } from '@inertiajs/inertia-vue3';
 import PrimaryButton from '@/Components/PrimaryButton';
 import SecondaryButton from '@/Components/SecondaryButton';
-import { ClipboardListIcon, EyeIcon, PencilAltIcon, TrashIcon } from '@heroicons/vue/outline';
+import { ClipboardDocumentListIcon, EyeIcon, PencilSquareIcon, TrashIcon } from '@heroicons/vue/24/outline';
 import { Inertia } from '@inertiajs/inertia';
 import DeleteModal from '@/Components/DeleteModal';
 import { DialogTitle } from '@headlessui/vue';
@@ -38,11 +38,11 @@ const destroy = () => {
                         <span class="sr-only">Delete {{ choice.name }}</span>
                     </SecondaryButton>
                     <SecondaryButton :href="route('editor.choices.edit', [choice.id])" as="link" title="Edit choice">
-                        <PencilAltIcon class="h-5 w-5" aria-hidden="true" />
+                        <PencilSquareIcon class="h-5 w-5" aria-hidden="true" />
                         <span class="sr-only">Edit {{ choice.name }}</span>
                     </SecondaryButton>
                     <PrimaryButton :href="route('editor.goals.show', [choice.goal.slug])" as="link" title="Go to goal">
-                        <ClipboardListIcon class="h-5 w-5" aria-hidden="true" />
+                        <ClipboardDocumentListIcon class="h-5 w-5" aria-hidden="true" />
                         <span class="sr-only">Go to project</span>
                     </PrimaryButton>
                 </div>

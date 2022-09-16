@@ -2,7 +2,7 @@
 import { Head } from '@inertiajs/inertia-vue3';
 import AdminLayout from '@/Layouts/Admin';
 import SecondaryButton from '@/Components/SecondaryButton';
-import { PencilAltIcon } from '@heroicons/vue/outline';
+import { PencilSquareIcon } from '@heroicons/vue/24/outline';
 
 const props = defineProps({
     user: Object,
@@ -21,7 +21,7 @@ const props = defineProps({
                     </div>
                     <div class="ml-4 mt-2 space-x-2">
                         <SecondaryButton :href="route('admin.editors.edit', [user.id])" as="link" title="Edit user">
-                            <PencilAltIcon class="h-5 w-5" aria-hidden="true" />
+                            <PencilSquareIcon class="h-5 w-5" aria-hidden="true" />
                             <span class="sr-only">Edit {{ user.name }}</span>
                         </SecondaryButton>
                     </div>
