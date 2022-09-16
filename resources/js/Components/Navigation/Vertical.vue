@@ -7,8 +7,8 @@ const admin = computed(() => usePage().canManageEditors);
 const navigation = [
     { name: 'Dashboard', href: admin ? route('admin.dashboard') : route('editor.dashboard'), show: true, components: ['Admin/Dashboard', 'Editor/Dashboard'] },
     { name: 'Content', href: route('editor.content.index'), show: true, components: [
-        'Editor/Content/Index', 'Editor/Collections/Index','Editor/Collections/Create','Editor/Collections/Show','Editor/Collections/Edit',
-        'Editor/Projects/Index','Editor/Projects/Create','Editor/Projects/Show','Editor/Projects/Edit',
+        'Editor/Content/Index', 'Editor/Content/Collections/Index','Editor/Content/Collections/Create','Editor/Content/Collections/Show','Editor/Content/Collections/Edit',
+        'Editor/Content/Projects/Index','Editor/Content/Projects/Create','Editor/Content/Projects/Show','Editor/Content/Projects/Edit',
     ]},
     { name: 'Editors', href: route('admin.editors.index'), show: admin, components: [
         'Admin/Editors/Index','Admin/Editors/Create','Admin/Editors/Show','Admin/Editors/Edit'
