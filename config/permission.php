@@ -160,11 +160,21 @@ return [
     ],
 
     'permissions' => [
-        'manage users',
-        'manage collections',
-        'manage projects',
-        'manage goals',
-        'manage choices',
+        'manage editors',
+        'publish content',
+        'create collections',
+        'update collections',
+        'delete collections',
+        'create projects',
+        'update projects',
+        'delete projects',
+        'create goals',
+        'update goals',
+        'delete goals',
+        'publish goals',
+        'create choices',
+        'update choices',
+        'delete choices'
     ],
 
     'roles_permissions' => [
@@ -175,20 +185,47 @@ return [
         [
             'name' => 'admin',
             'permissions' => [
-                'manage users',
-                'manage collections',
-                'manage projects',
-                'manage goals',
-                'manage choices',
-            ],
+                'manage editors',
+                'publish content',
+                'create collections',
+                'update collections',
+                'delete collections',
+                'create projects',
+                'update projects',
+                'delete projects',
+                'create goals',
+                'update goals',
+                'delete goals',
+                'create choices',
+                'update choices',
+                'delete choices'
+            ]
         ],
         [
             'name' => 'editor',
             'permissions' => [
-                'manage projects',
-                'manage goals',
-                'manage choices',
-            ],
+                'publish content',
+                'create collections',
+                'update collections',
+                'delete collections',
+                'create projects',
+                'update projects',
+                'delete projects',
+                'create goals',
+                'update goals',
+                'delete goals',
+                'create choices',
+                'update choices',
+                'delete choices'
+            ]
         ],
+        [
+            'name' => 'guest',
+            'permissions' => [
+                'update projects',
+                'update goals',
+                'update choices'
+            ]
+        ]
     ],
 ];
