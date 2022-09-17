@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\AssignmentController;
 use App\Http\Controllers\ContentController;
 use App\Http\Controllers\InvitationController;
 use Illuminate\Foundation\Application;
@@ -54,6 +55,7 @@ Route::group([
     Route::post('editors/invite', [InvitationController::class, 'store'])->name('editors.invite');
     Route::resource('invitations', InvitationController::class);
     Route::post('invitations/resend', [InvitationController::class, 'resend'])->name('invitations.resend');
+    Route::get('assignments/create', [AssignmentController::class, 'create'])->name('assignments.create');
 });
 
 Route::get('expired', fn () => inertia('Errors/Expired'))->name('expired');
