@@ -20,7 +20,7 @@ class AdminController extends Controller
     public function index()
     {
         return inertia('Admin/Editors/Index', [
-            'users' => User::role(['admin', 'editor'])->with('roles')->get(),
+            'users' => User::role(['admin', 'editor', 'guest'])->with('roles')->get(),
             'invitations' => Invitation::all(),
         ]);
     }
