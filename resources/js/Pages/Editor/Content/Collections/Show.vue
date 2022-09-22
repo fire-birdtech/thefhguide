@@ -3,7 +3,7 @@ import { ref } from 'vue';
 import AdminLayout from '@/Layouts/Admin';
 import { Head, Link } from '@inertiajs/inertia-vue3';
 import SecondaryButton from '@/Components/SecondaryButton';
-import { EyeIcon, PencilSquareIcon, TrashIcon } from '@heroicons/vue/24/outline';
+import { DocumentPlusIcon, EyeIcon, PencilSquareIcon, TrashIcon } from '@heroicons/vue/24/outline';
 import { Inertia } from '@inertiajs/inertia';
 import DeleteModal from '@/Components/DeleteModal';
 import { DialogTitle } from '@headlessui/vue';
@@ -33,6 +33,10 @@ const destroy = () => {
                         <h3 class="text-lg leading-6 font-medium text-gray-900"> Collection Details: {{ collection.name }} </h3>
                     </div>
                     <div class="ml-4 mt-2 space-x-2">
+                        <SecondaryButton :href="`${route('admin.assignments.create')}?assignable_id=${collection.id}&assignable_type=collection`" as="link">
+                            <DocumentPlusIcon class="h-5 w-5" aria-hidden="true" />
+                            <span class="sr-only">Add assignment to {{ collection.name }}</span>
+                        </SecondaryButton>
                         <SecondaryButton @click="open = true">
                             <TrashIcon class="h-5 w-5" aria-hidden="true" />
                             <span class="sr-only">Delete {{ collection.name }}</span>

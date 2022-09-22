@@ -1,5 +1,5 @@
 <script setup>
-import { ref } from 'vue';
+import { computed, ref } from 'vue';
 import { Head, useForm } from '@inertiajs/inertia-vue3';
 import AdminLayout from '@/Layouts/Admin.vue';
 import BreezeInput from '@/Components/Input';
@@ -12,8 +12,10 @@ import { CheckIcon, ChevronUpDownIcon } from '@heroicons/vue/24/solid';
 import PrimaryButton from '@/Components/PrimaryButton';
 import SecondaryButton from '@/Components/SecondaryButton';
 
-defineProps({
+const props = defineProps({
     editors: Array,
+    assignable: Object,
+    assignableType: String
 });
 
 const selected = ref({ name: "Select editor" });
@@ -22,12 +24,16 @@ const assignment = useForm({
     summary: '',
     details: '',
     user: null,
-    assignable: null,
+    assignable_id: props.assignable.id,
+    assignable_type: props.assignableType
 });
 
 const submit = () => {
-    assignment.post();
+    assignment.user = selected.value.id;
+    assignment.post(route('admin.assignments.store'));
 }
+
+const cancelLink = computed(() => route('editor.' + props.assignableType + 's.show', [props.assignable.id]));
 </script>
 
 <template>
@@ -87,13 +93,12 @@ const submit = () => {
                     <div class="px-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:items-start sm:border-t sm:border-gray-200 sm:pt-4 sm:pb-2">
                         <BreezeLabel for="assignable" value="Belongs to" class="sm:mt-px sm:pt-2" />
                         <div class="mt-1 sm:mt-0 sm:col-span-4">
-                            <FormText v-model="assignment.assignable" id="assignable" class="block w-full" />
-                            <BreezeInputError class="mt-1" :message="assignment.errors.assignable" />
+                            <FormText v-model="assignable.name" id="assignable" class="block w-full" />
                         </div>
                     </div>
                     <div class="px-6 py-4">
                         <div class="flex justify-end">
-                            <SecondaryButton :href="route('editor.projects.index')" as="link">Cancel</SecondaryButton>
+                            <SecondaryButton :href="cancelLink" as="link">Cancel</SecondaryButton>
                             <PrimaryButton type="submit" class="ml-3">Save</PrimaryButton>
                         </div>
                     </div>

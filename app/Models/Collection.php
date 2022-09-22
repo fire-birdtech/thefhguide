@@ -5,6 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Database\Eloquent\Relations\MorphMany;
 use Spatie\Sluggable\HasSlug;
 use Spatie\Sluggable\SlugOptions;
 use Venturecraft\Revisionable\RevisionableTrait as HasRevisions;
@@ -38,5 +39,10 @@ class Collection extends Model
     public function projects(): HasMany
     {
         return $this->HasMany(Project::class);
+    }
+
+    public function assignments(): MorphMany
+    {
+        return $this->morphMany(Assignment::class, 'assignable');
     }
 }

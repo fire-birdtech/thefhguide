@@ -3,6 +3,6 @@ defineProps(['modelValue']);
 </script>
     
 <template>
-    <p class="text-sm">{{ modelValue }}</p>
+    <p class="text-sm pt-3">{{ modelValue }}</p>
 </template>
     

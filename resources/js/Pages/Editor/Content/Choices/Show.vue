@@ -33,6 +33,10 @@ const destroy = () => {
                     <h3 class="text-lg leading-6 font-medium text-gray-900"> Choice Details: {{ choice.name }} </h3>
                 </div>
                 <div class="ml-4 mt-2 space-x-2">
+                    <SecondaryButton :href="`${route('admin.assignments.create')}?assignable_id=${choice.id}&assignable_type=choice`" as="link">
+                        <DocumentPlusIcon class="h-5 w-5" aria-hidden="true" />
+                        <span class="sr-only">Add assignment to {{ choice.name }}</span>
+                    </SecondaryButton>
                     <SecondaryButton @click="open = true" title="Delete choice">
                         <TrashIcon class="h-5 w-5" aria-hidden="true" />
                         <span class="sr-only">Delete {{ choice.name }}</span>

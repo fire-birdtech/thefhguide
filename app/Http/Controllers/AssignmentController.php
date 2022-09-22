@@ -3,6 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\Models\Assignment;
+use App\Models\Choice;
+use App\Models\Collection;
+use App\Models\Goal;
+use App\Models\Project;
 use App\Models\User;
 use Illuminate\Http\Request;
 
@@ -23,12 +27,14 @@ class AssignmentController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function create(Request $request)
     {
         return inertia('Admin/Assignments/Create', [
             'editors' => User::with('roles')->whereHas('roles', function($q) {
                 $q->whereIn('name', ['admin','editor','guest']);
             })->orderBy('name', 'desc')->get(),
+            'assignable' => $this->getAssignable($request->assignable_type, $request->assignable_id),
+            'assignableType' => $request->assignable_type
         ]);
     }
 
@@ -40,7 +46,14 @@ class AssignmentController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $assignable = $this->getAssignable($request->assignable_type, $request->assignable_id);
+        $assignable->assignments()->save(new Assignment([
+            'summary' => $request->summary,
+            'details' => $request->details,
+            'user_id' => $request->user
+        ]));
+
+        return redirect()->route("editor.{$request->assignable_type}s.show", ["{$assignable->slug}"]);
     }
 
     /**
@@ -86,5 +99,19 @@ class AssignmentController extends Controller
     public function destroy(Assignment $assignment)
     {
         //
+    }
+
+    public function getAssignable($type, $id)
+    {
+        switch ($type) {
+            case 'collection':
+                return Collection::where('id', $id)->first();
+            case 'project':
+                return Project::where('id', $id)->first();
+            case 'goal':
+                return Goal::where('id', $id)->first();
+            case 'choice':
+                return Choice::where('id', $id)->first();
+        }
     }
 }

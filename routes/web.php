@@ -56,6 +56,7 @@ Route::group([
     Route::resource('invitations', InvitationController::class);
     Route::post('invitations/resend', [InvitationController::class, 'resend'])->name('invitations.resend');
     Route::get('assignments/create', [AssignmentController::class, 'create'])->name('assignments.create');
+    Route::post('assignments', [AssignmentController::class, 'store'])->name('assignments.store');
 });
 
 Route::get('expired', fn () => inertia('Errors/Expired'))->name('expired');
