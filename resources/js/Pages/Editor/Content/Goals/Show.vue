@@ -2,6 +2,7 @@
 import { ref } from 'vue';
 import AdminLayout from  '@/Layouts/Admin';
 import { Head, Link } from '@inertiajs/inertia-vue3';
+import PrimaryButton from '@/Components/PrimaryButton';
 import SecondaryButton from '@/Components/SecondaryButton';
 import { DocumentPlusIcon, EyeIcon, PencilSquareIcon, TrashIcon } from '@heroicons/vue/24/outline';
 import { Inertia } from '@inertiajs/inertia';
