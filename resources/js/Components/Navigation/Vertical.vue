@@ -9,6 +9,8 @@ const navigation = [
     { name: 'Content', href: route('editor.content.index'), show: true, components: [
         'Editor/Content/Index', 'Editor/Content/Collections/Index','Editor/Content/Collections/Create','Editor/Content/Collections/Show','Editor/Content/Collections/Edit',
         'Editor/Content/Projects/Index','Editor/Content/Projects/Create','Editor/Content/Projects/Show','Editor/Content/Projects/Edit',
+        'Editor/Content/Goals/Index','Editor/Content/Goals/Create','Editor/Content/Goals/Show','Editor/Content/Goals/Edit',
+        'Editor/Content/Choices/Index','Editor/Content/Choices/Create','Editor/Content/Choices/Show','Editor/Content/Choices/Edit',
     ]},
     { name: 'Editors', href: route('admin.editors.index'), show: admin, components: [
         'Admin/Editors/Index','Admin/Editors/Create','Admin/Editors/Show','Admin/Editors/Edit'
