@@ -12,6 +12,9 @@ const navigation = [
         'Editor/Content/Goals/Index','Editor/Content/Goals/Create','Editor/Content/Goals/Show','Editor/Content/Goals/Edit',
         'Editor/Content/Choices/Index','Editor/Content/Choices/Create','Editor/Content/Choices/Show','Editor/Content/Choices/Edit',
     ]},
+    { name: 'Assignments', href: route('admin.assignments.index'), show: admin, components: [
+        'Admin/Assignments/Index'
+    ]},
     { name: 'Editors', href: route('admin.editors.index'), show: admin, components: [
         'Admin/Editors/Index','Admin/Editors/Create','Admin/Editors/Show','Admin/Editors/Edit'
     ]},

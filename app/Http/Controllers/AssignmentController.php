@@ -19,7 +19,9 @@ class AssignmentController extends Controller
      */
     public function index()
     {
-        //
+        return inertia('Admin/Assignments/Index', [
+            'assignments' => Assignment::with(['assignable', 'user'])->get()
+        ]);
     }
 
     /**

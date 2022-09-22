@@ -55,6 +55,7 @@ Route::group([
     Route::post('editors/invite', [InvitationController::class, 'store'])->name('editors.invite');
     Route::resource('invitations', InvitationController::class);
     Route::post('invitations/resend', [InvitationController::class, 'resend'])->name('invitations.resend');
+    Route::get('assignments', [AssignmentController::class, 'index'])->name('assignments.index');
     Route::get('assignments/create', [AssignmentController::class, 'create'])->name('assignments.create');
     Route::post('assignments', [AssignmentController::class, 'store'])->name('assignments.store');
 });
