@@ -2,7 +2,6 @@
 import { ref } from 'vue';
 import AdminLayout from '@/Layouts/Admin';
 import { Head, Link } from '@inertiajs/inertia-vue3';
-import PrimaryButton from '@/Components/PrimaryButton';
 import SecondaryButton from '@/Components/SecondaryButton';
 import { ClipboardDocumentListIcon, EyeIcon, PencilSquareIcon, TrashIcon } from '@heroicons/vue/24/outline';
 import { Inertia } from '@inertiajs/inertia';
@@ -45,10 +44,6 @@ const destroy = () => {
                         <PencilSquareIcon class="h-5 w-5" aria-hidden="true" />
                         <span class="sr-only">Edit {{ choice.name }}</span>
                     </SecondaryButton>
-                    <PrimaryButton :href="route('editor.goals.show', [choice.goal.slug])" as="link" title="Go to goal">
-                        <ClipboardDocumentListIcon class="h-5 w-5" aria-hidden="true" />
-                        <span class="sr-only">Go to project</span>
-                    </PrimaryButton>
                 </div>
             </div>
             <div class="mt-4 bg-white shadow overflow-hidden sm:rounded-lg">
@@ -56,6 +51,12 @@ const destroy = () => {
                     <div class="py-4 sm:py-5 sm:grid sm:grid-cols-4 sm:gap-4 sm:px-6">
                         <dt class="text-sm font-medium text-gray-500">Name</dt>
                         <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-3"> {{ choice.name }} </dd>
+                    </div>
+                    <div class="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                        <dt class="text-sm font-medium text-gray-500">Goal</dt>
+                        <dd class="mt-1 text-sm font-bold text-gray-900 sm:mt-0 sm:col-span-2">
+                            <Link class="hover:text-gray-600" :href="route('editor.goals.show', [choice.goal.slug])"> {{ choice.goal.name }} </Link>
+                        </dd>
                     </div>
                     <div class="py-4 sm:py-5 sm:grid sm:grid-cols-4 sm:gap-4 sm:px-6">
                         <dt class="text-sm font-medium text-gray-500">Summary</dt>
