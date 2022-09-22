@@ -3,7 +3,7 @@ import { ref } from 'vue';
 import AdminLayout from '@/Layouts/Admin';
 import { Head, Link } from '@inertiajs/inertia-vue3';
 import SecondaryButton from '@/Components/SecondaryButton';
-import { ClipboardDocumentListIcon, EyeIcon, PencilSquareIcon, TrashIcon } from '@heroicons/vue/24/outline';
+import { EyeIcon, PencilSquareIcon, TrashIcon } from '@heroicons/vue/24/outline';
 import { Inertia } from '@inertiajs/inertia';
 import DeleteModal from '@/Components/DeleteModal';
 import { DialogTitle } from '@headlessui/vue';
