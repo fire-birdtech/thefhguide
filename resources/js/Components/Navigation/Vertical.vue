@@ -1,10 +1,10 @@
 <script setup>
+import { computed, ref } from 'vue';
 import { Link, usePage } from '@inertiajs/inertia-vue3';
-import { computed } from '@vue/runtime-core';
 
-const admin = computed(() => usePage().canManageEditors);
+const admin = computed(() => usePage().props.value.canManageEditors);
 
-const navigation = [
+const navigation = ref([
     { name: 'Dashboard', href: admin ? route('admin.dashboard') : route('editor.dashboard'), show: true, components: ['Admin/Dashboard', 'Editor/Dashboard'] },
     { name: 'Content', href: route('editor.content.index'), show: true, components: [
         'Editor/Content/Index', 'Editor/Content/Collections/Index','Editor/Content/Collections/Create','Editor/Content/Collections/Show','Editor/Content/Collections/Edit',
@@ -18,7 +18,11 @@ const navigation = [
     { name: 'Editors', href: route('admin.editors.index'), show: admin, components: [
         'Admin/Editors/Index','Admin/Editors/Create','Admin/Editors/Show','Admin/Editors/Edit'
     ]},
-];
+]);
+
+const filteredNavigation = computed(() => {
+    return navigation.value.filter(item => item.show === true);
+});
 </script>
 
 <template>
@@ -27,7 +31,7 @@ const navigation = [
             <div class="flex-1 flex flex-col min-h-0">
                 <div class="flex-1 flex flex-col py-8 overflow-y-auto">
                     <nav class="space-y-2 px-4" aria-label="Sidebar">
-                        <Link v-for="item in navigation" :key="item.name" :href="item.href" :class="[item.components.includes($page.component) ? 'bg-gray-200 text-gray-900 font-semibold' : 'text-gray-600 hover:bg-gray-200 hover:text-gray-900', 'group flex items-center px-3 py-2 text-sm font-medium rounded-md']" :aria-current="item.current ? 'page' : undefined">
+                        <Link v-for="item in filteredNavigation" :key="item.name" :href="item.href" :class="[item.components.includes($page.component) ? 'bg-gray-200 text-gray-900 font-semibold' : 'text-gray-600 hover:bg-gray-200 hover:text-gray-900', 'group flex items-center px-3 py-2 text-sm font-medium rounded-md']" :aria-current="item.current ? 'page' : undefined">
                             <span class="truncate">
                                 {{ item.name }}
                             </span>

@@ -38,7 +38,7 @@ class HandleInertiaRequests extends Middleware
             'auth' => [
                 'user' => fn () => auth()->user() ? $request->user()->load('roles') : "",
             ],
-            'canManageEditors' => fn () => auth()->user() ? $request->user()->can('manage users') : null,
+            'canManageEditors' => fn () => auth()->user() ? $request->user()->can('manage editors') : null,
             'ziggy' => function () {
                 return (new Ziggy)->toArray();
             },
