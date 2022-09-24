@@ -5,6 +5,7 @@ use App\Http\Controllers\CollectionController;
 use App\Http\Controllers\ContentController;
 use App\Http\Controllers\GoalController;
 use App\Http\Controllers\ProjectController;
+use App\Models\Assignment;
 use Illuminate\Support\Facades\Route;
 
 Route::group([
@@ -12,7 +13,9 @@ Route::group([
     'prefix' => 'editor',
     'as' => 'editor.'
 ], function () {
-    Route::get('dashboard', fn () => inertia('Editor/Dashboard'))->name('dashboard');
+    Route::get('dashboard', fn () => inertia('Editor/Dashboard', [
+        'assignments' => Assignment::where('user_id', auth()->user()->id)->with('assignable')->get()
+    ]))->name('dashboard');
     Route::get('content', [ContentController::class, 'index'])->name('content.index');
     Route::resource('collections', CollectionController::class);
     Route::resource('projects', ProjectController::class);
