@@ -4,8 +4,16 @@ import { Link, usePage } from '@inertiajs/inertia-vue3';
 
 const admin = computed(() => usePage().props.value.canManageEditors);
 
+const dashboardLink = computed(() => {
+    if (usePage().props.value.canManageEditors) {
+        return route('admin.dashboard');
+    } else {
+        return route('editor.dashboard');
+    }
+});
+
 const navigation = ref([
-    { name: 'Dashboard', href: admin ? route('admin.dashboard') : route('editor.dashboard'), show: true, components: ['Admin/Dashboard', 'Editor/Dashboard'] },
+    { name: 'Dashboard', href: dashboardLink, show: true, components: ['Admin/Dashboard', 'Editor/Dashboard'] },
     { name: 'Content', href: route('editor.content.index'), show: true, components: [
         'Editor/Content/Index', 'Editor/Content/Collections/Index','Editor/Content/Collections/Create','Editor/Content/Collections/Show','Editor/Content/Collections/Edit',
         'Editor/Content/Projects/Index','Editor/Content/Projects/Create','Editor/Content/Projects/Show','Editor/Content/Projects/Edit',
