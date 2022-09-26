@@ -1,7 +1,7 @@
 <script setup>
 import { computed } from 'vue';
 import AdminLayout from '@/Layouts/Admin.vue';
-import { Head } from '@inertiajs/inertia-vue3';
+import { Head, Link } from '@inertiajs/inertia-vue3';
 import Badge from '@/Components/Badge.vue'
 
 defineProps({
@@ -35,28 +35,22 @@ defineProps({
                                     <table class="min-w-full divide-y divide-gray-300">
                                         <thead class="bg-gray-50">
                                             <tr>
-                                                <th scope="col" class="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-6">Summary</th>
-                                                <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Status</th>
-                                                <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Belongs to</th>
-                                                <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Created</th>
-                                                <th scope="col" class="relative py-3.5 pl-3 pr-4 sm:pr-6">
-                                                    <span class="sr-only">Actions</span>
-                                                </th>
+                                                <th scope="col" class="py-3 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-6">Summary</th>
+                                                <th scope="col" class="px-3 py-3 text-left text-sm font-semibold text-gray-900">Status</th>
+                                                <th scope="col" class="px-3 py-3 text-left text-sm font-semibold text-gray-900">Belongs to</th>
+                                                <th scope="col" class="px-3 py-3 text-left text-sm font-semibold text-gray-900">Created</th>
                                             </tr>
                                         </thead>
                                         <tbody class="bg-white">
                                             <tr v-for="(assignment, assignmentIdx) in assignments" :key="assignment.id" :class="assignmentIdx % 2 === 0 ? undefined : 'bg-gray-50'">
-                                                <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">{{ assignment.summary }}</td>
+                                                <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-semibold text-gray-900 hover:text-gray-700 sm:pl-6">
+                                                    <Link :href="route('editor.assignments.show', [assignment.id])">{{ assignment.summary }}</Link>
+                                                </td>
                                                 <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
                                                     <Badge :status="assignment.status" />
                                                 </td>
                                                 <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">{{ assignment.assignable.name }}</td>
                                                 <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">{{ new Date(assignment.created_at).toLocaleDateString('en-us', { weekday:"long", year:"numeric", month:"short", day:"numeric"}) }}</td>
-                                                <td class="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6">
-                                                    <a href="#" class="text-indigo-600 hover:text-indigo-900"
-                                                    >Edit<span class="sr-only">, {{  }}</span></a
-                                                    >
-                                                </td>
                                             </tr>
                                         </tbody>
                                     </table>

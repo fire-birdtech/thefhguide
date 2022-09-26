@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AssignmentController;
 use App\Http\Controllers\ChoiceController;
 use App\Http\Controllers\CollectionController;
 use App\Http\Controllers\ContentController;
@@ -21,4 +22,5 @@ Route::group([
     Route::resource('projects', ProjectController::class);
     Route::resource('goals', GoalController::class)->except(['index']);
     Route::resource('choices', ChoiceController::class)->except(['index']);
+    Route::get('assignment/{assignment}', [AssignmentController::class, 'show'])->name('assignments.show');
 });
