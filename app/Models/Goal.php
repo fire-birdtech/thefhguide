@@ -2,18 +2,20 @@
 
 namespace App\Models;
 
+use App\Traits\Draftable;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
+use Illuminate\Database\Eloquent\Relations\MorphOne;
 use Spatie\Sluggable\HasSlug;
 use Spatie\Sluggable\SlugOptions;
 use Venturecraft\Revisionable\RevisionableTrait as HasRevisions;
 
 class Goal extends Model
 {
-    use HasFactory, HasRevisions, HasSlug;
+    use Draftable, HasFactory, HasRevisions, HasSlug;
 
     /**
      * Get the options for generating the slug.
@@ -55,5 +57,10 @@ class Goal extends Model
     public function assignments(): MorphMany
     {
         return $this->morphMany(Assignment::class, 'assignable');
+    }
+
+    public function draft(): MorphOne
+    {
+        return $this->morphOne(Draft::class, 'draftable');
     }
 }

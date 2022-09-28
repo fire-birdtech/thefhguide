@@ -4,6 +4,7 @@ use App\Http\Controllers\AssignmentController;
 use App\Http\Controllers\ChoiceController;
 use App\Http\Controllers\CollectionController;
 use App\Http\Controllers\ContentController;
+use App\Http\Controllers\DraftController;
 use App\Http\Controllers\GoalController;
 use App\Http\Controllers\ProjectController;
 use App\Models\Assignment;
@@ -23,4 +24,6 @@ Route::group([
     Route::resource('goals', GoalController::class)->except(['index']);
     Route::resource('choices', ChoiceController::class)->except(['index']);
     Route::get('assignment/{assignment}', [AssignmentController::class, 'show'])->name('assignments.show');
+    Route::post('drafts', [DraftController::class, 'store'])->name('drafts.store');
+    Route::get('drafts/{draft}/edit', [DraftController::class, 'edit'])->name('drafts.edit');
 });

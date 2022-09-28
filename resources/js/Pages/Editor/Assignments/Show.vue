@@ -1,12 +1,20 @@
 <script setup>
-import { Head } from '@inertiajs/inertia-vue3';
+import { Head, useForm } from '@inertiajs/inertia-vue3';
 import AdminLayout from '@/Layouts/Admin.vue';
 import PrimaryButton from '@/Components/PrimaryButton.vue';
 import Badge from '@/Components/Badge.vue';
 
-defineProps({
+const props = defineProps({
     assignment: Object
 });
+
+const form = useForm({
+    assignmentId: props.assignment.id
+});
+
+const submit = () => {
+    form.post(route('editor.drafts.store'));
+}
 </script>
 
 <template>
@@ -20,8 +28,11 @@ defineProps({
                         <h3 class="text-lg leading-6 font-medium text-gray-900"> Assignment Details </h3>
                     </div>
                     <div class="ml-4 mt-2 space-x-2">
-                        <PrimaryButton href="#" as="link">
+                        <PrimaryButton v-if="assignment.status === 'waiting'" @click="submit">
                             Start Assignment
+                        </PrimaryButton>
+                        <PrimaryButton v-if="assignment.status === 'started'" :href="route('editor.drafts.edit', [assignment.draft?.id])" as="link">
+                            Continue Assignment
                         </PrimaryButton>
                     </div>
                 </div>

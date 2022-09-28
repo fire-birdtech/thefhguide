@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Enums\AssignmentStatus;
+use App\Models\Assignment;
 use App\Models\Draft;
 use Illuminate\Http\Request;
 
@@ -35,7 +37,13 @@ class DraftController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $assignment = Assignment::where('id', $request['assignmentId'])->first();
+        $assignable = $assignment->assignable;
+        $draft = $assignable->createDraft($assignment->user_id, $assignment->id);
+        $assignment->status = AssignmentStatus::STARTED;
+        $assignment->save();
+        
+        return redirect()->route('editor.drafts.edit', [$draft->id]);
     }
 
     /**
@@ -57,7 +65,9 @@ class DraftController extends Controller
      */
     public function edit(Draft $draft)
     {
-        //
+        return inertia('Editor/Drafts/Edit', [
+            'draft' => $draft
+        ]);
     }
 
     /**

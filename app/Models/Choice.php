@@ -2,15 +2,17 @@
 
 namespace App\Models;
 
+use App\Traits\Draftable;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
+use Illuminate\Database\Eloquent\Relations\MorphOne;
 use Venturecraft\Revisionable\RevisionableTrait as HasRevisions;
 
 class Choice extends Model
 {
-    use HasFactory, HasRevisions;
+    use Draftable, HasFactory, HasRevisions;
 
     protected $guarded = ['id'];
 
@@ -27,5 +29,10 @@ class Choice extends Model
     public function assignments(): MorphMany
     {
         return $this->morphMany(Assignment::class, 'assignable');
+    }
+
+    public function draft(): MorphOne
+    {
+        return $this->morphOne(Draft::class, 'draftable');
     }
 }

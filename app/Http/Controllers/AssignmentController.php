@@ -67,7 +67,7 @@ class AssignmentController extends Controller
     public function show(Assignment $assignment)
     {
         return inertia('Editor/Assignments/Show', [
-            'assignment' => $assignment->load(['assignable', 'user'])
+            'assignment' => $assignment->load(['assignable', 'draft', 'user'])
         ]);
     }
 
