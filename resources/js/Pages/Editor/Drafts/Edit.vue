@@ -1,12 +1,19 @@
 <script setup>
+import { ref, watch } from 'vue';
 import { Head } from '@inertiajs/inertia-vue3';
+import { Inertia } from '@inertiajs/inertia';
 import AdminLayout from '@/Layouts/Admin.vue';
 import InputWithLabel from '@/Components/InputWithLabel.vue';
 import TextEditorWithLabel from '@/Components/TextEditorWithLabel.vue';
+import PrimaryButtonWithSelect from '@/Components/PrimaryButtonWithSelect.vue'
 
-defineProps({
+const props = defineProps({
     draft: Object
 });
+
+const save = () => {
+    Inertia.put(route('editor.drafts.update', [props.draft.id]), props.draft);
+}
 </script>
 
 <template>
@@ -14,7 +21,15 @@ defineProps({
 
     <AdminLayout>
         <div class="w-full py-8 px-4 sm:px-6 lg:px-8">
-            <h3 class="text-lg leading-6 font-medium text-gray-900"> Draft: {{ draft.old_name }} </h3>
+            <div class="-mt-2 flex items-center justify-between flex-wrap sm:flex-nowrap">
+                <div>
+                    <h3 class="text-lg leading-6 font-medium text-gray-900"> Draft: {{ draft.old_name }} </h3>
+                </div>
+                <div class="space-x-2">
+                    <PrimaryButtonWithSelect action="Save Draft" @save="save" />
+                </div>
+            </div>
+            
             <div class="mt-4 bg-white rounded-md shadow">
                 <form @submit.prevent="submit" class="sm:divide-y sm:divide-gray-200">
                     <InputWithLabel label="Name" v-model="draft.new_name" :message="draft.errors?.new_name" />

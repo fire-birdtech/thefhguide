@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Enums\AssignmentStatus;
+use App\Http\Requests\DraftSaveRequest;
 use App\Models\Assignment;
 use App\Models\Draft;
 use Illuminate\Http\Request;
@@ -77,9 +78,19 @@ class DraftController extends Controller
      * @param  \App\Models\Draft  $draft
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Draft $draft)
+    public function update(DraftSaveRequest $request, Draft $draft)
     {
-        //
+        $draft->update([
+            'new_name' => $request['new_name'],
+            'new_summary' => $request['new_summary'],
+            'new_instructions' => $request['new_instructions'],
+            'new_resources' => $request['new_resources'],
+            'new_review' => $request['new_review'],
+            'new_exercises' => $request['new_exercises'],
+        ]);
+        // $draft->save();
+        
+        return redirect()->route('editor.dashboard');
     }
 
     /**
