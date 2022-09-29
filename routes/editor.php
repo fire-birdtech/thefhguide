@@ -25,4 +25,6 @@ Route::group([
     Route::resource('choices', ChoiceController::class)->except(['index']);
     Route::get('assignment/{assignment}', [AssignmentController::class, 'show'])->name('assignments.show');
     Route::resource('drafts', DraftController::class);
+    Route::put('drafts/{draft}/publish', [DraftController::class, 'publish'])->name('drafts.publish');
+    Route::post('drafts/{draft}/publish', [DraftController::class, 'notify'])->name('drafts.notify');
 });

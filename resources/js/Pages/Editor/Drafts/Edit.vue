@@ -5,15 +5,36 @@ import { Inertia } from '@inertiajs/inertia';
 import AdminLayout from '@/Layouts/Admin.vue';
 import InputWithLabel from '@/Components/InputWithLabel.vue';
 import TextEditorWithLabel from '@/Components/TextEditorWithLabel.vue';
-import PrimaryButtonWithSelect from '@/Components/PrimaryButtonWithSelect.vue'
+import PrimaryButtonWithDropdown from '@/Components/PrimaryButtonWithDropdown.vue';
+import PublishModal from '@/Components/PublishModal.vue';
+import { DialogTitle } from '@headlessui/vue';
 
 const props = defineProps({
-    draft: Object
+    draft: Object,
+    userCanPublish: Boolean
 });
+const open = ref(false);
 
+const confirm = () => {
+    open.value = true;
+}
+const close = () => {
+    open.value =  false;
+}
 const save = () => {
     Inertia.put(route('editor.drafts.update', [props.draft.id]), props.draft);
 }
+const publish = () => {
+    Inertia.put(route('editor.drafts.publish', [props.draft.id]), props.draft);
+}
+const notify = () => {
+    Inertia.post(route('editor.drafts.notify', [props.draft.id]));
+}
+
+const options = [
+    { name: 'Publish Draft', show: props.userCanPublish, action: 'publish' },
+    { name: 'Ready for Publish', show: !props.userCanPublish, action: 'notify' }
+];
 </script>
 
 <template>
@@ -21,12 +42,12 @@ const save = () => {
 
     <AdminLayout>
         <div class="w-full py-8 px-4 sm:px-6 lg:px-8">
-            <div class="-mt-2 flex items-center justify-between flex-wrap sm:flex-nowrap">
+            <div class="flex items-center justify-between flex-wrap sm:flex-nowrap">
                 <div>
                     <h3 class="text-lg leading-6 font-medium text-gray-900"> Draft: {{ draft.old_name }} </h3>
                 </div>
                 <div class="space-x-2">
-                    <PrimaryButtonWithSelect action="Save Draft" @save="save" />
+                    <PrimaryButtonWithDropdown action="Save Draft" @save="save" @publish="confirm" @notify="notify" :options="options" />
                 </div>
             </div>
             
@@ -46,5 +67,14 @@ const save = () => {
                 </form>
             </div>
         </div>
+
+        <Teleport to="body">
+            <PublishModal :open="open" @close="close" @publish="publish">
+                <DialogTitle as="h3" class="text-lg leading-6 font-medium text-gray-900"> Publish Draft </DialogTitle>
+                <div class="mt-2">
+                    <p class="text-sm text-gray-500">Hooray! You're ready to publish this draft. Please click the publish button to confirm this action.</p>
+                </div>
+            </PublishModal>
+        </Teleport>
     </AdminLayout>
 </template>

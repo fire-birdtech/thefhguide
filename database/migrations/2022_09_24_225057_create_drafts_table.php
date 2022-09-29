@@ -31,6 +31,7 @@ return new class extends Migration
             $table->text('new_review')->nullable();
             $table->text('old_exercises')->nullable();
             $table->text('new_exercises')->nullable();
+            $table->timestamp('publish_date')->nullable();
             $table->timestamps();
         });
     }

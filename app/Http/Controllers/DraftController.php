@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Enums\AssignmentStatus;
+use App\Http\Requests\DraftPublishRequest;
 use App\Http\Requests\DraftSaveRequest;
 use App\Models\Assignment;
 use App\Models\Draft;
@@ -64,10 +65,11 @@ class DraftController extends Controller
      * @param  \App\Models\Draft  $draft
      * @return \Illuminate\Http\Response
      */
-    public function edit(Draft $draft)
+    public function edit(Draft $draft, Request $request)
     {
         return inertia('Editor/Drafts/Edit', [
-            'draft' => $draft
+            'draft' => $draft,
+            'userCanPublish' => $request->user()->can('publish content')
         ]);
     }
 
@@ -88,9 +90,50 @@ class DraftController extends Controller
             'new_review' => $request['new_review'],
             'new_exercises' => $request['new_exercises'],
         ]);
-        // $draft->save();
         
         return redirect()->route('editor.dashboard');
+    }
+
+    /**
+     * Publish the specified draft to its draftable model
+     * 
+     * @param \Illuminate\Http\Request  $request
+     * @param \App\Models\Draft  $draft
+     */
+    public function publish(DraftPublishRequest $request, Draft $draft)
+    {
+        $draftable = $draft->draftable;
+        if (isset($draftable->name)) {
+            $draftable->name = $request['new_name'];
+        }
+        if (isset($draftable->summary)) {
+            $draftable->summary = $request['new_summary'];
+        }
+        if (isset($draftable->instructions)) {
+            $draftable->instructions = $request['new_instructions'];
+        }
+        if (isset($draftable->resources)) {
+            $draftable->resources = $request['new_resources'];
+        }
+        if (isset($draftable->review)) {
+            $draftable->review = $request['new_review'];
+        }
+        if (isset($draftable->exercises)) {
+            $draftable->exercises = $request['new_exercises'];
+        }
+
+        $draftable->save();
+
+        $draft->update([ 'publish_date' => now() ]);
+
+        $draft->assignment->update([ 'status' => AssignmentStatus::PUBLISHED ]);
+
+        return redirect()->route('editor.dashboard');
+    }
+
+    public function notify(Request $request)
+    {
+        return "Ready for Publish!";
     }
 
     /**
