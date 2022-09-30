@@ -19,6 +19,15 @@ class Collection extends Model
     protected $guarded = ['id'];
 
     /**
+     * The attributes that should be cast.
+     *
+     * @var array<string, string>
+     */
+    protected $casts = [
+        'locked' => 'boolean'
+    ];
+
+    /**
      * Get the options for generating the slug.
      */
     public function getSlugOptions(): SlugOptions

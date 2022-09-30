@@ -39,6 +39,15 @@ class Project extends Model
 
     protected $guarded = ['id'];
 
+    /**
+     * The attributes that should be cast.
+     *
+     * @var array<string, string>
+     */
+    protected $casts = [
+        'locked' => 'boolean'
+    ];
+
     public function collection(): BelongsTo
     {
         return $this->belongsTo(Collection::class);

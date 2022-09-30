@@ -17,6 +17,15 @@ class Choice extends Model
     protected $guarded = ['id'];
 
     /**
+     * The attributes that should be cast.
+     *
+     * @var array<string, string>
+     */
+    protected $casts = [
+        'locked' => 'boolean'
+    ];
+
+    /**
      * The method for retrieving the goal which the model belongs to
      * 
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
