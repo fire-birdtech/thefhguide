@@ -1,13 +1,17 @@
 <script setup>
 import { ref } from 'vue';
-import AdminLayout from  '@/Layouts/Admin';
-import { Head, Link } from '@inertiajs/inertia-vue3';
-import PrimaryButton from '@/Components/PrimaryButton';
-import SecondaryButton from '@/Components/SecondaryButton';
+import { DialogTitle } from '@headlessui/vue';
 import { DocumentPlusIcon, EyeIcon, PencilSquareIcon, TrashIcon } from '@heroicons/vue/24/outline';
 import { Inertia } from '@inertiajs/inertia';
+import { Head, Link } from '@inertiajs/inertia-vue3';
+import AdminLayout from  '@/Layouts/Admin';
 import DeleteModal from '@/Components/DeleteModal';
-import { DialogTitle } from '@headlessui/vue';
+import PrimaryButton from '@/Components/PrimaryButton';
+import SecondaryButton from '@/Components/SecondaryButton';
+import TableHeader from '@/Components/Tables/TableHeader.vue';
+import Table from '@/Components/Tables/Table.vue';
+import TableHead from '@/Components/Tables/TableHead.vue';
+import TableBody from '@/Components/Tables/TableBody.vue';
 
 const props = defineProps({
     goal: Object,
@@ -20,6 +24,10 @@ const close = () => {
 }
 const destroy = () => {
     Inertia.delete(route('editor.goals.destroy', [props.goal.slug]));
+}
+
+const cells = {
+    name: 'Name'
 }
 </script>
 
@@ -71,49 +79,11 @@ const destroy = () => {
                     </dl>
                 </div>
                 <div class="mt-12">
-                    <div class="-ml-4 -mt-2 flex items-center justify-between flex-wrap sm:flex-nowrap">
-                        <div class="ml-4 mt-2">
-                            <h3 class="text-lg leading-6 font-medium text-gray-900"> Choices </h3>
-                        </div>
-                        <div class="ml-4 mt-2 space-x-2">
-                            <PrimaryButton :href="`${route('editor.choices.create')}?goal=${goal.id}`" as="link"> Add choice </PrimaryButton>
-                        </div>
-                    </div>
-                    <div class="mt-4 flex flex-col">
-                        <div class="-my-2 -mx-4 overflow-x-auto sm:-mx-6 lg:-mx-8">
-                            <div class="inline-block min-w-full py-2 align-middle md:px-6 lg:px-8">
-                                <div class="overflow-hidden shadow ring-1 ring-black ring-opacity-5 md:rounded-lg">
-                                    <table class="min-w-full divide-y divide-gray-300">
-                                        <thead class="bg-gray-50">
-                                            <tr>
-                                                <th scope="col" class="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-6">Name</th>
-                                                <th scope="col" class="relative py-3.5 pl-3 pr-4 sm:pr-6">
-                                                    <span class="sr-only">Manage</span>
-                                                </th>
-                                            </tr>
-                                        </thead>
-                                        <tbody class="bg-white">
-                                            <tr v-for="(choice, choiceIdx) in goal.choices" :key="choice.id" :class="choiceIdx % 2 === 0 ? undefined : 'bg-gray-50'">
-                                                <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-semibold text-gray-900 hover:text-gray-700 sm:pl-6">
-                                                    <Link :href="route('editor.choices.show', [choice.id])">{{ choice.name }}</Link>
-                                                </td>
-                                                <td class="flex justify-end whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium space-x-2 sm:pr-6">
-                                                    <Link :href="route('editor.choices.show', [choice.id])" class="text-indigo-600 hover:text-indigo-900">
-                                                        <EyeIcon class="h-6 w-6" />
-                                                        <span class="sr-only">View {{ choice.name }}</span>
-                                                    </Link>
-                                                    <Link :href="route('editor.choices.edit', [choice.id])" class="text-indigo-600 hover:text-indigo-900">
-                                                        <PencilSquareIcon class="h-6 w-6" />
-                                                        <span class="sr-only">Edit {{ choice.name }}</span>
-                                                    </Link>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <TableHeader header="Choices" addText="Add choice" :addLink="`${route(`editor.choices.create`)}?goal=${goal.id}`" />
+                    <Table class="mt-2">
+                        <TableHead :cells="cells" :actions="true" />
+                        <TableBody :cells="cells" :rows="goal.choices" routeType="choices" />
+                    </Table>
                 </div>
             </div>
         </div>

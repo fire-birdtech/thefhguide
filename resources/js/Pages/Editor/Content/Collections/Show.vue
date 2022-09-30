@@ -1,12 +1,16 @@
 <script setup>
 import { ref } from 'vue';
-import AdminLayout from '@/Layouts/Admin';
-import { Head, Link } from '@inertiajs/inertia-vue3';
-import SecondaryButton from '@/Components/SecondaryButton';
-import { DocumentPlusIcon, EyeIcon, PencilSquareIcon, TrashIcon } from '@heroicons/vue/24/outline';
-import { Inertia } from '@inertiajs/inertia';
-import DeleteModal from '@/Components/DeleteModal';
 import { DialogTitle } from '@headlessui/vue';
+import { DocumentPlusIcon, PencilSquareIcon, TrashIcon } from '@heroicons/vue/24/outline';
+import { Inertia } from '@inertiajs/inertia';
+import { Head, Link } from '@inertiajs/inertia-vue3';
+import AdminLayout from '@/Layouts/Admin';
+import DeleteModal from '@/Components/DeleteModal';
+import SecondaryButton from '@/Components/SecondaryButton';
+import TableHeader from '@/Components/Tables/TableHeader.vue';
+import Table from '@/Components/Tables/Table.vue';
+import TableHead from '@/Components/Tables/TableHead.vue';
+import TableBody from '@/Components/Tables/TableBody.vue';
 
 const props = defineProps({
     collection: Object,
@@ -19,6 +23,10 @@ const close = () => {
 }
 const destroy = () => {
     Inertia.delete(route('editor.collections.destroy', [props.collection.slug]));
+}
+
+const cells = {
+    name: 'Name'
 }
 </script>
 
@@ -58,46 +66,11 @@ const destroy = () => {
             </div>
 
             <div class="mt-12">
-                <div class="sm:flex sm:items-center">
-                    <div class="sm:flex-auto">
-                        <h3 class="text-lg leading-6 font-medium text-gray-900">Projects</h3>
-                    </div>
-                </div>
-                <div class="mt-4 flex flex-col">
-                    <div class="-my-2 -mx-4 overflow-x-auto sm:-mx-6 lg:-mx-8">
-                        <div class="inline-block min-w-full py-2 align-middle md:px-6 lg:px-8">
-                            <div class="overflow-hidden shadow ring-1 ring-black ring-opacity-5 md:rounded-lg">
-                                <table class="min-w-full divide-y divide-gray-300">
-                                    <thead class="bg-gray-50">
-                                        <tr>
-                                            <th scope="col" class="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-6">Name</th>
-                                            <th scope="col" class="relative py-3.5 pl-3 pr-4 sm:pr-6">
-                                                <span class="sr-only">Manage</span>
-                                            </th>
-                                        </tr>
-                                    </thead>
-                                    <tbody class="bg-white">
-                                        <tr v-for="(project, projectIdx) in collection.projects" :key="project.id" :class="projectIdx % 2 === 0 ? undefined : 'bg-gray-50'">
-                                            <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-semibold text-gray-900 hover:text-gray-700 sm:pl-6">
-                                                <Link :href="route('editor.projects.show', [project.slug])">{{ project.name }}</Link>
-                                            </td>
-                                            <td class="flex justify-end whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium space-x-2 sm:pr-6">
-                                                <Link :href="route('editor.projects.show', [project.slug])" class="text-indigo-600 hover:text-indigo-900">
-                                                    <EyeIcon class="h-6 w-6" />
-                                                    <span class="sr-only">View {{ project.name }}</span>
-                                                </Link>
-                                                <Link :href="route('editor.projects.edit', [project.slug])" class="text-indigo-600 hover:text-indigo-900">
-                                                    <PencilSquareIcon class="h-6 w-6" />
-                                                    <span class="sr-only">Edit {{ project.name }}</span>
-                                                </Link>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <TableHeader header="Projects" addText="Add project" :addLink="`${route(`editor.projects.create`)}?collection=${collection.id}`" />
+                <Table class="mt-2">
+                    <TableHead :cells="cells" :actions="true" />
+                    <TableBody :cells="cells" :rows="collection.projects" routeType="projects" />
+                </Table>
             </div>
         </div>
 
