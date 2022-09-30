@@ -45,6 +45,8 @@ class DraftController extends Controller
         $assignable = $assignment->assignable;
         $draft = $assignable->createDraft($assignment->user_id, $assignment->id);
         $assignment->status = AssignmentStatus::STARTED;
+        $assignable->timestamps = false;
+        $assignable->update(['locked' => true]);
         $assignment->save();
         
         return redirect()->route('editor.drafts.edit', [$draft->id]);
