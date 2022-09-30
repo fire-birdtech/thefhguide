@@ -109,7 +109,7 @@ class DraftController extends Controller
      * @param \App\Models\Draft  $draft
      */
     public function publish(DraftPublishRequest $request, Draft $draft)
-    {return $request;
+    {
         $draftable = $draft->draftable;
         if (isset($draftable->name)) {
             $draftable->name = $request['new_name'];
@@ -129,6 +129,8 @@ class DraftController extends Controller
         if (isset($draftable->exercises)) {
             $draftable->exercises = $request['new_exercises'];
         }
+        $draftable->timestamps = false;
+        $draftable->locked = false;
 
         $draftable->save();
 
