@@ -7,6 +7,8 @@ use App\Http\Requests\DraftPublishRequest;
 use App\Http\Requests\DraftSaveRequest;
 use App\Models\Assignment;
 use App\Models\Draft;
+use App\Models\User;
+use App\Notifications\DraftReady;
 use Illuminate\Http\Request;
 
 class DraftController extends Controller
@@ -131,9 +133,14 @@ class DraftController extends Controller
         return redirect()->route('editor.dashboard');
     }
 
-    public function notify(Request $request)
+    public function notify(Request $request, Draft $draft)
     {
-        return "Ready for Publish!";
+        $admins = User::role('admin')->get();
+        foreach ($admins as $admin) {
+            $admin->notify(new DraftReady($draft));
+        }
+
+        return redirect()->route('editor.dashboard');
     }
 
     /**
