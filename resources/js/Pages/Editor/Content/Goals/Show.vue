@@ -38,11 +38,11 @@ const destroy = () => {
                             <DocumentPlusIcon class="h-5 w-5" aria-hidden="true" />
                             <span class="sr-only">Add assignment to {{ goal.name }}</span>
                         </SecondaryButton>
-                        <SecondaryButton @click="open = true" title="Delete goal">
+                        <SecondaryButton @click="open = true" :locked="goal.locked" title="Delete goal">
                             <TrashIcon class="h-5 w-5" aria-hidden="true" />
                             <span class="sr-only">Delete {{ goal.name }}</span>
                         </SecondaryButton>
-                        <SecondaryButton :href="route('editor.goals.edit', [goal.slug])" as="link" title="Edit goal">
+                        <SecondaryButton :href="route('editor.goals.edit', [goal.slug])" :locked="goal.locked" as="link" title="Edit goal">
                             <PencilSquareIcon class="h-5 w-5" aria-hidden="true" />
                             <span class="sr-only">Edit {{ goal.name }}</span>
                         </SecondaryButton>

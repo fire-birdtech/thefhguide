@@ -37,11 +37,11 @@ const destroy = () => {
                             <DocumentPlusIcon class="h-5 w-5" aria-hidden="true" />
                             <span class="sr-only">Add assignment to {{ collection.name }}</span>
                         </SecondaryButton>
-                        <SecondaryButton @click="open = true">
+                        <SecondaryButton @click="open = true" :locked="collection.locked">
                             <TrashIcon class="h-5 w-5" aria-hidden="true" />
                             <span class="sr-only">Delete {{ collection.name }}</span>
                         </SecondaryButton>
-                        <SecondaryButton :href="route('editor.collections.edit', [collection.slug])" as="link">
+                        <SecondaryButton :href="route('editor.collections.edit', [collection.slug])" :locked="collection.locked" as="link">
                             <PencilSquareIcon class="h-5 w-5" aria-hidden="true" />
                             <span class="sr-only">Edit {{ collection.name }}</span>
                         </SecondaryButton>
