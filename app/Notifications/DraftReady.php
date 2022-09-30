@@ -42,7 +42,8 @@ class DraftReady extends Notification
         return [
             'message' => "Updates by {$this->draft->user->name} are ready to publish for",
             'draftable' => $this->draft->draftable->name,
-            'link' => route('editor.drafts.edit', $this->draft->id),
+            'draft' => $this->draft->id,
+            'notification' => $this->id
         ];
     }
 }

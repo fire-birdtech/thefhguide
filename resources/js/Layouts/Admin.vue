@@ -7,6 +7,8 @@ import BreezeNavLink from '@/Components/NavLink.vue';
 import BreezeResponsiveNavLink from '@/Components/ResponsiveNavLink.vue';
 import { Link } from '@inertiajs/inertia-vue3';
 import VerticalNav from '@/Components/Navigation/Vertical.vue';
+import { BellIcon } from '@heroicons/vue/24/outline';
+import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue'
 
 defineProps({
     type: {
@@ -40,6 +42,24 @@ const showingNavigationDropdown = ref(false);
                         </div>
 
                         <div class="hidden sm:flex sm:items-center sm:ml-6">
+                            <Menu as="div" class="relative inline-block text-left">
+                                <div>
+                                    <MenuButton class="flex items-center rounded-full text-gray-400 hover:text-gray-600 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                                        <span class="sr-only">View notifications</span>
+                                        <BellIcon class="h-6 w-6" aria-hidden="true" />
+                                    </MenuButton>
+                                </div>
+
+                                <transition enter-active-class="transition ease-out duration-100" enter-from-class="transform opacity-0 scale-95" enter-to-class="transform opacity-100 scale-100" leave-active-class="transition ease-in duration-75" leave-from-class="transform opacity-100 scale-100" leave-to-class="transform opacity-0 scale-95">
+                                    <MenuItems class="absolute right-0 z-10 mt-2 w-72 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+                                        <div class="py-1">
+                                            <MenuItem v-for="notification in $page.props.notifications" :key="notification.div" v-slot="{ active }">
+                                                <Link :href="route('notifications.read', [notification])" :class="[active ? 'bg-gray-100 text-gray-900' : 'text-gray-700', notification.read_at === null ? 'font-bold' : 'font-normal', 'block px-4 py-3 text-xs']">{{ notification.data.message }} {{ notification.data.draftable }}</Link>
+                                            </MenuItem>
+                                        </div>
+                                    </MenuItems>
+                                </transition>
+                            </Menu>
                             <!-- Settings Dropdown -->
                             <div class="ml-3 relative">
                                 <BreezeDropdown align="right" width="48">

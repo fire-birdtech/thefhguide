@@ -92,6 +92,10 @@ class DraftController extends Controller
             'new_review' => $request['new_review'],
             'new_exercises' => $request['new_exercises'],
         ]);
+
+        if ($request->user()->hasRole('admin')) {
+            return redirect()->route('admin.dashboard');
+        }
         
         return redirect()->route('editor.dashboard');
     }
@@ -103,7 +107,7 @@ class DraftController extends Controller
      * @param \App\Models\Draft  $draft
      */
     public function publish(DraftPublishRequest $request, Draft $draft)
-    {
+    {return $request;
         $draftable = $draft->draftable;
         if (isset($draftable->name)) {
             $draftable->name = $request['new_name'];
@@ -129,6 +133,10 @@ class DraftController extends Controller
         $draft->update([ 'publish_date' => now() ]);
 
         $draft->assignment->update([ 'status' => AssignmentStatus::PUBLISHED ]);
+
+        if ($request->user()->hasRole('admin')) {
+            return redirect()->route('admin.dashboard');
+        }
 
         return redirect()->route('editor.dashboard');
     }
