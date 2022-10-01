@@ -34,7 +34,7 @@ const cells = {
                 </div>
             </header>
 
-            <div class="mt-6">
+            <div v-if="assignments.length" class="mt-6">
                 <TableHeader header="Assignments" />
                 <Table class="mt-2">
                     <TableHead :cells="cells" :actions="false" />
