@@ -42,7 +42,7 @@ const cells = {
                 </Table>
             </div>
 
-            <div v-if="drafts" class="mt-6">
+            <div v-if="drafts.length" class="mt-6">
                 <h3 class="leading-6 font-medium text-gray-900"> Drafts </h3>
                 <div class="mt-2">
                     <DraftList :drafts="drafts" />
