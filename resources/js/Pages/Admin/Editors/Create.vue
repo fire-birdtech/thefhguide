@@ -31,7 +31,7 @@ const submit = () => {
 <template>
     <Head title="Admin - Invite Editor" />
 
-    <AdminLayout type="admin">
+    <AdminLayout>
         <div class="w-full py-8 px-4 sm:px-6 lg:px-8">
             <h3 class="text-lg leading-6 font-medium text-gray-900"> Invite Admin or Editor </h3>
             <div class="mt-4 bg-white rounded-md shadow">

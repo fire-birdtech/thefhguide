@@ -34,7 +34,7 @@ const cells = {
 <template>
     <Head :title="`Admin - Projects - ${project.name}`" />
 
-    <AdminLayout type="admin">
+    <AdminLayout>
         <div class="w-full py-8 px-4 sm:px-6 lg:px-8">
             <div class="-ml-4 -mt-2 flex items-center justify-between flex-wrap sm:flex-nowrap">
                 <div class="ml-4 mt-2">
