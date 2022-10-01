@@ -17,7 +17,10 @@ Route::group([
     'as' => 'editor.'
 ], function () {
     Route::get('dashboard', fn () => inertia('Editor/Dashboard', [
-        'assignments' => Assignment::where('user_id', auth()->user()->id)->with('assignable')->get(),
+        'assignments' => Assignment::where([
+            ['user_id', auth()->user()->id],
+            ['status', '!=', 'published']
+        ])->with('assignable')->get(),
         'drafts' => Draft::where([
             ['user_id', auth()->user()->id],
             ['publish_date', null]
