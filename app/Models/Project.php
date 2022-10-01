@@ -3,6 +3,7 @@
 namespace App\Models;
 
 use App\Traits\Draftable;
+use App\Traits\HasCoverImage;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
@@ -15,7 +16,7 @@ use Venturecraft\Revisionable\RevisionableTrait as HasRevisions;
 
 class Project extends Model
 {
-    use Draftable, HasFactory, HasRevisions, HasSlug;
+    use Draftable, HasCoverImage, HasFactory, HasRevisions, HasSlug;
 
     /**
      * Get the options for generating the slug.
@@ -46,6 +47,15 @@ class Project extends Model
      */
     protected $casts = [
         'locked' => 'boolean'
+    ];
+
+    /**
+     * The accessors to append to the model's array form.
+     *
+     * @var array
+     */
+    protected $appends = [
+        'cover_image_url',
     ];
 
     public function collection(): BelongsTo

@@ -87,8 +87,9 @@ class ProjectController extends Controller
         $project->name = $request->name;
         $project->save();
 
-        $collection = Collection::find($request->collection['id']);
-        $collection->projects()->save($project);
+        if (isset($request['image'])) {
+            $project->updateCoverImage($request['image']);
+        }
 
         return redirect()->route('editor.projects.show', [$project->slug]);
     }

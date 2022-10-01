@@ -1,12 +1,13 @@
 <script setup>
 import { ref, watch } from 'vue';
 import AdminLayout from '@/Layouts/Admin';
-import { Head } from '@inertiajs/inertia-vue3';
+import { Head, useForm } from '@inertiajs/inertia-vue3';
 import BreezeInput from '@/Components/Input';
 import BreezeInputError from '@/Components/InputError';
 import BreezeLabel from '@/Components/Label';
 import PrimaryButton from '@/Components/PrimaryButton';
 import SecondaryButton from '@/Components/SecondaryButton';
+import SecondaryButtonSmall from '@/Components/Buttons/SecondaryButtonSmall.vue';
 import { Listbox, ListboxButton, ListboxLabel, ListboxOption, ListboxOptions } from '@headlessui/vue';
 import { CheckIcon, ChevronUpDownIcon } from '@heroicons/vue/24/solid';
 import { Inertia } from '@inertiajs/inertia';
@@ -16,6 +17,25 @@ const props = defineProps({
     project: Object,
 });
 
+const form = useForm({
+    _method: 'PUT',
+    name: props.project.name,
+    image: null
+});
+
+const photoPreview = ref(null);
+const photoInput = ref(null);
+
+const updatePhotoPreview = () => {
+    const photo = photoInput.value.files[0];
+    if (! photo) return;
+    const reader = new FileReader();
+    reader.onload = (e) => {
+        photoPreview.value = e.target.result;
+    };
+    reader.readAsDataURL(photo);
+};
+
 const selected = ref(props.collections[
     props.collections.findIndex(
         collection => collection.id === props.project.collection.id
@@ -23,7 +43,10 @@ const selected = ref(props.collections[
 ]);
 
 const submit = () => {
-    Inertia.put(route('editor.projects.update', [props.project.slug]), props.project);
+    if (photoInput.value) {
+        form.image = photoInput.value.files[0];
+    } 
+    form.post(route('editor.projects.update', [props.project.slug]));
 }
 
 watch(selected, (newSelected, oldSelected) => {
@@ -43,6 +66,30 @@ watch(selected, (newSelected, oldSelected) => {
                         <BreezeLabel for="name" value="Project name" class="sm:mt-px sm:pt-2" />
                         <div class="mt-1 sm:mt-0 sm:col-span-4">
                             <BreezeInput type="text" v-model="project.name" id="name" class="block w-full" />
+                            <BreezeInputError class="mt-1" :message="project.errors?.name" />
+                        </div>
+                    </div>
+                    <div class="px-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:items-start sm:border-t sm:border-gray-200 sm:py-4">
+                        <BreezeLabel for="cover" value="Cover image" class="sm:mt-px sm:pt-2" />
+                        <div class="mt-1 sm:mt-0 sm:col-span-4">
+                            <input ref="photoInput" type="file" class="hidden" @change="updatePhotoPreview">
+                            <div v-show="! photoPreview">
+                                <img :src="project.cover_image_url" class="block w-full h-72 rounded-lg bg-cover bg-no-repeat bg-center object-cover pointer-events-none">
+                            </div>
+                            <div v-show="photoPreview" class="mt-2">
+                                <span
+                                    class="block w-full h-72 rounded-lg bg-cover bg-no-repeat bg-center"
+                                    :style="'background-image: url(\'' + photoPreview + '\');'"
+                                />
+                            </div>
+                            <div class="mt-3 space-x-4">
+                                <SecondaryButtonSmall @click.prevent="$refs.photoInput.click()">
+                                    Select A New Cover Image
+                                </SecondaryButtonSmall>
+                                <SecondaryButtonSmall @click.prevent="deleteCoverImage" v-if="project.cover_image_path">
+                                    Remove Cover Image
+                                </SecondaryButtonSmall>
+                            </div>
                             <BreezeInputError class="mt-1" :message="project.errors?.name" />
                         </div>
                     </div>
