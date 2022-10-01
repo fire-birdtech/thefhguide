@@ -25,7 +25,7 @@ class ProjectRequest extends FormRequest
     {
         return [
             'name' => 'string|required',
-            'collection' => 'required',
+            'collection_id' => 'integer|required',
         ];
     }
 }

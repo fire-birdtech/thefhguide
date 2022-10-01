@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Requests\ProjectRequest;
 use App\Models\Collection;
 use App\Models\Project;
+use Illuminate\Http\Request;
 
 class ProjectController extends Controller
 {
@@ -25,11 +26,11 @@ class ProjectController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function create(Request $request)
     {
         $collections = Collection::orderBy('name', 'asc')->get();
         return inertia('Editor/Content/Projects/Create', [
-            'collections' => $collections,
+            'collection' => $request->collection,
         ]);
     }
 
@@ -41,10 +42,9 @@ class ProjectController extends Controller
      */
     public function store(ProjectRequest $request)
     {
-        $collection = Collection::find($request->collection['id']);
-        $collection->projects()->save(new Project($request->validated()));
+        $project = Project::create($request->validated());
 
-        return redirect()->route('editor.projects.index');
+        return redirect()->route('editor.projects.show', [$project->slug]);
     }
 
     /**
