@@ -7,9 +7,11 @@ import TableHeader from '@/Components/Tables/TableHeader.vue';
 import Table from '@/Components/Tables/Table.vue';
 import TableHead from '@/Components/Tables/TableHead.vue';
 import TableBody from '@/Components/Tables/TableBody.vue';
+import DraftList from '@/Components/Drafts/DraftList.vue';
 
 defineProps({
-    assignments: Array
+    assignments: Array,
+    drafts: Array
 });
 
 const cells = {
@@ -38,6 +40,13 @@ const cells = {
                     <TableHead :cells="cells" :actions="false" />
                     <TableBody :cells="cells" :rows="assignments" routeType="assignments" :actions="false" />
                 </Table>
+            </div>
+
+            <div v-if="drafts" class="mt-6">
+                <h3 class="leading-6 font-medium text-gray-900"> Drafts </h3>
+                <div class="mt-2">
+                    <DraftList :drafts="drafts" />
+                </div>
             </div>
         </div>
     </AdminLayout>

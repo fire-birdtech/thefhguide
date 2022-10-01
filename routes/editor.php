@@ -8,6 +8,7 @@ use App\Http\Controllers\DraftController;
 use App\Http\Controllers\GoalController;
 use App\Http\Controllers\ProjectController;
 use App\Models\Assignment;
+use App\Models\Draft;
 use Illuminate\Support\Facades\Route;
 
 Route::group([
@@ -16,7 +17,11 @@ Route::group([
     'as' => 'editor.'
 ], function () {
     Route::get('dashboard', fn () => inertia('Editor/Dashboard', [
-        'assignments' => Assignment::where('user_id', auth()->user()->id)->with('assignable')->get()
+        'assignments' => Assignment::where('user_id', auth()->user()->id)->with('assignable')->get(),
+        'drafts' => Draft::where([
+            ['user_id', auth()->user()->id],
+            ['publish_date', null]
+        ])->get()
     ]))->name('dashboard');
     Route::get('content', [ContentController::class, 'index'])->name('content.index');
     Route::resource('collections', CollectionController::class);
