@@ -1,12 +1,14 @@
 <script setup>
 import { ref } from 'vue';
-import AdminLayout from '@/Layouts/Admin';
-import { Head, Link } from '@inertiajs/inertia-vue3';
-import SecondaryButton from '@/Components/SecondaryButton';
-import { DocumentPlusIcon, EyeIcon, PencilSquareIcon, TrashIcon } from '@heroicons/vue/24/outline';
-import { Inertia } from '@inertiajs/inertia';
-import DeleteModal from '@/Components/DeleteModal';
 import { DialogTitle } from '@headlessui/vue';
+import { DocumentPlusIcon, EyeIcon, PencilSquareIcon, TrashIcon } from '@heroicons/vue/24/outline';
+import { ArchiveBoxIcon, PencilSquareIcon as PencilSquareIconSolid, PlusCircleIcon } from '@heroicons/vue/24/solid';
+import { Inertia } from '@inertiajs/inertia';
+import { Head, Link } from '@inertiajs/inertia-vue3';
+import AdminLayout from '@/Layouts/Admin';
+import SecondaryButton from '@/Components/SecondaryButton';
+import DeleteModal from '@/Components/DeleteModal';
+import SecondaryButtonWithDropdown from '@/Components/Buttons/SecondaryButtonWithDropdown.vue';
 
 const props = defineProps({
     choice: Object,
@@ -20,6 +22,16 @@ const close = () => {
 const destroy = () => {
     Inertia.delete(route('editor.choices.destroy', [props.choice.id]));
 }
+
+const actions = [
+    [
+        { name: 'Edit', as: 'link', icon: PencilSquareIconSolid, href: route('editor.goals.edit', [props.goal.slug]) },
+        { name: 'Add Assignment', as: 'link', icon: PlusCircleIcon, href: `${route('admin.assignments.create')}?assignable_id=${props.goal.id}&assignable_type=goal` }
+    ],
+    [
+        { name: 'Archive', as: 'emitter', icon: ArchiveBoxIcon, emit: 'open' }
+    ]
+];
 </script>
 
 <template>
@@ -31,19 +43,8 @@ const destroy = () => {
                 <div class="ml-4 mt-2">
                     <h3 class="text-lg leading-6 font-medium text-gray-900"> Choice Details: {{ choice.name }} </h3>
                 </div>
-                <div class="ml-4 mt-2 space-x-2">
-                    <SecondaryButton :href="`${route('admin.assignments.create')}?assignable_id=${choice.id}&assignable_type=choice`" as="link">
-                        <DocumentPlusIcon class="h-5 w-5" aria-hidden="true" />
-                        <span class="sr-only">Add assignment to {{ choice.name }}</span>
-                    </SecondaryButton>
-                    <SecondaryButton @click="open = true" :locked="choice.locked" title="Delete choice">
-                        <TrashIcon class="h-5 w-5" aria-hidden="true" />
-                        <span class="sr-only">Delete {{ choice.name }}</span>
-                    </SecondaryButton>
-                    <SecondaryButton :href="route('editor.choices.edit', [choice.id])" :locked="choice.locked" as="link" title="Edit choice">
-                        <PencilSquareIcon class="h-5 w-5" aria-hidden="true" />
-                        <span class="sr-only">Edit {{ choice.name }}</span>
-                    </SecondaryButton>
+                <div class="ml-4">
+                    <SecondaryButtonWithDropdown button-text="Options" :actions="actions" @open="open = true" />
                 </div>
             </div>
             <div class="mt-4 bg-white shadow overflow-hidden sm:rounded-lg">

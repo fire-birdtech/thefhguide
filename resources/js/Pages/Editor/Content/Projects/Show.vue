@@ -1,6 +1,8 @@
 <script setup>
 import { ref } from 'vue';
+import { Dialog, DialogPanel, DialogTitle, TransitionChild, TransitionRoot } from '@headlessui/vue';
 import { DocumentPlusIcon, EyeIcon, PencilSquareIcon, TrashIcon } from '@heroicons/vue/24/outline';
+import { ArchiveBoxIcon, PencilSquareIcon as PencilSquareIconSolid, PlusCircleIcon } from '@heroicons/vue/24/solid';
 import { Inertia } from '@inertiajs/inertia';
 import { Head, Link } from '@inertiajs/inertia-vue3';
 import AdminLayout from '@/Layouts/Admin';
@@ -12,7 +14,7 @@ import Table from '@/Components/Tables/Table.vue';
 import TableHead from '@/Components/Tables/TableHead.vue';
 import TableBody from '@/Components/Tables/TableBody.vue';
 import SecondaryButtonSmall from '@/Components/Buttons/SecondaryButtonSmall.vue';
-import { Dialog, DialogPanel, DialogTitle, TransitionChild, TransitionRoot } from '@headlessui/vue';
+import SecondaryButtonWithDropdown from '@/Components/Buttons/SecondaryButtonWithDropdown.vue';
 
 const props = defineProps({
     project: Object,
@@ -30,6 +32,15 @@ const destroy = () => {
     Inertia.delete(route('editor.projects.destroy', [props.project.slug]));
 }
 
+const actions = [
+    [
+        { name: 'Edit', as: 'link', icon: PencilSquareIconSolid, href: route('editor.projects.edit', [props.project.slug]) },
+        { name: 'Add Assignment', as: 'link', icon: PlusCircleIcon, href: `${route('admin.assignments.create')}?assignable_id=${props.project.id}&assignable_type=project` }
+    ],
+    [
+        { name: 'Archive', as: 'emitter', icon: ArchiveBoxIcon, emit: 'open' }
+    ]
+];
 const cells = {
     name: 'Name'
 }
@@ -44,19 +55,8 @@ const cells = {
                 <div class="ml-4 mt-2">
                     <h3 class="text-lg leading-6 font-medium text-gray-900"> Project Details: {{ project.name }} </h3>
                 </div>
-                <div class="ml-4 mt-2 space-x-2">
-                    <SecondaryButton :href="`${route('admin.assignments.create')}?assignable_id=${project.id}&assignable_type=project`" as="link">
-                        <DocumentPlusIcon class="h-5 w-5" aria-hidden="true" />
-                        <span class="sr-only">Add assignment to {{ project.name }}</span>
-                    </SecondaryButton>
-                    <SecondaryButton @click="open = true" :locked="project.locked">
-                        <TrashIcon class="h-5 w-5" aria-hidden="true" />
-                        <span class="sr-only">Delete {{ project.name }}</span>
-                    </SecondaryButton>
-                    <SecondaryButton :href="route('editor.projects.edit', [project.slug])" :locked="project.locked" as="link">
-                        <PencilSquareIcon class="h-5 w-5" aria-hidden="true" />
-                        <span class="sr-only">Edit {{ project.name }}</span>
-                    </SecondaryButton>
+                <div class="ml-4">
+                    <SecondaryButtonWithDropdown button-text="Options" :actions="actions" @open="open = true" />
                 </div>
             </div>
             <div class="mt-4 bg-white shadow overflow-hidden sm:rounded-lg">

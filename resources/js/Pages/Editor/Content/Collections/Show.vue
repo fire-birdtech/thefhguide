@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from 'vue';
 import { DialogTitle } from '@headlessui/vue';
-import { DocumentPlusIcon, PencilSquareIcon, TrashIcon } from '@heroicons/vue/24/outline';
+import { ArchiveBoxIcon, PencilSquareIcon, PlusCircleIcon } from '@heroicons/vue/24/solid';
 import { Inertia } from '@inertiajs/inertia';
 import { Head, Link } from '@inertiajs/inertia-vue3';
 import AdminLayout from '@/Layouts/Admin';
@@ -11,6 +11,7 @@ import TableHeader from '@/Components/Tables/TableHeader.vue';
 import Table from '@/Components/Tables/Table.vue';
 import TableHead from '@/Components/Tables/TableHead.vue';
 import TableBody from '@/Components/Tables/TableBody.vue';
+import SecondaryButtonWithDropdown from '@/Components/Buttons/SecondaryButtonWithDropdown.vue';
 
 const props = defineProps({
     collection: Object,
@@ -25,6 +26,15 @@ const destroy = () => {
     Inertia.delete(route('editor.collections.destroy', [props.collection.slug]));
 }
 
+const actions = [
+    [
+        { name: 'Edit', as: 'link', icon: PencilSquareIcon, href: route('editor.collections.edit', [props.collection.slug]) },
+        { name: 'Add Assignment', as: 'link', icon: PlusCircleIcon, href: `${route('admin.assignments.create')}?assignable_id=${props.collection.id}&assignable_type=collection` }
+    ],
+    [
+        { name: 'Archive', as: 'emitter', icon: ArchiveBoxIcon, emit: 'open' }
+    ]
+];
 const cells = {
     name: 'Name'
 }
@@ -36,23 +46,12 @@ const cells = {
     <AdminLayout>
         <div class="w-full py-8 px-4 sm:px-6 lg:px-8">
             <div>
-                <div class="-ml-4 -mt-2 flex items-center justify-between flex-wrap sm:flex-nowrap">
-                    <div class="ml-4 mt-2">
+                <div class="-ml-4 flex items-center justify-between flex-wrap sm:flex-nowrap">
+                    <div class="ml-4">
                         <h3 class="text-lg leading-6 font-medium text-gray-900"> Collection Details: {{ collection.name }} </h3>
                     </div>
-                    <div class="ml-4 mt-2 space-x-2">
-                        <SecondaryButton :href="`${route('admin.assignments.create')}?assignable_id=${collection.id}&assignable_type=collection`" as="link">
-                            <DocumentPlusIcon class="h-5 w-5" aria-hidden="true" />
-                            <span class="sr-only">Add assignment to {{ collection.name }}</span>
-                        </SecondaryButton>
-                        <SecondaryButton @click="open = true" :locked="collection.locked">
-                            <TrashIcon class="h-5 w-5" aria-hidden="true" />
-                            <span class="sr-only">Delete {{ collection.name }}</span>
-                        </SecondaryButton>
-                        <SecondaryButton :href="route('editor.collections.edit', [collection.slug])" :locked="collection.locked" as="link">
-                            <PencilSquareIcon class="h-5 w-5" aria-hidden="true" />
-                            <span class="sr-only">Edit {{ collection.name }}</span>
-                        </SecondaryButton>
+                    <div class="ml-4">
+                        <SecondaryButtonWithDropdown button-text="Options" :actions="actions" @open="open = true" />
                     </div>
                 </div>
                 <div class="mt-4 bg-white shadow overflow-hidden sm:rounded-lg">

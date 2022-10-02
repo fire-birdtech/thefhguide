@@ -2,6 +2,7 @@
 import { ref } from 'vue';
 import { DialogTitle } from '@headlessui/vue';
 import { DocumentPlusIcon, EyeIcon, PencilSquareIcon, TrashIcon } from '@heroicons/vue/24/outline';
+import { ArchiveBoxIcon, PencilSquareIcon as PencilSquareIconSolid, PlusCircleIcon } from '@heroicons/vue/24/solid';
 import { Inertia } from '@inertiajs/inertia';
 import { Head, Link } from '@inertiajs/inertia-vue3';
 import AdminLayout from  '@/Layouts/Admin';
@@ -12,6 +13,7 @@ import TableHeader from '@/Components/Tables/TableHeader.vue';
 import Table from '@/Components/Tables/Table.vue';
 import TableHead from '@/Components/Tables/TableHead.vue';
 import TableBody from '@/Components/Tables/TableBody.vue';
+import SecondaryButtonWithDropdown from '@/Components/Buttons/SecondaryButtonWithDropdown.vue';
 
 const props = defineProps({
     goal: Object,
@@ -26,6 +28,15 @@ const destroy = () => {
     Inertia.delete(route('editor.goals.destroy', [props.goal.slug]));
 }
 
+const actions = [
+    [
+        { name: 'Edit', as: 'link', icon: PencilSquareIconSolid, href: route('editor.goals.edit', [props.goal.slug]) },
+        { name: 'Add Assignment', as: 'link', icon: PlusCircleIcon, href: `${route('admin.assignments.create')}?assignable_id=${props.goal.id}&assignable_type=goal` }
+    ],
+    [
+        { name: 'Archive', as: 'emitter', icon: ArchiveBoxIcon, emit: 'open' }
+    ]
+];
 const cells = {
     name: 'Name'
 }
@@ -41,19 +52,8 @@ const cells = {
                     <div class="ml-4 mt-2">
                         <h3 class="text-lg leading-6 font-medium text-gray-900"> Goal Details: {{ goal.name }} </h3>
                     </div>
-                    <div class="ml-4 mt-2 space-x-2">
-                        <SecondaryButton :href="`${route('admin.assignments.create')}?assignable_id=${goal.id}&assignable_type=goal`" as="link">
-                            <DocumentPlusIcon class="h-5 w-5" aria-hidden="true" />
-                            <span class="sr-only">Add assignment to {{ goal.name }}</span>
-                        </SecondaryButton>
-                        <SecondaryButton @click="open = true" :locked="goal.locked" title="Delete goal">
-                            <TrashIcon class="h-5 w-5" aria-hidden="true" />
-                            <span class="sr-only">Delete {{ goal.name }}</span>
-                        </SecondaryButton>
-                        <SecondaryButton :href="route('editor.goals.edit', [goal.slug])" :locked="goal.locked" as="link" title="Edit goal">
-                            <PencilSquareIcon class="h-5 w-5" aria-hidden="true" />
-                            <span class="sr-only">Edit {{ goal.name }}</span>
-                        </SecondaryButton>
+                    <div class="ml-4">
+                        <SecondaryButtonWithDropdown button-text="Options" :actions="actions" @open="open = true" />
                     </div>
                 </div>
                 <div class="mt-4 bg-white shadow overflow-hidden sm:rounded-lg">
