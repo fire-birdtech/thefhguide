@@ -73,7 +73,7 @@ const cells = {
                     </div>
                     <div class="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                         <dt class="text-sm font-medium text-gray-500">Cover Image</dt>
-                        <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
+                        <dd v-if="project.cover_image_path" class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
                             <SecondaryButtonSmall @click="showPreview = true" class="-my-2 sm:-my-2.5">Show image</SecondaryButtonSmall>
                             <Teleport to="body">
                                 <TransitionRoot as="template" :show="showPreview">
@@ -95,6 +95,7 @@ const cells = {
                                 </TransitionRoot>
                             </Teleport>
                         </dd>
+                        <dd v-else class="mt-1 text-sm text-gray-500 sm:mt-0 sm:col-span-2">No cover image available</dd>
                     </div>
                 </dl>
             </div>
