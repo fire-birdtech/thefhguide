@@ -191,6 +191,8 @@ return [
                 'manage editors',
                 'publish content',
                 'draft content',
+                'create assignments',
+                'view assignments',
                 'create collections',
                 'update collections',
                 'delete collections',

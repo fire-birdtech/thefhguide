@@ -13,6 +13,17 @@ use Illuminate\Http\Request;
 class AssignmentController extends Controller
 {
     /**
+     * Instantiate a new controller instance.
+     *
+     * @return void
+     */
+    public function __construct()
+    {
+        $this->middleware('can:view assignments')->only('index');
+        $this->middleware('can:create assignments')->only(['create', 'store']);
+    }
+
+    /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
