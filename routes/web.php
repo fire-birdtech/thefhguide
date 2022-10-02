@@ -44,7 +44,7 @@ Route::get('/notifications/{id}/read', [NotificationController::class, 'update']
 require __DIR__.'/editor.php';
 
 Route::group([
-    'middleware' => ['auth', 'verified'],
+    'middleware' => ['auth', 'verified', 'role:admin|super admin'],
     'prefix' => 'admin',
     'as' => 'admin.'
 ], function () {
