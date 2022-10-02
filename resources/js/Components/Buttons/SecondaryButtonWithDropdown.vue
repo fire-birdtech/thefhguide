@@ -12,7 +12,7 @@ defineEmits(['open']);
 </script>
 
 <template>
-    <Menu as="div" class="relative inline-block text-left">
+    <Menu v-if="$page.props.currentUserRole !== 'guest'" as="div" class="relative inline-block text-left">
         <div>
             <MenuButton class="relative inline-flex bg-white py-2 px-4 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 hover:bg-gray-50 focus:ring focus:ring-gray-300 focus:ring-opacity-40 sm:w-auto">
                 {{ buttonText }}

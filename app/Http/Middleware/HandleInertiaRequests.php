@@ -38,6 +38,7 @@ class HandleInertiaRequests extends Middleware
             'auth' => [
                 'user' => fn () => auth()->user() ? $request->user()->load('roles') : "",
             ],
+            'currentUserRole' => fn () => auth()->user() ? $request->user()->roles[0]->name : null,
             'canManageEditors' => fn () => auth()->user() ? $request->user()->can('manage editors') : null,
             'notifications' => fn () => auth()->user() ? $request->user()->notifications->take(10) : null,
             'ziggy' => function () {
