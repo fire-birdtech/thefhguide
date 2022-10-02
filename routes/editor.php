@@ -25,7 +25,7 @@ Route::group([
             ['user_id', auth()->user()->id],
             ['publish_date', null]
         ])->get()
-    ]))->name('dashboard');
+    ]))->middleware('role:guest|editor')->name('dashboard');
     Route::get('content', [ContentController::class, 'index'])->name('content.index');
     Route::resource('collections', CollectionController::class);
     Route::resource('projects', ProjectController::class);
