@@ -1,6 +1,6 @@
 <script setup>
 import { Link } from '@inertiajs/inertia-vue3';
-import { EyeIcon, PencilSquareIcon } from '@heroicons/vue/24/outline';
+import { EyeIcon, PencilSquareIcon } from '@heroicons/vue/24/solid';
 import Badge from '@/Components/Badge.vue';
 
 defineProps({
