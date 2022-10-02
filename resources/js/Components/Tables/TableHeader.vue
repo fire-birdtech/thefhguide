@@ -13,7 +13,7 @@ defineProps({
         <div class="sm:flex-auto">
             <h3 class="leading-6 font-medium text-gray-900"> {{ header }} </h3>
         </div>
-        <div v-if="addLink && addText" class="ml-4 space-x-2">
+        <div v-if="addLink && addText && $page.props.currentUserRole !== 'guest'" class="ml-4 space-x-2">
             <PrimaryButton :href="addLink" as="link"> {{ addText }} </PrimaryButton>
         </div>
     </div>
