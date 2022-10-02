@@ -8,11 +8,12 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
 use Illuminate\Database\Eloquent\Relations\MorphOne;
+use Illuminate\Database\Eloquent\SoftDeletes;
 use Venturecraft\Revisionable\RevisionableTrait as HasRevisions;
 
 class Choice extends Model
 {
-    use Draftable, HasFactory, HasRevisions;
+    use Draftable, HasFactory, HasRevisions, SoftDeletes;
 
     protected $guarded = ['id'];
 

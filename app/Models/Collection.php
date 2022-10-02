@@ -8,13 +8,14 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
 use Illuminate\Database\Eloquent\Relations\MorphOne;
+use Illuminate\Database\Eloquent\SoftDeletes;
 use Spatie\Sluggable\HasSlug;
 use Spatie\Sluggable\SlugOptions;
 use Venturecraft\Revisionable\RevisionableTrait as HasRevisions;
 
 class Collection extends Model
 {
-    use Draftable, HasFactory, HasRevisions, HasSlug;
+    use Draftable, HasFactory, HasRevisions, HasSlug, SoftDeletes;
 
     protected $guarded = ['id'];
 
