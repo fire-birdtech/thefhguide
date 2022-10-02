@@ -163,6 +163,8 @@ return [
         'manage editors',
         'publish content',
         'draft content',
+        'create assignments',
+        'view assignments',
         'create collections',
         'update collections',
         'delete collections',
@@ -207,7 +209,6 @@ return [
             'name' => 'editor',
             'permissions' => [
                 'publish content',
-                'draft content',
                 'create collections',
                 'update collections',
                 'delete collections',
@@ -225,10 +226,7 @@ return [
         [
             'name' => 'guest',
             'permissions' => [
-                'draft content',
-                'update projects',
-                'update goals',
-                'update choices'
+                'draft content'
             ]
         ]
     ],
