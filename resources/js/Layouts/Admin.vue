@@ -8,7 +8,7 @@ import BreezeResponsiveNavLink from '@/Components/ResponsiveNavLink.vue';
 import { Link, usePage } from '@inertiajs/inertia-vue3';
 import VerticalNav from '@/Components/Navigation/Vertical.vue';
 import { BellIcon } from '@heroicons/vue/24/outline';
-import { InboxIcon } from '@heroicons/vue/24/solid';
+import { ChevronDownIcon, InboxIcon } from '@heroicons/vue/24/solid';
 import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue'
 
 defineProps({
@@ -44,7 +44,7 @@ const showingNavigationDropdown = ref(false);
                             </div>
                         </div>
 
-                        <div class="hidden sm:flex sm:items-center sm:ml-6">
+                        <div class="hidden sm:flex sm:items-center sm:ml-6 sm:space-x-3">
                             <Menu as="div" class="relative inline-block text-left">
                                 <div>
                                     <MenuButton class="flex items-center rounded-full text-gray-400 hover:text-gray-600 focus:outline-none focus:ring-2 focus:ring-indigo-500">
@@ -70,27 +70,26 @@ const showingNavigationDropdown = ref(false);
                                 </transition>
                             </Menu>
                             <!-- Settings Dropdown -->
-                            <div class="ml-3 relative">
-                                <BreezeDropdown align="right" width="48">
-                                    <template #trigger>
-                                        <span class="inline-flex rounded-md">
-                                            <button type="button" class="inline-flex items-center px-3 py-2 border border-transparent text-sm leading-4 font-medium rounded-md text-gray-500 bg-white hover:text-gray-700 focus:outline-none transition ease-in-out duration-150">
-                                                {{ $page.props.auth.user.name }}
+                            <Menu as="div" class="relative inline-block text-left">
+                                <div>
+                                    <MenuButton class="inline-flex items-center rounded-md px-3 py-2 border border-transparent text-sm leading-4 font-medium text-gray-500 bg-white hover:text-gray-700 focus:outline-none transition ease-in-out duration-150">
+                                        {{ $page.props.auth.user.name }}
+                                        <ChevronDownIcon class="ml-2 -mr-0.5 h-4 w-4" aria-hidden="true" />
+                                    </MenuButton>
+                                </div>
 
-                                                <svg class="ml-2 -mr-0.5 h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                                    <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
-                                                </svg>
-                                            </button>
-                                        </span>
-                                    </template>
-
-                                    <template #content>
-                                        <BreezeDropdownLink :href="route('logout')" method="post" as="button">
-                                            Log Out
-                                        </BreezeDropdownLink>
-                                    </template>
-                                </BreezeDropdown>
-                            </div>
+                                <transition enter-active-class="transition ease-out duration-100" enter-from-class="transform opacity-0 scale-95" enter-to-class="transform opacity-100 scale-100" leave-active-class="transition ease-in duration-75" leave-from-class="transform opacity-100 scale-100" leave-to-class="transform opacity-0 scale-95">
+                                    <MenuItems class="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+                                        <div class="py-1">
+                                            <MenuItem v-slot="{ active }">
+                                                <Link :href="route('logout')" method="post" as="button" :class="[active ? 'bg-gray-100 text-gray-900' : 'text-gray-700', 'block w-full text-left px-4 py-2 text-sm']">
+                                                    Log Out
+                                                </Link>
+                                            </MenuItem>
+                                        </div>
+                                    </MenuItems>
+                                </transition>
+                            </Menu>
                         </div>
 
                         <!-- Hamburger -->
