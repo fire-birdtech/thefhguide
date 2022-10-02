@@ -1,13 +1,14 @@
 <script setup>
 import { ref, watch } from 'vue';
-import { Head } from '@inertiajs/inertia-vue3';
+import { DialogTitle } from '@headlessui/vue';
+import { ArrowUpTrayIcon, BellAlertIcon } from '@heroicons/vue/24/solid';
 import { Inertia } from '@inertiajs/inertia';
+import { Head } from '@inertiajs/inertia-vue3';
 import AdminLayout from '@/Layouts/Admin.vue';
 import InputWithLabel from '@/Components/InputWithLabel.vue';
 import TextEditorWithLabel from '@/Components/TextEditorWithLabel.vue';
 import PrimaryButtonWithDropdown from '@/Components/PrimaryButtonWithDropdown.vue';
 import PublishModal from '@/Components/PublishModal.vue';
-import { DialogTitle } from '@headlessui/vue';
 
 const props = defineProps({
     draft: Object,
@@ -32,8 +33,8 @@ const notify = () => {
 }
 
 const options = [
-    { name: 'Publish Draft', show: props.userCanPublish, action: 'publish' },
-    { name: 'Ready for Publish', show: !props.userCanPublish, action: 'notify' }
+    { name: 'Publish Draft', icon: ArrowUpTrayIcon, show: props.userCanPublish, action: 'publish' },
+    { name: 'Ready for Publish', icon: BellAlertIcon, show: !props.userCanPublish, action: 'notify' }
 ];
 </script>
 
