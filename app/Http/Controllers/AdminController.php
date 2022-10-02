@@ -13,6 +13,16 @@ use Spatie\Permission\Models\Role;
 class AdminController extends Controller
 {
     /**
+     * Instantiate a new controller instance.
+     *
+     * @return void
+     */
+    public function __construct()
+    {
+        $this->middleware('can:manage editors');
+    }
+
+    /**
      * Display a listing of the resource.
      *
      * @return \Inertia\ResponseFactory|\Inertia\Response
