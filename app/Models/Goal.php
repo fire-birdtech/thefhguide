@@ -39,6 +39,8 @@ class Goal extends Model
 
     protected $guarded = ['id'];
 
+    protected $dontKeepRevisionOf = ['locked'];
+
     /**
      * The attributes that should be cast.
      *
