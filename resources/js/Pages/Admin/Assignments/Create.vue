@@ -33,7 +33,13 @@ const submit = () => {
     assignment.post(route('admin.assignments.store'));
 }
 
-const cancelLink = computed(() => route('editor.' + props.assignableType + 's.show', [props.assignable.id]));
+const cancelLink = computed(() => {
+    if (props.assignableType === 'choice') {
+        return route('editor.' + props.assignableType + 's.show', [props.assignable.id]);
+    } else {
+        return route('editor.' + props.assignableType + 's.show', [props.assignable.slug])
+    }
+});
 </script>
 
 <template>
