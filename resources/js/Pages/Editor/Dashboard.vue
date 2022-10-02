@@ -38,7 +38,7 @@ const cells = {
                 <TableHeader header="Assignments" />
                 <Table class="mt-2">
                     <TableHead :cells="cells" :actions="false" />
-                    <TableBody :cells="cells" :rows="assignments" routeType="assignments" :actions="false" />
+                    <TableBody :cells="cells" :rows="assignments" routeType="editor.assignments" :actions="false" />
                 </Table>
             </div>
 

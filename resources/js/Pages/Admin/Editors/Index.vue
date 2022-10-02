@@ -1,13 +1,17 @@
 <script setup>
 import { ref } from 'vue';
+import { DialogTitle } from '@headlessui/vue';
+import { EyeIcon, PencilSquareIcon, TrashIcon } from '@heroicons/vue/24/outline';
+import { Inertia } from '@inertiajs/inertia';
 import { Head, Link } from '@inertiajs/inertia-vue3';
 import AdminLayout from '@/Layouts/Admin';
 import PrimaryButton from '@/Components/PrimaryButton';
-import { EyeIcon, PencilSquareIcon, TrashIcon } from '@heroicons/vue/24/outline';
 import SecondaryButton from '@/Components/SecondaryButton';
-import { Inertia } from '@inertiajs/inertia';
 import DeleteModal from '@/Components/DeleteModal';
-import { DialogTitle } from '@headlessui/vue';
+import TableHeader from '@/Components/Tables/TableHeader.vue';
+import Table from '@/Components/Tables/Table.vue';
+import TableHead from '@/Components/Tables/TableHead.vue';
+import TableBody from '@/Components/Tables/TableBody.vue';
 
 const props = defineProps({
     users: Array,
@@ -44,6 +48,12 @@ const deleteInvitation = () => {
         onSuccess: () => open.value = false,
     });
 }
+
+const cells = {
+    name: 'Name',
+    email: 'Email',
+    role: 'Role'
+}
 </script>
 
 <template>
@@ -51,7 +61,12 @@ const deleteInvitation = () => {
 
     <AdminLayout>
         <div class="w-full py-8 px-4 sm:px-6 lg:px-8">
-            <div class="sm:flex sm:items-center">
+            <TableHeader header="Admins & Editors" addText="Invite" :addLink="route('admin.editors.create')" />
+            <Table class="mt-2">
+                <TableHead :cells="cells" :actions="true" />
+                <TableBody :cells="cells" :rows="users" routeType="admin.editors" :actions="true" />
+            </Table>
+            <!-- <div class="sm:flex sm:items-center">
                 <div class="sm:flex-auto">
                     <h1 class="text-xl font-semibold text-gray-900">Admins & Editors</h1>
                     <p class="mt-2 text-sm text-gray-700">A list of all the admins and editors including their name, email, and type.</p>
@@ -60,7 +75,7 @@ const deleteInvitation = () => {
                     <PrimaryButton :href="route('admin.editors.create')" as="link">Invite</PrimaryButton>
                 </div>
             </div>
-            <div class="mt-8 flex flex-col">
+            <div class="mt-8">
                 <div class="-my-2 -mx-4 overflow-x-auto sm:-mx-6 lg:-mx-8">
                     <div class="inline-block min-w-full py-2 align-middle md:px-6 lg:px-8">
                         <div class="overflow-hidden shadow ring-1 ring-black ring-opacity-5 md:rounded-lg">
@@ -100,7 +115,7 @@ const deleteInvitation = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
             <div v-if="invitations.length" class="mt-12">
                 <div class="sm:flex sm:items-center">

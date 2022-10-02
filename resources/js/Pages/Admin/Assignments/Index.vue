@@ -36,7 +36,7 @@ defineProps({
                                         <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">{{ assignment.user.name }}</td>
                                         <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">{{ assignment.assignable.name }}</td>
                                         <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
-                                            <Badge :status="assignment.status" />
+                                            <Badge :text="assignment.status" />
                                         </td>
                                         <td class="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6">
                                             <a href="#" class="text-indigo-600 hover:text-indigo-900">

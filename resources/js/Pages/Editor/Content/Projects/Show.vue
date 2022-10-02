@@ -103,7 +103,7 @@ const cells = {
                 <TableHeader header="Goals" addText="Add goal" :addLink="`${route(`editor.goals.create`)}?project=${project.id}`" />
                 <Table class="mt-2">
                     <TableHead :cells="cells" :actions="true" />
-                    <TableBody :cells="cells" :rows="project.goals" routeType="goals" :actions="true" />
+                    <TableBody :cells="cells" :rows="project.goals" routeType="editor.goals" :actions="true" />
                 </Table>
             </div>
         </div>
