@@ -5,7 +5,7 @@ import { ArchiveBoxIcon, PencilSquareIcon, PlusCircleIcon } from '@heroicons/vue
 import { Inertia } from '@inertiajs/inertia';
 import { Head, Link } from '@inertiajs/inertia-vue3';
 import AdminLayout from '@/Layouts/Admin';
-import DeleteModal from '@/Components/DeleteModal';
+import DangerModal from '@/Components/Modals/DangerModal';
 import SecondaryButton from '@/Components/SecondaryButton';
 import TableHeader from '@/Components/Tables/TableHeader.vue';
 import Table from '@/Components/Tables/Table.vue';
@@ -73,11 +73,11 @@ const cells = {
             </div>
         </div>
 
-        <DeleteModal :open="open" @close="close" @delete="destroy">
+        <DangerModal :open="open" action-text="Delete" @close="close" @delete="destroy">
             <DialogTitle as="h3" class="text-lg leading-6 font-medium text-gray-900"> Delete collection </DialogTitle>
             <div class="mt-2">
                 <p class="text-sm text-gray-500">Are you sure you want to delete {{ collection.name }}? All data will be permanently removed forever. This action cannot be undone.</p>
             </div>
-        </DeleteModal>
+        </DangerModal>
     </AdminLayout>
 </template>

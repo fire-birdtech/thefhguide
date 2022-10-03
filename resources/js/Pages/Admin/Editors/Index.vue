@@ -7,7 +7,7 @@ import { Head, Link } from '@inertiajs/inertia-vue3';
 import AdminLayout from '@/Layouts/Admin';
 import PrimaryButton from '@/Components/PrimaryButton';
 import SecondaryButton from '@/Components/SecondaryButton';
-import DeleteModal from '@/Components/DeleteModal';
+import DangerModal from '@/Components/Modals/DangerModal.vue';
 import TableHeader from '@/Components/Tables/TableHeader.vue';
 import Table from '@/Components/Tables/Table.vue';
 import TableHead from '@/Components/Tables/TableHead.vue';
@@ -101,11 +101,11 @@ const cells = {
             </div>
         </div>
 
-        <DeleteModal :open="open" @close="close" @delete="deleteInvitation">
+        <DangerModal :open="open" action-text="Delete" @close="close" @delete="deleteInvitation">
             <DialogTitle as="h3" class="text-lg leading-6 font-medium text-gray-900"> Delete invitation </DialogTitle>
             <div class="mt-2">
                 <p class="text-sm text-gray-500">Are you sure you want to delete this invitation for {{ selectedInvitation.name }}? All data will be permanently removed forever. This action cannot be undone.</p>
             </div>
-        </DeleteModal>
+        </DangerModal>
     </AdminLayout>
 </template>
