@@ -34,7 +34,7 @@ const submit = () => {
     <AdminLayout>
         <div class="w-full py-8 px-4 sm:px-6 lg:px-8">
             <h3 class="text-lg leading-6 font-medium text-gray-900 mt-2"> Edit User: {{ user.name }} </h3>
-            <div class="mt-4 bg-white shadow overflow-hidden sm:rounded-lg">
+            <div class="mt-4 bg-white shadow sm:rounded-lg">
                 <form @submit.prevent="submit" class="sm:divide-y sm:divide-gray-200">
                     <div class="px-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:items-start sm:border-t sm:border-gray-200 sm:py-4">
                         <BreezeLabel for="name" value="User name" class="sm:mt-px sm:pt-2" />
