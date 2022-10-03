@@ -1,13 +1,23 @@
 <script setup>
-import { PencilSquareIcon } from '@heroicons/vue/24/outline';
+import { PencilSquareIcon, UserMinusIcon } from '@heroicons/vue/24/solid';
 import { Head } from '@inertiajs/inertia-vue3';
 import AdminLayout from '@/Layouts/Admin';
 import SecondaryButton from '@/Components/SecondaryButton';
 import Badge from '@/Components/Badge.vue';
+import SecondaryButtonWithDropdown from '@/Components/Buttons/SecondaryButtonWithDropdown.vue';
 
 const props = defineProps({
     user: Object,
 });
+
+const actions = [
+    [
+        { name: 'Edit', as: 'link', icon: PencilSquareIcon, href: route('admin.editors.edit', [props.user.id]) }
+    ],
+    [
+        { name: `Remove ${props.user.roles[0].name.charAt(0).toUpperCase() + props.user.roles[0].name.slice(1)}`, as: 'emitter', icon: UserMinusIcon, emit: 'open' }
+    ]
+];
 </script>
 
 <template>
@@ -21,10 +31,11 @@ const props = defineProps({
                         <h3 class="text-lg leading-6 font-medium text-gray-900"> Editor Details: {{ user.name }} </h3>
                     </div>
                     <div class="ml-4 mt-2 space-x-2">
-                        <SecondaryButton :href="route('admin.editors.edit', [user.id])" as="link" title="Edit user">
+                        <!-- <SecondaryButton :href="route('admin.editors.edit', [user.id])" as="link" title="Edit user">
                             <PencilSquareIcon class="h-5 w-5" aria-hidden="true" />
                             <span class="sr-only">Edit {{ user.name }}</span>
-                        </SecondaryButton>
+                        </SecondaryButton> -->
+                        <SecondaryButtonWithDropdown button-text="Options" :actions="actions" @open="open = true" />
                     </div>
                 </div>
                 <div class="mt-4 bg-white shadow overflow-hidden sm:rounded-lg">
