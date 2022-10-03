@@ -22,6 +22,7 @@ Route::group([
     Route::get('editors/show/{user}', [AdminController::class, 'show'])->name('editors.show');
     Route::get('editors/edit/{user}', [AdminController::class, 'edit'])->name('editors.edit');
     Route::put('editors/edit/{user}', [AdminController::class, 'update'])->name('editors.update');
+    Route::delete('editors/remove/{user}', [AdminController::class, 'remove'])->name('editors.remove');
     Route::post('editors/invite', [InvitationController::class, 'store'])->name('editors.invite');
     Route::resource('invitations', InvitationController::class);
     Route::post('invitations/resend', [InvitationController::class, 'resend'])->name('invitations.resend');

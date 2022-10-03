@@ -1,15 +1,31 @@
 <script setup>
-import { computed } from 'vue';
+import { computed, ref } from 'vue';
+import { DialogTitle } from '@headlessui/vue';
 import { PencilSquareIcon, UserMinusIcon } from '@heroicons/vue/24/solid';
-import { Head, usePage } from '@inertiajs/inertia-vue3';
+import { Head, useForm, usePage } from '@inertiajs/inertia-vue3';
 import AdminLayout from '@/Layouts/Admin';
 import SecondaryButton from '@/Components/SecondaryButton';
 import Badge from '@/Components/Badge.vue';
 import SecondaryButtonWithDropdown from '@/Components/Buttons/SecondaryButtonWithDropdown.vue';
+import DangerModal from '@/Components/Modals/DangerModal.vue';
 
 const props = defineProps({
     user: Object,
 });
+
+const open = ref(false);
+
+const close = () => {
+    open.value = false;
+}
+
+const remove = () => {
+    let form = useForm({
+        _method: 'DELETE'
+    });
+
+    form.post(route('admin.editors.remove', props.user.id));
+}
 
 const usersMatch = usePage().props.value.auth.user.id === props.user.id;
 
@@ -59,5 +75,14 @@ const actions = [
                 </div>
             </div>
         </div>
+
+        <Teleport to="body">
+            <DangerModal :open="open" action-text="Remove" emit-name="remove" @close="close" @remove="remove">
+                <DialogTitle as="h3" class="text-lg leading-6 font-medium text-gray-900"> Remove {{ user.roles[0].name }} </DialogTitle>
+                <div class="mt-2">
+                    <p class="text-sm text-gray-500">Are you sure you want to remove {{ user.name }}?</p>
+                </div>
+            </DangerModal>
+        </Teleport>
     </AdminLayout>
 </template>

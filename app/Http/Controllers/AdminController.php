@@ -92,6 +92,20 @@ class AdminController extends Controller
     }
 
     /**
+     * Remove role so user is no longer an editor
+     * 
+     * @param  \Illuminate\Http\Request  $request
+     * @param  \App\Models\User  $user
+     * @return \Illuminate\Http\Response
+     */
+    public function remove(Request $request, User $user)
+    {
+        $user->roles()->detach();
+
+        return redirect()->route('admin.editors.index');
+    }
+
+    /**
      * Send an email to invite a new admin
      * 
      * @param \App\Models\Invitation $invitation
