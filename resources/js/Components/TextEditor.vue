@@ -26,7 +26,7 @@ const editor = useEditor({
     },
     editorProps: {
         attributes: {
-            class: 'prose prose-sm prose-a:text-blue-500 text-sm p-3 min-h-44 border-gray-300 rounded-bl-md rounded-br-md overflow-auto focus:outline-none',
+            class: 'prose prose-sm max-w-3xl mx-auto prose-a:text-blue-500 text-sm px-3 py-6 min-h-44 border-gray-300 rounded-bl-md rounded-br-md overflow-auto focus:outline-none',
         },
     },
 });
