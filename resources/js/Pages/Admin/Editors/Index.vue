@@ -66,56 +66,6 @@ const cells = {
                 <TableHead :cells="cells" :actions="true" />
                 <TableBody :cells="cells" :rows="users" routeType="admin.editors" :actions="true" />
             </Table>
-            <!-- <div class="sm:flex sm:items-center">
-                <div class="sm:flex-auto">
-                    <h1 class="text-xl font-semibold text-gray-900">Admins & Editors</h1>
-                    <p class="mt-2 text-sm text-gray-700">A list of all the admins and editors including their name, email, and type.</p>
-                </div>
-                <div class="mt-4 sm:mt-0 sm:ml-16 sm:flex-none">
-                    <PrimaryButton :href="route('admin.editors.create')" as="link">Invite</PrimaryButton>
-                </div>
-            </div>
-            <div class="mt-8">
-                <div class="-my-2 -mx-4 overflow-x-auto sm:-mx-6 lg:-mx-8">
-                    <div class="inline-block min-w-full py-2 align-middle md:px-6 lg:px-8">
-                        <div class="overflow-hidden shadow ring-1 ring-black ring-opacity-5 md:rounded-lg">
-                            <table class="min-w-full divide-y divide-gray-300">
-                                <thead class="bg-gray-50">
-                                    <tr>
-                                        <th scope="col" class="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-6">Name</th>
-                                        <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Email</th>
-                                        <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Role</th>
-                                        <th scope="col" class="relative py-3.5 pl-3 pr-4 sm:pr-6">
-                                            <span class="sr-only">Manage</span>
-                                        </th>
-                                    </tr>
-                                </thead>
-                                <tbody class="bg-white">
-                                    <tr v-for="(user, userIdx) in users" :key="user.id" :class="userIdx % 2 === 0 ? undefined : 'bg-gray-50'">
-                                        <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-semibold text-gray-900 hover:text-gray-700 sm:pl-6">
-                                            <Link :href="route('admin.editors.show', [user.id])">{{ user.name }}</Link>
-                                        </td>
-                                        <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">{{ user.email }}</td>
-                                        <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
-                                            <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-indigo-100 text-indigo-800"> {{ user.roles[0].name }} </span>
-                                        </td>
-                                        <td class="flex justify-end whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium space-x-2 sm:pr-6">
-                                            <Link :href="route('admin.editors.show', [user.id])" class="text-indigo-600 hover:text-indigo-900">
-                                                <EyeIcon class="h-6 w-6" />
-                                                <span class="sr-only">View {{ user.name }}</span>
-                                            </Link>
-                                            <Link :href="route('admin.editors.edit', [user.id])" class="text-indigo-600 hover:text-indigo-900">
-                                                <PencilSquareIcon class="h-6 w-6" />
-                                                <span class="sr-only">Edit {{ user.name }}</span>
-                                            </Link>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
 
             <div v-if="invitations.length" class="mt-12">
                 <div class="sm:flex sm:items-center">
