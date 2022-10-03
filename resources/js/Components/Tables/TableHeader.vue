@@ -1,5 +1,5 @@
 <script setup>
-import PrimaryButton from '@/Components/PrimaryButton.vue';
+import PrimaryButton from '@/Components/Buttons/PrimaryButton.vue';
 
 defineProps({
     addLink: String,

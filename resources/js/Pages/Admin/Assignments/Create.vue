@@ -9,8 +9,8 @@ import TextEditor from '@/Components/TextEditor';
 import FormText from '@/Components/FormText.vue';
 import { Listbox, ListboxButton, ListboxLabel, ListboxOption, ListboxOptions } from '@headlessui/vue';
 import { CheckIcon, ChevronUpDownIcon } from '@heroicons/vue/24/solid';
-import PrimaryButton from '@/Components/PrimaryButton';
-import SecondaryButton from '@/Components/SecondaryButton';
+import PrimaryButton from '@/Components/Buttons/PrimaryButton.vue';
+import SecondaryButton from '@/Components/Buttons/SecondaryButton.vue';
 
 const props = defineProps({
     editors: Array,

@@ -1,8 +1,8 @@
 <script setup>
 import { Dialog, DialogPanel, TransitionChild, TransitionRoot } from '@headlessui/vue';
 import { SparklesIcon, XMarkIcon } from '@heroicons/vue/24/outline';
-import PrimaryButton from '@/Components/PrimaryButton.vue';
-import SecondaryButton from '@/Components/SecondaryButton.vue';
+import PrimaryButton from '@/Components/Buttons/PrimaryButton.vue';
+import SecondaryButton from '@/Components/Buttons/SecondaryButton.vue';
 
 defineProps({
     open: Boolean,

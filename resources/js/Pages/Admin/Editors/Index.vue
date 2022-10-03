@@ -5,8 +5,8 @@ import { EyeIcon, PencilSquareIcon, TrashIcon } from '@heroicons/vue/24/outline'
 import { Inertia } from '@inertiajs/inertia';
 import { Head, Link } from '@inertiajs/inertia-vue3';
 import AdminLayout from '@/Layouts/Admin';
-import PrimaryButton from '@/Components/PrimaryButton';
-import SecondaryButton from '@/Components/SecondaryButton';
+import PrimaryButton from '@/Components/Buttons/PrimaryButton.vue';
+import SecondaryButton from '@/Components/Buttons/SecondaryButton.vue';
 import DangerModal from '@/Components/Modals/DangerModal.vue';
 import TableHeader from '@/Components/Tables/TableHeader.vue';
 import Table from '@/Components/Tables/Table.vue';

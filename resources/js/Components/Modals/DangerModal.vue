@@ -1,8 +1,8 @@
 <script setup>
 import { Dialog, DialogPanel, TransitionChild, TransitionRoot } from '@headlessui/vue';
 import { ExclamationTriangleIcon, XMarkIcon } from '@heroicons/vue/24/outline';
-import DangerButton from '@/Components/DangerButton';
-import SecondaryButton from '@/Components/SecondaryButton';
+import DangerButton from '@/Components/Buttons/DangerButton.vue';
+import SecondaryButton from '@/Components/Buttons/SecondaryButton.vue';
 
 defineProps({
     actionText: String,

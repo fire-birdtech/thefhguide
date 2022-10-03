@@ -7,7 +7,7 @@ import { Head } from '@inertiajs/inertia-vue3';
 import AdminLayout from '@/Layouts/Admin.vue';
 import InputWithLabel from '@/Components/InputWithLabel.vue';
 import TextEditorWithLabel from '@/Components/TextEditorWithLabel.vue';
-import PrimaryButtonWithDropdown from '@/Components/PrimaryButtonWithDropdown.vue';
+import PrimaryButtonWithDropdown from '@/Components/Buttons/PrimaryButtonWithDropdown.vue';
 import PublishModal from '@/Components/PublishModal.vue';
 
 const props = defineProps({

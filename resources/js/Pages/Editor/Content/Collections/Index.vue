@@ -1,7 +1,7 @@
 <script setup>
 import AdminLayout from '@/Layouts/Admin';
 import { Head, Link } from '@inertiajs/inertia-vue3';
-import PrimaryButton from '@/Components/PrimaryButton';
+import PrimaryButton from '@/Components/Buttons/PrimaryButton.vue';
 import { EyeIcon, PencilSquareIcon } from '@heroicons/vue/24/outline';
 
 defineProps({

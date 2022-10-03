@@ -1,7 +1,7 @@
 <script setup>
 import { Head, useForm } from '@inertiajs/inertia-vue3';
 import AdminLayout from '@/Layouts/Admin.vue';
-import PrimaryButton from '@/Components/PrimaryButton.vue';
+import PrimaryButton from '@/Components/Buttons/PrimaryButton.vue';
 import Badge from '@/Components/Badge.vue';
 
 const props = defineProps({

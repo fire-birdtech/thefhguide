@@ -6,7 +6,7 @@ import { ArchiveBoxIcon, PencilSquareIcon as PencilSquareIconSolid, PlusCircleIc
 import { Inertia } from '@inertiajs/inertia';
 import { Head, Link } from '@inertiajs/inertia-vue3';
 import AdminLayout from '@/Layouts/Admin';
-import SecondaryButton from '@/Components/SecondaryButton';
+import SecondaryButton from '@/Components/Buttons/SecondaryButton.vue';
 import DangerModal from '@/Components/Modals/DangerModal.vue';
 import SecondaryButtonWithDropdown from '@/Components/Buttons/SecondaryButtonWithDropdown.vue';
 

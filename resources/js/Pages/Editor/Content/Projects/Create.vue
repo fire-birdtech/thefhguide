@@ -5,8 +5,8 @@ import { Head, useForm } from '@inertiajs/inertia-vue3';
 import BreezeInput from '@/Components/Input';
 import BreezeInputError from '@/Components/InputError';
 import BreezeLabel from '@/Components/Label';
-import PrimaryButton from '@/Components/PrimaryButton';
-import SecondaryButton from '@/Components/SecondaryButton';
+import PrimaryButton from '@/Components/Buttons/PrimaryButton.vue';
+import SecondaryButton from '@/Components/Buttons/SecondaryButton.vue';
 
 const props = defineProps({
     collection: Number,

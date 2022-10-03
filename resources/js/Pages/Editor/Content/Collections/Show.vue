@@ -6,7 +6,7 @@ import { Inertia } from '@inertiajs/inertia';
 import { Head, Link } from '@inertiajs/inertia-vue3';
 import AdminLayout from '@/Layouts/Admin';
 import DangerModal from '@/Components/Modals/DangerModal';
-import SecondaryButton from '@/Components/SecondaryButton';
+import SecondaryButton from '@/Components/Buttons/SecondaryButton.vue';
 import TableHeader from '@/Components/Tables/TableHeader.vue';
 import Table from '@/Components/Tables/Table.vue';
 import TableHead from '@/Components/Tables/TableHead.vue';

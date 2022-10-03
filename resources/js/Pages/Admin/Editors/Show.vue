@@ -4,7 +4,7 @@ import { DialogTitle } from '@headlessui/vue';
 import { PencilSquareIcon, UserMinusIcon } from '@heroicons/vue/24/solid';
 import { Head, useForm, usePage } from '@inertiajs/inertia-vue3';
 import AdminLayout from '@/Layouts/Admin';
-import SecondaryButton from '@/Components/SecondaryButton';
+import SecondaryButton from '@/Components/Buttons/SecondaryButton.vue';
 import Badge from '@/Components/Badge.vue';
 import SecondaryButtonWithDropdown from '@/Components/Buttons/SecondaryButtonWithDropdown.vue';
 import DangerModal from '@/Components/Modals/DangerModal.vue';
