@@ -1,6 +1,7 @@
 <script setup>
+import { computed } from 'vue';
 import { PencilSquareIcon, UserMinusIcon } from '@heroicons/vue/24/solid';
-import { Head } from '@inertiajs/inertia-vue3';
+import { Head, usePage } from '@inertiajs/inertia-vue3';
 import AdminLayout from '@/Layouts/Admin';
 import SecondaryButton from '@/Components/SecondaryButton';
 import Badge from '@/Components/Badge.vue';
@@ -10,12 +11,16 @@ const props = defineProps({
     user: Object,
 });
 
+const usersMatch = usePage().props.value.auth.user.id === props.user.id;
+
+const upperCaseRole = computed(() => props.user.roles[0].name.charAt(0).toUpperCase() + props.user.roles[0].name.slice(1));
+
 const actions = [
     [
         { name: 'Edit', as: 'link', icon: PencilSquareIcon, href: route('admin.editors.edit', [props.user.id]) }
     ],
     [
-        { name: `Remove ${props.user.roles[0].name.charAt(0).toUpperCase() + props.user.roles[0].name.slice(1)}`, as: 'emitter', icon: UserMinusIcon, emit: 'open' }
+        { name: `Remove ${upperCaseRole.value}`, as: 'emitter', icon: UserMinusIcon, emit: 'open', disabled: usersMatch }
     ]
 ];
 </script>

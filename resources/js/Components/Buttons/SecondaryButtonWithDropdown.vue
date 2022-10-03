@@ -22,13 +22,13 @@ defineEmits(['open']);
 
         <transition enter-active-class="transition ease-out duration-100" enter-from-class="transform opacity-0 scale-95" enter-to-class="transform opacity-100 scale-100" leave-active-class="transition ease-in duration-75" leave-from-class="transform opacity-100 scale-100" leave-to-class="transform opacity-0 scale-95">
             <MenuItems class="absolute right-0 z-10 mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
-                <div v-for="action in actions" :key="action" class="py-1">
+                <div v-for="action in actions" :key="action" v-show="!action[0]?.disabled" class="py-1">
                     <MenuItem v-for="item in action" :key="item" v-slot="{ active }">
                         <Link v-if="item.as === 'link'" :href="item.href" :class="[active ? 'bg-gray-100 text-gray-900' : 'text-gray-700', 'group flex items-center px-4 py-2 text-sm']">
                             <component :is="item.icon" class="mr-3 h-5 w-5 text-gray-400 group-hover:text-gray-500" aria-hidden="true" />
                             {{ item.name }}
                         </Link>
-                        <button v-else-if="item.as === 'emitter'" @click="$emit(item.emit)" :class="[active ? 'bg-gray-100 text-gray-900' : 'text-gray-700', 'group w-full text-left flex items-center px-4 py-2 text-sm']">
+                        <button v-else-if="item.as === 'emitter'" @click="$emit(item.emit)" :class="[active ? 'bg-gray-100 text-gray-900' : 'text-gray-700', 'group w-full text-left flex items-center px-4 py-2 text-sm disabled:pointer-events-none disabled:cursor-none']">
                             <component :is="item.icon" class="mr-3 h-5 w-5 text-gray-400 group-hover:text-gray-500" aria-hidden="true" />
                             {{ item.name }}
                         </button>
