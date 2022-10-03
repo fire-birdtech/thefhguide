@@ -88,7 +88,7 @@ const cells = {
             </div>
         </div>
 
-        <DangerModal :open="open" action-text="Delete" @close="close" @delete="destroy">
+        <DangerModal :open="open" action-text="Delete" emit-name="delete" @close="close" @delete="destroy">
             <DialogTitle as="h3" class="text-lg leading-6 font-medium text-gray-900"> Delete goal </DialogTitle>
             <div class="mt-2">
                 <p class="text-sm text-gray-500">Are you sure you want to delete {{ goal.name }}? All data will be permanently removed forever. This action cannot be undone.</p>
