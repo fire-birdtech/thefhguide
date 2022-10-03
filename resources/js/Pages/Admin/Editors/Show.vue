@@ -31,10 +31,6 @@ const actions = [
                         <h3 class="text-lg leading-6 font-medium text-gray-900"> Editor Details: {{ user.name }} </h3>
                     </div>
                     <div class="ml-4 mt-2 space-x-2">
-                        <!-- <SecondaryButton :href="route('admin.editors.edit', [user.id])" as="link" title="Edit user">
-                            <PencilSquareIcon class="h-5 w-5" aria-hidden="true" />
-                            <span class="sr-only">Edit {{ user.name }}</span>
-                        </SecondaryButton> -->
                         <SecondaryButtonWithDropdown button-text="Options" :actions="actions" @open="open = true" />
                     </div>
                 </div>
