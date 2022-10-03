@@ -13,7 +13,7 @@ class ProjectRequest extends FormRequest
      */
     public function authorize()
     {
-        return true;
+        return $this->user()->can('create projects') || $this->user()->can('update projects');
     }
 
     /**

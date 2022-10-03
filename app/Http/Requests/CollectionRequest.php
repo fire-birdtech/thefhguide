@@ -13,7 +13,7 @@ class CollectionRequest extends FormRequest
      */
     public function authorize()
     {
-        return true;
+        return $this->user()->can('create collections') || $this->user()->can('update collections');
     }
 
     /**
