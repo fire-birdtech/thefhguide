@@ -33,7 +33,7 @@ const submit = () => {
                             <BreezeInputError class="mt-1" :message="goal.errors?.name" />
                         </div>
                     </div>
-                    <div class="px-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:items-start sm:border-t sm:border-gray-200 sm:pt-5">
+                    <div class="px-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:items-start sm:border-t sm:border-gray-200 sm:py-4">
                         <BreezeLabel for="name" value="Summary" class="sm:mt-px sm:pt-2" />
                         <div class="mt-1 sm:mt-0 sm:col-span-4">
                             <TextEditor v-model="goal.summary" />
@@ -41,7 +41,7 @@ const submit = () => {
                         </div>
                     </div>
                     <div class="px-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:items-start sm:border-t sm:border-gray-200 sm:py-4">
-                        <BreezeLabel for="website_url" value="Summay" class="sm:mt-px sm:pt-2" />
+                        <BreezeLabel for="show_me_video_url" value='"Show Me" Video' class="sm:mt-px sm:pt-2" />
                         <div class="mt-1 sm:mt-0 sm:col-span-4">
                             <BreezeInput type="text" v-model="goal.show_me_video_url" id="name" class="block w-full" />
                             <BreezeInputError class="mt-1" :message="goal.errors?.show_me_video_url" />
