@@ -70,6 +70,7 @@ class AdminController extends Controller
     {
         return inertia('Admin/Editors/Edit', [
             'user' => $user->load('roles'),
+            'roles' => Role::all()->except(1)
         ]);
     }
 
