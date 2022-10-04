@@ -5,6 +5,7 @@ import Badge from '@/Components/Badge.vue';
 
 defineProps({
     actions: Boolean,
+    adminRouteType: String,
     cells: Object,
     routeType: String,
     rows: Array
@@ -18,7 +19,7 @@ defineProps({
                 <Link v-if="cellIdx === 0" :href="route(`${routeType}.show`, [item.slug ? item.slug : item.id])" class="text-gray-900 hover:text-gray-700 font-semibold">{{ item[cellKey] }}</Link>
                 <Badge v-else-if="cellKey === 'status'" :text="item.status" />
                 <Badge v-else-if="cellKey === 'role'" :text="item.roles[0].name" />
-                <template v-else-if="cellKey === 'assignable'"> {{ item[cellKey].name }} </template>
+                <template v-else-if="cellKey === 'assignable' || cellKey === 'user'"> {{ item[cellKey].name }} </template>
                 <template v-else-if="cellKey.includes('_at')">
                     {{ new Date(item[cellKey]).toLocaleDateString('en-us', { weekday:"long", year:"numeric", month:"short", day:"numeric"}) }}
                 </template>
@@ -29,7 +30,7 @@ defineProps({
                     <EyeIcon class="h-6 w-6" />
                     <span class="sr-only">View {{ item.name }}</span>
                 </Link>
-                <Link v-if="! item.locked" :href="route(`${routeType}.edit`, [item.slug ? item.slug : item.id])" class="text-indigo-600 hover:text-indigo-900">
+                <Link v-if="! item.locked" :href="route(`${adminRouteType || routeType}.edit`, [item.slug ? item.slug : item.id])" class="text-indigo-600 hover:text-indigo-900">
                     <PencilSquareIcon class="h-6 w-6" />
                     <span class="sr-only">Edit {{ item.name }}</span>
                 </Link>

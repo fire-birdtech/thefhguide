@@ -21,7 +21,7 @@ const navigation = ref([
         'Editor/Content/Choices/Index','Editor/Content/Choices/Create','Editor/Content/Choices/Show','Editor/Content/Choices/Edit',
     ]},
     { name: 'Assignments', href: route('admin.assignments.index'), show: admin, components: [
-        'Admin/Assignments/Index'
+        'Admin/Assignments/Index','Admin/Assignments/Create','Admin/Assignments/Edit','Editor/Assignments/Show'
     ]},
     { name: 'Editors', href: route('admin.editors.index'), show: admin, components: [
         'Admin/Editors/Index','Admin/Editors/Create','Admin/Editors/Show','Admin/Editors/Edit'

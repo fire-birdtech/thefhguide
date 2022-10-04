@@ -29,4 +29,6 @@ Route::group([
     Route::get('assignments', [AssignmentController::class, 'index'])->name('assignments.index');
     Route::get('assignments/create', [AssignmentController::class, 'create'])->name('assignments.create');
     Route::post('assignments', [AssignmentController::class, 'store'])->name('assignments.store');
+    Route::get('assignments/{assignment}/edit', [AssignmentController::class, 'edit'])->name('assignments.edit');
+    Route::put('assignments/{assignment}', [AssignmentController::class, 'update'])->name('assignments.update');
 });

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\AssignmentUpdateRequest;
 use App\Models\Assignment;
 use App\Models\Choice;
 use App\Models\Collection;
@@ -20,7 +21,7 @@ class AssignmentController extends Controller
     public function __construct()
     {
         $this->middleware('can:view assignments')->only('index');
-        $this->middleware('can:create assignments')->only(['create', 'store']);
+        $this->middleware('can:create assignments')->only(['create', 'store', 'edit']);
     }
 
     /**
@@ -90,7 +91,12 @@ class AssignmentController extends Controller
      */
     public function edit(Assignment $assignment)
     {
-        //
+        return inertia('Admin/Assignments/Edit', [
+            'currentAssignment' => $assignment->load(['assignable','user']),
+            'editors' => User::with('roles')->whereHas('roles', function($q) {
+                $q->whereIn('name', ['admin','editor','guest']);
+            })->orderBy('name', 'desc')->get(),
+        ]);
     }
 
     /**
@@ -100,9 +106,15 @@ class AssignmentController extends Controller
      * @param  \App\Models\Assignment  $assignment
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Assignment $assignment)
+    public function update(AssignmentUpdateRequest $request, Assignment $assignment)
     {
-        //
+        $assignment->update([
+            'summary' => $request['summary'],
+            'details' => $request['details'],
+            'user_id' => $request['user_id']
+        ]);
+
+        return redirect()->route('admin.assignments.index');
     }
 
     /**
