@@ -21,7 +21,7 @@ let formattedDate = computed(() => new Date(props.date).toLocaleDateString('en-u
                 <div class="min-w-0 flex-1 sm:flex sm:items-center sm:justify-between">
                     <div class="truncate">
                         <div class="flex text-sm">
-                            <p class="truncate font-medium text-indigo-600">{{ name }}</p>
+                            <p class="truncate font-medium text-blue-600">{{ name }}</p>
                             <p class="ml-1 flex-shrink-0 font-normal text-gray-500">in {{ parent }}</p>
                         </div>
                         <div class="mt-2 flex">

@@ -47,10 +47,10 @@ const showingNavigationDropdown = ref(false);
                         <div class="hidden sm:flex sm:items-center sm:ml-6 sm:space-x-3">
                             <Menu as="div" class="relative inline-block text-left">
                                 <div>
-                                    <MenuButton class="flex items-center rounded-full text-gray-400 hover:text-gray-600 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                                    <MenuButton class="flex items-center rounded-full text-gray-400 hover:text-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500">
                                         <span class="sr-only">View notifications</span>
                                         <BellIcon class="h-6 w-6" aria-hidden="true" />
-                                        <span v-if="$page.props.notifications.filter(n => n.read_at === null).length" class="absolute top-0 right-0 block h-2 w-2 rounded-full bg-indigo-400 ring-2 ring-white" />
+                                        <span v-if="$page.props.notifications.filter(n => n.read_at === null).length" class="absolute top-0 right-0 block h-2 w-2 rounded-full bg-blue-400 ring-2 ring-white" />
                                     </MenuButton>
                                 </div>
 
@@ -62,7 +62,7 @@ const showingNavigationDropdown = ref(false);
                                             </MenuItem>
                                         </div>
                                         <div v-else class="text-center px-4 py-6">
-                                            <InboxIcon class="mx-auto h-12 w-12 text-indigo-200" />
+                                            <InboxIcon class="mx-auto h-12 w-12 text-blue-200" />
                                             <p class="mt-2 text-sm font-medium text-gray-900">No notifications yet</p>
                                             <p class="mt-1 text-sm text-gray-500">We'll let you know when you have some.</p>
                                         </div>

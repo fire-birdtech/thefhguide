@@ -26,11 +26,11 @@ defineProps({
                 <template v-else> {{ item[cellKey] }} </template>
             </td>
             <td v-if="actions" class="flex justify-end whitespace-nowrap py-3 pl-3 pr-4 text-right text-sm font-medium space-x-2 sm:pr-6">
-                <Link :href="route(`${routeType}.show`, [item.slug ? item.slug : item.id])" class="text-indigo-600 hover:text-indigo-900">
+                <Link :href="route(`${routeType}.show`, [item.slug ? item.slug : item.id])" class="text-blue-600 hover:text-blue-900">
                     <EyeIcon class="h-6 w-6" />
                     <span class="sr-only">View {{ item.name }}</span>
                 </Link>
-                <Link v-if="! item.locked" :href="route(`${adminRouteType || routeType}.edit`, [item.slug ? item.slug : item.id])" class="text-indigo-600 hover:text-indigo-900">
+                <Link v-if="! item.locked" :href="route(`${adminRouteType || routeType}.edit`, [item.slug ? item.slug : item.id])" class="text-blue-600 hover:text-blue-900">
                     <PencilSquareIcon class="h-6 w-6" />
                     <span class="sr-only">Edit {{ item.name }}</span>
                 </Link>

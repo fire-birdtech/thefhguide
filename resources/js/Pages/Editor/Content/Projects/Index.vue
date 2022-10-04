@@ -44,11 +44,11 @@ defineProps({
                                         </td>
                                         <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">{{ project?.collection?.name }}</td>
                                         <td class="flex justify-end whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium space-x-2 sm:pr-6">
-                                            <Link :href="route('editor.projects.show', [project.slug])" class="text-indigo-600 hover:text-indigo-900">
+                                            <Link :href="route('editor.projects.show', [project.slug])" class="text-blue-600 hover:text-blue-900">
                                                 <EyeIcon class="h-6 w-6" />
                                                 <span class="sr-only">View {{ project.name }}</span>
                                             </Link>
-                                            <Link :href="route('editor.projects.edit', [project.slug])" class="text-indigo-600 hover:text-indigo-900">
+                                            <Link :href="route('editor.projects.edit', [project.slug])" class="text-blue-600 hover:text-blue-900">
                                                 <PencilSquareIcon class="h-6 w-6" />
                                                 <span class="sr-only">Edit {{ project.name }}</span>
                                             </Link>

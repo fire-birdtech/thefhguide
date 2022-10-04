@@ -13,11 +13,11 @@ defineEmits(['notify','publish','save']);
 
 <template>
     <Menu as="div" class="relative inline-block text-left">
-        <div class="inline-flex divide-x divide-indigo-700 rounded-md">
-            <button @click="$emit('save')" class="inline-flex items-center rounded-l-md rounded-r-none bg-indigo-600 px-4 py-2 text-sm font-medium text-white hover:bg-indigo-700 focus:ring focus:ring-indigo-500 focus:ring-opacity-40">
+        <div class="inline-flex divide-x divide-blue-700 rounded-md">
+            <button @click="$emit('save')" class="inline-flex items-center rounded-l-md rounded-r-none bg-blue-600 px-4 py-2 text-sm font-medium text-white hover:bg-blue-700 focus:ring focus:ring-blue-500 focus:ring-opacity-40">
                 {{ action }}
             </button>
-            <MenuButton class="inline-flex items-center rounded-l-none rounded-r-md bg-indigo-600 p-2 text-sm font-medium text-white hover:bg-indigo-700 focus:ring focus:ring-indigo-500 focus:ring-opacity-40">
+            <MenuButton class="inline-flex items-center rounded-l-none rounded-r-md bg-blue-600 p-2 text-sm font-medium text-white hover:bg-blue-700 focus:ring focus:ring-blue-500 focus:ring-opacity-40">
                 <ChevronDownIcon class="h-5 w-5 text-white" aria-hidden="true" />
             </MenuButton>
         </div>

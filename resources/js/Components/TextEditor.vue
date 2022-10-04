@@ -79,6 +79,6 @@ const setLink = () => {
                 unset link
             </EditorButton>
         </div>
-        <EditorContent class="focus:ring focus:ring-indigo-200 focus:ring-opacity-50 focus:outline-none" :editor="editor" />
+        <EditorContent class="focus:ring focus:ring-blue-200 focus:ring-opacity-50 focus:outline-none" :editor="editor" />
     </div>
 </template>
