@@ -47,6 +47,15 @@ class User extends Authenticatable
     ];
 
     /**
+     * The usable types for child models
+     */
+    protected $childTypes = [
+        'admin' => Admin::class,
+        'editor' => Editor::class,
+        'guest' => Guest::class
+    ];
+
+    /**
      * Scope a query to only include users with an admin or editor role
      * 
      * @param \Illuminate\Database\Eloquent\Builder  $query
