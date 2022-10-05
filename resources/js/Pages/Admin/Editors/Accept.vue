@@ -15,6 +15,7 @@ const registerForm = useForm({
     email: props.invitation.email,
     id: props.invitation.id,
     role: props.invitation.role,
+    admin_id: props.invitation.admin_id,
     password: '',
     password_confirmation: '',
 });
@@ -22,6 +23,7 @@ const registerForm = useForm({
 const acceptForm = useForm({
     email: props.invitation.email,
     role: props.invitation.role,
+    admin_id: props.invitation.admin_id,
     id: props.invitation.id,
 });
 

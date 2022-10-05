@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
@@ -46,14 +47,10 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
 
-    /**
-     * The usable types for child models
-     */
-    protected $childTypes = [
-        'admin' => Admin::class,
-        'editor' => Editor::class,
-        'guest' => Guest::class
-    ];
+    public function editors(): HasMany
+    {
+        return $this->hasMany(User::class, 'admin_id');
+    }
 
     /**
      * Scope a query to only include users with an admin or editor role

@@ -13,8 +13,8 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::table('users', function (Blueprint $table) {
-            $table->string('type')->nullable()->after('email');
+        Schema::table('invitations', function (Blueprint $table) {
+            $table->unsignedBigInteger('admin_id')->after('role');
         });
     }
 
@@ -25,8 +25,8 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::table('users', function (Blueprint $table) {
-            $table->dropColumn('type');
+        Schema::table('invitations', function (Blueprint $table) {
+            $table->dropColumn('admin_id');
         });
     }
 };

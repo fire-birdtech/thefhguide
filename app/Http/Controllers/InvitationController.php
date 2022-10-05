@@ -76,7 +76,10 @@ class InvitationController extends Controller
             'password' => Hash::make($request->password),
         ]);
 
-        $user->assignRole($request->role);
+        $this->assignRoles($user, $request->role);
+
+        $admin = User::find($request['admin_id']);
+        $admin->editors()->save($user);
 
         event(new Registered($user));
 
@@ -94,7 +97,11 @@ class InvitationController extends Controller
     public function process(Request $request)
     {
         $user = User::where('email', $request->email)->first();
-        $user->assignRole($request->role);
+        
+        $this->assignRoles($user, $request->role);
+
+        $admin = User::find($request['admin_id']);
+        $admin->editors()->save($user);
 
         if (!Auth::check()) {
             Auth::login($user);
@@ -117,5 +124,22 @@ class InvitationController extends Controller
     public function sendInvitationEmail(Invitation $invitation)
     {
         Mail::to($invitation->email)->send(new AdminInvitation($invitation));
+    }
+
+    /**
+     * Assign appropriate role(s) to user
+     * 
+     * @param User $user
+     * @param string $role
+     */
+    public function assignRoles(User $user, $role)
+    {
+        if ($role === 'admin') {
+            $user->assignRole(['admin','editor']);
+        } else if ($role === 'editor') {
+            $user->assignRole('editor');
+        } else if ($role === 'guest') {
+            $user->assignRole('guest');
+        }
     }
 }

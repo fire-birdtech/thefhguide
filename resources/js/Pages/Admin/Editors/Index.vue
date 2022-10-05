@@ -73,7 +73,7 @@ const cells = {
                         <h1 class="text-xl font-semibold text-gray-900">Invitations</h1>
                     </div>
                 </div>
-                <div class="mt-8 flex flex-col">
+                <div class="mt-4 flex flex-col">
                     <div class="flow-root bg-white shadow overflow-hidden sm:rounded-md">
                         <ul role="list" class="divide-y divide-gray-200">
                             <li v-for="invitation in invitations" :key="invitation.id" class="py-4">

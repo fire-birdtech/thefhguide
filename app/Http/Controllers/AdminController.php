@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\AdminInvitationRequest;
 use App\Mail\AdminInvitation;
+use App\Models\Admin;
 use App\Models\Invitation;
 use App\Models\User;
 use Illuminate\Http\Request;
@@ -43,7 +44,8 @@ class AdminController extends Controller
     public function create()
     {
         return inertia('Admin/Editors/Create', [
-            'roles' => Role::all()->except(1),
+            'admins' => User::role('admin')->with('roles')->orderBy('name', 'asc')->get(),
+            'roles' => Role::all()->except(1)
         ]);
     }
 

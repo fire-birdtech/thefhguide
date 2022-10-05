@@ -10,6 +10,7 @@ class Invitation extends Model
     use HasFactory;
 
     protected $fillable = [
+        'admin_id',
         'email',
         'name',
         'role',
