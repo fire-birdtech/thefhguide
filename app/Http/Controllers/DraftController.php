@@ -147,10 +147,10 @@ class DraftController extends Controller
 
     public function notify(Request $request, Draft $draft)
     {
-        $admins = User::role('admin')->get();
-        foreach ($admins as $admin) {
-            $admin->notify(new DraftReady($draft));
-        }
+        // $admins = User::role('admin')->get();
+        // foreach ($admins as $admin) {
+            $request->user()->admin->notify(new DraftReady($draft));
+        // }
 
         return redirect()->route('editor.dashboard');
     }
