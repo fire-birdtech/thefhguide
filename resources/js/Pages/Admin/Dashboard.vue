@@ -1,18 +1,21 @@
 <script setup>
 import AdminLayout from '@/Layouts/Admin.vue';
 import { Head } from '@inertiajs/inertia-vue3';
+import AdminDashboardEditorCard from '@/Components/Cards/AdminDashboardEditorCard.vue';
+
+defineProps({
+    editors: Array
+});
 </script>
 
 <template>
     <Head title="Admin Dashboard" />
 
     <AdminLayout>
-        <div class="py-8">
-            <div class="sm:px-6 lg:px-8">
-                <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
-                    <div class="p-6 bg-white border-b border-gray-200">
-                        Admin
-                    </div>
+        <div class="w-full py-8 px-4 sm:px-6 lg:px-8">
+            <div>
+                <div class="grid grid-cols-1 gap-6 sm:grid-cols-2">
+                    <AdminDashboardEditorCard v-for="editor in editors" :key="editor.id" :editor="editor" />
                 </div>
             </div>
         </div>

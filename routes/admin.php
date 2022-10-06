@@ -8,6 +8,7 @@
 
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\AssignmentController;
+use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\InvitationController;
 use Illuminate\Support\Facades\Route;
 
@@ -16,7 +17,7 @@ Route::group([
     'prefix' => 'admin',
     'as' => 'admin.'
 ], function () {
-    Route::get('dashboard', fn () => inertia('Admin/Dashboard'))->name('dashboard');
+    Route::get('dashboard', [DashboardController::class, 'admin'])->name('dashboard');
     Route::get('editors', [AdminController::class, 'index'])->name('editors.index');
     Route::get('editors/create', [AdminController::class, 'create'])->name('editors.create');
     Route::get('editors/show/{user}', [AdminController::class, 'show'])->name('editors.show');
