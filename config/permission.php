@@ -161,6 +161,7 @@ return [
 
     'permissions' => [
         'manage editors',
+        'view editors',
         'publish content',
         'draft content',
         'create assignments',
@@ -184,12 +185,15 @@ return [
     'roles_permissions' => [
         [
             'name' => 'super admin',
-            'permissions' => []
+            'permissions' => [
+                'manage editors',
+                'view editors'
+            ]
         ],
         [
             'name' => 'admin',
             'permissions' => [
-                'manage editors',
+                'view editors',
                 'publish content',
                 'draft content',
                 'create assignments',
