@@ -1,11 +1,14 @@
 <script setup>
-import { computed, ref } from 'vue';
+import { computed, inject, ref } from 'vue';
 import { Link, usePage } from '@inertiajs/inertia-vue3';
 
-const admin = computed(() => usePage().props.value.canManageEditors);
+const admin = inject('canManageEditors');
+const role = inject('currentUserRole');
+
+const adminRole = ref(role === 'admin' || role === 'super admin');
 
 const dashboardLink = computed(() => {
-    if (usePage().props.value.canManageEditors) {
+    if (adminRole) {
         return route('admin.dashboard');
     } else {
         return route('editor.dashboard');
@@ -20,7 +23,7 @@ const navigation = ref([
         'Editor/Content/Goals/Index','Editor/Content/Goals/Create','Editor/Content/Goals/Show','Editor/Content/Goals/Edit',
         'Editor/Content/Choices/Index','Editor/Content/Choices/Create','Editor/Content/Choices/Show','Editor/Content/Choices/Edit',
     ]},
-    { name: 'Assignments', href: route('admin.assignments.index'), show: admin, components: [
+    { name: 'Assignments', href: route('admin.assignments.index'), show: adminRole, components: [
         'Admin/Assignments/Index','Admin/Assignments/Create','Admin/Assignments/Edit','Editor/Assignments/Show'
     ]},
     { name: 'Editors', href: route('admin.editors.index'), show: admin, components: [

@@ -1,5 +1,5 @@
 <script setup>
-import { ref } from 'vue';
+import { provide, ref } from 'vue';
 import BreezeApplicationLogo from '@/Components/ApplicationLogo.vue';
 import BreezeDropdown from '@/Components/Dropdown.vue';
 import BreezeDropdownLink from '@/Components/DropdownLink.vue';
@@ -9,7 +9,10 @@ import { Link, usePage } from '@inertiajs/inertia-vue3';
 import VerticalNav from '@/Components/Navigation/Vertical.vue';
 import { BellIcon } from '@heroicons/vue/24/outline';
 import { ChevronDownIcon, InboxIcon } from '@heroicons/vue/24/solid';
-import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue'
+import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue';
+
+provide('canManageEditors', usePage().props.value.canManageEditors);
+provide('currentUserRole', usePage().props.value.currentUserRole);
 
 defineProps({
     type: {
