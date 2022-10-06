@@ -49,7 +49,7 @@ class User extends Authenticatable
 
     public function editors(): HasMany
     {
-        return $this->hasMany(User::class, 'admin_id');
+        return $this->hasMany(User::class, 'admin_id')->with('roles');
     }
 
     /**

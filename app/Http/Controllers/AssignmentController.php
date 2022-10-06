@@ -44,9 +44,7 @@ class AssignmentController extends Controller
     public function create(Request $request)
     {
         return inertia('Admin/Assignments/Create', [
-            'editors' => User::with('roles')->whereHas('roles', function($q) {
-                $q->whereIn('name', ['admin','editor','guest']);
-            })->orderBy('name', 'desc')->get(),
+            'editors' => $request->user()->editors,
             'assignable' => $this->getAssignable($request->assignable_type, $request->assignable_id),
             'assignableType' => $request->assignable_type
         ]);
