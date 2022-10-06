@@ -20,7 +20,8 @@ class AdminController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('can:manage editors');
+        $this->middleware('can:manage editors')->except('show');
+        $this->middleware('can:view editors')->only('show');
     }
 
     /**
