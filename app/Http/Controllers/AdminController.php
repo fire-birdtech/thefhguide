@@ -58,7 +58,7 @@ class AdminController extends Controller
     public function show(User $user)
     {
         return inertia('Admin/Editors/Show', [
-            'user' => $user->load('roles'),
+            'user' => $user->load(['admin','roles']),
         ]);
     }
 
