@@ -6,6 +6,7 @@ use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Database\Eloquent\Relations\HasManyThrough;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
@@ -56,6 +57,22 @@ class User extends Authenticatable
     public function admin(): BelongsTo
     {
         return $this->belongsTo(User::class, 'admin_id');
+    }
+
+    public function assignments(): HasMany
+    {
+        return $this->hasMany(Assignment::class);
+    }
+
+    public function editorAssignments(): HasManyThrough
+    {
+        return $this->hasManyThrough(Assignment::class, User::class, 'admin_id', 'user_id')
+                    ->with(['assignable','user']);
+    }
+
+    public function scopePublishedEditorAssignments($query)
+    {
+        return $this->editorAssignments()->where('publish_date', null);
     }
 
     /**

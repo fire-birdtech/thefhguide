@@ -20,7 +20,7 @@ class AssignmentController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('can:view assignments')->only('index');
+        $this->middleware('can:view assignments')->only(['index','show']);
         $this->middleware('can:create assignments')->only(['create', 'store', 'edit']);
     }
 
@@ -29,10 +29,12 @@ class AssignmentController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
         return inertia('Admin/Assignments/Index', [
-            'assignments' => Assignment::with(['assignable', 'user'])->get()
+            'assignments' => $request->user()->hasRole('super admin')
+                ? Assignment::with(['assignable', 'user'])->where('publish_date', null)->get()
+                : $request->user()->publishedEditorAssignments
         ]);
     }
 
