@@ -69,14 +69,8 @@ class AdminController extends Controller
      */
     public function edit(User $user)
     {
-        $admins = [];
-        if ($user->hasRole('admin')) {
-            $admins = User::role('super admin')->with('roles')->get();
-        } else if ($user->hasRole(['guest','editor'])) {
-            $admins = User::role('admin')->with('roles')->get();
-        }
         return inertia('Admin/Editors/Edit', [
-            'admins' => $admins,
+            'admins' => User::role(['super admin','admin'])->with('roles')->get(),
             'roles' => Role::all(),
             'user' => $user->load('roles')
         ]);
@@ -97,7 +91,11 @@ class AdminController extends Controller
         ]);
         // $user->save();
 
-        $user->assignRole($request->role);
+        $roleNames = [];
+        foreach ($request->roles as $role) {
+            $roleNames[] = $role['name'];
+        }
+        $user->syncRoles($roleNames);
 
         $admin = User::find($request['admin_id']);
         $admin->editors()->save($user);
