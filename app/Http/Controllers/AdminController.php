@@ -70,10 +70,10 @@ class AdminController extends Controller
     public function edit(User $user)
     {
         $admins = [];
-        if ($user->hasRole(['guest','editor'])) {
-            $admins = User::role('admin')->with('roles')->get();
-        } else if ($user->hasRole('admin')) {
+        if ($user->hasRole('admin')) {
             $admins = User::role('super admin')->with('roles')->get();
+        } else if ($user->hasRole(['guest','editor'])) {
+            $admins = User::role('admin')->with('roles')->get();
         }
         return inertia('Admin/Editors/Edit', [
             'admins' => $admins,
