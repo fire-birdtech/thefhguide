@@ -60,9 +60,24 @@ class User extends Authenticatable
         return $this->belongsTo(User::class, 'admin_id');
     }
 
+    public function drafts(): HasMany
+    {
+        return $this->hasMany(Draft::class);
+    }
+
+    public function scopeUnpublishedDrafts()
+    {
+        return $this->drafts()->where('publish_date', null)->orderBy('updated_at', 'desc');
+    }
+
     public function assignments(): HasMany
     {
         return $this->hasMany(Assignment::class);
+    }
+
+    public function scopeUnpublishedAssignments($query)
+    {
+        return $this->assignments()->where('status', '!=', AssignmentStatus::PUBLISHED)->orderBy('updated_at', 'desc');
     }
 
     public function editorAssignments(): HasManyThrough
