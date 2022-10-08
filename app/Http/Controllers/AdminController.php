@@ -2,9 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests\AdminInvitationRequest;
 use App\Mail\AdminInvitation;
-use App\Models\Admin;
 use App\Models\Invitation;
 use App\Models\User;
 use Illuminate\Http\Request;
@@ -71,9 +69,16 @@ class AdminController extends Controller
      */
     public function edit(User $user)
     {
+        $admins = [];
+        if ($user->hasRole(['guest','editor'])) {
+            $admins = User::role('admin')->with('roles')->get();
+        } else if ($user->hasRole('admin')) {
+            $admins = User::role('super admin')->with('roles')->get();
+        }
         return inertia('Admin/Editors/Edit', [
-            'user' => $user->load('roles'),
-            'roles' => Role::all()->except(1)
+            'admins' => $admins,
+            'roles' => Role::all(),
+            'user' => $user->load('roles')
         ]);
     }
 
@@ -86,10 +91,16 @@ class AdminController extends Controller
      */
     public function update(Request $request, User $user)
     {
-        // $user->update($request->validated());
+        $user->update([
+            'name' => $request['name'],
+            'email' => $request['email'],
+        ]);
         // $user->save();
 
         $user->assignRole($request->role);
+
+        $admin = User::find($request['admin_id']);
+        $admin->editors()->save($user);
 
         return redirect()->route('admin.editors.show', [$user->id]);
     }
