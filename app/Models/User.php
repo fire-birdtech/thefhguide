@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use App\Enums\AssignmentStatus;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
@@ -72,7 +73,7 @@ class User extends Authenticatable
 
     public function scopePublishedEditorAssignments($query)
     {
-        return $this->editorAssignments()->where('publish_date', null);
+        return $this->editorAssignments()->where('status', '!=', AssignmentStatus::PUBLISHED);
     }
 
     /**

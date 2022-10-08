@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Enums\AssignmentStatus;
 use App\Http\Requests\AssignmentUpdateRequest;
 use App\Models\Assignment;
 use App\Models\Choice;
@@ -33,7 +34,7 @@ class AssignmentController extends Controller
     {
         return inertia('Admin/Assignments/Index', [
             'assignments' => $request->user()->hasRole('super admin')
-                ? Assignment::with(['assignable', 'user'])->where('publish_date', null)->get()
+                ? Assignment::with(['assignable', 'user'])->where('status', '!=', AssignmentStatus::PUBLISHED)->get()
                 : $request->user()->publishedEditorAssignments
         ]);
     }
