@@ -85,7 +85,7 @@ class InvitationController extends Controller
         event(new Registered($user));
 
         foreach (User::role('super admin')->get() as $admin) {
-            $admin->notify(new EditorInvitationAccepted(Invitation::find($request->id)));
+            $admin->notify(new EditorInvitationAccepted(Invitation::find($request->id), $user));
         }
 
         Auth::login($user);

@@ -3,6 +3,7 @@
 namespace App\Notifications;
 
 use App\Models\Invitation;
+use App\Models\User;
 use Illuminate\Bus\Queueable;
 use Illuminate\Notifications\Notification;
 
@@ -15,9 +16,10 @@ class EditorInvitationAccepted extends Notification
      *
      * @return void
      */
-    public function __construct(Invitation $invitation)
+    public function __construct(Invitation $invitation, User $user)
     {
         $this->invitation = $invitation;
+        $this->user = $user;
     }
 
     /**
@@ -40,8 +42,8 @@ class EditorInvitationAccepted extends Notification
     public function toArray($notifiable)
     {
         return [
-            'messsage' => "{$this->invitation->name} has accepted the invitation to be an {$this->invitation->role}",
-            'notification' => $this->id
+            'message' => "{$this->invitation->name} has accepted the invitation to be an {$this->invitation->role}",
+            'route' => route('admin.editors.show', ['user' => $this->user->id])
         ];
     }
 }

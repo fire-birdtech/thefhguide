@@ -40,10 +40,8 @@ class DraftReady extends Notification
     public function toArray($notifiable)
     {
         return [
-            'message' => "Updates by {$this->draft->user->name} are ready to publish for",
-            'draftable' => $this->draft->draftable->name,
-            'draft' => $this->draft->id,
-            'notification' => $this->id
+            'message' => "Updates by {$this->draft->user->name} are ready to publish for {$this->draft->draftable->name}",
+            'route' => route('editor.drafts.edit', ['draft' => $this->draft->id])
         ];
     }
 }

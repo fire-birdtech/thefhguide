@@ -12,6 +12,6 @@ class NotificationController extends Controller
         $notification = $request->user()->notifications()->find($id);
         $notification->markAsRead();
 
-        return redirect()->route('editor.drafts.edit', ['draft' => $notification->data['draft']]);
+        return redirect($notification->data['route']);
     }
 }
