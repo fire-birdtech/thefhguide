@@ -7,6 +7,7 @@ use App\Http\Requests\InvitationRegisterRequest;
 use App\Mail\AdminInvitation;
 use App\Models\Invitation;
 use App\Models\User;
+use App\Notifications\EditorInvitationAccepted;
 use App\Providers\RouteServiceProvider;
 use Illuminate\Auth\Events\Registered;
 use Illuminate\Http\Request;
@@ -82,6 +83,10 @@ class InvitationController extends Controller
         $admin->editors()->save($user);
 
         event(new Registered($user));
+
+        foreach (User::role('super admin')->get() as $admin) {
+            $admin->notify(new EditorInvitationAccepted(Invitation::find($request->id)));
+        }
 
         Auth::login($user);
 
