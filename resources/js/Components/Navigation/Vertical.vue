@@ -5,14 +5,8 @@ import { Link, usePage } from '@inertiajs/inertia-vue3';
 const admin = inject('canManageEditors');
 const role = inject('currentUserRole');
 
-const adminRole = ref(role === 'admin' || role === 'super admin');
-
 const dashboardLink = computed(() => {
-    if (adminRole) {
-        return route('admin.dashboard');
-    } else {
-        return route('editor.dashboard');
-    }
+    return role === 'admin' || role === 'super admin' ? route('admin.dashboard') : route('editor.dashboard');
 });
 
 const navigation = ref([
