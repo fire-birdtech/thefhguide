@@ -18,8 +18,7 @@ class AdminController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('can:manage editors')->except('show');
-        $this->middleware('can:view editors')->only('show');
+        $this->middleware('can:manage editors');
     }
 
     /**
@@ -30,7 +29,7 @@ class AdminController extends Controller
     public function index()
     {
         return inertia('Admin/Editors/Index', [
-            'users' => User::role(['admin', 'editor', 'guest'])->with('roles')->get(),
+            'users' => User::role(['admin', 'editor'])->with('roles')->get(),
             'invitations' => Invitation::all(),
         ]);
     }
@@ -44,7 +43,7 @@ class AdminController extends Controller
     {
         return inertia('Admin/Editors/Create', [
             'admins' => User::role('admin')->with('roles')->orderBy('name', 'asc')->get(),
-            'roles' => Role::all()->except(1)
+            'roles' => Role::whereNotIn('name', ['super admin'])->get()
         ]);
     }
 
@@ -70,8 +69,8 @@ class AdminController extends Controller
     public function edit(User $user)
     {
         return inertia('Admin/Editors/Edit', [
-            'admins' => User::role(['super admin','admin'])->with('roles')->get(),
-            'roles' => Role::all(),
+            'admins' => User::role('admin')->with('roles')->get(),
+            'roles' => Role::whereNotIn('name', ['super admin'])->get(),
             'user' => $user->load('roles')
         ]);
     }

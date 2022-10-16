@@ -161,7 +161,6 @@ return [
 
     'permissions' => [
         'manage editors',
-        'view editors',
         'publish content',
         'draft content',
         'create assignments',
@@ -185,15 +184,12 @@ return [
     'roles_permissions' => [
         [
             'name' => 'super admin',
-            'permissions' => [
-                'manage editors',
-                'view editors'
-            ]
+            'permissions' => []
         ],
         [
             'name' => 'admin',
             'permissions' => [
-                'view editors',
+                'manage editors',
                 'publish content',
                 'draft content',
                 'create assignments',
@@ -229,12 +225,6 @@ return [
                 'create choices',
                 'update choices',
                 'delete choices'
-            ]
-        ],
-        [
-            'name' => 'guest',
-            'permissions' => [
-                'draft content'
             ]
         ]
     ],
