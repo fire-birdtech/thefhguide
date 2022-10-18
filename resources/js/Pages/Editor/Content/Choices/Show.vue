@@ -25,8 +25,8 @@ const destroy = () => {
 
 const actions = [
     [
-        { name: 'Edit', as: 'link', icon: PencilSquareIconSolid, href: route('editor.goals.edit', [props.goal.slug]) },
-        { name: 'Add Assignment', as: 'link', icon: PlusCircleIcon, href: `${route('admin.assignments.create')}?assignable_id=${props.goal.id}&assignable_type=goal` }
+        { name: 'Edit', as: 'link', icon: PencilSquareIconSolid, href: route('editor.choices.edit', [props.choice.id]) },
+        { name: 'Add Assignment', as: 'link', icon: PlusCircleIcon, href: `${route('admin.assignments.create')}?assignable_id=${props.choice.id}&assignable_type=choice` }
     ],
     [
         { name: 'Archive', as: 'emitter', icon: ArchiveBoxIcon, emit: 'open' }
@@ -53,31 +53,31 @@ const actions = [
                         <dt class="text-sm font-medium text-gray-500">Name</dt>
                         <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-3"> {{ choice.name }} </dd>
                     </div>
-                    <div class="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                    <div class="py-4 sm:py-5 sm:grid sm:grid-cols-4 sm:gap-4 sm:px-6">
                         <dt class="text-sm font-medium text-gray-500">Goal</dt>
-                        <dd class="mt-1 text-sm font-bold text-gray-900 sm:mt-0 sm:col-span-2">
+                        <dd class="mt-1 text-sm font-bold text-gray-900 sm:mt-0 sm:col-span-3">
                             <Link class="hover:text-gray-600" :href="route('editor.goals.show', [choice.goal.slug])"> {{ choice.goal.name }} </Link>
                         </dd>
                     </div>
                     <div class="py-4 sm:py-5 sm:grid sm:grid-cols-4 sm:gap-4 sm:px-6">
                         <dt class="text-sm font-medium text-gray-500">Summary</dt>
-                        <dd class="mt-1 prose text-sm text-gray-900 sm:-my-4 sm:col-span-3" v-html="choice.summary" />
+                        <dd class="mt-1 prose text-sm text-gray-900 sm:mt-0 sm:col-span-3" v-html="choice.summary" />
                     </div>
                     <div class="py-4 sm:py-5 sm:grid sm:grid-cols-4 sm:gap-4 sm:px-6">
                         <dt class="text-sm font-medium text-gray-500">Instructions</dt>
-                        <dd class="mt-1 prose text-sm text-gray-900 sm:-my-4 sm:col-span-3" v-html="choice.instructions" />
+                        <dd class="mt-1 prose text-sm text-gray-900 sm:mt-0 sm:col-span-3" v-html="choice.instructions" />
                     </div>
                     <div v-if="choice.exercises" class="py-4 sm:py-5 sm:grid sm:grid-cols-4 sm:gap-4 sm:px-6">
                         <dt class="text-sm font-medium text-gray-500">Resources</dt>
-                        <dd class="mt-1 prose text-sm text-gray-900 sm:-my-4 sm:col-span-3" v-html="choice.resources" />
+                        <dd class="mt-1 prose text-sm text-gray-900 sm:mt-0 sm:col-span-3" v-html="choice.resources" />
                     </div>
                     <div v-if="choice.review" class="py-4 sm:py-5 sm:grid sm:grid-cols-4 sm:gap-4 sm:px-6">
                         <dt class="text-sm font-medium text-gray-500">Review</dt>
-                        <dd class="mt-1 prose text-sm text-gray-900 sm:-my-4 sm:col-span-3" v-html="choice.review" />
+                        <dd class="mt-1 prose text-sm text-gray-900 sm:mt-0 sm:col-span-3" v-html="choice.review" />
                     </div>
                     <div v-if="choice.exercises" class="py-4 sm:py-5 sm:grid sm:grid-cols-4 sm:gap-4 sm:px-6">
                         <dt class="text-sm font-medium text-gray-500">Exercises</dt>
-                        <dd class="mt-1 prose text-sm text-gray-900 sm:-my-4 sm:col-span-3" v-html="choice.exercises" />
+                        <dd class="mt-1 prose text-sm text-gray-900 sm:mt-0 sm:col-span-3" v-html="choice.exercises" />
                     </div>
                 </dl>
             </div>
