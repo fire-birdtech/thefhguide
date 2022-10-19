@@ -62,7 +62,7 @@ class AssignmentController extends Controller
     public function store(Request $request)
     {
         $assignable = $this->getAssignable($request->assignable_type, $request->assignable_id);
-        $assignable->assignments()->save(new Assignment([
+        $assignable->assignment()->save(new Assignment([
             'summary' => $request->summary,
             'details' => $request->details,
             'user_id' => $request->user
