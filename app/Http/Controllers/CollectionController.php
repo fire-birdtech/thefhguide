@@ -62,8 +62,12 @@ class CollectionController extends Controller
      * @param  \App\Models\Collection  $collection
      * @return \Illuminate\Http\Response
      */
-    public function edit(Collection $collection)
+    public function edit(Request $request, Collection $collection)
     {
+        if (! $collection->assignment || $collection->assignment->user_id !== $request->user()->id) {
+            return back()->withErrors(['message' => 'This collection is not available for editing at this time']);
+        }
+        
         return inertia('Editor/Content/Collections/Edit', [
             'collection' => $collection,
         ]);

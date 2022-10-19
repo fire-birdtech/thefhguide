@@ -63,8 +63,12 @@ class GoalController extends Controller
      * @param  \App\Models\Goal  $goal
      * @return \Illuminate\Http\Response
      */
-    public function edit(Goal $goal)
+    public function edit(Request $request, Goal $goal)
     {
+        if (! $goal->assignment || $goal->assignment?->user_id !== $request->user()->id) {
+            return back()->withErrors(['message' => 'This goal is not available for editing at this time']);
+        }
+
         return inertia('Editor/Content/Goals/Edit', [
             'goal' => $goal,
         ]);

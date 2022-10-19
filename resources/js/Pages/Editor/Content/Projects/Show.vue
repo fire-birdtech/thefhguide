@@ -15,8 +15,10 @@ import TableHead from '@/Components/Tables/TableHead.vue';
 import TableBody from '@/Components/Tables/TableBody.vue';
 import SecondaryButtonSmall from '@/Components/Buttons/SecondaryButtonSmall.vue';
 import SecondaryButtonWithDropdown from '@/Components/Buttons/SecondaryButtonWithDropdown.vue';
+import ErrorAlert from '@/Components/Alerts/ErrorAlert.vue';
 
 const props = defineProps({
+    errors: Object,
     project: Object,
 });
 
@@ -51,6 +53,7 @@ const cells = {
 
     <AdminLayout>
         <div class="w-full py-8 px-4 sm:px-6 lg:px-8">
+            <ErrorAlert :message="errors.message" />
             <div class="-ml-4 -mt-2 flex items-center justify-between flex-wrap sm:flex-nowrap">
                 <div class="ml-4 mt-2">
                     <h3 class="text-lg leading-6 font-medium text-gray-900"> Project Details: {{ project.name }} </h3>

@@ -66,8 +66,12 @@ class ProjectController extends Controller
      * @param  \App\Models\Project  $project
      * @return \Illuminate\Http\Response
      */
-    public function edit(Project $project)
+    public function edit(Request $request, Project $project)
     {
+        if (! $project->assignment || $project->assignment->user_id !== $request->user()->id) {
+            return back()->withErrors(['message' => 'This project is not available for editing at this time']);
+        }
+
         $collections = Collection::orderBy('name', 'asc')->get();
         return inertia('Editor/Content/Projects/Edit', [
             'collections' => $collections,
