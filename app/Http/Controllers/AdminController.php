@@ -42,8 +42,7 @@ class AdminController extends Controller
     public function create()
     {
         return inertia('Admin/Editors/Create', [
-            'admins' => User::role('admin')->with('roles')->orderBy('name', 'asc')->get(),
-            'roles' => Role::whereNotIn('name', ['super admin'])->get()
+            'admins' => User::role('admin')->with('roles')->orderBy('name', 'asc')->get()
         ]);
     }
 
