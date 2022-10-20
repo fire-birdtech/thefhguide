@@ -13,9 +13,9 @@ defineProps({
 });
 
 const cells = {
-    summary: 'Summary',
-    user: 'Assigned Editor',
     assignable: 'Belongs to',
+    type: 'Type',
+    user: 'Assigned Editor',
     status: 'status'
 }
 </script>

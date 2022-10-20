@@ -10,13 +10,19 @@ defineProps({
     routeType: String,
     rows: Array
 });
+
+const convertModel = (model) => {
+    return model.split('\\')[2];
+}
 </script>
 
 <template>
     <tbody class="bg-white">
         <tr v-for="(item, rowIdx) in rows" :key="rowIdx" :class="rowIdx % 2 === 0 ? undefined : 'bg-gray-50'">
             <td v-for="(cell, cellKey, cellIdx) in cells" :key="cellKey" :class="[cellIdx === 0 ? 'pl-4 pr-3 sm:pl-6' : 'px-3', 'whitespace-nowrap py-2.5 text-sm text-gray-500']">
-                <Link v-if="cellIdx === 0" :href="route(`${routeType}.show`, [item.slug ? item.slug : item.id])" class="text-gray-900 hover:text-gray-700 font-semibold">{{ item[cellKey] }}</Link>
+                <Link v-if="cellIdx === 0 && cellKey !== 'assignable'" :href="route(`${routeType}.show`, [item.slug ? item.slug : item.id])" class="text-gray-900 hover:text-gray-700 font-semibold">{{ item[cellKey] }}</Link>
+                <template v-else-if="cellIdx === 0 && cellKey === 'assignable'">{{ item[cellKey].name }}</template>
+                <template v-else-if="cellKey === 'type'">{{ convertModel(item.assignable_type) }}</template>
                 <Badge v-else-if="cellKey === 'status'" :text="item.status" />
                 <Badge v-else-if="cellKey === 'role'" :text="item.roles[0].name" />
                 <template v-else-if="cellKey === 'assignable' || cellKey === 'user'"> {{ item[cellKey].name }} </template>

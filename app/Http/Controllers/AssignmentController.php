@@ -63,8 +63,6 @@ class AssignmentController extends Controller
     {
         $assignable = $this->getAssignable($request->assignable_type, $request->assignable_id);
         $assignable->assignment()->save(new Assignment([
-            'summary' => $request->summary,
-            'details' => $request->details,
             'user_id' => $request->user
         ]));
 
