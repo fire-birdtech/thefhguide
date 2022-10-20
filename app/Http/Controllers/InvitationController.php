@@ -84,9 +84,7 @@ class InvitationController extends Controller
 
         event(new Registered($user));
 
-        foreach (User::role('super admin')->get() as $admin) {
-            $admin->notify(new EditorInvitationAccepted(Invitation::find($request->id), $user));
-        }
+        $this->notifyAdmins($request->id, $user);
 
         Auth::login($user);
 
@@ -107,6 +105,8 @@ class InvitationController extends Controller
 
         $admin = User::find($request['admin_id']);
         $admin->editors()->save($user);
+
+        $this->notifyAdmins($request->id, $user);
 
         if (!Auth::check()) {
             Auth::login($user);
@@ -145,6 +145,20 @@ class InvitationController extends Controller
             $user->assignRole('editor');
         } else if ($role === 'guest') {
             $user->assignRole('guest');
+        }
+    }
+
+    /**
+     * Notify admins when a new editor accepts their invitation
+     * 
+     * @param int $invitationId
+     * @param User $user
+     * @return void
+     */
+    public function notifyAdmins(int $invitationId, User $user): void
+    {
+        foreach (User::role('admin')->get() as $admin) {
+            $admin->notify(new EditorInvitationAccepted(Invitation::find($invitationId), $user));
         }
     }
 }
