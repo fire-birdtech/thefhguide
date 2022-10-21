@@ -64,7 +64,7 @@ class CollectionController extends Controller
      */
     public function edit(Request $request, Collection $collection)
     {
-        if (! $collection->assignment || $collection->assignment->user_id !== $request->user()->id) {
+        if ($request->user()->cannot('update', $collection)) {
             return back()->withErrors(['message' => 'This collection is not available for editing at this time']);
         }
         

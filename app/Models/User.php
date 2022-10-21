@@ -90,15 +90,4 @@ class User extends Authenticatable
     {
         return $this->editorAssignments()->where('status', '!=', AssignmentStatus::PUBLISHED);
     }
-
-    /**
-     * Scope a query to only include users with an admin or editor role
-     * 
-     * @param \Illuminate\Database\Eloquent\Builder  $query
-     * @return \Illuminate\Database\Eloquent\Builder
-     */
-    public function scopeAdminEditor($query)
-    {
-        return $query->hasRole(['admin', 'editor']);
-    }
 }

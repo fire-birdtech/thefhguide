@@ -65,7 +65,7 @@ class GoalController extends Controller
      */
     public function edit(Request $request, Goal $goal)
     {
-        if (! $goal->assignment || $goal->assignment?->user_id !== $request->user()->id) {
+        if ($request->user()->cannot('update', $goal)) {
             return back()->withErrors(['message' => 'This goal is not available for editing at this time']);
         }
 
