@@ -40,6 +40,11 @@ const actions = [
 const cells = {
     name: 'Name'
 }
+
+const tableActions = {
+    view: true,
+    edit: true
+}
 </script>
 
 <template>
@@ -71,7 +76,7 @@ const cells = {
                 <TableHeader header="Projects" addText="Add project" :addLink="`${route(`editor.projects.create`)}?collection=${collection.id}`" />
                 <Table class="mt-2">
                     <TableHead :cells="cells" :actions="true" />
-                    <TableBody :cells="cells" :rows="collection.projects" routeType="editor.projects" :actions="true" />
+                    <TableBody :cells="cells" :rows="collection.projects" routeType="editor.projects" :actions="tableActions" />
                 </Table>
             </div>
         </div>

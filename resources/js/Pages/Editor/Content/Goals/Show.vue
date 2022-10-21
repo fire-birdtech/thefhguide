@@ -42,6 +42,11 @@ const actions = [
 const cells = {
     name: 'Name'
 }
+
+const tableActions = {
+    view: true,
+    edit: true
+}
 </script>
 
 <template>
@@ -85,7 +90,7 @@ const cells = {
                     <TableHeader header="Choices" addText="Add choice" :addLink="`${route(`editor.choices.create`)}?goal=${goal.id}`" />
                     <Table class="mt-2">
                         <TableHead :cells="cells" :actions="true" />
-                        <TableBody :cells="cells" :rows="goal.choices" routeType="editor.choices" :actions="true" />
+                        <TableBody :cells="cells" :rows="goal.choices" routeType="editor.choices" :actions="tableActions" />
                     </Table>
                 </div>
             </div>

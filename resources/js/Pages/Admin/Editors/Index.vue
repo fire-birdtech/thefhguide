@@ -54,6 +54,11 @@ const cells = {
     email: 'Email',
     role: 'Role'
 }
+
+const tableActions = {
+    view: true,
+    edit: true
+}
 </script>
 
 <template>
@@ -64,7 +69,7 @@ const cells = {
             <TableHeader header="Admins & Editors" addText="Invite" :addLink="route('admin.editors.create')" />
             <Table class="mt-2">
                 <TableHead :cells="cells" :actions="true" />
-                <TableBody :cells="cells" :rows="users" routeType="admin.editors" :actions="true" />
+                <TableBody :cells="cells" :rows="users" routeType="admin.editors" :actions="tableActions" />
             </Table>
 
             <div v-if="invitations.length" class="mt-12">

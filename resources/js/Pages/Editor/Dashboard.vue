@@ -15,10 +15,15 @@ defineProps({
 });
 
 const cells = {
-    summary: 'Summary',
-    status: 'Status',
     assignable: 'Belongs to',
+    type: 'Type',
+    status: 'Status',
     created_at: 'Created'
+}
+
+const tableActions = {
+    view: true,
+    edit: false
 }
 </script>
 
@@ -37,8 +42,8 @@ const cells = {
             <div v-if="assignments.length" class="mt-6">
                 <TableHeader header="Assignments" />
                 <Table class="mt-2">
-                    <TableHead :cells="cells" :actions="false" />
-                    <TableBody :cells="cells" :rows="assignments" routeType="editor.assignments" :actions="false" />
+                    <TableHead :cells="cells" :actions="true" />
+                    <TableBody :cells="cells" :rows="assignments" routeType="editor.assignments" :actions="tableActions" />
                 </Table>
             </div>
 

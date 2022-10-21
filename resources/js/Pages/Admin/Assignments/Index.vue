@@ -18,6 +18,11 @@ const cells = {
     user: 'Assigned Editor',
     status: 'status'
 }
+
+const tableActions = {
+    view: true,
+    edit: true
+}
 </script>
 
 <template>
@@ -29,7 +34,7 @@ const cells = {
                 <TableHeader header="Assignments" />
                 <Table class="mt-2">
                     <TableHead :cells="cells" :actions="true" />
-                    <TableBody :cells="cells" :rows="assignments" routeType="editor.assignments" adminRouteType="admin.assignments" :actions="true" />
+                    <TableBody :cells="cells" :rows="assignments" routeType="editor.assignments" adminRouteType="admin.assignments" :actions="tableActions" />
                 </Table>
             </template>
             <NoAssignments v-else />

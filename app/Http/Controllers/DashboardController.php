@@ -18,4 +18,17 @@ class DashboardController extends Controller
             'editors' => $request->user()->editors->load(['roles','unpublishedAssignments','unpublishedDrafts'])
         ]);
     }
+
+    /**
+     * Display the editor dashboard
+     * 
+     * @param Request $request
+     */
+    public function editor(Request $request)
+    {
+        return inertia('Editor/Dashboard', [
+            'assignments' => $request->user()->unpublishedAssignments()->get(),
+            'drafts' => $request->user()->unpublishedDrafts()->get()
+        ]);
+    }
 }
