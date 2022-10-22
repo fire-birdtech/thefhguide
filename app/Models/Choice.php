@@ -14,6 +14,18 @@ class Choice extends Model
 {
     use Draftable, HasFactory, HasRevisions, SoftDeletes;
 
+    /**
+     * The "booted" method of the model.
+     *
+     * @return void
+     */
+    protected static function booted()
+    {
+        static::creating(function ($choice) {
+            $choice->order = count($choice->goal->choices) + 1;
+        });
+    }
+
     protected $guarded = ['id'];
 
     protected $dontKeepRevisionOf = ['locked'];

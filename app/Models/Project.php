@@ -19,6 +19,18 @@ class Project extends Model
     use Draftable, HasCoverImage, HasFactory, HasRevisions, HasSlug, SoftDeletes;
 
     /**
+     * The "booted" method of the model.
+     *
+     * @return void
+     */
+    protected static function booted()
+    {
+        static::creating(function ($project) {
+            $project->order = count($project->collection->projects) + 1;
+        });
+    }
+
+    /**
      * Get the options for generating the slug.
      */
     public function getSlugOptions(): SlugOptions

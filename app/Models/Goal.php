@@ -18,6 +18,18 @@ class Goal extends Model
     use Draftable, HasFactory, HasRevisions, HasSlug, SoftDeletes;
 
     /**
+     * The "booted" method of the model.
+     *
+     * @return void
+     */
+    protected static function booted()
+    {
+        static::creating(function ($goal) {
+            $goal->order = count($goal->project->goals) + 1;
+        });
+    }
+
+    /**
      * Get the options for generating the slug.
      */
     public function getSlugOptions(): SlugOptions
