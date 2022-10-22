@@ -56,7 +56,9 @@ class ProjectController extends Controller
     public function show(Project $project)
     {
         return inertia('Editor/Content/Projects/Show', [
-            'project' => $project->load(['goals', 'collection']),
+            'project' => $project->load(['collection', 'goals' => function ($q) {
+                $q->orderBy('order', 'asc');
+            }]),
         ]);
     }
 
