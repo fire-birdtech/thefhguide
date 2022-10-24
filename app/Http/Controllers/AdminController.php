@@ -110,6 +110,12 @@ class AdminController extends Controller
      */
     public function remove(Request $request, User $user)
     {
+        $user->assignments->each(function ($assignment) use ($user) {
+            $assignment->update([
+                'user_id' => $user->admin_id
+            ]);
+        });
+        
         $user->roles()->detach();
 
         return redirect()->route('admin.editors.index');
