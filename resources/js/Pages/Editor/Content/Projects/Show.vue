@@ -1,5 +1,5 @@
 <script setup>
-import { ref } from 'vue';
+import { computed, ref } from 'vue';
 import { Dialog, DialogPanel, DialogTitle, TransitionChild, TransitionRoot } from '@headlessui/vue';
 import { DocumentPlusIcon, EyeIcon, PencilSquareIcon, TrashIcon } from '@heroicons/vue/24/outline';
 import { ArchiveBoxIcon, PencilSquareIcon as PencilSquareIconSolid, PlusCircleIcon } from '@heroicons/vue/24/solid';
@@ -22,6 +22,8 @@ const props = defineProps({
     project: Object,
 });
 
+let sortedGoals = computed(() => props.project.goals.sort((a, b) => a.order - b.order));
+
 const open = ref(false);
 
 const close = () => {
@@ -32,6 +34,19 @@ const showPreview = ref(false);
 
 const destroy = () => {
     Inertia.delete(route('editor.projects.destroy', [props.project.slug]));
+}
+
+const moveDown = (orderNumber) => {
+    let index = sortedGoals.value.findIndex(goal => goal.order === orderNumber);
+
+    sortedGoals.value[index].order++;
+    sortedGoals.value[index + 1].order--;
+}
+const moveUp = (orderNumber) => {
+    let index = sortedGoals.value.findIndex(goal => goal.order === orderNumber);
+
+    sortedGoals.value[index].order--;
+    sortedGoals.value[index - 1].order++;
 }
 
 const actions = [
@@ -110,7 +125,7 @@ const tableActions = {
                 <TableHeader header="Goals" addText="Add goal" :addLink="`${route(`editor.goals.create`)}?project=${project.id}`" />
                 <Table class="mt-2">
                     <TableHead :cells="cells" :actions="true" />
-                    <TableBody :cells="cells" :rows="project.goals" routeType="editor.goals" :actions="tableActions" />
+                    <TableBody :cells="cells" :rows="sortedGoals" routeType="editor.goals" :actions="tableActions" :order="true" @down="moveDown($event)" @up="moveUp($event)" />
                 </Table>
             </div>
         </div>

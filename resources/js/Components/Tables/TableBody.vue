@@ -2,15 +2,22 @@
 import { computed } from 'vue';
 import { Link } from '@inertiajs/inertia-vue3';
 import { EyeIcon, PencilSquareIcon } from '@heroicons/vue/24/solid';
+import { ArrowDownIcon, ArrowUpIcon } from '@heroicons/vue/20/solid';
 import Badge from '@/Components/Badge.vue';
 
 const props = defineProps({
     actions: Object|Boolean,
     adminRouteType: String,
     cells: Object,
+    order: {
+        type: Boolean,
+        default: false
+    },
     routeType: String,
     rows: Array
 });
+
+defineEmits(['up','down']);
 
 const convertModel = (model) => {
     return model.split('\\')[2];
@@ -35,6 +42,12 @@ const editRoute = (item) => {
                     {{ new Date(item[cellKey]).toLocaleDateString('en-us', { weekday:"long", year:"numeric", month:"short", day:"numeric"}) }}
                 </template>
                 <template v-else> {{ item[cellKey] }} </template>
+            </td>
+            <td v-if="order" class="relative w-8 pl-4">
+                <div :class="[rowIdx === rows.length - 1 && 'pl-4', 'inline-flex']">
+                    <ArrowDownIcon v-show="rowIdx !== rows.length - 1" @click="$emit('down', item.order)" class="h-4 w-4 text-gray-500 hover:text-gray-600 cursor-pointer" />
+                    <ArrowUpIcon v-show="rowIdx" @click="$emit('up', item.order)" class="h-4 w-4 text-gray-500 hover:text-gray-600 cursor-pointer" />
+                </div>
             </td>
             <td v-if="actions" class="flex justify-end whitespace-nowrap py-3 pl-3 pr-4 text-right text-sm font-medium space-x-2 sm:pr-6">
                 <Link v-if="actions.view" :href="route(`${routeType}.show`, [item.slug ? item.slug : item.id])" class="text-blue-600 hover:text-blue-900">

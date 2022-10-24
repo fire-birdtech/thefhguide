@@ -1,5 +1,5 @@
 <script setup>
-import { ref } from 'vue';
+import { computed, ref } from 'vue';
 import { DialogTitle } from '@headlessui/vue';
 import { ArchiveBoxIcon, PencilSquareIcon, PlusCircleIcon } from '@heroicons/vue/24/solid';
 import { Inertia } from '@inertiajs/inertia';
@@ -19,6 +19,8 @@ const props = defineProps({
     errors: Object
 });
 
+let sortedProjects = computed(() => props.collection.projects.sort((a, b) => a.order - b.order));
+
 const open = ref(false);
 
 const close = () => {
@@ -26,6 +28,19 @@ const close = () => {
 }
 const destroy = () => {
     Inertia.delete(route('editor.collections.destroy', [props.collection.slug]));
+}
+
+const moveDown = (orderNumber) => {
+    let index = sortedProjects.value.findIndex(project => project.order === orderNumber);
+
+    sortedProjects.value[index].order++;
+    sortedProjects.value[index + 1].order--;
+}
+const moveUp = (orderNumber) => {
+    let index = sortedProjects.value.findIndex(project => project.order === orderNumber);
+
+    sortedProjects.value[index].order--;
+    sortedProjects.value[index - 1].order++;
 }
 
 const actions = [
@@ -75,8 +90,8 @@ const tableActions = {
             <div class="mt-12">
                 <TableHeader header="Projects" addText="Add project" :addLink="`${route(`editor.projects.create`)}?collection=${collection.id}`" />
                 <Table class="mt-2">
-                    <TableHead :cells="cells" :actions="true" />
-                    <TableBody :cells="cells" :rows="collection.projects" routeType="editor.projects" :actions="tableActions" />
+                    <TableHead :cells="cells" :actions="true" :order="true" />
+                    <TableBody :cells="cells" :rows="sortedProjects" routeType="editor.projects" :actions="tableActions" :order="true" @down="moveDown($event)" @up="moveUp($event)" />
                 </Table>
             </div>
         </div>

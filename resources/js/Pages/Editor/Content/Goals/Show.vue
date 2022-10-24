@@ -1,5 +1,5 @@
 <script setup>
-import { ref } from 'vue';
+import { computed, ref } from 'vue';
 import { DialogTitle } from '@headlessui/vue';
 import { DocumentPlusIcon, EyeIcon, PencilSquareIcon, TrashIcon } from '@heroicons/vue/24/outline';
 import { ArchiveBoxIcon, PencilSquareIcon as PencilSquareIconSolid, PlusCircleIcon } from '@heroicons/vue/24/solid';
@@ -21,6 +21,8 @@ const props = defineProps({
     goal: Object,
 });
 
+let sortedChoices = computed(() => props.goal.choices.sort((a, b) => a.order - b.order));
+
 const open = ref(false);
 
 const close = () => {
@@ -28,6 +30,19 @@ const close = () => {
 }
 const destroy = () => {
     Inertia.delete(route('editor.goals.destroy', [props.goal.slug]));
+}
+
+const moveDown = (orderNumber) => {
+    let index = sortedChoices.value.findIndex(choice => choice.order === orderNumber);
+
+    sortedChoices.value[index].order++;
+    sortedChoices.value[index + 1].order--;
+}
+const moveUp = (orderNumber) => {
+    let index = sortedChoices.value.findIndex(choice => choice.order === orderNumber);
+
+    sortedChoices.value[index].order--;
+    sortedChoices.value[index - 1].order++;
 }
 
 const actions = [
@@ -90,7 +105,7 @@ const tableActions = {
                     <TableHeader header="Choices" addText="Add choice" :addLink="`${route(`editor.choices.create`)}?goal=${goal.id}`" />
                     <Table class="mt-2">
                         <TableHead :cells="cells" :actions="true" />
-                        <TableBody :cells="cells" :rows="goal.choices" routeType="editor.choices" :actions="tableActions" />
+                        <TableBody :cells="cells" :rows="sortedChoices" routeType="editor.choices" :actions="tableActions" :order="true" @down="moveDown($event)" @up="moveUp($event)" />
                     </Table>
                 </div>
             </div>
