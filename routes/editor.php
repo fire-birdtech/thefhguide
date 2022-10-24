@@ -21,8 +21,11 @@ Route::group([
     Route::get('content', [ContentController::class, 'index'])->name('content.index');
     Route::resource('collections', CollectionController::class);
     Route::resource('projects', ProjectController::class);
+    Route::put('projects/{project}/update-project-order', [ProjectController::class, 'updateProjectOrder'])->name('projects.update-order');
     Route::resource('goals', GoalController::class)->except(['index']);
+    Route::put('goals/{goal}/update-goal-order', [GoalController::class, 'updateGoalOrder'])->name('goals.update-order');
     Route::resource('choices', ChoiceController::class)->except(['index']);
+    Route::put('choices/{choice}/update-choice-order', [ChoiceController::class, 'updateChoiceOrder'])->name('choices.update-order');
     Route::get('assignment/{assignment}', [AssignmentController::class, 'show'])->name('assignments.show');
     Route::resource('drafts', DraftController::class);
     Route::put('drafts/{draft}/publish', [DraftController::class, 'publish'])->name('drafts.publish');

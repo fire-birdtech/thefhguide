@@ -4,7 +4,7 @@ import { Dialog, DialogPanel, DialogTitle, TransitionChild, TransitionRoot } fro
 import { DocumentPlusIcon, EyeIcon, PencilSquareIcon, TrashIcon } from '@heroicons/vue/24/outline';
 import { ArchiveBoxIcon, PencilSquareIcon as PencilSquareIconSolid, PlusCircleIcon } from '@heroicons/vue/24/solid';
 import { Inertia } from '@inertiajs/inertia';
-import { Head, Link } from '@inertiajs/inertia-vue3';
+import { Head, Link, useForm } from '@inertiajs/inertia-vue3';
 import AdminLayout from '@/Layouts/Admin';
 import DangerModal from '@/Components/Modals/DangerModal.vue';
 import PrimaryButton from '@/Components/Buttons/PrimaryButton.vue';
@@ -36,17 +36,33 @@ const destroy = () => {
     Inertia.delete(route('editor.projects.destroy', [props.project.slug]));
 }
 
+const updateOrder = (updated_goal, sibling_goal) => {
+    let updateForm = useForm({
+        _method: "PUT",
+        updated_goal,
+        sibling_goal
+    });
+
+    updateForm.post(route('editor.goals.update-order', [updated_goal]), {
+        preserveScroll: true,
+    });
+}
+
 const moveDown = (orderNumber) => {
     let index = sortedGoals.value.findIndex(goal => goal.order === orderNumber);
 
     sortedGoals.value[index].order++;
     sortedGoals.value[index + 1].order--;
+
+    updateOrder(sortedGoals.value[index + 1], sortedGoals.value[index]);
 }
 const moveUp = (orderNumber) => {
     let index = sortedGoals.value.findIndex(goal => goal.order === orderNumber);
 
     sortedGoals.value[index].order--;
     sortedGoals.value[index - 1].order++;
+
+    updateOrder(sortedGoals.value[index - 1], sortedGoals.value[index]);
 }
 
 const actions = [
@@ -124,7 +140,7 @@ const tableActions = {
             <div class="mt-12">
                 <TableHeader header="Goals" addText="Add goal" :addLink="`${route(`editor.goals.create`)}?project=${project.id}`" />
                 <Table class="mt-2">
-                    <TableHead :cells="cells" :actions="true" />
+                    <TableHead :cells="cells" :actions="true" :order="true" />
                     <TableBody :cells="cells" :rows="sortedGoals" routeType="editor.goals" :actions="tableActions" :order="true" @down="moveDown($event)" @up="moveUp($event)" />
                 </Table>
             </div>

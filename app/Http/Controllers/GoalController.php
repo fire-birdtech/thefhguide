@@ -3,8 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\GoalRequest;
+use App\Http\Requests\UpdateGoalOrderRequest;
 use App\Models\Goal;
-use App\Models\Project;
 use Illuminate\Http\Request;
 
 class GoalController extends Controller
@@ -91,6 +91,26 @@ class GoalController extends Controller
         $goal->save();
 
         return redirect()->route('editor.goals.show', [$goal->slug]);
+    }
+
+    /**
+     * Update the order of goals
+     * 
+     * @param UpdateGoalOrderRequest $request
+     * @param Goal $goal
+     * @return Response
+     */
+    public function updateGoalOrder(UpdateGoalOrderRequest $request, Goal $goal)
+    {
+        $goal->update([
+            'order' => $request['updated_goal']['order']
+        ]);
+
+        Goal::find($request['sibling_goal']['id'])->update([
+            'order' => $request['sibling_goal']['order']
+        ]);
+
+        return back();
     }
 
     /**

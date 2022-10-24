@@ -4,7 +4,7 @@ import { DialogTitle } from '@headlessui/vue';
 import { DocumentPlusIcon, EyeIcon, PencilSquareIcon, TrashIcon } from '@heroicons/vue/24/outline';
 import { ArchiveBoxIcon, PencilSquareIcon as PencilSquareIconSolid, PlusCircleIcon } from '@heroicons/vue/24/solid';
 import { Inertia } from '@inertiajs/inertia';
-import { Head, Link } from '@inertiajs/inertia-vue3';
+import { Head, Link, useForm } from '@inertiajs/inertia-vue3';
 import AdminLayout from  '@/Layouts/Admin';
 import DangerModal from '@/Components/Modals/DangerModal.vue';
 import PrimaryButton from '@/Components/Buttons/PrimaryButton.vue';
@@ -32,17 +32,33 @@ const destroy = () => {
     Inertia.delete(route('editor.goals.destroy', [props.goal.slug]));
 }
 
+const updateOrder = (updated_choice, sibling_choice) => {
+    let updateForm = useForm({
+        _method: "PUT",
+        updated_choice,
+        sibling_choice
+    });
+
+    updateForm.post(route('editor.choices.update-order', [updated_choice]), {
+        preserveScroll: true,
+    });
+}
+
 const moveDown = (orderNumber) => {
     let index = sortedChoices.value.findIndex(choice => choice.order === orderNumber);
 
     sortedChoices.value[index].order++;
     sortedChoices.value[index + 1].order--;
+
+    updateOrder(sortedChoices.value[index + 1], sortedChoices.value[index]);
 }
 const moveUp = (orderNumber) => {
     let index = sortedChoices.value.findIndex(choice => choice.order === orderNumber);
 
     sortedChoices.value[index].order--;
     sortedChoices.value[index - 1].order++;
+
+    updateOrder(sortedChoices.value[index - 1], sortedChoices.value[index]);
 }
 
 const actions = [
@@ -104,7 +120,7 @@ const tableActions = {
                 <div class="mt-12">
                     <TableHeader header="Choices" addText="Add choice" :addLink="`${route(`editor.choices.create`)}?goal=${goal.id}`" />
                     <Table class="mt-2">
-                        <TableHead :cells="cells" :actions="true" />
+                        <TableHead :cells="cells" :actions="true" :order="true" />
                         <TableBody :cells="cells" :rows="sortedChoices" routeType="editor.choices" :actions="tableActions" :order="true" @down="moveDown($event)" @up="moveUp($event)" />
                     </Table>
                 </div>

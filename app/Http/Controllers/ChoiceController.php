@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\ChoiceRequest;
+use App\Http\Requests\UpdateChoiceOrderRequest;
 use App\Models\Choice;
 use App\Models\Goal;
 use Illuminate\Http\Request;
@@ -90,6 +91,26 @@ class ChoiceController extends Controller
         $choice->save();
 
         return redirect()->route('editor.choices.show', [$choice->id]);
+    }
+
+    /**
+     * Update the order of choices
+     * 
+     * @param UpdateChoiceOrderRequest $request
+     * @param Choice $choice
+     * @return Response
+     */
+    public function updateChoiceOrder(UpdateChoiceOrderRequest $request, Choice $choice)
+    {
+        $choice->update([
+            'order' => $request['updated_choice']['order']
+        ]);
+
+        Choice::find($request['sibling_choice']['id'])->update([
+            'order' => $request['sibling_choice']['order']
+        ]);
+
+        return back();
     }
 
     /**

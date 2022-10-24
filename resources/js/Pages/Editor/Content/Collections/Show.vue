@@ -3,7 +3,7 @@ import { computed, ref } from 'vue';
 import { DialogTitle } from '@headlessui/vue';
 import { ArchiveBoxIcon, PencilSquareIcon, PlusCircleIcon } from '@heroicons/vue/24/solid';
 import { Inertia } from '@inertiajs/inertia';
-import { Head, Link } from '@inertiajs/inertia-vue3';
+import { Head, Link, useForm } from '@inertiajs/inertia-vue3';
 import AdminLayout from '@/Layouts/Admin';
 import DangerModal from '@/Components/Modals/DangerModal';
 import SecondaryButton from '@/Components/Buttons/SecondaryButton.vue';
@@ -30,17 +30,33 @@ const destroy = () => {
     Inertia.delete(route('editor.collections.destroy', [props.collection.slug]));
 }
 
+const updateOrder = (updated_project, sibling_project) => {
+    let updateForm = useForm({
+        _method: "PUT",
+        updated_project,
+        sibling_project
+    });
+
+    updateForm.post(route('editor.projects.update-order', [updated_project]), {
+        preserveScroll: true
+    });
+}
+
 const moveDown = (orderNumber) => {
     let index = sortedProjects.value.findIndex(project => project.order === orderNumber);
 
     sortedProjects.value[index].order++;
     sortedProjects.value[index + 1].order--;
+
+    updateOrder(sortedProjects.value[index + 1], sortedProjects.value[index]);
 }
 const moveUp = (orderNumber) => {
     let index = sortedProjects.value.findIndex(project => project.order === orderNumber);
 
     sortedProjects.value[index].order--;
     sortedProjects.value[index - 1].order++;
+
+    updateOrder(sortedProjects.value[index - 1], sortedProjects.value[index]);
 }
 
 const actions = [

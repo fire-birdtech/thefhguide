@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\ProjectRequest;
+use App\Http\Requests\UpdateProjectOrderRequest;
 use App\Models\Collection;
 use App\Models\Project;
 use Illuminate\Http\Request;
@@ -98,6 +99,26 @@ class ProjectController extends Controller
         }
 
         return redirect()->route('editor.projects.show', [$project->slug]);
+    }
+
+    /**
+     * Update the order of projects
+     * 
+     * @param UpdateProjectOrderRequest $request
+     * @param Project $project
+     * @return Response
+     */
+    public function updateProjectOrder(UpdateProjectOrderRequest $request, Project $project)
+    {
+        $project->update([
+            'order' => $request['updated_project']['order']
+        ]);
+
+        Project::find($request['sibling_project']['id'])->update([
+            'order' => $request['sibling_project']['order']
+        ]);
+
+        return back();
     }
 
     /**
