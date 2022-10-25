@@ -117,6 +117,9 @@ class AdminController extends Controller
         });
         
         $user->roles()->detach();
+        $user->update([
+            'admin_id' => null
+        ]);
 
         return redirect()->route('admin.editors.index');
     }
