@@ -54,7 +54,7 @@ const editRoute = (item) => {
                     <EyeIcon class="h-6 w-6" />
                     <span class="sr-only">View {{ item.name }}</span>
                 </Link>
-                <Link v-show="! item.locked" v-if="actions.edit" :href="editRoute(item)" class="text-blue-600 hover:text-blue-900">
+                <Link v-if="actions.edit" :href="editRoute(item)" class="text-blue-600 hover:text-blue-900">
                     <PencilSquareIcon class="h-6 w-6" />
                     <span class="sr-only">Edit {{ item.name }}</span>
                 </Link>
