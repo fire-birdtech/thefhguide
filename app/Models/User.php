@@ -86,7 +86,7 @@ class User extends Authenticatable
                     ->with(['assignable','user']);
     }
 
-    public function scopePublishedEditorAssignments($query)
+    public function scopeUnpublishedEditorAssignments($query)
     {
         return $this->editorAssignments()->where('status', '!=', AssignmentStatus::PUBLISHED);
     }

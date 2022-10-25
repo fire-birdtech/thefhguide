@@ -33,9 +33,9 @@ class AssignmentController extends Controller
     public function index(Request $request)
     {
         return inertia('Admin/Assignments/Index', [
-            'assignments' => $request->user()->hasRole('super admin')
+            'assignments' => $request->user()->hasRole('admin')
                 ? Assignment::with(['assignable', 'user'])->where('status', '!=', AssignmentStatus::PUBLISHED)->get()
-                : $request->user()->publishedEditorAssignments
+                : $request->user()->unpublishedEditorAssignments
         ]);
     }
 
