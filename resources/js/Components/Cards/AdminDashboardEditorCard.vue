@@ -9,7 +9,7 @@ defineProps({
 
 <template>
     <div>
-        <div class="group w-full border-2 border-transparent flex flex-col items-center justify-start rounded-lg bg-white text-center shadow hover:border-blue-400 hover:bg-blue-50">
+        <div class="group w-full border-2 border-transparent flex flex-col items-center justify-start rounded-lg bg-white text-center shadow">
             <div class="flex w-full items-center justify-between space-x-3 p-4">
                 <UserCircleIcon class="h-10 w-10 flex-shrink-0 rounded-full text-blue-400" />
                 <div class="flex-1 truncate text-left">
@@ -20,30 +20,28 @@ defineProps({
                 </div>
             </div>
             <div class="w-full">
-                <div v-if="editor.unpublished_assignments.length || editor.unpublished_drafts.length" class="w-full space-y-3 pb-4">
-                    <div class="px-4">
-                        <div class="flex flex-col w-full overflow-hidden rounded-md bg-blue-50 group-hover:bg-blue-100">
-                            <div v-if="editor.unpublished_assignments.length" class="w-full flex flex-col items-start py-3">
-                                <h4 class="truncate text-sm font-medium text-gray-900 px-4">Assignments</h4>
-                                <div class="w-full overflow-hidden bg-transparent">
-                                    <ul role="list" class="mt-2 w-full space-y-2">
-                                        <li v-for="assignment in editor.unpublished_assignments" :key="assignment.id" class="truncate w-full flex items-center justify-between text-xs px-4">
-                                            {{ assignment.assignable.name }}
-                                            <Badge :text="assignment.status" class="ml-4" />
-                                        </li>
-                                    </ul>
-                                </div>
+                <div v-if="editor.unpublished_assignments.length || editor.unpublished_drafts.length" class="w-full space-y-3">
+                    <div class="flex flex-col w-full overflow-hidden">
+                        <div v-if="editor.unpublished_assignments.length" class="w-full flex flex-col items-start py-3">
+                            <h4 class="truncate text-sm font-medium text-gray-900 px-4">Assignments</h4>
+                            <div class="w-full bg-transparent pt-3 px-4">
+                                <ul role="list" class="flex flex-col w-full divide-y-2 divide-transparent">
+                                    <li v-for="assignment in editor.unpublished_assignments" :key="assignment.id" class="truncate w-full flex items-center justify-between text-xs py-1">
+                                        {{ assignment.assignable.name }}
+                                        <Badge :text="assignment.status" class="ml-4" />
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
 
                     <div class="px-4">
-                        <div class="flex flex-col w-full overflow-hidden rounded-md bg-blue-50 group-hover:bg-blue-100">
+                        <div class="flex flex-col w-full overflow-hidden">
                             <div v-if="editor.unpublished_drafts.length" class="w-full flex flex-col items-start py-3">
                                 <h4 class="truncate text-sm font-medium text-gray-900 px-4">Drafts</h4>
                                 <div class="w-full overflow-hidden bg-transparent">
                                     <ul role="list" class="mt-2 w-full space-y-2">
-                                        <li v-for="draft in editor.unpublished_drafts" :key="draft.id" class="truncate w-full flex items-center justify-between text-xs px-4">
+                                        <li v-for="draft in editor.unpublished_drafts" :key="draft.id" class="truncate w-full flex items-center justify-between text-xs py-1">
                                             {{ draft.new_name }}
                                         </li>
                                     </ul>

@@ -43,20 +43,6 @@ const submit = () => {
             <div class="mt-4 bg-white rounded-md shadow">
                 <form @submit.prevent="submit" class="space-y-4 divide-y divide-gray-200">
                     <div class="px-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:items-start sm:border-t sm:border-gray-200 sm:pt-4">
-                        <BreezeLabel for="name" value="Summary" class="sm:mt-px sm:pt-2" />
-                        <div class="mt-1 sm:mt-0 sm:col-span-4">
-                            <BreezeInput type="text" v-model="assignment.summary" id="name" class="block w-full" />
-                            <BreezeInputError class="mt-1" :message="assignment.errors.summary" />
-                        </div>
-                    </div>
-                    <div class="px-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:items-start sm:border-t sm:border-gray-200 sm:pt-4">
-                        <BreezeLabel for="name" value="Details" class="sm:mt-px sm:pt-2" />
-                        <div class="mt-1 sm:mt-0 sm:col-span-4">
-                            <TextEditor v-model="assignment.details" />
-                            <BreezeInputError class="mt-1" :message="assignment.errors?.details" />
-                        </div>
-                    </div>
-                    <div class="px-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:items-start sm:border-t sm:border-gray-200 sm:pt-4">
                         <BreezeLabel for="name" value="Editor" class="sm:mt-px sm:pt-2" />
                         <div class="mt-1 sm:mt-0 sm:col-span-2">
                             <Listbox as="div" v-model="selected">
