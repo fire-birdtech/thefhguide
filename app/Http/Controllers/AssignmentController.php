@@ -46,6 +46,18 @@ class AssignmentController extends Controller
      */
     public function create(Request $request)
     {
+        if ($assignment = $this->getAssignable($request->assignable_type, $request->assignable_id)->assignment) {
+            return redirect()->back()
+                ->with('notification', [
+                    'actions' => [
+                        'view' => [ 'href' => route('editor.assignments.show', [$assignment->id])]
+                    ],
+                    'message' => 'An assignment already exists for this content',
+                    'title' => 'Assignment error',
+                    'type' => 'error'
+                ]);
+        }
+
         return inertia('Admin/Assignments/Create', [
             'editors' => $request->user()->editors,
             'assignable' => $this->getAssignable($request->assignable_type, $request->assignable_id),

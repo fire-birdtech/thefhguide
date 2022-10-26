@@ -2,7 +2,7 @@
 import { computed, ref } from 'vue';
 import { CheckCircleIcon, InboxIcon, XCircleIcon } from '@heroicons/vue/24/outline';
 import { XMarkIcon } from '@heroicons/vue/20/solid';
-import { usePage } from '@inertiajs/inertia-vue3';
+import { Link, usePage } from '@inertiajs/inertia-vue3';
 
 const show = ref(true);
 
@@ -38,10 +38,12 @@ const notification = computed(() => {
                                     {{ notification.message }}
                                 </p>
                                 <div v-if="notification.actions" class="mt-3 flex space-x-7">
-                                    <button type="button"
+                                    <button v-if="notification.actions.undo" type="button"
                                         class="rounded-md bg-white text-sm font-medium text-blue-600 hover:text-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">Undo</button>
-                                    <button type="button"
-                                        class="rounded-md bg-white text-sm font-medium text-gray-700 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">Dismiss</button>
+                                    <Link v-if="notification.actions.view" :href="notification.actions.view.href"
+                                        class="rounded-md bg-white text-sm font-medium text-blue-600 hover:text-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">View Assignment</Link>
+                                    <!-- <button type="button"
+                                        class="rounded-md bg-white text-sm font-medium text-gray-700 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">Dismiss</button> -->
                                 </div>
                             </div>
                             <div class="ml-4 flex flex-shrink-0">
