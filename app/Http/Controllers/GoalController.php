@@ -68,7 +68,13 @@ class GoalController extends Controller
     public function edit(Request $request, Goal $goal)
     {
         if ($request->user()->cannot('update', $goal)) {
-            return back()->withErrors(['message' => 'This goal is not available for editing at this time']);
+            return redirect()->back()
+                ->with('notification', [
+                    'actions' => false,
+                    'message' => 'This goal is not available for editing at this time',
+                    'title' => 'Access error',
+                    'type' => 'error'
+                ]);
         }
 
         return inertia('Editor/Content/Goals/Edit', [

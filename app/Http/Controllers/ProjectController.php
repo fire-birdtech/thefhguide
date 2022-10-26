@@ -72,7 +72,13 @@ class ProjectController extends Controller
     public function edit(Request $request, Project $project)
     {
         if ($request->user()->cannot('update', $project)) {
-            return back()->withErrors(['message' => 'This project is not available for editing at this time']);
+            return redirect()->back()
+                ->with('notification', [
+                    'actions' => false,
+                    'message' => 'This project is not available for editing at this time',
+                    'title' => 'Access error',
+                    'type' => 'error'
+                ]);
         }
 
         $collections = Collection::orderBy('name', 'asc')->get();

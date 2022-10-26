@@ -67,7 +67,13 @@ class CollectionController extends Controller
     public function edit(Request $request, Collection $collection)
     {
         if ($request->user()->cannot('update', $collection)) {
-            return back()->withErrors(['message' => 'This collection is not available for editing at this time']);
+            return redirect()->back()
+                ->with('notification', [
+                    'actions' => false,
+                    'message' => 'This collection is not available for editing at this time',
+                    'title' => 'Access error',
+                    'type' => 'error'
+                ]);
         }
         
         return inertia('Editor/Content/Collections/Edit', [

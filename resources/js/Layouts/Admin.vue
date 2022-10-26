@@ -10,6 +10,7 @@ import VerticalNav from '@/Components/Navigation/Vertical.vue';
 import { ChevronDownIcon } from '@heroicons/vue/24/solid';
 import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue';
 import NotificationDropdown from '@/Components/Dropdowns/NotificationDropdown.vue';
+import Notification from '@/Components/Notifications/Notification.vue';
 
 provide('canManageEditors', usePage().props.value.canManageEditors);
 provide('currentUserRole', usePage().props.value.currentUserRole);
@@ -115,4 +116,5 @@ const showingNavigationDropdown = ref(false);
             </main>
         </div>
     </div>
+    <Notification />
 </template>

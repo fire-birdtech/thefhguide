@@ -40,6 +40,9 @@ class HandleInertiaRequests extends Middleware
             ],
             'currentUserRole' => fn () => auth()->user() && count($request->user()->roles) ? $request->user()?->roles[0]->name : null,
             'canManageEditors' => fn () => auth()->user() ? $request->user()->can('manage editors') : null,
+            'flash' => [
+                'notification' => fn () => $request->session()->get('notification')
+            ],
             'notifications' => fn () => auth()->user() ? $request->user()->notifications->take(10) : null,
             'ziggy' => function () {
                 return (new Ziggy)->toArray();
