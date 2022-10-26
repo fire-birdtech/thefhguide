@@ -226,6 +226,10 @@ return [
             [
                 'name' => 'super admin',
                 'permissions' => []
+            ],
+            [
+                'name' => 'developer',
+                'permissions' => []
             ]
     ],
 ];
