@@ -183,10 +183,6 @@ return [
 
     'roles_permissions' => [
         [
-            'name' => 'super admin',
-            'permissions' => []
-        ],
-        [
             'name' => 'admin',
             'permissions' => [
                 'manage editors',
@@ -226,6 +222,10 @@ return [
                 'update choices',
                 'delete choices'
             ]
-        ]
+            ],
+            [
+                'name' => 'super admin',
+                'permissions' => []
+            ]
     ],
 ];
