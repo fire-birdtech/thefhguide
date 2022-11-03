@@ -5,10 +5,7 @@ namespace App\Http\Controllers;
 use App\Enums\AssignmentStatus;
 use App\Http\Requests\AssignmentUpdateRequest;
 use App\Models\Assignment;
-use App\Models\Choice;
-use App\Models\Collection;
 use App\Models\Goal;
-use App\Models\Project;
 use App\Models\User;
 use Illuminate\Http\Request;
 
@@ -142,14 +139,8 @@ class AssignmentController extends Controller
     public function getAssignable($type, $id)
     {
         switch ($type) {
-            case 'collection':
-                return Collection::where('id', $id)->first();
-            case 'project':
-                return Project::where('id', $id)->first();
             case 'goal':
                 return Goal::where('id', $id)->first();
-            case 'choice':
-                return Choice::where('id', $id)->first();
         }
     }
 }

@@ -66,8 +66,7 @@ const moveUp = (orderNumber) => {
 
 const actions = [
     [
-        { name: 'Edit', as: 'link', icon: PencilSquareIconSolid, href: route('editor.projects.edit', [props.project.slug]) },
-        { name: 'Add Assignment', as: 'link', icon: PlusCircleIcon, href: `${route('admin.assignments.create')}?assignable_id=${props.project.id}&assignable_type=project` }
+        { name: 'Edit', as: 'link', icon: PencilSquareIconSolid, href: route('editor.projects.edit', [props.project.slug]) }
     ],
     [
         { name: 'Archive', as: 'emitter', icon: ArchiveBoxIcon, emit: 'open' }

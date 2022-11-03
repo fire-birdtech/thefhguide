@@ -54,11 +54,6 @@ class Collection extends Model
         return $this->HasMany(Project::class);
     }
 
-    public function assignment(): MorphOne
-    {
-        return $this->morphOne(Assignment::class, 'assignable');
-    }
-
     public function draft(): MorphOne
     {
         return $this->morphOne(Draft::class, 'draftable');

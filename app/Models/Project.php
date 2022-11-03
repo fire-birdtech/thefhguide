@@ -81,11 +81,6 @@ class Project extends Model
     {
         return $this->hasMany(Goal::class);
     }
-    
-    public function assignment(): MorphOne
-    {
-        return $this->morphOne(Assignment::class, 'assignable');
-    }
 
     public function draft(): MorphOne
     {
