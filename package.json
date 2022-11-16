@@ -32,6 +32,7 @@
         "@headlessui/vue": "^1.6.5",
         "@heroicons/vue": "^2.0.11",
         "@tailwindcss/aspect-ratio": "^0.4.2",
+        "@tiptap/extension-bullet-list": "^2.0.0-beta.201",
         "@tiptap/extension-link": "^2.0.0-beta.43",
         "@tiptap/starter-kit": "^2.0.0-beta.190",
         "@tiptap/vue-3": "^2.0.0-beta.96",

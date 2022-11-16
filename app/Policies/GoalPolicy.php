@@ -67,7 +67,7 @@ class GoalPolicy
      */
     public function update(User $user, Goal $goal)
     {
-        return $user->id === $goal->assignment?->user_id;
+        return $user->id === $goal->assignment?->user_id || $user->hasRole('super admin');
     }
 
     /**

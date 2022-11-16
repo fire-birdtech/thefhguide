@@ -4,6 +4,7 @@ import Link from '@tiptap/extension-link';
 import StarterKit from '@tiptap/starter-kit';
 import { unref } from 'vue';
 import EditorButton from '@/Components/EditorButton';
+import BulletList from '@tiptap/extension-bullet-list';
 
 const props = defineProps({
     modelValue: {
@@ -17,6 +18,7 @@ const emit = defineEmits(['update:modelValue']);
 const editor = useEditor({
     content: props.modelValue,
     extensions: [
+        BulletList,
         Link,
         StarterKit,
     ],
@@ -71,6 +73,9 @@ const setLink = () => {
             </EditorButton>
             <EditorButton @click="editor.chain().focus().toggleOrderedList().run()" :class="{ 'is-active': editor.isActive('orderedList') }">
                 ordered list
+            </EditorButton>
+            <EditorButton @click="editor.chain().focus().toggleBulletList().run()" :class="{ 'is-active': editor.isActive('bulletList') }">
+                unordered list
             </EditorButton>
             <EditorButton @click="setLink" :active="editor.isActive('link')">
                 set link

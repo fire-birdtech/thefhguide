@@ -14,6 +14,8 @@ import Table from '@/Components/Tables/Table.vue';
 import TableHead from '@/Components/Tables/TableHead.vue';
 import TableBody from '@/Components/Tables/TableBody.vue';
 import SecondaryButtonWithDropdown from '@/Components/Buttons/SecondaryButtonWithDropdown.vue';
+import StackedListWrapper from '@/Components/Lists/StackedListWrapper.vue';
+import ExpandableStackedListItem from '@/Components/Lists/ExpandableStackedListItem.vue';
 
 const props = defineProps({
     errors: Object,
@@ -101,7 +103,7 @@ const tableActions = {
                         </div>
                         <div class="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                             <dt class="text-sm font-medium text-gray-500">Summary</dt>
-                            <dd class="mt-1 prose prose-a:text-blue-500 text-sm text-gray-900 sm:mt-0 sm:col-span-2" v-html="goal.summary" />
+                            <dd class="mt-1 prose max-w-3xl prose-a:text-blue-500 text-sm text-gray-900 sm:mt-0 sm:col-span-2" v-html="goal.summary" />
                         </div>
                         <div class="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                             <dt class="text-sm font-medium text-gray-500">"Show Me" Video</dt>
@@ -117,10 +119,10 @@ const tableActions = {
                 </div>
                 <div class="mt-12">
                     <TableHeader header="Choices" addText="Add choice" :addLink="`${route(`editor.choices.create`)}?goal=${goal.id}`" />
-                    <Table class="mt-2">
-                        <TableHead :cells="cells" :actions="true" :order="true" />
-                        <TableBody :cells="cells" :rows="sortedChoices" routeType="editor.choices" :actions="tableActions" :order="true" @down="moveDown($event)" @up="moveUp($event)" />
-                    </Table>
+
+                    <StackedListWrapper class="mt-3">
+                        <ExpandableStackedListItem v-for="choice in sortedChoices" :key="choice.id" :item="choice" />
+                    </StackedListWrapper>
                 </div>
             </div>
         </div>

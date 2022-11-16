@@ -90,7 +90,13 @@ class ChoiceController extends Controller
         $choice->exercises = $request->exercises;
         $choice->save();
 
-        return redirect()->route('editor.choices.show', [$choice->id]);
+        return redirect()->back()
+            ->with('notification', [
+                'actions' => false,
+                'message' => 'Updates have been saved',
+                'title' => 'Choice saved successfully',
+                'type' => 'success'
+            ]);
     }
 
     /**
