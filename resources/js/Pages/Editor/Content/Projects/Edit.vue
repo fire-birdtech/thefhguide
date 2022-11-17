@@ -74,7 +74,7 @@ watch(selected, (newSelected, oldSelected) => {
                         <div class="mt-1 sm:mt-0 sm:col-span-4">
                             <input ref="photoInput" type="file" class="hidden" @change="updatePhotoPreview">
                             <div v-show="! photoPreview">
-                                <img :src="project.cover_image_url" class="block w-full h-72 rounded-lg bg-cover bg-no-repeat bg-center object-cover pointer-events-none">
+                                <img v-if="project.cover_image_path" :src="project.cover_image_url" class="block w-full h-72 rounded-lg bg-cover bg-no-repeat bg-center object-cover pointer-events-none">
                             </div>
                             <div v-show="photoPreview" class="mt-2">
                                 <span
@@ -82,7 +82,7 @@ watch(selected, (newSelected, oldSelected) => {
                                     :style="'background-image: url(\'' + photoPreview + '\');'"
                                 />
                             </div>
-                            <div class="mt-3 space-x-4">
+                            <div :class="[project.cover_image_path || photoPreview ? 'mt-3' : 'mt-0', 'space-x-4']">
                                 <SecondaryButtonSmall @click.prevent="$refs.photoInput.click()">
                                     Select A New Cover Image
                                 </SecondaryButtonSmall>
