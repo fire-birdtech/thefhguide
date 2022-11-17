@@ -60,6 +60,21 @@ class GoalController extends Controller
     }
 
     /**
+     * Preview the specified resource
+     * 
+     * @param \App\Models\Goal $goal
+     * @return \Illuminate\Http\Response
+     */
+    public function preview(Goal $goal)
+    {
+        return inertia('Editor/Content/Goals/Preview', [
+            'goal' => $goal->load(['project.goals', 'choices.goal' => function ($q) {
+                $q->orderBy('order', 'asc');
+            }]),
+        ]);
+    }
+
+    /**
      * Show the form for editing the specified resource.
      *
      * @param  \App\Models\Goal  $goal

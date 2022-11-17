@@ -24,6 +24,7 @@ Route::group([
     Route::put('projects/{project}/update-project-order', [ProjectController::class, 'updateProjectOrder'])->name('projects.update-order');
     Route::resource('goals', GoalController::class)->except(['index']);
     Route::put('goals/{goal}/update-goal-order', [GoalController::class, 'updateGoalOrder'])->name('goals.update-order');
+    Route::get('goals/{goal}/preview', [GoalController::class, 'preview'])->name('goals.preview');
     Route::resource('choices', ChoiceController::class)->except(['index']);
     Route::put('choices/{choice}/update-choice-order', [ChoiceController::class, 'updateChoiceOrder'])->name('choices.update-order');
     Route::get('assignment/{assignment}', [AssignmentController::class, 'show'])->name('assignments.show');
