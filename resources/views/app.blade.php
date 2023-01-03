@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap">
 
         <!-- Styles -->
-        @vite('resources/css/app.css')
+        <!-- @vite('resources/css/app.css') -->
 
         <!-- Scripts -->
         @routes
@@ -20,8 +20,8 @@
     <body class="font-sans antialiased">
         @inertia
 
-        @env ('local')
+        <!-- @env ('local')
             <script src="http://localhost:8080/js/bundle.js"></script>
-        @endenv
+        @endenv -->
     </body>
 </html>
