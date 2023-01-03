@@ -4,7 +4,7 @@ import { DialogTitle } from '@headlessui/vue';
 import { EyeIcon, PencilSquareIcon, TrashIcon } from '@heroicons/vue/24/outline';
 import { Inertia } from '@inertiajs/inertia';
 import { Head, Link } from '@inertiajs/inertia-vue3';
-import AdminLayout from '@/Layouts/Admin';
+import AdminLayout from '@/Layouts/Admin.vue';
 import PrimaryButton from '@/Components/Buttons/PrimaryButton.vue';
 import SecondaryButton from '@/Components/Buttons/SecondaryButton.vue';
 import DangerModal from '@/Components/Modals/DangerModal.vue';

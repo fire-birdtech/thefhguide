@@ -1,7 +1,7 @@
 <script setup>
-import TextEditor from '@/Components/TextEditor';
-import BreezeInputError from '@/Components/InputError';
-import BreezeLabel from '@/Components/Label';
+import TextEditor from '@/Components/TextEditor.vue';
+import BreezeInputError from '@/Components/InputError.vue';
+import BreezeLabel from '@/Components/Label.vue';
 
 defineProps(['label', 'message', 'modelValue']);
 

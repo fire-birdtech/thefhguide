@@ -1,9 +1,9 @@
 <script setup>
 import { useForm } from '@inertiajs/inertia-vue3';
-import BreezeInput from '@/Components/Input';
-import BreezeInputError from '@/Components/InputError';
-import BreezeLabel from '@/Components/Label';
-import TextEditor from '@/Components/TextEditor';
+import BreezeInput from '@/Components/Input.vue';
+import BreezeInputError from '@/Components/InputError.vue';
+import BreezeLabel from '@/Components/Label.vue';
+import TextEditor from '@/Components/TextEditor.vue';
 import PrimaryButton from '@/Components/Buttons/PrimaryButton.vue';
 import SecondaryButton from '@/Components/Buttons/SecondaryButton.vue';
 

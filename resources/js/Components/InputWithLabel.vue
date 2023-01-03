@@ -1,7 +1,7 @@
 <script setup>
-import BreezeInput from '@/Components/Input';
-import BreezeInputError from '@/Components/InputError';
-import BreezeLabel from '@/Components/Label';
+import BreezeInput from '@/Components/Input.vue';
+import BreezeInputError from '@/Components/InputError.vue';
+import BreezeLabel from '@/Components/Label.vue';
 
 defineProps({
     label: String,

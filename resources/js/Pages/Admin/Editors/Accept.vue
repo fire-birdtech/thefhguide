@@ -1,6 +1,6 @@
 <script setup>
 import { Head, useForm } from '@inertiajs/inertia-vue3';
-import BreezeGuestLayout from '@/Layouts/Guest';
+import BreezeGuestLayout from '@/Layouts/Guest.vue';
 import PrimaryButtonFullWidth from '@/Components/Buttons/PrimaryButtonFullWidth.vue';
 import BreezeInput from '@/Components/Input.vue';
 import BreezeLabel from '@/Components/Label.vue';

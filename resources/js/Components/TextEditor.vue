@@ -3,7 +3,7 @@ import { useEditor, EditorContent } from '@tiptap/vue-3';
 import Link from '@tiptap/extension-link';
 import StarterKit from '@tiptap/starter-kit';
 import { unref } from 'vue';
-import EditorButton from '@/Components/EditorButton';
+import EditorButton from '@/Components/EditorButton.vue';
 import BulletList from '@tiptap/extension-bullet-list';
 
 const props = defineProps({

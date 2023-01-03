@@ -5,7 +5,7 @@ import { DocumentPlusIcon, EyeIcon, PencilSquareIcon, TrashIcon } from '@heroico
 import { ArchiveBoxIcon, PencilSquareIcon as PencilSquareIconSolid, PlusCircleIcon } from '@heroicons/vue/24/solid';
 import { Inertia } from '@inertiajs/inertia';
 import { Head, Link } from '@inertiajs/inertia-vue3';
-import AdminLayout from '@/Layouts/Admin';
+import AdminLayout from '@/Layouts/Admin.vue';
 import SecondaryButton from '@/Components/Buttons/SecondaryButton.vue';
 import DangerModal from '@/Components/Modals/DangerModal.vue';
 import SecondaryButtonWithDropdown from '@/Components/Buttons/SecondaryButtonWithDropdown.vue';
