@@ -1,9 +1,9 @@
 <script setup>
-import AdminLayout from '@/Layouts/Admin';
+import AdminLayout from '@/Layouts/Admin.vue';
 import { Head } from '@inertiajs/inertia-vue3';
-import BreezeInput from '@/Components/Input';
-import BreezeInputError from '@/Components/InputError';
-import BreezeLabel from '@/Components/Label';
+import BreezeInput from '@/Components/Input.vue';
+import BreezeInputError from '@/Components/InputError.vue';
+import BreezeLabel from '@/Components/Label.vue';
 import PrimaryButton from '@/Components/Buttons/PrimaryButton.vue';
 import SecondaryButton from '@/Components/Buttons/SecondaryButton.vue';
 import { Inertia } from '@inertiajs/inertia';

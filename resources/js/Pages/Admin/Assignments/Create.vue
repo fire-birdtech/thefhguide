@@ -2,10 +2,10 @@
 import { computed, ref } from 'vue';
 import { Head, useForm } from '@inertiajs/inertia-vue3';
 import AdminLayout from '@/Layouts/Admin.vue';
-import BreezeInput from '@/Components/Input';
-import BreezeInputError from '@/Components/InputError';
-import BreezeLabel from '@/Components/Label';
-import TextEditor from '@/Components/TextEditor';
+import BreezeInput from '@/Components/Input.vue';
+import BreezeInputError from '@/Components/InputError.vue';
+import BreezeLabel from '@/Components/Label.vue';
+import TextEditor from '@/Components/TextEditor.vue';
 import FormText from '@/Components/FormText.vue';
 import { Listbox, ListboxButton, ListboxLabel, ListboxOption, ListboxOptions } from '@headlessui/vue';
 import { CheckIcon, ChevronUpDownIcon } from '@heroicons/vue/24/solid';

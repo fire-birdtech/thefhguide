@@ -1,6 +1,6 @@
 <script setup>
 import { Head, Link } from '@inertiajs/inertia-vue3';
-import ErrorLayout from '@/Layouts/Error';
+import ErrorLayout from '@/Layouts/Error.vue';
 </script>
 
 <template>

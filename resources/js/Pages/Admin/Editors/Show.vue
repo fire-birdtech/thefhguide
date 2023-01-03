@@ -3,7 +3,7 @@ import { computed, ref } from 'vue';
 import { DialogTitle } from '@headlessui/vue';
 import { PencilSquareIcon, UserMinusIcon } from '@heroicons/vue/24/solid';
 import { Head, useForm, usePage } from '@inertiajs/inertia-vue3';
-import AdminLayout from '@/Layouts/Admin';
+import AdminLayout from '@/Layouts/Admin.vue';
 import SecondaryButton from '@/Components/Buttons/SecondaryButton.vue';
 import Badge from '@/Components/Badge.vue';
 import SecondaryButtonWithDropdown from '@/Components/Buttons/SecondaryButtonWithDropdown.vue';
