@@ -8,6 +8,7 @@ import Table from '@/Components/Tables/Table.vue';
 import TableHead from '@/Components/Tables/TableHead.vue';
 import TableBody from '@/Components/Tables/TableBody.vue';
 import DraftList from '@/Components/Drafts/DraftList.vue';
+import NoAssignments from '@/Components/EmptyStates/EditorDashboard.vue';
 
 defineProps({
     assignments: Array,
@@ -53,6 +54,8 @@ const tableActions = {
                     <DraftList :drafts="drafts" />
                 </div>
             </div>
+
+            <NoAssignments v-if="! assignments.length && ! drafts.length" />
         </div>
     </AdminLayout>
 </template>
