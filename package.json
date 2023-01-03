@@ -1,7 +1,6 @@
 {
     "private": true,
     "scripts": {
-        "production": "mix --production --mix-config=webpack.ssr.mix.js && mix --production",
         "dev": "vite",
         "build": "vite build"
     },
