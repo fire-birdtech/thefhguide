@@ -1,5 +1,7 @@
 <script setup>
 import { Link } from '@inertiajs/inertia-vue3';
+import ResourceListWrapper from './Lists/ResourceListWrapper.vue';
+import ResourceListItem from './Lists/ResourceListItemShow.vue';
 
 defineProps({
     choice: Object
@@ -21,9 +23,13 @@ defineProps({
                 <dt class="text-sm font-medium text-gray-500">Instructions</dt>
                 <dd class="mt-1 prose max-w-3xl text-sm text-gray-900 sm:mt-0 sm:col-span-3" v-html="choice.instructions" />
             </div>
-            <div v-if="choice.resources" class="py-4 sm:py-5 sm:grid sm:grid-cols-4 sm:gap-4 sm:px-6">
+            <div v-if="choice.resources.length" class="py-4 sm:py-5 sm:grid sm:grid-cols-4 sm:gap-4 sm:px-6">
                 <dt class="text-sm font-medium text-gray-500">Resources</dt>
-                <dd class="mt-1 prose max-w-3xl text-sm text-gray-900 sm:mt-0 sm:col-span-3" v-html="choice.resources" />
+                <dd class="sm:col-span-3">
+                    <ResourceListWrapper>
+                        <ResourceListItem v-for="resource in choice.resources" :key="resource.id" :resource="resource" />
+                    </ResourceListWrapper>
+                </dd>
             </div>
             <div v-if="choice.review" class="py-4 sm:py-5 sm:grid sm:grid-cols-4 sm:gap-4 sm:px-6">
                 <dt class="text-sm font-medium text-gray-500">Review</dt>
