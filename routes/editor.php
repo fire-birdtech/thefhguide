@@ -8,6 +8,7 @@ use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\DraftController;
 use App\Http\Controllers\GoalController;
 use App\Http\Controllers\ProjectController;
+use App\Http\Controllers\ResourceController;
 use App\Models\Assignment;
 use App\Models\Draft;
 use Illuminate\Support\Facades\Route;
@@ -31,4 +32,5 @@ Route::group([
     Route::resource('drafts', DraftController::class);
     Route::put('drafts/{draft}/publish', [DraftController::class, 'publish'])->name('drafts.publish');
     Route::post('drafts/{draft}/publish', [DraftController::class, 'notify'])->name('drafts.notify');
+    Route::resource('resources', ResourceController::class);
 });

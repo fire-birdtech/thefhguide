@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\ResourceStoreRequest;
+use App\Http\Requests\ResourceUpdateRequest;
 use App\Models\Resource;
 use Illuminate\Http\Request;
 
@@ -33,9 +35,17 @@ class ResourceController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(ResourceStoreRequest $request)
     {
-        //
+        Resource::create($request->validated());
+
+        return redirect()->back()
+            ->with('notification', [
+                'actions' => false,
+                'message' => 'A new resource has been created',
+                'title' => 'Resource saved successfully',
+                'type' => 'success'
+            ]);
     }
 
     /**
@@ -67,9 +77,20 @@ class ResourceController extends Controller
      * @param  \App\Models\Resource  $resource
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Resource $resource)
+    public function update(ResourceUpdateRequest $request, Resource $resource)
     {
-        //
+        $resource->update([
+            'name' => $request['name'],
+            'url' => $request['url']
+        ]);
+
+        return redirect()->back()
+            ->with('notification', [
+                'actions' => false,
+                'message' => 'A resource has been updated',
+                'title' => 'Resource updated successfully',
+                'type' => 'success'
+            ]);
     }
 
     /**
