@@ -20,12 +20,12 @@ defineProps({
                 </div>
             </div>
             <div class="w-full">
-                <div v-if="editor.unpublished_assignments.length || editor.unpublished_drafts.length" class="w-full space-y-3">
+                <div v-if="editor.unpublished_assignments.length || editor.unpublished_drafts.length" class="w-full pb-3 space-y-3">
                     <div class="flex flex-col w-full overflow-hidden">
-                        <div v-if="editor.unpublished_assignments.length" class="w-full flex flex-col items-start py-3">
+                        <div v-if="editor.unpublished_assignments.length" class="w-full flex flex-col items-start">
                             <h4 class="truncate text-sm font-medium text-gray-900 px-4">Assignments</h4>
-                            <div class="w-full bg-transparent pt-3 px-4">
-                                <ul role="list" class="flex flex-col w-full divide-y-2 divide-transparent">
+                            <div class="w-full bg-transparent pt-2 px-4">
+                                <ul role="list" class="flex flex-col w-full">
                                     <li v-for="assignment in editor.unpublished_assignments" :key="assignment.id" class="truncate w-full flex items-center justify-between text-xs py-1">
                                         {{ assignment.assignable.name }}
                                         <Badge :text="assignment.status" class="ml-4" />
@@ -35,17 +35,15 @@ defineProps({
                         </div>
                     </div>
 
-                    <div class="px-4">
-                        <div class="flex flex-col w-full overflow-hidden">
-                            <div v-if="editor.unpublished_drafts.length" class="w-full flex flex-col items-start py-3">
-                                <h4 class="truncate text-sm font-medium text-gray-900 px-4">Drafts</h4>
-                                <div class="w-full overflow-hidden bg-transparent">
-                                    <ul role="list" class="mt-2 w-full space-y-2">
-                                        <li v-for="draft in editor.unpublished_drafts" :key="draft.id" class="truncate w-full flex items-center justify-between text-xs py-1">
-                                            {{ draft.new_name }}
-                                        </li>
-                                    </ul>
-                                </div>
+                    <div class="flex flex-col w-full overflow-hidden">
+                        <div v-if="editor.unpublished_drafts.length" class="w-full flex flex-col items-start">
+                            <h4 class="truncate text-sm font-medium text-gray-900 px-4">Drafts</h4>
+                            <div class="w-full bg-transparent pt-2 px-4">
+                                <ul role="list" class="flex flex-col w-full">
+                                    <li v-for="draft in editor.unpublished_drafts" :key="draft.id" class="truncate w-full flex items-center justify-between text-xs py-1">
+                                        {{ draft.new_name }}
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
