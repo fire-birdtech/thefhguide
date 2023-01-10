@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\InvitationController;
 use App\Http\Controllers\NotificationController;
+use App\Http\Controllers\UserController;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
@@ -35,6 +36,12 @@ Route::middleware('guest')->group(function () {
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
+
+Route::group(['middleware' => ['auth', 'verified']], function () {
+    Route::get('user/profile', [UserController::class, 'show'])->name('user.profile');
+    Route::put('user/{user}', [UserController::class, 'update'])->name('user.update');
+    Route::put('user/password/{user}', [UserController::class, 'updatePassword'])->name('user.update-password');
+});
 
 Route::get('/notifications/{id}/read', [NotificationController::class, 'update'])->middleware(['auth', 'verified'])->name('notifications.read');
 

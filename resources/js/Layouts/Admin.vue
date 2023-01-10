@@ -63,6 +63,11 @@ const showingNavigationDropdown = ref(false);
                                     <MenuItems class="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
                                         <div class="py-1">
                                             <MenuItem v-slot="{ active }">
+                                                <Link :href="route('user.profile')" :class="[active ? 'bg-gray-100 text-gray-900' : 'text-gray-700', 'block w-full text-left px-4 py-2 text-sm']">
+                                                    Profile
+                                                </Link>
+                                            </MenuItem>
+                                            <MenuItem v-slot="{ active }">
                                                 <Link :href="route('logout')" method="post" as="button" :class="[active ? 'bg-gray-100 text-gray-900' : 'text-gray-700', 'block w-full text-left px-4 py-2 text-sm']">
                                                     Log Out
                                                 </Link>
@@ -101,6 +106,9 @@ const showingNavigationDropdown = ref(false);
                         </div>
 
                         <div class="mt-3 space-y-1">
+                            <BreezeResponsiveNavLink :href="route('user.profile')">
+                                Profile
+                            </BreezeResponsiveNavLink>
                             <BreezeResponsiveNavLink :href="route('logout')" method="post" as="button">
                                 Log Out
                             </BreezeResponsiveNavLink>
