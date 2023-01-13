@@ -123,6 +123,8 @@ const showingNavigationDropdown = ref(false);
                 <slot />
             </main>
         </div>
+        <Teleport to="body">
+            <Notification />
+        </Teleport>
     </div>
-    <Notification />
 </template>

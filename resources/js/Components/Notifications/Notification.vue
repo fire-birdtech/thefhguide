@@ -1,14 +1,16 @@
 <script setup>
-import { computed, ref } from 'vue';
+import { computed, ref, watch } from 'vue';
 import { CheckCircleIcon, InboxIcon, XCircleIcon } from '@heroicons/vue/24/outline';
 import { XMarkIcon } from '@heroicons/vue/20/solid';
 import { Link, usePage } from '@inertiajs/inertia-vue3';
 
 const show = ref(true);
 
-const notification = computed(() => {
+const notification = computed(() => usePage().props.value.flash.notification);
+
+watch(notification, async () => {
+    show.value = true;
     setTimeout(() => show.value = false, 4000);
-    return usePage().props.value.flash.notification;
 });
 </script>
 

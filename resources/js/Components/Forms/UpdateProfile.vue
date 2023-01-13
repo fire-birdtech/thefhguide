@@ -13,9 +13,7 @@ const form = useForm({
 });
 
 const submit = () => {
-    form.put(route('settings.update-profile', [user.id]), {
-        preserveState: true
-    });
+    form.put(route('settings.update-profile', [user.id]));
 }
 </script>
 
