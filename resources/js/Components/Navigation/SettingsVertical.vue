@@ -4,7 +4,7 @@ import { Cog8ToothIcon, LockClosedIcon, UserCircleIcon } from '@heroicons/vue/24
 
 const navigation = [
     { name: 'Profile', href: route('settings.profile'), icon: UserCircleIcon, component: 'Settings/Profile' },
-    { name: 'Account', href: '#', icon: Cog8ToothIcon, component: 'Settings/Account' },
+    { name: 'Account', href: route('settings.account'), icon: Cog8ToothIcon, component: 'Settings/Account' },
     { name: 'Security', href: route('settings.security'), icon: LockClosedIcon, component: 'Settings/Security' },
 ];
 </script>

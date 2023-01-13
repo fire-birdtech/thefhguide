@@ -43,6 +43,8 @@ Route::group(['middleware' => ['auth', 'verified']], function () {
     Route::put('settings/profile/{user}', [SettingsController::class, 'updateProfile'])->name('settings.update-profile');
     Route::get('settings/security', [SettingsController::class, 'security'])->name('settings.security');
     Route::put('settings/password/{user}', [UserController::class, 'updatePassword'])->name('settings.update-password');
+    Route::get('settings/account', [SettingsController::class, 'account'])->name('settings.account');
+    Route::delete('settings/account/{user}', [SettingsController::class, 'deleteAccount'])->name('settings.delete-account');
 });
 
 Route::get('/notifications/{id}/read', [NotificationController::class, 'update'])->middleware(['auth', 'verified'])->name('notifications.read');

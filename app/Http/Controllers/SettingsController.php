@@ -48,4 +48,15 @@ class SettingsController extends Controller
                 'type' => 'success'
             ]);
     }
+
+    public function account()
+    {
+        return inertia('Settings/Account', [
+            'user' => auth()->user()
+        ]);
+    }
+
+    public function deleteAccount(User $user) {
+        return "You're deleted!";
+    }
 }
