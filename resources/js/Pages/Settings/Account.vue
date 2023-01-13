@@ -5,7 +5,7 @@ import SettingsLayout from '@/Layouts/Settings.vue';
 import { Head } from '@inertiajs/inertia-vue3';
 import DeleteAccount from '@/Components/Forms/DeleteAccount.vue';
 
-const props = defineProps(['user']);
+const props = defineProps(['hasRoles', 'user']);
 
 provide('user', props.user);
 </script>
@@ -15,7 +15,7 @@ provide('user', props.user);
 
     <AuthenticatedLayout>
         <SettingsLayout>
-            <DeleteAccount />
+            <DeleteAccount :has-roles="hasRoles" />
         </SettingsLayout>
     </AuthenticatedLayout>
 </template>

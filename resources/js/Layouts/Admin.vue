@@ -106,8 +106,8 @@ const showingNavigationDropdown = ref(false);
                         </div>
 
                         <div class="mt-3 space-y-1">
-                            <BreezeResponsiveNavLink :href="route('user.profile')">
-                                Profile
+                            <BreezeResponsiveNavLink :href="route('settings.profile')">
+                                Settings
                             </BreezeResponsiveNavLink>
                             <BreezeResponsiveNavLink :href="route('logout')" method="post" as="button">
                                 Log Out

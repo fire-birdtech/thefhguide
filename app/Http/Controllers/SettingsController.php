@@ -52,7 +52,8 @@ class SettingsController extends Controller
     public function account()
     {
         return inertia('Settings/Account', [
-            'user' => auth()->user()
+            'user' => auth()->user(),
+            'hasRoles' => count(auth()->user()->roles) ? true : false
         ]);
     }
 
