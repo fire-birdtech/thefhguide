@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\InvitationController;
 use App\Http\Controllers\NotificationController;
+use App\Http\Controllers\SettingsController;
 use App\Http\Controllers\UserController;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
@@ -38,9 +39,10 @@ Route::get('/dashboard', function () {
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::group(['middleware' => ['auth', 'verified']], function () {
-    Route::get('user/profile', [UserController::class, 'show'])->name('user.profile');
-    Route::put('user/{user}', [UserController::class, 'update'])->name('user.update');
-    Route::put('user/password/{user}', [UserController::class, 'updatePassword'])->name('user.update-password');
+    Route::get('settings/profile', [SettingsController::class, 'profile'])->name('settings.profile');
+    Route::put('settings/profile/{user}', [SettingsController::class, 'updateProfile'])->name('settings.update-profile');
+    Route::get('settings/security', [SettingsController::class, 'security'])->name('settings.security');
+    Route::put('user/password/{user}', [UserController::class, 'updatePassword'])->name('settings.update-password');
 });
 
 Route::get('/notifications/{id}/read', [NotificationController::class, 'update'])->middleware(['auth', 'verified'])->name('notifications.read');
