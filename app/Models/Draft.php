@@ -13,11 +13,6 @@ class Draft extends Model
 
     protected $guarded = ['id'];
 
-    public function draftable(): MorphTo
-    {
-        return $this->morphTo();
-    }
-
     public function user(): BelongsTo
     {
         return $this->belongsTo(User::class);
