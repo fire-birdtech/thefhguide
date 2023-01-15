@@ -2,7 +2,6 @@
 
 namespace App\Models;
 
-use App\Traits\Draftable;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
@@ -13,7 +12,7 @@ use Venturecraft\Revisionable\RevisionableTrait as HasRevisions;
 
 class Choice extends Model
 {
-    use Draftable, HasFactory, HasRevisions, SoftDeletes;
+    use HasFactory, HasRevisions, SoftDeletes;
 
     /**
      * The "booted" method of the model.

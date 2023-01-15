@@ -2,7 +2,6 @@
 
 namespace App\Models;
 
-use App\Traits\Draftable;
 use App\Traits\HasCoverImage;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
@@ -16,7 +15,7 @@ use Venturecraft\Revisionable\RevisionableTrait as HasRevisions;
 
 class Project extends Model
 {
-    use Draftable, HasCoverImage, HasFactory, HasRevisions, HasSlug, SoftDeletes;
+    use HasCoverImage, HasFactory, HasRevisions, HasSlug, SoftDeletes;
 
     /**
      * The "booted" method of the model.

@@ -2,7 +2,6 @@
 
 namespace App\Models;
 
-use App\Traits\Draftable;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
@@ -15,7 +14,7 @@ use Venturecraft\Revisionable\RevisionableTrait as HasRevisions;
 
 class Goal extends Model
 {
-    use Draftable, HasFactory, HasRevisions, HasSlug, SoftDeletes;
+    use HasFactory, HasRevisions, HasSlug, SoftDeletes;
 
     /**
      * The "booted" method of the model.
