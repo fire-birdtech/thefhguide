@@ -209,6 +209,7 @@ return [
             'name' => 'editor',
             'permissions' => [
                 'publish content',
+                'draft content',
                 'create collections',
                 'update collections',
                 'delete collections',
