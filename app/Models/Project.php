@@ -81,9 +81,4 @@ class Project extends Model
     {
         return $this->hasMany(Goal::class);
     }
-
-    public function draft(): MorphOne
-    {
-        return $this->morphOne(Draft::class, 'draftable');
-    }
 }

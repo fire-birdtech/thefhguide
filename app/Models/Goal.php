@@ -81,9 +81,4 @@ class Goal extends Model
     {
         return $this->morphOne(Assignment::class, 'assignable');
     }
-
-    public function draft(): MorphOne
-    {
-        return $this->morphOne(Draft::class, 'draftable');
-    }
 }

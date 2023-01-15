@@ -50,11 +50,6 @@ class Choice extends Model
         return $this->belongsTo(Goal::class);
     }
 
-    public function draft(): MorphOne
-    {
-        return $this->morphOne(Draft::class, 'draftable');
-    }
-
     public function resources(): HasMany
     {
         return $this->hasMany(Resource::class);

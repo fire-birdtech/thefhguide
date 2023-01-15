@@ -53,9 +53,4 @@ class Collection extends Model
     {
         return $this->HasMany(Project::class);
     }
-
-    public function draft(): MorphOne
-    {
-        return $this->morphOne(Draft::class, 'draftable');
-    }
 }
