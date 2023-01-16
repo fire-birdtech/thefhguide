@@ -46,7 +46,7 @@ class DraftController extends Controller
     public function store(CreateDraftRequest $request)
     {
         $draft = Draft::create([
-            'draftable_type' => 'App\\Models\\' . ucfirst($request['draftable_type']),
+            'draftable_type' => $request['draftable_type'],
             'user_id' => $request->user()->id
         ]);
 
@@ -55,7 +55,7 @@ class DraftController extends Controller
         if (isset($parent)) {
             $parent->childDrafts()->save($draft);
         }
-        dd($draft);
+
         return redirect()->route('editor.drafts.edit', [$draft->id]);
     }
 
@@ -67,7 +67,9 @@ class DraftController extends Controller
      */
     public function show(Draft $draft)
     {
-        //
+        return inertia('Editor/Drafts/Show', [
+            'draft' => $draft
+        ]);
     }
 
     /**
@@ -94,19 +96,14 @@ class DraftController extends Controller
     public function update(DraftSaveRequest $request, Draft $draft)
     {
         $draft->update([
-            'new_name' => $request['new_name'],
-            'new_summary' => $request['new_summary'],
-            'new_instructions' => $request['new_instructions'],
-            'new_resources' => $request['new_resources'],
-            'new_review' => $request['new_review'],
-            'new_exercises' => $request['new_exercises'],
+            'name' => $request['name'],
+            'summary' => $request['summary'],
+            'instructions' => $request['instructions'],
+            'review' => $request['review'],
+            'exercises' => $request['exercises'],
         ]);
-
-        if ($request->user()->hasRole('admin')) {
-            return redirect()->route('admin.dashboard');
-        }
         
-        return redirect()->route('editor.dashboard');
+        return redirect()->route('editor.drafts.show', [$draft->id]);
     }
 
     /**
@@ -119,22 +116,22 @@ class DraftController extends Controller
     {
         $draftable = $draft->draftable;
         if (isset($draftable->name)) {
-            $draftable->name = $request['new_name'];
+            $draftable->name = $request['name'];
         }
         if (isset($draftable->summary)) {
-            $draftable->summary = $request['new_summary'];
+            $draftable->summary = $request['summary'];
         }
         if (isset($draftable->instructions)) {
-            $draftable->instructions = $request['new_instructions'];
+            $draftable->instructions = $request['instructions'];
         }
         if (isset($draftable->resources)) {
-            $draftable->resources = $request['new_resources'];
+            $draftable->resources = $request['resources'];
         }
         if (isset($draftable->review)) {
-            $draftable->review = $request['new_review'];
+            $draftable->review = $request['review'];
         }
         if (isset($draftable->exercises)) {
-            $draftable->exercises = $request['new_exercises'];
+            $draftable->exercises = $request['exercises'];
         }
         $draftable->timestamps = false;
         $draftable->locked = false;
