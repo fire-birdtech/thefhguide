@@ -102,7 +102,7 @@ const tableActions = {
             </div>
 
             <div class="mt-12">
-                <TableHeader header="Projects" addText="Add project" :addLink="`${route(`editor.projects.create`)}?collection=${collection.id}`" />
+                <TableHeader header="Projects" addText="Add project" :add-route="route('editor.drafts.store', {draftable_type: 'project', parent_type: 'collection', parent_id: collection.id})" />
                 <Table class="mt-2">
                     <TableHead :cells="cells" :actions="true" :order="true" />
                     <TableBody :cells="cells" :rows="sortedProjects" routeType="editor.projects" :actions="tableActions" :order="true" @down="moveDown($event)" @up="moveUp($event)" />

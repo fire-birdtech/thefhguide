@@ -3,10 +3,14 @@
 namespace App\Http\Controllers;
 
 use App\Enums\AssignmentStatus;
+use App\Http\Requests\CreateDraftRequest;
 use App\Http\Requests\DraftPublishRequest;
 use App\Http\Requests\DraftSaveRequest;
 use App\Models\Assignment;
+use App\Models\Collection;
 use App\Models\Draft;
+use App\Models\Goal;
+use App\Models\Project;
 use App\Models\User;
 use App\Notifications\DraftReady;
 use Illuminate\Http\Request;
@@ -39,16 +43,19 @@ class DraftController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(CreateDraftRequest $request)
     {
-        $assignment = Assignment::where('id', $request['assignmentId'])->first();
-        $assignable = $assignment->assignable;
-        $draft = $assignable->createDraft($assignment->user_id, $assignment->id);
-        $assignment->status = AssignmentStatus::STARTED;
-        $assignable->timestamps = false;
-        $assignable->update(['locked' => true]);
-        $assignment->save();
-        
+        $draft = Draft::create([
+            'draftable_type' => 'App\\Models\\' . ucfirst($request['draftable_type']),
+            'user_id' => $request->user()->id
+        ]);
+
+        $parent = $this->getParentable($request['parent_type'], $request['parent_id']);
+
+        if (isset($parent)) {
+            $parent->childDrafts()->save($draft);
+        }
+        dd($draft);
         return redirect()->route('editor.drafts.edit', [$draft->id]);
     }
 
@@ -161,5 +168,19 @@ class DraftController extends Controller
     public function destroy(Draft $draft)
     {
         //
+    }
+
+    public function getParentable($type, $id)
+    {
+        switch ($type) {
+            case 'collection':
+                return Collection::find($id);
+            case 'project':
+                return Project::find($id);
+            case 'goal':
+                return Goal::find($id);
+            default:
+                return;
+        }
     }
 }
