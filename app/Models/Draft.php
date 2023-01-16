@@ -22,4 +22,9 @@ class Draft extends Model
     {
         return $this->belongsTo(Assignment::class);
     }
+
+    public function parentable(): MorphTo
+    {
+        return $this->morphTo();
+    }
 }

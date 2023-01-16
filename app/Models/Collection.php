@@ -5,6 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Database\Eloquent\Relations\MorphMany;
 use Illuminate\Database\Eloquent\Relations\MorphOne;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Spatie\Sluggable\HasSlug;
@@ -51,5 +52,10 @@ class Collection extends Model
     public function projects(): HasMany
     {
         return $this->HasMany(Project::class);
+    }
+
+    public function childDrafts(): MorphMany
+    {
+        return $this->morphMany(Draft::class, 'parentable');
     }
 }
