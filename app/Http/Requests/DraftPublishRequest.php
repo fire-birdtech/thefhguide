@@ -24,12 +24,12 @@ class DraftPublishRequest extends FormRequest
     public function rules()
     {
         return [
-            'new_name' => 'nullable|string',
-            'new_summary' => 'nullable|string',
-            'new_instructions' => 'nullable|string',
-            'new_resources' => 'nullable|string',
-            'new_review' => 'nullable|string',
-            'new_exercises' => 'nullable|string',
+            'name' => 'required|string',
+            'summary' => 'nullable|string',
+            'instructions' => 'nullable|string',
+            'resources' => 'nullable|string',
+            'review' => 'nullable|string',
+            'exercises' => 'nullable|string',
         ];
     }
 }
