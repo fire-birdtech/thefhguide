@@ -23,9 +23,4 @@ class Assignment extends Model
     {
         return $this->belongsTo(User::class);
     }
-
-    public function draft(): HasOne
-    {
-        return $this->hasOne(Draft::class);
-    }
 }

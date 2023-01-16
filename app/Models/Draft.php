@@ -18,11 +18,6 @@ class Draft extends Model
         return $this->belongsTo(User::class);
     }
 
-    public function assignment(): BelongsTo
-    {
-        return $this->belongsTo(Assignment::class);
-    }
-
     public function parentable(): MorphTo
     {
         return $this->morphTo();
