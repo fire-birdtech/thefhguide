@@ -210,6 +210,7 @@ return [
             'permissions' => [
                 'publish content',
                 'draft content',
+                'view assignments',
                 'create collections',
                 'update collections',
                 'delete collections',
