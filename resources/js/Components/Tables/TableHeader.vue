@@ -22,7 +22,7 @@ const submit = () => {
         <div v-if="addLink && addText && $page.props.currentUserRole !== 'guest'" class="ml-4 space-x-2">
             <PrimaryButton :href="addLink" as="link"> {{ addText }} </PrimaryButton>
         </div>
-        <div v-if="route" class="ml-4 space-x-2">
+        <div v-if="addRoute" class="ml-4 space-x-2">
             <PrimaryButton @click.prevent="submit">{{ addText }}</PrimaryButton>
         </div>
     </div>
