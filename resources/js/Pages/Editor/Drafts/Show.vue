@@ -2,6 +2,7 @@
 import { Head, Link } from '@inertiajs/inertia-vue3';
 import AdminLayout from  '@/Layouts/Admin.vue';
 import PrimaryButton from '@/Components/Buttons/PrimaryButton.vue';
+import Header3 from '@/Components/Headers/Header3.vue';
 
 defineProps(['draft']);
 </script>
@@ -14,7 +15,7 @@ defineProps(['draft']);
             <div>
                 <div class="-ml-4 -mt-2 flex items-center justify-between flex-wrap sm:flex-nowrap">
                     <div class="ml-4 mt-2">
-                        <h3 class="text-lg leading-6 font-medium text-gray-900"> Draft Details: {{ draft.name }} </h3>
+                        <Header3> Draft Details: {{ draft.name }} </Header3>
                     </div>
                     <div class="ml-4">
                         <PrimaryButton :href="route('editor.drafts.edit', [draft.id])" as="link">Edit</PrimaryButton>

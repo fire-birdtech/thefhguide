@@ -11,6 +11,7 @@ import SecondaryButtonSmall from '@/Components/Buttons/SecondaryButtonSmall.vue'
 import { Listbox, ListboxButton, ListboxLabel, ListboxOption, ListboxOptions } from '@headlessui/vue';
 import { CheckIcon, ChevronUpDownIcon } from '@heroicons/vue/24/solid';
 import { Inertia } from '@inertiajs/inertia';
+import Header3 from '@/Components/Headers/Header3.vue';
 
 const props = defineProps({
     collections: Array,
@@ -59,7 +60,7 @@ watch(selected, (newSelected, oldSelected) => {
 
     <AdminLayout>
         <div class="w-full py-8 px-4 sm:px-6 lg:px-8">
-            <h3 class="text-lg leading-6 font-medium text-gray-900"> Edit Project: {{ project.name }} </h3>
+            <Header3> Edit Project: {{ project.name }} </Header3>
             <div class="mt-4 bg-white rounded-md shadow">
                 <form @submit.prevent="submit" class="sm:divide-y sm:divide-gray-200">
                     <div class="px-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:items-start sm:border-t sm:border-gray-200 sm:py-4">

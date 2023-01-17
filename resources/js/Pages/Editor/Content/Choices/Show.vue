@@ -9,6 +9,7 @@ import AdminLayout from '@/Layouts/Admin.vue';
 import SecondaryButton from '@/Components/Buttons/SecondaryButton.vue';
 import DangerModal from '@/Components/Modals/DangerModal.vue';
 import SecondaryButtonWithDropdown from '@/Components/Buttons/SecondaryButtonWithDropdown.vue';
+import Header3 from '@/Components/Headers/Header3.vue';
 
 const props = defineProps({
     choice: Object,
@@ -41,7 +42,7 @@ const actions = [
         <div class="w-full py-8 px-4 sm:px-6 lg:px-8">
             <div class="-ml-4 -mt-2 flex items-center justify-between flex-wrap sm:flex-nowrap">
                 <div class="ml-4 mt-2">
-                    <h3 class="text-lg leading-6 font-medium text-gray-900"> Choice Details: {{ choice.name }} </h3>
+                    <Header3> Choice Details: {{ choice.name }} </Header3>
                 </div>
                 <div class="ml-4">
                     <SecondaryButtonWithDropdown button-text="Options" :actions="actions" @open="open = true" />

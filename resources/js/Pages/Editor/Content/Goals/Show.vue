@@ -16,6 +16,7 @@ import TableBody from '@/Components/Tables/TableBody.vue';
 import SecondaryButtonWithDropdown from '@/Components/Buttons/SecondaryButtonWithDropdown.vue';
 import StackedListWrapper from '@/Components/Lists/StackedListWrapper.vue';
 import ExpandableStackedListItem from '@/Components/Lists/ExpandableStackedListItem.vue';
+import Header3 from '@/Components/Headers/Header3.vue';
 
 const props = defineProps({
     errors: Object,
@@ -90,7 +91,7 @@ const tableActions = {
             <div>
                 <div class="-ml-4 -mt-2 flex items-center justify-between flex-wrap sm:flex-nowrap">
                     <div class="ml-4 mt-2">
-                        <h3 class="text-lg leading-6 font-medium text-gray-900"> Goal Details: {{ goal.name }} </h3>
+                        <Header3> Goal Details: {{ goal.name }} </Header3>
                     </div>
                     <div class="ml-4">
                         <SecondaryButtonWithDropdown button-text="Options" :actions="actions" @open="open = true" />

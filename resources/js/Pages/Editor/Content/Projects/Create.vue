@@ -7,6 +7,7 @@ import BreezeInputError from '@/Components/InputError.vue';
 import BreezeLabel from '@/Components/Label.vue';
 import PrimaryButton from '@/Components/Buttons/PrimaryButton.vue';
 import SecondaryButton from '@/Components/Buttons/SecondaryButton.vue';
+import Header3 from '@/Components/Headers/Header3.vue';
 
 const props = defineProps({
     collection: Number,
@@ -27,7 +28,7 @@ const submit = () => {
 
     <AdminLayout>
         <div class="w-full py-8 px-4 sm:px-6 lg:px-8">
-            <h3 class="text-lg leading-6 font-medium text-gray-900"> Create Project </h3>
+            <Header3> Create Project </Header3>
             <div class="mt-4 bg-white rounded-md shadow">
                 <form @submit.prevent="submit" class="space-y-6 divide-y divide-gray-200">
                     <div class="space-y-8 divide-y divide-gray-200 sm:space-y-5">

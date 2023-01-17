@@ -12,6 +12,7 @@ import Table from '@/Components/Tables/Table.vue';
 import TableHead from '@/Components/Tables/TableHead.vue';
 import TableBody from '@/Components/Tables/TableBody.vue';
 import SecondaryButtonWithDropdown from '@/Components/Buttons/SecondaryButtonWithDropdown.vue';
+import Header3 from '@/Components/Headers/Header3.vue';
 
 const props = defineProps({
     collection: Object,
@@ -85,7 +86,7 @@ const tableActions = {
             <div>
                 <div class="-ml-4 flex items-center justify-between flex-wrap sm:flex-nowrap">
                     <div class="ml-4">
-                        <h3 class="text-lg leading-6 font-medium text-gray-900"> Collection Details: {{ collection.name }} </h3>
+                        <Header3> Collection Details: {{ collection.name }} </Header3>
                     </div>
                     <div class="ml-4">
                         <SecondaryButtonWithDropdown button-text="Options" :actions="actions" @open="open = true" />

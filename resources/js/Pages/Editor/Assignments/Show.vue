@@ -3,6 +3,7 @@ import { Head, useForm } from '@inertiajs/inertia-vue3';
 import AdminLayout from '@/Layouts/Admin.vue';
 import PrimaryButton from '@/Components/Buttons/PrimaryButton.vue';
 import Badge from '@/Components/Badge.vue';
+import Header3 from '@/Components/Headers/Header3.vue';
 
 defineProps({
     assignment: Object
@@ -17,7 +18,7 @@ defineProps({
             <div>
                 <div class="-ml-4 -mt-2 flex items-center justify-between flex-wrap sm:flex-nowrap">
                     <div class="ml-4 mt-2">
-                        <h3 class="text-lg leading-6 font-medium text-gray-900"> Assignment Details </h3>
+                        <Header3> Assignment Details </Header3>
                     </div>
                     <div class="ml-4 mt-2 space-x-2">
                         <PrimaryButton as="link" :href="route(`editor.${assignment.assignable_type.split('\\')[2].toLowerCase()}s.show`, [assignment.assignable.slug])">

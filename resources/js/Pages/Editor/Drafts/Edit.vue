@@ -9,6 +9,7 @@ import InputWithLabel from '@/Components/InputWithLabel.vue';
 import TextEditorWithLabel from '@/Components/TextEditorWithLabel.vue';
 import PrimaryButtonWithDropdown from '@/Components/Buttons/PrimaryButtonWithDropdown.vue';
 import PublishModal from '@/Components/PublishModal.vue';
+import Header3 from '@/Components/Headers/Header3.vue';
 
 const props = defineProps({
     draft: Object,
@@ -49,7 +50,7 @@ const options = [
         <div class="w-full py-8 px-4 sm:px-6 lg:px-8">
             <div class="flex items-center justify-between flex-wrap sm:flex-nowrap">
                 <div>
-                    <h3 class="text-lg leading-6 font-medium text-gray-900"> Draft: {{ form.name }} </h3>
+                    <Header3> Draft: {{ form.name }} </Header3>
                 </div>
                 <div class="space-x-2">
                     <PrimaryButtonWithDropdown action="Save Draft" @save="save" @publish="confirm" @notify="notify" :options="options" />

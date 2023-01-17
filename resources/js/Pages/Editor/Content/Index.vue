@@ -3,6 +3,7 @@ import AdminLayout from '@/Layouts/Admin.vue';
 import { Head, Link } from '@inertiajs/inertia-vue3';
 import StackedList from '@/Components/StackedList.vue';
 import ContentStackedListItem from '@/Components/ContentStackedListItem.vue';
+import Header3 from '@/Components/Headers/Header3.vue';
 
 defineProps({
     collections: Array,
@@ -15,7 +16,7 @@ defineProps({
 
     <AdminLayout>
         <div class="w-full py-8 px-4 sm:px-6 lg:px-8">
-            <h3 class="text-lg leading-6 font-medium text-gray-900"> Project Collections </h3>
+            <Header3> Project Collections </Header3>
             <ul role="list" class="mt-4 grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-7">
                 <li v-for="collection in collections" :key="collection.id" class="col-span-1 border-2 border-transparent flex flex-col items-center justify-center rounded-lg bg-white text-center shadow hover:border-blue-400 hover:bg-blue-50">
                     <Link class="p-6" :href="route('editor.collections.show', [collection.slug])">

@@ -4,6 +4,7 @@ import { DialogTitle } from '@headlessui/vue';
 import { Inertia } from '@inertiajs/inertia';
 import DangerButton from '@/Components/Buttons/DangerButton.vue';
 import DangerModal from '@/Components/Modals/DangerModal.vue';
+import Header3 from '@/Components/Headers/Header3.vue';
 
 defineProps(['hasRoles']);
 
@@ -22,7 +23,7 @@ const submit = () => {
 <template>
     <div class="space-y-6 sm:space-y-5">
         <div>
-            <h3 class="text-lg font-medium leading-6 text-red-500">Delete Account</h3>
+            <Header3>Delete Account</Header3>
         </div>
         <div class="pt-4 border-t border-gray-200">
             <div class="space-y-6 sm:space-y-5">

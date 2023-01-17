@@ -6,6 +6,7 @@ import BreezeInputError from '@/Components/InputError.vue';
 import BreezeLabel from '@/Components/Label.vue';
 import PrimaryButton from '@/Components/Buttons/PrimaryButton.vue';
 import SecondaryButton from '@/Components/Buttons/SecondaryButton.vue';
+import Header3 from '@/Components/Headers/Header3.vue';
 
 const collection = useForm({
     name: '',
@@ -21,7 +22,7 @@ const submit = () => {
 
     <AdminLayout>
         <div class="w-full py-8 px-4 sm:px-6 lg:px-8">
-            <h3 class="text-lg leading-6 font-medium text-gray-900 mt-2"> Create Collection </h3>
+            <Header3> Create Collection </Header3>
             <div class="mt-4 bg-white shadow overflow-hidden sm:rounded-lg">
                 <form @submit.prevent="submit" class="sm:divide-y sm:divide-gray-200">
                     <div class="px-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:items-start sm:py-4">

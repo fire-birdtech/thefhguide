@@ -5,6 +5,7 @@ import BreezeInput from '@/Components/Input.vue';
 import BreezeInputError from '@/Components/InputError.vue';
 import BreezeLabel from '@/Components/Label.vue';
 import PrimaryButton from '@/Components/Buttons/PrimaryButton.vue';
+import Header3 from '@/Components/Headers/Header3.vue';
 
 const user = inject('user');
 
@@ -24,7 +25,7 @@ const updatePassword = () => {
 <template>
     <div class="space-y-6 sm:space-y-5">
         <div>
-            <h3 class="text-lg font-medium leading-6 text-gray-900">Change Password</h3>
+            <Header3>Change Password</Header3>
             <p class="mt-1 max-w-2xl text-sm text-gray-500">We want your account to be secure, make sure to set a
                 stellar password.</p>
         </div>

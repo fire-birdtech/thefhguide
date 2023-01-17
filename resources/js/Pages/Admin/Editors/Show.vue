@@ -8,6 +8,7 @@ import SecondaryButton from '@/Components/Buttons/SecondaryButton.vue';
 import Badge from '@/Components/Badge.vue';
 import SecondaryButtonWithDropdown from '@/Components/Buttons/SecondaryButtonWithDropdown.vue';
 import DangerModal from '@/Components/Modals/DangerModal.vue';
+import Header3 from '@/Components/Headers/Header3.vue';
 
 const props = defineProps({
     user: Object,
@@ -49,7 +50,7 @@ const actions = [
             <div>
                 <div class="-ml-4 -mt-2 flex items-center justify-between flex-wrap sm:flex-nowrap">
                     <div class="ml-4 mt-2">
-                        <h3 class="text-lg leading-6 font-medium text-gray-900"> Editor Details: {{ user.name }} </h3>
+                        <Header3> Editor Details: {{ user.name }} </Header3>
                     </div>
                     <div class="ml-4 mt-2 space-x-2">
                         <SecondaryButtonWithDropdown button-text="Options" :actions="actions" @open="open = true" />
