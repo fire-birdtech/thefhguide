@@ -25,15 +25,6 @@ defineProps({
                     </Link>
                 </li>
             </ul>
-
-            <div class="mt-10 grid grid-cols-2 gap-x-8">
-                <div>
-                    <h3 class="text-lg font-medium leading-6 text-gray-900">Projects</h3>
-                    <StackedList class="mt-5">
-                        <ContentStackedListItem v-for="project in projects" :key="project.id" :name="project.name" :parent="project.collection.name" :date="project.updated_at" :href="route('editor.projects.show', [project.slug])" />
-                    </StackedList>
-                </div>
-            </div>
         </div>
     </AdminLayout>
 </template>
