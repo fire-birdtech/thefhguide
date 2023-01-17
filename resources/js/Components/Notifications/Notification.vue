@@ -10,7 +10,7 @@ const notification = computed(() => usePage().props.value.flash.notification);
 
 watch(notification, async () => {
     show.value = true;
-    setTimeout(() => show.value = false, 4000);
+    setTimeout(() => usePage().props.value.flash.notification = null, 4000);
 });
 </script>
 
@@ -43,9 +43,7 @@ watch(notification, async () => {
                                     <button v-if="notification.actions.undo" type="button"
                                         class="rounded-md bg-white text-sm font-medium text-blue-600 hover:text-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">Undo</button>
                                     <Link v-if="notification.actions.view" :href="notification.actions.view.href"
-                                        class="rounded-md bg-white text-sm font-medium text-blue-600 hover:text-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">View Assignment</Link>
-                                    <!-- <button type="button"
-                                        class="rounded-md bg-white text-sm font-medium text-gray-700 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">Dismiss</button> -->
+                                        class="rounded-md bg-white text-sm font-medium text-blue-600 hover:text-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">View</Link>
                                 </div>
                             </div>
                             <div class="ml-4 flex flex-shrink-0">
