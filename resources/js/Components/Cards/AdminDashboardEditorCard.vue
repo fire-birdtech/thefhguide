@@ -27,7 +27,7 @@ defineProps({
                             <div class="w-full bg-transparent pt-2 px-4">
                                 <ul role="list" class="flex flex-col w-full">
                                     <li v-for="assignment in editor.unpublished_assignments" :key="assignment.id" class="truncate w-full flex items-center justify-between text-xs py-1">
-                                        {{ assignment.assignable.name }}
+                                        <span class="truncate">{{ assignment.assignable.name }}</span>
                                         <Badge :text="assignment.status" class="ml-4" />
                                     </li>
                                 </ul>
