@@ -4,17 +4,9 @@ import AdminLayout from '@/Layouts/Admin.vue';
 import PrimaryButton from '@/Components/Buttons/PrimaryButton.vue';
 import Badge from '@/Components/Badge.vue';
 
-const props = defineProps({
+defineProps({
     assignment: Object
 });
-
-const form = useForm({
-    assignmentId: props.assignment.id
-});
-
-const submit = () => {
-    form.post(route('editor.drafts.store'));
-}
 </script>
 
 <template>
@@ -28,16 +20,9 @@ const submit = () => {
                         <h3 class="text-lg leading-6 font-medium text-gray-900"> Assignment Details </h3>
                     </div>
                     <div class="ml-4 mt-2 space-x-2">
-                        <template v-if="assignment.draft">
-                            <PrimaryButton v-if="assignment.status === 'started'" :href="route('editor.drafts.edit', [assignment.draft?.id])" as="link">
-                                Continue Assignment
-                            </PrimaryButton>
-                        </template>
-                        <template v-else>
-                            <PrimaryButton @click="submit">
-                                Start Assignment
-                            </PrimaryButton>
-                        </template>
+                        <PrimaryButton as="link" :href="route(`editor.${assignment.assignable_type.split('\\')[2].toLowerCase()}s.show`, [assignment.assignable.slug])">
+                            Go to {{ assignment.assignable_type.split('\\')[2] }}
+                        </PrimaryButton>
                     </div>
                 </div>
 
