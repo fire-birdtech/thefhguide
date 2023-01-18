@@ -1,6 +1,6 @@
 <script setup>
 import { computed, inject, ref } from 'vue';
-import { Link, usePage } from '@inertiajs/inertia-vue3';
+import { Link, usePage } from '@inertiajs/vue3';
 
 const admin = inject('canManageEditors');
 const role = inject('currentUserRole');

@@ -3,8 +3,8 @@ import { computed, ref } from 'vue';
 import { Dialog, DialogPanel, DialogTitle, TransitionChild, TransitionRoot } from '@headlessui/vue';
 import { DocumentPlusIcon, EyeIcon, PencilSquareIcon, TrashIcon } from '@heroicons/vue/24/outline';
 import { ArchiveBoxIcon, PencilSquareIcon as PencilSquareIconSolid, PlusCircleIcon } from '@heroicons/vue/24/solid';
-import { Inertia } from '@inertiajs/inertia';
-import { Head, Link, useForm } from '@inertiajs/inertia-vue3';
+import { router } from '@inertiajs/vue3';
+import { Head, Link, useForm } from '@inertiajs/vue3';
 import AdminLayout from '@/Layouts/Admin.vue';
 import DangerModal from '@/Components/Modals/DangerModal.vue';
 import PrimaryButton from '@/Components/Buttons/PrimaryButton.vue';
@@ -33,7 +33,7 @@ const close = () => {
 const showPreview = ref(false);
 
 const destroy = () => {
-    Inertia.delete(route('editor.projects.destroy', [props.project.slug]));
+    router.delete(route('editor.projects.destroy', [props.project.slug]));
 }
 
 const updateOrder = (updated_goal, sibling_goal) => {

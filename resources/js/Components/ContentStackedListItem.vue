@@ -1,7 +1,7 @@
 <script setup>
 import { computed } from 'vue';
 import { CalendarIcon, ChevronRightIcon, FolderIcon } from '@heroicons/vue/24/solid';
-import { Link } from '@inertiajs/inertia-vue3';
+import { Link } from '@inertiajs/vue3';
 
 const props = defineProps({
     name: String,

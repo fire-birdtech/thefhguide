@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from 'vue';
-import { Head } from '@inertiajs/inertia-vue3';
+import { Head } from '@inertiajs/vue3';
 import AdminLayout from '@/Layouts/Admin.vue';
 import BreezeInput from '@/Components/Input.vue';
 import BreezeInputError from '@/Components/InputError.vue';
@@ -9,7 +9,7 @@ import PrimaryButton from '@/Components/Buttons/PrimaryButton.vue';
 import SecondaryButton from '@/Components/Buttons/SecondaryButton.vue';
 import { Listbox, ListboxButton, ListboxLabel, ListboxOption, ListboxOptions } from '@headlessui/vue';
 import { CheckIcon, ChevronUpDownIcon } from '@heroicons/vue/24/solid';
-import { Inertia } from '@inertiajs/inertia';
+import { router } from '@inertiajs/vue3';
 import Header3 from '@/Components/Headers/Header3.vue';
 
 const props = defineProps({
@@ -37,7 +37,7 @@ const selectedAdmin = ref(findAdmin());
 
 const submit = () => {
     props.user.admin_id = selectedAdmin.value.id;
-    Inertia.put(route('admin.editors.update', [props.user.id]), props.user);
+    router.put(route('admin.editors.update', [props.user.id]), props.user);
 }
 </script>
 

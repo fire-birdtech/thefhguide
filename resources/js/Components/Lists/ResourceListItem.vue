@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from 'vue';
-import { useForm } from '@inertiajs/inertia-vue3';
+import { useForm } from '@inertiajs/vue3';
 import { DocumentTextIcon } from '@heroicons/vue/24/outline'
 import PrimaryTextButton from '@/Components/Buttons/PrimaryTextButton.vue';
 import BreezeInput from '@/Components/Input.vue';

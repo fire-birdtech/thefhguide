@@ -1,7 +1,7 @@
 <script setup>
 import { computed } from 'vue';
 import AdminLayout from '@/Layouts/Admin.vue';
-import { Head, Link } from '@inertiajs/inertia-vue3';
+import { Head, Link } from '@inertiajs/vue3';
 import Badge from '@/Components/Badge.vue';
 import TableHeader from '@/Components/Tables/TableHeader.vue';
 import Table from '@/Components/Tables/Table.vue';

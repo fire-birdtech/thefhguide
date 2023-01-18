@@ -1,5 +1,5 @@
 <script setup>
-import { Head, Link } from '@inertiajs/inertia-vue3';
+import { Head, Link } from '@inertiajs/vue3';
 import AdminLayout from  '@/Layouts/Admin.vue';
 import PrimaryButton from '@/Components/Buttons/PrimaryButton.vue';
 import Header3 from '@/Components/Headers/Header3.vue';

@@ -2,8 +2,7 @@
 import { ref, watch } from 'vue';
 import { DialogTitle } from '@headlessui/vue';
 import { ArrowUpTrayIcon, BellAlertIcon } from '@heroicons/vue/24/solid';
-import { Inertia } from '@inertiajs/inertia';
-import { Head, useForm } from '@inertiajs/inertia-vue3';
+import { Head, useForm } from '@inertiajs/vue3';
 import AdminLayout from '@/Layouts/Admin.vue';
 import InputWithLabel from '@/Components/InputWithLabel.vue';
 import TextEditorWithLabel from '@/Components/TextEditorWithLabel.vue';

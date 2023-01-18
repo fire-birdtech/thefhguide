@@ -1,6 +1,6 @@
 <script setup>
 import AdminLayout from '@/Layouts/Admin.vue';
-import { Head } from '@inertiajs/inertia-vue3';
+import { Head } from '@inertiajs/vue3';
 import AdminDashboardEditorCard from '@/Components/Cards/AdminDashboardEditorCard.vue';
 import NoEditors from '@/Components/EmptyStates/NoEditors.vue';
 import Header3 from '@/Components/Headers/Header3.vue';

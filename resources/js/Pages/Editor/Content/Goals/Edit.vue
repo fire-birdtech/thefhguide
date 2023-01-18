@@ -1,13 +1,13 @@
 <script setup>
 import AdminLayout from '@/Layouts/Admin.vue';
-import { Head } from '@inertiajs/inertia-vue3';
+import { Head } from '@inertiajs/vue3';
 import BreezeInput from '@/Components/Input.vue';
 import BreezeInputError from '@/Components/InputError.vue';
 import BreezeLabel from '@/Components/Label.vue';
 import TextEditor from '@/Components/TextEditor.vue';
 import PrimaryButton from '@/Components/Buttons/PrimaryButton.vue';
 import SecondaryButton from '@/Components/Buttons/SecondaryButton.vue';
-import { Inertia } from '@inertiajs/inertia';
+import { router } from '@inertiajs/vue3';
 import Header3 from '@/Components/Headers/Header3.vue';
 
 const props = defineProps({
@@ -15,7 +15,7 @@ const props = defineProps({
 });
 
 const submit = () => {
-    Inertia.put(route('editor.goals.update', [props.goal.slug]), props.goal);
+    router.put(route('editor.goals.update', [props.goal.slug]), props.goal);
 }
 </script>
 

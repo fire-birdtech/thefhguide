@@ -1,5 +1,5 @@
 <script setup>
-import { Inertia } from '@inertiajs/inertia';
+import { router } from '@inertiajs/vue3';
 import PrimaryButton from '@/Components/Buttons/PrimaryButton.vue';
 
 const props = defineProps({
@@ -10,7 +10,7 @@ const props = defineProps({
 });
 
 const submit = () => {
-    Inertia.post(props.addRoute);
+    router.post(props.addRoute);
 }
 </script>
 

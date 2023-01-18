@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from 'vue';
-import { Link } from '@inertiajs/inertia-vue3';
+import { Link } from '@inertiajs/vue3';
 import { EyeIcon, PencilSquareIcon, XMarkIcon } from '@heroicons/vue/24/solid';
 import ChoiceEdit from '@/Components/ChoiceEdit.vue';
 import ChoiceShow from '@/Components/ChoiceShow.vue';

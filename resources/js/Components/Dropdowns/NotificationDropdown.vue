@@ -2,7 +2,7 @@
 import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue';
 import { BellIcon } from '@heroicons/vue/24/outline';
 import { ChevronDownIcon, InboxIcon } from '@heroicons/vue/24/solid';
-import { Link } from '@inertiajs/inertia-vue3';
+import { Link } from '@inertiajs/vue3';
 import NotificationDropdownItem from '@/Components/Dropdowns/NotificationDropdownItem.vue';
 </script>
 

@@ -1,6 +1,6 @@
 <script setup>
 import AdminLayout from '@/Layouts/Admin.vue';
-import { Head, Link } from '@inertiajs/inertia-vue3';
+import { Head, Link } from '@inertiajs/vue3';
 import StackedList from '@/Components/StackedList.vue';
 import ContentStackedListItem from '@/Components/ContentStackedListItem.vue';
 import Header3 from '@/Components/Headers/Header3.vue';
