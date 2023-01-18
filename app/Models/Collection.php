@@ -2,11 +2,10 @@
 
 namespace App\Models;
 
+use App\Traits\HasChildDrafts;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
-use Illuminate\Database\Eloquent\Relations\MorphMany;
-use Illuminate\Database\Eloquent\Relations\MorphOne;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Spatie\Sluggable\HasSlug;
 use Spatie\Sluggable\SlugOptions;
@@ -14,7 +13,7 @@ use Venturecraft\Revisionable\RevisionableTrait as HasRevisions;
 
 class Collection extends Model
 {
-    use HasFactory, HasRevisions, HasSlug, SoftDeletes;
+    use HasChildDrafts, HasFactory, HasRevisions, HasSlug, SoftDeletes;
 
     protected $guarded = ['id'];
 
@@ -52,10 +51,5 @@ class Collection extends Model
     public function projects(): HasMany
     {
         return $this->HasMany(Project::class);
-    }
-
-    public function childDrafts(): MorphMany
-    {
-        return $this->morphMany(Draft::class, 'parentable');
     }
 }

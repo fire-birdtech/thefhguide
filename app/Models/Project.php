@@ -2,13 +2,12 @@
 
 namespace App\Models;
 
+use App\Traits\HasChildDrafts;
 use App\Traits\HasCoverImage;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
-use Illuminate\Database\Eloquent\Relations\MorphMany;
-use Illuminate\Database\Eloquent\Relations\MorphOne;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Spatie\Sluggable\HasSlug;
 use Spatie\Sluggable\SlugOptions;
@@ -16,7 +15,7 @@ use Venturecraft\Revisionable\RevisionableTrait as HasRevisions;
 
 class Project extends Model
 {
-    use HasCoverImage, HasFactory, HasRevisions, HasSlug, SoftDeletes;
+    use HasChildDrafts, HasCoverImage, HasFactory, HasRevisions, HasSlug, SoftDeletes;
 
     /**
      * The "booted" method of the model.
@@ -80,10 +79,5 @@ class Project extends Model
     public function goals(): HasMany
     {
         return $this->hasMany(Goal::class);
-    }
-
-    public function childDrafts(): MorphMany
-    {
-        return $this->morphMany(Draft::class, 'parentable');
     }
 }

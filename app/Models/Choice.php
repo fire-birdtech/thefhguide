@@ -6,8 +6,6 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
-use Illuminate\Database\Eloquent\Relations\MorphMany;
-use Illuminate\Database\Eloquent\Relations\MorphOne;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Venturecraft\Revisionable\RevisionableTrait as HasRevisions;
 
@@ -53,10 +51,5 @@ class Choice extends Model
     public function resources(): HasMany
     {
         return $this->hasMany(Resource::class);
-    }
-
-    public function childDrafts(): MorphMany
-    {
-        return $this->morphMany(Draft::class, 'parentable');
     }
 }
