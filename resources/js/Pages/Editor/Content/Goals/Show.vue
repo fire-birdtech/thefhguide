@@ -73,10 +73,11 @@ const actions = [
         { name: 'Archive', as: 'emitter', icon: ArchiveBoxIcon, emit: 'open' }
     ]
 ];
-const cells = {
-    name: 'Name'
+const draftCells = {
+    name: 'Name',
+    user: 'Author',
+    updated_at: 'Last Updated'
 }
-
 const tableActions = {
     view: true,
     edit: true
@@ -125,6 +126,14 @@ const tableActions = {
                     <StackedListWrapper class="mt-3">
                         <ExpandableStackedListItem v-for="choice in sortedChoices" :key="choice.id" :item="choice" />
                     </StackedListWrapper>
+                </div>
+
+                <div class="mt-12" v-if="goal.child_drafts.length">
+                    <TableHeader header="Goal Drafts" />
+                    <Table class="mt-2">
+                        <TableHead :cells="draftCells" :actions="true" />
+                        <TableBody :cells="draftCells" :rows="goal.child_drafts" routeType="editor.drafts" :actions="tableActions" />
+                    </Table>
                 </div>
             </div>
         </div>

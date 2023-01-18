@@ -73,8 +73,13 @@ const actions = [
         { name: 'Archive', as: 'emitter', icon: ArchiveBoxIcon, emit: 'open' }
     ]
 ];
-const cells = {
+const goalCells = {
     name: 'Name'
+}
+const draftCells = {
+    name: 'Name',
+    user: 'Author',
+    updated_at: 'Last Updated'
 }
 const tableActions = {
     view: true,
@@ -138,8 +143,16 @@ const tableActions = {
             <div class="mt-12">
                 <TableHeader header="Goals" addText="Add goal" :add-route="route('editor.drafts.store', {draftable_type: 'goal', parent_type: 'project', parent_id: project.id})" />
                 <Table class="mt-2">
-                    <TableHead :cells="cells" :actions="true" :order="true" />
-                    <TableBody :cells="cells" :rows="sortedGoals" routeType="editor.goals" :actions="tableActions" :order="true" @down="moveDown($event)" @up="moveUp($event)" />
+                    <TableHead :cells="goalCells" :actions="true" :order="true" />
+                    <TableBody :cells="goalCells" :rows="sortedGoals" routeType="editor.goals" :actions="tableActions" :order="true" @down="moveDown($event)" @up="moveUp($event)" />
+                </Table>
+            </div>
+
+            <div class="mt-12" v-if="project.child_drafts.length">
+                <TableHeader header="Goal Drafts" />
+                <Table class="mt-2">
+                    <TableHead :cells="draftCells" :actions="true" />
+                    <TableBody :cells="draftCells" :rows="project.child_drafts" routeType="editor.drafts" :actions="tableActions" />
                 </Table>
             </div>
         </div>

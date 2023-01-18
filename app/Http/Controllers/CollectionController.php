@@ -52,7 +52,7 @@ class CollectionController extends Controller
     public function show(Collection $collection)
     {
         return inertia('Editor/Content/Collections/Show', [
-            'collection' =>  $collection->load(['projects' => function ($q) {
+            'collection' =>  $collection->load(['childDrafts.user', 'projects' => function ($q) {
                 $q->orderBy('order', 'asc');
             }]),
         ]);

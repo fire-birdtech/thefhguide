@@ -68,8 +68,13 @@ const actions = [
         { name: 'Archive', as: 'emitter', icon: ArchiveBoxIcon, emit: 'open' }
     ]
 ];
-const cells = {
+const projectCells = {
     name: 'Name'
+}
+const draftCells = {
+    name: 'Name',
+    user: 'Author',
+    updated_at: 'Last Updated'
 }
 
 const tableActions = {
@@ -105,13 +110,21 @@ const tableActions = {
             <div class="mt-12">
                 <TableHeader header="Projects" addText="Add project" :add-route="route('editor.drafts.store', {draftable_type: 'project', parent_type: 'collection', parent_id: collection.id})" />
                 <Table class="mt-2">
-                    <TableHead :cells="cells" :actions="true" :order="true" />
-                    <TableBody :cells="cells" :rows="sortedProjects" routeType="editor.projects" :actions="tableActions" :order="true" @down="moveDown($event)" @up="moveUp($event)" />
+                    <TableHead :cells="projectCells" :actions="true" :order="true" />
+                    <TableBody :cells="projectCells" :rows="sortedProjects" routeType="editor.projects" :actions="tableActions" :order="true" @down="moveDown($event)" @up="moveUp($event)" />
+                </Table>
+            </div>
+
+            <div class="mt-12">
+                <TableHeader header="Project Drafts" />
+                <Table class="mt-2">
+                    <TableHead :cells="draftCells" :actions="true" />
+                    <TableBody :cells="draftCells" :rows="collection.child_drafts" routeType="editor.drafts" :actions="tableActions" />
                 </Table>
             </div>
         </div>
 
-        <Teleport to="body">
+        <Teleport to="body" v-if="collection.child_drafts.length">
             <DangerModal :open="open" action-text="Archive" emit-name="delete" @close="close" @delete="destroy">
                 <DialogTitle as="h3" class="text-lg leading-6 font-medium text-gray-900"> Archive collection </DialogTitle>
                 <div class="mt-2">

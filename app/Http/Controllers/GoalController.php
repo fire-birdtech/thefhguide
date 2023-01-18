@@ -53,7 +53,7 @@ class GoalController extends Controller
     public function show(Goal $goal)
     {
         return inertia('Editor/Content/Goals/Show', [
-            'goal' => $goal->load(['project', 'choices.resources', 'choices.goal' => function ($q) {
+            'goal' => $goal->load(['childDrafts.user', 'project', 'choices.resources', 'choices.goal' => function ($q) {
                 $q->orderBy('order', 'asc');
             }]),
         ]);
