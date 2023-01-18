@@ -77,7 +77,7 @@ class User extends Authenticatable
 
     public function scopeUnpublishedAssignments($query)
     {
-        return $this->assignments()->where('status', '!=', AssignmentStatus::PUBLISHED)->with('assignable')->orderBy('updated_at', 'desc');
+        return $this->assignments()->where('status', '!=', AssignmentStatus::COMPLETE)->with('assignable')->orderBy('updated_at', 'desc');
     }
 
     public function editorAssignments(): HasManyThrough
@@ -88,6 +88,6 @@ class User extends Authenticatable
 
     public function scopeUnpublishedEditorAssignments($query)
     {
-        return $this->editorAssignments()->where('status', '!=', AssignmentStatus::PUBLISHED);
+        return $this->editorAssignments()->where('status', '!=', AssignmentStatus::COMPLETE);
     }
 }

@@ -31,7 +31,7 @@ class AssignmentController extends Controller
     {
         return inertia('Admin/Assignments/Index', [
             'assignments' => $request->user()->hasRole('admin')
-                ? Assignment::with(['assignable', 'user'])->where('status', '!=', AssignmentStatus::PUBLISHED)->get()
+                ? Assignment::with(['assignable', 'user'])->where('status', '!=', AssignmentStatus::COMPLETE)->get()
                 : $request->user()->unpublishedEditorAssignments
         ]);
     }
