@@ -6,5 +6,5 @@ enum AssignmentStatus: string
 {
     case WAITING = 'waiting';
     case STARTED = 'started';
-    case PUBLISHED = 'published';
+    case COMPLETE = 'complete';
 }

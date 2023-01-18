@@ -1,13 +1,23 @@
 <script setup>
 import { Head, useForm } from '@inertiajs/inertia-vue3';
+import { Inertia } from '@inertiajs/inertia';
 import AdminLayout from '@/Layouts/Admin.vue';
-import PrimaryButton from '@/Components/Buttons/PrimaryButton.vue';
+import { DocumentCheckIcon } from '@heroicons/vue/24/outline';
+import PrimaryButtonWithDropdown from '@/Components/Buttons/PrimaryButtonWithDropdown.vue';
 import Badge from '@/Components/Badge.vue';
 import Header3 from '@/Components/Headers/Header3.vue';
 
-defineProps({
+const props = defineProps({
     assignment: Object
 });
+
+const options = [
+    { name: 'Mark Complete', icon: DocumentCheckIcon, show: true, action: 'complete' },
+];
+
+const complete = () => {
+    Inertia.put(route('editor.assignments.mark-complete', [props.assignment.id]));
+}
 </script>
 
 <template>
@@ -21,9 +31,12 @@ defineProps({
                         <Header3> Assignment Details </Header3>
                     </div>
                     <div class="ml-4 mt-2 space-x-2">
-                        <PrimaryButton as="link" :href="route(`editor.${assignment.assignable_type.split('\\')[2].toLowerCase()}s.show`, [assignment.assignable.slug])">
-                            Go to {{ assignment.assignable_type.split('\\')[2] }}
-                        </PrimaryButton>
+                        <PrimaryButtonWithDropdown
+                            :href="route(`editor.${assignment.assignable_type.split('\\')[2].toLowerCase()}s.show`, [assignment.assignable.slug])"
+                            :action="`Go to ${assignment.assignable_type.split('\\')[2]}`"
+                            v-if="!assignment.completed_at"
+                            :options="options"
+                            @complete="complete" />
                     </div>
                 </div>
 
@@ -54,6 +67,9 @@ defineProps({
                     </small>
                     <small v-if="assignment.updated_at !== assignment.created_at" class="text-gray-500">
                         Updated: {{ new Date(assignment.updated_at).toLocaleDateString('en-us', { weekday:"long", year:"numeric", month:"short", day:"numeric"}) }}
+                    </small>
+                    <small v-if="assignment.completed_at" class="text-gray-500">
+                        Completed: {{ new Date(assignment.completed_at).toLocaleDateString('en-us', { weekday:"long", year:"numeric", month:"short", day:"numeric"}) }}
                     </small>
                 </div>
             </div>

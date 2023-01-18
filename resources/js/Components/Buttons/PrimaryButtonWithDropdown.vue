@@ -2,19 +2,26 @@
 import { ref } from 'vue';
 import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue';
 import { ChevronDownIcon } from '@heroicons/vue/20/solid';
+import { Link } from '@inertiajs/inertia-vue3';
 
 const props = defineProps({
     action: String,
+    href: String,
     options: Array
 });
 
-defineEmits(['notify','publish','save']);
+defineEmits(['complete','notify','publish','save']);
+
+const buttonClasses = "inline-flex items-center rounded-l-md rounded-r-none bg-blue-600 px-4 py-2 text-sm font-medium text-white hover:bg-blue-700 focus:ring focus:ring-blue-500 focus:ring-opacity-40";
 </script>
 
 <template>
     <Menu as="div" class="relative inline-block text-left">
         <div class="inline-flex divide-x divide-blue-700 rounded-md">
-            <button @click="$emit('save')" class="inline-flex items-center rounded-l-md rounded-r-none bg-blue-600 px-4 py-2 text-sm font-medium text-white hover:bg-blue-700 focus:ring focus:ring-blue-500 focus:ring-opacity-40">
+            <Link v-if="href" :href="href" :class="buttonClasses">
+                {{ action }}
+            </Link>
+            <button v-else @click="$emit('save')" :class="buttonClasses">
                 {{ action }}
             </button>
             <MenuButton class="inline-flex items-center rounded-l-none rounded-r-md bg-blue-600 p-2 text-sm font-medium text-white hover:bg-blue-700 focus:ring focus:ring-blue-500 focus:ring-opacity-40">

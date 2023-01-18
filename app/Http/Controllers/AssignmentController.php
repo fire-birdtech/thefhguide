@@ -7,6 +7,7 @@ use App\Http\Requests\AssignmentUpdateRequest;
 use App\Models\Assignment;
 use App\Models\Goal;
 use App\Models\User;
+use Carbon\Carbon;
 use Illuminate\Http\Request;
 
 class AssignmentController extends Controller
@@ -123,6 +124,22 @@ class AssignmentController extends Controller
         ]);
 
         return redirect()->route('admin.assignments.index');
+    }
+
+    public function markComplete(Assignment $assignment)
+    {
+        $assignment->update([
+            'status' => AssignmentStatus::COMPLETE,
+            'completed_at' => Carbon::now()
+        ]);
+
+        return redirect()->back()
+            ->with('notification', [
+                'actions' => false,
+                'message' => 'Assignment marked as complete',
+                'title' => 'Assignment updated',
+                'type' => 'success'
+            ]);
     }
 
     /**
