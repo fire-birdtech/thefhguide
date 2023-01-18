@@ -2,7 +2,7 @@
 import { computed, ref } from 'vue';
 import { DialogTitle } from '@headlessui/vue';
 import { PencilSquareIcon, UserMinusIcon } from '@heroicons/vue/24/solid';
-import { Head, useForm, usePage } from '@inertiajs/inertia-vue3';
+import { Head, useForm, usePage } from '@inertiajs/vue3';
 import AdminLayout from '@/Layouts/Admin.vue';
 import SecondaryButton from '@/Components/Buttons/SecondaryButton.vue';
 import Badge from '@/Components/Badge.vue';
@@ -28,7 +28,7 @@ const remove = () => {
     form.post(route('admin.editors.remove', props.user.id));
 }
 
-const usersMatch = usePage().props.value.auth.user.id === props.user.id;
+const usersMatch = usePage().props.auth.user.id === props.user.id;
 
 const upperCaseRole = computed(() => props.user.roles[0].name.charAt(0).toUpperCase() + props.user.roles[0].name.slice(1));
 

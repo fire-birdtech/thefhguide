@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from 'vue';
-import { Head, useForm, usePage } from '@inertiajs/inertia-vue3';
+import { Head, useForm, usePage } from '@inertiajs/vue3';
 import AdminLayout from '@/Layouts/Admin.vue';
 import BreezeInput from '@/Components/Input.vue';
 import BreezeInputError from '@/Components/InputError.vue';
@@ -24,7 +24,7 @@ const user = useForm({
 });
 
 const setSelectedAdmin = () => {
-    return props.admins.find(admin => admin.id === usePage().props.value.auth.user.id)
+    return props.admins.find(admin => admin.id === usePage().props.auth.user.id)
         || { name: "Select admin" };
 }
 

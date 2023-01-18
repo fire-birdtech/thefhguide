@@ -1,6 +1,6 @@
 <script setup>
-import { Head, useForm } from '@inertiajs/inertia-vue3';
-import { Inertia } from '@inertiajs/inertia';
+import { Head, useForm } from '@inertiajs/vue3';
+import { router } from '@inertiajs/vue3';
 import AdminLayout from '@/Layouts/Admin.vue';
 import { DocumentCheckIcon } from '@heroicons/vue/24/outline';
 import PrimaryButtonWithDropdown from '@/Components/Buttons/PrimaryButtonWithDropdown.vue';
@@ -16,7 +16,7 @@ const options = [
 ];
 
 const complete = () => {
-    Inertia.put(route('editor.assignments.mark-complete', [props.assignment.id]));
+    router.put(route('editor.assignments.mark-complete', [props.assignment.id]));
 }
 </script>
 

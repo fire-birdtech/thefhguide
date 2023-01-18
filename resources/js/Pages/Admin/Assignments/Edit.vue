@@ -1,6 +1,6 @@
 <script setup>
 import { computed, ref } from 'vue';
-import { Head, useForm } from '@inertiajs/inertia-vue3';
+import { Head, useForm } from '@inertiajs/vue3';
 import AdminLayout from '@/Layouts/Admin.vue';
 import BreezeInput from '@/Components/Input.vue';
 import BreezeInputError from '@/Components/InputError.vue';

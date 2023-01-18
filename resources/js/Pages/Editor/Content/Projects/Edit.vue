@@ -1,7 +1,7 @@
 <script setup>
 import { ref, watch } from 'vue';
 import AdminLayout from '@/Layouts/Admin.vue';
-import { Head, useForm } from '@inertiajs/inertia-vue3';
+import { Head, useForm } from '@inertiajs/vue3';
 import BreezeInput from '@/Components/Input.vue';
 import BreezeInputError from '@/Components/InputError.vue';
 import BreezeLabel from '@/Components/Label.vue';
@@ -10,7 +10,6 @@ import SecondaryButton from '@/Components/Buttons/SecondaryButton.vue';
 import SecondaryButtonSmall from '@/Components/Buttons/SecondaryButtonSmall.vue';
 import { Listbox, ListboxButton, ListboxLabel, ListboxOption, ListboxOptions } from '@headlessui/vue';
 import { CheckIcon, ChevronUpDownIcon } from '@heroicons/vue/24/solid';
-import { Inertia } from '@inertiajs/inertia';
 import Header3 from '@/Components/Headers/Header3.vue';
 
 const props = defineProps({

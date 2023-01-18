@@ -3,8 +3,8 @@ import { computed, ref } from 'vue';
 import { DialogTitle } from '@headlessui/vue';
 import { DocumentPlusIcon, EyeIcon, PencilSquareIcon, TrashIcon } from '@heroicons/vue/24/outline';
 import { ArchiveBoxIcon, PencilSquareIcon as PencilSquareIconSolid, PlusCircleIcon, WindowIcon } from '@heroicons/vue/24/solid';
-import { Inertia } from '@inertiajs/inertia';
-import { Head, Link, useForm } from '@inertiajs/inertia-vue3';
+import { router } from '@inertiajs/vue3';
+import { Head, Link, useForm } from '@inertiajs/vue3';
 import AdminLayout from  '@/Layouts/Admin.vue';
 import DangerModal from '@/Components/Modals/DangerModal.vue';
 import PrimaryButton from '@/Components/Buttons/PrimaryButton.vue';
@@ -31,7 +31,7 @@ const close = () => {
     open.value = false;
 }
 const destroy = () => {
-    Inertia.delete(route('editor.goals.destroy', [props.goal.slug]));
+    router.delete(route('editor.goals.destroy', [props.goal.slug]));
 }
 
 const updateOrder = (updated_choice, sibling_choice) => {

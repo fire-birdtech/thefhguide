@@ -1,6 +1,6 @@
 <script setup>
 import { computed } from 'vue';
-import { Link } from '@inertiajs/inertia-vue3';
+import { Link } from '@inertiajs/vue3';
 import { EyeIcon, PencilSquareIcon } from '@heroicons/vue/24/solid';
 import { ArrowDownIcon, ArrowUpIcon } from '@heroicons/vue/20/solid';
 import Badge from '@/Components/Badge.vue';

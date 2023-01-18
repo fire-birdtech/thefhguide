@@ -2,7 +2,7 @@
 import { provide } from '@vue/runtime-core';
 import AuthenticatedLayout from '@/Layouts/Authenticated.vue';
 import SettingsLayout from '@/Layouts/Settings.vue';
-import { Head } from '@inertiajs/inertia-vue3';
+import { Head } from '@inertiajs/vue3';
 import DeleteAccount from '@/Components/Forms/DeleteAccount.vue';
 
 const props = defineProps(['hasRoles', 'user']);

@@ -1,7 +1,7 @@
 <script setup>
 import { inject, ref } from 'vue';
 import { DialogTitle } from '@headlessui/vue';
-import { Inertia } from '@inertiajs/inertia';
+import { router } from '@inertiajs/vue3';
 import DangerButton from '@/Components/Buttons/DangerButton.vue';
 import DangerModal from '@/Components/Modals/DangerModal.vue';
 import Header3 from '@/Components/Headers/Header3.vue';
@@ -16,7 +16,7 @@ const close = () => {
 }
 
 const submit = () => {
-    Inertia.delete(route('settings.delete-account', [user.id]));
+    router.delete(route('settings.delete-account', [user.id]));
 }
 </script>
 

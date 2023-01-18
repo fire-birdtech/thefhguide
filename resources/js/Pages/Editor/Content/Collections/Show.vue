@@ -2,8 +2,8 @@
 import { computed, ref } from 'vue';
 import { DialogTitle } from '@headlessui/vue';
 import { ArchiveBoxIcon, PencilSquareIcon, PlusCircleIcon } from '@heroicons/vue/24/solid';
-import { Inertia } from '@inertiajs/inertia';
-import { Head, Link, useForm } from '@inertiajs/inertia-vue3';
+import { router } from '@inertiajs/vue3';
+import { Head, Link, useForm } from '@inertiajs/vue3';
 import AdminLayout from '@/Layouts/Admin.vue';
 import DangerModal from '@/Components/Modals/DangerModal.vue';
 import SecondaryButton from '@/Components/Buttons/SecondaryButton.vue';
@@ -28,7 +28,7 @@ const close = () => {
     open.value = false;
 }
 const destroy = () => {
-    Inertia.delete(route('editor.collections.destroy', [props.collection.slug]));
+    router.delete(route('editor.collections.destroy', [props.collection.slug]));
 }
 
 const updateOrder = (updated_project, sibling_project) => {

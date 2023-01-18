@@ -5,15 +5,15 @@ import BreezeDropdown from '@/Components/Dropdown.vue';
 import BreezeDropdownLink from '@/Components/DropdownLink.vue';
 import BreezeNavLink from '@/Components/NavLink.vue';
 import BreezeResponsiveNavLink from '@/Components/ResponsiveNavLink.vue';
-import { Link, usePage } from '@inertiajs/inertia-vue3';
+import { Link, usePage } from '@inertiajs/vue3';
 import VerticalNav from '@/Components/Navigation/Vertical.vue';
 import { ChevronDownIcon } from '@heroicons/vue/24/solid';
 import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue';
 import NotificationDropdown from '@/Components/Dropdowns/NotificationDropdown.vue';
 import Notification from '@/Components/Notifications/Notification.vue';
 
-provide('canManageEditors', usePage().props.value.canManageEditors);
-provide('currentUserRole', usePage().props.value.currentUserRole);
+provide('canManageEditors', usePage().props.canManageEditors);
+provide('currentUserRole', usePage().props.currentUserRole);
 
 defineProps({
     type: {
@@ -22,7 +22,7 @@ defineProps({
     }
 });
 
-const hasUnreadNotifications = ref(usePage().props.value.notifications.filter(n => n.read_at === null));
+const hasUnreadNotifications = ref(usePage().props.notifications.filter(n => n.read_at === null));
 
 const showingNavigationDropdown = ref(false);
 </script>

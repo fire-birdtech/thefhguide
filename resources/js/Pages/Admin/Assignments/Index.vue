@@ -1,5 +1,5 @@
 <script setup>
-import { Head } from '@inertiajs/inertia-vue3';
+import { Head } from '@inertiajs/vue3';
 import AdminLayout from '@/Layouts/Admin.vue';
 import Badge from '@/Components/Badge.vue';
 import TableHeader from '@/Components/Tables/TableHeader.vue';
