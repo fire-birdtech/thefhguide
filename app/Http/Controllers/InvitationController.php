@@ -143,8 +143,6 @@ class InvitationController extends Controller
             $user->assignRole(['admin','editor']);
         } else if ($role === 'editor') {
             $user->assignRole('editor');
-        } else if ($role === 'guest') {
-            $user->assignRole('guest');
         }
     }
 

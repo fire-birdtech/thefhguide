@@ -102,7 +102,7 @@ class AssignmentController extends Controller
         return inertia('Admin/Assignments/Edit', [
             'currentAssignment' => $assignment->load(['assignable','user']),
             'editors' => User::with('roles')->whereHas('roles', function($q) {
-                $q->whereIn('name', ['admin','editor','guest']);
+                $q->whereIn('name', ['admin','editor']);
             })->orderBy('name', 'desc')->get(),
         ]);
     }

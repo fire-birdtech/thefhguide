@@ -42,7 +42,7 @@ class AuthenticatedSessionController extends Controller
             return redirect()->intended(RouteServiceProvider::ADMINHOME);
         }
 
-        if ($request->user()->hasRole(['editor', 'guest']))
+        if ($request->user()->hasRole(['editor']))
         {
             return redirect()->intended(RouteServiceProvider::EDITORHOME);
         }
