@@ -115,7 +115,7 @@ const tableActions = {
                 </Table>
             </div>
 
-            <div class="mt-12">
+            <div v-if="collection.child_drafts.length" class="mt-12">
                 <TableHeader header="Project Drafts" />
                 <Table class="mt-2">
                     <TableHead :cells="draftCells" :actions="true" />
