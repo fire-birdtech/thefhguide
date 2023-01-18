@@ -15,7 +15,8 @@ class DashboardController extends Controller
     public function admin(Request $request)
     {
         return inertia('Admin/Dashboard', [
-            'editors' => $request->user()->editors->load(['roles','unpublishedAssignments','unpublishedDrafts'])
+            'editors' => $request->user()->editors->load(['roles','unpublishedAssignments','unpublishedDrafts']),
+            'drafts' => $request->user()->unpublishedDrafts()->get()
         ]);
     }
 

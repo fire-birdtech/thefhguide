@@ -9,6 +9,7 @@ import TableHead from '@/Components/Tables/TableHead.vue';
 import TableBody from '@/Components/Tables/TableBody.vue';
 import DraftList from '@/Components/Drafts/DraftList.vue';
 import NoAssignments from '@/Components/EmptyStates/EditorDashboard.vue';
+import Header3 from '@/Components/Headers/Header3.vue';
 
 defineProps({
     assignments: Array,
@@ -49,8 +50,8 @@ const tableActions = {
             </div>
 
             <div v-if="drafts.length" class="mt-6">
-                <h3 class="leading-6 font-medium text-gray-900"> Drafts </h3>
-                <div class="mt-2">
+                <Header3> My Drafts </Header3>
+                <div class="mt-4">
                     <DraftList :drafts="drafts" />
                 </div>
             </div>
