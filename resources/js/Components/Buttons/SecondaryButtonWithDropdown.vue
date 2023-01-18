@@ -24,7 +24,11 @@ defineEmits(['open']);
             <MenuItems class="absolute right-0 z-10 mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
                 <div v-for="action in actions" :key="action" v-show="!action[0]?.disabled" class="py-1">
                     <MenuItem v-for="item in action" :key="item" v-slot="{ active }">
-                        <Link v-if="item.as === 'link'" :href="item.href" :class="[active ? 'bg-gray-100 text-gray-900' : 'text-gray-700', 'group flex items-center px-4 py-2 text-sm']">
+                        <a v-if="item.target" :href="item.href" target="_blank" :class="[active ? 'bg-gray-100 text-gray-900' : 'text-gray-700', 'group flex items-center px-4 py-2 text-sm']">
+                            <component :is="item.icon" class="mr-3 h-5 w-5 text-gray-400 group-hover:text-gray-500" aria-hidden="true" />
+                            {{ item.name }}
+                        </a>
+                        <Link v-else-if="item.as === 'link'" :href="item.href" :class="[active ? 'bg-gray-100 text-gray-900' : 'text-gray-700', 'group flex items-center px-4 py-2 text-sm']">
                             <component :is="item.icon" class="mr-3 h-5 w-5 text-gray-400 group-hover:text-gray-500" aria-hidden="true" />
                             {{ item.name }}
                         </Link>

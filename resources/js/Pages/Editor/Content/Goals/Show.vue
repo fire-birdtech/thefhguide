@@ -67,7 +67,7 @@ const actions = [
     [
         { name: 'Edit', as: 'link', icon: PencilSquareIconSolid, href: route('editor.goals.edit', [props.goal.slug]) },
         { name: 'Add Assignment', as: 'link', icon: PlusCircleIcon, href: `${route('admin.assignments.create')}?assignable_id=${props.goal.id}&assignable_type=goal` },
-        { name: 'Preview Goal', as: 'link', icon: WindowIcon, href: route('editor.goals.preview', [props.goal.slug]) }
+        { name: 'Preview Goal', as: 'link', icon: WindowIcon, href: route('editor.goals.preview', [props.goal.slug]), target: '_blank' }
     ],
     [
         { name: 'Archive', as: 'emitter', icon: ArchiveBoxIcon, emit: 'open' }
