@@ -58,6 +58,7 @@ class InvitationTest extends TestCase
             'role' => $invitation->role,
             'password' => 'password',
             'password_confirmation' => 'password',
+            'admin_id' => $this->admin->id
         ]);
 
         $this->assertAuthenticated();
@@ -92,6 +93,7 @@ class InvitationTest extends TestCase
             'email' => $user->email,
             'id' => $invitation->id,
             'role' => $invitation->role,
+            'admin_id' => $this->admin->id
         ]);
 
         $this->assertAuthenticated();
