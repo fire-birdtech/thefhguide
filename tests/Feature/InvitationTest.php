@@ -16,11 +16,16 @@ class InvitationTest extends TestCase
 {
     use RefreshDatabase, WithFaker;
 
+    private $admin;
+
     public function setUp(): void
     {
         parent::setUp();
 
         $this->seed(RolesAndPermissionsSeeder::class);
+
+        $this->admin = User::factory()->create();
+        $this->admin->assignRole('admin');
 
         Mail::fake();
     }
@@ -38,7 +43,8 @@ class InvitationTest extends TestCase
         $invitation = Invitation::create([
             'email' => $email,
             'name' =>  $name,
-            'role' => 'editor'
+            'role' => 'editor',
+            'admin_id' => $this->admin->id
         ]);
 
         Mail::to($invitation->email)->send(new AdminInvitation($invitation));
@@ -75,6 +81,7 @@ class InvitationTest extends TestCase
             'email' => $user->email,
             'name' => $user->name,
             'role' => 'editor',
+            'admin_id' => $this->admin->id
         ]);
 
         Mail::to($invitation->email)->send(new AdminInvitation($invitation));
