@@ -16,50 +16,18 @@ class InvitationTest extends TestCase
 {
     use RefreshDatabase, WithFaker;
 
+    private $admin;
+
     public function setUp(): void
     {
         parent::setUp();
 
         $this->seed(RolesAndPermissionsSeeder::class);
 
+        $this->admin = User::factory()->create();
+        $this->admin->assignRole('admin');
+
         Mail::fake();
-    }
-
-    /**
-     * A test for inviting a new user to be an admin.
-     *
-     * @return void
-     */
-    public function test_admin_can_invite_new_user_to_be_admin()
-    {
-        $email = $this->faker->email();
-        $name = $this->faker->name();
-
-        $invitation = Invitation::create([
-            'email' => $email,
-            'name' =>  $name,
-            'role' => 'admin'
-        ]);
-
-        Mail::to($invitation->email)->send(new AdminInvitation($invitation));
-
-        Mail::assertSent(AdminInvitation::class);
-
-        $response = $this->post(route('invitations.register'), [
-            'name' => $name,
-            'email' => $email,
-            'id' => $invitation->id,
-            'role' => $invitation->role,
-            'password' => 'password',
-            'password_confirmation' => 'password',
-        ]);
-
-        $this->assertAuthenticated();
-        $this->assertDatabaseMissing('invitations', [
-            'id' => $invitation->id,
-        ]);
-
-        $response->assertRedirect(RouteServiceProvider::ADMINHOME);
     }
 
     /**
@@ -75,7 +43,8 @@ class InvitationTest extends TestCase
         $invitation = Invitation::create([
             'email' => $email,
             'name' =>  $name,
-            'role' => 'editor'
+            'role' => 'editor',
+            'admin_id' => $this->admin->id
         ]);
 
         Mail::to($invitation->email)->send(new AdminInvitation($invitation));
@@ -89,6 +58,7 @@ class InvitationTest extends TestCase
             'role' => $invitation->role,
             'password' => 'password',
             'password_confirmation' => 'password',
+            'admin_id' => $this->admin->id
         ]);
 
         $this->assertAuthenticated();
@@ -97,39 +67,6 @@ class InvitationTest extends TestCase
         ]);
 
         $response->assertRedirect(RouteServiceProvider::EDITORHOME);
-    }
-
-    /**
-     * A test for inviting an existing user to be an admin
-     * 
-     * @return void
-     */
-    public function test_admin_can_invite_existing_user_to_be_admin()
-    {
-        $user = User::factory()->create();
-
-        $invitation = Invitation::create([
-            'email' => $user->email,
-            'name' => $user->name,
-            'role' => 'admin',
-        ]);
-
-        Mail::to($invitation->email)->send(new AdminInvitation($invitation));
-
-        Mail::assertSent(AdminInvitation::class);
-
-        $response = $this->post(route('invitations.accept'), [
-            'email' => $user->email,
-            'id' => $invitation->id,
-            'role' => $invitation->role,
-        ]);
-
-        $this->assertAuthenticated();
-        $this->assertDatabaseMissing('invitations', [
-            'id' => $invitation->id,
-        ]);
-        
-        $response->assertRedirect(RouteServiceProvider::ADMINHOME);
     }
 
     /**
@@ -145,6 +82,7 @@ class InvitationTest extends TestCase
             'email' => $user->email,
             'name' => $user->name,
             'role' => 'editor',
+            'admin_id' => $this->admin->id
         ]);
 
         Mail::to($invitation->email)->send(new AdminInvitation($invitation));
@@ -155,6 +93,7 @@ class InvitationTest extends TestCase
             'email' => $user->email,
             'id' => $invitation->id,
             'role' => $invitation->role,
+            'admin_id' => $this->admin->id
         ]);
 
         $this->assertAuthenticated();

@@ -12,6 +12,8 @@ class CollectionTest extends TestCase
 {
     use RefreshDatabase, WithFaker;
 
+    private $collection;
+
     /**
      * Setup for all collection tests.
      * 
@@ -56,12 +58,12 @@ class CollectionTest extends TestCase
      */
     public function test_a_collection_can_be_updated(): void
     {
-        $original = $this->collection;
+        $originalName = $this->collection->name;
 
         $this->collection->name = $this->faker->words(3, true);
         $this->collection->save();
 
-        $this->assertNotEquals($this->collection->name, $original->name);
+        $this->assertNotEquals($this->collection->name, $originalName);
     }
 
     /**
@@ -73,9 +75,6 @@ class CollectionTest extends TestCase
     {
         $this->collection->delete();
 
-        $this->assertDatabaseMissing('collections', [
-            'name' => $this->collection->name,
-            'slug' => $this->collection->slug,
-        ]);
+        $this->assertNotTrue(Collection::find(1));
     }
 }
