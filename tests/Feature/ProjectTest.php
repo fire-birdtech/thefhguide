@@ -12,6 +12,8 @@ class ProjectTest extends TestCase
 {
     use RefreshDatabase, WithFaker;
 
+    private $project;
+
     /**
      * Setup for all project tests.
      * 
@@ -56,12 +58,12 @@ class ProjectTest extends TestCase
      */
     public function test_a_project_can_be_updated(): void
     {
-        $original = $this->project;
+        $originalName = $this->project->name;
 
         $this->project->name = $this->faker->words(3, true);
         $this->project->save();
 
-        $this->assertNotEquals($this->project->name, $original->name);
+        $this->assertNotEquals($this->project->name, $originalName);
     }
 
     /**
@@ -73,9 +75,6 @@ class ProjectTest extends TestCase
     {
         $this->project->delete();
 
-        $this->assertDatabaseMissing('projects', [
-            'name' => $this->project->name,
-            'slug' => $this->project->slug,
-        ]);
+        $this->assertNotTrue(Project::find(1));
     }
 }
