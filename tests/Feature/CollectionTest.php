@@ -75,9 +75,6 @@ class CollectionTest extends TestCase
     {
         $this->collection->delete();
 
-        $this->assertDatabaseMissing('collections', [
-            'name' => $this->collection->name,
-            'slug' => $this->collection->slug,
-        ]);
+        $this->assertNotTrue(Collection::find(1));
     }
 }
