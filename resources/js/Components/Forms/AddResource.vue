@@ -20,7 +20,7 @@ const submit = () => {
         preserveScroll: true,
         preserveState: true,
         onFinish: () => {
-            emits('hide');
+            emits('hide', resource);
         }
     });
 }

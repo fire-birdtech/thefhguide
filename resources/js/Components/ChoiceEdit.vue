@@ -27,9 +27,14 @@ const submit = () => {
     choice.put(route('editor.choices.update', [choice.id]), {
         preserveState: true,
         onFinish: () => {
-            emits('close');
+            emits('close', choice);
         }
     });
+}
+
+const addResource = (event) => {
+    choice.resources.push(event);
+    show.value = false;
 }
 </script>
 
@@ -65,7 +70,7 @@ const submit = () => {
                             <ResourceListItem v-for="resource in choice.resources" :key="resource.id" :resource="resource" />
                         </ResourceListWrapper>
                     </div>
-                    <AddResource v-if="show" @hide="show = false" :choice-id="choice.id" />
+                    <AddResource v-if="show" @hide="addResource($event)" :choice-id="choice.id" />
                     <SecondaryButton @click.prevent="show = true" v-else>Add a resource</SecondaryButton>
                 </div>
             </div>
