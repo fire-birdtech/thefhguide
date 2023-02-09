@@ -19,7 +19,7 @@ class AssignmentController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('can:view assignments')->only(['index','show']);
+        $this->middleware('can:view assignments')->only(['index', 'show']);
         $this->middleware('can:create assignments')->only(['create', 'store', 'edit']);
     }
 
@@ -33,7 +33,7 @@ class AssignmentController extends Controller
         return inertia('Admin/Assignments/Index', [
             'assignments' => $request->user()->hasRole('admin')
                 ? Assignment::with(['assignable', 'user'])->where('status', '!=', AssignmentStatus::COMPLETE)->get()
-                : $request->user()->unpublishedEditorAssignments
+                : $request->user()->unpublishedEditorAssignments,
         ]);
     }
 
@@ -48,18 +48,18 @@ class AssignmentController extends Controller
             return redirect()->back()
                 ->with('notification', [
                     'actions' => [
-                        'view' => [ 'href' => route('editor.assignments.show', [$assignment->id])]
+                        'view' => ['href' => route('editor.assignments.show', [$assignment->id])],
                     ],
                     'message' => 'An assignment already exists for this content',
                     'title' => 'Assignment error',
-                    'type' => 'error'
+                    'type' => 'error',
                 ]);
         }
 
         return inertia('Admin/Assignments/Create', [
             'editors' => $request->user()->editors,
             'assignable' => $this->getAssignable($request->assignable_type, $request->assignable_id),
-            'assignableType' => $request->assignable_type
+            'assignableType' => $request->assignable_type,
         ]);
     }
 
@@ -73,7 +73,7 @@ class AssignmentController extends Controller
     {
         $assignable = $this->getAssignable($request->assignable_type, $request->assignable_id);
         $assignable->assignment()->save(new Assignment([
-            'user_id' => $request->user
+            'user_id' => $request->user,
         ]));
 
         return redirect()->route("editor.{$request->assignable_type}s.show", ["{$assignable->slug}"]);
@@ -88,7 +88,7 @@ class AssignmentController extends Controller
     public function show(Assignment $assignment)
     {
         return inertia('Editor/Assignments/Show', [
-            'assignment' => $assignment->load(['assignable', 'user'])
+            'assignment' => $assignment->load(['assignable', 'user']),
         ]);
     }
 
@@ -101,9 +101,9 @@ class AssignmentController extends Controller
     public function edit(Assignment $assignment)
     {
         return inertia('Admin/Assignments/Edit', [
-            'currentAssignment' => $assignment->load(['assignable','user']),
-            'editors' => User::with('roles')->whereHas('roles', function($q) {
-                $q->whereIn('name', ['admin','editor']);
+            'currentAssignment' => $assignment->load(['assignable', 'user']),
+            'editors' => User::with('roles')->whereHas('roles', function ($q) {
+                $q->whereIn('name', ['admin', 'editor']);
             })->orderBy('name', 'desc')->get(),
         ]);
     }
@@ -120,7 +120,7 @@ class AssignmentController extends Controller
         $assignment->update([
             'summary' => $request['summary'],
             'details' => $request['details'],
-            'user_id' => $request['user_id']
+            'user_id' => $request['user_id'],
         ]);
 
         return redirect()->route('admin.assignments.index');
@@ -130,7 +130,7 @@ class AssignmentController extends Controller
     {
         $assignment->update([
             'status' => AssignmentStatus::COMPLETE,
-            'completed_at' => Carbon::now()
+            'completed_at' => Carbon::now(),
         ]);
 
         return redirect()->back()
@@ -138,7 +138,7 @@ class AssignmentController extends Controller
                 'actions' => false,
                 'message' => 'Assignment marked as complete',
                 'title' => 'Assignment updated',
-                'type' => 'success'
+                'type' => 'success',
             ]);
     }
 

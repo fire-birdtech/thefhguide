@@ -52,7 +52,7 @@ class CollectionController extends Controller
     public function show(Collection $collection)
     {
         return inertia('Editor/Content/Collections/Show', [
-            'collection' =>  $collection->load(['childDrafts.user', 'projects' => function ($q) {
+            'collection' => $collection->load(['childDrafts.user', 'projects' => function ($q) {
                 $q->orderBy('order', 'asc');
             }]),
         ]);
@@ -72,10 +72,10 @@ class CollectionController extends Controller
                     'actions' => false,
                     'message' => 'This collection is not available for editing at this time',
                     'title' => 'Access error',
-                    'type' => 'error'
+                    'type' => 'error',
                 ]);
         }
-        
+
         return inertia('Editor/Content/Collections/Edit', [
             'collection' => $collection,
         ]);

@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use App\Models\Collection;
 use App\Models\Project;
-use Illuminate\Http\Request;
 
 class ContentController extends Controller
 {
@@ -17,7 +16,7 @@ class ContentController extends Controller
     {
         return inertia('Editor/Content/Index', [
             'collections' => Collection::all(),
-            'projects' => Project::orderBy('updated_at', 'desc')->with('collection')->limit(12)->get()
+            'projects' => Project::orderBy('updated_at', 'desc')->with('collection')->limit(12)->get(),
         ]);
     }
 }

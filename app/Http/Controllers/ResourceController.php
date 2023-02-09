@@ -5,7 +5,6 @@ namespace App\Http\Controllers;
 use App\Http\Requests\ResourceStoreRequest;
 use App\Http\Requests\ResourceUpdateRequest;
 use App\Models\Resource;
-use Illuminate\Http\Request;
 
 class ResourceController extends Controller
 {
@@ -44,7 +43,7 @@ class ResourceController extends Controller
                 'actions' => false,
                 'message' => 'A new resource has been created',
                 'title' => 'Resource saved successfully',
-                'type' => 'success'
+                'type' => 'success',
             ]);
     }
 
@@ -81,7 +80,7 @@ class ResourceController extends Controller
     {
         $resource->update([
             'name' => $request['name'],
-            'url' => $request['url']
+            'url' => $request['url'],
         ]);
 
         return redirect()->back()
@@ -89,7 +88,7 @@ class ResourceController extends Controller
                 'actions' => false,
                 'message' => 'A resource has been updated',
                 'title' => 'Resource updated successfully',
-                'type' => 'success'
+                'type' => 'success',
             ]);
     }
 

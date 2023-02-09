@@ -2,17 +2,14 @@
 
 namespace App\Http\Controllers;
 
-use App\Enums\AssignmentStatus;
 use App\Http\Requests\CreateDraftRequest;
 use App\Http\Requests\DraftPublishRequest;
 use App\Http\Requests\DraftSaveRequest;
-use App\Models\Assignment;
 use App\Models\Choice;
 use App\Models\Collection;
 use App\Models\Draft;
 use App\Models\Goal;
 use App\Models\Project;
-use App\Models\User;
 use App\Notifications\DraftReady;
 use Illuminate\Http\Request;
 use stdClass;
@@ -49,7 +46,7 @@ class DraftController extends Controller
     {
         $draft = Draft::create([
             'draftable_type' => $request['draftable_type'],
-            'user_id' => $request->user()->id
+            'user_id' => $request->user()->id,
         ]);
 
         $parent = $this->getParentable($request['parent_type'], $request['parent_id']);
@@ -70,7 +67,7 @@ class DraftController extends Controller
     public function show(Draft $draft)
     {
         return inertia('Editor/Drafts/Show', [
-            'draft' => $draft
+            'draft' => $draft,
         ]);
     }
 
@@ -84,7 +81,7 @@ class DraftController extends Controller
     {
         return inertia('Editor/Drafts/Edit', [
             'draft' => $draft,
-            'userCanPublish' => $request->user()->can('publish content')
+            'userCanPublish' => $request->user()->can('publish content'),
         ]);
     }
 
@@ -98,38 +95,38 @@ class DraftController extends Controller
     public function update(DraftSaveRequest $request, Draft $draft)
     {
         $this->updateDraft($request, $draft);
-        
+
         return redirect()->route('editor.drafts.show', [$draft->id])
             ->with('notification', [
                 'actions' => false,
                 'message' => 'Your draft has been updated',
                 'title' => 'Updated successfully',
-                'type' => 'success'
+                'type' => 'success',
             ]);
     }
 
     /**
      * Publish the specified draft to its draftable model
-     * 
-     * @param \Illuminate\Http\Request  $request
-     * @param \App\Models\Draft  $draft
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @param  \App\Models\Draft  $draft
      */
     public function publish(DraftPublishRequest $request, Draft $draft)
     {
         $this->updateDraft($request, $draft);
 
         $content = new stdClass();
-        
+
         if ($draft->draftable_type === 'collection') {
             $content = Collection::create([
-                'name' => $request['name']
+                'name' => $request['name'],
             ]);
         }
 
         if ($draft->draftable_type === 'project') {
             $content = Project::create([
                 'name' => $request['name'],
-                'collection_id' => $draft->parentable_id
+                'collection_id' => $draft->parentable_id,
             ]);
         }
 
@@ -137,7 +134,7 @@ class DraftController extends Controller
             $content = Goal::create([
                 'name' => $request['name'],
                 'summary' => $request['summary'],
-                'project_id' => $draft->parentable_id
+                'project_id' => $draft->parentable_id,
             ]);
         }
 
@@ -148,39 +145,39 @@ class DraftController extends Controller
                 'instructions' => $request['instructions'],
                 'review' => $request['review'],
                 'exercises' => $request['exercises'],
-                'goal_id' => $draft->parentable_id
+                'goal_id' => $draft->parentable_id,
             ]);
         }
 
-        $draft->update([ 'publish_date' => now() ]);
+        $draft->update(['publish_date' => now()]);
 
         if ($request->user()->hasRole('admin')) {
             return redirect()->route('admin.dashboard')
                 ->with('notification', [
                     'actions' => [
-                        'view' => [ 'href' => route("editor.{$draft->draftable_type}s.show", [$content->slug]) ] 
+                        'view' => ['href' => route("editor.{$draft->draftable_type}s.show", [$content->slug])],
                     ],
                     'message' => 'Your draft has been published',
                     'title' => 'Published successfully',
-                    'type' => 'success'
+                    'type' => 'success',
                 ]);
         }
 
         return redirect()->route('editor.dashboard')
             ->with('notification', [
                 'actions' => [
-                    'view' => [ 'href' => route("editor.{$draft->draftable_type}s.show", [$content->slug]) ] 
+                    'view' => ['href' => route("editor.{$draft->draftable_type}s.show", [$content->slug])],
                 ],
                 'message' => 'Your draft has been published',
                 'title' => 'Published successfully',
-                'type' => 'success'
+                'type' => 'success',
             ]);
     }
 
     public function notify(Request $request, Draft $draft)
     {
         $this->updateDraft($request, $draft);
-        
+
         $request->user()->admin->notify(new DraftReady($draft));
 
         return redirect()->route('editor.dashboard');
@@ -211,7 +208,8 @@ class DraftController extends Controller
         }
     }
 
-    public function updateDraft($request, Draft $draft) {
+    public function updateDraft($request, Draft $draft)
+    {
         $draft->update([
             'name' => $request['name'],
             'summary' => $request['summary'],

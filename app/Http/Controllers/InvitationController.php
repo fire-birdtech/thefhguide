@@ -56,8 +56,7 @@ class InvitationController extends Controller
     public function accept(Request $request)
     {
         $invitation = Invitation::find($request->invitation);
-        if (!$request->hasValidSignature() || !$invitation)
-        {
+        if (! $request->hasValidSignature() || ! $invitation) {
             return redirect()->route('expired');
         }
 
@@ -100,7 +99,7 @@ class InvitationController extends Controller
     public function process(Request $request)
     {
         $user = User::where('email', $request->email)->first();
-        
+
         $this->assignRoles($user, $request->role);
 
         $admin = User::find($request['admin_id']);
@@ -108,7 +107,7 @@ class InvitationController extends Controller
 
         $this->notifyAdmins($request->id, $user);
 
-        if (!Auth::check()) {
+        if (! Auth::check()) {
             Auth::login($user);
         }
 
@@ -123,8 +122,8 @@ class InvitationController extends Controller
 
     /**
      * Send an email to invite a new admin
-     * 
-     * @param \App\Models\Invitation $invitation
+     *
+     * @param  \App\Models\Invitation  $invitation
      */
     public function sendInvitationEmail(Invitation $invitation)
     {
@@ -133,24 +132,24 @@ class InvitationController extends Controller
 
     /**
      * Assign appropriate role(s) to user
-     * 
-     * @param User $user
-     * @param string $role
+     *
+     * @param  User  $user
+     * @param  string  $role
      */
     public function assignRoles(User $user, $role)
     {
         if ($role === 'admin') {
-            $user->assignRole(['admin','editor']);
-        } else if ($role === 'editor') {
+            $user->assignRole(['admin', 'editor']);
+        } elseif ($role === 'editor') {
             $user->assignRole('editor');
         }
     }
 
     /**
      * Notify admins when a new editor accepts their invitation
-     * 
-     * @param int $invitationId
-     * @param User $user
+     *
+     * @param  int  $invitationId
+     * @param  User  $user
      * @return void
      */
     public function notifyAdmins(int $invitationId, User $user): void

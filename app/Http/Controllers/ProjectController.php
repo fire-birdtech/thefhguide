@@ -30,6 +30,7 @@ class ProjectController extends Controller
     public function create(Request $request)
     {
         $collections = Collection::orderBy('name', 'asc')->get();
+
         return inertia('Editor/Content/Projects/Create', [
             'collection' => $request->collection,
         ]);
@@ -77,11 +78,12 @@ class ProjectController extends Controller
                     'actions' => false,
                     'message' => 'This project is not available for editing at this time',
                     'title' => 'Access error',
-                    'type' => 'error'
+                    'type' => 'error',
                 ]);
         }
 
         $collections = Collection::orderBy('name', 'asc')->get();
+
         return inertia('Editor/Content/Projects/Edit', [
             'collections' => $collections,
             'project' => $project->load('collection'),
@@ -109,19 +111,19 @@ class ProjectController extends Controller
 
     /**
      * Update the order of projects
-     * 
-     * @param UpdateProjectOrderRequest $request
-     * @param Project $project
+     *
+     * @param  UpdateProjectOrderRequest  $request
+     * @param  Project  $project
      * @return Response
      */
     public function updateProjectOrder(UpdateProjectOrderRequest $request, Project $project)
     {
         $project->update([
-            'order' => $request['updated_project']['order']
+            'order' => $request['updated_project']['order'],
         ]);
 
         Project::find($request['sibling_project']['id'])->update([
-            'order' => $request['sibling_project']['order']
+            'order' => $request['sibling_project']['order'],
         ]);
 
         return back();

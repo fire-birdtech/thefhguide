@@ -28,7 +28,7 @@ class ChoiceController extends Controller
     public function create(Request $request)
     {
         return inertia('Editor/Content/Choices/Create', [
-            'goal' =>  $request->goal,
+            'goal' => $request->goal,
         ]);
     }
 
@@ -95,25 +95,25 @@ class ChoiceController extends Controller
                 'actions' => false,
                 'message' => 'Updates have been saved',
                 'title' => 'Choice saved successfully',
-                'type' => 'success'
+                'type' => 'success',
             ]);
     }
 
     /**
      * Update the order of choices
-     * 
-     * @param UpdateChoiceOrderRequest $request
-     * @param Choice $choice
+     *
+     * @param  UpdateChoiceOrderRequest  $request
+     * @param  Choice  $choice
      * @return Response
      */
     public function updateChoiceOrder(UpdateChoiceOrderRequest $request, Choice $choice)
     {
         $choice->update([
-            'order' => $request['updated_choice']['order']
+            'order' => $request['updated_choice']['order'],
         ]);
 
         Choice::find($request['sibling_choice']['id'])->update([
-            'order' => $request['sibling_choice']['order']
+            'order' => $request['sibling_choice']['order'],
         ]);
 
         return back();

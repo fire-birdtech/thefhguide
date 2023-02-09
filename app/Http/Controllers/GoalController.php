@@ -61,8 +61,8 @@ class GoalController extends Controller
 
     /**
      * Preview the specified resource
-     * 
-     * @param \App\Models\Goal $goal
+     *
+     * @param  \App\Models\Goal  $goal
      * @return \Illuminate\Http\Response
      */
     public function preview(Goal $goal)
@@ -88,7 +88,7 @@ class GoalController extends Controller
                     'actions' => false,
                     'message' => 'This goal is not available for editing at this time',
                     'title' => 'Access error',
-                    'type' => 'error'
+                    'type' => 'error',
                 ]);
         }
 
@@ -116,19 +116,19 @@ class GoalController extends Controller
 
     /**
      * Update the order of goals
-     * 
-     * @param UpdateGoalOrderRequest $request
-     * @param Goal $goal
+     *
+     * @param  UpdateGoalOrderRequest  $request
+     * @param  Goal  $goal
      * @return Response
      */
     public function updateGoalOrder(UpdateGoalOrderRequest $request, Goal $goal)
     {
         $goal->update([
-            'order' => $request['updated_goal']['order']
+            'order' => $request['updated_goal']['order'],
         ]);
 
         Goal::find($request['sibling_goal']['id'])->update([
-            'order' => $request['sibling_goal']['order']
+            'order' => $request['sibling_goal']['order'],
         ]);
 
         return back();
