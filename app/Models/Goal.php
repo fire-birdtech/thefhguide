@@ -59,7 +59,7 @@ class Goal extends Model
      * @var array<string, string>
      */
     protected $casts = [
-        'locked' => 'boolean'
+        'locked' => 'boolean',
     ];
 
     public function project(): BelongsTo
@@ -69,7 +69,7 @@ class Goal extends Model
 
     /**
      * The method to retrieve the choices that belong to the model
-     * 
+     *
      * @return \Illuminate\Database\Eloquent\Relations\HasMany
      */
     public function choices(): HasMany

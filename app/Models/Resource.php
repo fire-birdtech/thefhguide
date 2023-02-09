@@ -13,7 +13,7 @@ class Resource extends Model
     protected $fillable = [
         'name',
         'url',
-        'choice_id'
+        'choice_id',
     ];
 
     public function choice(): BelongsTo

@@ -25,7 +25,7 @@ class Collection extends Model
      * @var array<string, string>
      */
     protected $casts = [
-        'locked' => 'boolean'
+        'locked' => 'boolean',
     ];
 
     /**

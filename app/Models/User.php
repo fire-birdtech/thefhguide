@@ -3,7 +3,6 @@
 namespace App\Models;
 
 use App\Enums\AssignmentStatus;
-use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
@@ -83,7 +82,7 @@ class User extends Authenticatable
     public function editorAssignments(): HasManyThrough
     {
         return $this->hasManyThrough(Assignment::class, User::class, 'admin_id', 'user_id')
-                    ->with(['assignable','user']);
+                    ->with(['assignable', 'user']);
     }
 
     public function scopeUnpublishedEditorAssignments($query)

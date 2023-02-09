@@ -35,12 +35,12 @@ class Choice extends Model
      * @var array<string, string>
      */
     protected $casts = [
-        'locked' => 'boolean'
+        'locked' => 'boolean',
     ];
 
     /**
      * The method for retrieving the goal which the model belongs to
-     * 
+     *
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
      */
     public function goal(): BelongsTo
