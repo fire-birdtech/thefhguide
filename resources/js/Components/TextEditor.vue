@@ -2,7 +2,7 @@
 import { useEditor, EditorContent } from '@tiptap/vue-3';
 import Link from '@tiptap/extension-link';
 import StarterKit from '@tiptap/starter-kit';
-import { unref } from 'vue';
+import { provide, unref } from 'vue';
 import EditorButton from '@/Components/EditorButton.vue';
 import BulletList from '@tiptap/extension-bullet-list';
 
@@ -11,7 +11,10 @@ const props = defineProps({
         type: String,
         default: "",
     },
+    activeColor: String
 });
+
+provide('activeColor', props.activeColor);
 
 const emit = defineEmits(['update:modelValue']);
 
@@ -28,7 +31,7 @@ const editor = useEditor({
     },
     editorProps: {
         attributes: {
-            class: 'prose prose-sm max-w-3xl mx-auto prose-a:text-blue-500 text-sm px-3 py-6 min-h-44 border-gray-300 rounded-bl-md rounded-br-md overflow-auto focus:outline-none',
+            class: 'prose prose-sm prose-a:text-blue-500 text-sm p-4 min-h-32 border-gray-300 overflow-auto focus:outline-none',
         },
     },
 });
@@ -51,7 +54,7 @@ const setLink = () => {
 </script>
 
 <template>
-    <div class="border border-gray-300 divide-y divide-gray-300 rounded-md">
+    <div class="divide-y divide-gray-300 rounded-md">
         <div class="p-2 space-x-1" v-if="editor">
             <EditorButton @click="editor.chain().focus().toggleBold().run()" :active="editor.isActive('bold')">
                 bold

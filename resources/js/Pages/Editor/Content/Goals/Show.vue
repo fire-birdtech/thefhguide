@@ -3,8 +3,7 @@ import { computed, ref } from 'vue';
 import { DialogTitle } from '@headlessui/vue';
 import { DocumentPlusIcon, EyeIcon, PencilSquareIcon, TrashIcon } from '@heroicons/vue/24/outline';
 import { ArchiveBoxIcon, PencilSquareIcon as PencilSquareIconSolid, PlusCircleIcon, WindowIcon } from '@heroicons/vue/24/solid';
-import { router } from '@inertiajs/vue3';
-import { Head, Link, useForm } from '@inertiajs/vue3';
+import { Head, Link, router, useForm } from '@inertiajs/vue3';
 import AdminLayout from  '@/Layouts/Admin.vue';
 import DangerModal from '@/Components/Modals/DangerModal.vue';
 import PrimaryButton from '@/Components/Buttons/PrimaryButton.vue';
@@ -32,6 +31,9 @@ const close = () => {
 }
 const destroy = () => {
     router.delete(route('editor.goals.destroy', [props.goal.slug]));
+}
+const reload = () => {
+    router.reload({ only: ['goal.choices'] });
 }
 
 const updateOrder = (updated_choice, sibling_choice) => {
@@ -124,7 +126,7 @@ const tableActions = {
                     <TableHeader header="Choices" addText="Add choice" :addLink="`${route(`editor.choices.create`)}?goal=${goal.id}`" />
 
                     <StackedListWrapper class="mt-3">
-                        <ExpandableStackedListItem v-for="choice in sortedChoices" :key="choice.id" :item="choice" />
+                        <ExpandableStackedListItem v-for="choice in sortedChoices" :key="choice.id" :item="choice" @reload="reload" />
                     </StackedListWrapper>
                 </div>
 

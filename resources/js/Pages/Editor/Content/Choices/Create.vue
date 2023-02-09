@@ -4,10 +4,21 @@ import { Head, useForm } from '@inertiajs/vue3';
 import BreezeInput from '@/Components/Input.vue';
 import BreezeInputError from '@/Components/InputError.vue';
 import BreezeLabel from '@/Components/Label.vue';
-import TextEditor from '@/Components/TextEditor.vue';
 import PrimaryButton from '@/Components/Buttons/PrimaryButton.vue';
 import SecondaryButton from '@/Components/Buttons/SecondaryButton.vue';
 import Header3 from '@/Components/Headers/Header3.vue';
+import Summary from '@/Components/Forms/Choices/Summary.vue';
+import AddSummaryButton from '@/Components/Buttons/Choices/AddSummaryButton.vue';
+import TextBlock from '@/Components/Forms/Choices/TextBlock.vue';
+import AddTextBlockButton from '@/Components/Buttons/Choices/AddTextBlockButton.vue';
+import Images from '@/Components/Forms/Choices/Images.vue';
+import AddImagesButton from '@/Components/Buttons/Choices/AddImagesButton.vue';
+import ResourceList from '@/Components/Forms/Choices/ResourceList.vue';
+import AddResourceListButton from '@/Components/Buttons/Choices/AddResourceListButton.vue';
+import Header from '@/Components/Forms/Choices/Header.vue';
+import AddHeaderButton from '@/Components/Buttons/Choices/AddHeaderButton.vue';
+import Exercises from '@/Components/Forms/Choices/Exercises.vue';
+import AddExercisesButton from '@/Components/Buttons/Choices/AddExercisesButton.vue';
 
 const props = defineProps({
     goal: String,
@@ -16,11 +27,12 @@ const props = defineProps({
 const choice = useForm({
     name: '',
     goal_id: props.goal,
-    summary: '',
-    instructions: '',
-    resources: '',
-    review: '',
-    exercises: '',
+    content: {
+        summary: '',
+        instructions: '',
+        resources: '',
+        exercises: '',
+    },
 });
 
 const submit = () => {
@@ -39,46 +51,30 @@ const submit = () => {
                     <div class="space-y-8 divide-y divide-gray-200 sm:space-y-5">
                         <div>
                             <div class="space-y-6 sm:space-y-5">
-                                <div class="px-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:items-start sm:pt-5">
+                                <div class="px-6 sm:grid sm:grid-cols-8 sm:gap-4 sm:items-start sm:pt-5">
                                     <BreezeLabel for="name" value="Choice name" class="sm:mt-px sm:pt-2" />
-                                    <div class="mt-1 sm:mt-0 sm:col-span-4">
+                                    <div class="mt-1 sm:mt-0 sm:col-span-7">
                                         <BreezeInput type="text" v-model="choice.name" id="name" class="block w-full" />
                                         <BreezeInputError class="mt-1" :message="choice.errors?.name" />
                                     </div>
                                 </div>
-                                <div class="px-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:items-start sm:border-t sm:border-gray-200 sm:pt-5">
-                                    <BreezeLabel for="name" value="Summary" class="sm:mt-px sm:pt-2" />
-                                    <div class="mt-1 sm:mt-0 sm:col-span-4">
-                                        <TextEditor v-model="choice.summary" />
-                                        <BreezeInputError class="mt-1" :message="choice.errors?.summary" />
-                                    </div>
-                                </div>
-                                <div class="px-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:items-start sm:border-t sm:border-gray-200 sm:pt-5">
-                                    <BreezeLabel for="name" value="Instructions" class="sm:mt-px sm:pt-2" />
-                                    <div class="mt-1 sm:mt-0 sm:col-span-4">
-                                        <TextEditor v-model="choice.instructions" />
-                                        <BreezeInputError class="mt-1" :message="choice.errors?.instructions" />
-                                    </div>
-                                </div>
-                                <div class="px-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:items-start sm:border-t sm:border-gray-200 sm:pt-5">
-                                    <BreezeLabel for="name" value="Resources" optional="true" class="sm:mt-px sm:pt-2" />
-                                    <div class="mt-1 sm:mt-0 sm:col-span-4">
-                                        <TextEditor v-model="choice.resources" />
-                                        <BreezeInputError class="mt-1" :message="choice.errors?.resources" />
-                                    </div>
-                                </div>
-                                <div class="px-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:items-start sm:border-t sm:border-gray-200 sm:pt-5">
-                                    <BreezeLabel for="name" value="Review" optional="true" class="sm:mt-px sm:pt-2" />
-                                    <div class="mt-1 sm:mt-0 sm:col-span-4">
-                                        <TextEditor v-model="choice.review" />
-                                        <BreezeInputError class="mt-1" :message="choice.errors?.review" />
-                                    </div>
-                                </div>
-                                <div class="px-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:items-start sm:border-t sm:border-gray-200 sm:pt-5">
-                                    <BreezeLabel for="name" value="Exercises" optional="true" class="sm:mt-px sm:pt-2" />
-                                    <div class="mt-1 sm:mt-0 sm:col-span-4">
-                                        <TextEditor v-model="choice.exercises" />
-                                        <BreezeInputError class="mt-1" :message="choice.errors?.exercises" />
+                                <div class="px-6 sm:grid sm:grid-cols-8 sm:gap-4 sm:items-start sm:pt-5">
+                                    <BreezeLabel for="name" value="Content" class="sm:mt-px sm:pt-2" />
+                                    <div class="mt-1 space-y-4 sm:mt-0 sm:col-span-7">
+                                        <Summary />
+                                        <TextBlock />
+                                        <Images />
+                                        <ResourceList :resources="choice.content.resources" />
+                                        <Header />
+                                        <Exercises />
+                                        <div class="space-x-2">
+                                            <AddSummaryButton />
+                                            <AddTextBlockButton />
+                                            <AddImagesButton />
+                                            <AddResourceListButton />
+                                            <AddHeaderButton />
+                                            <AddExercisesButton />
+                                        </div>
                                     </div>
                                 </div>
                             </div>

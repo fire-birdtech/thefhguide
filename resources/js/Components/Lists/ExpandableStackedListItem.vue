@@ -9,6 +9,8 @@ defineProps({
     item: Object
 });
 
+defineEmits(['reload']);
+
 let expanded = ref(false);
 </script>
 
@@ -58,7 +60,7 @@ let expanded = ref(false);
                 </div>
             </div>
             <div v-show="expanded === 'edit'">
-                <ChoiceEdit :current-choice="item" @close="expanded = false" />
+                <ChoiceEdit :current-choice="item" @close="expanded = false;$emit('reload')" />
             </div>
             <div v-show="expanded === 'show'">
                 <ChoiceShow :choice="item" />

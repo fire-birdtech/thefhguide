@@ -14,7 +14,7 @@ module.exports = {
                 sans: ['Open Sans', ...defaultTheme.fontFamily.sans],
             },
             minHeight: {
-                '44': '11rem',
+                '32': '8rem',
             },
         },
     },
