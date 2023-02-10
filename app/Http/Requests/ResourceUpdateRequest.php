@@ -25,7 +25,7 @@ class ResourceUpdateRequest extends FormRequest
     {
         return [
             'name' => 'required|string',
-            'url' => 'required|string'
+            'url' => 'required|string',
         ];
     }
 }

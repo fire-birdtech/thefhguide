@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 Route::group([
     'middleware' => ['auth', 'verified', 'role:admin|super admin'],
     'prefix' => 'admin',
-    'as' => 'admin.'
+    'as' => 'admin.',
 ], function () {
     Route::get('dashboard', [DashboardController::class, 'admin'])->name('dashboard');
     Route::get('editors', [AdminController::class, 'index'])->name('editors.index');

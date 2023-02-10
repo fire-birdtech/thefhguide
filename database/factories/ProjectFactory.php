@@ -19,7 +19,7 @@ class ProjectFactory extends Factory
     {
         return [
             'name' => $this->faker->words(3, true),
-            'collection_id' => Collection::factory()->create()->id
+            'collection_id' => Collection::factory()->create()->id,
         ];
     }
 }

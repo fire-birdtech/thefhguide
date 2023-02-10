@@ -20,7 +20,6 @@ return new class extends Migration
         Schema::table('goals', function (Blueprint $table) {
             $table->unsignedInteger('order')->after('locked');
         });
-
     }
 
     /**

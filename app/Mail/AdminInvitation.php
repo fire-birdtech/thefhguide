@@ -4,7 +4,6 @@ namespace App\Mail;
 
 use App\Models\Invitation;
 use Illuminate\Bus\Queueable;
-use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Support\Facades\URL;
@@ -14,6 +13,7 @@ class AdminInvitation extends Mailable
     use Queueable, SerializesModels;
 
     public $invitation;
+
     public $signedRoute;
 
     /**
@@ -42,7 +42,7 @@ class AdminInvitation extends Mailable
                     ->markdown('emails.admin-invitation', [
                         'name' => $this->invitation->name,
                         'role' => $this->invitation->role,
-                        'signedRoute' =>$this->signedRoute,
+                        'signedRoute' => $this->signedRoute,
                     ]);
     }
 }

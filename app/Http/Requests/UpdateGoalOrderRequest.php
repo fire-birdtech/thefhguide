@@ -25,7 +25,7 @@ class UpdateGoalOrderRequest extends FormRequest
     {
         return [
             'updated_goal' => 'required',
-            'sibling_goal' => 'required'
+            'sibling_goal' => 'required',
         ];
     }
 }

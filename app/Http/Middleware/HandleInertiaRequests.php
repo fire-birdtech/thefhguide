@@ -36,12 +36,12 @@ class HandleInertiaRequests extends Middleware
     {
         return array_merge(parent::share($request), [
             'auth' => [
-                'user' => fn () => auth()->user() ? $request->user()->load('roles') : "",
+                'user' => fn () => auth()->user() ? $request->user()->load('roles') : '',
             ],
             'currentUserRole' => fn () => auth()->user() && count($request->user()->roles) ? $request->user()?->roles[0]->name : null,
             'canManageEditors' => fn () => auth()->user() ? $request->user()->can('manage editors') : null,
             'flash' => [
-                'notification' => fn () => $request->session()->get('notification')
+                'notification' => fn () => $request->session()->get('notification'),
             ],
             'notifications' => fn () => auth()->user() ? $request->user()->notifications->take(10) : null,
             'ziggy' => function () {

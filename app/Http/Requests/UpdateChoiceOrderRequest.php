@@ -25,7 +25,7 @@ class UpdateChoiceOrderRequest extends FormRequest
     {
         return [
             'updated_choice' => 'required',
-            'sibling_choice' => 'required'
+            'sibling_choice' => 'required',
         ];
     }
 }

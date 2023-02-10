@@ -28,8 +28,8 @@ class UpdatePermissions extends Command
      */
     public function handle()
     {
-        Artisan::call("db:seed --class=RolesAndPermissionsSeeder");
-        
+        Artisan::call('db:seed --class=RolesAndPermissionsSeeder');
+
         return Command::SUCCESS;
     }
 }
