@@ -43,7 +43,7 @@ class EditorInvitationAccepted extends Notification
     {
         return [
             'message' => "{$this->invitation->name} has accepted the invitation to be an {$this->invitation->role}",
-            'route' => route('admin.editors.show', ['user' => $this->user->id])
+            'route' => route('admin.editors.show', ['user' => $this->user->id]),
         ];
     }
 }

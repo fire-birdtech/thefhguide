@@ -178,7 +178,7 @@ return [
         'publish goals',
         'create choices',
         'update choices',
-        'delete choices'
+        'delete choices',
     ],
 
     'roles_permissions' => [
@@ -202,8 +202,8 @@ return [
                 'delete goals',
                 'create choices',
                 'update choices',
-                'delete choices'
-            ]
+                'delete choices',
+            ],
         ],
         [
             'name' => 'editor',
@@ -222,16 +222,16 @@ return [
                 'delete goals',
                 'create choices',
                 'update choices',
-                'delete choices'
-            ]
+                'delete choices',
             ],
-            [
-                'name' => 'super admin',
-                'permissions' => []
-            ],
-            [
-                'name' => 'developer',
-                'permissions' => []
-            ]
+        ],
+        [
+            'name' => 'super admin',
+            'permissions' => [],
+        ],
+        [
+            'name' => 'developer',
+            'permissions' => [],
+        ],
     ],
 ];

@@ -26,7 +26,7 @@ class ResourceStoreRequest extends FormRequest
         return [
             'name' => 'required|string',
             'url' => 'required|string',
-            'choice_id' => 'required'
+            'choice_id' => 'required',
         ];
     }
 }

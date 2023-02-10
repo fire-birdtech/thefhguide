@@ -42,9 +42,9 @@ class InvitationTest extends TestCase
 
         $invitation = Invitation::create([
             'email' => $email,
-            'name' =>  $name,
+            'name' => $name,
             'role' => 'editor',
-            'admin_id' => $this->admin->id
+            'admin_id' => $this->admin->id,
         ]);
 
         Mail::to($invitation->email)->send(new AdminInvitation($invitation));
@@ -58,7 +58,7 @@ class InvitationTest extends TestCase
             'role' => $invitation->role,
             'password' => 'password',
             'password_confirmation' => 'password',
-            'admin_id' => $this->admin->id
+            'admin_id' => $this->admin->id,
         ]);
 
         $this->assertAuthenticated();
@@ -71,7 +71,7 @@ class InvitationTest extends TestCase
 
     /**
      * A test for inviting an existing user to be an editor
-     * 
+     *
      * @return void
      */
     public function test_admin_can_invite_existing_user_to_be_editor()
@@ -82,7 +82,7 @@ class InvitationTest extends TestCase
             'email' => $user->email,
             'name' => $user->name,
             'role' => 'editor',
-            'admin_id' => $this->admin->id
+            'admin_id' => $this->admin->id,
         ]);
 
         Mail::to($invitation->email)->send(new AdminInvitation($invitation));
@@ -93,7 +93,7 @@ class InvitationTest extends TestCase
             'email' => $user->email,
             'id' => $invitation->id,
             'role' => $invitation->role,
-            'admin_id' => $this->admin->id
+            'admin_id' => $this->admin->id,
         ]);
 
         $this->assertAuthenticated();

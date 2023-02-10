@@ -25,7 +25,7 @@ class UpdateProjectOrderRequest extends FormRequest
     {
         return [
             'updated_project' => 'required',
-            'sibling_project' => 'required'
+            'sibling_project' => 'required',
         ];
     }
 }

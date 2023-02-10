@@ -38,7 +38,7 @@ class CreateAdmin extends Command
             'email' => $email,
             'password' => Hash::make($password),
         ]);
-        
+
         $user->assignRole('super admin');
 
         $this->info('Admin successfully created.');

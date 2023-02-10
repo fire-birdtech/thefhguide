@@ -24,7 +24,7 @@ class AssignmentUpdateRequest extends FormRequest
     public function rules()
     {
         return [
-            'user_id' => 'integer|required'
+            'user_id' => 'integer|required',
         ];
     }
 }

@@ -26,7 +26,7 @@ class CreateDraftRequest extends FormRequest
         return [
             'draftable_type' => 'required|string',
             'parent_type' => 'required|string',
-            'parent_id' => 'required|integer'
+            'parent_id' => 'required|integer',
         ];
     }
 }

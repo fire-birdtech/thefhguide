@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 Route::group([
     'middleware' => ['auth', 'verified'],
     'prefix' => 'editor',
-    'as' => 'editor.'
+    'as' => 'editor.',
 ], function () {
     Route::get('dashboard', [DashboardController::class, 'editor'])->middleware('role:editor')->name('dashboard');
     Route::get('content', [ContentController::class, 'index'])->name('content.index');
