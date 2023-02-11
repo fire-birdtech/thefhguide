@@ -21,14 +21,19 @@ const bgStyles = {
     yellow: 'bg-yellow-200'
 }
 const closeIconStyles = {
-    sky: 'hover:bg-sky-300 focus:bg-sky-400 focus:outline-none'
+    emerald: 'hover:bg-emerald-300 focus:bg-emerald-400',
+    orange: 'hover:bg-orange-300 focus:bg-orange-400',
+    purple: 'hover:bg-purple-300 focus:bg-purple-400',
+    red: 'hover:bg-red-300 focus:bg-red-400',
+    sky: 'hover:bg-sky-300 focus:bg-sky-400',
+    yellow: 'hover:bg-yellow-300 focus:bg-yellow-400'
 }
 </script>
 
 <template>
     <span :class="[textStyles[color], bgStyles[color], 'group inline-flex items-center rounded-t px-2 py-0.5 text-xs font-medium']">
         <slot />
-        <button type="button" @click.prevent="$emit('remove')" :class="[textStyles[color], closeIconStyles[color], 'hidden ml-1.5 -mr-0.5 h-3.5 w-3.5 flex-shrink-0 items-center justify-center rounded group-hover:inline-flex']">
+        <button type="button" @click.prevent="$emit('remove')" :class="[textStyles[color], closeIconStyles[color], 'hidden ml-1.5 -mr-0.5 h-3.5 w-3.5 flex-shrink-0 items-center justify-center rounded group-hover:inline-flex focus:outline-none']">
             <span class="sr-only">Remove content block</span>
             <XMarkIcon class="h-3 w-3" />
         </button>
