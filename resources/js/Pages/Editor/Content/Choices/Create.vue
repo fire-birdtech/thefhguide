@@ -33,6 +33,9 @@ const choice = useForm({
 const addSummary = () => {
     choice.content['summary'] = "";
 }
+const addExercises = () => {
+    choice.content['exercises'] = "";
+}
 
 const updateProperty = (key, data) => {
     choice.content[key] = data;
@@ -74,7 +77,7 @@ const submit = () => {
                                             <Images v-if="key === 'images'" />
                                             <!-- <ResourceList v-if="key.includes('resources')" /> -->
                                             <Header v-else-if="key.includes('header')" />
-                                            <Exercises v-else-if="key === 'exercises'" />
+                                            <Exercises v-else-if="key === 'exercises'" @delete="deleteProperty(key)" @update:model-value="updateProperty(key, $event)" />
                                         </template>
                                         <div class="space-x-2">
                                             <AddSummaryButton v-if="! ('summary' in choice.content)" @click.prevent="addSummary" />
@@ -82,7 +85,7 @@ const submit = () => {
                                             <AddImagesButton />
                                             <AddResourceListButton />
                                             <AddHeaderButton />
-                                            <AddExercisesButton />
+                                            <AddExercisesButton v-if="! ('exercises' in choice.content)" @click.prevent="addExercises" />
                                         </div>
                                     </div>
                                 </div>
