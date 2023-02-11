@@ -27,13 +27,20 @@ const props = defineProps({
 const choice = useForm({
     name: '',
     goal_id: props.goal,
-    content: {
-        summary: '',
-        instructions: '',
-        resources: '',
-        exercises: '',
-    },
+    content: {},
 });
+
+const addSummary = () => {
+    choice.content['summary'] = "";
+}
+
+const updateProperty = (key, data) => {
+    choice.content[key] = data;
+}
+
+const deleteProperty = (key) => {
+    delete choice.content[key];
+}
 
 const submit = () => {
     choice.post(route('editor.choices.store'));
@@ -61,14 +68,16 @@ const submit = () => {
                                 <div class="px-6 sm:grid sm:grid-cols-8 sm:gap-4 sm:items-start sm:pt-5">
                                     <BreezeLabel for="name" value="Content" class="sm:mt-px sm:pt-2" />
                                     <div class="mt-1 space-y-4 sm:mt-0 sm:col-span-7">
-                                        <Summary />
-                                        <TextBlock />
-                                        <Images />
-                                        <ResourceList :resources="choice.content.resources" />
-                                        <Header />
-                                        <Exercises />
+                                        <template v-for="(item, key, idx) in choice.content" :key="idx">
+                                            <Summary v-if="key === 'summary'" @delete="deleteProperty(key)" @update:model-value="updateProperty(key, $event)" />
+                                            <TextBlock v-else-if="key.includes('text')" />
+                                            <Images v-if="key === 'images'" />
+                                            <!-- <ResourceList v-if="key.includes('resources')" /> -->
+                                            <Header v-else-if="key.includes('header')" />
+                                            <Exercises v-else-if="key === 'exercises'" />
+                                        </template>
                                         <div class="space-x-2">
-                                            <AddSummaryButton />
+                                            <AddSummaryButton v-if="! ('summary' in choice.content)" @click.prevent="addSummary" />
                                             <AddTextBlockButton />
                                             <AddImagesButton />
                                             <AddResourceListButton />
