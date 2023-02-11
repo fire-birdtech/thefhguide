@@ -31,7 +31,7 @@ const choice = useForm({
 });
 
 const addProperty = (key) => {
-    choice.content[key] = "";
+    key === 'images' ? choice.content[key] = [] : choice.content[key] = "";
 }
 
 const updateProperty = (key, data) => {
@@ -71,7 +71,7 @@ const submit = () => {
                                         <template v-for="(item, key, idx) in choice.content" :key="idx">
                                             <Summary v-if="key === 'summary'" @delete="deleteProperty(key)" @update:model-value="updateProperty(key, $event)" />
                                             <TextBlock v-else-if="key.includes('text')" />
-                                            <Images v-if="key === 'images'" />
+                                            <Images v-if="key === 'images'" @delete="deleteProperty(key)" @update="updateProperty(key, $event)" />
                                             <!-- <ResourceList v-if="key.includes('resources')" /> -->
                                             <Header v-else-if="key.includes('header')" />
                                             <Exercises v-else-if="key === 'exercises'" @delete="deleteProperty(key)" @update:model-value="updateProperty(key, $event)" />
@@ -79,7 +79,7 @@ const submit = () => {
                                         <div class="space-x-2">
                                             <AddSummaryButton v-if="! ('summary' in choice.content)" @click.prevent="addProperty('summary')" />
                                             <AddTextBlockButton />
-                                            <AddImagesButton />
+                                            <AddImagesButton v-if="! ('images' in choice.content)" @click.prevent="addProperty('images')" />
                                             <AddResourceListButton />
                                             <AddHeaderButton />
                                             <AddExercisesButton v-if="! ('exercises' in choice.content)" @click.prevent="addProperty('exercises')" />
