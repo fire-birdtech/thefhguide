@@ -1,6 +1,6 @@
 <script setup>
-import AdminLayout from '@/Layouts/Admin.vue';
 import { Head, useForm } from '@inertiajs/vue3';
+import AdminLayout from '@/Layouts/Admin.vue';
 import BreezeInput from '@/Components/Input.vue';
 import BreezeInputError from '@/Components/InputError.vue';
 import BreezeLabel from '@/Components/Label.vue';
@@ -31,6 +31,9 @@ const choice = useForm({
 });
 
 const addProperty = (key) => {
+    if (key === 'text') {
+        key += Object.keys(choice.content).filter(key => key.includes(key)).length + 1;
+    }
     key === 'images' ? choice.content[key] = [] : choice.content[key] = "";
 }
 
@@ -68,9 +71,9 @@ const submit = () => {
                                 <div class="px-6 sm:grid sm:grid-cols-8 sm:gap-4 sm:items-start sm:pt-5">
                                     <BreezeLabel for="name" value="Content" class="sm:mt-px sm:pt-2" />
                                     <div class="mt-1 space-y-4 sm:mt-0 sm:col-span-7">
-                                        <template v-for="(item, key, idx) in choice.content" :key="idx">
+                                        <template v-for="(item, key) in choice.content" :key="key">
                                             <Summary v-if="key === 'summary'" @delete="deleteProperty(key)" @update:model-value="updateProperty(key, $event)" />
-                                            <TextBlock v-else-if="key.includes('text')" />
+                                            <TextBlock v-else-if="key.includes('text')" @delete="deleteProperty(key)" @update:model-value="updateProperty(key, $event)" />
                                             <Images v-if="key === 'images'" @delete="deleteProperty(key)" @update="updateProperty(key, $event)" />
                                             <!-- <ResourceList v-if="key.includes('resources')" /> -->
                                             <Header v-else-if="key.includes('header')" />
@@ -78,7 +81,7 @@ const submit = () => {
                                         </template>
                                         <div class="space-x-2">
                                             <AddSummaryButton v-if="! ('summary' in choice.content)" @click.prevent="addProperty('summary')" />
-                                            <AddTextBlockButton />
+                                            <AddTextBlockButton @click.prevent="addProperty('text')" />
                                             <AddImagesButton v-if="! ('images' in choice.content)" @click.prevent="addProperty('images')" />
                                             <AddResourceListButton />
                                             <AddHeaderButton />

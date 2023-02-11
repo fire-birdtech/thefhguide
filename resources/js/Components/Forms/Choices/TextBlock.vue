@@ -1,16 +1,23 @@
 <script setup>
+import Header from '@/Components/Forms/Choices/ContentBlockHeader.vue';
 import TextEditor from '@/Components/TextEditor.vue';
 
-defineProps(['text']);
+const props = defineProps(['modelValue']);
+
+const emit = defineEmits(['delete', 'update:modelValue']);
+
+const update = () => {
+    emit('update:modelValue', props.modelValue);
+}
 </script>
 
 <template>
     <div class="flex flex-col">
         <div>
-            <span class="inline-flex items-center rounded-t bg-yellow-200 px-2 py-0.5 text-xs font-medium text-yellow-700">Text Block</span>
+            <Header color="yellow" @remove="$emit('delete')">Text Block</Header>
         </div>
         <div class="w-full border-2 border-yellow-200 rounded-b rounded-tr">
-            <TextEditor v-model="text" active-color="text-yellow-700 bg-yellow-200 hover:bg-yellow-300 focus:ring-yellow-300" />
+            <TextEditor v-model="modelValue" @update:model-value="update" active-color="text-yellow-700 bg-yellow-200 hover:bg-yellow-300 focus:ring-yellow-300" />
         </div>
     </div>
 </template>
