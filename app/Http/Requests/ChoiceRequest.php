@@ -25,12 +25,7 @@ class ChoiceRequest extends FormRequest
     {
         return [
             'name' => 'required|string',
-            'goal_id' => 'required|integer',
-            'summary' => 'nullable|string',
-            'instructions' => 'string',
-            'resources' => 'nullable|string',
-            'review' => 'nullable|string',
-            'exercises' => 'nullable|string',
+            'content' => 'required'
         ];
     }
 }
