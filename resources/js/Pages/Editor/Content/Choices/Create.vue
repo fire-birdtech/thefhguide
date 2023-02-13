@@ -31,10 +31,10 @@ const choice = useForm({
 });
 
 const addProperty = (key) => {
-    if (key === 'text' || key === 'header') {
-        key += Object.keys(choice.content).filter(key => key.includes(key)).length + 1;
+    if (key === 'text' || key === 'header' || key === 'resources') {
+        key += Object.keys(choice.content).filter(k => k.includes(key)).length + 1;
     }
-    key === 'images' ? choice.content[key] = [] : choice.content[key] = "";
+    key === 'images' || key.includes('resources') ? choice.content[key] = [] : choice.content[key] = "";
 }
 
 const updateProperty = (key, data) => {
@@ -75,7 +75,7 @@ const submit = () => {
                                             <Summary v-if="key === 'summary'" @delete="deleteProperty(key)" @update:model-value="updateProperty(key, $event)" />
                                             <TextBlock v-else-if="key.includes('text')" @delete="deleteProperty(key)" @update:model-value="updateProperty(key, $event)" />
                                             <Images v-if="key === 'images'" @delete="deleteProperty(key)" @update="updateProperty(key, $event)" />
-                                            <!-- <ResourceList v-if="key.includes('resources')" /> -->
+                                            <ResourceList v-if="key.includes('resources')" @delete="deleteProperty(key)" @update="updateProperty(key, $event)" />
                                             <Header v-else-if="key.includes('header')" @delete="deleteProperty(key)" @update:model-value="updateProperty(key, $event)" />
                                             <Exercises v-else-if="key === 'exercises'" @delete="deleteProperty(key)" @update:model-value="updateProperty(key, $event)" />
                                         </template>
@@ -83,7 +83,7 @@ const submit = () => {
                                             <AddSummaryButton v-if="! ('summary' in choice.content)" @click.prevent="addProperty('summary')" />
                                             <AddTextBlockButton @click.prevent="addProperty('text')" />
                                             <AddImagesButton v-if="! ('images' in choice.content)" @click.prevent="addProperty('images')" />
-                                            <AddResourceListButton />
+                                            <AddResourceListButton @click.prevent="addProperty('resources')" />
                                             <AddHeaderButton @click.prevent="addProperty('header')" />
                                             <AddExercisesButton v-if="! ('exercises' in choice.content)" @click.prevent="addProperty('exercises')" />
                                         </div>

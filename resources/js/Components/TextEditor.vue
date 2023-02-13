@@ -31,7 +31,7 @@ const editor = useEditor({
     },
     editorProps: {
         attributes: {
-            class: 'prose prose-sm prose-a:text-blue-500 text-sm p-4 min-h-32 border-gray-300 overflow-auto focus:outline-none',
+            class: 'prose prose-sm max-w-6xl prose-a:text-blue-500 text-sm p-4 min-h-32 border-gray-300 overflow-auto focus:outline-none',
         },
     },
 });

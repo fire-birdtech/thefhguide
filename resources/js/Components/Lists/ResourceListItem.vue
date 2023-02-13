@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from 'vue';
 import { useForm } from '@inertiajs/vue3';
-import { DocumentTextIcon } from '@heroicons/vue/24/outline'
+import { DocumentTextIcon, VideoCameraIcon } from '@heroicons/vue/24/outline'
 import PrimaryTextButton from '@/Components/Buttons/PrimaryTextButton.vue';
 import BreezeInput from '@/Components/Input.vue';
 import BreezeLabel from '@/Components/Label.vue';
@@ -29,9 +29,15 @@ const submit = () => {
 
 <template>
     <li class="flex items-center justify-between py-3 pl-3 pr-4 text-sm">
-        <div v-if="view ==='show'" class="flex w-0 flex-1 items-center">
-            <DocumentTextIcon class="h-5 w-auto flex-shrink-0 text-gray-400" aria-hidden="true" />
-            <span class="ml-2 w-0 flex-1 truncate">{{ form.name }}</span>
+        <div v-if="view ==='show'" class="flex w-full flex-col">
+            <span class="ml-2 truncate">{{ form.description }}</span>
+            <ul class="mt-3 ml-4 space-y-1">
+                <li v-for="link in form.links" :key="link" class="flex">
+                    <DocumentTextIcon v-if="link.type === 'Document'" class="h-5 w-auto flex-shrink-0 text-gray-400" aria-hidden="true" />
+                    <VideoCameraIcon v-else-if="link.type === 'Video'" class="h-5 w-auto flex-shrink-0 text-gray-400" aria-hidden="true" />
+                    <a :href="link.link" class="pl-2">{{ link.text }}</a>
+                </li>
+            </ul>
         </div>
         <div v-if="view ==='edit'" class="flex w-0 flex-1 items-center">
             <form @submit.prevent="submit" class="w-full flex items-end space-x-3">
