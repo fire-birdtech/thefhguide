@@ -55,16 +55,6 @@ trait HasCoverImage
     }
 
     /**
-     * Get the default cover image URL if no cover image has been uploaded.
-     *
-     * @return string
-     */
-    protected function defaultCoverImageUrl()
-    {
-        return asset('images/default-apartment-image.jpg');
-    }
-
-    /**
      * Get the disk that cover images should be stored on.
      *
      * @return string
