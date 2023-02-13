@@ -26,4 +26,10 @@ export default defineConfig({
     ssr: {
         noExternal: ['@inertiajs/server'],
     },
+    server: {
+        hmr: {
+            host: 'localhost',
+            protocol: 'ws'
+        }
+    }
 });
