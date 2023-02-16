@@ -89,7 +89,7 @@ const submit = () => {
                                     </div>
                                 </div>
                                 <div class="px-6 py-4 sm:grid sm:grid-cols-8 sm:gap-4 sm:items-start sm:pt-4">
-                                    <BreezeLabel for="name" value="Content" class="sm:mt-px sm:pt-2" />
+                                    <BreezeLabel for="name" value="Content" class="sm:mt-px sm:pt-1" />
                                     <div class="mt-1 space-y-4 sm:mt-0 sm:col-span-7">
                                         <template v-for="(item, index) in choice.content" :key="index">
                                             <Summary v-if="item.type === 'summary'" @delete="deleteProperty(index)" @update:model-value="updateProperty(index, $event)" />
