@@ -4,7 +4,7 @@ namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class ChoiceRequest extends FormRequest
+class ChoiceStoreRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -25,6 +25,8 @@ class ChoiceRequest extends FormRequest
     {
         return [
             'name' => 'required|string',
+            'goal_id' => 'required',
+            'images' => 'nullable',
             'content' => 'required'
         ];
     }

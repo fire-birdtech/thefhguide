@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests\ChoiceRequest;
+use App\Http\Requests\ChoiceStoreRequest;
 use App\Http\Requests\UpdateChoiceOrderRequest;
 use App\Models\Choice;
 use App\Models\Goal;
@@ -38,11 +38,15 @@ class ChoiceController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(ChoiceRequest $request)
+    public function store(ChoiceStoreRequest $request)
     {
         $goal = Goal::where('id', $request->goal_id)->first();
 
-        Choice::create($request->validated());
+        Choice::create([
+            'name' => $request['name'],
+            'goal_id' => $request['goal_id'],
+            'content' => json_encode($request['content'])
+        ]);
 
         return redirect()->route('editor.goals.show', [$goal->slug]);
     }
@@ -80,7 +84,7 @@ class ChoiceController extends Controller
      * @param  \App\Models\Choice  $choice
      * @return \Illuminate\Http\Response
      */
-    public function update(ChoiceRequest $request, Choice $choice)
+    public function update(Request $request, Choice $choice)
     {
         $choice->name = $request->name;
         $choice->summary = $request->summary;

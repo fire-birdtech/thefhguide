@@ -1,4 +1,5 @@
 <script setup>
+import { ref } from 'vue';
 import { Head, useForm } from '@inertiajs/vue3';
 import AdminLayout from '@/Layouts/Admin.vue';
 import BreezeInput from '@/Components/Input.vue';
@@ -12,7 +13,6 @@ import AddSummaryButton from '@/Components/Buttons/Choices/AddSummaryButton.vue'
 import TextBlock from '@/Components/Forms/Choices/TextBlock.vue';
 import AddTextBlockButton from '@/Components/Buttons/Choices/AddTextBlockButton.vue';
 import Images from '@/Components/Forms/Choices/Images.vue';
-import AddImagesButton from '@/Components/Buttons/Choices/AddImagesButton.vue';
 import ResourceList from '@/Components/Forms/Choices/ResourceList.vue';
 import AddResourceListButton from '@/Components/Buttons/Choices/AddResourceListButton.vue';
 import Header from '@/Components/Forms/Choices/Header.vue';
@@ -27,22 +27,42 @@ const props = defineProps({
 const choice = useForm({
     name: '',
     goal_id: props.goal,
-    content: {},
+    images: [],
+    content: [],
 });
 
-const addProperty = (key) => {
-    if (key === 'text' || key === 'header' || key === 'resources') {
-        key += Object.keys(choice.content).filter(k => k.includes(key)).length + 1;
+const hasSummary = ref(false);
+const hasExercises = ref(false);
+
+const addProperty = (type) => {
+    type === 'resources' ? choice.content.push({ 'type': type, 'data': [] }) : choice.content.push({ 'type': type, 'data': "" });
+
+    if (type === 'summary') {
+        hasSummary.value = true;
     }
-    key === 'images' || key.includes('resources') ? choice.content[key] = [] : choice.content[key] = "";
+    if (type === 'exercises') {
+        hasExercises.value = true;
+    }
 }
 
-const updateProperty = (key, data) => {
-    choice.content[key] = data;
+const updateProperty = (index, data) => {
+    choice.content[index].data = data;
+    console.log(choice.content);
 }
 
-const deleteProperty = (key) => {
-    delete choice.content[key];
+const updateImages = (data) => {
+    choice.images = data;
+}
+
+const deleteProperty = (index) => {
+    if (choice.content[index].type === 'summary') {
+        hasSummary.value = false;
+    }
+    if (choice.content[index].type === 'exercises') {
+        hasExercises.value = false;
+    }
+
+    choice.content.splice(index, 1);
 }
 
 const submit = () => {
@@ -57,35 +77,33 @@ const submit = () => {
         <div class="w-full py-8 px-4 sm:px-6 lg:px-8">
             <Header3> Create Choice </Header3>
             <div class="mt-4 bg-white rounded-md shadow">
-                <form @submit.prevent="submit" class="space-y-6 divide-y divide-gray-200">
-                    <div class="space-y-8 divide-y divide-gray-200 sm:space-y-5">
+                <form @submit.prevent="submit" class="divide-y divide-gray-200">
+                    <div class="divide-y divide-gray-200">
                         <div>
-                            <div class="space-y-6 sm:space-y-5">
-                                <div class="px-6 sm:grid sm:grid-cols-8 sm:gap-4 sm:items-start sm:pt-5">
-                                    <BreezeLabel for="name" value="Choice name" class="sm:mt-px sm:pt-2" />
+                            <div class="divide-y divide-gray-200">
+                                <div class="px-6 py-4 sm:grid sm:grid-cols-8 sm:gap-4 sm:items-center sm:pt-4">
+                                    <BreezeLabel for="name" value="Name" />
                                     <div class="mt-1 sm:mt-0 sm:col-span-7">
                                         <BreezeInput type="text" v-model="choice.name" id="name" class="block w-full" />
                                         <BreezeInputError class="mt-1" :message="choice.errors?.name" />
                                     </div>
                                 </div>
-                                <div class="px-6 sm:grid sm:grid-cols-8 sm:gap-4 sm:items-start sm:pt-5">
+                                <div class="px-6 py-4 sm:grid sm:grid-cols-8 sm:gap-4 sm:items-start sm:pt-4">
                                     <BreezeLabel for="name" value="Content" class="sm:mt-px sm:pt-2" />
                                     <div class="mt-1 space-y-4 sm:mt-0 sm:col-span-7">
-                                        <template v-for="(item, key) in choice.content" :key="key">
-                                            <Summary v-if="key === 'summary'" @delete="deleteProperty(key)" @update:model-value="updateProperty(key, $event)" />
-                                            <TextBlock v-else-if="key.includes('text')" @delete="deleteProperty(key)" @update:model-value="updateProperty(key, $event)" />
-                                            <Images v-if="key === 'images'" @delete="deleteProperty(key)" @update="updateProperty(key, $event)" />
-                                            <ResourceList v-if="key.includes('resources')" @delete="deleteProperty(key)" @update="updateProperty(key, $event)" />
-                                            <Header v-else-if="key.includes('header')" @delete="deleteProperty(key)" @update:model-value="updateProperty(key, $event)" />
-                                            <Exercises v-else-if="key === 'exercises'" @delete="deleteProperty(key)" @update:model-value="updateProperty(key, $event)" />
+                                        <template v-for="(item, index) in choice.content" :key="index">
+                                            <Summary v-if="item.type === 'summary'" @delete="deleteProperty(index)" @update:model-value="updateProperty(index, $event)" />
+                                            <TextBlock v-else-if="item.type === 'text'" @delete="deleteProperty(index)" @update:model-value="updateProperty(index, $event)" />
+                                            <ResourceList v-if="item.type === 'resources'" @delete="deleteProperty(index)" @update="updateProperty(index, $event)" />
+                                            <Header v-else-if="item.type === 'header'" @delete="deleteProperty(index)" @update:model-value="updateProperty(index, $event)" />
+                                            <Exercises v-else-if="item.type === 'exercises'" @delete="deleteProperty(index)" @update:model-value="updateProperty(index, $event)" />
                                         </template>
                                         <div class="space-x-2">
-                                            <AddSummaryButton v-if="! ('summary' in choice.content)" @click.prevent="addProperty('summary')" />
+                                            <AddSummaryButton v-if="! hasSummary" @click.prevent="addProperty('summary')" />
                                             <AddTextBlockButton @click.prevent="addProperty('text')" />
-                                            <AddImagesButton v-if="! ('images' in choice.content)" @click.prevent="addProperty('images')" />
                                             <AddResourceListButton @click.prevent="addProperty('resources')" />
                                             <AddHeaderButton @click.prevent="addProperty('header')" />
-                                            <AddExercisesButton v-if="! ('exercises' in choice.content)" @click.prevent="addProperty('exercises')" />
+                                            <AddExercisesButton v-if="! hasExercises" @click.prevent="addProperty('exercises')" />
                                         </div>
                                     </div>
                                 </div>
