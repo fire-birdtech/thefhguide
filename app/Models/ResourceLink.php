@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 
 class ResourceLink extends Model
 {
@@ -14,4 +15,9 @@ class ResourceLink extends Model
         'link',
         'type'
     ];
+
+    public function choices(): BelongsToMany
+    {
+        return $this->belongsToMany(Choice::class);
+    }
 }

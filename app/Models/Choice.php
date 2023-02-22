@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
-use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Venturecraft\Revisionable\RevisionableTrait as HasRevisions;
 
@@ -48,8 +48,8 @@ class Choice extends Model
         return $this->belongsTo(Goal::class);
     }
 
-    public function resources(): HasMany
+    public function resourceLinks(): BelongsToMany
     {
-        return $this->hasMany(Resource::class);
+        return $this->belongsToMany(ResourceLink::class);
     }
 }
