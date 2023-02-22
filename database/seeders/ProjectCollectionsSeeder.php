@@ -6,6 +6,8 @@ use App\Models\Choice;
 use App\Models\Collection;
 use App\Models\Goal;
 use App\Models\Project;
+use App\Models\ResourceLink;
+use Carbon\Carbon;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\File;
 
@@ -9019,7 +9021,13 @@ class ProjectCollectionsSeeder extends Seeder
                         if (isset($choice->content->resources[0])) {
                             foreach ($choice->content->resources[0] as $resource) {
                                 foreach ($resource->links as $link) {
-                                    //
+                                    $newResourceLink = ResourceLink::firstOrCreate([
+                                        'text' => $link->text,
+                                        'link' => $link->link,
+                                        'type' => $link->type
+                                    ]);
+
+                                    $newChoice->resourceLinks()->attach($newResourceLink);
                                 }
                             }
                         }
