@@ -7,7 +7,6 @@ use App\Models\Collection;
 use App\Models\Goal;
 use App\Models\Project;
 use App\Models\ResourceLink;
-use Carbon\Carbon;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\File;
 
@@ -20,48 +19,48 @@ class ProjectCollectionsSeeder extends Seeder
             'projects' => [
                 [
                     'name' => 'Family Tree',
-                    'file' => '/../data/familysearch/project1.json'
+                    'file' => 'familysearch/project1.json'
                 ],
-                // [
-                //     'name' => 'Memories',
-                //     'file' => '/../data/familysearch/project2.json'
-                // ],
-                // [
-                //     'name' => 'Descendants',
-                //     'file' => '/../data/familysearch/project3.json'
-                // ],
-                // [
-                //     'name' => 'Discover',
-                //     'file' => '/../data/familysearch/project4.json'
-                // ],
-                // [
-                //     'name' => 'Indexing',
-                //     'file' => '/../data/familysearch/project5.json'
-                // ],
-                // [
-                //     'name' => 'Help',
-                //     'file' => '/../data/familysearch/project6.json'
-                // ],
-                // [
-                //     'name' => 'Technology',
-                //     'file' => '/../data/familysearch/project7.json'
-                // ],
-                // [
-                //     'name' => 'DNA',
-                //     'file' => '/../data/familysearch/project8.json'
-                // ],
-                // [
-                //     'name' => 'Family Tree App',
-                //     'file' => '/../data/familysearch/project9.json'
-                // ],
-                // [
-                //     'name' => 'Memories App',
-                //     'file' => '/../data/familysearch/project10.json'
-                // ],
-                // [
-                //     'name' => 'Goldie May',
-                //     'file' => '/../data/familysearch/project11.json'
-                // ],
+                [
+                    'name' => 'Memories',
+                    'file' => 'familysearch/project2.json'
+                ],
+                [
+                    'name' => 'Descendants',
+                    'file' => 'familysearch/project3.json'
+                ],
+                [
+                    'name' => 'Discover',
+                    'file' => 'familysearch/project4.json'
+                ],
+                [
+                    'name' => 'Indexing',
+                    'file' => 'familysearch/project5.json'
+                ],
+                [
+                    'name' => 'Help',
+                    'file' => 'familysearch/project6.json'
+                ],
+                [
+                    'name' => 'Technology',
+                    'file' => 'familysearch/project7.json'
+                ],
+                [
+                    'name' => 'DNA',
+                    'file' => 'familysearch/project8.json'
+                ],
+                [
+                    'name' => 'Family Tree App',
+                    'file' => 'familysearch/project9.json'
+                ],
+                [
+                    'name' => 'Memories App',
+                    'file' => 'familysearch/project10.json'
+                ],
+                [
+                    'name' => 'Goldie May',
+                    'file' => 'familysearch/project11.json'
+                ],
             ],
         ],
         // [
@@ -8944,13 +8943,13 @@ class ProjectCollectionsSeeder extends Seeder
                 ]);
 
                 // $newCollection->projects()->save($newProject);
-                $file = File::get(__DIR__.$project['file']);
+                $file = File::get(__DIR__.'/../data/'.$project['file']);
                 $goals = json_decode($file);
 
                 foreach ($goals as $goal) {
                     $newGoal = Goal::firstOrCreate([
                         'name' => $goal->name,
-                        'nav_name' => $goal->nav_name,
+                        'nav_name' => isset($goal->nav_name) ? $goal->nav_name : $goal->name,
                         'section_name' => $goal->section_name,
                         'summary' => $goal->summary,
                         'project_id' => $newProject->id,
@@ -9022,8 +9021,9 @@ class ProjectCollectionsSeeder extends Seeder
                             foreach ($choice->content->resources[0] as $resource) {
                                 foreach ($resource->links as $link) {
                                     $newResourceLink = ResourceLink::firstOrCreate([
+                                        'link' => $link->link
+                                    ],[
                                         'text' => $link->text,
-                                        'link' => $link->link,
                                         'type' => $link->type
                                     ]);
 
