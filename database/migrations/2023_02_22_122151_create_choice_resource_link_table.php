@@ -16,7 +16,6 @@ return new class extends Migration
         Schema::create('choice_resource_link', function (Blueprint $table) {
             $table->unsignedBigInteger('choice_id');
             $table->unsignedBigInteger('resource_link_id');
-            $table->timestamp('created_at');
         });
     }
 
