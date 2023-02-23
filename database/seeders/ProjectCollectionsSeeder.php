@@ -19,47 +19,47 @@ class ProjectCollectionsSeeder extends Seeder
             'projects' => [
                 [
                     'name' => 'Family Tree',
-                    'file' => 'familysearch/project1.json'
+                    'file' => 'familysearch/project1.json',
                 ],
                 [
                     'name' => 'Memories',
-                    'file' => 'familysearch/project2.json'
+                    'file' => 'familysearch/project2.json',
                 ],
                 [
                     'name' => 'Descendants',
-                    'file' => 'familysearch/project3.json'
+                    'file' => 'familysearch/project3.json',
                 ],
                 [
                     'name' => 'Discover',
-                    'file' => 'familysearch/project4.json'
+                    'file' => 'familysearch/project4.json',
                 ],
                 [
                     'name' => 'Indexing',
-                    'file' => 'familysearch/project5.json'
+                    'file' => 'familysearch/project5.json',
                 ],
                 [
                     'name' => 'Help',
-                    'file' => 'familysearch/project6.json'
+                    'file' => 'familysearch/project6.json',
                 ],
                 [
                     'name' => 'Technology',
-                    'file' => 'familysearch/project7.json'
+                    'file' => 'familysearch/project7.json',
                 ],
                 [
                     'name' => 'DNA',
-                    'file' => 'familysearch/project8.json'
+                    'file' => 'familysearch/project8.json',
                 ],
                 [
                     'name' => 'Family Tree App',
-                    'file' => 'familysearch/project9.json'
+                    'file' => 'familysearch/project9.json',
                 ],
                 [
                     'name' => 'Memories App',
-                    'file' => 'familysearch/project10.json'
+                    'file' => 'familysearch/project10.json',
                 ],
                 [
                     'name' => 'Goldie May',
-                    'file' => 'familysearch/project11.json'
+                    'file' => 'familysearch/project11.json',
                 ],
             ],
         ],
@@ -69,35 +69,35 @@ class ProjectCollectionsSeeder extends Seeder
             'projects' => [
                 [
                     'name' => 'Get Started',
-                    'file' => 'ancestry/project1.json'
+                    'file' => 'ancestry/project1.json',
                 ],
                 [
                     'name' => 'Family Tree',
-                    'file' => 'ancestry/project2.json'
+                    'file' => 'ancestry/project2.json',
                 ],
                 [
                     'name' => 'Documents, Stories, Photos',
-                    'file' => 'ancestry/project3.json'
+                    'file' => 'ancestry/project3.json',
                 ],
                 [
                     'name' => 'Research',
-                    'file' => 'ancestry/project4.json'
+                    'file' => 'ancestry/project4.json',
                 ],
                 [
                     'name' => 'Help',
-                    'file' => 'ancestry/project5.json'
+                    'file' => 'ancestry/project5.json',
                 ],
                 [
                     'name' => 'Technology',
-                    'file' => 'ancestry/project6.json'
+                    'file' => 'ancestry/project6.json',
                 ],
                 [
                     'name' => 'DNA',
-                    'file' => 'ancestry/project7.json'
+                    'file' => 'ancestry/project7.json',
                 ],
                 [
                     'name' => 'Ancestry App',
-                    'file' => 'ancestry/project8.json'
+                    'file' => 'ancestry/project8.json',
                 ],
             ],
         ],
@@ -107,35 +107,35 @@ class ProjectCollectionsSeeder extends Seeder
             'projects' => [
                 [
                     'name' => 'Account',
-                    'file' => 'myheritage/project1.json'
+                    'file' => 'myheritage/project1.json',
                 ],
                 [
                     'name' => 'Family Tree',
-                    'file' => 'myheritage/project2.json'
+                    'file' => 'myheritage/project2.json',
                 ],
                 [
                     'name' => 'Documents and Photos',
-                    'file' => 'myheritage/project3.json'
+                    'file' => 'myheritage/project3.json',
                 ],
                 [
                     'name' => 'Research',
-                    'file' => 'myheritage/project4.json'
+                    'file' => 'myheritage/project4.json',
                 ],
                 [
                     'name' => 'Help',
-                    'file' => 'myheritage/project5.json'
+                    'file' => 'myheritage/project5.json',
                 ],
                 [
                     'name' => 'Technology',
-                    'file' => 'myheritage/project6.json'
+                    'file' => 'myheritage/project6.json',
                 ],
                 [
                     'name' => 'DNA',
-                    'file' => 'myheritage/project7.json'
+                    'file' => 'myheritage/project7.json',
                 ],
                 [
                     'name' => 'MyHeritage App',
-                    'file' => 'myheritage/project8.json'
+                    'file' => 'myheritage/project8.json',
                 ],
             ],
         ],
@@ -145,31 +145,31 @@ class ProjectCollectionsSeeder extends Seeder
             'projects' => [
                 [
                     'name' => 'Account',
-                    'file' => 'findmypast/project1.json'
+                    'file' => 'findmypast/project1.json',
                 ],
                 [
                     'name' => 'Family Tree',
-                    'file' => 'findmypast/project2.json'
+                    'file' => 'findmypast/project2.json',
                 ],
                 [
                     'name' => 'Documents and Photos',
-                    'file' => 'findmypast/project3.json'
+                    'file' => 'findmypast/project3.json',
                 ],
                 [
                     'name' => 'Research',
-                    'file' => 'findmypast/project4.json'
+                    'file' => 'findmypast/project4.json',
                 ],
                 [
                     'name' => 'Help',
-                    'file' => 'findmypast/project5.json'
+                    'file' => 'findmypast/project5.json',
                 ],
                 [
                     'name' => 'Technology',
-                    'file' => 'findmypast/project6.json'
+                    'file' => 'findmypast/project6.json',
                 ],
                 [
                     'name' => 'DNA',
-                    'file' => 'findmypast/project7.json'
+                    'file' => 'findmypast/project7.json',
                 ],
             ],
         ],
@@ -179,28 +179,28 @@ class ProjectCollectionsSeeder extends Seeder
             'projects' => [
                 [
                     'name' => 'African-American',
-                    'file' => 'ethnic/african-american.json'
+                    'file' => 'ethnic/african-american.json',
                 ],
                 [
                     'name' => 'Asian',
-                    'file' => 'ethnic/asian.json'
+                    'file' => 'ethnic/asian.json',
                 ],
                 [
                     'name' => 'Basque',
-                    'file' => 'ethnic/basque.json'
+                    'file' => 'ethnic/basque.json',
                 ],
                 [
                     'name' => 'Hispanic',
-                    'file' => 'ethnic/hispanic.json'
+                    'file' => 'ethnic/hispanic.json',
                 ],
                 [
                     'name' => 'Jewish',
-                    'file' => 'ethnic/jewish.json'
+                    'file' => 'ethnic/jewish.json',
                 ],
                 [
                     'name' => 'Native American',
-                    'file' => 'ethnic/native-american.json'
-                ]
+                    'file' => 'ethnic/native-american.json',
+                ],
             ],
         ],
         [
@@ -209,35 +209,35 @@ class ProjectCollectionsSeeder extends Seeder
             'projects' => [
                 [
                     'name' => 'Canada',
-                    'file' => 'north-america/canada.json'
+                    'file' => 'north-america/canada.json',
                 ],
                 [
                     'name' => 'Caribbean',
-                    'file' => 'north-america/caribbean.json'
+                    'file' => 'north-america/caribbean.json',
                 ],
                 [
                     'name' => 'Central America',
-                    'file' => 'north-america/central-america.json'
+                    'file' => 'north-america/central-america.json',
                 ],
                 [
                     'name' => 'Costa Rica',
-                    'file' => 'north-america/costa-rica.json'
+                    'file' => 'north-america/costa-rica.json',
                 ],
                 [
                     'name' => 'Dominican Republic',
-                    'file' => 'north-america/dominican-republic.json'
+                    'file' => 'north-america/dominican-republic.json',
                 ],
                 [
                     'name' => 'Jamiaca',
-                    'file' => 'north-america/jamaica.json'
+                    'file' => 'north-america/jamaica.json',
                 ],
                 [
                     'name' => 'Mexico',
-                    'file' => 'north-america/mexico.json'
+                    'file' => 'north-america/mexico.json',
                 ],
                 [
                     'name' => 'United States',
-                    'file' => 'north-america/united-states.json'
+                    'file' => 'north-america/united-states.json',
                 ],
             ],
         ],
@@ -247,31 +247,31 @@ class ProjectCollectionsSeeder extends Seeder
             'projects' => [
                 [
                     'name' => 'Channel Islands',
-                    'file' => 'british-isles/channel-islands.json'
+                    'file' => 'british-isles/channel-islands.json',
                 ],
                 [
                     'name' => 'England',
-                    'file' => 'british-isles/england.json'
+                    'file' => 'british-isles/england.json',
                 ],
                 [
                     'name' => 'Ireland',
-                    'file' => 'british-isles/ireland.json'
+                    'file' => 'british-isles/ireland.json',
                 ],
                 [
                     'name' => 'Isle of Man',
-                    'file' => 'british-isles/isle-of-man.json'
+                    'file' => 'british-isles/isle-of-man.json',
                 ],
                 [
                     'name' => 'Northern Ireland',
-                    'file' => 'british-isles/northern-ireland.json'
+                    'file' => 'british-isles/northern-ireland.json',
                 ],
                 [
                     'name' => 'Scotland',
-                    'file' => 'british-isles/scotland.json'
+                    'file' => 'british-isles/scotland.json',
                 ],
                 [
                     'name' => 'Wales',
-                    'file' => 'british-isles/wales.json'
+                    'file' => 'british-isles/wales.json',
                 ],
             ],
         ],
@@ -281,23 +281,23 @@ class ProjectCollectionsSeeder extends Seeder
             'projects' => [
                 [
                     'name' => 'Denmark',
-                    'file' => 'scandinavia/denmark.json'
+                    'file' => 'scandinavia/denmark.json',
                 ],
                 [
                     'name' => 'Finland',
-                    'file' => 'scandinavia/finland.json'
+                    'file' => 'scandinavia/finland.json',
                 ],
                 [
                     'name' => 'Iceland',
-                    'file' => 'scandinavia/iceland.json'
+                    'file' => 'scandinavia/iceland.json',
                 ],
                 [
                     'name' => 'Norway',
-                    'file' => 'scandinavia/norway.json'
+                    'file' => 'scandinavia/norway.json',
                 ],
                 [
                     'name' => 'Sweden',
-                    'file' => 'scandinavia/sweden.json'
+                    'file' => 'scandinavia/sweden.json',
                 ],
             ],
         ],
@@ -307,35 +307,35 @@ class ProjectCollectionsSeeder extends Seeder
             'projects' => [
                 [
                     'name' => 'Austria',
-                    'file' => 'central-europe/austria.json'
+                    'file' => 'central-europe/austria.json',
                 ],
                 [
                     'name' => 'Croatia',
-                    'file' => 'central-europe/croatia.json'
+                    'file' => 'central-europe/croatia.json',
                 ],
                 [
                     'name' => 'Czech Republic',
-                    'file' => 'central-europe/czech-republic.json'
+                    'file' => 'central-europe/czech-republic.json',
                 ],
                 [
                     'name' => 'Germany',
-                    'file' => 'central-europe/germany.json'
+                    'file' => 'central-europe/germany.json',
                 ],
                 [
                     'name' => 'Poland',
-                    'file' => 'central-europe/poland.json'
+                    'file' => 'central-europe/poland.json',
                 ],
                 [
                     'name' => 'Slovakia',
-                    'file' => 'central-europe/slovakia.json'
+                    'file' => 'central-europe/slovakia.json',
                 ],
                 [
                     'name' => 'Slovenia',
-                    'file' => 'central-europe/slovenia.json'
+                    'file' => 'central-europe/slovenia.json',
                 ],
                 [
                     'name' => 'Switzerland',
-                    'file' => 'central-europe/switzerland.json'
+                    'file' => 'central-europe/switzerland.json',
                 ],
             ],
         ],
@@ -345,31 +345,31 @@ class ProjectCollectionsSeeder extends Seeder
             'projects' => [
                 [
                     'name' => 'Belgium',
-                    'file' => 'western-europe/belgium.json'
+                    'file' => 'western-europe/belgium.json',
                 ],
                 [
                     'name' => 'France',
-                    'file' => 'western-europe/france.json'
+                    'file' => 'western-europe/france.json',
                 ],
                 [
                     'name' => 'Greece',
-                    'file' => 'western-europe/greece.json'
+                    'file' => 'western-europe/greece.json',
                 ],
                 [
                     'name' => 'Italy',
-                    'file' => 'western-europe/italy.json'
+                    'file' => 'western-europe/italy.json',
                 ],
                 [
                     'name' => 'Netherlands',
-                    'file' => 'western-europe/netherlands.json'
+                    'file' => 'western-europe/netherlands.json',
                 ],
                 [
                     'name' => 'Portugal',
-                    'file' => 'western-europe/portugal.json'
+                    'file' => 'western-europe/portugal.json',
                 ],
                 [
                     'name' => 'Spain',
-                    'file' => 'western-europe/spain.json'
+                    'file' => 'western-europe/spain.json',
                 ],
             ],
         ],
@@ -379,31 +379,31 @@ class ProjectCollectionsSeeder extends Seeder
             'projects' => [
                 [
                     'name' => 'Hungary',
-                    'file' => 'eastern-europe/hungary.json'
+                    'file' => 'eastern-europe/hungary.json',
                 ],
                 [
                     'name' => 'Latvia',
-                    'file' => 'eastern-europe/latvia.json'
+                    'file' => 'eastern-europe/latvia.json',
                 ],
                 [
                     'name' => 'Lithuania',
-                    'file' => 'eastern-europe/lithuania.json'
+                    'file' => 'eastern-europe/lithuania.json',
                 ],
                 [
                     'name' => 'Romania',
-                    'file' => 'eastern-europe/romania.json'
+                    'file' => 'eastern-europe/romania.json',
                 ],
                 [
                     'name' => 'Russia',
-                    'file' => 'eastern-europe/russia.json'
+                    'file' => 'eastern-europe/russia.json',
                 ],
                 [
                     'name' => 'Ukraine',
-                    'file' => 'eastern-europe/ukraine.json'
+                    'file' => 'eastern-europe/ukraine.json',
                 ],
                 [
                     'name' => 'Europe Miscellaneous',
-                    'file' => 'eastern-europe/miscellaneous.json'
+                    'file' => 'eastern-europe/miscellaneous.json',
                 ],
             ],
         ],
@@ -413,51 +413,51 @@ class ProjectCollectionsSeeder extends Seeder
             'projects' => [
                 [
                     'name' => 'Australia',
-                    'file' => 'asia-pacific-africa/australia.json'
+                    'file' => 'asia-pacific-africa/australia.json',
                 ],
                 [
                     'name' => 'China',
-                    'file' => 'asia-pacific-africa/china.json'
+                    'file' => 'asia-pacific-africa/china.json',
                 ],
                 [
                     'name' => 'India',
-                    'file' => 'asia-pacific-africa/india.json'
+                    'file' => 'asia-pacific-africa/india.json',
                 ],
                 [
                     'name' => 'Indonesia',
-                    'file' => 'asia-pacific-africa/indonesia.json'
+                    'file' => 'asia-pacific-africa/indonesia.json',
                 ],
                 [
                     'name' => 'Japan',
-                    'file' => 'asia-pacific-africa/japan.json'
+                    'file' => 'asia-pacific-africa/japan.json',
                 ],
                 [
                     'name' => 'New Zealand',
-                    'file' => 'asia-pacific-africa/new-zealand.json'
+                    'file' => 'asia-pacific-africa/new-zealand.json',
                 ],
                 [
                     'name' => 'Pacific Islands',
-                    'file' => 'asia-pacific-africa/pacific-islands.json'
+                    'file' => 'asia-pacific-africa/pacific-islands.json',
                 ],
                 [
                     'name' => 'Philippines',
-                    'file' => 'asia-pacific-africa/philippines.json'
+                    'file' => 'asia-pacific-africa/philippines.json',
                 ],
                 [
                     'name' => 'South Africa',
-                    'file' => 'asia-pacific-africa/south-africa.json'
+                    'file' => 'asia-pacific-africa/south-africa.json',
                 ],
                 [
                     'name' => 'South Korea',
-                    'file' => 'asia-pacific-africa/south-korea.json'
+                    'file' => 'asia-pacific-africa/south-korea.json',
                 ],
                 [
                     'name' => 'Africa Miscellaneous',
-                    'file' => 'asia-pacific-africa/africa-miscellaneous.json'
+                    'file' => 'asia-pacific-africa/africa-miscellaneous.json',
                 ],
                 [
                     'name' => 'Asia Miscellaneous',
-                    'file' => 'asia-pacific-africa/asia-miscellaneous.json'
+                    'file' => 'asia-pacific-africa/asia-miscellaneous.json',
                 ],
             ],
         ],
@@ -467,27 +467,27 @@ class ProjectCollectionsSeeder extends Seeder
             'projects' => [
                 [
                     'name' => 'Argentina',
-                    'file' => 'south-america/argentina.json'
+                    'file' => 'south-america/argentina.json',
                 ],
                 [
                     'name' => 'Brazil',
-                    'file' => 'south-america/brazil.json'
+                    'file' => 'south-america/brazil.json',
                 ],
                 [
                     'name' => 'Chile',
-                    'file' => 'south-america/chile.json'
+                    'file' => 'south-america/chile.json',
                 ],
                 [
                     'name' => 'Colombia',
-                    'file' => 'south-america/colombia.json'
+                    'file' => 'south-america/colombia.json',
                 ],
                 [
                     'name' => 'Peru',
-                    'file' => 'south-america/peru.json'
+                    'file' => 'south-america/peru.json',
                 ],
                 [
                     'name' => 'South America Miscellaneous',
-                    'file' => 'south-america/miscellaneous.json'
+                    'file' => 'south-america/miscellaneous.json',
                 ],
             ],
         ],
@@ -497,211 +497,211 @@ class ProjectCollectionsSeeder extends Seeder
             'projects' => [
                 [
                     'name' => 'Washington, D.C.',
-                    'file' => 'united-states/washington-dc.json'
+                    'file' => 'united-states/washington-dc.json',
                 ],
                 [
                     'name' => 'Puerto Rico',
-                    'file' => 'united-states/puerto-rico.json'
+                    'file' => 'united-states/puerto-rico.json',
                 ],
                 [
                     'name' => 'Alabama',
-                    'file' => 'united-states/alabama.json'
+                    'file' => 'united-states/alabama.json',
                 ],
                 [
                     'name' => 'Alaska',
-                    'file' => 'united-states/alaska.json'
+                    'file' => 'united-states/alaska.json',
                 ],
                 [
                     'name' => 'Arizona',
-                    'file' => 'united-states/arizona.json'
+                    'file' => 'united-states/arizona.json',
                 ],
                 [
                     'name' => 'Arkansas',
-                    'file' => 'united-states/arkansas.json'
+                    'file' => 'united-states/arkansas.json',
                 ],
                 [
                     'name' => 'California',
-                    'file' => 'united-states/california.json'
+                    'file' => 'united-states/california.json',
                 ],
                 [
                     'name' => 'Colorado',
-                    'file' => 'united-states/colorado.json'
+                    'file' => 'united-states/colorado.json',
                 ],
                 [
                     'name' => 'Connecticut',
-                    'file' => 'united-states/connecticut.json'
+                    'file' => 'united-states/connecticut.json',
                 ],
                 [
                     'name' => 'Delaware',
-                    'file' => 'united-states/delaware.json'
+                    'file' => 'united-states/delaware.json',
                 ],
                 [
                     'name' => 'Florida',
-                    'file' => 'united-states/florida.json'
+                    'file' => 'united-states/florida.json',
                 ],
                 [
                     'name' => 'Georgia',
-                    'file' => 'united-states/georgia.json'
+                    'file' => 'united-states/georgia.json',
                 ],
                 [
                     'name' => 'Hawaii',
-                    'file' => 'united-states/hawaii.json'
+                    'file' => 'united-states/hawaii.json',
                 ],
                 [
                     'name' => 'Idaho',
-                    'file' => 'united-states/idaho.json'
+                    'file' => 'united-states/idaho.json',
                 ],
                 [
                     'name' => 'Illinois',
-                    'file' => 'united-states/illinois.json'
+                    'file' => 'united-states/illinois.json',
                 ],
                 [
                     'name' => 'Indiana',
-                    'file' => 'united-states/indiana.json'
+                    'file' => 'united-states/indiana.json',
                 ],
                 [
                     'name' => 'Iowa',
-                    'file' => 'united-states/iowa.json'
+                    'file' => 'united-states/iowa.json',
                 ],
                 [
                     'name' => 'Kansas',
-                    'file' => 'united-states/kansas.json'
+                    'file' => 'united-states/kansas.json',
                 ],
                 [
                     'name' => 'Kentucky',
-                    'file' => 'united-states/kentucky.json'
+                    'file' => 'united-states/kentucky.json',
                 ],
                 [
                     'name' => 'Louisiana',
-                    'file' => 'united-states/louisiana.json'
+                    'file' => 'united-states/louisiana.json',
                 ],
                 [
                     'name' => 'Maine',
-                    'file' => 'united-states/maine.json'
+                    'file' => 'united-states/maine.json',
                 ],
                 [
                     'name' => 'Maryland',
-                    'file' => 'united-states/maryland.json'
+                    'file' => 'united-states/maryland.json',
                 ],
                 [
                     'name' => 'Massachusetts',
-                    'file' => 'united-states/massachusetts.json'
+                    'file' => 'united-states/massachusetts.json',
                 ],
                 [
                     'name' => 'Michigan',
-                    'file' => 'united-states/michigan.json'
+                    'file' => 'united-states/michigan.json',
                 ],
                 [
                     'name' => 'Minnesota',
-                    'file' => 'united-states/minnesota.json'
+                    'file' => 'united-states/minnesota.json',
                 ],
                 [
                     'name' => 'Mississippi',
-                    'file' => 'united-states/mississippi.json'
+                    'file' => 'united-states/mississippi.json',
                 ],
                 [
                     'name' => 'Missouri',
-                    'file' => 'united-states/missouri.json'
+                    'file' => 'united-states/missouri.json',
                 ],
                 [
                     'name' => 'Montana',
-                    'file' => 'united-states/montana.json'
+                    'file' => 'united-states/montana.json',
                 ],
                 [
                     'name' => 'Nebraska',
-                    'file' => 'united-states/nebraska.json'
+                    'file' => 'united-states/nebraska.json',
                 ],
                 [
                     'name' => 'Nevada',
-                    'file' => 'united-states/nevada.json'
+                    'file' => 'united-states/nevada.json',
                 ],
                 [
                     'name' => 'New Hampshire',
-                    'file' => 'united-states/new-hampshire.json'
+                    'file' => 'united-states/new-hampshire.json',
                 ],
                 [
                     'name' => 'New Jersey',
-                    'file' => 'united-states/new-jersey.json'
+                    'file' => 'united-states/new-jersey.json',
                 ],
                 [
                     'name' => 'New Mexico',
-                    'file' => 'united-states/new-mexico.json'
+                    'file' => 'united-states/new-mexico.json',
                 ],
                 [
                     'name' => 'New York',
-                    'file' => 'united-states/new-york.json'
+                    'file' => 'united-states/new-york.json',
                 ],
                 [
                     'name' => 'North Carolina',
-                    'file' => 'united-states/north-carolina.json'
+                    'file' => 'united-states/north-carolina.json',
                 ],
                 [
                     'name' => 'North Dakota',
-                    'file' => 'united-states/north-dakota.json'
+                    'file' => 'united-states/north-dakota.json',
                 ],
                 [
                     'name' => 'Ohio',
-                    'file' => 'united-states/ohio.json'
+                    'file' => 'united-states/ohio.json',
                 ],
                 [
                     'name' => 'Oklahoma',
-                    'file' => 'united-states/oklahoma.json'
+                    'file' => 'united-states/oklahoma.json',
                 ],
                 [
                     'name' => 'Oregon',
-                    'file' => 'united-states/oregon.json'
+                    'file' => 'united-states/oregon.json',
                 ],
                 [
                     'name' => 'Pennsylvania',
-                    'file' => 'united-states/pennsylvania.json'
+                    'file' => 'united-states/pennsylvania.json',
                 ],
                 [
                     'name' => 'Rhode Island',
-                    'file' => 'united-states/rhode-island.json'
+                    'file' => 'united-states/rhode-island.json',
                 ],
                 [
                     'name' => 'South Carolina',
-                    'file' => 'united-states/south-carolina.json'
+                    'file' => 'united-states/south-carolina.json',
                 ],
                 [
                     'name' => 'South Dakota',
-                    'file' => 'united-states/south-dakota.json'
+                    'file' => 'united-states/south-dakota.json',
                 ],
                 [
                     'name' => 'Tennessee',
-                    'file' => 'united-states/tennessee.json'
+                    'file' => 'united-states/tennessee.json',
                 ],
                 [
                     'name' => 'Texas',
-                    'file' => 'united-states/texas.json'
+                    'file' => 'united-states/texas.json',
                 ],
                 [
                     'name' => 'Utah',
-                    'file' => 'united-states/utah.json'
+                    'file' => 'united-states/utah.json',
                 ],
                 [
                     'name' => 'Vermont',
-                    'file' => 'united-states/vermont.json'
+                    'file' => 'united-states/vermont.json',
                 ],
                 [
                     'name' => 'Virginia',
-                    'file' => 'united-states/virginia.json'
+                    'file' => 'united-states/virginia.json',
                 ],
                 [
                     'name' => 'Washington',
-                    'file' => 'united-states/washington.json'
+                    'file' => 'united-states/washington.json',
                 ],
                 [
                     'name' => 'West Virginia',
-                    'file' => 'united-states/west-virginia.json'
+                    'file' => 'united-states/west-virginia.json',
                 ],
                 [
                     'name' => 'Wisconsin',
-                    'file' => 'united-states/wisconsin.json'
+                    'file' => 'united-states/wisconsin.json',
                 ],
                 [
                     'name' => 'Wyoming',
-                    'file' => 'united-states/wyoming.json'
+                    'file' => 'united-states/wyoming.json',
                 ],
             ],
         ],
@@ -711,151 +711,151 @@ class ProjectCollectionsSeeder extends Seeder
             'projects' => [
                 [
                     'name' => 'Bedfordshire',
-                    'file' => 'england/bedfordshire.json'
+                    'file' => 'england/bedfordshire.json',
                 ],
                 [
                     'name' => 'Berkshire',
-                    'file' => 'england/berkshire.json'
+                    'file' => 'england/berkshire.json',
                 ],
                 [
                     'name' => 'Buckinghamshire',
-                    'file' => 'england/buckinghamshire.json'
+                    'file' => 'england/buckinghamshire.json',
                 ],
                 [
                     'name' => 'Cambridgeshire',
-                    'file' => 'england/cambridgeshire.json'
+                    'file' => 'england/cambridgeshire.json',
                 ],
                 [
                     'name' => 'Cheshire',
-                    'file' => 'england/cheshire.json'
+                    'file' => 'england/cheshire.json',
                 ],
                 [
                     'name' => 'Cornwall',
-                    'file' => 'england/cornwall.json'
+                    'file' => 'england/cornwall.json',
                 ],
                 [
                     'name' => 'Cumberland',
-                    'file' => 'england/cumberland.json'
+                    'file' => 'england/cumberland.json',
                 ],
                 [
                     'name' => 'Derbyshire',
-                    'file' => 'england/derbyshire.json'
+                    'file' => 'england/derbyshire.json',
                 ],
                 [
                     'name' => 'Devon',
-                    'file' => 'england/devon.json'
+                    'file' => 'england/devon.json',
                 ],
                 [
                     'name' => 'Dorset',
-                    'file' => 'england/dorset.json'
+                    'file' => 'england/dorset.json',
                 ],
                 [
                     'name' => 'Durham',
-                    'file' => 'england/durham.json'
+                    'file' => 'england/durham.json',
                 ],
                 [
                     'name' => 'Essex',
-                    'file' => 'england/essex.json'
+                    'file' => 'england/essex.json',
                 ],
                 [
                     'name' => 'Gloucestershire',
-                    'file' => 'england/gloucestershire.json'
+                    'file' => 'england/gloucestershire.json',
                 ],
                 [
                     'name' => 'Hampshire',
-                    'file' => 'england/hampshire.json'
+                    'file' => 'england/hampshire.json',
                 ],
                 [
                     'name' => 'Herefordshire',
-                    'file' => 'england/herefordshire.json'
+                    'file' => 'england/herefordshire.json',
                 ],
                 [
                     'name' => 'Hertfordshire',
-                    'file' => 'england/hertfordshire.json'
+                    'file' => 'england/hertfordshire.json',
                 ],
                 [
                     'name' => 'Kent',
-                    'file' => 'england/kent.json'
+                    'file' => 'england/kent.json',
                 ],
                 [
                     'name' => 'Lancashire',
-                    'file' => 'england/lancashire.json'
+                    'file' => 'england/lancashire.json',
                 ],
                 [
                     'name' => 'Leicestershire',
-                    'file' => 'england/leicestershire.json'
+                    'file' => 'england/leicestershire.json',
                 ],
                 [
                     'name' => 'Lincolnshire',
-                    'file' => 'england/lincolnshire.json'
+                    'file' => 'england/lincolnshire.json',
                 ],
                 [
                     'name' => 'London',
-                    'file' => 'england/london.json'
+                    'file' => 'england/london.json',
                 ],
                 [
                     'name' => 'Middlesex',
-                    'file' => 'england/middlesex.json'
+                    'file' => 'england/middlesex.json',
                 ],
                 [
                     'name' => 'Norfolk',
-                    'file' => 'england/norfolk.json'
+                    'file' => 'england/norfolk.json',
                 ],
                 [
                     'name' => 'Northamptonshire',
-                    'file' => 'england/northamptonshire.json'
+                    'file' => 'england/northamptonshire.json',
                 ],
                 [
                     'name' => 'Northumberland',
-                    'file' => 'england/northumberland.json'
+                    'file' => 'england/northumberland.json',
                 ],
                 [
                     'name' => 'Nottinghamshire',
-                    'file' => 'england/nottinghamshire.json'
+                    'file' => 'england/nottinghamshire.json',
                 ],
                 [
                     'name' => 'Shropshire',
-                    'file' => 'england/shropshire.json'
+                    'file' => 'england/shropshire.json',
                 ],
                 [
                     'name' => 'Somerset',
-                    'file' => 'england/somerset.json'
+                    'file' => 'england/somerset.json',
                 ],
                 [
                     'name' => 'Staffordshire',
-                    'file' => 'england/staffordshire.json'
+                    'file' => 'england/staffordshire.json',
                 ],
                 [
                     'name' => 'Suffolk',
-                    'file' => 'england/suffolk.json'
+                    'file' => 'england/suffolk.json',
                 ],
                 [
                     'name' => 'Surrey',
-                    'file' => 'england/surrey.json'
+                    'file' => 'england/surrey.json',
                 ],
                 [
                     'name' => 'Sussex',
-                    'file' => 'england/sussex.json'
+                    'file' => 'england/sussex.json',
                 ],
                 [
                     'name' => 'Warwickshire',
-                    'file' => 'england/warwickshire.json'
+                    'file' => 'england/warwickshire.json',
                 ],
                 [
                     'name' => 'Westmorland',
-                    'file' => 'england/westmorland.json'
+                    'file' => 'england/westmorland.json',
                 ],
                 [
                     'name' => 'Wiltshire',
-                    'file' => 'england/wiltshire.json'
+                    'file' => 'england/wiltshire.json',
                 ],
                 [
                     'name' => 'Worcestershire',
-                    'file' => 'england/worcestershire.json'
+                    'file' => 'england/worcestershire.json',
                 ],
                 [
                     'name' => 'Yorkshire',
-                    'file' => 'england/yorkshire.json'
+                    'file' => 'england/yorkshire.json',
                 ],
             ],
         ],
@@ -865,47 +865,47 @@ class ProjectCollectionsSeeder extends Seeder
             'projects' => [
                 [
                     'name' => 'Alberta',
-                    'file' => 'canada/alberta.json'
+                    'file' => 'canada/alberta.json',
                 ],
                 [
                     'name' => 'British Columbia',
-                    'file' => 'canada/british-columbia.json'
+                    'file' => 'canada/british-columbia.json',
                 ],
                 [
                     'name' => 'Manitoba',
-                    'file' => 'canada/manitoba.json'
+                    'file' => 'canada/manitoba.json',
                 ],
                 [
                     'name' => 'New Brunswick',
-                    'file' => 'canada/new-brunswick.json'
+                    'file' => 'canada/new-brunswick.json',
                 ],
                 [
                     'name' => 'Newfoundland',
-                    'file' => 'canada/newfoundland.json'
+                    'file' => 'canada/newfoundland.json',
                 ],
                 [
                     'name' => 'Nova Scotia',
-                    'file' => 'canada/nova-scotia.json'
+                    'file' => 'canada/nova-scotia.json',
                 ],
                 [
                     'name' => 'Ontario',
-                    'file' => 'canada/ontario.json'
+                    'file' => 'canada/ontario.json',
                 ],
                 [
                     'name' => 'Prince Edward Island',
-                    'file' => 'canada/prince-edward-island.json'
+                    'file' => 'canada/prince-edward-island.json',
                 ],
                 [
                     'name' => 'Quebec',
-                    'file' => 'canada/quebec.json'
+                    'file' => 'canada/quebec.json',
                 ],
                 [
                     'name' => 'Saskatchewan',
-                    'file' => 'canada/saskatchewan.json'
+                    'file' => 'canada/saskatchewan.json',
                 ],
                 [
                     'name' => 'Territories',
-                    'file' => 'canada/territories.json'
+                    'file' => 'canada/territories.json',
                 ],
             ],
         ],
@@ -915,30 +915,30 @@ class ProjectCollectionsSeeder extends Seeder
             'projects' => [
                 [
                     'name' => 'New South Wales',
-                    'file' => 'australia/new-south-wales.json'
+                    'file' => 'australia/new-south-wales.json',
                 ],
                 [
                     'name' => 'Queensland',
-                    'file' => 'australia/queensland.json'
+                    'file' => 'australia/queensland.json',
                 ],
                 [
                     'name' => 'South Australia',
-                    'file' => 'australia/south-australia.json'
+                    'file' => 'australia/south-australia.json',
                 ],
                 [
                     'name' => 'Tasmania',
-                    'file' => 'australia/tasmania.json'
+                    'file' => 'australia/tasmania.json',
                 ],
                 [
                     'name' => 'Victoria',
-                    'file' => 'australia/victoria.json'
+                    'file' => 'australia/victoria.json',
                 ],
                 [
                     'name' => 'Western Australia',
-                    'file' => 'australia/western-australia.json'
+                    'file' => 'australia/western-australia.json',
                 ],
             ],
-        ]
+        ],
     ];
 
     /**
@@ -986,7 +986,7 @@ class ProjectCollectionsSeeder extends Seeder
                                 if ($hidden->type === 'summary') {
                                     array_push($choiceContent, [
                                         'type' => 'summary',
-                                        'data' => $hidden->content
+                                        'data' => $hidden->content,
                                     ]);
                                 }
                             }
@@ -995,7 +995,7 @@ class ProjectCollectionsSeeder extends Seeder
                         if (isset($choice->content->text)) {
                             array_push($choiceContent, [
                                 'type' => 'text',
-                                'data' => $choice->content->text
+                                'data' => $choice->content->text,
                             ]);
                         }
 
@@ -1008,13 +1008,13 @@ class ProjectCollectionsSeeder extends Seeder
 
                                 array_push($resourcesList, [
                                     'description' => $resource->description,
-                                    'links' => $resource->links
+                                    'links' => $resource->links,
                                 ]);
                             }
 
                             array_push($choiceContent, [
                                 'type' => 'resources',
-                                'data' => $resourcesList
+                                'data' => $resourcesList,
                             ]);
                         }
 
@@ -1023,7 +1023,7 @@ class ProjectCollectionsSeeder extends Seeder
                                 if ($hidden->type === 'exercises') {
                                     array_push($choiceContent, [
                                         'type' => 'exercises',
-                                        'data' => $hidden->content
+                                        'data' => $hidden->content,
                                     ]);
                                 }
                             }
@@ -1033,7 +1033,7 @@ class ProjectCollectionsSeeder extends Seeder
                         $newChoice = Choice::firstOrCreate([
                             'name' => $choice->name,
                             'content' => json_encode($choiceContent),
-                            'goal_id' => $newGoal->id
+                            'goal_id' => $newGoal->id,
                         ]);
 
                         // data that needs choice_id
@@ -1041,10 +1041,10 @@ class ProjectCollectionsSeeder extends Seeder
                             foreach ($choice->content->resources[0] as $resource) {
                                 foreach ($resource->links as $link) {
                                     $newResourceLink = ResourceLink::firstOrCreate([
-                                        'link' => $link->link
-                                    ],[
+                                        'link' => $link->link,
+                                    ], [
                                         'text' => $link->text,
-                                        'type' => $link->type
+                                        'type' => $link->type,
                                     ]);
 
                                     $newChoice->resourceLinks()->attach($newResourceLink);

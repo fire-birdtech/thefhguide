@@ -45,7 +45,7 @@ class ChoiceController extends Controller
         Choice::create([
             'name' => $request['name'],
             'goal_id' => $request['goal_id'],
-            'content' => json_encode($request['content'])
+            'content' => json_encode($request['content']),
         ]);
 
         return redirect()->route('editor.goals.show', [$goal->slug]);

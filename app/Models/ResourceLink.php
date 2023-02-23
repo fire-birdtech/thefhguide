@@ -13,7 +13,7 @@ class ResourceLink extends Model
     protected $fillable = [
         'text',
         'link',
-        'type'
+        'type',
     ];
 
     public function choices(): BelongsToMany
