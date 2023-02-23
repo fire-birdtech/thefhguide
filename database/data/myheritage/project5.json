@@ -1,0 +1,382 @@
+[
+    {
+        "nav_name": "Get Help (MH)",
+        "name": "Get Help",
+        "section_name": "Get help with your own family history work. Vault",
+        "summary": "<p>Although The Family History Guide has a wealth of resources and tasks to work on, there are times when you need some personal assistance with challenges in your family history. This goal points you in the right directions.</p>",
+        "choices": [
+            {
+                "name": "Find and access MyHeritage help resources for your family history questions.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/partners/myheritage-logo1-small.png"
+                    ],
+                    "text": "<ol><img src=\"img/partners/myheritage-logo1-small.png\" alt=\"\" height=\"40px\" style=\"float:right; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Visit the <a class=\"lk\" href=\"https://www.myheritage.com/help-center\" target=\"_blank\">Help Center</a> page at MyHeritage.com. At the bottom of each Help Center article is a \"Contact a Representative\" link where you can send an email message to MyHeritage Support.</li><li> Use the <a class=\"lk\" href=\"https://www.myheritage.com/FP/contact-us.php\" target=\"_blank\">Contact Us</a> link to see a list of phone numbers for MyHeritage Support.</li> <li>Get <a class=\"lk\" href=\"https://familysearch.org/partner/myheritage\" target=\"_blank\">free Latter-day Saint access</a> to MyHeritage.</li> </ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Get help for your own research tasks.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Online researchers can be used to help with your own genealogy.</li><li>Volunteers are located all over the world that are willing to look up records and make information accessible to you, without traveling to that area.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Reach out to one or more researchers to get help with one of your family lines.</li><li>* Same as above; also get help from a lookup volunteer and study crowd-sourcing tips for your genealogy.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-archive-research.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/y-archive-research.jpg\" width=\"350px;\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Know how to ask the right questions to get the help you need.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.amyjohnsoncrow.com/get-genealogy-questions-answered/\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">AJC—How to Get Your Genealogy Questions Answered - 2016</span></a> </li><br><li> Find volunteer researchers who can help you on the <a class=\"lk\" href=\"https://www.raogk.org/\" target=\"_blank\">Random Acts of Genealogical Kindness</a> site. </li><li>Get help searching records from lookup volunteers noted on the <a class=\"lk\" href=\"http://www.genlookups.com/\" target=\"_blank\">Genlookups</a> site. </li><li> Find help translating genealogical documents with the <a class=\"lk\" href=\"https://www.facebook.com/groups/GenealogicalTranslations/?ref=share\" target=\"_blank\">Genealogy Translation</a> Facebook group. </li><li> Explore the <a class=\"lk\" href=\"http://www.familytreecircles.com/\" target=\"_blank\">FamilyTreeCircles</a> site for help with crowd-sourcing your family history. </li><li> To learn about getting professional help for your genealogy research, choose <b>Hire a researcher</b> from the Research menu in MyHeritage. </li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "(Optional) Explore the resources at a family history center.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/2-8d.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/2-8d.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 350px;; border:1px solid #000; padding:0px;\"><li> Visit a local family history center and talk with a volunteer. These services are free to all. To find a list of nearby family history centers, <a class=\"lk\" href=\"https://familysearch.org/ask/help#localResource\" target=\"_blank\">click here</a>. To find a family history center anywhere in the world, <a class=\"lk\" href=\"https://familysearch.org/locations/\" target=\"_blank\">click here</a>.</li> <li> Use the free Premium website offerings at a family history center. These include full access to Ancestry, Findmypast.com, MyHeritage.com and others. See the <a class=\"lk\" href=\"https://www.familysearch.org/help/helpcenter/article/what-genealogy-websites-are-available-in-family-history-centers\" target=\"_blank\">full list of premium sites</a> available at each family history center. </li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Genealogy Societies",
+        "name": "Genealogy Societies",
+        "section_name": "Get involved with genealogical societies for information and support.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about genealogical societies.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Genealogical societies often know and have more information about a specific locality than is available online or in other resources.</li><li>Genealogical magazines help you stay up to date on news and can provide inspiration or examples that help you solve challenges in your own tree.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=K_orFUl51U4#t=0m32s\" target=\"_blank\">Camaraderie and breaking brick walls</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=K_orFUl51U4#t=1m01s\" target=\"_blank\">Local experts</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=K_orFUl51U4#t=1m27s\" target=\"_blank\">Speakers and presentations</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=K_orFUl51U4#t=2m01s\" target=\"_blank\">Special topics sessions</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=K_orFUl51U4#t=2m24s\" target=\"_blank\">Communications to members and the community</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=K_orFUl51U4#t=3m02s\" target=\"_blank\">Become a speaker</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=K_orFUl51U4#t=3m27s\" target=\"_blank\">Keeping up to date</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=K_orFUl51U4#t=3m51s\" target=\"_blank\">Support</a></li></ul></span>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Study the resources for genealogical societies above, and then join one of them. Also find at least one online genealogy magazine to follow.</li><li>* Proficient: Same as above, with two genealogy societies and three online genealogy magazines.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/6-us-map.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/6-us-map.jpg\" alt=\"\" width=\"350px\" border=\"1\" style=\"float:right; margin-right:0px; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Read these articles for an overview of genealogical societies. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://www.genealogy.com/articles/twigs/rhonda041901.html\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">GC—Using Historical and Genealogical Societies</span></a> <br><span class=\"star notranslate\">☆</span><a href=\"https://www.archives.com/experts/macentee-thomas/genealogical-societies-they-do-your-genealogy-good.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">AR—Genealogy  Societies: They Do Your Genealogy Good</span></a></li><br><li>Read this article from the FamilySearch Wiki about U.S. genealogical societies. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/United_States_Societies\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">United States Societies</span></a></li><br><li>This article suggests three genealogical societies every genealogist should join. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.ancestralfindings.com/3-genealogy-societies-every-serious-genealogist-should-join/\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">3 Genealogy Societies Every Serious Genealogist Should Join</span></a></li><br><li>Here are eight reasons for joining a genealogical society. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=K_orFUl51U4\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">8 Reasons to Join a Genealogical Society—5:23</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('join');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"join\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=K_orFUl51U4#t=0m32s\" target=\"_blank\">Camaraderie and breaking brick walls</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=K_orFUl51U4#t=1m01s\" target=\"_blank\">Local experts</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=K_orFUl51U4#t=1m27s\" target=\"_blank\">Speakers and presentations</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=K_orFUl51U4#t=2m01s\" target=\"_blank\">Special topics sessions</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=K_orFUl51U4#t=2m24s\" target=\"_blank\">Communications to members and the community</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=K_orFUl51U4#t=3m02s\" target=\"_blank\">Become a speaker</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=K_orFUl51U4#t=3m27s\" target=\"_blank\">Keeping up to date</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=K_orFUl51U4#t=3m51s\" target=\"_blank\">Support</a></li></ul></span></div><br><br><iframe width=\"330\" height=\"220\" src=\"https://www.youtube.com/embed/K_orFUl51U4?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li>Learn about popular online genealogy magazines and what they offer.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genealogyintime.com/GenealogyResources/Articles/top_ten_most_popular_online_genealogy_magazines.html\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">GI—Top 10 Popular Online Genealogy Magazines</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Find U.S. and international genealogical societies.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/blue-world.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/blue-world.jpg\" alt=\"\" width=\"350px\" border=\"1\" style=\"float:right; margin-right:0px; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li> Explore the <a class=\"lk\" href=\"https://ngsmembers.ngsgenealogy.org/Societies-and-Organizations-Directory2\" target=\"_blank\">NGS (National Genealogical Society) website</a>  for U.S. genealogy societies.</li><li> See an international list of <a class=\"lk\" href=\"https://www.cyndislist.com/societies/\" target=\"_blank\">genealogy societies</a> on the Cyndi's List site.</li><li> Refer to the \"Get Help\" goals in most of the Country pages for information about genealogy societies and social media groups for specific countries.</li><li>See Project 4: Discover, Goal 1, <a class=\"lk\" href=\"project-4-discover.html#d\" target=\"_blank\">Choice D</a> for tips on writing to individuals and organizations for genealogy help.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Collaborate",
+        "name": "Collaborate with Others",
+        "section_name": "Collaborate with others doing family history work. Vault",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Share your family history efforts.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=EkuV78O056A#t=2m43s\" target=\"_blank\">What is a blog</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=EkuV78O056A#t=6m6s\" target=\"_blank\">Blogger vs. Wordpress</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=EkuV78O056A#t=14m14s\" target=\"_blank\">Your own domain name</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=EkuV78O056A#t=16m16s\" target=\"_blank\">What do you want to accomplish?</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=EkuV78O056A#t=21m37s\" target=\"_blank\">Decide on a topic and theme</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=EkuV78O056A#t=32m15s\" target=\"_blank\">A blog is a form of social networking</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=EkuV78O056A#t=35m35s\" target=\"_blank\">Some popular genealogy blogs</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=EkuV78O056A#t=42m14s\" target=\"_blank\">What about social networking?</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=EkuV78O056A#t=56m42s\" target=\"_blank\">Genealogical benefits of social networking</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=EkuV78O056A#t=58m56s\" target=\"_blank\">What about reading all those blogs?</a></li></ul></span>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Use one of the methods above to share your family history with others.</li><li>* Proficient: Use several of the methods above to share your family history with others.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/7-2.jpg"
+                    ],
+                    "text": "<p>Remember to get permission from living individuals if you share their information.</p><ol><img src=\"img/7-2.jpg\" alt=\"\" width=\"250px\" style=\"float:right; margin-right:0px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Watch these videos for ideas on sharing your family history information with others. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=VuwYM1OhbJw\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">AC—Quick Ways to Share Family History—15:31 - 2012</span></a><br><br><iframe width=\"330\" height=\"220\" src=\"https://www.youtube.com/embed/VuwYM1OhbJw?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br><span class=\"star notranslate\">☆</span><a href=\"https://www.lds.org/media-library/video/2011-10-15-episode-15-share-with-others?lang=eng&amp;category=family-history/5-minute-genealogy\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\">  <span class=\"re\">FS—Share with Others—3:08 - 2011</span></a></li><br> <li>Here are some tips on collaborating with other researchers. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familylocket.com/collaboration-and-personal-communication/\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FL—Genealogy Research in the 21st Century Part 3: Collaboration and Personal Communication - 2020</span></a></li><br><li> See also <a class=\"lk\" href=\"http://www.family.me\" target=\"_blank\">www.Family.me</a> for building a collaborative family tree.</li>  <li> Join the <a class=\"lk\" href=\"https://www.amyjohnsoncrow.com/52-ancestors-in-52-weeks/\" target=\"_blank\">52 Ancestors in 52 Weeks Challenge - 2019</a>. You'll receive weekly prompts on ways you can share your family history findings with others.</li>  <li>Here are some additional tips on sharing your family history. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://content.ldschurch.org/family-history/bc/rootstech/salt-lake/2019-conference-syllabi/PH4698_Sharing_Family_History_In_Fun_Modern_Ways.pdf\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">RT—Sharing Family History in Fun and Modern Ways - 2019</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://www.lds.org/ensign/2018/03/sharing-your-family-history?lang=eng\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">LDS—Sharing Your Family History - 2018</span></a></li><br><li><span class=\"g\">Social Media</span>: Learn how blogging and social networking can help you collaborate on family history. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=EkuV78O056A&amp;t=2m30s\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">BYU—Blogging and Social Networking for Genealogists—62:53 - 2017</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('blog');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"blog\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=EkuV78O056A#t=2m43s\" target=\"_blank\">What is a blog</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=EkuV78O056A#t=6m6s\" target=\"_blank\">Blogger vs. Wordpress</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=EkuV78O056A#t=14m14s\" target=\"_blank\">Your own domain name</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=EkuV78O056A#t=16m16s\" target=\"_blank\">What do you want to accomplish?</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=EkuV78O056A#t=21m37s\" target=\"_blank\">Decide on a topic and theme</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=EkuV78O056A#t=32m15s\" target=\"_blank\">A blog is a form of social networking</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=EkuV78O056A#t=35m35s\" target=\"_blank\">Some popular genealogy blogs</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=EkuV78O056A#t=42m14s\" target=\"_blank\">What about social networking?</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=EkuV78O056A#t=56m42s\" target=\"_blank\">Genealogical benefits of social networking</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=EkuV78O056A#t=58m56s\" target=\"_blank\">What about reading all those blogs?</a></li></ul></span></div><br><br><iframe width=\"330\" height=\"220\" src=\"https://www.youtube.com/embed/EkuV78O056A?start=151;rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br><span class=\"star notranslate\">☆</span><a href=\"http://www.ancestralfindings.com/how-to-network-with-family-members-using-social-media-for-genealogy-research/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">How to Network with Family Members Using Social Media for Genealogy Research - 2016</span></a></li><br><li>Use social media to share your family history efforts. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.ancestry.com/academy/course/social-media\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">AAC—Cousin Bait: Making Social Media Work for You—47:19</span></a></li><br><li>Learn how to use social media for your family history research queries. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=u7wxNE5G5Sc\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">BYU—Leveraging Social Networking Resources for Genealogical Queries—60:05 - 2022</span></a><br><br><iframe width=\"330\" height=\"220\" src=\"https://www.youtube.com/embed/u7wxNE5G5Sc?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Work with others on family history.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Working with others requires planning. Make sure to divide up tasks and keep up communication to avoid duplicate efforts.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=NR3v7oB95a0#t=4m11s\" target=\"_blank\">Check your tree settings</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=NR3v7oB95a0#t=13m43s\" target=\"_blank\">Check your profile</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=NR3v7oB95a0#t=13m43s\" target=\"_blank\">Card catalog</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=NR3v7oB95a0#t=24m37s\" target=\"_blank\">Find an online community</a></li></ul></span>"
+                        },
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=F1HzfEbVgf0#t=1m17s\" target=\"_blank\">Have your tree noticed online</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=F1HzfEbVgf0#t=5m3s\" target=\"_blank\">Best places to connect with relatives and locations</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=F1HzfEbVgf0#t=9m14s\" target=\"_blank\">Connect and collaborate with groups</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=F1HzfEbVgf0#t=11m59s\" target=\"_blank\">Handling snowballing information</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=F1HzfEbVgf0#t=18m06s\" target=\"_blank\">Future and conclusion</a></li></ul></span>"
+                        },
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=FMDaql1D2b0#t=4m47s\" target=\"_blank\">Family history on phones</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=FMDaql1D2b0#t=6m21s\" target=\"_blank\">Descendants with tasks</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=FMDaql1D2b0#t=7m0s\" target=\"_blank\">Recommended tasks</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=FMDaql1D2b0#t=7m27s\" target=\"_blank\">Using record hints to get death dates</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=FMDaql1D2b0#t=13m27s\" target=\"_blank\">Maiden names</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=FMDaql1D2b0#t=17m08s\" target=\"_blank\">Full set of microtasks</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=FMDaql1D2b0#t=23m42s\" target=\"_blank\">Recap</a></li></ul></span>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Identify one or two collaborators for your family history work. Contact them and get started with your collaborative research.</li><li>* Proficient: Same as above, with at least 5 collaborators.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/6-others.png"
+                    ],
+                    "text": "<ol><a href=\"img/6-others.png\" target=\"_blank\"><img src=\"img/6-others.png\" alt=\"\" width=\"250px\" border=\"0\" style=\"float:right; margin-right:0px; margin-top: 16px; margin-left: 16px\"></a><li>Get family members or friends involved in collecting memories (photos, documents, stories, etc.) to be uploaded to FamilySearch.</li><li>Divide up family lines for research, to avoid duplication of effort.</li><li>Keep each other informed about progress achieved as well as roadblocks that remain.</li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "Study these resources for additional ideas about working with others on family history.",
+                                "links": [
+                                    {
+                                        "link": "https://www.youtube.com/watch?v=NR3v7oB95a0",
+                                        "text": "AC—Quick Tips for Increasing Collaboration—32:08 - 2015",
+                                        "type": "video"
+                                    },
+                                    {
+                                        "link": "https://familysearch.org/blog/en/crowdsourcing-form-collaboration-helps-genealogists-break-brick-walls/",
+                                        "text": "FS—Crowdsourcing Collaboration - 2014",
+                                        "type": "document"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Learn how you can collaborate with other generations on your research.",
+                                "links": [
+                                    {
+                                        "link": "https://education.myheritage.com/article/how-to-collaborate-with-other-generations-on-your-genealogical-research/",
+                                        "text": "MH—How to Collaborate with Other Generations on Your Genealogical Research - 2019",
+                                        "type": "document"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Here are some tips on involving others who may be reluctant to participate in family history.",
+                                "links": [
+                                    {
+                                        "link": "https://ancestralfindings.com/drawing-those-hesitant-relatives-into-your-family-tree-research/",
+                                        "text": "AF—Drawing Those Hesitant Relatives into Your Family Tree Research - 2016",
+                                        "type": "document"
+                                    },
+                                    {
+                                        "link": "https://ancestralfindings.com/got-family-involved-genealogy-research/",
+                                        "text": "AF—How I Got My Family Involved In Genealogy Research",
+                                        "type": "document"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Locations: Learn how to create an online community for a town you are researching.",
+                                "links": [
+                                    {
+                                        "link": "https://www.youtube.com/watch?v=F1HzfEbVgf0",
+                                        "text": "RT—Creating an Successful Online Community for the Town You're Researching—20:08 - 2022",
+                                        "type": "video"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Microtasks: Learn how to use \"microtasks\" to spread family history assignments.",
+                                "links": [
+                                    {
+                                        "link": "https://www.youtube.com/watch?v=FMDaql1D2b0&t=2m33s",
+                                        "text": "BYU—Using Microtasks to Involve Everyone in Family History Research—27:38 - 2018",
+                                        "type": "video"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Descendancy/Cousins: Read this article to learn how you to find distant cousins who may want to help you with your research.",
+                                "links": [
+                                    {
+                                        "link": "https://www.genealogytoday.com/articles/reader.mv?ID=636",
+                                        "text": "GT—Collecting Cousins--Turning Over Rocks with a Well-Placed Query",
+                                        "type": "document"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Mailing Lists: Learn how to use mailing lists on Ancestry to keep in touch with others who are researching similar surnames or topics.",
+                                "links": [
+                                    {
+                                        "link": "https://www.ancestryacademy.com/videos/how-to-find-mailing-lists",
+                                        "text": "AAC—How to Find Mailing Lists—1:38 (acct.req.)",
+                                        "type": "video"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Family Tree: Learn how to collaborate effectively with others who are working in the FamilySearch Family Tree.",
+                                "links": [
+                                    {
+                                        "link": "https://www.youtube.com/watch?v=-AqGC6qa2rU&t=0m19s",
+                                        "text": "BYU—Tips for Working Collaboratively on the FamilySearch Family Tree—60:37 - 2022",
+                                        "type": "video"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Other Trees: Learn how to share photos and documents that pertain to people in other family trees.",
+                                "links": [
+                                    {
+                                        "link": "https://www.youtube.com/watch?v=0_blE1i02jA",
+                                        "text": "RT—Putting Things In Their Place: Paying it forward in the digital age—23:42 - 2022",
+                                        "type": "video"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Organize or participate in family gatherings that promote family history.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Family history gatherings are opportunities to learn more about family members while also sharing genealogical information and planning how to distribute future research that needs to be done.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Participate in the planning for a family history reunion.</li><li>* Proficient: Lead the planning for a family history reunion.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/6-gathering.JPG"
+                    ],
+                    "text": "<ol><img src=\"img/6-gathering.JPG\" alt=\"\" height=\"350px\" border=\"1\" style=\"float:right; margin-right:0px; margin-top: 16px; margin-left: 16px;\"><li>Plan for successful family history reunions. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://www.genealogy.com/articles/research/1_sizesp.html\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">GC—Tips for the Size and Shape of Your Reunion</span></a><br><span class=\"star notranslate\">☆</span><a href=\"http://www.genealogy.com/articles/research/1_share.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"><span class=\"re\"> GC—Sharing Family History at the Reunion</span></a> </li><br><li>Involve and include more family members in family history activities. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://www.genealogy.com/articles/research/34_reunion.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">GC—What Should We Do at the Reunion?</span></a>  </li><br><li>Here are some tips for including family history in your next reunion.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/blog/en/3-tips-including-family-history-family-reunion/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS: 3 Tips for Family History at Your Next Reunion - 2016</span></a> </li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Join an online user group or forum for a genealogy website.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=eFmb3qYcaHI#t=0m56s\" target=\"_blank\">What is an online query?</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=eFmb3qYcaHI#t=1m39s\" target=\"_blank\">Queries are organized ...</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=eFmb3qYcaHI#t=2m34s\" target=\"_blank\">Surnames</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=eFmb3qYcaHI#t=3m45s\" target=\"_blank\">Mailing lists</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=eFmb3qYcaHI#t=7m58s\" target=\"_blank\">Message boards</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=eFmb3qYcaHI#t=14m47s\" target=\"_blank\">GenForum</a></li></ul></span>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/7-2d.jpg"
+                    ],
+                    "text": "<p> Here are some noted user groups and online communities for genealogy and family history:</p><ol><img src=\"img/7-2d.jpg\" alt=\"\" width=\"350px\" border=\"1\" style=\"float:right; margin-right:0px; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li> Use the Member Connect feature in Ancestry to stay in touch with other Ancestry members who are researching common ancestors. For details on Member Connect, see <a class=\"lk\" href=\"http://community.ancestry.com/memberconnect/\" target=\"_blank\">this page.</a> </li><li>For tips on writing queries to online help groups, read this article. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://olivetreegenealogy.blogspot.com/2017/05/good-query-vs-bad-query-which-do-you.html\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">OT—Good Query vs. Bad Query - 2017</span></a></li><br><li> Explore the <a class=\"lk\" href=\"http://www.genealogy.com/forum/\" target=\"_blank\">GenForum Message Board</a> for answers to questions.</li><li> On Facebook, contact the <a class=\"lk\" href=\"https://www.facebook.com/groups/RootsMagicUsers/\" target=\"_blank\">RootsMagic user group</a> or the <a class=\"lk\" href=\"https://www.facebook.com/groups/372110202980118/\" target=\"_blank\">Legacy Family Tree user group</a> for answers to questions on their respective software versions.</li><li>Learn how to use mailing lists and message boards to help solve your research brick walls. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=eFmb3qYcaHI\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">RT—Crowdsourcing Your Brick Walls, Part 1—16:50 - 2021</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('crowd');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"crowd\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=eFmb3qYcaHI#t=0m56s\" target=\"_blank\">What is an online query?</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=eFmb3qYcaHI#t=1m39s\" target=\"_blank\">Queries are organized ...</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=eFmb3qYcaHI#t=2m34s\" target=\"_blank\">Surnames</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=eFmb3qYcaHI#t=3m45s\" target=\"_blank\">Mailing lists</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=eFmb3qYcaHI#t=7m58s\" target=\"_blank\">Message boards</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=eFmb3qYcaHI#t=14m47s\" target=\"_blank\">GenForum</a></li></ul></span></div><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/eFmb3qYcaHI?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Create or join a family association.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Family associations are an additional source of information that build connections and are a way of sharing information with the people it is most relevant to.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-woman-collaborate.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/y-woman-collaborate.jpg\" alt=\"\" width=\"350px\" border=\"1\" style=\"float:right; margin-right:0px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Read the article for an introduction to family associations. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://www.genealogy.com/articles/research/26_famas.html\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">GC—Family Associations 101</span></a></li><br><li>Learn about effective ways to run a family association. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://www.genealogy.com/articles/research/26_runfm.html\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">GC—Running a Family Association</span></a> </li><br><li>Create a Facebook group for your family. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/blog/en/facebook-family-historywhat-match/\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Facebook and Family History - 2016</span></a> </li><br><li>Publish a periodical for your family association. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://www.genealogy.com/articles/research/26_wylie1.html\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">GC—Publishing a One-Family Periodical</span></a></li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Publish a Family History",
+        "name": "Publish a Family History",
+        "section_name": "Publish a family history.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Decide on a Table of Contents for the history.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>A Table of Contents should focus on topics, people, or places.</li><li>It should be organized and labelled appropriately, since it is the first thing people will look at when searching for information.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Proficient: Draft an effective Table of Contents for a family history book.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-toc.jpg"
+                    ],
+                    "text": "<p>Be sure to spend adequate time planning, writing, and revising the Table of Contents, as it's the foundation for organizing the work that will be published.</p><ol><img src=\"img/y-toc.jpg\" alt=\"\" width=\"350px\" border=\"0\" style=\"float:right; margin-right:0px; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Select the ancestors who will be highlighted in the history.</li><li>Select the topics to be included, for each ancestor and in general. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://www.genealogy.com/articles/research/21_neill.html\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">GC—Choose Your Family Book's Focus</span></a><br><span class=\"star notranslate\">☆</span><a href=\"http://www.genealogy.com/articles/research/21_prze.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">GC—Creating a Family History Book</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Write the history.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Incorporate information and stories in such a way that makes your family history compelling to read while also giving relevant information.</li><li>Read and watch articles about writing a family history to figure out the approach you would  like to take.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=QysdG8rd6QE#t=2m06s\" target=\"_blank\">What is protected by copyright?</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=QysdG8rd6QE#t=12m37s\" target=\"_blank\">Who owns the copyright?</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=QysdG8rd6QE#t=17m27s\" target=\"_blank\">When does copyright protection expire</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=QysdG8rd6QE#t=25m58s\" target=\"_blank\">How can I use copyrighted works safely?</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=QysdG8rd6QE#t=35m2s\" target=\"_blank\">Why do I need to worry about copyright?</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=QysdG8rd6QE#t=45m26s\" target=\"_blank\">Common copyright myths</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=QysdG8rd6QE#t=49m5s\" target=\"_blank\">Additional resources</a></li></ul></span>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Write several chapters of a family history book or publication.</li><li>* Proficient: Complete, or nearly complete, the first draft of a family history book or publication.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/6-write.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/6-write.jpg\" alt=\"\" width=\"350px\" border=\"1\" style=\"float:right; margin-right:0px; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li><span class=\"g\">Steps</span>: Here are 10 steps to writing an effective family history. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.thoughtco.com/steps-to-writing-your-family-history-1422877\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">TH—10 Steps to Writing Your Family History - 2019</span></a> <br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/rootstech/session/writing-and-publishing-a-family-history-10-steps-penelope-stratton\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">RT—Writing and Publishing a Family History: 10 Steps—58:48 - 2019</span></a></li><br><li>Watch this video for steps to writing and publishing a family history. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://www.americanancestors.org/education/learning-resources/read/writing-publishing\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">AA—10 Steps to Publishing a Family History—62:00</span></a></li><br><li><span class=\"g\">Tips</span>: Watch this video for tips on writing content for your family history project. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://www.byutv.org/player/172a35b3-3e43-4f9c-b90e-79e593d26360/ancestors-writing-a-family-history\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">BYU—Writing a Family History—24:43</span></a> </li><br><li>Read this article for additional tips on writing content for your family history project. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://www.genealogy.com/articles/research/74_sharon.html\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Secret to Writing a Compelling Family History</span></a> </li><br><li><span class=\"g\">Copyright</span>: Understand the basic copyright issues for genealogists. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=QysdG8rd6QE&amp;t=0m53s\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">AA—Copyright Essentials for Genealogists—50:39 - 2016</span></a> &nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('copy');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"copy\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=QysdG8rd6QE#t=2m06s\" target=\"_blank\">What is protected by copyright?</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=QysdG8rd6QE#t=12m37s\" target=\"_blank\">Who owns the copyright?</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=QysdG8rd6QE#t=17m27s\" target=\"_blank\">When does copyright protection expire</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=QysdG8rd6QE#t=25m58s\" target=\"_blank\">How can I use copyrighted works safely?</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=QysdG8rd6QE#t=35m2s\" target=\"_blank\">Why do I need to worry about copyright?</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=QysdG8rd6QE#t=45m26s\" target=\"_blank\">Common copyright myths</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=QysdG8rd6QE#t=49m5s\" target=\"_blank\">Additional resources</a></li></ul></span></div><br><br><iframe width=\"330\" height=\"220\" src=\"https://www.youtube.com/embed/QysdG8rd6QE?start=53;rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br><span class=\"star notranslate\">☆</span><a href=\"https://www.archives.com/experts/macentee-thomas/copyright-and-genealogy.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">AR—What You Should Know About Copyright And Genealogy - 2012</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "(Optional) Publish the history.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-publish.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/y-publish.jpg\" alt=\"\" width=\"350px\" border=\"0\" style=\"float:right; margin-right:0px; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Here are some ideas for publishing your family history book. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.thoughtco.com/publishing-your-family-history-book-1422316\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">TH—Publishing Your Family History Book - 2019</span></a></li><br><li>Here are some helpful tips for publishing a family history. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.archives.com/experts/morton-sunny-mcclellan/publish-your-family-history-without-being-overwhelmed.html\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">AR: Publish Your Family History Without Being Overwhelmed - 2013</span></a> <br><span class=\"star notranslate\">☆</span><a href=\"https://www.americanancestors.org/education/learning-resources/read/writing-publishing\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">AA: Writing &amp; Publishing Your Family History</span></a> </li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "(Optional) Build a family history website to share information.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li> Watch these videos to learn how to build a family history website using the Weebly.com platform. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=IlwmYdzlaA8\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">Part One—11:23 - 2012</span></a><br><br><iframe width=\"330\" height=\"220\" src=\"https://www.youtube.com/embed/IlwmYdzlaA8?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=hlTlWsga5zc\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\">  <span class=\"re\">Part Two—14:12 - 2012</span></a><br><br><iframe width=\"330\" height=\"220\" src=\"https://www.youtube.com/embed/hlTlWsga5zc?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=BW2QilIfdXM\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">Part Three—32:21 - 2012</span></a><br><br><iframe width=\"330\" height=\"220\" src=\"https://www.youtube.com/embed/BW2QilIfdXM?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li>Read this article on safeguarding information as you publish. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://genealogytoday.com/guide/thepast/website.html\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">GT—Organizing the Past: Your Website</span></a> </li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

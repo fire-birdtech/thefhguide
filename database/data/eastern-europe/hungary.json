@@ -1,0 +1,278 @@
+[
+    {
+        "nav_name": "Research",
+        "name": "Research ",
+        "section_name": "Learn about Hungarian research.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=Y1ME5FhA9-o\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Hungarian genealogy.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for research records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-hun-over.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/fishermen-s-bastion-hungary-budapest-377906/\" target=\"_blank\"> <img src=\"img/x-hun-over.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; ; border:1px solid #000; padding:0px;\"></a>  <li><span class=\"g\">Basics</span>: Learn the basics of Hungarian research in these articles.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Hungary_Beginning_Research\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Hungary Research</span></a></li><br><li>Learn more about tracing Hungarian lines. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.pricegen.com/researching-hungarian-family-lines/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">PR—Researching the Hungarian Family Lines</span></a><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://broadcast.lds.org/elearning/fhd/Community/en/FamilySearch/Hungary/How%20to%20Trace%20Hungarian%20Ancestors.pdf\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—How to Trace Hungarian Ancestors</span></a></li><br><li><span class=\"g\">Tips</span>: Learn tips and strategies for Hungarian research.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Hungary_Beginning_Research\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Research in Greater Hungary</span></a></li><br><li><span class=\"g\">Town of Origin</span>: Learn how to find the town of origin for your Hungarian ancestor. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Hungary_Finding_Town_of_Origin\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Hungary Finding Town of Origin</span></a></li><br><li><span class=\"g\">Correspondence</span>: Use this guide for corresponding with Hungarian organizations about genealogy resources. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Hungary_Letter_Writing_Guide\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Hungary Letter Writing Guide</span></a></li><br><br><h5>Records</h5><li><span class=\"g\">Record Finder</span>: Use the Hungary Record Finder to understand record types for research. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Hungary_Record_Finder\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Hungary Record Finder</span></a></li><br><li><span class=\"g\">Military</span>: Learn about Austro-Hungarian military records in this article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://ahmilitary.blogspot.com/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Austro-Hungarian Army Records - 2018</span></a></li><br></ol><h5>Records</h5>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore additional resources for research.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-hun-over1.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/photos/keszthely-castle-festetics-hungary-4371727/\" target=\"_blank\"> <img src=\"img/x-hun-over1.jpg\" width=\"100%\" ;=\"\" style=\"float:right; margin-top: 8px; margin-left: 16px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a>    <li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.bogardi.com/gen/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Genealogy Research in Hungary</a> site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.barbsnow.net/Hungary.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Guide to Researching Hungarian Ancestors</a> site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genealogia.hu/english/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Forum and Web Archive of Hungarian Genealogy</a> site.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Hungarian names and genealogy terms.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-hun-lang.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/girl-child-read-book-out-nature-1423501/\" target=\"_blank\"> <img src=\"img/x-hun-lang.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; \"></a>  <li>Learn about Hungarian personal names in this FamilySearch Wiki article. For more information, follow the links at the bottom of the article.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Hungary_Names_Personal\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Hungary Personal Names</span></a></li><br><li>Review the Hungary Genealogical Word List.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Hungary_Genealogical_Word_List\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Hungary Genealogical Word List</span></a></li><br><span id=\"counties\"> </span><li>Explore Hungarian surname distribution on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://forebears.io/hungary#surnames\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Forebears.io site</a>.</li><li>Explore Hungarian surname lists on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genealogy.hu/surnames.php\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Genealogy.hu</a> site.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.geneanet.org/country/search-Hungary-HUN\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Geneanet site</a> for Hungarian surnames.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Vital Records",
+        "name": "Vital Records ",
+        "section_name": "Learn about Hungary vital records and civil registration.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=Y1ME5FhA9-o\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Hungary vital records.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-hun-vit.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/esztergom-street-alley-romance-1437763/\" target=\"_blank\"> <img src=\"img/x-hun-vit.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; \"></a>  <li><span class=\"g\">Civil Registration</span>: Learn about Hungary civil registration in this FamilySearch Wiki article.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Hungary_Civil_registration\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Hungary Civil Registration</span></a> </li><br><li>Learn how to get <a class=\"lk\" href=\"https://losangeles.mfa.gov.hu/eng/page/obtaining-birth-marriage-divorce-or-death-certificates-from-hungary\" target=\"_blank\">vital records certificates</a> from Hungary.</li><li><span class=\"g\">Birth, Marriage, Death</span>: Learn how to translate and work with birth records.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://janesgenes.com/translating-civil-records-births-1895-present/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Translating Civil Records – Births (1895-Present) - 2018</span></a> </li><br><li>Learn how to translate and work with marriage records.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://janesgenes.com/translating-civil-records-marriages-1895-present/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Translating Civil Records – Marriages (1895-Present) - 2018</span></a> </li><br><li>Learn how to translate and work with death records.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://janesgenes.com/translating-civil-records-deaths-1895-present/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Translating Civil Records – Deaths (1895-Present) - 2018</span></a> </li><br><li><span class=\"g\">Forebears.io</span>: Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://forebears.io/hungary\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Forebears.io site</a> for Hungarian records.</li><li><span class=\"g\">Obituaries</span>: Learn about Hungary obituaries in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Hungary_Obituaries\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Hungary Obituaries</span></a> </li><br><li><span class=\"g\">Adoption</span>: Read these articles for tips on adoption research in Hungary. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://janesgenes.com/adoptee-guide-getting-started/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Adoptee Guide, Part 1: Getting Started - 2018</span></a> <br><span class=\"star notranslate\">☆</span><a href=\"https://janesgenes.com/adoptee-guide-part-2-dna-testing/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Adoptee Guide, Part 2: DNA Testing - 2018</span></a></li><br></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Census Records",
+        "name": "Census Records ",
+        "section_name": "Learn about Hungary census records.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=Y1ME5FhA9-o\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Hungarian census records.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-hun-cen.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/photos/hungary-budapest-map-geography-1896330/\" target=\"_blank\"> <img src=\"img/x-hun-cen.jpg\" width=\"100%\" ;=\"\" style=\"float:right; margin-top: 8px; margin-left: 16px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a>    <span id=\"counties\"> </span><li>Learn about Hungary census records in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Hungary_Census\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Hungary Census</span></a> </li><br><li>Here is a guide to Hungarian census materials preserved in archives.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.demogr.mpg.de/papers/working/wp-2011-020.pdf\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Census and census-like material preserved in the archives of Hungary, Slovakia and Transylvania (Romania), 18-19th centuries - 2011</span></a> </li><br><li>Learn about census records in Slovakia and pre-1918 Hungary.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.iabsi.com/gen/public/CensusMain.htm\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Magyar (Hungarian) Census Tips</span></a></li><br><li>Here are some tips for using the 1869 Hungarian census.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ics.uci.edu/~dan/genealogy/Miller/resource/1869censustips.htm\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">1869 Hungarian Census Tips</span></a></li><br><li>See these <a class=\"lk\" href=\"https://www.google.com/search?q=hungary+census+records&amp;source=lnms&amp;tbm=isch&amp;sa=X\" target=\"_blank\"> examples of Hungarian census records</a>.</li><br></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Archives and Libraries",
+        "name": "Archives and Libraries ",
+        "section_name": "Learn about Hungary archives and libraries.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=Y1ME5FhA9-o\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Hungarian archives and libraries.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about Hungarian archives and libraries in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Hungary_Archives_and_Libraries\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Hungary Archives and Libraries</span></a></li><br><li>Learn about the Pest County archives in Budapest. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.legacytree.com/blog/pest-county-archives-hungary\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">LT—Legacy Tree Onsite: Genealogy Research at the Pest County Archives in Budapest, Hungary</span></a></li><br><span id=\"counties\"> </span><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.archivesportaleurope.net/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Archives Portal Europe</a> site.</li><li>See also the <a class=\"lk\" href=\"https://familysearch.org/wiki/en/Hungary_Archives_and_Libraries#Miscellaneous_Archives_and_Libraries\" target=\"_blank\">Miscellaneous Archives and Libraries</a> section of the article.</li><li>Explore the  <a class=\"lk\" href=\"http://mlp.archivportal.hu/en/archives-of-hungary/\" target=\"_blank\">Hungarian Archives Portal</a> site for a variety of research databases.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Church Records",
+        "name": "Church Records ",
+        "section_name": "Learn about Hungary church and religious records.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=Y1ME5FhA9-o\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Hungarian church records.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-hun-church.jpg"
+                    ],
+                    "text": "<ol><a href=\"x-hun-church\" target=\"_blank\"> <img src=\"img/x-hun-church.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; ; border:1px solid #000; padding:0px;\"></a>  <li>Learn about Hungary church records in this FamilySearch Wiki article.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Hungary_Church_Records\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Hungary Church Records</span></a> </li><br><li><span class=\"g\">Parish Records</span>: Learn how to find old parish and civil records in Hungary.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://janesgenes.com/locating-old-parish-and-civil-records/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Locating Old Parish and Civil Records - 2018</span></a> </li><br><li>Learn how to translate and work with parish birth records in Hungary.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://janesgenes.com/translating-parish-records/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Translating Parish Records - Births - 2018</span></a> </li><br><li>Learn how to translate and work with parish marriage records in Hungary.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://janesgenes.com/translating-parish-records-marriages/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Translating Parish Records - Marriages - 2018</span></a> </li><br><li>Learn how to translate and work with parish death records in Hungary.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://janesgenes.com/translating-parish-records-deaths/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Translating Parish Records - Deaths - 2018</span></a> </li><br><li><span class=\"g\">Jewish</span>: Explore Jewish genealogy in Hungary in this guide from the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://libguides.cjh.org/genealogyguides/hungary/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Center for Jewish History site</a>.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://bloodandfrogs.com/encyclopedia/hungary\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Jewish Genealogy Encyclopedia</a> for Jewish resources in Hungary.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.jewishgen.org/databases/Hungary/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">JewishGen Hungary database</a>.</li></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Emigration and Immigration",
+        "name": "Emigration and Immigration",
+        "section_name": "Learn about Hungarian emigration and immigration.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=Y1ME5FhA9-o\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Hungarian emigration.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li><span class=\"g\">Basics</span>: Learn about Hungary emigration and immigration in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Hungary_Emigration_and_Immigration\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Hungary Emigration and Immigration</span></a></li><br><li>Learn about immigration history and demographics in this Wikipedia article.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Hungarian_Americans\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Wikipedia: Hungarian Americans</span></a></li><br><li><span class=\"g\">Resources</span>: Learn how to trace your Hungarian immigrant ancestors in this article from JanesGenes.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://janesgenes.com/identifying-your-ancestors-birthplace/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Identifying Your Ancestor’s Birthplace - 2018</span></a></li><br><li> Trace Hungarian immigrants from 1893-1913 on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.bogardi.com/gen/g034.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Radix site</a>.</li><span id=\"counties\"> </span></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Maps and Gazetteers",
+        "name": "Maps and Gazetteers ",
+        "section_name": "Learn about Hungary maps and gazetteers.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=Y1ME5FhA9-o\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Hungary gazetteers.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-hun-map.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://commons.wikimedia.org/wiki/File:1770_Janvier_Map_of_Hungary,_Romania,_Transylvania,_Moldova,_Croatia_and_Bosnia_-_Geographicus_-_Hongrie-janvier-1770.jpg\" target=\"_blank\"> <img src=\"img/x-hun-map.jpg\" alt=\"\" width=\"350px\" style=\"float:right; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"></a>  <li><span class=\"g\">Gazetteers</span>: Learn about Hungary gazetteers in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Hungary_Gazetteers\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Hungary Gazetteers</span></a></li><br><li>Learn about village lists and gazetteers for Hungary. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://janesgenes.com/home/locations/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Village Lists and Gazetteers - 2018</span></a></li><br><li><span class=\"g\">Map</span>: See an <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Hungary_Genealogy#Hungary_Clickable_Map\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">interactive map</a> for Hungary counties.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Hungary map resources.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.davidrumsey.com/luna/servlet/view/search?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&amp;q=hungary&amp;search=Go\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">David Rumsey collection</a> of Hungarian maps.</li><span id=\"counties\"> </span><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.oldmapsonline.org/en/Hungary\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Old Maps Online site</a> for Hungary maps.</li><li>Explore historical map links on the <a class=\"lk\" href=\"https://janesgenes.com/home/maps-of-austria-hungary/\" target=\"_blank\">JanesGenes site</a>.</li><li>Explore the <a class=\"lk\" href=\"http://www.hungarianvillagefinder.com/\" target=\"_blank\">Hungarian Village Finder</a> site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://commons.wikimedia.org/wiki/Atlas_of_Hungary\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Atlas of Hungary</a> on the Wikipedia site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://commons.wikimedia.org/wiki/Category:Old_maps_of_Hungary\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Old Maps of Hungary</a> on the Wikipedia site.</li><li>Explore map resources on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://maps.hungaricana.hu/en/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Hungaricana</a> site.</li><li>Explore maps for the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://feefhs.org/map/austro-hungarian-empire\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Austro-Hungarian empire</a> on the FEEFHS site.</li><li>Explore a <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.fallingrain.com/world/HU/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">directory of Hungary cities, towns, and regions</a> in the Falling Rain site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Newspapers",
+        "name": "Newspapers ",
+        "section_name": "Learn about Hungary newspapers.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=Y1ME5FhA9-o\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Hungary newspapers.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Find links to <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Wikipedia:List_of_online_newspaper_archives#Hungary\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Hungarian newspapers</a> on the Wikipedia site.</li> <li>Search Hungarian newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.onlinenewspapers.com/hungary.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">onlinenewspapers.com</a> site.</li><span id=\"counties\"> </span><li>Search Hungarian newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.world-newspapers.com/hungary.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">world-newspapers.com</a> site.</li><li>Search Hungarian newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.abyznewslinks.com/hunga.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">ABYZ News Links</a> site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Websites",
+        "name": "Websites ",
+        "section_name": "Explore additional websites for research.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=Y1ME5FhA9-o\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "There are a number of websites with valuable resources for Hungarian research.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/laptop-fingers1.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/laptop-fingers1.jpg\" alt=\"\" width=\"350px\" style=\"float:right; margin-top: 6px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Explore links in the <a class=\"lk\" href=\"https://www.familysearch.org/en/wiki/Hungary_Websites\" target=\"_blank\">FamilySearch Wiki</a>.</li><li>Explore links in <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cyndislist.com/eastern-europe\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Cyndi's List</a>.</li><span id=\"counties\"> </span><li>Explore essential links for <a class=\"lk\" href=\"https://internet-genealogy.com/austriahungary25.htm\" target=\"_blank\">Austria-Hungary</a>.</li><li>Explore links in <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genealogylinks.net/europe/hungary/index.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Genealogylinks.net</a>.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.findagrave.com/cemetery-browse/Hungary?id=country_21\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Find A Grave site</a> for cemetery records.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://billiongraves.com/site-map?country=Hungary\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">BillionGraves site</a> for cemetery records.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Search Records",
+        "name": "Search Records ",
+        "section_name": "Search records from Hungary.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=Y1ME5FhA9-o\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Use QUIKLinks, Partners, and GenealogyInTime to quickly search the most common record collections for Hungary.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/laptop-hands.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/laptop-hands.jpg\" alt=\"\" width=\"350px\" style=\"float:right; margin-top: 6px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>QUIKLinks are indicated by lightning-bolt icons in the Goals above.They point to collections with 50,000 or more records. When you click a QUIKLink icon, scroll down on the resulting page to see the QUIKLinks.</li><li>In the Partners section (near the top of the page), explore additional record collections in FamilySearch, Ancestry, Findmypast and MyHeritage.</li><span id=\"counties\"> </span><li>Explore the FamilySearch page for <a class=\"lk\" href=\"https://familysearch.org/wiki/en/Hungary_Online_Genealogy_Records\" target=\"_blank\">Hungarian online record collections</a></li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Get Help",
+        "name": "Get Help ",
+        "section_name": "Get help with your Hungary research.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=Y1ME5FhA9-o\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Use Facebook pages to get answers to your questions.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/fh-help.jpg"
+                    ],
+                    "text": "<ol><a href=\"img/fh-help.jpg\" target=\"_blank\"> <img src=\"img/fh-help.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 350px;\"></a> <li>Visit the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.facebook.com/HungaryExchange/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Hungary Exchange page</a> on Facebook.</li><li>Visit the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.facebook.com/groups/HungarianGenealogyGroup/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Hungary Genealogy Group</a> on Facebook.</li><li>Visit the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.facebook.com/groups/CentralEuropeGenealogyResearchCommunity/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Central Europe Genealogy Research Community</a> on Facebook.</li><li>See the <a class=\"lk\" href=\"http://socialmediagenealogy.com/genealogy-on-facebook-list/\" target=\"_blank\">Genealogy on Facebook list</a> of Facebook groups dedicated to helping with research for Hungary.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Join a mailing list or message board for Hungary research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cyndislist.com/eastern-europe/social/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Hungary research mailing lists</a> on Cyndi's List.</li><li>Use the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ancestry.com/boards/localities.ceeurope.hungary/mb.ashx\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Ancestry message boards</a> to read or post questions about Austria research.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://community.familysearch.org/s/group/0F93A000000LfUCSA0/austrohungarian-empire\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">FamilySearch community</a> to read or post questions about U.S. adopted ancestors.</li><li>Explore Hungary research questions in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://genealogy.stackexchange.com/questions/tagged/hungary\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Genealogy Stack Exchange</a>.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Hungary genealogy societies.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cyndislist.com/eastern-europe/societies/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Hungary genealogy society sites</a> on Cyndi's List.</li><li>Get help at a <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Category:Hungary_Family_History_Centers\" target=\"_blank\">family history center in Hungary</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Geo/Culture/History",
+        "name": "Geography, Culture, and History ",
+        "section_name": "Learn about the geography, culture, and history of Hungary. \n\t\t\t\t\t\t\n\t\t\t\t\t\t",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=Y1ME5FhA9-o\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Explore websites and videos.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/c-hungary.jpg"
+                    ],
+                    "text": "<h5>Reference</h5><ol><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Hungary_History\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">FamilySearch: History</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Hungary\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Wikipedia</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.britannica.com/place/Hungary\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Encyclopedia Britannica</a></li></ol><h5>For Kids</h5><ol><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ducksters.com/geography/country.php?country=Hungary\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Ducksters</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=ABrkgCdsSaM\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">YouTube: Why Is Hungary Called Hungary?</a></li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

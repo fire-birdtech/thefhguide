@@ -1,0 +1,39 @@
+[
+    {
+        "nav_name": "Basic Research",
+        "name": "Basic Research",
+        "section_name": "Find resources for Huntingdonshire research.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Do basic research.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-en-hun-church.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://en.wikipedia.org/wiki/All_Saints%27_Church,_Huntingdon#/media/File:All_Saints_Church,_Huntingdon_-_geograph.org.uk_-_230352.jpg\" target=\"_blank\"> <img src=\"../img/x-en-hun-church.jpg\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li>Learn about Huntingdonshire resources on the <a class=\"lk\" href=\"https://www.genuki.org.uk/big/eng/HUN\" target=\"_blank\">GenUKI</a> site.</li><li>Explore Huntingdonshire library and archive resources on the <a class=\"lk\" href=\"http://discovery.nationalarchives.gov.uk/details/a/A13532500\" target=\"_blank\">National Archives</a> site.</li><li>Learn about civil registration in Huntingdonshire. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/Huntingdonshire_Civil_Registration\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki: Huntingdonshire Civil Registration</span></a></li><br><li>Learn about probate records in Huntingdonshire. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/Huntingdonshire_Probate_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki: Huntingdonshire Probate Records</span></a></li><br><li>Explore a variety of records on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ukbmd.org.uk/index.php?county=117&amp;form_action=county\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">UK BMD site</a>.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Huntingdonshire church and cemetery records.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about church records in Huntingdonshire. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/Huntingdonshire_Church_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki: Huntingdonshire Church Records</span></a></li><br><li>Locate Huntingdonshire parishes. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/Huntingdonshire_Parishes\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki: Huntingdonshire Parishes</span></a></li><br><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://joinermarriageindex.co.uk/marriage-records/Huntingdonshire/\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">Joiner Marriage Index</a> for Huntingdonshire.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.dustydocs.com/county/17/huntingdonshire.html?country_id=1\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">Dusty Docs site</a> for parish and town records.</li></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Huntingdonshire historical maps and history.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about map resources in Huntingdonshire. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/Huntingdonshire_Maps\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki: Huntingdonshire Maps</span></a></li><br><li>Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://freepages.rootsweb.com/~genmaps/genealogy/genfiles/COU_Pages/ENG_pages/hun.htm\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">historical maps</a> on the GenMaps site.</li><li>Learn about Huntingdonshire history on Wikipedia. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://en.wikipedia.org/wiki/History_of_Huntingdonshire/\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">History of Huntingdonshire</span></a></li><br><li>Go into more depth with Huntingdonshire history on the British History Online site.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.british-history.ac.uk/vch/hunts\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Victoria County History series</span></a></li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

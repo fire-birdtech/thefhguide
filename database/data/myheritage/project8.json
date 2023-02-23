@@ -1,0 +1,642 @@
+[
+    {
+        "nav_name": "Navigate Your Tree",
+        "name": "Navigate Your Tree",
+        "section_name": "Navigate your MyHeritage tree.",
+        "summary": "<p>Navigating your MyHeritage Tree is essential to finding ancestors, viewing and updating their information, and producing charts and reports.</p>",
+        "choices": [
+            {
+                "name": "Change your screen view to see different ancestors.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Move the view of your tree.</li><li>Use different zoom levels.</li><li>Use the radar feature to see other areas of your tree.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Proficient: Move around your tree, center the view, and zoom in and out on several parts of your tree.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/a-three-line.png"
+                    ],
+                    "text": "<p><i>Note</i> : You can download the MyHeritage App to your device from the Apple Store or Google Play.</p><ol><img src=\"img/mh/a-three-line.png\" width=\"200px;\" style=\"float:right; border:1px solid #000; margin-left: 20px; margin-top: 8px;\"><li>In the Home page, tap <b>Tree</b>, or tap the three-line menu (upper left) and select <b>Family Tree</b>. The default is Family view. Here are some viewing essentials:<ul style=\"margin-left:-66px;\"><li><i>Moving</i>—Swipe to see other parts of your family tree.</li><li><i>Zoom</i>—Pinch to zoom in, or spread to zoom out. In a high zoom level, only first names are displayed; at maximum zoom, only boxes and lines are displayed.</li><li><i>Centering</i>—To center a person in the view, tap the Person card. Tap above the Person window that appears, to close it.</li></ul></li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "To learn about various features in the MyHeritage app, watch these videos.",
+                                "links": [
+                                    {
+                                        "link": "https://familytreewebinars.com/download.php?webinar_id=1018",
+                                        "text": "MH—MyHeritage Mobile App: New Features—46:00",
+                                        "type": "video"
+                                    },
+                                    {
+                                        "link": "https://www.youtube.com/watch?v=Xz4_uCE4Gac",
+                                        "text": "RT—Sharing Information between FamilySearch and Ancestry—18:37 - 2021",
+                                        "type": "video"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Open different branches of your family tree to view.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Open several different branches of your tree as explained in this Choice.</li><li>* Proficient: Same as Good; also center the view on one of the people, and note the total number of people in your current tree view. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/tree-branch.JPG"
+                    ],
+                    "text": "<ol><p>Some direct-line ancestors can be selected for viewing their branches of the family tree.</p><img src=\"img/mh/tree-branch.JPG\" width=\"200px\" style=\"float:right; margin-left:16px; padding:0px;\"><li>Find an ancestor with a \"branch\" icon (small blue and pink rectangles above the Person card, connected by lines). </li><li>Tap the blue icon to open male branch for the ancestor, or the pink icon to open the female branch. That ancestor is now centered in the view. <i>Note</i> : Opening a branch also closes the branch for the ancestor's spouse.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Search for people in your family tree.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Open several different branches of your tree as explained in this Choice.</li><li>* Proficient: Same as Good; also center the view on one of the people, and note the total number of people in your current tree view. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/a-find-person.png"
+                    ],
+                    "text": "<ol><img src=\"img/mh/a-find-person.png\" width=\"250px;\" style=\"float:right; border:1px solid #000; margin-left: 20px; margin-top: 8px;\"><li>In the upper left, tap \"Find a person\".</li><li>Type the name of the person to find.</li><li>Select the name from the drop-down list. If you are in Family View, the person is centered in the screen; if you are in Pedigree View (see Choice D below), the person becomes the first person at the left of the pedigree.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Use Pedigree view.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Open several different branches of your tree in Pedigree view.</li><li>* Proficient: Same as Good; also select a different person to be the first one in the Pedigree view. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/a-pedigree-view.png"
+                    ],
+                    "text": "<ol><img src=\"img/mh/a-pedigree-view.png\" width=\"250px;\" style=\"float:right; border:1px solid #000; margin-left: 20px; margin-top: 8px;\"><li>In the upper-right, tap the view icon and select <b>Pedigree view</b>. Ancestors are now listed in generations from left to right.</li><li>Swipe to move the view.</li><li>Tap a name to see the Person window, with additional options.</li><li>To see additional generations, if available, tap a right-arrow (right side of the screen). </li><li>To select a person as the first one in the Pedigree view, <br>a) Tap the Person card; <br>b) In the Info dialog on the left, tap <b>More</b>; and <br>c) Tap <b>View his (her) tree</b>. Or, you can select a name from the \"Immediate Family\" section in the Info dialog.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "View Profile information for a person.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: View details in the Profile and Facts screen for at least two persons in your tree.</li><li>* Proficient: Same as Good, and view the complete timelines for each person. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/a-profile.png"
+                    ],
+                    "text": "<ol><img src=\"img/mh/a-profile.png\" width=\"250px;\" style=\"float:right; border:1px solid #000; margin-left: 20px; margin-top: 8px;\"><li>Tap a Person card.</li><li>In the <b>Info</b> screen, scroll down through the Facts list to see chronological events in the person's life.</li><li>Tap the <b>Relatives</b> tab to see available entries for the person's spouse, children, siblings, grandchildren, grandparents, uncles, aunts, and in-laws. You can tap any of these entries to open the profile for that person.</li><li>To see a timeline of events for the person, <br>a) Tap the clock icon (upper right); and <br>b) Swipe left to start the timeline. If available, event information is given for births, marriages, and deaths for relatives. Progressive years for events are shown on the timeline arc (bottom of the screen).</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Use the List view to display a list of people in your tree.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Display lists of people in your tree.</li><li>Sort lists of people.</li><li>Control what names are displayed in a list.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Open the People list and explore the Profiles for at least three people. </li><li>* Proficient: Same as Good; also sort the People list by relationship and then search for a  name in the list. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/a-list.png"
+                    ],
+                    "text": "<ol><img src=\"img/mh/a-list.png\" width=\"250px;\" style=\"float:right; border:1px solid #000; margin-left: 20px; margin-top: 8px;\"><li>If you are viewing a Profile, tap the left-arrow (upper right) to close it.</li><li>In the three-dot menu (upper right), tap <b>List view</b>. A list of people in your tree is displayed, with names, birth dates, and death dates.</li><li>To show a person's Profile, tap a name in the list.</li><li>For other options, tap the dots next to a name in the list. You can choose <b>View in tree</b>, <b>Add photo</b> (see <a class=\"lk\" href=\"project-2-family-tree-mh-app04.html\" target=\"_blank\">Goal 4</a>); <b>Search records</b> (see <a class=\"lk\" href=\"project-2-family-tree-mh-app05.html\" target=\"_blank\">Goal 5</a>), or <b>Edit info</b> (see <a class=\"lk\" href=\"project-2-family-tree-mh-app02.html\" target=\"_blank\">Goal 2</a>).</li><li>To sort the list, <br>a) Tap the filter icon (upper right); <br>b) Select one of these: Relationship, First name, Last name, or Last added; and <br>c) Tap <b>Apply</b>. Sorting by Relationship also displays your relationship to each person, and up to four generations are included.</li><li>To search for a person in the list, <br>a) Tap \"Find a person\" (top of the screen); and <br>b) Type the first or last name of the person. All matching names in your tree are listed. To close the search, tap the \"x\" (upper right). </li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Edit Information, Add People",
+        "name": "Edit Person Information, Add People",
+        "section_name": "Edit person information and add people in your MyHeritage tree.",
+        "summary": "<p>Editing facts and profile information is essential to keeping your tree up to date. You can do a Quick Edit or a Profile Edit, or you can edit facts in a Person window.</p>",
+        "choices": [
+            {
+                "name": "Edit a person's information, profile, or facts, or delete the person.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Proficient: Do an edit for at least three people in your tree. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/a-profile-edit.png"
+                    ],
+                    "text": "<ol><img src=\"img/mh/a-profile-edit.png\" width=\"250px;\" style=\"float:right; border:1px solid #000; margin-left: 20px; margin-top: 8px;\"><li>In the Person window, tap the <b>Edit</b> (pencil) icon.</li><li>Change or add information for any of the fields in the screen (gender, name, birth date, death date information).</li><li>To change a person's death status, tap \"Living\" or \"Deceased\" and then tap <b>Yes</b>.</li><li>Tap the checkmark icon (upper right) to save your changes.</li><li>To delete the person from the tree, tap <b>Delete This Person</b> and then tap <b>OK</b>.</li> <li>To edit information from the Profile, open the Profile and select <b>Edit profile</b> from the three-dot menu (upper right). Then follow the steps above for editing and saving.</li><li>To edit facts, open a fact in the Profile and follow the steps above for editing and saving. You can delete a Fact here (not a person).</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Add Facts in a Profile.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Add Facts for a person in your tree. </li><li>* Proficient: Add Facts for at least three people in your tree. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/a-add.png"
+                    ],
+                    "text": "<ol><img src=\"img/mh/a-add.png\" width=\"150px;\" style=\"float:right; border:1px solid #000; margin-left: 20px; margin-top: 8px;\"><li>In a Profile, open the <b>Facts</b> tab.</li><li>Tap the orange plus icon and then tap <b>Add fact</b>.</li><li>Select a fact category from the \"Common\" section or the \"All\" section.</li><li>Fill in the fields. For date fields, you can tap the down arrow to select a calendar date. For places, type the place name and select it from the list that appears.</li><li>Tap the checkmark (upper right). The fact now appears in the Fact list.</li><li>To delete a Fact, <br>a) Open it; <br>b) Tap <b>Delete this Fact</b>; and <br>c) Tap <b>OK</b>.</li> </ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Add ancestors to your tree.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Add an ancestor to your tree and fill in personal details. </li><li>* Proficient: Same as Good, for three or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/a-add-relative.png"
+                    ],
+                    "text": "<ol><img src=\"img/mh/a-add-relative.png\" width=\"250px;\" style=\"float:right; border:1px solid #000; margin-left: 20px; margin-top: 8px;\"><li>To add a relative for someone in Family View, tap the plus sign below the Person card. For Pedigree view and List view, use the step marked \"Profile\" below.</li><li>Tap <b>Add Relative</b>.</li><li>Select the type of relative to add.</li><li>Fill in the fields. For date fields, you can tap the down arrow to select a calendar date. For places, type the place name and select it from the list that appears. If necessary, change \"Living\" to \"Deceased\" on the screen.</li><li>Tap the checkmark (upper right). The relative is added to your tree.</li><li>Profile: To add a relative using the Profile screen, <br>a) Tap the orange plus icon; <br>b) Tap <b>Add Relative</b>; <br>c) Follow the steps above for adding and saving the data.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Record Matches and Discoveries",
+        "name": "Record Matches and Discoveries",
+        "section_name": "Use Discoveries and Matches in your family tree.",
+        "summary": "<p>MyHeritage provides Discoveries that help you see how selected records may apply to your ancestors.</p>",
+        "choices": [
+            {
+                "name": "View Discoveries.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Review and accept or reject one or more discoveries for three ancestors. </li><li>* Proficient: Review and accept or reject one or more discoveries for at least five ancestors.. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/a-discoveries-list1.png",
+                        "https://www.thefhguide.com/img/mh/a-match-review.png",
+                        "https://www.thefhguide.com/img/mh/a-match-review-details.png"
+                    ],
+                    "text": "<ol><img src=\"img/mh/a-discoveries-list1.png\" width=\"250px;\" style=\"float:right; border:1px solid #000; margin-left: 20px; margin-top: 8px;\"><li>Tap the three-line menu (upper left) and select <b>Discoveries</b>, or select it from the Home page. Pending discoveries are shown in a list, with a summary of new information from matching people, and the total number of matches available for the person.You can also see the latest Discoveries at the top of your Home page.</li><li>Find an ancestor of interest in the list and tap <b>View</b> to see possible matches. The source for the matching record is shown, as well as new information for facts and relatives, if available. Remember to scroll down if there are multiple matches.</li><br><br><br><br><img src=\"img/mh/a-match-review.png\" width=\"250px;\" style=\"float:right; border:1px solid #000; margin-left: 20px; margin-top: 8px;\"><li>Tap <b>Review match</b> for one of the record matches. This screen shows the information in your tree for that person, as well as any of the following that apply:<ul style=\"margin-left:-66px;\"><li>New photo</li><li>Improved info</li><li>New info (orange text and links)</li></ul></li><li>Review the information. You can tap any orange link to see more details.</li><li>To see related records for this person, scroll down to the \"Related records\" section and tap an entry. (Swipe to see additional entries, if any).</li><li>If this is not a match for one of your ancestors, scroll down to the very end of the screen and tap <b>Reject this match</b>. To leave this match review screen, tap the left-arrow (top of the screen); or to undo the rejection, tap <b>Undo</b> (lower right).</li><img src=\"img/mh/a-match-review-details.png\" width=\"250px;\" style=\"float:right; border:1px solid #000; margin-left: 20px; margin-top: 8px;\"><li>To save the new and improved information from the record to your tree, tap <b>Confirm Match</b>and then tap <b>Save to your tree</b>. For the next few seconds you can tap <b>View profile</b> (lower right) to see the updated Profile, or you can find it later in the tree or in List view.</li><li>To return to the Discoveries screen, tap the left-arrow (top of the screen).</li><li>To add a Photo Discovery™, <br>a) In the Home screen or Discoveries screen, find a Photo Discovery if available; and <br>b) Tap <b>Review Discovery</b>; The following features are available:<ul style=\"margin-left:-88px;\"><li>Show relatives (tap to show relatvies of the person in the photo)</li><li>In matching tree (tap the info button to see details about the tree where the photo is found)</li><li>Photo (tap to enlarge)</li></ul></li><li>Tap \"Reject this Discovery\" or \"Add one photo to your tree\". If you choose to add the photo, it appears in your Family Photos album where you can open and tag it.</li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "For more information on Photo Discoveries™, read the article.",
+                                "links": [
+                                    {
+                                        "link": "https://education.myheritage.com/article/myheritage-photo-discoveries/",
+                                        "text": "MH—MyHeritage Photo Discoveries™",
+                                        "type": "document"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "View Discoveries in tree views or profiles.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Review and accept or reject one or more discoveries for two ancestors, from a tree view or profile. </li><li>* Proficient: Same as Good, for at least four ancestors.</li> </ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>In Family view or Pedigree view, tap a person card with a green icon (Smart Match) or brown icon (Record Match). This displays the Person window, where you can tap the match reviews link at the bottom to see potential matches.</li><li>In List view, find an entry in the list with an orange rectangle and tap the entry.</li> <li>In Pedigree view or Family view, <br>a) Look for a name with a green icon (Smart Match) or brown icon (Record Match); <br>b) Tap the name; and <br>c) Tap the \"Review (n) matches\" link. This displays the match list for the person.</li><li>In a person's profile, tap the green Match oval. This displays the match list for the person.</li><li>See Choice A for steps on handling Discoveries.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Filter your Discoveries list.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Sort your Discoveries list two different ways. </li><li>* Proficient: Sort your Discoveries list three different ways.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/a-match-filter.png"
+                    ],
+                    "text": "<ol><img src=\"img/mh/a-match-filter.png\" width=\"200px;\" style=\"float:right; border:1px solid #000; margin-left: 20px; margin-top: 8px;\"><li>To filter the list, tap the filter icon (upper right).</li><li>Select a discovery type (All matches, Smart Matches (matches from other MyHeritage trees), or Record Matches).</li><li>Select a status type (Pending, Confirmed, Rejected, or New).</li><li>Select a \"sort by\" type (Value or Most recent).</li><li>Tap <b>Apply</b>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Photos, Docs, Audio",
+        "name": "Add Photos and Documents",
+        "section_name": "Add photos and documents to ancestors in your tree.",
+        "summary": "<p>You can add photos and documents to ancestors in your tree, and you can tag and edit corresponding information for the items.</p>",
+        "choices": [
+            {
+                "name": "Add photos.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Add a photo for at least two people. </li><li>* Proficient: Add at least three photos and two documents, for two or more people. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/a-add.png",
+                        "https://www.thefhguide.com/img/mh/a-allow-photos.png",
+                        "https://www.thefhguide.com/img/mh/a-photos-upload.png"
+                    ],
+                    "text": "<ol><img src=\"img/mh/a-add.png\" width=\"150px;\" style=\"float:right; border:1px solid #000; margin-left: 20px; margin-top: 8px;\"><li>To add a photo to an ancestor, choose one of these methods:<ul style=\"margin-left:-88px;\"><li>Three-line menu: Tap the down-arrow next to <b>Photos</b> and then select Add photos.</li><li>Family view: Tap the plus sign at the bottom of a person card, and then tap <b>Add photos</b>.</li><li>Pedigree and list views: Access the Profile (see below).</li><li>Profile: Open a person's Profile and tap the <b>Photos</b> tab. Then tap the plus icon and select <b>Add photos</b>.</li></ul></li><img src=\"img/mh/a-allow-photos.png\" width=\"150px;\" style=\"float:right; border:1px solid #000; margin-left: 20px; margin-top: 8px;\"><li>If this is the first time you are adding a photo, tap <b>Allow</b> when asked if MyHeritage can access photos and files on your device.</li><li>A group of available photos appears. To select a photo folder on your device, tap the down-arrow (upper left) and select the folder you want.</li><li>Tap the photo you want to add, or tap the dotted-square icon (top) to select all photos in the folder. Or, tap the tile with a camera icon (upper left) to take a photo from your device. (You can also tap a selected photo to unselect it, or tap the left-arrow (bottom) to unselect all photos.)</li><img src=\"img/mh/a-photos-upload.png\" width=\"250px;\" style=\"float:right; border:1px solid #000; margin-left: 20px; margin-top: 8px;\"><li>Tap the checkmark (upper right).</li><li>Tap \"Add title\" and type a title for the photo.</li><li>Tap <b>Upload</b>. In the prompt at the bottom, you can tap <b>Tag</b> to identify who is in the photo (see Choice C below). Tagging links the photo to persons in your tree that you specify.</li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "Learn more about photos and the MyHeritage app in this video.",
+                                "links": [
+                                    {
+                                        "link": "https://youtu.be/znuM-MBlksA?t=491",
+                                        "text": "MH—Photos - 2019",
+                                        "type": "video"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "View photos and edit details.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Proficient: Edit and save three different photos or documents. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>To view photos for an ancestor, open the person's profile and tap <b>Photos</b>. </li><li>To open a photo, tap it. </li><li>To add or edit the photo title and descriptions, <br>a) In the three-dot menu select <b>Edit photo info</b>; <br>b) Fill in the title, date (tap the down-arrow to use the calendar), place (type and select from the list), and description; and <br>c) Tap the checkmark icon (upper right).</li><li>To see a summary of details for an open photo, select <b>View photo details</b> from the three-dot menu. </li><li>To save the photo to the photo library on your device, select <b>Save to library</b> from the three-dot menu and then tap the prompt at the bottom of the screen. </li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Tag photos on your site to identify people.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Tag one or more people in at least two uploaded photos.</li><li>* Proficient: Same as Good, for at least four uploaded photos.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/b-tag-who.png",
+                        "https://www.thefhguide.com/img/mh/b-tag-box.png"
+                    ],
+                    "text": "<ol><img src=\"img/mh/b-tag-who.png\" width=\"250px;\" style=\"float:right; border:1px solid #000; margin-left: 20px; margin-top: 8px;\"><li>In an open photo, tap the tag icon (top of screen) or select <b>Tag photo</b> from the three-dot menu. If MyHeritage detects an untagged face in a photo, it highlights it with a rectangle and a \"Who is this?\" captions.</li> <li>Tap the rectangle or caption near a person's face, or tap the screen where you want to tag.</li><br><br><br><img src=\"img/mh/b-tag-box.png\" width=\"250px;\" style=\"float:right; border:1px solid #000; margin-left: 20px; margin-top: 8px;\"><li>To resize the tagging rectangle, tap a corner and swipe.</li> <li>At the top of the screen, <br>a) Tap the \"Who is this?\" data field; <br>b) Type the name and select it from the list; and <br>c) Tap <b>Save</b>.</li> <li>To edit or remove a tag, <br>a) Tap the tag rectangle; <br>b) Tap <b>Edit tag</b> (bottom); <br>c) Resize the rectangle if desired; <br>d) Tap the \"x\" next to the name caption; and <br>e) Tap <b>Yes</b> to confirm removing the tag. You can then re-create the tag as needed.</li> </ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Scan photos and documents to your tree.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Scan and save at least two photos or documents.</li><li>* Proficient: Scan and save at least four photos or documents.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/b-photo-menu1.png"
+                    ],
+                    "text": "<ol><img src=\"img/mh/b-photo-menu1.png\" width=\"200px;\" style=\"float:right; border:1px solid #000; margin-left: 20px; margin-top: 8px;\"><li>In the three-line menu (upper left), tap the down-arrow next to <b>Photos</b> and select <b>Scan photos &amp; docs</b>. This engages your device's camera.</li> <li>When you have the photo or document correctly in view, tap the Capture button.</li><li>Drag the corners of the highlighted photo frame as needed.</li> <li>Tap <b>Next</b> (upper right).</li> <li>To rotate the image 90 degrees to the left, tap the <b>Rotate</b> icon (top).</li> <li>To enhance the image background, tap the plus icon icon (top). You can select Document style (reduce to black and white) or Vivid style (enhance existing colors).</li> <li>To undo a rotation or enhancement, tap the Undo arrow (top).</li> <li>Tap the checkmark icon to save the photo or document to your Family Photos album.</li> </ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "For tips on scanning with the MyHeritage app, watch this video.",
+                                "links": [
+                                    {
+                                        "link": "https://youtu.be/znuM-MBlksA?t=905",
+                                        "text": "MH—Scanning - 2019",
+                                        "type": "video"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Add and edit albums for photos/documents.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Create an album and add at least three items to it.</li><li>* Proficient: Same as Good, for .</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/b-add-album.png",
+                        "https://www.thefhguide.com/img/mh/b-album-edit.png"
+                    ],
+                    "text": "<ol><li>To create an album, <br>a) In the three-line menu (upper left), select <b>Photos</b>.</li> <img src=\"img/mh/b-add-album.png\" width=\"250px;\" style=\"float:right; border:1px solid #000; margin-left: 20px; margin-top: 8px;\"><li>Tap the plus icon, and then tap <b>Add Album</b>.</li> <li>Type the album title and description, and then tap <b>Add Album</b>.</li> <li>Tap the left-arrow (bottom) to open the new album.</li> <li>To add photos or documents to the album, <br>a) Tap the plus icon; <br>b) Select <b>Add photos</b> or <b>Scan photos</b>; and <br>c) Follow the instructions in the above Choices to add, scan or tag photos or documents.</li> <img src=\"img/mh/b-album-edit.png\" width=\"250px;\" style=\"float:right; border:1px solid #000; margin-left: 20px; margin-top: 8px;\"><li>To edit an existing album, <br>a) In the three-dot menu (upper right), select <b>Edit</b>; <br>b) Edit the album title or description as needed; and <br>c) Tap the checkmark (upper right).</li> <li>To delete an existing album, <br>a) In the three-dot menu (upper right), select <b>Edit</b>; <br>b) Tap <b>Delete this album</b>; and <br>c) Tap <b>OK</b>. <i>Note</i> : The default \"Family photos\" album cannot be deleted.</li> </ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Do other tasks with photos.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Proficient: Share at a photo with two different share methods.</li><li>* Proficient: Share at least three photos with two different share methods.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>To share an open photo, <br>a) Tap the Share icon (upper right); <br>b) Select a \"Share with\" method; <br>c) Tap \"Just once\" or \"Always\" (lower right); and <br>d) In the method you selected, specify the recipient(s) and send the notification.</li> <li>To delete a photo, select <b>Delete</b> from the three-dot menu and then tap <b>OK</b>.</li> <li>To set the profile photo for a person, <br>a) In the profile screen or the person window, tap the camera icon next to the face icon; <br>b) Tap either <b>Camera</b> or <b>Gallery</b> to choose the source for the photo; <br>c) Tap the photo you want; <br>d) Tap the checkmark; and <br>e) Tap <b>Done</b>. <i>Note</i> : By default, MyHeritage uses the first photo you add as the profile photo.</li> <li>To remove a profile photo (but not delete it), <br>a) Tap the photo; <br>b) In the three-dot menu, select <b>Edit</b>; <br>c) Tap <b>Remove current photo</b>; and <br>d) Tap <b>Yes</b>.</li> </ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Add audio files for an ancestor.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Proficient: Share at a photo with two different share methods.</li><li>* Proficient: Share at least three photos with two different share methods.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>In an open Profile, tap the plus icon.</li> <li>Tap <b>Add audio</b>.</li> <li>If this is the first time you are adding a photo, tap <b>Allow</b> when asked if MyHeritage can record audio from your device.</li><li>When you are ready to record the audio, tap <b>Record</b> and begin speaking or providing other audio.</li> <li>When you are finished, tap <b>Stop</b> and then tap <b>OK</b>.</li> <li>To play the audio file, <br>a) In the Profile page next to the person's photo, tap the headphones icon; and <br>b) Select the file you want to play from the list. The number of audio recordings available for that person is listed below the headphones icon.</li> </ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "Learn about the MyHeritage Photo Storyteller™ for mobile devices.",
+                                "links": [
+                                    {
+                                        "link": "https://youtu.be/znuM-MBlksA?t=773",
+                                        "text": "MH—Introducing the MyHeritage Photo Storyteller™ - 2019",
+                                        "type": "video"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Research",
+        "name": "Research with MyHeritage",
+        "section_name": "Use the MyHeritage Research feature to find ancestor information.",
+        "summary": "<p>The Research screen helps you search all available MyHeritage records.</p>",
+        "choices": [
+            {
+                "name": "Use the Research screen to search all MyHeritage records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Do searches for at least two ancestors, using at least three of the options mentioned in this Choice for each search.</li><li>* Proficient: Same as Good, for at least three ancestors and five options each.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/b-research-all.png"
+                    ],
+                    "text": "<ol><li>Tap <b>Research</b> in the Home screen, or in the three-line menu.</li><img src=\"img/mh/b-research-all.png\" width=\"250px;\" style=\"float:right; border:1px solid #000; margin-left: 20px; margin-top: 8px;\"><li>In the <b>All records</b> tab, fill in the following search fields:<ul style=\"margin-left:-88px;\"><li>First &amp; middle name</li><li>Last name</li><li>Year of birth (tap the down-arrow to use the calendar)</li><li>Place (birth, residence, etc.)</li><li>Keywords</li><li>Exact search (On = only records that exactly match your search fields are returned)</li><li>With translations (On or Off)</li></ul></li><li>If you also want to use advanced search features, tap the <b>Advanced search</b> toggle button and skip ahead to Choice B.</li><li>Tap <b>Search</b>. A results window opens with links to records that may match the person you searched for. See Choice E for tips on working with record search results.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Use the Advanced Search feature.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercise",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Do searches for at least two ancestors, using at least two of the options mentioned in this Choice for each search.</li><li>* Proficient: Same as Good, for at least three ancestors and three options each.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/b-research-all-1.png"
+                    ],
+                    "text": "<ol><li>With the basic search fields filled in as explained in Choice A, make sure <b>Advanced Search</b> is enabled.</li><img src=\"img/mh/b-research-all-1.png\" width=\"250px;\" style=\"float:right; border:1px solid #000; margin-left: 20px; margin-top: 8px;\"><li>Fill in the additional fields for the advanced search:<ul style=\"margin-left:-88px;\"><li>Gender </li><li>Event type (tap the down-arrow to select)</li><li>Event date (tap the down-arrow to use the calendar)</li><li>Event place (birth, residence, etc.)</li><li>Relatives (tap the down-arrow to select)</li><li>Relative first &amp; middle name</li><li>Relative last name</li><li>Add another relative (tap to open fields for an additional relative, then fill them in)</li></ul></li><li>Tap <b>Search</b> to perform the record search. A results window opens with links to records that may match the person you searched for. See Choice E for tips on working with record search results.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Search the MyHeritage Collection Catalog and other records.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/b-research-collection.png"
+                    ],
+                    "text": "<ol><img src=\"img/mh/b-research-collection.png\" width=\"200px;\" style=\"float:right; border:1px solid #000; margin-left: 20px; margin-top: 8px;\"><li>In the Research screen, tap the <b>By collection</b> tab. A list of collection categories appears.</li><li>Tap a collection category of interest for research. The next screen shows the tiles you can choose from:<ul style=\"margin-left:-88px;\"><li>Full category (upper left)</li><li>Sub-categories (top row; swipe to see more)</li><li>Individual collections (remainder of the screen, scroll down for more)</li></ul></li><li>Tap an individual collection, or tap a sub-category and one of its individual collections. Or, <br>a) Tap \"Search for a collection\"; <br>b) Type a keyword to search for; <br>c) Tap the magnifying glass icon; and <br>d) Tap a collection of interest. </li><li>In the collection, read the description at the top. If a down-arrow appears, tap it for more information.</li><li>Fill in the search fields as described in Choices A and B above. Note that each collection may have different basic and advanced search fields.</li><li>Tap <b>Search</b>.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Use the Search Records feature.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/b-search-results.png"
+                    ],
+                    "text": "<ol><li>Decide on a person in your tree for the record search.</li><img src=\"img/mh/b-search-results.png\" width=\"250px;\" style=\"float:right; border:1px solid #000; margin-left: 20px; margin-top: 8px;\"><li>In the Person window or profile, tap <b>Search records</b>. A list of results is displayed, including MyHeritage family trees that include that person, if available. To see additional results, tap <b>Next</b> (bottom of the screen); or use the Search fields at the bottom to start a new search. </li><li>For a family tree entry, tap the person's name in the list and scroll through the information. You can tap name links to see information for those people in the selected family tree.</li><li>To see more about the family tree, scroll to the bottom of the results. You can contact the site manager by tapping that person's name.</li><li>To restrict the search results to specific collections, <br>a) Tap the down-arrow (next to \"All Collections\"); <br>b) Tap a collection category in the list; and <br>c) If desired, tap the down-arrow to select a sub-category for records.</li><li>Tap a name link to view record information from that collection. An example from the Census &amp; Voter Lists collection is shown in the next Choice.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Analyze your search results.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercise",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Analyze two or more records from a search and extract their information to a person in your tree.</li><li>* Proficient: Same as Good, for at least three records from three searches.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/b-census-voter.png",
+                        "https://www.thefhguide.com/img/mh/b-census-image.png"
+                    ],
+                    "text": "<ol><img src=\"img/mh/b-census-voter.png\" width=\"250px;\" style=\"float:right; border:1px solid #000; margin-left: 20px; margin-top: 8px;\"><li>As described in the Choices above, open a record from search results. The information on the screen varies according to the type of record, but it may including the following:<ul style=\"margin-left:-66px;\"><li>Record icon and description (top of screen)—Tap the icon, title, or info button to display a brief summary of the record type.</li><li>Record information—Name, dates, etc., depending on the type of record</li><li>\"Show details\" link—Tap to see additional details about this record.</li><br><br><br><img src=\"img/mh/b-census-image.png\" width=\"250px;\" style=\"float:right; border:1px solid #000; margin-left: 20px; margin-top: 8px;\"><li>Record image—To enlarge an available record image, tap the arrows icon. You can then spread, swipe, or pinch to control the view. To go forward or back in the image collection, tap the right or left arrow. To go directly to a numbered image, tap the white box and then tap a record entry in the list. To close the record image, tap the \"x\" (upper right).</li></ul></li><li>To suggest a correction to the record, <br>a) Tap the \"Spotted an error?\" link; <br>b) Select the person in the list that the correction applies to; <br>c) Select an entry in \"Choose a reason\"; <br>d) Type your description of the correction in the Notes box; and <br>e) Tap <b>Submit</b>.</li><li>To add comments about the record, type them in the box (bottom of the screen) and tap <b>Post Comment</b>. To remove your comment, tap the \"x\" next to it.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Use periodicals to find research clues.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Periodicals include magazines, journals, and other publications.</li><li>The PERSI (Periodical Source Index) is a powerful online tool for periodical research.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none;\"><li>* Good: Write down key learnings from this choice and explore ancestor research in periodicals of your choice.</li><li>* Proficient: Same as above; also explore the PERSI catalog.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-magazine.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/y-magazine.jpg\" width=\"25%;\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Read this article for more information on using magazines and journals for research. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://www.genealogy.com/articles/research/63_kathy.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">GC—Magazines and Journals</span></a></li><br><li><span class=\"g\">PERSI</span>: Learn about using the PERSI (Periodical Source Index).<br><br> <span class=\"star notranslate\">☆</span><a href=\"http://ldsgenealogy.com/The-PERSI-and-Genealogy.htm\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">LDS—PERSI</span></a><br> <span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/blog/en/persi-genealogy-success/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Using PERSI for Genealogical Success - 2016</span></a></li><br><li>Here are tips on finding indexed PERSI articles. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.findmypast.com/blog/family-records/the-latest-image-and-index-update-for-persi\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FMP: The latest image and index update for PERSI</span></a> <br><span class=\"star notranslate\">☆</span><a href=\"https://www.findmypast.com/blog/family-records/searching-persi-tips\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FMP: Tips and Tricks for Searching PERSI Like a Pro</span></a> </li><br><li>Explore the <a class=\"lk\" href=\"https://search.findmypast.com/search/periodical-source-index\" target=\"_blank\">PERSI catalog</a> on Findmypast.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "DNA Test Results",
+        "name": "DNA Test Results",
+        "section_name": "Learn about your MyHeritage DNA test results.",
+        "summary": "<p>To access your DNA test results, in the three-line menu (upper left), tap <b>DNA</b>. This displays an Overview screen with summary information about your ethnicity estimate, DNA matches, locations, and ehtnicities. For more information on the ethnicity estimate, see Choice B below; for more about DNA matches, see Choices C and D below. For information on ordering. activating, and managing DNA test kits, see MyHeritage Project 7, <a href=\"project-7-dna-mh02.html\">Goal 2.</a></p>",
+        "choices": [
+            {
+                "name": "See details about your ethnicity estimate.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/b-dna-overview.png"
+                    ],
+                    "text": "<ol><img src=\"img/mh/b-dna-overview.png\" width=\"200px;\" style=\"float:right; border:1px solid #000; margin-left: 20px; margin-top: 8px;\"><li>In the three-line menu, tap the down-arrow next to <b>DNA</b> and select <b>Ethnicity Estimate</b>.</li><li>To see a summary video about your estimate, tap <b>Play intro</b>. To learn more about ethnicity estimates, tap the three-dot menu and select <b>About ethnicity estimate</b>.</li><li>Your ethnicity percentages are displayed on the screen, by region. You can use the down/up arrow to close or open a region for viewing.</li><li>A map shows where your ethnicity areas are located, color-coded by percentage. To zoom the map, pinch or spread it. You can use the following options:<ul style=\"margin-left:-66px;\"><li>Share&amp;madash;Tap the Share icon and choose a sharing method on the screen.</li><li>Default view&amp;madash;If you have zoomed the map, tap the Globe icon to return to the normal map view.</li><li>Show events on map&amp;madash;To show main life events on the map for ancestors, tap the Layers icon.</li><li>See details&amp;madash;Tap a colored area on the map to see details about an ethnicity region or genetic group you belong to. Also, a timeline for ethnicity areas appears at the bottom; you can tap the video to activate the timeline.</li></ul></li><li>To see a confidence rating, tap the bar icon at the right of \"Your ethnicity results\".</li><li>To see details for an ethnicity region, tap its title, tap <b>Next</b> or <b>Previous</b>. A brief article is displayed about the selected ethnicity, and you can scroll to the next ehtnicity report. You can also tap the link at the bottom to see your DNA matches with the selected ethnicity.</li><li>To learn more about shared ethnicities for your DNA match persons, see Choice C below.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Get an overview of your DNA matches.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/b-dna-matches.png",
+                        "https://www.thefhguide.com/img/mh/b-dna-match-options.png"
+                    ],
+                    "text": "<ol><img src=\"img/mh/b-dna-matches.png\" width=\"250px;\" style=\"float:right; border:1px solid #000; margin-left: 20px; margin-top: 8px;\"><li>To access DNA Matches, tap the <b>DNA Matches</b> tab in the Overview screen at the top. Or, in the three-line menu tap the down-arrow next to <b>DNA</b> and select <b>DNA Matches</b>. To learn the basics about DNA matches, tap the three-dot menu and select \"What are DNA Matches?\".</li><li>For each match person, the following information is displayed:<ul style=\"margin-left:-88px;\"><li>Age, location, and contact link for the match person</li> <li>Your estimated relationship to the person</li> <li>DNA match quality—Shared DNA percentage, number of shared DNA segments, largest segment (in centimorgans). </li> <li>Information for Theory of Relativity™—For details, see Choice D below.</li><li>Surnames common to you and the match person—Tap a surname link for more information.</li><li>Ancestral places common to you and the match person—Tap a place link for more information.</li></ul></li><li>To add notes about a match person, <br>a) Tap the notes icon (above-right of the match name); <br>b) Type in the Notes area; and <br>c) Tap <b>Save notes</b>.</li><img src=\"img/mh/b-dna-match-options.png\" width=\"250px;\" style=\"float:right; border:1px solid #000; margin-left: 20px; margin-top: 8px;\"><li>To sort the DNA match list, tap <b>Sort by</b>. You can then choose to sort your matches by Shared segments, Largest segment, Full name, or Most recent (newest match added).</li><li>To filter your match list, <br>a) Tap <b>Filters</b> (upper left); <br>b) Use the down-arrows to set one filter for any or all of these categories: Tree details, Relationships, Locations, and Ethnicities; and <br>c) Tap <b>Apply</b>. </li><li>To search the match list for a person or ancestral surname, <br>a) Tap the magnifying glass icon (upper right); <br>b) Type the name to search for; and <br>c) Tap the magnifying glass again. To clear the search, tap <b>Clear</b> (upper right).</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Review tree and DNA match information.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/b-dna-match-review.png",
+                        "https://www.thefhguide.com/img/mh/b-dna-map.png",
+                        "https://www.thefhguide.com/img/mh/b-dna-eth-shared.png"
+                    ],
+                    "text": "<ol><li>To see the MyHeritage tree for a match person, tap <b>View tree</b>.</li><img src=\"img/mh/b-dna-match-review.png\" width=\"250px;\" style=\"float:right; border:1px solid #000; margin-left: 20px; margin-top: 8px;\"><li>To review DNA match information for the person, tap <b>Review DNA Match</b>. Summar and contact information appear for the match person, as well as sections for estimated relationships and DNA match quality.</li><li>In the <b>Theory of Relativity</b> section (scroll down), a relationship tree appears for you and the DNA match person. You can tap a name in the tree for summary information. For more information, see Choice D below.</li><li>In the <b>Shared ancestral surnames section</b>, a table shows surnames shared between your tree and the match person's tree. To learn more about shared surnames, tap the info button. To see a list of all shared surnames, tap \"View all ancestral surnames\".</li><br><br><br><br><img src=\"img/mh/b-dna-map.png\" width=\"250px;\" style=\"float:right; border:1px solid #000; margin-left: 20px; margin-top: 8px;\"><li>In the <b>Shared ancestral places section</b>, a map shows surnames shared between your tree and the match person's tree. Here are the actions available for the map:<ul style=\"margin-left:-88px;\"><li>Select a map area in the drop-down menu.</li> <li>Spread, pinch, or swipe to change the map view.</li> <li>Tap a pin (gray = your ancestor, black = match person's ancestor, pink = shared ancestor) to see an ancestor summary (bottom of the screen) for that location. Pins with numbers indicate multiple ancestors in a location.</li> <li>To scroll through the alphabetized ancestor locations, tap \"Next ancestor\" or \"Previous ancestor\" (bottom).</li><li>To see a table of ancestors in all ancestral countries and U.S. states, for you or the match person, below the map tap \"View all ancestral places\".</li> </ul></li><li>The <b>Shared DNA Matches</b> section shows a list of other people who share DNA with you and the match person. To see more entries in the list, tap \"Show more DNA Matches\" (below the list).</li> <li>The <b>Pedigree Charts</b> section shows the pedigree chart for the match person (right tab) or your pedigree chart (left tab). Tap a name to see a summary of information at the bottom, with a link to search records for the person.</li> <img src=\"img/mh/b-dna-eth-shared.png\" width=\"250px;\" style=\"float:right; border:1px solid #000; margin-left: 20px; margin-top: 8px;\"><li>The <b>Shared Ethnicities</b> section compares ethnicity percentages between you and the match person. You can tap any entry in the table to see more information.</li> <li>In the three-dot menu (near the top), you can export the entire DNA Matches list or export shared DNA segment info for all DNA matches. When you tap <b>OK</b>, you will be notified by email when your export is ready.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore the Theory of Family Relativity™ for DNA Matches.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>In the <b>Review DNA Match</b> screen, scroll down to the <b>Theory of Family Relativity</b> section to see the relationship tree, mentioned in Choice C above.</li><li>Tap <b>View full theory</b> for one of the DNA match persons. A summary of your relationship to the match person appears at the top, followed by up to four Paths of \"relativity.\"</li><li>Each Path is divided into tree diagrams, with your tree on the left, and other trees connecting you to the match person on the right. Scroll to the right to see the additional trees.</li><li>Between each tree is a colored confidence-percentage button that shows the confidence MyHeritage places in the match person relativity between the two trees. Tap it to see a side-by-side comparison of data for the ancestor, between your tree and the connecting tree.</li><li>Tap a name in a Path to see a summary of birth and death info for the ancestor. Also shown are links for viewing the person in the tree, viewing the person's Profile, and searching records.</li><li>To switch to a different Path, tap it (top of the screen).</li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "Read the article or watch the video for more information on Theory of Family Relativity.",
+                                "links": [
+                                    {
+                                        "link": "http://blog.myheritage.com/2019/07/update-to-theory-of-family-relativity/",
+                                        "text": "MH: Update to Theory of Family Relativity - 2019",
+                                        "type": "document"
+                                    },
+                                    {
+                                        "link": "https://www.youtube.com/watch?v=i-_fBt6Bn50",
+                                        "text": "FHF: MyHeritage Theory of Family Relativity—12:20 - 2019",
+                                        "type": "video"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Explore the Chromosome Browser.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/b-dna-cb1.png",
+                        "https://www.thefhguide.com/img/mh/b-dna-cb2.png"
+                    ],
+                    "text": "<p>The Chromosome Browser section compares DNA segment information between you and the match person. Additional persons may be compared, through DNA segment triangulation.</p><ol><li>Scroll to the bottom of the Review DNA Match screen to see the <b>Chromosome Browser</b> section. Shared DNA segments are shown in pink.</li><li>Tap a pink segment to display details about the chromosome in the shared segment. You can tap the right or left arrows (bottom) to see info for next or previous shared segments.</li><li>To see how these shared DNA segments relate to additional DNA match persons, <br>a) Scroll up to the <b>Shared DNA Matches</b> section; <br>b) Find an additional match person; and <br>c) Tap the chromosome icon (right side) for that person.</li><li>The left tile displays shared DNA info for you and the match person, and the right tile displays shared DNA info for you and the additional person. You can tap the three-dot menu in a tile to review the DNA match or contact that person.</li><br><br><br><br><br><img src=\"img/mh/b-dna-cb2.png\" width=\"250px;\" style=\"float:right; border:1px solid #000; margin-left: 20px; margin-top: 16px;\"><li>In the segment diagram at the bottom, <br>a) Tap a red marker to see shared DNA segment info between you and the match person; or <br>b) Tap a gold marker to see shared DNA segment info between you and the additional person; or <br>c) Tap a circled marker pair to see info for a DNA segment shared between the three of you. You can use the arrow buttons to scroll between matching segments. For more details on triangulated segments, tap one of the links above or below the tiles.</li><li>Tap <b>Add or remove DNA Matches</b> to select different people for the Chromosome Browser.</li><li>To add a person to the comparison, in the <b>Select DNA Matches</b> section tap the plus icon next to the person's name. You can include up to seven people in the comparison. To remove a person from the comparison, in the Compare row (top) tap the \"x\" next to the person's name.</li><li>Tap <b>Compare</b> to update the segment diagram. Added persons each have an assigned color for the markers.</li><li>To see more information about the comparisons, <br>a) Scroll down to the <b>Shared DNA segments info</b> section; and <br>b) Tap a down-arrow next to a person's name to see details for your shared segments with that person.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn more about DNA matching with MyHeritage and Gedmatch.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-dna-match.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/y-dna-match.jpg\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 350px;; border:1px solid #000; padding:0px;\"><li>Here are some strategies for approaching your DNA match list.<span class=\"star notranslate\">☆</span><a href=\"https://familytreewebinars.com/download.php?webinar_id=993\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">Two Ways to Approach Your MyHeritage DNA Match List</span></a> </li><br><li>Learn about DNA matching with MyHeritage, on Kitty Cooper's blog.<br><br><span class=\"star notranslate\">☆</span><a href=\"http://blog.kittycooper.com/2016/09/myheritage-dna-matching-is-here/\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">MyHeritage DNA Matching Is Here - 2016</span></a> </li><br><li>Learn how to manage matches from your DNA test results.<br><br> <span class=\"star notranslate\">☆</span><a href=\"http://www.genealogyjunkie.net/dna-tips-tools--managing-matches.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Managing Matches</span></a></li><br><li>Read this article for tips on sifting through DNA matches.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familytreemagazine.com/dna/3-ways-to-use-gedmatch-in-your-dna-research/\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Sifting through DNA Matches</span></a></li><br><li>Learn about effective ways to contact your DNA matches.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.legacytree.com/blog/13-secrets-to-getting-replies-from-dna-cousin-matches\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">LT—13 Secrets to Getting Replies from DNA Cousin Matches</span></a></li><br><li>Watch these videos for an overview of how to use the Gedmatch database for match results.<br><br><span class=\"star notranslate\">☆</span><a href=\"http://blog.kittycooper.com/2015/04/a-video-on-gedmatch-basics-from-angie-bush/\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FE—Genetics and Genealogy— 42:58 - 2015</span></a><br><img src=\"img/vid.png\" width=\"20\"> <a href=\"https://www.youtube.com/watch?v=acGJmLlsWg4\" target=\"_blank\"><span class=\"re\">GEDMatch Basics—42:59</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/acGJmLlsWg4?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li>Here are some tips for using Gedmatch in your DNA research.<br><br><span class=\"star notranslate\">☆</span><a href=\"http://blog.familytreemagazine.com/insider/2016/10/03/3WaysToUseGEDmatchInYourDNAResearch.aspx\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">3 Ways to Use GEDMatch in Your DNA Research</span></a> </li><li>Learn how to triangulate your DNA matches using Gedmatch.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=ceYGv6RNfDE\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">How to Triangulate Your DNA Matches with Gedmatch—11:50 - 2019</span></a> </li><br><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/ceYGv6RNfDE?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Settings",
+        "name": "Settings",
+        "section_name": "Adjust your app settings as needed.",
+        "summary": "<p>This Goal helps you determine your app settings and site options.</p>",
+        "choices": [
+            {
+                "name": "View and change basic app settings.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>In the three-line menu, tap <b>Settings</b>.</li><li>To select a language for your MyHeritage screens, tap <b>Language</b> and choose a language.</li><li>To set notifications, tap <b>Notifications</b>. The following options are available, and each may be turned on or off:<ul style=\"margin-left:-88px;\"><li>Smart Matches™ </li><li>Record Matches</li><li>Instant Discoveries™ (on/off)</li><li>Birthday (of close relatives)</li><li>Anniversary (of close relatives)</li><li>DNA Matches</li><li>DNA kit updates</li><li>Promotions and discounts</li></ul></li><li>To change the cover photo for the site, <br>a) Tap <b>Photos</b>; <br>b) Tap \"Change cover photo\"; <br>c) Tap <b>Allow</b> if prompted; d) Tap \"Default cover photo\" if you want to use the MyHeritage page photo; or tap \"Choose cover photo\", select the photo you want, tap the checkmark, and tap <b>Done</b>. </li><li>In the Photos screen, you can tap <b>Photo Tagger</b> to allow or disallow MyHeritage's right to use your site photos with their technology tools.</li><li>To invite others to use the MyHeritage mobile app, <br>b) Tap <b>Share MyHeritage</b>; <br>b) Choose a social media platform; and <br>c) Complete the notification form.</li><li>To learn more about MyHeritage, tap <b>About</b>. The following options are available:<ul style=\"margin-left:-88px;\"><li>Show intro (plays a short promo video)</li><li>Privacy Policy</li><li>Terms of Service</li><li>Track with third-party tools (on/off)</li></ul></li><li>To use the MyHeritage Support Center, tap <b>Support Center</b>. </li></ol><h5>Account Settings</h5><ol><li></li><li>In the <b>Settings</b> screen, tap <b>Account</b>.</li><li>To invite others to use the MyHeritage mobile app, <br>b) Tap <b>Share MyHeritage</b>; <br>b) Choose a social media platform; and <br>c) Complete the notification form.</li><li>To log out from MyHeritage, tap <b>Log Out</b>. </li><li>To delete your MyHeritage account, tap <b>Delete account</b> and then tap <b>Yes</b>. <i>Note </i>: This action deletes all your data and cannot be reversed. If you need your data at some point in the future, be sure you have saved or exported it.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "View and change site options.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>In the home screen, tap the cover photo (top).</li><li>Tap \"View cover photo\" to see the current cover photo.</li><li>Tap \"Replace cover photo\" to change the cover photo for the site. See Choice A above for details.</li><li>Tap \"Remove cover photo\" to switch to the default MyHeritage cover photo.</li><li>Tap \"Switch family sites\" to display a different MyHeritage family tree you have created.</li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Use MyHeritage mail.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>In the home screen, tap the email icon (upper right). Your inbox and its messages are displayed.</li><li>Tap a message summary to display all previous messages in the conversation. You can then tap any message to open and read it.</li><li>To reply to an open message, <br>a) Tap <b>Reply</b> in the three-dot menu; <br>b) Type your message; and <br>c) Tap <b>Send</b>.</li><li>You can also use options in the three-dot menu to mark a message as unread, archive a message, or delete a message.</li><li>To create a new message, <br>a) Tap the pencil icon (lower right); <br>b) Type the recipient's address, subject title, and your message; and <br>c) Tap <b>Send</b>.</li><li>To filter messages, <br>a) Tap the filter icon (upper right); <br>b) Select Inbox, Unread, Sent, or Archived; and <br>c) Tap <b>Apply</b>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,236 @@
+[
+    {
+        "nav_name": "Research",
+        "name": "Research",
+        "section_name": "Learn about Croatian research.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=tV3vji9Ugqo\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Croatian genealogy.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for research records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-cro-over.jpg"
+                    ],
+                    "text": "<ol><a href=\"img/x-cro-over.jpg\" target=\"_blank\"> <img src=\"img/x-cro-over.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a>  <li><span class=\"g\">FamilySearch</span>: Learn the basics of Croatian research in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Croatia_Genealogy\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Croatia Genealogy</span></a></li><br><li><span class=\"g\">Beginning</span>: Learn more about beginning Croatian research.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Croatia_Beginning_Research\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Beginner's Guide to Croatian Research—13 pgs.</span></a></li><br><li><span class=\"g\">Resources</span>: Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://feefhs.org/resource/croatia\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Croatia Genealogy Resources</a> on the FEEFHS site.</li><li>Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.croatia-in-english.com/gen/index.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Croatia-in-English site</a> for a variety of genealogy resources.</li><li>Explore the <a class=\"lk\" href=\"http://www.appleby.net/genealogy.html\" target=\"_blank\">Croatian genealogy links</a> on the Appleby.net site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.croatian-genealogy.com/educational-articles\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Croatian Genealogy site</a> for articles about research in various Croatian towns.</li><li><span class=\"g\">Record Finder</span>: Use the Croatia Record Finder to understand record types for research. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Croatia_Record_Finder\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Croatia Record Finder</span></a></li><br><li><span class=\"g\">Correspondence</span>: Use this guide for corresponding with Croatian organizations about genealogy resources. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Croatia_Letter_Writing_Guide\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Croatia Letter-Writing Guide</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about the Croatian language and genealogy terms.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Croatia_Languages#Key_Words\" target=\"_blank\">Key Words</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Croatia_Languages#Languages_of_the_Records\" target=\"_blank\">Languages of the Records</a></li></ul></span>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-cro-over1.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/photos/croatia-bra%C4%87-lo%C5%BEi%C5%A1%C4%87o-blue-village-238324/\" target=\"_blank\"> <img src=\"img/x-cro-over1.jpg\" width=\"100%\" ;=\"\" style=\"float:right; margin-top: 8px; margin-left: 16px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a>    <li><span class=\"g\">Terms</span>: Learn about Serbo-Croatian grammar genealogy terms in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/File:Serbo-croatian.pdf\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Serbo-Croatian Word List - 2015</span></a></li><br><li><span class=\"g\">Croatian</span>: Learn more about the Croatian language in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Croatia_Language_and_Languages\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Croatian Language</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('usa');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"usa\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Croatia_Languages#Key_Words\" target=\"_blank\">Key Words</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Croatia_Languages#Languages_of_the_Records\" target=\"_blank\">Languages of the Records</a></li></ul></span></div></li><br><li><span class=\"g\">Surnames</span>: Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.croatian-genealogy.com/croatian-names/croatian-family-names-surnames/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Croatian Genealogy site</a> for Croatian surnames.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.geneanet.org/country/search-Croatia%20%28local%20name:%20Hrvatska%29-HRV\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Geneanet site</a> for Croatian surnames.</li><li>Learn about differences between Croat and Serbian surnames. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.croatian-genealogy.com/educational-articles/differences-croatian-serbian-names/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Differences between Croat and Serbian names - 2010</span></a></li><br><li>Learn how to determine possible family relationships indicated in surnames. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.croatian-genealogy.com/educational-articles/family-relations-croatian-surnames/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Family Relations in Croatian Surnames - 2009</span></a></li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Archives and Libraries",
+        "name": "Archives and Libraries",
+        "section_name": "Learn about Croatia archives and libraries.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=tV3vji9Ugqo\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Croatian archives and libraries.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-cro-lib.JPG"
+                    ],
+                    "text": "<ol><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/National_Library_of_Croatia#/media/File:National_library_of_croatia.jpg\" target=\"_blank\"> <img src=\"img/x-cro-lib.JPG\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a> <li><span class=\"g\">FamilySearch</span>: Learn about Croatia archives and libraries in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Croatia_Archives_and_Libraries\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Croatia Archives and Libraries</span></a></li><br><li><span class=\"g\">Sites</span>: Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.archivesportaleurope.net/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Archives Portal Europe</a> site. Click the Directories tab and then select Croatia.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://hda.arhiv.hr/en/hr/hda/fs-ovi/o-hda.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Croatian State Archives</a> site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Immigration and Emigration",
+        "name": "Immigration and Emigration",
+        "section_name": "Learn about Croatian emigration and immigration.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=tV3vji9Ugqo\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Croatian emigration and immigration.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ire-imm1.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/x-ire-imm1.jpg\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"><li><span class=\"g\">FamilySearch</span>: Learn about Croatia emigration and immigration in this FamilySearch Wiki article.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Croatia_Emigration_and_Immigration\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Croatia Emigration and Immigration</span></a></li><br><li><span class=\"g\">FEEFHS</span>: Learn more about Croatia emigration and immigration on the FEEFHS site.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://feefhs.org/resource/croatian-genealogy-guide\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">A Guide to Croatian Genealogy - 1997</span></a></li><br><li><span class=\"g\">Wikipedia</span>: Learn more about Croatian immigration to the United States in this Wikipedia article.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Croatian_Americans\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Croatian Americans</span></a></li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Church Records",
+        "name": "Church Records",
+        "section_name": "Learn about Croatia church and cemetery records.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=tV3vji9Ugqo\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Croatian church and cemetery records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Croatia_Church_Records#What_Can_These_Records_Tell_Me.3F\" target=\"_blank\">What Can These Records Tell Me?</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Croatia_Church_Records#Accessing_the_Records\" target=\"_blank\">Accessing the Records</a></li></ul></span>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-cro-church.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/croatia-dubrovnik-europe-travel-1512785/\" target=\"_blank\"> <img src=\"img/x-cro-church.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a> <li><span class=\"g\">FamilySearch</span>: Learn about Croatia church records in this FamilySearch Wiki article.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Croatia_Church_Records\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Croatia Church Records</span></a> &nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('usa');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"usa\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Croatia_Church_Records#What_Can_These_Records_Tell_Me.3F\" target=\"_blank\">What Can These Records Tell Me?</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Croatia_Church_Records#Accessing_the_Records\" target=\"_blank\">Accessing the Records</a></li></ul></span></div></li><br><li><span class=\"g\">Sites</span>: Explore the church-specific links in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.croatia-in-english.com/gen/index.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Croatia-in-English site</a>.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.findagrave.com/cemetery-browse/Croatia?id=country_76\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Find A Grave site</a> for cemetery records.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://billiongraves.com/site-map?country=Croatia\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">BillionGraves site</a> for cemetery records.</li></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Maps and Gazetteers",
+        "name": "Research",
+        "section_name": "Learn about Croatia maps and gazetteers.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=tV3vji9Ugqo\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Explore Croatia map resources.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-cro-map.jpg"
+                    ],
+                    "text": "<ol><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Module:Location_map/data/Croatia\" target=\"_blank\"> <img src=\"img/x-cro-map.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-bottom: 16px; max-width:350px; border:1px solid #000; padding:0px;\"></a> <li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://feefhs.org/map/library\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Maps and Gazetteers section</a> of the FEEFHS.org site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.davidrumsey.com/luna/servlet/view/search?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&amp;q=Croatia&amp;search=Go\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">David Rumsey collection</a> of Croatia maps.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.oldmapsonline.org/en/Croatia\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Old Maps Online site</a> for Croatia maps.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://commons.wikimedia.org/wiki/Atlas_of_Croatia\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Atlas of Croatia</a> on the Wikipedia site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://commons.wikimedia.org/wiki/Category:Old_maps_of_Croatia\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Old Maps of Croatia</a> on the Wikipedia site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Newspapers",
+        "name": "Newspapers",
+        "section_name": "Learn about Croatia newspapers.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=tV3vji9Ugqo\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Croatia newspapers.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-cro-news.JPG"
+                    ],
+                    "text": "<ol><a href=\"http://www.24sata.hr/#\" target=\"_blank\"> <img src=\"img/x-cro-news.JPG\" alt=\"\" width=\"120px\" style=\"float:right; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"></a>  <li>Find links to <a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Wikipedia:List_of_online_newspaper_archives#Croatia\" target=\"_blank\"> Croatian newspapers</a> on the Wikipedia site.</li> <li>Search Croatian newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.onlinenewspapers.com/croatia.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">onlinenewspapers.com</a> site.</li><li>Search Croatian newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.world-newspapers.com/croatia.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">world-newspapers.com</a> site.</li><li>Search Croatian newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.abyznewslinks.com/croat.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">ABYZ News Links</a> site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Websites",
+        "name": "Websites",
+        "section_name": "Explore additional websites for research.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=tV3vji9Ugqo\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "There are a number of websites with valuable resources for Croatian research.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/laptop-fingers1.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/laptop-fingers1.jpg\" alt=\"\" width=\"350px\" style=\"float:right; margin-top: 6px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Explore links in the <a class=\"lk\" href=\"https://www.familysearch.org/en/wiki/Croatia_Websites\" target=\"_blank\">FamilySearch Wiki</a>.</li><li>Explore links in <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cyndislist.com/croatia\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Cyndi's List</a>.</li><li>Explore links in <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genealogylinks.net/europe/croatia/index.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Genealogylinks.net</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Search Records",
+        "name": "Search Records",
+        "section_name": "Search records from Croatia.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=tV3vji9Ugqo\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Use QUIKLinks, Partners, GenealogyInTime, etc. to quickly search the most common record collections for Croatia.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/laptop-hands.jpg"
+                    ],
+                    "text": "",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Get Help",
+        "name": "Get Help",
+        "section_name": "Get help with your Croatia research.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=tV3vji9Ugqo\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Use Facebook pages to get answers to your questions.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/fh-help3.jpg"
+                    ],
+                    "text": "<ol><a href=\"img/fh-help3.jpg\" target=\"_blank\"> <img src=\"img/fh-help3.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px;\"></a> <li>See the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.facebook.com/groups/croatianheritageandgenealogy/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Croatian Heritage and Genealogy</a> Facebook page.</li><li>Visit the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.facebook.com/groups/EasternEuropeGenealogyResearchCommunity/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Eastern European Research</a> Facebook page for FamilySearch.</li><li>See the <a class=\"lk\" href=\"http://socialmediagenealogy.com/genealogy-on-facebook-list/\" target=\"_blank\">Genealogy on Facebook list</a> of Facebook groups dedicated to helping with research for Croatia.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Join a mailing list, community, or message board for Croatia research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://community.familysearch.org/s/group/0F93A000000LfUCSA0/austrohungarian-empire\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">FamilySearch community</a> for Croatia (Austro-Hungarian Empire) research.</li><li>Use the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ancestry.com/boards/localities.ceeurope.croatia/mb.ashx\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Ancestry message boards</a> to read or post questions about Croatia research.</li><li>Explore the <a class=\"lk\" href=\"http://www.cyndislist.com/eastern-europe/social/\" target=\"_blank\"> Croatia research mailing lists</a> on Cyndi's List.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Croatia genealogy societies.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cyndislist.com/eastern-europe/societies/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Croatia genealogy society sites</a> on Cyndi's List.</li><li>Get help at a <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Category:Croatia_Family_History_Centers\" target=\"_blank\">family history center in Croatia</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Geo/Culture/History",
+        "name": "Culture, Geography, and History",
+        "section_name": "Learn about the geography, culture, and history of Croatia. \n\t\t\t\t\t\t\n\t\t\t\t\t\t",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=tV3vji9Ugqo\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Explore websites and videos.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/c-croatia.jpg"
+                    ],
+                    "text": "<h5>Reference</h5><ol><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Croatia_History\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">FamilySearch: History</a></li><br></ol><h5>For Kids</h5><ol><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ducksters.com/geography/country.php?country=Croatia\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Ducksters</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=mJnz7SN50HQ\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">YouTube: The Croatia Song</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=GXww65SCZ1s\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">YouTube: Super Quick History of Croatia</a></li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

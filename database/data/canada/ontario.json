@@ -1,0 +1,320 @@
+[
+    {
+        "nav_name": "Research and Records",
+        "name": "Research and Records",
+        "section_name": "Learn about Ontario research and records",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Get started with research for your Ontario ancestors.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for research resources. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-ont-over.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/toronto-ontario-canada-street-863428/\" target=\"_blank\"> <img src=\"../img/x-ca-ont-over.jpg\" alt=\"\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\" width=\"450px\" border=\"1\"></a><li>Learn about finding your ancestors in Ontario. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Ontario,_Canada_Genealogy\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki—Ontario—Finding Your Ancestors</span></a></li><br><li>Explore resources for Ontario research on Ancestry. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://search.ancestry.com/Places/Canada/Ontario/Default.aspx\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">AC—Ontario Resources</span></a></li><br><li>Learn about resources for research in Ontario.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://ukcdngenealogy.blogspot.com/2017/06/finding-your-ancestors-in-ontario.html\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Finding Your Ancestors in Ontario</span></a><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.americanancestors.org/tools/ontario\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">AA—Ontario</span></a></li><br><li>Use the Ontario Record Selection Table to decide on records to search. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Ontario_Record_Selection_Table\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Ontario Record Selection Table</span></a></li><br><li>Explore the <a class=\"lk\" href=\"http://www.olivetreegenealogy.com/can/ont/index.shtml\" target=\"_blank\">Olive Tree Genealogy</a> site for a wide assortment of Ontario records. </li><li>Explore a variety of records on the <a class=\"lk\" href=\"https://sites.google.com/site/freecanadianancestry/home/ontario\" target=\"_blank\">FreeCanadianAncestry</a> site. </li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Archives and Libraries",
+        "name": "Archives and Libraries",
+        "section_name": "Learn about Ontario archives and libraries.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Ontario archives and libraries.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-ont-lib.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://commons.wikimedia.org/wiki/File:Wychwood_Branch_Library.jpg\" target=\"_blank\"> <img src=\"../img/x-ca-ont-lib.jpg\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li>Learn about Ontario archives and libraries in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Ontario_Archives_and_Libraries\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Ontario Archives and Libraries</span></a></li><br><li>Learn about the archives of Ontario in this video.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=JV1NIT3F9iU\" target=\"_blank\"> <img src=\"../img/vid.png\" width=\"20\"> <span class=\"re\">RT—The Archives of Ontario—11:05</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/JV1NIT3F9iU?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li>Explore the <a class=\"lk\" href=\"http://www.archives.gov.on.ca/en/tracing/the_records.aspx\" target=\"_blank\">Ontario Archives site</a> for records and resources.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Ontario city directories.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about Ontario city directories in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Ontario_Directories\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Ontario Directories</span></a></li><br><li>Explore city directories in Ontario on the <a class=\"lk\" href=\"http://www.cangenealogy.com/ontario-citydirectories.html\" target=\"_blank\">CanGenealogy site</a>.</li><li>Explore <a class=\"lk\" href=\"https://research.digitalkingston.ca/records-and-documents/city-directories/city-directories-1855-1923\" target=\"_blank\">Ontario city directories</a> on the DigitalKingston site.</li><li>Explore county directories in Ontario on the <a class=\"lk\" href=\"http://www.cangenealogy.com/ontario-countydirectories.html\" target=\"_blank\">CanGenealogy site.</a></li><a class=\"lk\" href=\"http://www.cangenealogy.com/ontario-countydirectories.html\" target=\"_blank\"></a></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Vital and Census Records",
+        "name": "Vital and Census Records",
+        "section_name": "Learn about Ontario vital and census records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Ontario vital and birth records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for vital and birth records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-ont-vit.jpg"
+                    ],
+                    "text": "<ol><a class=\"lk\"></a><a href=\"https://pixabay.com/en/toronto-canada-ontario-architecture-73551/\" target=\"_blank\"> <img src=\"../img/x-ca-ont-vit.jpg\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li>Learn about Ontario vital records in this article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Ontario_Vital_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Ontario Vital Records</span></a></li><br><li>Search for vital records on the <a class=\"lk\" href=\"http://www.archives.gov.on.ca/en/tracing/the_records.aspx\" target=\"_blank\">Ontario Government Archives</a> site.</li><li>Learn how to connect Ontario vital records in this case study video. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=V1XVqc3DUZI\" target=\"_blank\"> <img src=\"../img/vid.png\" width=\"20\"> <span class=\"re\">AC—Wiki: Ontario Vital Records—45:02</span></a><br><br><iframe width=\"330\" height=\"220\" src=\"https://www.youtube.com/embed/V1XVqc3DUZI?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br></ol><h5>BMD Records</h5><ol><li><span class=\"g\">Birth</span>: Learn about and search Ontario birth records. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/Ontario_Births_-_FamilySearch_Historical_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS: Ontario Birth Records</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://familytreeknots.blogspot.com/2022/10/beginners-guide-finding-ontario-civil-births.html\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Beginner's Guide: Finding Ontario Civil Birth Registrations</span></a></li><br><li>Explore birth record resources on the <a class=\"lk\" href=\"http://www.geneofun.on.ca/ontariogenweb/ontario-genealogy-records-births.html\" target=\"_blank\">Ontario GenWeb</a> site.</li><li><span class=\"g\">Marriage</span>: Learn about and search Ontario marriage records. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/Ontario_Marriages,_1869-1927_-_FamilySearch_Historical_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS: Ontario Marriage Records</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/Ontario,_County_Marriage_Registers_-_FamilySearch_Historical_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS: Ontario County Marriage Registers</span></a></li><br><li>Explore marriage record resources on the <a class=\"lk\" href=\"http://www.geneofun.on.ca/ontariogenweb/ontario-genealogy-records-marriages.html\" target=\"_blank\">Ontario GenWeb</a> site.</li><br></ol><h5>Adoption</h5><ol><li>Get help with adoption topics on the <a class=\"lk\" href=\"https://www.ontario.ca/page/search-adoption-records\" target=\"_blank\">Ontario Government</a> site.</li><li>Learn about adoption records on the <a class=\"lk\" href=\"http://www.originscanada.org/adoption-records/by-province/ontario-adoption-records/\" target=\"_blank\">OriginsCanada</a> site.</li><li>Explore adoption resources on the <a class=\"lk\" href=\"http://www.geneofun.on.ca/ontariogenweb/ontario-genealogy-records-adoption.html\" target=\"_blank\">Ontario GenWeb</a> site.</li></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Ontario death records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for death records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>Learn about and search Ontario death records. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/Ontario_Deaths_and_Overseas_Deaths_-_FamilySearch_Historical_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS: Ontario Death Records</span></a></li><br><li>Explore death record resources on the <a class=\"lk\" href=\"https://www.deathindexes.com/canada.html\" target=\"_blank\">Death Indexes</a> site.</li><li>Explore death record resources on the <a class=\"lk\" href=\"http://www.geneofun.on.ca/ontariogenweb/ontario-genealogy-records-deaths.html\" target=\"_blank\">Ontario GenWeb</a> site.</li><br><li>Explore Ontario obituaries on the <a class=\"lk\" href=\"https://www.inmemoriam.ca/directory/province/on-ontario/1/\" target=\"_blank\">In Memoriam</a> site.</li> <li>Explore funeral home records on the <a class=\"lk\" href=\"http://www.geneofun.on.ca/ontariogenweb/ontario-genealogy-records-funeral.html\" target=\"_blank\">Ontario GenWeb</a> site.</li><br></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Ontario census records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for census records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>Get an overview of Ontario censuses in this article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Ontario_Census\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Ontario Census</span></a></li><br><li>Learn about and search Ontario census records. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://www.olivetreegenealogy.com/can/ont/census.shtml\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Olive Tree Genealogy, Census Records</span></a></li><br><li>Explore the <a class=\"lk\" href=\"http://www.myfreecensus.com/ontario-canada-census-records.htm\" target=\"_blank\">MyFreeCensus site</a> for Ontario state and county census records.</li><li>Explore census records on the <a class=\"lk\" href=\"http://geneofun.on.ca/ontariocensus/\" target=\"_blank\">Ontario GenWeb site</a>.</li><li>Explore Ontario education records on the <a class=\"lk\" href=\"http://www.olivetreegenealogy.com/can/ont/education.shtml\" target=\"_blank\">Olive Tree Genealogy</a> site.</li></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Church and Cemetery Records",
+        "name": "Church and Cemetery Records",
+        "section_name": "Learn about Ontario church and cemetery records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Ontario church records.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-ont-church.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://www.goodfreephotos.com/canada/ontario/lake-nipigon/ontario-lake-nipigon-church-on-the-roadside.jpg.php\" target=\"_blank\"> <img src=\"../img/x-ca-ont-church.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"></a>  <li>Get an overview of Ontario church records in this article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Ontario_Church_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Ontario Church Records</span></a></li><br><li>Learn more about church records on the OntarioGenWeb site. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://www.geneofun.on.ca/ontariogenweb/ontario-genealogy-records-church.html\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Ontario Church Records</span></a> </li><br><li>Explore the <a class=\"lk\" href=\"https://research.digitalkingston.ca/records-and-documents/church-records/guide-to-church-records\" target=\"_blank\">Olive Tree Genealogy site</a> for Ontario church record resources.</li><li>Explore the <a class=\"lk\" href=\"https://research.digitalkingston.ca/records-and-documents/church-records/guide-to-church-records\" target=\"_blank\">Guide to Church Records</a> on the DigitalKingston site.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Ontario cemetery records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for church and cemetery records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-ont-cem.jpg"
+                    ],
+                    "text": "<ol><a class=\"lk\"><img src=\"../img/x-ca-ont-cem.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\">  </a><li><a class=\"lk\">Explore Ontario cemetery records in this article. <br><br></a><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Ontario_Cemeteries\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Ontario Cemetery Records</span></a> </li><br><li>Learn about and search Toronto trust cemetery records. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/Ontario,_Toronto_Trust_Cemeteries_-_FamilySearch_Historical_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS: Toronto Trust Cemetery Records</span></a></li><br><li>Explore the <a class=\"lk\" href=\"http://cemetery.canadagenweb.org/ON/\" target=\"_blank\">CanadaGenWeb site</a> for Ontario cemetery records.</li><li>Browse the <a class=\"lk\" href=\"http://www.interment.net/can/on/index.htm\" target=\"_blank\">Interment.net site</a> for Ontario cemetery records.</li><li>Browse the <a class=\"lk\" href=\"http://www.idreamof.com/canada/cemetery/ontario.html\" target=\"_blank\">I Dream of Genealogy</a> site for Ontario cemetery records.</li><li>Explore the <a class=\"lk\" href=\"http://www.olivetreegenealogy.com/can/ont/cem.shtml\" target=\"_blank\">Olive Tree Genealogy site</a> for Ontario cemetery resources.</li><li>Search the <a class=\"lk\" href=\"http://www.findagrave.com/cgi-bin/fg.cgi?page=cs\" target=\"_blank\">Find A Grave site</a> for cemetery records.</li><li>Search the <a class=\"lk\" href=\"http://billiongraves.com/pages/search/\" target=\"_blank\">BillionGraves site</a> for cemetery records.</li></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Emigration and Immigration",
+        "name": "Emigration and Immigration",
+        "section_name": "Learn about Ontario emigration and immigration.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Ontario emigration and immigration.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-ont-imm.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/photos/niagara-falls-falls-niagara-84669/\" target=\"_blank\"> <img src=\"../img/x-ca-ont-imm.jpg\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li>Learn about Ontario emigration and immigration in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Ontario_Emigration_and_Immigration\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Ontario Emigration and Immigration</span></a></li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Probate, Land and Court",
+        "name": "Probate, Land and Court Records",
+        "section_name": "Learn about Ontario probate and land records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Ontario probate and land records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for probate and land records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-ont-land.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/bronte-creek-state-park-canada-347266/\" target=\"_blank\"> <img src=\"../img/x-ca-ont-land.jpg\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li>Learn about Ontario probate records in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Ontario_Probate_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Ontario Probate Records</span></a></li><br><li>Learn about Ontario land and property records. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Ontario_Land_and_Property\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Ontario Land and Property Records</span></a><br><span class=\"star notranslate\">☆</span><a href=\"http://www.olivetreegenealogy.com/can/ont/land.shtml\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">OT—Ontario Land Records</span></a></li><br><li>Learn more about land records on the Ontario GenWeb site.<br><br><span class=\"star notranslate\">☆</span><a href=\"http://www.geneofun.on.ca/ontariogenweb/ontario-genealogy-records-land.html\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Ontario Land Records</span></a></li><br><li>Read this case study in using Ontario land records, from Olive Tree Genealogy. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://olivetreegenealogy.blogspot.com/2019/12/a-challenging-upper-canada-ontario.html\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">OT—A Challenging Upper Canada (Ontario) Puzzle</span></a></li><br><li>Explore land records on the <a class=\"lk\" href=\"https://research.digitalkingston.ca/\" target=\"_blank\">DigitalKingston site</a>. Click the Land Records link in the left panel of the page.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Ontario court records.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><ol><li>Learn about court records in this FamilySearch Wiki article.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/Ontario_Court_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Ontario Court Records</span></a></li><br><li>Learn more about court records on the Ontario GenWeb site.<br><br><span class=\"star notranslate\">☆</span><a href=\"http://www.geneofun.on.ca/ontariogenweb/ontario-genealogy-records-court.html\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Ontario Court Records</span></a></li><br><li>Explore court records on the <a class=\"lk\" href=\"http://www.olivetreegenealogy.com/can/ont/court.shtml\" target=\"_blank\">Olive Tree Genealogy</a> site.</li></ol></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Maps and Gazetteers",
+        "name": "Maps and Gazetteers",
+        "section_name": "Learn about Ontario maps and gazetteers.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore Ontario maps and gazetteers.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-ont-map.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://commons.wikimedia.org/wiki/File:1874_Mitchell_Map_of_Ontario,_Canada_-_Geographicus_-_Ontario-m-1874.jpg\" target=\"_blank\"> <img src=\"../img/x-ca-ont-map.jpg\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-left: 16px\"></a><li>Explore the <a class=\"lk\" href=\"http://www.davidrumsey.com/luna/servlet/view/search?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&amp;q=ontario&amp;search=Go\" target=\"_blank\">David Rumsey collection</a> of Ontario maps.</li><li>Explore the <a class=\"lk\" href=\"https://www.canadiana.ca/search/?so=alphabetical&amp;q2.0=%22Ontario%22&amp;q0.0=%22Maps+of+the+National+Topographic+System+of+Canada%22&amp;q1.0=AND\" target=\"_blank\">Canadiana maps collection</a>.</li><li>Explore the <a class=\"lk\" href=\"http://www.lib.utexas.edu/maps/canada.html\" target=\"_blank\">Perry-Castaneda site</a> for maps of Ontario (search for Ontario on the page).</li><li>Browse a variety of historical maps and plans on the <a class=\"lk\" href=\"https://research.digitalkingston.ca/records-and-documents/maps-and-plans\" target=\"_blank\">DigitalKingston</a> site. Click the Maps and Plans link in the left panel of the page.</li><li>Explore <a class=\"lk\" href=\"http://www.historicmapworks.com/Browse/Maps/\" target=\"_blank\">historical Ontario maps</a> on the Historic Map Works site. Select North America, Canada, and Ontario in the drop-down menus.</li><li>Find Ontario towns and communities on the <a class=\"lk\" href=\"https://roadsidethoughts.com/on/index-a.htm\" target=\"_blank\">RoadsideThoughts site</a>.</li><li>Search for Ontario place names on the <a class=\"lk\" href=\"https://www.johncardinal.com/ca/on/places.htm\" target=\"_blank\">John Cardinal site</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Newspapers",
+        "name": "Newspapers",
+        "section_name": "Learn about Ontario newspapers.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Ontario newspapers.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-ont-news.jpg"
+                    ],
+                    "text": "<ol><img src=\"../img/x-ca-ont-news.jpg\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Learn about Ontario newspapers in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Ontario_Newspapers\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Ontario Newspapers</span></a></li><br><li>Learn about researching historical Ontario newspapers in this tutorial from The Ancestor Hunt. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.theancestorhunt.com/blog/research-free-ontario-community-newspapers-for-free\" target=\"_blank\"> <img src=\"../img/vid.png\" width=\"20\"> <span class=\"re\">Research Free Historical Ontario Newspapers—6:12</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Ontario newspapers.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Find links to <a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Wikipedia:List_of_online_newspaper_archives#Ontario\" target=\"_blank\"> Ontario newspapers</a> on the Wikipedia site.</li> <li>Explore Ontario newspaper resources on the <a class=\"lk\" href=\"http://www.cangenealogy.com/ontario-news.html\" target=\"_blank\">CanGenealogy</a> site.</li><li>Explore historical Ontario newspapers on the <a class=\"lk\" href=\"https://research.digitalkingston.ca/record-and-documents/newspapers/browse-all-by-date\" target=\"_blank\">DigitalKingston</a> site.</li><li>Explore Ontario newspaper resources on the <a class=\"lk\" href=\"http://www.geneofun.on.ca/ontariogenweb/ontario-genealogy-records-newspapers.html\" target=\"_blank\">Ontario GenWeb</a> site.</li><li>Search the <a class=\"lk\" href=\"https://sites.google.com/site/onlinenewspapersite/Home/can/on\" target=\"_blank\">Ontario Online Historical Newspapers</a> site.</li><li>Search Ontario newspapers in the <a class=\"lk\" href=\"http://www.onlinenewspapers.com/canadaon.htm\" target=\"_blank\">onlinenewspapers.com</a> site.</li><li>Explore Ontario newspapers on the <a class=\"lk\" href=\"http://www.olivetreegenealogy.com/can/ont/npaper.shtml\" target=\"_blank\">Olive Tree Genealogy</a> site.</li><li>Search Ontario newspapers in the <a class=\"lk\" href=\"http://www.world-newspapers.com/ontario.html\" target=\"_blank\">world-newspapers.com</a> site.</li><li>Search Ontario newspapers in the <a class=\"lk\" href=\"http://www.abyznewslinks.com/canadon.htm\" target=\"_blank\">ABYZ News Link</a> site.</li><li>Explore Ontario newspaper resources on the <a class=\"lk\" href=\"http://www.theancestorhunt.com/blog/ontario-online-historical-newspapers-summary\" target=\"_blank\">Ancestor Hunt</a> site.</li></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Websites",
+        "name": "Websites",
+        "section_name": "Explore additional websites for research.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "There are a number of websites with valuable resources for Ontario research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore links on the <a class=\"lk\" href=\"http://www.cangenealogy.com/ontario.html\" target=\"_blank\">CanGenealogy</a> site.</li><li>Explore links in <a class=\"lk\" href=\"http://www.cyndislist.com/canada/provinces/on\" target=\"_blank\">Cyndi's List</a>.</li><li>Explore links in <a class=\"lk\" href=\"http://www.genealogylinks.net/canada/ontario/index.html\" target=\"_blank\">GenealogyLinks.net</a>.</li> </ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Search Records",
+        "name": "Search Records",
+        "section_name": "Search records from Ontario.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Use QUIKLinks to quickly search record collections for Ontario.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ul><li>QUIKLinks are indicated by lightning-bolt icons in the Goal header area and in the page.</li><li>QUIKLinks point to collections with 50,000 or more records.</li></ul>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore additional record collections.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><a class=\"lk\"></a><li><a class=\"lk\">Explore the </a><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Ontario_Online_Genealogy_Records\" target=\"_blank\">FamilySearch page</a> for online genealogy records.</li><li>Explore additional record collections in <a class=\"lk\" href=\"https://www.ancestry.com/search/collections/catalog/?keyword=Ontario\" target=\"_blank\">Ancestry</a>.</li><li>Explore additional record collections in <a class=\"lk\" href=\"https://search.findmypast.com/historical-records?page=1&amp;region=canada&amp;subcountry=ontario\" target=\"_blank\">Findmypast</a>.</li><li>Explore additional record collections in <a class=\"lk\" href=\"https://www.myheritage.com/research/catalog?location=Ontario&amp;s=257937091\" target=\"_blank\">MyHeritage</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Get Help",
+        "name": "Get Help",
+        "section_name": "Get help with your Ontario research.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Use Facebook pages to get answers to your questions.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/fh-help3.jpg"
+                    ],
+                    "text": "<ol><a href=\"../img/fh-help3.jpg\" target=\"_blank\"> <img src=\"../img/fh-help3.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 350px;\"></a>  <li>Visit the <a class=\"lk\" href=\"https://www.facebook.com/groups/ontariogenealogy/\" target=\"_blank\">Ontario Genealogy page</a> on Facebook.</li><li>Visit the <a class=\"lk\" href=\"https://www.facebook.com/groups/ontgensoc/\" target=\"_blank\">Ontario Genealogical Society page</a> on Facebook.</li><li>Find additional Facebook pages for Ontario genealogy on the <a class=\"lk\" href=\"http://socialmediagenealogy.com/genealogy-on-facebook-list\" target=\"_blank\">Genealogy on Facebook</a> site.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Join a mailing list or message board for Ontario research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Join the <a class=\"lk\" href=\"http://www.rootschat.com/forum/canada/\" target=\"_blank\">RootsChat forum</a> and post questions about Ontario research.</li><li>Search the <a class=\"lk\" href=\"http://bigfile.rootsweb.ancestry.com/cgi-bin/listsearch\" target=\"_blank\">RootsWeb site </a> for Ontario research mailing lists.</li><li>Explore the <a class=\"lk\" href=\"http://www.cyndislist.com/canada/provinces/on/social/\" target=\"_blank\"> Ontario research mailing lists</a> on Cyndi's List.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Ontario genealogy societies.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><a class=\"lk\"></a><li><a class=\"lk\">Learn about genealogy societies in Ontario in this FamilySearch Wiki article. <br><br></a><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Ontario_Societies\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Ontario Societies</span></a></li><br><li>Explore <a class=\"lk\" href=\"http://www.cyndislist.com/canada/provinces/on/societies/\" target=\"_blank\">Ontario genealogy society sites</a> on Cyndi's list.</li><li>Get help at a <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Category:Ontario_Family_History_Centres\" target=\"_blank\">family history center in Ontario</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

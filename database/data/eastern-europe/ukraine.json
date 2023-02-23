@@ -1,0 +1,253 @@
+[
+    {
+        "nav_name": "Research",
+        "name": "Research and Records",
+        "section_name": "Learn about Ukraine research.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=W0DjzvJbvn0\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Ukraine genealogy.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for research resources. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ukr-over.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/ukraine-kiev-city-632618/\" target=\"_blank\"> <img src=\"img/x-ukr-over.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a>    <li><span class=\"g\">FamilySearch</span>: Learn about Ukraine research in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Ukraine_Genealogy\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Ukraine Research</span></a> </li><br><li><span class=\"g\">Beginning</span>: Explore the <a class=\"lk\" href=\"https://lostrussianfamily.wordpress.com/beginners-guide-to-searching-for-family/\" target=\"_blank\">Beginner's Guide </a> for Ukrainian genealogy at the LostRussianFamily site.</li><li><span class=\"g\">Tips &amp; Tools</span>: Here are some essential tools for Ukrainian research. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.legacytree.com/blog/ukrainian-ancestry-research-tools\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">LT—Ukrainian Genealogy Research? Three Must-Have Tools to the Rescue!</span></a> </li><br><li>Here are additional tips for doing Ukrainian research. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.activeukraine.com/ukraine-guide/article/guide-finding-family-roots-ukraine\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Guide to Finding Your Family Roots in Ukraine - 2018</span></a></li><br><li>Learn about online Ukrainian genealogy tools in this blog article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ukrhec.org/family-history-group/blog/discovering-online-ukrainian-genealogy-tools\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Discovering Online Ukrainian Genealogy Tools - 2016</span></a></li><br><li><span class=\"g\">Immigration</span>: Learn about Ukraine emigration and immigration in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Ukraine_Emigration_and_Immigration\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Ukraine Emigration and Immigration</span></a></li><br> <li>Learn about immigration history and demographics in this Wikipedia article.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Ukrainian_Americans\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Wikipedia: Ukrainian Americans</span></a></li><br><li><span class=\"g\">Record Finder</span>: Use the Ukraine Record Finder to understand record types for research. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Ukraine_Record_Finder\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Ukraine Record Finder</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Ukrainian genealogy resources.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ukr-over1.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/photos/lviv-ukraine-europe-roof-at-home-1665105/\" target=\"_blank\"> <img src=\"img/x-ukr-over1.jpg\" width=\"100%\" ;=\"\" style=\"float:right; margin-top: 8px; margin-left: 16px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a>    <li>Use this Russian word list to help you with your Ukrainian research. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Russian_Genealogical_Word_List\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Russian Word List</span></a></li><br><li><span class=\"g\">Bessarabian</span>: Learn about Bessarabian research (Moldova and Ukraine).<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/bessarabia-then-and-now-researching-our-ancestors-and-locating-helpful-resources\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Bessarabia—38:14</span></a> </li><br><li><span class=\"g\">Sites</span>: Explore this collection of <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ukrhec.org/family-history-group/research-recources\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Ukrainian Genealogy-related Websites and Social Media</a>.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://feefhs.org/resource/ukraine\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">FEEFHS.org site </a> for Ukrainian genealogy resources.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://forebears.io/ukraine\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Forebears.io site</a> for research records.</li><li><span class=\"g\">Surnames</span>: Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.geneanet.org/country/search-Ukraine-UKR\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Geneanet site</a> for Ukrainian surnames.</li><li>Search for <a class=\"lk\" href=\"http://www.geneaservice.nl/navigator/ukraine/index.html\" target=\"_blank\">Ukrainian surnames</a> in a number of databases.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Archives and Libraries",
+        "name": "Archives and Libraries",
+        "section_name": "Learn about Ukraine archives and libraries.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=W0DjzvJbvn0\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Ukraine archives and libraries.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ukr-lib.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://commons.wikimedia.org/wiki/File:Ukraine-Lviv-House_of_Scientists-Library.jpg\" target=\"_blank\"> <img src=\"img/x-ukr-lib.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a>  <li>Learn about Ukraine archives and libraries in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Ukraine_Archives_and_Libraries\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Ukraine Archives and Libraries</span></a></li><br><li>Learn about Ukrainian records from 1650-1920 that were indexed in 2017. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://euromaidanpress.com/2017/06/24/huge-genealogical-database-of-ukrainians-born-in-1650-1920-opens-online/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Huge genealogical database of Ukrainians born in 1650–1920 opens online - 2017</span></a></li><br><li>Explore resources for Ukrainian archives on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://genealogy-ua.com/%D0%B0%D1%80%D1%85%D0%B8%D0%B2%D1%8B-%D1%83%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D1%8B/?lang=en\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Archives of Ukraine site</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Church and Cemetery Records",
+        "name": "Church and Census",
+        "section_name": "Learn to use Ukraine church, religious, and cemetery records.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=W0DjzvJbvn0\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Ukraine church records.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ukr-chu.jpg"
+                    ],
+                    "text": "<ol><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Ukrainian_Baroque#/media/File:St._Michael%27s_Catheral_view.JPG\" target=\"_blank\"> <img src=\"img/x-ukr-chu.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-top: 8px; margin-left: 16px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a> <li><span class=\"g\">FamilySearch</span>: Learn about Ukraine church records in this FamilySearch Wiki article.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Ukraine_Church_Records\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Ukraine Church Records</span></a> </li><br><li><span class=\"g\">Parish</span>: Learn about parish records available in the Ukrainian Regional Archives. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.onyschuk.com/wordpresstugg/?p=486\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Guide to Parish Records in Ukrainian Regional Archives Genealogy - 2015</span></a> </li><br><li><span class=\"g\">Catholic</span>: Learn how to explore the HalGal database of Roman Catholic parish records. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.halgal.com/halgalrc.asp\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">The HalGal Database of Roman Catholic Parish Records</span></a> </li><br><li><span class=\"g\">Digitizing</span>: Learn about efforts to digitize Ukraine church records.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.ukrhec.org/church-records-project\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Church Records Project</span></a> </li><br></ol><h5>Jewish Resources</h5><ol><li>Learn about finding records for Jewish research in the Ukraine.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=pn-dej0eEdg\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">Finding Records in Ukraine for Jewish Genealogy Research—10:42 - 2018</span></a> <br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/pn-dej0eEdg?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li>Explore Jewish genealogy in the Ukraine in this guide from the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://libguides.cjh.org/genealogyguides/ukraine/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Center for Jewish History site</a>.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.jewishgen.org/databases/Ukraine/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">JewishGen Ukraine database</a>.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://bloodandfrogs.com/encyclopedia/ukraine\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Jewish Genealogy Encyclopedia</a> for Jewish resources in the Ukraine.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Ukraine cemetery records.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ukr-cem.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/photos/cemetery-headstone-religion-cross-2460849/\" target=\"_blank\"> <img src=\"img/x-ukr-cem.jpg\" width=\"100%\" ;=\"\" style=\"float:right; margin-top: 8px; margin-left: 16px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a>    <li><span class=\"g\">Lost Russian Family</span>: Access the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://lostrussianfamily.wordpress.com/cemetery-database/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">LostRussianFamily site</a> for cemetery resources and records.</li><li>Learn how to search Find A Grave for Ukrainian records in this LostRussianFamily blog. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://lostrussianfamily.wordpress.com/2015/10/19/the-user-friendly-guide-to-Find A Grave-for-russian-and-ukrainian-genealogy/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">User-Friendly Guide to Find A Grave for Russian and Ukrainian Genealogy - 2015</span></a> </li><br><li><span class=\"g\">Find A Grave</span>: Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.findagrave.com/cemetery-browse/Ukraine?id=country_63\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Find A Grave site</a> for cemetery records.</li><li><span class=\"g\">BillionGraves</span>: Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://billiongraves.com/site-map?country=Ukraine\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">BillionGraves site</a> for cemetery records.</li></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Military Records",
+        "name": "Military Records",
+        "section_name": "Learn about Ukraine military records.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=W0DjzvJbvn0\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Ukraine military records.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ukr-mil.jpg"
+                    ],
+                    "text": "<ol><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Ukrainian_Ground_Forces#/media/File:Soldiers_from_the_Ukrainian_Armed_Forces_95th_Airborne_Brigade.jpg\" target=\"_blank\"> <img src=\"img/x-ukr-mil.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a><li>Explore sources for <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://lostrussianfamily.wordpress.com/category/military-records-2/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Ukrainian military records</a> on the LostRussianFamily site.</li><li> Explore records for <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://lostrussianfamily.wordpress.com/2019/05/22/10-million-records-added-to-wwii-victims-database/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">World War II victims</a> on the LostRussianFamily site.</li></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Maps and Towns",
+        "name": "Maps and Towns",
+        "section_name": "Learn about Ukraine maps and towns.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=W0DjzvJbvn0\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Ukraine maps and gazetteers.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ukr-map.gif"
+                    ],
+                    "text": "<ol><a href=\"https://commons.wikimedia.org/wiki/Atlas_of_Ukraine#/media/File:Ukraine_map_(disputed_territory).png\" target=\"_blank\"> <img src=\"img/x-ukr-map.gif\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px;\"></a>  <li>See a <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Ukraine_Genealogy#Ukraine_Map\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">map of Ukraine jursidictions</a>.</li><li>Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.artsrn.ualberta.ca/heritagevillage/menu1.php\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">historical maps of Ukraine</a>.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.davidrumsey.com/luna/servlet/view/search?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&amp;q=ukraine&amp;search=Go\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">David Rumsey collection</a> of Ukraine maps.</li> <li>Access maps on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://feefhs.org/resource/ukraine\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">FEEFHS site</a>.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.oldmapsonline.org/en/Ukraine\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Old Maps Online site</a> for Ukraine maps.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://commons.wikimedia.org/wiki/Atlas_of_Ukraine\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Atlas of Ukraine</a> on the Wikipedia site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://commons.wikimedia.org/wiki/Category:Old_maps_of_Ukraine\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Old Maps of Ukraine</a> on the Wikipedia site.</li><li>Explore a <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.fallingrain.com/world/UP/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">directory of Ukraine cities, towns, and regions</a> in the Falling Rain site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Newspapers",
+        "name": "Newspapers",
+        "section_name": "Learn about Ukraine newspapers.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=W0DjzvJbvn0\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Explore Ukraine newspapers.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ukr-news.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://commons.wikimedia.org/wiki/File:(12)_WIKIPEDIA_PODILSKY_KRAI_NEWSPAPER_HEADQUARTER_IN_TOWN_OF_BAR_VINNYTSIA_REGION_STATE_OF_UKRAINE_PHOTOGRAPH_BY_VIKTOR_O._LEDENYOV_20150506.jpg\" target=\"_blank\"> <img src=\"img/x-ukr-news.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px;\"></a> <li>Find links to <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Wikipedia:List_of_online_newspaper_archives#Ukraine\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Ukrainian newspapers</a> on the Wikipedia site.</li> <li>Search Ukrainian newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.onlinenewspapers.com/ukraine.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">onlinenewspapers.com</a> site.</li> <li>Search Ukrainian newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.world-newspapers.com/ukraine.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">world-newspapers.com</a> site.</li><li>Search Ukrainian newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.abyznewslinks.com/ukrai.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">ABYZ News Links</a> site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Websites",
+        "name": "Websites",
+        "section_name": "Explore additional websites for research.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=W0DjzvJbvn0\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "There are a number of websites with valuable resources for Ukrainian research.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/laptop-fingers1.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/laptop-fingers1.jpg\" alt=\"\" width=\"350px\" style=\"float:right; margin-top: 6px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Explore links in the <a class=\"lk\" href=\"https://www.familysearch.org/en/wiki/Ukraine_Websites\" target=\"_blank\">FamilySearch Wiki</a>.</li><li>Explore links in <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cyndislist.com/eastern-europe/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Cyndi's List</a>.</li><li>Explore links in <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genealogylinks.net/europe/ukraine/index.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Genealogylinks.net</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Search Records",
+        "name": "Search Records",
+        "section_name": "Search records from Ukraine.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=W0DjzvJbvn0\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Use QUIKLinks to quickly search the most common record collections for Ukraine.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore additional record collections.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore the FamilySearch page for <a class=\"lk\" href=\"https://familysearch.org/wiki/en/Ukraine_Online_Genealogy_Records\" target=\"_blank\">Ukrainian online record collections</a>.</li><li>Explore the databases available on the <a class=\"lk\" href=\"https://lostrussianfamily.wordpress.com/free-databases/\" target=\"_blank\">LostRussianFamily site</a>.</li><li>In FamilySearch, Ancestry, Findmypast or MyHeritage, explore additional record collections.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore GenealogyInTime for Ukrainian records.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore the <a class=\"lk\" href=\"http://www.genealogyintime.com/records/Europe-genealogy-records.html\" target=\"_blank\">Europe page</a> of the GenealogyInTime website. Record collections are listed and described in order from newest to oldest additions, including FamilySearch, Ancestry, and many other sources.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Get Help",
+        "name": "Get Help",
+        "section_name": "Get help with your Ukraine research.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=W0DjzvJbvn0\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Use Facebook pages to get answers to your questions.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/fh-help1.jpg"
+                    ],
+                    "text": "<ol><a href=\"img/fh-help1.jpg\" target=\"_blank\"> <img src=\"img/fh-help1.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-top: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a> <li>Visit the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.facebook.com/groups/UkrainianGenealogy/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Ukrainian Genealogy page</a> on Facebook.</li> <li>Visit the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.facebook.com/groups/UkrainianDNA/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Ukrainian DNA Genealogy page</a> on Facebook.</li><li>Visit the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.facebook.com/groups/EasternEuropeGenealogyResearchCommunity/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Eastern European Research</a> Facebook page for FamilySearch.</li><li>See the <a class=\"lk\" href=\"http://socialmediagenealogy.com/genealogy-on-facebook-list/\" target=\"_blank\">Genealogy on Facebook list</a> of Facebook groups dedicated to helping with research for Ukraine.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Join a mailing list, community, or message board for Ukraine research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://community.familysearch.org/s/group/0F93A000000Lj96SAC/russian-empire\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">FamilySearch community</a> for Ukrainian (Russian Empire) research.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cyndislist.com/eastern-europe/social/?page=5\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Ukraine research mailing lists</a> on Cyndi's List.</li><li>Use the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ancestry.com/boards/localities.eeurope.ukraine/mb.ashx\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Ancestry message boards</a> to read or post questions about Ukraine research.</li><li>Explore Ukraine research questions in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://genealogy.stackexchange.com/questions/tagged/ukraine\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Genealogy Stack Exchange</a>.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Ukraine genealogy societies.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore <a class=\"lk\" href=\"http://www.cyndislist.com/eastern-europe/societies/?page=2\" target=\"_blank\">Ukraine genealogy society sites</a> on Cyndi's List.</li><li>Get help at a <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Category:Ukraine_Family_History_Centers\" target=\"_blank\">family history center in Ukraine</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Geo/Culture/History",
+        "name": "Geography, Culture, and History",
+        "section_name": "Learn about the geography, culture, and history of the Ukraine. \n\t\t\t\t\t\t\n\t\t\t\t\t\t",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=W0DjzvJbvn0\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Explore websites and videos.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/c-ukraine.jpg"
+                    ],
+                    "text": "<h5>Reference</h5><ol><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Ukraine_History\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">FamilySearch: History</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Ukraine\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Wikipedia</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.britannica.com/place/Ukraine\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Encyclopedia Britannica</a></li></ol><h5>For Kids</h5><ol><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ducksters.com/geography/country.php?country=Ukraine\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Ducksters</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=9aiPkqfv0Yg\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">YouTube: Animated History of Ukraine</a></li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

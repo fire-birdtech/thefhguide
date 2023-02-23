@@ -1,0 +1,311 @@
+[
+    {
+        "nav_name": "Research",
+        "name": "Research and Records",
+        "section_name": "Learn about Argentina research and records.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=5E2Z0zRisxA\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Get started with Argentina research.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-arg-over.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://commons.wikimedia.org/wiki/Iguazu_Falls#/media/File:Iguassu_falls_rainbow.jpg\" target=\"_blank\"> <img src=\"img/x-arg-over.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a>   <li><span class=\"g\">FamilySearch</span>: Visit the FamilySearch Wiki page for an overview of Argentina research and useful links.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Argentina_Genealogy\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Argentina</span></a></li><br><li><span class=\"g\">Quick Start</span>: Get an introduction to Argentina genealogy in the FamilySearch <a class=\"lk\" href=\"https://familysearch.org/wiki/en/Argentina_Quick_Start_Guide\" target=\"_blank\">Quick Start Guide</a>.</li><li><span class=\"g\">Provinces Map</span>: Use the <a class=\"lk\" href=\"https://familysearch.org/wiki/en/Argentina_Genealogy#Argentina_Clickable_Map\" target=\"_blank\">clickable Argentina provinces map</a> on the FamilySearch Wiki page to explore research locations. See also the provinces list below it.</li><li><span class=\"g\">Town of Origin</span>: Learn how to find your ancestor's town of origin in Argentina. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Argentina_Finding_Town_of_Origin\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Finding Town of Origin</span></a></li><br><li><span class=\"g\">Correspondence</span>: Use this guide for corresponding with Argentine organizations about genealogy resources. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Spanish_Letter_Writing_Guide\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Spanish Letter-Writing Guide</span></a></li><br><li><span class=\"g\">Old Documents</span>: Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://spanishpaleographytool.org/\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">Spanish Paleography Tool site</a> for help with reading older documents.</li></ol><h5>Records</h5><ol><li><span class=\"g\">Record Finder</span>: Use the Argentina Record Finder to understand record types for research. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Argentina_Record_Finder\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Argentina Record Finder</span></a></li><br><li><span class=\"g\">Military</span>: Learn about Argentina military records. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Argentina_Military_Records\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Argentina Military Records</span></a></li><br><li><span class=\"g\">Notarial</span>: Learn about Argentina notarial records. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Argentina_Notarial_Records\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Argentina Notarial Records</span></a></li><br><li><span class=\"g\">Forebears.io</span>: Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://forebears.io/argentina\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">Forebears.io site</a> for research records.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Be familiar with Spanish genealogy terms and Argentine naming customs.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Spanish_Genealogical_Word_List#Language_Characteristics\" target=\"_blank\">Language Characteristics</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Spanish_Genealogical_Word_List#Numbers\" target=\"_blank\">Numbers</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Spanish_Genealogical_Word_List#Dates_and_Time\" target=\"_blank\">Dates and Time</a></li> <li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Spanish_Genealogical_Word_List#Key_Words\" target=\"_blank\">Key Words</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Spanish_Genealogical_Word_List#General_Word_List\" target=\"_blank\">General Word List</a></li><br></ul></span>"
+                        },
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Argentina_Names,_Personal#Surnames\" target=\"_blank\">Surnames</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Argentina_Names,_Personal#Given_Names\" target=\"_blank\">Given Names</a></li></ul></span>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for research strategies and language. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-arg-flag.png"
+                    ],
+                    "text": "<ol><img src=\"img/x-arg-flag.png\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"> <li><span class=\"g\">Terms</span>: Know the basic genealogy terms that are useful for Spanish research.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Spanish_Genealogical_Word_List\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Spanish Genealogical Word List</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('argb');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"argb\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Spanish_Genealogical_Word_List#Language_Characteristics\" target=\"_blank\">Language Characteristics</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Spanish_Genealogical_Word_List#Numbers\" target=\"_blank\">Numbers</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Spanish_Genealogical_Word_List#Dates_and_Time\" target=\"_blank\">Dates and Time</a></li> <li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Spanish_Genealogical_Word_List#Key_Words\" target=\"_blank\">Key Words</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Spanish_Genealogical_Word_List#General_Word_List\" target=\"_blank\">General Word List</a></li><br></ul></span></div></li><br><span id=\"areas\"><li><span class=\"g\">Naming Customs</span>: Learn about Argentine naming customs for research.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Argentina_Names,_Personal\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Argentina Personal Names</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('usa');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"usa\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Argentina_Names,_Personal#Surnames\" target=\"_blank\">Surnames</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Argentina_Names,_Personal#Given_Names\" target=\"_blank\">Given Names</a></li></ul></span></div></li><li><span class=\"g\">Surnames</span>: Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.geneanet.org/country/search-Argentina-ARG\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">Geneanet site</a> for Argentine surnames.</li><li>Search for <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.geneaservice.nl/navigator/argentina/index.html\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">Argentine surnames</a> in a number of databases.</li><li>Learn about Argentian surnames on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://forebears.io/argentina/surnames\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">Forebears.io site</a>.</li></span></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Libraries and Archives",
+        "name": "Libraries and Archives",
+        "section_name": "Learn about Argentina archives and libraries.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=5E2Z0zRisxA\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Argentina archives and libraries.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Argentina_Archives_and_Libraries#Archives_in_Spain_and_Italy\" target=\"_blank\">Archives in Spain and Italy</a><br></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Argentina_Archives_and_Libraries#National_Government_Archives_and_Libraries\" target=\"_blank\">National Government Archives and Libraries</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Argentina_Archives_and_Libraries#Branches_of_National_Archives_of_Argentina\" target=\"_blank\">Branches of National Archives of Argentina</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Argentina_Archives_and_Libraries#Other_Libraries\" target=\"_blank\">Other Libraries</a></li></ul></span>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-arg-lib.jpg"
+                    ],
+                    "text": "<ol><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/National_Library_of_the_Argentine_Republic#/media/File:Ex_Biblioteca_Nacional_(San_Telmo).jpg\" target=\"_blank\"> <img src=\"img/x-arg-lib.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a>  <li><span class=\"g\">FamilySearch</span>: Learn about Argentina archives and libraries in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Argentina_Archives_and_Libraries\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Argentina Archives and Libraries</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('usa');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"usa\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Argentina_Archives_and_Libraries#Archives_in_Spain_and_Italy\" target=\"_blank\">Archives in Spain and Italy</a><br></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Argentina_Archives_and_Libraries#National_Government_Archives_and_Libraries\" target=\"_blank\">National Government Archives and Libraries</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Argentina_Archives_and_Libraries#Branches_of_National_Archives_of_Argentina\" target=\"_blank\">Branches of National Archives of Argentina</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Argentina_Archives_and_Libraries#Other_Libraries\" target=\"_blank\">Other Libraries</a></li></ul></span></div></li><br><li><span class=\"g\">Guia Genealogica</span>: Explore archives and libraries in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.guiagenealogica.com/index.php/archivos-en-latinoamerica/argentina\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">Guia Genealogica</a> site.</li><li><span class=\"g\">Books We Own</span>: Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.rootsweb.ancestry.com/~bwo/argentina.html\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">Books We Own site</a> for books that can be checked out or researched for you by others.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Census",
+        "name": "Census",
+        "section_name": "Learn about civil registration and the Argentina census.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=5E2Z0zRisxA\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Argentina civil registration and census.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Argentina_Civil_Registration#Information_Recorded_in_Civil_Registers\" target=\"_blank\">Information Recorded in Civil Registers</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Argentina_Civil_Registration#Locating_Civil_Registration_Records\" target=\"_blank\">Locating Civil Registration Records</a></li></ul></span>"
+                        },
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Argentina_Census#Understanding_the_Census\" target=\"_blank\">Understanding the Census</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Argentina_Census#Searching_Census_Records\" target=\"_blank\">Searching Census Records</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Argentina_Census#Useful_Links\" target=\"_blank\">Useful Links</a></li></ul></span>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-arg-monument.jpg"
+                    ],
+                    "text": "<p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Emigration, Immigration",
+        "name": "Emigration and Immigration",
+        "section_name": "Learn about Argentina emigration and immigration.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=5E2Z0zRisxA\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Argentine emigration and immigration.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Argentina_Emigration_and_Immigration#Finding_the_Emigrant.27s_Town_of_Origin\" target=\"_blank\">Finding the Emigrant's Town of Origin</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Argentina_Emigration_and_Immigration#Immigration_into_Argentina\" target=\"_blank\">Immigration into Argentina</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Argentina_Emigration_and_Immigration#Websites_and_Online_Databases\" target=\"_blank\">Websites and Online Databases</a></li></ul></span>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for immigration resources. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-arg-imm.jpg"
+                    ],
+                    "text": "",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Church and Cemetery",
+        "name": "Church and Cemetery",
+        "section_name": "Learn to use Argentina church, religious, and cemetery records.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=5E2Z0zRisxA\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Argentina church records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Argentina_Church_Records#Information_Recorded_in_Church_Registers\" target=\"_blank\">Information Recorded in Church Registers</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Argentina_Church_Records#Locating_Church_Records\" target=\"_blank\">Locating Church Records</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Argentina_Church_Records#Reading_the_Records\" target=\"_blank\">Reading the Records</a></li></ul></span>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-arg-church.jpg"
+                    ],
+                    "text": "<p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Argentina cemetery records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for church and cemetery research. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-arg-cem.jpg"
+                    ],
+                    "text": "<p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Maps and Gazetteers",
+        "name": "Maps and Gazetteers",
+        "section_name": "Learn about Argentina maps and gazetteers.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=5E2Z0zRisxA\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Argentina maps and gazetteers.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Argentina_Maps#Finding_a_Specific_Town_on_a_Map\" target=\"_blank\">#Finding a Specific Town on a Map</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Argentina_Maps#Finding_Maps_and_Atlases\" target=\"_blank\">Finding_Maps and Atlases</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Argentina_Maps#Websites\" target=\"_blank\">Websites</a></li></ul></span>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-arg-map.png"
+                    ],
+                    "text": "",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Argentina map resources.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Newspapers",
+        "name": "Newspapers",
+        "section_name": "Learn about Argentina newspapers.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=5E2Z0zRisxA\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Explore Argentina newspapers for ancestor research.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-arg-news.jpg"
+                    ],
+                    "text": "",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Websites and Resources",
+        "name": "Websites and Resources",
+        "section_name": "Explore websites and resources for research.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=5E2Z0zRisxA\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Explore websites and Argentina genealogies.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/laptop-fingers1.jpg"
+                    ],
+                    "text": "",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Search Records",
+        "name": "Search Records",
+        "section_name": "Search records from Argentina.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=5E2Z0zRisxA\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Use QUIKLinks, Partners, and GenealogyInTime to quickly search the most common record collections for Argentina.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/laptop-hands.jpg"
+                    ],
+                    "text": "",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Get Help",
+        "name": "Get Help",
+        "section_name": "Get help with your Argentina research. \n\t\t\t\t\t\t\n\t\t\t\t\t\t",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=5E2Z0zRisxA\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Use Facebook pages to get answers to your questions.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/fh-help3.jpg"
+                    ],
+                    "text": "",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Join a mailing list, community, or message board for Argentina research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Argentina genealogy societies.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Culture/History",
+        "name": "Geography, Culture, and History",
+        "section_name": "Learn about the geography, culture, and history of Argentina. \n\t\t\t\t\t\t\n\t\t\t\t\t\t",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=5E2Z0zRisxA\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Explore websites and videos.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/c-argentina.jpg"
+                    ],
+                    "text": "<h5>Reference</h5><ol><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Argentina_History\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">FamilySearch: History</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Argentina_Historical_Geography\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">FamilySearch: Historical Geography</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Argentina\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">Wikipedia</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.britannica.com/place/Argentina\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">Encyclopedia Britannica</a></li></ol><h5>For Kids</h5><ol><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.natgeokids.com/uk/discover/geography/countries/argentina-facts/\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">NatGeo for Kids</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ducksters.com/geography/country/argentina_history_timeline.php\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">Ducksters</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=O324jDsS7PA\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">YouTube: The Argentina Song</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=Nf1LE3PBj9Y\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">YouTube: Animated History of Argentina</a></li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,1391 @@
+[
+    {
+        "nav_name": "Gather Your Records",
+        "name": "Gather Your Records",
+        "section_name": "Gather and safeguard your own important personal records. Vault",
+        "summary": "<p>Preserving your own personal records gets you off to a good start and helps you protect your valuable information.</p>",
+        "choices": [
+            {
+                "name": "Gather your own important records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Gather your important personal documents.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercise",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Proficient: Make a list of the important personal documents you should have, and then collect and store them safely.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/2-1.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/2-1.jpg\" alt=\"\" width=\"350px\" border=\"1\" style=\"float:right; margin-right:0px; margin-top: 16px; margin-left: 16px;\"><li>Locate and safely store your birth certificate, religious records, marriage certificate, legal documents, etc.</li>  <li>If you are missing any important records, arrange to get replacements of them.</li> </ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "Here are some helpful ideas for gathering your own family history records.",
+                                "links": [
+                                    {
+                                        "link": "https://www.familysearch.org/wiki/en/Gather_Family_Information",
+                                        "text": "FS—Gather Family Information",
+                                        "type": "document"
+                                    },
+                                    {
+                                        "link": "https://www.youtube.com/watch?v=RQYM25wF4ls",
+                                        "text": "Gathering Home Sources—3:38 - 2020",
+                                        "type": "video"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Keep a journal to capture events in your life and personal reflections.See Choice C in Project 2: Memories, Goal 9 for details.",
+                                "links": [
+                                    {
+                                        "link": "https://www.thefhguide.com/project-2-memories09.html#c",
+                                        "text": "Choice C",
+                                        "type": "video"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Gather photos and documents you have of your ancestors.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Gather family history documents and photos in your possession and learn more about them.</li><li>See timing 10:25 of the Inherited Records video in Step 4 for ideas on what to treasure, set aside, or discard.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=90rAh7__pz4#t=1m15s\" target=\"_blank\">Gather Heirlooms and Documents</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=90rAh7__pz4#t=2m15s\" target=\"_blank\">Sort</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=90rAh7__pz4#t=3m45s\" target=\"_blank\">Keep or toss</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=90rAh7__pz4#t=6m20s\" target=\"_blank\">Preserve and protect</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=90rAh7__pz4#t=8m28s\" target=\"_blank\">What to Do with Paper</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=90rAh7__pz4#t=16m45s\" target=\"_blank\">Dealing with Photos</a></li></ul></span>"
+                        },
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=x2OO0pzwKWI#t=6m45s\" target=\"_blank\">Sort</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=x2OO0pzwKWI#t=14m10s\" target=\"_blank\">Store</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=x2OO0pzwKWI#t=31m3s\" target=\"_blank\">Share</a></li></ul></span>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Make a catalog of the family history photos and documents you have.</li><li>* Proficient: Sort your photos and documents using the ideas in the Inherited Records video. Then list three ways you could use these items (see the BYU video).</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/76682465.jpg"
+                    ],
+                    "text": "<ol><a href=\"img/76682465.jpg\" target=\"_blank\"><img src=\"img/76682465.jpg\" alt=\"\" width=\"350px\" border=\"1\" style=\"float:right; margin-right:0px; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li> Record what you know from records and sources easily available. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=90rAh7__pz4\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">BYU—Creating a Family Archive (19:00) - 2014</span></a> &nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('archive');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"archive\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=90rAh7__pz4#t=1m15s\" target=\"_blank\">Gather Heirlooms and Documents</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=90rAh7__pz4#t=2m15s\" target=\"_blank\">Sort</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=90rAh7__pz4#t=3m45s\" target=\"_blank\">Keep or toss</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=90rAh7__pz4#t=6m20s\" target=\"_blank\">Preserve and protect</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=90rAh7__pz4#t=8m28s\" target=\"_blank\">What to Do with Paper</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=90rAh7__pz4#t=16m45s\" target=\"_blank\">Dealing with Photos</a></li></ul></span></div><br><br><iframe width=\"330\" height=\"220\" src=\"https://www.youtube.com/embed/90rAh7__pz4?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li>Learn how to find the treasures in family records that are in your possession. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=x2OO0pzwKWI\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">BYU—Inherited Records? Now What? —43:08 - 2016</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('inherit');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"inherit\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=x2OO0pzwKWI#t=6m45s\" target=\"_blank\">Sort</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=x2OO0pzwKWI#t=14m10s\" target=\"_blank\">Store</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=x2OO0pzwKWI#t=31m3s\" target=\"_blank\">Share</a></li></ul></span></div><br><br><iframe width=\"330\" height=\"220\" src=\"https://www.youtube.com/embed/x2OO0pzwKWI?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li>Watch these videos to learn about the importance of documenting stories and photographs.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.ancestryacademy.com/getting-started-right-documentation-for-new-genealogists/videos/document-your-family-stories\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">AAC—Document Your Family Stories—9:55 (acct. req.)</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://www.ancestryacademy.com/getting-started-right-documentation-for-new-genealogists/videos/document-your-family-treasures-and-photographs\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">AAC—Document Your Family Treasures and Photographs—11:26 (acct. req.) </span></a></li><br><li>Here are five reasons for documenting your family's story. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://web.frazerconsultants.com/2017/11/5-reasons-why-you-should-document-your-familys-story/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">5 Reasons Why You Should Document Your Family’s Story - 2017</span></a></li><br><li>Learn more about family records and how you can use them. Examples include journals, diaries, letters, photographs, and family bibles. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://www.byutv.org/player/28af813c-da34-4549-89bb-40f161ad8d1c/ancestors-family-records\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">BYU—Family Records—24:23</span></a> <br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/United_States_Bible_Records\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—U.S. Bible Records</span></a></li><br><li><span class=\"g\">Analyzing</span>: Watch this video for guidelines on deciding whether objects are heirlooms, documentation, or junk. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/rootstech/session/heirloom-documentation-or-junk-what-to-keep-or-toss-janet-hovorka\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">RT—Heirloom, Documentation or Junk: What to Keep or Toss —47:57</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://lifestyle.howstuffworks.com/family/heirlooms\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Family Heirlooms</span></a></li><br><li><span class=\"g\">Clues</span>: Learn how to find research clues in your family mementos. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://artoffamilyhistory.com/researching/research-clues/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">How To Find Research Clues in your Family Mementos</span></a></li><br><li>Learn about how to discover the history of your home. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.homeadvisor.com/r/a-guide-to-researching-the-history-of-a-house/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">A Guide to Researching the History of a House - 2020</span></a></li><br><li>Learn how baby books can provide provide valuable family history clues. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familyeducation.com/family-history-genealogy/baby-books-as-a-genealogy-tool\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FE—Using Baby Books as a Genealogy Tool</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Make scans or paper copies of each document or photo to serve as backups.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=A7A_voNojTc#t=4m45s\" target=\"_blank\">Learning Center, Ancestry Wiki</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=A7A_voNojTc#t=8m20s\" target=\"_blank\">Silver hilade degradation</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=A7A_voNojTc#t=14m35s\" target=\"_blank\">Resolution DPI and PPI</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=A7A_voNojTc#t=17m31s\" target=\"_blank\">Save as ...</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=A7A_voNojTc#t=35m35s\" target=\"_blank\">RGB and CMYK</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=A7A_voNojTc#t=39m33s\" target=\"_blank\">Backup</a></li></ul></span>"
+                        },
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=qWsL-ku5udo#t=3m10s\" target=\"_blank\">Preserve old artifacts</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=qWsL-ku5udo#t=4m4s\" target=\"_blank\">Digitize and preserve old bibles</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=qWsL-ku5udo#t=4m58s\" target=\"_blank\">Where to get archival materials</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=qWsL-ku5udo#t=6m10s\" target=\"_blank\">Acid-free paper</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=qWsL-ku5udo#t=6m50s\" target=\"_blank\">How to preserve old photographs</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=qWsL-ku5udo#t=8m10s\" target=\"_blank\">Folders and notebooks</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=qWsL-ku5udo#t=8m40s\" target=\"_blank\">Preserving old newspapers</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=qWsL-ku5udo#t=10m37s\" target=\"_blank\">How to preserve old newspapers</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=qWsL-ku5udo#t=15m11s\" target=\"_blank\">Materials for preservation</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=qWsL-ku5udo#t=17m40s\" target=\"_blank\">Can you write on the back of photos?</a></li></ul></span>"
+                        },
+                        {
+                            "type": "exercise",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Proficient: Scan all important family history documents and photos in your possession.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/2-scanner.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/2-scanner.jpg\" alt=\"\" width=\"350px\" border=\"1\" style=\"float:right; margin-right:0px; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>If you don't have access to a scanner, visit a library or <a class=\"lk\" href=\"https://www.familysearch.org/locations/\" target=\"_blank\">family history center</a> to use one, or use a digital camera to make digital copies. For tips on scanning, see Goal 5.</li><li>Back up digital copies to external devices (thumb drive, etc.) or to the Internet.</li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "Google Photos: Use Google Photos to back up and store your family history photos.",
+                                "links": [
+                                    {
+                                        "link": "https://familytreewebinars.com/download.php?webinar_id=915",
+                                        "text": "MH—Google Photos: one photo app to rule them all—88:00",
+                                        "type": "video"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Scanning: Learn basic scanning skills in this video.",
+                                "links": [
+                                    {
+                                        "link": "https://www.youtube.com/watch?v=A7A_voNojTc",
+                                        "text": "Scanning and Beyond—41:52 - 2020",
+                                        "type": "video"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Backups/Archival: Read these tips on backing up your smartphone photos.",
+                                "links": [
+                                    {
+                                        "link": "http://blogs.ancestry.com/ancestry/2015/12/22/3-simple-strategies-to-back-up-your-smartphone-photos/",
+                                        "text": "AC—Backing Up Smartphone Photos - 2015",
+                                        "type": "document"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Learn about different formats for your digital files.",
+                                "links": [
+                                    {
+                                        "link": "https://familyhistorydaily.com/genealogy-help-and-how-to/digitizing-family-photos-records/",
+                                        "text": "Digitizing Family Photos and Records: What's the Best Format to Use?",
+                                        "type": "document"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Learn how to archive your family history memories.",
+                                "links": [
+                                    {
+                                        "link": "https://www.youtube.com/watch?v=qWsL-ku5udo",
+                                        "text": "GTV: How to Archive Your Family History Documents, Photos, & Artifacts—34:58 - 2019",
+                                        "type": "video"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Learn about backing up your files from genealogy websites.",
+                                "links": [
+                                    {
+                                        "link": "https://www.amyjohnsoncrow.com/why-you-should-download-your-files-from-ancestry-and-every-other-website/#more-963",
+                                        "text": "Why You Should Download Your Files From Ancestry and Every Other Website - 2017",
+                                        "type": "document"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Here are some tips for managing your scans and digital photographs.",
+                                "links": [
+                                    {
+                                        "link": "https://www.youtube.com/watch?v=nrRJNbo64nU",
+                                        "text": "FS—Managing Scanned and Digital Photos—23:46 - 2021",
+                                        "type": "video"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Protect and preserve your original documents and backups.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Take care of and preserve original photos and documents.</li><li>In storage areas, avoid high temperatures, humidity, and direct light.</li><li>Identify and record information in photos, such as people and events.</li><li>Use best practices for deciding on what type of photography or filming to do.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=SAT0WvtgpRk#t=3m22s\" target=\"_blank\">Paper vs. electronics</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=SAT0WvtgpRk#t=8m30s\" target=\"_blank\">Paper as an information storage medium</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=SAT0WvtgpRk#t=11m58s\" target=\"_blank\">Why are we concerned with paper?</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=SAT0WvtgpRk#t=18m48s\" target=\"_blank\">What is paper?</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=SAT0WvtgpRk#t=20m20s\" target=\"_blank\">How long does paper last?</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=SAT0WvtgpRk#t=25m04s\" target=\"_blank\">Causes of deterioration and loss</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=SAT0WvtgpRk#t=35m42s\" target=\"_blank\">Tips</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=SAT0WvtgpRk#t=40m34s\" target=\"_blank\">Conservation measures</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=SAT0WvtgpRk#t=41m50s\" target=\"_blank\">Storage</a></li></ul></span>"
+                        },
+                        {
+                            "type": "exercise",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Proficient: Make a list of the important personal documents you should have, and then collect and store them safely.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/safe.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/safe.jpg\" alt=\"\" width=\"350px\" border=\"1\" style=\"float:right; margin-right:0px; margin-top: 16px; margin-left: 16px;\"><li>Store original documents and backups in separate, secure locations. </li><li>Choose a safe, dry place for physical copies. </li> <li>Watch this video to learn about the importance of preserving your family photos and memories.<br><br><iframe width=\"330\" height=\"220\" src=\"//players.brightcove.net/1241706627001/default_default/index.html?videoId=6006714011001\" allowfullscreen=\"\" frameborder=\"0\"></iframe></li><br><li>Learn about passing your family history assets on to the next generation. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familytreemagazine.com/preservation/genealogy-will-what-to-include/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FTM—How to Pass On Research: What to Include in Your “Genealogy Will”</span></a></li><br></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "Tips: Explore the CollectionCareTips site for ideas on preserving important photos and documents.",
+                                "links": [
+                                    {
+                                        "link": "http://www.collectioncaretips.com/",
+                                        "text": "CollectionCareTips site",
+                                        "type": "video"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Visit the Library of Congress site for ideas on preserving many types of archives.",
+                                "links": [
+                                    {
+                                        "link": "https://www.loc.gov/preservation/care/",
+                                        "text": "Library of Congress site",
+                                        "type": "video"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Learn about digital preservation of your family history records.",
+                                "links": [
+                                    {
+                                        "link": "http://iagenweb.org/clarke/Pers_Arch.pdf",
+                                        "text": "Preserving Your Family History Records Digitally - 2010",
+                                        "type": "document"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "For more ideas on preserving documents and photos, read these articles.",
+                                "links": [
+                                    {
+                                        "link": "https://www.familysearch.org/blog/en/simple-steps-preserve-precious-family-memories/",
+                                        "text": "FS—Simple Steps to Preserve Your Precious Family Memories",
+                                        "type": "document"
+                                    },
+                                    {
+                                        "link": "http://www.mnhs.org/preserve/conservation/reports/photoqanda.pdf",
+                                        "text": "Preserving Your Photographs - 1994",
+                                        "type": "document"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Letters/Books: Here are some tips for preserving old family letters and books.",
+                                "links": [
+                                    {
+                                        "link": "https://education.myheritage.com/article/preserving-old-family-letters/",
+                                        "text": "MH—Preserving Old Family Letters - 2019",
+                                        "type": "document"
+                                    },
+                                    {
+                                        "link": "https://www.familysearch.org/wiki/en/How_to_Preserve_and_Restore_Family_Records_and_Books",
+                                        "text": "FS: How to Preserve and Restore Family Records and Books",
+                                        "type": "document"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Learn how to preserve various paper documents.",
+                                "links": [
+                                    {
+                                        "link": "https://www.youtube.com/watch?v=SAT0WvtgpRk",
+                                        "text": "BYU—Basic Paper Document Preservation—56:44 - 2020",
+                                        "type": "document"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Newspapers: Learn how to preserve old newspaper clippings.",
+                                "links": [
+                                    {
+                                        "link": "https://blog.myheritage.com/2019/09/5-easy-steps-to-preserving-newspaper-clippings/",
+                                        "text": "MH—5 Easy Steps to Preserving Newspaper Clippings - 2019",
+                                        "type": "document"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Heirlooms: Learn how to preserve a variety of family mementos.",
+                                "links": [
+                                    {
+                                        "link": "https://www.genealogytoday.com/articles/reader.mv?ID=4379",
+                                        "text": "GT—A Short Primer on Preserving Your Heirlooms - 2012",
+                                        "type": "document"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "(Optional) Restore damaged photographs when possible.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Electronic restoration - scanning and Photoshop, etc.</li><li>Chemical restoration - bleaching and dyeing (professional skills needed)</li><li>Physical restoration - expensive</li><li>Copying restoration - changing a duplicate</li><li>Airbrush restoration - using airbrush technology for improving a copy </li><hr style=\"margin-left: -20px;\"></ul>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/2-damage.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/2-damage.jpg\" alt=\"\" width=\"350px\" border=\"1\" style=\"float:right; margin-right:0px; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Learn about restoring photographs in this article. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://www.genealogy.com/articles/research/10_restr.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">GC—Restoring Damaged Photographs</span></a></li><br><li>Here are some tips on making bad family photos better. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://blogs.ancestry.com/ancestry/2016/11/13/5-easy-ways-to-fix-bad-family-photos/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">AC—5 Easy Ways to Fix Bad Family Photos - 2016</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://www.pricegen.com/fix-bad-family-\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">How To Fix Bad Family Photos</span></a></li><br><li>Get help <a class=\"lk\" href=\"http://www.rootschat.com/forum/free-photo-restoration/\" target=\"_blank\">restoring or dating your photographs</a> from members of the RootsChat forum.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Use Google Photos to store and organize digital photos.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/photos-table.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/photos-table.jpg\" alt=\"\" width=\"350px\" border=\"1\" style=\"float:right; margin-right:0px; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Learn how to get started with Google Photos. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/blog/en/what-is-google-photos/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS: What Is Google Photos? - 2019</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/en/blog/getting-started-with-google-photos\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS: Getting Started with Google Photos - 2022</span></a></li><br><li>Learn more about using Google Photos in these articles.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/en/blog/google-photos-helpful-features-for-genealogists\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS: Google Photos—A Genealogist's Dream? - 2019</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/en/blog/google-photos-and-genealogy-a-perfect-picture\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS: Google Photos and Genealogy, A Perfect Picture - 2018</span></a></li><br><li>Learn how to use Google Photos to help in your genealogy research.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/en/blog/a-guide-to-using-google-photos-for-genealogy\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS: A Guide to Using Google Photos for Genealogy - 2018</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://ancestralfindings.com/use-google-images-genealogy-research/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">AF: How to Use Google Images to Further Your Genealogy Research - 2019</span></a></li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Gather Records from Others",
+        "name": "Gather Records from Others",
+        "section_name": "Gather photos and documents of ancestors from others, and organize them.",
+        "summary": "<p>This helps you learn about your ancestors' lives in a personal way.</p>",
+        "choices": [
+            {
+                "name": "Contact living relatives or others who might have photos or documents for you to add.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Find living relatives, and find out what they know or who they think would be best to talk to. Older relatives may have more first-hand memories about documents and photos.</li> <hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Contact a living relative who has additional family history items to share, and then work out an arrangement to share the items.</li><li>* Proficient: Same as above, for two to five living relatives.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-women-kids.jpg"
+                    ],
+                    "text": "<p>In some cases, these people may have already added photos and documents to Memories.</p><ol><a class=\"lk\" href=\"img/y-women-kids.jpg\" target=\"_blank\"><img src=\"img/y-women-kids.jpg\" alt=\"\" width=\"350px\" border=\"1\" style=\"float:right; margin-right:0px; margin-left: 16px;\"></a><li>Click a photo for an ancestor in your tree. In FamilySearch Memories you can click the <b>Contributed by</b> link to show the email address of the contributor (if available). In Ancestry, MyHeritage, and Findmypast, the contributor information appears next to the photo, for other trees you are viewing.</li><li>Compile a contact list from contributors discovered in the previous step.</li><li>Read the articles for ideas on reaching out to others for photos and documents, and then make the contacts. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/Gather_Family_Information#How_to_Gather_Family_Information\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—How to Gather Family Information</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://www.lds.org/ensign/2004/02/net-results?lang=eng\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">LDS—Net Results - 2004</span></a></li><br><li>Offer to send physical copies of photos or documents to relatives if they would like them.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Label photos with as many details as you know (age, name, date it was taken, location, etc.).</li><li>When physically labeling the photo, use the correct type of writing utensil to preserve the photo as much as possible.</li><li>Journals, letters, and diaries are some of the most valuable family records, but photos and documents are just as useful.</li><li>You can often unlock family mysteries by looking through family records. Identify unknown individuals in photos by comparing them to other labeled photos or by taking them to a relative and seeing if they know.</li> <hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Add descriptions for each of the family history items you receive from others.</li><li>* Proficient: After adding the descriptions, make notes of missing information you want to investigate.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/2-old-photos.jpg"
+                    ],
+                    "text": "<ol><a class=\"lk\" href=\"img/2-old-photos.jpg\" target=\"_blank\"><img src=\"img/2-old-photos.jpg\" alt=\"\" width=\"350\" border=\"1\" style=\"float:right; margin-right:0px; margin-left: 16px;\"></a><li>Organize photos and documents you receive into your collection. Store physical copies in a safe place, and store digital files on your computer and in a backup location.</li><li>In a separate document, add descriptions for each item (catalog them).</li><li>Make notes of missing information and questions you have about any items.</li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "Here are some additional ideas on gathering memories.",
+                                "links": [
+                                    {
+                                        "link": "http://www.lds.org/ensign/1979/06/almost-buried-treasures?lang=eng",
+                                        "text": "LDS—Almost Buried Treasure - 1979",
+                                        "type": "document"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Sources: Learn about other sources for finding family photographs.",
+                                "links": [
+                                    {
+                                        "link": "http://www.ancestralfindings.com/unusual-sources-finding-old-family-photos-2/",
+                                        "text": "AF—Unusual Sources for Finding Old Family Photos - 2017",
+                                        "type": "document"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Photo Labels: Learn how to add labels to your photographs.",
+                                "links": [
+                                    {
+                                        "link": "http://blogs.ancestry.com/ancestry/2016/04/28/4-easy-ways-to-label-family-photos/",
+                                        "text": "AC—4 Easy Ways to Label Family Photos - 2016",
+                                        "type": "document"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Metadata: Learn how to add metadata (descriptions) to your digital photographs.",
+                                "links": [
+                                    {
+                                        "link": "https://www.familysearch.org/en/blog/adding-metadata-to-your-digital-photos",
+                                        "text": "FS—Adding Metadata to Your Digital Photos",
+                                        "type": "document"
+                                    },
+                                    {
+                                        "link": "https://www.familysearch.org/en/blog/metadata-basics-how-to-keep-your-stories-alive-digitally",
+                                        "text": "FS—Metadata Basics: How to Keep Your Stories Alive Digitally",
+                                        "type": "document"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Interview Relatives",
+        "name": "Interview Relatives",
+        "section_name": "Interview living relatives about their memories and life stories. Vault",
+        "summary": "<p>Capturing family history recollections from living relatives ensures that their legacy can be shared before they pass on.</p>",
+        "choices": [
+            {
+                "name": "Prepare for successful interviews.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Label photos with as many details as you know (age, name, date it was taken, location, etc.).</li><li>When physically labelling the photo, use the correct type of writing utensil to preserve the photo as much as possible.</li><li>Journals, letters, and diaries are some of the most valuable family records, but photos and documents are just as useful.</li><li>You can often unlock family mysteries by looking through family records. Identify unknown individuals in photos by comparing them to other labelled photos or by taking them to a relative and seeing if they know.</li> <hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=9m-e_kJ0k-M#t=1m10s\" target=\"_blank\">Before the interview</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=9m-e_kJ0k-M#t=13m50s\" target=\"_blank\">During the interview</a></li><li><a class=\"lk\" href=\"https://youtu.be/WL6ZK4vz8Jw&amp;t=2m7s\" target=\"_blank\"></a><a class=\"lk\" href=\"https://www.youtube.com/watch?v=9m-e_kJ0k-M#t=23m13s\" target=\"_blank\">After the interview</a></li></ul></span>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Make a list of people who would be good candidates for interviews, and prepare a question to ask each of them.</li><li>* Proficient: Make the list and prepare a full set of questions for two interviews.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/60941489.jpg"
+                    ],
+                    "text": "<ol><a href=\"img/60941489.jpg\" target=\"_blank\"><img src=\"img/60941489.jpg\" alt=\"\" width=\"350px\" border=\"1\" style=\"float:right; margin-right:0px; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li><span class=\"g\">People</span>: Make a list of living people whose stories need to be captured. These people may also be good sources for photos and documents. This article discusses the benefits of interviewing living relatives.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.pricegen.com/benefits-recording-living-family/5\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">PR—The Benefits of Recording Your Living Family</span></a></li><br><li><span class=\"g\">Questions</span>: Prepare a list of questions in advance that will help each guest express family history experiences. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.jewishgen.org/InfoFiles/Quest.html\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Oral History Interviews, Topics, and Questions</span></a><br><span class=\"star notranslate\">☆</span><a href=\"http://dohistory.org/on_your_own/toolkit/oralHistory.html#DOIT\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Step-by-Step Guide to Oral History</span></a></li><br><li>Here are questions to ask your relatives in a family history interview. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.thoughtco.com/fifty-questions-for-family-history-interviews-1420705\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">TH—50 Interview Questions to Ask</span></a></li><br><li>Try these 52 questions for families, from FamilySearch. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/blog/en/52stories-families\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—52 Stories for Families</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/blog/en/define-dash-start-writing-personal-history-52stories-project-2/  \" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Define Your Dash: Start Writing Your Personal History with the #52Stories Project</span></a></li><br><li>Ensure the questions are respectful and handle any delicate situations carefully. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.archives.com/experts/morton-sunny-mcclellan/interviewing-the-reluctant-relative.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">AR—Interviewing the Reluctant Relative</span></a></li><br><li><span class=\"g\">Interview Tips</span>: For tips on successfully capturing stories, read these articles. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/blog/en/20-questions-capture-grandmas-story/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Capture Grandma's Story</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://www.lds.org/ensign/2003/08/that-happened-to-you?lang=eng\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">LDS—That Happened to You?\"</span></a></li><br> <li>Use these tips to help you conduct interviews with relatives. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://blog.myheritage.com/2013/06/10-tips-for-interviewing-family-members-\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">MH—Tips for Interviewing Family Members</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=9m-e_kJ0k-M\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">AC—Interviewing Family Members—28:13</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('usa1-a1');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"usa1-a1\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=9m-e_kJ0k-M#t=1m10s\" target=\"_blank\">Before the interview</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=9m-e_kJ0k-M#t=13m50s\" target=\"_blank\">During the interview</a></li><li><a class=\"lk\" href=\"https://youtu.be/WL6ZK4vz8Jw&amp;t=2m7s\" target=\"_blank\"></a><a class=\"lk\" href=\"https://www.youtube.com/watch?v=9m-e_kJ0k-M#t=23m13s\" target=\"_blank\">After the interview</a></li></ul></span></div><br><br><iframe width=\"330\" height=\"220\" src=\"https://www.youtube.com/embed/9m-e_kJ0k-M?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Hold and record the interview.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Hold and record one interview.</li><li>* Proficient: Hold and record three or more interviews.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-smartphone.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/y-smartphone.jpg\" alt=\"\" width=\"300px\" style=\"float:right; margin-right:0px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li><span class=\"g\">App</span>: To learn about using the FamilySearch Memories app to record stories, read these articles. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/blog/en/explore-memories-app/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—FamilySearch Memories App </span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/blog/en/familysearch-apps-oral-histories/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Using FamilySearch Apps to Record Oral Histories</span></a></li><br><li><span class=\"g\">Follow-up</span>: Learn about reaching out to family members for genealogy information. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.lds.org/media-library/video/2011-05-04-episode-4-learn-from-family?lang=eng&amp;category=family-history/5-minute-genealogy\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Learn from Family Members—4:14</span></a></li><br><li>Learn about the two sides of interviewing, including steps to follow before, during, and after the interview.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://ps-services-us-east-1-914248642252.s3.amazonaws.com/s3%2Fhelp-learningcenter-fh1-prod-s3%2F2018%2F05%2F31%2F93cc1235-97c5-48b0-b61c-7b4502b7bec6%2FInterviewing+Handout.pdf\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"><span class=\"re\"> FS: The 2 Sides of Interviewing</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Upload the audio or written interview document to Memories.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercise",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Proficient: Upload multiple interview items to FamilySearch Memories.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/2-mem-upload.JPG"
+                    ],
+                    "text": "<ol><img src=\"img/2-mem-upload.JPG\" alt=\"\" width=\"110px\" style=\"float:right; margin-top: 16px; margin-left: 16px;\"><li>Decide which information should remain private (as in a family journal) and which can be uploaded to FamilySearch.</li><li>Create descriptive notes for each interview document you created. These will be used in the upload process.</li><li>Use the upload process described in <a class=\"lk\" href=\"project-2-memories07.html\" target=\"_blank\">Goal 7</a> for documents, and <a class=\"lk\" href=\"project-2-memories10.html\" target=\"_blank\">Goal 10</a> for audio. If you have handwritten notes, digitize them first.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Browse Memories",
+        "name": "Browse Memories",
+        "section_name": "Browse FamilySearch Memories to see photos and documents for your ancestors.",
+        "summary": "<p>Seeing what has already been added to FamilySearch Memories will help avoid duplication and may give you ideas for the kinds of images you'll want to add. For an overview, watch this video.<br><br><a href=\"https://www.youtube.com/watch?v=reZ5nNhztYI\" target=\"_blank\"><span class=\"re\"><img src=\"img/vid.png\" width=\"20\"> FS—Preserving Memories - 2014</span></a>\n\t\t\t\t\t\t<br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/reZ5nNhztYI?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br>\n\t\t\t\t\t\t</p>",
+        "choices": [
+            {
+                "name": "View Memories for an ancestor.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Find ancestors with Memories.</li><li>See the details of selected Memories.</li><li>Use other views to discover Memories.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Study the photos and documents for 3 of your ancestors and take notes on what you learned.</li><li>* Proficient: Study the photos and documents for 8 of your ancestors and take notes on what you learned.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/2-memories.JPG",
+                        "https://www.thefhguide.com/img/2-landscape.JPG"
+                    ],
+                    "text": "<ol><img src=\"img/2-memories.JPG\" height=\"130px\" style=\"float:right; margin-left: 16px; border:1px solid #000;\"><li>Find an ancestor's Summary card that has a positive value in the Memories link, and click <b>Memories</b>. You will see any photos, documents, stories, or audio files that have been posted for the ancestor. </li><li>For help, see page 1 of this document. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://broadcast2.lds.org/elearning/fhd/help-center/memories/quick-start-guide/english/quick-start-memories-aug-2014.pdf\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Quick Start for Memories - 2014</span></a></li><br></ol><h5>Viewing Photos</h5><p><i>Note</i>: To learn about viewing documents in Memories, see <a class=\"lk\" href=\"project-2-memories07.html\" target=\"_blank\">Goal 7</a>; for stories, see <a class=\"lk\" href=\"project-2-memories08.html\" target=\"_blank\">Goal 8</a>; and for listening to audio, see <a class=\"lk\" href=\"project-2-memories10.html\" target=\"_blank\">Goal 10</a>. For tagging and management options for photos, see <a class=\"lk\" href=\"project-2-memories06.html\" target=\"_blank\">Goal 6</a>. </p><ol><li>To see the full-size version of a photo, click on it. You can then click \"Open in a New Tab\" (upper right) if desired. </li><li>To zoom the photo, click the plus or minus icons (upper left), or click the broken-box icon to enter full-screen mode. To exit full-screen mode, click the <b>X</b>. You can also drag the image on the screen, or click the target icon to re-center it.</li><li>If you added the photo, you can click <a class=\"lk\" href=\"img/2-6-d-2.PNG\" onclick=\"return popup(this, 'notes')\"><b>Actions</b></a> to do any of the following: rotate the photo left or right; download the photo; add to an album; change the file category from photo to document; move to your archive; or delete the photo. If someone else added the photo, <b>Actions</b> is limited to downloading a photo or adding it to an album. </li><li>To bookmark the photo, click the <b>Bookmark</b> icon. The bookmark is noted below the photo and in the Memories Gallery (see <a class=\"lk\" href=\"project-2-memories11.html\" target=\"_blank\">Goal 11</a>).</li><li>To archive a photo you added, click <b>Actions</b> and select <b>Move to My Archive</b>. To restore the photo to Memories, click <b>Actions</b> and select <b>Move to Memories</b>.</li><li>To delete a photo you added, click <b>Actions</b> and select <b>Delete</b>. Then click <b>Delete from FamilySearch</b> or <b>Move to My Archive</b>. <i>Note</i> : When you delete photo or other memory, it can be restored for up to 120 days. See Goal 11, <a class=\"lk\" href=\"project-2-memories11.html#b\" target=\"_blank\">Choice B</a>.</li><li>To view other photos for the person, without having to return to the person's Memories page, at the top of the screen click the <a class=\"lk\" href=\"img/2-2-a-4.PNG\" onclick=\"return popup(this, 'notes')\"><b>Previous</b> or <b>Next</b></a> buttons .</li><img src=\"img/2-landscape.JPG\" alt=\"\" height=\"100px\" style=\"float:right; margin-left: 16px; margin-top: 8px; border:1px solid #000;\"><li>While viewing a photo or other Memory, you can use path at the top of the page to return to the main Memories page or the Person page.</li><li>If you added the photo, you can click <b>Public</b> and select <b>Private</b> so only you can see the photo. </li><br></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "Learn about features of the image viewer.",
+                                "links": [
+                                    {
+                                        "link": "https://www.familysearch.org/help/helpcenter/article/what-are-the-features-of-the-image-viewer-in-memories",
+                                        "text": "FS—What are the features of the image viewer in memories? - 2020",
+                                        "type": "document"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Select, change, or remove a main portrait photo for an ancestor.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Select a portrait ancestor photo.</li><li>Edit or change a portrait ancestor photo.</li><li>Remove a portrait ancestor photo.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercise",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Proficient: Add two or more ancestor portrait photos.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/2-choose-portrait.png"
+                    ],
+                    "text": "<p>The main portrait photo for an ancestor is visible in the Summary card and in Family Tree. <i>Note</i> : Before setting a portrait photo, be sure that Portraits have been enabled in the Options menu (see Project 1, Goal 1, Choice D). Also, changes you make to the portrait photo are visible to everyone viewing this person. </p><ol><li>Open the Person page for the ancestor.</li><li>In the upper left, click the generic person icon and select <b>Add Portrait</b>. You can then select <b>Upload Photo</b> or <b>Select from  Gallery</b>, or choose a photo shown in the list, if any.<ul style=\"margin-left:-88px;\"><li>For <b>Upload Photo</b>, navigate to the photo on your device and click <b>Open</b>.</li><li>For <b>Select from Gallery</b>, select the photo from the list (if available) and click <b>Attach</b>.</li></ul></li><img src=\"img/2-choose-portrait.png\" height=\"300px\" style=\"float:right; margin-left: 16px; border:1px solid #000;\"><li>Drag the photo until the face fits neatly in the circular frame.</li><li>On the left, move the slider bar to shrink or enlarge the photo if necessary. You can also click the Rotate Left icon (upper left) if needed.</li><li>Click <b>Save as Portrait</b>.</li><li>To edit an existing ancestor portrait photo, <br>a) Click the portrait (upper-left corner of the Person page) and select <b>Edit Portrait</b>; <br>b) Move the photo, drag the slider bar, or rotate the photo as needed; and <br>c) Click <b>Save as Portrait</b>.</li><li>To edit an existing ancestor portrait photo, click the portrait and select <b>Edit Portrait</b>. Then follow the basic guidelines above to select, position, and save the portrait.</li><li>To replace an existing ancestor portrait, <br>a) Click the portrait and select <b>Replace Portrait</b>; <br>b) Select the photo you want on the page, or click <b>Upload Photo</b> or <b>Select Photo</b> to find the one you want; and <br>c) Adjust the photo as explained above and save the portrait.</li><li>To remove an existing ancestor portrait photo, click the photo and select <b>Remove Portrait</b>. At the prompt, click <b>Remove Portrait</b>.</li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "For more information on working with ancestor portrait photos, read the articles.",
+                                "links": [
+                                    {
+                                        "link": "https://www.familysearch.org/blog/en/familysearch-update-tagging-photos/",
+                                        "text": "FS—Changing the Preferred Photo - 2018",
+                                        "type": "document"
+                                    },
+                                    {
+                                        "link": "https://www.familysearch.org/help/helpcenter/article/how-do-i-add-or-change-a-portrait-photo-in-family-tree",
+                                        "text": "FS—How do I change a portrait photo in Family Tree? - 2020",
+                                        "type": "document"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Use the People view in Memories to see collections of photos.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>See ancestor photos in People.</li><li>Limit, sort, and search the photos.</li><li>Use the View My Relationship feature.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: View the ancestor photos on your People page and sort them two different ways.</li><li>* Proficient: Same as above; also, view your relationship to at least 3 different ancestors on the People page.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/2-people.JPG"
+                    ],
+                    "text": "<ol><img src=\"img/2-people.JPG\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000;\"><li>At the top of the main FamilySearch window, in the Memories menu, choose <a class=\"lk\" href=\"img/2-2-b-1.PNG\" onclick=\"return popup(this, 'notes')\"><b>People</b></a>. An identifying photo is shown for each of your ancestors who has a photo in Memories.</li><li>If you want to limit the number of ancestors on the page, click the <a class=\"lk\" href=\"img/2-2-b-2.PNG\" onclick=\"return popup(this, 'notes')\"><b>Show</b></a> menu and select a different category (Close Relatives, Added by Me, or Not Attached to Family Tree). To see descriptions for each category, hover over the <a class=\"lk\" href=\"img/2-2-b-2b.PNG\" onclick=\"return popup(this, 'notes')\"><b>Info button</b></a> to the right. </li><li>To sort the Memories, choose a category from the <a class=\"lk\" href=\"img/2-2-b-3.PNG\" onclick=\"return popup(this, 'notes')\"><b>Sort by</b> menu</a>. </li><li>To search for certain Memories, click the <a class=\"lk\" href=\"img/2-2-b-4.PNG\" onclick=\"return popup(this, 'notes')\"><b>magnifying glass</b></a>. In the Filter field, type the name you want to search for. To return to the full view, at the right of the Filter field click the <a class=\"lk\" href=\"img/2-2-b-4b.PNG\" onclick=\"return popup(this, 'notes')\"><b>X</b></a>. </li><li>To see how you are related to a particular ancestor, at the bottom of a Person tile click <a class=\"lk\" href=\"img/2-2-b-5.PNG\" onclick=\"return popup(this, 'notes')\"><b>View My Relationship</b></a>. A vertical pedigree appears, showing the ancestral connection between you and the person.</li><li>To show the available photos in the person's Memories page, click the ancestor's photo.</li><li>To add a person to your Following list, click the star next to the person's photo. To stop Following the person, click the star again.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Use the Find feature in Memories to locate items.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Search for a keyword or person with the Find option to see what Memories appear.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Choose a search term of interest to you and search all Photos in Memories with that term. Select a few of the returned items and examine them.</li><li>* Proficient: Same as above, but select All for the search criteria.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/2-find.png"
+                    ],
+                    "text": "<ol><img src=\"img/2-find.png\" alt=\"\" width=\"450px\" style=\"float:right; margin-top: 8px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>In the Memories menu (top of the main FamilySearch window), choose <a class=\"lk\" href=\"img/2-2-c-1.PNG\" onclick=\"return popup(this, 'notes')\"><b>Find</b></a>.</li><li>Select <b>Search Text</b> (default) or <b>Search Topic Tags</b>. For more information on Topic Tags, see Goal 6, <a class=\"lk\" href=\"project-2-memories06.html#d\" target=\"_blank\">Choice D</a>.</li><li>Type the name of the item you want to search for, and then click <b>Search</b>. Your search term will return a list of all FamilySearch Memories items (not just the ones you've added) that have the item in the title <i>or</i> in the contents. To limit the search to exactly the search item you type, enclose it in quotes (\"Jones\", or \"Vienna\", or \"1850\" etc.)</li><li>Click an item from the returned list to see its contents.</li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "For more information on the Find feature, click \"How to Use the Find Feature in Memories\" (upper-right corner of the search results).",
+                                "links": []
+                            },
+                            {
+                                "description": "To learn about advanced search options, read this article .",
+                                "links": [
+                                    {
+                                        "link": "https://www.familysearch.org/help/helpcenter/article/advanced-search-options-for-memories",
+                                        "text": "FS—Advanced search options for Memories - 2020",
+                                        "type": "document"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Prepare Uploads",
+        "name": "Prepare Uploads",
+        "section_name": "Prepare photos and documents to be uploaded to FamilySearch Memories. Vault",
+        "summary": "<p>Getting the right photos that are in the right format will save you time and get better results.</p>",
+        "choices": [
+            {
+                "name": "Determine which photos and documents are good candidates to upload, and which are not.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>By posting photos, you agree to FamilySearch’s conditions. </li><li>Posting means you agree that you have the right to do so.</li><li>Photographs of living people should not be posted without prior consent.</li><li>Avoid posting photos that are duplicates or poor quality.</li></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: In your collection of digitized photos, select 3 that can pass the selection criteria mentioned in this Choice.</li><li>* Proficient: Same as above, but choose 8 photos.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/2-4.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/2-4.jpg\" alt=\"\" width=\"350px\" style=\"float:right; margin-left: 36px;\"><li>Read the guidelines on FamilySearch Memories for the kinds of items that can be uploaded (to avoid item rejection). Guidelines are found <a class=\"lk\" href=\"https://familysearch.org/legal/familysearch-content-submission-agreement\" target=\"_blank\">here</a>. Also read this article.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/article/what-rules-apply-to-uploading-memories-to-familysearch-org\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—What rules apply to uploading memories to FamilySearch.org? - 2020</span></a></li><br><li>Exclude any photos that do not meet the Memories guidelines.</li><li>Learn about adding memories for a living person. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/article/can-i-add-memories-about-my-living-relatives-to-family-tree\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Can I add memories about my living relatives to Family Tree? - 2020</span></a></li><br><li>As you see fit, exclude photos that are duplicates or near-duplicates, that are not well-taken or are damaged, etc.</li><li>If photos or other upload items are copyrighted, make sure you have permission from the copyright holder to distribute them. For additional information, read this article. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://www.legalgenealogist.com/2012/03/06/copyright-and-the-old-family-photo/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Copyright and the Old Family Photo - 2012</span></a></li><li>If you need to scan photos or create digital photos to be uploaded, see <a class=\"lk\" href=\"project-2-memories.html#c\" target=\"_blank\">Choice C</a> in Goal 1 for instructions. <br><br></li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "If necessary, crop or enhance photos or documents after scanning them.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Use <a class=\"lk\" href=\"http://www.freeonlinephotoeditor.com/\" target=\"_blank\">FreeOnlinePhotoEditor</a> to enhance or resize digital pictures in your browser; or use the free editing tool in your Mac or Windows system.</li><li>Try <a class=\"lk\" href=\"http://www.freetech4teachers.com/2013/04/ten-tools-for-cropping-resizing-and.html#.VhPDSflViko\" target=\"_blank\">other resources</a> for photo editing.</li><li>Learn about colorizing photos in this article from MyHeritage.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://blog.myheritage.com/2020/02/colorize-your-black-and-white-photos-automatically-with-myheritage-in-color/\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Colorize Your Black-and-White Photos Automatically - 2020</span></a>.</li><br><li>Read this blog post from Miles Meyer about options for colorizing old photos. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://milesgenealogy.blogspot.com/2019/12/color-world-comparing-various.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Color the World—Comparing Various Colorizing Web Sites - 2019</span></a></li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Add and Tag Photos",
+        "name": "Add and Tag Photos",
+        "section_name": "Add and tag photos in FamilySearch Memories.",
+        "summary": "<p> Adding photos to Memories makes them available to others, and tagging photos helps to identify photos by their content. <i>Note</i>: Photos can also be uploaded and tagged in the Gallery; see <a class=\"lk\" href=\"project-2-memories11.html\" target=\"_blank\">Goal 11</a> for details.</p>",
+        "choices": [
+            {
+                "name": "Upload your digital photos to Memories.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Upload three photos to FamilySearch, adding titles and descriptions for each.</li><li>* Proficient: Same as above, but upload 8 or more photos.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-woman-laptop1.jpg",
+                        "https://www.thefhguide.com/img/2-record-memory.png"
+                    ],
+                    "text": "<p><i>Note</i> : Before uploading photos, make sure the content fits the approved guidelines for Family Search. See Goal 5, <a class=\"lk\" href=\"project-2-memories05.html#a\" target=\"_blank\">Choice A</a>.</p><ol><img src=\"img/y-woman-laptop1.jpg\" alt=\"\" width=\"350px\" style=\"float:right; border:1px solid #000; margin-top: 8px; margin-left: 16px;\"><li>Click the name of the ancestor in the tree who will have a photo added.</li><li>In the Summary card that appears, click <b>Memories</b>.</li><li>To add a new photo for the ancestor, in the Photos section of the Memories page, click <a class=\"lk\" href=\"img/2-6-a-2.PNG\" onclick=\"return popup(this, 'notes')\"><b>Upload Photo</b></a>. The photo will appear in the Gallery for your ancestor. (A \"Processing\" banner may appear while the file is being uploaded.)</li><li>To add a title for the photo, open the photo and click <a class=\"lk\" href=\"img/2-6-a-6.PNG\" onclick=\"return popup(this, 'notes')\"><b>Add Title</b></a> (above the photo to the left), type the text, and then click <b>Save</b>. You can also click \"Public\" (upper right) and select \"Private\" if you don't want others to see the photo.</li><li>To edit a title, <br>a) Click the \"Edit Title\" link (upper left); <br>b) Type the new title; and <br>c) Click <b>Save</b>.</li> <li>In the \"Share what you know about this image\" box (bottom of the screen), type a description for the photo and click <b>Save</b>. The comment is displayed as part of a list below, as well as being added to the Remembrances count (to the right of the View counter). To edit a comment, click <b>Edit</b> (right side), make your changes, and click <b>Save</b>. To delete a comment, click <b>Delete</b> (right side) and click <b>Delete</b> in the confirmation dialog. </li><img src=\"img/2-record-memory.png\" alt=\"\" width=\"200px\" style=\"float:right; margin-top: 8px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>To record an audio file memory that will be attached to the photo, <br>a) Click the \"Record a Memory\" link; <br>b) Click <b>Allow</b> if a prompt asks about FamilySearch having access to your device's microphone; <br>c) Click the blue <b>Start</b> icon and  after the countdown, begin recording your memory; and <br>d) Click <b>Done</b>. To play the recording, click the green Play button. To delete the audio file, click <b>Delete</b> (right side) and click <b>Delete</b> in the confirmation dialog. </li><li>To scroll to other photos, click the <b>Next</b> or <b>Previous</b> arrows (top). You can use the path link (top of the screen) to return to the Memories screen, or click \"Open in a New Tab\" (upper right). </li><li>To attach one or more existing photos in Memories to the ancestor, <br>a) In the Memories page, click Select from Gallery; <br>b) Select the picture(s); and <br>c) Click <b>Attach</b>.</li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "Here is additional information on adding photos to your Family Tree:",
+                                "links": [
+                                    {
+                                        "link": "https://www.familysearch.org/help/helpcenter/article/how-do-i-upload-photos-or-documents-to-memories",
+                                        "text": "FS—How do I upload photos or documents to Memories? - 2020",
+                                        "type": "document"
+                                    },
+                                    {
+                                        "link": "https://www.familysearch.org/help/helpcenter/article/why-isnt-my-photo-or-document-uploaded-yet",
+                                        "text": "FS—Why isn't my photo or document uploaded yet? - 2020",
+                                        "type": "document"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Learn who can view your uploaded memories.",
+                                "links": [
+                                    {
+                                        "link": "https://www.familysearch.org/help/helpcenter/article/who-can-view-the-items-uploaded-to-memories",
+                                        "text": "FS—Who can view the items uploaded to Memories? - 2020",
+                                        "type": "document"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Learn about comments for memories.",
+                                "links": [
+                                    {
+                                        "link": "https://www.familysearch.org/help/helpcenter/article/can-i-leave-comments-about-the-photos-stories-documents-and-audio-files-in-memories",
+                                        "text": "FS—Can I leave comments about the photos, stories, documents, and audio files in memories? - 2020",
+                                        "type": "document"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Tag the persons in each photo to identify who they are.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Tag at least 8 people in 3 or more photos you have uploaded.</li><li>* Proficient: Tag at least 12 people in 6 or more photos you have uploaded.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/2-mem-tag.png"
+                    ],
+                    "text": "<ol><img src=\"img/2-mem-tag.png\" alt=\"\" width=\"200px\" style=\"float:right; margin-top: 8px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>If your photo is already open in Memories, skip to the next step; otherwise, go to the Person page for an ancestor, click the <b>Memories </b>tab, and then the <a class=\"lk\" href=\"img/2-6-b-1.PNG\" onclick=\"return popup(this, 'notes')\"><b>Photos</b></a> link. Then click the photo to open it. Or, you can open the photo in the Gallery. Note that untagged photos have exclamation points to remind you about tagging. </li><li>Click on a person's face in the photo you want to tag. </li><li>Drag and size the picture frame that appears until it surrounds the head area in the photo.</li><li>Click the \"Who is in this memory?\" box, type the person's name and then select it from the list that appears. The name will appear in the tag list (upper right). Or, if none of the names is a match, select \"Add New\". In that case, the name also appears in the tag list but with an <b>Attach to Family Tree</b> button you can use to add the new person in Family Tree.</li><li>Click <b>Save</b>. Now when you move the mouse over that person in the photo in Memories, the Tag appears with the person's name.</li><li>To see a list of memories that have not been tagged in your Gallery, click the <b>Arrange</b> menu and select <b>Not Tagged</b>.</li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "For an overview of tagging photos, read these articles.",
+                                "links": [
+                                    {
+                                        "link": "https://drive.google.com/open?id=1yMRcGRXWJBki1NRAOul27rv3S9_h1x37",
+                                        "text": "RIV—Adding Photos to Family Tree (p.2-4) - 2020",
+                                        "type": "document"
+                                    },
+                                    {
+                                        "link": "https://www.familysearch.org/help/helpcenter/article/how-do-i-tag-memories-of-my-ancestors-or-relatives-in-family-tree",
+                                        "text": "FS—How do I tag memories of my ancestors or relatives in Family Tree? - 2020",
+                                        "type": "document"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Modify or delete tags as needed.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercise",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Proficient: Resize the tag area for at least 3 ancestors you tagged in uploaded photos. Then create an extra test tag for an ancestor and delete it.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/2-photo-options.PNG"
+                    ],
+                    "text": "<ol><img src=\"img/2-photo-options.PNG\" alt=\"\" width=\"250px\" style=\"float:right; border:1px solid #000; margin-top: 8px; margin-left: 16px;\"><li>In the tag list for an open photo (upper right), click the down arrow for ancestor whose tag will be modified. <i>Note</i> : If someone else added the photo, you may not edit or delete the tag. </li><li>To resize the tag area for a person, in the People list (upper right) <br>a) click <b>Edit Tag</b>; <br>b) Resize as explained in Choice B; and <br>c) Click <b>Save</b>. <br>To change the name of the person associated with the tag, double-click the name and type or select a new one.</li><li>To remove the tag, click <b>Delete Tag</b> and then click <b>Delete</b>.</li><li>To show all items that are tagged with this person's name, click \"Show All Memories Tagged with This Name\".</li><li>If someone else added the photo, you can click unlink the image from the selected person in Family Tree: <br>a) Click <b>Detach from Family Tree</b>; <br>b) Type a reason for detaching; and <br>c) Click <b>Detach</b>.</li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "Learn about editing and deleting tags.",
+                                "links": [
+                                    {
+                                        "link": "https://www.familysearch.org/help/helpcenter/article/how-do-i-edit-or-delete-person-tags-in-memories",
+                                        "text": "FS—How do I edit or delete person tags in Memories? - 2020",
+                                        "type": "document"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Fix memories that are tagged to the wrong person.",
+                                "links": [
+                                    {
+                                        "link": "https://www.familysearch.org/help/helpcenter/article/how-do-i-correct-memories-that-are-linked-to-wrong-person-in-family-tree",
+                                        "text": "FS—How do I correct memories and sources that are tagged to the wrong person in Family Tree? - 2020",
+                                        "type": "document"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Handle tags for people with the same name.",
+                                "links": [
+                                    {
+                                        "link": "https://www.familysearch.org/help/helpcenter/article/in-memories-how-do-i-create-person-tags-for-with-the-same-name",
+                                        "text": "FS—In Memories, how do I create person tags for people with the same name? - 2020",
+                                        "type": "document"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Add information about photos.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Choose a photo and practice the zoom feature and each of the Action menu items for it.</li><li>* Proficient: Same as above. Then add an event to one or more photos, and a story to one or more photos.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/2-photo-details2.png"
+                    ],
+                    "text": "<ol><img src=\"img/2-photo-details2.png\" alt=\"\" width=\"250px\" style=\"float:right; border:1px solid #000; margin-top: 8px; margin-left: 16px;\"><p><i>Note</i> : If you added the photo, you can edit the event place, event date, and description, as well as adding Stories. You can also edit the title (upper left). If someone else added the photo, you cannot edit the event place, date, description, or title.</p><li>To add an event date, <br>a) Click <b>Add Event Date</b>; <br>b) Type the date; <br>c) Select the date from the Standardized Event Date field; and <br>d) Click <b>Save</b>. Then you can click <b>Edit</b> or <b>Delete</b> for the date if desired.</li><li>To add an event place, <br>a) Click <b>Add Event Place</b>; <br>b) Type the name of the place; <br>c) Select the place from the Standardized Event Place field; and <br>d) Click <b>Save</b>.  Then you can click <b>Edit</b> or <b>Delete</b> for the place if desired.</li><li>To add a description, <br>a) click <b>Add Event Description</b>; <br>b) Type the description; and <br>c) Click <b>Save</b>.  Then you can click <b>Edit</b> or <b>Delete</b> for the description if desired.</li><li>For information on adding photos to albums in Memories, see <a class=\"lk\" href=\"project-2-memories11.html\" target=\"_blank\">Goal 11</a> in Project 2: Memories.</li><li>To add a story about the photo, click <b>Add Story</b>. Then a) add a title, <br>b) write the story, and <br>c) click <b>Save Story</b>.</li><li>To see details about the contributor, click the \"Contributed By\" link.</li><li>To add this photo to your favorites list in the Gallery (Goal 11), click the <b>Bookmark icon</b> above the photo. To share by social media, click <b>Share</b> and select the corresponding social media icon.</li><li>To add a topic tag so you can find the photo more easily, <br>a) Click <b>Topic Tags</b>;<br>b) Type a tag name in the box (you may select it if it appears in the drop-down list); and <br>c) Click <b>Save</b>. You can then click the link for the tag you added to see other photos in Memories that have the same tag.</li></ol><p><i>Note</i> : If you added the photo, you can edit the event place, event date, and description, as well as adding Stories. You can also edit the title (upper left). If someone else added the photo, you cannot edit the event place, date, description, or title.</p>",
+                    "resources": [
+                        [
+                            {
+                                "description": "To learn more about using topic tags, read this article.",
+                                "links": [
+                                    {
+                                        "link": "https://www.familysearch.org/help/helpcenter/article/how-do-i-add-or-remove-topic-tags-in-memories",
+                                        "text": "FS—How do I add or remove topic tags in Memories? - 2020",
+                                        "type": "document"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Perform a variety of actions for photos.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/2-photo-actions.png"
+                    ],
+                    "text": "<ol><img src=\"img/2-photo-actions.png\" alt=\"\" width=\"200px\" style=\"float:right; border:1px solid #000; margin-top: 8px; margin-left: 16px;\"><li>In an open photo that you added, click <b>Actions</b>. The following actions are available. (If someone else added the photo, only Download and Add to Album are available.)<ul style=\"margin-left:-88px;\"><li>To rotate the photo left by 90 degrees, click <b>Rotate Left</b>.</li><li>To rotate the photo right by 90 degrees, click <b>Rotate Right</b>.</li><li>To download the photo to your computer or device, click <b>Download</b>.</li><li>To add the photo to an album, <br>a) Click <b>Add to Album</b>; <br>b) Select an album from the list; and <br>c) <b>Click Add to Album</b>. For more information on using albums in Memories, see <a class=\"lk\" href=\"project-2-memories11.html\">Goal 11</a>.</li><li>To change the photo to a document, click <b>Change to Document</b>. To reverse the process, <br>a) Open the person's Memories and find the photo that was changed to a document; and <br>b) In the document section, open it and then change it back to a photo.</li><li>To move the photo to your archive folder in Memories, click <b>Move to My Archive</b>.</li><li>To delete a photo, <br>a) Click <b>Delete</b>; <br>b) Read the instructions in the dialog, and <br>c) Click <b>Delete from FamilySearch</b> or click <b>Move to Archive</b>.</li></ul></li><li>To share a photo, <br>a) Click <b>Share</b> (above the photo); <br>b) Select Facebook, Twitter, Pinterest, or Email, and <br>c) Follow the instructions for sharing. You can copy the link for sharing by clicking <b>Copy</b>.</li><li>To bookmark this photo, click <b>Bookmark</b>. It is added to your list of bookmarked Memories in the Gallery.</li><li>To zoom the photo view, click the broken box icon to view in full-screen mode. You can then use the plus and minus icons to zoom in and out, or the target icon to recenter the image. Click the \"x\" to exit full-screen mode.</li><li>To add a remembrance about the photo, <br>a) Click the \"Share what you know ...\" box (bottom of the screen); <br>b) Type your remembrance, and <br>c) Click <b>Save</b>. The number of remembrances icon (middle of the screen) is increased. <br>After you have saved a remembrance, you can use the links to edit or delete it.</li><li>You can see the number of views for the photo, next to the remembrances.</li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "Here are tips for sharing Memories with others.",
+                                "links": [
+                                    {
+                                        "link": "https://www.familysearch.org/help/helpcenter/article/how-do-i-share-memories-i-find-with-family-and-friends",
+                                        "text": "FS—How do I share memories I find with family and friends? - 2020",
+                                        "type": "document"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "You can use the free Joyflips app to create video slideshows from your FamilySearch photos, as explained in this article.",
+                                "links": [
+                                    {
+                                        "link": "https://www.familysearch.org/blog/en/joyflips-video-slideshow/",
+                                        "text": "FS—Joyflips: Create Video Slideshows with Your Family and Share Memories - 2020",
+                                        "type": "document"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Add Documents",
+        "name": "Add Documents",
+        "section_name": "Add documents to Memories.",
+        "summary": "<p>Documents that mention or were written by your ancestor can be valuable sources of information for others. <i>Note</i> : Documents can also be uploaded and tagged in the Gallery; see <a class=\"lk\" href=\"project-2-memories11.html\" target=\"_blank\">Goal 11</a> for details.</p>",
+        "choices": [
+            {
+                "name": "Find and upload documents to Memories in FamilySearch.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercise",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Proficient: Upload at least three documents for at least three ancestors.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/2-6.jpg"
+                    ],
+                    "text": "<ol><a class=\"lk\" href=\"img/2-6.jpg\" target=\"_blank\"> <img src=\"img/2-6.jpg\" width=\"300px\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li>If the document is in digital form, you are ready to upload; if the document is physical, you first need to take a digital photo of it or scan it. (If you don't have a scanner or need help, ask a friend or visit a family history center.)</li><li>On a Person page, click the <b>Memories</b> tab. </li><li>In the Documents area, click <a class=\"lk\" href=\"img/2-7-b-2.PNG\" onclick=\"return popup(this, 'notes')\"><b>Upload Document</b></a>.</li><li>Navigate to the document to be uploaded and click <b>Open</b>.</li><li>An \"Processing\" banner appears, meaning that FamilySearch is checking upload guidelines. When the document is approved, it is added to the ancestor's documents in Memories.</li><li>For information about uploading PDF files to memories, read this article.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/article/can-i-upload-a-pdf-to-memories\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Can I upload a PDF to Memories? - 2020</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Add people who are mentioned in the document.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercise",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Proficient: Add the people for each document you uploaded in Choice A.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>Click the document to open it. Click the document again to enable tagging.</li><li>In the <b>\"Who is in this memory?\"</b> field, type the name of the person mentioned in the document and then select that person's name in the list below.</li><li>The person mentioned in the document now appears in the People area (upper right). You can also add a description and details, tag with an event, etc. See <a class=\"lk\" href=\"project-2-memories06.html\" target=\"_blank\">Goal 6</a> for details.</li><li>In the People list (upper right) you can select a person and edit or delete tags.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Add Stories",
+        "name": "Add Stories",
+        "section_name": "Add stories to Memories. Vault",
+        "summary": "<p>Stories can be a powerful way to connect you and others to your ancestors. <i>Note</i>: Stories can also be uploaded and tagged in the Gallery; see <a class=\"lk\" href=\"project-2-memories11.html\" target=\"_blank\">Goal 11</a> for details. Also, the Fan Chart view can display a count of the stories in Memories for each ancestor. </p>",
+        "choices": [
+            {
+                "name": "Search for stories that have been uploaded to Memories for your ancestors.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Find and read one or more stories for at least three ancestors.</li><li>* Proficient: Find and read one or more stories for at least 8 ancestors.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/2-all-stories.png"
+                    ],
+                    "text": "<ol><img src=\"img/2-all-stories.png\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"><li>Go to the <a class=\"lk\" href=\"https://stories.familyfoundapp.com/\" target=\"blank\">All the Stories</a> site.</li><li>On the website, click <b>Login</b>, and then click <b>Sign In</b> at the FamilySearch prompt.</li><li>If this is your first time accessing the site, click <b>Accept</b> to share FamilySearch information with All the Stories. Then click <b>Let's go</b> to download up to 9 generations of stories for your ancestors in FamilySearch.</li><li>In the main part of the screen, hover over an ancestor circle to see how many stories are included on FamilySearch. Gray circle=no stories; light blue=1 or 2 stories; dark blue=3 or more stories.</li><li>Click an ancestor circle to display vital information about the ancestor.</li><li>In the left panel, or at the bottom of the main area, click a story title to open it. The approximate time for telling the story aloud is indicated next to the story title and author. To see the story in FamilySearch, click <b>View in FamilySearch</b> (upper right). To go back to the ancestor circle view, click <b>Home</b> (upper left).</li><li>In the main area, at the end of the story, a chart shows the relationship between you and the main person in the story. To see that person in FamilySearch, click the \"View on FamilySearch\" link.</li><li>To mark a story as a favorite, click the star (top menu bar). Stories marked as favorites appear at the top of the list.</li><li>To archive a story so it does not appear in the list, click <b>Archive</b>. It will appear at the bottom of the list of the left panel, under the Archive heading. To unarchive a story, click the archived story title in the left panel and then click <b>Unarchive</b>. </li><li>To search for a story that has a person's name in the title, type the name of the person in the Search bar (upper left). </li><li>To synchronize your story list with FamilySearch, click <b>Synchronize</b> (upper right).</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Find stories you can upload to Memories.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercise",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the tips in this Choice, find two or more stories to upload to FamilySearch.</li><li>* Proficient: Using the tips in this Choice, find 5 or more stories to upload to FamilySearch</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/6-fam-history.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/6-fam-history.jpg\" alt=\"\" width=\"300px\" style=\"float:right; margin-top: 8px; margin-left: 16px;\"><li>Locate stories of interest in your personal collections, including letters, family books, and personal memories. <i>Note</i> : Be aware of copyright issues if you are using a published source for a story. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://www.byutv.org/player/cdc78a77-811c-45f3-9958-fd6ca58bef51/ancestors-gathering-family-stories\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Gathering Family Stories—25:00</span></a></li><br><li>Reach out to family for stories they might have about your ancestors, using ideas from these documents. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.goodhousekeeping.com/life/a29610101/preserve-family-history-storytelling/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">We're Losing Generations of Family History Because We Don't Share Our Stories - 2019</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/blog/en/4-family-stories-save-children/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—4 Family Stories You Must Save for Your Children - 2015</span></a></li><br><li>Examine information in family records to uncover interesting stories to tell. These videos have tips for finding stories that are \"hiding\" in genealogy records. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/stories-from-stats-turning-genealogy-into-family-history-part-1\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Turning Genealogy into Family History, Part 1—26:15 - 2020</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/stories-from-stats-turning-genealogy-into-family-history-part-2\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Turning Genealogy into Family History, Part 2—26:19</span></a> </li><li>Find stories in libraries or on the internet for ancestors or their contemporaries. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=1uFrymPxf4Y\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">RT—Finding Your Family's Stories—4:05 - 2021</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/1uFrymPxf4Y?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Create life stories for ancestors.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Fill out family histories with historic information by turning to records like newspapers, maps, and general accounts of events.</li><li>In addition to including history, bring in the cultural and behavioral aspects of stories to add new perspectives.</li> <hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=mvLvH_GbD7U#t=3m57s\" target=\"_blank\">What is digital storytelling?</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=mvLvH_GbD7U#t=5m27s\" target=\"_blank\">What stories can I tell with a Google Earth Project?</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=mvLvH_GbD7U#t=6m22s\" target=\"_blank\">Three versions of Google Earth</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=mvLvH_GbD7U#t=8m28s\" target=\"_blank\">Using Google Earth</a></li></ul></span>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Create a life story for an ancestor in your word processor, using the tips in this Choice. You may be able to upload this story in Choice D.</li><li>* Proficient: Same as above, for two ancestors.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/notes-pen.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/notes-pen.jpg\" alt=\"\" width=\"350px\" border=\"0\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>When possible, add interesting historical details to flesh out an ancestor's life story.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://ldsgenealogy.com/Preserving-Family-Stories.htm\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">LDS—Preserving Family Stories</span></a></li><br><li>Watch these BYU webinars for ideas on creating stories about your ancestors. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=m3TI_CqPfdk&amp;t=1m16s\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">BYU—How to Write a Compelling Story about Your Ancestor—29:40</span></a><br><span class=\"qp1\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"><span class=\"qp\">&nbsp;&nbsp;<a class=\"lk\" href=\"https://www.youtube.com/watch?v=m3TI_CqPfdk&amp;t=2m16s\" target=\"_blank\">Finding a Storyteller</a><br>&nbsp;&nbsp;<a class=\"lk\" href=\"https://www.youtube.com/watch?v=m3TI_CqPfdk&amp;t=8m0s\" target=\"_blank\">Finding a Story</a><br>&nbsp;&nbsp;<a class=\"lk\" href=\"https://www.youtube.com/watch?v=m3TI_CqPfdk&amp;t=10m56s\" target=\"_blank\">Creating a Story</a><br>&nbsp;&nbsp;<a class=\"lk\" href=\"https://www.youtube.com/watch?v=m3TI_CqPfdk&amp;t=21m40s\" target=\"_blank\">Sharing a Story</a><br></span></span><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/m3TI_CqPfdk?start=76;rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=mvLvH_GbD7U\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">BYU—Digital Storytelling With Google Earth Projects—49:12</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('earth');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"earth\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=mvLvH_GbD7U#t=3m57s\" target=\"_blank\">What is digital storytelling?</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=mvLvH_GbD7U#t=5m27s\" target=\"_blank\">What stories can I tell with a Google Earth Project?</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=mvLvH_GbD7U#t=6m22s\" target=\"_blank\">Three versions of Google Earth</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=mvLvH_GbD7U#t=8m28s\" target=\"_blank\">Using Google Earth</a></li></ul></span></div><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/mvLvH_GbD7U?start=76;rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li>Study these tips for writing and recording family stories. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/blog/en/18-writing-tips-tell-stories/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">18 Writing Tips for 2018</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://www.aarp.org/home-family/friends-family/info-07-2013/oral-family-history-tree-stories.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">How to Create an Oral Family History</span></a></li><br><li>Learn how to use index cards to plot a family history story. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://www.familyhistorywritingstudio.com/how-to-use-index-cards/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">How to Use Index Cards to Plot a Family History Story</span></a></li><br><li>Learn how to overcome writer's block when writing ancestor stories. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.archives.com/experts/alzo-lisa/writers-block.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">AR: Break That Writer's Block: Ten Tips To Tap Into Your Creative Muse</span></a></li><br><li>If appropriate, collaborate with a family member or relative who can help with the details or the writing of the story.</li><li>For more ideas on how to write effective family histories and stories, visit the <a class=\"lk\" href=\"http://www.familyhistorywritingstudio.com/home/articles/\">Family History Writing Studio</a> site or read this article.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://content.ldschurch.org/family-history/bc/rootstech/salt-lake/2019-conference-syllabi/PH3547_Writing_Powerful_Family_Stories.pdf\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Writing Powerful Family History Stories</span></a></li><br><li>To learn about using the FamilySearch Memories app to record stories, read these blog posts. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/blog/en/mobile/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—FamilySearch Mobile Apps </span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/blog/en/familysearch-apps-oral-histories/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Using FamilySearch Apps to Record Oral Histories</span></a></li><br><li>Use this lesson plan to learn about creating biographies for ancestors. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.ancestrycdn.com/aa-k12/1108/assets/Biography_lesson.pdf\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">AC—Biography Lesson Plan</span></a></li><br></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "For ideas on writing a life sketch for an ancestor, read these documents.",
+                                "links": [
+                                    {
+                                        "link": "https://www.lds.org/liahona/1990/04/me-a-biographer?lang=eng",
+                                        "text": "LDS—Me, a Biographer?",
+                                        "type": "document"
+                                    },
+                                    {
+                                        "link": "http://life.familyeducation.com/genealogy/family-tree/45378.html",
+                                        "text": "Filling Your Family History Details",
+                                        "type": "document"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Here are some tips for writing biographies.",
+                                "links": [
+                                    {
+                                        "link": "https://www.legacytree.com/blog/11-dos-and-donts-of-writing-family-biographies-2",
+                                        "text": "LT—11 Do's and Don'ts of Writing Family Biographies",
+                                        "type": "document"
+                                    },
+                                    {
+                                        "link": "https://www.legacytree.com/blog/bridging-the-gap-writing-a-family-biography-others-will-want-to-read",
+                                        "text": "LT—Bridging the Gap: Writing a Family Biography Others Will Want to Read",
+                                        "type": "document"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Upload stories to Memories.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Upload the story you wrote or assisted with.</li><li>* Proficient: Upload both stories you wrote or assisted with, adding photos where appropriate.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-keyboard.jpg"
+                    ],
+                    "text": "<p><i>Note</i> : Before uploading stories, make sure the content fits the approved guidelines found in this article. </p><p><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/article/what-rules-apply-to-uploading-memories-to-familysearch-org\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—What rules apply to uploading memories to FamilySearch.org? - 2020</span></a></p><ol><img src=\"img/y-keyboard.jpg\" alt=\"\" width=\"400px\" style=\"float:right; border:1px solid #000; margin-left: 16px;\"><li>In the Memories page for your ancestor, scroll down to the Stories section and click <b>Stories</b>.</li><li>Click the <a class=\"lk\" href=\"img/2-8-d-2.PNG\" onclick=\"return popup(this, 'notes')\"><b>Create Story</b></a> button to build a new story. </li><li>If this is a brief story, title it and type it in the Story window. Or, you can type it in a word processor and copy and paste it into the Story window.</li><li>If you want to add a new photo to the story, click <b>Upload Photo</b> and follow the prompts. To add an existing photo from the Gallery, click <b>Select from Gallery</b> and follow the prompts. You may add up to 10 photos for the story.</li><li>To tag people in your story, follow the steps in this article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/article/how-do-i-tag-people-in-stories-and-audio-files\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—How do I tag people in stories and audio files? - 2020</span></a></li><br><li>Click <b>Save Story</b> to upload the story.</li><li>To add an existing story, <br>a) Click <b>Select from Gallery</b>; <br>b) Select the story from the Gallery; and <br>c) Click <b>Attach</b>.</li><li>You can also add, edit, or remove tags or information about the story, and you can perform actions, like, and share stories. These features are similar to those for photos; see <a class=\"lk\" href=\"project-2-memories06.html\" target=\"_blank\">Goal 6</a> for details.</li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "For a review of adding stories, read these articles.",
+                                "links": [
+                                    {
+                                        "link": "https://drive.google.com/open?id=12fMrTWFU2UPNO-RDHyJnxZRNwV-SgCLE",
+                                        "text": "RIV—Adding Stories to Family Tree",
+                                        "type": "document"
+                                    },
+                                    {
+                                        "link": "https://www.familysearch.org/help/helpcenter/article/how-do-i-add-a-story-to-memories",
+                                        "text": "FS—How do I add a story to Memories? - 2017",
+                                        "type": "document"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Learn about editing stories you have submitted.",
+                                "links": [
+                                    {
+                                        "link": "https://www.familysearch.org/help/helpcenter/article/how-do-i-edit-a-story-in-memories",
+                                        "text": "FS—How do I edit a story in Memories? - 2020",
+                                        "type": "document"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Write a Life Sketch",
+        "name": "Write a Life Sketch",
+        "section_name": "Write a life sketch. Vault",
+        "summary": "<p>Life sketches provide a good overview of an ancestor's life. They are not meant to be long and detailed; you can use the Stories and Documents features to capture that kind of information.</p>",
+        "choices": [
+            {
+                "name": "Write a personal sketch for yourself.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=MrHtXNnvSZI#t=3m15s\" target=\"_blank\">Where and what is the Life Sketch?</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=MrHtXNnvSZI#t=7m23s\" target=\"_blank\">Why create a Life Sketch?</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=MrHtXNnvSZI#t=11m3s\" target=\"_blank\">Easy Tips for Writing a Life Sketch?</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=MrHtXNnvSZI#t=14m7s\" target=\"_blank\">Example</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=MrHtXNnvSZI#t=22m07s\" target=\"_blank\">Starting the Life Sketch?</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=MrHtXNnvSZI#t=28m46s\" target=\"_blank\">Write a Life Sketch for someone in your tree</a></li></ul></span>"
+                        },
+                        {
+                            "type": "exercise",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Proficient: Write a personal sketch for yourself and save it to Memories.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/2-9.jpg",
+                        "https://www.thefhguide.com/img/2-sketch.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/2-9.jpg\" alt=\"\" height=\"80px\" style=\"float:right; margin-top: 8px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Write the sketch in a word processor.  </li><li>In your Person page, go to the Life Sketch area. If links are not visible in the area, click the triangle. </li><li>Click <b>+Add</b>.</li><li>Copy and paste your sketch into the Life Sketch area, and then click <b>Save</b>. </li><img src=\"img/2-sketch.jpg\" alt=\"\" width=\"300px\" style=\"float:right; margin-left: 16px; margin-top:8px; border:1px solid #000; padding:0px;\"></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "For ideas on writing your own life sketch, watch the video.",
+                                "links": [
+                                    {
+                                        "link": "https://www.youtube.com/watch?v=MrHtXNnvSZI&start=138",
+                                        "text": "BYU—Simple Tips for Writing Life Sketches in Family Tree—37:59 - 2020",
+                                        "type": "video"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Learn how to deal with privacy issues in telling family stories.",
+                                "links": [
+                                    {
+                                        "link": "https://www.familytreemagazine.com/storytelling/writing/to-write-or-not-to-write-respecting-privacy-in-family-history-storytelling/",
+                                        "text": "FTM—Respecting Privacy in Family History Storytelling",
+                                        "type": "document"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Read these articles for tips on recalling memories from your life.",
+                                "links": [
+                                    {
+                                        "link": "https://www.familytreemagazine.com/storytelling/4-ways-to-jog-your-memories-preserve-your-history/",
+                                        "text": "FTM—4 Ways to Jog Your Memories",
+                                        "type": "document"
+                                    },
+                                    {
+                                        "link": "https://www.familytreemagazine.com/storytelling/3-tips-for-preserving-childhood-memories/",
+                                        "text": "FTM—3 Tips for Preserving Childhood Memories",
+                                        "type": "document"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Here are some ideas on writing your life sketch in five pages or less.",
+                                "links": [
+                                    {
+                                        "link": "https://content.ldschurch.org/family-history/bc/rootstech/salt-lake/2019-conference-syllabi/RT3655_How_To_Write_Your_Life_Story.pdf",
+                                        "text": "RT—How to Write Your Life Story—in Five Pages or Less - 2019",
+                                        "type": "document"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Write a personal sketch for an ancestor.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Write a personal sketch for an ancestor and save it to Memories.</li><li>* Proficient: Same as above, for two or more ancestors.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-man-laptop1.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/y-man-laptop1.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"><li>Write the sketch in a word processor, and then copy and paste it into the Life Sketch area (beginning of the ancestor's Person page); or type it directly into the Life Sketch area.</li><li>For ideas on writing a life sketch for an ancestor, read these documents. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.lds.org/liahona/1990/04/me-a-biographer?lang=eng\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">LDS—Me, a Biographer? - 1990</span></a><br><span class=\"star notranslate\">☆</span><a href=\"http://life.familyeducation.com/genealogy/family-tree/45378.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Filling Your Family History Details</span></a></li><br><li>Here are some tips for writing biographies. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.legacytree.com/blog/11-dos-and-donts-of-writing-family-biographies-2\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">LT—11 Do’s and Don'ts of Writing Family Biographies</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://www.legacytree.com/blog/bridging-the-gap-writing-a-family-biography-others-will-want-to-read\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">LT—Bridging the Gap: Writing a Family Biography Others Will Want to Read</span></a></li><br><li>Learn how to weave historical and community details into your ancestors' narratives.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/en/blog/doing-family-history-research-for-storytelling\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Places to Look for Engaging Details about Your Ancestors - 2018</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://www.archives.com/experts/malesky-betty/ancestral-stories.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">AR—Breathe Life Into Your Ancestor's Story - 2012</span></a></li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Keep a personal journal to record and preserve your own memories.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/w-book2.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/w-book2.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"><li>Learn about the value of keeping diaries and journals. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/en/blog/5-great-reasons-to-keep-a-journal\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">RT—5 Great Reasons to Keep a Journal - 2017</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://www.ancestryacademy.com/videos/diaries-and-journals\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">AAC—Diaries and Journals—4:28 (requires a free account)</span></a></li><br><li>Get tips for starting your journal. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.pricegen.com/start-journal/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">PR—How to Start a Journal</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://www.pricegen.com/journaling-tips-a-beginners-guide/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">PR—Journaling Tips: a Beginner's Guide</span></a></li><br><li>Learn about creating a digital journal.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/en/blog/3-ways-to-keep-a-digital-journal\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">RT—3 Ways to Keep a Digital Journal - 2017</span></a></li><br><li>Here are some ideas on improving your journal writing. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/en/blog/3-tips-to-improve-your-journaling-habits\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">RT—3 Tips to Improve Your Journaling Habits - 2017</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/en/blog/journaling-and-personal-history-a-guide\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">RT—Journaling and Personal History: A Guide for Everyone from Newbies to Self-Proclaimed Professionals - 2018</span></a></li><br><li>Learn how journals can become a source for family history discoveries. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://blog.myheritage.com/2014/10/journals-a-source-for-family-history-discoveries/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">MH—Journals: A Source for Family History Discoveries - 2014</span></a></li><br><li>Learn about keeping a journal with a busy schedule.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=GhpUQ6NUpFA\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">RT—Creative Journaling for Busy Parents—22:22 - 2022</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/GhpUQ6NUpFA?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Add Audio Files",
+        "name": "Add Audio Files",
+        "section_name": "Gather audio files and add them to Memories.",
+        "summary": "<p>Audio recordings of recent ancestors speaking can be priceless additions to your family history. <i>Note</i> : You can also record audio in an interview with a relative and upload it later. See <a class=\"lk\" href=\"project-2-memories03.html\" target=\"_blank\">Goal 3</a> for details about interviewing living relatives. After audio files are uploaded they can be tagged in the Gallery; see <a class=\"lk\" href=\"project-2-memories11.html\" target=\"_blank\">Goal 11</a> for details.</p>",
+        "choices": [
+            {
+                "name": "Find one or more audio files that you want to upload to Memories.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercise",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Proficient: Find several audio files to upload to Memories.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/2-8.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/2-8.jpg\" alt=\"\" width=\"300px\" style=\"float:right; margin-left: 16px;\"><li>Locate existing audio files of interest in your personal collection, (.MP3 or .M4A format, up to 15MB each). If you have cassette tapes with recordings you want to upload, see Choices D and E  below. </li><li>Reach out to family for audio files they might have about your ancestors. </li><li>You can also use audio transcriptions you have made for interviews with relatives (see <a class=\"lk\" href=\"project-2-memories03.html\" target=\"_blank\">Goal 3</a>). </li><li>If you would like to use a <b>FamilySearch mobile app</b> for recording audio, see Choice C below.</li> </ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Upload the audio files to Memories.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Upload an audio file and update the title, description and other fields noted in this Choice.</li><li>* Proficient: Same as above, for several audio files.</li></ul><hr style=\"margin-left: -20px;\">"
+                        },
+                        {
+                            "type": "c (optional) use the familysearch mobile apps to add audio.",
+                            "content": "<br><ol><img src=\"img/fs-memories-app.jpg\" alt=\"\" width=\"300px\" style=\"float:right; margin-left: 16px;\"><li>To learn about using the FamilySearch Memories and Family Tree apps to record stories and oral interviews, read this blog post. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/blog/en/familysearch-apps-oral-histories/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Using FamilySearch Apps to Record Oral Histories - 2017</span></a></li><br><li>For more information on the FamilySearch Memories app, see the <a class=\"lk\" href=\"project-2-memories-app04.html\" target=\"_blank\">Memories app</a> Project.</li></ol><br>"
+                        },
+                        {
+                            "type": "d (optional) convert cassette tape recordings to digital so they can be uploaded.",
+                            "content": "<br><ol><img src=\"img/2-8c.jpg\" alt=\"\" height=\"120px\" style=\"float:right; margin-left: 16px;\"><li>Download a sound converter program onto your computer, such as <a class=\"lk\" href=\"http://www.audacityteam.org/download/\" target=\"_blank\">Audacity</a> for PC or Macs.</li><li>Follow the instructions in the software or online to connect your tape deck to your computer and record the signal from the tape to an audio file on your computer.</li><li>Follow the steps in Choice B to upload your audio files to FamilySearch Memories.</li></ol><br>"
+                        },
+                        {
+                            "type": "e (optional) get help with converting recordings.",
+                            "content": "<br> <ol><img src=\"img/2-8d.jpg\" alt=\"\" width=\"300px\" style=\"float:right; margin-top: 8px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Go to one of the larger family history centers, such as the Salt Lake, Riverton, or Sandy Granite centers, and have them help you convert cassettes to digital files.</li><li>For recording types not available at a family history center, use the services at a professional audio or camera store. </li></ol><br><br>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-audio1.jpg",
+                        "https://www.thefhguide.com/img/fs-memories-app.jpg",
+                        "https://www.thefhguide.com/img/2-8c.jpg",
+                        "https://www.thefhguide.com/img/2-8d.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/y-audio1.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"><li>In the Person page, click the Memories tab and scroll down to the Audio section. Then click <a class=\"lk\" href=\"img/2-10-b-1.PNG\" onclick=\"return popup(this, 'notes')\"><b>Upload Audio</b></a>.</li><li>Navigate to the audio file, and then click <b>Open</b>. The file appears in the Audio section.</li><li>To listen to the file, click the Play button. You can use the controls to move the timing button or set the audio level.</li> <li>Click <a class=\"lk\" href=\"img/2-10-b-5.PNG\" onclick=\"return popup(this, 'notes')\"><b>Details</b></a> to open the details page for the file.</li> <li>To edit the title for the audio file (other than the existing file name), click the <a class=\"lk\" href=\"img/2-10-b-6.PNG\" onclick=\"return popup(this, 'notes')\"><b>Edit Title link</b></a> above the file name, type the text, and click <b>Save</b>.</li><li>To add the audio file to your list of bookmarks, <b>Bookmark</b>.</li> <li>To share this audio file, click <b>Share</b>, select a sharing platform, and follow the prompts.</li> <li>To add a description for the audio, type the text in the Description box, and then click <b>Add Description</b>. You can also  also add a comment in the \"Share what you know about the audio\" box or with the \"Add Event Description\" link.</li><li>Add information in the \"Share what you know about this audio\" field (bottom of the screen and click <b>Save</b>. This will add information for the entry in the Gallery.</li><li>To associate this audio with an event, <br>a) Click \"Add Event Date\" (right side); <br>b) Click <b>Edit</b>, <br>c) Fill in the date and place, using the standardized options in the drop-down menu; and <br>d) Click <b>Save</b>. You can also click \"Add Event Date\" or \"Add Event Place\" to add information in a similar fashion, or \"Add to Album.\" Once an info item is added you can click the Edit link to change its information.</li><li>To perform other actions with audio, click the <b>Actions</b> menu (upper left) and select <b>Download</b>, <b>Add to Album</b>, <b>Move to My Archive</b>, or <b>Delete</b>.</li></ol><ol><img src=\"img/fs-memories-app.jpg\" alt=\"\" width=\"300px\" style=\"float:right; margin-left: 16px;\"><li>To learn about using the FamilySearch Memories and Family Tree apps to record stories and oral interviews, read this blog post. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/blog/en/familysearch-apps-oral-histories/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Using FamilySearch Apps to Record Oral Histories - 2017</span></a></li><br><li>For more information on the FamilySearch Memories app, see the <a class=\"lk\" href=\"project-2-memories-app04.html\" target=\"_blank\">Memories app</a> Project.</li></ol><ol><img src=\"img/2-8c.jpg\" alt=\"\" height=\"120px\" style=\"float:right; margin-left: 16px;\"><li>Download a sound converter program onto your computer, such as <a class=\"lk\" href=\"http://www.audacityteam.org/download/\" target=\"_blank\">Audacity</a> for PC or Macs.</li><li>Follow the instructions in the software or online to connect your tape deck to your computer and record the signal from the tape to an audio file on your computer.</li><li>Follow the steps in Choice B to upload your audio files to FamilySearch Memories.</li></ol><ol><img src=\"img/2-8d.jpg\" alt=\"\" width=\"300px\" style=\"float:right; margin-top: 8px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Go to one of the larger family history centers, such as the Salt Lake, Riverton, or Sandy Granite centers, and have them help you convert cassettes to digital files.</li><li>For recording types not available at a family history center, use the services at a professional audio or camera store. </li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "For tips on adding audio, refer to the first article; for tips on adding audio to photos, read the second article.",
+                                "links": [
+                                    {
+                                        "link": "https://www.familysearch.org/help/helpcenter/article/how-do-i-upload-audio-files",
+                                        "text": "FS—How do I upload audio files? - 2020",
+                                        "type": "document"
+                                    },
+                                    {
+                                        "link": "https://www.familysearch.org/blog/en/add-audio-to-picture/",
+                                        "text": "FS—Add Audio to Pictures on FamilySearch - 2019",
+                                        "type": "document"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Learn more about adding audio in FamilySearch.",
+                                "links": [
+                                    {
+                                        "link": "https://www.youtube.com/watch?v=jggf_oMG78A",
+                                        "text": "BYU—Adding Audio to FamilySearch—11:20 - 2020",
+                                        "type": "video"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "(Optional) Use the FamilySearch Mobile Apps to add audio.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/fs-memories-app.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/fs-memories-app.jpg\" alt=\"\" width=\"300px\" style=\"float:right; margin-left: 16px;\"><li>To learn about using the FamilySearch Memories and Family Tree apps to record stories and oral interviews, read this blog post. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/blog/en/familysearch-apps-oral-histories/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Using FamilySearch Apps to Record Oral Histories - 2017</span></a></li><br><li>For more information on the FamilySearch Memories app, see the <a class=\"lk\" href=\"project-2-memories-app04.html\" target=\"_blank\">Memories app</a> Project.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "(Optional) Convert cassette tape recordings to digital so they can be uploaded.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/2-8c.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/2-8c.jpg\" alt=\"\" height=\"120px\" style=\"float:right; margin-left: 16px;\"><li>Download a sound converter program onto your computer, such as <a class=\"lk\" href=\"http://www.audacityteam.org/download/\" target=\"_blank\">Audacity</a> for PC or Macs.</li><li>Follow the instructions in the software or online to connect your tape deck to your computer and record the signal from the tape to an audio file on your computer.</li><li>Follow the steps in Choice B to upload your audio files to FamilySearch Memories.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "(Optional) Get help with converting recordings.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/2-8d.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/2-8d.jpg\" alt=\"\" width=\"300px\" style=\"float:right; margin-top: 8px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Go to one of the larger family history centers, such as the Salt Lake, Riverton, or Sandy Granite centers, and have them help you convert cassettes to digital files.</li><li>For recording types not available at a family history center, use the services at a professional audio or camera store. </li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Use the Gallery",
+        "name": "Memories Gallery",
+        "section_name": "Use the Gallery feature in Memories.",
+        "summary": "<p>Using the Gallery is an efficient way to organize and manage your photos, documents, etc.</p>",
+        "choices": [
+            {
+                "name": "Add and find items in the Gallery.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Add five or more items to the Gallery.</li><li>* Proficient: Same as above, then use the Sort, List View, and Search features described in the Choice.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/2-gallery.JPG",
+                        "https://www.thefhguide.com/img/2-gallery-fb.jpg"
+                    ],
+                    "text": "",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Select an action for one or more items in the Gallery.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercise",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Proficient: Use all the options described in this Choice for one or more Gallery items.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/2-actions.png"
+                    ],
+                    "text": "",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Create a new album.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercise",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Proficient: Create one or more new albums in the Gallery.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/2-new-album.JPG"
+                    ],
+                    "text": "",
+                    "resources": [
+                        [
+                            {
+                                "description": "For an overview of creating and editing albums, refer to the article.",
+                                "links": [
+                                    {
+                                        "link": "https://www.familysearch.org/help/helpcenter/article/how-do-i-change-the-name-of-an-album",
+                                        "text": "FS—How do I change the name of an album?",
+                                        "type": "document"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Add Memories to existing Albums.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Add three or more Memories to an existing album.</li><li>* Proficient: Add 8 or more Memories to an existing album.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Use additional Album options.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/2-album-info.png"
+                    ],
+                    "text": "",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Solutions Gallery",
+        "name": "Solutions Gallery",
+        "section_name": "(Optional) Use apps from the FamilySearch Solutions Gallery to preserve your family history memories.",
+        "summary": "<p>Apps and websites can help you gather, preserve, and share your family memories.</p>",
+        "choices": [
+            {
+                "name": "Follow the links below to explore apps and websites in the FamilySearch Solutions Gallery.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>For items to help you work with Memories, see  <a class=\"lk\" href=\"https://partners.familysearch.org/solutionsgallery/s/list?category=photos_and_stories\" target=\"_blank\">Photos and Stories</a>.</li><li>To use filters for the list of items, click <b>Filters</b> and then select a filter to restrict the number of items viewed. You can select the same item again to clear its filter.</li><li>To search for an item, type its name in the Search field and press <b>Enter</b>. You can then click the Sort By menu to rearrange the results, or click the \"Start Over\" link to clsear the search results.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Download and use the mobile apps for FamilySearch Memories.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/2-contact.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/2-contact.jpg\" width=\"350px;\" style=\"float:right; margin-left: 16px;\"><li>Learn about the FamilySearch Memories mobile apps in these blog posts.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/blog/en/familysearchs-mobile-apps/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—How to Use FamilySearch's Mobile Apps - 2017</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://lisalouisecooke.com/2016/04/27/familysearch-memories-app/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Record and Save Audio Interviews: FamilySearch's Mobile App - 2016</span></a> </li><br><li>To download the app for iOS or Android, <a class=\"lk\" href=\"https://www.familysearch.org/blog/en/mobile/\" target=\"_blank\">visit this page</a>.</li><li>To learn more about FamilySearch mobile apps, watch this video.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=Aq6VyO_YBrc&amp;feature=youtu.be\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—FamilySearch on the Go! - 2018</span></a> </li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

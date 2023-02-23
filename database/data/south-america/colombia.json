@@ -1,0 +1,198 @@
+[
+    {
+        "nav_name": "Research",
+        "name": "Research",
+        "section_name": "Learn about Colombia research, archives, and libraries.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=Eg7vt8RBTl0\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Colombia archives and libraries.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for research records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li><span class=\"g\">Archives &amp; Libraries</span>: Learn about Colombia archives and libraries in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Colombia_Archives_and_Libraries\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Colombia Archives and Libraries</span></a></li><br><li><span class=\"g\">Record Finder</span>: Use the Record Finder to evaluate record sources for research. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Colombia_Record_Finder\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Colombia Record Finder</span></a></li><br><li><span class=\"g\">Place of Origin</span>: Learn how to locate your ancestor's place of origin. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Colombia_Locating_Place_of_Origin\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Locating Place of Origin</span></a></li><br><li><span class=\"g\">Forebears.io</span>: Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://forebears.io/colombia\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Forebears.io site</a> for research records.</li><li><span class=\"g\">Resources</span>: Explore <a class=\"lk\" href=\"http://guides.library.illinois.edu/c.php?g=564218&amp;p=3885387\" target=\"_blank\">online Colombian research resources</a> for libraries and archives.</li><li><span class=\"g\">Old Documents</span>: Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://spanishpaleographytool.org/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Spanish Paleography Tool site</a> for help with reading older documents. </li></ol><ol><h5>Language and Help</h5><li><span class=\"g\">Word List</span>: Use this <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Spanish_Genealogical_Word_List\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Spanish Genealogical Word List</a> for research.</li><li><span class=\"g\">Surnames</span>: Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.geneanet.org/country/search-Colombia-COL\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Geneanet site</a> for Colombian surnames.</li><li>Search for <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.geneaservice.nl/navigator/colombia/index.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Colombian surnames</a> in a number of databases.</li><li><span class=\"g\">Correspondence</span>: Use this guide for corresponding with Colombian organizations about genealogy resources. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Spanish_Letter_Writing_Guide\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Spanish Letter-Writing Guide</span></a></li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Census Records",
+        "name": "Census Records",
+        "section_name": "Learn about Colombia census and other records.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=Eg7vt8RBTl0\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Colombia census and other records.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-col-cen.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/photos/building-for-sale-colombia-vintage-1592077/\" target=\"_blank\"> <img src=\"img/x-col-cen.jpg\" width=\"100%\" ;=\"\" style=\"float:right; margin-top: 8px; margin-left: 16px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a>    <li><span class=\"g\">FamilySearch</span>: Learn about Colombia census records in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Colombia_Census\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Colombia Census</span></a></li><br><li><span class=\"g\">Adoption</span>: Get help with adoption topics on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.facebook.com/groups/456903747702263/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Colombia Adoptions</a> Facebook page.</li><li><span class=\"g\">Slaves</span>: Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.slavesocieties.org/colombia/overview\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Slave Societies Digital Archive</a> page.</li></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Military Records",
+        "name": "Military Records",
+        "section_name": "Learn about Colombia military records.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=Eg7vt8RBTl0\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Colombia military records.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about Colombia military records in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Colombia_Military_Records\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Colombia Military Records</span></a></li><br></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Emigration and Immigration",
+        "name": "Emigration and Immigration",
+        "section_name": "Learn about Colombia emigration and immigration.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=Eg7vt8RBTl0\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Colombian emigration and immigration.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-col-imm.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://commons.wikimedia.org/wiki/File:Colombia_immigration_stamp.jpg\" target=\"_blank\"> <img src=\"img/x-col-imm.jpg\" alt=\"\" width=\"250px\" style=\"float:right; margin-top: 8px; margin-left: 16px\"></a> <li><span class=\"g\">FamilySearch</span>: Learn about Colombia emigration and immigration in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Colombia_Emigration_and_Immigration\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Colombia Emigration and Immigration</span></a> </li><br><li><span class=\"g\">Wikipedia</span>: Learn about the history of Colombia immigration in this Wikipedia article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Immigration_to_Colombia\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">WI: Immigration to Colombia</span></a> </li><br><li>Learn about immigration history and demographics in this Wikipedia article.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Colombian_Americans\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Wikipedia: Colombian Americans</span></a></li><br><li><span class=\"g\">Immigrant Ships</span>: Explore the  <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://immigrantships.net/index2.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Immigrant Ship site</a>. Select a Volume, then choose Colombia as the departure or arrival location.</li><li><span class=\"g\">Jewish</span>: Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://bloodandfrogs.com/encyclopedia/colombia\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Jewish Genealogy Encyclopedia</a> for Jewish resources in Colombia.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Maps and Gazetteers",
+        "name": "Maps and Gazetteers",
+        "section_name": "Learn about Colombia maps.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=Eg7vt8RBTl0\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Colombia maps and gazetteers.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-col-map.png"
+                    ],
+                    "text": "<ol><a href=\"https://commons.wikimedia.org/wiki/File:Colombia-CIA_WFB_Map.png\" target=\"_blank\"> <img src=\"img/x-col-map.png\" alt=\"\" width=\"250px\" style=\"float:right; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"></a>   <li>Learn about Colombian maps in this FamilySearch Wiki article. There are links to historical Colombian maps here. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Colombia_Maps\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Colombia Maps</span></a></li><br><li>See an <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Colombia_Genealogy#Colombia_Map\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">interactive map</a> for Colombia departments.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.lib.utexas.edu/maps/colombia.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Perry-Castaneda map collection</a> for Colombia maps.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.davidrumsey.com/luna/servlet/view/search?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&amp;q=colombia&amp;search=Go\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">David Rumsey collection</a> of Colombia maps.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.oldmapsonline.org/en/Colombia\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Old Maps Online site</a> for Colombia maps.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://commons.wikimedia.org/wiki/Atlas_of_Colombia\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Atlas of Colombia</a> on the Wikipedia site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://commons.wikimedia.org/wiki/Category:Old_maps_of_Colombia\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Old Maps of Colombia</a> on the Wikipedia site.</li><li>Explore a <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.fallingrain.com/world/CO/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">directory of Colombia cities, towns, and regions</a> in the Falling Rain site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Newspapers",
+        "name": "Newspapers",
+        "section_name": "Learn about Colombia newspapers.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=Eg7vt8RBTl0\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Explore Colombia newspapers for ancestor research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Find links to <a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Wikipedia:List_of_online_newspaper_archives#Colombia\" target=\"_blank\"> Colombian newspapers</a> on the Wikipedia site.</li> <li>Search Colombian newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.onlinenewspapers.com/colombia.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">onlinenewspapers.com</a> site.</li> <li>Search Colombia newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.world-newspapers.com/colombia.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">world-newspapers.com</a> site.</li><li>Search Colombia newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.abyznewslinks.com/colom.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">ABYZ News Links</a> site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Websites",
+        "name": "Websites",
+        "section_name": "Explore additional websites for research.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=Eg7vt8RBTl0\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "There are a number of websites with valuable resources for Colombian research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore links in <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cyndislist.com/colombia/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Cyndi's List</a>.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.findagrave.com/cemetery-browse/Colombia?id=country_23\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Find A Grave site</a> for cemetery records.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://billiongraves.com/site-map?country=Colombia\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">BillionGraves site</a> for cemetery records.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Search Records",
+        "name": "Search Records",
+        "section_name": "Search records from Colombia.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=Eg7vt8RBTl0\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Use QUIKLinks, Partners, and GenealogyInTime to quickly search the most common record collections for Colombia.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/laptop-hands.jpg"
+                    ],
+                    "text": "",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Get Help",
+        "name": "Get Help",
+        "section_name": "Get help with your Colombia research.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=Eg7vt8RBTl0\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Use Facebook pages to get answers to your questions.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/fh-help1.jpg"
+                    ],
+                    "text": "<ol><a href=\"img/fh-help1.jpg\" target=\"_blank\"> <img src=\"img/fh-help1.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-top: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a> <li>Visit the <a class=\"lk\" href=\"https://www.facebook.com/ColombiaGenealogy\" target=\"_blank\">Investigacion Genealogica en Colombia page</a> on Facebook.</li><li>Visit the <a class=\"lk\" href=\"https://www.facebook.com/groups/652692348167695/\" target=\"_blank\">South America Research</a> Facebook page for FamilySearch.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Join a mailing list or message board for Colombia research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore the <a class=\"lk\" href=\"http://www.cyndislist.com/central-and-south-america/social/\" target=\"_blank\"> Colombia research mailing lists</a> on Cyndi's List.</li><li>Use the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ancestry.com/boards/localities.southam.colombia/mb.ashx\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Ancestry message boards</a> to read or post questions about Colombia research.</li><li>Get help at a <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Category:Colombia_Family_History_Centers\" target=\"_blank\">family history center in Colombia</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Geo/Culture/History",
+        "name": "Geography, Culture, and History",
+        "section_name": "Learn about the geography, culture, and history of Colombia. \n\t\t\t\t\t\t\n\t\t\t\t\t\t",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=Eg7vt8RBTl0\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Explore websites and videos.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/c-colombia.jpg"
+                    ],
+                    "text": "<h5>Reference</h5><h5>For Kids</h5>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

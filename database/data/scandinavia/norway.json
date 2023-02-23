@@ -1,0 +1,427 @@
+[
+    {
+        "nav_name": "Research",
+        "name": "Research",
+        "section_name": "Learn about Norway research and records.Vault",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=FSN9Jc7PSyc\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Use effective research methods for your Norwegian ancestors.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=wEpDkZ0X8KE#t=0m47s\" target=\"_blank\">Personal sources</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=wEpDkZ0X8KE#t=1m56s\" target=\"_blank\">Public sources</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=wEpDkZ0X8KE#t=3m29s\" target=\"_blank\">Emigrant records</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=wEpDkZ0X8KE#t=6m16s\" target=\"_blank\">Emigrant records - 1900</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=wEpDkZ0X8KE#t=12m20s\" target=\"_blank\">Church records</a></li></ul></span>"
+                        },
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=EGvA7ahU9fk#t=1m33s\" target=\"_blank\">Gothic handwriting</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=EGvA7ahU9fk#t=2m54s\" target=\"_blank\">Norwegian census records</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=EGvA7ahU9fk#t=7m03s\" target=\"_blank\">Church records</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=EGvA7ahU9fk#t=9m27s\" target=\"_blank\">Some restrictions</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=EGvA7ahU9fk#t=10m8s\" target=\"_blank\">Example church record</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=EGvA7ahU9fk#t=12m13s\" target=\"_blank\">Probates</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=EGvA7ahU9fk#t=15m55s\" target=\"_blank\">Names</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=EGvA7ahU9fk#t=18m38s\" target=\"_blank\">Dialects</a></li></ul></span>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for research resources. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-nor-over.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/aurora-borealis-lofoten-norway-1032520/\" target=\"_blank\"> <img src=\"img/x-nor-over.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"></a>   <li><span class=\"g\">FamilySearch</span>: Read the Start Researching in Norway Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Starting_Research_in_Norway\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Start Researching in Norway</span></a></li><br><li>Read these articles to help you with your beginning Norwegian research. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Tips_for_beginners_in_Norwegian_Research\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Tips for Beginning Research in Norway</span></a><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Obtain_Background_Information_for_Norwegian_Research\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Background Info for Norwegian Research</span></a></li><br><li><span class=\"g\">Tips</span>: Read the Tips for Norwegian-American Researchers Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Tips_for_Norwegian_American_Researchers\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Tips for Norwegian-American Researchers</span></a></li><br><li>Learn more about tracing your Norwegian roots in these articles. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.archives.com/experts/likins-andy/tracing-your-norwegian-roots.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Norwegian Genealogy: How To Find Your Ancestors - 2011</span></a><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.lifeinnorway.net/norwegian-genealogy/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">AR—Tracing Your Norwegian Roots - 2019</span></a></li><br><li>Watch these videos for additional help with Norwegian research. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=wEpDkZ0X8KE\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">RT—5 Easy Steps to Norwegian Genealogy—17:57 - 2021</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('easy');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"easy\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=wEpDkZ0X8KE#t=0m47s\" target=\"_blank\">Personal sources</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=wEpDkZ0X8KE#t=1m56s\" target=\"_blank\">Public sources</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=wEpDkZ0X8KE#t=3m29s\" target=\"_blank\">Emigrant records</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=wEpDkZ0X8KE#t=6m16s\" target=\"_blank\">Emigrant records - 1900</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=wEpDkZ0X8KE#t=12m20s\" target=\"_blank\">Church records</a></li></ul></span></div><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/wEpDkZ0X8KE?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=EGvA7ahU9fk\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">RT—A Deep Dive into Norwegian Research—20:23 - 2021</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('deep');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"deep\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=EGvA7ahU9fk#t=1m33s\" target=\"_blank\">Gothic handwriting</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=EGvA7ahU9fk#t=2m54s\" target=\"_blank\">Norwegian census records</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=EGvA7ahU9fk#t=7m03s\" target=\"_blank\">Church records</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=EGvA7ahU9fk#t=9m27s\" target=\"_blank\">Some restrictions</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=EGvA7ahU9fk#t=10m8s\" target=\"_blank\">Example church record</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=EGvA7ahU9fk#t=12m13s\" target=\"_blank\">Probates</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=EGvA7ahU9fk#t=15m55s\" target=\"_blank\">Names</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=EGvA7ahU9fk#t=18m38s\" target=\"_blank\">Dialects</a></li></ul></span></div><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/EGvA7ahU9fk?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><li><span class=\"g\">Resources</span>: Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.barbsnow.net/Norway.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Your Guide to Researching Norwegian Ancestors</a> by Barb Snow. </li><li>Explore a variety of records on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://sites.google.com/site/norwegianancestry/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">NorwegianAncestry</a> site. </li><li>Find little-known sources for Norwegian research. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://content.ldschurch.org/family-history/bc/rootstech/salt-lake/2019-conference-syllabi/RT8832_Help_your_Norwegian_ancestors_come_to_life_using_little_used_sources.pdf\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">RT—Help Your Norwegian Ancestors Come to Life Using Little-Used Sources - 2019</span></a><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.arkivverket.no/utforsk-arkivene/eldre-historie--1814/middelaldersamlingen-i-riksarkivet\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Medieval Collection in the National Archives</span></a></li><br></ol><h5>Records</h5><ol><li><span class=\"g\">Record Finder</span>: Use the Norway Record Finder to understand record types for research. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Norway_Record_Finder\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Norway Record Finder</span></a></li><br><li><span class=\"g\">Forebears.io</span>: Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://forebears.io/norway\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Forebears.io site</a> for research records.</li><li>Learn about Norway compiled genealogies in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Norway_Compiled_Genealogies\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Norway Compiled Genealogies</span></a></li><br><li>Explore other <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Norwegian_Research_Websites#Genealogy\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Norwegian compiled genealogies</a> on the Internet.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Norwegian language and naming resources.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Norwegian_Genealogical_Word_List#Alphabetical_Order\" target=\"_blank\">Alphabetical Order</a></li> <li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Norwegian_Genealogical_Word_List#Key_Words\" target=\"_blank\">Key Words</a></li></ul></span>"
+                        },
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=L3B0q2RLSkA#t=0m47s\" target=\"_blank\">NAGC</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=L3B0q2RLSkA#t=1m24s\" target=\"_blank\">Norwegian naming traditions (pre-1923)</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=L3B0q2RLSkA#t=8m18s\" target=\"_blank\">Last name customs in America</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=L3B0q2RLSkA#t=14m51s\" target=\"_blank\">What about maiden names?</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=L3B0q2RLSkA#t=17m16s\" target=\"_blank\">Spelling was inconsistent</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=L3B0q2RLSkA#t=18m49s\" target=\"_blank\">Norwegian naming traditions (post-1923)</a></li></ul></span>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for language resources. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\"><br>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-nor-name.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/photos/viking-norway-medieval-sewing-1493685/\" target=\"_blank\"> <img src=\"img/x-nor-name.jpg\" width=\"100%\" ;=\"\" style=\"float:right; margin-top: 8px; margin-left: 16px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a>    <li><span class=\"g\">Words</span>: Learn about common Norwegian words in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Norwegian_Word_List\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Norwegian Word List</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('usa');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"usa\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Norwegian_Genealogical_Word_List#Alphabetical_Order\" target=\"_blank\">Alphabetical Order</a></li> <li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Norwegian_Genealogical_Word_List#Key_Words\" target=\"_blank\">Key Words</a></li></ul></span></div></li><br><li><span class=\"g\">Naming Customs</span>: Get an introduction to Norwegian naming customs. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Norway_Names_Personal\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Norway Names</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=L3B0q2RLSkA\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">RT—Norwegian Patronymic Names Versus Farm Names—20:15 - 2021</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('names');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"names\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=L3B0q2RLSkA#t=0m47s\" target=\"_blank\">NAGC</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=L3B0q2RLSkA#t=1m24s\" target=\"_blank\">Norwegian naming traditions (pre-1923)</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=L3B0q2RLSkA#t=8m18s\" target=\"_blank\">Last name customs in America</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=L3B0q2RLSkA#t=14m51s\" target=\"_blank\">What about maiden names?</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=L3B0q2RLSkA#t=17m16s\" target=\"_blank\">Spelling was inconsistent</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=L3B0q2RLSkA#t=18m49s\" target=\"_blank\">Norwegian naming traditions (post-1923)</a></li></ul></span></div><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/L3B0q2RLSkA?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li><span class=\"g\">Surnames</span>: Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.geneanet.org/country/search-Norway_NOR\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Geneanet site</a> for Norwegian surnames.</li><span id=\"counties\"> </span><li>Search for <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.geneaservice.nl/navigator/norway/index.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Norwegian surnames</a> in a number of databases.</li><li><span class=\"g\">Old Records</span>: Learn how to read old Norwegian records.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/img_auth.php/1/1a/Norway_reading_the_records_updated_March_2015.pdf\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Norway: Reading the Records—3 pgs. - 2015</span></a></li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Archives and Libraries",
+        "name": "Archives and Libraries",
+        "section_name": "Learn about Norway archives and libraries.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=FSN9Jc7PSyc\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Norway archives and libraries.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Norway_Archives_and_Libraries#DIGITALARKIVET_.28The_Digital_Archives.29\" target=\"_blank\">DigitalArkivet</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Norway_Archives_and_Libraries#Libraries_in_Norway\" target=\"_blank\">Libraries in Norway</a></li> <li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Norway_Archives_and_Libraries#Archives_in_the_United_States\" target=\"_blank\">Archives in the U.S.</a></li></ul></span>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for archives and libraries. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-nor-lib.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://commons.wikimedia.org/wiki/File:Vennesla_library_interior.jpg\" target=\"_blank\"> <img src=\"img/x-nor-lib.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px;\"></a>  <li><span class=\"g\">FamilySearch</span>: Learn about Norway archives and libraries in this FamilySearch Wiki article.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Norway_Archives_and_Libraries\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Norway Archives and Libraries</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('usa');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"usa\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Norway_Archives_and_Libraries#DIGITALARKIVET_.28The_Digital_Archives.29\" target=\"_blank\">DigitalArkivet</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Norway_Archives_and_Libraries#Libraries_in_Norway\" target=\"_blank\">Libraries in Norway</a></li> <li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Norway_Archives_and_Libraries#Archives_in_the_United_States\" target=\"_blank\">Archives in the U.S.</a></li></ul></span></div></li><br><li><span class=\"g\">Resources</span>: Learn about online resources for Norway research, including the National Archives of Norway.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.legacytree.com/blog/online-resources-norwegian-ancestry\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">LT—Online Resources for Researching Your Norwegian Ancestry</span></a></li><br><li>Explore the Research tab of the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.nagcnl.org/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Norwegian American Genealogical Center</a> website.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.arkivverket.no/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">National Archive of Norway</a> website.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.archivesportaleurope.net/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Archives Portal Europe</a> site. Click the Directories tab and select Norway.</li><span id=\"counties\"> </span><li>Explore other <a class=\"lk\" href=\"https://familysearch.org/wiki/en/Norwegian_Research_Websites#Archives_and_Libraries\" target=\"_blank\">Norwegian archives and libraries</a> on the Internet.</li><li><span class=\"g\">Books We Own</span>: Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.rootsweb.ancestry.com/~bwo/norway.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Books We Own site</a> for books that can be checked out or researched for you by others.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Census Records",
+        "name": "Census Records",
+        "section_name": "Learn about Norway census records.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=FSN9Jc7PSyc\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Norway census records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Norway_Census#Census_Records.2C_1700.27s\" target=\"_blank\">Census Records, 1700's</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Norway_Census#Census_Records.2C_1800.27s\" target=\"_blank\">Census Records, 1800s</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Norway_Census#Census_Records.2C_1900.27s\" target=\"_blank\">Census Records, 1900s</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Norway_Census#Searching_Census_Records\" target=\"_blank\">Searching Census Records</a></li></ul></span>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-nor-flag.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/x-nor-flag.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 350px;\"> <li><span class=\"g\">FamilySearch</span>: Learn about Norway census records in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Norway_Census\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Norway Census Records</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('usa');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"usa\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Norway_Census#Census_Records.2C_1700.27s\" target=\"_blank\">Census Records, 1700's</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Norway_Census#Census_Records.2C_1800.27s\" target=\"_blank\">Census Records, 1800s</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Norway_Census#Census_Records.2C_1900.27s\" target=\"_blank\">Census Records, 1900s</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Norway_Census#Searching_Census_Records\" target=\"_blank\">Searching Census Records</a></li></ul></span></div></li><br><li>Get an overview of Norwegian census records in this article.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://homepages.rootsweb.com/~norway/na0.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Norwegian Census Records</span></a></li><br><li>Learn more about Norwegian census records in this article from the Digital Archives of Norway.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.arkivverket.no/slektsgranskning/folketellinger\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Censuses</span></a></li><br><li>Learn how to find census records using resources at the University of Tromsø.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/university-of-troms%C3%B8-the-norwegian-historical-data-centre-online-census-records\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—The Norwegian Historical Data Centre - Online Census Records—9:59 - 2021</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Norway census records.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li><span class=\"g\">Case Study</span>: Follow this case study in Norwegian research.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/img_auth.php/2/28/How_to_find_ancestors_in_Digitalarkivet_updated.pdf\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Case History—3 pgs. - 2016</span></a></li><br><li><span class=\"g\">Digitalarkivet</span>: Learn how to find Norwegian ancestors using Digitalarkivet.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/img_auth.php/9/98/1-Digitalarkivet_National_Censuses-Instruction.pdf\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Digitalarkivet: Census Records - 2016</span></a> <br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/how-to-find-ancestors-in-digital-arkivet\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—How to Find Ancestors in Digital Arkivet—65:43 - 2016</span></a> </li><br><br><h5>Years</h5><li>Use Digitalarkivet to explore the 1900 and 1901 Census.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/finding-people-in-the-census-records-using-digitalarkivet-of-norway-1900-and-1901-census\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Finding People in the Census Records using Digitalarkivet of Norway - 1900 and 1901 Census—7:40 - 2018</span></a> </li><br><li>Learn how to find information in indexes and images for the 1891 Census.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/1891-norway-census-searching-indexes-and-images\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—1891 Norway Census: Searching Indexes and Images—17:21 - 2018</span></a> </li><br><li>Use Digitalarkivet to explore the 1885 Census.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/finding-people-in-the-census-records-using-digitalarkivet-of-norway-1885-census\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Finding People in the Census Records using Digitalarkivet of Norway - 1885 Census Census Kept by Civil—4:49 - 2018</span></a> </li><br><li>Use Digitalarkivet to explore the 1875 Census.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/finding-people-in-the-census-records-using-digitalarkivet-of-norway-1875-census\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Finding People in the Census Records using Digitalarkivet of Norway - 1875 Census—6:12 - 2018</span></a> </li><br><li>Use Digitalarkivet to explore the 1865 Census.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/finding-people-in-the-census-records-using-digitalarkivet-of-norway-1865-census\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Finding People in the Census Records using Digitalarkivet of Norway - 1865 Census—5:17 - 2018</span></a> </li><br><li>Use Digitalarkivet to explore the 1801 Census.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/finding-people-in-the-census-records-using-digitalarkivet-of-norway-1801-census\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Finding People in the Census Records using Digitalarkivet of Norway - 1801 Census—5:38 - 2018</span></a> </li><br></ol><h5>Years</h5>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore earlier Norway census records.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Use Digitalarkivet to explore the 1701 Census, kept by magistrates and bailiffs.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/finding-people-in-early-census-records-using-digitalarkivet-of-norway-1701-census-kept-by-bailiff\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Finding People in Early Census Records using Digitalarkivet of Norway - 1701 Census Kept by Bailiff—6:07 - 2018</span></a> </li><br><li>Use Digitalarkivet to explore the 1701 Census, kept by civil authorities.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/finding-people-in-early-census-records-using-digitalarkivet-of-norway-1701-census-kept-by-civil\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Finding People in Early Census Records using Digitalarkivet of Norway - 1701 Census Kept by Civil—3:14 - 2018</span></a> </li><br><li>Use Digitalarkivet to explore the 1664 Census, kept by ministers.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/finding-people-in-early-census-records-using-digitalarkivet-of-norway-1664-census-kept-by-minister\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Finding People in Early Census Records using Digitalarkivet of Norway - 1664 Census Kept by Minister—9:11 - 2018</span></a> </li><br><li>Use Digitalarkivet to explore the 1664 Census, kept by civil authorities.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/finding-people-in-early-census-records-using-digitalarkivet-of-norway-1664-census-kept-by-civil\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Finding People in Early Census Records using Digitalarkivet of Norway - 1664 Census Kept by Minister—9:11 - 2018</span></a> </li><br></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Church and Cemetery Records",
+        "name": "Church and Cemetery Records",
+        "section_name": "Learn to use Norwegian church and cemetery records, and death notices.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=FSN9Jc7PSyc\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Norway church records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Norway_Church_Records#General_Historical_Background\" target=\"_blank\">General Historical Background</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Norway_Church_Records#History_of_the_Church_Records\" target=\"_blank\">History of Church Records</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Norway_Church_Records#Information_Recorded_in_Church_Records\" target=\"_blank\">Information Recorded in Church Records</a></li> <li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Norway_Church_Records#Locating_Church_Records\" target=\"_blank\">Locating Church Records</a></li></ul></span>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-nor-church1.jpg"
+                    ],
+                    "text": "<ol><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Borgund_Stave_Church#/media/File:Borgund_Stavekirk,_Norway.jpg\" target=\"_blank\"> <img src=\"img/x-nor-church1.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px;\"></a> <li><span class=\"g\">FamilySearch</span>: Learn about Norway church records.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Norway_Church_Records\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Norway Church Records</span></a> &nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('usa');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"usa\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Norway_Church_Records#General_Historical_Background\" target=\"_blank\">General Historical Background</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Norway_Church_Records#History_of_the_Church_Records\" target=\"_blank\">History of Church Records</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Norway_Church_Records#Information_Recorded_in_Church_Records\" target=\"_blank\">Information Recorded in Church Records</a></li> <li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Norway_Church_Records#Locating_Church_Records\" target=\"_blank\">Locating Church Records</a></li></ul></span></div></li><br><li>Learn about Norway church records in this FamilySearch Wiki article and video.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/en/wiki/img_auth.php/b/b9/1-Digitalarkivet_Moving_Records-Instruction.pdf\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Digitalarkivet: Church Records - 2015</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/exploring-church-records-in-norway\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Exploring Church Records in Norway—65:19 - 2017</span></a></li><br><li><span class=\"g\">Parish Registers</span>: Learn more about Norwegian parish registers.<br><br><span class=\"star notranslate\">☆</span><a href=\"http://homepages.rootsweb.ancestry.com/~norway/na20.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Norwegian Parish Registers</span></a><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/en/wiki/img_auth.php/b/b3/Exploring_Nor_Par_reg.pdf\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Exploring Norwegian Parish Registers—5 pgs. - 2014</span></a></li><br><li>Learn about church book resources in these articles from the Digital Archives of Norway.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.arkivverket.no/slektsgranskning/kirkeboker\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Church Books</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://www.arkivverket.no/slektsgranskning/kirkebokforing\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Church Registration</span></a></li><br><li>Explore parish histories, including boundary changes, on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.arkivverket.no/slektsgranskning/historikk-for-prestegjeld-og-sogn\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Digital Archives of Norway site</a>.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Norwegian church records online.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for church records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/w-l31.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/w-l31.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"> <li>Learn how to use the Digitalarkivet site to find Norwegian moving records (of church-goers who moved between parishes).<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/en/wiki/img_auth.php/b/b9/1-Digitalarkivet_Moving_Records-Instruction.pdf\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Digitalarkivet: Church Records—4 pgs. - 2015</span></a> </li><br><li>Learn how to find online church records using resources at the University of Tromsø.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/university-of-troms%C3%B8-the-norwegian-historical-data-centre-online-church-records\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—The Norwegian Historical Data Centre - Online Church Records—13:19 - 2021</span></a></li><br><li>Learn about the Sjeleregister, an index of literacy and religion in Norway. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/help/helpcenter/lessons/sjeleregister-index-of-literacy-and-religion-for-norway-what-is-a-sjeleregister\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Sjeleregister (Index of Literacy and Religion) for Norway: What is a Sjeleregister?—13:19 - 2020</span></a></li><br><li>Learn how to find a Sjeleregister in Norway. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/help/helpcenter/lessons/sjeleregister-index-of-literacy-and-religion-for-norway-what-is-a-sjeleregister\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Sjeleregister (Index of Literacy and Religion) for Norway: How to Find a Sjeleregister!—9:18 - 2020</span></a></li><br><li>Learn how to find ministers and bishops in the Sjeleregister. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/help/helpcenter/lessons/how-to-find-people-in-norsk-slektshistorisk-forening-the-norwegian-genealogical-society-find-ministers-in-the-1500s-1700s\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—How to Find People in Norsk Slektshistorisk Forening (The Norwegian Genealogical Society): Find Ministers in the 1500s-1700s—11:55 - 2020</span></a><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/help/helpcenter/lessons/how-to-find-people-in-norsk-slektshistorisk-forening-the-norwegian-genealogical-society-find-bishops-in-the-1500s-1700s\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—How to Find People in Norsk Slektshistorisk Forening (The Norwegian Genealogical Society): Find Bishops in the 1500s-1700s—3:17 - 2020</span></a></li><br><li>Here's a case study for using the Sjeleregister. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/help/helpcenter/lessons/sjeleregister-index-of-literacy-and-religion-for-norway-case-study\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Sjeleregister (Index of Literacy and Religion) for Norway: Case Study—18:09 - 2020</span></a></li><br><li>Explore other <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Norwegian_Research_Websites#Church_Records\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Norwegian church records</a> on the Internet.</li></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Norway death notices and cemetery records.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-nor-cem.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/photos/breheimen-national-park-b%C3%B8verdalen-4142587/\" target=\"_blank\"> <img src=\"img/x-nor-cem.jpg\" width=\"100%\" ;=\"\" style=\"float:right; margin-top: 8px; margin-left: 16px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a>    <li><span class=\"g\">FamilySearch</span>: Learn about Norway death notices in this article and video. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Norway_Death_Notices\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Norway Death Notices</span></a> <br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/exploring-church-records-in-norway\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Exploring Death Notices in Norway—32:12 - 2017</span></a></li><br><li>Visit the <a class=\"lk\" href=\"http://www.disnorge.no/gravminner/index.php?language=engelsk\" target=\"_blank\">Cemeteries in Norway site</a> to explore records.</li><li><span class=\"g\">Find A Grave</span>: Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.findagrave.com/cemetery-browse/Norway?id=country_52\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Find A Grave site</a> for cemetery records.</li><span id=\"counties\"> </span><li><span class=\"g\">BillionGraves</span>: Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://billiongraves.com/site-map?country=Norway\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">BillionGraves site</a> for cemetery records.</li></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Emigration and Immigration",
+        "name": "Emigration and Immigration",
+        "section_name": "Learn about Norwegian emigration and immigration.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=FSN9Jc7PSyc\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Norwegian emigration and immigration.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Norway_Emigration_and_Immigration#How_to_Find_the_Ancestor.27s_Town_of_Origin\" target=\"_blank\">How to Find the Ancestor's Town of Origin</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Norway_Emigration_and_Immigration#Passenger_Lists\" target=\"_blank\">Passenger Lists</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Norway_Emigration_and_Immigration#Records_of_Norwegian_Immigrants_in_the_United_States\" target=\"_blank\">Records of Norwegian Immigrants in the United States</a></li> <li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Norway_Emigration_and_Immigration#History_of_Early_Emigration_from_Norway\" target=\"_blank\">History of Early Emigration from Norway</a></li></ul></span>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-nor-imm.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/oslo-norway-port-city-oslofjord-963590/\" target=\"_blank\"> <img src=\"img/x-nor-imm.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px;\"></a> <li><span class=\"g\">FamilySearch</span>: Learn about Norway emigration and immigration in this article and video. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Norway_Emigration_and_Immigration\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Norway Emigration and Immigration</span></a> &nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('usa');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"usa\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Norway_Emigration_and_Immigration#How_to_Find_the_Ancestor.27s_Town_of_Origin\" target=\"_blank\">How to Find the Ancestor's Town of Origin</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Norway_Emigration_and_Immigration#Passenger_Lists\" target=\"_blank\">Passenger Lists</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Norway_Emigration_and_Immigration#Records_of_Norwegian_Immigrants_in_the_United_States\" target=\"_blank\">Records of Norwegian Immigrants in the United States</a></li> <li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Norway_Emigration_and_Immigration#History_of_Early_Emigration_from_Norway\" target=\"_blank\">History of Early Emigration from Norway</a></li></ul></span></div><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/norwegian-emigration-the-experience\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Norwegian Emigration—44:06 - 2015</span></a></li><br><li><span class=\"g\">Wikipedia</span>: Learn about immigration history and demographics in this Wikipedia article.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Norwegian_Americans\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Wikipedia: Norwegian Americans</span></a></li><br><li>Watch this video to learn how to use United States and Norwegian records to discover ancestors.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/from-america-to-norway\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—From America to Norway—27:24 - 2016</span></a></li><br><li>Learn about resources from the Norwegian Emigrant Library. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=-F6Ts0NsDMQ\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">RT—Norwegian Emigration through the Years—24:54 - 2021</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/-F6Ts0NsDMQ?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><li>Learn more about Norwegian immigration and migration.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/norwegian-migration-and-immigration\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Norwegian Migration and Immigration—40:42 - 2015</span></a></li><br><li><span class=\"g\">Records</span>: Here's an overview of Norwegian emigration history and records. See more information in the links on the right side of the linked page. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/help/helpcenter/lessons/pre-1867-emigration-records-from-norway-norwegian-american-genealogical-center\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Pre-1867 Emigration Records from Norway: Norwegian American Genealogical Center—3:49 - 2019</span></a></li><br></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p><h5>Early Emigration</h5><ol><li>Here's an overview of Norwegian emigration history and records. See more information in the links on the right side of the linked page. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.european-emigration.com/no/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">European Emigration: Norway</span></a></li><br><li>Learn about the history of Norwegian emigration. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/help/helpcenter/lessons/pre-1867-emigration-records-from-norway-history-of-norwegian-emigration\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Pre-1867 Emigration Records from Norway: History of Norwegian Emigration—3:49 - 2019</span></a></li><br><li>Learn how to find records for ancestors who emigrated in the 1600's and 1700's.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lesson/376\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Pre-1867 Emigration Records from Norway: Emigration in the 1600 and 1700s—7:30 - 2019</span></a></li><br><li>Learn about websites you can use to track early immigrants from Norway. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/help/helpcenter/lessons/pre-1867-emigration-records-from-norway-websites-of-early-emigrants\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Pre-1867 Emigration Records from Norway: Websites of Early Emigrants—15:58 - 2019</span></a></li><br><li>Learn how to use the Norwegian American Genealogical Center database for early emigration to America. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/help/helpcenter/lessons/pre-1867-emigration-records-from-norway-history-of-norwegian-emigration\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Pre-1867 Emigration Records from Norway: Norwegian American Genealogical Center—3:49 - 2019</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Norwegian emigration resources.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for immigration resources. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-nor-flag1.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/photos/norway-flag-norwegian-flag-4809254/\" target=\"_blank\"> <img src=\"img/x-nor-flag1.jpg\" width=\"100%\" ;=\"\" style=\"float:right; margin-top: 8px; margin-left: 16px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a>    <li><span class=\"g\">Place of Origin</span>: Learn how to find places of ancestor origin in Norwegian emigration records.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/pre-1867-emigration-records-from-norway-history-of-norwegian-emigration\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Exploring Norwegian Emigration Records: Finding Place of Origin—41:55 - 2019</span></a></li><br><li><span class=\"g\">Digitalarkivet</span>: Explore <a class=\"lk\" href=\"https://www.arkivverket.no/slektsgranskning/kilder-til-utvandringshistorie-i-arkivene\" target=\"_blank\">emigration resources from Norway</a> on the DigitalArkivet site.</li><li>Explore other <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Norwegian_Research_Websites#Emigration\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Norwegian Emigration resources</a> on the Internet.</li><li><span class=\"g\">Immigrant Ships</span>: Explore the  <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://immigrantships.net/index2.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Immigrant Ship site</a>. Select a Volume, then choose Norway as the departure or arrival location.</li><li><span class=\"g\">Emigration Center</span>: Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.emigrationcenter.com/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Norwegian Emigration Center</a> online. </li><li><span class=\"g\">Jewish</span>: Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://bloodandfrogs.com/encyclopedia/norway\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Jewish Genealogy Encyclopedia</a> for Jewish resources in Norway.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Norway passenger ship information on the Norway Heritage site.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><span id=\"counties\"> </span><li>Access the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.norwayheritage.com/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Norway Heritage site</a> for passenger lists and information on emigrant ships.</li><li>Read the articles about Norwegian emigration in the lower middle section of the page, beginning with \"Articles for Newbies\".</li><li>Search for immigrant passengers using the top section of the page.</li><li>Search for immigrants by specific ship information on the left side of the page.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Farm Books",
+        "name": "Farm Books",
+        "section_name": "Learn about Norway Farm Books.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=FSN9Jc7PSyc\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Norway Farm Books.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for farm books. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-nor-farm.jpeg"
+                    ],
+                    "text": "<ol><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/History_of_Norway#/media/File:Havreskjering_Fossheim_Lindahl.jpeg\" target=\"_blank\"> <img src=\"img/x-nor-farm.jpeg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a> <li>Learn about Norway farm books.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Norway_Farm_Books\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Norway Farm Books</span></a> <br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/norwegian-farm-books\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Norwegian Farm Books—65:15 - 2016</span></a></li><br><li>Get an overview of farm books (\"bygdebøker\") in this article.<br><br><span class=\"star notranslate\">☆</span><a href=\"http://www.borgos.nndata.no/bygdeen.htm\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">A 'bygdebok' - What Is That?</span></a> </li><br><li>Learn about using the 1972 Postal Guide to locate Norway farms.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/img_auth.php/3/37/1-1972_Postal_Guide-Instruction.pdf\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—1972 Postal Guide - 2015</span></a> </li><br><li>Explore this list of <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://nordicfamilyhistory.com/norwegian-resources/bygdeboker-farm-books/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">online links for Norway farm books</a>.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.dokpro.uio.no/rygh_ng/rygh_form.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Norwegian farm names database</a> on the Dokumentasjons Prosjektet website.</li><span id=\"counties\"> </span><li>Use the Rygh's Farm Names Gazetteer to locate farm names.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/File:1-Rygh%27s_Farm_Names-Instruction.pdf\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Rygh's Farm Names Gazetteer</span></a> </li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Civil and Vital Records",
+        "name": "Civil and Vital Records",
+        "section_name": "Learn about civil and vital records in Norway.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=FSN9Jc7PSyc\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about civil and vital records in Norway.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-book-pile.png"
+                    ],
+                    "text": "<ol><img src=\"img/y-book-pile.png\" width=\"350px\" style=\"float:right; margin-left: 16px; margin-top: 8px; border:0x solid #000; padding:0px;\">    <ol><li><span class=\"g\">Birth Records</span>: Learn how to find birth records in Norway. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.arkivverket.no/dokumentasjon/fodsel-dod-og-navn/fodsel\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Getting Started: Birth - 2020</span></a> </li><br><li><span class=\"g\">Marriage Records</span>: Learn how to find marriage records in Norway. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.arkivverket.no/dokumentasjon/ekteskap-og-skilsmisse/ekteskap\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Marriage - 2017</span></a> </li><br><li><span class=\"g\">Population Registry</span>: Learn about the population registry in Norway and the types of records it contains. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.arkivverket.no/dokumentasjon/bosted-flytting-og-skatt/botid\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Population Register and Period of Residence - 2020</span></a> </li><br><li><span class=\"g\">Adoption and Orphanage</span>: Learn about finding adoption and orphanage records in Norway. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.arkivverket.no/dokumentasjon/farskap-og-adopsjon/adopsjon\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Get Started: Adoption - 2020</span></a> <br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.arkivverket.no/dokumentasjon/barnehjem-og-spesialskoler/barnehjem\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Get Started: Orphanage - 2020</span></a></li><br></ol><span id=\"counties\"> </span></ol><ol><li><span class=\"g\">Birth Records</span>: Learn how to find birth records in Norway. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.arkivverket.no/dokumentasjon/fodsel-dod-og-navn/fodsel\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Getting Started: Birth - 2020</span></a> </li><br><li><span class=\"g\">Marriage Records</span>: Learn how to find marriage records in Norway. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.arkivverket.no/dokumentasjon/ekteskap-og-skilsmisse/ekteskap\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Marriage - 2017</span></a> </li><br><li><span class=\"g\">Population Registry</span>: Learn about the population registry in Norway and the types of records it contains. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.arkivverket.no/dokumentasjon/bosted-flytting-og-skatt/botid\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Population Register and Period of Residence - 2020</span></a> </li><br><li><span class=\"g\">Adoption and Orphanage</span>: Learn about finding adoption and orphanage records in Norway. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.arkivverket.no/dokumentasjon/farskap-og-adopsjon/adopsjon\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Get Started: Adoption - 2020</span></a> <br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.arkivverket.no/dokumentasjon/barnehjem-og-spesialskoler/barnehjem\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Get Started: Orphanage - 2020</span></a></li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Probate Records",
+        "name": "Probate Records",
+        "section_name": "Learn about Norway probate records.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=FSN9Jc7PSyc\" target=\"_blank\">Explorations</a></h5><img src=\"img/x-nor-land.jpg\" alt=\"\" width=\"400px\" style=\"float:right; margin-left: 6px; margin-top: 6px; margin-left: 16px;\">",
+        "choices": [
+            {
+                "name": "Learn about Norway probate records.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about Norway probate records in these articles. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Norway_Probate_Records\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Norwegian Probate Records</span></a><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://martinroe.com/blog/introduction-to-norwegian-probate-records/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Introduction to Norwegian Probate Records - 2019</span></a></li><br><li>Watch this video for an introduction to Norway probate records. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/help/helpcenter/lessons/norwegian-probates\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Norwegian Probates—56:12 - 2016</span></a></li><br><span id=\"counties\"> </span><li>Explore Norway probate records in these videos. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/help/helpcenter/lessons/exploring-probate-records-in-norway\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Exploring Probate Records in Norway—39:55 - 2017</span></a><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/help/helpcenter/lessons/norway-probate-records\" target=\"_blank\">  <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Norway Probate Records—48:40 - 2016</span></a></li><br><li>Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://media.digitalarkivet.no/en/sk/browse\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">scanned probate records</a> on the Digitalarkivet site.</li><li>Explore <a class=\"lk\" href=\"https://media.digitalarkivet.no/en/self-service/grbb\" target=\"_blank\">property registers and deeds</a> on the Digitalarkivet site.</li><li><span class=\"g\">Court</span>: Learn how to find civil and criminal court records in Norway. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.arkivverket.no/utforsk-arkivene/forbrytelse-og-straff/sivile-saker-og-straffesaker\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Civil Cases and Criminal Cases</span></a> <br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.arkivverket.no/utforsk-arkivene/eldre-historie--1814/tingbokene-og-tingbokavskrifter\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Court Books and Transcripts</span></a> </li><br><li>Search for <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://media.digitalarkivet.no/en/rg/browse\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">scanned court records</a> on the Digitalarkivet site.</li></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Maps and Gazetteers",
+        "name": "Maps and Gazetteers",
+        "section_name": "Learn about Norway maps and gazetteers.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=FSN9Jc7PSyc\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Norway maps and gazetteers.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-nor-map.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://commons.wikimedia.org/wiki/File:Map-of-Norway-1761-Complete.jpg\" target=\"_blank\"> <img src=\"img/x-nor-map.jpg\" alt=\"\" height=\"400px\" style=\"float:right; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"></a>   <li>See an <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Norway_Genealogy#Norway_Clickable_Map\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">interactive map</a> for Norway counties.</li><li>Learn about Norway maps in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Norway_Maps\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Norway Maps</span></a></li><br><li>Find <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://norwayparishes.com/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">map resources </a> for farms, communities, and more.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Norwegian maps.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore a variety of topographical, historical, and interactive maps on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://nordicgenealogy.org/Norway_Genealogy.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\"><img src=\"img/d.png\" width=\"2\">Nordic Genealogical Society of Southern California</a> website.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://norwayparishes.com/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Norway Parishes</a> website, an interactive web map for parishes.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.davidrumsey.com/luna/servlet/view/search?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&amp;q=norway&amp;search=Go\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">David Rumsey collection</a> of Norwegian maps.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.oldmapsonline.org/en/Norway\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Old Maps Online site</a> for Norway maps.</li><span id=\"counties\"> </span><li>Explore other <a class=\"lk\" href=\"https://familysearch.org/wiki/en/Norwegian_Research_Websites#Maps\" target=\"_blank\">Norwegian maps</a> on the Internet.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://commons.wikimedia.org/wiki/Atlas_of_Norway\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Atlas of Norway</a> on the Wikipedia site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://commons.wikimedia.org/wiki/Category:Old_maps_of_Norway\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Old Maps of Norway</a> on the Wikipedia site.</li><li>Explore a <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.fallingrain.com/world/NO/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">directory of Norway cities, towns, and regions</a> in the Falling Rain site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Newspapers",
+        "name": "Newspapers",
+        "section_name": "Learn about Norway newspapers.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=FSN9Jc7PSyc\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Explore Norway newspapers for ancestor research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Find links to <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Wikipedia:List_of_online_newspaper_archives#Norway\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Norwegian newspapers</a> on the Wikipedia site.</li> <li>Search Norwegian newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.onlinenewspapers.com/norway.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">onlinenewspapers.com</a> site.</li><span id=\"counties\"> </span><li>Search Norwegian newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.world-newspapers.com/norway.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">world-newspapers.com</a> site.</li><li>Search Norwegian newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.abyznewslinks.com/denma.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">ABYZ News Links</a> site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Websites",
+        "name": "Websites",
+        "section_name": "Explore additional websites for research.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=FSN9Jc7PSyc\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "There are a number of websites with valuable resources for Norwegian research.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/laptop-fingers1.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/laptop-fingers1.jpg\" alt=\"\" width=\"350px\" style=\"float:right; margin-top: 6px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Explore links in the <a class=\"lk\" href=\"https://www.familysearch.org/en/wiki/Norway_Websites\" target=\"_blank\">FamilySearch Wiki</a>.</li><li>Explore links in <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cyndislist.com/norway\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Cyndi's List</a>.</li><li>Explore links in <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genealogylinks.net/europe/norway/index.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Genealogylinks.net</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Search Records",
+        "name": "Search Records",
+        "section_name": "Search records from Norway.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=FSN9Jc7PSyc\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Use QUIKLinks, Partners, and GenealogyInTime to quickly search the most common record collections for Norway.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/laptop-hands.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/laptop-hands.jpg\" alt=\"\" width=\"350px\" style=\"float:right; margin-top: 6px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>QUIKLinks are indicated by lightning-bolt icons in the Goals above.They point to collections with 50,000 or more records. When you click a QUIKLink icon, scroll down on the resulting page to see the QUIKLinks.</li><li>In the Partners section (near the top of the page), explore additional record collections in FamilySearch, Ancestry, Findmypast and MyHeritage.</li><li>Explore the FamilySearch page for <a class=\"lk\" href=\"https://familysearch.org/wiki/en/Norway_Online_Genealogy_Records\" target=\"_blank\">Norwegian online record collections</a>.</li><li>Explore the <a class=\"lk\" href=\"http://www.genealogyintime.com/records/Europe-genealogy-records.html\" target=\"_blank\">Europe page</a> of the GenealogyInTime website. Record collections are listed and described in order from newest to oldest additions, including FamilySearch, Ancestry, and many other sources.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Get Help",
+        "name": "Get Help",
+        "section_name": "Get help with your Norwegian research.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=FSN9Jc7PSyc\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Use Facebook pages to get answers to your questions.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/fh-help3.jpg"
+                    ],
+                    "text": "<ol><a href=\"img/fh-help3.jpg\" target=\"_blank\"> <img src=\"img/fh-help3.jpg\" alt=\"\" width=\"250px\" style=\"float:right; margin-top: 8px; margin-left: 16px\"></a> <li>Visit the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.facebook.com/groups/NorwegianGenealogy/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Norwegian Genealogy page</a> on Facebook.</li><li>Visit another <a class=\"lk\" href=\"https://www.facebook.com/groups/22802545149/\" target=\"_blank\">Norwegian Genealogy page</a> on Facebook.</li><li>Visit the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.facebook.com/groups/NorthernEuropeGenealogyResearchCommunity/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Northern Europe Genealogy Research Community</a> on Facebook.</li><li>See the <a class=\"lk\" href=\"http://socialmediagenealogy.com/genealogy-on-facebook-list/\" target=\"_blank\">Genealogy on Facebook list</a> of Facebook groups dedicated to helping with research for Norway.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Join a mailing list or message board for Norway research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.norwayheritage.com/snitz/default.asp?CAT_ID=16\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Norway-Heritage Forum</a> for help on various research topics.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cyndislist.com/norway/social/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Norway research mailing lists</a> on Cyndi's List.</li><li>Use the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ancestry.com/boards/localities.scan-balt.norway/mb.ashx\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Ancestry message boards</a> to read or post questions about Norway research.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Norway genealogy societies.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><span id=\"counties\"> </span><li>Learn about Norway genealogy societies in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Norway_Societies\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Norway Societies</span></a></li><br><li>Explore <a class=\"lk\" href=\"http://www.cyndislist.com/norway/societies/\" target=\"_blank\">Norway genealogy society sites</a> on Cyndi's List.</li><br><li>Learn more about DIS NORGE, the Genealogy Society of Norway. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/help/helpcenter/lessons/genealogy-in-norway-dis-norge\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Genealogy in Norway DIS NORGE—34:26</span></a></li><br><li>Get help at a <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Category:Norway_Family_History_Centers\" target=\"_blank\">family history center in Norway</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Get Help",
+        "name": "Geography, Culture, and History",
+        "section_name": "Learn about the geography, culture, and history of Norway. \n\t\t\t\t\t\t\n\t\t\t\t\t\t",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=FSN9Jc7PSyc\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Explore websites and videos.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/c-norway.jpg"
+                    ],
+                    "text": "<h5>Reference</h5><ol><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Norway_History\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">FamilySearch: History</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Norway\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Wikipedia</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.britannica.com/place/Norway\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Encyclopedia Britannica</a></li></ol><h5>For Kids</h5><ol><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://kids.nationalgeographic.com/explore/countries/norway/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">NatGeo for Kids</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ducksters.com/geography/country.php?country=Norway\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Ducksters</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=VzT1jmcDNPI\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">YouTube: Living in Norway vs Living in the USA</a></li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

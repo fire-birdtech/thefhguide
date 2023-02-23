@@ -1,0 +1,259 @@
+[
+    {
+        "nav_name": "Research and Records",
+        "name": "Research and Records",
+        "section_name": "Learn about Shropshire research and records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Get started with research for your Shropshire ancestors.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-en-sal-over.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/bridgnorth-river-shropshire-650497/\" target=\"_blank\"> <img src=\"../img/x-en-sal-over.jpg\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li>Learn about finding your ancestors in Shropshire. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Shropshire,_England_Genealogy\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki: Shropshire England Genealogy</span></a></li><br><li>Get an overview of Shropshire research. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familyhistory.co.uk/county-records/shropshire-family-history/\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Shropshire Family History</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://www.shropshirearchives.org.uk/advice-and-guides/family-history/\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Family history</span></a></li><br><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.dustydocs.com/county/32/shropshire.html?country_id=1\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">Dusty Docs site</a> for Shropshire research.</li><li>Explore a variety of records on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ukbmd.org.uk/index.php?county=130&amp;form_action=county\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">UK BMD site</a>.</li><li>Explore lists of <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.genuki.org.uk/big/eng/SAL/ParishIndex\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">towns and parishes</a> on the GenUKI site.</li><li>Explore Shropshire resources on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familyhistorydirectory.co.uk/england/shropshire/\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">Family History Directory site</a>.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about the history of Shropshire.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for research resources. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>Learn about Shropshire history on Wikipedia. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://en.wikipedia.org/wiki/History_of_Shropshire/\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">History of Shropshire</span></a></li><br><li>Go into more depth with Shropshire history on the British History Online site.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.british-history.ac.uk/vch/salop\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Victoria County History series</span></a></li><br><li>Explore Shropshire history on the <a class=\"lk\" href=\"https://en-academic.com/dic.nsf/enwiki/644656\" target=\"_blank\">En-Academic site</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Archives and Libraries",
+        "name": "Archives and Libraries",
+        "section_name": "Learn about Shropshire archives and libraries.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Shropshire archives and libraries.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for archives and libraries. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-en-sal-lib.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://en.wikipedia.org/wiki/Shropshire#/media/File:Ludlow,_Shropshire.jpg\" target=\"_blank\"><img src=\"../img/x-en-sal-lib.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"></a><li>Learn about Shropshire archives and libraries in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Shropshire_Archives_and_Libraries\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Shropshire Archives and Libraries</span></a></li><br><li>Explore the <a class=\"lk\" href=\"https://www.shropshirearchives.org.uk/\" target=\"_blank\">Shropshire archives</a> site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genuki.org.uk/big/eng/SAL/index.html#Archives\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">archives and libraries link</a> on the GenUKI Shropshire site.</li><li>Search for <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://books.familysearch.org/primo_library/libweb/action/search.do?fn=search&amp;ct=search&amp;mode=Basic&amp;tab=default_tab&amp;indx=1&amp;dum=true&amp;srt=rank&amp;vid=FHD_PUBLIC&amp;frbg=&amp;vl%28freeText0%29=shropshire+england\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">free online books on Shropshire research</a> on the FamilySearch site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Vital and Census Records",
+        "name": "Vital and Census Records",
+        "section_name": "Learn about Shropshire civil registration, BMD, and census records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore Shropshire civil registration.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/eng/shr-river.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://en.wikipedia.org/wiki/Shropshire#/media/File:Welsh_Bridge,_Shrewsbury.jpg\" target=\"_blank\"><img src=\"../img/eng/shr-river.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"></a><li>Read this short guide to civil registration in Shropshire. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.shropshirearchives.org.uk/wp-content/uploads/2018/06/short-guide-to-census-returns.pdf\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">A short guide to civil registration</span></a></li><br><li>See a <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Shropshire_Parishes\" target=\"_blank\">list of civil parishes with links</a> on the FamilySearch Wiki.</li><li>Explore Shropshire civil registration on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genuki.org.uk/big/eng/SAL/#CivilRegistration\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">Gen UKI site</a>.</li><li>Browse the <a class=\"lk\" href=\"http://www.ukbmd.org.uk/genuki/reg/sal.html\" target=\"_blank\">Shropshire registration districts</a> on the Gen UKI site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://joinermarriageindex.co.uk/marriage-records/Shropshire/\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">Joiner Marriage Index</a> for Shropshire.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.freebmd.org.uk/search\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">FreeBMD UK site</a> for BMD records.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Shropshire census and electoral records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for civil registration and other records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>Learn about Shropshire Census Surname Indexes in FamilySearch. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Shropshire_Census_Surname_Indexes_at_the_Family_History_Library\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki: Census Surname Indexes</span></a></li><br><li>Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.freecen.org.uk/\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">Shropshire census records </a> on the FreeCen site.</li><li>Explore Shropshire census records on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genuki.org.uk/big/eng/SAL/Census\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">Gen UKI site</a>.</li><li>Read this short guide to census returns in Shropshire. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.shropshirearchives.org.uk/wp-content/uploads/2018/06/short-guide-to-census-returns.pdf\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">A short guide to census returns</span></a></li><br><li>Learn about electoral registers and poll books in Shropshire. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.shropshirearchives.org.uk/collections/electoral-registers-poll-books/\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Electoral registers and poll books</span></a></li><br></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Church and Cemetery Records",
+        "name": "Church and Cemetery Records",
+        "section_name": "Learn about Shropshire church and cemetery records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Shropshire church records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for church records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-en-sal-church.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://upload.wikimedia.org/wikipedia/commons/3/32/St_Alkmund%27s_Church%2C_Whitchurch1.jpg\" target=\"_blank\"> <img src=\"../img/x-en-sal-church.jpg\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li>Get an overview of Shropshire church records in this article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Shropshire_Church_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Shropshire Church Records</span></a></li><br><li>Learn about Shropshire parish registers on the Shropshire Archives site. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.shropshirearchives.org.uk/collections/parish-registers/\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Registers of baptisms, marriages and burials</span></a></li><br><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genuki.org.uk/big/eng/SAL/#ChurchRecords\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">church records link</a> on the GenUKI Shropshire site.</li><li>Explore parish records on the <a class=\"lk\" href=\"https://www.freereg.org.uk/\" target=\"_blank\">FreeReg.org</a>site.</li><li>Explore <a class=\"lk\" href=\"https://www.shropshirearchives.org.uk/advice-and-guides/place-guides/\" target=\"_blank\">place guides for 300 parishes</a> on the Shropshire Archives site.</li><li>Use this <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Shropshire_Parishes\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">parish page</a> to explore parish records in Shropshire.</li><li>Read this short guide to Catholic records in Shropshire. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.shropshirearchives.org.uk/wp-content/uploads/2018/06/short-guide-to-catholic-records.pdf\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">A short guide to Roman Catholic records</span></a></li><br><li>Read this short guide to non-conformist registers in Shropshire. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.shropshirearchives.org.uk/wp-content/uploads/2018/06/short-guide-to-non-conformist-registers.pdf\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">A short guide to census returns</span></a></li><br></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Shropshire cemetery records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for cemetery records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>Learn about cemeteries in Shropshire. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Shropshire_Cemeteries\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki: Shropshire England Genealogy</span></a></li><br><li>Read this short guide to cemetery records in Shropshire. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.shropshirearchives.org.uk/wp-content/uploads/2018/09/short-guide-to-cemeteries.pdf\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">A short guide to Cemeteries </span></a></li><br><li>Explore Shropshire cemetery records on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genuki.org.uk/big/eng/SAL/#Cemeteries\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">Gen UKI site</a>.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.findagrave.com/cemetery/search?cemetery-name=&amp;cemetery-loc=Shropshire%2C+England&amp;only-with-cemeteries=cemOnly&amp;locationId=state_4238\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">Find a Grave site</a> for cemetery records.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://billiongraves.com/pages/search/\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">BillionGraves site</a> for cemetery records.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": null,
+        "name": "Probate, Land and Court Records",
+        "section_name": "Learn about Shropshire probate and land records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Shropshire probate and land records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for probate and land records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-en-sal-land.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/photos/shrewsbury-shropshire-town-3794204/\" target=\"_blank\"><img src=\"../img/x-en-sal-land.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"></a><li>Learn about Shropshire probate records in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Shropshire_Probate_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Shropshire Probate Records</span></a></li><br><li>Learn more about <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genuki.org.uk/big/eng/SAL/index.html#Probate\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">probate records</a> on the GenUKI Shropshire site.</li><li>Learn more about <a class=\"lk\" href=\"http://www.genuki.org.uk/big/eng/SAL/index.html#Land\" target=\"_blank\">land and property records</a> on the GenUKI Shropshire site.</li><li>Learn more about <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.genuki.org.uk/big/eng/SAL#Taxation\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">taxation records</a> on the GenUKI site.</li><li>Explore deeds by surname on the <a class=\"lk\" href=\"http://www.familydeeds.org/shropshire.php\" target=\"_blank\">FamilyDeeds site</a>.</li><li>Learn about poor law records in Shropshire. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.shropshirearchives.org.uk/collections/poor-law-workhouse-records/\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Poor law and workhouse records</span></a></li><br><li>Learn about crime and punishment records in Shropshire. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.shropshirearchives.org.uk/collections/records-crime-punishment/\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Records of crime and punishment</span></a></li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": null,
+        "name": "Maps and Gazetteers",
+        "section_name": "Learn about Shropshire maps and gazetteers.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore Shropshire maps and gazetteers.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about Shropshire maps in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Shropshire_Maps\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Shropshire Maps</span></a></li><br><li>Explore historical maps on the <a class=\"lk\" href=\"http://shropshiremaps.org.uk/\" target=\"_blank\">Shropshire Maps</a> site.</li><li>Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://freepages.rootsweb.com/~genmaps/genealogy/genfiles/COU_Pages/ENG_pages/sal.htm\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">historical maps</a> on the GenMaps site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.davidrumsey.com/luna/servlet/view/search?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&amp;q=shropshire&amp;search=Go\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">David Rumsey collection</a> of Shropshire maps.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genuki.org.uk/big/eng/SAL/#Maps\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">maps link</a> on the GenUKI Shropshire site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genuki.org.uk/big/eng/SAL/#Gazetteers\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">gazetteers link</a> on the GenUKI Shropshire site.</li><li>Explore the online <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genuki.org.uk/big/Gazetteers\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">Gazetteer</a> on the GenUKI site.</li><br><br><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Newspapers",
+        "name": "Newspapers",
+        "section_name": "Learn about Shropshire newspapers.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore Shropshire newspapers.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about historical newspapers in Shropshire. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.shropshirearchives.org.uk/collections/newspapers/\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Newspapers</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://www.shropshirearchives.org.uk/wp-content/uploads/2018/06/short-guide-to-newspapers.pdf\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">A short guide tgo newspapers</span></a></li><br><li>Search Shropshire newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.abyznewslinks.com/ukingea.htm\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">ABYZ News Link</a> site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genuki.org.uk/big/eng/SAL/#Newspapers\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">newspaper records link</a> on the GenUKI Shropshire site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Websites",
+        "name": "Websites",
+        "section_name": "Explore additional websites for research.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "There are a number of websites with valuable resources for Shropshire research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore links in <a class=\"lk\" href=\"http://www.cyndislist.com/uk/eng/counties/sal/\" target=\"_blank\">Cyndi's List</a>.</li><li>Explore links in <a class=\"lk\" href=\"http://www.genealogylinks.net/uk/england/shropshire/index.html\" target=\"_blank\">GenealogyLinks.net</a>.</li> </ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Search Records",
+        "name": "Search Records",
+        "section_name": "Search records from Shropshire.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore record collections.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Use the England Record Selection Table to decide on records to search. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/England_Record_Selection_Table\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—England Record Selection Table</span></a></li><br><li>Explore the <a class=\"lk\" href=\"https://familysearch.org/wiki/en/Shropshire,_England_Online_Genealogy_Records\" target=\"_blank\">FamilySearch page</a> for online genealogy records.</li><li>Explore additional record collections in <a class=\"lk\" href=\"http://search.ancestry.com/search/cardcatalog.aspx#ccat=hc=25&amp;dbSort=1&amp;sbo=1&amp;filter=1*1652381%7C1*3257%7C1*3251%7C1*5282&amp;\" target=\"_blank\">Ancestry</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Get Help",
+        "name": "Get Help",
+        "section_name": "Get help with your Shropshire research.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Use Facebook pages to get answers to your questions.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-facebook.jpg"
+                    ],
+                    "text": "<ol><a href=\"../img/y-facebook.jpg\" target=\"_blank\"> <img src=\"../img/y-facebook.jpg\" alt=\"\" height=\"170px\" border=\"1\" style=\"float:right; margin-top: 16px; margin-left: 36px\"></a> <li> Visit the <a class=\"lk\" href=\"https://www.facebook.com/groups/192963207459676/\" target=\"_blank\">Shropshire Ancestors and Genealogy page</a> on Facebook.</li> <li> Visit the <a class=\"lk\" href=\"https://www.facebook.com/ShropshireFHS/\" target=\"_blank\">Shropshire Family History Society page</a> on Facebook.</li> </ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Join a mailing list or message board for Shropshire research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Join the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.rootschat.com/forum/england/\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">RootsChat forum</a> and post questions about Shropshire research.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://bigfile.rootsweb.ancestry.com/cgi-bin/listsearch\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">RootsWeb site </a> for Shropshire research mailing lists.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cyndislist.com/uk/eng/counties/sal/social/\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\"> Shropshire research mailing lists</a> on Cyndi's List.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Shropshire genealogy societies.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about genealogy societies in Shropshire in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Shropshire_Societies\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Shropshire Societies</span></a></li><br><li>Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cyndislist.com/uk/eng/counties/sal/societies/\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">English genealogy society sites</a> on Cyndi's list.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

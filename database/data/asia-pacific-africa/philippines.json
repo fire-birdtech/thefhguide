@@ -1,0 +1,239 @@
+[
+    {
+        "nav_name": "Research",
+        "name": "Research",
+        "section_name": "Learn about Philippines research.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Get started with your Philippines research.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Philippines_Archives_and_Libraries#Libraries_in_the_Philippines\" target=\"_blank\">Libraries in the Philippines</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Philippines_Archives_and_Libraries#Foreign_Libraries\" target=\"_blank\">Foreign Libraries</a></li></ul></span>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for archives and libraries. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-phi-lib.jpg"
+                    ],
+                    "text": "<ol><a href=\"img/x-phi-lib.jpg\" target=\"_blank\"> <img src=\"img/x-phi-lib.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a><li><span class=\"g\">Basic</span>: Get started with basic Philippines research in this video. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=Lod9vNBXSm8\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">RT—Basic Family History Research Using Philippine Records—13:32 - 2021</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/Lod9vNBXSm8?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><li>Learn about Philippines archives and libraries in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Philippines_Archives_and_Libraries\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Philippines_Archives and Libraries</span></a> <a class=\"lk\" href=\"javascript:toggleDiv('usa');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"usa\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Philippines_Archives_and_Libraries#Libraries_in_the_Philippines\" target=\"_blank\">Libraries in the Philippines</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Philippines_Archives_and_Libraries#Foreign_Libraries\" target=\"_blank\">Foreign Libraries</a></li></ul></span></div></li><br><li><span class=\"g\">Spanish</span>: Use this guide for understanding Spanish genealogical terms. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Spanish_Genealogical_Word_List\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Spanish Genealogical Word List</span></a></li><br><li><span class=\"g\">Correspondence</span>: Use this guide to send correspond with Philippine organizations for records. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Letter_Writing_Guide_for_Genealogy\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Letter Writing Guide for Genealogy</span></a></li><br><li>Learn about researching Philippine surnames. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=8JlmEeLIPdk\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">RT—The Origin of Filipino Last Names—20:02 - 2021</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/8JlmEeLIPdk?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></li><br></ol><h5>Record Types</h5><ol><li><span class=\"g\">Record Finder</span>: Use the Philippines Record Finder to understand record types for research. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Philippines_Record_Finder\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Philippines Record Finder</span></a></li><br><li><span class=\"g\">Military</span>: Learn about Philippines military records in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Philippines_Military_Records\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Philippines Military Records</span></a></li><br><li><span class=\"g\">Land &amp; Property</span>: Learn about land and property records in the Philippines. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Philippines_Land_and_Property\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Land and Property Records</span></a></li><br><li><span class=\"g\">Probate</span>: Learn about Philippines probate records. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Philippines_Probate_Records\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Probate Records</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore additional resources for Philippines research.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-phi-over.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/photos/outdoors-architecture-3253380/\" target=\"_blank\"> <img src=\"img/x-phi-over.jpg\" width=\"100%\" ;=\"\" style=\"float:right; margin-top: 8px; margin-left: 16px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a>    <li><span class=\"g\">Forebears.io</span>: Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://forebears.io/philippines\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Forebears.io site</a> for research records.</li><li><span class=\"g\">Surnames</span>: Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.geneanet.org/country/search-Philippines-PHL\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Geneanet site</a> for Philippine surnames.</li><li><span class=\"g\">Libraries &amp; Archives</span>: Explore additional <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.genealogy.ph/find/c/archives\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">libraries and archives</a> for Philippines research. </li><li>Explore the <a class=\"lk\" href=\"http://www.barbsnow.net/Philippines.html\" target=\"_blank\">genealogy guide to Genealogy Guide to Philippines research </a> by Barb Snow. </li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Philippines emigration and immigration.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li><span class=\"g\">Basics</span>: Learn about Philippines emigration and immigration in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Philippines_Emigration_and_Immigration\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Philippines Emigration and Immigration</span></a> </li><li><span class=\"g\">Wikipedia</span>: Learn about immigration history and demographics in this Wikipedia article.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Brazilian_Americans\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\"><img src=\"img/d.png\" width=\"2\">Wikipedia: Brazilian Americans</span></a></li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Census Records",
+        "name": "Census Records",
+        "section_name": "Learn about Philippines census and civil registration records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about the Philippines census.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Philippines_Census#Spanish_Censuses\" target=\"_blank\">Spanish Censuses</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Philippines_Census#United_States_Censuses\" target=\"_blank\">United States Censuses</a></li></ul></span>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-phi-flag.png"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/philippines-flag-philippine-26794/\" target=\"_blank\"> <img src=\"img/x-phi-flag.png\" alt=\"\" width=\"350px\" style=\"float:right; margin-top: 6px; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li><span class=\"g\">FamilySearch</span>: Learn about Philippines census records in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Philippines_Census\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Philippines Census</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('usa');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"usa\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Philippines_Census#Spanish_Censuses\" target=\"_blank\">Spanish Censuses</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Philippines_Census#United_States_Censuses\" target=\"_blank\">United States Censuses</a></li></ul></span></div></li><br><li>Explore various census record collections in the <a class=\"lk\" href=\"https://catalog.hathitrust.org/Record/001307214\" target=\"_blank\">Hathi Trust Digital Library</a>. Explore the links in the right panel for various years.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Philippines civil registration.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about Philippines civil registration in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Philippines_Civil_Registration\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Philippines Civil Registration</span></a></li><br><li>To request Philippine civil registration documents, visit the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://psa.gov.ph/civilregistration/requesting-civil-registry-document\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Philippines Statistics Authority</a> website.</li></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p><p></p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Church and Cemetery Records",
+        "name": "Church and Cemetery Records",
+        "section_name": "Learn about Philippines church and cemetery records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Philippines church and cemetery records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Philippines_Church_Records#Church_Records_.28Registros_Parroquiales.29\" target=\"_blank\">Church Records</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Philippines_Church_Records#Catholic_Church_Records_Content\" target=\"_blank\">Catholic Church Records</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Philippines_Church_Records#Locating_Church_Records\" target=\"_blank\">Locating Church Records</a></li> <li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Philippines_Church_Records#Reading_the_Records\" target=\"_blank\">Reading the Records</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Philippines_Church_Records#General_Strategy_for_Searching_Parish_Registers\" target=\"_blank\">General Strategy</a></li></ul></span>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-phi-church.jpg"
+                    ],
+                    "text": "<ol><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/File:Calubian_Leyte_Philippines_Church.jpg\" target=\"_blank\"> <img src=\"img/x-phi-church.jpg\" alt=\"\" width=\"400px\" style=\"float:right; margin-top: 8px; margin-left: 6px; border:1px solid #000; padding:0px;\"></a><li>Learn about Philippines church records in this FamilySearch Wiki article.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Philippines_Church_Records\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Philippines Church Records</span></a> <a class=\"lk\" href=\"javascript:toggleDiv('usa');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"usa\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Philippines_Church_Records#Church_Records_.28Registros_Parroquiales.29\" target=\"_blank\">Church Records</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Philippines_Church_Records#Catholic_Church_Records_Content\" target=\"_blank\">Catholic Church Records</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Philippines_Church_Records#Locating_Church_Records\" target=\"_blank\">Locating Church Records</a></li> <li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Philippines_Church_Records#Reading_the_Records\" target=\"_blank\">Reading the Records</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Philippines_Church_Records#General_Strategy_for_Searching_Parish_Registers\" target=\"_blank\">General Strategy</a></li></ul></span></div></li><br><li>Learn how to use Catholic records in your Philippines research. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=Wd2K9WI4uTA\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">RT—Using Catholic Spanish-Period Church Records in Philippine Genealogy—18:58 - 2021</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/Wd2K9WI4uTA?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=dBm076e5cKE\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">RT—Using Keywords to Demistify Old Catholic Church Records in Filipino Genealogy—10:38 - 2022</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/dBm076e5cKE?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><li>Explore links for parishes and churches in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://stevemorse.org/fhl/websiteslist.php?state=Philippines&amp;file=weblinkseastern&amp;mode=fhl\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Steve Morse website</a>.</li><li>Learn about Philippines cemetery records in this FamilySearch Wiki article.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Philippines_Cemeteries\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Philippines Cemeteries</span></a> </li><br><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.findagrave.com/cemetery-browse/Philippines?id=country_80\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Find A Grave site</a> for cemetery records.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://bloodandfrogs.com/encyclopedia/philippines\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Jewish Genealogy Encyclopedia</a> for Jewish resources in the Philippines.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://billiongraves.com/site-map?country=Philippines\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">BillionGraves site</a> for cemetery records.</li></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Maps and Gazetteers",
+        "name": "Maps and Gazetteers",
+        "section_name": "Learn about Philippines maps.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Philippines maps.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-phi-map.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/x-phi-map.jpg\" alt=\"\" width=\"250px\" style=\"float:right; margin-top: 8px; margin-left: 16px; border:1px solid #000; padding:0px;\"> <li>Learn about Philippines maps in this FamilySearch Wiki article.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Philippines_Maps\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Philippines Maps</span></a> </li><br><li>See an <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Philippines_Genealogy#Philippines_Clickable_Map\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">interactive map</a> for Philippines provinces.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.lib.utexas.edu/maps/philippines.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Perry-Castaneda map collection</a> for Philippines maps.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.davidrumsey.com/luna/servlet/view/search?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&amp;q=philippines&amp;search=Go\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">David Rumsey collection</a> of Philippines maps.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.oldmapsonline.org/en/Philippines\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Old Maps Online site</a> for Philippines maps.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://commons.wikimedia.org/wiki/Atlas_of_Philippines\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Atlas of Philippines</a> on the Wikipedia site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://commons.wikimedia.org/wiki/Category:Old_maps_of_Philippines\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Old Maps of Philippines</a> on the Wikipedia site.</li><li>Explore a <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.fallingrain.com/world/RP/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">directory of Philippines cities, towns, and regions</a> in the Falling Rain site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Newspapers",
+        "name": "Newspapers",
+        "section_name": "Learn about Philippines newspapers.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore Philippines newspapers for ancestor research.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-phi-news.jpg"
+                    ],
+                    "text": "<ol><a href=\"img/x-phi-news.jpg\" target=\"_blank\"> <img src=\"img/x-phi-news.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px;\"></a> <li>Find links to <a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Wikipedia:List_of_online_newspaper_archives#Philippines\" target=\"_blank\"> Philippine newspapers</a> on the Wikipedia site.</li> <li>Search Philippine newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.onlinenewspapers.com/philippines.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">onlinenewspapers.com</a> site.</li><li>Search Philippine newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.world-newspapers.com/philippines.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">world-newspapers.com</a> site.</li><li>Search Philippine newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.abyznewslinks.com/phili.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">ABYZ News Links</a> site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Websites",
+        "name": "Websites",
+        "section_name": "Explore additional websites for research.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "There are a number of websites with valuable resources for Philippine research.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/laptop-fingers1.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/laptop-fingers1.jpg\" alt=\"\" width=\"350px\" style=\"float:right; margin-top: 6px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Explore links in the <a class=\"lk\" href=\"https://www.familysearch.org/en/wiki/Philippines_Genealogy#More_Philippines_Research_Tools\" target=\"_blank\">FamilySearch Wiki</a>.</li><li>Explore links in <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cyndislist.com/philippines\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Cyndi's List</a>.</li><li>Explore these <a class=\"lk\" href=\"https://familysearch.org/wiki/en/Philippines\" target=\"_blank\">Philippines research websites</a> at the bottom of the FamilySearch Philippines page.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Search Records",
+        "name": "Search Records",
+        "section_name": "Search records from Philippines.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Use QUIKLinks, Partners, and GenealogyInTime to quickly search the most common record collections for the Philippines.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/laptop-hands.jpg"
+                    ],
+                    "text": "<ol><br><img src=\"img/laptop-hands.jpg\" alt=\"\" width=\"350px\" style=\"float:right; margin-top: 6px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>QUIKLinks are indicated by lightning-bolt icons in the Goals above.They point to collections with 50,000 or more records. When you click a QUIKLink icon, scroll down on the resulting page to see the QUIKLinks.</li><li>In the Partners section (near the top of the page), explore additional record collections in FamilySearch, Ancestry, Findmypast and MyHeritage.</li><li>Explore the <a class=\"lk\" href=\"http://www.genealogyintime.com/records/Asia-genealogy-records.html\" target=\"_blank\">Asia page</a> of the GenealogyInTime website. Record collections are listed and described in order from newest to oldest additions, including FamilySearch, Ancestry, and many other sources.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Get Help",
+        "name": "Get Help",
+        "section_name": "Get help with your Philippines research.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Use Facebook pages to get answers to your questions.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/fh-help.jpg"
+                    ],
+                    "text": "<ol><a href=\"img/fh-help.jpg\" target=\"_blank\"> <img src=\"img/fh-help.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 350px;\"></a> <li>Visit the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.facebook.com/groups/367146666771463/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Asia, Africa, Pacific Genealogy Research Community</a> on Facebook.</li><li>See the <a class=\"lk\" href=\"http://socialmediagenealogy.com/genealogy-on-facebook-list/\" target=\"_blank\">Genealogy on Facebook list</a> of Facebook groups dedicated to helping with research for Philippines.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Join a mailing list or message board for Philippines research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cyndislist.com/philippines/social/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Philippines research mailing lists</a> on Cyndi's List.</li><li>Use the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ancestry.com/boards/localities.asia.philippines/mb.ashx\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Ancestry message boards</a> to read or post questions about Philippines research.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Philippine genealogy societies.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore <a class=\"lk\" href=\"http://www.cyndislist.com/philippines/societies/\" target=\"_blank\">Philippine genealogy society sites</a> on Cyndi's List.</li><li>Get help at a <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Category:Philippines_Family_History_Centers\" target=\"_blank\">family history center in Philippines</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Geo/Culture/History",
+        "name": "Geography, Culture, History",
+        "section_name": "Learn about the geography, culture, and history of the Philippines. \n\t\t\t\t\t\t\n\t\t\t\t\t\t",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore websites and videos.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/c-philippines.jpg"
+                    ],
+                    "text": "<h5>Reference</h5><ol><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Philippines_History\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">FamilySearch: History</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Philippines\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Wikipedia</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.britannica.com/place/Philippiunes\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Encyclopedia Britannica</a></li></ol><h5>For Kids</h5><ol><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://kids.nationalgeographic.com/explore/countries/philippines/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">NatGeo for Kids</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ducksters.com/geography/country.php?country=Philippines\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Ducksters</a></li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

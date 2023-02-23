@@ -1,0 +1,244 @@
+[
+    {
+        "nav_name": "Research and Records",
+        "name": "Research and Records",
+        "section_name": "Learn about Victoria research and records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Get started with research for your Victoria ancestors.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for research resources. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-aus-vic-over.jpg"
+                    ],
+                    "text": "<ol><img src=\"../img/x-aus-vic-over.jpg\" alt=\"\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\" width=\"450px\"><li>Learn about finding your ancestors in Victoria. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Victoria,_Australia_Genealogy\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki:—Victoria</span></a></li><br><li>Get tips for starting your Victoria research. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://gsv.org.au/research/start-here.html\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">GSV: Beginning your Family History Research</span></a></li><br><li>Do <a class=\"lk\" href=\"https://gsv.org.au/gin-non-members.html\" target=\"_blank\">surname searches</a> on the Genealogical Society of Victoria site.</li><li>Use the Australian Record Finder for research opportunities. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Australia_Record_Finder\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Australia Record Finder</span></a></li><br><li>Explore resources on the <a class=\"lk\" href=\"https://www.familyhistorydirectory.co.uk/australia/victoria/\" target=\"_blank\">Family History Directory</a> site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Archives and Libraries",
+        "name": "Archives and Libraries",
+        "section_name": "Learn about Victoria archives and libraries.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about archives and libraries in Victoria.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for archives and libraries. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-aus-vic-lib.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://en.wikipedia.org/wiki/Melbourne#/media/File:National_gallery_victoria_international.jpg\" target=\"_blank\"><img src=\"../img/y-aus-vic-lib.jpg\" alt=\"\" width=\"450px\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li>Learn about Victoria archives in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Victoria_Archives_and_Libraries\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki:—Archives in Victoria</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Victoria directories.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Get an introduction to directories and almanacs for Victoria. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Victoria_Directories\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS:—Victoria Directories</span></a></li><br></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Vital and Census Records",
+        "name": "Vital and Census Records",
+        "section_name": "Learn about Victoria vital records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Victoria vital and BMD records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for vital and BMD records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-aus-vic-vit.jpg"
+                    ],
+                    "text": "<ol><img src=\"../img/x-aus-vic-vit.jpg\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Learn about Victoria births, marriages, and deaths in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Victoria_Births,_Marriages,_and_Deaths\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki:—Victoria Births, Marriages, and Deaths</span></a></li><br><li>Learn about Victoria civil registration and vital records in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Victoria_Civil_Registration_--_Vital_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki:—Victoria Civil Registration and Vital Records</span></a></li><br><li>Find <a class=\"lk\" href=\"http://www.genealogylinks.net/marriages/australia/victoria.htm\" target=\"_blank\">links to Victoria marriage resources</a> on the GenealogyLinks site.</li><li>Search <a class=\"lk\" href=\"https://www.bdm.vic.gov.au/research-and-family-history/search-your-family-history\" target=\"_blank\">birth, marriage, and death records</a> on the Births Deaths and Marriages Victoria site.</li><li>Learn about Victoria adoption records on the Births Deaths and Marriages Victoria site. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Victoria_Civil_Registration_--_Vital_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki:—Victoria Civil Registration and Vital Records</span></a></li><br><li>Learn about abbreviations for Victoria BDM place names. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://bdmabbreviations.steveparker.id.au/\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Victorian BDM Place Name Abbreviations List</span></a></li><br></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Church and Cemetery Records",
+        "name": "Church and Cemetery Records",
+        "section_name": "Learn about Victoria church and cemetery records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore Victoria church and cemetery records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for church and cemetery records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-aus-vic-church.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://en.wikipedia.org/wiki/Melbourne#/media/File:St_Patrick's_Cathedral-Gothic_Revival_Style_(East_Side).jpg\" target=\"_blank\"><img src=\"../img/x-aus-vic-church.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"></a><li>Explore resources for Victoria cemeteries. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Victoria_Cemeteries\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki:—Victoria Cemeteries</span></a></li><br><li>Find <a class=\"lk\" href=\"http://www.genealogylinks.net/australia/victoria/viccemeteries.htm\" target=\"_blank\">links to Victoria cemetery resources</a> on the GenealogyLinks site.</li><li>Explore the <a class=\"lk\" href=\"http://headstonephotos.steveparker.id.au/\" target=\"_blank\">cemeteries index</a> for the Genealogical  site.</li><li>Explore <a class=\"lk\" href=\"http://headstonephotos.steveparker.id.au/\" target=\"_blank\">links to Victoria headstone photos</a> on the Steve Parker site.</li><li>Search the <a class=\"lk\" href=\"http://www.findagrave.com/cgi-bin/fg.cgi?page=cs\" target=\"_blank\">Find A Grave site</a> for cemetery records.</li><li>Search the <a class=\"lk\" href=\"http://billiongraves.com/pages/search/\" target=\"_blank\">BillionGraves site</a> for cemetery records.</li></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Emigration and Immigration",
+        "name": "Emigration and Immigration",
+        "section_name": "Learn about Victoria emigration and immigration.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Victoria emigration and immigration.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-aus-vic-imm.jpg"
+                    ],
+                    "text": "<ol><img src=\"../img/x-aus-vic-imm.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"><li>Explore resources for immigration in Victoria. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Victoria_Emigration_and_Immigration\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS:—Victoria Emigration and Immigration</span></a></li><br><li>Explore <a class=\"lk\" href=\"http://www.genealogylinks.net/australia/victoria/vicships.htm\" target=\"_blank\">ship passenger lists</a> on the GenealogyLinks site.</li></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Maps and Gazetteers",
+        "name": "Maps and Gazetteers",
+        "section_name": "Learn about Victoria maps and gazetteers.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore Victoria maps and gazetteers.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-aus-vic-map.png"
+                    ],
+                    "text": "<ol><a href=\"https://en.wikipedia.org/wiki/Victoria#/media/File:Victoria_in_Australia.svg\" target=\"_blank\"><img src=\"../img/x-aus-vic-map.png\" alt=\"\" width=\"450px\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li>Explore the <a class=\"lk\" href=\"http://www.davidrumsey.com/luna/servlet/view/search?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&amp;q=victoria&amp;search=Go\" target=\"_blank\">David Rumsey collection</a> of Victoria maps.</li><li>Explore the <a class=\"lk\" href=\"https://www.ancestry.com/search/collections/60891\" target=\"_blank\">Victoria, Australia, Bailliere's Gazetteer and Road Guide, 1879</a>.</li><li>Explore the <a class=\"lk\" href=\"http://www.lib.utexas.edu/maps/australia.html\" target=\"_blank\">Perry-Castaneda site</a> for maps of Victoria (search for Victoria on the page).</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Newspapers",
+        "name": "Newspapers",
+        "section_name": "Learn about Victoria newspapers.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore Victoria newspapers.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/newspaper.jpg"
+                    ],
+                    "text": "<ol><img src=\"../img/newspaper.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"><li>Explore Victoria newspapers. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Victoria_Newspapers\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Victoria Newspapers</span></a></li><br><li>Search the <a class=\"lk\" href=\"https://sites.google.com/site/onlinenewspapersite/Home/aus/vic\" target=\"_blank\">Victoria Online Historical Newspapers</a> site.</li><li>Search Victoria newspapers in the <a class=\"lk\" href=\"http://www.world-newspapers.com/victoria.html\" target=\"_blank\">world-newspapers.com</a> site.</li><li>Search Victoria newspapers in the <a class=\"lk\" href=\"http://www.abyznewslinks.com/austrvi.htm\" target=\"_blank\">ABYZ News Link</a> site.</li></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Websites",
+        "name": "Websites",
+        "section_name": "Explore additional websites for research.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "There are a number of websites with valuable resources for Victoria research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore links in <a class=\"lk\" href=\"https://www.cyndislist.com/australia/states/vic/\" target=\"_blank\">Cyndi's List</a>.</li><li>Explore links in <a class=\"lk\" href=\"http://www.genealogylinks.net/australia/victoria/index.html\" target=\"_blank\">GenealogyLinks.net</a>.</li> </ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Search Records",
+        "name": "Search Records",
+        "section_name": "Search records from Victoria.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Use QUIKLinks to quickly search record collections for Victoria.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore additional record collections.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore the <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Victoria,_Australia_Online_Genealogy_Records\" target=\"_blank\">FamilySearch page</a> for online genealogy records.</li><li>Explore additional record collections in <a class=\"lk\" href=\"https://www.ancestry.com/search/collections/catalog/?keyword=Victoria\" target=\"_blank\">Ancestry</a>.</li><li>Explore additional record collections in <a class=\"lk\" href=\"https://search.findmypast.com/historical-records?page=1&amp;region=australia&amp;subcountry=victoria\" target=\"_blank\">Findmypast</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Get Help",
+        "name": "Get Help",
+        "section_name": "Get help with your Victoria research.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Use Facebook pages to get answers to your questions.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/fh-help3.jpg"
+                    ],
+                    "text": "<ol><a href=\"../img/fh-help3.jpg\" target=\"_blank\"> <img src=\"../img/fh-help3.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 350px; border:1px solid #000; padding:0px;\"></a>  <li>Join the <a class=\"lk\" href=\"https://www.facebook.com/groups/GenVicAus/about/\" target=\"_blank\">Victoria Genealogy Group</a> on Facebook.</li><li>Visit the <a class=\"lk\" href=\"https://www.facebook.com/gsv.org.au/\" target=\"_blank\"> Genealogical Society of Victoria page</a> on Facebook.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Join a mailing list or message board for Victoria research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore the <a class=\"lk\" href=\"http://www.rootschat.com/forum/australia/\" target=\"_blank\">RootsChat forum</a> and post questions about Victoria research.</li><li>Explore <a class=\"lk\" href=\"https://www.ancestry.com/boards/localities.oceania.australia.vic.general/mb.ashx?q=Victoria\" target=\"_blank\">Ancestry message boards</a> for Victoria research.</li><li>Search the <a class=\"lk\" href=\"http://bigfile.rootsweb.ancestry.com/cgi-bin/listsearch\" target=\"_blank\">RootsWeb site </a> for Victoria research mailing lists.</li><li>Explore the <a class=\"lk\" href=\"https://www.cyndislist.com/australia/states/vic/social/\" target=\"_blank\"> Victoria research mailing lists</a> on Cyndi's List.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Victoria genealogy societies.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Find <a class=\"lk\" href=\"http://www.genealogylinks.net/australia/victoria/vicsocieties.htm\" target=\"_blank\">Victoria genealogy societies</a> on the GenealogyLinks site.</li><li>Explore <a class=\"lk\" href=\"https://www.cyndislist.com/australia/states/vic/societies/\" target=\"_blank\">Victoria genealogy society sites</a> on Cyndi's list.</li><li>Get help at a <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Category:Victoria_Family_History_Centres\" target=\"_blank\">family history center in Victoria</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,258 @@
+[
+    {
+        "nav_name": "Research",
+        "name": "Research and Records",
+        "section_name": "Learn about Belgium research.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=qzFCIyjk9zY\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about research in Belgium.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-bel-over.jpg"
+                    ],
+                    "text": "<ol><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Dinant#/media/File:Dinant_reflected.jpg\" target=\"_blank\"> <img src=\"img/x-bel-over.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-top: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a><li><span class=\"g\">Get Started</span>: Get started with your research in Belgium.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/beginning-research-in-belgium\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Beginning Research in Belgium—46:38 - 2017</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=9ZHdHePDJ7Q\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">BYU—Intro to Belgium Genealogy—28:39 - 2022</span></a></li><br><li><span class=\"g\">Overview</span>: Study this overview of Belgium genealogy resources. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://content.ldschurch.org/family-history/bc/rootstech/salt-lake/2019-conference-syllabi/RT1080_500_Years_at_Your_Fingertips_Belgium_and_Beyond.pdf\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">RT—500 Years at Your Fingertips: Belgium and Beyond - 2019</span></a></li><br><li>Learn about Belgium history, geography, and records.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=9ZHdHePDJ7Q\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">BYU—Intro to Belgium Genealogy—28:38 - 2022</span></a></li><br><li><span class=\"g\">Resources</span>: Explore Belgian research resources in this <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://sites.rootsweb.com/~inbr/index.html\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">Rootsweb</a> site.</li><li><span class=\"g\">Town of Origin</span>: Learn how to find your ancestor's town of origin in Belgium. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Belgium_Finding_Town_of_Origin\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Belgium Finding Town of Origin</span></a></li><br><li>Explore a variety of records on the <a class=\"lk\" href=\"https://sites.google.com/site/belgiumancestry/\" target=\"_blank\">BelgiumAncestry</a> site. site.</li></ol><h5>Records and Databases</h5><ol><li><span class=\"g\">Record Finder</span>: Use the Belgium Record Finder to understand record types for research. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Belgium_Record_Finder\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Belgium Record Finder</span></a></li><br><li><span class=\"g\">Sites</span>: Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://forebears.io/belgium\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">Forebears.io site</a> for research records.</li><li>Explore the <a class=\"lk\" href=\"https://www.openarch.nl/?lang=en\" target=\"_blank\">OpenArch site</a> to do archive research for Dutch and Belgian names.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.archivesportaleurope.net/\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">Archives Portal Europe</a> site. Click the Directories link and then select Belgium.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about names and surnames in Belgium.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for research strategies. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-bel-name.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/photos/brussels-grote-markt-belgium-1546290/\" target=\"_blank\"><img src=\"img/x-bel-name.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a> <li><span class=\"g\">Naming Patterns</span>: Learn about naming patterns in Belgium and the Netherlands.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/names-in-belgium-and-the-netherlands\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Names in Belgium and the Netherlands—65:09</span></a></li><br><li><span class=\"g\">Surnames</span>: Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.familienaam.be/\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">surname distribution</a> (a map where certain surnames are prevalent) in Belgium.</li><li>Explore various databases of Belgian records from the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.freesurnamesearch.com/search/belgium.html\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">Free Surname Search</a> site.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.geneanet.org/country/search-Belgium-BEL\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">Geneanet site</a> for Belgian surnames.</li><li>Search for <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.geneaservice.nl/navigator/belgium/index.html\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">Belgian surnames</a> in a number of databases.</li><li><span class=\"g\">French Words</span>: Use this <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/French_Genealogical_Word_List\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">French word list</a> for genealogical terms.</li><li><span class=\"g\">Dutch Words</span>: Use this <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Dutch_Genealogical_Word_List\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">Dutch word list</a> for genealogical terms.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore more resources for Belgian research.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-bel-over2.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/photos/bruges-belgium-historically-2584884/\" target=\"_blank\"><img src=\"img/x-bel-over2.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a> <li><span class=\"g\">Resources</span>: Explore genealogy resources in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://arch.arch.be/index.php?l=en&amp;m=genealogist\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">State Archives of Belgium</a>.</li><li>Explore <a class=\"lk\" href=\"https://www.arch.be/index.php?l=en&amp;m=online-resources&amp;r=first-world-war&amp;sr=first-world-war-archives-conserved-at-the-state-archives\" target=\"_blank\">military records for World War I</a></li><li>Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genealogylinks.net/europe/belgium/index.html\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">online record resources</a> for Belgium and the Netherlands, by province.</li><li>See <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://geneaknowhow.net/script/index.html\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">transcriptions of genealogy materials</a> on the Geneaknowhow site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.worldgenweb.org/belgium\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">World GenWeb site</a> for Belgium.</li><li>Explore a variety of <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genealogylinks.net/europe/belgium/index.html\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">research topics and FAQs</a> for Benelux countries.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://sites.google.com/site/belgiumancestry/\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">Belgium Ancestry site</a> for additional resources.</li><li><span class=\"g\">Handwriting</span>: Download lessons in <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://geneaknowhow.net/genea/lokaal.htm\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">Dutch paleography</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Civil Registers",
+        "name": "Civil Registers",
+        "section_name": "Learn about Belgium civil registers.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=qzFCIyjk9zY\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Belgium civil registration.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Belgium_Civil_Registration#Contents_of_the_records\" target=\"_blank\">Contents of the Records</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Belgium_Civil_Registration#Accessing_the_Records\" target=\"_blank\">Accessing the Records</a></li></ul></span>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-bel-palace.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/photos/palace-royal-palace-belgium-3654825/\" target=\"_blank\"> <img src=\"img/x-bel-palace.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a><li><span class=\"g\">FamilySearch</span>: Learn about Belgium civil registers in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Belgium_Civil_Registers\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Belgium Civil Registration</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('usa');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"usa\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Belgium_Civil_Registration#Contents_of_the_records\" target=\"_blank\">Contents of the Records</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Belgium_Civil_Registration#Accessing_the_Records\" target=\"_blank\">Accessing the Records</a></li></ul></span></div></li><br><li>Learn about Belgium civil registers after 1795. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=pDZgbGI3plc\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">BYU—Belgium Civil Records in French (After 1795)—60:23 - 2022</span></a></li><br><li><span class=\"g\">State Archives of Belgium</span>: Here are some tips for finding vital records in the State Archives of Belgium.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://thebelgianamerican.com/2019/02/05/navigating-belgian-vital-records-at-the-state-archives-a-walloon-example/#more-386\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Navigating Belgian Vital Records at the State Archives - 2019</span></a></li><br><li>Explore civil status registers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://search.arch.be/en/themas/tips/516-civil-status-registers-en\" target=\"_blank\">State  <img src=\"img/d.png\" width=\"2\">Archives of Belgium </a> site.</li><li><span class=\"g\">Population Registers</span>: Learn about Belgium population registers (dynamic census records) in this blog article.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://thebelgianamerican.com/2020/04/16/belgian-population-registers/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\"> Belgian Population Registers - 2020</span></a></li><br><li><span class=\"g\">Vital Records</span>: Learn about marriage records in Belgium.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://thebelgianamerican.com/2019/03/19/belgian-marriage-records-a-true-gold-mine/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\"> Belgian Marriage Records: A True Gold Mine - 2019</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://thebelgianamerican.com/2019/06/12/belgian-marriage-supplements/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\"> Belgian Marriage Supplements - 2019</span></a></li><br><li>Learn about Belgium death records in this blog article.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://thebelgianamerican.com/2019/08/14/anatomy-of-a-death-record-examples-from-both-sides-of-the-language-border/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Anatomy of a Death Record - 2019</span></a></li><br></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Immigration",
+        "name": "Immigration",
+        "section_name": "Learn about Belgium immigration.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=qzFCIyjk9zY\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Belgium immigration.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for immigration research. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-imm-ship.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/y-imm-ship.jpg\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"><li>Learn about emigration and immigration in this FamilySearch Wiki article.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Belgium_Emigration_and_Immigration\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Belgium Emigration and Immigration</span></a></li><br><li><span class=\"g\">Wikipedia</span>: Learn about immigration history and demographics in this Wikipedia article.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Belgian_Americans\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Wikipedia: Belgian Americans</span></a></li><br><li><span class=\"g\">Immigrant Ships</span>: Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://immigrantships.net/index2.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Immigrant Ship site</a>. Select a Volume, then choose Belgium as the departure or arrival location.</li><li>Use ship manifests to locate Belgian immigrants to the U.S.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://thebelgianamerican.com/2020/07/14/finding-belgian-americans-in-united-states-passenger-lists-part-i-a-brief-history/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Part I: A Brief History - 2020</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://thebelgianamerican.com/2020/08/04/finding-belgian-americans-in-united-states-ship-manifests-part-ii-research-tips/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Part II: Research Tips - 2020</span></a></li><br><li>Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genealogylinks.net/europe/belgium/passenger-lists.htm\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">Belgium passenger lists</a> on the GenealogyLinks site.</li><li><span class=\"g\">Jewish</span>: Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://bloodandfrogs.com/encyclopedia/belgium\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">Jewish Genealogy Encyclopedia</a> for Jewish resources in Belgium.</li><li><span class=\"g\">Netherlands</span>: Learn how to find Belgian immigrants in the Netherlands. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.legacytree.com/blog/finding-belgian-ancestors-netherlands\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">LT—Finding Belgian Ancestors in the Netherlands</span></a> </li><br><li><span class=\"g\">United States</span>: Learn about finding Belgian immigrants in the United States.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=vrL45GWhQk4\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">RT—How to trace your belgian ancestors in the USA—34:09</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/vrL45GWhQk4?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br><span class=\"star notranslate\">☆</span><a href=\"https://thebelgianamerican.com/2019/04/10/belgian-immigration-to-america-between-1880-and-world-war-i/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Belgian Immigration to America between 1880 and World War I - 2019</span></a></li><br><li>Learn how to use U.S. naturalization records to find your Belgian ancestors.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://thebelgianamerican.com/2021/05/09/__trashed/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Finding Your Belgian Ancestor in U.S. Naturalization Records - 2021</span></a></li><br></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Churches & Cemeteries",
+        "name": "Church and Cemeteries",
+        "section_name": "Learn about Belgian church and cemetery records.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=qzFCIyjk9zY\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Belgian church records.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-bel-church.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/photos/gate-old-architecture-building-3616573/\" target=\"_blank\"><img src=\"img/x-bel-church.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 350px;; border:1px solid #000; padding:0px;\"></a> <li><span class=\"g\">Overview</span>: Learn about Belgium church records for research for research. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Belgium_Church_Records\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Belgium Church Records</span></a><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=Prg_XRQSdp0\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Belgium Church Records—48:02 - 2022</span></a></li><br><li>Learn how to read Belgium church records written in Latin. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=Prg_XRQSdp0\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Belgium Church Records—48:02 - 2022</span></a></li><br><li><span class=\"g\">State Archives</span>: Explore church registers by province in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://search.arch.be/en/themas/tips/507-church-registers-en\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">State Archives of Belgium</a>.</li><li><span class=\"g\">Jewish</span>: Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.jewishgen.org/databases/France/\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">JewishGen France Database</a> for Jewish records in France and Belgium.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Belgian cemeteries.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-bel-cem.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/military-cemetery-graves-belgium-3845571/\" target=\"_blank\"> <img src=\"img/x-bel-cem.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-top: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a><li><span class=\"g\">Mourning and Memorial Cards</span>: Learn how to find and use mourning and memorial cards in your research.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://thebelgianamerican.com/2020/02/26/where-to-find-belgian-bereavement-letters-and-memorial-cards/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Where to Find Belgian Mourning Letters and Memorial Cards - 2020</span></a></li><br><li>Browse a <a class=\"lk\" href=\"https://en.wikipedia.org/wiki/List_of_cemeteries_in_Belgium\" target=\"_blank\">list of Belgian cemeteries</a> on Wikipedia.</li><li>Explore Belgian cemetery records on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.interment.net/other/bel/index.htm\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">Interment.net</a> site.</li><li>Explore <a class=\"lk\" href=\"https://www.ww1cemeteries.com/belgium.html\" target=\"_blank\">World War I cemetery records</a> in Belgium.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.findagrave.com/cemetery-browse/Belgium?id=country_19\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">Find A Grave site</a> for cemetery records.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://billiongraves.com/site-map?country=Belgium\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">BillionGraves site</a> for cemetery records.</li><li>Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genealogylinks.net/europe/belgium/cemeteries.htm\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">Belgium cemetery resources</a> on the GenealogyLinks site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Maps",
+        "name": "Maps",
+        "section_name": "Learn about Belgium maps.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=qzFCIyjk9zY\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Belgium maps.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-bel-map.png"
+                    ],
+                    "text": "<ol><a href=\"https://commons.wikimedia.org/wiki/File:Map_mapa_belgii_belgium.png\" target=\"_blank\"> <img src=\"img/x-bel-map.png\" alt=\"\" width=\"350px\" style=\"float:right; margin-top: 6px; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li>Learn about gazetteers and maps for Belgium, Luxembourg, and the Netherlands.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/help/helpcenter/lessons/gazetteers-and-maps-for-belgium-luxembourg-and-the-netherlands\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Gazetteers and Maps for Belgium, Luxembourg, and the Netherlands—71:22.</span></a></li><br><li>See an <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Belgium_Genealogy#Belgium_Clickable_Map\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">interactive map</a> for Belgium provinces.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.davidrumsey.com/luna/servlet/view/search?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&amp;q=belgium&amp;search=Go\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">David Rumsey collection</a> of Belgium maps.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.oldmapsonline.org/en/Belgium\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">Old Maps Online site</a> for Belgium maps.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://commons.wikimedia.org/wiki/Atlas_of_Belgium\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">Atlas of Belgium</a> on the Wikipedia site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://commons.wikimedia.org/wiki/Category:Old_maps_of_Belgium\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">Old Maps of Belgium</a> on the Wikipedia site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Newspapers",
+        "name": "Newspapers",
+        "section_name": "Learn about Belgium newspapers online.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=qzFCIyjk9zY\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Explore Belgian newspapers for ancestor research.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-bel-news.jpg"
+                    ],
+                    "text": "<ol><a href=\"img/x-bel-news.jpg\" target=\"_blank\"> <img src=\"img/x-bel-news.jpg\" alt=\"\" width=\"350px\" style=\"float:right; margin-left: 16pxl border:1px solid #000; padding:0px;\"></a>           <li>Explore the <a class=\"lk\" href=\"https://www.kbr.be/en/collections/newspapers\" target=\"_blank\">Royal Library of Belgium</a> for historical newspapers.</li><li>Find links to <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Wikipedia:List_of_online_newspaper_archives#Belgium\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">Belgian newspapers</a> on the Wikipedia site.</li> <li>Search Belgian newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.onlinenewspapers.com/belgium.htm\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">onlinenewspapers.com</a> site.</li><li>Search Belgian newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.world-newspapers.com/belgium.html\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">world-newspapers.com</a> site.</li><li>Search Belgian newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.abyznewslinks.com/belgi.htm\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">ABYZ News Links</a> site.</li><li>Search Belgian newspapers from 1836-1992 in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://aalst.courant.nu/\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">Digitale Krantenchief</a> archive.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Websites",
+        "name": "Websites",
+        "section_name": "Explore additional websites for research.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=qzFCIyjk9zY\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Explore websites and links for Belgium research.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/laptop-fingers1.jpg"
+                    ],
+                    "text": "",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Search Records",
+        "name": "Search Records",
+        "section_name": "Search records from Belgium.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=qzFCIyjk9zY\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Use QUIKLinks, Partners, and GenealogyInTime to quickly search the most common record collections for Belgium.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/laptop-hands.jpg"
+                    ],
+                    "text": "",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Get Help",
+        "name": "Get Help",
+        "section_name": "Get help with your Belgian research.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=qzFCIyjk9zY\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Use Facebook pages to get answers to your questions.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/fh-help2.jpg"
+                    ],
+                    "text": "<ol><a href=\"img/fh-help2.jpg\" target=\"_blank\"> <img src=\"img/fh-help2.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 350px;\"></a> <li>Visit the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.facebook.com/groups/489419061107723/\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">Genealogie por tours en Belgique page</a> on Facebook.</li><li>Visit the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.facebook.com/groups/CentralEuropeGenealogyResearchCommunity/\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">Central Europe Genealogy Research Community</a> on Facebook.</li><li>See the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://socialmediagenealogy.com/genealogy-on-facebook-list/\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">Genealogy on Facebook list</a> of Facebook groups dedicated to helping with research for Belgium.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Join a mailing list, community, or message board for Belgium research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://community.familysearch.org/s/group/0F93A000000LhueSAC/belgium-luxembourg-and-the-netherlands\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">FamilySearch community</a> for Belgium research.</li><li>Use the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ancestry.com/boards/localities.weurope.belgium/mb.ashx\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">Ancestry message boards</a> to read or post questions about Belgium research.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cyndislist.com/belgium/social/\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">Belgium research mailing lists</a> on Cyndi's List.</li><span id=\"quik\"><li>Use the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ancestry.com/boards/localities.weurope.belgium/mb.ashx\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">Ancestry message boards</a> to read or post questions about Belgium research.</li><li>Explore Belgium research questions in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://genealogy.stackexchange.com/questions/tagged/belgium\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">Genealogy Stack Exchange</a>.</li></span></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Belgium genealogy societies.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cyndislist.com/belgium/societies/\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">Belgium genealogy society sites</a> on Cyndi's List.</li><li>Get help at a <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Category:Belgium_Family_History_Centers\" target=\"_blank\">family history center in Belgium</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Geo/Culture/History",
+        "name": "Geography, Culture, and History",
+        "section_name": "Learn about the geography, culture, and history of Belgium. \n\t\t\t\t\t\t\n\t\t\t\t\t\t",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore websites and videos.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/c-belgium.jpg"
+                    ],
+                    "text": "<h5>Reference</h5><h5>For Kids</h5>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

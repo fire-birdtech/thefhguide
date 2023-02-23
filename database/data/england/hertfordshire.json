@@ -1,0 +1,48 @@
+[
+    {
+        "nav_name": "Basic Research",
+        "name": "Basic Research",
+        "section_name": "Find resources for Hertfordshire research.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Do basic research.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-en-hrt-house.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/photos/house-dwelling-home-property-1601896/\" target=\"_blank\"> <img src=\"../img/x-en-hrt-house.jpg\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li>Get an overview of Hertfordshire research. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familyhistory.co.uk/county-records/hertfordshire-family-history/\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Hertfordshire Family History</span></a></li><br><li>Learn about Hertfordshire resources on the <a class=\"lk\" href=\"https://www.genuki.org.uk/big/eng/HRT\" target=\"_blank\">GenUKI</a> site.</li><li>Explore Hertfordshire library and archive resources on the <a class=\"lk\" href=\"http://discovery.nationalarchives.gov.uk/details/a/A13529889\" target=\"_blank\">National Archives</a> site.</li><li>Search family history records in the <a class=\"lk\" href=\"https://www.hertfordshire.gov.uk/services/libraries-and-archives/hertfordshire-archives-and-local-studies/research-family-history/family-history-research.aspx\" target=\"_blank\">Hertfordshire Libraries and Archives</a> site.</li><li>Learn about civil registration in Hertfordshire. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/Hertfordshire_Civil_Registration\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki: Hertfordshire Civil Registration</span></a></li><br><li>Explore a variety of records on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ukbmd.org.uk/index.php?county=116&amp;form_action=county\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">UK BMD site</a>.</li></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Hertfordshire church and cemetery records.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about church records in Hertfordshire. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/Hertfordshire_Church_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki: Hertfordshire Church Records</span></a></li><br><li>Locate Hertfordshire parishes. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/Hertfordshire_Parishes\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki: Hertfordshire Parishes</span></a></li><br><li>Learn about church records in Hertfordshire. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/Hertfordshire_Church_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki: Hertfordshire Church Records</span></a></li><br><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://joinermarriageindex.co.uk/marriage-records/Hertfordshire/\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">Joiner Marriage Index</a> for Hertfordshire.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.dustydocs.com/county/16/hertfordshire.html?country_id=1\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">Dusty Docs site</a> for parish and town records.</li><li>Explore <a class=\"lk\" href=\"https://www.hertfordshire.gov.uk/services/libraries-and-archives/hertfordshire-archives-and-local-studies/whats-in-the-archives/nonconformist-records.aspx\" target=\"_blank\">non-conformist records</a> in Hertfordshire.</li><li>Explore <a class=\"lk\" href=\"https://www.hertfordshire.gov.uk/services/libraries-and-archives/hertfordshire-archives-and-local-studies/whats-in-the-archives/historical-maps.aspx\" target=\"_blank\">cemetery and burial records</a> in Hertfordshire.</li><br></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Hertfordshire historical maps and history.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.hertfordshire.gov.uk/services/libraries-and-archives/hertfordshire-archives-and-local-studies/whats-in-the-archives/historical-maps.aspx\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">historical maps</a> in Hertfordshire.</li><li>Learn about map resources in Hertfordshire. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/Hertfordshire_Maps\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki: Hertfordshire Maps</span></a></li><br><li>Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://freepages.rootsweb.com/~genmaps/genealogy/genfiles/COU_Pages/ENG_pages/hrt.htm\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">historical maps</a> on the GenMaps site.</li><li>Learn about Hertfordshire history on Wikipedia. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://en.wikipedia.org/wiki/History_of_Hertfordshire/\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">History of Hertfordshire</span></a></li><br><li>Go into more depth with Hertfordshire history on the British History Online site.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.british-history.ac.uk/vch/herts\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Victoria County History series</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about additional resources for research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about probate records in Hertfordshire. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/Hertfordshire_Probate_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki: Hertfordshire Probate Records</span></a></li><br><li>Search for <a class=\"lk\" href=\"https://www.hertfordshire.gov.uk/services/libraries-and-archives/hertfordshire-archives-and-local-studies/whats-in-the-archives/wills.aspx\" target=\"_blank\">will information</a> in Hertfordshire.</li><li>Search for ancestor information in <a class=\"lk\" href=\"https://www.hertfordshire.gov.uk/services/libraries-and-archives/hertfordshire-archives-and-local-studies/whats-in-the-archives/historical-newspapers.aspx\" target=\"_blank\">Hertfordshire newspapers</a>.</li><li>Search for <a class=\"lk\" href=\"https://www.hertfordshire.gov.uk/services/libraries-and-archives/hertfordshire-archives-and-local-studies/whats-in-the-archives/crime-and-punishment-records.aspx\" target=\"_blank\">crime and punishment information</a> in Hertfordshire.</li></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

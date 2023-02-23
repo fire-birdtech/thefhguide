@@ -1,0 +1,245 @@
+[
+    {
+        "nav_name": "Research",
+        "name": "Research",
+        "section_name": "Learn about Slovakian research.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=rta-fgGtpkA\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Slovakian genealogy.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for research resources. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-slo-over.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/bratislava-slovakia-center-1339569/\" target=\"_blank\"> <img src=\"img/x-slo-over.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; ; border:1px solid #000; padding:0px;\"></a>   <li><span class=\"g\">Get Started</span>: Get started with this article on beginning Slovakian research. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Slovakia_Beginning_Research\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Slovakia Research</span></a> </li><br><li><span class=\"g\"></span>: Learn more about Slovakian research in this Archives.com article.<br><br><span class=\"star notranslate\">☆</span><a href=\"http://www.archives.com/experts/alzo-lisa/getting-started-with-slovak-genealogy.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Getting Started With Slovak Genealogy - 2010</span></a> </li><br><li><span class=\"g\">Strategies</span>: Study the <a class=\"lk\" href=\"http://iabsi.com/gen/public/strategy.htm\" target=\"_blank\">Family Research Strategies page</a> on the Slovakia Genealogy Research Strategies site for ideas on beginning your research.</li><li><span class=\"g\">Town of Origin</span>: Learn how to find the town of origin for your Slovak ancestor.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/slovakia-research-with-the-wiki-part-2-of-6-slovakia-finding-town-of-origin\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Getting Started With Slovak Genealogy—6:10</span></a> </li><br><li><span class=\"g\">Regions</span>: Learn about research in regions of Slovakia.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/slovakia-research-with-the-wiki-part-4-of-6-a-slovakian-region-page\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Slovakia Research With the Wiki Part 4 of 6: A Slovakian Region Page—6:25</span></a> </li><br><li><span class=\"g\">Correspondence</span>: Use this guide for corresponding with Slovakian organizations about genealogy resources. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Slovakia_Letter_Writing_Guide\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Slovakia Letter-Writing Guide</span></a></li><br></ol><h5>Records</h5><ol><li><span class=\"g\">Record Finder</span>: Use the Slovakia Record Finder to understand record types for research. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Slovakia_Record_Finder\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Slovakia Record Finder</span></a></li><br><li><span class=\"g\">Sites</span>: Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://forebears.io/slovakia\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Forebears.io site</a> for research records.</li><li>Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://feefhs.org/resource/slovakia\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Slovakia Genealogy Resources</a> on the FEEFHS site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://slovakpride.homestead.com/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Slovak Pride Database</a> for Slovak name searches.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Find Slovakian language resources for your research.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-slo-place.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/bratislava-slovakia-center-1339569/\" target=\"_blank\"> <img src=\"img/x-slo-place.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; ; border:1px solid #000; padding:0px;\"></a>   <li><span class=\"g\">Alphabet</span>: Learn about the Slovakian language and alphabet in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Slovakia_Language_and_Languages\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Slovakia Languages</span></a> </li><br><li><span class=\"g\">Terms</span>: Learn about Slovakian genealogy terms in this FamilySearch Wiki article.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/en/wiki/img_auth.php/3/34/Slovakwordlist.pdf\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Genealogy Word List - 2015</span></a> </li><br><li><span class=\"g\">Place Names</span>: Learn about place names in Slovakia.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/slovakia-research-with-the-wiki-part-3-of-6-place-names-in-slovakia\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Slovakia Research With the Wiki Part 3 of 6: Place Names in Slovakia—5:29</span></a> </li><br><li><span class=\"g\">Reading Records</span>: Learn how to read Slovakian records.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/slovakia-research-with-the-wiki-part-5-of-6-reading-slovakian-records\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Slovakia Research With the Wiki Part 5 of 6: Reading Slovakian Records—6:02</span></a> </li><br><li><span class=\"g\">Surnames</span>: Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.geneanet.org/country/search-Slovakia%20%28Slovak%20Republic%29-SVK\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Geneanet site</a> for Slovakian surnames.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Civil Registration",
+        "name": "Civil Registration",
+        "section_name": "Learn about Slovakia civil registration and census records.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=rta-fgGtpkA\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Slovakia civil registration and census records.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ire-census.png"
+                    ],
+                    "text": "<ol><img src=\"img/x-ire-census.png\" alt=\"\" width=\"400px\" style=\"float:right; margin-left: 10px; border:1px solid #000; padding:0px;\"><li><span class=\"g\">About</span>: Learn about civil registration in Slovakia.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Slovakia_Civil_Registration\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Slovakia Civil Registration</span></a> </li><br><li>Read about civil registration and other records.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.centroconsult.sk/genealogy/resources.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Research in Slovakia and former Austria-Hungary</span></a> </li><br><li><span class=\"g\">Census</span>: Learn about Slovakia census records in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Slovakia_Census\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Slovakia Census</span></a></li><br><li>Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://iabsi.com/gen/public/CensusMain.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Hungarian and Slovakian census records</a> on the Slovakia Genealogy Research Strategies site.</li></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Archives and Libraries",
+        "name": "Archives and Libraries",
+        "section_name": "Learn about Slovakia archives and libraries.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=rta-fgGtpkA\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Slovakia archives and libraries.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-slo-lib.JPG"
+                    ],
+                    "text": "<ol><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Martin,_Slovakia\" target=\"_blank\"> <img src=\"img/x-slo-lib.JPG\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; ; border:1px solid #000; padding:0px;\"></a>  <li>Learn about Slovakia archives and libraries records in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Slovakia_Archives_and_Libraries\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Slovakia Archives and Libraries</span></a></li><br><li>Learn how to obtain records from registers and archives in Slovakia. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.slovak-republic.org/genealogy/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Genealogy</span></a></li><br><li> Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.slovakinstitute.com/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Slovak Institute site</a> for resources for Slovakian research.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.archivesportaleurope.net/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Archives Portal Europe</a> site. Click the Directories link and then select Slovakia.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Church Records",
+        "name": "Church Records",
+        "section_name": "Learn about Slovakia church records.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=rta-fgGtpkA\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Slovakian church records.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-slo-church.jpg"
+                    ],
+                    "text": "<ol><a class=\"lk\" href=\"https://pixabay.com/en/zavar-slovakia-church-980232/\" target=\"_blank\"> <img src=\"img/x-slo-church.jpg\" alt=\"\" width=\"400px\" style=\"float:right; margin-left: 10px; border:1px solid #000; padding:0px;\"></a><li>Learn about Slovakia church records on the Slovakia Genealogy Research Strategies site.<br><br><span class=\"star notranslate\">☆</span><a href=\"http://iabsi.com/gen/public/churches.htm\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Slovakia Churches and their Records</span></a></li><br><li>Learn about researching with Slovakian church records.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Slovakia_Church_Records\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Slovakia Church Records</span></a> </li><br><li>Watch this case study to learn more about Slovakian church records.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/slovakia-with-the-research-wiki-part-6-of-6-a-slovakian-case-study\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Slovakia Churches and their Records—5:36</span></a></li><br><li><span class=\"g\">Jewish</span>: Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://bloodandfrogs.com/encyclopedia/slovakia\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Jewish Genealogy Encyclopedia</a> for Jewish resources in Slovakia.</li></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Military Records",
+        "name": "Military Records",
+        "section_name": "Learn about Slovakia military records.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=rta-fgGtpkA\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Slovakian military records.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-slo-flag.png"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/vectors/slovakia-flag-national-flag-nation-162421/\" target=\"_blank\"> <img src=\"img/x-slo-flag.png\" width=\"100%\" ;=\"\" style=\"float:right; margin-top: 8px; margin-left: 16px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a>    <li>Learn how to find Slovakia military records in archives.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.myczechroots.com/archives/military-archives\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Military Archives - 2014</span></a> </li><br><li>Learn about Upper Hungary (Slovakia) military records on the Slovakia Genealogy Research Strategies site.<br><br><span class=\"star notranslate\">☆</span><a href=\"http://iabsi.com/gen/public/military_records_in_upper_hungar.htm\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Slovakia Military Records</span></a> </li><br><li>Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.geocities.ws/czechandslovakthings/WW2_aguide.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Czech and Slovak ancestors in World War II</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Maps and Gazetteers",
+        "name": "Maps and Gazetters",
+        "section_name": "Learn about Slovakia maps and gazetteers.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=rta-fgGtpkA\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Explore Slovakia map resources.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-slo-map.png"
+                    ],
+                    "text": "<ol><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Geography_of_Slovakia\" target=\"_blank\"> <img src=\"img/x-slo-map.png\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"></a>  <li>See an <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Slovakia_Genealogy#Slovakia_Clickable_Map\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">interactive map</a> for Slovakia provinces.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://feefhs.org/links/slovakia.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Maps and Gazetteers section</a> of the FEEFHS.org site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://iabsi.com/gen/public/maps.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">maps section</a> of the Slovakia Genealogy Research Strategies site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.davidrumsey.com/luna/servlet/view/search?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&amp;q=Slovakia&amp;search=Go\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">David Rumsey collection</a> of Slovakia maps.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.oldmapsonline.org/en/Slovakia\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Old Maps Online site</a> for Slovakia maps.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://commons.wikimedia.org/wiki/Atlas_of_Slovakia\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Atlas of Slovakia</a> on the Wikipedia site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://commons.wikimedia.org/wiki/Category:Old_maps_of_Slovakia\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Old Maps of Slovakia</a> on the Wikipedia site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Newspapers",
+        "name": "Newspapers",
+        "section_name": "Learn about Slovakia newspapers.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=rta-fgGtpkA\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Slovakia newspapers.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-slo-news.png"
+                    ],
+                    "text": "<ol><a href=\"http://korzar.sme.sk/\" target=\"_blank\"> <img src=\"img/x-slo-news.png\" alt=\"\" width=\"150px\" style=\"float:right; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"></a>   <li>Find links to <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Wikipedia:List_of_online_newspaper_archives#Slovakia\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Slovakian newspapers</a> on the Wikipedia site.</li> <li>Search Slovakian newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.onlinenewspapers.com/slovakia.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">onlinenewspapers.com</a> site.</li> <li>Search Slovakian newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.world-newspapers.com/slovakia.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">world-newspapers.com</a> site.</li><li>Search Slovakian newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.abyznewslinks.com/slova.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">ABYZ News Links</a> site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Websites",
+        "name": "Websites",
+        "section_name": "Explore additional websites for research.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=rta-fgGtpkA\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "There are a number of websites with valuable resources for Slovakian research.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/laptop-fingers1.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/laptop-fingers1.jpg\" alt=\"\" width=\"350px\" style=\"float:right; margin-top: 6px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Explore links in the <a class=\"lk\" href=\"https://familysearch.org/wiki/en/Slovakia_Websites\" target=\"_blank\">FamilySearch Wiki page</a>.</li><li>Explore links in <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cyndislist.com/czech\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Cyndi's List</a>.</li><li>Explore links in <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genealogylinks.net/europe/slovakia/index.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Genealogylinks.net</a>.</li><li>Learn about <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genealogy.ro/cont/22.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Slovak ancestors in Romania</a>.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.findagrave.com/cemetery-browse/Slovakia?id=country_57\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Find A Grave site</a> for cemetery records.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://billiongraves.com/site-map?country=Slovakia\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">BillionGraves site</a> for cemetery records.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Search Records",
+        "name": "Search Records",
+        "section_name": "Search records from Slovakia.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=rta-fgGtpkA\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Use QUIKLinks, Partners, and GenealogyInTime to quickly search the most common record collections for Slovakia.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/laptop-hands.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/laptop-hands.jpg\" alt=\"\" width=\"350px\" style=\"float:right; margin-top: 6px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>QUIKLinks are indicated by lightning-bolt icons in the Goals above.They point to collections with 50,000 or more records. When you click a QUIKLink icon, scroll down on the resulting page to see the QUIKLinks.</li><li>In the Partners section (near the top of the page), explore additional record collections in FamilySearch, Ancestry, Findmypast and MyHeritage.</li><li>Explore the FamilySearch page for <a class=\"lk\" href=\"https://familysearch.org/wiki/en/Slovakia_Online_Genealogy_Records\" target=\"_blank\">Slovakian online record collections</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Get Help",
+        "name": "Get Help",
+        "section_name": "Get help with your Slovakia research.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=rta-fgGtpkA\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Use Facebook pages to get answers to your questions.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/fh-help.jpg"
+                    ],
+                    "text": "<ol><a href=\"img/fh-help.jpg\" target=\"_blank\"> <img src=\"img/fh-help.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px;\"></a> <li>Visit the <a class=\"lk\" href=\"https://www.facebook.com/groups/CentralEuropeGenealogyResearchCommunity/\" target=\"_blank\">Central Europe Genealogy Research Community</a> on Facebook.</li><li>See the <a class=\"lk\" href=\"http://socialmediagenealogy.com/genealogy-on-facebook-list/\" target=\"_blank\">Genealogy on Facebook list</a> of Facebook groups dedicated to helping with research for Slovakia.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Join a mailing list, community, or message board for Slovakia research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Use the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ancestry.com/boards/localities.ceeurope.slovakia/mb.ashx\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Ancestry message boards</a> to read or post questions about Austria research.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://community.familysearch.org/s/group/0F93A000000LfUCSA0/austrohungarian-empire\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\"><img src=\"img/d.png\" width=\"2\">FamilySearch community</a> for Slovakian (Austro-Hungarian) research.</li><li>Explore the <a class=\"lk\" href=\"http://www.cyndislist.com/eastern-europe/social/\" target=\"_blank\"> Slovakia research mailing lists</a> on Cyndi's List.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Slovakia genealogy societies.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore <a class=\"lk\" href=\"http://www.cyndislist.com/eastern-europe/societies/\" target=\"_blank\">Slovakia genealogy society sites</a> on Cyndi's List.</li><li>See the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://feefhs.org/resource/slovakia\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Societies and Organizations</a> section of the FEEFHS site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Geo/Culture/History",
+        "name": "Geography, Culture, History",
+        "section_name": "Learn about the geography, culture, and history of Slovakia. \n\t\t\t\t\t\t\n\t\t\t\t\t\t",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=rta-fgGtpkA\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Explore websites and videos.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/c-slovakia.png"
+                    ],
+                    "text": "<h5>Reference</h5><ol><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Slovakia_History\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">FamilySearch: History</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Slovakia\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Wikipedia</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.britannica.com/place/Slovakia\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Encyclopedia Britannica</a></li><br><h5>For Kids</h5><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ducksters.com/geography/country.php?country=Slovakia\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Ducksters</a></li></ol><h5>For Kids</h5>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

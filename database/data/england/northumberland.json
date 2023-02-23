@@ -1,0 +1,268 @@
+[
+    {
+        "nav_name": "Research and Records",
+        "name": "Research and Records",
+        "section_name": "Learn about Northumberland research and records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Get started with research for your Northumberland ancestors.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-en-nbl-over.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/alnwick-castle-castle-alnwick-92607/\" target=\"_blank\"> <img src=\"../img/x-en-nbl-over.jpg\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li>Learn about finding your ancestors in Northumberland. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Northumberland,_England_Genealogy\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki: Northumberland England Genealogy</span></a></li><br><li>Get an overview of Derbyshire research. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familyhistory.co.uk/county-records/derbyshire-family-history/\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Derbyshire Family History</span></a></li><br><li>Watch the video on this page for ideas starting your Northumberland research. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.northumberlandarchives.com/services/family-history/\" target=\"_blank\"> <img src=\"../img/vid.png\" width=\"20\"> <span class=\"re\">How to Trace Your Family History</span></a></li><br><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.dustydocs.com/county/28/northumberland.html?country_id=1\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">Dusty Docs site</a> for Northumberland research.</li><li>Explore a variety of records on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ukbmd.org.uk/index.php?county=126&amp;form_action=county\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">UK BMD site</a>.</li><li>Explore lists of <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.genuki.org.uk/big/eng/NBL/Parishes\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">towns and parishes</a> on the GenUKI site.</li><li>Explore Northumberland resources on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familyhistorydirectory.co.uk/england/northumberland/\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">Family History Directory site</a>.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about the history of Northumberland.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for research resources. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>Learn about Northumberland history on Wikipedia. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://en.wikipedia.org/wiki/History_of_Northumberland/\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">History of Northumberland</span></a></li><br><li>Explore the website for the <a class=\"lk\" href=\"https://www.Northumberland-lha.org.uk/\" target=\"_blank\">History of Northumberland</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Archives and Libraries",
+        "name": "Archives and Libraries",
+        "section_name": "Learn about Northumberland archives and libraries.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Northumberland archives and libraries.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for archives and libraries. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-en-nbl-lib.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://en.wikipedia.org/wiki/Bedford#/media/File:Bedford_-_John_Speed's_map_(1611).jpg\" target=\"_blank\"><img src=\"../img/x-en-nbl-lib.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"></a><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genuki.org.uk/big/eng/NBL/Archives\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">archives and libraries link</a> on the GenUKI Northumberland site.</li><li>Explore resources for <a class=\"lk\" href=\"https://www.ndfhs.org.uk/resources/local-resources/\" target=\"_blank\">Northumberland and Durham libraries</a>.</li><li>Search for <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://books.familysearch.org/primo_library/libweb/action/search.do?fn=search&amp;ct=search&amp;mode=Basic&amp;tab=default_tab&amp;indx=1&amp;dum=true&amp;srt=rank&amp;vid=FHD_PUBLIC&amp;frbg=&amp;vl%28freeText0%29=northumberland+england\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">free online books on Northumberland research</a> on the FamilySearch site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Vital and Census Records",
+        "name": "Vital and Census Records",
+        "section_name": "Learn about Northumberland civil registration, BMD, and census records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore Northumberland civil registration.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-en-nbl-vit.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://en.wikipedia.org/wiki/Haydon_Bridge#/media/File:Haydon_Bridge_from_the_south_west.jpg\" target=\"_blank\"><img src=\"../img/x-en-nbl-vit.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"></a><li>See a <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Northumberland_Parishes\" target=\"_blank\">list of civil parishes with links</a> on the FamilySearch Wiki.</li><li>Explore Northumberland civil registration on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genuki.org.uk/big/eng/NBL/#CivilReg\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">Gen UKI site</a>.</li><li>Search for BMD records on the <a class=\"lk\" href=\"https://www.camdex.org.uk/search.cfm\" target=\"_blank\">Northumberland County Council</a> site.</li><li>Browse the <a class=\"lk\" href=\"http://www.ukbmd.org.uk/genuki/reg/nth.html\" target=\"_blank\">Northumberland registration districts</a> on the Gen UKI site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://joinermarriageindex.co.uk/marriage-records/Northumberland/\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">Joiner Marriage Index</a> for Northumberland.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.freebmd.org.uk/search\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">FreeBMD UK site</a> for BMD records.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Northumberland census records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for civil registration and other records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>Learn about census returns in this Northumberland Archives guide. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://northumberlandarchives.com/docs/CENSUS%20RETURNS%20FOR%20NORTHUMBERLAND%201841-1911%20NOVEMBER%202017.pdf\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Northumberland Archives: Census Returns</span></a></li><br><li>Learn about Northumberland Census Surname Indexes in FamilySearch. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Northumberland_Census_Surname_Indexes_at_the_Family_History_Library\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki: Census Surname Indexes</span></a></li><br><li>Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.freecen.org.uk/\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">Northumberland census records </a> on the FreeCen site.</li><li>Explore Northumberland census records on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genuki.org.uk/big/eng/NBL/Census\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">Gen UKI site</a>.</li><li>Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.genuki.org.uk/big/eng/NBL#VotingRegisters\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">voting registers</a> on the GenUKI site.</li></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Church and Cemetery Records",
+        "name": "Church and Cemetery Records",
+        "section_name": "Learn about Northumberland church and cemetery records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Northumberland church records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for church records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-en-nbl-church.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/biddlestone-northumberland-historic-1038731/\" target=\"_blank\"> <img src=\"../img/x-en-nbl-church.jpg\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li>Get an overview of Northumberland church records in this article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Northumberland_Church_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Northumberland Church Records</span></a></li><br><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genuki.org.uk/big/eng/NBL/ChurchRecords\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">church records link</a> on the GenUKI Northumberland site.</li><li>Use this <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Northumberland_Parishes\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">parish page</a> to explore parish records in Northumberland.</li><li>Explore parish records on the <a class=\"lk\" href=\"https://www.freereg.org.uk/\" target=\"_blank\">FreeReg.org</a>site.</li><li>Learn about Anglican parish registers in this Northumberland Archives guide. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://northumberlandarchives.com/docs/ANGLICAN%20PARISH%20REGISTERS%20-%20reviewed%20November%202017.pdf\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Northumberland Archives: Anglican Parish Registers</span></a></li><br><li>Learn about Roman Catholic registers in this Northumberland Archives guide. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://northumberlandarchives.com/docs/ROMAN%20CATHOLIC%20REGISTERS.pdf\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Northumberland Archives: Roman Catholic Registers</span></a></li><br><li>Learn about Presbyterian and Congregational registers in this Northumberland Archives guide. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://northumberlandarchives.com/docs/PRESBYTERIAN%20AND%20CONGREGATIONAL%20REGISTERS.pdf\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Northumberland Archives: Presbyterian and Congregational Registers</span></a></li><br></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Northumberland cemetery records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for cemetery records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>Learn about cemetery records in this Northumberland Archives guide. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://northumberlandarchives.com/docs/CIVIL%20CEMETERY%20RECORDS%20reviewed%20November%202017.pdf\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Northumberland Archives: Civil Cemetery Records</span></a></li><br><li>Explore Northumberland cemetery records on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genuki.org.uk/big/eng/NBL/#Cemeteries\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">Gen UKI site</a>.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.findagrave.com/cemetery/search?cemetery-name=&amp;cemetery-loc=Northumberland%2C+England&amp;only-with-cemeteries=cemOnly&amp;locationId=state_4235\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">Find a Grave site</a> for cemetery records.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://billiongraves.com/pages/search/\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">BillionGraves site</a> for cemetery records.</li></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Probate, Land and Court",
+        "name": "Probate, Land and Court Records",
+        "section_name": "Learn about Northumberland probate and land records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Northumberland probate and land records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for probate and land records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/eng/northum-river.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://en.wikipedia.org/wiki/Northumberland#/media/File:Rothbury,_Northumberland.jpg\" target=\"_blank\"><img src=\"../img/eng/northum-river.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"></a><li>Learn about Northumberland probate records in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Northumberland_Probate_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Northumberland Probate Records</span></a></li><br><li>Learn about wills and probate in this Northumberland Archives guide. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://northumberlandarchives.com/docs/NORTHUMBERLAND%20WILLS.pdf\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Northumberland Archives: Northumberland Wills</span></a></li><br><li>Learn more about <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genuki.org.uk/big/eng/NBL/index.html#Probate\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">probate records</a> on the GenUKI Northumberland site.</li><li>Learn more about <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.genuki.org.uk/big/eng/NBL#Taxation\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">taxation records</a> on the GenUKI site.</li><li>Explore deeds by surname on the <a class=\"lk\" href=\"http://www.familydeeds.org/northumberland.php\" target=\"_blank\">FamilyDeeds site</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Maps and Gazetteers",
+        "name": "Maps and Gazetteers",
+        "section_name": "Learn about Northumberland maps and gazetteers.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore Northumberland maps and gazetteers.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about Northumberland maps in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Northumberland_Maps\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Northumberland Maps</span></a></li><br><li>Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://freepages.rootsweb.com/~genmaps/genealogy/genfiles/COU_Pages/ENG_pages/nbl.htm\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">historical maps</a> on the GenMaps site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.davidrumsey.com/luna/servlet/view/search?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&amp;q=northumberland&amp;search=Go\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">David Rumsey collection</a> of Northumberland maps.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genuki.org.uk/big/eng/NBL/Maps\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">maps link</a> on the GenUKI Northumberland site.</li><li>Explore the online <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genuki.org.uk/big/Gazetteers\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">Gazetteer</a> on the GenUKI site.</li><br><br><br><br><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Newspapers",
+        "name": "Newspapers",
+        "section_name": "Learn about Northumberland newspapers.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore Northumberland newspapers.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about maps in this Northumberland Archives guide. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://www.experiencewoodhorn.com/file/uploaded/Collections%20User%20Guides/NEWSPAPER%20LEAFLET.pdf\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Northumberland Archives: Newspapers</span></a></li><br><li>Learn about historical newspapers in this Northumberland Archives guide. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://northumberlandarchives.com/docs/NEWSPAPER%20LEAFLET.pdf\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Northumberland Archives: Northumberland Wills</span></a></li><br><li>Search Northumberland newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.abyznewslinks.com/ukingne.htm\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">ABYZ News Link</a> site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genuki.org.uk/big/eng/NBL/Newspapers\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">newspaper records link</a> on the GenUKI Northumberland site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Websites",
+        "name": "Websites",
+        "section_name": "Explore additional websites for research.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "There are a number of websites with valuable resources for Northumberland research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore links in <a class=\"lk\" href=\"http://www.cyndislist.com/uk/eng/counties/nbl/\" target=\"_blank\">Cyndi's List</a>.</li><li>Explore links in <a class=\"lk\" href=\"http://www.genealogylinks.net/uk/england/northumberland/index.html\" target=\"_blank\">GenealogyLinks.net</a>.</li> </ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Search Records",
+        "name": "Search Records",
+        "section_name": "Search records from Northumberland.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore record collections.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Use the England Record Selection Table to decide on records to search. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/England_Record_Selection_Table\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—England Record Selection Table</span></a></li><br><li>Explore the <a class=\"lk\" href=\"https://familysearch.org/wiki/en/Northumberland,_England_Online_Genealogy_Records\" target=\"_blank\">FamilySearch page</a> for online genealogy records.</li><li>Explore additional record collections in <a class=\"lk\" href=\"https://www.ancestry.com/search/collections/catalog/?keyword=Northumberland,%20England\" target=\"_blank\">Ancestry</a>.</li><li>Explore additional record collections in <a class=\"lk\" href=\"https://search.findmypast.com/historical-records?page=1&amp;region=england&amp;subcountry=northumberland\" target=\"_blank\">Findmypast</a>.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Use QUIKLinks to quickly search record collections for Northumberland.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Get Help",
+        "name": "Get Help",
+        "section_name": "Get help with your Northumberland research.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Use Facebook pages to get answers to your questions.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-facebook.jpg"
+                    ],
+                    "text": "<ol><a href=\"../img/y-facebook.jpg\" target=\"_blank\"> <img src=\"../img/y-facebook.jpg\" alt=\"\" height=\"170px\" border=\"1\" style=\"float:right; margin-top: 16px; margin-left: 36px\"></a> <li> Visit the <a class=\"lk\" href=\"https://www.facebook.com/groups/484372134959169/\" target=\"_blank\">Northumberland County Genealogy page</a> on Facebook.</li> <li> Visit the <a class=\"lk\" href=\"https://www.facebook.com/FamilyHistorySociety/\" target=\"_blank\">Northumberland and Durham Family History Society page</a> on Facebook.</li> </ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Join a mailing list or message board for Northumberland research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Join the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.rootschat.com/forum/england/\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">RootsChat forum</a> and post questions about Northumberland research.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://bigfile.rootsweb.ancestry.com/cgi-bin/listsearch\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">RootsWeb site </a> for Northumberland research mailing lists.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cyndislist.com/uk/eng/counties/nbl/social/\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\"> Northumberland research mailing lists</a> on Cyndi's List.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Northumberland genealogy societies.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about genealogy societies in Northumberland in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Northumberland_Societies\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Northumberland Societies</span></a></li><br><li>Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genuki.org.uk/big/eng/NBL#Societies\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">genealogy societies</a> on the GenUKI Northumberland site.</li><li>Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cyndislist.com/uk/eng/counties/nbl/societies/\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">English genealogy society sites</a> on Cyndi's list.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

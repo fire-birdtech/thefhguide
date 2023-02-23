@@ -1,0 +1,213 @@
+[
+    {
+        "nav_name": "Research",
+        "name": "Research",
+        "section_name": "Learn about South Korea genealogy research.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about South Korea archives and libraries.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-sou-lib.jpg"
+                    ],
+                    "text": "<ol><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/National_Library_of_Korea#/media/File:%EA%B5%AD%EB%A6%BD%EC%A4%91%EC%95%99%EB%8F%84%EC%84%9C%EA%B4%80_%EB%94%94%EC%A7%80%ED%84%B8%EB%8F%84%EC%84%9C%EA%B4%80.jpg\" target=\"_blank\"> <img src=\"img/x-sou-lib.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a> <li><span class=\"g\">History</span>: Get an introduction to Korean history and genealogy.<br><br><span class=\"star notranslate\">☆</span><a href=\"http://koreangenealogy.org/wp-content/uploads/2012/08/KoreanGenealogyGuide.pdf\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Korean Genealogy Guide, Chapters 4-5 - 2012</span></a></li><br><li><span class=\"g\">Archives &amp; Libraries</span>: Learn about South Korea archives and libraries in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/South_Korea_Archives_and_Libraries\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: South Korea_Archives and Libraries</span></a> </li><br><li>Learn about efforts to build a <a class=\"lk\" href=\"http://library.ifla.org/219/1/220-pak-en.pdf\" target=\"_blank\">genealogy library in Korea</a>.</li><li><span class=\"g\">Cemeteries</span>: Learn about South Korea cemeteries in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/en/wiki/South_Korea_Cemeteries\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: South Korea Cemeteries</span></a></li><br> <li><span class=\"g\">Land and Property</span>: Learn about South Korea land and property records in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/en/wiki/South_Korea_Land_and_Property\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: South Korea Land and Property</span></a></li><br> <li><span class=\"g\">Emigration</span>: Learn about South Korea emigration and immigration in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/South_Korea_Emigration_and_Immigration\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: South Korea Emigration and Immigration</span></a></li><br> <li>Learn about immigration history and demographics in this Wikipedia article.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/South_Korean_Americans\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Wikipedia: South Korean Americans</span></a></li><br></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "Forebears.io: Explore the ",
+                                "links": [
+                                    {
+                                        "link": "http://forebears.io/south-korea",
+                                        "text": "Forebears.io site",
+                                        "type": "video"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Links: Explore genealogy links from the ",
+                                "links": [
+                                    {
+                                        "link": "https://guides.library.manoa.hawaii.edu/c.php?g=105260&p=687180",
+                                        "text": "Korea Collection",
+                                        "type": "video"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Learn about Korean language and surnames.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li><span class=\"g\">Jokbo</span>: Learn how to read a Jokbo, which contains Korean genealogy information. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=yjyUIz_U1fY\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">RT—How to Read Jokbo, Part 1—20:51 - 2021</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/yjyUIz_U1fY?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></li><br><li>Learn about Hanja and other types of characters used in Korean records.<br><br><span class=\"star notranslate\">☆</span><a href=\"http://koreangenealogy.org/wp-content/uploads/2012/08/KoreanGenealogyGuide.pdf\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Korean Genealogy Guide, Chapters 1-3 - 2012</span></a></li><br><li><span class=\"g\">Surnames</span>: Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.geneanet.org/country/search-Korea,%20Democratic%20People%27s%20Republic%20of-PRK\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Geneanet site</a> for Korean surnames.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Civil Registration",
+        "name": "Civil Registration",
+        "section_name": "Learn about South Korea civil registration and census records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about South Korea civil registration.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-sou-flag.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/republic-of-korea-korea-flag-1123541/\" target=\"_blank\"> <img src=\"img/x-sou-flag.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-bottom: 16px; max-width:350px; border:1px solid #000; padding:0px;\"></a>  <li>Learn about South Korea civil registration in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/South_Korean_Civil_Registration-Vital_Records\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: South Korea Civil Registration</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about South Korea census records.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about South Korea household and census records in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/South_Korea_Census\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: South Korea Census Records</span></a></li><br></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Maps and Gazetteers",
+        "name": "Maps and Gazetteers",
+        "section_name": "Learn about South Korea maps and gazetteers.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about South Korea maps and gazetteers.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-sou-map.png"
+                    ],
+                    "text": "<ol><a href=\"https://commons.wikimedia.org/wiki/Atlas_of_South_Korea#/media/File:Korea_south_map.png\" target=\"_blank\"> <img src=\"img/x-sou-map.png\" alt=\"\" height=\"300px\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"></a>  <li>Learn about South Korea maps in this FamilySearch Wiki article. See the \"Korea through the Centuries\" section for historical maps of Korea. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/South_Korea_Maps\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: South Korea Maps</span></a> </li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.lib.utexas.edu/maps/korea.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Perry-Castaneda map collection</a> for South Korea maps.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.davidrumsey.com/luna/servlet/view/search?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&amp;q=korea&amp;search=Go\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">David Rumsey collection</a> of South Korea maps.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.oldmapsonline.org/en/South_Korea\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Old Maps Online site</a> for South Korea maps.</li><li>Explore a <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.fallingrain.com/world/KS/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">directory of South Korea cities, towns, and regions</a> in the Falling Rain site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Newspapers",
+        "name": "Newspapers",
+        "section_name": "Learn about South Korea newspapers.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about South Korea newspapers.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-sou-news.jpg"
+                    ],
+                    "text": "<ol><a href=\"img/x-sou-news.jpg\" target=\"_blank\"> <img src=\"img/x-sou-news.jpg\" alt=\"\" height=\"300px\" style=\"float:right; margin-top: 6px; margin-left: 16px; border:1px solid #000; padding:0px;\"></a> <li>Find links to <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Wikipedia:List_of_online_newspaper_archives#South_Korea\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">South Korean newspapers</a> on the Wikipedia site.</li> <li>Search South Korean newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.onlinenewspapers.com/skorea.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">onlinenewspapers.com</a> site.</li><li>Search South Korean newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.world-newspapers.com/southkorea.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">world-newspapers.com</a> site.</li><li>Search South Korean newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.abyznewslinks.com/skore.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">ABYZ News Links</a> site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Websites",
+        "name": "Websites",
+        "section_name": "Explore additional websites for research.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "There are a number of websites with valuable resources for South Korean research.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/laptop-fingers1.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/laptop-fingers1.jpg\" alt=\"\" width=\"350px\" style=\"float:right; margin-top: 6px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Explore links in the <a class=\"lk\" href=\"https://www.familysearch.org/en/wiki/South_Korea_Websites\" target=\"_blank\">FamilySearch Wiki</a>.</li><li>Explore links in <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cyndislist.com/south-korea\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Cyndi's List</a>.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://bloodandfrogs.com/encyclopedia/south-korea\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Jewish Genealogy Encyclopedia</a> for Jewish resources in South Korea.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Search Records",
+        "name": "Search Records",
+        "section_name": "Search records from South Korea.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Use QUIKLinks, Partners, and GenealogyInTime to quickly search the most common record collections for South Korea.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/laptop-hands.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/laptop-hands.jpg\" alt=\"\" width=\"350px\" style=\"float:right; margin-top: 6px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>QUIKLinks are indicated by lightning-bolt icons in the Goals above.They point to collections with 50,000 or more records. When you click a QUIKLink icon, scroll down on the resulting page to see the QUIKLinks.</li><li>In the Partners section (near the top of the page), explore additional record collections in FamilySearch, Ancestry, Findmypast and MyHeritage.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.findagrave.com/cemetery-browse/South-Korea?id=country_78\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Find A Grave site</a> for cemetery records.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://billiongraves.com/site-map?country=South+Korea\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">BillionGraves site</a> for cemetery records.</li><li>Explore the <a class=\"lk\" href=\"http://www.genealogyintime.com/records/Asia-genealogy-records.html\" target=\"_blank\">Asia page</a> of the GenealogyInTime website. Record collections are listed and described in order from newest to oldest additions, including FamilySearch, Ancestry, and many other sources.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Get Help",
+        "name": "Get Help",
+        "section_name": "Get help with your South Korea research.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Use Facebook pages to get answers to your questions.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/fh-help1.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/fh-help1.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-top: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"> <li>Visit the <a class=\"lk\" href=\"https://www.facebook.com/groups/367146666771463/\" target=\"_blank\">Asia, Africa, Pacific Genealogy Research Community</a> on Facebook.</li><li>Get help with adoption topics on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.facebook.com/groups/KoreanAdoptee/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Korean Adoptees</a> Facebook page.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Join a mailing list or message board for South Korea research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cyndislist.com/asia/social/\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">South Korea research mailing lists</a> on Cyndi's List.</li><li>Use the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ancestry.com/boards/localities.southkorea/mb.ashx\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Ancestry message boards</a> to read or post questions about South Korea research.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about South Korea genealogy societies.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore <a class=\"lk\" href=\"http://www.cyndislist.com/asia/\" target=\"_blank\">South Korea genealogy society sites</a> on Cyndi's List.</li><li>Get help at a <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Category:South_Korea_Family_History_Centers\" target=\"_blank\">family history center in South Korea</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Geo/Culture/History",
+        "name": "Geography, Culture, History",
+        "section_name": "Learn about the geography, culture, and history of South Korea. \n\t\t\t\t\t\t\n\t\t\t\t\t\t",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore websites and videos.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/c-south-korea.jpg"
+                    ],
+                    "text": "<h5>Reference</h5><ol><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Korea_History\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">FamilySearch: History</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/South_Korea\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Wikipedia</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.britannica.com/place/South-Korea\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Encyclopedia Britannica</a></li></ol><h5>For Kids</h5><ol><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://kids.nationalgeographic.com/explore/countries/south-korea/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">NatGeo for Kids</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ducksters.com/geography/country.php?country=Korea,%20South\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Ducksters</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=Z6EnEXPprXY\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">YouTube: History of Korea in a Nutshell</a></li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

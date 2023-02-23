@@ -1,0 +1,21 @@
+[
+    {
+        "nav_name": "Learn about Asian Research",
+        "name": "Get Started",
+        "section_name": "Learn about Asian research.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Asian resources for research.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/4-asian.jpg"
+                    ],
+                    "text": "<p><i>Note</i> : For country-specific research, see the Asia/Pacific/Africa section of Countries/Ethnic Groups.</p><ol><img src=\"img/4-asian.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"><li><span class=\"g\">Get Started</span>: Watch this video to get started with Southern Asia research. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=SauofzWcA38&amp;t=1m38s\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">BYU—Loving Ties and Family Trees—35:17</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/SauofzWcA38?start=98;rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li>Learn about East Asian research in this article.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.christinesleeter.org/locating-east-asian-family-roots\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Locating East Asian Family Roots</span></a></li><br><li><span class=\"g\">Timelines</span>: Learn about <a class=\"lk\" href=\"http://www.cetel.org/timeline.html\" target=\"_blank\">Asian American timelines</a> for research. </li><li><span class=\"g\">Resources</span>: Explore the <a class=\"lk\" href=\"http://www.worldgenweb.org/index.php/asiagenweb\" target=\"_blank\">Asian GenWeb site</a> for resources.&nbsp;<span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.worldgenweb.org/index.php/asiagenweb\"><img src=\"img/d.png\" width=\"2\"></a> </li><li>Explore the <a class=\"lk\" href=\"http://www.cetel.org/discover.html\" target=\"_blank\">Ancestors in the Americas site</a> for resources.&nbsp;<span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cetel.org/discover.html\"><img src=\"img/d.png\" width=\"2\"></a></li><li><span class=\"g\">Q&amp;A</span>: Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://community.familysearch.org/s/group/0F93A000000LfVlSAK/asia-genealogy-research\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">FamilySearch community</a> to read or post questions about Asian ancestors.&nbsp;<span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://community.familysearch.org/s/group/0F93A000000LfVlSAK/asia-genealogy-research\"><img src=\"img/d.png\" width=\"2\"></a></li><li><span class=\"g\">Culture</span>: Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.tota.world/culture/asian/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Traditions of the Ancestors site (requires a free account)</a>.&nbsp;<span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.tota.world/culture/asian/\"><img src=\"img/d.png\" width=\"2\"></a></li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

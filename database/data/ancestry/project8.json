@@ -1,0 +1,692 @@
+[
+    {
+        "nav_name": "Navigate Your Tree",
+        "name": "Navigate and Manage Your Tree.",
+        "section_name": "Navigate and Manage Your Ancestry tree.",
+        "summary": "<p>Navigating your Ancestry tree is essential to finding and adding ancestors, viewing and updating their information, and producing charts and reports. For an overview of building your Ancestry tree, read <a class=\"lk\" href=\"https://support.ancestry.com/s/article/ka215000000MVOJAA4/Getting-started-on-Ancestry-Lesson-2-Building-Your-Tree-1460088563413\" target=\"_blank\">this article</a>.</p><p>Note: The Family View is displayed by default. To use the Pedigree View, see Choice B below.</p>",
+        "choices": [
+            {
+                "name": "View and navigate your Ancestry tree in Family View.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Find your tree and move its view position.</li><li>Open and close branches of your tree for viewing.</li><li>Return to the Home person in the tree.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Open and close each line in your tree once. Choose a line that extends farther and go back several more generations, noting the names and places on the screen.</li><li>* Proficient: Same as Good; also open the tree view for three persons.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/app-stores.png",
+                        "https://www.thefhguide.com/img/an/app-extend1.png"
+                    ],
+                    "text": "<p><i>Note</i> : You can download the Ancestry App to your device from the Apple Store or Google Play.</p><ol><li>Open the Ancestry app on your device and tap <b>Sign in</b> (lower right).</li><li>In the \"Choose a tree\" screen, tap the name of the family tree you want to open. (If you want to create a new tree, see Choice E below.) If you have not yet accessed this tree on the current device, the tree will be downloaded to the device. The Family Tree view is displayed by default, with couples side-by-side and ancestor connections indicated by gray lines. The starting person for the tree is shown near the bottom of the screen, with earlier generations higher up.</li><img src=\"img/an/app-extend1.png\" width=\"250px\" style=\"float:right; margin-left:16px; margin-top:16px; border:1px solid #000; padding:0px;\"><li>To move your tree view, swipe in any direction. To zoom in or out, spread or pinch the display.</li><li>To extend a line in your tree for viewing earlier generations, tap the up-arrow above an ancestor tile. In the new family tree branch that is open, you can continue clicking up-arrows to navigate back to any earlier generations that are available. <i>Note</i> : When you open a different line, the line you previously opened is automatically closed.</li><li>To extend a line in your tree for viewing more recent generations, tap the down-arrow below an ancestor tile, if available. In the new family tree branch that is open, you can continue clicking down-arrows to navigate any more recent generations that are available. <i>Note</i> : When you open a different line, the line you previously opened is automatically closed.</li><li>To return to the home person in the tree, tap the <b>Home</b> icon. (To hide or show the navigation controls at the lower right, tap the screen.)</li><li>To view a different person's tree, with that person in the starting position, tap the person's tile and tap <b>View Tree</b>.</li><li>For an overview of the Ancestry App, watch these videos. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.ancestryacademy.com/meet-the-ancestry-app-your-family-story-anytime-anywhere/videos/getting-started-with-the-ancestry-mobile-app\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">AAC—Getting Started With the Ancestry Mobile App—1:20</span></a> (account required)<br><span class=\"star notranslate\">☆</span><a href=\"https://www.ancestryacademy.com/meet-the-ancestry-app-your-family-story-anytime-anywhere/videos/viewing-and-navigating-the-family-tree\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">AAC—Viewing and Navigating the Family Tree—2:28</span></a> (account required)</li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Use the Pedigree View for your tree.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Open the Pedigree view.</li><li>Extend lines in either direction.</li><li>Return to the Home person in the tree.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Open the Pedigree View, extend a line into the past, and extend another line to see more recent generations.</li><li>* Proficient: Same as Good, for three separate lines.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/app-pedigree1.png"
+                    ],
+                    "text": "<ol><li>Tap the view icon (lower right) and select the pedigree icon.</li><li>To move the view, swipe in any direction; to zoom, spread or pinch the display. Children of the most recent generation, if any, are listed at the left.</li><li>To extend a family line into the past, click a right-arrow (right edge of the view). See Choice A for additional details on extending lines. </li><img src=\"img/an/app-pedigree1.png\" width=\"550px\" style=\"float:right; margin-left:16px; margin-top:8px; border:1px solid #000; padding:0px;\"><li>To extend a family line to see more recent generations, tap a person at the left and select <b>View Tree</b>.</li><li>To return to the home person in the tree, tap the <b>Home</b> icon (lower right).</li><li>To view a different person's tree, with that person in the starting position, tap the person's tile and tap <b>View Tree</b>.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Find people quickly in your tree.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Do two searches, each for different people in your tree.</li><li>* Proficient: Do four searches, each for different people in your tree, and view the tree for one of them.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/app-find-person1.png"
+                    ],
+                    "text": "",
+                    "resources": []
+                }
+            },
+            {
+                "name": "View Profile information for people in your tree.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Access profile information for persons in your tree.</li><li>Use the Facts tab to see a timeline of events for a person.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Open Profiles for two different people in your tree and review their Profile information.</li><li>* Proficient: Same as Good; also use review the Facts for each person and set one of them as the home person.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/app-facts1.png"
+                    ],
+                    "text": "<ol><li>Tap an ancestor tile and select <b>View Profile</b>.</li><br><img src=\"img/an/app-facts1.png\" width=\"250px\" style=\"float:right; margin-left:16px; margin-top:8px; border:1px solid #000; padding:0px;\"><li>Tap the <b>Facts</b> tab to show a timeline of events for this person on the left side. The year and person's age are shown in the timeline. Vital events for the ancestor are shown in white tiles, and vital information for siblings, parents, and children are shown in gray tiles.</li><li style=\"list-style:none:\">Note: The <b>Lifestory</b> tab (default) also contains a timeline, with additional descriptions.</li><br><br><br><br><br><br><li>To hide Facts information for children and siblings (gray tabs), tap the three-dot menu and select <b>Hide Family Events</b>. To show the information again, select <b>Show Family Events</b>.</li><li>To show the person's name and gender in the Facts list, tap the three-dot menu and select <b>Show Name and Gender</b>. To hide the information, select <b>Hide Name and Gender</b>.</li><li>To view the tree for the selected person, tap the three-dot menu and select <b>View in Tree</b>.</li><li>To view the Profile for a family member, tap the <b>Family tab</b> and then tap the name of the person to view.</li><li>To show your relationship to the selected person, tap the three-dot menu and select <b>Show Your Relationship</b>.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "(Optional) Create a new family tree.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Tap your ID circle (upper left) and then tap the arrow to the right of \"Active tree\".</li><li>Tap <b>Create new tree</b>.</li><li>Fill in the first and last names and select the gender for the person who will be at the beginning position in the tree.</li><li>Type a name for the family tree. </li><li>Select whether you want to tree to be public or private. If you select <b>Private Tree</b>, you can also specify whether you want the tree (but not its contents) to be listed in searches.</li><li>Tap <b>Save</b> (upper right). You can then begin to add people to the tree. See <a class=\"lk\" href=\"project-2-family-tree-an-app03.html\">Goal 3</a> for information on adding people or <a class=\"lk\" href=\"project-2-family-tree-an-app02.html\">Goal 2</a> for editing person information.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Edit Person Info",
+        "name": "Edit Person Information",
+        "section_name": "Edit person information in your Ancestry tree.",
+        "summary": "<p>Editing facts and profile information is essential to keeping your tree up to date. You can do a Quick Edit or a Profile Edit, or you can edit facts in a Person window.</p>",
+        "choices": [
+            {
+                "name": "Edit Person information and relationships.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Edit a person in your tree for whom you have additional information.</li><li>* Proficient: Edit information for three people in your tree.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/app-edit-person1.png"
+                    ],
+                    "text": "<ol><img src=\"img/an/app-edit-person1.png\" width=\"250px\" style=\"float:right; margin-left:16px; margin-top:8px; border:1px solid #000; padding:0px;\"><li>Tap a name in your tree and select <b>Edit Person</b> to open a summary window with birth and death details. (You can also select Edit Person from the three-dot menu of a person's Profile.)</li><li>Edit any of the following items:<ul style=\"margin-left:-88px;\"><li>Names</li><li>Gender</li><li>Birth Date</li><li>Birth Place</li><li>Status (Deceased or Living)</li><li>Death Date</li><li>Death Place</li></ul></li><li>Tap <b>Save</b>.</li><li>To learn more about editing details for ancestors, watch this video. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.ancestryacademy.com/meet-the-ancestry-app-your-family-story-anytime-anywhere/videos/diving-into-the-details-about-a-specific-ancestor\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">AAC—Diving Into the Details About a Specific Ancestor—3:55</span></a> (account required)</li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Edit Facts in a person's Profile.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Proficient: Edit Profile Facts for two people in your tree.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>Open a person's Profile.</li><li>In the <b>Facts</b> tab, tap a Fact to highlight it, and then tap <b>Edit</b>. </li><li>Type the Fact Details as needed. You can use the calendar icon for selecting date information.</li><li>Tap <b>Save</b>.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Add Facts to a person's Profile.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Proficient: Add Facts for three people in your tree.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/app-add-fact1.png"
+                    ],
+                    "text": "<ol><img src=\"img/an/app-add-fact1.png\" width=\"250px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>In the <b>Facts</b> tab for a Profile, tap the green plus icon.</li><li>In the <b>Type</b> field, tap the down-arrow and select a Fact type.</li><li>Use the calendar to select a date for the Fact.</li><li>Type the location and a description for the Fact.</li><li>Tap <b>Save</b>.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Add or edit notes for a person.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Proficient: Add or edit notes for two people in your tree.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/app-notes1.png"
+                    ],
+                    "text": "<ol><img src=\"img/an/app-notes1.png\" width=\"250px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>In a Profile screen, tap the <b>Notes</b> tab.</li><li>If no notes have been added yet, tap the green plus icon to add content. Then tap the \"Note\" line, type the note text, and tap <b>Save</b>.</li><li>If note content has already been added, tap the green pencil icon to edit content. Then tap the note text, make your edits, and tap <b>Save</b>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Add or Remove People",
+        "name": "Add or Remove People",
+        "section_name": "Add or remove people in your Ancestry tree.",
+        "summary": "<p>As you add people to your tree, make sure you fill in essential information and connect them in the tree correctly. The Choices below assume that the Pedigree view is used.</p>",
+        "choices": [
+            {
+                "name": "Add a relative for a person in your tree.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Add one or more relatives for a person in your tree.</li><li>* Proficient: Add one or parents for two people in your tree, and add another type of relative for a different person in your tree. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/app-add-relatives1.png"
+                    ],
+                    "text": "<ol><img src=\"img/an/app-add-relatives1.png\" width=\"300px\" style=\"float:right; margin-left:16px;  margin-top:8px; border:1px solid #000; padding:0px;\"><li>Tap a person's name in the tree and select <b>Add Relative</b>.  </li> <li>Select Add Father (if available), Add Mother (if available), Add Spouse, Add Sibling, Add Son, or Add Daughter.</li> <li>Type the name of the person to add. If it appears in the drop-down list, select it from there.</li><li>Fill in the gender, birth, and death information. If this is a son or daughter, tap <b>Next</b> to select the mother or father (and tap <b>Save</b> to finish); otherwise and tap <b>Save</b>.</li> <li>To learn more about growing your Ancestry tree, watch this video. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.ancestryacademy.com/meet-the-ancestry-app-your-family-story-anytime-anywhere/videos/growing-your-tree\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">AAC—Growing Your Tree—1:19</span></a> (account required)</li><br><li>To learn about the Search feature in Ancestry, watch this video. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.ancestryacademy.com/meet-the-ancestry-app-your-family-story-anytime-anywhere/videos/searching-for-historical-content\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">AAC—Searching for Historical Content—3:52</span></a> (account required)</li><br><li>Learn how to avoid adding duplicate persons to your tree.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://support.ancestry.com/s/article/How-to-Avoid-Creating-Duplicates-in-a-Tree\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">AC—How to Avoid Creating Duplicates in a Tree </span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Review a potential relative to be added.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Proficient: Explore your tree to see where a potential missing relative is indicated by ancestry, and then add the person if you have the information to do so.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/app-potential1.png"
+                    ],
+                    "text": "<p>If Ancestry finds a potential missing relative in your tree, a dotted-line box and green leaf are shown to indicate it. </p><ol><img src=\"img/an/app-potential1.png\" width=\"300px\" style=\"float:right; margin-left:16px;  margin-top:8px; border:1px solid #000; padding:0px;\"><li>Tap the \"Potential Father\" or \"Potential Mother\" box (or other dotted-line box that indicates a potential relative). Summary information is shown about the new person, which may come from another user's tree or a record source.</li><li>To see more information, tap <b>Review Details</b>; or to dismiss the information, tap <b>Ignore</b>. Or, to add your own information for this person instead of using the suggested source, copy the information on the screen and tap \"Add [person] manually\" and then tap <b>Yes</b> to dismiss the potential relative hint.</li><li>After reviewing the details on the screen, tap <b>No</b> remove the possible relative box; or <b>Maybe</b> to keep the box in the tree but not add the person; or <b>Yes</b> to add the person to your tree. Adding the person imports any  Lifestory, Facts, Sources, etc. associated with the person. </li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Merge a duplicate person in your tree.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/app-merge1.png",
+                        "https://www.thefhguide.com/img/an/app-merge2.png"
+                    ],
+                    "text": "<ol><img src=\"img/an/app-merge1.png\" width=\"250px\" style=\"float:right; margin-left:16px;  margin-top:8px; border:1px solid #000; padding:0px;\"><li>Open the Profile for the person who may have a duplicate record.</li><li>Tap the three-dot menu and select <b>Merge with Duplicate</b>.</li><li>In the Person 2 list, select the name of the ancestor who may be a duplicate, or type a name at the bottom and select an entry from there. The merge process removes the Person 2 ancestor, after you have had a chance to include any or his or her information in the Person 1 record.</li><br><br><br><br><br><br><br><br><img src=\"img/an/app-merge2.png\" width=\"250px\" style=\"float:right; margin-left:16px;  margin-top:8px; border:1px solid #000; padding:0px;\"><li>In the <b>Choose Details</b> screen, review the Facts for the selected ancestor (left side) and the possible duplicate ancestor (right side). Facts on the right side that are the same as those on the left will be saved as \"alternate\" facts when the records are merged.</li><li>If there are Facts on the right you want to keep, tap to select them; otherwise the Facts on the left side will be used.</li><li>To compare all the details between Person 1 and Person 2, tap <b>Compare all details</b>. Farther down the screen, you can also use <b>Compare Details–Fathers</b> or <b>Compare Details–Mothers</b>. To return to the main comparison screen, click the left arrow (top of the screen).</li><li>To complete the merge, tap <b>Merge</b> (upper right).</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Remove a person from your tree.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<p><i>Note</i> : Be sure you are removing the correct person, If not, you will need to re-enter that person's information.</p><ol><li>Open the Profile for the person to be removed.</li><li>Click the three-dot menu and select <b>Delete this person</b>.</li><li>Click <b>Delete</b> to remove the person from the tree.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Explore Hints",
+        "name": "Explore Hints",
+        "section_name": "Explore hints for people in your tree.",
+        "summary": "<p>Hints are pieces of information about records, photos, stories, etc. for persons in your tree.</p>",
+        "choices": [
+            {
+                "name": "Find and view hints for individuals in your tree.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Find \"green leaf\" hints in Ancestry.</li><li>Review or ignore hints.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Find and briefly review two hints.</li><li>* Proficient: Find and briefly review four or more hints.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/app-hints.png",
+                        "https://www.thefhguide.com/img/an/app-record-details1.png"
+                    ],
+                    "text": "<ol><img src=\"img/an/app-hints.png\" width=\"250px\" style=\"float:right; margin-left:16px; margin-top:16px; border:1px solid #000; padding:0px;\"><li>In the Tree view, find a person with a green leaf next to the name and open his or her Profile. </li> <li>Tap the Hints bar (below the portrait). The number of new hints is displayed in the bar. You can also find people with Hints using the Search feature (see <a class=\"lk\" href=\"project-2-family-tree-an-app.html#c\">Choice C</a> in Goal 1 for details), or by scrolling to the bottom of the Profile screen and tapping the green leaf that appears at the top of the screen.</li> <br><br><img src=\"img/an/app-record-details1.png\" width=\"250px\" style=\"float:right; margin-left:16px; margin-top:16px; border:1px solid #000; padding:0px;\"><li>In the list, tap a title in a bar to display Record Details for the hint; or tap a photo or document to display it. Record Details may include any of the following: <ul style=\"margin-left:-88px;\"><li>Record image—Tap the expand button to open an image window, where you can spread and swipe to see details. To see a detail summary, tap the \"Details\" link (lower right). To share the image, <br>a) Tap the <b>Share icon</b> (lower left); and <br>b) Select a share type (email, Facebook, etc.) and follow the prompts.</li><li>This Record and Your Tree—This contains a brief comparison summary of the information.</li><li>Family information—New family members or those with additional information may be documented in the hint; if so, they are displayed in the family section. To see more information about a family member, tap the down-arrow next to the person's name. <i>Note</i> : If you accept the hint (see Choice B below), any new people from the hint will be added to your tree, and additional information will be included for the ancestor if applicable.</li><li>Source information (bar with a record title)—A brief description of the source for the hint is displayed. You can tap an entry to see more details.</li></ul></li> <li>For photos, there is an \"enlarge\" icon you can tap to zoom in on the image. There is also a \"Photo was added by\" entry with a link to the submitter's contact info on Ancestry. You can tap the link to see submitter info and to send the person a message on Ancestry.</li> <li>To share the Record Details, <br>a) Tap the <b>Share icon</b> (upper right); <br>b) Select a share type (email, Facebook, etc.) and follow the prompts.</li><li>To learn more about working with Ancestry hints, watch this video. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.ancestryacademy.com/meet-the-ancestry-app-your-family-story-anytime-anywhere/videos/taking-advantage-of-ancestry-hints\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">AAC—Taking Advantage of Ancestry Hints—4:38</span></a> (account required)</li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Choose an action for a hint and view hint results.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Decide whether to reject, defer, or accept a record hint.</li><li>View the results of your record hints choices.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Proficient: Display all hints and use all the sorting and listing features described above.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/app-hints-status1.png"
+                    ],
+                    "text": "<ol><li>At the bottom of the Record Details screen, tap <b>No</b> to dismiss the hint, or <b>Maybe</b> to mark the hint as Undecided on your part, or <b>Yes</b> to accept the hint and its corresponding information. If you tap <b>Yes</b>, in the <ab>Add Record screen you can select which information items from the record to include in your tree; and then tap <b>Save</b>. </ab></li><img src=\"img/an/app-hints-status1.png\" width=\"250px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>To see totals for hint decisions for this person, tap the down-arrow (top of screen). The number of New Hints, Undecided Hints, Ignored Hints, and Accepted Hints are shown in a drop-down list.</li><li>Below the record details, there also may be a contact link for the person who submitted the item. You can tap the link to see profile information for that person, and to send a message.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "View and Add Sources",
+        "name": "Add and View Sources",
+        "section_name": "View and add sources for ancestor records.",
+        "summary": "<p>Adding sources to a person's page helps show the evidence for the dates and other information that have been added.</p>",
+        "choices": [
+            {
+                "name": "View or remove sources for a person.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>View an existing source and its record in your tree.</li><li>See source details and share a source.</li><li>Remove a source record from a person if desired.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: View one or more sources and their records for two persons in your tree.</li><li>* Proficient: Same as Good; also view the details for each source and share at least one of the sources.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>Open a Profile for someone in your tree.</li><li>Tap the <b>Sources</b> tab and select a source in the list. Summary information appears for the record source.</li><li>Tap <b>View</b> to see the record details. The record may be a photo, document, or indexed record.</li><li>For indexed records, the information appears in two columns: This Record (left column) and Your Tree (right column). To see summary details for family members, scroll down to the family section and tap any family member's name.</li><li>To share the source on social media, tap <b>Share</b> (upper right) and follow the prompts.</li><li>To detach a source record from the person, tap the three-dot icon for the entry and select <b>Remove Source from Person</b>. <i>Note</i> : This does not delete the source record itself.</li><li>To learn more about viewing and attaching records for an ancestor, watch this video (beginning to 6:15). <br><br><a href=\"https://www.ancestryacademy.com/meet-the-ancestry-app-your-family-story-anytime-anywhere/videos/adding-records-photos-and-stories-to-your-family-tree\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">AAC—Adding Records, Photos, and Stories to Your Family Tree—7:34</span></a> (account required)</li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Add a source for a person.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Add one or more source records for two persons in your tree.</li><li>* Proficient: Same as Good, for at least four persons.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/app-hints.png",
+                        "https://www.thefhguide.com/img/an/app-record-details3.png"
+                    ],
+                    "text": "<ol><img src=\"img/an/app-hints.png\" width=\"250px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>Tap the <b>Search</b> icon. There is one beneath the Profile name, and one at the bottom of the screen. A list of available source records is returned.</li><li>Tap a record source that looks interesting.</li><li>To share the hint on social media, click the Share icon (lower left) and select a \"Share via\" option. Then follow the steps in the dialogs to share the source record.</li><br><br><img src=\"img/an/app-record-details3.png\" width=\"250px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>Read the information in \"This Record\" and \"Your Tree\" carefully. If this record is a match for the person in your tree, tap <b>Yes</b> (bottom of the screen) to attach the record; if it is not a match, tap <b>No</b>. If you are not sure, tap <b>Maybe</b> to defer the matching decision to later.</li><li>If you selected <b>Yes</b>, compare the two columns on the <b>Add Record</b> screen: This Record and Your Tree. By default, information from your tree is selected. To switch to information from the source record, select the fields you want in the left column. If new information is available in the record, it is indicated below the <b>New</b> button. To exclude that information, clear the checkmark next to the information. Or, you can tap a pencil icon to edit a fact in your tree.</li><li>Tap <b>Save</b>. You can click <b>View Profile</b> to return to the person's Profile page, or continue selecting more record sources in the list.</li><li>To detach a source record from the person, tap the three-dot icon inside the gray box for the entry and select <b>Remove Source from Person</b>. Note: This does not delete the source record itself.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Use filters and ranges to limit the types of records returned in a search.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Use two different filters to search for two persons in your tree.</li><li>* Proficient: Same as Good, for at least four persons.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/app-filters1.png"
+                    ],
+                    "text": "<ol><li>Open a list of sources, as explained in Choice B above.</li><li>Tap the <b>Filters icon</b> (upper right).</li><img src=\"img/an/app-filters1.png\" width=\"250px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>If you want to learn more about how filters work, tap the Info button and read the brief articles included.</li><li>To limit by record category, <br>a) Tap <b>All Categories</b> (the number of records is displayed to the right of each category); <br>b) Tap a category of interest; <br>c) In the sub-category list, tap the entry for filtering (you can select only one filter at a time), and <br>d) To save the filter, tap the back arrow (upper left), or to clear the filter, tap <b>All Categories</b>.</li><li>To set a range for the record search, choose a field on the screen and move its slider button. This will set the search range from \"Broad\" (could return a wide variety of results) to exact (only exact matches returned) with several intermediate values, such as similar-sounding, plus or minus 10 years for dates, etc. Each field has its own criteria for search ranges. If no ranges are changed, the default settings are used. </li><li>Tap <b>Done icon</b> (upper right). Records are now returned using the filters and ranges you specified.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Track and resolve conflicting information in genealogy lines.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Document parentage accurately.</li><li>Use discrepancy charts.</li><li>Resolve conflicting evidence.</li></ul><hr style=\"margin-left: 20px;\">"
+                        },
+                        {
+                            "type": "exercise",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Proficient: Find an ancestor whose notes or Person page information indicate conflicting evidence or a problem with parentage. Then use the key points in the articles and video above to develop a plan to resolve the differences.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/1-conflict.PNG"
+                    ],
+                    "text": "<ol><img src=\"img/1-conflict.PNG\" width=\"150px;\" style=\"float:right; margin-left: 16px;\"><li>Document parentage accurately, as explained in this Ancestry video.<br><br><a href=\"https://www.youtube.com/watch?v=PCTzP398yew\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">AC—Documenting Parentage—31:30 - 2016</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/PCTzP398yew?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li>Use discrepancy charts to track the differences in varying versions of an ancestor's line.<br><br><a href=\"http://www.genealogy.com/articles/research/37_neill.html\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">GC—Organize the Inconclusive</span></a></li><br><li>Learn more about how to resolve conflicting evidence.<br><br><a href=\"https://www.youtube.com/watch?v=t2cZyme18v4\" target=\"_blank\"><span><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">AC—Resolving Conflicting Evidence—37:24 - 2014</span></span></a> <br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/t2cZyme18v4?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br><a href=\"http://ldsgenealogy.com/Dealing-with-Contradictory-Evidence.htm\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">LDS—Dealing with Contradictory Evidence</span></a> </li><li>Use this six-step process for handling conflicting evidence.<br><br><a href=\"https://www.archives.com/experts/henderson-harold/how-to-handle-conflicting-evidence.html\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">AR—How To Handle Conflicting Evidence: A Six-Step Program - 2013</span></a></li><br><li>Explore <a class=\"lk\" href=\"https://www.evidenceexplained.com/content/quicklesson-17-evidence-analysis-process-map\" target=\"_blank\">Lesson 17</a> on the Evidence Explained website by Elizabeth Shown Mills.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "View Ancestral Places",
+        "name": "View Ancestral Places",
+        "section_name": "View your Ancestral Places on Ancestry maps.",
+        "summary": "<p>Ancestral Places lets you view ancestor events where they happened, as shown on an interactive world map. Events are available up to 10 generations in the past.</p>",
+        "choices": [
+            {
+                "name": "Get started with Ancestral Places.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Open and view Ancestral Places.</li><li>Open a series of colored dots to focus on specific ancestor events and locations.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Explore two series of green dots until they open with ancestor events.</li><li>* Proficient: Same as Good, for four series. Also open a colored dot with initials to view that ancestor's events.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/app-places2.png"
+                    ],
+                    "text": "<ol><img src=\"img/an/app-places2.png\" width=\"250px\" style=\"float:right; margin-left:16px; margin-top:8px; border:1px solid #000; padding:0px;\"><li>In the Home screen, tap the pin icon at the top. A world map appears, with the total number of ancestor events in colored circles.</li> <li>To see more colored circles, spread the view or swipe in any direction. You may also see circles that contain the initials of various ancestors who lived in the areas close by.</li><li>Tap a colored circle. If it leads to more colored circles, tap another until an event window opens at the bottom of the screen. This displays the ancestor's name and one or more event summaries in the ancestor's life. To view the Facts screen for the person, tap the name; to view event details, tap the event entry. To see more entries, swipe up; to close the view, swipe down.</li> <li>Tap a brown circle. If all events for that circle occurred in the same city, the event window is displayed. If events for the circle are spread across multiple locations, the map zooms in to show an additional circle for each location.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Use additional Ancestral Places features.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>To search for an ancestor in Ancestral Places, <br>a) Tap the magnifying glass icon (upper left); <br>b) Type a name to find in the list and select it, or scroll the list and select a name. The map relocates to show the events.</li><li>To filter the Facts that are used in the events view, <br>a) Tap the Filter icon (upper right); <br>b) Select each Fact type in the list to be used for the seearch, and <br>c) Tap <b>Done</b>. The next searches you do will use this modified events list.</li><li style=\"list-style:none\"><i>Note</i> : The streets and items of interest shown in the low levels of the map reflect the current day, not previous historical locations that are different.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Gallery and Media",
+        "name": "Add media and use the Ancestry Gallery.",
+        "section_name": "Add media and use the Ancestry Gallery.",
+        "summary": "<p>You can add Lifestory events, documents, and photos, and manage them in the Ancestry Gallery.</p>",
+        "choices": [
+            {
+                "name": "Add and manage Lifestory events.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>View Lifestory events for ancestors.</li><li>Review Historical Insights.</li><li>Add or edit Lifestory events.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: View and review one or more Historical Insights for two ancestors, keeping them if desired.</li><li>* Proficient: Same as Good, for at least four ancerstors.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/app-hi1.png"
+                    ],
+                    "text": "<ol><li>To see LifeStory events, <br>a) Open the Profile for an ancestor; and <br>b) Tap the <b>Lifestory</b> tab (far left). Ancestry supplies a Summary entry for the ancestor, as well as vital events for the person and other family members (using a gray background). These are arranged in chronological order. Other events may be included if data was imported from a GEDCOM file.</li> <img src=\"img/an/app-hi1.png\" width=\"250px\" style=\"float:right; margin-left:16px; margin-top:8px; border:1px solid #000; padding:0px;\"><li>Historical Insights may be provided by Ancestry in the LifeStory tab. When you find one, you can read the Historical Insights page. To remove the insight, tap <b>Remove Insight</b>. <i>Note</i> : A dismissed Historical Insight cannot be retrieved.</li><li>There may be other relatives to which a Historical Insight may be applied. You can tap <b>Keep</b> for any of them.</li><li>To remove an insight from a person's LifeStory, open the insight and tap <b>Remove Insight</b>.</li><li>You can also add an event. See <a class=\"lk\" href=\"project-2-family-tree-an-app02.html#c\">Choice C</a> in Goal 2 for steps on adding facts.</li><li>Read these articles for more information on the LifeStory feature.<br><br><a href=\"https://support.ancestry.com/s/article/LifeStory\" target=\"_blank\"><span><img src=\"img/doc.png\" width=\"20\"></span><span class=\"re\"> AC—Editing or Printing a LifeStory</span></a><br><a href=\"http://annettekapple.blogspot.com/2022/11/using-ancestrycom-lifestory-to-share.html\" target=\"_blank\"><span><img src=\"img/doc.png\" width=\"20\"></span><span class=\"re\"> Using Ancestry.com LifeStory To Share Documents In A Timeline Format</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "View, edit, or delete Gallery items.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: View and edit two or more Gallery items.</li><li>* Proficient: View and edit two or more Gallery items for at least two ancestors.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/app-gallery-details1.png"
+                    ],
+                    "text": "<ol><li>In a person's Profile, the <b>Gallery</b> section appears below the Search button. Photos, stories, and documents that have been added to the Gallery appear here.</li><li>To view an item, tap its picture.</li><li>To share an item, tap <b>Share</b> (upper right left), select a \"Share via\" method, and follow the prompts.</li><li>To see details for an item, tap the Info icon (lower right). You may need to scroll down to see the entire list.</li><img src=\"img/an/app-gallery-details1.png\" width=\"250px\" style=\"float:right; margin-left:16px; margin-top:8px; border:1px solid #000; padding:0px;\"><li>To edit details for a photo, tap <b>Edit</b>. You can update the following details:<ul style=\"margin-left:-88px;\"><li>Tag a person—To tag a person for this item, <br>a) Tap the \"Tag people\" link; <br>b) Tap a rectangle that corresponds to a person; <br>c) Tap the \"Suggested\" entry to tag that person, or use the Search tool to find and select a person to tag; and <br>d) Tap <b>Done</b>. The person now has a name link instead of the taqgging rectangle. To remove the link, tap the three-dot icon for :In this image\" and select <b>Remove Tag</b>.</li><li>Title</li><li>Date—Tap the \"x\" if you want to remove the date.</li><li>Location—Tap the \"x\" if you want to remove the location.</li><li>Description</li><li>Category—Tap the down-arrow to select a Category for the item.</li></ul></li><li>To use this photo as the primary one for the ancestor, tap the check box.</li><li>To save your changes, tap <b>Save</b> (upper right).</li><li>To remove a Gallery item, <br>a) Open the Gallery tab; <br>b) Find the item you want to remove and tap its three-dot menu (lower right of the item); and <br>c) Select <b>Remove from Gallery</b> (or  <b>Delete from Tree</b>) and then tap <b>OK</b>.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Add a Gallery item.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Add two or more Gallery items.</li><li>* Proficient: Same as Good, for at least two different ancestors.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>In the Gallery tab, tap the green plus icon.</li><li>If you want to take a photo, tap <b>Take Photo</b>. If a prompt appears that asks about Ancestry accessing files on your device, tap <b>Allow</b>. Take the picture, and then tap the check mark to approve (or the trash icon to take a different photo). Then skip ahead to the \"Add Media\" step below.</li><li>To upload a photo or document from your device, <br>a) Tap the green plus icon; <br>b) Tap <b>Upload from Device</b>; <br>c) Navigate to the photo you want, and open it; and <br>d) Tap <b>Save</b> (upper right)..</li><li><b>Add Media</b>\" Update the following fields if desired:<ul style=\"margin-left:-88px;\"><li>Title</li><li>Date—Tap the \"x\" if you want to remove the date.</li><li>Location—Tap the \"x\" if you want to remove the location. The location is automatically filled in if you took a photo.</li><li>Description</li><li>Category—Tap the down-arrow to select a Category for the item.</li><li>Document details/transcription</li><li>Linked to</li><li>Tag a person—To tag a person for this item, <br>a) Tap the \"Tag a person\" link; and <br>b) Type and select the person in your tree. The person now appears in the \"Linked to: section. To remove the link, tap the minus icon.</li></ul></li><li>To save your changes, tap <b>Save</b> (upper right).</li><li>To learn more about adding media, watch this video after the 6:15 timing. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.ancestryacademy.com/meet-the-ancestry-app-your-family-story-anytime-anywhere/videos/adding-records-photos-and-stories-to-your-family-tree\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">AAC—Adding Records, Photos, and Stories to Your Family Tree—7:34</span></a> (account required)</li><br><li>To learn about adding media with the Shoebox app, watch this video. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.ancestryacademy.com/meet-the-ancestry-app-your-family-story-anytime-anywhere/videos/adding-media-to-your-family-tree\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">AAC—Adding Media to Your Family Tree—3:24</span></a> (account required)</li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Update an ancestor's profile photo.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Update an ancestor's profile photo.</li><li>* Proficient: Same as Good, for at least two different ancestors.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>In the person's Profile, tap the picture (or icon) at the top.</li><li>If the picture you want is shown in the screen, tap it. Or, to add a new picture, tap the green plus icon and follow the steps in Choice C for adding a media item.</li><li>To see additional options, tap the picture you added. You can<ul style=\"margin-left:-66px;\"><li>View Profile Image</li><li>Resize Profile Image—Swipe the image to relocate it under the rectangle on the screen; then tap <b>Done</b> (upper right).</li><li>Change Profile Image—Tap the image you want in the <b>Choose Image </b>screen.</li><li>Remove as Profile Image—(There is no confirmation prompt.)</li></ul></li><br><a class=\"lk\" href=\"javascript:toggleDiv('2-7dx');\">Exercises</a><div id=\"2-7dx\" class=\"hidden\"><ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Update an ancestor's profile photo.</li><li>* Proficient: Same as Good, for at least two different ancestors.</li></ul><hr style=\"margin-left: 20px;\"></div><br><br><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Tree and Account Settings",
+        "name": "Manage Your Tree and Account.",
+        "section_name": "Manage your tree and account settings.",
+        "summary": "<p>This Goal helps you determine settings for your Ancestry tree(s) and account.</p>",
+        "choices": [
+            {
+                "name": "Manage your tree settings.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>In the upper left of your tree screen, tap your ID circle. This displays the Settings screen.</li><li>To read or send messages, tap <b>Messages</b>. You can do the following things:<ul style=\"margin-left:-66px\"><li>Send a new message—a) Tap the plus icon (lower right); <br>b) Type the name or username of the message recipient or search for it in the Member Directory; <br>c) Type the subject and message text; and <br>d) Tap <b>Send</b>.</li><li>Tap a message to read it. If you need to block a user who has sent a message, tap the three-dot icon (upper right).</li></ul></li><li>To view hints you have saved, tap <b>Saved for later</b>.</li><li>To change tree settings, tap the entry in the Active Tree section. If you have other Ancestry trees, you can select one of them ifrom the list.</li><li>Tap the settings wheel for the active tree. You can edit the tree title and description and update the privacy settings. </li><li>In the \"Who you are in the tree\" section, you can specify whether you are the Home person in the tree, or whether to remove yourself from the tree.</li><li>Tap <b>Save</b> (upper right).</li><li>To learn more about Settings, watch this video. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.ancestryacademy.com/meet-the-ancestry-app-your-family-story-anytime-anywhere/videos/controlling-the-ancestry-app-through-the-settings-tab\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">AAC—Controlling the Ancestry App Through the Settings Tab—1:38</span></a> (account required)</li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Update basic account settings.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>In the Settings screen, scroll down to the Settings section and tap <b>Account settings</b>. Other settings on this screen are described in Choice E below.</li><li>To edit your username, <br>a) Tap <b>Edit</b> (next to Username); <br>b) Make your edits, and <br>c) Tap <b>Save</b>.</li><li>To change your password, <br>a) Tap <b>Edit</b> (next to Password); <br>b) Type your current password; <br>c) Type the new password; and <br>d) Tap <b>Save</b>. Make sure the new password conforms to the guidelines on the screen.</li><li>To set the color scheme for your screens, tap <b>Theme</b> and select \"Light\" or \"Dark\".</li><li>To manage the types of notifications you get from Ancestry, tap <b>Notifications</b> and make your choices.</li><li>To manage how Ancestry uses your data, tap <b>Permissions</b> and make your choices.</li><li>To manage the personal traints you want to share with other users or keep private, tap <b>Traits compare access</b> and make your choices.</li><li>To request a download of your Ancestry tree, DNA, and account data, tap <b>Download your data</b> and follow the prompts. This may take up to 30 days.</li><li>If you need to delete your Ancestry account, tap <b>Delete account</b>. This deletes data from all your Ancestry trees, as well as your account data and any DNA results you may have.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Update other settings.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Tap the three-line menu (upper left) and select <b>Account</b>. </li><li>To send feedback to Ancestry about the Ancestry app, <br>a) Tap <b>Feedback</b>; <br>b) Type your message; and <br>c) Tap the green Message icon.</li><li>You can call Ancestry Support using the phone number provided.</li><li>You can read the Ancestry Terms and Conditions, or the Privacy Statement.</li><li>To select whether to share statistics with Ancestry, tap <b>Permissions</b> and set the slider button accordingly.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "DNA Matching",
+        "name": "DNA Matching",
+        "section_name": "Learn about DNA matching and other tools with your test results.",
+        "summary": "<p>DNA matching helps you find others you are related to, based on the results of your DNA test.</p>",
+        "choices": [
+            {
+                "name": "Learn about your DNA Story and ethnicity results.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Review your ethnicity percentages and explore your ethnicity regions on the map.</li><li>* Proficient: Same as Good, and explore your the timelines for at least one of your ethnicity communities, if available.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/dna-story.png"
+                    ],
+                    "text": "<ol><img src=\"img/an/dna-story.png\" width=\"200px\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>In the bottom tab, tap <b>DNA Story</b>. This displays the Ethnicity page, with a world map of ancestor locations and estimated ethnicity percentages. </li><li>You can scroll or zoom the map to see ancestral locations, and tap a country or its \"Story\" button to learn more about it.</li><li>To share your DNA ethnicity information, <br>a) click the <b>Share</b> icon (upper left); <br>b) If you want to add your photo, tap <b>Add your photo</b> and follow the prompts; and <br>c) Select a share icon at the bottom of the screen. </li><li>The <b>Ethnicity inheritance</b> section shows your parents' contribution to your DNA. Tap <b>View breakdown</b> to see the following types of information:<ul style=\"margin-left:-66px;\"><li>Parent 1 and Parent 2 circles—These show amounts of DNA contributed by each parent, from identified regions. You can tap a colored region in either of the circles, or select a region from the list at the bottom (the list may be scrollable).</li><li>Detailed comparison—This shows additional details for each region. To assign parents to each of the half-rings, tap <b>Edit parents</b>. Then based on the segments in the Parent 1 ring, you can select \"Maternal\" or \"Paternal\". The other parent is then assigned to the second ring.</li></ul></li><li>In the <b>Communities</b> section you can tap an area for settlers or immigrants, if available, from your ancestral regions.</li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "To access additional help articles for the Ancestry DNA screens, see the Help Communities page.",
+                                "links": [
+                                    {
+                                        "link": "https://www.ancestry.com/cs/dna-help/communities",
+                                        "text": "Help Communities page",
+                                        "type": "video"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "To learn how to get the most from your ethnicity results, read this article.",
+                                "links": [
+                                    {
+                                        "link": "https://support.ancestry.com/s/article/Getting-the-Most-from-your-AncestryDNA-Test-Results-Part-2-of-3-1460089700555",
+                                        "text": "AC: Making the Most of Your Ethnicity Estimate",
+                                        "type": "document"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Learn how to track ethnicity with your Ancestry DNA match results.",
+                                "links": [
+                                    {
+                                        "link": "https://www.youtube.com/watch?v=Qd8S1HomEW8",
+                                        "text": "Ethnicity and Matching—37:20 - 2015",
+                                        "type": "video"
+                                    },
+                                    {
+                                        "link": "https://www.youtube.com/watch?v=HOy0v3VGz6I",
+                                        "text": "Ethnicity, Cousin Matching, and Family Trees—28:03 - 2014",
+                                        "type": "video"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Explore your DNA matches.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: For two DNA match persons, explore ancestor birth locations and compare ethnicity percentages.</li><li>* Proficient: Same as Good, for at least four DNA match persons.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/dna-thru-matches.png"
+                    ],
+                    "text": "<ol><li>In the bottom tab, tap <b>Matches</b>.</li><img src=\"img/an/dna-thru-matches.png\" width=\"600px\" style=\"float:right; margin-top: 8px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>In the \"side of the family\" screen, tap <b>Explore now</b>. Your DNA matches with other Ancestry members are listed according to closest match (highest number of shared centimorgans). Categories are Parent/child, immediate family, first cousin, second cousin, etc.</li><li>Tap a name tile to see any of the following information for the DNA match:<ul style=\"margin-left:-66px;\"><li>Relationship</li><li>About</li><li>Trees—See linked tree information, if available</li><li>Shared matches (same as what is shown in the previous screen)</li><li>Ethnicity Estimates—Percentages by region, for you and the match person</li><li>Shared Communities—You can tap an area for settlers or immigrants, if available, from your ancestral regions.</li></ul></li><li>To type private notes about the match person, tap the document icon, type a note, and tap <b>Save</b>.</li><li>In the Common Ancestors box, tap an ancestor name. A diagram appears, showing your relationship to the match.</li><li>Below the Common Ancestors box, the Surname box on the left shows surnames that occur in both your tree and the match person's tree. The box on the right shows surnames that appear only in the match person's tree. You can click a name to see one or more profiles.</li><li>Below the Shared Surnames box, the <b>Birth locations</b> box appears with a map that shows birth locations in both the trees. You can navigate the map and tap pins to see the common ancestors that correspond to these shared locations (the list of ancestors may scroll left to right).</li><li>To sort the list of matches, tap the dual-arrows icon at the top. You can sort by relationship (close to distant) or date (when the match information became available, from recent to earlier).</li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "For more information on AncestryDNA shared matches, read this article.",
+                                "links": [
+                                    {
+                                        "link": "https://support.ancestry.com/s/article/AncestryDNA-Shared-Matches",
+                                        "text": "AC: AncestryDNA® Shared Matches",
+                                        "type": "document"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "To learn more about Ancestry DNA matching, read these articles.",
+                                "links": [
+                                    {
+                                        "link": "https://support.ancestry.com/s/article/AncestryDNA-Matches",
+                                        "text": "AC: AncestryDNA Matches",
+                                        "type": "document"
+                                    },
+                                    {
+                                        "link": "https://support.ancestry.com/s/article/Making-the-Most-of-AncestryDNA-Matches",
+                                        "text": "AC: Making the Most of AncestryDNA Matches",
+                                        "type": "document"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Use groups to organize matches.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Create a group of DNA match persons and add at least three persons to it. Then view the group.</li><li>* Proficient: Same as Good, creating three or more groups.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/dna-add-group.png"
+                    ],
+                    "text": "<ol><img src=\"img/an/dna-add-group.png\" width=\"250px\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>To add a person in the list to a group of DNA matches, tap the circle-plus icon at the top of the screen and then tap the check box for each person to be included.</li><li>To display a star by the name of each match you selected, tap <b>Starred matches</b>.</li><li>To hide selected matches in the list, tap <b>Hide selected matches</b>.</li><li>Tap <b>Done</b>. The stars now appear next to selected names, and any names markes as hidden do not appear in the list. (To show hidden names again, see Choice D below.)</li><li>To create a group, <br>a) Tap <b>Create custom group</b>; <br>b) Type a name for the group; <br>c) Select a color for the group; and <br>d) Tap <b>Done</b>.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Use filtering for DNA matches.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Search for one person in the list, use one filter for the match list, and create a note for one person.</li><li>* Proficient: Same as Good, with two persons for each.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-laptop-trio.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/y-laptop-trio.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 350px;; border:1px solid #000; padding:0px;\"><li>To filter the DNA match list, tap the Filters icon (upper right).</li><li>To filter by unviewed matches, common ancestors, people you have messaged, or people with notes you have written, tap the corresponding boxes.</li><li>In the \"By Parent\" section, select which parent side (or both, or unassigned) to be included. You can also select names that have custom labels. (You can click the down-arrow to hide any of the major categories.)</li><li>To remove the note, <br>a) Click the note link; <br>b) Delete all the characters in the note, and <br>c) Click <b>Save</b>. </li><li>In the \"Trees\" section, select the type of trees to include in the list.</li><li>In the \"Shared DNA\" section, choose whether to show all matches, close matches, or distant matches. You can also adjust the Custom Centimorgan Range tool to set the centimorgan limits for the displayed matches.</li><li>In the \"Groups\" section, choose whether to show new matches, favorites, hidden matches, or any of the custom groups you vae created.</li><li>Tap <b>Done</b> to save your changes.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about DNA ThruLines.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Use the steps above to explore ThruLines for one ancestor.</li><li>* Proficient: Same as Good, for at least two ancestors.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/thrulines-1.png"
+                    ],
+                    "text": "<p>ThruLines™ is an Ancestry feature that illustrates how you may be connected to a particular DNA matching person through a common ancestor.</p><ol><li>In the main <b>Settings</b> screen, scroll down to the AncestryDNA section and select <b>ThruLines</b>. </li><li>To learn about the purpose and characteristics of ThruLines, click the <b>question mark</b> (upper right) or read the ThruLines text on the screen.</li><img src=\"img/an/thrulines-1.png\" width=\"600px\" style=\"float:right; margin-top: 8px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>In the main ThruLines screen, click a picture or icon. A ThruLines diagram is displayed, showing yourself at the bottom, with your father just above (or a number link you can tap to see extra generations, if included). See Choice B for more information on DNA matches.</li><li>The number of DNA matches for an ancestor's children in ThruLines is displayed just below the ancestor box. You can tap the right or left arrow to scroll through the list. You can tap any of the people in ThruLines to view their profiles.</li><li>To filter the ThruLines list, click <b>Filter by:</b> (upper left) and select one of the filter criteria.</li><li>To scroll through other children for the ancestor, click the left or right arrow below the ancestor name box.</li><li>To switch from diagram to list view, tap the list icon above the first ancestor name.</li><li>To share your DNA matches page, click the <b>Share</b> icon (upper right), select a sharing method, and follow the prompts.</li></ol><h5>Evaluate DNA Matches</h5><ol><li>If an <b>Evaluate</b> button appears for a person, you can tap it to display the following information:<ul style=\"margin-left:-66px;\"><li>Relationship Records—Includes sources that may support your relationship to the selected person.</li><li>Trees Linked to DNA Matches—Shows which member trees linked to your DNA matches have identified relationships shown in ThruLines, including tree owner profiles.</li><li>Ancestry Member Trees—Shows other member trees that have identified relationships shown in ThruLines, including tree owner profiles.</li></ul></li><li>Tap <b>Next</b>.</li><li>Select any of the record sources that you want to use for adding the selected person to your tree.</li><li>Tap <b>Add to tree</b>.</li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "For more information on DNA ThruLines, read the article or watch the video.",
+                                "links": [
+                                    {
+                                        "link": "https://support.ancestry.com/s/article/AncestryDNA-ThruLines",
+                                        "text": "AC: AncestryDNA® ThruLines™",
+                                        "type": "document"
+                                    },
+                                    {
+                                        "link": "https://www.youtube.com/watch?v=ofBarqj2wA8",
+                                        "text": "ThruLines™ Q&A—37:05 - 2019",
+                                        "type": "video"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Get tips on working with ThruLines in this video.",
+                                "links": [
+                                    {
+                                        "link": "https://www.youtube.com/watch?v=68IlobGfAlg",
+                                        "text": "AC—Ancestry® Genealogist Christa Cowan Works with ThruLines™—19:26 - 2020",
+                                        "type": "document"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Use the List view in ThruLines.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/dna-list-view.png"
+                    ],
+                    "text": "<ol><img src=\"img/an/dna-list-view.png\" width=\"250px\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Near the top of the ThruLines page, click the <b>List</b> icon.</li><li>Click a name tab (or matches link) to see DNA matches for the selected ancestor. Column 1 = match name and link to profile; Column 2 = DNA relationship and link; Column 3 = tree relationship and tree size.</li><li>Click the cM (centimorgans) link to learn more about the shared DNA characteristics with the matching person.</li><li>Click <b>View Relationship</b> to see a diagram with family relationship between you and the DNA match.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

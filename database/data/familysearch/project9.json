@@ -1,0 +1,601 @@
+[
+    {
+        "nav_name": "Pedigree",
+        "name": "Pedigree View",
+        "section_name": "Download the app and navigate the tree in Pedigree view.",
+        "summary": "<p>The FamilySearch Family Tree app enables you to do many essential FamilySearch tasks right from your mobile device.</p>",
+        "choices": [
+            {
+                "name": "Download the FamilySearch Tree app and sign in to FamilySearch.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Download the Family Tree app for Android or Apple devices.</li><li>Set up a FamilySearch account if necessary.</li><li>Sign in to FamilySearch.</li></ul><hr style=\"margin-left: -20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/app-stores.png"
+                    ],
+                    "text": "<ol><img src=\"img/app-stores.png\" width=\"300px;\" style=\"float:right; margin-left:20px; margin-right:-20px;\"><li>If you are using an Android device, visit the Google Play store to download the app. If you are using an Apple device, visit the Apple store. Read the article to get started.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/en/blog/family-tree-app-features\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—FamilySearch Tree App</span></a></li> <br><li>If you do not have a free FamilySearch Account, click <b>Create an Account</b>.For more help with your FamilySearch account, refer to <a class=\"lk\" href=\"project-1-family-tree13.html\">Goal 13: Account</a>.</li><li>Tap the FamilySearch Tree icon on your screen.</li><li>Type your username and password, and tap <b>Sign In</b>. If you have forgotten your username or password, tap the link for username or password for help. For help with recovering an account or password, read this article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/help/helpcenter/article/i-forgot-my-familysearch-password-or-username\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Retrieve a Forgotten Name or Retrieve a Password - 2020</span></a></li><br><li>To sign out of FamilySearch, tap the menu (upper left) and select <b>Sign Out</b>.</li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "For an overview of the Family Tree app, watch these videos.",
+                                "links": [
+                                    {
+                                        "link": "https://www.youtube.com/watch?v=EhuMWUQpafs&t=2m56s",
+                                        "text": "BYU—Discovering the FamilySearch Family Tree App—40:12 - 2019",
+                                        "type": "video"
+                                    },
+                                    {
+                                        "link": "https://www.youtube.com/watch?v=F-a_E7FwQNQ",
+                                        "text": "FS—How to Discover More about Your Family on the Family Tree App—5:37 - 2021",
+                                        "type": "video"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Move around in the Pedigree screen.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Display your family tree and move around in it.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Proficient: After signing in, display your family tree and move it around on the screen.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/app/1-family-tree1.png"
+                    ],
+                    "text": "<p>When you are signed in to FamilySearch, the Pedigree screen appears, showing available photos of your ancestors in Family Tree. Couples are shown side-by-side, and parent relationships are shown with connected lines. This is similar to the Portrait view in the web version of FamilySearch. </p><ol><li>Drag or swipe in any direction to move the family tree view around.</li><li>Pinch or spread to zoom the view.</li><li>If you would like to work on some tasks from FamilySearch, tap <b>Get Started</b> (bottom of the screen). You can tap \"Don't Show Again\" to remove the Get Started button.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Expand and contract family lines, and change the home person in the tree view.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Expand lines to see more ancestor generations.</li><li>Contract lines to close them, so other lines can be expanded.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Tap several different up-arrows (if available) and notice the family lines that open to view. Then tap all the down-arrows that are showing to return to the original view.</li><li>* Proficient: Expand each line in your family tree back at least five generations (or as many as are available). Contract views whenever needed to allow other lines to open.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/app/1-family-tree-children.png"
+                    ],
+                    "text": "<ol><a href=\"img/app/1-family-tree-children.png\" target=\"_blank\"><img src=\"img/app/1-family-tree-children.png\" width=\"300px;\" style=\"float:right; margin-left:20px; margin-top:8px; border:1px solid #000; padding:0px;\"></a><li>To view previous generations in the pedigree, tap an <b>up-arrow</b>. Up to two additional generations are displayed at the top of the screen, connected by lines and brackets.</li><li>To contract and return to the previous view, tap a <b>down-arrow</b>.</li><br><li style=\"list-style: none\"><i>Note </i>:  Only one expanded line is shown at a time for the same generation. When you tap an additional up-arrow in the same generation, the other expanded line is automatically contracted.</li> <li>Notice the ancestor surnames and marriage information as you go.</li><li>Practice navigating around your part of the tree, opening and closing branches until you feel comfortable exploring your family lines.</li><li>To change the home (lowest) person who appears in your tree view, <br>a) Tap the picture for the person who should be in the first position; <br>b) Tap the dots menu (upper right) and select <b>View This Tree</b>. Children and their spouses now appear below the new home person. To return to the view with the original home person, tap the <b>house icon</b> (lower right).</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Use the Find, History, and View My Relationship features.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Find ancestors in the tree by ID or by name.</li><li>Use the History List to display recently viewed ancestors.</li><li>See relationship between you and your ancestors in a diagram format.</li></ul><hr style=\"margin-left: -20px;\">"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Find an ancestor by ID and another by name. Then view your relationship to each.</li><li>* Proficient: Same as Good, for two ancestors each.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/app/1-find-by-id.png",
+                        "https://www.thefhguide.com/img/app/1-find-by-name.png",
+                        "https://www.thefhguide.com/img/app/1-view-relationship.png"
+                    ],
+                    "text": "<ol><img src=\"img/app/1-find-by-id.png\" width=\"250px;\" style=\"float:right; margin-left:20px; border:1px solid #000; padding:0px;\"><li>To find an ancestor who is in your part of the tree, tap the <b>magnifying glass</b> (upper right).</li><li>If you know the ID number for the ancestor, <br>a) Tap \"Find by ID\"; <br>b) Type the ID number and select the checkmark in the keyboard; and <br>c) Tap <b>Find</b>.</li><br><br><img src=\"img/app/1-find-by-name.png\" width=\"250px;\" style=\"float:right; margin-left:20px; border:1px solid #000; padding:0px;\"><li>If you do not know the ID number, use the \"Find by Name\" option: a) Type the first and last name; <br>b) In the Vitals and Family Members sections, provide any information you want to use for the search; and <br>c) Tap <b>Find</b> (upper right).</li><br><br><li>To see a list of people you have recently viewed in FamilySearch, tap the Person icon (upper right). From the list you can select a person to view. If you want to search by ID, <br>a) Type the ID number in the top field; <br>b) Tap the checkmark on the keyboard to complete the entry; and <br>c) Tap the magnifying glass.</li><li>To exit the Recents list, tap the left-arrow (top).</li><li style=\"list-style: none\"><i>Note </i>: The Recents list contains up to 50 entries, including ancestors you may have browsed in the web version of FamilySearch. Also, your name stays at the top of the History list.</li><br><a href=\"img/app/1-view-relationship.png\" target=\"_blank\"><img src=\"img/app/1-view-relationship.png\" width=\"250px;\" style=\"float:right; margin-left:20px; border:1px solid #000; padding:0px;\"></a><li>To see how you are related to a particular ancestor, <br>a) In the main screen, tap an ancestor's portrait; and <br>b) Tap the three-dot menu and select \"View My Relationship.\" A diagram appears, showing the connection between you and the selected ancestor. The diagram can extend up to 15 generations. To close the diagram, tap the \"x\" (upper left). </li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Understand the privacy rules for FamilySearch that determine how information for living persons is handled.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>You can see the record of a living person only if you created it.</li><li>Living people you create are hidden from everyone else, including the individuals themselves and your other family members.</li><li>Living people have a Private Person banner at the top of their Person page.</li><li>Memories attached to living people are potentially viewable by anyone.</li><hr style=\"margin-left: 20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Proficient: Review the bullet points in the summary and write down 3 key learnings from the privacy policy document in this Choice.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/1-privacy.jpg"
+                    ],
+                    "text": "<p><i>Note</i> : Generally, data for living people outside your immediate family cannot be viewed or searched for.</p><ol><img src=\"img/1-privacy.jpg\" width=\"300px\" style=\"float:right; margin-left:16px;\"><li>Read this document to learn about the FamilySearch privacy policy and how it affects what you can see in the tree.<br><br> <span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/article/who-can-see-my-living-relatives-in-family-tree\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Who Can See My Living Relatives - 2020</span></a></li><br><li>For more information on privacy concerns and genealogy, watch this video.<br><br> <span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=StqbR-o2Mp8&amp;t=2m4s\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">BYU—Privacy Concerns and Genealogy—68:24 - 2016</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/StqbR-o2Mp8?start=124;rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "(Optional) If your family tree is empty or very small, begin to fill it out.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Link your living ancestors to deceased ancestors if needed.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/1-tree1.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/1-tree1.jpg\" width=\"250px;\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Read this article to learn how to add living individuals and link them to deceased ancestors in Family Tree.<br><br> <span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/article/how-do-i-add-living-relatives-to-a-person-in-family-tree\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"><span class=\"re\"> FS—Adding a Living Individual to Family Tree - 2020</span></a></li><br><br><li>Go to the <a class=\"lk\" href=\"https://www.familysearch.org/home/etb_gettingstarted\" target=\"_blank\">FamilySearch Getting Started</a> page to get help adding ancestors, starting with your parents.</li><li>Return to Choice A above to work on navigation skills.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Use the Fan Chart view.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Create and view three of the above charts for a selected ancestor.</li><li>* Proficient: Create and view all of the above charts for a selected ancestor.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/app/1-chart-fan.png"
+                    ],
+                    "text": "<ol><a href=\"img/app/1-chart-fan.png\" target=\"_blank\"><img src=\"img/app/1-chart-fan.png\" width=\"300px;\" style=\"float:right; margin-left:20px; border:1px solid #000; padding:0px;\"></a><li>To enable the fan chart view, tap the blue icon (lower right) and then tap the fan icon. To return to the Pedigree view, tap the blue icon and select the pedigree icon.</li><li>To change the view, pinch or spread, or drag the fan chart across the screen.</li><li>To display Person information, tap a name in the chart. You can select this person to appear first in the Fan Chart by tapping <b>View This Tree</b> (three-dot menu). To return to the Fan Chart, tap the <b>Back arrow</b>. For more information on the Person view, see <a class=\"lk\" href=\"project-1-family-tree-app02.html\">Goal 2</a>.</li><li>Children are listed below the main person in the view. To see additional children, if available, tap the arrow at the end of the list of children.</li><li>To see additional spouses, if available, tap the arrow next to the spouse name.</li><li>The following options are available when you tap the Options icon (lower right):<ul style=\"margin-left:-66px;\"><li>Number of generations (default is four)—Tap the down-arrow and select a value from four to seven. You may need to adjust the view to see the additional ancestors.</li><li>Family Lines (default)—Show the fan chart in normal view.</li><li>Birth Country—The fan chart names are color-coded by country of birth, using the legend (lower left).)</li><li>Sources—The fan chart names are color-coded by number of sources attached, from 0 to 10+, using the legend (lower left).</li></ul></li><li>To remove the color-coding, tap the <b>Family Lines</b> option. To remove the options panel, move the horizontal bar downward.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Person View",
+        "name": "Person View",
+        "section_name": "View the life details for an ancestor. Vault",
+        "summary": "<p>Once you locate ancestors in Family Tree, you can read a variety of important details about them.</p>",
+        "choices": [
+            {
+                "name": "Open a Person screen and view, edit, or add details.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Open a Person view from the Tree screen.</li><li>View the life details for the selected person.</li><li>Add or edit details for life events.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Access the Person view for two ancestors and add an information entry for one of them.</li><li>* Proficient: Same as Good, for three ancestors, updating at least one entry for each of them.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/app/2-person-view.png",
+                        "https://www.thefhguide.com/img/app/2-event-detail.png",
+                        "https://www.thefhguide.com/img/app/2-event-add.png"
+                    ],
+                    "text": "<ol><a href=\"img/app/2-person-view.png\" target=\"_blank\"> <img src=\"img/app/2-person-view.png\" width=\"250px;\" style=\"float:right; margin-left:20px; margin-top:8px; border:1px solid #000; padding:0px;\"></a><li>To display a Person screen, tap the portrait of one of the people in the Tree view.</li><li>Scroll through the following sections of the Details tab in the Person screen: <ul style=\"margin-left: -66px;\"><li>Vitals—Birth, death, and burial information</li><li>Other—Marriage, residence, and miscellaneous information</li><li>Notes—Explanations, descriptions of events, etc.</li><li>Life Sketch (if available)—Brief history of the person's life</li></ul></li><br><img src=\"img/app/2-event-detail.png\" width=\"250px;\" style=\"float:right; margin-left:20px; margin-top:8px; border:1px solid #000; padding:0px;\"><li>Also note the ID number of the person, found at the top of the screen under the person's name. This can be used for searches and other tasks.</li><li>To edit an existing entry in the Details tab, <br>a) Tap the entry name; <br>b) Tap <b>Edit</b> for the entry you want to update; <br>c) Type the new information (select standardized information whenever possible); <br>d) Provide a reason statemsnt for the changes; and <br>e) Tap <b>Save</b> (upper right). You can also delete an entry by clicking the <b>Delete</b> link.</li><br><a href=\"img/app/2-event-add.png\" target=\"_blank\"> <img src=\"img/app/2-event-add.png\" width=\"250px;\" style=\"float:right; margin-left:20px; margin-top:8px; border:1px solid #000; padding:0px;\"></a><li>To add a new entry in the Details tab, <br>a) Tap the <b>plus sign</b> (lower right); <br>b) In the <b>Add Information</b> screen, tap the entry to be added; <br>c) Type the new information (select standardized information whenever possible); <br>d) Provide a reason statemsnt for the changes; and <br>e) Tap <b>Save</b> (upper right).</li><li>If the changes you made do not immediately appear in the Person screen, you can refresh the screen (in the three-dot menu, select <b>Refresh Person</b>).</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Add a spouse.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Add a spouse for an ancestor in the tree, using an ID number to search, or typing the name.</li></ul><hr style=\"margin-left: -20px;\">"
+                        },
+                        {
+                            "type": "exercise",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Proficient: Add a spouse to one or more ancestors in the tree.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/app/2-spouses.png"
+                    ],
+                    "text": "<ol><img src=\"img/app/2-spouses.png\" width=\"250px;\" style=\"float:right; margin-left:20px; margin-top:8px; border:1px solid #000; padding:0px;\"><li>In a Person view, tap the <b>Spouses</b> tab (top menu bar).</li><li>To add a spouse for the ancestor, <br>a) Tap <b>Add Spouse</b> (bottom of the screen).</li><li>To use an ID number (the preferred method if the person exists in the tree), <br>a) Tap \"Add by ID\"; <br>b) Type the ID number and select the checkmark in the keyboard; and <br>c) Tap <b>Continue</b>. If a match is found, tap <b>Add</b> (upper right) to add the spouse.</li><li>If you do not know the ID number, <br>a) Type the spouse's first and last name (Title and Suffix may also be included, and you can select a language for name entry in the top drop-down list); <br>b) Tap <b>Continue</b>; <br>c) Select \"Living\" or \"Deceased\"; <br>d) Using standardized entries, type the birth date and place if known (for a deceased spouse, also type the death date and place if known); and <br>e) Tap <b>Continue</b>.</li><li>If FamilySearch finds a person in the tree that appears to match the data you entered, a screen with possible matches appears. If one of them is a match, tap <b>Add Match</b> for that name. Otherwise, tap <b>No Match</b>.</li><li>In the \"Your Entry\" screen, tap <b>Add This Person</b>.</li><li>If you mistakenly added a new person through \"No Match,\" tap the three-dot icon and select <b>Delete Person</b> and then follow the prompts. <i>Important</i> : Do not delete a person in Family Tree unless you, or someone you are helping, added that person to the tree. To remove a spouse from a marriage or child from a family, see the Choices below.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "View or edit spouse information for an ancestor.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>View information for the spouse of an ancestor.</li><li>Update the information for the spouse of an ancestor.</li></ul><hr style=\"margin-left: -20px;\">"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: View information for two spouses in the tree and update information for one of them.</li><li>* Proficient: View information for three spouses in the tree and update information for each of  them.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/app/2-spouse-detail.png",
+                        "https://www.thefhguide.com/img/app/2-marriage-edit.png"
+                    ],
+                    "text": "<ol><img src=\"img/app/2-spouse-detail.png\" width=\"250px;\" style=\"float:right; margin-left:20px; margin-top:8px; border:1px solid #000; padding:0px;\"><li>To access spouse information, in the Person screen tap the <b>Spouses</b> tab or swipe left.</li><li>To see marriage information for the ancestor and a spouse, tap the down-arrow next to the spouse's name. If there are multiple spouses, you can select any of them for viewing.</li><li>To view the Person details for a spouse, tap the spouse's name in the list. You can also edit the spouse's personal information in this screen, and you can return to the original ancestor's details by tapping that person's name at the top of the list.</li><li>If there are multiple spouses listed, you can change the preferred spouse (the one that will appear in the tree view). To do this, <br>a) Tap the down-arrow next to the spouse's name; and <br>b) Tap <b>Preferred Spouse</b>.</li><img src=\"img/app/2-marriage-edit.png\" width=\"250px;\" style=\"float:right; margin-left:20px; margin-top:8px; border:1px solid #000; padding:0px;\"><li> To edit marriage information for the selected spouse and the ancestor, <br>a) In the Person view, tap the pencil icon (right edge); <br>b) Review the information in the <b>Relationship Events</b> section and tap <b>Edit</b> (right edge); <br>c) If the event is other than a marriage, select the event type from the drop-down arrow; <br>d) Type the necessary information in the fields, including a reason statement at the bottom; and <br>e) Tap <b>Save</b> (upper right). Or if you want to remove the marriage event, tap the \"Delete Marriage Event\" link.</li><li>To add a marriage event, <br>a) In the Edit screen tap <b>Add Event</b> and then fill in the information and tap <b>Save</b>.</li>  <li>To add a relationship event, such as the couple having no children, <br>a) In the Edit screen tap <b>Add Fact</b> and then fill in the information and tap <b>Save</b>.</li>  <li>To add a relationship note, <br>a) In the Edit screen tap <b>Add Note</b> and then fill in the information and tap <b>Save</b>.</li>  <li>To remove a spouse from a marriage, <br>a) Go to the Edit screen for the marriage (see the previous step); and <br>b) Tap the <b>Remove or Replace (Wife/Husband)</b> (in red) and follow the prompts.</li>  </ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Add a child to a family.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Add a child for an ancestor in the tree, using an ID number to search, or typing the name.</li></ul><hr style=\"margin-left: -20px;\">"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Proficient: Add one or more children to an ancestor in the tree.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/app/2-child-add-detail.png"
+                    ],
+                    "text": "<ol><br><p><i>Note </i>: If the Home person has children, they appear with their spouses below the Home person in the Pedigree view.</p><li>Open a Person view for the ancestor who needs a child added, and tap <b>Spouses</b>.</li><li>At the bottom of the Person view, tap <b>Add Child</b>.</li><img src=\"img/app/2-child-add-detail.png\" width=\"250px;\" style=\"float:right; margin-left:20px; margin-top:8px; border:1px solid #000; padding:0px;\"><li>To use an ID number (the preferred method if the child exists in the tree), <br>a) Tap \"Add by ID\"; <br>b) Type the ID number and select the checkmark in the keyboard; and <br>c) Tap <b>Continue</b>. If a match is found, tap <b>Add</b> (upper right) to add the child.</li><li>If you do not know the ID number, <br>a) Select Male, Female, or Unknown for the gender; <br>b) Type the child's first and last name (Title and Suffix may also be included, and you can select a language for name entry in the drop-down list labeled \"Other\"); <br>c) Tap <b>Continue</b>; <br>d) Select \"Living\" or \"Deceased\"; <br>e) Using standardized entries, type the birth date and place if known (for a deceased spouse, also type the death date and place if known); and <br>f) Tap <b>Continue</b>.</li><li>If FamilySearch finds a person in the tree that appears to match the data you entered, a screen with possible matches appears. If one of them is a match, tap <b>Add Match</b> for that name. Otherwise, tap <b>No Match</b>.</li><li>In the \"Your Entry\" screen, tap <b>Add This Person</b>.</li></ol><p><i>Note </i>: If the Home person has children, they appear with their spouses below the Home person in the Pedigree view.</p>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "View information for children or edit their family relationships.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Add a child for an ancestor in the tree, using an ID number to search, or typing the name.</li></ul><hr style=\"margin-left: -20px;\">"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: View information for two children in the tree and update information for one of them.</li><li>* Proficient: View information for three children in the tree and update information for each of  them.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/app/2-child-relationship-details.png"
+                    ],
+                    "text": "<ol><br><p><i>Note</i> : If the Home person has children, they appear with their spouses below the Home person in the Pedigree view. To view other children in the tree, follow the steps below.</p><li>Open a Person view for an ancestor and select <b>Spouses</b>.</li><li>Tap the down-arrow (right side) for the spouse whose children you want to view.</li><li>To open the Person view for any of the children, tap the child's name. (This is the same information shown in the Person view for that individual as an ancestor in the tree.) </li><img src=\"img/app/2-child-relationship-details.png\" width=\"250px;\" style=\"float:right; margin-left:20px; margin-top:8px; border:1px solid #000; padding:0px;\"><li>To edit a child's relationship information, tap the pencil icon (right edge). This displays sections for \"Parents Relationship,\" \"Father,\" and \"Mother.\"</li><li>To delete the relationship between this child and these parents (such as if the parents are not the right ones), tap <b>Remove Parents</b> and follow the prompts.</li><li>To change a relationship type, <br>a) Tap the down-arrow next to the father's or mother's name; <br>b) Tap <b>Edit</b>; <br>c) Select the new relationship type in the drop-down list; <br>d) Type a reason for making the change; and <br>e) Tap <b>Save</b>.</li>  <li>To delete a relationship type, <br>a) Tap \"Delete Relationship Type\"; <br>b) Type a reason for making the change; and <br>c) Tap <b>Save</b>.</li>  <li>To add a relationship type, <br>a) Tap <b>Add Relationship Type</b>; <br>b) Select the new relationship type in the drop-down list; <br>c) Type a reason for making the change; and <br>d) Tap <b>Save</b>.</li>  <li>To delete the relationship between this child and one of the parents, tap <b>Remove or Replace (Mother/Father)</b> and follow the prompts.</li></ol><p><i>Note</i> : If the Home person has children, they appear with their spouses below the Home person in the Pedigree view. To view other children in the tree, follow the steps below.</p>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "View, edit, or add information for parents and siblings.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>View information for siblings in a family.</li><li>Add siblings or edit their information.</li></ul><hr style=\"margin-left: -20px;\">"
+                        },
+                        {
+                            "type": "exercise",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Proficient: View information for two or more siblings, and add a sibling to a family.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/app/2-parents.png"
+                    ],
+                    "text": "<ol><img src=\"img/app/2-parents.png\" width=\"250px;\" style=\"float:right; margin-left:20px; margin-top:8px; border:1px solid #000; padding:0px;\"><li>Open a Person view for an ancestor and select <b>Parents</b>. The parents for the ancestor are listed, along with the ancestor as a child of those parents, and the ancestor's siblings.</li><li>To view details for a sibling, tap the person's name.</li><li>To edit a sibling's relationship information, tap the pencil icon for the person and then tap the down-arrow for the name. This displays the <b>Relationship Details</b> page. For information on adding or changing relationship types, see Choice E above.</li>  <li>Adding a new sibling to a family is similar to adding a new child to a family. Open the Parent tab for the individual needing the sibling, and tap <b>Add Sibling</b> (bottom of screen). Then go to step 3 in Choice D above and follow the rest of the instructions.</li>  <li>To remove a sibling from one or both parents, delete the relationship as explained in Choice E above.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Use the Recent Changes, Follow, and Messages features.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Use Recent Changes to see what information has been changed for an ancestor, and who has changed the information.</li><li>Use the Follow feature to be notified of changes to an ancestor.</li><li>Use the Messages feature to communicate with others about changes to ancestor information.</li></ul><hr style=\"margin-left: -20px;\">"
+                        },
+                        {
+                            "type": "exercise",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: View recent changes for at least two ancestors. Make note of any items that you want to investigate further in your research.</li><li>* Proficient: Same as Good, for at least four ancestors.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/app/2-recent-changes.png"
+                    ],
+                    "text": "<p>These features help you keep track of changes to ancestor information and communicate with others about changes.</p><ol><img src=\"img/app/2-recent-changes.png\" width=\"250px;\" style=\"float:right; margin-left:20px; margin-top:8px; border:1px solid #000; padding:0px;\"><li>To see recent changes made to an ancestor's information, <br>a) Open the Person view for the ancestor; and <br>b) Tap the three-dot menu and select <b>Recent Changes</b>. A list of changes is displayed, including the type of change, the date of the change, and links to contact information for the persons who made the changes. Examples of changes include a story, photo, or source attached; a note or piece of vital information changed; a relationship removed, etc.</li><li>To contact the person who made an information change, <br>a) Tap the green contact link for the person; <br>b) At the bottom of the screen, tap the email address (if provided) to send an email message, or tap <b>Send Message</b> to use the FamilySearch messaging system. For Send Message, type the subject and message material and then tap <b>Send</b>.</li><li>The Follow feature allows FamilySearch to notify you when changes are made to an ancestor you specify. In the Person view, tap the three-dot menu and select <b>Follow</b>. To stop watching for changes to that person, select <b>Following</b> from the menu.</li> <li>To read and respond to messages in Family Tree, tap the three-line menu icon (upper left) and select Messages. The menu shows the number of unread messages in red, and the message list indicates unread messages in bold. Tap a message to read it, and you can send a reply by typing in the \"Send a Message\" field and tapping the <b>Send</b> icon. (Messages sent by FamilySearch do not have a reply feature.)</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Create charts for your part of the tree.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Create pedigree charts, fan charts, and family group sheets for ancestors.</li></ul><hr style=\"margin-left: -20px;\">"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Create and view three of the above charts for a selected ancestor.</li><li>* Proficient: Create and view all of the above charts for a selected ancestor.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/app/1-charts.png"
+                    ],
+                    "text": "<p>You can create pedigree charts, family group sheets, fan charts, and portrait pedigrees for your ancestors in the tree. </p><ol><li>Go to the Person view for the ancestor who will be the focus of the chart.</li><li>In the menu bar, swipe left and tap <b>Charts</b> (upper right).</li><li>The following prompt appears: \"Allow Family Tree to access photos, media, and files on your device? (Deny, Allow)\". Tap <b>Allow</b>.</li><img src=\"img/app/1-charts.png\" width=\"250px;\" style=\"float:right; margin-left:20px; margin-top:8px; border:1px solid #000; padding:0px;\"><li>Choose one of the following chart types:<ul style=\"margin-left:-66px;\"><li>Pedigree—Standard four-generation chart</li><li>Family—Family group sheet, with names of spouses and children</li><li>Family with Sources—Family group sheet, with sources printed at the end (this document can be quite long if the ancestor has many sources)</li><li>Fan Chart—Seven generations in a semi-circular view</li><li>Portrait Pedigree—Four-generation chart with photos (if available) of ancestors in the tree, similar to the Pedigree view</li></ul></li><li>Use the options in the upper-right corner of the screen to save the chart file to an online drive (three-dot menu) or to send it to a location.</li><li>To download a six-generation pedigree chart, <br>a) In the three-bar menu, tap <b>Settings</b>; <br>b) In the <b>Advanced</b> section, tap <b>Download Pedigree</b>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Sources and Record Hints",
+        "name": "Sources and Record Hints",
+        "section_name": "Add and attach sources and record hints to ancestors in Family Tree.",
+        "summary": "<p><i>Note</i> : To learn more about sources and how and why they are used, see <a class=\"lk\" href=\"project-1-family-tree08.html\" target=\"_blank\">Goal 8</a> in Project 1, FamilySearch Family Tree.</p>",
+        "choices": [
+            {
+                "name": "View sources that are attached to an ancestor.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Open record sources and view them to see if they have should be attached to ancestors.</li><li>Use viewing options to enhance how the source image is displayed.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: View one or more sources for two ancestors, using viewing options for the images.</li><li>* Proficient: Same as Good, for four ancestors.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/app/3-sources.png",
+                        "https://www.thefhguide.com/img/app/3-source-detail.png",
+                        "https://www.thefhguide.com/img/app/3-record-image.png"
+                    ],
+                    "text": "<ol><img src=\"img/app/3-sources.png\" width=\"250px;\" style=\"float:right; margin-left:20px; margin-top:8px; border:1px solid #000; padding:0px;\"><li>In the top menu bar for a Person view, tap <b>Sources</b>.</li><img src=\"img/app/3-source-detail.png\" width=\"250px;\" style=\"float:right; margin-left:20px; margin-top:8px; border:1px solid #000; padding:0px;\"><li>Scroll through the list and tap a source to open it. If available, details are displayed for the record, as well as the web page where the online record is stored, the last modification date, and the username link for the person who added or modified the source.</li> <li>To see the image for the record, if available, tap <b>View Image</b> (upper right). Note: If the image is not from FamilySearch, it will open in a browser window on your device.</li><br><br><br><br><img src=\"img/app/3-record-image.png\" width=\"250px;\" style=\"float:right; margin-left:20px; margin-top:8px; border:1px solid #000; padding:0px;\"><li>To control the viewing options, tap the View icon (upper right). The following options are available:<ul style=\"margin-left: -66px;\"><li>Left—Tap to rotate the image to the left.</li><li>Adjust Image—Tap and select values for brightness and contrast, and then tap <b>Apply</b>.</li><li>Invert—Tap change the view to white text on a dark background; tap again to revert to the original view.</li><li>Print—Tap to display a text version of the image, if available.</li><li>Download—Tap to download the image to your Downloads folder. A notification is sent when the download completes.</li><li>Source Box—Save a copy of the record to your Source Box. You can edit the Source Title and type a comments in the Notes field if you want. You can also navigate to a different Source Box folder or create a new one, for the source record. When finished, tap <b>Save</b>.</li></ul></li><li>To display multiple pages of the record on the screen, tap the pages icon (upper left).</li><li>If an attachment for the image is available, you can tap the paper clip icon (upper right) to display it.</li><li>To scroll to a different image in the record collection, tap the left or right arrow (bottom of the screen) or type an number in the box (bottom).</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Review attachments for a source.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>View the attachments for sources to see if they match up with an ancestor in the tree.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Review attachments for at least two sources for two ancestors.</li><li>* Proficient: Same as Good, for three ancestors.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/app/3-record-review.png"
+                    ],
+                    "text": "<ol><img src=\"img/app/3-record-review.png\" width=\"250px;\" style=\"float:right; margin-left:20px; margin-top:8px; border:1px solid #000; padding:0px;\"><li>In the top menu bar for a Person view, tap <b>Sources</b> to show a list of source records for the person.</li><li>Open a source record and then <br>a) Tap <b>Review Attachments</b> (upper left), and <br>b) Tap the name of the person mentioned in the record whose info you want to review.  Information from the source appears on the left, while information from the FamilySearch family tree appears on the right. Differences are noted on the screen.<p><i>Note</i> : If a source in the list has not been attached to all people in the record, a message is displayed to ind=icate that. You can then review or dismiss the attachments from the record.</p></li> <li>To see more information about the source record, tap the Image link (left side).</li><li>To see information about other people mentioned in the source, tap any of the links that appear, and then tap the Back arrow to return. You can also tap a section title (Spouse and Children, Parents and Siblings, etc.) to show or hide additional categories.</li><li>To edit the name of the person in FamilySearch, click the pencil icon next to the name, fill out the new information, and tap <b>Continue</b>.</li><li>If the document is also attached to another person, a message appears at the bottom of the screen, and links are provided to view the person and review the attachment.</li><li>To see information for additional people in the record, tap <b>Next</b>. When you are finished reviewing the record and making updates to Family Tree if necessary, tap <b>Done</b> (upper right).</li><li>To detach the source from an ancestor, <br>a) In the comparison screen, tap <b>Detach</b>; <br>b) Review the information on the \"Detach Source From\" screen, <br>c) Type a reason for detaching the source, and <br>d) Tap <b>Detach</b>. You can also send a message to the person who attached the source by tapping the corresponding username link.</li></ol><p><i>Note</i> : If a source in the list has not been attached to all people in the record, a message is displayed to ind=icate that. You can then review or dismiss the attachments from the record.</p>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Attach a source record to an ancestor.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Locate source records that can be added to ancestors.</li><li>Add sources to ancestor information.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Find two source records and attach them to the corresponding ancestor(s).</li><li>* Proficient: Same as Good, for four source records.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/app/3-search-types.png"
+                    ],
+                    "text": "<ol><li>In the source list for an ancestor, tap the <b>plus icon</b>. In the screen that appears, you can choose to search historical records for a source, or add a source with a web page, or add a source with a photo. In any case, you should be reasonably sure that the source you are looking for has not already been added to the ancestor.</li><img src=\"img/app/3-search-types.png\" width=\"250px;\" style=\"float:right; margin-left:20px; margin-top:8px; border:1px solid #000; padding:0px;\"><li>To search records for a source to add, <br>a) Tap <b>Search Records</b>; <br>b) Select FamilySearch, Ancestry, MyHeritage, Findmypast, or Geneanet.org; <br>c) Scroll through the list of record sources and tap the one you want to attach.</li> <li>To add a source with a web page URL, <br>a) Tap <b>Add Source with Web Page</b>; <br>b) Type entries for the Source Title, Event Date, Web Page (Link), Where the Record Was Found (Citation), Notes, and Reason You're Attaching This Source; and <br>c) Tap <b>Save</b> (upper right). </li><li>To add a source with a photo, <br>a) a) Tap <b>Add Source with Photo</b>; <br>b) Type the necessary entries; <br>c) Tap the <b>Add Source Photo</b> icon; <br>d) Select Camera, File, or FamilySearch Gallery as the location to find the photo; <br>e) Select a photo from the list; and <br>f) Tap <b>Upload</b> (upper right) to attach the photo to the Source. </li></ol><h5>Using the Tasks Lists to View Sources</h5><p><i>Note</i> : If you have Ordinances enabled in your Family Tree view, you may also see available ordinances in your task list.</p><ol><li>To see all available record hints, tap the three-line menu and select <b>Tasks</b>. (To remove a person from the list, swipe the name to the left and tap <b>Remove</b>.) </li><li>To filter the list, tap the inverted triangle (upper right) and select the type of filter you want to use.</li><li>To find a name in the list, tap the magnifying glass icon (upper right) and type the name you want.</li><li>To find tasks (record hints) for the descendants of a person in your tree, <br>a) Open the Person Page; and <br>b) In the three-dot menu, select Descendants with Tasks.</li><li>Tap and open a record hint for a person in the list.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Review and attach record hints.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Find and review record hints for ancestors.</li><li>Attach record hint sources to ancestors.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Find two record hints and attach them to the corresponding ancestor(s).</li><li>* Proficient: Same as Good, for four record hints.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/app/3-record-hint-detail1.png",
+                        "https://www.thefhguide.com/img/app/3-record-hint-attach.png"
+                    ],
+                    "text": "<ol><p>Record hints are provided by FamilySearch as possible sources for records for your ancestors. When available, they are indicated by light-blue icons in these places: in the Person view, next to the ancestor portrait; or in Descendants with Tasks (three-bar menu, upper left).</p> <img src=\"img/app/3-record-hint-detail1.png\" width=\"250px;\" style=\"float:right; margin-left:20px; margin-top:8px; border:1px solid #000; padding:0px;\"><li>To open a record hint, tap a light blue icon.</li><li>Tap a source in the list to open it.</li><li>In the <b>Records Hint</b> screen, tap the record to display its contents.</li><li>If the record is not a match for this ancestor, tap <b>Not a Match</b> (bottom). Otherwise, tap <b>Compare</b> to display the Record Review screen. This screen has information from the source record on the left, and information from the FamilySearch Family Tree record on the right, for comparison.</li><li>To see more information about the source record, in the upper left tap the Image link.</li><li>To see information about people mentioned in the source, tap any of the links that appear.</li><li>To attach the record from the hint, <br>a) In the box titled \"Reason to Attach Document\", type the reason you are adding the source; and <br>c) Tap <b>Yes, Attach</b>.</li>   <li>If there are other potential relatives listed in the source, <br>a) Tap <b>Review Others</b>\"; <br>b) Select a name from the list; <br>c) Type the reason you are adding the source; and <br>c) Tap <b>Attach</b>.</li>   <img src=\"img/app/3-record-hint-attach.png\" width=\"250px;\" style=\"float:right; margin-left:20px; margin-top:8px; border:1px solid #000; padding:0px;\"></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Search Hist. Records",
+        "name": "Search Historical Records",
+        "section_name": "Search historical records.",
+        "summary": "<p>You can find historical records on FamilySearch that provide evidence for events in your ancestors' lives.</p>",
+        "choices": [
+            {
+                "name": "Search for historical records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none;\"><li>* Good: Use the Search Historical Records option to explore research for an ancestral line.</li><li>* Proficient: Use the Search Historical Records option to explore research for two ancestral lines.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/4-search-menu.PNG"
+                    ],
+                    "text": "<ol><li>In the three-bar menu, select <b>Search Historical Records</b>.</li><li>Fill in the name of the person to search for.</li><li>To include a life event for the search, tap <b>More Options</b> and then type the information for each event to include. To cancel the event from being included in the search, tap its link again.</li><li>To include a relationship for the search, <br>a) Tap a link for any of Spouse, Father, Mother, or Other Person; and <br>b) Type the information for each event. To cancel the event from being included in the search, tap its link again.</li><li>To restrict the records for the search, <br>a) Tap a link for any of Location, Type, Batch Number, or Image Group Number or Film Number; and <br>b) Type the information for each event. To cancel the event from being included in the search, tap its link again.</li><li>If you want to limit the records you find to exactly the search terms you are using, tap the \"Show Exact Search\" slider. </li><li>Click <b>Search</b>. For steps on handling search results, see Choice C below.</li><img src=\"img/4-search-menu.PNG\" alt=\"\" width=\"150px\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>To find a particular record collection to search, <br>a) Scroll down to the Find a Collection area (bottom of screen); <br>b) In the Collection Title field, type the name of the collection you want; and <br>c) Select it from the drop-down list. You can also tap \"Browse all published collections\" and search that way.</li><li>To do research by location, <br>a) Scroll down to the \"Search by Place\" section (bottom of screen) and tap <b>View All Places</b>; <br>b) Scroll to the region you want select a country (or tap a \"Show All\" button more choices; <br>c) Fill in the search fields (you can use a \"More Options\" button if available); and <br>d) Tap <b>Search</b>. Yoiu can select from Indexed Historical Records, Image-Only Historical Records, or Catalog Material.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn more about doing effective searches.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Use best practices in your record searches.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Principles_of_Family_History_Research\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Principles of Family History Research</span></a> </li><br><li>Use these tips and options to increase your success with record searches.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/article/when-i-am-searching-historical-records-what-are-the-best-practices-and-tips\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Best Practices and Tips for Searching - 2020</span></a> <br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/File:Tips_and_Tricks_for_Using_FamilySearch_Historical_Record_Collections.pdf\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Tips and Tricks for FamilySearch Historical Records (4 pgs.)</span></a></li><br><li>For tips on searching unindexed images read this article.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/article/when-i-am-searching-historical-records-what-are-the-best-practices-and-tips\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Using \"Browse Image\" Collections - 2020</span></a> </li><br><li>Learn about browsing all published collections in FamilySearch.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/article/how-do-i-view-a-list-of-all-record-collections-in-historical-records\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Browsing All Published Collections in Historical Records - 2020</span></a> </li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Use search results effectively.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/app/search-results1.png"
+                    ],
+                    "text": "<ol><img src=\"img/app/search-results1.png\" width=\"300px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>In the Search Results screen, view the entries and find one that seems to match the ancestor you are looking for. A brief sample is shown here. In the right column you can tap <b>Events</b> to switch to viewing information about Relationships, and tap <b>Relationships</b> to switch back to events.</li><li>In the Name column, tap the person's name. A window opens with additional information about the record.</li><li>Tap the three-dot circle (upper right) to display the following action options:<ul style=\"margin-left: -66px;\"><li>Review Attachments—See <a class=\"lk\" href=\"project-1-family-tree-app03.html#b\" target=\"_blank\">Choice B</a> in Goal 3: Sources and Record Hints for details.</li><li>Add to Source Box—See <a class=\"lk\" href=\"project-1-family-tree-app03.html#a\" target=\"_blank\">Choice A</a> in Goal 3: Sources and Record Hints for details.</li><li>Copy to Clipboard</li><li>Print</li><li>Email</li></ul></li><li>To examine the record image, if available, tap the magnifying glass icon. You can also tap the link titled \"View the original document.\" For more information on these options, see <a class=\"lk\" href=\"project-1-family-tree-app03.html#a\" target=\"_blank\">Choice A</a> in Goal 3: Sources and Record Hints.</li><li>You can tap <b>Review and Attach Record</b> (bottom of the screen). For more information, see <a class=\"lk\" href=\"project-1-family-tree-app03.html#a\" target=\"_blank\">Choice A</a> in Goal 3: Sources and Record Hints.</li><li>To learn more about the record collection, tap the Info button.</li><li>To learn more about document you are viewing, tap the down-arrow (right side). This displays citation information, and there is a link to view similar historical record (if available).</li><li>To refine your current search and try again, tap <b>Refine your search</b> (top of screen), fill out the fields, and tap <b>Search</b>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Map My Ancestors",
+        "name": "Map My Ancestors",
+        "section_name": "Explore Map My Ancestors to see where important events occurred in ancestors' lives.",
+        "summary": "<p>Map My Ancestors displays a world map with information about ancestor events, arranged by geographic locations.</p>",
+        "choices": [
+            {
+                "name": "Open and view Map My Ancestors.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Explore navigating the Map My Ancestors map.</li><li>Use the blue-circle icons to identify ancestor locations.</li></ul><hr style=\"margin-left: -20px;\">"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Navigate the Map My Ancestors world map and open at least four blue circles, if available. Browse the ancestor list for each.</li><li>* Proficient: Navigate the Map My Ancestors world map and open at least ten blue circles, if available. Browse the ancestor list for each.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/app/5-map.png"
+                    ],
+                    "text": "<ol><a href=\"img/app/5-map.png\" target=\"_blank\"> <img src=\"img/app/5-map.png\" width=\"250px;\" style=\"float:right; margin-left:20px; margin-top:8px; border:1px solid #000; padding:0px;\"></a><li>In the three-line menu, select <b>Map My Ancestors</b>. A world map appears, with blue circles that indicate the approximate number of ancestor events for geographic areas. The circle with a dark blue dot below it indicates your current location. Ancestors with events that occurred within the current area of the screen are shown in the list at the bottom.</li><li>Swipe to see other areas of the map. There may be blue circles in other parts of the map that are not immediately visible.</li><li>Pinch to zoom in, or spread to zoom out. As you zoom in, more blue circles may appear. To see your home location, tap the target icon (upper right).</li><li>Tap a blue circle to see ancestor events that occured in that area. The list of ancestors at the bottom of the screen changes to fit the current geographic view, and additional blue circles may be displayed in the map. </li><li>To return to a previous map view, tap the Back button on your device.</li><li>For an overview of the Family Tree app, watch these videos. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=nOwDPaAXu4w\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—FamilySearch: Map My Ancestors Using the Family Tree App—4:15 - 2021</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/nOwDPaAXu4w?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore events in Map My Ancestors.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>View events for ancestors, according to location.</li><li>Search for people or places in Map My Ancestors.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Explore events for at least three ancestors.</li><li>* Proficient: Explore events for at least five ancestors, and do a search for a person and a search for a place.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/app/5-map-event-detail.png"
+                    ],
+                    "text": "<ol><li>To explore events for an ancestor, tap the person's name in the bottom list. For available events in FamilySearch, icons are displayed on the map and event descriptions are shown in the list below the person's name. These events may include birth, marriage, death, census, residence, immigration, etc. The total number of events for the ancestor is indicated in the top bar on the screen.</li><img src=\"img/app/5-map-event-detail.png\" width=\"250px;\" style=\"float:right; margin-left:20px; margin-top:8px; border:1px solid #000; padding:0px;\"><li>To see basic information about an event, tap the icon on the map or the name of the event in the list. Hover text appears in the map area, with additional information if available. When you tap the name of the event, the corresponding event is centered in the map, with hover text displayed.</li><li>To explore events for an ancestor, tap the person's name in the bottom list. For available events in FamilySearch, icons are displayed on the map and in the list below the person's name. These events may include birth, marriage, death, census, residence, immigration, etc. Once the event list is shown, you can tap the ancestor's name to go to his or her Person view, or tap the Google Map icon to display current-day information about the location of the event.</li><li>To search for a person or place, <br>a) Go back to the main Map My Ancestors screen and tap the magnifying glass icon (upper right); <br>b) In the \"Search for a person or place\" field, type an entry (suggestions appear in the list as you type); <br>c) Select a place or person from the list. <i>Note</i> : Some places listed may not have any ancestor events for your part of the tree.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Change view settings.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/app/5-map-settings.png"
+                    ],
+                    "text": "<ol><li>Tap the <b>Settings wheel</b> (top bar).</li><img src=\"img/app/5-map-settings.png\" width=\"250px;\" style=\"float:right; margin-left:20px; margin-top:8px; border:1px solid #000; padding:0px;\"><li>To show other ancestors besides those in your direct line, tap \"Show only direct line ancestors\" to turn the setting off. This enables more blue circles in the map, adding events for other ancestors. To change the setting back, tap it again.</li><li>To change the map view to Satellite, Hybrid, or Terrain in Google Maps, tap the corresponding option (bottom of the screen). The view is updated when you swipe to close the options.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Other Tools",
+        "name": "Use Other App Tools",
+        "section_name": "Use other tools available in the Family Tree app.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore \"Relatives Around Me.\"",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/app/6-relatives.png",
+                        "https://www.thefhguide.com/img/app/6-relative-found.png",
+                        "https://www.thefhguide.com/img/app/6-relative-tree.png"
+                    ],
+                    "text": "<p>All friends within 100 feet of your device who are viewing the \"Relatives Around Me\" screen can share information with you about common ancestors in Family Tree.</p><ol><img src=\"img/app/6-relatives.png\" width=\"300px;\" style=\"float:right; margin-left:20px; margin-top:8px; border:1px solid #000; padding:0px;\"><li>In the three-bar menu, select <b>Relatives Around Me</b>.</li><li>Tap \"I agree\" to give others permission to see your portrait, full name, and shared ancestors.</li><img src=\"img/app/6-relative-found.png\" width=\"300px;\" style=\"float:right; margin-left:20px; margin-top:8px; border:1px solid #000; padding:0px;\"><li>Tap <b>Scan for Friends</b>.</li><li>If Relatives Around Me finds friends nearby, it displays a list of them. You can also search for a specific friend's name in the list.</li><a href=\"img/app/6-relative-tree.png\" target=\"_blank\"> <img src=\"img/app/6-relative-tree.png\" width=\"300px;\" style=\"float:right; margin-left:20px; margin-top:8px; border:1px solid #000; padding:0px;\"></a><li>Tap a friend's name name to see a diagram of how you are related to that friend. An example is shown at the right.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore \"Family History Activities.\"",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>To see family history activities designed by FamilySearch, in the three-line menu tap <b>Family History Activities</b>. <i>Note</i> : This takes you to the FamilySearch.org website.</li>  <li>Tap an activity tile for more information and instructions.</li>  <li>To track and rate an activity, <br>a) Sign in to FamilySearch (top bar); <br>b) Tap the <b>I did it</b> button; <br>c) Tap the number of stars for the rating; and <br>d) Tap <b>Submit</b>.</li>  <li>To advance to the next activity in the group, tap \"Next Activity\" (lower right).</li>  </ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Use other Family Tree tools.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>To capture the current screen as a picture, <br>a) Tap the three-line menu and select <b>Screens</b>; and <br>b) Tap the <b>plus icon</b>. To view the captured screen, tap the <b>Screens icon</b> (top menu). </li><li>To rename a captured screen, <br>a) Tap the three-dot menu above the captured screen; <br>b) Tap <b>Rename</b>; <br>c) Type the new name; and <br>d) Tap <b>OK</b>. </li>  <li>To delete a captured screen, <br>a) Tap the three-dot menu above the captured screen; <br>b) Tap <b>Delete</b>. <i>Note </i>: There is no confirm prompt before the screen capture is deleted.</li>  <li>To view a list of tasks that need to be done in your part of the tree, tap the three-line menu and select <b>Ancestors with Tasks</b>. A list will appear that may include record hints, which you can tap for additional information. If ordinances are enabled in your settings, you may see entries for them as well (for details, in the Faiths menu see The Church of Jesus Christ, Goal 2).</li><li>To track the individual contributions you have made to FamilySearch, click <b>My Contributions</b> (just below Map My Ancestors). For details on using <b>My Contributions</b>, see the following article.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/blog/en/family-tree-my-contributions/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"><span class=\"re\"> FS—Track Your Contributions to the Family Tree with New Feature - 2020</span></a><br></li>  </ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Settings",
+        "name": "Change App Settings",
+        "section_name": "Change settings for the Family Tree app.",
+        "summary": "<p>This Goal helps you determine preferences, notifications, and settings for the Family Tree app.</p>",
+        "choices": [
+            {
+                "name": "Set settings for the Family Tree app.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/app/7-settings.png"
+                    ],
+                    "text": "<ol><img src=\"img/app/7-settings.png\" width=\"250px;\" style=\"float:right; margin-left:20px; margin-top:8px; border:1px solid #000; padding:0px;\"><li>In the three-bar menu, tap <b>Settings</b>.</li><li>In App Settings, the following options are available: <ul style=\"margin-left: -66px;\"><li>Save Photos to Gallery—on or off</li><li>Show Temple Ordinances—on or off (if enabled)</li><li>Show 120-Day Ordinances—on or off (if enabled)</li><li>Show Maps in Find—on or off</li><li>Show Contact Information on Temple Cards—on or off (if enabled)</li><li>Expand Tasks—off or on</li><li>Theme—Light, Dark, or System Default</li><li>Show Discovery Notifications—Tap and select \"Never\" or \"Every day\" or \"Every week\" (default)</li><li>Enable Multiple Screens—on or off</li></ul></li><li>Learn how to enable multiple screens while using the app.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/article/how-do-i-create-multiple-screens-on-the-family-tree-app\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—How do I create multiple screens on the Family Tree app? - 2020</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Set notifications for the app.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/app/7-settings1.png"
+                    ],
+                    "text": "<ol><li>In the three-bar menu, tap <b>Settings</b>.</li><img src=\"img/app/7-settings1.png\" width=\"250px;\" style=\"float:right; margin-left:20px; margin-top:8px; border:1px solid #000; padding:0px;\"><li>In the Notifications Categories section, the following options are available: <ul style=\"margin-left: -66px;\"><li>Relatives Around Me—Tap and select Behavior (sound or display for when a relative is found); Sound (type of notification sound); Vibrate (off or on); Show notification dot (on or off); Override \"Do Not Disturb\" (off or on)</li><li>Discovery</li><li>Downloads</li><li>Memories</li><li>Campaigns</li><li>Messages</li><li>General</li><li>Family Groups</li></ul></li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "View additional settings information.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>In the three-bar menu, tap <b>Settings</b>.</li><li>In the Account, Contact, Subscriptions, and Advanced sections, additional items can be viewed or used. Any changes to them must by done in the FamilySearch website, not in the Family Tree app. .</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

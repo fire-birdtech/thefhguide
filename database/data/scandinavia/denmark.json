@@ -1,0 +1,442 @@
+[
+    {
+        "nav_name": "Research",
+        "name": "Research",
+        "section_name": "Learn about Denmark research and records.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=We2c1FHPKuw\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Get started with Danish research.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for research records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-den-over.jpg"
+                    ],
+                    "text": "<ol><a href=\"img/x-den-over.jpg\" target=\"_blank\"> <img src=\"img/x-den-over.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a>   <li><span class=\"g\">FamilySearch</span>: Use <a class=\"lk\" href=\"https://familysearch.org/wiki/en/Danish_Research:_Getting_Started\" target=\"_blank\">Danish Research: Getting Started</a> to help you with beginning Danish research.</li><li><span class=\"g\">Archives.com</span>: Get an overview of Danish family history on the Archives.com site. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.archives.com/genealogy/family-heritage-danish.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">AR—Danish Family History</span></a></li><br><li><span class=\"g\">Tips</span>: Explore <a class=\"lk\" href=\"https://familysearch.org/wiki/en/Danish_Research:_Tips_for_Beginners\" target=\"_blank\">Tips for Beginners</a> on the FamilySearch Wiki.</li><li><span class=\"g\">Basics</span>: Learn the basics of Danish and Scandinavian research in these blog articles.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/blog/en/begin-scandinavian-family-history/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Beginning Your Scandinavian Family History - 2016</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/blog/en/keys-scandinavian-research/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Keys to Scandinavian Research - 2016</span></a></li><br><li><span class=\"g\">Resources</span>: Find Danish resources for research on FamilySearch.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/danish-resources-on-familysearch-org\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Danish Resources on FamilySearch.org—40:44</span></a></li><br><li><span class=\"g\">Record Finder</span>: Use the Denmark Record Finder to understand record types for research. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Denmark_Record_Finder\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Denmark Record Finder</span></a></li><br></ol><h5>Locations</h5><ol><li><span class=\"g\">Counties</span>: Use the <a class=\"lk\" href=\"https://familysearch.org/wiki/en/Denmark_Genealogy#Denmark_Clickable_Map\" target=\"_blank\">clickable Denmark counties map</a> on the FamilySearch Wiki page to explore research locations. See also the county list below it.</li><li><span class=\"g\">Copenhagen</span>: Learn how to do research in Copenhagen, Denmark.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/research-in-copenhagen\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Research in Copenhagen—63:08 - 2016</span></a></li><br><li><span class=\"g\">Danish Places</span>: Learn how to sort out Danish places in your research.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=iA8SSSgUzyc&amp;t=1m45s\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">BYU—Beginning Danish Research—56:44 - 2017</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/iA8SSSgUzyc?start=105;rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Danish language and naming resources for your research.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Denmark_Languages#Danish_Word_List\" target=\"_blank\">Danish Word List</a></li> <li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Denmark_Languages#LANGUAGE_CHARACTERISTICS\" target=\"_blank\">Language Characteristics</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Denmark_Languages#KEY_WORDS\" target=\"_blank\">Key Words</a></li></ul></span>"
+                        },
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Denmark_Names,_Personal#Surnames\" target=\"_blank\">Surnames</a></li><li>Search for <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.geneaservice.nl/navigator/danish/index.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Danish surnames</a> in a number of databases.</li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Denmark_Names,_Personal#Given_Names\" target=\"_blank\">Given Names</a></li></ul></span>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-den-names.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/photos/letters-write-communication-1659715/\" target=\"_blank\"> <img src=\"img/x-den-names.jpg\" width=\"100%\" ;=\"\" style=\"float:right; margin-top: 8px; margin-left: 16px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a>    <li><span class=\"g\">Tips and Terms</span>: Learn about Danish language tips and common genealogy terms in this FamilySearch Wiki article.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Denmark_Language_and_Languages\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Denmark Languages</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('usb');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"usb\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Denmark_Languages#Danish_Word_List\" target=\"_blank\">Danish Word List</a></li> <li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Denmark_Languages#LANGUAGE_CHARACTERISTICS\" target=\"_blank\">Language Characteristics</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Denmark_Languages#KEY_WORDS\" target=\"_blank\">Key Words</a></li></ul></span></div></li><br><li><span class=\"g\">Surnames</span>: Learn about Danish surnames and given names in this article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Denmark_Names,_Personal\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Denmark Names, Personal</span></a> &nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('usb1');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"usb1\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Denmark_Names,_Personal#Surnames\" target=\"_blank\">Surnames</a></li><li>Search for <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.geneaservice.nl/navigator/danish/index.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Danish surnames</a> in a number of databases.</li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Denmark_Names,_Personal#Given_Names\" target=\"_blank\">Given Names</a></li></ul></span></div></li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.geneanet.org/country/search-Denmark-DNK\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Geneanet site</a> for Danish surnames.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Use effective research methods for your Danish ancestors.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for research resources. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-den-research.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/x-den-research.jpg\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"><li>Explore the web links on the <a class=\"lk\" href=\"https://familysearch.org/wiki/en/Strategies_for_Danish_Research\" target=\"_blank\">Strategies for Danish Research</a> Wiki page.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://forebears.io/denmark\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Forebears.io site</a> for research records.</li><li>Explore the <a class=\"lk\" href=\"https://www.danishmuseum.org/explore/genealogy/resources\" target=\"_blank\">Museum of Danish Americans</a> for a variety of resources for your research.</li><li> Explore a variety of Danish genealogy resources on the <a class=\"lk\" href=\"http://aurelia-clemons.dk/\" target=\"_blank\">Aurelia Clemons</a> genealogy page.</li><span id=\"counties\"> </span></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Census Records",
+        "name": "Census Records",
+        "section_name": "Learn to use Danish census and civil registration records.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=We2c1FHPKuw\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Danish census records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Denmark_Census#Online_Records9\" target=\"_blank\">Online Records</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Denmark_Census#Kommunal_Censuses\" target=\"_blank\">Kommunal Censuses</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Denmark_Census#Online_Census_Extractions\" target=\"_blank\">Online Census Extractions</a></li></ul></span>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-den-flag.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/denmark-flag-sky-danish-flag-1956370/\" target=\"_blank\"> <img src=\"img/x-den-flag.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a>   <li><span class=\"g\">FamilySearch</span>: Learn about the Danish census in this FamilySearch Wiki article. Note the sections on Danish Census Headings, Online Census Extractions, and the Danish Demographic Database. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Denmark_Census\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Denmark Census</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('usa');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"usa\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Denmark_Census#Online_Records9\" target=\"_blank\">Online Records</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Denmark_Census#Kommunal_Censuses\" target=\"_blank\">Kommunal Censuses</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Denmark_Census#Online_Census_Extractions\" target=\"_blank\">Online Census Extractions</a></li></ul></span></div></li><br><li><span class=\"g\">Intro</span>: Watch this video for an introduction to Danish census records.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/intro-to-danish-census\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Intro to Danish Census—48:00 - 2017</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn more about the Denmark Census.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for census records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ire-census.png"
+                    ],
+                    "text": "<ol><img src=\"img/x-ire-census.png\" width=\"300px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li><span class=\"g\">DDD</span>: Learn how to find census information on the Danish Demographical Database.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/danish-census-research-part-1-using-the-danish-demographical-database\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Danish Demographical Database—37:20 - 2014</span></a><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/File:DDD_Guide.pdf\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Guide to the Danish Demographic Database—4 pgs. - 2014</span></a></li><br><li><span class=\"g\">Arkivalieronline</span>: Find census records on Arkivalieronline.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/danish-census-research-part-2-finding-censuses-on-arkivalieronline\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Finding Census on Arkivalieronline—28:07 - 2014</span></a></li><br><li><span class=\"g\">Genealogy Info</span>: Learn how to find genealogical information in census records.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/danish-census-research-part-3-extracting-genealogical-information\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Extracting Genealogical Information—37:39 - 2014</span></a></li><br><li><span class=\"g\">Sites</span>: Explore the <a class=\"lk\" href=\"https://www.danishfamilysearch.com/census/\" target=\"_blank\">Danish Family Search site</a> for census records.</li><li> Explore the Wiki links for <a class=\"lk\" href=\"https://familysearch.org/wiki/en/Danish_Research_Websites#Census\" target=\"_blank\">Census</a> for more information.</li><li> Explore Danish census databases on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://ddd.dda.dk/kiplink_en.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Rigsarkivet site</a>.</li><li> Explore Danish census databases on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ongenealogy.com/listings/denmark-census-database-online-1787-1940/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">OnGenealogy site</a>.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Danish civil registration.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-den-civ.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/photos/denmark-sonderburg-old-town-houses-3317069/\" target=\"_blank\"> <img src=\"img/x-den-civ.jpg\" width=\"100%\" ;=\"\" style=\"float:right; margin-top: 8px; margin-left: 16px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a>    <li><span class=\"g\">FamilySearch</span>: Learn about civil registration in this FamilySearch Wiki article.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/Denmark_Civil_Registration\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Denmark Civil Registration</span></a></li><br><li>Learn about the history and process of civil registration in Denmark.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://journals.sagepub.com/doi/pdf/10.1177/1403494810387965\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">The Danish Civil Registration System - 2011</span></a></li><br></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Church and Cemetery Records",
+        "name": "Church and Cemetery Records",
+        "section_name": "Learn to use Danish church and cemetery records.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=We2c1FHPKuw\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Danish church records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Denmark_Church_Records#Church_Records_.5BKirkeb.C3.B8ger.5D\" target=\"_blank\">Church Records</a></li> <li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Denmark_Church_Records#Information_Recorded_in_Church_Registers\" target=\"_blank\">Information Recorded in Church Registers</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Denmark_Church_Records#Accessing_Danish_Church_Records\" target=\"_blank\">Accessing Danish Church Records</a></li></ul></span>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for church records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-den-church.jpg"
+                    ],
+                    "text": "<ol><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/%C3%98sterlars_Church#/media/File:Oesterlars_Kirke_Bornholm_Denmark.jpg\" target=\"_blank\"> <img src=\"img/x-den-church.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a><li><span class=\"g\">FamilySearch</span>: Learn about Danish church records in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Denmark_Church_Records\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Danish Church Records</span></a> &nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('usa');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"usa\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Denmark_Church_Records#Church_Records_.5BKirkeb.C3.B8ger.5D\" target=\"_blank\">Church Records</a></li> <li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Denmark_Church_Records#Information_Recorded_in_Church_Registers\" target=\"_blank\">Information Recorded in Church Registers</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Denmark_Church_Records#Accessing_Danish_Church_Records\" target=\"_blank\">Accessing Danish Church Records</a></li></ul></span></div></li><br><li><span class=\"g\">Church and Census</span>: Learn more about Danish church and census records. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/blog/en/danish-records/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Danish Church and Census Records - 2019</span></a> </li><br><li><span class=\"g\">Case Study</span>: Here is a case study in using Danish church records. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/danish-church-record-research-a-case-study\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Danish Church Records—54:16 - 2016</span></a> </li><br><li><span class=\"g\">Strategies</span>: This video demonstrates witness research strategies. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/danish-church-records-finding-ancestors-through-witnesses\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Danish Church Records: Ancestors and Witnesses—38:16 - 2014</span></a> </li><br><li>This video explains other research strategies for Danish church records.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/danish-church-records-research-strategies\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Danish Church Records: Research Strategies—49:14 - 2014</span></a> </li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Danish church records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for church record resources. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>Explore <a class=\"lk\" href=\"https://familysearch.org/wiki/en/Denmark_Parish_Register_Headings\" target=\"_blank\">Parish Register Headings</a> for more information.</li><li>Explore the Wiki links for <a class=\"lk\" href=\"https://familysearch.org/wiki/en/Danish_Research_Websites#Church_Records\" target=\"_blank\">Church Records</a> for more information.</li><li>Access the Parish Registers link in the <a class=\"lk\" href=\"https://www.sa.dk/en/genealogy/records-registries\" target=\"_blank\">Records and Registries page</a> of the Rigsarkivet site.</li><li>Explore the <a class=\"lk\" href=\"https://www.danishfamilysearch.com/churchbook/\" target=\"_blank\">Danish Family Search site</a> for church records.</li><li>Explore the <a class=\"lk\" href=\"http://ao.salldata.dk/\" target=\"_blank\">Sall Data site</a> for scanned church books and more.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://bloodandfrogs.com/encyclopedia/denmark\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Jewish Genealogy Encyclopedia</a> for Jewish resources in Denmark.</li></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Danish cemetery records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for cemetery records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>Get an overview of Danish cemetery records. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.trace.com/genealogists/2017/08/graveyards-and-cemeteries-in-denmark/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Graveyards and and Cemeteries in Denmark - 2017</span></a> </li><br><span id=\"counties\"> </span><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.findagrave.com/cemetery-browse/Denmark?id=country_27\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Find A Grave site</a> for cemetery records.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://billiongraves.com/site-map?country=Denmark\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">BillionGraves site</a> for cemetery records.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Arkivalieronline",
+        "name": "Arkivalieronline",
+        "section_name": "Learn about the Arkivalieronline site.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=We2c1FHPKuw\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn how to use the Arkivalieronline website.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-den-ark.JPG"
+                    ],
+                    "text": "<ol><img src=\"img/x-den-ark.JPG\" alt=\"\" height=\"30px\" style=\"float:right; margin-top: 8px; margin-left: 16px; border:1px solid #000; padding:0px;\"> <span id=\"counties\"> </span><li>Read this article for tips on using Arkivalieronline.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/img_auth.php/c/cc/Arkivalieronline_Digitized_Census_Records_guide.pdf\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—A Guide to Arkivalieronline—6 pgs. - 2013</span></a> </li><br><li>Explore the <a class=\"lk\" href=\"https://www.sa.dk/k/brug-arkivet/ao\" target=\"_blank\"> Arkivalieronline site</a> for Danish research. (You can translate the web page to English in your browser if needed.)</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Emigration and Immigration",
+        "name": "Emigration and Immigration",
+        "section_name": "Learn about Danish emigration and immigration.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=We2c1FHPKuw\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Danish emigration and immigration.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for immigration records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-den-imm.jpg"
+                    ],
+                    "text": "<ol><a href=\"img/x-den-imm.jpg\" target=\"_blank\"> <img src=\"img/x-den-imm.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a> <li><span class=\"g\">FamilySearch</span>: Learn about Denmark emigration and immigration in this FamilySearch Wiki article.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Denmark_Emigration_and_Immigration\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Denmark Emigration and Immigration</span></a> </li><br><li><span class=\"g\">Wikipedia</span>: Learn about immigration history and demographics in this Wikipedia article.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Danish_Americans\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Wikipedia: Danish Americans</span></a></li><br><li><span class=\"g\">Copenhagen</span>: Learn about Copenhagen emigration and immigration.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Copenhagen:_Emigration_and_Immigration\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Copenhagen Emigration and Immigration</span></a> </li><br><li>Learn about Copenhagen Emigration and Immigration for more information.</li><li><span class=\"g\">Emigration Lists</span>: Access the Emigration Lists link in the <a class=\"lk\" href=\"https://www.sa.dk/en/genealogy/records-registries\" target=\"_blank\">Records and Registries page</a> of the Rigsarkivet site.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Danish emigration and immigration resources.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for immigration resources. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li><span class=\"g\">FamilySearch</span>: Explore links for immigration in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Danish_Research_Websites#Emigration_.26_Immigration\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Danish Emigration and Immigration</span></a> </li><br><li><span class=\"g\">Sites</span>: Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.udvandrerarkivet.dk/forside/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Digital Danish Emigration Archives</a> site.</li><span id=\"counties\"> </span><li>Explore <a class=\"lk\" href=\"https://familysearch.org/wiki/en/Danish_Research_Websites#Emigration_.26_Immigration\" target=\"_blank\">Danish Immigration</a> on the Museum of Danish America site.</li><li><span class=\"g\">Immigrant Ships</span>: Explore the  <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://immigrantships.net/index2.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Immigrant Ship site</a>. Select a Volume, then choose Denmark as the departure or arrival location.</li></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Military Records",
+        "name": "Military Records",
+        "section_name": "Learn about Denmark military records.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=We2c1FHPKuw\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Denmark military records.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-den-mil.JPG"
+                    ],
+                    "text": "<ol><a href=\"img/x-den-mil.JPG\" target=\"_blank\"> <img src=\"img/x-den-mil.JPG\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a>  <li><span class=\"g\">FamilySearch</span>: Learn about Danish military records in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Denmark_Military_Records\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Danish Military Records</span></a></li><br><li>Learn about using Danish military records in research.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/danish-military-levying-rolls\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Danish Military Records—57:12 - 2019</span></a></li><br><li><span class=\"g\">Military Archives</span>: Learn about tracing ancestors in Danish military archives.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familytreemagazine.com/heritage/danish/now-what-danish-military-records/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FTM—Danish Military Records</span></a></li><br><li><span class=\"g\">Military Levying Rolls</span>: Learn about tracing ancestors in Danish military levying rolls.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/danish-military-levying-rolls\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Danish Military Levying Rolls—70:12</span></a></li><br></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Archives and Libraries",
+        "name": "Archives and Libraries",
+        "section_name": "Learn about Denmark archives and libraries.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=We2c1FHPKuw\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Denmark archives and libraries.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Denmark_Archives_and_Libraries#National_Archives\" target=\"_blank\">National Archives</a></li> <li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Denmark_Archives_and_Libraries#Regional_Archives\" target=\"_blank\">Regional Archives</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Denmark_Archives_and_Libraries#Other_Libraries\" target=\"_blank\">Other Libraries</a></li></ul></span>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for research in archives and libraries. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-den-lib.jpg"
+                    ],
+                    "text": "<ol><a href=\"img/x-den-lib.jpg\" target=\"_blank\"> <img src=\"img/x-den-lib.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"></a>  <li><span class=\"g\">FamilySearch</span>: Learn about Denmark archives and libraries in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Denmark_Archives_and_Libraries\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Denmark Archives and Libraries</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('usa');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"usa\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Denmark_Archives_and_Libraries#National_Archives\" target=\"_blank\">National Archives</a></li> <li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Denmark_Archives_and_Libraries#Regional_Archives\" target=\"_blank\">Regional Archives</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Denmark_Archives_and_Libraries#Other_Libraries\" target=\"_blank\">Other Libraries</a></li></ul></span></div></li><br><li>Explore the Wiki links for <a class=\"lk\" href=\"https://familysearch.org/wiki/en/Danish_Research_Websites#Archives\" target=\"_blank\">Archives and Libraries</a> for more information.</li><li><span class=\"g\">Sites</span>: Explore the <a class=\"lk\" href=\"http://danishamericanarchive.net/\" target=\"_blank\">Danish American Archive</a>.</li><li>Explore the <a class=\"lk\" href=\"http://www.kb.dk/en/\" target=\"_blank\">Royal Library of Denmark</a>.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.archivesportaleurope.net/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Archives Portal Europe</a> site. Click the Directories tab and select Denmark.</li><span id=\"counties\"> </span><li>Explore the <a class=\"lk\" href=\"http://www.kbharkiv.dk/\" target=\"_blank\">Copenhagen City Archive</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Maps and Gazetteers",
+        "name": "Maps and Gazetteers",
+        "section_name": "Learn about Denmark maps and gazetteers.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=We2c1FHPKuw\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Denmark maps and gazetteers.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-den-map.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://commons.wikimedia.org/wiki/File:1770_Lotter_Map_of_Denmark_%22Daniae_Regnum%22_-_Geographicus_-_DaniaeRegnum-lotter-1770.jpg\" target=\"_blank\"> <img src=\"img/x-den-map.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"></a>   <li><span class=\"g\">Maps</span>: Learn about Denmark maps in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Denmark_Maps\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Denmark Maps</span></a></li><br><li>See an <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Denmark_Genealogy#Denmark_Clickable_Map\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">interactive map</a> for Denmark provinces.</li><li><span class=\"g\">Gazetteers</span>: Learn about Denmark gazetteers in this article and video. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Denmark_Gazetteers\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Denmark Gazetteers</span></a><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/help/helpcenter/lessons/using-danish-gazetteers-to-determine-jurisdictions-in-denmark-familysearch-research-wiki\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Using Danish Gazetteers to Determine Jurisdictions in Denmark—3:03 - 2018</span></a></li><br><li>Follow this case study in Danish gazetteers for research. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/help/helpcenter/lessons/using-danish-gazetteers-to-determine-jurisdictions-in-denmark-familysearch-research-wiki-case-study\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—FamilySearch Research Wiki Case Study—0:59 - 2018</span></a></li><br><li><span class=\"g\">Krabsens Stednavnebase</span>: Learn how to use the Krabsens Stednavnebase for research. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/help/helpcenter/lessons/using-danish-gazetteers-to-determine-jurisdictions-in-denmark-krabsens-stednavnebase\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Using Danish Gazetteers to Determine Jurisdictions in Denmark: Krabsens Stednavnebase—7:16 - 2018</span></a></li><br><li>Follow this case study in using the Krabsens Stednavnebase. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/help/helpcenter/lessons/using-danish-gazetteers-to-determine-jurisdictions-in-denmark-krabsens-stednavnebase-case-study\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Krabsens Stednavnebase Case Study—1:33 - 2018</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Denmark maps and gazetteers.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore the <a class=\"lk\" href=\"http://www.krabsen.dk/stednavnebase/\" target=\"_blank\">Krabsen Danish gazetteer</a>.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.davidrumsey.com/luna/servlet/view/search?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&amp;q=denmark&amp;search=Go\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">David Rumsey collection</a> of Danish maps.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://commons.wikimedia.org/wiki/Atlas_of_Denmark\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Atlas of Denmark</a> on the Wikipedia site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://commons.wikimedia.org/wiki/Category:Old_maps_of_Denmark\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Old Maps of Denmark</a> on the Wikipedia site.</li><span id=\"counties\"> </span><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.oldmapsonline.org/en/Denmark\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Old Maps Online site</a> for Denmark maps.</li><li>Explore a <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.fallingrain.com/world/DA/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">directory of Denmark cities, towns, and regions</a> in the Falling Rain site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Newspapers",
+        "name": "Newspapers",
+        "section_name": "Learn about Danish newspapers.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=We2c1FHPKuw\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Explore Danish newspapers for ancestor research.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-den-news.jpg"
+                    ],
+                    "text": "<ol><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Fyens_Stiftstidende#/media/File:Denmark-Odense-Fyens_Stiftstidende.jpg\" target=\"_blank\"> <img src=\"img/x-den-news.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a> <li>Find links to <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Wikipedia:List_of_online_newspaper_archives#Denmark\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Danish newspapers</a> on the Wikipedia site.</li> <li>Search Danish newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.onlinenewspapers.com/denmark.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">onlinenewspapers.com</a> site.</li><span id=\"counties\"> </span><li>Search Danish newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.world-newspapers.com/denmark.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">world-newspapers.com</a> site.</li><li>Search Danish newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.abyznewslinks.com/denma.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">ABYZ News Links</a> site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Probate Records",
+        "name": "Probate Records",
+        "section_name": "Learn about Denmark land and probate records.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=We2c1FHPKuw\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Denmark land, property, and other records.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-den-land.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/bornholm-denmark-the-old-city-alley-687242/\" target=\"_blank\"> <img src=\"img/x-den-land.jpg\" alt=\"\" height=\"400px\" style=\"float:right; margin-top: 8px; margin-left: 16px; border:1px solid #000; padding:0px;\"></a> <li><span class=\"g\">Land</span>: Learn more about Danish land records.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/danish-land-records\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Danish Land Records—46:11</span></a></li><br><li><span class=\"g\">Estate</span>: Learn about using Danish estate records in research.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://content.ldschurch.org/family-history/bc/rootstech/salt-lake/2019-conference-syllabi/RT4662_Denmark_Estate_Records_Not_Just_Accounts_and_Ledgers.pdf\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">RT—Denmark Estate Records—Not Just Accounts and Ledgers</span></a></li><br><li><span class=\"g\">Tax</span>: Learn about using old Danish tax records in your research.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/denmark-tax-records-1660-1812\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Danish Tax Records: 1660-1812—52:21</span></a></li><br><li>Learn about advanced Danish records, such as fire insurance, tax, land, and historical maps.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/painting-a-picture-of-your-danish-ancestors\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Painting a Picture of Your Danish Ancestors—60:23</span></a></li><br><li><span class=\"g\">Vaccination</span>: Learn about how Danish vaccination records can be helpful in research.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/denmark-vaccination-records\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Vaccination Records of Denmark—40:25</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Denmark probate records.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about Denmark probate records in this article and video.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Denmark_Probate_Records\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Danish Probate Records</span></a><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/help/helpcenter/lesson/2099\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Denmark Probate Records—57:21</span></a></li><br><li>Get an overview of Danish probate records in these articles. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/File:Probate_Record_Syllabus.pdf\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Danish Probate Records—3 pgs.</span></a></li><br><li>Learn more about Danish probate records.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/denmark-probate-records\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Danish Probate Records—43:38</span></a></li><br><li>Explore the Wiki links for <a class=\"lk\" href=\"https://familysearch.org/wiki/en/Danish_Research_Websites#Probate_Records\" target=\"_blank\">Danish Probate Records</a> for more information.</li><li>Access the Probate Court Records link in the <a class=\"lk\" href=\"https://www.sa.dk/en/genealogy/records-registries\" target=\"_blank\">Records and Registries page</a> of the Rigsarkivet site.</li></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Websites",
+        "name": "Websites",
+        "section_name": "Explore additional websites for research.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=We2c1FHPKuw\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "There are a number of websites with valuable resources for Danish research.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/laptop-fingers1.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/laptop-fingers1.jpg\" alt=\"\" width=\"350px\" style=\"float:right; margin-top: 6px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Explore links in the <a class=\"lk\" href=\"https://www.familysearch.org/en/wiki/Danish_Research_Websites\" target=\"_blank\">FamilySearch Wiki</a>.</li><li>Explore links in <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cyndislist.com/denmark\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Cyndi's List</a>.</li><span id=\"counties\"> </span><li>Explore links in <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genealogylinks.net/europe/denmark/index.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Genealogylinks.net</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Search Records",
+        "name": "Search Records",
+        "section_name": "Search records from Denmark.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=We2c1FHPKuw\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Use QUIKLinks, Partners, and GenealogyInTime to quickly search the most common record collections for Denmark.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/laptop-hands.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/laptop-hands.jpg\" alt=\"\" width=\"350px\" style=\"float:right; margin-top: 6px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>QUIKLinks are indicated by lightning-bolt icons in the Goals above.They point to collections with 50,000 or more records. When you click a QUIKLink icon, scroll down on the resulting page to see the QUIKLinks.</li><li>In the Partners section (near the top of the page), explore additional record collections in FamilySearch, Ancestry, Findmypast and MyHeritage.</li><li>Explore the FamilySearch page for <a class=\"lk\" href=\"https://familysearch.org/wiki/en/Denmark_Online_Genealogy_Records\" target=\"_blank\">Danish online record collections</a>.</li><span id=\"counties\"> </span><li>Explore the <a class=\"lk\" href=\"http://www.genealogyintime.com/records/Europe-genealogy-records.html\" target=\"_blank\">Europe page</a> of the GenealogyInTime website. Record collections are listed and described in order from newest to oldest additions, including FamilySearch, Ancestry, and many other sources.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Get Help",
+        "name": "Get Help",
+        "section_name": "Get help with your Danish research.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=We2c1FHPKuw\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Use Facebook pages to get answers to your questions.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/fh-help6.jpg"
+                    ],
+                    "text": "<ol><a href=\"http://www.freestockphotos.biz/stockphoto/16428\" target=\"_blank\"> <img src=\"img/fh-help6.jpg\" alt=\"\" width=\"250px\" style=\"float:right; margin-top: 8px; margin-left: 16px\"></a> <li>Visit the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.facebook.com/groups/227983634018124/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Danish American Genealogy Group</a> on Facebook.</li><li>Visit the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.facebook.com/groups/24660168721/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Danish Genealogy Group</a> on Facebook.</li><li>Visit the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.facebook.com/groups/NorthernEuropeGenealogyResearchCommunity/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Northern Europe Research</a> Facebook page for FamilySearch.</li><li>Visit the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.facebook.com/groups/danishfamilysearch/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Danish FamilySearch page</a> on Facebook.</li><li>Visit the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.facebook.com/Danmark-Sl%C3%A6gtsforskning-331893243592525/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Danmark Slægtsforskning page</a> on Facebook.</li><li>See the <a class=\"lk\" href=\"http://socialmediagenealogy.com/genealogy-on-facebook-list/\" target=\"_blank\">Genealogy on Facebook list</a> of Facebook groups dedicated to helping with research for Denmark.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Join a mailing list, community, or message board for Denmark research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://community.familysearch.org/s/group/0F93A000000LfVxSAK/nordic-countries\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">FamilySearch community</a> for Danish (Nordic Countries) research.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cyndislist.com/denmark/social/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Denmark research mailing lists</a> on Cyndi's List.</li><li>Use the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ancestry.com/boards/localities.scan-balt.denmark/mb.ashx\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Ancestry message boards</a> to read or post questions about Denmark research.</li><li>Explore Denmark research questions in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://genealogy.stackexchange.com/questions/tagged/denmark\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Genealogy Stack Exchange</a>.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Denmark genealogy societies.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><span id=\"counties\"> </span><li>Learn about Denmark genealogy societies in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Denmark_Societies\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Denmark Societies</span></a></li><br><li>Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cyndislist.com/denmark/societies/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Denmark genealogy society sites</a> on Cyndi's List.</li><li>Get help at a <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Category:Denmark_Family_History_Centers\" target=\"_blank\">family history center in Denmark</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Geo/Culture/History",
+        "name": "Geography, Culture, and History",
+        "section_name": "Learn about the geography, culture, and history of Denmark. \n\t\t\t\t\t\t\n\t\t\t\t\t\t",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=We2c1FHPKuw\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Explore websites and videos.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/c-denmark.jpg"
+                    ],
+                    "text": "<h5>Reference</h5><ol><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Denmark_History\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">FamilySearch: History</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Denmark_Historical_Geography\" target=\"_blank\">FamilySearch: Historical Geography</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Denmark\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Wikipedia</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.britannica.com/place/Denmark\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Encyclopedia Britannica</a></li></ol><h5>For Kids</h5><ol><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ducksters.com/geography/country.php?country=Denmark\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Ducksters</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=fwRiukSgcFg\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">YouTube: Super Quick History of Denmark</a></li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

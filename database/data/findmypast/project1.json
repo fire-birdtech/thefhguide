@@ -1,0 +1,130 @@
+[
+    {
+        "nav_name": "Findmypast Account and Tree",
+        "name": "Set Up Your Account and Tree",
+        "section_name": "Choose a Findmypast account and start your tree.",
+        "summary": "<p><i>Note</i> : If you would like to begin a free 14-day trial for Findmypast, skip ahead to Goal 2 below. If you have a GEDCOM file to populate your tree, skip ahead to Choice B below. If you are setting up a Church of Jesus Christ Partner account, skip ahead to Choice C below.</p>",
+        "choices": [
+            {
+                "name": "Create a free Findmypast account and start your family tree.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/fmp/create-tree.JPG"
+                    ],
+                    "text": "<ol><img src=\"img/fmp/create-tree.JPG\" width=\"170px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>On the <a class=\"lk\" href=\"http://www.findmypast.com\">Findmypast home page</a>, click <b>Family tree</b> and select <b>Create a tree</b>. </li><li>In the dialog, add information for your name, gender, and birth, and name your tree. Check the \"Public tree\" box if you want your tree to be visible to others.</li><li>In the next screen, add information for your (or the other person's) mother and click <b>Add to tree</b>. Or, you can click <b>Skip person</b> to go to the next step.</li><li>In the next few screens, fill in the marriage and birth information for the mother, father, and grandparents as desired (or skip ahead).. <p><i>Note</i> : Based on the information you supplied, Findmypast may be able to fill out one or more generations in your tree for you. In that case you can skip ahead to Goal 2 below.</p></li><li>If no ancestors appear for you in the Family View screen, click the tile with your name in it and add more information, if possible, so Findmypast can find records for your tree.</li><li>To see tips for getting started, find the \"Welcome to your family tree\" banner at the bottom of the page, and click the right arrow.</li><li>For more information on building your family tree, read this article.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.findmypast.com/blog/family-tree/how-to-use-findmypast-family-tree-help\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FMP—How to build your family tree with Findmypast - 2020</span></a></li><br><li>To continue building and navigating your tree, go to <a class=\"lk\" href=\"https://www.thefhguide.com/project-2-family-tree-fmp.html\" target=\"_blank\">Findmypast Project 2: Family Tree</a>.</li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "Read this article to learn about getting more from a free Findmypast account.",
+                                "links": [
+                                    {
+                                        "link": "https://blog.findmypast.com/5-easy-steps-to-get-the-most-out-of-a-free-findmypast-account-1697858840.html",
+                                        "text": "FMP: 5 easy steps to get the most out of a free Findmypast account - 2016",
+                                        "type": "document"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Use an existing GEDCOM file to populate your tree.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/fmp/import-tree.JPG",
+                        "https://www.thefhguide.com/img/fmp/upload-tree.JPG"
+                    ],
+                    "text": "<p>A GEDCOM (Genealogical Data Communication) file is a text file with basic information about people in a family tree. It can be created (exported) from an existing family tree, and then imported to a new tree to populate that tree.</p><ol><img src=\"img/fmp/import-tree.JPG\" width=\"170px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>Click <b>Family tree</b> (top menu bar) and select <b>Import a tree</b>.</li><li>Click <b>Choose File</b>, navigate to the GEDCOM file (ending in .ged) on your device, and click <b>Open</b>.</li><img src=\"img/fmp/upload-tree.JPG\" width=\"350px\" style=\"float:right; margin-left:16px; margin-top:16px; border:1px solid #000; padding:0px;\"><li>Click <b>Upload Tree</b>. The \"Family trees\" screen appears while the import is being processed.</li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "For more information about the GEDCOM upload process, watch the video on the \"Import a tree\" page.",
+                                "links": [
+                                    {
+                                        "link": "https://youtu.be/waym_PzEiyk",
+                                        "text": "FMP—How to Upload Your Tree to Findmypast— - 2019",
+                                        "type": "video"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "This article provides an overview of GEDCOM files.",
+                                "links": [
+                                    {
+                                        "link": "https://www.thoughtco.com/genealogy-gedcom-basics-1421891",
+                                        "text": "TH—Genealogy GEDCOM 101 - 2019",
+                                        "type": "document"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Create a free Church of Jesus Christ Partner account.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/fmp/partner-access.JPG"
+                    ],
+                    "text": "<ol><li>Go to the <a class=\"lk\" href=\"https://familysearch.org/partneraccess\" target=\"_blank\">Partner Access page</a> on FamilySearch.</li><img src=\"img/fmp/partner-access.JPG\" width=\"150px\" style=\"float:right; margin-left:16px; margin-top:16px; border:1px solid #000; padding:0px;\"><li>Click <b>Join for Free</b> below the Findmypast logo.</li><li>Sign in to FamilySearch.</li><li>Click \"Create Your Free findmypast Account\".</li><li>In the Account Creation page, fill out fields (including email and password) and click <b>Register</b>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Customize Tree Settings",
+        "name": "Customize Your Tree Settings",
+        "section_name": "Customize your tree settings.",
+        "summary": "<p>Customizing your Findmypast tree settings can help you connect more easily with other Findmypast users.</p>",
+        "choices": [
+            {
+                "name": "Change your tree settings as needed.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/fmp/settings-icons.JPG"
+                    ],
+                    "text": "<ol><img src=\"img/fmp/settings-icons.JPG\" width=\"150px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>Click the Family Tree tab and then click the <b>Settings wheel</b> icon (right side) for the tree you want.</li><li>To set the home person for the tree, type a name in the \"Home person\" field and select it from the list.</li><li>If you want Findmypast to more easily connect you with relatives, type your name in the \"You\" field and select it from the list.</li><li>In the \"Name this tree\" field, type the name for the tree. You can also choose to capitalize entire surnames.</li><li>If you want to share information about your deceased ancestors with others, check the corresponding box. If the box is unchecked, other Findmypast users will not be able to see your tree information, and your tree will not be included in Findmypast's Tree-to-Tree Hinting feature.</li><li>Click <b>Save changes</b>.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Export or delete trees.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/fmp/tree-buttons.JPG",
+                        "https://www.thefhguide.com/img/fmp/download-tree.JPG"
+                    ],
+                    "text": "<ol><img src=\"img/fmp/tree-buttons.JPG\" width=\"150px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>To export a tree as a GEDCOM file, in the <b>Family trees</b> list click the Export icon (upper right). A progress sentence shows the current number of people added to the file, and you can continue viewing your tree or even shut down your device while the Export is in progress. <br><i>Note</i> : The Export process does not copy media files from your tree to the GEDCOM; you will need to add those items to the new tree.</li> <img src=\"img/fmp/download-tree.JPG\" width=\"170px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>When the Export finishes, click <b>Download Tree</b>. The GEDCOM file with your tree information is saved to your download folder location. You can use this file to create a family tree on another site if desired.</li><li>To delete a tree, <br>a) Click its Trash icon, and <br>b) Click <b>Remove</b>. <br><i>Important</i> : This action cannot be undone.</li> </ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Customize Account Settings",
+        "name": "Customize Your Account Settings",
+        "section_name": "Customize your account settings.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Change your site account settings as needed.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/fmp/my-account.JPG"
+                    ],
+                    "text": "<ol><img src=\"img/fmp/my-account.JPG\" width=\"200px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>Click <b>My Account</b> (upper right).</li><li>To set your account details, select <b>Personal details</b> and fill in the fields as desired. You can change your email address and password in this screen. Then click <b>Update details</b>.</li><li>To update your username or password for Findmypast, select <b>Security settings</b> and make the changes.</li><li>To update your communications preferences, select <b>Communication preferences</b> and fill in the fields.</li><li>To see your subscription information, select <b>My subscription</b>.</li><li>If you have saved one or more records searches for your tree, click <b>Saved searches</b>. You can see the date each search was saved, as well as the results counts for each.</li><li>If you have saved one or more records searches across other Findmypast trees, click <b>Saved tree searches</b>. You can see the date each search was saved, as well as the results counts for each.</li><li>To sign out of Findmypast select <b>Sign out</b>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

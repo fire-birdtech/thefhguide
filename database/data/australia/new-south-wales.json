@@ -1,0 +1,304 @@
+[
+    {
+        "nav_name": "Research and Records",
+        "name": "Research and Records",
+        "section_name": "Learn about New South Wales research and records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Get started with research for your New South Wales ancestors.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for research resources. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-aus-nsw-over.jpg"
+                    ],
+                    "text": "<ol><img src=\"../img/x-aus-nsw-over.jpg\" alt=\"\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\" width=\"450px\"><li>Use these tips for getting started with research, from the NSW State Archives and Records. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.records.nsw.gov.au/archives/collections-and-research/guides-and-indexes/family-history-guide\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\">&nbsp;&nbsp;<span class=\"re\">Family History Guide</span></a></li><br><li>Learn about finding your ancestors in New South Wales. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/New_South_Wales,_Australia_Genealogy\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki:—New South Wales</span></a></li><br><li>Use the Australian Record Finder for research opportunities. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Australia_Record_Finder\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Australia Record Finder</span></a></li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Archives and Libraries",
+        "name": "Archives and Libraries",
+        "section_name": "Learn about New South Wales archives and libraries.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about archives and libraries.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for archives and libraries. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-aus-nsw-lib.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://en.wikipedia.org/wiki/Sydney#/media/File:Art_Gallery_of_New_South_Wales_at_night.jpg\" target=\"_blank\"><img src=\"../img/x-aus-nsw-lib.jpg\" alt=\"\" width=\"450px\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li>Learn about archive and library resources in New South Wales. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/New_South_Wales_Archives_and_Libraries\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki:—New South Wales</span></a></li><br><li>Learn how to use the collections at the NSW State Records and Archives. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.records.nsw.gov.au/archives/collections-and-research/guides-and-indexes/getting-started/guides\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Getting Started</span></a></li><br><li>Learn about the Regional Archive Centers in New South Wales. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.records.nsw.gov.au/archives/collections-and-research/guides-and-indexes/regional-repositories\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Regional Archives Centers</span></a></li><br><li>Explore the <a class=\"lk\" href=\"https://www.records.nsw.gov.au/archives/collections-and-research/guides-and-indexes/archives-resources-kit-ark\" target=\"_blank\">ARK (Archives Resources Kit)</a> for NSW genealogy.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about New South Wales city directories.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/New_South_Wales_Directories\" target=\"_blank\">a variety of directories</a> in New South Wales.</li><li>Learn more about gazettes and directories available in New South Wales. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://heritagegenealogy.com.au/nsw-research/gazettes-and-directories/\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Gazettes and Directories</span></a></li><br></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Vital and Census Records",
+        "name": "Vital and Census Records",
+        "section_name": "Learn about New South Wales vital and census records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about New South Wales vital and BMD records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for vital and BMD records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-aus-nsw-vit.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://en.wikipedia.org/wiki/Sydney#/media/File:Sydney_Hospital.jpg\" target=\"_blank\"><img src=\"../img/x-aus-nsw-vit.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"></a><li>Learn about vital records in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/New_South_Wales_Vital_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: New South Wales Vital Records</span></a></li><br><li>Find <a class=\"lk\" href=\"http://www.genealogylinks.net/marriages/australia/nsw.htm\" target=\"_blank\">links for NSW marriage records</a> on the GenealogyLinks site.</li><li>Learn about divorce records in New South Wales. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.records.nsw.gov.au/archives/collections-and-research/guides-and-indexes/divorce-records-guide\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Divorce Records</span></a></li><br><li>Learn about New South Wales BMD records in this video. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/ask/learningViewer/140\" target=\"_blank\"> <img src=\"../img/vid.png\" width=\"20\"> <span class=\"re\">FS—Using the New South Wales Birth, Death, Marriage Index</span></a></li><br><li>Find resources for New South Wales BMD records on the <a class=\"lk\" href=\"http://www.bdm.nsw.gov.au/Pages/family-history/family-history.aspx\" target=\"_blank\">NSW Registry of Births, Deaths, and Marriages</a> site.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about New South Wales censuses.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for census records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>Learn about NSW information in the 1901 Census. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.records.nsw.gov.au/archives/collections-and-research/guides-and-indexes/census-1901\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Census - 1901</span></a></li><br><li>Learn about NSW information in the 1891 Census. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.records.nsw.gov.au/archives/collections-and-research/guides-and-indexes/census-1891\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Census - 1891</span></a></li><br><li>Learn about electoral rolls and how to access them. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://heritagegenealogy.com.au/nsw-research/electoral-rolls/\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Electoral Rolls</span></a></li><br></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Church and Cemetery Records",
+        "name": "Church and Cemetery Records",
+        "section_name": "Learn about New South Wales church and cemetery records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore New South Wales cemetery records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for cemetery records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-aus-nsw-church.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://en.wikipedia.org/wiki/Sydney#/media/File:StMarysSydneyCathedral.jpg\" target=\"_blank\"><img src=\"../img/x-aus-nsw-church.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"></a><li>Learn about early New South Wales church records in this video. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/ask/learningViewer/139\" target=\"_blank\"> <img src=\"../img/vid.png\" width=\"20\"> <span class=\"re\">FS—New South Wales Early Church Records 1788-1886 (21:08)</span></a></li><br><li>Explore church registers on the <a class=\"lk\" href=\"https://www.bda-online.org.au/sources/church-registers/\" target=\"_blank\">Biographical Database of Australia</a>.</li><li>Find <a class=\"lk\" href=\"http://www.genealogylinks.net/australia/new-south-wales/cemeteries-page1.htm\" target=\"_blank\">links for NSW cemeteries online</a> on the GenealogyLinks site.</li><li>Explore resources for cemeteries in New South Wales. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.records.nsw.gov.au/archives/collections-and-research/guides-and-indexes/cemeteries-burials-guide\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki:—New South Wales Cemeteries</span></a></li><br><li>Use the Cemeteries and Burials Guide on the NSW State Archives and Records site. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/New_South_Wales_Cemeteries\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">NSW SAR—Cemeteries and Burials</span></a></li><br><li>Find <a class=\"lk\" href=\"http://www.genealogylinks.net/australia/new-south-wales/cemeteries-page1.htm\" target=\"_blank\">links for NSW cemeteries online</a> on the GenealogyLinks site.</li><li>Search the <a class=\"lk\" href=\"http://www.findagrave.com/cgi-bin/fg.cgi?page=cs\" target=\"_blank\">Find A Grave site</a> for cemetery records.</li><li>Search the <a class=\"lk\" href=\"http://billiongraves.com/pages/search/\" target=\"_blank\">BillionGraves site</a> for cemetery records.</li></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Emigration and Immigration",
+        "name": "Emigration and Immigration",
+        "section_name": "Learn about New South Wales emigration and immigration.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about New South Wales emigration and immigration.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-aus-nsw-imm.jpg"
+                    ],
+                    "text": "<ol><img src=\"../img/x-aus-nsw-imm.jpg\" alt=\"\" width=\"450px\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Explore resources for immigration in New South Wales. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/New_South_Wales_Emigration_and_Immigration\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki:—New South Wales Emigration and Immigration</span></a></li><br><li>Learn about passenger arrivals in New South Wales. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.records.nsw.gov.au/archives/collections-and-research/guides-and-indexes/immigration-shipping-guide\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">NSW SAR—Immigration / Shipping Guide</span></a></li><br><li>Find <a class=\"lk\" href=\"http://www.genealogylinks.net/australia/new-south-wales/nswships.htm\" target=\"_blank\">links for NSW passenger lists</a> on the GenealogyLinks site.</li><li>Learn about immigrant naturalization and citizenship in New South Wales. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.records.nsw.gov.au/archives/collections-and-research/guides-and-indexes/naturalization-citizenship-guide\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">NSW SAR—Naturalization / Citizenship Guide</span></a></li><br><li>Learn about immigrants arriving in New South Wales as convicts. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://heritagegenealogy.com.au/nsw-research/convicts/\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Convicts</span></a></li><br></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Probate, Land and Court",
+        "name": "Probate, Land and Court Records",
+        "section_name": "Learn about New South Wales land, probate, and court records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore New South Wales probate records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for probate and land records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-aus-nsw-land.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://en.wikipedia.org/wiki/Sydney#/media/File:Supreme_Court,_Sydney.jpg\" target=\"_blank\"><img src=\"../img/x-aus-nsw-land.jpg\" alt=\"\" width=\"450px\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li>Learn about NSW probate information in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/New_South_Wales_Probate_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Census - 1901</span></a></li><br><li>Learn about probate research on the NSW State Archives and Records site. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.records.nsw.gov.au/archives/collections-and-research/guides-and-indexes/probate-packets-wills-guide\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">NSW SAR—Probate Packets (Wills) Guide</span></a></li><br><li>Explore land and property resources in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/New_South_Wales_Land_and_Property\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—New South Wales Land and Property</span></a></li><br><li>Find resources for land research on the NSW State Archives and Records site. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.records.nsw.gov.au/archives/collections-and-research/guides-and-indexes/land/guides\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">NSW SAR—Land</span></a></li><br><li>Find NSW land name indexes online. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://heritagegenealogy.com.au/online-nsw-land-name-indexes/\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">NSW Land Name Indexes Online</span></a></li><br><li>Read the House and Property Guide on the NSW State Archives and Records site. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.records.nsw.gov.au/archives/collections-and-research/guides-and-indexes/house-and-property-guide\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">NSW SAR—House and Property Guide</span></a></li><br><li>Learn about land and property records in New South Wales. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://heritagegenealogy.com.au/nsw-research/land-and-property/\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Land and Property</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about New South Wales court records.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about NSW court information in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/New_South_Wales_Court_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Census - 1901</span></a></li><br></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Maps and Gazetteers",
+        "name": "Maps and Gazetteers",
+        "section_name": "Learn about New South Wales maps and gazetteers.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore New South Wales maps and gazetteers.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-aus-nsw-map.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://en.wikipedia.org/wiki/New_South_Wales#/media/File:New_South_Wales_in_Australia.svg\" target=\"_blank\"><img src=\"../img/x-aus-nsw-map.jpg\" alt=\"\" width=\"450px\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li>Learn about county and parish maps on the NSW State Archives and Records site. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.records.nsw.gov.au/archives/collections-and-research/guides-and-indexes/county-parish-maps-guide\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">NSW SAR—County / Parish Maps Guide</span></a></li><br><li>Explore the <a class=\"lk\" href=\"http://www.davidrumsey.com/luna/servlet/view/search?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&amp;q=western+australia&amp;search=Go\" target=\"_blank\">David Rumsey collection</a> of New South Wales maps.</li><li>Explore the <a class=\"lk\" href=\"http://www.lib.utexas.edu/maps/australia.html\" target=\"_blank\">Perry-Castaneda site</a> for maps of New South Wales (search for New South Wales on the page).</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Newspapers",
+        "name": "Newspapers",
+        "section_name": "Learn about New South Wales newspapers.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore New South Wales newspapers.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "  fs—wiki: new south wales newspapers",
+                            "content": "<br>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/newspaper.jpg"
+                    ],
+                    "text": "<ol><img src=\"../img/newspaper.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"><li>Explore New South Wales newspapers. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/New_South_Wales_Newspapers\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: New South Wales Newspapers</span></a><div class=\"choice\"><br></div></li><li>Search the <a class=\"lk\" href=\"https://sites.google.com/site/onlinenewspapersite/Home/aus/nsw\" target=\"_blank\">New South Wales Online Historical Newspapers</a> site.</li><li>Search New South Wales newspapers in the <a class=\"lk\" href=\"http://www.world-newspapers.com/south-wales.html\" target=\"_blank\">world-newspapers.com</a> site.</li><li>Search New South Wales newspapers in the <a class=\"lk\" href=\"http://www.abyznewslinks.com/austrns.htm\" target=\"_blank\">ABYZ News Link</a> site.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Websites",
+        "name": "Websites",
+        "section_name": "Explore additional websites for research.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "There are a number of websites with valuable resources for New South Wales research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore links in <a class=\"lk\" href=\"https://www.cyndislist.com/australia/states/nsw/\" target=\"_blank\">Cyndi's List</a>.</li><li>Explore links in <a class=\"lk\" href=\"http://www.genealogylinks.net/australia/new-south-wales/index.html\" target=\"_blank\">GenealogyLinks.net</a>.</li> <li>Explore links in <a class=\"lk\" href=\"http://heritagegenealogy.com.au/\" target=\"_blank\">Heritage Genealogy</a> for New South Wales.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Search Records",
+        "name": "Search Records",
+        "section_name": "Search records from New South Wales.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Use QUIKLinks to quickly search record collections for New South Wales.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore additional record collections.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore the <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/New_South_Wales,_Australia_Online_Genealogy_Records\" target=\"_blank\">FamilySearch page</a> for online genealogy records.</li><li>Explore additional record collections in <a class=\"lk\" href=\"https://www.ancestry.com/search/collections/catalog/?keyword=New+South+Wales\" target=\"_blank\">Ancestry</a>.</li><li>Explore additional record collections in <a class=\"lk\" href=\"https://search.findmypast.com/historical-records?page=1&amp;region=australia&amp;subcountry=new%20south%20wales\" target=\"_blank\">Findmypast</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Get Help",
+        "name": "Get Help",
+        "section_name": "Get help with your New South Wales research.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Use Facebook pages to get answers to your questions.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/fh-help3.jpg"
+                    ],
+                    "text": "<ol><a href=\"../img/fh-help3.jpg\" target=\"_blank\"> <img src=\"../img/fh-help3.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 350px; border:1px solid #000; padding:0px;\"></a>  <li>Join the <a class=\"lk\" href=\"https://www.facebook.com/groups/GenNSWAus/about/\" target=\"_blank\">Genealogy New South Wales Australia Group</a> on Facebook.</li><li>Visit the <a class=\"lk\" href=\"https://www.facebook.com/NSWGenealogy/\" target=\"_blank\">NSW Genealogy page</a> on Facebook.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Join a mailing list or message board for New South Wales research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore the <a class=\"lk\" href=\"http://www.rootschat.com/forum/australia/\" target=\"_blank\">RootsChat forum</a> and post questions about New South Wales research.</li><li>Explore <a class=\"lk\" href=\"https://www.ancestry.com/boards/localities.oceania.australia.nsw/mb.ashx\" target=\"_blank\">Ancestry message boards</a> for New South Wales research.</li><li>Search the <a class=\"lk\" href=\"http://bigfile.rootsweb.ancestry.com/cgi-bin/listsearch\" target=\"_blank\">RootsWeb site </a> for New South Wales research mailing lists.</li><li>Explore the <a class=\"lk\" href=\"https://www.cyndislist.com/australia/states/nsw/social/\" target=\"_blank\"> New South Wales research mailing lists</a> on Cyndi's List.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about New South Wales genealogy societies.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Find <a class=\"lk\" href=\"http://www.genealogylinks.net/australia/new-south-wales/nswsocieties.htm\" target=\"_blank\">New South Wales genealogical societies</a> on the GenealogyLinks website.</li><li>Explore <a class=\"lk\" href=\"https://www.cyndislist.com/australia/states/wa/societies/\" target=\"_blank\">New South Wales genealogy society sites</a> on Cyndi's list.</li><li>Get help at a <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Category:New_South_Wales_Family_History_Centres\" target=\"_blank\">family history center in New South Wales</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

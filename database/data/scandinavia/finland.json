@@ -1,0 +1,329 @@
+[
+    {
+        "nav_name": "Research",
+        "name": "Research",
+        "section_name": "Learn about Finland research and records.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=ncepJ17bE6s\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Get started with Finnish research.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for research records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-fin-over.jpg"
+                    ],
+                    "text": "<ol><a href=\"img/x-fin-over.jpg\" target=\"_blank\"> <img src=\"img/x-fin-over.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a><li><span class=\"g\">Introduction</span>: Use this article to help you with beginning Finnish research. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Finnish_Research:_Searching_Records\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Finnish Research: Searching Records</span></a></li><br><li>Here are some helpful guides to doing Finnish genealogy research. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.pricegen.com/6679-2/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">PR—Finland Genealogy Research – Part One</span></a><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.pricegen.com/finland-genealogy-research-part-two/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">PR—Finland Genealogy Research – Part Two</span></a></li><br><li><span class=\"g\">Tips</span>: Read these articles for tips on Finnish research. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Finnish_Research:_Tips_for_Beginners\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Tips for Beginners</span></a></li><br><li>Explore the <a class=\"lk\" href=\"http://www.sukuhistoria.fi/sshy/index_eng.htm\" target=\"_blank\">Finnish Family History Association site</a> for research tips.</li><li><span class=\"g\">Town of Origin</span>: Learn how to find the town of origin for your Finnish ancestor. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Finland_Finding_Town_of_Origin\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Finland Record Finder</span></a></li><br><li><span class=\"g\">Forest Finns</span>: Learn how to find Finns who settled in the forest areas of Norway and Sweden. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.swedishfinnhistoricalsociety.org/forest-finns-still-haunt-the-dna-of-sweden/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Forest Finns Still Haunt the DNA of Sweden</span></a></li><br><li><span class=\"g\">Pre-1900</span>: Learn how to find Finnish ancestors before 1900. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://feefhs.org/media/8\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Finding Records of Your Ancestors in Finland before 1900</span></a></li><br></ol><h5>Records and Handwriting</h5><ol><li><span class=\"g\">Record Finder</span>: Use the Finland Record Finder to understand record types for research. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Finland_Record_Finder\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Finland Record Finder</span></a></li><br><li><span class=\"g\">Forebears.io</span>: Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://forebears.io/finland\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Forebears.io site</a> for research records.</li><li><span class=\"g\">Handwriting</span>: Learn to read Scandinavian Gothic handwriting for old Finnish records. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Finland_Handwriting\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Finland Handwriting</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore databases in the Genealogical Society of Finland site.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Read the instructions for doing searches in the <a class=\"lk\" href=\"http://www.genealogia.fi/ohjeita-hiski-haun-tekemiseen\" target=\"_blank\">HisKi database</a>. This site includes records for births, marriages, burial records, etc.</li><li>Access the link for the database on the right side of the page.</li><li>In the Regions box, select a province from the map or a resource from the the drop-down list at the bottom.</li><li>Double-click an area in the left pane to search there, OR click \"All\" to search all areas in the Region you chose.</li><li>Click links on the screen to explore corresponding record sources.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Finnish genealogical terms and surnames.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Finnish_Genealogical_Word_List#Key_Words\" target=\"_blank\">Key Words</a></li>&nbsp;&nbsp;<a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Finnish_Genealogical_Word_List#General_Word_List\" target=\"_blank\">General Word List</a></ul></span>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for terms and surnames. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-fin-flag.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/x-fin-flag.jpg\" width=\"100%\" ;=\"\" style=\"float:right; margin-top: 8px; margin-left: 16px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\">    <li><span class=\"g\">Terms</span>: Learn about Finnish genealogy terms in this FamilySearch Wiki article.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Finnish_Genealogical_Word_List\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Finnish Genealogy Terms</span></a> &nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('usa1-c');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"usa1-c\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Finnish_Genealogical_Word_List#Key_Words\" target=\"_blank\">Key Words</a></li>&nbsp;&nbsp;<a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Finnish_Genealogical_Word_List#General_Word_List\" target=\"_blank\">General Word List</a></ul></span></div></li><br><span id=\"counties\"> </span><li><span class=\"g\">Surnames</span>: Learn about Finland surnames in this article and video.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Finland_Names,_Personal\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Finland Names</span></a> <br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=xznE_WLANAQ\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—The Origin and Meaning of Finnish Surnames—8:53 - 2019</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/xznE_WLANAQ?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li>Explore the <a class=\"lk\" href=\"http://www.genealogia.fi/henkilonnimet\" target=\"_blank\">Finnish Family History Association site</a> for help with surname research.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.geneanet.org/country/search-Finland-FIN\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Geneanet site</a> for Finnish surnames.</li><li>Search for <a class=\"lk\" href=\"http://www.geneaservice.nl/navigator/finland/index.html\" target=\"_blank\">Finnish surnames</a> in a number of databases.</li><li><span class=\"g\">Correspondence</span>: Use this guide for corresponding with Finnish organizations about genealogy resources. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Finland_Letter_Writing_Guide\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Finland Letter Writing Guide</span></a></li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Archives and Libraries",
+        "name": "Archives and Libraries",
+        "section_name": "Learn about Finland archives and libraries.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=ncepJ17bE6s\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Finland archives and libraries.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-fin-lib.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/oulu-finland-city-library-windows-264229/\" target=\"_blank\"> <img src=\"img/x-fin-lib.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"></a>  <li><span class=\"g\">FamilySearch</span>: Learn about Finland archives and libraries in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Finland_Archives_and_Libraries\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Finland Archives and Libraries</span></a></li><br><li><span class=\"g\">National Archives</span>: Explore genealogical resources in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://wiki.narc.fi/portti/index.php/Teema:_Sukututkimus\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Finnish National Archives</a> site.</li><li>Learn more about resources at the National Archives of Finland. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://arkisto.fi/en/access/roots-in-finland-genealogical-research-at-the-national-archives\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Genealogical Research at the National Archives</span></a><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=ADQ-bR1PN4c\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Roots in Finland—6:27 - 2017</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/ADQ-bR1PN4c?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><span id=\"counties\"> </span><li><span class=\"g\">Archives Portal</span>: Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.archivesportaleurope.net/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Archives Portal Europe</a> site. Click the Directories tab and select Finland.</li><li><span class=\"g\">Books We Own</span>: Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.rootsweb.ancestry.com/~bwo/finland.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Books We Own site</a> for books that can be checked out or researched for you by others.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Use the DIGITAALIARKISTO site to find vital records in Finland.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-fin-lib1.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/photos/finland-snow-winter-forest-nature-2475977/\" target=\"_blank\"> <img src=\"img/x-fin-lib1.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"></a>  <li>Get an introduction to the DIGITAALIARKISTO site. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/help/helpcenter/lessons/using-the-finnish-website-digitaaliarkisto-an-introduction\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Using the Finnish Website DIGITAALIARKISTO: An Introduction—4:00</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=RnkS1YnXx8I\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">RT—Introduction to using the Finnish website DIGITAALIARKISTO—20:02 - 2021</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/RnkS1YnXx8I?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><br><li>Use DIGITAALIARKISTO to locate birth and christening records. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/help/helpcenter/lessons/using-the-finnish-website-digitaaliarkisto-find-a-person-in-birth-and-christening-records\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Find a Person in Birth and Christening Records—4:05 - 2021</span></a></li><br><li>Locate communion records. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/help/helpcenter/lessons/using-the-finnish-website-digitaaliarkisto-find-a-family-in-the-communion-records\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Find a Family in the Communion Records—2:35 - 2021</span></a></li><br><li>Locate marriage and death records. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/help/helpcenter/lessons/using-the-finnish-website-digitaaliarkisto-find-people-in-the-marriage-and-death-records\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Find People in Marriage and Death Records—6:26 - 2021</span></a></li><br><li>Locate pre-confirmation records. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Finland_Archives_and_Libraries\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Find People in Pre-Confirmation Records—3:03</span></a></li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Census Records",
+        "name": "Census Records",
+        "section_name": "Learn about Finland census records.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=ncepJ17bE6s\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Finland census records.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-fin-cen.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/photos/oulu-finland-city-cities-store-171445/\" target=\"_blank\"> <img src=\"img/x-fin-cen.jpg\" width=\"100%\" ;=\"\" style=\"float:right; margin-top: 8px; margin-left: 16px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a>    <li><span class=\"g\">FamilySearch</span>: Learn about Finland census records in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Finland_Census\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Finland Census Records</span></a></li><br><li><span class=\"g\">Census and Church</span>: Learn how Finland census records compare with church records in this blog article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://genealogyinfinland.blogspot.com/2009/12/census-records.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Genealogy in Finland: Census Records - 2009</span></a></li><br><li>Learn more about census and other Finnish records on the Finland Family History Association site. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.sukuhistoria.fi/sshy/index_eng.htm\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Provincial accounts and other sources</span></a></li></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Church and Cemetery Records",
+        "name": "Church and Cemetery Records",
+        "section_name": "Learn to use Finland church and cemetery records.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=ncepJ17bE6s\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Finland church records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Finland_Church_Records#Non-Lutheran_Church_Registers_of_Births.2C_Marriages.2C_Deaths_.28Historiakirjat.2FHistorieb.C3.B6cker.29\" target=\"_blank\">Non-Lutheran Church Registers</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Finland_Church_Records#Information_Recorded_in_Church_Registers\" target=\"_blank\">Information Recorded in Church Registers</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Finland_Church_Records#Examples_of_what_kind_of_information_that_can_be_found_in_Church_Records_and_a_list_of_words_used_in_the_records.\" target=\"_blank\">Examples</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Finland_Church_Records#Finding_Church_Records\" target=\"_blank\">Finding Church Records</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Finland_Church_Records#Search_Strategies\" target=\"_blank\">Search Strategies</a></li></ul></span>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for church records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-fin-church.jpg"
+                    ],
+                    "text": "<ol><a href=\"img/x-fin-church.jpg\" target=\"_blank\"> <img src=\"img/x-fin-church.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"></a><li><span class=\"g\">FamilySearch</span>: Learn about Finland church records in this FamilySearch Wiki article.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Finland_Church_Records\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Finland Church Records</span></a> &nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('usa');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"usa\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Finland_Church_Records#Non-Lutheran_Church_Registers_of_Births.2C_Marriages.2C_Deaths_.28Historiakirjat.2FHistorieb.C3.B6cker.29\" target=\"_blank\">Non-Lutheran Church Registers</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Finland_Church_Records#Information_Recorded_in_Church_Registers\" target=\"_blank\">Information Recorded in Church Registers</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Finland_Church_Records#Examples_of_what_kind_of_information_that_can_be_found_in_Church_Records_and_a_list_of_words_used_in_the_records.\" target=\"_blank\">Examples</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Finland_Church_Records#Finding_Church_Records\" target=\"_blank\">Finding Church Records</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Finland_Church_Records#Search_Strategies\" target=\"_blank\">Search Strategies</a></li></ul></span></div></li><br><li>Learn more about available church records in Finland.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/blog/en/finnish-ancestry-records/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Types of Finnish Records - 2019</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/blog/en/finnish-genealogy-research/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Finnish Family History Research: Where to Start</span></a></li><br><li><span class=\"g\">Online</span>: Here's an introduction to using online church records in Finland.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/finland-an-introduction-to-finnish-church-record-online-resources\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Introduction to Finnish Church Record Online Resources—53:54 - 2016</span></a></li><br><li><span class=\"g\">Case Study</span>: Explore this case study in using online church records.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/finland-a-case-study-using-hiski-and-digitized-online-church-records\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—A Case Study Using Hiski and Digitized Online Church Records—46:33 - 2016</span></a></li><br><li><span class=\"g\">Jewish</span>: Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://bloodandfrogs.com/encyclopedia/finland\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Jewish Genealogy Encyclopedia</a> for Jewish resources in Finland.</li><br></ol><h5>Parish Records</h5><ol><li>Learn about <a class=\"lk\" href=\"http://www.genealogia.fi/kirkonkirjat\" target=\"_blank\">Finnish parish records</a> on the Finland Genealogy site.</li><li><span class=\"g\">History Books</span>: Learn about Finnish History Books, which are records kept at the parish level, and the HisKi database.<br><br><span class=\"star notranslate\">☆</span><a href=\"http://finlander.genealogia.fi/content.php?r=61\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">The History Books and HisKi</span></a></li><br><li><span class=\"g\">Parish Registers</span>: Explore parish register records on the <a class=\"lk\" href=\"http://www.sukuhistoria.fi/sshy/kirjat/Kirkonkirjat/arkisto/paikkakunnittain.htm\" target=\"_blank\">Finland's Family History Association site</a>.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Finnish gravestones and cemetery records.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-fin-cem.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/photos/aland-finland-mariehamn-baltic-sea-4379645/\" target=\"_blank\"> <img src=\"img/x-fin-cem.jpg\" width=\"100%\" ;=\"\" style=\"float:right; margin-top: 8px; margin-left: 16px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a>    <li>Research Finnish gravestones in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genealogia.fi/hautakivitietokanta\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Genealogical Society of Finland site</a>.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.findagrave.com/cemetery-browse/Finland?id=country_29\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Find A Grave site</a> for cemetery records.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://billiongraves.com/site-map?country=Finland\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">BillionGraves site</a> for cemetery records.</li></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Emigration and Immigration",
+        "name": "Emigration and Immigration",
+        "section_name": "Learn about Finland emigration and immigration.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=ncepJ17bE6s\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Finland emigration and immigration.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-fin-imm.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/harbor-heisinki-harbor-market-square-219149/\" target=\"_blank\"> <img src=\"img/x-fin-imm.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px;\"></a> <li><span class=\"g\">FamilySearch</span>: Learn about Finland emigration and immigration in this FamilySearch Wiki article.<br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Finland_Emigration_and_Immigration\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Finland Emigration and Immigration</span></a> </li><br><li><span class=\"g\">Wikipedia</span>: Learn about immigration history and demographics in this Wikipedia article.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Finnish_Americans\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Wikipedia: Finnish Americans</span></a></li><br><li>Learn Finnish immigrants to the United States from 1870-1930.<br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=kQjCmunUW1M\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Finnish Immigrants 1870-1930—5:52 - 2016</span></a> <br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/kQjCmunUW1M?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li><span class=\"g\">Methodology</span>: Learn the basic methodology behind Finnish emigration and records.<br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/help/helpcenter/lessons/finnish-emigration-and-methodology-how-to-tackle-finnish-challenges\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Finnish Emigration and Methodology: How to Tackle Finnish Challenges—72:03 - 2017</span></a> </li><br><li><span class=\"g\">Resources</span>: Explore emigration resources on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.genealogia.fi/siirtolaisuus\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Finnish Genealogy site</a>.</li><br><span id=\"counties\"> </span></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Finland emigration and immigration.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore immigration resources in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genealogia.fi/siirtolaisuus\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Finland Genealogy site</a>.</li><li>Explore the <a class=\"lk\" href=\"http://www.genealogia.fi/emi/emi32e.htm\" target=\"_blank\">Finland to America site</a> for immigration path information.</li><li>Explore database records in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://maine.utu.fi/emreg/sr_faq_s.php\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Institute of Migration site</a>.</li><li>Explore a variety of emigration resources in the  <a class=\"lk\" href=\"http://sydaby.eget.net/swe/emi_intro.htm\" target=\"_blank\">Sydaby</a> website.</li></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Maps and Gazetteers",
+        "name": "Maps and Gazetteers",
+        "section_name": "Learn about Finland maps and gazetteers.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=ncepJ17bE6s\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Finland maps and gazetteers.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-fin-map.png"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/scandinavia-norway-sweden-finland-60524/\" target=\"_blank\"> <img src=\"img/x-fin-map.png\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; margin-top: 8px;\"></a>   <li><span class=\"g\">Maps</span>: Learn about Finland maps in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Finland_Maps\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Finland Maps</span></a></li><br><li>See an <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Finland_Genealogy#Finland_Clickable_Map\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">interactive map</a> for Finland provinces.</li><li><span class=\"g\">Gazetteers</span>: Learn about Finland gazetteers in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Finland_Gazetteers\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Finland Gazetteers</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Finland maps and gazetteers.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.davidrumsey.com/luna/servlet/view/search?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&amp;q=finland&amp;search=Go\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">David Rumsey collection</a> of Finland maps.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://commons.wikimedia.org/wiki/Atlas_of_Finland\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Atlas of Finland</a> on the Wikipedia site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://commons.wikimedia.org/wiki/Category:Old_maps_of_Finland\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Old Maps of Finland</a> on the Wikipedia site.</li><span id=\"counties\"> </span><li>Visit the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.karttakeskus.fi/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Karttakeskus Map Center</a> website for free maps of Finland.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.oldmapsonline.org/en/Finland\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Old Maps Online site</a> for Finland maps.</li><li>Explore a <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.fallingrain.com/world/FI/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">directory of Finland cities, towns, and regions</a> in the Falling Rain site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Newspapers",
+        "name": "Newspapers",
+        "section_name": "Learn about Finland newspapers.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=ncepJ17bE6s\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Explore Finland newspapers.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-fin-news.png"
+                    ],
+                    "text": "<ol><a href=\"https://commons.wikimedia.org/wiki/File:P%C3%A4iv%C3%A4lehti_numero_nolla_etusivu.png\" target=\"_blank\"> <img src=\"img/x-fin-news.png\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-bottom: 16px; max-width:350px; border:1px solid #000; padding:0px;\"></a>  <li>Find links to <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Wikipedia:List_of_online_newspaper_archives#Finland\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Finnish newspapers</a> on the Wikipedia site.</li> <li>Explore Finnish newspapers from 1771-1910 in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://digi.kansalliskirjasto.fi/sanomalehti\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">National Library archive</a> site.</li><span id=\"counties\"> </span><li>Search Finnish newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.onlinenewspapers.com/finland.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">onlinenewspapers.com</a> site.</li> <li>Search Finnish newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.world-newspapers.com/finland.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">world-newspapers.com</a> site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Websites",
+        "name": "Websites",
+        "section_name": "Explore additional websites for research.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=ncepJ17bE6s\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "There are a number of websites with valuable resources for Finnish research.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/laptop-fingers1.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/laptop-fingers1.jpg\" alt=\"\" width=\"350px\" style=\"float:right; margin-top: 6px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Explore links in the <a class=\"lk\" href=\"https://www.familysearch.org/en/wiki/Finnish_Research_Websites\" target=\"_blank\">FamilySearch Wiki</a>.</li><li>Explore links in <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cyndislist.com/finland\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Cyndi's List</a>.</li><span id=\"counties\"> </span><li>Explore links in <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genealogylinks.net/europe/finland/index.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Genealogylinks.net</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Search Records",
+        "name": "Search Records",
+        "section_name": "Search records from Finland.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=ncepJ17bE6s\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Use QUIKLinks, Partners, and GenealogyInTime to quickly search the most common record collections for Finland.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/laptop-hands.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/laptop-hands.jpg\" alt=\"\" width=\"350px\" style=\"float:right; margin-top: 6px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>QUIKLinks are indicated by lightning-bolt icons in the Goals above.They point to collections with 50,000 or more records. When you click a QUIKLink icon, scroll down on the resulting page to see the QUIKLinks.</li><li>In the Partners section (near the top of the page), explore additional record collections in FamilySearch, Ancestry, Findmypast and MyHeritage.</li><li>Explore the FamilySearch page for <a class=\"lk\" href=\"https://familysearch.org/wiki/en/Finland_Online_Genealogy_Records\" target=\"_blank\">Finnish online record collections</a>.</li><li>Explore the <a class=\"lk\" href=\"http://www.genealogyintime.com/records/Europe-genealogy-records.html\" target=\"_blank\">Europe page</a> of the GenealogyInTime website. Record collections are listed and described in order from newest to oldest additions, including FamilySearch, Ancestry, and many other sources.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Get Help",
+        "name": "Get Help",
+        "section_name": "Get help with your Finland research.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=ncepJ17bE6s\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Use Facebook pages to get answers to your questions.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/fh-help3.jpg"
+                    ],
+                    "text": "<ol><a href=\"img/fh-help3.jpg\" target=\"_blank\"> <img src=\"img/fh-help3.jpg\" alt=\"\" width=\"250px\" style=\"float:right; margin-top: 8px; margin-left: 16px\"></a> <li>Visit the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.facebook.com/groups/14108279806/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Finnish Genealogy Group</a> on Facebook.</li> <li>Visit the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.facebook.com/groups/NorthernEuropeGenealogyResearchCommunity/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Northern Europe Genealogy Research Community page</a> on Facebook.</li><li>See the <a class=\"lk\" href=\"http://socialmediagenealogy.com/genealogy-on-facebook-list/\" target=\"_blank\">Genealogy on Facebook list</a> of Facebook groups dedicated to helping with research for Finland.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Join a mailing list, community, or message board for Finland research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://community.familysearch.org/s/group/0F93A000000LfVxSAK/nordic-countries\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">FamilySearch community</a> for Finland (Nordic Countries) research.</li><li>Explore the <a class=\"lk\" href=\"http://www.cyndislist.com/finland/social/\" target=\"_blank\"> Finland research mailing lists</a> on Cyndi's List.</li><li>Use the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ancestry.com/boards/localities.scan-balt.finland/mb.ashx\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Ancestry message boards</a> to read or post questions about Finland research.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Finland genealogy societies.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><span id=\"counties\"> </span><li>Learn about Finland genealogy societies in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Finland_Societies\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Finland Societies</span></a></li><br><li>Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cyndislist.com/finland/societies/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Finland genealogy society sites</a> on Cyndi's List.</li><li>Get help at a <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Category:Finland_Family_History_Centers\" target=\"_blank\">family history center in Finland</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Other Records",
+        "name": "Land, Probate and Other Records",
+        "section_name": "Learn about Finland land, probate, and other records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Finland land, probate, and other records.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about Finland land and property records in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Finland_Land_and_Property\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Finland Land and Property</span></a></li><br><li>Learn about Finland probate records in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Finland_Probate_Records\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Finland Probate Records</span></a></li><br><li>Learn about Finland taxation records in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Finland_Taxation\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Finland Taxation</span></a></li><br><li>Explore <a class=\"lk\" href=\"http://www.sukuhistoria.fi/sshy/sivut_eng/arkisto/tuomiokirjat.htm\" target=\"_blank\">Finland court records</a> for selected provinces.</li><li>Explore <a class=\"lk\" href=\"http://www.sukuhistoria.fi/sshy/sivut_eng/arkisto/tuomiokirjat.htm\" target=\"_blank\">Finland military records</a> on the Finland Genealogy site.</li></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Other Records",
+        "name": "Geography, Culture, and History",
+        "section_name": "Learn about the geography, culture, and history of Finland. \n\t\t\t\t\t\t\n\t\t\t\t\t\t",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=ncepJ17bE6s\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Explore websites and videos.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/c-finland.jpg"
+                    ],
+                    "text": "<h5>Reference</h5><ol><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Finland_History\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">FamilySearch: History</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Finland_Historical_Geography\" target=\"_blank\">FamilySearch: Historical Geography</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Finland\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Wikipedia</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.britannica.com/place/Finland\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Encyclopedia Britannica</a></li></ol><h5>For Kids</h5><ol><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ducksters.com/geography/country.php?country=Finland\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Ducksters</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=TcXXJis03SE\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">YouTube: Animated History of Finland</a></li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

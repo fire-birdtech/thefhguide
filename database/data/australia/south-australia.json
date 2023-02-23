@@ -1,0 +1,244 @@
+[
+    {
+        "nav_name": "Research and Records",
+        "name": "Research and Records",
+        "section_name": "Learn about South Australia research and records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Get started with research for your South Australia ancestors.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for research resources. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-aus-nsw-over.jpg"
+                    ],
+                    "text": "<ol><img src=\"../img/x-aus-sa-over.jpg\" alt=\"\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\" width=\"450px\"><li>Learn about finding your ancestors in South Australia. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/South_Australia,_Australia_Genealogy\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki:—South Australia</span></a></li><br><li>Use the Family History Starter Guide from the State Library of South Australia. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://guides.slsa.sa.gov.au/familyhistorygettingstarted\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">SLSA:—Family History Starter Guide</span></a></li><br><li>Here are some family history FAQs and answers from the State Library of South Australia. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://guides.slsa.sa.gov.au/familyhistoryFAQ\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">SLSA:—Family History FAQs</span></a></li><br><li>Use the Australian Record Finder for research opportunities. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Australia_Record_Finder\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Australia Record Finder</span></a></li><br><li>Explore resources on the <a class=\"lk\" href=\"https://www.familyhistorydirectory.co.uk/australia/south-australia/\" target=\"_blank\">Family History Directory</a> site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Archives and Libraries",
+        "name": "Archives and Libraries",
+        "section_name": "Learn about South Australia archives and libraries.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about archives and libraries in South Australia.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for archives and libraries. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-aus-sa-lib.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://en.wikipedia.org/wiki/Adelaide#/media/File:UofAdelaide-BarrSmithLibrary-Aug08.jpg\" target=\"_blank\"><img src=\"../img/x-aus-sa-lib.jpg\" alt=\"\" width=\"450px\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li>Learn about South Australia archives in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Archives_in_South_Australia\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki:—Archives in South Australia</span></a></li><br><li>Learn about doing research at various South Australia archives. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.legacytree.com/blog/legacy-tree-onsite-archives-adelaide-south-australia\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">LT—Archives in Adelaide, South Australia</span></a><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.legacytree.com/blog/legacy-tree-onsite-finding-your-german-ancestors-in-south-australia\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">LT—Finding Your German Ancestors ... in South Australia!</span></a></li><br><li>Find family history resources on the <a class=\"lk\" href=\"http://guides.slsa.sa.gov.au/FHservice\" target=\"_blank\">State Library of South Australia</a> website.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about South Australia city directories.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Get an introduction to directories and almanacs for South Australia. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://guides.slsa.sa.gov.au/directories\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">SLSA:—Almanacs and directories</span></a></li><br><li>Search the <a class=\"lk\" href=\"http://www.familytreeoz.com/search-ancestry-records.html?view=genList&amp;id=11\" target=\"_blank\">Sands &amp; McDougall's South Australian Directory</a> for 1885.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Vital and Census Records",
+        "name": "Vital and Census Records",
+        "section_name": "Learn about South Australia vital records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about South Australia vital and BMD records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for vital and BMD records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-aus-sa-vit.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://en.wikipedia.org/wiki/Adelaide#/media/File:NRAHfront.jpg\" target=\"_blank\"><img src=\"../img/x-aus-sa-vit.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"></a><li>Learn about South Australia births, marriages, and deaths in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/South_Australia_Births,_Marriages,_and_Deaths\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki:—South Australia Births, Marriages, and Deaths</span></a></li><br><li>Learn how to find birth records for South Australia. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://guides.slsa.sa.gov.au/bdm/SAbirths\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">SLSA:—SA Births</span></a></li><br><li>Learn how to find marriage records for South Australia. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://guides.slsa.sa.gov.au/bdm/SAmarriages\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">SLSA:—SA Marriages</span></a></li><br><li>Learn how to find death records for South Australia. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://guides.slsa.sa.gov.au/bdm/SAdeaths\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">SLSA:—SA Deaths</span></a></li><br></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Church and Cemetery Records",
+        "name": "Church and Cemetery Records",
+        "section_name": "Learn about South Australia church and cemetery records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore South Australia church and cemetery records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for church and cemetery records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-aus-sa-church.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://en.wikipedia.org/wiki/Adelaide#/media/File:St_Francis_Xavier%27s_Cathedral,_Victoria_Square.jpg\" target=\"_blank\"><img src=\"../img/x-aus-sa-church.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"></a><li>Learn about South Australia church records for research. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://guides.slsa.sa.gov.au/church_records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">SLSA:—Church Records</span></a></li><br><li>Get an introduction to South Australia cemetery resources. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://guides.slsa.sa.gov.au/bdm/sacemeteries\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">SLSA:—SA Cemeteries</span></a></li><br><li>Explore other resources for South Australia cemeteries. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/South_Australia_Cemeteries\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki:—South Australia Cemeteries</span></a></li><br><li>Find <a class=\"lk\" href=\"http://www.genealogylinks.net/australia/south-australia/sa-cem.htm\" target=\"_blank\">links to South Australia cemetery resources</a> on the GenealogyLinks site.</li><li>Search the <a class=\"lk\" href=\"http://www.findagrave.com/cgi-bin/fg.cgi?page=cs\" target=\"_blank\">Find A Grave site</a> for cemetery records.</li><li>Search the <a class=\"lk\" href=\"http://billiongraves.com/pages/search/\" target=\"_blank\">BillionGraves site</a> for cemetery records.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Emigration and Immigration",
+        "name": "Emigration and Immigration",
+        "section_name": "Learn about South Australia emigration and immigration.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about South Australia emigration and immigration.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-aus-sa-imm.jpg"
+                    ],
+                    "text": "<ol><img src=\"../img/x-aus-sa-imm.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"><li>Explore resources for immigration in South Australia. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://guides.slsa.sa.gov.au/immigration\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">SLSA:—Immigration to South Australia</span></a></li><br><li>Explore <a class=\"lk\" href=\"http://www.genealogylinks.net/australia/south-australia/sa-ships.htm\" target=\"_blank\">ship passenger lists</a> on the GenealogyLinks site.</li><li>Learn about South Australia naturalization. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://guides.slsa.sa.gov.au/c.php?g=410226&amp;p=2794977\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">SLSA:—Immigration to South Australia: Naturalisation</span></a></li><br></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Maps and Gazetteers",
+        "name": "Maps and Gazetteers",
+        "section_name": "Learn about South Australia maps and gazetteers.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore South Australia maps and gazetteers.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-aus-sa-map.png"
+                    ],
+                    "text": "<ol><a href=\"https://en.wikipedia.org/wiki/South_Australia#/media/File:South_Australia_in_Australia.svg\" target=\"_blank\"><img src=\"../img/x-aus-sa-map.png\" alt=\"\" width=\"450px\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li>Learn about map resources available for South Australia research. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://guides.slsa.sa.gov.au/SAmapping\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">SLSA:—Mapping Sources for South Australia History</span></a></li><br><li>Explore the <a class=\"lk\" href=\"http://www.davidrumsey.com/luna/servlet/view/search?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&amp;q=south+australia&amp;search=Go\" target=\"_blank\">David Rumsey collection</a> of South Australia maps.</li><li>Explore the <a class=\"lk\" href=\"https://www.ancestry.com/search/collections/60889\" target=\"_blank\">South Australia, Australia, Bailliere's Gazetteer and Road Guide, 1866</a>.</li><li>Explore the <a class=\"lk\" href=\"http://www.lib.utexas.edu/maps/australia.html\" target=\"_blank\">Perry-Castaneda site</a> for maps of South Australia (search for South Australia on the page).</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Newspapers",
+        "name": "Newspapers",
+        "section_name": "Learn about South Australia newspapers.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore South Australia newspapers.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/newspaper.jpg"
+                    ],
+                    "text": "<ol><img src=\"../img/newspaper.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"><li>Learn about South Australia newspapers. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://guides.slsa.sa.gov.au/newspapers\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">SLSA—SA Newspapers</span></a></li><br><li>Explore South Australia newspapers. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/South_Australia_Newspapers\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: South Australia Newspapers</span></a></li><br><li>Search the <a class=\"lk\" href=\"https://sites.google.com/site/onlinenewspapersite/Home/aus/sa\" target=\"_blank\">South Australia Online Historical Newspapers</a> site.</li><li>Search South Australia newspapers in the <a class=\"lk\" href=\"http://www.world-newspapers.com/south-australia.html\" target=\"_blank\">world-newspapers.com</a> site.</li><li>Search South Australia newspapers in the <a class=\"lk\" href=\"http://www.abyznewslinks.com/austrsa.htm\" target=\"_blank\">ABYZ News Link</a> site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Websites",
+        "name": "Research and Records",
+        "section_name": "Explore additional websites for research.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "There are a number of websites with valuable resources for South Australia research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore links in <a class=\"lk\" href=\"https://www.cyndislist.com/australia/states/sa/\" target=\"_blank\">Cyndi's List</a>.</li><li>Explore links in <a class=\"lk\" href=\"http://www.genealogylinks.net/australia/south-australia/index.html\" target=\"_blank\">GenealogyLinks.net</a>.</li> </ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Search Records",
+        "name": "Search Records",
+        "section_name": "Search records from South Australia.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Use QUIKLinks to quickly search record collections for New South Wales.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore additional record collections.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore the <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/South_Australia,_Australia_Online_Genealogy_Records\" target=\"_blank\">FamilySearch page</a> for online genealogy records.</li><li>Explore additional record collections in <a class=\"lk\" href=\"https://www.ancestry.com/search/collections/catalog/?keyword=South+Australia\" target=\"_blank\">Ancestry</a>.</li><li>Explore additional record collections in <a class=\"lk\" href=\"https://search.findmypast.com/historical-records?page=1&amp;region=australia&amp;subcountry=south%20australia\" target=\"_blank\">Findmypast</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Get Help",
+        "name": "Get Help",
+        "section_name": "Get help with your South Australia research.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Use Facebook pages to get answers to your questions.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/fh-help3.jpg"
+                    ],
+                    "text": "<ol><a href=\"../img/fh-help3.jpg\" target=\"_blank\"> <img src=\"../img/fh-help3.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 350px; border:1px solid #000; padding:0px;\"></a>  <li>Join the <a class=\"lk\" href=\"https://www.facebook.com/groups/146931945380414/\" target=\"_blank\">South Australia Genealogy Group</a> on Facebook.</li><li>Visit the <a class=\"lk\" href=\"https://www.facebook.com/groups/GenSAAus/about/\" target=\"_blank\"> Genealogy South Australia Genealogy page</a> on Facebook.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Join a mailing list or message board for South Australia research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore the <a class=\"lk\" href=\"http://www.rootschat.com/forum/australia/\" target=\"_blank\">RootsChat forum</a> and post questions about South Australia research.</li><li>Explore <a class=\"lk\" href=\"https://www.ancestry.com/boards/localities.oceania.australia.wa.general/mb.ashx?q=South+Australia\" target=\"_blank\">Ancestry message boards</a> for South Australia research.</li><li>Search the <a class=\"lk\" href=\"http://bigfile.rootsweb.ancestry.com/cgi-bin/listsearch\" target=\"_blank\">RootsWeb site </a> for South Australia research mailing lists.</li><li>Explore the <a class=\"lk\" href=\"https://www.cyndislist.com/australia/states/sa/social/\" target=\"_blank\"> South Australia research mailing lists</a> on Cyndi's List.</li><li>Explore South Australia research questions in the <a class=\"lk\" href=\"https://genealogy.stackexchange.com/questions/tagged/south-australia\" target=\"_blank\">Genealogy Stack Exchange</a>.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about South Australia genealogy societies.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about South Australia genealogical societies. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/South_Australia_Societies\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">SLSA—FS Wiki—South Australia Societies</span></a></li><br><li>Explore <a class=\"lk\" href=\"https://www.cyndislist.com/australia/states/sa/societies/\" target=\"_blank\">South Australia genealogy society sites</a> on Cyndi's list.</li><li>Get help at a <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Category:South_Australia_Family_History_Centres\" target=\"_blank\">family history center in South Australia</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

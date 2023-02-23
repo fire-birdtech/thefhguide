@@ -1,0 +1,233 @@
+[
+    {
+        "nav_name": "Research",
+        "name": "Research and Records",
+        "section_name": "Learn the basics of Swiss research.Vault",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=3ajQ_s3_1WE\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Get started with Swiss research.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for research records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-swi-over.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/switzerland-schweiz-sonnenuntergang-1113943/\" target=\"_blank\"> <img src=\"img/x-swi-over.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a><li><span class=\"g\">Get Started</span>: Get started with Switzerland genealogy. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Switzerland_Genealogy\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Switzerland Genealogy</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=aNMrdbpdl8c\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">RT—Finding Your Swiss Ancestor: How to Get Started—15:29 - 2022</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/vRVMVVyv_Z4?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li>Get an overview of Swiss family history on the Archives.com site. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.archives.com/genealogy/family-heritage-swiss.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">AR—Swiss Family History</span></a></li><br><li>Watch the video or read the associated PDFs for information on Swiss research basics. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/introduction-to-swiss-research\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Introduction to Swiss Research—65:34 - 2016</span></a></li><br><li><span class=\"g\">Strategies</span>: Watch this video to learn about Swiss research strategies. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/switzerland-research-strategies\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Switzerland Research Strategies—59:42 - 2016</span></a></li><br></ol><h5>Records</h5><ol><li>Learn to find Swiss records online.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/help/helpcenter/lessons/switzerland-records-online-resources-for-swiss-genealogy\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Switzerland Records Online—54:27 - 2016</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=G2R6ogLRnJo\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">RT—The Alps in Digital: Swiss Records Online—22:06 - 2021</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/G2R6ogLRnJo?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li>Learn about Swiss court records for research. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=Jt_dAv4IAP8\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">RT—Swiss Court Records—60:33 - 2021</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/Jt_dAv4IAP8?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></li><br><li><span class=\"g\">Record Finder</span>: Use the Switzerland Record Finder to understand record types for research. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Switzerland_Record_Finder\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Switzerland Record Finder</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Swiss names and places.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-swi-name.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/almabtrieb-d%C3%A9salpe-alp-output-1646165/\" target=\"_blank\"> <img src=\"img/x-swi-name.jpg\" alt=\"\" width=\"250px\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li><span class=\"g\">Word List</span>: Use this Swiss-German genealogy word list. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/en/wiki/img_auth.php/d/d4/Swiss_Genealogical_Word_List_approved.pdf\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Swiss Genealogical Word List—6 pgs. - 2015</span></a></li><br><li><span class=\"g\">Surnames</span>: Learn about the Register of Swiss Surnames. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/img_auth.php/6/63/1-Register_of_Swiss_Surnames-Instruction.pdf\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Register of Swiss Surnames—5 pgs. - 2015</span></a></li><br><li>Learn about Swiss names and places. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/swiss-names-and-places\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\">  <span class=\"re\">FS—Swiss Names and Places—58:02 - 2016</span></a></li><br><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.geneanet.org/country/search-Switzerland-CHE\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Geneanet site</a> for Swiss surnames.</li><li>Search for <a class=\"lk\" href=\"http://www.geneaservice.nl/navigator/switzerland/index.html\" target=\"_blank\">Swiss surnames</a> in a number of databases.</li><li>Explore Switzerland surnames in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.hls-dhs-dss.ch/famn/?lg=e\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Register of Swiss Surnames</a>.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore resources for Swiss research.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for research resources. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-swi-research.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/bridge-river-bern-water-buildings-3491406/\" target=\"_blank\"> <img src=\"img/x-swi-research.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a><li><span class=\"g\">FamilySearch</span>: Learn about Swiss-German resources in this article.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/en/wiki/img_auth.php/4/4f/Swiss-German_Research_Helps_approved.pdf\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Swiss-German Research Helps—3 pgs. - 2015</span></a></li><br><li><span class=\"g\">Genealogies</span>: Learn about Swiss compiled genealogies.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/help/helpcenter/lessons/switzerland-compiled-genealogies\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Switzerland Compiled Genealogies—49:27 - 2016</span></a></li><br><li><span class=\"g\">Forebears.io</span>: Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://forebears.io/switzerland\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Forebears.io site</a> for research records.</li><li><span class=\"g\">Archives Portal</span>: Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.archivesportaleurope.net/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Archives Portal Europe</a> site. Click the Directories link and then select Switzerland.</li><li>Find additional resources on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://theswisscenter.org/swiss-genealogy-links\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Swiss Center of North America</a> site.</li><li><span class=\"g\">Books We Own</span>: Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.rootsweb.ancestry.com/~bwo/switz.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Books We Own site</a> for books that can be checked out or researched for you by others.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Civil Registration",
+        "name": "Civil Registration",
+        "section_name": "Learn about Switzerland civil registration.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=3ajQ_s3_1WE\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Switzerland civil registration.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-swi-flag.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/switzerland-flag-cross-white-red-2629856/\" target=\"_blank\"><img src=\"img/x-swi-flag.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"></a><li>Learn about Switzerland civil registration in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Switzerland_Civil_Registration\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Switzerland Civil Registration</span></a></li><br><li><span class=\"g\">Census</span>: Learn about using Swiss census records in research.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/swiss-census-records\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Swiss Census Records—56:49 - 2017</span></a></li><br><li>Learn about a variety of online Swiss records for research.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/swiss-archives-online-records\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Swiss Archives Online Records—60:37 - 2017</span></a></li><br></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Emigration and Immigration",
+        "name": "Emigration and Immigration",
+        "section_name": "Learn about Switzerland emigration and immigration.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=3ajQ_s3_1WE\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Switzerland emigration and immigration.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-swi-imm.jpg"
+                    ],
+                    "text": "<ol><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/History_of_Switzerland#/media/File:Dampfzug_G%C3%B6schenen.jpg\" target=\"_blank\"> <img src=\"img/x-swi-imm.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; ;\"></a><li><span class=\"g\">About</span>: Learn about Switzerland emigration and immigration in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Switzerland_Emigration_and_Immigration\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Switzerland Emigration and Immigration</span></a> </li><br><li><span class=\"g\">Wikipedia</span>: Learn about immigration history and demographics in this Wikipedia article.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Swiss_Americans\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Wikipedia: Swiss Americans</span></a></li><br><li>Learn more about Swiss emigration in these articles from the Swiss Center of North America. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://theswisscenter.org/swiss-emigration\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Swiss Emigration</span></a> <br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.sgffweb.ch/en/genealogy-in-switzerland/swiss-emigration-history\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Swiss Emigration History</span></a></li><br><li><span class=\"g\">Passengers</span>: Learn about Swiss passenger arrival records in the United States (scroll down to \"Passenger Arrival Records\"). <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://theswisscenter.org/records\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Swiss Immigration</span></a> </li><br></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Maps",
+        "name": "Maps",
+        "section_name": "Learn about Switzerland maps.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=3ajQ_s3_1WE\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Explore Switzerland map resources.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-swi-map.png"
+                    ],
+                    "text": "<ol><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Old_Swiss_Confederacy#/media/File:Old_Confederacy_18th_centur.png\" target=\"_blank\"> <img src=\"img/x-swi-map.png\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a><li>Learn how to use the Ortsnamen gazetteer to identify towns in Switzerland.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/switzerland-online-gazetteer-ortsnamen\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS: Using the Ortsnamen Online Gazetteer—8:00 - 2020</span></a></li><br><li>Learn about <a class=\"lk\" href=\"https://web.archive.org/web/20131012035910/http://www.progenealogists.com/switzerland/cantons.htm\" target=\"_blank\">Swiss cantons and towns</a> in the ProGenealogists site.</li><li>See an <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Switzerland_Genealogy#Switzerland_Clickable_Map\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">interactive map</a> for Switzerland cantons.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.lib.utexas.edu/maps/switzerland.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Perry-Castaneda map collection</a> for Switzerland maps.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.davidrumsey.com/luna/servlet/view/search?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&amp;q=switzerland&amp;search=Go\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">David Rumsey collection</a> of Switzerland maps.</li><li>Explore <a class=\"lk\" href=\"http://www.discusmedia.com/maps/helvetia/\" target=\"_blank\"> old maps of Switzerland</a> in the 1900 Collection.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.oldmapsonline.org/en/Switzerland\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Old Maps Online site</a> for Switzerland maps.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://commons.wikimedia.org/wiki/Atlas_of_Switzerland\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Atlas of Switzerland</a> on the Wikipedia site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://commons.wikimedia.org/wiki/Category:Old_maps_of_Switzerland\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Old Maps of Switzerland</a> on the Wikipedia site.</li><li>Explore a <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.fallingrain.com/world/SZ/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">directory of Switzerland cities, towns, and regions</a> in the Falling Rain site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Newspapers",
+        "name": "Newspapers",
+        "section_name": "Learn about Switzerland newspapers online.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=3ajQ_s3_1WE\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Explore Swiss newspapers for ancestor research.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-swi-news.PNG"
+                    ],
+                    "text": "<ol><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/National_Front_(Switzerland)#/media/File:Volksrecht_NZZ_17_Juni_1934.jpg\" target=\"_blank\"> <img src=\"img/x-swi-news.PNG\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a><li>Find links to <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Wikipedia:List_of_online_newspaper_archives#Switzerland\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Swiss newspapers</a> on the Wikipedia site.</li> <li>Search Swiss newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.onlinenewspapers.com/switzerl.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">onlinenewspapers.com</a> site.</li><li>Search Swiss newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.world-newspapers.com/switzerland.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">world-newspapers.com</a> site.</li><li>Search Swiss newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.abyznewslinks.com/switz.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">ABYZ News Links</a> site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Websites",
+        "name": "Websites",
+        "section_name": "Explore additional websites for research.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=3ajQ_s3_1WE\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "There are a number of websites with valuable resources for Swiss research.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/laptop-fingers1.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/laptop-fingers1.jpg\" alt=\"\" width=\"350px\" style=\"float:right; margin-top: 6px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Visit the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Switzerland_Websites\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Switzerland Web Sites</a> Wiki page.</li><li>Explore links in <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cyndislist.com/switzerland\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Cyndi's List</a>.</li><li>Explore links in <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genealogylinks.net/europe/switzerland/index.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Genealogylinks.net</a>.</li><li> Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://kunden.eye.ch/swissgen/schweiz-en.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Swiss Genealogy on the Internet</a> site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Search Records",
+        "name": "Search Records",
+        "section_name": "Search records from Switzerland.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=3ajQ_s3_1WE\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Use QUIKLinks and Partners to quickly search the most common record collections for Switzerland.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/laptop-hands.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/laptop-hands.jpg\" alt=\"\" width=\"350px\" style=\"float:right; margin-top: 6px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>QUIKLinks are indicated by lightning-bolt icons in the Goals above.They point to collections with 50,000 or more records. When you click a QUIKLink icon, scroll down on the resulting page to see the QUIKLinks.</li><li>In the Partners section (near the top of the page), explore additional record collections in FamilySearch, Ancestry, Findmypast and MyHeritage.</li><li>Explore the FamilySearch page for <a class=\"lk\" href=\"https://familysearch.org/wiki/en/Switzerland_Online_Genealogy_Records\" target=\"_blank\">Swiss online record collections</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Get Help",
+        "name": "Get Help",
+        "section_name": "Get help with your Switzerland research.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=3ajQ_s3_1WE\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Use Facebook pages to get answers to your questions.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/fh-help1.jpg"
+                    ],
+                    "text": "<ol><a href=\"img/fh-help1.jpg\" target=\"_blank\"> <img src=\"img/fh-help1.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 350px;\"></a> <li>Visit the <a class=\"lk\" href=\"https://www.facebook.com/ogsgs/\" target=\"_blank\">Orangeburgh German-Swiss Genealogical Society</a> on Facebook.</li><li>Visit the <a class=\"lk\" href=\"https://www.facebook.com/groups/CentralEuropeGenealogyResearchCommunity/\" target=\"_blank\">Central Europe Genealogy Research Community</a> on Facebook.</li><li>See the <a class=\"lk\" href=\"http://socialmediagenealogy.com/genealogy-on-facebook-list/\" target=\"_blank\">Genealogy on Facebook list</a> of Facebook groups dedicated to helping with research for Switzerland.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Join a mailing list, community, or message board for Switzerland research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://community.familysearch.org/s/group/0F93A000000LhjqSAC/switzerland-genealogy-research\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">FamilySearch community</a> for Swiss research.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cyndislist.com/switzerland/social/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Switzerland research mailing lists</a> on Cyndi's List.</li><li>Use the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ancestry.com/boards/localities.weurope.switzerland/mb.ashx\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Ancestry message boards</a> to read or post questions about Switzerland research.</li><li>Get help at a <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Category:Switzerland_Family_History_Centers\" target=\"_blank\">family history center in Switzerland</a>.</li><li>Explore Switzerland research questions in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://genealogy.stackexchange.com/questions/tagged/switzerland\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Genealogy Stack Exchange</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Church and Cemetery",
+        "name": "Church and Cemetery",
+        "section_name": "Learn about Switzerland church and cemetery records.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=3ajQ_s3_1WE\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Switzerland church and cemetery records.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-swi-church1.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/x-swi-church1.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"><li>Learn about Switzerland church records in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Switzerland_Church_Records\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Switzerland Church Records</span></a></li><br><li>Learn how to access church records from the Canton Bern.<br><br><span class=\"star notranslate\">☆</span><a href=\"http://www.genealogycenter.org/Community/Blog/acpl-genealogy-blog/2017/03/15/swiss-church-records-website\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Swiss Church Records Website - 2017</span></a></li><br><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.jewishgen.org/databases/France/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">JewishGen France Database</a> for Jewish records in France and Switzerland.</li><li>Learn about Switzerland cemetery records in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Switzerland_Cemetery_Records\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Switzerland Cemetery Records</span></a></li><br><li>Learn more about Swiss cemeteries in this article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.dicconbewes.com/2011/10/31/the-secret-of-swiss-cemeteries/#\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">The Secret of Swiss Cemeteries</span></a></li><br><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.findagrave.com/cgi-bin/fg.cgi?page=cshttps://www.findagrave.com/cemetery-browse/Switzerland?id=country_14\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Find A Grave site</a> for cemetery records.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://billiongraves.com/site-map?country=Switzerland\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">BillionGraves site</a> for cemetery records.</li></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": null,
+        "name": "Geography, Culture, and History",
+        "section_name": "Learn about the geography, culture, and history of Switzerland. \n\t\t\t\t\t\t\n\t\t\t\t\t\t",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=3ajQ_s3_1WE\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Explore websites and videos.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/c-switzerland.jpg"
+                    ],
+                    "text": "<h5>Reference</h5><ol><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Switzerland_History\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">FamilySearch: History</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Switzerland_Historical_Geography\" target=\"_blank\">FamilySearch: Historical Geography</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Switzerland\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Wikipedia</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.britannica.com/place/Switzerland\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Encyclopedia Britannica</a></li></ol><h5>For Kids</h5><ol><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://kids.nationalgeographic.com/explore/countries/switzerland/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">NatGeo for Kids</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ducksters.com/geography/country.php?country=Switzerlandp\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Ducksters</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=snFjkU85EqI\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">YouTube: Animated History of Switzerland</a></li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

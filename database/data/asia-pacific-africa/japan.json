@@ -1,0 +1,220 @@
+[
+    {
+        "nav_name": "Research",
+        "name": "Research and Records",
+        "section_name": "Learn about Japan research and records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Use effective research methods for your Japanese ancestors.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for research resources. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol>    <li><span class=\"g\">Koseki</span>: Learn about Japanese genealogy in these articles, including the Koseki (family registration) records. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Japan_Research_Methods\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Japan Research Methods</span></a> <br><span class=\"star notranslate\">☆</span><a href=\"https://www.legacytree.com/blog/japanese-genealogy-explained\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">LT—Kosekis from Gotō: Japanese Genealogy Explained</span></a> </li><br><li>Explore the <a class=\"lk\" href=\"http://www.mykoseki.com/\" target=\"_blank\">MyKoseki.com site</a> learn more about Koseki and to search for records. Also find <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.mykoseki.com/maps-of-japan/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">interactive maps of Japan prefectures</a><a> that relate to Koseki.</a></li><a></a><li><a>Learn more about Japanese research with Koseki in this video and article. <br><br></a><span class=\"star notranslate\">☆</span><a href=\"https://youtu.be/KoCVUPE2Q8o\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">What Is a Koseki?—5:22 - 2020</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/KoCVUPE2Q8o?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br><span class=\"star notranslate\">☆</span><a href=\"https://www.legacytree.com/blog/mykoseki-com-a-helpful-site-for-japanese-genealogy-research\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Mykoseki.com: A Helpful Site for Japanese Genealogy Research</span></a></li><br><li><span class=\"g\">Basics</span>: Watch these videos for ideas on discovering your Japanese ancestors. <br><br><span class=\"re\">RT—Discovering Your Japanese Ancestors—53:48</span><br><br><iframe width=\"300\" height=\"200\" src=\"//players.brightcove.net/1241706627001/default_default/index.html?videoId=6010366412001\" allowfullscreen=\"\" frameborder=\"0\"></iframe><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=b4g-jFxQooA\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">Japanese Family History Research 1—72:03 - 2017</span></a> <br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/b4g-jFxQooA?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li><span class=\"g\">Case Studies</span>: See these case studies in Japanese research. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Japan\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Japan Genealogy</span></a> </li><br><li><span class=\"g\">More</span>: Read these articles for more information on Japanese research. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.americanancestors.org/tools/japanese-american-genealogy\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">AA—Japanese-American Genealogy</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://www.legacytree.com/blog/japanese-genealogy-explained\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">LT—Japanese Genealogy Explained</span></a></li><br></ol><h5>Search</h5><ol><li>Explore the  <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.carolynbrady.com/jagenealogy.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Japanese-American Family History Resources</a> site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://forebears.io/japan\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Forebears.io site</a> for research records.</li><li>Explore the <a class=\"lk\" href=\"http://sites.rootsweb.com/~jpnwgw\" target=\"_blank\">Japan GenWeb site</a> for research.</li><li><span class=\"g\">Surnames</span>: Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.geneanet.org/country/search-Japan-JPN\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Geneanet site</a> for Japanese surnames.</li><li>Search for <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.geneaservice.nl/navigator/japan/index.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Japanese surnames</a> in a number of databases.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Libraries and Archives",
+        "name": "Archives and Libraries",
+        "section_name": "Learn about Japan archives and libraries.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Japan archives and libraries.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li><span class=\"g\">FamilySearch</span>: Learn about Japan archives and libraries in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Japan_Archives_and_Libraries\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Japan Archives and Libraries</span></a></li><br><li><span class=\"g\">National Archives</span>: Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.archives.go.jp/publication/archives/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">National Archives of Japan</a> site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.jacar.go.jp/english/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Japan Center for Asian Historical Records</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Census",
+        "name": "Census",
+        "section_name": "Learn about Japan census records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Japan census records.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-jap-cen.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/photos/japan-kobe-garden-lake-3974720/\" target=\"_blank\"> <img src=\"img/x-jap-cen.jpg\" width=\"100%\" ;=\"\" style=\"float:right; margin-top: 8px; margin-left: 16px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a>    <li><span class=\"g\">FamilySearch</span>: Learn about Japan census records in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Japan_Census\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Japan Census Records</span></a></li><br><li><span class=\"g\">Search</span>: Learn how to search Japan census records. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Japan_Census_Records_-_FamilySearch_Historical_Records\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Japan Census Records - FamilySearch Historical Records</span></a></li><br><li><span class=\"g\">Koseki</span>: Learn more about the Koseki, a registration system for Japanese families. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Koseki\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Wikipedia: Koseki</span></a></li><br></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Buddhist Records",
+        "name": "Buddhist Records",
+        "section_name": "Learn to use Japanese Buddhist Records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Japanese Buddhist Records.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li><span class=\"g\">FamilySearch</span>: Learn about Japan Buddhist records in this FamilySearch Wiki article.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Japan_Buddhist_Records\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Japan Church Records</span></a> </li><br><li><span class=\"g\">Danka</span>: Read about the Danka system, which connected records for Buddhist temples and households.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Danka_system\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">Wikipedia: Danka System</span></a> </li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Emigration, Immigration",
+        "name": "Emigration and Immigration",
+        "section_name": "Learn about Japan emigration and immigration.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Japan emigration and immigration.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li><span class=\"g\">Resources</span>: Learn about Japan emigration and immigration in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Japan_Emigration_and_Immigration\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Japan Emigration and Immigration</span></a> </li><br><li><span class=\"g\">Wikipedia</span>: Learn about immigration history and demographics in this Wikipedia article.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Japanese_Americans\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Wikipedia: Japanese Americans</span></a></li><br><li><span class=\"g\">Finding</span>: Learn how to find your Japanese immigrant ancestors in this video. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=9H6sWLoeNqY\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">How to Find Your Japanese Immigrant Ancestors—90:49 - 2017</span></a> <br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/9H6sWLoeNqY?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li>Search for immigrants by name on the <a class=\"lk\" href=\"http://abish.byui.edu/specialCollections/fhc/Japan/index.asp\" target=\"_blank\">Japanese Immigrants to the United States</a> site, from BYU-Idaho.</li><li><span class=\"g\">Jewish</span>: Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://bloodandfrogs.com/encyclopedia/japan\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Jewish Genealogy Encyclopedia</a> for Jewish resources in Japan.</li></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Maps and Gazetteers",
+        "name": "Maps and Gazetteers",
+        "section_name": "Learn about Japan maps.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Japan maps.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol>   <li>Learn about Japan maps in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Japan_Maps\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Japan Maps</span></a></li><br><li>See an <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Japan_Genealogy#Japan_Clickable_Map\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">interactive map</a> for Japanese prefectures.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.lib.utexas.edu/maps/japan.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Perry-Castaneda map collection</a> for Japan maps.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.davidrumsey.com/luna/servlet/view/search?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&amp;q=japan&amp;search=Go\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">David Rumsey collection</a> of Japan maps.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.oldmapsonline.org/en/Japan\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Old Maps Online site</a> for Japan maps.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://commons.wikimedia.org/wiki/Atlas_of_Japan\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Atlas of Japan</a> on the Wikipedia site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://commons.wikimedia.org/wiki/Category:Old_maps_of_Japan\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Old Maps of Japan</a> on the Wikipedia site.</li><li>Explore a <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.fallingrain.com/world/JA/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">directory of Japan cities, towns, and regions</a> in the Falling Rain site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Newspapers",
+        "name": "Newspapers",
+        "section_name": "Learn about Japan newspapers.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore Japan newspapers.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Find links to <a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Wikipedia:List_of_online_newspaper_archives#Japan\" target=\"_blank\"> Japanese newspapers</a> on the Wikipedia site.</li> <li>Search Japanese newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.onlinenewspapers.com/japan.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">onlinenewspapers.com</a> site.</li> <li>Search Japanese newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.world-newspapers.com/japan.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">world-newspapers.com</a> site.</li><li>Search Japanese newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.abyznewslinks.com/japan.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">ABYZ News Links</a> site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Websites",
+        "name": "Websites",
+        "section_name": "Explore additional websites for research.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "There are a number of websites with valuable resources for Japanese research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore links in <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cyndislist.com/japan\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Cyndi's List</a>.</li><li>Explore additional websites for <a class=\"lk\" href=\"https://familysearch.org/wiki/en/Japan_Websites\">Japanese genealogy</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Search Records",
+        "name": "Get Help",
+        "section_name": "Search records from Japan.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Use QUIKLinks, Partners, and GenealogyInTime to quickly search the most common record collections for Japan.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/laptop-hands.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/laptop-hands.jpg\" alt=\"\" width=\"350px\" style=\"float:right; margin-top: 6px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>QUIKLinks are indicated by lightning-bolt icons in the Goals above.They point to collections with 50,000 or more records. When you click a QUIKLink icon, scroll down on the resulting page to see the QUIKLinks.</li><li>In the Partners section (near the top of the page), explore additional record collections in FamilySearch, Ancestry, Findmypast and MyHeritage.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.findagrave.com/cemetery-browse/Japan?id=country_42\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Find A Grave site</a> for cemetery records.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://billiongraves.com/site-map?country=Japan\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">BillionGraves site</a> for cemetery records.</li><li>Explore the <a class=\"lk\" href=\"http://www.genealogyintime.com/records/Asia-genealogy-records.html\" target=\"_blank\">Asia page</a> of the GenealogyInTime website. Record collections are listed and described in order from newest to oldest additions, including FamilySearch, Ancestry, and many other sources.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Get Help",
+        "name": "Get Help",
+        "section_name": "Get help with your Japan research.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Use Facebook pages to get answers to your questions.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/fh-help3.jpg"
+                    ],
+                    "text": "<ol><a href=\"img/fh-help3.jpg\" target=\"_blank\"> <img src=\"img/fh-help3.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-top: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a> <li>Visit the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.facebook.com/groups/JapaneseAmericanRoots/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Japananese American Roots page</a> on Facebook.</li><li>Visit the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.facebook.com/nikkeigen/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Nikkei Genealogical Society page</a> on Facebook.</li><li>Visit the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.facebook.com/groups/367146666771463/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Africa Asia Pacific Genealogy Research Community page</a> on Facebook.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Join a mailing list or message board for Japan research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore the <a class=\"lk\" href=\"http://www.cyndislist.com/asia/social/\" target=\"_blank\"> Japan research mailing lists</a> on Cyndi's List.</li><li>Use the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ancestry.com/boards/localities.oceania.australia/mb.ashx\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Ancestry message boards</a> to read or post questions about Japan research.</li><li>Explore answers to research questions in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://community.familysearch.org/s/group/0F93A0000009aOhSAI/%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%82%B5%E3%83%9D%E3%83%BC%E3%83%88-japanese\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">FamilySearch community Group</a> for Japan.</li><li>Explore Japan research questions in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://genealogy.stackexchange.com/questions/tagged/japan\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Genealogy Stack Exchange</a>.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Japan genealogy societies.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore <a class=\"lk\" href=\"http://www.cyndislist.com/asia/societies/\" target=\"_blank\">Japan genealogy society sites</a> on Cyndi's List.</li><li>Get help at a <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Category:Japan_Family_History_Centers\" target=\"_blank\">family history center in Japan</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Geo/Culture/History",
+        "name": "Geography, Culture, and History",
+        "section_name": "Learn about the geography, culture, and history of Japan. \n\t\t\t\t\t\t\n\t\t\t\t\t\t",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore websites and videos.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/c-jamaica.jpg"
+                    ],
+                    "text": "<h5>Reference</h5><ol><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Japan\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Wikipedia</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.britannica.com/place/Japan\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Encyclopedia Britannica</a></li></ol><h5>For Kids</h5><ol><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://kids.nationalgeographic.com/explore/countries/japan/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">NatGeo for Kids</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ducksters.com/geography/country.php?country=Japan\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Ducksters</a></li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

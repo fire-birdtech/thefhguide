@@ -1,0 +1,343 @@
+[
+    {
+        "nav_name": "Research",
+        "name": "Research",
+        "section_name": "Learn about research in the Czech Republic.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=gdYc6NF_ZVE\" target=\"_blank\">Explorations</a></h5><section style=\"font-size:14px;\">\n<div class=\"row\">\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Brno_Moravian_Land_Archives,_Czech_Republic\" target=\"_blank\">\tBrno</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Litom%C4%9B%C5%99ice_Regional_Archives,_Czech_Republic\" target=\"_blank\">Litoměřice</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Opava_Land_Archives,_Czech_Rebublic\" target=\"_blank\">Opava</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Plze%C5%88_Regional_Archives,_Czech_Republic\" target=\"_blank\">Plzeň</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Prague_(Praha)_City_Archives,_Czech_Republic\" target=\"_blank\">Prague City</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Prague_(Praha)_Regional_Archives,_Czech_Republic\" target=\"_blank\">Prague Region</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/T%C5%99ebo%C5%88_Regional_Archives,_Czech_Republic\" target=\"_blank\">Třeboň</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Z%C3%A1mrsk_Regional_Archives,_Czech_Republic\" target=\"_blank\">Zámrsk</a> </div>\n</div>\n\n</section>",
+        "choices": [
+            {
+                "name": "Learn the basics of online Czech research.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for research resources. Then use the learnings for searches for a U.S. ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-cze-over.JPG"
+                    ],
+                    "text": "<ol><a href=\"img/x-cze-over.JPG\" target=\"_blank\"> <img src=\"img/x-cze-over.JPG\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a>   <li><span class=\"g\">FamilySearch</span>: Learn about Czech Republic resources in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Czech_Republic_Genealogy\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Czech Republic Genealogy</span></a></li><br><li><span class=\"g\">Basics</span>: Learn about the basics of Czech research. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.legacytree.com/blog/basics-czech-research\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">LT—Basics of Czech Research</span></a></li><br><li><span class=\"g\">Resources</span>: Here are five places to search for Czech ancestors. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.thoughtco.com/begin-search-for-czech-ancestors-1421875\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">TH—5 Places to Search for Your Czech Ancestors - 2019</span></a></li><br><li>Learn about a variety of resources for Czech research. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://csagsi.org/genealogical-resources/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Genealogical Resources</span></a></li><br><li><span class=\"g\">Town of Origin</span>: Learn how to find the town of origin for a Czech ancestor.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/help/helpcenter/lessons/czech-republic-research-with-the-wiki-part-2-of-5-czech-republic-finding-town-of-origin\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Czech Republic Research With the Wiki Part 2 of 5: Czech Republic Finding Town of Origin—6:03</span></a></li><br><br></ol><h5>Records and Help</h5><ol><li><span class=\"g\">Record Finder</span>: Use the Czech Republic Republic Record Finder to understand record types for research. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Czech_Republic_Record_Finder\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Czech Republic Record Finder</span></a></li><br><li>Watch this video to learn how to access Czech records. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/help/helpcenter/lessons/accessing-czech-records\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Accessing Czech Records—93:36</span></a></li><br><li><span class=\"g\">Forebears.io</span>: Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://forebears.io/czech-republic\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Forebears.io site</a> for research records.</li><li><span class=\"g\">Correspondence</span>: Use this guide for corresponding with Czech organizations about genealogy resources. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Czech_Republic_Letter_Writing_Guidee\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Czech Letter-Writing Guide</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Get familiar with the Czech language, genealogy terms, and naming patterns.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for language resources. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-cze-lang.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/x-cze-lang.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\">   <li><span class=\"g\">Languages</span>: Get an introduction to Czech Republic languages in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Czech_Republic_Language_and_Languages\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Czech Republic Languages</span></a></li><br><li><span class=\"g\">Terms</span>: Review Czech genealogy terms in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Czech_Republic_Genealogical_Word_List\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Czech Republic Genealogy Terms</span></a></li><br><li><span class=\"g\">Word Lists</span>: For additional language resources, see the genealogical word lists for <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/German_Genealogical_Word_List\" target=\"_blank\">German</a> and <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Latin_Genealogical_Word_List\" target=\"_blank\">Latin</a>.</li></ol><h5>Names</h5><ol><li><span class=\"g\">FamilySearch</span>: Learn about Czech names and naming patterns in this FamilySearch Wiki article.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Czech_Republic_Names_Personal\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Czech Personal Names</span></a></li><br><li>Learn more about Czech names and surnames.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://czechgenealogy.nase-koreny.cz/search/label/names\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Czech Genealogy for Beginners</span></a></li><br><li><span class=\"g\">Surnames</span>: Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.geneanet.org/country/search-Czech%20republic-CZE\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Geneanet site</a> for Czech surnames.</li><li>Search for <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.geneaservice.nl/navigator/czech/index.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Czech surnames</a> in a number of databases.</li><li>Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.kdejsme.cz/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">surname distribution</a> (a map where certain surnames are prevalent) in the Czech Republic.</li><li>Explore pages on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://catvusa.com/genealogy/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Czech American TV site</a> for name and terminology resources.</li><br></ol><h5>Handwriting</h5><ol><li><span class=\"g\">Reading Records</span>: Learn how to read Czech Republic genealogy records.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/help/helpcenter/lessons/czech-republic-research-with-the-wiki-part-4-of-5-reading-czech-republic-records\" target=\"_blank\">  <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Czech Republic Research With the Wiki Part 4 of 5: Reading Czech Republic Reords—6:15</span></a><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Czech_Republic_Reading_Aids\" target=\"_blank\">  <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Czech Republic Reading Aids </span></a></li><br><li><span class=\"g\">Cursive</span>: Here are some examples of Czech cursive handwriting for study.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://czechoutyourancestors.com/2013/10/13/czech-cursive-handwriting-examples-from-1600-1935/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Czech Cursive Handwriting Examples from 1600-1935</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Czech emigration and immigration.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-cze-imm.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/photos/prague-historic-europe-1566846/\" target=\"_blank\"> <img src=\"img/x-cze-imm.jpg\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; max-width:400px; border:1px solid #000; padding:0px;\"></a>    <li><span class=\"g\">Introduction</span>: Get an introduction to Czech emigration and immigration resources in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Czech_Republic_Emigration_and_Immigration\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Czech Republic Emigration and Immigration</span></a></li><br><li><span class=\"g\">Wikipedia</span>: Learn about immigration history and demographics in this Wikipedia article.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Czech_Americans\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Wikipedia: Czech Americans</span></a></li><br><li><span class=\"g\">Tips</span>: Get tips on tracking Czech immigrants to the United States.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://czechgenealogy.nase-koreny.cz/search/label/immigration\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Czech Genealogy for Beginners: Immigration</span></a></li><br><span id=\"regions\"><li><span class=\"g\">Case Study</span>: Here is a case study in Czech family migration.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://czechoutyourancestors.com/2013/07/30/search-for-records-in-the-brides-home-village/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Search for records in the bride's home village</span></a></li><br><li><span class=\"g\">Silesian Indexes</span>: Learn about using Silesian ancestor indexes for emigration.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://czechoutyourancestors.com/2017/10/19/silesian-emigrant-ancestor-indexes-1879-1881-1889/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Silesian Emigrant Ancestor Indexes 1879-1881, 1889</span></a></li><br></span></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Archives and Libraries",
+        "name": "Archives and Libraries",
+        "section_name": "Learn about Czech Republic archives and libraries.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=gdYc6NF_ZVE\" target=\"_blank\">Explorations</a></h5><section style=\"font-size:14px;\">\n<div class=\"row\">\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Brno_Moravian_Land_Archives,_Czech_Republic\" target=\"_blank\">\tBrno</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Litom%C4%9B%C5%99ice_Regional_Archives,_Czech_Republic\" target=\"_blank\">Litoměřice</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Opava_Land_Archives,_Czech_Rebublic\" target=\"_blank\">Opava</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Plze%C5%88_Regional_Archives,_Czech_Republic\" target=\"_blank\">Plzeň</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Prague_(Praha)_City_Archives,_Czech_Republic\" target=\"_blank\">Prague City</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Prague_(Praha)_Regional_Archives,_Czech_Republic\" target=\"_blank\">Prague Region</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/T%C5%99ebo%C5%88_Regional_Archives,_Czech_Republic\" target=\"_blank\">Třeboň</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Z%C3%A1mrsk_Regional_Archives,_Czech_Republic\" target=\"_blank\">Zámrsk</a> </div>\n</div>\n\n</section>",
+        "choices": [
+            {
+                "name": "Learn about Czech Republic archives and libraries.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for archives and libraries. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-cze-lib.JPG"
+                    ],
+                    "text": "<ol><a href=\"https://commons.wikimedia.org/wiki/File:A_Baroque_library,_Prague_-_7529.jpg\" target=\"_blank\"> <img src=\"img/x-cze-lib.JPG\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a><li>Learn how to use Czech archives after you've found an ancestral town.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=PzxGf_uYxJc\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">RT—Finding the Correct Czech Archive to Search for Your Ancestor—18:08 - 2022</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/PzxGf_uYxJc?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li>Get tips on searching archives, from the <a class=\"lk\" href=\"http://czechgenealogy.nase-koreny.cz/2017/06/which-archives-to-search-vol-2.html#more\" target=\"_blank\">Czech Genealogy for Beginners</a> and <a class=\"lk\" href=\"http://czechfamilytree.com/archives.htm\" target=\"_blank\">Czech Family Tree</a> websites.</li><li><span class=\"g\">FamilySearch</span>: Explore Czech Republic archives on the FamilySearch Wiki.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/help/helpcenter/lessons/czech-republic-research-with-the-wiki-part-3-of-5-a-czech-republic-archival-region-page\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Czech Republic Research With the Wiki Part 3 of 5: A Czech Republic Archival Region Page—5:14</span></a></li><br><li><span class=\"g\">Chodovec Archive</span>: Learn about the Chodovec Archive Complex in the Czech Republic. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.legacytree.com/blog/legacy-tree-onsite-the-chodovec-archive-complex-czech-republic\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">LT—The Chodovec Archive Complex, Czech Republic</span></a></li><br><li><span class=\"g\">Actapublica</span>: Learn about the Actapublica archival website.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=HjShFfYdw9I\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">Introduction to Actapublica, Czech Genealogy—11:13 - 2013</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/HjShFfYdw9I?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li><span class=\"g\">Jewish</span>: Learn how to find Jewish records in the Czech National Archives.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=mbPtWShykN4\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">Finding Jewish Records at the Czech National Archives—20:24 - 2022</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/HjShFfYdw9I?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "Explore the Czech National Archives and the Czech Archive Society websites.",
+                                "links": [
+                                    {
+                                        "link": "https://www.nacr.cz/",
+                                        "text": "Czech National Archives",
+                                        "type": "video"
+                                    },
+                                    {
+                                        "link": "http://cesarch.cz/",
+                                        "text": "Czech Archive Society",
+                                        "type": "video"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Explore the ",
+                                "links": [
+                                    {
+                                        "link": "https://www.archivesportaleurope.net/",
+                                        "text": "Archives Portal Europe",
+                                        "type": "video"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Explore the Czechoslovak Genealogical Society International (CGSI) website for articles and archive resources.",
+                                "links": [
+                                    {
+                                        "link": "https://www.cgsi.org/",
+                                        "text": "Czechoslovak Genealogical Society International",
+                                        "type": "video"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Census Records",
+        "name": "Census Records",
+        "section_name": "Learn about Czech Republic census records.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=gdYc6NF_ZVE\" target=\"_blank\">Explorations</a></h5><section style=\"font-size:14px;\">\n<div class=\"row\">\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Brno_Moravian_Land_Archives,_Czech_Republic\" target=\"_blank\">\tBrno</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Litom%C4%9B%C5%99ice_Regional_Archives,_Czech_Republic\" target=\"_blank\">Litoměřice</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Opava_Land_Archives,_Czech_Rebublic\" target=\"_blank\">Opava</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Plze%C5%88_Regional_Archives,_Czech_Republic\" target=\"_blank\">Plzeň</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Prague_(Praha)_City_Archives,_Czech_Republic\" target=\"_blank\">Prague City</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Prague_(Praha)_Regional_Archives,_Czech_Republic\" target=\"_blank\">Prague Region</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/T%C5%99ebo%C5%88_Regional_Archives,_Czech_Republic\" target=\"_blank\">Třeboň</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Z%C3%A1mrsk_Regional_Archives,_Czech_Republic\" target=\"_blank\">Zámrsk</a> </div>\n</div>\n\n</section>",
+        "choices": [
+            {
+                "name": "Learn about Czech Republic census records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for census records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-cze-cen.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/x-cze-cen.jpg\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"><li><span class=\"g\">FamilySearch</span>: Learn about Czech Republic census records in this FamilySearch Wiki article.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Czech_Republic_Census\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Czech Republic Census Records</span></a></li><br><li><span class=\"g\">Inhabit Registers</span>: Learn about Czech Republic censuses and inhabitant registers.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/Czech_Republic_Censuses_and_Inhabitant_Registers_-_FamilySearch_Historical_Records\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Czech Republic Census and Inhabitant Registers</span></a><br><span class=\"star notranslate\">☆</span><a href=\"http://czechfamilytree.com/census.htm\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Czech Family Tree: Census</span></a></li><br><li><span class=\"g\">1921-1843</span>: Learn about Czech Republic censuses from 1843 to 1921.<br><br><span class=\"star notranslate\">☆</span><a href=\"http://czechgenealogy.nase-koreny.cz/2014/05/czech-censuses-1843-1921-part-i.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Czech Censuses: 1843-1921 - 2014</span></a></li><br><li><span class=\"g\">Samples</span>: See samples of Czech Republic census records in this blog article.<br><br><span class=\"star notranslate\">☆</span><a href=\"http://www.myczechroots.com/records/census/census\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">My Czech Roots: Census Records - 2014</span></a></li><br><li><span class=\"g\">FS Wiki Links</span>: Use the FamilySearch Wiki <a class=\"lk\" href=\"https://familysearch.org/wiki/en/Czech_Republic_Websites#Archives_and_Libraries\" target=\"_blank\">Census web links</a> for more information.</li></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Land and Property",
+        "name": "Land and Property",
+        "section_name": "Learn about Czech Republic land and property.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=gdYc6NF_ZVE\" target=\"_blank\">Explorations</a></h5><section style=\"font-size:14px;\">\n<div class=\"row\">\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Brno_Moravian_Land_Archives,_Czech_Republic\" target=\"_blank\">\tBrno</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Litom%C4%9B%C5%99ice_Regional_Archives,_Czech_Republic\" target=\"_blank\">Litoměřice</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Opava_Land_Archives,_Czech_Rebublic\" target=\"_blank\">Opava</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Plze%C5%88_Regional_Archives,_Czech_Republic\" target=\"_blank\">Plzeň</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Prague_(Praha)_City_Archives,_Czech_Republic\" target=\"_blank\">Prague City</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Prague_(Praha)_Regional_Archives,_Czech_Republic\" target=\"_blank\">Prague Region</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/T%C5%99ebo%C5%88_Regional_Archives,_Czech_Republic\" target=\"_blank\">Třeboň</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Z%C3%A1mrsk_Regional_Archives,_Czech_Republic\" target=\"_blank\">Zámrsk</a> </div>\n</div>\n\n</section>",
+        "choices": [
+            {
+                "name": "Learn about Czech Republic land and property.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li><span class=\"g\">FamilySearch</span>: Learn about Czech Republic land and property in this FamilySearch Wiki article.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Czech_Republic_Land_and_Property\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Czech Republic Land and Property</span></a></li><br><li><span class=\"g\">More</span>: Read this blog article to learn more about Czech Republic land records.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://czechoutyourancestors.com/2014/03/15/land-records-introduction/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Land Records: Introduction - 2014</span></a></li><br></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Obituaries and Cemeteries",
+        "name": "Obituaries and Cemeteries",
+        "section_name": "Learn about Czech Republic obituaries and cemeteries.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=gdYc6NF_ZVE\" target=\"_blank\">Explorations</a></h5><section style=\"font-size:14px;\">\n<div class=\"row\">\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Brno_Moravian_Land_Archives,_Czech_Republic\" target=\"_blank\">\tBrno</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Litom%C4%9B%C5%99ice_Regional_Archives,_Czech_Republic\" target=\"_blank\">Litoměřice</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Opava_Land_Archives,_Czech_Rebublic\" target=\"_blank\">Opava</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Plze%C5%88_Regional_Archives,_Czech_Republic\" target=\"_blank\">Plzeň</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Prague_(Praha)_City_Archives,_Czech_Republic\" target=\"_blank\">Prague City</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Prague_(Praha)_Regional_Archives,_Czech_Republic\" target=\"_blank\">Prague Region</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/T%C5%99ebo%C5%88_Regional_Archives,_Czech_Republic\" target=\"_blank\">Třeboň</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Z%C3%A1mrsk_Regional_Archives,_Czech_Republic\" target=\"_blank\">Zámrsk</a> </div>\n</div>\n\n</section>",
+        "choices": [
+            {
+                "name": "Learn about Czech Republic obituaries.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li><span class=\"g\">FamilySearch</span>: Learn about Czech Republic obituaries in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Czech_Republic_Obituaries\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Czech Republic Obituaries</span></a> </li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Czech Republic gravestones.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li><span class=\"g\">Sites</span>: Visit the <a class=\"lk\" href=\"http://czech.stonepics.com/\" target=\"_blank\">Stonepics site</a> for digital pictures of gravestones in the Czech republic.</li><li>Browse the <a class=\"lk\" href=\"http://www.interment.net/other/czech_rep/index.htm\" target=\"_blank\">Interment.net site</a> for cemetery records in Bohemia and Moravia.</li><span id=\"regions\"><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.findagrave.com/cemetery-browse/Czech-Republic?id=country_36\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Find A Grave site</a> for cemetery records.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://billiongraves.com/site-map?country=Czech+Republic\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">BillionGraves site</a> for cemetery records.</li></span></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Church Records",
+        "name": "Church Records",
+        "section_name": "Learn about Czech Republic church and religious records.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=gdYc6NF_ZVE\" target=\"_blank\">Explorations</a></h5><section style=\"font-size:14px;\">\n<div class=\"row\">\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Brno_Moravian_Land_Archives,_Czech_Republic\" target=\"_blank\">\tBrno</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Litom%C4%9B%C5%99ice_Regional_Archives,_Czech_Republic\" target=\"_blank\">Litoměřice</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Opava_Land_Archives,_Czech_Rebublic\" target=\"_blank\">Opava</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Plze%C5%88_Regional_Archives,_Czech_Republic\" target=\"_blank\">Plzeň</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Prague_(Praha)_City_Archives,_Czech_Republic\" target=\"_blank\">Prague City</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Prague_(Praha)_Regional_Archives,_Czech_Republic\" target=\"_blank\">Prague Region</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/T%C5%99ebo%C5%88_Regional_Archives,_Czech_Republic\" target=\"_blank\">Třeboň</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Z%C3%A1mrsk_Regional_Archives,_Czech_Republic\" target=\"_blank\">Zámrsk</a> </div>\n</div>\n\n</section>",
+        "choices": [
+            {
+                "name": "Learn about Czech Republic church records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for church records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li><span class=\"g\">FamilySearch</span>: Learn about church records in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Czech_Republic_Church_Records\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Czech Republic Church Records</span></a></li><br><li><span class=\"g\">Resources</span>: Learn about other resources for church records in this series of blog posts. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://czechgenealogy.nase-koreny.cz/search/label/religion\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Czech Genealogy for Beginners - 2019</span></a></li><br><li>Use the Wiki <a class=\"lk\" href=\"https://familysearch.org/wiki/en/Czech_Republic_Websites#Church_Records\" target=\"_blank\">Church Records web links</a> for more information.</li><li><span class=\"g\">Jewish</span>: Explore Jewish genealogy in the Czech Republic and Slovakia in this guide from the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://libguides.cjh.org/genealogyguides/czech_slovak\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Center for Jewish History site</a>.</li><li><span class=\"g\">Case Study</span>: Watch this video for a case study in using Czech Republic church records.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/help/helpcenter/lessons/czech-republic-research-with-the-wiki-part-5-of-5-a-czech-republic-case-study\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Czech Republic Research With the Wiki Part 4 of 5: Reading Czech Republic Records—7:49</span></a></li><br><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.jewishgen.org/databases/AustriaCzech/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">JewishGen Austria-Czech database</a>.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://bloodandfrogs.com/encyclopedia/czech-republic\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Jewish Genealogy Encyclopedia</a> for Jewish resources in the Czech Republic.</li></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Maps and Gazetteers",
+        "name": "Maps and Gazetteers",
+        "section_name": "Learn about Czech Republic maps and gazetteers.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=gdYc6NF_ZVE\" target=\"_blank\">Explorations</a></h5><section style=\"font-size:14px;\">\n<div class=\"row\">\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Brno_Moravian_Land_Archives,_Czech_Republic\" target=\"_blank\">\tBrno</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Litom%C4%9B%C5%99ice_Regional_Archives,_Czech_Republic\" target=\"_blank\">Litoměřice</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Opava_Land_Archives,_Czech_Rebublic\" target=\"_blank\">Opava</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Plze%C5%88_Regional_Archives,_Czech_Republic\" target=\"_blank\">Plzeň</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Prague_(Praha)_City_Archives,_Czech_Republic\" target=\"_blank\">Prague City</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Prague_(Praha)_Regional_Archives,_Czech_Republic\" target=\"_blank\">Prague Region</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/T%C5%99ebo%C5%88_Regional_Archives,_Czech_Republic\" target=\"_blank\">Třeboň</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Z%C3%A1mrsk_Regional_Archives,_Czech_Republic\" target=\"_blank\">Zámrsk</a> </div>\n</div>\n\n</section>",
+        "choices": [
+            {
+                "name": "Learn about Czech Republic maps and gazetteers.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-cze-map.png"
+                    ],
+                    "text": "<ol><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Outline_of_the_Czech_Republic#/media/File:Un-czech-republic.png\" target=\"_blank\"> <img src=\"img/x-cze-map.png\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; \"></a>   <li><span class=\"g\">Maps</span>: Learn about Czech Republic maps in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Czech_Republic_Maps\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Czech Republic Maps</span></a></li><br><li>See an <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Czech_Republic_Genealogy#Czech_Republic_Clickable_Maps\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">interactive map</a> for Czech Republic provinces.</li><li>Learn about various Czech Republic maps available for research. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://czechgenealogy.nase-koreny.cz/search/label/maps\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Czech Genealogy for Beginners - 2020</span></a></li><br><li><span class=\"g\">Gazetteers</span>: Learn about Czech Republic gazetteers in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Czech_Republic_Gazetteers\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Czech Republic Gazetteers</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Czech Republic maps.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.davidrumsey.com/luna/servlet/view/search?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&amp;q=czech_republic&amp;search=Go\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">David Rumsey collection</a> of Czech Republic maps.</li><span id=\"regions\"><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.oldmapsonline.org/en/Czech_Republic\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Old Maps Online site</a> for Czech Republic maps.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://commons.wikimedia.org/wiki/Atlas_of_the_Czech_Republic\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Atlas of Czech Republic</a> on the Wikipedia site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://commons.wikimedia.org/wiki/Category:Old_maps_of_Czechia\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Old Maps of Czech Republic</a> on the Wikipedia site.</li></span></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Newspapers",
+        "name": "Newspapers",
+        "section_name": "Learn about Czech Republic newspapers.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=gdYc6NF_ZVE\" target=\"_blank\">Explorations</a></h5><section style=\"font-size:14px;\">\n<div class=\"row\">\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Brno_Moravian_Land_Archives,_Czech_Republic\" target=\"_blank\">\tBrno</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Litom%C4%9B%C5%99ice_Regional_Archives,_Czech_Republic\" target=\"_blank\">Litoměřice</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Opava_Land_Archives,_Czech_Rebublic\" target=\"_blank\">Opava</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Plze%C5%88_Regional_Archives,_Czech_Republic\" target=\"_blank\">Plzeň</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Prague_(Praha)_City_Archives,_Czech_Republic\" target=\"_blank\">Prague City</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Prague_(Praha)_Regional_Archives,_Czech_Republic\" target=\"_blank\">Prague Region</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/T%C5%99ebo%C5%88_Regional_Archives,_Czech_Republic\" target=\"_blank\">Třeboň</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Z%C3%A1mrsk_Regional_Archives,_Czech_Republic\" target=\"_blank\">Zámrsk</a> </div>\n</div>\n\n</section>",
+        "choices": [
+            {
+                "name": "Explore Czech newspapers for ancestor research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Find links to <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Wikipedia:List_of_online_newspaper_archives#Czech_Republic\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Czech_Republic newspapers</a> on the Wikipedia site.</li> <span id=\"regions\"><li>Search Czech newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.onlinenewspapers.com/czech-re.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">onlinenewspapers.com</a> site.</li><li>Search Czech newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.world-newspapers.com/czech.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">world-newspapers.com</a> site.</li><li>Search Czech newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.abyznewslinks.com/czech.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">ABYZ News Links</a> site.</li></span></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Websites",
+        "name": "Websites",
+        "section_name": "Explore additional websites for research.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=gdYc6NF_ZVE\" target=\"_blank\">Explorations</a></h5><section style=\"font-size:14px;\">\n<div class=\"row\">\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Brno_Moravian_Land_Archives,_Czech_Republic\" target=\"_blank\">\tBrno</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Litom%C4%9B%C5%99ice_Regional_Archives,_Czech_Republic\" target=\"_blank\">Litoměřice</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Opava_Land_Archives,_Czech_Rebublic\" target=\"_blank\">Opava</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Plze%C5%88_Regional_Archives,_Czech_Republic\" target=\"_blank\">Plzeň</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Prague_(Praha)_City_Archives,_Czech_Republic\" target=\"_blank\">Prague City</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Prague_(Praha)_Regional_Archives,_Czech_Republic\" target=\"_blank\">Prague Region</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/T%C5%99ebo%C5%88_Regional_Archives,_Czech_Republic\" target=\"_blank\">Třeboň</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Z%C3%A1mrsk_Regional_Archives,_Czech_Republic\" target=\"_blank\">Zámrsk</a> </div>\n</div>\n\n</section>",
+        "choices": [
+            {
+                "name": "There are a number of websites with valuable resources for Czech research.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/laptop-fingers1.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/laptop-fingers1.jpg\" alt=\"\" width=\"350px\" style=\"float:right; margin-top: 6px; margin-left: 16px; border:1px solid #000; padding:0px;\"><span id=\"regions\"><li>Explore links in the <a class=\"lk\" href=\"https://www.familysearch.org/en/wiki/Czechia_Websites\" target=\"_blank\">FamilySearch Wiki</a>.</li><li>Explore links in <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cyndislist.com/czech\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Cyndi's List</a>.</li><li>Explore links in <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genealogylinks.net/europe/czech_republic/index.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Genealogylinks.net</a>.</li></span></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Search Records",
+        "name": "Search Records",
+        "section_name": "Search records from Czech Republic.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=gdYc6NF_ZVE\" target=\"_blank\">Explorations</a></h5><section style=\"font-size:14px;\">\n<div class=\"row\">\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Brno_Moravian_Land_Archives,_Czech_Republic\" target=\"_blank\">\tBrno</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Litom%C4%9B%C5%99ice_Regional_Archives,_Czech_Republic\" target=\"_blank\">Litoměřice</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Opava_Land_Archives,_Czech_Rebublic\" target=\"_blank\">Opava</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Plze%C5%88_Regional_Archives,_Czech_Republic\" target=\"_blank\">Plzeň</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Prague_(Praha)_City_Archives,_Czech_Republic\" target=\"_blank\">Prague City</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Prague_(Praha)_Regional_Archives,_Czech_Republic\" target=\"_blank\">Prague Region</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/T%C5%99ebo%C5%88_Regional_Archives,_Czech_Republic\" target=\"_blank\">Třeboň</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Z%C3%A1mrsk_Regional_Archives,_Czech_Republic\" target=\"_blank\">Zámrsk</a> </div>\n</div>\n\n</section>",
+        "choices": [
+            {
+                "name": "Use QUIKLinks, Partners, and GenealogyInTime to quickly search the most common record collections for the Czech Republic.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/laptop-hands.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/laptop-hands.jpg\" alt=\"\" width=\"350px\" style=\"float:right; margin-top: 6px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>QUIKLinks are indicated by lightning-bolt icons in the Goals above.They point to collections with 50,000 or more records. When you click a QUIKLink icon, scroll down on the resulting page to see the QUIKLinks.</li><li>In the Partners section (near the top of the page), explore additional record collections in FamilySearch, Ancestry, Findmypast and MyHeritage.</li><li>Explore the <a class=\"lk\" href=\"http://czechfamilytree.com/\" target=\"_blank\">Czech Family Tree</a> website for access to Czech archive records.</li><span id=\"regions\"><li>Explore the <a class=\"lk\" href=\"http://www.genealogyintime.com/records/Europe-genealogy-records.html\" target=\"_blank\">Europe page</a> of the GenealogyInTime website. Record collections are listed and described in order from newest to oldest additions, including FamilySearch, Ancestry, and many other sources.</li></span></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Get Help",
+        "name": "Get Help",
+        "section_name": "Get help with your Czech Republic research.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=gdYc6NF_ZVE\" target=\"_blank\">Explorations</a></h5><section style=\"font-size:14px;\">\n<div class=\"row\">\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Brno_Moravian_Land_Archives,_Czech_Republic\" target=\"_blank\">\tBrno</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Litom%C4%9B%C5%99ice_Regional_Archives,_Czech_Republic\" target=\"_blank\">Litoměřice</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Opava_Land_Archives,_Czech_Rebublic\" target=\"_blank\">Opava</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Plze%C5%88_Regional_Archives,_Czech_Republic\" target=\"_blank\">Plzeň</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Prague_(Praha)_City_Archives,_Czech_Republic\" target=\"_blank\">Prague City</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Prague_(Praha)_Regional_Archives,_Czech_Republic\" target=\"_blank\">Prague Region</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/T%C5%99ebo%C5%88_Regional_Archives,_Czech_Republic\" target=\"_blank\">Třeboň</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Z%C3%A1mrsk_Regional_Archives,_Czech_Republic\" target=\"_blank\">Zámrsk</a> </div>\n</div>\n\n</section>",
+        "choices": [
+            {
+                "name": "Use Facebook pages to get answers to your questions.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/fh-help3.jpg"
+                    ],
+                    "text": "<ol><a href=\"img/fh-help3.jpg\" target=\"_blank\"> <img src=\"img/fh-help3.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px;\"></a> <li>Visit the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.facebook.com/groups/czechgenealogy/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Czech Genealogy Group page</a> on Facebook.</li><li>Visit the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.facebook.com/Czech-Slovak-Genealogy-Interest-Group-210710455641372\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Czech Slovak Genealogy Interest Group page</a> on Facebook.</li><li>Visit the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.facebook.com/groups/CentralEuropeGenealogyResearchCommunity/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Central Europe Genealogical Research Community page</a> on Facebook.</li><li>See the <a class=\"lk\" href=\"http://socialmediagenealogy.com/genealogy-on-facebook-list/\" target=\"_blank\">Genealogy on Facebook list</a> of Facebook groups dedicated to helping with research for Czech Republic.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Join a mailing list or message board for Czech Republic research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cyndislist.com/czech/social/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Czech Republic research mailing lists</a> on Cyndi's List.</li><li>Use the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ancestry.com/boards/localities.ceeurope.czechrepublic/mb.ashx\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Ancestry message boards</a> to read or post questions about Czech Republic research.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://community.familysearch.org/s/group/0F93A000000LfUCSA0/austrohungarian-empire\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">FamilySearch community</a> to read or post questions about Czech ancestors.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Czech Republic genealogy societies.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><span id=\"regions\"><li>Learn about Czech Republic genealogy societies in these articles. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Czech_Republic_Societies\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Czech Republic Societies</span></a><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://afocr.org/czech-culture/czech-genealogy#famous_czechs-page_2-4\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Genealogy Societies (open the Genealogy Societies link down the page)</span></a></li><br><li>Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cyndislist.com/czech/societies/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Czech Republic genealogy society sites</a> on Cyndi's List.</li><li>Get help at a <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Category:Czech_Republic_Family_History_Centers\" target=\"_blank\">family history center in the Czech Republic</a>.</li></span></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Geo/Culture/History",
+        "name": "Geography, Culture, and History",
+        "section_name": "Learn about the geography, culture, and history of the Czech Republic. \n\t\t\t\t\t\t\n\t\t\t\t\t\t",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=gdYc6NF_ZVE\" target=\"_blank\">Explorations</a></h5><section style=\"font-size:14px;\">\n<div class=\"row\">\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Brno_Moravian_Land_Archives,_Czech_Republic\" target=\"_blank\">\tBrno</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Litom%C4%9B%C5%99ice_Regional_Archives,_Czech_Republic\" target=\"_blank\">Litoměřice</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Opava_Land_Archives,_Czech_Rebublic\" target=\"_blank\">Opava</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Plze%C5%88_Regional_Archives,_Czech_Republic\" target=\"_blank\">Plzeň</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Prague_(Praha)_City_Archives,_Czech_Republic\" target=\"_blank\">Prague City</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Prague_(Praha)_Regional_Archives,_Czech_Republic\" target=\"_blank\">Prague Region</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/T%C5%99ebo%C5%88_Regional_Archives,_Czech_Republic\" target=\"_blank\">Třeboň</a> </div>\n<div class=\"col\"><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Z%C3%A1mrsk_Regional_Archives,_Czech_Republic\" target=\"_blank\">Zámrsk</a> </div>\n</div>\n\n</section>",
+        "choices": [
+            {
+                "name": "Explore websites and videos.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/c-czech.png"
+                    ],
+                    "text": "<h5>Reference</h5><ol><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Czech_Republic_History\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">FamilySearch: History</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Czech_Republic\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Wikipedia</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.britannica.com/place/Czech-Republic\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Encyclopedia Britannica</a></li><br><h5>For Kids</h5><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ducksters.com/geography/country.php?country=Czech%20Republic\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Ducksters</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=0fXqkiL_4UM\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">YouTube: Super Quick History of the Czech Republic</a></li></ol><h5>For Kids</h5>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

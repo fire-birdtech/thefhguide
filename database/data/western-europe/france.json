@@ -1,0 +1,453 @@
+[
+    {
+        "nav_name": "Research",
+        "name": "Research",
+        "section_name": "Learn about France research.Vault",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=J__ral_bKJQ\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Use effective research methods for your French ancestors.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for research strategies. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-fra-over.jpg"
+                    ],
+                    "text": "<ol><a href=\"img/x-fra-over.jpg\" target=\"_blank\"> <img src=\"img/x-fra-over.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a>  <li><span class=\"g\">FamilySearch</span>: Learn about French genealogy in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/France_Genealogy\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: France Genealogy</span></a></li><br><li><span class=\"g\">Beginning</span>: Learn about beginning French research in this video. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/beginning-research-in-france-part-1\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Beginning Research in France, Part 1—17:48 - 2011</span></a></li><br><li>Here are tips for starting your French research.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.thoughtco.com/how-to-research-french-ancestry-1421947\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">TH—How to Research French Ancestry - 2018</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/blog/en/finding-your-french-ancestry/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Finding Your French Ancestors - 2020</span></a></li><br><li>Learn more about doing French research in these articles from Price Genealogy.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.pricegen.com/french-genealogy-records/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">PR—France Genealogy Research – Part One</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://www.pricegen.com/france-genealogy/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">PR—France Genealogy Research – Part Two</span></a></li><br><li><span class=\"g\">Paris</span>: Learn about doing research in Paris.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/out-of-the-ashes-of-paris\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Out of the Ashes of Paris—53:11 - 2017</span></a></li><br><li><span class=\"g\">Corsica</span>: Here are some resources for genealogy in Corsica.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://anglersrest.net/2022/08/12/france-35/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Understanding France: Corsica - 2022</span></a></li><br></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "FamilySearch and Ancestry: Learn about resources for French research on FamilySearch and Ancestry.",
+                                "links": [
+                                    {
+                                        "link": "https://www.familysearch.org/help/helpcenter/lessons/finding-your-french-ancestors-online-part-1",
+                                        "text": "FS—Finding French Ancestors Online, Part 1—57:39 - 2017",
+                                        "type": "video"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Sites: Explore ",
+                                "links": [
+                                    {
+                                        "link": "http://www.barbsnow.net/French.htm",
+                                        "text": "Your Guide to Finding Your French Ancestors",
+                                        "type": "video"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Explore a variety of resources on the FreeFrenchAncestry site.",
+                                "links": [
+                                    {
+                                        "link": "https://sites.google.com/site/freefrenchancestry/",
+                                        "text": "FreeFrenchAncestry",
+                                        "type": "video"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Explore the FrancoGene site, which also has French-Canadian resources.",
+                                "links": [
+                                    {
+                                        "link": "http://www.francogene.com/",
+                                        "text": "FrancoGene site",
+                                        "type": "video"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Explore French genealogy resources on the ",
+                                "links": [
+                                    {
+                                        "link": "http://www.guide-genealogie.com/",
+                                        "text": "Guide to Genealogy site",
+                                        "type": "video"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Correspondence: Use this guide for corresponding with French organizations about genealogy resources.",
+                                "links": [
+                                    {
+                                        "link": "https://www.familysearch.org/wiki/en/French_Letter_Writing_Guide",
+                                        "text": "FS—French Letter Writing Guide",
+                                        "type": "document"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Learn about records for research in France.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for research records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-fra-records.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://www.goodfreephotos.com/france/paris/library-interior-paris-france.jpg.php\" target=\"_blank\"> <img src=\"img/x-fra-records.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-top: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a>  <li><span class=\"g\">Record Finder</span>: Use the France Record Finder to understand record types for research. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/France_Record_Finder\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: France Record Finder</span></a></li><br><li><span class=\"g\">History and Records</span>: Learn about the impact of French history and culture on available records.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/blog/en/french-records-history/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—French History and Records for Genealogy - 2020</span></a></li><br><li><span class=\"g\">Sites</span>: Learn about using FranceGenWeb to access French records online.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/finding-your-french-ancestors-online-part-2\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Finding French Ancestors Online, Part 2—60:01 - 2017</span></a></li><br><li>Learn about using Geneanet to access French records online.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/finding-your-french-ancestors-online-part-3\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Finding French Ancestors Online, Part 3—46:51 - 2017</span></a></li><br><li>Explore the <a class=\"lk\" href=\"https://en.filae.com/v4/genealogie/HomePage.mvc/welcome\" target=\"_blank\">Filae site</a> for research records.</li><li>Learn more about using Filae for research.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=vRVMVVyv_Z4\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">BYU—Filae—10:24</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/vRVMVVyv_Z4?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://forebears.io/france\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Forebears.io site</a> for research records.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about the French language, genealogy terms, and handwriting in records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for research records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-fra-hand.jpg"
+                    ],
+                    "text": "<ol><a href=\"img/x-fra-hand.jpg\" target=\"_blank\"> <img src=\"img/x-fra-hand.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width:350px; \"></a><br><h5>Language and Terms</h5><li><span class=\"g\">Alphabet</span>: Learn about the French alphabet.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/reading-french-handwritten-records-lesson-1-the-french-alphabet\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—French Handwritten Records, Lesson 1—25:00</span></a></li><br><li><span class=\"g\">Words &amp; Phrases</span>: Learn about key words and phrases in French.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/reading-french-handwritten-records-lesson-2-key-words-and-phrases\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—French Handwritten Records, Part 2—25:00</span></a></li><br><li><span class=\"g\">Reading Records</span>: Learn more about reading French records.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/donde-lo-encontraste-busqueda-por-pais\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Beginning Research in France, Part 3—30:00</span></a></li><br><li><span class=\"g\">Language &amp; Terms</span>: Learn about the French language and genealogy terms in these articles. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/France_Language_and_Languages\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: French Language</span></a><br><span class=\"star notranslate\">☆</span><a href=\"http://www.ancestry.com/learn/learningcenters/default.aspx?section=FR_EN\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">AC—French Genealogy Terms</span></a></li><br><li><span class=\"g\">French &amp; Latin</span>: Learn about reading records in French and Latin.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/france-research-with-the-wiki-part-5-of-8-reading-records-in-french-and-latin\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—France Research With the Wiki Part 5 of 8: Reading Records in French and Latin—30:00</span></a></li><br><br><span id=\"provinces\"> </span></ol><h5>Language and Terms</h5><h5>Handwriting</h5><ol><li>Learn French paleography in this <a class=\"lk\" href=\"https://script.byu.edu/Pages/the-french-documents-pages/the-french-documents(english)\" target=\"_blank\">BYU Script Tutorial</a>.</li><li>Explore this <a class=\"lk\" href=\"http://eric-camille.voirin.pagesperso-orange.fr/paleo/\" target=\"_blank\">online paleography course</a> to learn to read old French handwriting.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about surname research in France.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-fra-name.png"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/illustrations/vintage-french-postcard-eiffel-tower-4799538/\" target=\"_blank\"> <img src=\"img/x-fra-name.png\" width=\"100%\" ;=\"\" style=\"float:right; margin-top: 8px; margin-left: 16px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a>    <li><span class=\"g\">Surnames</span>: Learn about researching French surnames.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=Nn0oML0vZzo\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">AF—What You Need to Know About French Surnames—8:01</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/Nn0oML0vZzo?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li>Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.geopatronyme.com/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">surname distribution</a> (a map where certain surnames are prevalent) in France.</li><li>Learn about French surname customs in these articles. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/France_Names,_Personal\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: French Names</span></a><br><span class=\"star notranslate\">☆</span><a href=\"http://genealogy.about.com/cs/surname/a/french_surnames.htm\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">TH—French Surnames</span></a></li><br><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.geneanet.org/country/search-France-FRA\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Geneanet site</a> for French surnames.</li><br><li>Search for <a class=\"lk\" href=\"http://www.geneaservice.nl/navigator/france/index.html\" target=\"_blank\">French surnames</a> in a number of databases.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Archives and Libraries",
+        "name": "Archives and Libraries",
+        "section_name": "Learn about France archives and libraries.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=J__ral_bKJQ\" target=\"_blank\">Explorations</a></h5><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/Rq0U2JldYfE?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe>",
+        "choices": [
+            {
+                "name": "Learn about France archives and libraries.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-fra-lib.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/entrance-institut-de-france-paris-533018/\" target=\"_blank\"> <img src=\"img/x-fra-lib.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a> <li><span class=\"g\">FamilySearch</span>: Learn about French archives and libraries in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/France_Archives_and_Libraries\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: France Archives and Libraries</span></a></li><br><li>See also the <a class=\"lk\" href=\"https://familysearch.org/wiki/en/France_Archives_and_Libraries#Miscellaneous_Archives_and_Libraries\" target=\"_blank\">Miscellaneous Archives and Libraries</a> section of the article.</li><li><span class=\"g\">Resources</span>: Learn about <a class=\"lk\" href=\"https://french-genealogy.typepad.com/genealogie/\" target=\"_blank\">selected French archives and libraries</a> in the French Genealogy Blog.</li><li>Find out about resources in French archives in these Legacy Tree articles. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.legacytree.com/blog/legacy-tree-onsite-french-genealogy-family-history-resources\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">LT—Guide to French Genealogy &amp; Family History Resources</span></a><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.legacytree.com/blog/legacy-tree-onsite-french-national-archives\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\">  <span class=\"re\">LT—Inside the French National Archives</span></a></li><br><li><span class=\"g\">Department Archives</span>: Watch this video to learn about using Department Archives in France. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/help/helpcenter/lessons/france-research-with-the-wiki-part-4-of-8-using-france-department-archives-online\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—France Research With the Wiki Part 4 of 8: Using France Department Archives Online—6:00</span></a></li><br><li><span class=\"g\">Books We Own</span>: Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.rootsweb.ancestry.com/~bwo/france.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Books We Own site</a> for books that can be checked out or researched for you by others.</li><li><span class=\"g\">More</span>: Learn more about archives and libraries in France. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=K00-EdghWy8\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">RT—French Ancestors? There Is More Than the Civil Status! Part 1 of 2—15:24 - 2021</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/K00-EdghWy8?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=x1oMSJKkzRs\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">RT—French Genealogy: The Archives Départementales are Free Online—14:35 - 2021</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/x1oMSJKkzRs?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore France archives and libraries.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for archives and libraries. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-fra-lib1.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/photos/paris-france-palais-du-luxembourgh-112439/\" target=\"_blank\"> <img src=\"img/x-fra-lib1.jpg\" width=\"100%\" ;=\"\" style=\"float:right; margin-top: 8px; margin-left: 16px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a>    <li><span class=\"g\">Correspondence</span>: Watch this video to learn about writing letters for genealogy help. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/help/helpcenter/lessons/france-research-with-the-wiki-part-8-of-8-writing-for-records-in-french\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—France Research With the Wiki Part 8 of 8: Writing for Records in French—5:18</span></a></li><br><li><span class=\"g\">Sites</span>: Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.archivesportaleurope.net/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Archives Portal Europe</a> site.</li><span id=\"provinces\"> </span><li>Explore the <a class=\"lk\" href=\"http://www.geneaservice.com/\" target=\"_blank\">GeneaService site</a> for online archives.</li><li>Explore the <a class=\"lk\" href=\"http://www.guide-genealogie.com/guide/recherches.html\" target=\"_blank\">Guide to Genealogy site</a> for archive links.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Civil Registration",
+        "name": "Civil Registration",
+        "section_name": "Learn about France civil registration.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=J__ral_bKJQ\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about France civil registration.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for civil registration. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol> <li><span class=\"g\">FamilySearch</span>: Learn about French civil registration in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/France_Civil_Registration\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: France Civil Registration</span></a> </li><br><li>Learn about search strategies for vital records in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/France_Search_Strategies_for_Births,_Marriages_and_Deaths\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Search Strategies for Vital Records</span></a></li><br><li><span class=\"g\">Thoughtco</span>: Learn more about French Civil Registration.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.thoughtco.com/french-civil-registration-1421945\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">TH—French Civil Registration - 2018</span></a></li><br><li><span class=\"g\">Church &amp; Civil Records</span>: Learn about church and civil records in France. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/beginning-research-in-france-part-2\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Beginning Research in France, Part 2—20:00 - 2011</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/using-francegenweb-to-access-french-records-online\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Using FranceGenWeb to Access French Records Online—9:53 - 2015</span></a></li><br><li><span class=\"g\">Marriages</span>: Learn about marriages in France.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://anglersrest.net/2022/08/01/france-7/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Understanding France: Marriages - 2022</span></a></li><br><li><span class=\"g\">Case Study</span>: Watch this case study about civil registration records in France. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/france-research-with-the-wiki-part-6-of-8-a-french-case-study-civil-registration\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—France Research With the Wiki Part 6 of 8: A French Case Study: Civil Registration—5:40</span></a></li><br></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p><p style=\"margin-left:44px\"><a class=\"lk\" href=\"javascript:toggleDiv('ql');\">Provinces</a></p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Church and Cemetery Records",
+        "name": "Church and Cemetery Records",
+        "section_name": "Learn about French church, religious, and cemetery records.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=J__ral_bKJQ\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about France church records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for church records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-fra-church.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/entrance-institut-de-france-paris-533018/\" target=\"_blank\"> <img src=\"img/x-fra-church.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px;\"></a> <li><span class=\"g\">FamilySearch</span>: Learn about France church records in this FamilySearch Wiki article. See also the <a class=\"lk\" href=\"https://familysearch.org/wiki/en/France_Church_Records#Search_Strategies\" target=\"_blank\">Search Strategies</a> section of the article.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/France_Church_Records\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: France Church Records</span></a> </li><br><li><span class=\"g\">Case Study</span>: Watch this case study video about using church records in France. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/help/helpcenter/lessons/france-research-with-the-wiki-part-7-of-8-a-french-case-study-church-records\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—France Research With the Wiki Part 7 of 8: A French Case Study: Church Records—5:54</span></a></li><br><li>Learn how to trace ancestors with Protestant church records. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=_7BV8Q6CjaA\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">RT—French Ancestors? There Is More Than the Civil Status! Part 2 of 2—17:15 - 2021</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/_7BV8Q6CjaA?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><li>Watch this video for tips on using French church records in your research. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=CXabQ3RDZJY\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">RT—Using French Church Records—19:58 - 2021</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/CXabQ3RDZJY?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li></ol><h5>Groups</h5><ol><li><span class=\"g\">Huguenots</span>: Explore <a class=\"lk\" href=\"http://huguenots-france.org/english.htm\" target=\"_blank\">French Huguenot resources</a> in this website.</li><li><span class=\"g\">Jewish</span>: Explore Jewish genealogy in France in this guide from the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://libguides.cjh.org/genealogyguides/france\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Center for Jewish History site</a>.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.jewishgen.org/databases/France/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">JewishGen France database</a>.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://bloodandfrogs.com/encyclopedia/france\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\"><img src=\"img/d.png\" width=\"2\">Jewish Genealogy Encyclopedia</a> for Jewish resources in France.</li></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore France cemetery records.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-fra-cem.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/photos/cross-cemetery-stone-france-451086/\" target=\"_blank\"> <img src=\"img/x-fra-cem.jpg\" width=\"100%\" ;=\"\" style=\"float:right; margin-top: 8px; margin-left: 16px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a>    <span id=\"provinces\"> </span><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cimetieres-de-france.fr/en\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">National Cemeteries Inventory</a> site.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.findagrave.com/cemetery-browse/France?id=country_7\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Find A Grave site</a> for cemetery records.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://billiongraves.com/site-map?country=France\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">BillionGraves site</a> for cemetery records.</li><li>Learn how to find Paris cemetery records.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://french-genealogy.typepad.com/genealogie/2019/02/paris-cemetery-records-online.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Paris Cemetery Records Online</span></a> </li><br></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Emigration and Immigration",
+        "name": "Emigration and Immigration",
+        "section_name": "Learn about French emigration and immigration.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=J__ral_bKJQ\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about France emigration and immigration.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-fra-imm.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://commons.wikimedia.org/wiki/File:StateLibQld_1_145315_France_(ship).jpg\" target=\"_blank\"> <img src=\"img/x-fra-imm.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a><li><span class=\"g\">Overview</span>: Learn about France emigration and immigration in these articles.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/France_Emigration_and_Immigration\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: France Emigration and Immigration</span></a><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://anglersrest.net/2022/08/14/france-37/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Understanding Migration from France</span></a></li><br><li><span class=\"g\">Wikipedia</span>: Learn about immigration history and demographics in this Wikipedia article.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/French_Americans\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Wikipedia: French Americans</span></a></li><br><li><span class=\"g\">History</span>: Here's an overview of France emigration history and records. See more information in the links on the right side of the linked page. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.european-emigration.com/fr/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">European Emigration: France</span></a></li><br><li><span class=\"g\">Passenger Records</span>: Learn about researching France passenger records on the European Emigration site.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.european-emigration.com/fr/research.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Research Possibilities</span></a></li><br></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": [
+                        [
+                            {
+                                "description": "Explore French-American immigration patterns in this website.",
+                                "links": [
+                                    {
+                                        "link": "http://www.everyculture.com/multi/Du-Ha/French-Americans.html",
+                                        "text": "French-American immigration patterns",
+                                        "type": "video"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Find online ships lists and emigration records.",
+                                "links": [
+                                    {
+                                        "link": "https://en.geneanet.org/explore/french-ancestors/post/7-online-ships-lists-emigration-records/",
+                                        "text": "online ships lists and emigration records",
+                                        "type": "video"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Explore the Immigrant Ancestors site from Brigham Young University.",
+                                "links": [
+                                    {
+                                        "link": "http://immigrants.byu.edu/search/by_section/5",
+                                        "text": "Immigrant Ancestors site",
+                                        "type": "video"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Explore the ",
+                                "links": [
+                                    {
+                                        "link": "http://immigrantships.net/index2.html",
+                                        "text": "Immigrant Ship site",
+                                        "type": "video"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Military Records",
+        "name": "Military Records",
+        "section_name": "Learn about France military records.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=J__ral_bKJQ\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about France military records.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-fra-mil.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/france-french-foreign-legion-79573/\" target=\"_blank\"> <img src=\"img/x-fra-mil.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a><li><span class=\"g\">FamilySearch</span>: Learn about France Military Records in this FamilySearch Wiki article.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/France_Military_Records\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: France Military Records</span></a> </li><br><li><span class=\"g\">Overview</span>: Get an overview of France Military Records on the French Genealogy Blog site.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://french-genealogy.typepad.com/genealogie/2010/04/french-military-records-les-recensements-militaires.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">French Military Records - Les recensements militaires - 2010</span></a> </li><br><li><span class=\"g\">Resources</span>: Explore resources for <a class=\"lk\" href=\"https://en.geneanet.org/explore/french-ancestors/post/6-online-military-archives/\" target=\"_blank\">online military archives</a> on the Geneanet site.</li><li>Find more resources for France military records on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.genealogylinks.net/europe/france/france-military.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">GenealogyLinks site</a>.</li><li>Here are some <a class=\"lk\" href=\"https://anglersrest.net/2022/08/17/france-40/\" target=\"_blank\">additional resources</a> for France military records.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore French military records.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><span id=\"provinces\"> </span><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.memorialgenweb.org/memorial3/html/fr/index.php\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Memorial GenWeb</a> site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.memoiredeshommes.sga.defense.gouv.fr/fr/arkotheque/client/mdh/sepultures_guerre/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Database of War Graves</a> site for interments after 1870.</li></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Maps and Gazetteers",
+        "name": "Maps and Gazetteers",
+        "section_name": "Learn about France maps and gazetteers.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=J__ral_bKJQ\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about France maps and gazetteers.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-fra-map.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://commons.wikimedia.org/wiki/File:1850_Perthes_Map_of_France_-_Geographicus_-_France-perthes-1850.jpg\" target=\"_blank\"> <img src=\"img/x-fra-map.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; \"></a> <li><span class=\"g\">Maps</span>: Learn about France maps in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/France_Maps\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: France Maps</span></a></li><br><li>See an <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/France_Genealogy#France_Clickable_Map\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">interactive map</a> for France departments.</li><li><span class=\"g\">Gazetteers</span>: Learn about France gazetteers in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/France_Gazetteers\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: France Gazetteers</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore French map resources.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.davidrumsey.com/luna/servlet/view/search?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&amp;q=france&amp;search=Go\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">David Rumsey collection</a> of French maps.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://commons.wikimedia.org/wiki/Atlas_of_France\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Atlas of France</a> on the Wikipedia site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://commons.wikimedia.org/wiki/Category:Old_maps_of_France\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Old Maps of France</a> on the Wikipedia site.</li><span id=\"provinces\"> </span><li>Explore the <a class=\"lk\" href=\"http://www.cartocassini.org/\" target=\"_blank\">Cassini Cartographic</a> site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.oldmapsonline.org/en/France\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Old Maps Online site</a> for France maps.</li><li>Explore a <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.fallingrain.com/world/FR/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">directory of France cities, towns, and regions</a> in the Falling Rain site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Newspapers",
+        "name": "Newspapers",
+        "section_name": "Learn about French newspapers.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=J__ral_bKJQ\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Explore French newspapers for ancestor research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Find links to <a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Wikipedia:List_of_online_newspaper_archives#France\" target=\"_blank\"> French newspapers</a> on the Wikipedia site.</li> <li>Search French newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.onlinenewspapers.com/france.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">onlinenewspapers.com</a> site.</li><span id=\"provinces\"> </span><li>Search French newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.world-newspapers.com/france.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">world-newspapers.com</a> site.</li><li>Search French newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.abyznewslinks.com/franc.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">ABYZ News Links</a> site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Websites",
+        "name": "Websites",
+        "section_name": "Explore additional websites for research.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=J__ral_bKJQ\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "There are a number of websites with valuable resources for French research.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/laptop-fingers1.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/laptop-fingers1.jpg\" alt=\"\" width=\"350px\" style=\"float:right; margin-top: 6px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Explore links in the <a class=\"lk\" href=\"https://www.familysearch.org/en/wiki/France_Genealogy#Online_Resources\" target=\"_blank\">FamilySearch Wiki</a>.</li><li>Explore links in <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cyndislist.com/france\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Cyndi's List</a>.</li><li>Explore links in <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genealogylinks.net/europe/france/index.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Genealogylinks.net</a>.</li><span id=\"provinces\"> </span><li>Explore links in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.thoughtco.com/french-genealogy-records-online-1421952\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\"><img src=\"img/d.png\" width=\"2\">Thoughtco</a> site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Search Records",
+        "name": "Search Records",
+        "section_name": "Search records from France.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=J__ral_bKJQ\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Use QUIKLinks, Partners, and GenealogyInTime to quickly search the most common record collections for France.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/laptop-hands.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/laptop-hands.jpg\" alt=\"\" width=\"350px\" style=\"float:right; margin-top: 6px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>QUIKLinks are indicated by lightning-bolt icons in the Goals above.They point to collections with 50,000 or more records. When you click a QUIKLink icon, scroll down on the resulting page to see the QUIKLinks.</li><li>In the Partners section (near the top of the page), explore additional record collections in FamilySearch, Ancestry, Findmypast and MyHeritage.</li><li>Explore the FamilySearch page for <a class=\"lk\" href=\"https://familysearch.org/wiki/en/France_Online_Genealogy_Records\" target=\"_blank\">French online record collections</a></li><span id=\"provinces\"> </span><li>Explore the <a class=\"lk\" href=\"http://www.genealogyintime.com/records/Europe-genealogy-records.html\" target=\"_blank\">Europe page</a> of the GenealogyInTime website. Record collections are listed and described in order from newest to oldest additions, including FamilySearch, Ancestry, and many other sources.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Get Help",
+        "name": "Get Help",
+        "section_name": "Get help with your France research.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=J__ral_bKJQ\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Use Facebook pages to get answers to your questions.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/fh-help2.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/fh-help2.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 350px;\"> <li>Visit the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.facebook.com/groups/French.Gen/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">French Genealogy</a> Facebook page.</li><li>Visit the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.facebook.com/groups/genealogie1/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Genealogie page</a> on Facebook.</li><li>Visit the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.facebook.com/groups/FranceGenealogyJustAsk/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">France Genealogy - Just Ask! page</a> on Facebook.</li><li>Visit the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.facebook.com/groups/SouthernEuropeGenealogyResearchCommunity/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Southern Europe Genealogy Research Community page</a> on Facebook.</li><li>See the <a class=\"lk\" href=\"http://socialmediagenealogy.com/genealogy-on-facebook-list/\" target=\"_blank\">Genealogy on Facebook list</a> of Facebook groups dedicated to helping with research for France.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Join a mailing list or message board for France research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://community.familysearch.org/s/group/0F93A000000DIIYSA4/france-genealogy-research\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">FamilySearch community</a> to read or post questions about French ancestors.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cyndislist.com/france/social/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">France research mailing lists</a> on Cyndi's List.</li><li>Use the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ancestry.com/boards/localities.weeurope.france/mb.ashx\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Ancestry message boards</a> to read or post questions about France research.</li><li>Explore France research questions in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://genealogy.stackexchange.com/questions/tagged/france\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Genealogy Stack Exchange</a>.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about France genealogy societies.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about France genealogy societies in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/France_Societies\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: France Societies</span></a></li><br><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://afgs.org/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">American-French Genealogical Society</a> site.</li><br><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cyndislist.com/france/societies/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">France genealogy society sites</a> on Cyndi's List.</li><br><li>Get help at a <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Category:France_Family_History_Centers\" target=\"_blank\">family history center in France</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Geo/Culture/History",
+        "name": "Geography, Culture, and History",
+        "section_name": "Learn about the geography, culture, and history of France. \n\t\t\t\t\t\t\n\t\t\t\t\t\t",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=J__ral_bKJQ\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Explore websites and videos.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/c-france.png"
+                    ],
+                    "text": "<h5>Reference</h5><ol><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/France_History\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">FamilySearch: History</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/France_Historical_Geography\" target=\"_blank\">FamilySearch: Historical Geography</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/France\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Wikipedia</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.britannica.com/place/France\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Encyclopedia Britannica</a></li></ol><h5>For Kids</h5><ol><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.natgeokids.com/uk/discover/geography/countries/facts-about-france/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">NatGeo for Kids</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ducksters.com/geography/country/france.php\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Ducksters</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=ZNk2QOn9oGE\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">YouTube: Animated History of France</a></li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]
