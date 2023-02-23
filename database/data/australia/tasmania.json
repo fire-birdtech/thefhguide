@@ -1,0 +1,268 @@
+[
+    {
+        "nav_name": "Research and Records",
+        "name": "Research and Records",
+        "section_name": "Learn about Tasmania research and records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Get started with research for your Tasmania ancestors.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for research resources. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-aus-sa-over.jpg"
+                    ],
+                    "text": "<ol><img src=\"../img/x-aus-sa-over.jpg\" alt=\"\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\" width=\"450px\"><li>Learn about finding your ancestors in Tasmania. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Tasmania,_Australia_Genealogy\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki:—Tasmania</span></a></li><br><li>Learn how to search for records on the Tasmania LINC site. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.linc.tas.gov.au/how-to/Pages/tao-guide.aspx\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">LINC: A Guide to Finding Records</span></a></li><br><li>Use the Australian Record Finder for research opportunities. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Australia_Record_Finder\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Australia Record Finder</span></a></li><br><li>Explore resources on the <a class=\"lk\" href=\"https://www.familyhistorydirectory.co.uk/australia/tasmania/\" target=\"_blank\">Family History Directory</a> site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Archives and Libraries",
+        "name": "Archives and Libraries",
+        "section_name": "Learn about Tasmania archives and libraries.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about archives and libraries in Tasmania.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for archives and libraries. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-aus-tas-lib.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://en.wikipedia.org/wiki/Hobart#/media/File:Hobart_waterfront_architecture.jpg\" target=\"_blank\"><img src=\"../img/x-aus-tas-lib.jpg\" alt=\"\" width=\"450px\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li>Learn about Tasmania archives in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Archives_in_South_Australia\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki:—Archives in Tasmania</span></a></li><br><li>Find family history resources on the <a class=\"lk\" href=\"https://www.linc.tas.gov.au/family-history/Pages/default.aspx\" target=\"_blank\">Tasmania Government</a> website.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Tasmania directories.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Get an introduction to directories and almanacs for Tasmania. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Tasmania_Directories\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS:—Tasmania Directories</span></a></li><br><li>Learn about Tasmania directories in the Tasmania LINC site. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.linc.tas.gov.au/archive-heritage/guides-records/Pages/directory.aspx\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">LINC:—Census, Muster, and Electoral Rolls</span></a></li><br></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Vital and Census Records",
+        "name": "Vital and Census Records",
+        "section_name": "Learn about Tasmania vital records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Tasmania vital and BMD records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for vital and BMD records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-aus-tas-vit.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://en.wikipedia.org/wiki/File:Queensland_Children%27s_Hospital_in_Brisbane,_November_2019.jpg\" target=\"_blank\"><img src=\"../img/x-aus-tas-vit.jpg\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li>Learn about Tasmania births, marriages, and deaths in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Tasmania_Births,_Marriages,_and_Deaths\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki:—Tasmania Births, Marriages, and Deaths</span></a></li><br><li>Learn about Tasmania births, marriages, and deaths in the Tasmania LINC site. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.linc.tas.gov.au/family-history/Pages/Birth-Death-Marriage.aspx\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">LINC:—Births, Deaths, and Marriages</span></a></li><br><li>Learn about Tasmania divorce records in the Tasmania LINC site. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.linc.tas.gov.au/archive-heritage/guides-records/Pages/Divorce.aspx\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">LINC:—Tasmanian Divorce Records</span></a></li><br><li>Learn about Tasmania census, muster, and electoral rolls in the Tasmania LINC site. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.linc.tas.gov.au/archive-heritage/guides-records/Pages/census.aspx\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">LINC:—Census, Muster, and Electoral Rolls</span></a></li><br></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Church and Cemetery Records",
+        "name": "Church and Cemetery Records",
+        "section_name": "Learn about Tasmania church and cemetery records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore Tasmania church and cemetery records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for church and cemetery records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-aus-tas-church.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://en.wikipedia.org/wiki/Hobart#/media/File:NZ7_2753_(46297871414).jpg\" target=\"_blank\"><img src=\"../img/x-aus-tas-church.jpg\" alt=\"\" width=\"300px\" border=\"1\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li>Learn about Tasmania church registrations in the Tasmania LINC site. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.linc.tas.gov.au/family-history/Pages/Birth-Death-Marriage.aspx\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">LINC:—Births, Deaths, and Marriages</span></a></li><br><li>Explore resources for Tasmania cemeteries. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Tasmania_Cemeteries\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki:—Tasmania Cemeteries</span></a></li><br><li>Find <a class=\"lk\" href=\"http://www.genealogylinks.net/australia/tasmania/tas-cem.htm\" target=\"_blank\">links to Tasmania cemetery resources</a> on the GenealogyLinks site.</li><li>Search the <a class=\"lk\" href=\"http://www.findagrave.com/cgi-bin/fg.cgi?page=cs\" target=\"_blank\">Find A Grave site</a> for cemetery records.</li><li>Search the <a class=\"lk\" href=\"http://billiongraves.com/pages/search/\" target=\"_blank\">BillionGraves site</a> for cemetery records.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Emigration and Immigration",
+        "name": "Emigration and Immigration",
+        "section_name": "Learn about Tasmania emigration and immigration.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Tasmania emigration and immigration.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-imm-ship.jpg"
+                    ],
+                    "text": "<ol><img src=\"../img/y-imm-ship.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"><li>Explore resources for immigration in Tasmania. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.linc.tas.gov.au/family-history/Pages/Arrival-departure.aspx\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">TAS:—Arrival or Departure</span></a></li><br><li>Explore resources for naturalization in Tasmania. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.linc.tas.gov.au/archive-heritage/guides-records/Pages/Naturalisations.aspx\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">TAS:—Naturalisations</span></a></li><br><li>Explore shipping and ships' crew records for Tasmania. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.linc.tas.gov.au/archive-heritage/guides-records/Pages/shipping.aspx\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">TAS:—Shipping and Ships' Crews</span></a></li><br><li>Explore <a class=\"lk\" href=\"http://www.genealogylinks.net/australia/tasmania/tas-ships.htm\" target=\"_blank\">ship passenger lists</a> on the GenealogyLinks site.</li></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Probate, Land and Court",
+        "name": "Probate, Land and Court Records",
+        "section_name": "Learn about Tasmania land, wills, and court records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore Tasmania land grants, wills, and court records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for grants, wills, and court records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-aus-tas-land.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://en.wikipedia.org/wiki/Tasmania#/media/File:Blick_ueber_Great_Oyster_Bay_zur_Freycinet_Peninsula.jpg\" target=\"_blank\"><img src=\"../img/x-aus-tas-land.jpg\" alt=\"\" width=\"450px\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li>Explore resources for land grants in Tasmania. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.linc.tas.gov.au/archive-heritage/guides-records/Pages/Land-grants.aspx\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">LINC:—Land Grants</span></a></li><br><li>Explore resources for wills in Tasmania. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.linc.tas.gov.au/archive-heritage/guides-records/Pages/wills.aspx\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">LINC:—Wills</span></a></li><br><li>Explore resources for court records in Tasmania. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.linc.tas.gov.au/family-history/Pages/Court.aspx\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">LINC:—Court Records</span></a></li><br><li>Learn about prison records in Tasmania. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.linc.tas.gov.au/family-history/Pages/Prison.aspx\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">LINC:—Prison Records</span></a></li><br></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Maps and Gazetteers",
+        "name": "Maps and Gazetteers",
+        "section_name": "Learn about Tasmania maps and gazetteers.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore Tasmania maps and gazetteers.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-aus-tas-map.png"
+                    ],
+                    "text": "<ol><a href=\"https://en.wikipedia.org/wiki/Tasmania#/media/File:Tasmania_in_Australia.svg\" target=\"_blank\"><img src=\"../img/x-aus-tas-map.png\" alt=\"\" width=\"450px\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li>Search the <a class=\"lk\" href=\"http://www.statelibrary.tas.gov.au/tasmemory/digitisedall/pretymanindex\" target=\"_blank\">Index to Tasmanian Place names</a> for Tasmanian gazetteer resources.</li><li>Explore the <a class=\"lk\" href=\"http://www.davidrumsey.com/luna/servlet/view/search?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&amp;q=tasmania&amp;search=Go\" target=\"_blank\">David Rumsey collection</a> of Tasmania maps.</li><li>Explore the <a class=\"lk\" href=\"https://www.ancestry.com/search/collections/60890\" target=\"_blank\">Tasmania, Australia, Bailliere's Gazetteer and Road Guide, 1877</a>.</li><li>Explore the <a class=\"lk\" href=\"http://www.lib.utexas.edu/maps/australia.html\" target=\"_blank\">Perry-Castaneda site</a> for maps of Tasmania (search for Tasmania on the page).</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Newspapers",
+        "name": "Newspapers",
+        "section_name": "Learn about Tasmania newspapers.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore Tasmania newspapers.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/newspaper.jpg"
+                    ],
+                    "text": "<ol><img src=\"../img/newspaper.jpg\" alt=\"\" width=\"400px\" border=\"1\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Explore Tasmania newspapers. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Tasmania_Newspapers\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Tasmania Newspapers</span></a></li><br><li>Search the <a class=\"lk\" href=\"https://sites.google.com/site/onlinenewspapersite/Home/aus/tas\" target=\"_blank\">Tasmania Online Historical Newspapers</a> site.</li><li>Search Tasmania newspapers in the <a class=\"lk\" href=\"http://www.world-newspapers.com/tasmania.html\" target=\"_blank\">world-newspapers.com</a> site.</li><li>Search Tasmania newspapers in the <a class=\"lk\" href=\"http://www.abyznewslinks.com/austrta.htm\" target=\"_blank\">ABYZ News Link</a> site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Websites",
+        "name": "Websites",
+        "section_name": "Explore additional websites for research.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "There are a number of websites with valuable resources for Tasmania research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore links in <a class=\"lk\" href=\"https://www.cyndislist.com/australia/states/sa/\" target=\"_blank\">Cyndi's List</a>.</li><li>Explore links in <a class=\"lk\" href=\"http://www.genealogylinks.net/australia/south-australia/index.html\" target=\"_blank\">GenealogyLinks.net</a>.</li> </ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Search Records",
+        "name": "Search Records",
+        "section_name": "Search records from Tasmania.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Use QUIKLinks to quickly search record collections for Tasmania.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore additional record collections.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore the <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Tasmania,_Australia_Online_Genealogy_Records\" target=\"_blank\">FamilySearch page</a> for online genealogy records.</li><li>Explore additional record collections in <a class=\"lk\" href=\"https://www.ancestry.com/search/collections/catalog/?keyword=Tasmania\" target=\"_blank\">Ancestry</a>.</li><li>Explore additional record collections in <a class=\"lk\" href=\"https://search.findmypast.com/historical-records?page=1&amp;region=australia&amp;subcountry=tasmania\" target=\"_blank\">Findmypast</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Get Help",
+        "name": "Get Help",
+        "section_name": "Get help with your Tasmania research.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Use Facebook pages to get answers to your questions.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/fh-help3.jpg"
+                    ],
+                    "text": "<ol><a href=\"../img/fh-help3.jpg\" target=\"_blank\"> <img src=\"../img/fh-help3.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 350px; border:1px solid #000; padding:0px;\"></a>  <li>Join the <a class=\"lk\" href=\"https://www.facebook.com/groups/146931945380414/\" target=\"_blank\">Tasmania Genealogy Group</a> on Facebook.</li><li>Visit the <a class=\"lk\" href=\"https://www.facebook.com/groups/GenSAAus/about/\" target=\"_blank\"> Genealogy Tasmania Genealogy page</a> on Facebook.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Join a mailing list or message board for Tasmania research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore the <a class=\"lk\" href=\"http://www.rootschat.com/forum/australia/\" target=\"_blank\">RootsChat forum</a> and post questions about Tasmania research.</li><li>Explore <a class=\"lk\" href=\"https://www.ancestry.com/boards/localities.oceania.australia.tas.general/mb.ashx?q=Tasmania\" target=\"_blank\">Ancestry message boards</a> for Tasmania research.</li><li>Search the <a class=\"lk\" href=\"http://bigfile.rootsweb.ancestry.com/cgi-bin/listsearch\" target=\"_blank\">RootsWeb site </a> for Tasmania research mailing lists.</li><li>Explore the <a class=\"lk\" href=\"https://www.cyndislist.com/australia/states/tas/social/\" target=\"_blank\"> Tasmania research mailing lists</a> on Cyndi's List.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Tasmania genealogy societies.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Find <a class=\"lk\" href=\"http://www.genealogylinks.net/australia/tasmania/tas-soc.htm\" target=\"_blank\">Tasmania genealogy societies</a> on the GenealogyLinks site.</li><li>Explore <a class=\"lk\" href=\"https://www.cyndislist.com/australia/states/tas/societies/\" target=\"_blank\">Tasmania genealogy society sites</a> on Cyndi's list.</li><li>Get help at a <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Category:Tasmania_Family_History_Centres\" target=\"_blank\">family history center in Tasmania</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

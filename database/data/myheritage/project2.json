@@ -1,0 +1,1048 @@
+[
+    {
+        "nav_name": "Navigate Your Tree",
+        "name": "Navigate Your Tree",
+        "section_name": "Navigate your MyHeritage tree.Vault",
+        "summary": "<p>Navigating your MyHeritage Tree is essential to finding ancestors, viewing and updating their information, and producing charts and reports.</p>",
+        "choices": [
+            {
+                "name": "Move your screen view to see different ancestors.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Move the view of your tree.</li><li>Use different zoom levels.</li><li>Use the radar feature to see other areas of your tree.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Move around your tree, center the view, and zoom in and out on several parts of your tree.</li><li>* Proficient: Same as Good; also use the Radar view to move to more distant areas of your tree. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/tree-radar.JPG"
+                    ],
+                    "text": "<p><i>Note</i> : The Help window provides more information for many of these features. To access it, click the question mark icon (near the \"Find a person\" box). To close Help, click the icon again. (To close a personal information window, click the arrow in the upper right of the window.)</p><p>The default view for your tree is Family View. (Pedigree view is discussed in Choice D below.) Here are some of the essential tools for navigating your tree:</p><ol><li><i>Moving</i>—Click and drag the mouse (or use the arrow keys) to see other part of your family tree. To center the view on the starting person, click the House icon (also helpful if the screen appears to be blank). You can click the left-arrow (upper left) to collapse the Detail panel at the left and allow more room for the tree view.</li><li><i>Zoom</i>—Click the plus icon to enlarge tree details and the minus icon to . </li>(At the maximum zoom-out position, names are displayed only when you hover over a person card.)<img src=\"img/mh/tree-radar.JPG\" width=\"70px\" style=\"float:left; margin-right:26px; margin-left:66px; margin-top:16px; border:1px solid #000; padding:0px;\"><li>To center a person in the view, click the person's card. (Clicking a person card that is centered will open the person's Edit window.)</li><li>To display the tree in full-screen view, click the broken-box icon.</li><li>To set the number of generations visible above or below the main person, click <b>Generations</b> and select a value. You can also choose to show cousins of the main person.</li><li>To quickly find a person in your tree and center that person in the view, <br>a) in the upper right click \"Find a person\"; <br>b) Type the name of the person to find; and <br>c) Select the name from the drop-down list. If you are in Family View, the person is centered in the screen; if you are in Pedigree View (see Choice D below), the person becomes the first person at the left of the pedigree.</li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "For information on changing who appears as the Home person in the view, follow the steps in this article.",
+                                "links": [
+                                    {
+                                        "link": "https://faq.myheritage.com/en/article/how-do-i-change-the-home-person-in-my-online-family-tree",
+                                        "text": "MH: How do I change the home person in my online family tree?",
+                                        "type": "document"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Use the Settings icon to customize your tree view.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Proficient: Explore each of the items in the Options wheel and make any necessary changes to the settings. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/tree-options.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/mh/tree-options.jpg\" width=\"250px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>Click the Settings icon (next to \"Find a person\") to display the following tree options:<ul style=\"margin-left:-88px;\"><li><i>Tree preferences</i>—Set card display options, layout options for cards, and other options. </li><li><i>Name preferences</i>—Set options for married names, and prefixes and suffixes. </li><li><i>More actions</i>—Preferred tree view, Edit tree name, Back up tree, Print chart, Tree privacy settings, Tree editing permissions, and Manage all trees. These are also included in other MyHeritage menus.</li></ul></li><li>To reset the options to the original settings, for Tree Preferences or Name Preferences, click <b>Restore defaults</b>.</li><li>To close the Options dialog, click the X.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Open different branches of your family tree to view.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Open several different branches of your tree as explained in this Choice.</li><li>* Proficient: Same as Good; also center the view on one of the people, and note the total number of people in your current tree. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/tree-branch.JPG"
+                    ],
+                    "text": "<ol><p>You can select certain direct-line ancestors and view their branches of the family tree.</p><img src=\"img/mh/tree-branch.JPG\" width=\"200px\" style=\"float:right; margin-left:16px; padding:0px;\"><li>Find an ancestor with a \"branch\" icon (small rectangles above the person card, connected by lines). Click the icon to open that ancestor's branch. That ancestor is now centered in the view. <i>Note</i> : Opening a branch also closes the branch for the ancestor's spouse.</li><li>When you open an ancestor branch, the person's name appears in the white bar above the family tree (below the main menu bar). You can click any of the names in the bar to center the selected person in the tree. </li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Use Pedigree view.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Open several different branches of your tree in Pedigree view.</li><li>* Proficient: Same as Good; also select a different person to be the first one in the pedigree view. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>In the upper-right, click <b>Pedigree view</b>. Ancestors are now listed in generations from left to right.</li><li>To reset the zoom, in the lower right click the minus or plus icon, or the full-screen icon. To move the view, click and drag.</li><li>For details on the Settings icon, see Choice B above. Fewer Settings options are available in Pedigree view.</li><li>To see additional generations, if available, click a right-arrow (right side of the screen, and you may need to drag the view to the left to see the arrows). </li><li>To select a person as the first one in the pedigree view, <br>a) Click the person's name card; <br>b) In the Info dialog on the left, click <b>More</b>; and <br>c) Click <b>View his (her) tree</b>. Or, you can select a name from the \"Immediate Family\" section in the Info dialog.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Use Fan Chart view.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Open several different branches of your tree in Fan Chart view.</li><li>* Proficient: Same as Good; also select a different person to be the first one in the Fan Chart view. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/fan-chart.png",
+                        "https://www.thefhguide.com/img/mh/fan-chart-bar.png"
+                    ],
+                    "text": "<ol><a class=\"lk\" href=\"img/mh/fan-chart.png\" target=\"_blank\"><img src=\"img/mh/fan-chart.png\" width=\"450px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"></a><li>In the upper-right, click <b>Fan Chart view</b>. Ancestors are now displayed in a fan chart, with a default of six generations. You can drag the view to reposition it.</li><li>To change the number of generations displayed, click <b>Generations</b> (second menu bar) and select a number from 4 to 10. (A higher number of generations may take longer to display.) The second menu bar is shown below.</li><br><br><br><br><br><img src=\"img/mh/fan-chart-bar.png\" width=\"350px\" style=\"float:right; border:1px solid #000; padding:0px; margin-bottom:16px;\"><li>To change the display view, use any of these icons:<ul style=\"margin-left:-66px;\"><li>Palette icon—Display colors instead of names</li><li>Plus icon—Zoom in</li><li>Minus icon—Zoom out</li><li>Broken-box icon—Full-screen mode</li></ul></li><li>To see additional generations, if available, click any arrow that appears at the edge of the fan chart.</li><li>To select a person as the first one in the fan chart view, hover over the name in the chart and click the small fan chart icon that appears.</li><li>To search for a person to display in first position in the fan chart, <br>a) Click <b>Find a person</b> (second menu bar); <br>b) Type the person's name; and <br>c) Select the name from the list.</li><li>To change the settings for the fan chart, click the <b>Settings icon</b> (second menu bar). The following options are available:<ul style=\"margin-left:-66px;\"><li>Preferred tree view (Family, Pedigree, or Fan) </li><li>Card display options</li><li>Name options</li></ul></li><li>To share the fan chart on social media, click the arrow icon (second menu bar). Options appear for sharing via Facebook, Twitter, and WhatsApp, as well as copying the link. There is also a download button that creates a .PNG image of the fan chart.</li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "For more information on the Fan Chart feature, read this article.",
+                                "links": [
+                                    {
+                                        "link": "https://blog.myheritage.com/2020/02/introducing-fan-view-for-family-trees/",
+                                        "text": "MH: Introducing the Fan View for Family Trees",
+                                        "type": "document"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "View Information",
+        "name": "View Tree Information",
+        "section_name": "View information about people in your tree.",
+        "summary": "<p>You can view facts and profile information for people in your MyHeritage tree, using a number of different screens.</p>",
+        "choices": [
+            {
+                "name": "View information for a person.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Proficient: Read the Facts for at least three people in your tree. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/tree-person-window.JPG"
+                    ],
+                    "text": "<ol><img src=\"img/mh/tree-person-window.JPG\" width=\"300px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>To see details for a person, click the person's name. The Person window opens at the left, with the following items:<ul style=\"margin-left:-66px;\"><li>Name and vital information</li><li>View relationship diagram</li><li>\"Research this person\" (displays record collections for research)</li><li>Profile page button</li><li>Quick Edit button</li><li>Add Relatives button</li><li>More: Additional actions for the person</li><li>Categories (scroll down): Discoveries, Immediate family, Photos and videos, Facts</li></ul></li><li>Click a person card to center it, and click it again to open the Person window.</li><li>In the Person window, scroll down to Facts. These may include birth, marriage, death, and births and marriages of children.</li><br><p style=\"margin-left:70px;\"><i>Note</i> : If you imported information from a GEDCOM file, the Notes and other fields may appear as Facts, such as Biography, Ancestral File #, etc.</p></ol><p style=\"margin-left:70px;\"><i>Note</i> : If you imported information from a GEDCOM file, the Notes and other fields may appear as Facts, such as Biography, Ancestral File #, etc.</p>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "View profile information for a person.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: View details in the Profile, Info, and Events tabs for a person in your tree.</li><li>* Proficient: Same as Good, for at least four people in your tree. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/tree-profile.JPG"
+                    ],
+                    "text": "<ol><img src=\"img/mh/tree-profile.JPG\" width=\"450px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>Click <b>Profile</b> in a Person window. (If there is no Person window open, click the person's card in the tree to open it.)</li><li>Above the person's name, your relationship to the person is outlined. You can click a name in the relationship chain to see the profile for that person.</li><li>The <b>Info tab</b> has record matches, photos, immediate family (parents, siblings, and children), and more. To learn more about the Info tab, see Choice C below.</li><li>Click the <b>Events</b> tab to see a list of chronological events in the person's life, as well as a \"Trail\" (Google map) section that shows where some of the events took place. To learn more, see Choice D below.</li><li>To add a photo to a person's card or profile, <br>a) Click the camera icon in the person card, <br>b) Drag a photo into the window, or click <b>Select File</b> and navigate to the file you want to use; and <br>c) Click <b>OK</b>.</li><li>To adjust the photo you added to a person's card, <br>a) Drag the slider bar to set the zoom; <br>b) Drag the photo itself to move its position; and <br>c) Click <b>OK</b>. You can also click <b>Clear  profile photo</b> and then click <b>OK</b>.</li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "To learn more about profile photos, watch this video.",
+                                "links": [
+                                    {
+                                        "link": "https://education.myheritage.com/howto/how-to-add-and-change-a-profile-photo/",
+                                        "text": "MH—How to Add and Change a Profile Photo—1:28",
+                                        "type": "video"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "See more information for a person in the Info tab.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>See birth and death locations on a Google map.</li><li>Get an introduction to PedigreeView.</li><li>See summary information for records.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: For a person in your tree, <br>a) see birth or death information in Google Maps; <br>b) see the PedigreeView location for a person's information; and <br>c) view a record summary.</li><li>* Proficient: Same as Good, for three people in your tree. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/tree-info1.JPG",
+                        "https://www.thefhguide.com/img/mh/tree-info-record.JPG"
+                    ],
+                    "text": "<ol><img src=\"img/mh/tree-info1.JPG\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"><li>In a Profile page for a person, click the <b>Info</b> tab. Birth and death information, if available, is displayed at the top of the screen. Below the photo youcan see the number of times the profile has been viewed.</li><br><br><li>To see the birth or death location with PedigreeMap, click <b>View in Pedigree Map</b> (left side), or click a location link in the birth and death section. For more details about PedigreeMap, see <a class=\"lk\" href=\"project-2-family-tree-mh06.html\" target=\"_blank\">Goal 6</a> in this Project.</li><img src=\"img/mh/tree-info-record.JPG\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-bottom: 16px; max-width:400px; margin-top:16px; border:1px solid #000; padding:0px;\"><li>In the Records section, hover over a record to see a summary of its information. A confidence rating shows how likely the record would match your person, according to MyHeritage.</li><li>If you want to handle the record match, click <b>Confirm</b> to accept the record source, or <b>Reject</b> to clear it. You can do record matches for any of the matches that appear in the Records section. For help with extracting record match information, type and select \"Can I extract information from matches?\" in the <a class=\"lk\" href=\"https://www.myheritage.com/help-center\" target=\"_blank\">MyHeritage Help Center</a>. To learn more about Record Matches, see <a class=\"lk\" href=\"project-2-family-tree-mh10.html\" target=\"_blank\">Goal 10</a> in this Project.</li><br><br><br><li>The \"Immediate family\" section of the Info page shows spouse, children, parents, and siblings. To see the profile for one of these people, click the person's name.</li><li>To add a memory for the person, type it in the \"Share your memories\" window (bottom of the screen) and click <b>Add comment</b>.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "See events for a person.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Review the events in two ancestors' lives.</li><li>* Proficient: Same as Good, for four ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/tree-events-tab.png"
+                    ],
+                    "text": "<ol><img src=\"img/mh/tree-events-tab.png\" width=\"450px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>In the Profile page, click the <b>Events</b> tab to show events in the person's life. These events come from the \"All facts\" page. A green star icon indicates a birth; a blue ring icon indicates a marriage; and a gray headstone indicates a death.</li><li>You can use the \"Trail\" (Google map) area to see the present -day versions of where some of the events took place. You can drag to move the view, or click the plus or minus buttons to zoom in or out, or enlarge the map.</li><br><li>You can also add, change, or remove events in the screen. For details, see <a class=\"lk\" href=\"project-2-family-tree-mh03.html\">Choice E</a> in Goal 3.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "View a timeline for your tree.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Proficient: View your timeline, scroll to the earliest and latest events available, and use all six time increments.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>In the Family tree menu, click <b>Timeline</b>. Names and facts from your family tree are displayed on the timeline. Consistency issues, if any, are displayed as red dots on the timeline; tombstone markers highlight the death dates; and small numbers above or below each name bar show the age of the parent when the child in the timeline was born.</li><li>To change the number of generations for ancestors shown in the timeline, click <b>Generations</b> (upper right) and select a number.</li><li>To change the display settings for the timeline, click the Options wheel (upper right) and make your selections.</li><li>To change the starting person for the timeline, click the name box (upper left), type a name, and select it from the list.</li><li>To download the current timeline view as a PDF file, click the <b>Download</b> icon (upper right).</li><li>To share the timeline with others, click the <b>Share</b> icon and then select <b>Facebook</b>, <b>Twitter</b>, or <b>What'sApp</b> and follow the steps. You can also click <b>Copy link</b> so you can share via email or other social media.</li><li>To view information for a person in the timeline, click the three-dot icon in the name bar and select an action from the list.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Edit Information",
+        "name": "Edit Person Information",
+        "section_name": "Edit person information in your MyHeritage tree.",
+        "summary": "<p>Editing facts and profile information is essential to keeping your tree up to date. You can do a Quick Edit or a Profile Edit, or you can edit facts in a Person window.</p>",
+        "choices": [
+            {
+                "name": "Do a Quick Edit of a person's information.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Do a Quick Edit for an ancestor in your tree. </li><li>* Proficient: Do a Quick Edit for at least three people in your tree. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/tree-quick-edit.JPG"
+                    ],
+                    "text": "<ol><img src=\"img/mh/tree-quick-edit.JPG\" width=\"300px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>In the Person window, click the <b>Edit</b> (pencil) icon; or click the pencil icon at the bottom of the person's card in the tree view.</li><li>Change or add information for any of the fields in the window. These include birth, marriage, death, and spouse information. If you imported information via a GEDCOM, the location fields will have drop-down lists from that GEDCOM to choose from.</li><li>Click <b>OK</b> to save your changes.</li><li>You can also edit an entire Profile by clicking the \"Edit more\" link at the bottom of the window. See Choice B below for details.</li> </ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "This article explains how to edit a person's details in your tree.",
+                                "links": [
+                                    {
+                                        "link": "https://faq.myheritage.com/en/article/how-do-i-edit-someones-details-in-my-online-family-tree",
+                                        "text": "MH—Edit Someone's Details in My Online Tree",
+                                        "type": "document"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Learn about editing your tree in Pedigree view.",
+                                "links": [
+                                    {
+                                        "link": "https://education.myheritage.com/article/editing-a-tree-in-pedigree-view/",
+                                        "text": "MH—Editing a Tree in Pedigree View",
+                                        "type": "document"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Edit an ancestor's profile.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Add or change information in basic fields.</li><li>Edit ancestor information in the Essentials screen.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Proficient: Update the Profiles for at least three people in your tree. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/profile.JPG",
+                        "https://www.thefhguide.com/img/mh/edit-profile.JPG"
+                    ],
+                    "text": "<ol><img src=\"img/mh/profile.JPG\" width=\"300px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>Open a Person window and click <b>Profile</b>. <br><i>Note </i>: For information on adding photos, biography, or web content, see <a class=\"lk\" href=\"project-3-memories-mh.html\">Project 3: Documents and Photos</a>. </li><img src=\"img/mh/edit-profile.JPG\" width=\"170px\" style=\"float:right; margin-left:16px; margin-top:16px; border:1px solid #000; padding:0px;\"><li>In the upper-left part of the screen, click <b>Edit profile</b>. This opens the \"Essentials\" screen, where you can update basic information about the person.</li><li>Click any of the links at the left of the screen to edit other types of information. These links include:<ul style=\"margin-left:-88px;\"><li>Family</li><li>Biography</li><li>Contact info</li><li>Work</li><li>Education</li><li>Favorites</li><li>Personal info</li><li>Source citations</li><li>All facts</li></ul></li><li>To save changes on any of these edit screens, including the main Essentials screen, click <b>Save and Continue</b>.</li><li>To save changes and return to the person's Profile page, click <b>Save and Close</b>.</li><li>In the main profile you can also scroll down to \"Education\" and add or change information in any of the fields at or below that point.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Edit or delete Facts in the Person window.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Proficient: Edit Facts for at an ancestor in your tree. </li><li>* Proficient: Edit Facts for at least three people in your tree. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/person-facts.JPG"
+                    ],
+                    "text": "<ol><li>In an open Person window, scroll down to the <b>Facts</b> section.</li><img src=\"img/mh/person-facts.JPG\" width=\"300px\" style=\"float:right; margin-left:16px; margin-top:16px; border:1px solid #000; padding:0px;\"><li>To edit an existing fact, click the pencil icon that appears when you hover over one of the Facts. In the edit window that appears, update the information and click <b>OK</b> to save the changes. </li><li>To delete a Fact, click its Pencil icon and then click the trash icon. Click <b>OK</b> to confirm the deletion.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Add Facts in the Person window.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Proficient: Add Facts for at least three people in your tree. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/add-new-fact.JPG"
+                    ],
+                    "text": "<ol><li>In an open Person window, scroll down to the Facts section.</li><li>Click <b>Add Fact</b> (top of the Fact section).</li><img src=\"img/mh/add-new-fact.JPG\" width=\"350px\" style=\"float:right; margin-left:16px; margin-top:16px; border:1px solid #000; padding:0px;\"><li>Select a fact category (left column).</li><li>Select a fact type (right column).<br><br><i>Note</i> : Instead of the preceding two steps, you can select a Fact type from the list at the bottom of the window.</li><li>Click <b>OK</b>.</li><li>In the data entry window that appears, fill in the fields and click <b>OK</b>. For places, use the drop-down list whenever possible.</li><li>To delete a Fact, click its pencil icon and then click the trash icon. </li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Add, edit, or delete events in the Events tab.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/events-tab.png"
+                    ],
+                    "text": "<ol><img src=\"img/mh/events-tab.png\" width=\"350px\" style=\"float:right; margin-left:16px; margin-top:16px; border:1px solid #000; padding:0px;\"><li>Open an ancestor's Profile and click the <b>Events</b> tab.</li><li>To add an event, <br>a) Click <b>Add Event</b>and follow the instructions for adding a fact (see Choice D above).</li><li>To edit an event, <br>a) Hover over the event in the timeline list; <br>b) Click the pencil icon; <br>c) Fill in the fields on the screen; and <br>d) Click <b>Save and close</b>.</li><li>To delete an event, <br>a) Hover over the event in the timeline list; <br>b) Click the trashcan icon; and <br>c) Click <b>Yes</b>.</li><li>On the right side, you can also see a Google map for the present-day version of the birthplace of the ancestor. Click the link in the upper left of the map to see an enlargement.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Add People to Tree",
+        "name": "Add People to Your Tree",
+        "section_name": "Add, connect, or remove people in your MyHeritage tree.",
+        "summary": "<p>As you add people to your tree, make sure you fill in essential information and connect them in the tree correctly. </p>",
+        "choices": [
+            {
+                "name": "Add ancestors to your tree.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Add an ancestor to your tree and fill in personal details. </li><li>* Proficient: Same as Good, for three or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/profile-add.JPG",
+                        "https://www.thefhguide.com/img/mh/add-person.JPG"
+                    ],
+                    "text": "<ol><img src=\"img/mh/profile-add.JPG\" width=\"300px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>In the Person window, scroll down to the <b>Immediate Family</b> section and click <b>Add</b>. (In Family View you can also click the plus sign at the bottom of a person's card in the tree.)</li><br><img src=\"img/mh/add-person.JPG\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-bottom: 16px; max-width:400px; margin-top:16px; border:1px solid #000; padding:0px;\"><li>In the \"branch\" window that appears, click a new card to add a brother, sister, son, daughter, or other partner.</li><li>In the \"Add\" window that follows, fill in the details. For places, use the drop-down list when possible. (You can add more details by clicking the \"Edit more\" link at the bottom of the window, but be aware that this action saves the changes to the new person, even if you click <b>Cancel</b> in the new person's \"Edit more\" screen.)</li><li>Click <b>OK</b> to complete the addition. Siblings are arranged according to the birth dates supplied, or by when they were added if no dates are entered.</li></ol><h5>Pedigree View</h5><ol><li>In Pedigree View, scroll to the right (or extend a branch) until you see an \"Add Father\" or \"Add Mother\" box.</li><li>Fill in the fields as needed and click <b>OK</b>. Or, you can click the \"Edit More\" link, fill in the fields, and click <b>Save &amp; Continue</b> or <b>Save &amp; close</b>. </li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "This article explains how to add family members to your online tree.",
+                                "links": [
+                                    {
+                                        "link": "https://faq.myheritage.com/en/article/how-do-i-add-family-members-to-my-online-tree",
+                                        "text": "MH—Add Family Members to My Tree",
+                                        "type": "document"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Connect ancestors in your tree.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Remove an incorrect connection or relationship.</li><li>Add a correct connection or relationship.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/more-connections.JPG"
+                    ],
+                    "text": "<p><i>Note</i> : When you add a relative for a person, MyHeritage automatically creates the correct relationship in your tree. If you need to change a relationship or connection, or if there is a person in your tree who is not connected, you can use the steps in this Choice to resolve the situation.</p><ol><li>Open the Person window for the person whose connection needs to be changed.</li><img src=\"img/mh/more-connections.JPG\" width=\"170px\" style=\"float:right; margin-left:16px; margin-top:16px; border:1px solid #000; padding:0px;\"><li>In the Person window, click <b>More</b>.</li><li>To remove a connection or relationship, select <b>Remove Connection</b>. Then in the \"Remove a Connection\" window, select the type of connection to remove and click <b>OK</b>.</li><li>To add a connection or relationship, click <b>More</b> and select <b>Connect to existing person</b>. Then in the \"Connect to existing person\" window, select the type of connection to add and click <b>OK</b>.</li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "The article and video explain how to connect or disconnect a person from a relationship in your tree.",
+                                "links": [
+                                    {
+                                        "link": "https://faq.myheritage.com/en/article/how-can-i-connectdisconnect-existing-people-in-my-online-family-tree",
+                                        "text": "MH—How can I connect or disconnect existing people in my tree?",
+                                        "type": "document"
+                                    },
+                                    {
+                                        "link": "https://education.myheritage.com/howto/how-to-connect-and-disconnect-individuals-in-your-family-tree/",
+                                        "text": "MH—How to Connect and Disconnect Individuals in Your Family Tree—1:48",
+                                        "type": "video"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "If you need to add adopted children in your tree, follow the steps in this article.",
+                                "links": [
+                                    {
+                                        "link": "https://faq.myheritage.com/en/article/how-can-i-add-adopted-children-in-my-online-family-tree",
+                                        "text": "MH—How can I add adopted children in my online family tree?",
+                                        "type": "document"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Remove a person from your tree.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>In the Person window, click <b>More</b>.</li><li>Click <b>Delete this person</b>.</li><li>In the Notice window, click <b>Yes</b> to remove the person from the tree.</li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "This article also explains how to delete a person from your tree.",
+                                "links": [
+                                    {
+                                        "link": "https://faq.myheritage.com/en/article/how-do-i-delete-a-person-from-my-online-family-tree",
+                                        "text": "MH—Delete a Person from My Online Tree",
+                                        "type": "document"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "View People Lists & Relationships",
+        "name": "View People Lists & Relationships",
+        "section_name": "View people lists and run relationship reports.",
+        "summary": "<p>People lists and relationship reports help you quickly find people an see their information and relationships. This is especially helpful as your tree grows in size.</p>",
+        "choices": [
+            {
+                "name": "Use the List feature to display a list of people in your tree.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Display lists of people in your tree.</li><li>Sort lists of people.</li><li>Control what names are displayed in a list.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Open the People list and review Name, Birth, Death, and Actions for at least three people. </li><li>* Proficient: Same as Good; also sort the People list and view people on additional screens. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/list.png",
+                        "https://www.thefhguide.com/img/mh/people-header.png"
+                    ],
+                    "text": "<ol><img src=\"img/mh/list.png\" width=\"250px\" style=\"float:right; margin-left:16px; margin-top:8px; border:1px solid #000; padding:0px;\"><li>In the upper right of the Family Tree screen, below the main menu tab, click the <b>List View</b> icon. A list of ancestors in your MyHeritage tree is displayed.</li><img src=\"img/mh/people-header.png\" width=\"750px\" style=\"float:left; margin-left:16px; margin-top:16px; border:1px solid #000; padding:0px;\"><br><br><br><br><br><br><br><br><br><li>The default List view has basic information in these columns:<ul style=\"margin-left:-88px;\"><li><i>Name</i>—Shows the person's name.</li> <li><i>Birth</i>—Shows the person's birthdate and birthplace, if available. </li> <li><i>Death</i>—Shows the person's date and place of death, if available. </li> <li><i>Discoveries</i>—Click the Discoveries icon to display record matches for this person. For more information on Discoveries, see <a class=\"lk\" href=\"project-2-family-tree-mh10.html\" target=\"_blank\">Goal 10</a>.</li> </ul></li><li>To sort the People list, click one of the \"Sort by\" options: Relationship (default;) Last name; First name; Birth date; Birth place; Death date; Death place; or Last added.</li><li>To navigate the list, <br>a) Click <b>Results per page</b> (lower right) and enter a number; or <br>b) Select or enter a page number (lower left).</li><li>To filter the list, <br>a) Click <b>Filter</b>; <br>b) Click a letter if you want to narrow the list to only surnames that begin with that particular letter; <br>c) Click \"Other\" to show only surnames that begin with a special character; or <br>d) Click \"Unknown\" to show people without recorded surnames.</li><li>To set other viewing options, click the <b>Settings</b> wheel (upper right). Here you can set options for List display and Names. You can also export the name list to a spreadsheet by clicking <b>Export</b> (bottom of the panel).</li><li>To do a quick edit for a person in the list, hover over the person's name and click the pencil icon (right side).</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Use the Search feature to quickly find names in the List view.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Do basic searches for people in your tree.</li><li>Learn how to search within search results.</li><li>Use the \"AND\" and \"OR\" search options.</li><li>Use the Advanced search options.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Proficient: Do successful searches for at least three people in your tree, searching full name, first name, and last name. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/search.png"
+                    ],
+                    "text": "<ol><li>To search for a person, type a name in the <b>Find a person</b> box and click the magnifying glass. The results are shown on the current page (and additional pages if necessary), with the total number of search results displayed. </li><img src=\"img/mh/search.png\" width=\"700px\" style=\"float:left; margin-left:16px; margin-top:16px; border:1px solid #000; padding:0px;\"><br><br><br><br><br><br><br><br><br><li>Click the down arrow to use the search keyword as full name, first name, or last name.</li><li>To reset the search, click \"Clear search\".</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Run Relationship Reports.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/relationship-report.JPG",
+                        "https://www.thefhguide.com/img/mh/relationship-report1.JPG"
+                    ],
+                    "text": "<ol><li>From the Family Tree menu, click <b>More</b> and select <b>Relationship report</b>.</li><img src=\"img/mh/relationship-report.JPG\" width=\"350px\" style=\"float:right; margin-left:16px; margin-top:16px; border:1px solid #000; padding:0px;\"><li>Type a name in the <b>Person 1</b> field. If possible, select a name from the drop-down list that appears. (You can also click \"Back to me\" to select yourself as the source individual.)</li><li>Type a name in the <b>Target individual</b> field. If possible, select a name from the drop-down list that appears.</li><li>In the <b>Details</b> drop-down menu, select Basic or Full (additional details included). A picture chart is displayed between the source and target individual you chose, as well as a summary of relationships at the bottom of the page. </li><img src=\"img/mh/relationship-report1.JPG\" width=\"170px\" style=\"float:right; margin-left:16px; margin-top:16px; border:1px solid #000; padding:0px;\"><br><br><i>Note</i> : If MyHeritage cannot determine the relationship, a message is displayed to indicate that.<li>In any person box in the report, you can click the three-dot icon to display the tree or Profile page for the selected person, or show research hints for the person.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Use PedigreeMap",
+        "name": "PedigreeMap",
+        "section_name": "Use PedigreeMap™ to view important locations in your peoples' lives.",
+        "summary": "<p>PedigreeMap is a powerful tool that helps you see locations and events for people in your tree, all in one convenient view. It features a Places list, a Google map, and an Events list.</p>",
+        "choices": [
+            {
+                "name": "Work with places in PedigreeMap.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Run PedigreeMap and open a country for ancestor locations.</li><li>Sort places in the list.</li><li>Search for ancestor locations in PedigreeMap.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: In PedigreeMap, open a Places list for two different countries.  </li><li>* Proficient: Same as Good; also sort one of the lists two different ways, and search for two different locations. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/pedigree-locations.JPG",
+                        "https://www.thefhguide.com/img/mh/pedigree-norway.JPG",
+                        "https://www.thefhguide.com/img/mh/pedigree-norderhov.JPG",
+                        "https://www.thefhguide.com/img/mh/find-place.JPG"
+                    ],
+                    "text": "<ol><img src=\"img/mh/pedigree-locations.JPG\" width=\"600px\" style=\"float:right; margin-left:16px; margin-top:8px; border:1px solid #000; padding:0px;\"><li>In a person's Profile, on the left side, click <b>View in PedigreeMap</b> (or, you can click <b>More</b> in the Family Tree menu and select <b>Pedigree Map</b>). A list populates in the left panel of the screen, with the number of ancestor events in your tree for each country indicated. A world map is displayed on the right. (If you have a large tree, the first load may take a while.) A green bar indicates the progress of loading the locations onto the map. There is a limit of 2,000 locations displayed.</li><img src=\"img/mh/pedigree-norway.JPG\" width=\"600px\" style=\"float:right; margin-left:16px; margin-top:16px; border:1px solid #000; padding:0px;\"><li>Click a country in the left panel to open a list of ancestor locations in that country.</li><br><br><br><img src=\"img/mh/pedigree-norderhov.JPG\" width=\"600px\" style=\"float:right; margin-left:16px; margin-top:16px; border:1px solid #000; padding:0px;\"><li>Click a location in the left panel (orange circle) to display it in the map in the center panel, and show ancestor events for the location in the right panel. An alert icon next to a place name indicates there are multiple locations for the same place name; you can select the one you want in the right panel. (Unknown countries and places not found on the map, if any, are included at the bottom of the list.)</li><li>To learn more about a location in the right panel, click the Info icon next to its name. (Click the resulting arrow to restore the panel.)</li><li>If you want to hide the left or right panel to allow more room for viewing the map, click the X at the top of either panel. (Click the resulting arrow to restore the panel.)</li><img src=\"img/mh/find-place.JPG\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-bottom: 16px; max-width:400px; margin-top:16px; border:1px solid #000; padding:0px;\"><li>To sort and group the Places list, click the arrows next to the \"Find a place\" box. The following combinations can be used:<ul style=\"margin-left:-88px;\"><li>Sort by Count, Group by Countries—(Default) Lists countries by their numbers of ancestor events, in descending order. Locations are grouped within each country.</li><li>Sort by Count, Group by Flat List—Locations are placed in a single list (not grouped by country), sorted by count from high to low.</li><li>Sort by Name, Group by Countries—Lists countries by their names, in alphabetical order. Locations are grouped within each country. </li><li>Sort by Name, Group by Flat List—Locations are placed in a single list (not grouped by country), sorted alphabetically by location name.</li></ul></li><li>To search for a location, click the \"Find a place\" box, type the name of the location, and click the entry that appears in the left panel. To clear the search results and return to the full list of locations, click the X in the \"Find a place\" box.</li><li>To change starting person for PedigreeMap, click the name in the menu bar and type or select and entry in the drop-down menu.</li><li>To change the people included in PedigreeMap, click <b>Extended Family</b> in the top menu and select <b>Immediate Family</b> or <b>Ancestors</b> or <b>Descendants</b> or <b>Solo</b> (just the Profile individual). To learn about the selection criteria, hover over the menu entry.</li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "Learn more about PedigreeMap in this video.",
+                                "links": [
+                                    {
+                                        "link": "https://www.youtube.com/watch?v=KkQBv24bLNw",
+                                        "text": "RT—Sharing Information between FamilySearch and Ancestry—12:16",
+                                        "type": "video"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Work with the world map and geographic locations.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Access the Google map for ancestor locations.</li><li>Use zoom and satellite view.</li><li>Use the Heatmap and world globe views.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: On the world map, identify locations marked by two different orange circles, and note their reference counts. Also zoom in and out, and switch to Satellite view. </li><li>* Proficient: Same as Good; also view the Heatmap for both locations. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/pedigree-controls.JPG",
+                        "https://www.thefhguide.com/img/mh/heatmap.JPG"
+                    ],
+                    "text": "<ol><p><i>Note</i> : Numbers displayed on the Google map indicate modern-day roads and highways.</p><li>If you want to hide the left or right panel to allow more room for viewing the map, click the X at the top of either panel. (Click the resulting arrow to restore the panel.)</li><li>To change the view, click and drag the map in any direction.</li><li>You can hover over an orange circle in the map to identify its location name and reference count.</li><img src=\"img/mh/pedigree-controls.JPG\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-bottom: 16px; max-width:400px; margin-top:16px; border:1px solid #000; padding:0px;\"><li>To zoom in on the view, click the plus icon at the bottom of the map. To zoom out, click the minus icon. To view the map in full-screen mode, click the broken-box icon.</li><li>To switch to Satellite view, click <b>Satellite</b> at the bottom of the map.</li><br><img src=\"img/mh/heatmap.JPG\" width=\"300px\" style=\"float:right; margin-left:16px; margin-top:16px; border:1px solid #000; padding:0px;\"><li>To see where people's events are concentrated, click <b>Heatmap</b> (lower right). Areas are color-coded from light to heavy, using green, yellow, orange, and red rings. </li><li>To view the world map, click the globe icon at the bottom of the map. To return to the previous location view, click the location name at the top of the right panel. </li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Work with events.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/pedigree-event.JPG"
+                    ],
+                    "text": "<ol><img src=\"img/mh/pedigree-event.JPG\" width=\"500px\" style=\"float:right; margin-left:16px; margin-top:16px; border:1px solid #000; padding:0px;\"><li>In the left pane of the PedigreeMap, click a location. This displays a window on the right side for viewing or editing event details.</li><li>Click an event in the list to view its details.</li><li>To edit information for the event, click the calendar icon. This opens the <b>Essentials</b> screen where you can make a variety of edits.</li><li>To edit the place for an event, <br>a) Click the pencil icon next to the place name; <br>b) Choose a place from the drop-down list or type your own place; and <br>c) Click <b>Save</b>.</li><li>To see additional information for the person in an event, <br>a) Click the event (right side); <br>b) Hover over the person's name in the pop-up window; and <br>c) Click the down-arrow that appears. You can then view the profile, tree, or your relationship to the person, as well as show the location of the event on the map.</li><li>If multiple versions of a place name exist (upper right), <br>a) Click the checkmark icon next to the one you prefer; <br>b) If you want to use the preferred location for all references in your tree, check the corresponding box in the dialog; and <br>c) Click <b>OK</b>.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Use PedigreeMap options.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Do PedigreeMap views of two different people in your tree. </li><li>* Proficient: Same as Good; also include two different sets of people to view. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/pedigree-options.JPG"
+                    ],
+                    "text": "<ol><p>The PedigreeMap menu bar enables you to select different people on which to base the resulting views. It also displays the number of places and references (events) in the current view.</p> <img src=\"img/mh/pedigree-options.JPG\" width=\"550px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>To base the view on a different person, <br>a) Click the name that appears to the right of \"PedigreeMap\"; and <br>b) Type the new name and select it from the drop-down list.</li><li>To include a different set of people in the view, click <b>Extended family</b> in the dropdown menu. You can choose from Extended family, Immediate family, Ancestors, Descendants, or Solo. Hover over each option to see its description.</li><li>To enlarge the map area, click the \"Full screen\" icon at the right edge of the menu bar. (Click it again to return to normal view.)</li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "To learn more about using PedigreeMap, watch the video.",
+                                "links": [
+                                    {
+                                        "link": "https://youtu.be/x8jqqrIEYyo?t=520",
+                                        "text": "MH—PedigreeMap",
+                                        "type": "document"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Use filters to restrict the individuals included.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Proficient: Change the number of generations viewed in PedigreeMap; then eliminate a type of event from view and change the event date range. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/pedigree-filter.JPG",
+                        "https://www.thefhguide.com/img/mh/pedigree-filter-bar.JPG"
+                    ],
+                    "text": "<ol><img src=\"img/mh/pedigree-filter.JPG\" width=\"80px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>Click the \"Show filters\" icon near the right edge of the menu bar.</li><br><li>Move the slider bar to set the number of generations to include, based on the person shown in the menu bar. The left side of slider shows the maximum number of descendant generations, and the right side shows the maximum number of ancestor generations (10, if available).</li><img src=\"img/mh/pedigree-filter-bar.JPG\" width=\"700px\" style=\"float:left; margin-left:16px; margin-top:16px; border:1px solid #000; padding:0px;\"><br><br><li>To eliminate an event type (Birth, Death, Photo, or Other), clear its checkbox in the center area of the menu bar.</li><li>To adjust the date range for events, move the buttons in the date slider bar.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Print Charts and Books",
+        "name": "Charts and Books",
+        "section_name": "Print charts and books.",
+        "summary": "<p>You can create pedigree charts and books from your family tree, with custom designs that you make. You can print the results or send them to MyHeritage for professional printing.</p>",
+        "choices": [
+            {
+                "name": "Print a variety of charts based on your family tree.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Select chart styles and types.</li><li>Customize charts as needed.</li><li>Generate and print charts.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Create a chart with at least two customization options and print it to PDF or paper. </li><li>* Proficient: Same as Good, with two charts and two other customization options. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/chart-types.JPG",
+                        "https://www.thefhguide.com/img/mh/chart-styles.JPG",
+                        "https://www.thefhguide.com/img/mh/chart-customization.JPG"
+                    ],
+                    "text": "<ol><li>In the <b>Family tree</b> menu, select <b>Print charts &amp; books</b>.</li><img src=\"img/mh/chart-types.JPG\" width=\"650px\" style=\"float:left; margin-top:16px; border:1px solid #000; padding:0px;\"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><li>Select the type of chart you want to print. Most options have a Vertical or Horizontal layout you can choose from. An example of the chart is shown in the center, and a description at the right of the screen. (Advanced customizations are diuscussed in Choice C below.)</li><img src=\"img/mh/chart-styles.JPG\" width=\"500px\" style=\"float:left; margin-right:16px; margin-top:16px; border:1px solid #000; padding:0px;\"><br><br><br><br><br><br><br><br><br><br><li>Select the chart style. To see other choices, click the right arrow at the end of the list, or the left arrow at the beginning of the list.<br><br><i>Note</i> : The chart style changes the background and border but does not affect the chart type or layout.</li><img src=\"img/mh/chart-customization.JPG\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-bottom: 16px; max-width:400px; margin-top:16px; border:1px solid #000; padding:0px;\"><li>If desired, set any of these customization options:<ul style=\"margin-left:-88px;\"><li>Main person—Type a name for the main (starting) person on the chart and select it from the drop-down list. <i>Note</i>: This field is required.</li><li>Title—Type a title for the main person.</li><li>Facts for individuals—From the drop-down menu, choose the level of detail to include for each person in the chart. If you choose \"Custom\", you can select criteria from the Advanced Customization Options screen (see Choice C below).</li><li>Generations—Show all generations of your tree in the chart, or choose a number of generations.</li><li>Printing method—Select \"single page\" to produce a large poster, or multiple pages. With multiple pages, you can select the page size and choose whether boxes on the chart cross page boundaries.</li></ul></li><li>Click <b>Generate Chart</b> to print the chart as a PDF file. (You can then print the PDF file to paper.) The \"My charts\" screen appears, with a list of all charts you have previously created. When the chart is finished, you will receive a notification in the email account you registered with MyHeritage. You can click the Refresh link (next to \"Previously created charts and books\") to update the printing status.</li><li>To clear the chart settings you have chosen so you can start over with a new chart, click the \"Restore default settings\" link (lower right).</li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "Learn more about creating charts in these articles.",
+                                "links": [
+                                    {
+                                        "link": "https://faq.myheritage.com/en/article/how-do-i-create-a-chart-of-my-family-tree-on-my-online-family-site",
+                                        "text": "MH—Create a Chart of My Family Tree",
+                                        "type": "document"
+                                    },
+                                    {
+                                        "link": "https://www.myheritage.com/help-center/en/article/how-can-i-create-a-family-book-on-my-site",
+                                        "text": "MH—How can I create a Family Book on my site?",
+                                        "type": "document"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Learn how to change the title of a family chart you are making.",
+                                "links": [
+                                    {
+                                        "link": "https://faq.myheritage.com/en/article/how-can-i-change-the-title-of-the-family-chart-that-i-am-making",
+                                        "text": "MH—Change the Title of a Family Chart",
+                                        "type": "document"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Learn how to print your entire tree on one online page in this article.",
+                                "links": [
+                                    {
+                                        "link": "https://faq.myheritage.com/en/article/how-do-i-print-my-entire-family-tree-on-one-page-online",
+                                        "text": "MH—Printing My Entire Family Tree on One Page",
+                                        "type": "document"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "View, print, order, or delete previously created charts.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/chart-menu.JPG",
+                        "https://www.thefhguide.com/img/mh/view-charts.JPG"
+                    ],
+                    "text": "<ol><img src=\"img/mh/chart-menu.JPG\" width=\"300px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>At the top of the Charts and Books screen, click <b>My charts</b>.</li><br><img src=\"img/mh/view-charts.JPG\" width=\"300px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>To view a chart you have created click its title or \"View PDF\". When the PDF file appears, you can print or save it.</li><li>To delete a chart, click <b>Delete</b> and then click <b>Yes</b> in the confirmation window.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Print charts using advanced customization.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Print a chart to PDF, using at least three customization options. </li><li>* Proficient: Same as Good, with six or more customization options. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/chart-elements.JPG",
+                        "https://www.thefhguide.com/img/mh/chart-lines.JPG"
+                    ],
+                    "text": "<ol><li>Near the top of the initial <b>Charts &amp; books</b> screen, click <b>Advanced customization options</b>. You can then set any of the options in the following steps.</li><li><i>Individuals</i> : Set the display for children in a bowtie chart. For Hourglass, you can also choose to add the ancestors of the target spouse(s).</li><li><i>Facts for individuals (not custom)</i> : Select one of the options for birth and death facts.</li><li><i>Photos</i> : Select options for personal photos and photo size.</li><li><i>Design</i> : <ul style=\"margin-left:-105px; list-style:none\"><li>a) Select the design for boxes in the chart.</li> <li>b) To select a photo frame, click the arrow at the right of the example and choose a shape from the list.</li> </ul></li><li><i>Title decoration</i>: To select a title decoration (for \"My Family Tree\") frame, click the arrow at the right of the example and choose a shape from the list.</li><img src=\"img/mh/chart-elements.JPG\" width=\"650px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li><i>Fonts</i> : Select any Chart element from the list (Title, Names, Fact Text, Footer) and set its font characteristics as follows:<ul style=\"margin-left:-105px; list-style:none\"><li>a) Select the font from the drop-down list. (A sample is shown at the right of the screen.)</li> <li>b) Select the font size.</li> <li>c) Select bold or italic if desired.</li> <li>d) To change the text color, click <b>Text color</b> and select a color from the color picker box.</li> </ul></li><li><i>Background</i> : Set the chart background characteristics as follows:<ul style=\"margin-left:-105px; list-style:none\"><li>a) Select the background color from the color picker.</li> <li>b) Select a background image: no image, full background image (click the arrow and select an image), tiled background image (click the arrow and select an image), or an image from a URL (type the path to the image to be used).</li> <li>c) Select an option for how the background image fits on the chart.</li> <li>d) Move the slider bar to set the transparency percentage for the background image.</li> </ul></li><li><i>Frame</i> : To select a frame for the chart, click the arrow at the right of the example and choose a frame from the list.</li><img src=\"img/mh/chart-lines.JPG\" width=\"500px\" style=\"float:right; margin-left:16px; margin-top:16px; border:1px solid #000; padding:0px;\"><li><i>Lines</i> : Set line characteristics as follows:<ul style=\"margin-left:-105px; list-style:none\"><li>a) For lines between boxes, set the line color, choose a line width (from 1 to 5, with 5 being thickest), and choose the line type (straight or diagonal).</li> <li>b) For lines between spouses, set the line color and choose a line width (from 1 to 5, with 5 being thickest).</li> <li>c) Set line options for adopted and foster relationships, as well as former spouse relationships.</li> </ul></li><li>Click <b>Generate chart</b> to produce a PDF of the chart. For more details, see Choice A above.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Create a book from your tree.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>In the Family tree menu, click <b>Print charts &amp; books</b>.</li><li>Select \"Family book\" as the chart type (step 1 on the screen).</li><li>Type or select the name of the main person for the book.</li><li>Select the options you want to include in the family book content.</li><li>Set the paper size in the drop-down menu.</li><li>Click <b>Generate book</b>.</li><li>See Choice A above, after \"Generate chart\", for the basic steps to follow next.<p></p></li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Add Sources",
+        "name": "Add Sources",
+        "section_name": "Add and view sources for ancestor records.",
+        "summary": "<p>Adding sources to a person's page helps show the evidence for the dates and other information that have been added.</p>",
+        "choices": [
+            {
+                "name": "Add sources and citations to a record.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Add a source citation in an ancestor's profile.</li><li>Add URL, confidence-level, and date information for the source.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Add one or more sources for at least two ancestors. Add URLs if applicable.</li><li>* Proficient: Same as Good; also also add a citation, confidence level, and date for each source. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/add-source.JPG",
+                        "https://www.thefhguide.com/img/mh/add-source1.png"
+                    ],
+                    "text": "<ol><li>Open a Person window for someone in your tree.</li><li>Click <b>Profile</b>.</li><li>Click <b>Edit profile</b> (below the photo).</li><img src=\"img/mh/add-source.JPG\" width=\"200px\" style=\"float:right; margin-left:16px; margin-top:16px; border:1px solid #000; padding:0px;\"><li>Click <b>All facts</b> (bottom left). The facts for the person are listed on the screen.</li><li>Click \"Add a source citation\" for any fact that needs a source.</li><br><br><img src=\"img/mh/add-source1.png\" width=\"550px\" style=\"float:right; margin-left:16px; margin-top:16px; border:1px solid #000; padding:0px;\"><li>If there is an existing source you want to use, click \"Select source\" and select it from the drop-down list. Otherwise,</li><li>To add a new source, <br>a) Click \"Add new source\"; <br>b) In the <b>Add New Source</b> window, fill in the Source Title (required) and any other fields as desired; <br>c) If you want to add a photo, audio file, or document to the source, click the link at the bottom and follow the prompts; and <br>d) Click <b>OK</b>.</li><li>In the edit window, add citation text. If applicable, add a URL for the citation.</li><li>In the <b>Confidence</b> drop-down window, select the degree of confidence you have in the accuracy and relevance of the source.</li><li>In the <b>Date</b> category, click the \"Exactly\" link to choose a condition or range for the date (\"before\", \"after\", etc.). Some values will require a range of dates to be entered. If you select \"Free text\" you can type a description of the time period.</li><li>If desired, click \"Add a photo\" and follow the upload instructions.</li><li>Click <b>Save and close</b> to save the source.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "View your recorded sources and citations.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>View existing sources.</li><li>Edit details for a source.</li><li>Delete sources.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Proficient: View a list of all sources for your tree; then edit at least two of them to provide additional information. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/source-list.JPG",
+                        "https://www.thefhguide.com/img/mh/edit-source.JPG"
+                    ],
+                    "text": "<ol><img src=\"img/mh/source-list.JPG\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"><li>In the <b>Family tree</b> menu, click <b>More</b> and then select <b>Sources</b>. Your sources are listed on the page, by title. </li><li>To list the sources by how many times they are attached as citations, click the \"Citations\" link. The sources are then listed from most citations to least.</li><li>If there are multiple pages of sources, click a page number link or a blue arrow to view a different page. To set the number of sources appearing on the page, click the \"Per page\" link and choose a value in the drop-down list.</li><li>To see the details for a source, click <b>View</b> (right edge) or click its title in the list. This opens areas for Details, Photos, and Citations.</li><img src=\"img/mh/edit-source.JPG\" width=\"250px\" style=\"float:right; margin-left:16px; margin-top:16px; border:1px solid #000; padding:0px;\"><li>To sort the source list by title, click \"Source title\" (next to \"Sort by:\"). </li><li>To add a new source, in the main list of sources (upper right) click <b>Add Source</b> (see Choice A above for details).</li><li>To edit details for a source, <br>a) Hover over the <b>Actions</b> column and click <b>Edit</b> ; <br>b) Fill in the Edit Source fields; and <br>c) Click <b>OK</b>. </li><li>To add photos, audio files, or documents to the source, see Choice D below.</li> <li>To add a new source, in the main list of sources click <b>Add Source</b> (see Choice A above for details).</li><li>To delete a source, <br>a) In the Actions column click <b>Delete</b>; and <br>c) Click <b>Yes</b> in the confirmation dialog. <b>Important:</b> Deleting a source also deletes all citations associated with it.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "View or delete source citations and information.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>To display a list of source citations, in the \"All sources\" window click the Citations link.</li><li>Click the book icon or title of the citation you want to view. A list is displayed that shows the records in your tree that cite the selected source.</li><li>To see more information about the person in the source citation, hover over the person's name. In the information box that appears, you can click links to go to the person in the tree view, or open the person's profile or photos. Marriage citations show links to both people.</li><li>Click a photo icon to open the person's Profile page.</li><li>To delete a source citation, <br>a) Click the X (far right of the person's name); and <br>b) In the Confirmation dialog, click <b>Yes</b> to remove the citation.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Add photos, audio files, or documents to a source.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Proficient: Add a photo, audio file, or document to at least two different sources. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/source-audio.JPG"
+                    ],
+                    "text": "<ol><li>In a list of sources (see Choice A above), click <b>Add Source</b> and then click \"Add photos, audios, or documents of source\" (bottom). </li><li>In the dialog that appears, click <b>Choose File</b>.</li><li>Navigate to the file to be added and click <b>Open</b>.</li><li>Click <b>Upload</b>. The file appears in the Photos section of the page (you may need to refresh the page). To add another source file, click \"Add photos, audios, or documents of source\", choose the file, and upload it.</li><li>To delete the file, click the small X (upper-right corner of the icon).</li><li>If this is a photo, you can click it and do any of the following:<ul style=\"margin-left:-105px; list-style:none\"><li>Click the <b>Download</b> button to download the photo.</li><li>Click the <b>Rotate</b> button to rotate the photo left or right by 90 degrees.</li><li>Tag a person in the photo.</li><li>Add keywords or notes.</li><li>View information about the photo.</li><li>Share your thoughts about the photo (type your comment at the bottom and click <b>Add comment</b>.</li></ul></li><img src=\"img/mh/source-audio.JPG\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-bottom: 16px; max-width:400px; margin-top:16px; border:1px solid #000; padding:0px;\"><li>If this is an audio file, it automatically starts playing. You can use the playback controls (play/pause, slider bar, and volume) to adjust the audio.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Search for sources in your tree.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Do a search for sources, and then do a search within the returned results. </li><li>* Proficient: Same as Good, with two different source targets. Also use the AND or OR keywords in a separate advanced search.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<p>Note : To find sources that are not yet in your tree, See Goal 11: Use Record Matches and Discoveries.</p><ol><li>In the \"Find a source\" field (top of the Sources screen), type the name of the source you're looking for. </li><li>Click the blue arrow to begin the search. The results can be viewed using the steps in Choice B above.</li><li>To perform a new search against only the search results listed, <br>a) Type a new value in the \"Find a source\" field; <br>b) Select \"Within the search results\" in the drop-down list; and <br>c) Click the blue arrow.</li><li>To perform a new search against all sources, <br>a) Type a new value in the \"Find a source\" field; <br>b) Select \"New search\" in the drop-down list; and <br>c) Click the blue arrow.</li><li>To perform an advanced search, click \"Show advanced search\". You can use \"AND\" or \"OR\" keywords in the search field to control results. You can also select an item in the \"Search in\" drop-down to search only a certain type of source information.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about sourcing and why it's important.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Primary sources: vital records, certificates, census records, newspapers, etc.</li><li>Secondary sources: histories or journals of someone who did not experience the event.</li><li>Citation: a reference that describes where to find the source information.</li><li>Sourcing helps everyone understand each other's work and helps avoid confusion and duplication of effort.</li><li>Sourcing provides authenticity to claims that are being made.</li><li>Watch for conflicting information in dates and places.</li>Genealogical Proof Standard: Conduct a reasonably exhaustive research, accurately cite sources, ensure evidence has been skillfully interpreted.<li>Become well-acquainted with the types of records you are using, including possible contradictions in them.</li></ul><hr style=\"margin-left: 20px;\">"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Study and be familiar with each of the points listed in the Summary link above.</li><li>* Proficient: Same as above; also, read at least three of the articles in this Choice and write down key learnings.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/g-m12.jpg",
+                        "https://www.thefhguide.com/img/world-globe.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/g-m12.jpg\" width=\"350px;\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Read these articles to learn about the importance of adding sources for your family history work. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/article/what-are-sources-in-family-tree\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—What are sources in Family Tree? - 2020</span></a> <br><span class=\"star notranslate\">☆</span><a href=\"http://www.genealogy.com/articles/research/94_fs-sourcing.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">GC—Sourcing: Key to Family History Detective Work</span></a>  </li><br><li>This article discusses the use of sources in FamilySearch Family Tree. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://rejoiceandbeexceedingglad.blogspot.com/2017/04/digging-into-sources-in-familysearch.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">JT—Digging into Sources in the FamilySearch Family Tree, Part 1 - 2017</span></a></li><br><li>Watch these videos to get an inside look at using sources in family history.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.ancestryacademy.com/getting-started-right-documentation-for-new-genealogists/videos/sources-a-family-history-s-raw-material\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">AAC—Sources: A Family History's Raw Material—8:45 (acct. req.)</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://www.ancestryacademy.com/getting-started-right-documentation-for-new-genealogists/videos/understand-your-sources-by-answering-five-questions\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">AAC—Understand Your Sources by Answering Five Questions—10:46 (acct. req.) </span></a></li><br><li>Learn how to determine accuracy of information in records. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://www.genealogy.com/articles/research/00000005.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">GC—Determining Accuracy of Information</span></a><br> <span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/img_auth.php/e/e3/Document_Analyzation_and_Evaluation_Handout_October_2015.pdf\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Document Analysis and Evaluation—6 pgs.</span></a></li></ol><h5>Genealogical Proof Standard</h5><ol><img src=\"img/world-globe.jpg\" width=\"350px;\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Understand the Genealogical Proof Standard for sources. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/blog/en/genealogicalproofstandardpart1/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Genealogical Proof Standard, Part 1 - 2016</span></a></li><br><li>Here's an overview of the GPS and a handy flowchart of the processes it uses. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.genealogyexplained.com/basics/genealogical-proof-standard/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">GE—Genealogical Proof Standard - 2022</span></a></li><br><li>Here is a brief review of how to use the Genealogical Proof Standard (GPS) in your research.<br><br> <span class=\"star notranslate\">☆</span><a href=\"https://www.prairierootsresearch.com/research-tips/genealogical-proof-standard/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Genealogical Proof Standard</span></a></li><br><li>Ensure that your research meets the Genealogical Proof Standard. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/blog/en/genealogicalproofstandardpart2/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Genealogical Proof Standard, Part 2 - 2016</span></a></li><br><li>Learn how to apply the Genealogical Proof Standard to sources you are evaluating. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/blog/en/genealogicalproofstandardpart3/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Genealogical Proof Standard, Part 3 - 2016</span></a></li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Check and Manage Tree",
+        "name": "Check and Manage Your Tree",
+        "section_name": "Check and manage your MyHeritage tree.",
+        "summary": "<p>You can use the Tree Checker tool to find and resolve data issues in your tree, and you can switch between trees and merge trees when necessary.</p>",
+        "choices": [
+            {
+                "name": "Check your tree for consistency and data issues.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Run Tree Checker.</li><li>Fix errors or issues as needed.</li><li>Customize or filter scan results.</li></ul><hr style=\"margin-left: -20px;\">"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good:Run a scan on your tree and correct two or more issues. If needed, you can stop the scan after several minutes to gather results. </li><li>* Proficient: Same as Good, correcting four or more issues.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/tree-checker.JPG"
+                    ],
+                    "text": "<ol><img src=\"img/mh/tree-checker.JPG\" width=\"500px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>In the <b>Family tree</b> menu, click <b>Consistency Checker</b>. The Consistency Checker tool scans your family tree to find issues that need to be corrected, and it provides tips for correcting them. At the top, statistics are displayed for the number of issues found, number of people checked, estimated time left in the check, and percent of completion.</li><li>To correct an issue, read the tip and click the person's name. In the person's Essentials page you can provide the correct information. You can also see more information about the issue by clicking the information button next to it.</li><li>To stop a Tree Checker scan, click the X (upper right).</li><li>To hide or show the results of a particular issue, click the arrow that appears at the right of the issue heading.</li><li>To disable checking for a particular issue, click the X that appears at the right of the issue heading.</li><li>When the scan completes, you can run it again (circle-arrow), or print the results (printer icon), or change the Consistency Checker settings (wheel icon).</li><li>In the Consistency Checker settings window you can see the possible types of errors and warnings. To disable a particular issue from being scanned for, clear its check box.</li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "Watch these videos to learn more about the Consistency Checker.",
+                                "links": [
+                                    {
+                                        "link": "https://education.myheritage.com/howto/how-to-use-the-consistency-checker/",
+                                        "text": "MH—How to Use the Consistency Checker—2:37 - 2019",
+                                        "type": "video"
+                                    },
+                                    {
+                                        "link": "https://familytreewebinars.com/download.php?webinar_id=1295",
+                                        "text": "MH—Tune Up Your Family Tree with the MyHeritage Consistency Checker—73:00",
+                                        "type": "video"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Learn about handling duplicate records in your tree.",
+                                "links": [
+                                    {
+                                        "link": "https://faq.myheritage.com/en/article/how-do-i-merge-duplicates-in-my-online-tree",
+                                        "text": "MH—How do I merge duplicates in my online tree?",
+                                        "type": "document"
+                                    },
+                                    {
+                                        "link": "https://education.myheritage.com/howto/how-to-delete-duplicates-from-your-tree/",
+                                        "text": "MH—How to Delete Duplicates from Your Tree—2:39 - 2019",
+                                        "type": "video"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Manage your tree.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-man-tablet.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/y-man-tablet.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 350px;; border:1px solid #000; padding:0px;\"><li>In the <b>Family Tree</b> menu, click <b>Manage Trees</b>. The following statistical categories are shown:<ul style=\"margin-left:-88px;\"><li>Summary</li><li>About our family tree—click <b>Edit</b> to update</li><li>About our family—click <b>Edit</b> to update</li><li>Missing pieces—click <b>Edit</b> to update</li></ul></li><li>Click <b>Save</b>.</li><li>To export the MyHeritage tree as a GEDCOM file, click <b>Export to GEDCOM</b> (upper right).</li><li>In the upper right, you can also click a link to view the tree, edit tree settings, download the original GEDCOM file, delete the tree, or add a new tree.</li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "Learn how to switch between multiple sites.",
+                                "links": [
+                                    {
+                                        "link": "https://faq.myheritage.com/en/article/how-can-i-switch-to-a-different-family-site-if-i-have-more-than-one-site",
+                                        "text": "MH—Switch to a Different Site, if I Have More than One Site",
+                                        "type": "document"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "This article explains how to merge two family trees.",
+                                "links": [
+                                    {
+                                        "link": "https://faq.myheritage.com/en/article/how-do-i-merge-two-family-trees",
+                                        "text": "MH—How do I merge two family trees?",
+                                        "type": "document"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Learn how to change your site and tree names.",
+                                "links": [
+                                    {
+                                        "link": "https://education.myheritage.com/howto/how-to-change-the-name-of-your-family-site-and-family-tree/",
+                                        "text": "MH—How to Change the Name of Your Family Site and Family Tree—2:11 - 2019",
+                                        "type": "video"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Watch this video for tips on managing your MyHeritage family site.",
+                                "links": [
+                                    {
+                                        "link": "https://familytreewebinars.com/download.php?webinar_id=1117",
+                                        "text": "MH—How to Better Manage Your MyHeritage Family Site—82:00",
+                                        "type": "video"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Record Matches and Discoveries",
+        "name": "Record Matches and Discoveries",
+        "section_name": "Use record matches in your family tree.",
+        "summary": "<p>MyHeritage provides Discoveries and Smart Matches that help you see how selected records may apply to your ancestors.</p>",
+        "choices": [
+            {
+                "name": "Explore matches by people.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/matches-by-people.png",
+                        "https://www.thefhguide.com/img/mh/match-person.png",
+                        "https://www.thefhguide.com/img/mh/match-info.png"
+                    ],
+                    "text": "<ol><img src=\"img/mh/matches-by-people.png\" alt=\"\" width=\"600px\" style=\"float:right; margin-top: 8px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>In the <b>Discoveries</b> menu, click <b>Matches by people</b>. A list is shown for people in your tree who have possible matches. You can restrict the matches list to only Record Matches or Smart Matches.</li><li><span class=\"g\">Setting Up the Match List</span>: If you want to see only new, confirmed, or rejected matches, click the button to the right of <b>Smart Matches</b> (\"Pending\" by default) and select the match type you want.</li><li>To sort the match list, click the link next to \"Sort by:\" and choose an option:<ul style=\"margin-left: -88px;\"><li>Value (how strong the evidence is in the match record)</li><li>Number of matches </li><li>Most recent</li><li>First name </li><li>Last name </li><li>Relation (closest to most distant relatives)</li></ul></li><li>To change your discovery settings, <br>a) Click the settings wheel (upper right); <br>b) Move the slider bar to reflect the level of confidence that each record source should have; <br>c) Select the type of records that will be discovered; and <br>d) Click <b>Apply</b>.</li><li>To search for a person in the match list, use the magnifying glass icon (upper right).</li><li>Click the \"Show Relatives\" link in a entry to show that person's relatives in the tree; click it again to hide the information on relatives. </li></ol><h5>Review Matches</h5><ol><li>Click the <b>Review matches</b> button for an ancestor in the list to see possible matches. </li><img src=\"img/mh/match-person.png\" alt=\"\" width=\"600px\" style=\"float:right; margin-top: 8px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Scan the entries on the screen (an example is shown at the right). AN the \"New info\" area you'll see a summary of the differences between this record and the information in your tree.</li><br><br><br><br><img src=\"img/mh/match-info.png\" alt=\"\" width=\"500px\" style=\"float:right; margin-top: 8px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Click the \"Review matches\" button to see available record matches. If new relatives are included in the record, links are provided so you can view their information. </li><li>Select a match of interest and click <b>Review Match</b>.</li><li>To see the corresponding person in your tree, click <b>View profile</b> or <b>View in tree</b> (left side).</li><li>If a Record Detective section appears at the bottom of the screen, you can click its entries to see possible matches from other sources.</li><li>Review the information, including the items marked by \"New Information\". If this is not a match for one of your ancestors, click the \"reject it\" link (bottom).</li><li>If you want to merge all of the \"new\" and \"improved\"  information items, click the down-arrow next to <b>Confirm Match</b> and select \"Save to your tree\".</li><li>To review individual information items, click <b>Confirm Match</b>.</li></ol><h5>Confirm Match: Review, Save and Copy Information</h5><p>In the \"Extract Information into your family tree\" screen, you can save new information and improved information from the record to your tree.</p><ol><li>Compare the information on the left side of the screen (your tree) with the information on the right side (the source record). Items in the source record may be marked with indicators for New, Improved, or Different.</li><li>For each piece of information in the source record you want to copy into your tree, click the corresponding left-arrow button.</li><li>Click <b>Save to tree</b> (bottom of the screen). Or, click the double-arrow (bottom of the match entry) to copy all items from that record into your tree. <br><i>Note</i> : If you decide to copy all of the information, first make sure that that you are not overwriting existing information in your tree that should be kept. Otherwise, use the individual left-arrows to copy information.</li><li>To copy information for other people listed in the match, scroll down to their entries, or hover over a person icon (left of the screen) and click it. Then use the copy process described above.</li><li>To copy all information from all listed people, scroll to the bottom and click \"Extract all info\" before clicking <b>Save to tree</b>. Or, </li><li>If you need to undo a Confirm action, click <b>Cancel</b> at the bottom of the screen and then click \"Undo confirm\" in the following screen.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore matches by source.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>In the <b>Discoveries</b> menu, click <b>Matches by source</b>. Source types are listed, with potential matches for review. See Choice A above for details on viewing and handling potential matches.</li><li>\"Sort by:\" options on the main screen include Number of matches, Source name, and site manager. </li><li>\"Sort by:\" options on the selected source screen include Value, First name, Last name, and Relation. </li><li>To change your discovery settings, <br>a) Click the settings wheel (upper right); <br>b) Move the slider bar to reflect the level of confidence that each record source should have; <br>c) Select the type of records that will be discovered; and <br>d) Click <b>Apply</b>.</li><li>To remove an entry, click the \"x\" in the upper-right corner of the record match entry.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Instant Person Discoveries™.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-youth-hands.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/y-youth-hands.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 350px;; border:1px solid #000; padding:0px;\"><li>In the <b>Discoveries</b> menu, click <b>Instant Discoveries™</b>. Source types are listed, with potential matches for review. <i>Note</i> : For information on Photo Discoveries, see <a class=\"lk\" href=\"project-3-memories-mh05.html#e\">Choice E</a> in Project 3, Goal 5.</li><li>To restrict the matches list to only Person Discoveries, click <b>Person Discoveries</b>.</li><li>To remove an entry, click the \"x\" in the upper-right corner of the record match entry.</li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "Learn about Person Discoveries in this article.",
+                                "links": [
+                                    {
+                                        "link": "https://faq.myheritage.com/en/article/what-are-person-discoveries",
+                                        "text": "MH—What are Person Discoveries?",
+                                        "type": "document"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Learn how to add Person Discoveries to your tree in this article.",
+                                "links": [
+                                    {
+                                        "link": "https://faq.myheritage.com/en/article/how-do-i-add-a-person-discovery-to-my-family-tree",
+                                        "text": "MH—How do I add a Person Discovery to my family tree?",
+                                        "type": "document"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Learn more about the Discoveries section on your site.",
+                                "links": [
+                                    {
+                                        "link": "https://faq.myheritage.com/en/article/how-do-i-use-the-discoveries-section-on-my-family-site",
+                                        "text": "MH—Using the Discoveries Section",
+                                        "type": "document"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Learn more about Smart Matches.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-youth-tablet.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/y-youth-tablet.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 350px;; border:1px solid #000; padding:0px;\"><li>Learn more about Smart Matches in this article and video.<br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://faq.myheritage.com/en/article/what-is-smart-matching\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">MH—What Is Smart Matching?</span></a> <br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://education.myheritage.com/howto/how-to-use-smart-matches/\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">MH—How to Use Smart Matches—2:56</span></a></li><br><li>Learn how to save Smart Matches to your tree.<br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://faq.myheritage.com/en/article/how-do-i-save-information-from-smart-matches-to-my-family-tree-on-the-online-family-site\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">MH—Save Information from Smart Matches to My Family Tree</span></a></li><br><li>Check your smart matches from the MyHeritage mobile app.<br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://faq.myheritage.com/en/article/how-can-i-check-smart-matches-and-record-matches-using-the-myheritage-app\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">MH—Checking my Smart Matches from the MyHeritage App</span></a></li><br><li>Learn how to ignore Smart Matches from specific trees.<br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://faq.myheritage.com/en/article/how-can-i-ignore-smart-matches-coming-from-a-specific-tree\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">MH—Ignore Smart Matches from Specific Trees</span></a></li><br><li>Learn how to confirm all Smart Matches coming from a specific tree.<br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://faq.myheritage.com/en/article/how-do-i-confirm-all-smart-matches-coming-from-a-specific-tree\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">MH—Confirming all Smart Matches from a Specific Tree</span></a></li><br><li>Learn how to disable Smart Matches.<br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://faq.myheritage.com/en/article/can-i-disable-smart-matches\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">MH—Disabling Smart Matches</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn more about record matching.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-youth3.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/y-youth3.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 350px;; border:1px solid #000; padding:0px;\"><li>Learn about Record Matches by person.<br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://faq.myheritage.com/en/article/what-is-matches-by-people\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">MH—Matches by People</span></a><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://education.myheritage.com/howto/how-to-use-record-matches-2/\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">MH—How to Use Record Matches—2:45</span></a></li><br><li>Learn about Record Matches by source.<br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://faq.myheritage.com/en/article/what-is-matches-by-source\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">MH—Matches by Source</span></a></li><br><li>Learn how to get Record Matches.<br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://faq.myheritage.com/en/article/do-i-need-a-subscription-to-access-record-matches\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">MH—Do I Need a Subscription to Access Record Matches?</span></a><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://faq.myheritage.com/en/article/how-do-i-get-record-matches\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">MH—How Do I Get Record Matches?</span></a> </li><br><li>Learn how to extract information from Record Matches.<br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://faq.myheritage.com/en/article/how-do-i-extract-information-from-record-matches\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">MH—Extracting Information from Record Matches</span></a></li><br><li>Ignore Record Matches for an individual.<br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://faq.myheritage.com/en/article/how-can-i-ignore-all-matches-for-a-specific-individual-in-my-tree\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">MH—Ignore All Matches for an Individual</span></a></li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

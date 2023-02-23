@@ -1,0 +1,314 @@
+[
+    {
+        "nav_name": "Navigate Your Tree",
+        "name": "Navigate Your Findmypast Tree",
+        "section_name": "Navigate your Findmypast tree.Vault",
+        "summary": "<p>Navigating your Findmypast Tree is essential to finding ancestors, viewing and updating their information, and producing charts and reports.</p>",
+        "choices": [
+            {
+                "name": "Use the Family View to see your family tree.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>View and extend family lines on the screen.</li><li>Set a different person to be the start of the family tree.</li><li>Search for persons in your tree.</li></ul><hr style=\"margin-left: 20px;\">"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Choose two lines that go back several generations and view and extend those lines on the screen. </li><li>* Proficient: Same as Good; also set a different person to start the tree, and successfully search for a person in the tree. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/fmp/print-icon.JPG"
+                    ],
+                    "text": "<p>The default view for Findmypast trees is the Family View, which displays tiles with spouses and children, arranged horizontally. You can click any person link to open the Profile for that person.</p><ol><li>In the top menu, click <b>Family tree</b> and select <b>View all trees</b>; then choose your tree from the list.</li><li>To zoom the view, click the plus or minus icons (upper right), or use the scroll button on the mouse. To move the view around, click and drag on the screen.</li><li>To extend a family line into the past, click an up arrow above a person's name at the top. To see more recent descendants, click a down arrow below a person's name.</li><li>To select a different person as the focus person, <br>a) Click the person's name in the tree view; and <br>b) Click <b>Family view</b>. Or, you can click a tree icon (if available) at the right of a person's name.</li><li>To return to the Home person (first person entered in the tree), click the House icon (top).</li><li>To search for a person in your tree, <br>a) Click the magnifying glass icon; <br>b) Type the name in the search field, and <br>c) Select it from the drop-down list.</li><img src=\"img/fmp/print-icon.JPG\" width=\"120px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>To print a pedigree chart, click the Print icon (upper right) and complete the Print dialog.</li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "For more information on using your Findmypast tree, watch the video or read the article.",
+                                "links": [
+                                    {
+                                        "link": "https://www.youtube.com/watch?v=sNKSKX6rIj8",
+                                        "text": "FMP—How to Use your Findmypast Tree—31:29 - 2016",
+                                        "type": "video"
+                                    },
+                                    {
+                                        "link": "https://blog.findmypast.com/how-to-use-findmypast-family-tree-help-2519114064.html",
+                                        "text": "FMP—How to Use your Findmypast Family Tree - 2020",
+                                        "type": "document"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Use the Pedigree and Family Group views.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Switch from Family View to Pedigree View.</li><li>View and extend family lines in your tree.</li><li>View the children of a focus ancestor.</li></ul><hr style=\"margin-left: 20px;\">"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Choose two lines that go back several generations and view and extend those lines on the screen. </li><li>* Proficient: Same as Good; also set a different person to start the tree, and successfully search for a person in the tree. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>Near the top, click the <b>Pedigree</b> icon.</li><li>To extend the view for a family line, click the right arrow at the end of the line (if available).</li><li>To search for a person in your tree, <br>a) Click the magnifying glass icon; <br>b) Type the name in the search field, and <br>c) Select it from the drop-down list.</li><li>To print a pedigree chart, click the Print icon (upper right) and complete the Print dialog.</li><li>To place a different person in the starting position of the tree view, <br>a) Click the person's name in the tree view; and <br>b) Click <b>Their tree</b> (bottom panel of the Summary window).</li></ol><h5>Family Group View</h5><ol><li>Click the View button (next to the Tree name) and select <b>Family Group</b>.</li><li>To see summary information for a person on the screen, click the name. You can click <b>Their tree</b> to set that person as the focus person in the  Family Group view. Then click the X to exit the Summary view.</li><li>To return to the Home person, click the down-arrow inside the Current Person button (to the right of the Family Group button) and select the name in the list. <i>Note</i> : The Family Group view does not allow for extending family lines to view.</li><li>To print the current Family Group view, click the Print icon (upper right) and complete the dialog.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "View details for people in your tree.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Open a Summary window to see ancestor information.</li><li>View Profile pages for ancestors.</li><li>Use the Kinship Calculator to determine relationships.</li></ul><hr style=\"margin-left: 20px;\">"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Choose two persons in your tree and open the Summary window and Profile for each of them. </li><li>* Proficient: Same as Good; also calculate your relationship for each person selected. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/fmp/summary-window.JPG"
+                    ],
+                    "text": "<ol><img src=\"img/fmp/summary-window.JPG\" width=\"350px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>Click a name in your tree to open a Summary window with birth, marriage, and death details. <i>Note</i> : This window appears differently on Family View vs. Pedigree View, but the basic information is the same.</li><li>In the Summary window (Family View), click <b>View full profile</b>; in the Pedigree view, click <b>Profile</b>. The <b>Overview</b> tab appears. The Timeline section on the left displays events, and the Relations section on the right displays parents, spouses, children, and siblings. In the Relations section, you can open person links to see Summary windows and Profile pages, or open and close parts of the section as needed.</li><li>To see how the person in the current profile is related to someone else in your tree, <br>a) Click the <b>Kinship calculator</b> button; <br>b) Type the name of the other person in the Search bar and select it from the drop-down list; and <br>c) Click <b>Calculate</b>.</li><li>To see a more complete version of the Relations page, click the <b>Relations</b> tab (near the top left).</li><li>To see additional details for the person, click the <b>Facts and Events</b>tab.</li><li>To return to the tree view, click the <b>Profile</b> button and select the view type.</li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "For more information on building profiles in Findmypast, watch this video.",
+                                "links": [
+                                    {
+                                        "link": "https://www.youtube.com/watch?v=ru1lUpJnXMA",
+                                        "text": "FMP—Getting Started with Family tree Profiles—1:30 - 2015",
+                                        "type": "video"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "See and manage a list of all people in your tree.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Use the Children link to view a couple's children.</li><li>Display the Summary card for a child.</li><li>View the children of a first-position ancestor.</li></ul><hr style=\"margin-left: 20px;\">"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Display a list of people in your tree and scroll through several screens. Sort the names by one of the categories listed above.</li><li>* Proficient: Same as Good. Also filter the view list and reset it, then view the tree for a person in the list. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/fmp/view-people.JPG",
+                        "https://www.thefhguide.com/img/fmp/people-sort.JPG",
+                        "https://www.thefhguide.com/img/fmp/people-filters.JPG"
+                    ],
+                    "text": "<ol><img src=\"img/fmp/view-people.JPG\" width=\"170px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>In the Family view, click the magnifying glass icon and select <b>View all people on this tree</b>. In other views, click the <b>view button</b> (upper left) and select <b>People</b>.</li><li>To set the number of names displayed per page, click <b>Results per page</b> (lower right) and select 20 (default), 50, 100, 500, or 1000.</li>  <li>To scroll to another page, <br>a) Click the page number at the bottom of the screen; or <br>b) Click a left or right arrow at the bottom to scroll by one page, or <br>c) Click a double-arrow icon at the bottom to go to the first or last page of names. </li><img src=\"img/fmp/people-sort.JPG\" width=\"800px\" style=\"float:right; margin-left:16px; margin-top:16px; border:1px solid #000; padding:0px;\"><li>To sort the names, click any of the following categories. Clicking the same category a second time reverses the sort order.<ul style=\"margin-left:-88px;\"><li>First names</li><li>Last name</li><li>Birth date</li><li>Birth place</li><li>Death date</li><li>Death place</li><li>Hints</li></ul></li><img src=\"img/fmp/people-filters.JPG\" width=\"650px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>To filter (limit) the list, type an entry in \"Filter by First names\", \"Filter by Last names\", or \"Filter by Place\". To cancel the filter, click \"Reset filters\" or delete the filter text you typed.</li><li>To view the tree for a person in the list, click the corresponding <b>View</b> button and select the view type from the list.</li><li>To add a person to the tree, <br>a) Click <b>Add person</b>; <br>b) Fill in the fields; and <br>c) Click <b>Save changes</b>. <br><i>Note</i> : This does not connect the new person in the tree; it simply adds the person in the list of people. You can select the new person and add parents in the tree.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Edit Person Information",
+        "name": "Edit Person Information",
+        "section_name": "Edit or add information for people in your tree.",
+        "summary": "<p>Knowing how to edit and add information is essential to keeping your Findmypast tree up-to-date.</p>",
+        "choices": [
+            {
+                "name": "View and edit information in a person's profile.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Edit or add Facts and Events (individual information) for people in your tree.</li></ul><hr style=\"margin-left: 20px;\">"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Add one or more Facts for at least two people in your tree. </li><li>* Proficient: Same as Good; also create a Custom Fact for each person. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/fmp/facts-events.JPG",
+                        "https://www.thefhguide.com/img/fmp/add-fact.JPG"
+                    ],
+                    "text": "<ol><img src=\"img/fmp/facts-events.JPG\" width=\"250px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>Open the person's profile (see <a class=\"lk\" href=\"project-2-family-tree-fmp.html#c\">Choice C</a> in Goal 1) and click the <b>Facts and Events</b> tab.</li><li>To sort the facts and events by date (after the person's name), click the <b>View Facts &amp; Events chronologically</b> button. To sort by name, click the <b>View Facts &amp; Events alphabetically</b> button.</li><li>To edit a fact, <br>a) Hover over it and click the pencil icon that appears; <br>b) In the Edit dialog, change fields as needed; <br>c) If you want to mark a field as Preferred (it appears in the tree, instead of another version of this fact) or Private (it does not appear when others view your tree), check the corresponding boxes in the dialog; and <br>c) Click <b>Save Fact</b>.</li><img src=\"img/fmp/add-fact.JPG\" width=\"450px\" style=\"float:right; margin-left:16px; margin-top:16px; border:1px solid #000; padding:0px;\"><li>To add a fact, <br>a) Click <b>Add Fact</b> (Facts and Events tab); <br>b) In the \"Add fact\" dialog, select a fact type from the list, or type an entry in the \"Select fact type\" box to search for it; <br>c) Fill in the fields; and <br>c) Click <b>Add Fact</b>.</li><li>To create a custom fact, <br>a) Click <b>Add Fact</b> (Facts and Events tab); <br>b) Click \"Create custom fact\" (near the top); <br>c) Fill in the fields; and <br>c) Click <b>Add Fact</b>.</li><li>To remove a fact, <br>a) Hover over it and click the trash icon that appears; and <br>b) In the warning dialog, Click <b>Delete</b>.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Add a note for an individual.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Proficient: Add notes for at least 3 people in your tree. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/fmp/note.JPG",
+                        "https://www.thefhguide.com/img/fmp/add-note.JPG"
+                    ],
+                    "text": "<ol><img src=\"img/fmp/note.JPG\" width=\"450px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>Open a person's Profile and click the <b>Notes</b> tab.</li><li>Click the <b>Add Note</b> button.</li><img src=\"img/fmp/add-note.JPG\" width=\"200px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>In the Note box, type the note content.</li><li>If you want to mark the note as private so it won't be seen by others who have access to your tree, check the \"Private\" box.</li><li>Click <b>Add Note</b>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Add or Remove People",
+        "name": "Add or Remove People",
+        "section_name": "Add or remove people in your Findmypast tree.",
+        "summary": "<p>You can add direct ancestors, spouses, and children to your Findmypast tree, in Pedigree or Family View.</p>",
+        "choices": [
+            {
+                "name": "Add parents for an individual.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>For an individual in your tree, add parents, spouse or children, using the Pedigree or Family View.</li></ul><hr style=\"margin-left: 20px;\">"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Add a father or mother for a person in your tree, if you have a father or mother to add. If you do not have a father or mother to add, fill in the fields or select the person from the tree, but do <i>not</i> click <b>Save changes</b> or <b>Add Father</b> or <b>Add Mother</b>.</li><li>* Proficient: Same as Good; also add a father or mother in Family View (use the limitations in Good). </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/fmp/add-father.JPG"
+                    ],
+                    "text": "<p>If you are using the Pedigree view,</p><ol><li>Click <b>Add Father</b> or <b>Add Mother</b>.</li><img src=\"img/fmp/add-father.JPG\" width=\"450px\" style=\"float:right; margin-left:16px; margin-top:16px; border:1px solid #000; padding:0px;\"><li>If the father or mother is new to your tree, fill in the fields in the dialog and click <b>Save changes</b>. Or,</li><li>If the father or mother is already in your tree, <br>a) Click \"Select someone from your tree\"; <br>b) Type the name of the father or mother in the Search bar and select it from the drop-down list; and <br>c) Click <b>Save changes</b>.</li></ol><p>If you are using the Family View,</p><ol><li>Click the plus sign above the person who needs a mother or father added.</li><li>In the \"Add a new relative\" panel (left side), <br>a) Choose the relative to be added; <br>b) Click <b>Continue</b>; <br>c) Fill in the details for the person; and <br>d) Click <b>Continue</b>. </li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Add a spouse or children for a person.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Add children or a spouse to an ancestor or couple.</li></ul><hr style=\"margin-left: 20px;\">"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Add a spouse or child for a person in your tree. See the limitations in the Exercises for Choice A above.</li><li>* Proficient: Same as Good; also add a spouse or child in Family View (use the limitations in Good). </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/fmp/add-spouse-children.JPG"
+                    ],
+                    "text": "<p>If you are using the Pedigree view,</p><ol><img src=\"img/fmp/add-spouse-children.JPG\" width=\"170px\" style=\"float:right; margin-left:16px; margin-top:16px; border:1px solid #000; padding:0px;\"><li>Click <b>Spouse and Children</b> below the person's name in the tree to see the family members.</li><li>Click the <b>plus icon</b> below the person's name in the tree and click the type of relative to add. If you are adding a child, select the parentage in the list that the child will be assigned to.</li><li>If the spouse or child is new to your tree, fill in the fields in the dialog and click <b>Save changes</b>. Or,</li><li>If the spouse or child is already in your tree, <br>a) Click \"Select someone from your tree\"; <br>b) Type the name of the spouse or child in the Search bar and select it from the drop-down list; and <br>c) Click <b>Add Spouse</b> or <b>Add Child</b>.</li></ol><p>If you are using the Family View,</p><ol><li>Click the the \"Add a relative\" plus sign above the person who needs a spouse or child added.</li><li>Follow steps 3 and 4 above to add the person.</li></ol><p style=\"margin-left:70px;\"><i>Note</i> : You can also add family members by clicking the person's name in the tree, clicking <b>Add Relative</b>, and selecting Spouse, Sibling, or Child.</p>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Remove a person from your tree.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/fmp/remove-person.JPG"
+                    ],
+                    "text": "<ol><li>Open the Profile page for the person to be deleted.</li><img src=\"img/fmp/remove-person.JPG\" width=\"120px\" style=\"float:right; margin-left:16px; margin-top:16px; border:1px solid #000; padding:0px;\"><li>At the bottom of the screen, click the \"Delete Person\" link.</li><li>In the warning screen, click <b>Delete</b>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Explore Hints, Merge Records",
+        "name": "Explore Hints, Merge Records",
+        "section_name": "Use hints for people in your tree and merge records when needed.",
+        "summary": "<p>This Goal helps you evaluate record hints from Findmypast. as well as merge records for duplicate ancestors when needed.</p>",
+        "choices": [
+            {
+                "name": "View and review hints for an individual.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Locate Findmypast hints for possible record sources.</li><li>Review hints that you have found, to decide if you can use the new information.</li></ul><hr style=\"margin-left: 20px;\">"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Review and approve (or reject) one or more record hints for an ancestor. </li><li>* Proficient: Same as Good, for three ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/fmp/hint.JPG",
+                        "https://www.thefhguide.com/img/fmp/hint-questions.JPG"
+                    ],
+                    "text": "<ol><img src=\"img/fmp/hint.JPG\" width=\"90px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>Find a person in Pedigree view or Family view with an orange number near the name. This indicates there are record hints available for the person.</li><li>Click the orange number to display the hints. (You can also click <b>View Hints</b>  in the person's Profile.) A confidence percentage is shown for each hint, between your tree and the hint source.</li><li>To review the hint, click <b>Review</b> and skip to Reviewing Hints below.</li></ol><h5> Reviewing Hints</h5><ol><li>Review the record hint information on the left of the screen, and then the information for the person from your tree on the right. Identical items are marked with a \"Match\" banner; non-identical items are marked with a \"Different\" banner; and items found in the hint but not in your tree are marked with a \"New\" banner. </li><li>To see source information for the hint, click the document icon next to the person's name (upper left).</li><li>To see a transcript of the record hint source, click <b>View Transcript</b>. This opens a new window where you can view the image (View original record), add the record to your tree, or print it.</li><li>When you view the image, you can use the options and controls at the top of the page to do the following: <ul style=\"margin-left:-66px;\"><li>Add the record to the tree</li><li>Print the record</li><li>Download the record</li><li>Rotate the image to the right or left</li><li>Recenter the image</li><li>Display the image in full-screen mode</li><li>Use the \"More\" button to change the image brightness or contrast, or invert the color</li><li>Change the zoom percentage</li><li>See information and copyright details about the image (upper left)</li></ul></li><li>The bottom of the screen cotains thumbnail images of the entire record set. You can <ul style=\"margin-left:-66px;\"><li>Move to the next or previous image (left or right arrows)</li><li>Click <b>Transcripts</b> to see transcripts instead of the record images</li><li>Click <b>Close filmstrip</b> to hide the thumbnails</li></ul></li><br><img src=\"img/fmp/hint-questions.JPG\" width=\"300px\" style=\"float:right; margin-left:16px; margin-top:16px; border:1px solid #000; padding:0px;\"><li>If the two sides of the screen do not represent the same person, under \"Are these the same person?\" (bottom of the page) click <b>No, Reject</b> (bottom of screen) and try another hint.</li><li>If you are not sure it's the same person, click <b>Maybe?</b> (bottom of screen) and then click <b>Continue</b>. The hint will be stored under the \"Maybe\" listing on your Hints page. If the hint information came from another Findmypast tree, you can click \"Message the tree owner\" (upper left). </li><li>If the two versions match, click <b>Yes, Next step</b>. This attaches the record to the person in your tree. Then proceed to Choice B below.</li></ol><h5>Viewing All Hints in the Tree</h5><ol><li>To view all hints in the tree, at the top of the screen click <b>Hints for this tree</b> (Family view) or <b>My Hints</b> (Pedigree view). As you scroll down, more hints (if available) will appear.</li><li>You can click Pending hints, Saved hints, Rejected hints, or Accepted hints to see details for your hint categories.</li><li>To sort the hints, click the \"Order by\" box (right side) and make a selection.</li> <li>To filter the hints by record information, type one or more keywords in the \"Filter  by hint type\" box.</li><li>To review a hint, click <b>Review</b> and follow the steps in Reviewing Hints above. </li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "For more information on using hints in Findmypast, watch the video or read the article.",
+                                "links": [
+                                    {
+                                        "link": "https://www.youtube.com/watch?v=vkjeKKHFD88",
+                                        "text": "FMP—Build Your Family Tree with Hints—1:30 - 2017",
+                                        "type": "video"
+                                    },
+                                    {
+                                        "link": "https://blog.findmypast.com/how-to-use-hints-findmypast-family-tree-2519114500.html",
+                                        "text": "FMP—How to Use Your Findmypast Tree; Hints - 2020",
+                                        "type": "document"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Merge hint information into your tree.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Decline or accept a merge of information from a record hint.</li><li>Update your tree with the record information you accepted.</li></ul><hr style=\"margin-left: 20px;\">"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Update one or more fact differences for an ancestor. </li><li>* Proficient: Update one or more fact differences for three or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/fmp/skip-save.JPG"
+                    ],
+                    "text": "<p>If there are differences between the record and your tree for an individual, you can merge the differences (changes) from the record into your tree. <b>Note:</b> Before starting this Choice, be sure you have clicked <b>Yes, Next step</b> in Choice A above.</p><ol><img src=\"img/fmp/skip-save.JPG\" width=\"250px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>If you want to decline the hint updates, click <b>Skip merging</b> (lower right). In the dialog that appears, click <b>Skip merging</b> again.</li><li>To update all fact differences into your person's tree, click <b>Update this person</b>.</li><li>To update a single fact difference into your person's tree, click the arrow next to the fact difference. To undo the update, click the same arrow again.</li><li>To add the source to the person in your tree, click the three-dot circle (right side) and select \"Add source\".</li><li>The screen may show record information for additional family members. You can scroll down to see the hint information and </li><li>Click <b>Save changes to tree</b>. There is no undo feature for this update, but you can manually change the new information in your tree if desired.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about sourcing and why it's important.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Primary sources: vital records, certificates, census records, newspapers, etc.</li><li>Secondary sources: histories or journals of someone who did not experience the event.</li><li>Citation: a reference that describes where to find the source information.</li><li>Sourcing helps everyone understand each other's work and helps avoid confusion and duplication of effort.</li><li>Sourcing provides authenticity to claims that are being made.</li><li>Watch for conflicting information in dates and places.</li>Genealogical Proof Standard: Conduct a reasonably exhaustive research, accurately cite sources, ensure evidence has been skillfully interpreted.<li>Become well-acquainted with the types of records you are using, including possible contradictions in them.</li></ul><hr style=\"margin-left: 20px;\">"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Study and be familiar with each of the points listed in the Summary link above.</li><li>* Proficient: Same as above; also, read at least three of the articles in this Choice and write down key learnings.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/g-m12.jpg",
+                        "https://www.thefhguide.com/img/world-globe.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/g-m12.jpg\" width=\"350px;\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Read these articles to learn about the importance of adding sources for your family history work. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/article/what-are-sources-in-family-tree\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—What are sources in Family Tree? - 2020</span></a> <br><span class=\"star notranslate\">☆</span><a href=\"http://www.genealogy.com/articles/research/94_fs-sourcing.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">GC—Sourcing: Key to Family History Detective Work</span></a>  </li><br><li>This article discusses the use of sources in FamilySearch Family Tree. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://rejoiceandbeexceedingglad.blogspot.com/2017/04/digging-into-sources-in-familysearch.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">JT—Digging into Sources in the FamilySearch Family Tree, Part 1 - 2017</span></a></li><br><li>Watch these videos to get an inside look at using sources in family history.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.ancestryacademy.com/getting-started-right-documentation-for-new-genealogists/videos/sources-a-family-history-s-raw-material\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">AAC—Sources: A Family History's Raw Material—8:45 (acct. req.)</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://www.ancestryacademy.com/getting-started-right-documentation-for-new-genealogists/videos/understand-your-sources-by-answering-five-questions\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">AAC—Understand Your Sources by Answering Five Questions—10:46 (acct. req.) </span></a></li><br><li>Learn how to determine accuracy of information in records. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://www.genealogy.com/articles/research/00000005.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">GC—Determining Accuracy of Information</span></a><br> <span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/img_auth.php/e/e3/Document_Analyzation_and_Evaluation_Handout_October_2015.pdf\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Document Analysis and Evaluation—6 pgs.</span></a></li></ol><h5>Genealogical Proof Standard</h5><ol><img src=\"img/world-globe.jpg\" width=\"350px;\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Understand the Genealogical Proof Standard for sources. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/blog/en/genealogicalproofstandardpart1/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Genealogical Proof Standard, Part 1 - 2016</span></a></li><br><li>Here's an overview of the GPS and a handy flowchart of the processes it uses. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.genealogyexplained.com/basics/genealogical-proof-standard/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">GE—Genealogical Proof Standard - 2022</span></a></li><br><li>Here is a brief review of how to use the Genealogical Proof Standard (GPS) in your research.<br><br> <span class=\"star notranslate\">☆</span><a href=\"https://www.prairierootsresearch.com/research-tips/genealogical-proof-standard/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Genealogical Proof Standard</span></a></li><br><li>Ensure that your research meets the Genealogical Proof Standard. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/blog/en/genealogicalproofstandardpart2/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Genealogical Proof Standard, Part 2 - 2016</span></a></li><br><li>Learn how to apply the Genealogical Proof Standard to sources you are evaluating. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/blog/en/genealogicalproofstandardpart3/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Genealogical Proof Standard, Part 3 - 2016</span></a></li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

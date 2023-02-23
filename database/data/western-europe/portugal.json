@@ -1,0 +1,248 @@
+[
+    {
+        "nav_name": "Research",
+        "name": "Research",
+        "section_name": "Get started with research in Portugal.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=CDcqjiNDTMQ\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Use effective research methods for your Portuguese ancestors.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for research resources. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-por-over.JPG"
+                    ],
+                    "text": "<ol><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Sintra#/media/File:Azenhas_do_Mar.JPG\" target=\"_blank\"> <img src=\"img/x-por-over.JPG\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a> <li><span class=\"g\">FamilySearch</span>: Use this guide from FamilySearch to help you with beginning Portuguese research.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Portugal_Quick_Start_Guide\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Portugal Quick Start Guide</span></a></li><br><li><span class=\"g\">Archives.com</span>: Get an overview of Portuguese family history on the Archives.com site. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.archives.com/genealogy/family-heritage-portuguese.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">AR—Portuguese Family History</span></a></li><br><li><span class=\"g\">Tips</span>: Learn how to trace your Portuguese ancestry. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.archives.com/experts/lang-ruth/portuguese-ancestry.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">AR—Uncovering Your Portuguese Ancestry - 2012</span></a></li><br><li>Here are some tips on building your Portuguese family tree with a variety of records. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://tombo.pt/en/content/how-create-your-portuguese-family-tree\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">How to create your Portuguese Family Tree</span></a></li><br><li>Go into more depth with your Portuguese research. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=cbijWLYgj6w\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">AA—Getting Started in Portuguese Genealogy—79:43 - 2020</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/cbijWLYgj6w?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li><span class=\"g\">Town of Origin</span>: Learn how to find your ancestor's town of origin in Portugal. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Portugal_Finding_Town_of_Origin\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Portugal Finding Town of Origin</span></a></li><br><li><span class=\"g\">Correspondence</span>: Use this guide for corresponding with Portuguese organizations about genealogy resources. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Portuguese_Letter_Writing_Guide\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Portuguese Letter-Writing Guide</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Get familiar with the Portuguese language.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-por-flag.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/photos/portugal-flag-wind-sky-blue-1355102/\" target=\"_blank\"> <img src=\"img/x-por-flag.jpg\" width=\"100%\" ;=\"\" style=\"float:right; margin-top: 8px; margin-left: 16px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a>    <li><span class=\"g\">Letters, Words, Names</span>: Learn to decipher Portuguese letters, words, and names. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/en/wiki/img_auth.php/6/63/Deciphering_Portuguese_Script_B_Baird_Oct_2017_JMR.pdf\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Deciphering Portuguese Script - 2017</span></a></li><br><li>Here is a <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Portuguese_Genealogical_Word_List\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Portuguese word list</a> to aid in research.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://script.byu.edu/Pages/the-portuguese-documents-pages/the-portuguese-documents(english)\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">BYU Portuguese Script Tutorial</a>.</li><li><span class=\"g\">Surnames</span>: Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.geneanet.org/country/search-Portugal-PRT\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Geneanet site</a> for Portuguese surnames.</li><li>Search for <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.geneaservice.nl/navigator/portugal/index.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Portuguese surnames</a> in a number of databases.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore additional resources for Portuguese research.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for language resources. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-por-lang.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/lisbon-decadent-shop-portugal-838620/\" target=\"_blank\"> <img src=\"img/x-por-lang.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a> <li><span class=\"g\">Challenges</span>: Here's a list of reasons why you may not be finding your Portuguese ancestor. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.researchjournal.yourislandroutes.com/2015/12/10-reasons-why-you-cant-find-your-portuguese-ancestors/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">10 Reasons Why You Can't Find Your Portuguese Ancestors - 2015</span></a></li><br><li>Learn about the challenges of researching Portuguese ancestors. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://forgottennewengland.com/2011/12/01/the-challenge-of-researching-portuguese-ancestors/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">The Challenge of Researching Portuguese Ancestors - 2011</span></a><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.researchjournal.yourislandroutes.com/2015/04/the-danger-of-surname-research-with-portuguese-ancestry/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">The Danger of Surname Research with Portuguese Ancestry - 2015</span></a></li><li>Learn about research in the Madeira Islands. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=gHfFtwdMYGI\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">RT—Four Websites for Researching in the Madeira Islands—19:32 - 2022</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/gHfFtwdMYGI?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><li><span class=\"g\">Resources</span>: Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://forebears.io/portugal\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Forebears.io site</a> for research records.</li><li>Explore this <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.fernandocandido.com/portgen/portuguesegen.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Portuguese Genealogy page</a> for additional links.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.archivesportaleurope.net/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Archives Portal Europe</a> site. Click the Directories link and then select Portugal.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Church & Vital Records",
+        "name": "Church and Vital Records",
+        "section_name": "Learn about Portugal church and vital records.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=CDcqjiNDTMQ\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Portuguese church records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Portugal_Church_Records#Online_Catholic_Church_Records\" target=\"_blank\">Online Catholic Church Records</a></li> <li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Portugal_Church_Records#Types_of_Records\" target=\"_blank\">Types of Records</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Portugal_Church_Records#Wiki_Articles_Describing_Online_Collections\" target=\"_blank\">Wiki Articles</a></li></ul></span>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-por-church.jpg"
+                    ],
+                    "text": "<ol><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Batalha_Monastery#/media/File:BatalhaFacade1.jpg\" target=\"_blank\"> <img src=\"img/x-por-church.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a><li><span class=\"g\">FamilySearch</span>: Learn about Portuguese church records in this FamilySearch Wiki article.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Portugal_Church_Records\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Portugal Church Records</span></a> &nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('usa');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"usa\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Portugal_Church_Records#Online_Catholic_Church_Records\" target=\"_blank\">Online Catholic Church Records</a></li> <li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Portugal_Church_Records#Types_of_Records\" target=\"_blank\">Types of Records</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Portugal_Church_Records#Wiki_Articles_Describing_Online_Collections\" target=\"_blank\">Wiki Articles</a></li></ul></span></div></li><br><li><span class=\"g\">Parish Registers</span>: Learn about Catholic Parish registers in Portugal. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://script.byu.edu/Pages/the-portuguese-documents-pages/portuguese-parish-church-records\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">What Are Parish Registers?</span></a><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://script.byu.edu/Pages/the-portuguese-documents-pages/portuguese-parish-church-records\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">BYU—Portuguese Parish Church Records</span></a></li><br><li><span class=\"g\">Baptism</span>: Learn about Catholic baptism records in Portugal. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://script.byu.edu/Pages/the-portuguese-documents-pages/portuguese-parish-christening\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Baptism (Christening) Records</span></a></li><br><li><span class=\"g\">Marriage</span>: Learn about Catholic marriage and investigation records in Portugal. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://script.byu.edu/Pages/the-portuguese-documents-pages/portuguese-parish-marriage\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Marriage Records</span></a><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://script.byu.edu/Pages/the-portuguese-documents-pages/portuguese-parish-marriage-investigations\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Marriage Investigations</span></a></li><br><li><span class=\"g\">Burial and Cemetery</span>: Learn about Catholic burial records in Portugal. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://script.byu.edu/Pages/the-portuguese-documents-pages/portuguese-parish-burial-records\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Burial Records</span></a></li><br><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.findagrave.com/cemetery-browse/Portugal?id=country_12\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Find A Grave site</a> for cemetery records.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://billiongraves.com/site-map?country=Portugal\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">BillionGraves site</a> for cemetery records.</li></ol><h5>Jewish Resources</h5><ol><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://bloodandfrogs.com/encyclopedia/portugal\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Jewish Genealogy Encyclopedia</a> for Jewish resources in Portugal.</li><li>Learn how to find Sephardic Jewish information for Spain and Portugal. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://content.ldschurch.org/family-history/bc/rootstech/salt-lake/2019-conference-syllabi/RT3182_Jewish_Genealogy_Other_Side.pdf\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">RT: The Other Side of Jewish Genealogy: Sephardic Resources - 2019</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Portugal vital records.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-por-vit.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/photos/beach-human-go-for-a-walk-on-foot-3936382/\" target=\"_blank\"> <img src=\"img/x-por-vit.jpg\" width=\"100%\" ;=\"\" style=\"float:right; margin-top: 8px; margin-left: 16px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a>    <li>Learn about Portugal civil registration in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Portugal_Civil_Registration\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Portugal Civil Registration</span></a></li><br><li><span class=\"g\">Vital Records</span>: Learn about Portugal vital records. See also the link in the article for Continental Portugal Vital Records.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Portugal_Civil_Registration\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Portuguese-American Genealogy</span></a></li><br><li>Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genregis.com/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Portuguese vital records</a> on the GenisReg site.</li></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p><p>Catholic Church Records:</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Emigration and Immigration",
+        "name": "Emigration and Immigration",
+        "section_name": "Learn about Portugal emigration and immigration.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=CDcqjiNDTMQ\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Portugal emigration and immigration.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Portugal_Emigration_and_Immigration#Passenger_Lists\" target=\"_blank\">Passenger Lists</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Portugal_Emigration_and_Immigration#Passports\" target=\"_blank\">Passports</a></li></ul></span>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for immigration resources. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-por-imm.jpg"
+                    ],
+                    "text": "<ol><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Portuguese_Brazilians#/media/File:Passaporte_portugu%C3%AAs_de_1927.jpg\" target=\"_blank\"> <img src=\"img/x-por-imm.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px;\"></a><li><span class=\"g\">Get Started</span>: Learn about Portugal emigration and immigration in this FamilySearch Wiki article, including links to passenger lists and other websites. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Portugal_Emigration_and_Immigration\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Portugal Emigration and Immigration</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('usa');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"usa\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Portugal_Emigration_and_Immigration#Passenger_Lists\" target=\"_blank\">Passenger Lists</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Portugal_Emigration_and_Immigration#Passports\" target=\"_blank\">Passports</a></li></ul></span></div></li> <br><li><span class=\"g\">Wikipedia</span>: Learn about immigration history and demographics in this Wikipedia article.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Portuguese_Americans\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Wikipedia: Portuguese Americans</span></a></li><br><li><span class=\"g\">Resources</span>: Find more <a class=\"lk\" href=\"https://guides.lib.umassd.edu/c.php?g=207253&amp;p=1367486\" target=\"_blank\">immigration resources for research</a>.</li><li>Explore the <a class=\"lk\" href=\"http://immigrants.byu.edu/search/by_section/8\" target=\"_blank\">Immigrant Ancestors site</a> from Brigham Young University.</li></ol><h5>Ships</h5><ol><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.portugueseancestry.com/lwi/genealogy/shiplists/shiplist.cfm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Immigrant Ship lists</a> on the Portuguese Ancestry site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://immigrantships.net/index2.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Immigrant Ship site</a>. Select a Volume, then choose Portugal as the departure or arrival location.</li><li><span class=\"g\">Passports &amp; Passengers</span>: Find passport information and passenger lists on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.worldgenweb.org/azrwgw/research-aids-m---z/passport-info-and-passenger/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Azores GenWeb site</a>.</li></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Maps and Gazetteers",
+        "name": "Maps and Gazetteers",
+        "section_name": "Learn about Portugal maps.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=CDcqjiNDTMQ\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Explore Portugal maps.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-por-map.png"
+                    ],
+                    "text": "<ol><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Outline_of_Portugal#/media/File:Portugal-CIA_WFB_Map.png\" target=\"_blank\"> <img src=\"img/x-por-map.png\" alt=\"\" width=\"200px\" style=\"float:right; margin-top: 8px; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li>Explore historic Portugal maps.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Portugal_Maps\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Portugal Maps</span></a> </li><br><li>See an <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Portugal_Genealogy#Portugal_Clickable_Map\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">interactive map</a> for Portugal provinces.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.davidrumsey.com/luna/servlet/view/search?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&amp;q=portugal&amp;search=Go\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">David Rumsey collection</a> of Portuguese maps.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.oldmapsonline.org/en/Portugal\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Old Maps Online site</a> for Portugal maps.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://commons.wikimedia.org/wiki/Atlas_of_Portugal\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Atlas of Portugal</a> on the Wikipedia site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://commons.wikimedia.org/wiki/Category:Old_maps_of_Portugal\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Old Maps of Portugal</a> on the Wikipedia site.</li><li>Explore a <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.fallingrain.com/world/PO/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">directory of Portugal cities, towns, and regions</a> in the Falling Rain site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Newspapers",
+        "name": "Newspapers",
+        "section_name": "Learn about Portuguese newspapers.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=CDcqjiNDTMQ\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Explore Portuguese newspapers for ancestor research.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-por-news.jpg"
+                    ],
+                    "text": "<ol><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Di%C3%A1rio_de_Not%C3%ADcias#/media/File:Di%C3%A1rio_de_Not%C3%ADcias_n%C3%BAmero_1_(29_de_Dezembro_de_1864).png\" target=\"_blank\"> <img src=\"img/x-por-news.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; \"></a><li>Find links to <a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Wikipedia:List_of_online_newspaper_archives#Portugal\" target=\"_blank\"> Portuguese newspapers</a> on the Wikipedia site.</li> <li>Explore historical Portuguese newspapers in the <a class=\"lk\" href=\"https://bndigital.bnportugal.gov.pt/project/periodicos/\" target=\"_blank\">Biblioteca Nacional Digital</a> site.</li><li>Search Portuguese newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.onlinenewspapers.com/portugal.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">onlinenewspapers.com</a> site.</li><li>Search Portuguese newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.world-newspapers.com/portugal.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">world-newspapers.com</a> site.</li><li>Search Portuguese newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.abyznewslinks.com/portu.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">ABYZ News Links</a> site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Websites",
+        "name": "Websites",
+        "section_name": "Explore additional websites for research.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=CDcqjiNDTMQ\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "There are a number of websites with valuable resources for Portuguese research.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/laptop-fingers1.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/laptop-fingers1.jpg\" alt=\"\" width=\"350px\" style=\"float:right; margin-top: 6px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Explore links in the <a class=\"lk\" href=\"https://www.familysearch.org/en/wiki/Portugal_Genealogy#More_Portugal_Research_Tools\" target=\"_blank\">FamilySearch Wiki</a>.</li><li>Explore links in <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cyndislist.com/portugal\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Cyndi's List</a>.</li><li>Explore links in <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genealogylinks.net/europe/portugal/index.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Genealogylinks.net</a>.</li><li>Visit the websites mentioned in the <a class=\"lk\" href=\"https://familysearch.org/wiki/en/Portugal_Websites\" target=\"_blank\">Portugal Websites page</a> of the FamilySearch Wiki.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Search Records",
+        "name": "Search Records",
+        "section_name": "Search records from Portugal.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=CDcqjiNDTMQ\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Use QUIKLinks, Partners, and other resources to quickly search the most common record collections for Portugal.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/laptop-hands.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/laptop-hands.jpg\" alt=\"\" width=\"350px\" style=\"float:right; margin-top: 6px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>QUIKLinks are indicated by lightning-bolt icons in the Goals above.They point to collections with 50,000 or more records. When you click a QUIKLink icon, scroll down on the resulting page to see the QUIKLinks.</li><li>In the Partners section (near the top of the page), explore additional record collections in FamilySearch, Ancestry, Findmypast and MyHeritage.</li><li>Explore the FamilySearch page for <a class=\"lk\" href=\"https://familysearch.org/wiki/en/Portugal_Online_Genealogy_Records\" target=\"_blank\">Portuguese online record collections</a>.</li><li>In FamilySearch or Ancestry), explore additional record collections besides the ones listed in QUIKLinks.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Get Help",
+        "name": "Get Help",
+        "section_name": "Get help with your Portugal research.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=CDcqjiNDTMQ\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Use Facebook pages to get answers to your questions.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/fh-help1.jpg"
+                    ],
+                    "text": "<ol><a href=\"img/fh-help1.jpg\" target=\"_blank\"> <img src=\"img/fh-help1.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-top: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a> <li>Visit the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.facebook.com/groups/280723472556/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Genealogia Portugal page</a> on Facebook.</li><li>Access the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.facebook.com/pages/Portuguese-Genealogy-Society/629866987153395\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Portuguese Genealogy Society</a> page on Facebook.</li><li>Visit the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.facebook.com/groups/SouthernEuropeGenealogyResearchCommunity/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Southern Europe Genealogy Research Community page</a> on Facebook.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Join a mailing list, community, or message board for Portugal research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://community.familysearch.org/s/group/0F93A000000DHlsSAG/portugal\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">FamilySearch community</a> for Portuguese research.</li><li>Explore the <a class=\"lk\" href=\"http://www.cyndislist.com/portugal/social/\" target=\"_blank\"> Portugal research mailing lists</a> on Cyndi's List.</li><li>Use the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ancestry.com/boards/localities.weurope.portugal/mb.ashx\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Ancestry message boards</a> to read or post questions about Portugal research.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Portugal genealogy societies.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cyndislist.com/portugal/societies/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Portugal genealogy society sites</a> on Cyndi's List.</li><li>Get help at a <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Category:Portugal_Family_History_Centers\" target=\"_blank\">family history center in Portugal</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Get Help",
+        "name": "Geography, Culture, History",
+        "section_name": "Learn about the geography, culture, and history of Portugal. \n\t\t\t\t\t\t\n\t\t\t\t\t\t",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=CDcqjiNDTMQ\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Explore websites and videos.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/c-portugal.jpg"
+                    ],
+                    "text": "<h5>Reference</h5><ol><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Portugal_History\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">FamilySearch: History</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Portugal\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Wikipedia</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.britannica.com/place/Portugal\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Encyclopedia Britannica</a></li></ol><h5>For Kids</h5><ol><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://kids.nationalgeographic.com/explore/countries/portugal/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">NatGeo for Kids</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ducksters.com/geography/country.php?country=Portugal\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Ducksters</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=TyPXV9StXaU\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">YouTube: History of Portugal</a></li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

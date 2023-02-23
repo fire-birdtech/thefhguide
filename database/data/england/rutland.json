@@ -1,0 +1,48 @@
+[
+    {
+        "nav_name": "Basic Research",
+        "name": "Basic Research",
+        "section_name": "Find resources for Rutland research.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Do basic research.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-en-rut-sail.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/photos/rutland-water-england-lake-boats-4691264/\" target=\"_blank\"> <img src=\"../img/x-en-rut-sail.jpg\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li>Learn about Rutland resources on the <a class=\"lk\" href=\"https://www.genuki.org.uk/big/eng/RUT\" target=\"_blank\">GenUKI</a> site.</li><li>Explore Leicester and Rutland library and archive resources on the <a class=\"lk\" href=\"http://discovery.nationalarchives.gov.uk/details/a/A13531712\" target=\"_blank\">National Archives</a> site.</li><li>Explore resources on the <a class=\"lk\" href=\"http://www.rutlandhistory.org/\" target=\"_blank\">Rutland History</a> site.</li><li>Learn about civil registration in Rutland. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/Rutland_Civil_Registration\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki: Rutland Civil Registration</span></a></li><br><li>Learn about Rutland history on Wikipedia. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://en.wikipedia.org/wiki/History_of_Rutland/\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">History of Rutland</span></a></li><br><li>Go into more depth with Rutland history on the British History Online site.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.british-history.ac.uk/vch/rutland\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Victoria County History series</span></a></li><br><li>Explore Rutland history on the <a class=\"lk\" href=\"https://www.britainexpress.com/counties/rutland/history.htm\" target=\"_blank\">Britain Express website</a>.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Rutland church and cemetery records.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about church records in Rutland. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/Rutland_Church_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki: Rutland Church Records</span></a></li><br><li>Locate Rutland parishes. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/Rutland_Parishes\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki: Rutland Parishes</span></a></li><br><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.dustydocs.com/county/31/rutland.html?country_id=1\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">Dusty Docs site</a> for parish and town records.</li><li>Explore a variety of records on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ukbmd.org.uk/index.php?county=129&amp;form_action=county\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">UK BMD site</a>.</li><li>Explore parish records on the <a class=\"lk\" href=\"https://www.freereg.org.uk/\" target=\"_blank\">FreeReg.org</a>site.</li></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Rutland historical maps.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about map resources in Rutland. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/Rutland_Maps\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki: Rutland Maps</span></a></li><br><li>Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://freepages.rootsweb.com/~genmaps/genealogy/genfiles/COU_Pages/ENG_pages/rut.htm\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">historical maps</a> on the GenMaps site.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about additional resources for research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about probate records in Rutland. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/Rutland_Probate_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki: Rutland Probate Records</span></a></li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

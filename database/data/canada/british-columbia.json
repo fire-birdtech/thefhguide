@@ -1,0 +1,325 @@
+[
+    {
+        "nav_name": "Research and Records",
+        "name": "Research and Records",
+        "section_name": "Learn about British Columbia research and records",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Get started with research for your British Columbia ancestors.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for research resources. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-bc-over.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/canada-lake-blue-mountains-nature-1768946/\" target=\"_blank\"> <img src=\"../img/x-ca-bc-over.jpg\" alt=\"\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\" width=\"450px\" border=\"1\"></a><li>Learn about finding your ancestors in British Columbia. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/British_Columbia,_Canada_Genealogy\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki:—British Columbia—Finding Your Ancestors</span></a></li><br><li>Explore resources for British Columbia research on Ancestry. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://search.ancestry.com/Places/Canada/British-Columbia/Default.html\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">AC—British Columbia Resources</span></a></li><br><li>Learn about resources for finding ancestors in British Columbia. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://ukcdngenealogy.blogspot.com/2018/12/finding-your-ancestors-in-bc.html\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Finding Your Ancestors in B.C.</span></a></li><br><li>Use the British Columbia Record Selection Table to decide on records to search. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/British_Columbia_Record_Selection_Table\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—British Columbia Record Selection Table</span></a></li><br><li>Explore a variety of records on the <a class=\"lk\" href=\"https://sites.google.com/site/freecanadianancestry/home/british-columbia\" target=\"_blank\">FreeCanadianAncestry</a> site. </li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Archives and Libraries",
+        "name": "Archives and Libraries",
+        "section_name": "Learn about British Columbia archives and libraries.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about British Columbia archives and libraries.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for archives and libraries. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-bc-lib.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/clocktower-university-1035890/\" target=\"_blank\"> <img src=\"../img/x-ca-bc-lib.jpg\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li>Learn about British Columbia archives and libraries in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/British_Columbia_Archives_and_Libraries\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: British Columbia Archives and Libraries</span></a></li><br><li>Explore <a class=\"lk\" href=\"https://familysearch.org/wiki/en/British_Columbia_Provincial_Archives_(National_Institute)\" target=\"_blank\">British Columbia library links.</a></li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about British Columbia city directories.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about British Columbia city directories in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/British_Columbia_Directories\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: British Columbia Directories</span></a></li><br><li>Explore city directories in British Columbia on the <a class=\"lk\" href=\"http://www.cangenealogy.com/bc-directories.html\" target=\"_blank\">CanGenealogy site</a>.</li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Vital and Census Records",
+        "name": "Vital and Census Records",
+        "section_name": "Learn about British Columbia vital and census records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about British Columbia vital and birth records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for vital and birth records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-bc-vit.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/victoria-bc-british-columbia-855810/\" target=\"_blank\"> <img src=\"../img/x-ca-bc-vit.jpg\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li>Learn about British Columbia vital records in this article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/British_Columbia_Vital_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: British Columbia Vital Records</span></a></li><br><li>Learn how to access vital records for Alberta and British Columbia in this video. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=EyrRsX1F3Ck\" target=\"_blank\"> <img src=\"../img/vid.png\" width=\"20\"> <span class=\"re\">RT—Accessing Alberta and British Columbia Vital Records—19:58</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/EyrRsX1F3Ck?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></li><br><li>Search for vital records on the <a class=\"lk\" href=\"http://search-collections.royalbcmuseum.bc.ca/Genealogy\" target=\"_blank\">Royal British Columbia Museum</a> site.</li><li>Explore birth and adoption resources on the <a class=\"lk\" href=\"http://www2.gov.bc.ca/gov/content/life-events/births-adoptions\" target=\"_blank\">British Columbia Government</a> site.</li><li>Learn about and search British Columbia marriage registrations. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/British_Columbia_Marriage_Registrations_-_FamilySearch_Historical_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS: British Columbia Marriage Registrations</span></a></li><br><li>Get help with adoption topics on the <a class=\"lk\" href=\"https://www.facebook.com/adoptionbc\" target=\"_blank\">Adoption Centre of British Columbia</a> Facebook page.</li><li>Learn about adoption records on the <a class=\"lk\" href=\"http://www.originscanada.org/adoption-records/by-province/british-columbia-adoption-records/\" target=\"_blank\">OriginsCanada</a> site.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore British Columbia death records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for death records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>Learn about and search British Columbia death registrations. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/British_Columbia_Death_Registrations_-_FamilySearch_Historical_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS: British Columbia Death Registrations</span></a></li><br><li>Explore death record resources on the <a class=\"lk\" href=\"http://www2.gov.bc.ca/gov/content/life-events/death-and-bereavement\" target=\"_blank\">British Columbia Government</a> site.</li><li>Explore British Columbia obituaries on the <a class=\"lk\" href=\"https://www.inmemoriam.ca/directory/province/bc-british_columbia/1/\" target=\"_blank\">In Memoriam</a> site.</li> <li>Learn about British Columbia Coroners' records.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://guides.vpl.ca/genealogy/coroners\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">BC Coroners' Records</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore British Columbia census records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for census records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>Get an overview of British Columbia censuses in this article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/British_Columbia_Census\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—British Columbia Census</span></a></li><br><li>Explore the <a class=\"lk\" href=\"http://www.myfreecensus.com/british-columbia-census-records.htm\" target=\"_blank\">MyFreeCensus site</a> for British Columbia state and county census records.</li><li>Explore voter lists and city directories on the <a class=\"lk\" href=\"http://www.bcgenweb.org/bc.htm\" target=\"_blank\">BCGenWeb site</a>.</li></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Church and Cemetery Records",
+        "name": "Church and Cemetery Records",
+        "section_name": "Learn about British Columbia church and cemetery records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about British Columbia church records.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Get an overview of British Columbia church records in this article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/British_Columbia_Church_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—British Columbia Church Records</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore British Columbia cemetery records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for church and cemetery records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-bc-cem.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://commons.wikimedia.org/wiki/File:Barkerville_BC_Cemetery;_Black_%26_White.jpg\" target=\"_blank\"> <img src=\"../img/x-ca-bc-cem.jpg\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"></a>  <li>Explore British Columbia cemetery records in this article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/British_Columbia_Cemeteries\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—British Columbia Cemetery Records</span></a> </li><br><li>Browse the <a class=\"lk\" href=\"http://www.interment.net/can/bc/index.htm\" target=\"_blank\">Interment.net site</a> for British Columbia cemetery records.</li><li>Browse the <a class=\"lk\" href=\"http://www.idreamof.com/canada/cemetery/bc.html\" target=\"_blank\">I Dream of Genealogy</a> site for British Columbia cemetery records.</li><li>Search the <a class=\"lk\" href=\"http://www.findagrave.com/cgi-bin/fg.cgi?page=cs\" target=\"_blank\">Find A Grave site</a> for cemetery records.</li><li>Search the <a class=\"lk\" href=\"http://billiongraves.com/pages/search/\" target=\"_blank\">BillionGraves site</a> for cemetery records.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Emigration and Immigration",
+        "name": "Emigration and Immigration",
+        "section_name": "Learn about British Columbia emigration and immigration.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about British Columbia emigration and immigration.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about British Columbia emigration and immigration in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/British_Columbia_Emigration_and_Immigration\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: British Columbia Emigration and Immigration</span></a></li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Probate, Land and Court",
+        "name": "Probate, Land and Court Records",
+        "section_name": "Learn about British Columbia probate and land records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about British Columbia probate and land records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for probate and land records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-bc-land.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/lighthouse-vancouver-island-canada-2964656/\" target=\"_blank\"> <img src=\"../img/x-ca-bc-land.jpg\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li>Learn about British Columbia probate records in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/British_Columbia_Probate_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: British Columbia Probate Records</span></a></li><br><li>Learn about British Columbia land and property records. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/British_Columbia_Land_and_Property\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—British Columbia Land and Property Records</span></a></li><br></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Maps and Gazetteers",
+        "name": "Maps and Gazetteers",
+        "section_name": "Learn about British Columbia maps and gazetteers.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore British Columbia maps and gazetteers.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-bc-map.jpg"
+                    ],
+                    "text": "<ol><a href=\"http://www.bcmag.ca/Historic-Photographs-of-Vancouver-Recreated\" target=\"_blank\"> <img src=\"../img/x-ca-bc-map.jpg\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-left: 16px\"></a><li>Explore the <a class=\"lk\" href=\"http://www.davidrumsey.com/luna/servlet/view/search?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&amp;q=british_columbia&amp;search=Go\" target=\"_blank\">David Rumsey collection</a> of British Columbia maps.</li><li>Explore the <a class=\"lk\" href=\"https://www.canadiana.ca/search/?so=alphabetical&amp;q1.0=AND&amp;q0.0=%22Maps+of+the+National+Topographic+System+of+Canada%22&amp;q2.0=%22British+Columbia%22\" target=\"_blank\">Canadiana maps collection</a>.</li><li>Explore the <a class=\"lk\" href=\"http://www.lib.utexas.edu/maps/canada.html\" target=\"_blank\">Perry-Castaneda site</a> for maps of British Columbia (search for British Columbia on the page).</li><li>Explore <a class=\"lk\" href=\"http://www.historicmapworks.com/Browse/Maps/\" target=\"_blank\">historical British Columbia maps</a> on the Historic Map Works site. Select North America, Canada, and British Columbia in the drop-down menus.</li><li>Find British Columbia towns and communities on the <a class=\"lk\" href=\"https://roadsidethoughts.com/bc/index-a.htm\" target=\"_blank\">RoadsideThoughts site</a>.</li><li>Search for British Columbia place names on the <a class=\"lk\" href=\"https://www.johncardinal.com/ca/bc/places.htm\" target=\"_blank\">John Cardinal site</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Newspapers",
+        "name": "Newspapers",
+        "section_name": "Learn about British Columbia newspapers.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about British Columbia newspapers.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "  fs—wiki: british columbia newspapers",
+                            "content": "<br>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-bc-news.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://en.wikipedia.org/wiki/The_Vancouver_Sun#/media/File:Vancouver_Sun_Tower.jpg\" target=\"_blank\"> <img src=\"../img/x-ca-bc-news.jpg\" alt=\"\" width=\"250px\" border=\"1\" style=\"float:right; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li>Find links to <a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Wikipedia:List_of_online_newspaper_archives#British_Columbia\" target=\"_blank\"> British Columbia newspapers</a> on the Wikipedia site.</li> <li>Learn about British Columbia newspapers in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/British_Columbia_Newspapers\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: British Columbia Newspapers</span></a><div class=\"choice\"><br></div></li><li>Learn about researching historical British Columbia newspapers in this tutorial from The Ancestor Hunt. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.theancestorhunt.com/blog/how-to-research-the-british-columbia-historical-newspaper-collection\" target=\"_blank\"><br><img src=\"../img/vid.png\" width=\"20\"> <span class=\"re\">Research Free Historical British Columbia Newspapers—6:15</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore British Columbia newspapers.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore British Columbia newspaper resources on the <a class=\"lk\" href=\"http://www.cangenealogy.com/bc-news.html\" target=\"_blank\">CanGenealogy</a> site.</li><li>Search British Columbia newspapers in the <a class=\"lk\" href=\"http://www.onlinenewspapers.com/canadabc.htm\" target=\"_blank\">onlinenewspapers.com</a> site.</li><li>Search the <a class=\"lk\" href=\"https://sites.google.com/site/onlinenewspapersite/Home/can/bc\" target=\"_blank\">British Columbia Online Historical Newspapers</a> site.</li><li>Search British Columbia newspapers in the <a class=\"lk\" href=\"http://www.world-newspapers.com/british-columbia.html\" target=\"_blank\">world-newspapers.com</a> site.</li><li>Search British Columbia newspapers in the <a class=\"lk\" href=\"http://www.abyznewslinks.com/canadbc.htm\" target=\"_blank\">ABYZ News Link</a> site.</li><li>Explore British Columbia newspaper resources on the <a class=\"lk\" href=\"http://www.theancestorhunt.com/blog/british-columbia-online-historical-newspapers-summary\" target=\"_blank\">Ancestor Hunt</a> site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Websites",
+        "name": "Websites",
+        "section_name": "Explore additional websites for research.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "There are a number of websites with valuable resources for British Columbia research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore links on the <a class=\"lk\" href=\"http://www.cangenealogy.com/bc.html\" target=\"_blank\">CanGenealogy</a> site.</li><li>Explore links in <a class=\"lk\" href=\"http://www.cyndislist.com/canada/provinces/bc\" target=\"_blank\">Cyndi's List</a>.</li><li>Explore links in <a class=\"lk\" href=\"http://www.genealogylinks.net/canada/british_columbia/index.html\" target=\"_blank\">GenealogyLinks.net</a>.</li> </ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Search Records",
+        "name": "Search Records",
+        "section_name": "Search records from British Columbia.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Use QUIKLinks to quickly search record collections for British Columbia.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ul><li>QUIKLinks are indicated by lightning-bolt icons in the Goal header area and in the page.</li><li>QUIKLinks point to collections with 50,000 or more records.</li></ul>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore additional record collections.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore the <a class=\"lk\" href=\"https://familysearch.org/wiki/en/British_Columbia_Online_Genealogy_Records\" target=\"_blank\">FamilySearch page</a> for online genealogy records.</li><li>Explore additional record collections in <a class=\"lk\" href=\"https://www.ancestry.com/search/collections/catalog/?keyword=British+Columbia\" target=\"_blank\">Ancestry</a>.</li><li>Explore additional record collections in <a class=\"lk\" href=\"https://search.findmypast.com/historical-records?page=1&amp;region=canada&amp;subcountry=british%20columbia\" target=\"_blank\">Findmypast</a>.</li><li>Explore additional record collections in <a class=\"lk\" href=\"https://www.myheritage.com/research/catalog?location=British-Columbia&amp;s=257937091\" target=\"_blank\">MyHeritage</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Get Help",
+        "name": "Get Help",
+        "section_name": "Get help with your British Columbia research.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Use Facebook pages to get answers to your questions.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/fh-help3.jpg"
+                    ],
+                    "text": "<ol><a href=\"../img/fh-help3.jpg\" target=\"_blank\"> <img src=\"../img/fh-help3.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 350px;\"></a>  <li>Visit the <a class=\"lk\" href=\"https://www.facebook.com/kamloopsgenealogy/\" target=\"_blank\">Kamloops Family History Society page</a> on Facebook.</li><li>Find additional Facebook pages for British Columbia genealogy on the <a class=\"lk\" href=\"http://socialmediagenealogy.com/genealogy-on-facebook-list\" target=\"_blank\">Genealogy on Facebook</a> site.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Join a mailing list or message board for British Columbia research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Join the <a class=\"lk\" href=\"http://www.rootschat.com/forum/canada/\" target=\"_blank\">RootsChat forum</a> and post questions about British Columbia research.</li><li>Search the <a class=\"lk\" href=\"http://bigfile.rootsweb.ancestry.com/cgi-bin/listsearch\" target=\"_blank\">RootsWeb site </a> for British Columbia research mailing lists.</li><li>Explore the <a class=\"lk\" href=\"http://www.cyndislist.com/canada/provinces/bc/social/\" target=\"_blank\"> British Columbia research mailing lists</a> on Cyndi's List.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about British Columbia genealogy societies.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about genealogy societies in British Columbia in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/British_Columbia_Societies\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: British Columbia Societies</span></a></li><br><li>Explore <a class=\"lk\" href=\"http://www.cyndislist.com/canada/provinces/bc/societies/\" target=\"_blank\">British Columbia genealogy society sites</a> on Cyndi's list.</li><li>Get help at a <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Category:British_Columbia_Family_History_Centres\" target=\"_blank\">family history center in British Columbia</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

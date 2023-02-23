@@ -1,0 +1,327 @@
+[
+    {
+        "nav_name": "Research and Records",
+        "name": "Research and Records",
+        "section_name": "Learn about Nova Scotia research and records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Get started with research for your Nova Scotia ancestors.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for research resources. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-ns-over.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/lighthouse-ocean-sea-coast-travel-1872998/\" target=\"_blank\"> <img src=\"../img/x-ca-ns-over.jpg\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li>Learn about finding your ancestors in Nova Scotia. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Nova_Scotia,_Canada_Genealogy\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki:—Nova Scotia—Finding Your Ancestors</span></a></li><br><li>Get an introduction to genealogy on the Nova Scotia GenWeb site. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://sites.rootsweb.com/~canns/nsresources.html\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Nova Scotia Genealogy</span></a></li><br><li>Explore resources for Nova Scotia research on Ancestry. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://search.ancestry.com/Places/Canada/Nova-Scotia/Default.aspx\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">AC—Nova Scotia Resources</span></a></li><br><li>Explore the <a class=\"lk\" href=\"https://archives.novascotia.ca/genealogy-guide\" target=\"_blank\">Genealogy Guide</a> on the Nova Scotia Archives site.</li><li>Learn about resources for finding ancestors in Nova Scotia. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://ukcdngenealogy.blogspot.com/2018/08/finding-your-ancestor-in-nova-scotia.html\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Finding Your Ancestor in Nova Scotia</span></a><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.americanancestors.org/tools/nova-scotia-genealogy\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">AA—Nova Scotia Genealogy</span></a></li><br><li>Learn about Atlantic Canadian resources for research. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=sH4NniIADD8\" target=\"_blank\"> <img src=\"../img/vid.png\" width=\"20\"> <span class=\"re\">AA—Atlantic Canadian Resources at NEHGS—58:27</span></a><br><br><iframe width=\"330\" height=\"220\" src=\"https://www.youtube.com/embed/sH4NniIADD8?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li>Use the Nova Scotia Record Selection Table to decide on records to search. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Nova_Scotia_Record_Selection_Table\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Nova Scotia Record Selection Table</span></a></li><br><li>Explore a variety of records on the <a class=\"lk\" href=\"https://sites.google.com/site/freecanadianancestry/home/nova-scotia\" target=\"_blank\">FreeCanadianAncestry</a> site. </li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Archives and Libraries",
+        "name": "Archives and Libraries",
+        "section_name": "Learn about Nova Scotia archives and libraries.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Nova Scotia archives and libraries.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for archives and libraries. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-ns-lib.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://www.cruisebe.com/halifax-central-library-canada#image-21855\" target=\"_blank\"> <img src=\"../img/x-ca-ns-lib.jpg\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li>Learn about Nova Scotia archives and libraries in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Nova_Scotia_Archives_and_Libraries\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Nova Scotia Archives and Libraries</span></a></li><br><li>Learn about resources available on the Nova Scotia Archives site. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://archives.novascotia.ca/genealogy-guide/\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Genealogy Guide</span></a></li><br><br><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Nova Scotia city directories.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about Nova Scotia city directories in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Nova_Scotia_Directories\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Nova Scotia Directories</span></a></li><br><li>Explore city directories in Nova Scotia on the <a class=\"lk\" href=\"http://www.cangenealogy.com/ns-directories.html\" target=\"_blank\">CanGenealogy site</a>.</li><li>Find additional resources for city directories on the <a class=\"lk\" href=\"https://archives.novascotia.ca/provincial-city-directories/\" target=\"_blank\">Nova Scotia Archives site</a>.</li><li>Explore township records on the <a class=\"lk\" href=\"https://archives.novascotia.ca/township-records/\" target=\"_blank\">Nova Scotia Archives site</a>.</li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Vital and Census Records",
+        "name": "Vital and Census Records",
+        "section_name": "Learn about Nova Scotia vital and census records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Nova Scotia vital and birth records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for vital and birth records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-ns-vit.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/halifax-nova-scotia-skyline-1246440/\" target=\"_blank\"> <img src=\"../img/x-ca-ns-vit.jpg\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li>Learn about Nova Scotia vital records in this article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Nova_Scotia_Vital_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Nova Scotia Vital Records</span></a></li><br><li>Explore Nova Scotia vital records on the <a class=\"lk\" href=\"https://archives.novascotia.ca/vital-statistics/\" target=\"_blank\"> Nova Scotia Archives site</a>.</li><li>Read this case study in Nova Scotia vital record research, from Olive Tree Genealogy. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://olivetreegenealogy.blogspot.com/2019/12/using-search-engine-tools-provided-to.html\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">OT— Using Search Engine Tools Provided to Find an Ancestor</span></a></li><br><li>Learn about adoption records on the <a class=\"lk\" href=\"http://www.originscanada.org/adoption-records/by-province/nova-scotia-adoption-records/\" target=\"_blank\">OriginsCanada</a> site.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Nova Scotia census records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for census records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>Get an overview of Nova Scotia censuses in this article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Nova_Scotia_Census\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Nova Scotia Census</span></a></li><br><li>Explore Nova Scotia census and poll tax records on the <a class=\"lk\" href=\"https://archives.novascotia.ca/census-poll-tax/\" target=\"_blank\">Nova Scotia Archives site</a>.</li><li>Explore the <a class=\"lk\" href=\"http://www.myfreecensus.com/nova-scotia-census-records.htm\" target=\"_blank\">MyFreeCensus site</a> for Nova Scotia province and county census records.</li><li>Download census information files from the <a class=\"lk\" href=\"http://sites.rootsweb.com/~canns/#VITALSTATS\" target=\"_blank\">Nova Scotia GenWeb site</a>.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Nova Scotia death records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for death records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>Learn about and search Nova Scotia death records. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/Nova_Scotia_Deaths,_1890-1955_-_FamilySearch_Historical_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS: Nova Scotia Death Records</span></a></li><br><li>Explore death record resources on the <a class=\"lk\" href=\"https://www.deathindexes.com/canada.html\" target=\"_blank\">Death Indexes</a> site.</li><li>Explore Nova Scotia obituaries on the <a class=\"lk\" href=\"https://www.inmemoriam.ca/directory/province/ns-nova-scotia/1/\" target=\"_blank\">In Memoriam</a> site.</li> </ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Church and Cemetery Records",
+        "name": "Church and Cemetery Records",
+        "section_name": "Learn about Nova Scotia church and cemetery records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Nova Scotia church records.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-ns-church.jpg"
+                    ],
+                    "text": "<ol><img src=\"../img/x-ca-ns-church.jpg\" alt=\"\" width=\"400px\" style=\"float:right; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Get an overview of Nova Scotia church records in this article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Nova_Scotia_Church_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Nova Scotia Church Records</span></a></li><br><li>Explore Nova Scotia church records on the <a class=\"lk\" href=\"https://archives.novascotia.ca/church-records/\" target=\"_blank\">Nova Scotia Archives site</a>.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Nova Scotia cemetery records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for church and cemetery records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-ns-cem.jpg"
+                    ],
+                    "text": "<ol><a href=\"http://www.atlasobscura.com/places/fairview-cemetery-titanic\" target=\"_blank\"> <img src=\"../img/x-ca-ns-cem.jpg\" alt=\"\" width=\"450px\" style=\"float:right; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"></a>  <li>Explore Nova Scotia cemetery records in this article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Nova_Scotia_Cemeteries\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Nova Scotia Cemetery Records</span></a> </li><br><li>Explore Nova Scotia cemetery records on the <a class=\"lk\" href=\"https://archives.novascotia.ca/cemetery-records/\" target=\"_blank\">Nova Scotia Archives site</a>.</li><li>Browse the <a class=\"lk\" href=\"http://www.interment.net/can/ns/index.htm\" target=\"_blank\">Interment.net site</a> for Nova Scotia cemetery records.</li><li>Search for records from various Nova Scotia cemeteries on the <a class=\"lk\" href=\"http://www.acadian-cemeteries.acadian-home.org/frames.html\" target=\"_blank\">AcadianGenweb</a> site.</li><li>Search the <a class=\"lk\" href=\"http://www.findagrave.com/cgi-bin/fg.cgi?page=cs\" target=\"_blank\">Find A Grave site</a> for cemetery records.</li><li>Search the <a class=\"lk\" href=\"http://billiongraves.com/pages/search/\" target=\"_blank\">BillionGraves site</a> for cemetery records.</li></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Emigration and Immigration",
+        "name": "Emigration and Immigration",
+        "section_name": "Learn about Nova Scotia emigration and immigration.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Nova Scotia emigration and immigration.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about Nova Scotia emigration and immigration in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Nova_Scotia_Emigration_and_Immigration\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Nova Scotia Emigration and Immigration</span></a></li><br><li>Learn about New England planters who migrated from Rhode Island to Nova Scotia.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=XqXGPCZYGas\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">AA—Researching New England Planters to Nova Scotia—72:00</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/XqXGPCZYGas?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li>Learn about Acadian settlers in Nova Scotia in this American Ancestors article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.americanancestors.org/tools/acadian-genealogy\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">AA—Acadian Genealogy</span></a></li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Probate, Land and Court",
+        "name": "Probate, Land and Court Records",
+        "section_name": "Learn about Nova Scotia probate and land records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Nova Scotia probate and land records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for probate and land records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-ns-land.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/historic-gardens-nova-scotia-2873488/\" target=\"_blank\"> <img src=\"../img/x-ca-ns-land.jpg\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li>Learn about Nova Scotia probate records in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Nova_Scotia_Probate_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Nova Scotia Probate Records</span></a></li><br><li>Learn about Nova Scotia land and property records. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Nova_Scotia_Land_and_Property\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Nova Scotia Land and Property Records</span></a></li><br><li>Learn more about resources for Nova Scotia land records. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://archives.novascotia.ca/land-records/\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Land Records</span></a></li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Maps and Gazetteers",
+        "name": "Maps and Gazetteers",
+        "section_name": "Learn about Nova Scotia maps and gazetteers.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore Nova Scotia maps and gazetteers.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-ns-map.jpg"
+                    ],
+                    "text": "<ol><a href=\"http://www.torontopubliclibrary.ca/detail.jsp?R=DC-912-716-C364-FRA\" target=\"_blank\"> <img src=\"../img/x-ca-ns-map.jpg\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-left: 16px\"></a><li>Explore the <a class=\"lk\" href=\"http://www.davidrumsey.com/luna/servlet/view/search?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&amp;q=nova_scotia&amp;search=Go\" target=\"_blank\">David Rumsey collection</a> of Nova Scotia maps.</li><li>Explore the map collection on the <a class=\"lk\" href=\"https://archives.novascotia.ca/maps/\" target=\"_blank\">Nova Scotia archives site</a>.</li><li>Explore the <a class=\"lk\" href=\"https://www.canadiana.ca/search/?so=alphabetical&amp;q2.0=%22Nova+Scotia%22&amp;q0.0=%22Maps+of+the+National+Topographic+System+of+Canada%22&amp;q1.0=AND\" target=\"_blank\">Canadiana maps collection</a>.</li><li>Explore the <a class=\"lk\" href=\"http://www.lib.utexas.edu/maps/canada.html\" target=\"_blank\">Perry-Castaneda site</a> for maps of Nova Scotia (search for Nova Scotia on the page).</li><li>Explore <a class=\"lk\" href=\"http://www.historicmapworks.com/Browse/Maps/\" target=\"_blank\">historical Nova Scotia maps</a> on the Historic Map Works site. Select North America, Canada, and Nova Scotia in the drop-down menus.</li><li>Find Nova Scotia towns and communities on the <a class=\"lk\" href=\"https://roadsidethoughts.com/ns/index-a.htm\" target=\"_blank\">RoadsideThoughts site</a>.</li><li>Search for Nova Scotia place names on the <a class=\"lk\" href=\"https://www.johncardinal.com/ca/ns/places.htm\" target=\"_blank\">John Cardinal site</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Newspapers",
+        "name": "Newspapers",
+        "section_name": "Learn about Nova Scotia newspapers.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Nova Scotia newspapers.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "  fs—wiki: nova scotia newspapers",
+                            "content": "<br>"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>Learn about Nova Scotia newspapers in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Nova_Scotia_Newspapers\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Nova Scotia Newspapers</span></a><div class=\"choice\"><br></div></li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Nova Scotia newspapers.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-ns-news.png"
+                    ],
+                    "text": "<ol><img src=\"../img/x-ca-ns-news.png\" alt=\"\" width=\"200px\" border=\"1\" style=\"float:right; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Find links to <a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Wikipedia:List_of_online_newspaper_archives#Nova_Scotia\" target=\"_blank\"> Nova_Scotia newspapers</a> on the Wikipedia site.</li> <li>Explore Nova Scotia newspaper resources on the <a class=\"lk\" href=\"http://www.cangenealogy.com/ns-news.html\" target=\"_blank\">CanGenealogy</a> site.</li><li>Search Nova Scotia newspapers in the <a class=\"lk\" href=\"http://www.onlinenewspapers.com/canadans.htm\" target=\"_blank\">onlinenewspapers.com</a> site.</li><li>Search the <a class=\"lk\" href=\"https://sites.google.com/site/onlinenewspapersite/Home/can/ns\" target=\"_blank\">Nova Scotia Online Historical Newspapers</a> site.</li><li>Search Nova Scotia newspapers in the <a class=\"lk\" href=\"http://www.world-newspapers.com/nova-scotia.html\" target=\"_blank\">world-newspapers.com</a> site.</li><li>Search Nova Scotia newspapers in the <a class=\"lk\" href=\"http://www.abyznewslinks.com/canadns.htm\" target=\"_blank\">ABYZ News Link</a> site.</li><li>Explore Nova Scotia newspaper resources on the <a class=\"lk\" href=\"http://www.theancestorhunt.com/blog/nova-scotia-online-historical-newspapers-summary\" target=\"_blank\">Ancestor Hunt</a> site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Websites",
+        "name": "Websites",
+        "section_name": "Explore additional websites for research.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "There are a number of websites with valuable resources for Nova Scotia research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore links on the <a class=\"lk\" href=\"http://www.cangenealogy.com/ns.html\" target=\"_blank\">CanGenealogy</a> site.</li><li>Explore links in <a class=\"lk\" href=\"http://www.cyndislist.com/canada/provinces/ns\" target=\"_blank\">Cyndi's List</a>.</li><li>Explore links in <a class=\"lk\" href=\"http://www.genealogylinks.net/canada/nova_scotia/index.html\" target=\"_blank\">GenealogyLinks.net</a>.</li> </ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Search Records",
+        "name": "Search Records",
+        "section_name": "Search records from Nova Scotia.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Use QUIKLinks to quickly search record collections for Nova Scotia.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ul><li>QUIKLinks are indicated by lightning-bolt icons in the Goal header area and in the page.</li><li>QUIKLinks point to collections with 50,000 or more records.</li></ul>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore additional record collections.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore the <a class=\"lk\" href=\"https://familysearch.org/wiki/en/Nova_Scotia_Online_Genealogy_Records\" target=\"_blank\">FamilySearch page</a> for online genealogy records.</li><li>Explore additional record collections in <a class=\"lk\" href=\"https://www.ancestry.com/search/collections/catalog/?keyword=Nova_Scotia\" target=\"_blank\">Ancestry</a>.</li><li>Explore additional record collections in <a class=\"lk\" href=\"https://search.findmypast.com/historical-records?page=1&amp;region=canada&amp;subcountry=nova%20scotia\" target=\"_blank\">Findmypast</a>.</li><li>Explore additional record collections in <a class=\"lk\" href=\"https://www.myheritage.com/research/catalog?location=Nova-Scotia&amp;s=257937091\" target=\"_blank\">MyHeritage</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Get Help",
+        "name": "Get Help",
+        "section_name": "Get help with your Nova Scotia research.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Use Facebook pages to get answers to your questions.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/fh-help3.jpg"
+                    ],
+                    "text": "<ol><a href=\"../img/fh-help3.jpg\" target=\"_blank\"> <img src=\"../img/fh-help3.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 350px;\"></a>  <li>Visit the <a class=\"lk\" href=\"https://www.facebook.com/groups/novascotiagenealogy/\" target=\"_blank\">Nova Scotia Genealogy page</a> on Facebook.</li><li>Visit the <a class=\"lk\" href=\"https://www.facebook.com/NovaScotiaAncestors/\" target=\"_blank\">Genealogical Association of Nova Scotia page</a> on Facebook.</li><li>Visit the <a class=\"lk\" href=\"https://www.facebook.com/groups/2224685391\" target=\"_blank\">Acadian Genealogy</a> Facebook page.</li><li>Find additional Facebook pages for Nova Scotia genealogy on the <a class=\"lk\" href=\"http://socialmediagenealogy.com/genealogy-on-facebook-list\" target=\"_blank\">Genealogy on Facebook</a> site.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Join a mailing list or message board for Nova Scotia research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Join the <a class=\"lk\" href=\"http://www.rootschat.com/forum/canada/\" target=\"_blank\">RootsChat forum</a> and post questions about Nova Scotia research.</li><li>Search the <a class=\"lk\" href=\"http://bigfile.rootsweb.ancestry.com/cgi-bin/listsearch\" target=\"_blank\">RootsWeb site </a> for Nova Scotia research mailing lists.</li><li>Explore the <a class=\"lk\" href=\"http://www.cyndislist.com/canada/provinces/ns/social/\" target=\"_blank\"> Nova Scotia research mailing lists</a> on Cyndi's List.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Nova Scotia genealogy societies.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about genealogy societies in Nova Scotia in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Nova Scotia_Societies\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Nova Scotia Societies</span></a></li><br><li>Explore the <a class=\"lk\" href=\"http://www.novascotiaancestors.ca/\" target=\"_blank\">Genealogical Association of Nova Scotia</a> site.</li><br><li>Explore <a class=\"lk\" href=\"http://www.cyndislist.com/canada/provinces/ns/societies/\" target=\"_blank\">Nova Scotia genealogy society sites</a> on Cyndi's list.</li><li>Get help at a <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Category:Nova_Scotia_Family_History_Centres\" target=\"_blank\">family history center in Nova Scotia</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

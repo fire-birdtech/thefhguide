@@ -1,0 +1,241 @@
+[
+    {
+        "nav_name": "MyHeritage Account and Tree",
+        "name": "Set Up Your Account and Tree",
+        "section_name": "Choose a MyHeritage account and start your tree.",
+        "summary": "<p><i>Note</i>: If you are setting up a Church of Jesus Christ Partner account, skip ahead to Choice B below.</p>",
+        "choices": [
+            {
+                "name": "Create a MyHeritage account and start your family tree.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/start-tree.JPG",
+                        "https://www.thefhguide.com/img/mh/trial.png"
+                    ],
+                    "text": "<ol><li>Go to the <a class=\"lk\" href=\"https://www.myheritage.com\" target=\"_blank\">MyHeritage</a> site.</li><img src=\"img/mh/start-tree.JPG\" width=\"200px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li><i>Note</i> : If you already have a paid account with MyHeritage, follow the steps in the article below to create your online tree; then skip to Goal 2 in this Project. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.myheritage.com/help-center/en/article/how-do-i-create-my-family-tree-on-myheritage\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">MH—How do I create my family tree on MyHeritage?</span></a></li><br><li>If you are creating a Church of Jesus Christ Partner account, skip ahead to Choice B below.<p></p></li><li>Fill in the \"Start your free trial\" dialog (valid for 14 days). To set up your trial account, you can use Facebook or Google, or you can specify an email address.</li><br><img src=\"img/mh/trial.png\" width=\"300px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>A GEDCOM (Genealogical Data Communication) file is a text file with basic information about people in a family tree. It can be created (exported) from an existing family tree, and then imported to a new tree to populate that tree. If you have an existing family tree database and have made a GEDCOM file of it, <br>a) Click \"Import tree (GEDCOM) at the bottom of the dialog; <br>b) Click <b>Choose File</b>; <br>c) Navigate to your GEDCOM file; and <br>d) Click <b>Open</b>. Then skip ahead to Goal 2.</li><li>Click <b>Continue</b> and then fill in the payment information that will be used if and when your account is converted to a paid account. Choose a password and confirm it in the dialog.</li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "Read this article for an overview of the types of trees you can use on MyHeritage.",
+                                "links": [
+                                    {
+                                        "link": "https://faq.myheritage.com/en/article/what-are-the-different-types-of-family-trees-i-can-have",
+                                        "text": "MH—Different Types of Family Trees",
+                                        "type": "document"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "(Optional) Create a free Church of Jesus Christ Partner account.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/partner-access.JPG"
+                    ],
+                    "text": "<ol><li>Go to the <a class=\"lk\" href=\"https://familysearch.org/partneraccess\" target=\"_blank\">Partner Access page</a> on FamilySearch.</li><img src=\"img/mh/partner-access.JPG\" width=\"150px\" style=\"float:right; margin-left:16px; margin-top:16px; border:1px solid #000; padding:0px;\"><li>Click <b>Join for Free</b> below the MyHeritage logo.</li><li>Sign in to FamilySearch.</li><li>Click \"Create Your Free MyHeritage Account\".</li><li>In the Account Creation page, fill out fields (including email and password) and click <b>Register</b>.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Sync your part of the FamilySearch Tree with a MyHeritage tree.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Watch this video for tree synchronization tips.<br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=_U0MzB9E93Q\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">MH—Syncing Your FamilySearch Tree with MyHeritage—16:49 - 2022</span></a></li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Customize Account",
+        "name": "Customize Your Account",
+        "section_name": "Customize your site settings.",
+        "summary": "<p>Your site settings help you control aspects of your MyHeritgae account, such as your profile, privacy settings, etc.</p>",
+        "choices": [
+            {
+                "name": "Change your site settings as needed.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-laptop-fingers.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/y-laptop-fingers.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 350px;; border:1px solid #000; padding:0px;\"><li>In the top menu bar, click your name and select <b>Site settings</b>.</li><li>Click any of the Settings links near the top of your MyHeritage Settings screen. These links are described below:<ul style=\"margin-left:-88px;\"><li><i>Site account</i>—See your current MyHeritage subscription plan details, including expiration date (if any), storage used, persons in your family tree, etc.  If you make changes, click <b>Save</b>. Click <b>Extend site plan</b> if you want to upgrade your membership.</li><li><i>My preferences</i>—Manage email notifications and event reminders.  If you make changes, click <b>Save</b>.</li><li><i>My privacy</i>—Set preferences for your name and profile info on the site, DNA matching, cookies, access to your site, and content for your site. If you make changes, click <b>Save</b>.</li><li><i>General</i>—Customize settings for site (first tab), personalized photo (second tab), and deleting the site (third tab). If you make changes, click <b>Save</b>.</li><li><i>Home page</i>—Customize a welcome message and add an image to it (first tab), or use the second tab to a) show random photo previews, <br>b) Choose the root person for your tree, and <br>c) Show notifications for new MyHeritage features. If you make changes, click <b>Save</b>.</li><li><i>Calendar</i>—Import events to your calendar, and customize your calendar by culture or geography. If you make changes, click <b>Save</b>.</li><li><i>Genealogy</i>—Customize settings for married women names and  your family tree summary. Also write a welcome message, write about your family, and describe its research challenges. If you make changes, click <b>Save</b>.</li><li><i>My purchases</i>—Show your current site subscriptions.</li></ul></li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Change other site account settings as needed.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>To access other account settings besides the ones mentioned in Choice A, click your name in the top menu bar. A drop-down menu appears:<ul style=\"margin-left:-88px;\"><li><i>My profile</i>—See details about your account (Info tab) or Events (Events tab). You can add events in the Events tab, or use the DNA tab to upload data from another DNA test source, if any, to MyHeritage. (Follow the onscreen prompts and click <b>Upload DNA data file(s)</b>).</li><li><i>Account settings</i>—Shows your personal info, email and password info, authentication info, and an option to delete your current account and tree.</li><li><i>My sites</i>—Shows details for your current site. You can click to go to the site, or click \"Create another tree\".</li><li><i>My privacy</i>—View and set privacy details for member account, DNA, cookies, access to the site, and site content.</li><li><i>My purchases</i>—Shows subscription details.</li><li><i>Log out</i>—Log out of your current MyHeritage session.</li><li><i>Account ID</i>—You can use your account ID to verify your account when getting help from MyHeritage Support.</li></ul></li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "This article explains how to change your password and email settings.",
+                                "links": [
+                                    {
+                                        "link": "https://faq.myheritage.com/en/article/how-do-i-change-my-email-address-andor-password",
+                                        "text": "MH—Change password and email settings",
+                                        "type": "document"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "This article shows you how to find your account ID.",
+                                "links": [
+                                    {
+                                        "link": "https://faq.myheritage.com/en/article/how-can-i-find-my-account-id",
+                                        "text": "MH—How Can I Find My Account ID?",
+                                        "type": "document"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Edit Home Page",
+        "name": "Edit and View Your Home Page",
+        "section_name": "Edit and View Your Home page.",
+        "summary": "<p>In your Home page you can set up Welcome text, post family news, invite people to your site, and more.</p>",
+        "choices": [
+            {
+                "name": "Add a description for the site.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>On your Home page, in the lower left, click <b>Add</b>.</li><li>Write a description for your family site. This will give relatives and visitors an overview of your site.</li><li>Click <b>Save</b>.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "View information items on your Home page.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>On the left side you can see a summary of statistics about the site.</li><li>To add a photo for the top section, <br>a) Click the photo icon (upper right); <br>b) Select <b>Upload photo</b> to add a nmew photo, or <b>Use site photo</b> to use a photo already on the site; and <br>c) Follow the prompts to complete the photo addition.</li><li>In the center section you can review recent Discoveries and see recent activities on the site. These may include viewing photo albums, restoring photos, welcoming new members to the site, etc.</li><li>On the right side you can do basic or advanced searches in the MyHeritage record collections.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Invite family members to the site.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>In the <b>Home</b> menu click <b>Invite family</b>.</li><li>Enter the email address for each member to be invited.</li><li>Click <b>Invite</b> for each email address. </li><li>If there are many people already in your tree, including deceased ancestors, it may be easier to invite them manually. At the bottom of the page, click the \"Invite other people manually\" link, fill in their contact information, and then click <b>Invite</b>.</li><li>For details about inviting members to your site, read this article.<br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://faq.myheritage.com/en/article/how-do-i-invite-members-to-my-family-site\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">MH—How Do I Invite Members to My Family Site</span></a></li><br><li>This article explains privileges for members you invite to your site.<br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://faq.myheritage.com/en/article/what-privileges-do-my-site-members-have\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">MH—What Privileges Do My Site Members Have?</span></a></li><br><li>Read this article for instructions on removing members from your site.<br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://faq.myheritage.com/en/article/how-do-i-remove-a-member-from-my-family-site\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">MH—How Do I Remove a Member from My Family Site?</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Add events and view them on the site or in your calendar.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/home-post-event.JPG"
+                    ],
+                    "text": "<ol><img src=\"img/mh/home-post-event.JPG\" width=\"450px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>In the Home menu, select <b>Family events</b>.</li><li>To post an event to your calendar, click <b>Post an event</b> (right side of the Home page). Then add the title, date, time, place, and description for the event and click <b>Post it</b>. A site member window appears.</li><li>Select any site members who should receive the message, and add other recipients. (If you don't want to notify others, click \"Don't notify site members\" at the bottom left.)</li><li>If needed, update the subject and message text, and then click <b>Send</b>.</li><li>To search for an event in the list, type one or more words in the \"Find an event\" box and click the blue Search arrow. You can also use the Advanced Search link to search for all fields, title, description, submitter, or comments.</li><li>Missing family events (birthdays, anniversaries, etc.) are listed at the right of the Family events screen. To add an event, <br>a) Click <b>Add</b>; <br>b) Select the month and day of the event; <br>c) Edit the year; and <br>d) Click the <b>Add</b> button.</li> <li>To view more details for an event, click the event link. You can then add the event to Outlook, or to your calendar, or delete the event. For calendar settings, see <a href=\"project-1-welcome-mh02.html#a\" target=\"_blank\">Choice A</a> in Goal 2 of this Project. <br><i>Note</i> : Events are automatically removed from the calendar after they occur.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "View statistics for your site and perform other tasks.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/home-stats.JPG"
+                    ],
+                    "text": "<ol><img src=\"img/mh/home-stats.JPG\" width=\"650px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>Choose <b>Family statistics</b> from the Home menu. The following categories and descriptions are included, with pie charts, lists, etc. (You may need to wait  while statistics are prepared; you can refresh the browser to check for results.)<ul style=\"margin-left:-88px;\"><li><i>Overview</i>—Pie charts: gender, living vs. deceased, relationship status. Lists: Common last names, common first names (male or female).</li><li><i>Relationships</i>—Gives overviews and diagrams of how people in your tree are related to you.</li><li><i>Places</i>—Maps of places of birth, death, and residence, with percentages by country.</li><li><i>Ages</i>—Charts: Age distribution, average life expectancy. Lists: oldest living people, youngest people, longest lives, shortest lives.</li><li><i>Births</i>—Charts: birth month percentages, zodiac sign percentages, birth decade percentages.</li><li><i>Marriages</i>—Charts: number of marriages, age at marriage. Lists: married the most, when married, oldest when married, youngest when married, longest marriage, shortest marriage, husband much older, wife much older.</li><li><i>Children</i>—Charts: number of children per family, age (decade) when having children. Lists: families with most children, people with most children, oldest when having a child, youngest when having a child, age differences (oldest and youngest children), largest age differences, smallest age differences.</li><li><i>Divorces</i>—Lists: number of divorces, divorced most times, longest marriage ending in divorce, age when divorced, oldest when divorced, youngest when divorced.</li></ul></li><li>To see people who are members of the site, select <b>Site members</b> from the Home menu. You can sort the list (left side) or scroll through it (lower left). The following actions are available:<ul style=\"margin-left:-88px;\"><li><i>Member type</i>—In the upper left, click the drop-down menu to select All members, Never visited, Visited, Site managers, or Requested membership.</li><li><i>Find a person</i>—To find a person in the list, click the search box (upper left), type a name, and click the blue arrow. To see advanced options for searching, click \"Show advanced search.\"</li><li><i>Member type</i>—In the upper left, click the drop-down menu to select All members, Never visited, Visited, Site managers, or Requested membership.</li><li><i>Sorting</i>—Below \"All members\" you can sort by first name, last name, address, or last visit.</li></ul></li><li>To invite family members to the site, click <b>Invite family</b> (see instructions above for inviting members).</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "MyHeritage Inbox",
+        "name": "MyHeritage Inbox",
+        "section_name": "Manage your MyHeritage Inbox.",
+        "summary": "<p>You can communicate with other MyHeritage users using your MyHeritage Inbox, sending and receiving messages.</p>",
+        "choices": [
+            {
+                "name": "Read and send messages.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/sent-messages.JPG",
+                        "https://www.thefhguide.com/img/mh/message-actions.JPG"
+                    ],
+                    "text": "<ol><li>To access your Inbox, click the envelope icon (upper-right corner).</li> <li>To read an Inbox message, click its title. A Reply window opens at the bottom of the message.</li> <li>Type your response in the Reply window and click <b>Send</b>. </li> <li>To see information about the message sender and his or her family site, click the message sender's name or picture. Click the Back button to return to your Inbox.</li> <li>To compose and send an email, <br>a) Click <b>Compose message</b>; <br>b) Type the email address of the recipient; <br>c) Fill in the Subject and Message fields, and <br>d) Click <b>Send</b>. </li> <img src=\"img/mh/sent-messages.JPG\" width=\"350px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>To show messages you have sent, click \"Sent messages\".</li><img src=\"img/mh/message-actions.JPG\" width=\"350px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>To select Inbox messages for an Action, click \"All\" (selects all messages); \"None\" (clears previous selections); \"Read\" (selects all message you have read); or \"Unread\" (selects all messages that have not been read).</li><li>To perform an Action on messages you have selected, click Select All, Select None, Move to Archive, or Delete.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Check notifications and handle messages.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/mh/notifications.JPG"
+                    ],
+                    "text": "<ol><img src=\"img/mh/notifications.JPG\" width=\"350px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>To delete a message in your Inbox, select the message and click <b>Delete</b>.</li><li>To archive a message from your Inbox, select the message(s) to be archived and click <b>Move to Archive</b>. </li><li>To restore one or more messages from your archive to your Inbox, <br>a) Click <b>Archive</b>, <br>b) Select the message(s); and <br>c) Click <b>Restore from archive</b>. </li><li>To delete messages from the archive, select them and click <b>Delete</b>.</li><li>To check for notifications, click <b>Notifications</b>.</li><li>To disable email alerts from MyHeritage about new messages received, click <b>Settings</b> and clear the \"New messages\" checkbox.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Other Tools & Options",
+        "name": "Other Tools and Options",
+        "section_name": "Explore other tools and options.",
+        "summary": "<p>You can find more information about MyHeritage in the gray bar at the bottom of each screen.</p>",
+        "choices": [
+            {
+                "name": "Learn about the MyHeritage company and resources.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/partners/myheritage-logo1-small.png"
+                    ],
+                    "text": "<ol><img src=\"img/partners/myheritage-logo1-small.png\" width=\"150px\" style=\"float:right; margin-left:16px;\"><li>To see information about MyHeritage, click \"About us\" (bottom of the page). At the bottom of that page, you can also select \"Blog\", \"Privacy\", \"Help Center\" and \"Knowledge Base\".</li> <li>To learn about MyHeritage on Facebook or Twitter, click the corresponding icons (lower-right corner).</li> <li>To download the MyHeritage mobile app for iOS or Android devices, read <a class=\"lk\" href=\"https://www.myheritage.com/help-center/en/article/what-is-the-myheritage-app-for-mobile\" target=\"_blank\">this Help Center article</a>.</li> <li>To change the language for your MyHeritage screens, in the upper-right corner, click the <b>Language</b> icon and then select your language from the list. All MyHeritage screens will now appear in the selected language.</li> </ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "(Optional) Family Tree Builder",
+        "name": "Family Tree Builder",
+        "section_name": "(Optional) Download and use the free Family Tree Builder software.",
+        "summary": "<p><i>Note</i> : Family Tree Builder enables you to work on your MyHeritage tree on your personal computer or device, even when not connected to the Internet. You can synch your local tree with the online tree, and vice versa. For more details, read this article.<br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://faq.myheritage.com/en/article/whats-the-difference-between-the-family-site-and-family-tree-builder\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">MH—Difference between Family Site and Family Tree Builder</span></a>.</p>",
+        "choices": [
+            {
+                "name": "Download a copy of Family Tree Builder.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-laptop-man.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/y-laptop-man.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 350px;; border:1px solid #000; padding:0px;\"><li>Open <a class=\"lk\" href=\"https://faq.myheritage.com/en/article/how-do-i-convert-my-online-tree-to-one-i-can-edit-in-family-tree-builder\" target=\"_blank\">this Help Center article</a> and scroll down to about the halfway point for instructions on installing the Family Tree Builder software on your computer.</li> <li>On the Welcome to Family Tree Builder screen, fill in the signup information and click Next. On the next screen, watch the brief video, then click the MH notification icon in the bottom tray. </li><li>To learn how to convert your online tree into a Family Tree Builder version, read this article.<br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://faq.myheritage.com/en/article/how-do-i-convert-my-online-tree-to-one-i-can-edit-in-family-tree-builder\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">MH—Converting My Online Tree to Family Tree Builder</span></a>.</li><br><li>After installation, if you receive an update notice for Family Tree Builder, <br>a) Click <b>Next</b> to download the new installation file; <br>b) Click <b>Finish</b>; <br>c) Click <b>Yes</b> to allow the update; <br>d) Click <b>Next</b> to begin the installation; and <br>e) Click <b>Finish</b>.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Download and refer to the User Guide for Family Tree Builder.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Click <b>Help</b> in the top Menu bar.</li><li>Follow the prompts to download the User Guide in Acrobat (.PDF) format (requires Adobe Acrobat Reader). </li><li>You can find answers to questions about using Family Tree Builder in this Guide. A linked Table of Contents is located a few pages down. When you close the file, you can open it again by clicking <b>Help</b> as before.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

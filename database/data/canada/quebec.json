@@ -1,0 +1,326 @@
+[
+    {
+        "nav_name": "Research and Records",
+        "name": "Research and Records",
+        "section_name": "Learn about Quebec research and records",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Get started with research for your Quebec ancestors.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for research resources. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-que-over.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/canada-quebec-old-quebec-frontenac-1092344/\" target=\"_blank\"> <img src=\"../img/x-ca-que-over.jpg\" alt=\"\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\" width=\"450px\" border=\"1\"></a><li><span class=\"g\">Introduction</span>: Learn about finding your ancestors in Quebec. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Quebec,_Canada_Genealogy\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki:—Quebec—Finding Your Ancestors</span></a></li><br><li>Watch this video for fundamentals on doing Quebec research. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/ask/learningViewer/1006\" target=\"_blank\"> <img src=\"../img/vid.png\" width=\"20\"> <span class=\"re\">FS: Quebec—Quebec Research—49:25</span></a></li><br><li><span class=\"g\">Resources</span>: Explore resources for Quebec research on Ancestry. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.ancestry.com/search/places/canada/quebec/\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">AC—Quebec Resources</span></a></li><br><li>Read these guides for doing French Canadian research. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://search.ancestry.com/Places/Canada/Quebec/Default\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">PR—How to Conduct your French Canadian Genealogy Research (Part One)</span></a><br><span class=\"star notranslate\">☆</span><a href=\"http://search.ancestry.com/Places/Canada/Quebec/Default\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">PR—How to Conduct your French Canadian Genealogy Research (Part Two)</span></a></li><br><li>Explore resources on the <a class=\"lk\" href=\"http://www.olivetreegenealogy.com/can/quebec/index.shtml\" target=\"_blank\">Olive Tree Genealogy</a> site. </li><br><li>Explore the <a class=\"lk\" href=\"http://www.barbsnow.net/Quebec.htm\" target=\"_blank\">Genealogy Guide to Quebec research </a> by Barb Snow. </li><br><li>Learn about resources for ancestors in Quebec. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://ukcdngenealogy.blogspot.com/2018/04/finding-your-ancestors-in-quebec.html\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Finding Your Ancestors in Quebec</span></a></li><br><li>Use the Quebec Record Selection Table to decide on records to search. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Quebec_Record_Selection_Table\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Quebec Record Selection Table</span></a></li><br><li>Explore a variety of records on the <a class=\"lk\" href=\"https://sites.google.com/site/freecanadianancestry/home/quebec\" target=\"_blank\">FreeCanadianAncestry</a> site. </li><li>Learn about the colony of New France in this video.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.ancestryacademy.com/tracing-french-canadian-ance…ir-stories/videos/humble-beginnings-the-colony-of-new-france\" target=\"_blank\"> <img src=\"../img/vid.png\" width=\"20\"> <span class=\"re\">AAC—Humble Beginnings: The Colony of New France—9:44 (acct. req.) </span></a></li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Archives and Libraries",
+        "name": "Archives and Libraries",
+        "section_name": "Learn about Quebec archives and libraries.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Quebec archives and libraries.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for archives and libraries. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-que-lib.gif"
+                    ],
+                    "text": "<ol><a href=\"https://commons.wikimedia.org/wiki/File:Redpath_Library_Reading_Room_1893.gif\" target=\"_blank\"> <img src=\"../img/x-ca-que-lib.gif\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li>Learn about Quebec archives and libraries in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Quebec_Archives_and_Libraries\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Quebec Archives and Libraries</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Quebec city directories.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about Quebec city directories in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Quebec_Directories\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Quebec Directories</span></a></li><br><li>Explore city directories in Quebec on the <a class=\"lk\" href=\"http://www.cangenealogy.com/quebec-directories.html\" target=\"_blank\">CanGenealogy site</a>.</li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Vital and Census Records",
+        "name": "Vital and Census Records",
+        "section_name": "Learn about Quebec vital and census records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Quebec vital and birth records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for vital and birth records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-que-flag.png"
+                    ],
+                    "text": "<ol><img src=\"../img/x-ca-que-flag.png\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Learn about Quebec civil registration in this article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.inmemoriam.ca/directory/province/qc-quebec/1/\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Quebec Civil Registration</span></a></li><br><li>Learn about tracing Quebec families and lineages in this video.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.ancestryacademy.com/tracing-french-canadian-ancestors-and-learning-their-stories/videos/building-families-and-lineages\" target=\"_blank\"> <img src=\"../img/vid.png\" width=\"20\"> <span class=\"re\">AAC—Building Families and Lineages—8:28 (acct. req.) </span></a></li><br><li>Search for birth, adoption, and orphanage records on the <a class=\"lk\" href=\"https://www.bac-lac.gc.ca/eng/discover/vital-statistics-births-marriages-deaths/births-marriages-deaths-recorded/Pages/births-marriages-deaths-recorded.aspx\" target=\"_blank\">Library and Archives of Canada</a> site.</li><li>Learn about adoption records on the <a class=\"lk\" href=\"http://www.originscanada.org/adoption-records/by-province/quebec-adoption-records/\" target=\"_blank\">OriginsCanada</a> site.</li><li>Learn about the <a class=\"lk\" href=\"https://familysearch.org/wiki/en/Rivest_Marriage_Index\" target=\"_blank\">Rivest Marriage Index</a> for Quebec marriages.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Quebec death records.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore death record resources on the <a class=\"lk\" href=\"https://www.deathindexes.com/canada.html\" target=\"_blank\">Death Indexes</a> site.</li><li>Explore Quebec obituaries on the <a class=\"lk\" href=\"https://www.inmemoriam.ca/directory/province/qc-quebec/1/\" target=\"_blank\">In Memoriam</a> site.</li> </ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Quebec census records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for census records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-que-census.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/photos/canada-quebec-old-quebec-street-4889276/\" target=\"_blank\"> <img src=\"../img/x-ca-que-census.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"></a><li>Get an overview of Quebec censuses in this article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Quebec_Census\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Quebec Census</span></a></li><br><li>Learn about and search Quebec census records. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/Quebec_Census,_1861_-_FamilySearch_Historical_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS: Quebec Census, 1861</span></a></li><br><li>Watch this video for more information on census records.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.ancestryacademy.com/tracing-french-canadian-ancestors-and-learning-their-stories/videos/colonial-provincial-and-national-censuses\" target=\"_blank\"> <img src=\"../img/vid.png\" width=\"20\"> <span class=\"re\">AAC—Colonial, Provincial, and National Censuses—7:16 (acct. req.) </span></a></li><br><li>Explore census records on the <a class=\"lk\" href=\"http://www.olivetreegenealogy.com/can/quebec/index.shtml\" target=\"_blank\">Olive Tree Genealogy</a> site (scroll down). </li><li>Explore the <a class=\"lk\" href=\"http://www.myfreecensus.com/quebec-canada-census-records.htm\" target=\"_blank\">MyFreeCensus site</a> for Quebec census records.</li></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Church and Cemetery Records",
+        "name": "Church and Cemetery Records",
+        "section_name": "Learn about Quebec church and cemetery records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Quebec church records.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-que-church.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/photos/library-church-architecture-white-2544157/\" target=\"_blank\"> <img src=\"../img/x-ca-que-church.jpg\" alt=\"\" width=\"450px\" style=\"float:right; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"></a>  <li>Get an overview of Quebec church records in this article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Quebec_Church_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Quebec Church Records</span></a></li><br><li>Learn about Catholic baptismal, marriage, and burial records in this video.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.ancestryacademy.com/tracing-french-canadian-ancestors-and-learning-their-stories/videos/catholic-baptismal-marriage-and-burial-records\" target=\"_blank\"> <img src=\"../img/vid.png\" width=\"20\"> <span class=\"re\">AAC—Catholic Baptismal, Marriage, and Burial Records—7:19 (acct. req.) </span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Quebec cemetery records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for church and cemetery records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-que-cem.jpg"
+                    ],
+                    "text": "<ol><a href=\"http://www.ameriquefrancaise.org/en/article-677/Tadoussac_between_Forest_and_Sea.html\" target=\"_blank\"> <img src=\"../img/x-ca-que-cem.jpg\" alt=\"\" width=\"450px\" style=\"float:right; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"></a>  <li>Explore Quebec cemetery records in this article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Quebec_Cemeteries\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Quebec Cemetery Records</span></a> </li><br><li>Browse the <a class=\"lk\" href=\"http://www.interment.net/can/qc/index.htm\" target=\"_blank\">Interment.net site</a> for Quebec cemetery records.</li><li>Search the <a class=\"lk\" href=\"http://www.findagrave.com/cgi-bin/fg.cgi?page=cs\" target=\"_blank\">Find A Grave site</a> for cemetery records.</li><li>Search the <a class=\"lk\" href=\"http://billiongraves.com/pages/search/\" target=\"_blank\">BillionGraves site</a> for cemetery records.</li></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Emigration and Immigration",
+        "name": "Emigration and Immigration",
+        "section_name": "Learn about Quebec emigration and immigration.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Quebec emigration and immigration.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-que-imm.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/photos/quebec-gasp%C3%A9sie-perc%C3%A9-peninsula-3881582/\" target=\"_blank\"> <img src=\"../img/x-ca-que-imm.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"></a><li>Learn about Quebec emigration and immigration in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Quebec_Emigration_and_Immigration\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Quebec Emigration and Immigration</span></a></li><br><li>Learn about immigration between the U.S. and Quebec in this video.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.ancestryacademy.com/tracing-french-canadian-ancestors-and-learning-their-stories/videos/tracing-u-s-immigrants-to-their-native-parishes-in-french-canada\" target=\"_blank\"> <img src=\"../img/vid.png\" width=\"20\"> <span class=\"re\">AAC—Tracing U.S. Immigrants to Their Native Parishes in French Canada—10:16 (acct. req.) </span></a></li><br><li>Explore the <a class=\"lk\" href=\"http://www.francogene.com/genealogy/\" target=\"_blank\">FrancoGene Genealogy site</a> for resources on Quebec immigration.</li><li>Explore citizenship records, from the Montreal Circuit Court, <a class=\"lk\" href=\"https://library-archives.canada.ca/eng/collection/research-help/genealogy-family-history/immigration/pages/citizenship-records-montreal-1851-1945.aspx\" target=\"_blank\">1851-1945</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Probate, Land and Court",
+        "name": "Probate, Land and Court Records",
+        "section_name": "Learn about Quebec probate and land records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Quebec probate and land records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for probate and land records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-que-land.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/seaplane-autumn-landscape-nature-2845111/\" target=\"_blank\"> <img src=\"../img/x-ca-que-land.jpg\" alt=\"\" width=\"450px\" style=\"float:right; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"></a>  <li>Learn about Quebec probate records in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Quebec_Probate_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Quebec Probate Records</span></a></li><br><li>Learn about Quebec land and property records. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Quebec_Land_and_Property\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Quebec Land and property Records</span></a></li><br><li>Learn about Quebec notarial records in this Ancestry article and video. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://blogs.ancestry.com/ancestry/2016/10/20/10-things-to-know-about-quebec-notarial-records/\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">AC—10 Things to Know About Quebec Notarial Records</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://www.ancestryacademy.com/tracing-french-canadian-ancestors-and-learning-their-stories/videos/notarial-records-personal-details-of-individuals-and-families\" target=\"_blank\"> <img src=\"../img/vid.png\" width=\"20\"> <span class=\"re\">AAC—Notarial Records: Personal Details of Individuals and Families—9:13 (acct. req.) </span></a></li><br><li>Go deeper into notarial records research. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=XR_YZvselmo\" target=\"_blank\"> <img src=\"../img/vid.png\" width=\"20\"> <span class=\"re\">AA—Navigating Notarial Records in Quebec—57:44</span></a><br><br><iframe width=\"330\" height=\"220\" src=\"https://www.youtube.com/embed/XR_YZvselmo?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=-vS5RASGtIo\" target=\"_blank\"> <img src=\"../img/vid.png\" width=\"20\"> <span class=\"re\">RT—Skimming the Surface: A Look Into Quebec Notarial Records—15:15</span></a><br><br><iframe width=\"330\" height=\"220\" src=\"https://www.youtube.com/embed/-vS5RASGtIo?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Maps and Gazetteers",
+        "name": "Maps and Gazetteers",
+        "section_name": "Learn about Quebec maps and gazetteers.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore Quebec maps and gazetteers.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-que-map.png"
+                    ],
+                    "text": "<ol><a href=\"https://commons.wikimedia.org/wiki/File:Quebec_province_transportation_and_cities_map-fr.svg\" target=\"_blank\"> <img src=\"../img/x-ca-que-map.png\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-left: 16px\"></a><li>Explore the <a class=\"lk\" href=\"http://www.davidrumsey.com/luna/servlet/view/search?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&amp;q=quebec&amp;search=Go\" target=\"_blank\">David Rumsey collection</a> of Quebec maps.</li><li>Explore the <a class=\"lk\" href=\"https://www.canadiana.ca/search/?so=alphabetical&amp;q2.0=%22Quebec%22&amp;q0.0=%22Maps+of+the+National+Topographic+System+of+Canada%22&amp;q1.0=AND\" target=\"_blank\">Canadiana maps collection</a>.</li><li>Explore the <a class=\"lk\" href=\"http://www.lib.utexas.edu/maps/canada.html\" target=\"_blank\">Perry-Castaneda site</a> for maps of Quebec (search for Quebec on the page).</li><li>Explore <a class=\"lk\" href=\"http://www.historicmapworks.com/Browse/Maps/\" target=\"_blank\">historical Quebec maps</a> on the Historic Map Works site. Select North America, Canada, and Quebec in the drop-down menus.</li><li>Explore the <a class=\"lk\" href=\"https://www.ancestry.com/search/collections/32526\" target=\"_blank\">History and biographical gazetteer of Montreal to the year 1892</a>.</li><li>Find Quebec towns and communities on the <a class=\"lk\" href=\"https://roadsidethoughts.com/qc/index-a.htm\" target=\"_blank\">RoadsideThoughts site</a>.</li><li>Search for Quebec place names on the <a class=\"lk\" href=\"https://www.johncardinal.com/ca/qc/places.htm\" target=\"_blank\">John Cardinal site</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Newspapers",
+        "name": "Newspapers",
+        "section_name": "Learn about Quebec newspapers.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Quebec newspapers.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "  fs—wiki: quebec newspapers",
+                            "content": "<br>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-que-news.png"
+                    ],
+                    "text": "<ol><img src=\"../img/x-ca-que-news.png\" alt=\"\" width=\"250px\" style=\"float:right; margin-top: 16px; margin-left: 16px;\">  <li>Learn about Quebec newspapers in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Quebec_Newspapers\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Quebec Newspapers</span></a><div class=\"choice\"><br></div></li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Quebec newspapers.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Find links to <a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Wikipedia:List_of_online_newspaper_archives#Quebec\" target=\"_blank\"> Quebec newspapers</a> on the Wikipedia site.</li> <li>Explore Quebec newspaper resources on the <a class=\"lk\" href=\"http://www.cangenealogy.com/quebec-news.html\" target=\"_blank\">CanGenealogy</a> site.</li><li>Search the <a class=\"lk\" href=\"https://sites.google.com/site/onlinenewspapersite/Home/can/qc\" target=\"_blank\">Quebec Online Historical Newspapers</a> site.</li><li>Search Quebec newspapers in the <a class=\"lk\" href=\"http://www.onlinenewspapers.com/canadaqu.htm\" target=\"_blank\">onlinenewspapers.com</a> site.</li><li>Search Quebec newspapers in the <a class=\"lk\" href=\"http://www.world-newspapers.com/quebec.html\" target=\"_blank\">world-newspapers.com</a> site.</li><li>Search Quebec newspapers in the <a class=\"lk\" href=\"http://www.abyznewslinks.com/canadqc.htm\" target=\"_blank\">ABYZ News Link</a> site.</li><li>Explore Quebec newspaper resources on the <a class=\"lk\" href=\"http://www.theancestorhunt.com/blog/quebec-online-historical-newspapers-summary\" target=\"_blank\">Ancestor Hunt</a> site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Websites",
+        "name": "Websites",
+        "section_name": "Explore additional websites for research.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "There are a number of websites with valuable resources for Quebec research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore links on the <a class=\"lk\" href=\"http://www.cangenealogy.com/quebec.html\" target=\"_blank\">CanGenealogy</a> site.</li><li>Explore links in <a class=\"lk\" href=\"http://www.cyndislist.com/canada/provinces/qc\" target=\"_blank\">Cyndi's List</a>.</li><li>Explore links in <a class=\"lk\" href=\"http://www.genealogylinks.net/canada/quebec/index.html\" target=\"_blank\">GenealogyLinks.net</a>.</li> </ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Search Records",
+        "name": "Search Records",
+        "section_name": "Search records from Quebec.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Use QUIKLinks to quickly search record collections for Quebec.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ul><li>QUIKLinks are indicated by lightning-bolt icons in the Goal header area and in the page.</li><li>QUIKLinks point to collections with 50,000 or more records.</li></ul>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore additional record collections.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore the <a class=\"lk\" href=\"https://familysearch.org/wiki/en/Quebec_Online_Genealogy_Records\" target=\"_blank\">FamilySearch page</a> for online genealogy records.</li><li>Explore additional record collections in <a class=\"lk\" href=\"https://www.ancestry.com/search/collections/catalog/?keyword=Quebec\" target=\"_blank\">Ancestry</a>.</li><li>Explore additional record collections in <a class=\"lk\" href=\"https://search.findmypast.com/historical-records?page=1&amp;region=canada&amp;subcountry=quebec\" target=\"_blank\">Findmypast</a>.</li><li>Explore additional record collections in <a class=\"lk\" href=\"https://www.myheritage.com/research/catalog?location=Quebec&amp;s=257937091\" target=\"_blank\">MyHeritage</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Get Help",
+        "name": "Get Help",
+        "section_name": "Get help with your Quebec research.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Use Facebook pages to get answers to your questions.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/fh-help2.jpg"
+                    ],
+                    "text": "<ol><a href=\"../img/fh-help2.jpg\" target=\"_blank\"> <img src=\"../img/fh-help2.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 350px;\"></a>  <li>Visit the <a class=\"lk\" href=\"https://www.facebook.com/groups/302850591628/\" target=\"_blank\">Quebec Genealogy page</a> on Facebook.</li><li>Visit the <a class=\"lk\" href=\"https://www.facebook.com/Soci%C3%A9t%C3%A9-de-G%C3%A9n%C3%A9alogie-de-Qu%C3%A9bec-553614701384842/\" target=\"_blank\">Société de Généalogie de Québec page</a> on Facebook.</li><li>Visit the <a class=\"lk\" href=\"https://www.facebook.com/groups/AcadianFrenchCanadianGenealogy\" target=\"_blank\">Acadian &amp; French-Canadian Genealogy &amp; History page</a> on Facebook.</li><li>Find additional Facebook pages for Quebec genealogy on the <a class=\"lk\" href=\"http://socialmediagenealogy.com/genealogy-on-facebook-list\" target=\"_blank\">Genealogy on Facebook</a> site.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Join a mailing list, community, or message board for Quebec research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore the <a class=\"lk\" href=\"https://community.familysearch.org/s/group/0F93A000000LjYxSAK/quebec\" target=\"_blank\">FamilySearch community</a> for Quebec research.</li><li>Join the <a class=\"lk\" href=\"http://www.rootschat.com/forum/canada/\" target=\"_blank\">RootsChat forum</a> and post questions about Quebec research.</li><li>Search the <a class=\"lk\" href=\"http://bigfile.rootsweb.ancestry.com/cgi-bin/listsearch\" target=\"_blank\">RootsWeb site </a> for Quebec research mailing lists.</li><li>Explore the <a class=\"lk\" href=\"http://www.cyndislist.com/canada/provinces/qc/social/\" target=\"_blank\"> Quebec research mailing lists</a> on Cyndi's List.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Quebec genealogy societies.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about genealogy societies in Quebec in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Quebec_Societies\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Quebec Societies</span></a></li><br><li>Explore <a class=\"lk\" href=\"http://www.cyndislist.com/canada/provinces/qc/societies/\" target=\"_blank\">Quebec genealogy society sites</a> on Cyndi's list.</li><li>Get help at a <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Category:Quebec_Family_History_Centres\" target=\"_blank\">family history center in Quebec</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

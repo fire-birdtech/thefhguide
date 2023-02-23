@@ -1,0 +1,481 @@
+[
+    {
+        "nav_name": "Setup and Photos",
+        "name": "Setup and Photos",
+        "section_name": "Download the Memories app and add photos.",
+        "summary": "<p>The FamilySearch Memories app enables you to add and tag photos, stories, documents, and audio for people in Family Tree.</p><p><i>Note</i> : To add audio to a photo or document, see Choice C in <a class=\"lk\" href=\"project-2-memories-app04.html\" target=\"_blank\">Goal 4</a>.</p>",
+        "choices": [
+            {
+                "name": "Download the FamilySearch Memories app and view Memories.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Download the Memories app for Android or Apple devices.</li><li>Set up a FamilySearch account if necessary.</li><li>Sign in to FamilySearch.</li></ul><hr style=\"margin-left: -20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/app-stores.png"
+                    ],
+                    "text": "<ol><img src=\"img/app-stores.png\" width=\"300px;\" style=\"float:right; margin-left:20px; margin-top:8px;\"><li>If you have already installed the FamilySearch Family Tree app, <br>a) Open the Family Tree app; <br>b) In the three-line menu (upper left) tap <b>Memories</b>; <br>c) Tap <b>Install</b>; and <br>d) Tap <b>Open</b> to begin. You will then be prompted to sign in to FamilySearch (see the step on account information below).</li><li>If you have not installed the Family Tree app, you can visit the Google Play store (Android devices) or the Apple Store to download the app. Read the article to get started.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/campaign/mobile/tree/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—FamilySearch Tree App</span></a></li> <br><li>You will need a FamilySearch account to access Memories information. If you do not have a free FamilySearch Account, in the FmailySearch screen click <b>Create Account</b> (upper right) and follow the instructions. For more help with your FamilySearch account, refer to <a class=\"lk\" href=\"project-1-family-tree13.html\">Goal 13: Account</a>.</li><li>Tap the FamilySearch Tree icon on your screen.</li><li>Type your username and password, and tap <b>Sign In</b>. If you have forgotten your username or password, tap the link for username or password for help. For help with recovering an account or password, read this article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/article/i-forgot-my-familysearch-password-or-username\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Retrieve a Forgotten Name or Retrieve a Password - 2020</span></a></li><br><br><h5>Gallery View</h5><br><li>By default, all types of Memories (photos, stories, documents, and audio) that you have added are displayed. This is the <b>Gallery</b> view. To display only photos, stories, documents, or audio, tap the corresponding icon (top bar). To select all types, tap the same icon again.</li><li>To sign out of FamilySearch, tap the menu (upper left) and select <b>Sign Out</b>.</li></ol><h5>Gallery View</h5>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Add, crop, and title a photo in Memories.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Add photos from your device to your Gallery.</li><li>Crop photos and add titles for them.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Add, crop, and title two photos.</li><li>* Proficient: Same as Good, for four photos. Also add at least one photo file to Memories from your device.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/app/mem-photo-plus.png",
+                        "https://www.thefhguide.com/img/app/mem-photo-crop.png"
+                    ],
+                    "text": "<ol><img src=\"img/app/mem-photo-plus.png\" width=\"250px;\" style=\"float:right; margin-left:20px; margin-top:8px; border:1px solid #000; padding:0px;\"><li>In the lower right, tap the <b>plus icon</b> and then tap <b>Add Photo</b>. (The example at the right shows a Gallery that has existing pictures in a Gallery; your Gallery might be empty.) If a prompt appears asking to allow Memories to access your device's location, tap <b>Allow</b>.</li><li>To take a photo for uploading, <br>a) Tap <b>Camera</b>; <br>b) If prompts appear that ask about allowing Memories to take pictures, record video, and access media, tap <b>Allow</b>; <br>c) Take the photo; <br>d) Tap the checkmark.</li><li>To add a photo from a file on your device, <br>a) Tap <b>File</b>; <br>b) Navigate to the file on your device; and <br>c) Tap the filename to add it to the Gallery.</li><img src=\"img/app/mem-photo-crop.png\" width=\"250px;\" style=\"float:right; margin-left:20px;  margin-top:16px; border:1px solid #000; padding:0px;\"><li>If you want to trim the photo, <br>a) Tap <b>Crop</b>; Move the green selector points until the rectangle covers the area you want to keep in the photo; and <br>c) Tap <b>Crop</b>.</li><li>Tap <b>Save</b>. </li><li>To add a title for the photo, <br>a) Tap a picture in the Gallery; <br>b) At the bottom of the screen, tap \"Add a Title\" and type the title, description, and event details; <br>c) Select whether the memeory should be public or private; and <br>d) Tap <b>Save</b>.</li><li>To edit an existing photo title, tap the title name and follow the instructions above.</li> </ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Tag a photo to attach it to Memories, for a person in Family Tree.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Identify a person in a photo and add a tag so the photo can appear for that person in FamilySearch.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Tag three photos.</li><li>* Proficient: Tag at least four photos, and remove a tag from one of them.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/app/mem-photo-tag.png"
+                    ],
+                    "text": "<ol><li>Tap the photo, if it is not already open.</li><li>Tap the <b>person icon</b> (upper right). The number on the icon indicates how many people in the photo might be tagged.</li><li>Tap a sizing square that appears, or tap a person in the photo. Then move the green dot to enlarge or shrink the square, so it fits over person in the photo you want to tag.</li><img src=\"img/app/mem-photo-tag.png\" width=\"350px;\" style=\"float:right; margin-left:20px; margin-top:8px; border:1px solid #000; padding:0px;\"><li>If the correct name is already selected, you can use it for the title; otherwise, tap the \"Add Name\" link.</li> <li>Select the name or ID you want from the list, or begin typing to find it. If the name or ID does not appear, tap <b>Add New</b> next to the entry you typed to add it to the list.</li><li>Tap <b>Done</b>. The photo is now available in the Memories area on FamilySearch for each person you tagged. Tagged individuals are indicated in the \"Add Name\" list, and the person-plus icon shows the number of people tagged in the photo.</li><li>To delete a tag, <br>a) Tap the tag square; <br>b) Tap the \"x\" that appears; and <br>c) Tap <done< b=\"\"> (upper right).</done<></li> <br><p style=\"margin-left:70px;\"><i>Note</i> : You can also tag a photo in the Gallery by tapping the folder icon above the photo.</p> </ol><p style=\"margin-left:70px;\"><i>Note</i> : You can also tag a photo in the Gallery by tapping the folder icon above the photo.</p><h5>Adding Topic Tags</h5><ol><li>In an open photo, tap the tag icon (upper right).</li><li>At the bottom, type the name of the topic tag and select it from the list that appears.</li><li>Tap the plus icon to add the tag. You can add multiple tags to the photo.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Perform various actions for a photo.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Share a Memories photo via text, Google Photos, Facebook, etc.</li><li>Download, convert to document, archive, or delete photos as needed.</li></ul><hr style=\"margin-left: -20px;\">"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Share a photo using two methods, and download a photo to your devices.</li><li>* Proficient: Same as Good, for two photos each.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/app/mem-photo-share.png"
+                    ],
+                    "text": "<ol><img src=\"img/app/mem-photo-share.png\" width=\"100px;\" style=\"float:right; margin-left:20px; margin-top:8px; border:1px solid #000; padding:0px;\"><li>To select actions for a photo that is currently open, tap the three-dot menu (upper right). The following options are available:<ul style=\"margin-left:-66px;\"><li>Rotate Right—The photo is rotated right by 90 degrees.</li><li>Record a Memory—Tap <b>Start</b> and record up to five minutes of audio for the photo; then tap <b>Done</b>. The recording is then available to be played, below the photo. To delete the recording, tap the Trash icon and then tap <b>Delete</b>.</li><li>Comments—Type a comment and tap <b>Save</b> to include it with the photo.</li><li>Details—Type the title, description, event date, and event place for the photo. You can also tap the down arrow to designate the photo as a public or private memory. Then tap <b>Save</b>.</li><li>Share— Choose a sharing option (if the option you want does not appear, tap the \"See All\" link) and follow the instructions in the sharing platform you chose.</li><li>Download—The photo will be downloaded to the Downloads location on your device.</li><li>Delete—Tap <b>Delete</b> again at the confirmation prompt.</li></ul></li><li>To archive photos in the Gallery view, <br>a) Tap the three-dot menu (upper right) and tap <b>Select Memories</b>; <br>b) Tap the circle for each photo you want to archive; <br>c) Tap the three-dot menu (upper right) and tap <b>Archive</b>; At the prompt, tap <b>Move to Archive</b>.</li><li>To delete photos in the Gallery view, <br>a) Tap the three-dot menu (upper right) and tap <b>Select Memories</b>; <br>b) Tap the circle for each photo you want to delete; <br>c) Tap the three-dot menu (upper right) and tap <b>Delete</b>; At the prompt, tap <b>Delete</b>. <i>Note</i>: This deletes only the Memories you selected, not all Memories in the Gallery. You can also use the Delete option when you are viewing a photo, by using the three-dot menu.</li><li style=\"list-style:none;\">You can also add audio to a photo. For details, see <a class=\"lk\" href=\"project-2-mem-app04.html\" target=\"_blank\">Goal 4: Audio.</a></li><a class=\"lk\" href=\"project-2-mem-app04.html\" target=\"_blank\"></a></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Understand the privacy rules for FamilySearch that determine how information for living persons is handled.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>You can see the record of a living person only if you created it.</li><li>Living people you create are hidden from everyone else, including the individuals themselves and your other family members.</li><li>Living people have a Private Person banner at the top of their Person page.</li><li>Memories attached to living people are potentially viewable by anyone.</li><hr style=\"margin-left: 20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Proficient: Review the bullet points in the summary and write down 3 key learnings from the privacy policy document in this Choice.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/1-privacy.jpg"
+                    ],
+                    "text": "<p><i>Note</i> : Generally, data for living people outside your immediate family cannot be viewed or searched for.</p><ol><img src=\"img/1-privacy.jpg\" width=\"300px\" style=\"float:right; margin-left:16px;\"><li>Read this document to learn about the FamilySearch privacy policy and how it affects what you can see in your part of the tree.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/article/who-can-see-my-living-relatives-in-family-tree\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Who can see my living relatives in Family Tree? - 2020</span></a></li><br><li>For more information on privacy concerns and genealogy, watch this video.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=StqbR-o2Mp8&amp;t=2m4s\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">BYU—Privacy Concerns and Genealogy—68:24 - 2016</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/StqbR-o2Mp8?start=124;rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Stories",
+        "name": "Stories\n                        ",
+        "section_name": "Create stories and add them to Memories.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Search for stories that have been uploaded to Memories for your ancestors.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Find and read one or more stories for at least three ancestors.</li><li>* Proficient: Find and read one or more stories for at least 8 ancestors.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/2-all-stories.png"
+                    ],
+                    "text": "<ol><img src=\"img/2-all-stories.png\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"><li>Go to the <a class=\"lk\" href=\"https://stories.familyfoundapp.com/\" target=\"blank\">All the Stories</a> site.</li><li>On the website, click <b>Login</b>, and then click <b>Sign In</b> at the FamilySearch prompt.</li><li>Click <b>Accept</b> to share information with All the Stories.</li><li>Click <b>Let's go</b> to download up to 9 generations of stories for your ancestors in FamilySearch.</li><li>In the main part of the screen, hover over an ancestor circle to see how many stories are included on FamilySearch. Gray circle=no stories; light blue=1 or 2 stories; dark blue=3 or more stories.</li><li>Click an ancestor circle to display vital information about the ancestor.</li><li>In the left panel, click a story title to open it in the center panel. (The approximate time for telling the story aloud is indicated next to the story title and author in the left panel).</li><li>In the right panel, a chart shows the relationship between you and the main person in the story. To see that person in FamilySearch, click the \"View on FamilySearch\" link.</li><li>To mark a story as a favorite, click the star (top menu bar).</li><li>To archive a story so it does not appear in the list, click <b>Archive</b>. It will appear at the bottom of the list of the left panel, under the Archive heading.</li><li>To search for a story, type the name of the main person in the Search bar (upper left).</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Find stories you can upload to Memories.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercise",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the tips in this Choice, find two or more stories to upload to FamilySearch.</li><li>* Proficient: Using the tips in this Choice, find 5 or more stories to upload to FamilySearch</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/6-fam-history.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/6-fam-history.jpg\" alt=\"\" width=\"200px\" border=\"0\" style=\"float:right; margin-right:0px; margin-top: 8px; margin-left: 16px;\"><li>Locate stories of interest in your personal collections, including letters, family books, and personal memories. <i>Note</i> : Be aware of copyright issues if you are using a published source for a story. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://www.byutv.org/player/cdc78a77-811c-45f3-9958-fd6ca58bef51/ancestors-gathering-family-stories\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Gathering Family Stories—25:00</span></a></li><br><li>Reach out to family for stories they might have about your ancestors, using ideas from these documents. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.lds.org/ensign/2008/02/starting-from-scratch?lang=eng\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">LDS—Starting from Scratch</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/blog/en/4-family-stories-save-children/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—4 Family Stories You Must Save for Your Children</span></a></li><br><li>Examine information in family records to uncover interesting stories to tell. These videos have tips for finding stories that are \"hiding\" in genealogy records. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/stories-from-stats-turning-genealogy-into-family-history-part-1\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Turning Genealogy into Family History, Part 1—26:15</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/stories-from-stats-turning-genealogy-into-family-history-part-2\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Turning Genealogy into Family History, Part 2—26:19</span></a></li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Create life stories for ancestors.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Fill out family histories with historic information by turning to records like newspapers, maps, and general accounts of events.</li><li>In addition to including history, bring in the cultural and behavioral aspects of stories to add new perspectives.</li> <hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Create a life story for an ancestor in your word processor, using the tips in this Choice. You may be able to upload this story in Choice D.</li><li>* Proficient: Same as above, for two ancestors.</li></ul><hr style=\"margin-left: 20px;\">"
+                        },
+                        {
+                            "type": "d display and edit stories from memories.",
+                            "content": "<br><p>Stories can be a powerful way to connect you and others to your ancestors. <i>Note</i>: The Fan Chart view in FamilySearch can display a count of the stories in Memories for each ancestor. </p><br><a class=\"lk\" href=\"javascript:toggleDiv('2a-2d');\">Summary</a><div id=\"2a-2d\" class=\"hidden\"><ul><li>Display stories and edit them.</li><li>Add photos to existing stories.</li><hr style=\"margin-left: -20px;\"></ul></div><br><br><ol><li>To view stories in the Gallery, tap the <b>Stories icon</b> (second icon in the top bar). </li><li>Tap a story to display it.</li><li>To add a comment, <br>a) Tap the three-dot menu and select <b>Comments</b>; <br>b) At the bottom, type your comment; and <br>c) Tap <b>Save</b>.</li><li>To add details for the story, <br>a) Tap the three-dot menu and select <b>Details</b>; <br>b) Type the title and content for the story; <br>c) To mark thge story as public or private, tap the down arrow and make your selection; and <br>d) Tap <b>Save</b>.</li><li>To share the story, <br>a) Tap the three-dot menu and select <b>Share</b>; <br>b) Choose a sharing option (if the option you want does not appear, tap the \"See All\" link) and <br>c) Follow the instructions in the sharing platform you chose..</li><li>To edit the story, <br>a) Tap the three-dot menu and select <b>Edit</b>; <br>b) Tap the place in the story where you want to start editing; <br>c) Make your edits to the story.</li><img src=\"img/app/mem-stories-photo.png\" width=\"300px;\" style=\"float:right; margin-left:20px;  margin-top:8px; border:1px solid #000; padding:0px;\"><li>To add a photo to the story, tap the plus icon. You can then select <b>Camera</b> to take a photo with your device and add it, or <b>File</b> to add a photo from an existing file, or <b>FamilySearch Gallery</b> to add a photo from the Gallery. Then select the photo, to have it appear above your story in the edit screen. You can add up to 9 more photos for a story by clicking the <b>plus icon</b> again and following the above process.</li><li>To add a title for the story, <br>a) Below the story, tap \"Add a Title\"; <br>b) At the bottom of the screen, tap \"Add a Title\" and type the title; and <br>c) Tap <b>Save</b>. </li><li>To delete the story, <br>a) Tap the three-dot menu (upper right); <br>b) Tap <b>Delete</b>; and c) Tap <b>Delete</b> again.</li></ol><a class=\"lk\" href=\"javascript:toggleDiv('2a-2dx');\">Exercises</a><div id=\"2a-2dx\" class=\"hidden\"><ul style=\"list-style: none; margin-left: -20px;\"><li>* Proficient: View stories in the Gallery and add a title and photo to at least two stories.</li></ul><hr style=\"margin-left: 20px;\"></div><br><br><br><br>"
+                        },
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Display stories and edit them.</li><li>Add photos to existing stories.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Proficient: View stories in the Gallery and add a title and photo to at least two stories.</li></ul><hr style=\"margin-left: 20px;\">"
+                        },
+                        {
+                            "type": "e add new stories to memories.",
+                            "content": "<br><a class=\"lk\" href=\"javascript:toggleDiv('2a-2e');\">Summary</a><div id=\"2a-2e\" class=\"hidden\"><ul><li>Write stories and save them.</li><li>Share stories with others.</li><hr style=\"margin-left: -20px;\"></ul></div><br><br><ol><li>In the Stories screen, tap the <b>plus icon</b> (lower right).</li><img src=\"img/app/mem-stories-add.png\" width=\"170px;\" style=\"float:right; margin-left:20px; margin-top:8px; border:1px solid #000; padding:0px;\"><li>Tap <b>Write Story</b>.</li><li>Enter the story title and content. You can also tap the down arrow to mark the story as public or private.</li><li>To add one or more photos, see the instruction in Choice D.</li><li>To add audio to the story, see <a class=\"lk\" href=\"project-2-memories-app04.html\" target=\"_blank\">Goal 4</a>.</li><li>Tap <b>Save</b>.</li></ol><br><br><a class=\"lk\" href=\"javascript:toggleDiv('2a-2ex');\">Exercises</a><div id=\"2a-2ex\" class=\"hidden\"><ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Write a story and share it two different ways.</li><li>* Proficient: Same as Good, with two stories.</li></ul><hr style=\"margin-left: 20px;\"></div><br><br><br>"
+                        },
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Write stories and save them.</li><li>Share stories with others.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Write a story and share it two different ways.</li><li>* Proficient: Same as Good, with two stories.</li></ul><hr style=\"margin-left: 20px;\">"
+                        },
+                        {
+                            "type": "f tag a story to attach it to memories, for a person in family tree.",
+                            "content": "<br><a class=\"lk\" href=\"javascript:toggleDiv('2a-2f');\">Summary</a><div id=\"2a-2f\" class=\"hidden\"><ul><li>Tag stories to connect them with people in Family Tree.</li><hr style=\"margin-left: -20px;\"></ul></div><br><br><ol><li>Tap the story, if it is not already open.</li><li>Tap the <b>person-plus icon</b> (upper right).</li><img src=\"img/app/mem-stories-select.png\" width=\"250px;\" style=\"float:right; margin-left:20px; margin-top:8px; border:1px solid #000; padding:0px;\"><li>Select the name or ID you want from the list, or begin typing to find it. If the name or ID does not appear, tap <b>Add New</b> next to the entry you typed to add it to the list.</li><li>Tap <b>Done</b>. The story is now available in the Memories area on FamilySearch for each person you tagged. Tagged individuals are indicated in the \"In This Story\" list, and the person-plus icon shows the number of people tagged in the story.</li><li style=\"list-style:none;\"><i>Note</i> : You can also tag a photo in the Gallery by tapping the folder icon above the photo.</li> <li>To add a topic tag for a story, <br>a) In an open story, tap the tag icon (upper right); <br>b) Type the topic (you can select it from the list if it's a match); and c) Tap the plus icon.</li></ol><a class=\"lk\" href=\"javascript:toggleDiv('2a-2fx');\">Exercises</a><div id=\"2a-2fx\" class=\"hidden\"><ul style=\"list-style: none; margin-left: -20px;\"><li>* Proficient: Tag people in at least two stories.</li></ul><hr style=\"margin-left: 20px;\"></div><br><br><br>"
+                        },
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Tag stories to connect them with people in Family Tree.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Proficient: Tag people in at least two stories.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/notes-pen.jpg",
+                        "https://www.thefhguide.com/img/app/mem-stories-photo.png",
+                        "https://www.thefhguide.com/img/app/mem-stories-add.png",
+                        "https://www.thefhguide.com/img/app/mem-stories-select.png"
+                    ],
+                    "text": "<ol><img src=\"img/notes-pen.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"><li>When possible, add interesting historical details to flesh out an ancestor's life story. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://ldsgenealogy.com/Preserving-Family-Stories.htm\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">LDS—Preserving Family Stories</span></a></li><br><li>Watch this BYU Webinar for ideas on creating stories about your ancestors. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=m3TI_CqPfdk\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">BYU—How to Write a Compelling Story about Your Ancestor—29:40</span></a><br><iframe width=\"330\" height=\"220\" src=\"https://www.youtube.com/embed/m3TI_CqPfdk?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li>Study these tips for writing family stories. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/blog/en/18-writing-tips-tell-stories/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">18 Writing Tips for 2018</span></a></li><div class=\"micro\">0-15</div><br><li>Learn how to use index cards to plot a family history story. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://www.familyhistorywritingstudio.com/how-to-use-index-cards/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">How to Use Index Cards to Plot a Family History Story</span></a></li><br><li>Learn how to overcome writer's block when writing ancestor stories. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.archives.com/experts/alzo-lisa/writers-block.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">AR: Break That Writer's Block: Ten Tips To Tap Into Your Creative Muse</span></a></li><br><li>If appropriate, collaborate with a family member or relative who can help with the details or the writing of the story.</li><li>For more ideas on how to write effective family histories and stories, visit the <a class=\"lk\" href=\"http://www.familyhistorywritingstudio.com/home/articles/\">Family History Writing Studio</a> site.</li><li>To learn about using the FamilySearch Memories app to record stories, read this blog post. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/blog/en/familysearch-memories-app/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—FamilySearch Memories App </span></a></li><br><li>Use this Ancestry lesson plan to learn about creating biographies for ancestors. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.ancestrycdn.com/aa-k12/1108/assets/Biography_lesson.pdf\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">AC—Biography Lesson Plan</span></a></li><br></ol><p>Stories can be a powerful way to connect you and others to your ancestors. <i>Note</i>: The Fan Chart view in FamilySearch can display a count of the stories in Memories for each ancestor. </p><ol><li>To view stories in the Gallery, tap the <b>Stories icon</b> (second icon in the top bar). </li><li>Tap a story to display it.</li><li>To add a comment, <br>a) Tap the three-dot menu and select <b>Comments</b>; <br>b) At the bottom, type your comment; and <br>c) Tap <b>Save</b>.</li><li>To add details for the story, <br>a) Tap the three-dot menu and select <b>Details</b>; <br>b) Type the title and content for the story; <br>c) To mark thge story as public or private, tap the down arrow and make your selection; and <br>d) Tap <b>Save</b>.</li><li>To share the story, <br>a) Tap the three-dot menu and select <b>Share</b>; <br>b) Choose a sharing option (if the option you want does not appear, tap the \"See All\" link) and <br>c) Follow the instructions in the sharing platform you chose..</li><li>To edit the story, <br>a) Tap the three-dot menu and select <b>Edit</b>; <br>b) Tap the place in the story where you want to start editing; <br>c) Make your edits to the story.</li><img src=\"img/app/mem-stories-photo.png\" width=\"300px;\" style=\"float:right; margin-left:20px;  margin-top:8px; border:1px solid #000; padding:0px;\"><li>To add a photo to the story, tap the plus icon. You can then select <b>Camera</b> to take a photo with your device and add it, or <b>File</b> to add a photo from an existing file, or <b>FamilySearch Gallery</b> to add a photo from the Gallery. Then select the photo, to have it appear above your story in the edit screen. You can add up to 9 more photos for a story by clicking the <b>plus icon</b> again and following the above process.</li><li>To add a title for the story, <br>a) Below the story, tap \"Add a Title\"; <br>b) At the bottom of the screen, tap \"Add a Title\" and type the title; and <br>c) Tap <b>Save</b>. </li><li>To delete the story, <br>a) Tap the three-dot menu (upper right); <br>b) Tap <b>Delete</b>; and c) Tap <b>Delete</b> again.</li></ol><ol><li>In the Stories screen, tap the <b>plus icon</b> (lower right).</li><img src=\"img/app/mem-stories-add.png\" width=\"170px;\" style=\"float:right; margin-left:20px; margin-top:8px; border:1px solid #000; padding:0px;\"><li>Tap <b>Write Story</b>.</li><li>Enter the story title and content. You can also tap the down arrow to mark the story as public or private.</li><li>To add one or more photos, see the instruction in Choice D.</li><li>To add audio to the story, see <a class=\"lk\" href=\"project-2-memories-app04.html\" target=\"_blank\">Goal 4</a>.</li><li>Tap <b>Save</b>.</li></ol><ol><li>Tap the story, if it is not already open.</li><li>Tap the <b>person-plus icon</b> (upper right).</li><img src=\"img/app/mem-stories-select.png\" width=\"250px;\" style=\"float:right; margin-left:20px; margin-top:8px; border:1px solid #000; padding:0px;\"><li>Select the name or ID you want from the list, or begin typing to find it. If the name or ID does not appear, tap <b>Add New</b> next to the entry you typed to add it to the list.</li><li>Tap <b>Done</b>. The story is now available in the Memories area on FamilySearch for each person you tagged. Tagged individuals are indicated in the \"In This Story\" list, and the person-plus icon shows the number of people tagged in the story.</li><li style=\"list-style:none;\"><i>Note</i> : You can also tag a photo in the Gallery by tapping the folder icon above the photo.</li> <li>To add a topic tag for a story, <br>a) In an open story, tap the tag icon (upper right); <br>b) Type the topic (you can select it from the list if it's a match); and c) Tap the plus icon.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Display and edit stories from Memories.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Display stories and edit them.</li><li>Add photos to existing stories.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Proficient: View stories in the Gallery and add a title and photo to at least two stories.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/app/mem-stories-photo.png"
+                    ],
+                    "text": "<p>Stories can be a powerful way to connect you and others to your ancestors. <i>Note</i>: The Fan Chart view in FamilySearch can display a count of the stories in Memories for each ancestor. </p><ol><li>To view stories in the Gallery, tap the <b>Stories icon</b> (second icon in the top bar). </li><li>Tap a story to display it.</li><li>To add a comment, <br>a) Tap the three-dot menu and select <b>Comments</b>; <br>b) At the bottom, type your comment; and <br>c) Tap <b>Save</b>.</li><li>To add details for the story, <br>a) Tap the three-dot menu and select <b>Details</b>; <br>b) Type the title and content for the story; <br>c) To mark thge story as public or private, tap the down arrow and make your selection; and <br>d) Tap <b>Save</b>.</li><li>To share the story, <br>a) Tap the three-dot menu and select <b>Share</b>; <br>b) Choose a sharing option (if the option you want does not appear, tap the \"See All\" link) and <br>c) Follow the instructions in the sharing platform you chose..</li><li>To edit the story, <br>a) Tap the three-dot menu and select <b>Edit</b>; <br>b) Tap the place in the story where you want to start editing; <br>c) Make your edits to the story.</li><img src=\"img/app/mem-stories-photo.png\" width=\"300px;\" style=\"float:right; margin-left:20px;  margin-top:8px; border:1px solid #000; padding:0px;\"><li>To add a photo to the story, tap the plus icon. You can then select <b>Camera</b> to take a photo with your device and add it, or <b>File</b> to add a photo from an existing file, or <b>FamilySearch Gallery</b> to add a photo from the Gallery. Then select the photo, to have it appear above your story in the edit screen. You can add up to 9 more photos for a story by clicking the <b>plus icon</b> again and following the above process.</li><li>To add a title for the story, <br>a) Below the story, tap \"Add a Title\"; <br>b) At the bottom of the screen, tap \"Add a Title\" and type the title; and <br>c) Tap <b>Save</b>. </li><li>To delete the story, <br>a) Tap the three-dot menu (upper right); <br>b) Tap <b>Delete</b>; and c) Tap <b>Delete</b> again.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Add new stories to Memories.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Write stories and save them.</li><li>Share stories with others.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Write a story and share it two different ways.</li><li>* Proficient: Same as Good, with two stories.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/app/mem-stories-add.png"
+                    ],
+                    "text": "<ol><li>In the Stories screen, tap the <b>plus icon</b> (lower right).</li><img src=\"img/app/mem-stories-add.png\" width=\"170px;\" style=\"float:right; margin-left:20px; margin-top:8px; border:1px solid #000; padding:0px;\"><li>Tap <b>Write Story</b>.</li><li>Enter the story title and content. You can also tap the down arrow to mark the story as public or private.</li><li>To add one or more photos, see the instruction in Choice D.</li><li>To add audio to the story, see <a class=\"lk\" href=\"project-2-memories-app04.html\" target=\"_blank\">Goal 4</a>.</li><li>Tap <b>Save</b>.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Tag a story to attach it to Memories, for a person in Family Tree.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Tag stories to connect them with people in Family Tree.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Proficient: Tag people in at least two stories.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/app/mem-stories-select.png"
+                    ],
+                    "text": "<ol><li>Tap the story, if it is not already open.</li><li>Tap the <b>person-plus icon</b> (upper right).</li><img src=\"img/app/mem-stories-select.png\" width=\"250px;\" style=\"float:right; margin-left:20px; margin-top:8px; border:1px solid #000; padding:0px;\"><li>Select the name or ID you want from the list, or begin typing to find it. If the name or ID does not appear, tap <b>Add New</b> next to the entry you typed to add it to the list.</li><li>Tap <b>Done</b>. The story is now available in the Memories area on FamilySearch for each person you tagged. Tagged individuals are indicated in the \"In This Story\" list, and the person-plus icon shows the number of people tagged in the story.</li><li style=\"list-style:none;\"><i>Note</i> : You can also tag a photo in the Gallery by tapping the folder icon above the photo.</li> <li>To add a topic tag for a story, <br>a) In an open story, tap the tag icon (upper right); <br>b) Type the topic (you can select it from the list if it's a match); and c) Tap the plus icon.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "name": "Documents",
+        "section_name": "View, add, and manage documents in Memories.",
+        "summary": "<p>This Goal helps you get documents added for ancestors in Family Tree.</p>",
+        "choices": [
+            {
+                "name": "Add new documents to Memories.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Add documents to Memories, from your camera or from a file.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Add one document from your camera and one from a file, and title them.</li><li>* Proficient: Same as Good, with two documents.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/app/mem-camera.png"
+                    ],
+                    "text": "<ol><li>In the Memories Gallery, tap the <b>Document icon</b> (top menu bar).</li><li>In the Documents screen, tap the <b>plus icon</b> (lower right).</li><li>Tap <b>Add document</b>.</li><img src=\"img/app/mem-camera.png\" width=\"200px;\" style=\"float:right; margin-left:20px;  margin-top:8px; border:1px solid #000; padding:0px;\"><li>To take a photo of a document for Memories, <br>a) Tap <b>Camera</b>; <br>b) If prompts appear that ask about allowing Memories to take pictures, record video, and access media, tap <b>Allow</b>; <br>c) Take the photo; <br>d) Tap the checkmark.</li><li>If you want to trim the photo, <br>a) Tap <b>Crop</b>; Move the green selector points until the rectangle covers the area you want to keep in the photo; and <br>c) Tap <b>Crop</b>.</li><li>To add a title for the document, <br>a) Below the picture, tap \"Add a Title\"; <br>b) At the bottom of the screen, tap \"Add a Title\" and type the title.</li><li>Tap <b>Save</b>. </li><li>To add a document from a file on your device, <br>a) Tap <b>File</b>; <br>b) Navigate to the file on your device; and <br>c) Tap the filename to add it to the Gallery.</li><li>To add a title to a document in the Gallery, tap \"Add a Title\" beneath the document and follow the instructions in the previous step.</li><li>To edit an existing document title, tap the title name and follow the instructions above.</li> </ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "View documents in the Memories Gallery.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>View documents in the Gallery.</li><li>Tag and share documents in the Gallery.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: View and add or change the title for a document; then share it in two different ways.</li><li>* Proficient: Same as Good, for two documents.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/app/mem-documents.png"
+                    ],
+                    "text": "<ol><img src=\"img/app/mem-documents.png\" width=\"300px;\" style=\"float:right; margin-left:20px; margin-top:8px; border:1px solid #000; padding:0px;\"><li>To view a document in the Gallery, tap the <b>Documents icon</b> (third icon in the top bar). </li><li>Tap a document to display it; pinch or spread to zoom the view.</li><li>To add a title for the document, <br>a) Below the document, tap \"Add a Title\"; <br>b) At the bottom of the screen, tap \"Add a Title\" and type the title; and <br>c) Tap <b>Save</b>. </li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Tag a document to attach it to Memories, for a person in Family Tree.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Tag documents for Memories.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Proficient: Tag two or more documents for Memories.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>Tap the document, if it is not already open.</li><li>Tap the <b>person icon</b> (upper right).</li><li>If a name list appears at the top, select the name or ID of the person represented in the document, or begin typing to find it. If the name or ID does not appear, tap <b>Add New</b> next to the entry you typed to add it to the list.</li><li>To add a tag manually, tap the area where a person is pictured in the document. Then size the rectangle that appears, tap \"Add Name\", and select a name from the list.</li><li>Tap <b>Done</b>. The document is now available in the Memories area on FamilySearch for each person you tagged. Tagged individuals are indicated in the \"In This Document\" list, and the person-plus icon shows the number of people tagged in the document. To remove a tag, tap the checkmark next to the person's name and tap <b>Done</b>.</li><li style=\"list-style:none;\"><i>Note</i> : You can also tag a photo in the Gallery by tapping the folder icon above the photo.</li> </ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Perform various actions for a document.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Share or download documents.</li><li>Convert a document to a photo.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Download a document and then share it in two ways.</li><li>* Proficient: Same as Good, for two documents.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>To add a comment, <br>a) Tap the three-dot menu and select <b>Comments</b>; <br>b) At the bottom, type your comment; and <br>c) Tap <b>Save</b>.</li><li>To add details for the document, <br>a) Tap the three-dot menu and select <b>Details</b>; <br>b) Type the title, description, event date, and event place for the photo (you can also designate it as a public or private memory); and <br>c) Tap <b>Save</b>.</li><li>To share an open document with others, <br>a) Tap the share icon (upper right); <br>b) Choose a sharing option  (if the option you want does not appear, tap the \"See All\" link); and <br>c) Follow the instructions in the sharing platform you chose.</li><li>To download an open document, <br>a) Tap the three-dot menu (upper right) and tap <b>Download</b>. The document will be downloaded to the Downloads location on your device.</li><li>To delete an open document, <br>a) Tap the three-dot menu (upper right); <br>b) Tap <b>Delete</b>; and tap <b>Delete</b> again.</li><li>To archive documents in the Gallery view, <br>a) Tap the three-dot menu (upper right) and tap <b>Select Memories</b>; <br>b) Tap the circle for each document you want to archive; <br>c) Tap the three-dot menu (upper right) and tap <b>Archive</b>; At the prompt, tap <b>Archive</b>.</li><li>To delete documents in the Gallery view, <br>a) Tap the three-dot menu (upper right) and tap <b>Select Memories</b>; <br>b) Tap the circle for each document you want to delete; <br>c) Tap the three-dot menu (upper right) and tap <b>Delete</b>; At the prompt, tap <b>Delete</b>. You can also use the Delete option when you are viewing a document, by using the three-dot menu.</li></ol><p style=\"margin-left:70px;\">You can also add audio to a document, using the microphone icon. For details, see <a class=\"lk\" href=\"project-2-mem-app04.html\" target=\"_blank\">Goal 4: Audio.</a></p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Audio",
+        "name": "Audio",
+        "section_name": "Listen to and add audio in Memories.",
+        "summary": "<p>This Goal helps you do interviews and add audio files for ancestors in Family Tree.</p>",
+        "choices": [
+            {
+                "name": "Add new audio files to Memories.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Record and add audio files.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Record and add two audio files, with another person or youself doing the speaking.</li><li>* Proficient: Record and add three audio files, with at least one of them using another person to do the speaking.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/app/mem-audio-topic.png",
+                        "https://www.thefhguide.com/img/app/mem-audio-done.png"
+                    ],
+                    "text": "<ol><p>The Audio Files feature in Memories enables you to do recorded interviews from your device, quickly and easily, with a number of pre-selected topics. You can invite someone to interview, or you can address the topics yourself.</p><img src=\"img/app/mem-audio-topic.png\" width=\"250px;\" style=\"float:right; margin-left:20px; margin-top:8px; border:1px solid #000; padding:0px;\"><li>In the Audio screen, tap the <b>plus icon</b> (lower right).</li><li>Tap <b>Record Audio</b>. If a prompt appears for allowing Memories to record audio, tap <b>Allow</b>.</li><li>In the <b>Choose a Topic</b> list, tap a question that the speaker will answer in the recording. If you don't see the question you want, tap <b>Begin Recording</b> to use your own topic. </li><li>In the Recording screen, <br>a) Tap the <b>microphone icon (Start)</b>; <br>b) Ask the question on the screen (or supply your own if you want) to the person you are interviewing; and <br>c) Have the person you are interviewing answer the question as the recording proceeds. You can add your comments as you go.</li><br><br><br><br><br><br><img src=\"img/app/mem-audio-done.png\" width=\"300px;\" style=\"float:right; margin-left:20px; margin-top:8px; border:1px solid #000; padding:0px;\"><li>To finish the recording, tap <b>Done</b>. </li><li>If you want to change the title for the recording, edit it on the screen.</li><li>Tap <b>Save</b>. The audio file now appears in your Memories.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Listen to audio files in the Memories Gallery.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Listen to audio files in Memories.</li><li>Add or change titles for audio files.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Proficient: Listen to two or more audio files, and add or change the titles for each.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/app/mem-audio.png"
+                    ],
+                    "text": "<ol><li>To listen to an audio file in the Gallery, tap the <b>Audio icon</b> (second icon in the top bar). </li><img src=\"img/app/mem-audio.png\" width=\"300px;\" style=\"float:right; margin-left:20px;  margin-top:8px; border:1px solid #000; padding:0px;\"><li>Select an audio file in the Gallery and then tap the <b>Play</b> button. You can tap it again to pause the audio, or </li><li>To add or edit a title for the audio file, <br>a) In the three-dot menu, tap <b>Add a Title</b> (or <b>Edit Title</b>; <br>b) Type or change the title for the audio; and <br>c) Tap <b>Save</b> (or <b>Done</b>). </li><li>To delete the audio file, <br>a) Tap the three-dot menu (upper right); <br>b) Tap <b>Delete</b>; and tap <b>Delete</b> again.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Tag an audio file to attach it to Memories, for a person in Family Tree.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Tag an audio file so it will be included in a person's Memories in Family Tree.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Tag one or more persons in an audio file.</li><li>* Proficient: Same as Good, for at least two audio files.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>Tap the audio file, if it is not already open.</li><li>Tap the <b>person-plus icon</b> (upper right).</li><li>Select the name or ID you want from the list, or begin typing to find it. If the name or ID does not appear, tap <b>Add New</b> next to the entry you typed to add it to the list.</li><li>Tap <b>Done</b>. The audio file is now available in the Memories area on FamilySearch for each person you tagged.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Albums",
+        "name": "Albums",
+        "section_name": "Create and manage albums for your Memories.",
+        "summary": "<p>Digital albums can be an easy and convenient way to keep track of your items in FamilySearch Memories.</p>",
+        "choices": [
+            {
+                "name": "Create new albums.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Create albums to organize your Memories.</li></ul><hr style=\"margin-left: -20px;\">"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Create two new albums.</li><li>* Proficient: Create at least four new albums.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/app/mem-album-folder.png"
+                    ],
+                    "text": "<ol><p>Albums help you organize your Memories according to titles you choose.</p><li>Review the items in your Memories Gallery and decide on titles for the albums you want.</li><li>In the three-line menu (upper left), tap <b>Albums</b>.</li><img src=\"img/app/mem-album-folder.png\" width=\"250px;\" style=\"float:right; margin-left:20px; margin-top:8px; border:1px solid #000; padding:0px;\"><li>Tap the <b>folder icon</b> (lower right).</li><li>Type the album name.</li><li>Tap <b>Save</b>. The album is now available in your Gallery.</li> </ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Update, view, and manage albums.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Add memories to an album.</li><li>Edit album titles or delete albums as needed.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Add one or more memories for at least two albums.</li><li>* Proficient: Add two or more memories for at least four albums.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/app/mem-photo-selected.png"
+                    ],
+                    "text": "<ol><p><i>Note</i> : When you add a Memories item to an album, the item exists in both the album and the Gallery. When you delete an album, the Memories items in it still exist in the Gallery.</p><img src=\"img/app/mem-photo-selected.png\" width=\"300px;\" style=\"float:right; margin-left:20px; margin-top:8px; border:1px solid #000; padding:0px;\"><li>To add one or more Memories to an album, <br>a) In the Gallery view, tap the three-dot menu and choose <b>Select Memories</b>; <br>b) Tap the circle for each item you want to add to an album; <br>c) Tap the <b>plus icon</b> (top row); and <br>d) Tap the album name you want. The Memories are now available for viewing both in the Gallery and in the album. You can also create a new album in the list screen by tapping <b>Create Album</b> and following the prompts.</li><li>To view the contents of an album, in the Gallery view, tap the three-line menu (upper left) and choose <b>Albums</b>. Then you can select an existing album to view.</li><li>To add Memories to the album from the album screen, tap the <b>plus-icon</b> (lower right) and add each Memory as a photo, story, document, or audio file, as explained in the Goals in this project. You can also perform other actions for any item in the album, such as adding a title, sharing the item, deleting it, etc., by tapping the folder icon above the item and following the steps given elsewhere in this Project.</li><li>To edit the title of an album, <br>a) In an open album tap the three-dot menu (upper right) and select <b>Edit Album</b>; <br>b) Change the title; and <br>c) Tap <b>Done</b>.</li><li>To delete an album, <br>a) Tap the three-dot menu (upper right) and select <b>Delete Album</b>; and <br>b) Change the title; and <br>c) Tap <b>Done</b>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Settings",
+        "name": "Settings",
+        "section_name": "Change the settings for your Memories.",
+        "summary": "<p>This Goal helps you determine the settings you use for the FamilySearch Memories app.</p>",
+        "choices": [
+            {
+                "name": "Change settings for Memories.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>In the three-line menu (upper left), tap <b>Settings</b>.</li><li>The following Preferences are available:<ul style=\"margin-left:-88px;\"><li>Enable Relationship Viewing—Let other users see how they are related to you in Family Tree.</li><li>Photo Gallery—Save a copy of any new photo to the library on your device (on or off).</li><li>Theme—Select Light, Dark, or System Default.</li><li>Download Memories—Download all items from your Gallery to your local device, for offline access. Tap this setting, and then tap <b>Download</b>.</li> </ul></li><li>The following Notification Categories are available:<ul style=\"margin-left:-88px;\"><li>Downloads—Save a copy of any new photo to the library on your device (on or off).</li><li>Memories—Get notifications about issues with syncing memories.<br></li><li>General—Behavior (sound or display for a notification)<br>Advanced: Sound (type of notification sound); Vibrate (off or on); Show notification dot (on or off); Override \"Do Not Disturb\" (off or on). <br></li></ul></li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

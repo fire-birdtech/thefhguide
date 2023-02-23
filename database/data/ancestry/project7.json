@@ -1,0 +1,626 @@
+[
+    {
+        "nav_name": "Basic Genetics and Research",
+        "name": "Basic Genetics and Research",
+        "section_name": "Learn about basic genetics and DNA research. Vault",
+        "summary": "<p>DNA testing can provide you with some interesting and unexpected clues about your ancestry and ethnicity.</p><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/13f-s44bLUY?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><p>(See the Part 2 video in <a class=\"lk\" href=\"project-8-dna02.html\">Goal 2</a>.)</p>",
+        "choices": [
+            {
+                "name": "Get an introduction to genetics for family history.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>There are 3 different kinds of DNA tests commonly used in genealogy: Y-DNA, mitochondrial, and autosomal.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=jf3Lwj7SmNk#t=0m35s\" target=\"_blank\">Some basic anatomy</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=jf3Lwj7SmNk#t=2m17s\" target=\"_blank\">The double helix</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=jf3Lwj7SmNk#t=5m36s\" target=\"_blank\">Two halves make a whole</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=jf3Lwj7SmNk#t=8m36s\" target=\"_blank\">How to make a match</a></li></ul></span>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-genetics.png"
+                    ],
+                    "text": "<ol><img src=\"img/y-genetics.png\" width=\"300px\" border=\"1\" style=\"float:right; margin-right:0px; margin-left: 16px;\"><li>Learn about the basics of DNA and the benefits of DNA testing.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/dna-testing\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—DNA testing: What is it, and how can you benefit from it?</span></a></li><br><li>Read these articles for an overview of genetics and genealogy. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://genie1.com.au/introduction-to-dna-testing-for-genealogy/\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Introduction to DNA Testing for Genealogy</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/img_auth.php/8/8b/Genetic_Genealogy_An_Introduction_to_DNA.pdf\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS: Genetic Genealogy: An Introduction to DNA</span></a></li><br><li>Watch this video for an introduction to genetic genealogy. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=jf3Lwj7SmNk\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">Genetic Genealogy for Beginners, Part 1—11:31 - 2015</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('begin');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"begin\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=jf3Lwj7SmNk#t=0m35s\" target=\"_blank\">Some basic anatomy</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=jf3Lwj7SmNk#t=2m17s\" target=\"_blank\">The double helix</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=jf3Lwj7SmNk#t=5m36s\" target=\"_blank\">Two halves make a whole</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=jf3Lwj7SmNk#t=8m36s\" target=\"_blank\">How to make a match</a></li></ul></span></div><br><br><iframe width=\"330\" height=\"220\" src=\"https://www.youtube.com/embed/jf3Lwj7SmNk?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li>Learn the basics of <a class=\"lk\" href=\"http://learn.genetics.utah.edu/content/chromosomes/\" target=\"_blank\">chromosomes and inheritance</a> on the Learn Genetics site at the Univ. of Utah. There is a series of helpful animations and videos on the site.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn the basics of DNA research for family history.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>DNA research for genealogy can be used to confirm theories or previous research, break a brick wall, find relatives that were adopted, and more.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=kBjo0ZbnAbY#t=1m45s\" target=\"_blank\">Three main DNA tests</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=kBjo0ZbnAbY#t=24m43s\" target=\"_blank\">DNA testing can be used to ...</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=kBjo0ZbnAbY#t=24m43s\" target=\"_blank\">DNA testing does not ...</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=kBjo0ZbnAbY#t=24m43s\" target=\"_blank\">Y-chromosome DNA tests</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=kBjo0ZbnAbY#t=11m28s\" target=\"_blank\">How many markers?</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=kBjo0ZbnAbY#t=12m45s\" target=\"_blank\">What is a match?</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=kBjo0ZbnAbY#t=24m31s\" target=\"_blank\">Mitochondrial DNA tests</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=kBjo0ZbnAbY#t=28m54s\" target=\"_blank\">Haplogroup nomenclature</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=kBjo0ZbnAbY#t=33m16s\" target=\"_blank\">What is autosomal DNA?</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=kBjo0ZbnAbY#t=40m57s\" target=\"_blank\">Chromosome browser</a></li></ul></span>"
+                        },
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=bB7VJeCR6Bs#t=0m47s\" target=\"_blank\">DNA basics</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=bB7VJeCR6Bs#t=2m23s\" target=\"_blank\">Autosomal DNA</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=bB7VJeCR6Bs#t=3m32s\" target=\"_blank\">Autosomal Testing</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=bB7VJeCR6Bs#t=5m59s\" target=\"_blank\">Autosomal Basics</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=bB7VJeCR6Bs#t=7m31s\" target=\"_blank\">Autosomal DNA Testing Basics</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=bB7VJeCR6Bs#t=12m17s\" target=\"_blank\">Verifying known genealogical relationships</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=bB7VJeCR6Bs#t=13m44s\" target=\"_blank\">Managing your match list</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=bB7VJeCR6Bs#t=16m07s\" target=\"_blank\">Key points in analysis</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=bB7VJeCR6Bs#t=17m16s\" target=\"_blank\">Strategies for brick walls</a></li></ul></span>"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>Explore lessons in the <a class=\"lk\" href=\"https://wheatonwood.com/introduction-to-genetic-genealogy-dead-people-can-talk-after-all/\" target=\"_blank\">Beginner's Guide to Genetic Genealogy</a>.</li><br><li>Get an introduction to DNA and family history. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=yGx3xyiR9rA\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">How to Get Started Using DNA Research—8:17 - 2015</span></a><br><br><iframe width=\"330\" height=\"220\" src=\"https://www.youtube.com/embed/yGx3xyiR9rA?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=kBjo0ZbnAbY\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">DNA for Beginners—52:22 - 2014</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('begin1');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"begin1\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=kBjo0ZbnAbY#t=1m45s\" target=\"_blank\">Three main DNA tests</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=kBjo0ZbnAbY#t=24m43s\" target=\"_blank\">DNA testing can be used to ...</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=kBjo0ZbnAbY#t=24m43s\" target=\"_blank\">DNA testing does not ...</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=kBjo0ZbnAbY#t=24m43s\" target=\"_blank\">Y-chromosome DNA tests</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=kBjo0ZbnAbY#t=11m28s\" target=\"_blank\">How many markers?</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=kBjo0ZbnAbY#t=12m45s\" target=\"_blank\">What is a match?</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=kBjo0ZbnAbY#t=24m31s\" target=\"_blank\">Mitochondrial DNA tests</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=kBjo0ZbnAbY#t=28m54s\" target=\"_blank\">Haplogroup nomenclature</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=kBjo0ZbnAbY#t=33m16s\" target=\"_blank\">What is autosomal DNA?</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=kBjo0ZbnAbY#t=40m57s\" target=\"_blank\">Chromosome browser</a></li></ul></span></div><br><br><iframe width=\"330\" height=\"220\" src=\"https://www.youtube.com/embed/kBjo0ZbnAbY?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li>Learn about the emotional side of DNA testing and results.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/en/blog/healing-and-family-history-the-emotional-side-of-dna\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">RT—Healing and Family History: The Emotional Side of DNA</span></a></li><br><li>Explore the <a class=\"lk\" href=\"https://www.accessgenealogy.com/dna-new\" target=\"_blank\">AccessGenealogy.com site</a> for an introduction to DNA research.</li><li><span class=\"g\">Glossary</span>: Explore these glossaries and of DNA terms. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://thednageek.com/a-genetic-genealogy-glossary/\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">A Genetic Genealogy Glossary - 2017</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://isogg.org/wiki/Genetics_Glossary\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">ISOGG Genetics Glossary</span></a></li><br><li><span class=\"g\">FAQs</span>: Here is a list of FAQs for DNA tests.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.findmypast.com/blog/dna/dna-glossary\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">11 Questions Everyone Asks about DNA Tests - 2019</span></a></li><br><li>Learn about tracing ancestors in the 1700s with DNA test results. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=bB7VJeCR6Bs\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">RT—Tracing Ancestral Lines in the 1700s Using DNA, Part 1—20:06 - 2021</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('1700');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"1700\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=bB7VJeCR6Bs#t=0m47s\" target=\"_blank\">DNA basics</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=bB7VJeCR6Bs#t=2m23s\" target=\"_blank\">Autosomal DNA</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=bB7VJeCR6Bs#t=3m32s\" target=\"_blank\">Autosomal Testing</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=bB7VJeCR6Bs#t=5m59s\" target=\"_blank\">Autosomal Basics</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=bB7VJeCR6Bs#t=7m31s\" target=\"_blank\">Autosomal DNA Testing Basics</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=bB7VJeCR6Bs#t=12m17s\" target=\"_blank\">Verifying known genealogical relationships</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=bB7VJeCR6Bs#t=13m44s\" target=\"_blank\">Managing your match list</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=bB7VJeCR6Bs#t=16m07s\" target=\"_blank\">Key points in analysis</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=bB7VJeCR6Bs#t=17m16s\" target=\"_blank\">Strategies for brick walls</a></li></ul></span></div><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/bB7VJeCR6Bs?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=scOtMyFULGI\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">RT—Tracing Ancestral Lines in the 1700s Using DNA, Part 2—38:18 - 2021</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/scOtMyFULGI?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><li>Here's an example of using the free Airtable tool to create <a class=\"lk\" href=\"https://www.airtable.com/universe/expy4V9HzRUxtJLvh/rlp-with-dna-research-log-2022\" target=\"_blank\">detailed logs and notes for DNA research</a>.<br><br></li><li>Learn about the emotional side of DNA testing and results.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/en/blog/healing-and-family-history-the-emotional-side-of-dna\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">RT—Healing and Family History: The Emotional Side of DNA</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn more about DNA research.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>DNA research can also be used to verify a family line and calculate your ethnicity percentages.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=vtFkT_PSHV0#t=1m9s\" target=\"_blank\">Research Planning 101</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=vtFkT_PSHV0#t=3m45s\" target=\"_blank\">Deconstruct your wall</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=vtFkT_PSHV0#t=6m9s\" target=\"_blank\">Strategies</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=vtFkT_PSHV0#t=8m41s\" target=\"_blank\">Not the same as ICW</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=vtFkT_PSHV0#t=9m48s\" target=\"_blank\">Create a visual cue</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=vtFkT_PSHV0#t=10m55s\" target=\"_blank\">Sorting the data</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=vtFkT_PSHV0#t=13m16s\" target=\"_blank\">The more you know</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=vtFkT_PSHV0#t=15m45s\" target=\"_blank\">Don't forget ...</a></li></ul></span>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-genetic-lady.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/y-genetic-lady.jpg\" width=\"350px\" border=\"1\" style=\"float:right; margin-right:0px; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Learn how to find ancestors and unknown relatives through DNA research. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=4rbYrRICzrQ\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">RT—Finding Ancestors through DNA—10:46 - 2021</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/4rbYrRICzrQ?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=WGJ8IfuTETY\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Using DNA to Find Unknown Parents—15:20 - 2021</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/WGJ8IfuTETY?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><li>Watch this video for an insider's look at the research process. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://ancestry.com/academy/course/ancestry-dna-101\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">AC—DNA 101: An Insider's Scoop—52:43</span></a> </li><br><li>Learn how to break through research brick walls with DNA research. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=vtFkT_PSHV0\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">RT—DNA Brick Walls—17:43 - 2021</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('brick');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"brick\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=vtFkT_PSHV0#t=1m9s\" target=\"_blank\">Research Planning 101</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=vtFkT_PSHV0#t=3m45s\" target=\"_blank\">Deconstruct your wall</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=vtFkT_PSHV0#t=6m9s\" target=\"_blank\">Strategies</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=vtFkT_PSHV0#t=8m41s\" target=\"_blank\">Not the same as ICW</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=vtFkT_PSHV0#t=9m48s\" target=\"_blank\">Create a visual cue</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=vtFkT_PSHV0#t=10m55s\" target=\"_blank\">Sorting the data</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=vtFkT_PSHV0#t=13m16s\" target=\"_blank\">The more you know</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=vtFkT_PSHV0#t=15m45s\" target=\"_blank\">Don't forget ...</a></li></ul></span></div><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/vtFkT_PSHV0?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><li>Learn about molecular genealogy in this video series. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://learn.genetics.utah.edu/content/basics/molgen/\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">Introduction to Molecular Genealogy</span></a> </li><br><li>Explore the <a class=\"lk\" href=\"http://isogg.org/wiki/Wiki_Welcome_Page\" target=\"_blank\">ISOGG (International Society of Genetic Genealogists)</a> website for help resources.</li><li><span class=\"g\">Results</span>: For more information on using DNA results for family history, see these <a class=\"lk\" href=\"https://www.youtube.com/results?search_query=genealogy+dna\" target=\"_blank\">YouTube videos</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Learn about DNA Testing",
+        "name": "Learn about DNA Testing",
+        "section_name": "Learn about DNA testing.",
+        "summary": "<p>This Goal helps you learn about DNA tests for recent ancestry, maternal lines, and paternal lines.</p><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/DTc2kEnZ_T4?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe>",
+        "choices": [
+            {
+                "name": "Learn the basics of DNA testing.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>DNA tests come in different varieties that each accomplish something different. It's important to know what you are looking to get out of the DNA test before purchasing it.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-dna2.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/y-dna2.jpg\" width=\"250px\" border=\"1\" style=\"float:right; margin-right:0px; margin-top: 16px; margin-left: 16px;\"><li>Learn about DNA Testing. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.myfamilydnatest.com/ydna-mtdna-autosomal-dna-comparison/\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Y-DNA vs. mtDNA vs. Autosomal DNA - 2018</span></a> <br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=NJ5QuSoVJlU\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">Understanding DNA Testing for Genealogy Research—5:00 - 2014</span></a><br><br><iframe width=\"330\" height=\"220\" src=\"https://www.youtube.com/embed/NJ5QuSoVJlU?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br> </li><br><li>Get an introduction to different types of DNA tests. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/dna-an-introduction-to-genetic-genealogy-types-of-dna\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—DNA: An Introduction to Genetic Genealogy - Types of DNA—15:16 - 2018</span></a></li><br><li>Here are \"five truths\" about DNA testing. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=UhQoYYHcHRE\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">5 Truths about DNA Tests—4:49 - 2016</span></a><br><br><iframe width=\"330\" height=\"220\" src=\"https://www.youtube.com/embed/UhQoYYHcHRE?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li>Learn about the kinds of information that DNA tests provide you. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.collectingcousins.com/took-dna-test-now/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">I Took a DNA Test: Now What? - 2017</span></a></li><br><li>Review the links in the blog article for FAQs about DNA testing. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://blog.kittycooper.com/dna-testing/newbie-faq/\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">DNA Testing, Part One</span></a> </li><br><li> The DearMYRTLE YouTube Channel has a series of videos called \"Demystifying DNA Tests\". <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/playlist?list=PLR41jOFxoDYzNl4xxoSmihB-DJAbtG8YR\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">YT—Demystifying DNA Tests</span></a> </li><br><li>Use these DNA inheritance charts to better understand DNA test results. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familylocket.com/charts-for-understanding-dna-inheritance/\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FL—Charts for Understanding DNA Inheritance - 2019</span></a></li><br><li>Learn about STR (Short Tandem Repeats) and SNP (Single Nucleotide Polymorphism) tests for DNA inheritance. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.whodoyouthinkyouaremagazine.com/tutorials/dna/what-is-str-and-snp-dna/\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">WDY—What is STR and SNP DNA?</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about autosomal (recent ancestry) DNA testing.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Autosomal DNA tests are probably the most accessible and popular tests available now.</li><li>Autosomal tests can be taken by either gender and will provide ethnicity percentages as well as tell you how much DNA you have in common with another person.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-autosomal.png"
+                    ],
+                    "text": "<ol><img src=\"img/y-autosomal.png\" width=\"250px\" border=\"1\" style=\"float:right; margin-right:0px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Get an overview of autosomal DNA testing in this video.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=OJqWuSUrouI\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">AC—The Power of Autosomal DNA—7:51 - 2016</span></a><br><br><iframe width=\"330\" height=\"220\" src=\"https://www.youtube.com/embed/OJqWuSUrouI?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br><span class=\"star notranslate\">☆</span><a href=\"http://www.geni.com/blog/dna-testing-for-genealogy-getting-started-part-three-376261.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Autosomal DNA - 2012</span></a></li><br><li>Learn more about autosomal DNA in this video. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=Ktf_ZFtbFZY\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">BYU—Autosomal DNA for Genealogy—20:58 - 2014</span></a> <br><br><iframe width=\"330\" height=\"220\" src=\"https://www.youtube.com/embed/Ktf_ZFtbFZY?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></li><br><li>Learn how to use autosomal DNA research in practice. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=r_y1sZWRD34\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">Autosomal DNA: How to Use It in Practice—56:31 - 2015</span></a></li><br><li>Learn about solving brick walls in research with autosomal test results. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familylocket.com/autosomal-dna-and-solving-brick-walls/\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FL—Autosomal DNA and Solving Brick Walls - 2018</span></a></li><br><li>Explore the <a class=\"lk\" href=\"http://isogg.org/wiki/Portal:Autosomal_DNA\" target=\"_blank\">Autosomal DNA page</a> on the ISOGG website for help resources.</li> </ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about mitochondrial (maternal line) DNA testing.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Mitochondrial DNA tests are used to trace the direct maternal line and may help you overcome a genealogy brick wall.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/mtDNA.gif"
+                    ],
+                    "text": "<ol><img src=\"img/mtDNA.gif\" width=\"300px\" border=\"1\" style=\"float:right; margin-right:0px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Get an overview of mtDNA testing in this Geni blog article. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://www.geni.com/blog/dna-testing-for-genealogy-getting-started-part-two-376163.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">mtDNA Testing - 2012</span></a> </li><br><li>Get an overview of mtDNA in this brief video. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=kS5qREISS-Q\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">Mitochondrial DNA—1:04 - 2010</span></a><br><br><iframe width=\"330\" height=\"220\" src=\"https://www.youtube.com/embed/kS5qREISS-Q?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li>Learn more about mtDNA and what it can tell you about maternal ancestry. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=4Yh3vgehjBg\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">Genetic Ancestry Testing: Mitochondrial DNA—4:53 - 2014</span></a> <br><br><iframe width=\"330\" height=\"220\" src=\"https://www.youtube.com/embed/4Yh3vgehjBg?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li>Explore the <a class=\"lk\" href=\"http://isogg.org/wiki/Portal:Mitochondrial_DNA\" target=\"_blank\">Mitochondrial DNA page</a> on the ISOGG website for help resources.</li> </ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Y-DNA (paternal line) testing.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Y-DNA tests are used to trace the direct paternal line and only men can take these tests.</li><li>Y-DNA is often used when tracing a surname back in time.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-dna.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/y-dna.jpg\" width=\"200px\" border=\"1\" style=\"float:right; margin-right:0px; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Get an overview of Y-DNA testing in this article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.genealogyexplained.com/dna-testing/y-dna-test/\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Y Chromosome DNA Test - 2022</span></a></li><br><li>Watch these videos to learn more about Y-DNA testing for genealogy. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=u5xHtppMNJY\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"><span class=\"re\">Using Y-DNA to Research your Surname—3:58 - 2018</span></a><br><br><iframe width=\"330\" height=\"220\" src=\"https://www.youtube.com/embed/u5xHtppMNJY?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=kDFLo6j-Z1g\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"><span class=\"re\">Y-DNA Basics with Q &amp; A—60:23 - 2020</span></a><br><br><iframe width=\"330\" height=\"220\" src=\"https://www.youtube.com/embed/kDFLo6j-Z1g?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br> <li>Explore the <a class=\"lk\" href=\"http://isogg.org/wiki/Portal:Y-chromosome_DNA\" target=\"_blank\">Y-DNA page</a> on the ISOGG website for help resources.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Take a DNA Test (AN)",
+        "name": "Take a DNA Test",
+        "section_name": "Take a DNA test from Ancestry.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about AncestryDNA tests.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Visit the <a class=\"lk\" href=\"https://www.ancestry.com/dna/\" target=\"_blank\">Ancestry site</a> for an overview of DNA testing.</li><li>Learn more about DNA testing with Ancestry in this video.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=qXj2wYJIrBQ\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">Ancestry DNA Testing - 2019</span></a> <br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/qXj2wYJIrBQ?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li>Here are some FAQs about AncestryDNA testing.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=P4kLUoam8ik\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FAQs—Ancestry DNA Testing—11:05 - 2013</span></a> <br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/P4kLUoam8ik?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Buy the AncestryDNA test.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>In the <b>DNA</b> menu, click <b>Buy a Test</b> (or Buy Another Test). You may also be able to buy a test kit at a trade show, from a friend, etc.</li><li>Select the number of tests to buy.</li><li>Fill in the Payment &amp; Address information and click <b>Proceed to Checkout</b>. Once you complete your online order, allow time for the kit to be shipped to your address.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Activate your AncestryDNA test kit.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-dna5.jpg"
+                    ],
+                    "text": "<p>The instructions that come in the test kit are usually sufficient to help you complete and activate the test. For more information, follow the steps below. To manage your DNA test settings, see <a class=\"lk\" href=\"project-7-dna-an10.html\" target=\"_blank\">Goal 10</a>.</p><ol><img src=\"img/y-dna5.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 350px;; border:1px solid #000; padding:0px;\"><li>In the top menu, double-click <b>DNA</b>.</li><li>Click any of the following buttons to learn more: <b>See Instructions</b>, <b>Watch Video</b>, or <b>Read FAQ</b>. You can also read the links near the bottom of the page to learn about privacy and terms and conditions.</li><li>Click the <b>Continue as (your name)</b>.</li><li>In the Get Started screen, click your name to activate your test, or click <b>My child</b> to activate a test for one of your children.</li><li>Click the terms of agreement box and then click <b>Next</b>.</li><li>Follow the prompts on the next few screens to complete activation.</li><li>Link your DNA test results to your Ancestry tree. See the steps in this article.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://support.ancestry.com/s/article/Activating-an-AncestryDNA-Test\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">AC: Linking an AncestryDNA® Test to a Tree</span></a> </li><br><li>To learn more about DNA kit activation, read this article.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://support.ancestry.com/s/article/Activating-an-AncestryDNA-Test\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">AC: Activating an AncestryDNA Kit</span></a> </li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "DNA Matching (AN)",
+        "name": "DNA Matching",
+        "section_name": "Learn about DNA Matching with your test results.",
+        "summary": "<p>DNA matching helps you find others you are related to, based on the results of your DNA test.</p>",
+        "choices": [
+            {
+                "name": "Learn about your DNA Story and ethnicity results.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Review your ethnicity percentages and explore your ethnicity regions on the map.</li><li>* Proficient: Same as Good, and explore your the timelines for at least one of your ethnicity communities, if available.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/dna-story.png"
+                    ],
+                    "text": "<ol><img src=\"img/an/dna-story.png\" width=\"200px\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>In the top menu, click <b>DNA</b> and select <b>Your DNA Results Summary</b>. This displays overview information about your DNA Story, DNA Matches, and ThruLines™.</li><li>To see details for your DNA Story, click <b>Discover Your DNA Story</b> or select <b>DNA Story</b> from the top menu. This displays the Ethnicity page, with an Ethnicity Estimate box that shows your estimated ethnicity percentages and migration routes, and a world map behind it with regions that are home to your ethnic ancestors. </li><li>To scroll the map, click and drag on it; to zoom, click the plus or minus buttons or use the mouse wheel; to print DNA information, click the Print icon and follow the on-screen instructions.</li><li>To share your DNA ethnicity information, <br>a) click<b>Share</b> (upper right); <br>b) Click an social media tile to select it; and <br>c) Follow the prompts to share the information. You can also copy a link to the information or download it to your device. </li><li>To learn more about ethnicity estimates, regions, and communities, click the question mark icon (upper left). </li><li>To explore specific ethnicity regions, click either a colored area on the map that has a solid outline, or an entry in the list (near the top of the right pane). You can also click <b>View History of Region</b> to learn more.</li><li>To explore ethnicity communities, click a colored area on the map or an entry in the <b>Ethnicity estimate</b> box (right side).</li><li>To see other regions that were part of your DNA testing, <br>a) Click the \"View all regions tested\" link (bottom of the Ethnicity Estimate screen); <br>b) Click a region in the list; and <br>c) Click a country or other entry. You can use the double-arrow icon (upper right) to expand or reduce the map.</li><li>The <b>Ethnicity inheritance</b> section shows your parents' contribution to your DNA. Tap <b>View breakdown</b> to see the following types of information:<ul style=\"margin-left:-66px;\"><li>Parent 1 and Parent 2 circles—These show amounts of DNA contributed by each parent, from identified regions. You can tap a colored region in either of the circles, or select a region from the list at the bottom (the list may be scrollable).</li><li>Detailed comparison—This shows additional details for each region. To assign parents to each of the half-rings, tap <b>Edit parents</b>. Then based on the segments in the Parent 1 ring, you can select \"Maternal\" or \"Paternal\". The other parent is then assigned to the second ring.</li></ul></li><li>In the <b>Communities</b> section you can tap an area for settlers or immigrants, if available, from your ancestral regions.</li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "To access additional help articles for the Ancestry DNA screens, see the Help Communities page.",
+                                "links": [
+                                    {
+                                        "link": "https://www.ancestry.com/cs/dna-help/communities",
+                                        "text": "Help Communities page",
+                                        "type": "video"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "To learn how to get the most from your ethnicity results, read this article.",
+                                "links": [
+                                    {
+                                        "link": "https://support.ancestry.com/s/article/Getting-the-Most-from-your-AncestryDNA-Test-Results-Part-2-of-3-1460089700555",
+                                        "text": "AC: Making the Most of Your Ethnicity Estimate",
+                                        "type": "document"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Learn how to track ethnicity with your Ancestry DNA match results.",
+                                "links": [
+                                    {
+                                        "link": "https://www.youtube.com/watch?v=Qd8S1HomEW8",
+                                        "text": "Ethnicity and Matching—37:20 - 2015",
+                                        "type": "video"
+                                    },
+                                    {
+                                        "link": "https://www.youtube.com/watch?v=HOy0v3VGz6I",
+                                        "text": "Ethnicity, Cousin Matching, and Family Trees—28:03 - 2014",
+                                        "type": "video"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Explore your DNA matches.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: For two DNA match persons, explore ancestor birth locations and compare ethnicity percentages.</li><li>* Proficient: Same as Good, for at least four DNA match persons.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/dna-thru-matches.png"
+                    ],
+                    "text": "<ol><img src=\"img/an/dna-thru-matches.png\" width=\"600px\" style=\"float:right; margin-top: 8px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>In the top menu, click <b>DNA</b> and select <b>DNA Matches</b>. This displays a list of people who share DNA matches with you.</li><li>To search the list of matches for a name, <br>a) Click <b>Search</b> (upper left); <br>b) Type a surname or birth location, or both; <br>c) If desired check the \"Include similar surnames\" box; and <br>d) Click <b>Search</b>. To clear the search results and return to the original list, click the \"Cancel\" link (upper right).</li><li>To sort the list, click <b>Sort</b> (upper right) and select <b>Relationship</b> (close to distant) or <b>Date</b> (newest to oldest).</li></ol><h5>All Matches</h5><ol><li>To get started, click the <b>All Matches</b> tab. By default, the names are arranged by relationship to you:<ul style=\"margin-left:-88px;\"><li>Column 1 = Parent/Child, Full Sibling, Close Family, 1st Cousin, 2nd Cousin, etc.</li><li>Column 2 = Relationship details and shared DNA segments. To learn more about the shared DNA with this person, click the corresponding gray info button.</li><li>Column 3 = Tree size for match person, and link to common ancestor</li><li>Column 4 = Click \"Learn more\" for DNA details about the match person. To establish the relationship, <br>a) Click \"Yes\"; <br>b) Select the relationship type; and <br>c) Click <b>Confirm</b>. </li></ul></li><li>Click a name in the matches list (or click to display the \"Trees\" view). </li><li>In the <b>Trees</b> tab, a Common Ancestors box appears on the left, for you and the match, as well as a preview of the match's family tree, in pedigree form. In the preview, you can click names, expand the tree (upper right), or go to the tree (number link at the top).</li><li>In the Common Ancestors box, click an ancestor name. A diagram appears, showing your relationship to the match.</li><li>At the bottom of the Common Ancestors box, click the \"View more possible connections\" link, if available, to see a window with additional common ancestors.</li><li>Below the Common Ancestors box, the Shared Surnames box may have one or more surname links you can click, showing a list of ancestors with that surname, in your tree or the match's tree. Click a surname link to see ancestor links with vital data, a <b>View in tree</b> link, and links to the ancestor's spouse and children, if available.</li><li>Below the Shared Surnames box, the Ancestor Birth Locations box appears. You can do the following things here:<ul style=\"margin-left:-88px;\"><li>In the upper left, click <b>Filter by tree</b> and select whether to view birth locations for both trees, your match's tree, or your tree.</li> <li>Click a colored pin to see ancestor links with vital data, a <b>View in tree</b> link, and links to the ancestor's spouse and children, if available.</li> <li>Zoom the map view, using the plus and minus icons or the mouse wheel.</li> </ul></li><li>To compare ethnicity with the selected DNA match person, in the gray bar near the top, click <b>Ethnicity</b>. You will see the following things:<ul style=\"margin-left:-88px;\"><li>A chart comparing your ethnicity percentages with those of the DNA match</li><li>A map showing ethnic regions for you (teal), the match person (yellow), and shared (green)</li><li>If available, additional tiles are displayed at the bottom, such as \"Shared Migrations\". Click a tile to learn more.</li></ul></li></ol><h5>Matches by Parent</h5><ol><li>In the intial DNA Matches screen, click <b>By Parent</b>. Match information appears for Parent 1, Parent 2, Both Parents, and Unassigned. For more details on parents and DNA, see the Ethnicity steps in Choice A above.</li><li>To view a filtered list of DNA matches for a parent, click <b>View matches</b> for that parent.</li><li>To change the matching side for a parent, click <b>Edit parent</b> and make your changes in the right panel.</li><li>To see a list of common surnames for the a parent's side of the tree, click <b>View more</b> in the surnames box.</li><li>Next to the <b>By parent</b> tab there are tabs for <b>By ancestor</b> and <b>By location</b>. For more information on thos tabs, see Choice F and Choice E, respectively.</li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "For more information on AncestryDNA shared matches, read this article.",
+                                "links": [
+                                    {
+                                        "link": "https://support.ancestry.com/s/article/AncestryDNA-Shared-Matches",
+                                        "text": "AC: AncestryDNA® Shared Matches",
+                                        "type": "document"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "To learn more about Ancestry DNA matching, read these articles.",
+                                "links": [
+                                    {
+                                        "link": "https://support.ancestry.com/s/article/AncestryDNA-Matches",
+                                        "text": "AC: AncestryDNA Matches",
+                                        "type": "document"
+                                    },
+                                    {
+                                        "link": "https://support.ancestry.com/s/article/Making-the-Most-of-AncestryDNA-Matches",
+                                        "text": "AC: Making the Most of AncestryDNA Matches",
+                                        "type": "document"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Use groups to organize matches.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Create a group of DNA match persons and add at least three persons to it. Then view the group.</li><li>* Proficient: Same as Good, crating three or more groups.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/dna-add-group.png",
+                        "https://www.thefhguide.com/img/an/dna-add-group-edit.png"
+                    ],
+                    "text": "<ol><img src=\"img/an/dna-add-group.png\" width=\"250px\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>In the <b>All matches</b> screen, find a <b>View match</b> button and click the plus icon to the right of it. (If you need to enable the View match btoon, click <b>Yes</b> for the entry.)</li> <li>To add a person in the list to a group of DNA matches, choose <b>Starred Matches</b> (puts a star next to the \"Add to group\" link), or the name of an existing group. Then click <b>Add to group</b>. Or,</li><li>Click \"Create Custom Group\" and <br>a) Type the name of the group to be created; <br>b) Click the color tile and select a color for the group, and <br>c) Click <b>Save</b>. This adds a colored circle next to \"Add/edit groups\", and the group name appears in a drop-down list when you click \"Add/edit groups\".</li> <img src=\"img/an/dna-add-group-edit.png\" width=\"250px\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>To edit a group, <br>a) Click \"Add/edit groups\"; <br>b) Click the pencil icon for the group to edit; <br>c) Change the title or color as desired, and <br>c) Click <b>Save</b>.</li><li>To delete a group, <br>a) Click \"Add/edit groups\"; <br>b) Click the pencil icon for the group to delete; <br>c) Click \"Delete\"; and <br>d) Click <b>Yes, delete group</b>.</li><li>To see existing DNA Groups, click <b>Groups</b> (upper left) and select one of the following options: <ul style=\"margin-left:-88px;\"><li>\"All matches\" (default)</li><li>\"Close matches\" (fourth cousin or closer)</li><li>\"Distant matches\" (more remote than fourth cousin)</li><li>\"New matches\" (ones recently discovered by Ancestry)</li><li>\"Hidden matches\" (those you have decided to hide). See <a class=\"lk\" href=\"https://support.ancestry.com/s/article/Hiding-DNA-Matches\" target=\"_blank\">this article </a>for details.</li></ul></li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Use filters, notes, and other tools for DNA matches.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Search for one person in the list, use one filter for the match list, and create a note for one person.</li><li>* Proficient: Same as Good, with two persons for each.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-laptop-trio.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/y-laptop-trio.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 350px;; border:1px solid #000; padding:0px;\"><li>To filter the DNA match list, click <b>Filters</b> (upper left) and select one of the entries (\"Unviewed\", \"Common Ancestors\", \"Notes\", etc.</li><li>To add a note for a match, <br>a) Open the match entry; <br>b) Click \"Add note\"; <br>b) Type the note in the window; and <br>c) Click <b>Save</b>. This displays your note text in place of \"Add note\". (Longer notes may be abbreviated; click the link to display the full note.) </li><li>To remove the note, <br>a) Click the note link; <br>b) Delete all the characters in the note, and <br>c) Click <b>Save</b>. </li><li>To send a message to the DNA cousin, <br>a) Click <b>Message</b> (upper right); <br>b) Type a subject and message; and <br>c) Click <b>Send</b>.</li><li>To hide the match, Click <b>Tools</b> (upper right) and select <b>Hide match</b>. Then click the <b>Hide match</b> button. You will still be able to see this cousin from the hidden matches group on your match list. See <a class=\"lk\" href=\"https://support.ancestry.com/s/article/Hiding-DNA-Matches\" target=\"_blank\">this article </a>for details.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore DNA matches by map location.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/dna-matches-map.png"
+                    ],
+                    "text": "<ol><img src=\"img/an/dna-matches-map.png\" width=\"450px\" style=\"float:right; margin-top: 8px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>In the DNA Matches screen, click the <b>By location</b> tab. If DNA match persons have added their locations, their pins will appear on the world map.</li><li>Scroll the map to see other locations; click the plus or minus icons or use the mouse wheel to zoom the view; or click the house icon to return to the original view.</li><li>To see more information about DNA match persons, click a pin on the map (with a photo or initials). This opens person tiles you can click to see the DNA relationship window for you and that person. For details about what appears on this screen, see Choice F below.</li><li>If a number circle appears, click it to reveal additional pins you can explore. </li><li>To filter the matches that appear on the map, click <b>Filter</b> (upper left). You can check any of the relationships in the menu to show them on the map: All, You, Close Family, 2nd Cousins, 3rd Cousins, or 4th Cousins.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about DNA ThruLines.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Use the steps above to explore ThruLines for one ancestor.</li><li>* Proficient: Same as Good, for at least two ancestors.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/thrulines-1.png"
+                    ],
+                    "text": "<p>ThruLines™ is an Ancestry feature that illustrates how you may be connected to a particular DNA matching person through a common ancestor.</p><ol><li>In the top menu, click <b>DNA</b> and select <b>ThruLines</b>. </li><li>To learn about the purpose and characteristics of ThruLines, click the <b>question mark</b> (upper right).</li><img src=\"img/an/thrulines-1.png\" width=\"600px\" style=\"float:right; margin-top: 8px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>In the main ThruLines screen, click a picture or icon. A ThruLines diagram is displayed, showing yourself at the bottom, with your father just above (or a number link if extra generations are included), a row of children, and the ancestor. <b>Evaluate</b> buttons and links for DNA matches, if any, are included for each ancestor. See Choice B for more information on DNA matches.</li><li>You can move a wide diagram by dragging the lower part of it to the left or right. To display the generations in a number link, click the number; and click again to hide the generations.</li><li>Click an <b>Evaluate</b> button or ancestor name. A window opens, displaying the following information:<ul style=\"margin-left:-88px;\"><li>Trees Linked to DNA Matches—Shows which member trees linked to your DNA matches have identified relationships shown in ThruLines, including tree owner profiles.</li><li>Ancestry Member Trees—Shows other member trees that have identified relationships shown in ThruLines, including tree owner profiles.</li></ul></li><li>To filter the ThruLines list, click <b>Filter by:</b> (upper left) and select <b>Potential ancestors</b> or <b>Ancestors from your linked tree</b>.</li><li>To see DNA match information, <br>a) Below an ancestor's name, click a <b>DNA Matches</b> link; and <br>b) Click a cousin match circle to display the \"Trees\" view. For more information, see <a class=\"lk\" href=\"https://www.thefhguide.com/project-7-dna-an04.html\" target=\"_blank\">Goal 5: DNA Matches</a>.</li><li>To view the profile for the cousin (or for the person managing the cousin's DNA test), click the name link at the top.</li><li>Click the \"Shared DNA\" link. A window appears with the following information:<ul style=\"margin-left:-88px;\"><li>The number of shared DNA segments</li><li>The length in centimorgans of the shared DNA segments (higher number means a closer relationship)</li><li>Percentage table, showing the likelihood of your relationship to the target person based on centimorgans. </li></ul></li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "For more information on DNA ThruLines, read the article or watch the video.",
+                                "links": [
+                                    {
+                                        "link": "https://support.ancestry.com/s/article/AncestryDNA-ThruLines",
+                                        "text": "AC: AncestryDNA® ThruLines™",
+                                        "type": "document"
+                                    },
+                                    {
+                                        "link": "https://www.youtube.com/watch?v=ofBarqj2wA8",
+                                        "text": "ThruLines™ Q&A—37:05 - 2019",
+                                        "type": "video"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Get tips on working with ThruLines in this video.",
+                                "links": [
+                                    {
+                                        "link": "https://www.youtube.com/watch?v=68IlobGfAlg",
+                                        "text": "AC—Ancestry® Genealogist Christa Cowan Works with ThruLines™—19:26 - 2020",
+                                        "type": "document"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Use the List view in ThruLines.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/dna-list-view.png"
+                    ],
+                    "text": "<ol><img src=\"img/an/dna-list-view.png\" width=\"250px\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Near the top of the ThruLines page, click the <b>List</b> icon.</li><li>Click a name tab (or matches link) to see DNA matches for the selected ancestor. Column 1 = match name and link to profile; Column 2 = DNA relationship and link; Column 3 = tree relationship and tree size.</li><li>Click the cM (centimorgans) link to learn more about the shared DNA characteristics with the matching person.</li><li>Click <b>View Relationship</b> to see a diagram with family relationship between you and the DNA match.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "More about Matching (AN)",
+        "name": "More about DNA Matching",
+        "section_name": "Learn more about DNA matching.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore additional Ancestry resources for DNA matching.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Once you’ve taken a DNA test, try to focus on closest matches first to increase the chances of finding family members to learn more.</li><li>DNA tests are only as good as the family tree that is associated with it. The more data you have in your tree, the more data a DNA test can correlate with.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-dna-match.jpg",
+                        "https://www.thefhguide.com/img/y-ethnic-tree.png"
+                    ],
+                    "text": "<ol><img src=\"img/y-dna-match.jpg\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 350px;; border:1px solid #000; padding:0px;\"><li>Learn about DNA matching with Ancestry.com test results.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=zF1auApOy-c\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">AC: Ancestry Shared Matches—5:32 - 2015</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/zF1auApOy-c?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=kv3_JCWUF-s\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\">  <span class=\"re\">AC: What to Do with All Those Matches—53:02 - 2013</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/kv3_JCWUF-s?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li>Use  filters to focus on surnames or locations in Ancestry test results.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=hLll8UWZ_Pc\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">AC: Focus on One Family at a Time—23:47</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=C9RdaVYNlKM\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">AC: Surname and Location Filters—19:02 - 2013</span></a> </li><br><img src=\"img/y-ethnic-tree.png\" width=\"300px\" style=\"float:right; margin-top: 8px; margin-left: 16px;\"><li>Learn about effective ways to contact your DNA matches.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.legacytree.com/blog/13-secrets-to-getting-replies-from-dna-cousin-matches\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">LT—13 Secrets to Getting Replies from DNA Cousin Matches</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about using the GedMatch database.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Watch these videos for an overview of how to use the GEDmatch database for match results.<br><br><span class=\"star notranslate\">☆</span><a href=\"http://blog.kittycooper.com/2015/04/a-video-on-gedmatch-basics-from-angie-bush/\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">Genetics and Genealogy— 42:58 - 2015</span></a> <br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=id7JJ1NoTNk\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">Getting Started with GEDMatch—15:08</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/id7JJ1NoTNk?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li>Here are some tips for using GEDmatch in your DNA research.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familytreemagazine.com/dna/3-ways-to-use-gedmatch-in-your-dna-research/\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FT: 3 Ways to Use GEDMatch in Your DNA Research</span></a> </li><br><li>Learn how to upload Ancestry match results to the Gedmatch database.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=80VsX1hTTPk\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">Upload Ancestry DNA Results to GEDMatch—5:51 - 2017</span></a> <br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/80VsX1hTTPk?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><li>Learn how to triangulate your DNA matches using Gedmatch.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=ceYGv6RNfDE\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">How to Triangulate Your DNA Matches with Gedmatch—11:50 - 2019</span></a> </li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Get help with your DNA matching questions on Facebook.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-dna-match1.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/y-dna-match1.jpg\" width=\"250px\" style=\"float:right; margin-top: 8px; margin-left: 16px;\"><li>Visit the <a class=\"lk\" href=\"https://www.facebook.com/DNAMatch/\" target=\"_blank\">DNA Match</a> Facebook page.</li><li>Explore the <a class=\"lk\" href=\"https://www.facebook.com/groups/gedmatchuser/?ref=br_rs\" target=\"_blank\">GedMatch User Group</a> page on Facebook.</li><li>Explore the <a class=\"lk\" href=\"https://www.facebook.com/DNAGedcom\" target=\"_blank\">DNA Gedcom</a> page on Facebook.</li><li>Visit the <a class=\"lk\" href=\"https://www.facebook.com/groups/AncestryGEDmatchFTDNA23andMeGenealogyDNA/\" target=\"_blank\">GedMatch Product Group</a> page on Facebook.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "More with Test Results (AN)",
+        "name": "DNA Test Results",
+        "section_name": "Learn more about what you can do with DNA test results.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Find other possible family relationships through your DNA test results.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about finding possible family relationships through DNA testing.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=NWqpPgD0QnM\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">AC: Possible Relationships—26:36 - 2015</span></a> <br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/NWqpPgD0QnM?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li>Learn about connecting with cousins through Ancestry DNA.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=KHbcQWg2xwA\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">AC: Making the Cousin Connection—30:57 - 2014</span></a> <br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/KHbcQWg2xwA?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li>Search for your biological family with Ancestry DNA results.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=wwLty5r3GPE\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">AC: The Search for Biological Family—26:19 - 2014</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/wwLty5r3GPE?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li>Get an overview of a range of Ancestry DNA tools to use.<br><br><span class=\"re\">RT—Ancestry Tools for Genetic Genealogy—51:28</span><br><br><iframe width=\"300\" height=\"200\" src=\"//players.brightcove.net/1241706627001/default_default/index.html?videoId=6010283181001\" allowfullscreen=\"\" frameborder=\"0\"></iframe><br></li><br><li>Get tips on other possible biological relationships.<br><br><span class=\"star notranslate\">☆</span><a href=\"http://www.dna-testing-adviser.com/FamilyTrees.html\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Extending Family Trees with DNA Testing</span></a> </li><br><li>Get tips on other possible biological relationships.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=MOHhxZN_GHA\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">More Tips for Identifying Biological Family—31:31 - 2016</span></a> <br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/MOHhxZN_GHA?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn how to solve family history challenges with DNA results.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-bricks.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/y-bricks.jpg\" width=\"240px\" style=\"float:right; margin-left: 16px;\"><li>Learn how to handle unexpected results from DNA testing.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=nIjL7zvklIY\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">AC: Handling Unexpected Results—26:04 - 2015</span></a> <br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/nIjL7zvklIY?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li>Learn how DNA test results can help you break through genealogy brick walls.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=LYI5f3iKeRs\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">AC: Breaking through Brick Walls—27:14 - 2016</span></a> </li><br><li>Learn about solving family mysteries with DNA results.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=MB5tOeoRzwQ\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">AC: Solving Family Mysteries with Ancestry DNA—5:12 - 2016</span></a> </li><br><li>Watch this case study in breaking genealogy brick walls with DNA testing.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=o4gKobEU4us\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">AC: Genealogy Brick Wall Case Study—21:26 - 2016</span></a> </li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "DNA Research Tools",
+        "name": "DNA Research Tools",
+        "section_name": "Learn about DNA research tools.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about DNA research tools you can use for family history.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=fHZGdifd4KY#t=1m15s\" target=\"_blank\">Need 3 or more siblings data uploaded to GEDmatch</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=fHZGdifd4KY#t=1m58s\" target=\"_blank\">Each Chromosome is separate and unrelated to others</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=fHZGdifd4KY#t=3m1s\" target=\"_blank\">Use One-to-One Comparison to get graphics</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=fHZGdifd4KY#t=4m30s\" target=\"_blank\">Color Region 1 Solid Green/Blue Full match (FIR)</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=fHZGdifd4KY#t=5m0s\" target=\"_blank\">Yellow &amp; Green/Blue Half match (HIR)</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=fHZGdifd4KY#t=5m46s\" target=\"_blank\">Red (with yellow or green)/Black No match</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=fHZGdifd4KY#t=6m58s\" target=\"_blank\">Color Region changes are recombination points</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=fHZGdifd4KY#t=7m55s\" target=\"_blank\">Full match can not be adjacent to No match</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=fHZGdifd4KY#t=8m53s\" target=\"_blank\">Draw recombination lines</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=fHZGdifd4KY#t=10m32s\" target=\"_blank\">Assign recombination points to a person</a></li></ul></span>"
+                        },
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=BBsOVnUL1bQ#t=1m55s\" target=\"_blank\">Create 2 chromosomes for each person</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=BBsOVnUL1bQ#t=5m25s\" target=\"_blank\">Select a starting location and assign the segments</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=BBsOVnUL1bQ#t=7m16s\" target=\"_blank\">Use FIR and No Match regions to assign other segments</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=BBsOVnUL1bQ#t=12m10s\" target=\"_blank\">Switch one segment at one recombination point</a></li></ul></span>"
+                        },
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=ceYGv6RNfDE#t=0m36s\" target=\"_blank\">What is triangulation?</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=ceYGv6RNfDE#t=2m18s\" target=\"_blank\">How many people in a triangulation group?</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=ceYGv6RNfDE#t=3m1s\" target=\"_blank\">How to use the triangulation tool</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=ceYGv6RNfDE#t=4m44s\" target=\"_blank\">How to change the number of groups</a></li></ul></span>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-dna-strands.png"
+                    ],
+                    "text": "<ol><img src=\"img/y-dna-strands.png\" width=\"350px\" border=\"1\" style=\"float:right; margin-right:0px; margin-top: 16px; margin-left: 16px;\"><li>Learn about some of the better-known DNA research tools.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://thednageek.com/whats-in-your-toolbox/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">What's in Your Toolbox? - 2018</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://content.ldschurch.org/family-history/bc/rootstech/salt-lake/2019-conference-syllabi/RT3579_DNA_Third_Party_Tools_You_Actually_Need.pdf\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">RT—DNA Third-Party Tools You Actually Need - 2019</span></a></li><br><li><span class=\"g\">DNAGedcom</span>: Explore the <a class=\"lk\" href=\"http://www.dnagedcom.com/Default.aspx\" target=\"_blank\">DNAGedcom site</a> for DNA research tools. Learn more about DNAGedcom in this Family Locket article.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://familylocket.com/dna-gedcom-a-3rd-party-tool-that-can-help-shorten-your-search/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FL:—DNA Gedcom – A 3rd Party Tool That Can Help Shorten Your Search - 2019</span></a></li> <br><li><span class=\"g\">Haplogroups</span>: Join a DNA project Haplogroup on the <a class=\"lk\" href=\"http://isogg.org/wiki/Haplogroup_projects\" target=\"_blank\">ISOGG site</a> to connect with others with similar mitochondrial or Y-DNA results.</li><li><span class=\"g\">Autosomal</span>: Learn about tracking your Autosomal DNA results on the <a class=\"lk\" href=\"https://www.getgmp.com/download\" target=\"_blank\">Genome Mate Pro site</a>.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://thednageek.com/getting-started-with-genome-mate-pro-part-1-installing-the-program/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Getting Started with Genome Mate Pro - 2018</span></a></li> <br><li><span class=\"g\">Visual Phasing</span>: Watch these videos to learn how Visual Phasing can help you recreate grandparents' DNA, or visit the <a class=\"lk\" href=\"https://www.facebook.com/groups/visualphasing/\" target=\"_blank\">Facebook page for Visual Phasing</a>.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=fHZGdifd4KY\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FHF—Visual Phasing Part 1: Setup - A Segment of DNA—13:35 - 2019</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('visual1');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"visual1\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=fHZGdifd4KY#t=1m15s\" target=\"_blank\">Need 3 or more siblings data uploaded to GEDmatch</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=fHZGdifd4KY#t=1m58s\" target=\"_blank\">Each Chromosome is separate and unrelated to others</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=fHZGdifd4KY#t=3m1s\" target=\"_blank\">Use One-to-One Comparison to get graphics</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=fHZGdifd4KY#t=4m30s\" target=\"_blank\">Color Region 1 Solid Green/Blue Full match (FIR)</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=fHZGdifd4KY#t=5m0s\" target=\"_blank\">Yellow &amp; Green/Blue Half match (HIR)</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=fHZGdifd4KY#t=5m46s\" target=\"_blank\">Red (with yellow or green)/Black No match</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=fHZGdifd4KY#t=6m58s\" target=\"_blank\">Color Region changes are recombination points</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=fHZGdifd4KY#t=7m55s\" target=\"_blank\">Full match can not be adjacent to No match</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=fHZGdifd4KY#t=8m53s\" target=\"_blank\">Draw recombination lines</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=fHZGdifd4KY#t=10m32s\" target=\"_blank\">Assign recombination points to a person</a></li></ul></span></div><br><br><iframe width=\"330\" height=\"220\" src=\"https://www.youtube.com/embed/fHZGdifd4KY?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=BBsOVnUL1bQ\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FHF—Visual Phasing Part 2: Create Segments Based On Sibling Shared DNA—18:18 - 2019</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('visual2');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"visual2\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=BBsOVnUL1bQ#t=1m55s\" target=\"_blank\">Create 2 chromosomes for each person</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=BBsOVnUL1bQ#t=5m25s\" target=\"_blank\">Select a starting location and assign the segments</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=BBsOVnUL1bQ#t=7m16s\" target=\"_blank\">Use FIR and No Match regions to assign other segments</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=BBsOVnUL1bQ#t=12m10s\" target=\"_blank\">Switch one segment at one recombination point</a></li></ul></span></div><br><br><iframe width=\"330\" height=\"220\" src=\"https://www.youtube.com/embed/BBsOVnUL1bQ?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li> <li>Learn more about DNA visual phasing in this handout.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://content.ldschurch.org/family-history/bc/rootstech/salt-lake/2019-conference-syllabi/LAB3824_Visual_Phasing_Workshop.pdf\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Visual Phasing Workshop - 2019</span></a></li><br><li>Watch these videos to learn how to interpret and create DNA network graphs for your matches.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=i83WRl1uLWY\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FL—How to Interpret a DNA Network Graph—7:34 - 2022</span></a><br><br><iframe width=\"330\" height=\"220\" src=\"https://www.youtube.com/embed/i83WRl1uLWY?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=MLm_dVK2kAA\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FL—How to Make a DNA Network Graph—7:51 - 2022</span></a><br><br><iframe width=\"330\" height=\"220\" src=\"https://www.youtube.com/embed/MLm_dVK2kAA?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><br></ol><h5>Triangulation</h5><ol><li>Learn about DNA match triangulation, where three or more people are matched at the same segment location.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://content.ldschurch.org/family-history/bc/rootstech/salt-lake/2019-conference-syllabi/LAB8072_Creating_DNA_TriangulationTable.pdf\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">RT—DNA Match Triangulation - 2019</span></a></li><br><li>Learn more about using DNA match triangulation in your research.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://familylocket.com/pedigree-triangulation-what-is-it-and-how-can-it-solve-brick-walls/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FL—Pedigree Triangulation: What is it and How Can it Solve Brick Walls? - 2019</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://familylocket.com/segment-triangulation-proving-an-ancestral-line/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FL—Segment Triangulation: Proving an Ancestral Line - 2019</span></a></li><br><li>Watch this video for tips on using DNA triangulation.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=nIb1zpNQspY\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">DNA Triangulation: What, Why, and How—46:58 - 2021</span></a><br><br><iframe width=\"330\" height=\"220\" src=\"https://www.youtube.com/embed/nIb1zpNQspY?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><li>Learn how to triangulate your DNA matches using GEDmatch.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=ceYGv6RNfDE\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">How to Triangulate Your DNA Matches with Gedmatch—11:50</span></a> &nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('triangle');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"triangle\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=ceYGv6RNfDE#t=0m36s\" target=\"_blank\">What is triangulation?</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=ceYGv6RNfDE#t=2m18s\" target=\"_blank\">How many people in a triangulation group?</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=ceYGv6RNfDE#t=3m1s\" target=\"_blank\">How to use the triangulation tool</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=ceYGv6RNfDE#t=4m44s\" target=\"_blank\">How to change the number of groups</a></li></ul></span></div><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/ceYGv6RNfDE?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore DNA Painter.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn the basics of chromosome mapping, to prepare for using the DNA Painter tool.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://content.ldschurch.org/family-history/bc/rootstech/salt-lake/2019-conference-syllabi/RT5040_Chromosome_Mapping_for_Absolute_Beginners.pdf\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">RT—Chromosome Mapping for Absolute Beginners - 2019</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://content.ldschurch.org/family-history/bc/rootstech/salt-lake/2019-conference-syllabi/RT9410_Chromosome_Mapping.pdf\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">RT—Chromosome Mapping Tips and Techniques - 2019</span></a></li><br><li>Learn about the key features of DNA Painter.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.whodoyouthinkyouaremagazine.com/tutorials/dna/dna-painter/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">WDY—DNA Painter: What is it and what are its key features?</span></a></li><br><li>Get an introduction to using the DNA Painter site for tracking DNA matches.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://dna-explained.com/2018/03/28/dna-painter-chromosome-sudoku-for-genetic-genealogy-addicts/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">DNA Painter – Chromosome Sudoku for Genetic Genealogy Addicts - 2018</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://dna-explained.com/2018/04/04/dnapainter-mining-vendor-matches-to-paint-your-chromosomes/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Mining Vendor Matches to Paint Your Chromosomes - 2018</span></a></li><br><li>Learn about DNA Painter and how it tracks centimorgans to help with your DNA research.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=b3jlZWdOYrk\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">GTV—Clustering Tools for DNA Matches—9:32 - 2020</span></a><br><br><iframe width=\"330\" height=\"220\" src=\"https://www.youtube.com/embed/b3jlZWdOYrk?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li>Learn more about the DNA Painter tool.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://familytreewebinars.com/download.php?webinar_id=955\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">MH—An Introduction to DNA Painter—85:00</span></a></li><br><li>Learn how chromosome mapping can help you maximize your DNA matches.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=tzd5arHkv64\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">Using your DNA Matches to Link Segments to Ancestors—15:16 - 2022</span></a><br><br><iframe width=\"330\" height=\"220\" src=\"https://www.youtube.com/embed/tzd5arHkv64?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=8RrWvOx3gxY\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">Inferred Chromosome Mapping: Maximize your DNA Matches—5:55 - 2022</span></a><br><br><iframe width=\"330\" height=\"220\" src=\"https://www.youtube.com/embed/8RrWvOx3gxY?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li>Learn how the DNA Coverage Estimator can help simplify the process of identifying matches.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://thednageek.com/a-new-coverage-estimator-at-dna-painter/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">LT—DNA Painter: A New Coverage Estimator at DNA Painter - 2022</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://www.legacytree.com/blog/genealogy-tools-dna-painter-coverage\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">LT—DNA Painter: Five Ways to Use the New DNA Coverage Estimator Tool at DNA Painter - 2022</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about DNA clustering.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-dna-cluster.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/y-dna-cluster.jpg\" width=\"250px\" border=\"1\" style=\"float:right; margin-top: 8px; margin-left: 16px;\"><li>Get an introduction to using DNA clustering tools for matches.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://dnasleuth.wordpress.com/2019/02/01/clustering-tools-for-dna-matches/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Clustering Tools for DNA Matches - 2019</span></a></li><br><li>Learn about the Leeds method and color clustering.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.danaleeds.com/the-leeds-method/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">The Leeds Method for DNA Clustering</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://laurelgenealogy.com/dna-clustering-dana-leeds-method/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">DNA Clustering, Dana Leeds Method - 2020</span></a></li><br><li>Learn about the DNA AutoCluster feature on the Genetic Affairs website.<br><br><span class=\"star notranslate\">☆</span><a href=\"http://blog.genealogyguys.com/2018/12/genetic-affairs-new-dna-tool.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Genetic Affairs, a New DNA Tool - 2018</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://www.geneticaffairs.com/features-autocluster.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">AutoCluster</span></a></li><br><li>Learn how to interpret typical data from DNA cluster charts. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=FI4DaWGX8bQ\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FL—How to Interpret a DNA Cluster Chart—4:36 - 2021</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/FI4DaWGX8bQ?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Adoption and DNA",
+        "name": "Adoption and DNA",
+        "section_name": "Learn about adoption and DNA.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Get an introduction to DNA research for adoptees.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Taking a DNA test will match you with any people you share DNA with and are also in the database, so adoptees will gain insight as to exactly who they are related to.</li><li>Have any other known biological members take the DNA test as well. The more samples of your family there are, the more the information the database has to use.</li><li>Adoption can be a sensitive topic, so try to consult biological families before delving in depth with DNA.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=5AhvthPqALM#t=1m45s\" target=\"_blank\">Prepare to contact</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=5AhvthPqALM#t=3m39s\" target=\"_blank\">Talk to other reunited adoptees or join DNA adoption groups</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=5AhvthPqALM#t=6m10s\" target=\"_blank\">Proper way to make contact</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=5AhvthPqALM#t=8m35s\" target=\"_blank\">Reunion phase</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=5AhvthPqALM#t=10m30s\" target=\"_blank\">Post-reunion phase</a></li></ul></span>"
+                        },
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=sAvIXYorGqI#t=2m38s\" target=\"_blank\">DNA and unknown parents</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=sAvIXYorGqI#t=3m0s\" target=\"_blank\">Steps</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=sAvIXYorGqI#t=4m1s\" target=\"_blank\">Gather information</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=sAvIXYorGqI#t=5m19s\" target=\"_blank\">Adoption records</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=sAvIXYorGqI#t=11m10s\" target=\"_blank\">Document your search</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=sAvIXYorGqI#t=11m44s\" target=\"_blank\">Who should test?</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=sAvIXYorGqI#t=12m38s\" target=\"_blank\">Types of DNA tests</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=sAvIXYorGqI#t=17m35s\" target=\"_blank\">Close matches</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=sAvIXYorGqI#t=35m59s\" target=\"_blank\">Steps for family tree method</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=sAvIXYorGqI#t=65m53s\" target=\"_blank\">Unknown father cases</a></li></ul></span>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-adoption.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/y-adoption.jpg\" width=\"350px\" border=\"1\" style=\"float:right; margin-right:0px; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Get familiar with the benefits of DNA testing for adoptees. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=4QQv6MqiFD8\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">Using Genetic Genealogy to Provide Answers—26:29 - 2019</span></a> <br><br><iframe width=\"330\" height=\"220\" src=\"https://www.youtube.com/embed/4QQv6MqiFD8?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li>Learn about how DNA testing can help with adoption searches. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://www.dna-testing-adviser.com/AdoptionSearch.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Adoption Search</span></a> </li><br><li>Here are some steps for using DNA results to find parents of adoptees. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=5AhvthPqALM\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FINAL Steps For Using DNA to Find Parents of Adoptees - The Connection Phase—13:57 - 2020</span></a> &nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('final');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"final\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=5AhvthPqALM#t=1m45s\" target=\"_blank\">Prepare to contact</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=5AhvthPqALM#t=3m39s\" target=\"_blank\">Talk to other reunited adoptees or join DNA adoption groups</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=5AhvthPqALM#t=6m10s\" target=\"_blank\">Proper way to make contact</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=5AhvthPqALM#t=8m35s\" target=\"_blank\">Reunion phase</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=5AhvthPqALM#t=10m30s\" target=\"_blank\">Post-reunion phase</a></li></ul></span></div><br><br><iframe width=\"330\" height=\"220\" src=\"https://www.youtube.com/embed/5AhvthPqALM?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li>Learn about DNA testing techniques for adoptees. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=sAvIXYorGqI\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">APL: DNA Testing Techniques for Adoptees—69:58 - 2018</span></a> &nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('usa1-c3');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"usa1-c3\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=sAvIXYorGqI#t=2m38s\" target=\"_blank\">DNA and unknown parents</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=sAvIXYorGqI#t=3m0s\" target=\"_blank\">Steps</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=sAvIXYorGqI#t=4m1s\" target=\"_blank\">Gather information</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=sAvIXYorGqI#t=5m19s\" target=\"_blank\">Adoption records</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=sAvIXYorGqI#t=11m10s\" target=\"_blank\">Document your search</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=sAvIXYorGqI#t=11m44s\" target=\"_blank\">Who should test?</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=sAvIXYorGqI#t=12m38s\" target=\"_blank\">Types of DNA tests</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=sAvIXYorGqI#t=17m35s\" target=\"_blank\">Close matches</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=sAvIXYorGqI#t=35m59s\" target=\"_blank\">Steps for family tree method</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=sAvIXYorGqI#t=65m53s\" target=\"_blank\">Unknown father cases</a></li></ul></span></div><br><br><iframe width=\"330\" height=\"220\" src=\"https://www.youtube.com/embed/sAvIXYorGqI?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn more about adoption and DNA research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore the <a class=\"lk\" href=\"http://www.dnaadoption.com/index.php?page=guide-for-beginners\" target=\"_blank\">Beginner's Guide</a> on the DNA Adoption site.</li><li>Explore the <a class=\"lk\" href=\"https://dna-explained.com/category/adoptee/\" target=\"_blank\">DNA Explained site</a> for adoptee information.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Get help with your adoption DNA questions on Facebook.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Visit the <a class=\"lk\" href=\"https://www.facebook.com/DnaAdoption\" target=\"_blank\">DNA Adoption</a> Facebook page.</li><li>Explore the <a class=\"lk\" href=\"https://www.facebook.com/adoptiondna/\" target=\"_blank\">Adoption and DNA</a> Facebook page and the <a class=\"lk\" href=\"https://www.facebook.com/groups/DNADetectives/\" target=\"_blank\">DNA Detectives</a> Facebook page.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Help with Questions",
+        "name": "Help with DNA Questions",
+        "section_name": "Get help with DNA questions.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Use Facebook pages and blog sites to get help.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-facebook.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/y-facebook.jpg\" width=\"350px\" border=\"0\" style=\"float:right; margin-right:0px; margin-top: 16px; margin-left: 16px;\"><li>Follow the <a class=\"lk\" href=\"https://www.facebook.com/groups/dnanewbie/\" target=\"_blank\">DNA Newbie</a> page on Facebook.</li><li>Visit the <a class=\"lk\" href=\"https://www.facebook.com/groups/393020010880660/\" target=\"_blank\">DNA for Dummies</a> page on Facebook.</li><li>Visit the <a class=\"lk\" href=\"https://www.facebook.com/DNAMatch/\" target=\"_blank\">DNA Match</a> Facebook page.</li><li>Explore the <a class=\"lk\" href=\"https://www.facebook.com/groups/gedmatchuser/?ref=br_rs\" target=\"_blank\">GedMatch User Group</a> page on Facebook.</li><li>Explore the <a class=\"lk\" href=\"https://www.facebook.com/DNAGedcom\" target=\"_blank\">DNA Gedcom</a> page on Facebook.</li><li>Visit the <a class=\"lk\" href=\"https://www.facebook.com/groups/geneticgenealogytipsandtechniques/\" target=\"_blank\">Genetic Genealogy Tips and Techniques</a> page on Facebook.</li><li>Visit the <a class=\"lk\" href=\"https://www.facebook.com/groups/DNATools/\" target=\"_blank\">DNA Tools</a> Facebook page.</li><li>Visit the <a class=\"lk\" href=\"https://www.facebook.com/groups/205093263417577/\" target=\"_blank\">RootsFinder DNA Tools</a> Facebook page.</li><li>Visit these additional Facebook pages for help:<ul style=\"margin-left:-88px;\"><li> <a class=\"lk\" href=\"https://www.facebook.com/groups/isogg/\" target=\"_blank\">International Society of Genetic Genealogists</a></li><li> <a class=\"lk\" href=\"https://www.facebook.com/groups/DNADetectives/\" target=\"_blank\">DNA Detectives</a></li><li> <a class=\"lk\" href=\"https://www.facebook.com/TheGeneticGenealogist/\" target=\"_blank\">The Genetic Genealogist</a></li><li> <a class=\"lk\" href=\"https://www.facebook.com/groups/588009354623459/\" target=\"_blank\">Institute for Genetic Genealogy</a></li><li> <a class=\"lk\" href=\"https://www.facebook.com/groups/649529108486225/\" target=\"_blank\">Family Record DNA and Genealogy</a></li><li> <a class=\"lk\" href=\"https://www.facebook.com/pages/Your-Genetic-Genealogist/159529870824818\" target=\"_blank\">Your Genetic Genealogist</a></li><li> <a class=\"lk\" href=\"https://www.facebook.com/bbettinger\" target=\"_blank\">Blaine Bettinger page</a> (discussions on genetic genealogy)</li></ul></li></ol><h5>Blog Sites, etc.</h5><ol><li>Visit these blog sites for more information:<ul style=\"margin-left:-88px;\"><li> <a class=\"lk\" href=\"https://dna-explained.com/\" target=\"_blank\">DNA Explained</a></li><li> <a class=\"lk\" href=\"http://blog.kittycooper.com/\" target=\"_blank\">Kitty Cooper blog site</a></li><li> <a class=\"lk\" href=\"http://www.yourgeneticgenealogist.com/\" target=\"_blank\">Your Genetic Genealogist blog site</a></li></ul></li><li>Watch this video for answers from an AncestryDNA expert. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.rootstech.org/video/ask-a-scientist-from-ancestrydna\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">RT—Ask a Scientist from AncestryDNA—53:08</span></a></li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Use message boards and forums to get help.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Use the <a class=\"lk\" href=\"https://www.ancestry.com/boards/topics.dnaresearch/mb.ashx\" target=\"_blank\">Ancestry message boards</a> to read or post questions about DNA research.</li><li>Get free help with your <a class=\"lk\" href=\"http://www.rootschat.com/forum/ancestral-family-tree-dna-testing/\" target=\"_blank\">DNA testing questions</a> from members of the RootsChat forum.</li><li>Check out the <a class=\"lk\" href=\"https://community.familysearch.org/s/group/0F93A000000DHn0SAG/genetic-genealogy-research\" target=\"_blank\">Genetic Genealogy FamilySearch Community</a> page.</li><li>Explore <a class=\"lk\" href=\"https://genealogy.stackexchange.com/?tags=palaeography\" target=\"_blank\">DNA questions</a> and <a class=\"lk\" href=\"https://genealogy.stackexchange.com/questions/tagged/autosomal-dna\" target=\"_blank\">Autosomal DNA questions</a> in the Genealogy Stack Exchange.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Test Settings (AN)",
+        "name": "Manage DNA Test Settings",
+        "section_name": "Update and manage settings for your DNA test results.",
+        "summary": "<p>To manage your DNA test settings, in the main DNA screen click <b>Settings</b> (upper right). To see settings for DNA Discoveries, click the DNA icon (upper-left toolbar) in the screen linked to your DNA test results.</p>",
+        "choices": [
+            {
+                "name": "Update general information.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-women-tablet.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/y-women-tablet.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 350px;; border:1px solid #000; padding:0px;\"><li>To change the name associated with your DNA test, <br>a) In <b>Test Details</b> click \"Change\" (next to \"Name\");<br>b) Type the name; and <br>c) Click <b>Save</b>.</li><li>To change the birth year associated with your DNA test,<br>a) In <b>Test Details</b> click \"Change\" (next to \"Birth Year\");<br>b) Select a birth year from the drop-down list. The change is automatically saved.</li><li>To change the gender associated with your DNA test,<br>a) In <b>Test Details</b> click \"Change\" (next to \"Gender\");<br>b) Select an option from the drop-down list. The change is automatically saved.</li><li>To change the tree associated with your DNA test,<br>a) In <b>Tree Link</b> click \"Change\" (next to \"This test is linked to\");<br>b) To remove DNA test linkage to a tree, in the \"Change the family tree link\" section, click the \"x\" icon; and<br>c) In the \"Link to a different family tree\" section, select a tree name from the drop-down list. Then click <b>Yes</b> to confirm who you are in the tree. A success message is posted in the main DNA page.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Update privacy information.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>To change whether you can see DNA test matches and be listed as a match to others, <br>a) In <b>Display Preferences</b> click \"Change\" (next to \"DNA Matches\"); and<br>b) Click the option you want.</li><li>To change whether others can see your full ethnicity results,<br>a) In <b>Display Preferences</b> click \"Change\" (next to \"Ethnicity Estimate\"); and<br>b) Click the option you want.</li><li>To change the display name for your DNA test results,<br>a) In <b>Display Preferences</b> click \"Change\" (next to \"Display name\"); and<br>b) Click the option you want.</li><li>To invite others to see your DNA test results,<br>a) In <b>Sharing Preferences</b> click \"Change\" (next to \"DNA Ethnicity and Matches\");<br>b) Click \"Add a person\"; <br>c) Type the Ancestry user's email or username;<br>c) Select the role type for the person; and<br>d) Click <b>Send Invitation</b>. You can also invite additional people.</li><li>To change your research consent settings,<br>a) In <b>Research Consent</b> click \"Change\" (next to \"The Ancestry Human Diversity Project\"); and<br>b) Click the option you want.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Update test management information.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>To change which emails you receive from Ancestry (DNA or other), <br>a) In <b>Notification Preferences</b> click \"Change\" (next to \"Email\"); and<br>b) In the Email settings screen, select or unselect any email options. Some options are accessed by clicking the down arrows. You can also unsubscribe from all emails (bottom of the screen).<br></li><li>To download your raw DNA file,<br>a) In <b>Actions</b> click \"Change\" (next to \"Download Raw DNA Data\");<br>b) Type your Ancestry password;<br>c) Check the disclaimer notice box; and<br>d) Click <b>Confirm</b>. You can learn more about raw DNA by clicking the info link.</li><li>To delete your ancestry DNA test results,<br>a) In <b>Actions</b> click \"Change\" (next to \"Delete Test Results from AncestryDNA\");<br>b) Carefully read the warning text in the box;<br>c) Enter your Ancestry password; and<br>d) Click <b>Delete test results from AncestryDNA</b>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

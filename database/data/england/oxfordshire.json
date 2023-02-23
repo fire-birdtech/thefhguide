@@ -1,0 +1,48 @@
+[
+    {
+        "nav_name": "Basic Research",
+        "name": "Basic Research",
+        "section_name": "Find resources for Oxfordshire research.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Do basic research.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-en-oxf-build.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/photos/rutland-water-england-lake-boats-4691264/\" target=\"_blank\"> <img src=\"../img/x-en-oxf-build.jpg\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li>Get an overview of Oxfordshire research. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familyhistory.co.uk/county-records/Oxfordshire-family-history/\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Oxfordshire Family History</span></a></li><br><li>Learn about Oxfordshire resources on the <a class=\"lk\" href=\"https://www.genuki.org.uk/big/eng/OXF\" target=\"_blank\">GenUKI</a> site.</li><li>Learn about Oxfordshire resources on the <a class=\"lk\" href=\"https://ukga.org/index.php?pageid=31\" target=\"_blank\">UK Genealogy Archive</a> site.</li><li>Explore the Oxfordshire History Centre on the <a class=\"lk\" href=\"http://discovery.nationalarchives.gov.uk/details/a?_ref=160\" target=\"_blank\">National Archives</a> site.</li><li>Learn about civil registration in Oxfordshire. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/Oxfordshire_Civil_Registration\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki: Oxfordshire Civil Registration</span></a></li><br><li>Learn about civil registration and certificates. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.ofhs.uk/resources/frequently-asked-questions-on-family-history/faq-civil-registration-and-certificates\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FAQ Civil Registration and Certificates</span></a></li><br><li>Learn about marriage records for Oxfordshire. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.ofhs.uk/resources/frequently-asked-questions-on-family-history/faq-marriages\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FAQ Marriages</span></a></li><br><li>Learn about <a class=\"lk\" href=\"https://www.ofhs.uk/resources/surname-interests\" target=\"_blank\">surname resources </a>on the Oxfordshire Family History Society site.</li><li>Explore a variety of records on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ukbmd.org.uk/index.php?county=128&amp;form_action=county\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">UK BMD site</a>.</li></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Oxfordshire church and cemetery records.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about church records in Oxfordshire. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/Oxfordshire_Church_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki: Oxfordshire Church Records</span></a></li><br><li>Locate Oxfordshire parishes. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/Oxfordshire_Parishes\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki: Oxfordshire Parishes</span></a></li><br><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.dustydocs.com/county/30/oxfordshire.html?country_id=1\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">Dusty Docs site</a> for parish and town records.</li><li>Explore parish records on the <a class=\"lk\" href=\"https://www.freereg.org.uk/\" target=\"_blank\">FreeReg.org</a>site.</li><li>Learn about baptism records for Oxfordshire. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.ofhs.uk/resources/frequently-asked-questions-on-family-history/faq-baptisms\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FAQ Baptisms</span></a></li><br><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://joinermarriageindex.co.uk/marriage-records/Oxfordshire/\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">Joiner Marriage Index</a> for Oxfordshire.</li><li>Learn about burial records for Oxfordshire. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.ofhs.uk/resources/frequently-asked-questions-on-family-history/faq-burials\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FAQ Baptisms</span></a></li><br><ol><li>Learn about Oxfordshire history on Wikipedia. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://en.wikipedia.org/wiki/History_of_Oxfordshire/\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">History of Oxfordshire</span></a></li><br><li>Go into more depth with Oxfordshire history on the British History Online site.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.british-history.ac.uk/vch/oxon\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Victoria County History series</span></a></li><br></ol><br><br><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p><span class=\"re\"><ul style=\"margin-left:44px\"><li><a href=\"https://www.ancestry.com/search/collections/61056\" target=\"_blank\">AC: Oxfordshire, England, Church of England Baptism, Marriages, and Burials, 1538-1812</a></li><li><a href=\"https://www.ancestry.com/search/collections/61057\" target=\"_blank\">AC: Oxfordshire, England, Church of England Births and Baptisms, 1813-1915</a></li><li><a href=\"https://www.ancestry.com/search/collections/61058\" target=\"_blank\">AC: Oxfordshire, England, Church of England Marriages and Banns, 1754-1930</a></li><li><a href=\"https://www.ancestry.com/search/collections/61059\" target=\"_blank\">AC: Oxfordshire, England, Church of England Deaths and Burials, 1813-1965</a></li></ul></span><br><hr></ol><ol><li>Learn about Oxfordshire history on Wikipedia. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://en.wikipedia.org/wiki/History_of_Oxfordshire/\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">History of Oxfordshire</span></a></li><br><li>Go into more depth with Oxfordshire history on the British History Online site.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.british-history.ac.uk/vch/oxon\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Victoria County History series</span></a></li><br></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Oxfordshire historical maps.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about map resources in Oxfordshire. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/Oxfordshire_Maps\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki: Oxfordshire Maps</span></a></li><br><li>Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://freepages.rootsweb.com/~genmaps/genealogy/genfiles/COU_Pages/ENG_pages/oxf.htm\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">historical maps</a> on the GenMaps site.</li><li>Explore map resources on the <a class=\"lk\" href=\"https://www.ofhs.uk/category/resources/maps\" target=\"_blank\">Oxfordshire Family History Society</a> site.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about additional resources for research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about probate records in Oxfordshire. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/Oxfordshire_Probate_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki: Oxfordshire Probate Records</span></a></li><br><li>Find <a class=\"lk\" href=\"https://www.ofhs.uk/resources/wills-2\" target=\"_blank\">will transcriptions</a> on the Oxfordshire Family History Society site.</li><br><li>Search for ancestor information in <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Oxfordshire_Newspapers\" target=\"_blank\">Oxfordshire newspapers</a>.</li></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

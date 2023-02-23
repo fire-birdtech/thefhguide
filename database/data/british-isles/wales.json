@@ -1,0 +1,366 @@
+[
+    {
+        "nav_name": "Research",
+        "name": "Research and Records",
+        "section_name": "Get started with Welsh research.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=smHA1jnrXSk\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Get started with Welsh research.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=ybqN4pB-s4I#t=0m16s\" target=\"_blank\">Search criteria</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=ybqN4pB-s4I#t=1m59s\" target=\"_blank\">Major websites</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=ybqN4pB-s4I#t=4m16s\" target=\"_blank\">National Library of Wales</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=ybqN4pB-s4I#t=8m1s\" target=\"_blank\">Archives</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=ybqN4pB-s4I#t=9m34s\" target=\"_blank\">Societies</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=ybqN4pB-s4I#t=12m23s\" target=\"_blank\">A sense of place</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=ybqN4pB-s4I#t=14m9s\" target=\"_blank\">Work and worship</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=ybqN4pB-s4I#t=16m14s\" target=\"_blank\">Other online resources</a></li></ul></span>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for research resources. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-wal-over.jpg"
+                    ],
+                    "text": "<ol><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/History_of_Wales#/media/File:Caerphilly_Castle,_Wales.jpg\" target=\"_blank\"> <img src=\"img/x-wal-over.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a>   <li><span class=\"g\">Overview</span>: Learn about Wales research resources in this FamilySearch Wiki article. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Wales_Genealogy\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Wales Genealogy</span></a></li><br><li>Learn more about resources in this blog article. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/blog/en/welsh-ancestry/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Discover Your Welsh Ancestry in These 3 Key Sources</span></a></li><br><li>Get an overview of Welsh family history on the Archives.com site. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.archives.com/genealogy/family-heritage-welsh.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">AR—Welsh Family History</span></a></li><br><li><span class=\"g\">Tips</span>: Explore these Welsh research tips from Findmypast. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=c9fzmMyD3yQ\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FMP—Welsh Family History Tips—33:08</span></a><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=qfRontlIog4\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FMP—How to Find Welsh Ancestors—65:10</span></a></li><br><li>Learn more about Welsh research in these articles from Price Genealogy. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.pricegen.com/wales-genealogy/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">PR—Wales Research – Part 3</span></a><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.pricegen.com/wales-part-4/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">PR—Wales Research – Part 4</span></a></li><br><li>Learn how to find online resources for research.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=ybqN4pB-s4I\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">RT—Online Resources for Welsh Genealogy—19:31 - 2022</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('online');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"online\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=ybqN4pB-s4I#t=0m16s\" target=\"_blank\">Search criteria</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=ybqN4pB-s4I#t=1m59s\" target=\"_blank\">Major websites</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=ybqN4pB-s4I#t=4m16s\" target=\"_blank\">National Library of Wales</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=ybqN4pB-s4I#t=8m1s\" target=\"_blank\">Archives</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=ybqN4pB-s4I#t=9m34s\" target=\"_blank\">Societies</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=ybqN4pB-s4I#t=12m23s\" target=\"_blank\">A sense of place</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=ybqN4pB-s4I#t=14m9s\" target=\"_blank\">Work and worship</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=ybqN4pB-s4I#t=16m14s\" target=\"_blank\">Other online resources</a></li></ul></span></div><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/ybqN4pB-s4I?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li>Explore a variety of resources on the <a class=\"lk\" href=\"https://sites.google.com/site/walesfreeancestry/\" target=\"_blank\">WalesFreeAncestry</a> site. </li><br></ol><h5>Records</h5><ol><li>Learn about problems and opportunities with Welsh records. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.pricegen.com/wales-genealogy-records/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">PR—Wales – Problems and Resources</span></a></li><br><li>Follow this case study in basic Welsh records research. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.pricegen.com/wales/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">PR—How to Search Wales Genealogy Records</span></a></li><br><li><span class=\"g\">Record Finder</span>: Use the Wales Record Finder to understand record types for research. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/en/wiki/Wales_Record_Finder\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Wales Record Finder</span></a></li><br><li><span class=\"g\">Forebears.io</span>: Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://forebears.io/wales\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Forebears.io site</a> for research records.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn more about Welsh names and terms.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-wal-name.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/illustrations/prince-wales-1540-edward-vi-purple-63003/\" target=\"_blank\"> <img src=\"img/x-wal-name.jpg\" width=\"100%\" ;=\"\" style=\"float:right; margin-top: 8px; margin-left: 16px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a>    <li>Explore Welsh names and patronymics (naming customs passed down from fathers to children). <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://earlywelshleigh.blogspot.com/2017/03/pronunciation-and-patronymics.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Pronunciation and Patronymics</span></a></li><br><li><span class=\"g\">Naming Patterns</span>: Learn more about Welsh naming patterns. <br><br> <span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/img_auth.php/1/17/Welsh_Naming_Patterns_Handout.pdf\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS: Welsh Naming Patterns</span></a></li><br><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.geneanet.org/country/search-United%20Kingdom-GBR\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Geneanet site</a> for Welsh surnames.</li><li>Search for <a class=\"lk\" href=\"http://www.geneaservice.nl/navigator/wales/index.html\" target=\"_blank\">Welsh surnames</a> in a number of databases.</li><li><span class=\"g\">Place Names</span>: Explore the <a class=\"lk\" href=\"http://www.jlb2011.co.uk/wales/glossary/index.htm\" target=\"_blank\">Glossary for Welsh Place Names</a> on the Welsh Family History Archive site.</li><li>Listen to <a class=\"lk\" href=\"http://www.jlb2011.co.uk/wales/sounds/index.htm\" target=\"_blank\">authentic pronunciations</a> of Welsh place names.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Archives and Libraries",
+        "name": "Archives and Libraries",
+        "section_name": "Learn about Wales archives and libraries.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=smHA1jnrXSk\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Wales archives and libraries.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for archives and libraries. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-wal-lib.jpg"
+                    ],
+                    "text": "<ol><a href=\"img/x-wal-lib.jpg\" target=\"_blank\"> <img src=\"img/x-wal-lib.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a>  <li><span class=\"g\">FamilySearch</span>: Learn about Wales archives and libraries in this FamilySearch Wiki article. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Wales_Archives_and_Libraries\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Wales Archives and Libraries</span></a></li><br><li>Learn about a variety of record archives in the <a class=\"lk\" href=\"https://archives.wales/\" target=\"_blank\">Archives Wales site</a>.</li><li><span class=\"g\">National Library</span>: Explore the <a class=\"lk\" href=\"https://www.library.wales/\" target=\"_blank\">National Library of Wales site</a>.</li><li><span class=\"g\">Books We Own</span>: Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.rootsweb.ancestry.com/~bwo/wales.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Books We Own site</a> for books that can be checked out or researched for you by others.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Census Records",
+        "name": "Census Records",
+        "section_name": "Learn about Wales census and civil registration records.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=smHA1jnrXSk\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Wales census records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Wales_Census#Census_Dates\" target=\"_blank\">Census Dates</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Wales_Census#Understanding_the_Census\" target=\"_blank\">Understanding the Census</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Wales_Census#Searching_Census_Records\" target=\"_blank\">Searching Census Records</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Wales_Census#Census_Indexes\" target=\"_blank\">Census Indexes</a></li></ul></span>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-wal-flag.png"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/welsh-flag-drag-national-symbol-23199/\" target=\"_blank\"> <img src=\"img/x-wal-flag.png\" alt=\"\" width=\"350px\" style=\"float:right; margin-top: 6px; margin-left: 16px; border:1px solid #000; padding:0px;\"></a>  <li><span class=\"g\">Introduction</span>: Learn about Wales census records in this FamilySearch Wiki article. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Wales_Census\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Wales Census Records</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('usa');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"usa\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Wales_Census#Census_Dates\" target=\"_blank\">Census Dates</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Wales_Census#Understanding_the_Census\" target=\"_blank\">Understanding the Census</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Wales_Census#Searching_Census_Records\" target=\"_blank\">Searching Census Records</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Wales_Census#Census_Indexes\" target=\"_blank\">Census Indexes</a></li></ul></span></div></li><br><li>Watch this video to learn about using census records from England and Wales. <br><br> <span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/england-and-wales-census-records-1841-1911-indexes\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—England and Wales Census Records—40:00</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Wales civil registration records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Wales_Civil_Registration#General_Historical_Background\" target=\"_blank\">Historical Background</a></li> <li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Wales_Civil_Registration#Information_Recorded_in_Civil_Registers\" target=\"_blank\">Information Recorded in Civil Registers</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Wales_Civil_Registration#Locating_Civil_Registration_Records\" target=\"_blank\">Locating Civil Registration Records</a></li></ul></span>"
+                        },
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=YovzCYoQp1Q#t=0m43s\" target=\"_blank\">Funeral leaflets</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=YovzCYoQp1Q#t=1m48s\" target=\"_blank\">Memorial programs</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=YovzCYoQp1Q#t=2m46s\" target=\"_blank\">Monument inscriptions</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=YovzCYoQp1Q#t=4m52s\" target=\"_blank\">Newspaper</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=YovzCYoQp1Q#t=7m09s\" target=\"_blank\">Death certificates</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=YovzCYoQp1Q#t=8m58s\" target=\"_blank\">Burial register</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=YovzCYoQp1Q#t=10m3s\" target=\"_blank\">Non-conformists</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=YovzCYoQp1Q#t=10m34s\" target=\"_blank\">Probate records</a></li></ul></span>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-wal-civ.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/photos/churchyard-cemetery-ruins-graveyard-380913/\" target=\"_blank\"> <img src=\"img/x-wal-civ.jpg\" width=\"100%\" ;=\"\" style=\"float:right; margin-top: 8px; margin-left: 16px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a>    <li>Learn about Wales civil registration records in this FamilySearch Wiki article. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Wales_Civil_Registration\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Wales Civil Registration Records</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('usb');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"usb\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Wales_Civil_Registration#General_Historical_Background\" target=\"_blank\">Historical Background</a></li> <li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Wales_Civil_Registration#Information_Recorded_in_Civil_Registers\" target=\"_blank\">Information Recorded in Civil Registers</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Wales_Civil_Registration#Locating_Civil_Registration_Records\" target=\"_blank\">Locating Civil Registration Records</a></li></ul></span></div></li><br><li>Learn how to find and use death records in your research.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=YovzCYoQp1Q\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">RT—Til death do us part: Exploring Death in Wales—14:52</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('death');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"death\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=YovzCYoQp1Q#t=0m43s\" target=\"_blank\">Funeral leaflets</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=YovzCYoQp1Q#t=1m48s\" target=\"_blank\">Memorial programs</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=YovzCYoQp1Q#t=2m46s\" target=\"_blank\">Monument inscriptions</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=YovzCYoQp1Q#t=4m52s\" target=\"_blank\">Newspaper</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=YovzCYoQp1Q#t=7m09s\" target=\"_blank\">Death certificates</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=YovzCYoQp1Q#t=8m58s\" target=\"_blank\">Burial register</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=YovzCYoQp1Q#t=10m3s\" target=\"_blank\">Non-conformists</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=YovzCYoQp1Q#t=10m34s\" target=\"_blank\">Probate records</a></li></ul></span></div><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/YovzCYoQp1Q?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks (See also the QUIKLinks in the England country page, listed for \"England and Wales.\")</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Church and Cemetery Records",
+        "name": "Cemetery Records",
+        "section_name": "Learn about Wales church and cemetery records.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=smHA1jnrXSk\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Wales church records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Wales_Church_Records#Online_Records_and_Websites\" target=\"_blank\">Online Records and Websites</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/African_American_Military_Records#Civil_War_.281861-1865.29\" target=\"_blank\">The Church in Wales</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Wales_Church_Records#Nonconformist_Church_Records\" target=\"_blank\">Nonconformist Church Records</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Wales_Church_Records#Society_of_Friends_.28Quakers.29\" target=\"_blank\">Society of Friends</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Wales_Church_Records#Church_Record_Indexes\" target=\"_blank\">Church Record Indexes</a></li></ul></span>"
+                        },
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=F0NjEK9MO7M#t=0m48s\" target=\"_blank\">Definition</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=F0NjEK9MO7M#t=1m37s\" target=\"_blank\">Hardwicke's Marriage Act</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=F0NjEK9MO7M#t=2m10s\" target=\"_blank\">Pre-1837 nonconformist registers</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=F0NjEK9MO7M#t=3m2s\" target=\"_blank\">Survival of registers</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=F0NjEK9MO7M#t=4m57s\" target=\"_blank\">Burials</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=F0NjEK9MO7M#t=3m57s\" target=\"_blank\">Nonconformist denominations</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=F0NjEK9MO7M#t=5m42s\" target=\"_blank\">Other nonconformist records</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=F0NjEK9MO7M#t=6m42s\" target=\"_blank\">County archive offices</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=F0NjEK9MO7M#t=7m11s\" target=\"_blank\">Denominational magazines</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=F0NjEK9MO7M#t=7m49s\" target=\"_blank\">Welsh journals</a></li></ul></span>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for church records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-wal-church.JPG"
+                    ],
+                    "text": "<ol><a href=\"https://commons.wikimedia.org/wiki/File:St_Mary%27s_Church,_Beddgelert_-_Wales.jpg\" target=\"_blank\"> <img src=\"img/x-wal-church.JPG\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a><li><span class=\"g\">FamilySearch</span>: Learn about Wales church records in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Wales_Church_Records\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Wales Church Records</span></a> &nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('usa');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"usa\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Wales_Church_Records#Online_Records_and_Websites\" target=\"_blank\">Online Records and Websites</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/African_American_Military_Records#Civil_War_.281861-1865.29\" target=\"_blank\">The Church in Wales</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Wales_Church_Records#Nonconformist_Church_Records\" target=\"_blank\">Nonconformist Church Records</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Wales_Church_Records#Society_of_Friends_.28Quakers.29\" target=\"_blank\">Society of Friends</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Wales_Church_Records#Church_Record_Indexes\" target=\"_blank\">Church Record Indexes</a></li></ul></span></div></li><br><li><span class=\"g\">Parish</span>: Learn about Welsh parish registers. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://bespokegenealogy.com/welsh-parish-register-guide/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">The Welsh Parish Register Guide</span></a> </li><br><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.dustydocs.com/Country/show/country_id/3\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">DustyDocs site</a> for links to Welsh parish record websites.</li><li>Explore <a class=\"lk\" href=\"http://parish.churchinwales.org.uk/\" target=\"_blank\">Welsh parish website links</a> on the Church in Wales site.</li><li><span class=\"g\">Anglican and Nonconformist</span>: Learn about Wales Anglican and Nonconformist church records in this article.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/File:WalesAnglicanNonformistChurchRecords_(Dan_edit).pdf\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Anglican and Nonconformist Wales Church Records—5 pgs.</span></a> <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=F0NjEK9MO7M\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">RT—Tracing Your Welsh Nonconformist Ancestors—14:53</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('tracing');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"tracing\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=F0NjEK9MO7M#t=0m48s\" target=\"_blank\">Definition</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=F0NjEK9MO7M#t=1m37s\" target=\"_blank\">Hardwicke's Marriage Act</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=F0NjEK9MO7M#t=2m10s\" target=\"_blank\">Pre-1837 nonconformist registers</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=F0NjEK9MO7M#t=3m2s\" target=\"_blank\">Survival of registers</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=F0NjEK9MO7M#t=4m57s\" target=\"_blank\">Burials</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=F0NjEK9MO7M#t=3m57s\" target=\"_blank\">Nonconformist denominations</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=F0NjEK9MO7M#t=5m42s\" target=\"_blank\">Other nonconformist records</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=F0NjEK9MO7M#t=6m42s\" target=\"_blank\">County archive offices</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=F0NjEK9MO7M#t=7m11s\" target=\"_blank\">Denominational magazines</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=F0NjEK9MO7M#t=7m49s\" target=\"_blank\">Welsh journals</a></li></ul></span></div><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/F0NjEK9MO7M?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br></ol><p style=\"margin-left:44px; font-size:15px;\"><a class=\"lk\" href=\"javascript:toggleDiv('q1');\">QUIKLinks by Location</a></p>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Wales cemetery records.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-wal-cem.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/photos/church-abandoned-dilapidated-creepy-1970675/\" target=\"_blank\"> <img src=\"img/x-wal-cem.jpg\" width=\"100%\" ;=\"\" style=\"float:right; margin-top: 8px; margin-left: 16px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a>    <li>Learn about Wales cemetery records in this FamilySearch Wiki article. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Wales_Cemeteries\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Wales Cemetery Records</span></a> </li><br><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.findagrave.com/cemetery-browse/Wales?id=country_67\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Find A Grave site</a> for cemetery records.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://billiongraves.com/site-map?country=Wales\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">BillionGraves site</a> for cemetery records.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Emigration and Immigration",
+        "name": "Emigration and Immigration",
+        "section_name": "Learn about Wales emigration and immigration.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=smHA1jnrXSk\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Wales emigration and immigration.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Wales_Emigration_and_Immigration#Finding_the_Emigrant.E2.80.99s_Place_of_Origin\" target=\"_blank\">Finding the Emigrant's Place of Origin</a></li> <li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Wales_Emigration_and_Immigration#Records_of_Welsh_Immigrants_in_Their_Destination_Countries\" target=\"_blank\">Records of Welsh Emigrants</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Wales_Emigration_and_Immigration#British_Records_of_Emigration\" target=\"_blank\">British Records of Emigration</a></li></ul></span>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for immigration records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-wal-imm.JPG"
+                    ],
+                    "text": "<ol><a href=\"https://commons.wikimedia.org/wiki/File:StateLibQld_2_124420_Welsh_immigrants_outside_the_Queensland_Tourist_Office_Sydney,_New_South_Wales,_1926.jpg\" target=\"_blank\"> <img src=\"img/x-wal-imm.JPG\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a> <li><span class=\"g\">FamilySearch</span>: Learn about Wales emigration and immigration in this FamilySearch Wiki article.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Wales_Emigration_and_Immigration\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Wales Emigration and Immigration</span></a> &nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('usa');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"usa\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Wales_Emigration_and_Immigration#Finding_the_Emigrant.E2.80.99s_Place_of_Origin\" target=\"_blank\">Finding the Emigrant's Place of Origin</a></li> <li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Wales_Emigration_and_Immigration#Records_of_Welsh_Immigrants_in_Their_Destination_Countries\" target=\"_blank\">Records of Welsh Emigrants</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Wales_Emigration_and_Immigration#British_Records_of_Emigration\" target=\"_blank\">British Records of Emigration</a></li></ul></span></div></li><br><li><span class=\"g\">Wikipedia</span>: Learn about immigration history and demographics in this Wikipedia article.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Welsh_Americans\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Wikipedia: Welsh Americans</span></a></li><br><li><span class=\"g\">Patterns</span>: Learn about Welsh <a class=\"lk\" href=\"http://www.everyculture.com/multi/Sr-Z/Welsh-Americans.html\" target=\"_blank\">Welsh culture and immigration patterns</a>.</li><li>Learn about Wales migration patterns in colonial America.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Wales_Emigration_and_Immigration\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">GT—Wiki: Welsh Migration in Colonial America</span></a> </li><br><li><span class=\"g\">Argentina</span>: Learn about the <a class=\"lk\" href=\"http://www.bbc.co.uk/wales/history/sites/themes/society/migration_patagonia.shtml\" target=\"_blank\">Welsh in Patagonia</a> (Southern Argentina).</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Land, Property, Probate",
+        "name": "Land, Property, and Probate",
+        "section_name": "Learn about Wales land, property, and probate records.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=smHA1jnrXSk\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Wales land, property, and probate records.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-wal-land.JPG"
+                    ],
+                    "text": "<ol><a href=\"https://commons.wikimedia.org/wiki/File:Top_House_Farm,_Arowry,_Wales.jpg\" target=\"_blank\"> <img src=\"img/x-wal-land.JPG\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a><li><span class=\"g\">FamilySearch</span>: Learn about Wales Land and property records in this FamilySearch Wiki article. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Wales_Land_and_Property\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Wales Land and Property Records</span></a></li><br><li>Get an overview of Wales probate records in this article. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Wales_Land_and_Property\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Wales Land and Property Records</span></a></li><br><li><span class=\"g\">Taxation</span>: Learn about Wales taxation records in this FamilySearch Wiki article. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Wales_Taxation\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Wales Taxation</span></a></li><br></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Military Records",
+        "name": "Military Records",
+        "section_name": "Learn about Wales military records.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=smHA1jnrXSk\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Wales military records.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-wales-banner.png"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/vectors/banner-decoration-flag-sign-signal-2025477/\" target=\"_blank\"> <img src=\"img/x-wales-banner.png\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; \"></a>   <li><span class=\"g\">FamilySearch</span>: Learn about Wales military records in this FamilySearch Wiki article. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Wales_Military_Records\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Wales Military Records</span></a></li><br><li><span class=\"g\">Welsh Guard</span>: Search for records for the <a class=\"lk\" href=\"https://www.findmypast.com/articles/world-records/full-list-of-united-kingdom-records/armed-forces-and-conflict/welsh-guards-1915-1918\" target=\"_blank\">Welsh Guard</a>.</li><li><span class=\"g\">Forces War Records</span>: Explore the <a class=\"lk\" href=\"https://www.forces-war-records.co.uk/welsh-regiments\" target=\"_blank\">Forces War Records site</a> for infomation on Welsh military regiments.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Maps and Gazetteers",
+        "name": "Maps and Gazetteers",
+        "section_name": "Learn about Wales maps and gazetteers.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=smHA1jnrXSk\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Wales maps and gazetteers.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li><span class=\"g\">Maps</span>: Learn about Wales maps in this FamilySearch Wiki article. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Wales_Maps\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Wales Maps</span></a></li><br><li>See an <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Wales_Genealogy#Wales_Clickable_Maps\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">interactive map</a> for Wales counties.</li><li><span class=\"g\">Gazetteers</span>: Learn about Wales gazetteers in this FamilySearch Wiki article. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Wales_Gazetteers\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Wales Gazetteers</span></a></li><br><li>Learn about Wales maps, place names, and gazetteers. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/File:Improving_your_Welsh_Research_Using_Place-names_Maps_Gazetteers_-_2015.pdf\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wales Place Anmes,Maps and Gazetteers—5 pgs.</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Wales maps.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore <a class=\"lk\" href=\"http://www.archersoftware.co.uk/genmap01.htm\" target=\"_blank\">Welsh maps</a> on the GenMap UK site.</li><li>Explore <a class=\"lk\" href=\"http://www.jlb2011.co.uk/wales/maps/index.htm\" target=\"_blank\">Welsh map resources</a> on the Welsh Family History Archive site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.davidrumsey.com/luna/servlet/view/search?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&amp;q=wales&amp;search=Go\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">David Rumsey collection</a> of Welsh maps.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.oldmapsonline.org/en/Wales\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Old Maps Online site</a> for Wales maps.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://commons.wikimedia.org/wiki/Atlas_of_Wales\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Atlas of Wales</a> on the Wikipedia site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://commons.wikimedia.org/wiki/Category:Old_maps_of_Wales\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Old Maps of Wales</a> on the Wikipedia site.</li><li>Explore a <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.fallingrain.com/world/UK/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">directory of United Kingdom cities, towns, and regions</a> in the Falling Rain site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Newspapers",
+        "name": "Newspapers",
+        "section_name": "Learn about Wales newspapers.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=smHA1jnrXSk\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Wales newspapers.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-wal-news.jpg"
+                    ],
+                    "text": "<ol><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/National_Library_of_Wales#/media/File:The_Cardigan_Bay_Visitor_Jun_24_1887.jpg\" target=\"_blank\"> <img src=\"img/x-wal-news.jpg\" alt=\"\" width=\"350px\" style=\"float:right; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"></a> <li>Learn about newspapers in Wales in this FamilySearch Wiki article.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Wales_Newspapers\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Wales Newspapers</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Wales newspapers.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore the <a class=\"lk\" href=\"https://newspapers.library.wales/\" target=\"_blank\">National Library of Wales</a> for newspaper resources.</li><li>Explore the <a class=\"lk\" href=\"https://journals.library.wales/\" target=\"_blank\">Welsh Journals site</a> for journals published from 1735 to 2007.</li><li>Search Wales newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.onlinenewspapers.com/wales.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">onlinenewspapers.com</a> site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Websites",
+        "name": "Websites",
+        "section_name": "Explore additional websites for research.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=smHA1jnrXSk\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "There are a number of websites with valuable resources for Welsh research.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/laptop-fingers1.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/laptop-fingers1.jpg\" alt=\"\" width=\"350px\" style=\"float:right; margin-top: 6px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Explore links in the <a class=\"lk\" href=\"https://www.familysearch.org/en/wiki/Wales_Websites\" target=\"_blank\">FamilySearch Wiki</a>.</li><li>Explore links in <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cyndislist.com/uk/sct\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Cyndi's List</a>.</li><li>Explore links in <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genealogylinks.net/uk/wales/index.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Genealogylinks.net</a>.</li><li>Explore links in the<a class=\"lk\" href=\"http://www.walesgenweb.com/\" target=\"_blank\"> WalesGenWeb site</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Search Records",
+        "name": "Search Records",
+        "section_name": "Search records from Wales.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=smHA1jnrXSk\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Use QUIKLinks, Partners, and GenealogyInTime to quickly search the most common record collections for Wales.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/laptop-hands.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/laptop-hands.jpg\" alt=\"\" width=\"350px\" style=\"float:right; margin-top: 6px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>QUIKLinks are indicated by lightning-bolt icons in the Goals above.They point to collections with 50,000 or more records. When you click a QUIKLink icon, scroll down on the resulting page to see the QUIKLinks.</li><li>In the Partners section (near the top of the page), explore additional record collections in FamilySearch, Ancestry, Findmypast and MyHeritage.</li><li>Explore the <a class=\"lk\" href=\"http://www.genealogyintime.com/records/Scotland-genealogy-records.html\" target=\"_blank\">Scotland and Wales page</a> of the GenealogyInTime website. Record collections are listed and described in order from newest to oldest additions, including FamilySearch, Ancestry, and many other sources.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Get Help",
+        "name": "Get Help",
+        "section_name": "Get help with your Welsh research.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=smHA1jnrXSk\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Use Facebook pages to get answers to your questions.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/fh-help3.jpg"
+                    ],
+                    "text": "<ol><a href=\"img/fh-help3.jpg\" target=\"_blank\"> <img src=\"img/fh-help3.jpg\" alt=\"\" width=\"250px\" style=\"float:right; margin-top: 8px; margin-left: 16px\"></a> <li>Visit the <a class=\"lk\" href=\"https://www.facebook.com/groups/2786371210/\" target=\"_blank\">Wales Genealogy page</a> on Facebook.</li><li>Visit the <a class=\"lk\" href=\"https://www.facebook.com/groups/291492577588085/\" target=\"_blank\">Welsh Genealogy group</a> on Facebook.</li><li> Visit the <a class=\"lk\" href=\"https://www.facebook.com/groups/BritishIslesGenealogyResearchCommunity/\" target=\"_blank\">British Isles Genealogy Research Community</a> on Facebook.</li> <li>See the <a class=\"lk\" href=\"http://socialmediagenealogy.com/genealogy-on-facebook-list/\" target=\"_blank\">Genealogy on Facebook list</a> of Facebook groups dedicated to helping with research for Wales.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Join a mailing list, community, or message board for Wales research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://community.familysearch.org/s/group/0F93A000000LgVcSAK/welsh-family-history\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">FamilySearch community</a> for Wales research.</li><li>Explore the <a class=\"lk\" href=\"https://www.british-genealogy.com/forum/\" target=\"_blank\">British Genealogy site</a> for UK research help.</li><li>Get free help with your <a class=\"lk\" href=\"http://www.rootschat.com/forum/wales/\" target=\"_blank\">Wales research questions</a> from members of the RootsChat forum.</li><li>Explore the <a class=\"lk\" href=\"http://www.cyndislist.com/uk/wls/social/\" target=\"_blank\"> Welsh research mailing lists</a> available on Cyndi's List.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://community.familysearch.org/s/group/0F93A000000LgVcSAK/wales-genealogy-research\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">FamilySearch community</a> for help with Wales research.</li><li>Use the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ancestry.com/boards/localities.britisles.wales/mb.ashx\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Ancestry message boards</a> to read or post questions about Wales research.</li><li>Explore Wales research questions in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://genealogy.stackexchange.com/questions/tagged/wales\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Genealogy Stack Exchange</a>.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Wales genealogy societies.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about Wales genealogy societies in this FamilySearch Wiki article.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Wales_Societies\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Wales Societies</span></a></li><br><li>Explore the <a class=\"lk\" href=\"http://www.facebook.com/WelshAmericanGenealogySociety/\" target=\"_blank\">Welsh American Genealogical Society</a> site.</li><br><li>Explore <a class=\"lk\" href=\"http://www.cyndislist.com/uk/wls/societies/\" target=\"_blank\">Wales genealogy society sites</a> on Cyndi's List.</li><li>Get help at a <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Category:Wales_Family_History_Centres\" target=\"_blank\">family history center in Wales</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Geo/Culture/History",
+        "name": "Geography, Culture, and History",
+        "section_name": "Learn about the geography, culture, and history of Wales. \n\t\t\t\t\t\t\n\t\t\t\t\t\t",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=smHA1jnrXSk\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Explore websites and videos.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/c-wales.jpg"
+                    ],
+                    "text": "<h5>Reference</h5><ol><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Wales_History\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">FamilySearch: History</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Wales_Historical_Geography\" target=\"_blank\">FamilySearch: Historical Geography</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Wales\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Wikipedia</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.britannica.com/place/Wales\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Encyclopedia Britannica</a></li></ol><h5>For Kids</h5><ol><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://kids.nationalgeographic.com/explore/countries/united-kingdom/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">NatGeo for Kids</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ducksters.com/geography/country/united_kingdom.php\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Ducksters</a></li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,257 @@
+[
+    {
+        "nav_name": "Research and Records",
+        "name": "Research and Records",
+        "section_name": "Learn about Queensland research and records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Get started with research for your Queensland ancestors.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for research resources. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-aus-qld-over.jpg"
+                    ],
+                    "text": "<ol><img src=\"../img/x-aus-qld-over.jpg\" alt=\"\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\" width=\"450px\"><li>Learn about finding your ancestors in Queensland. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Queensland,_Australia_Genealogy\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki:—Queensland</span></a></li><br><li>Get tips for family history research in Queensland and the U.K. on the <a class=\"lk\" href=\"http://www.judywebster.com.au/tips.html\" target=\"_blank\">Judy Webster site.</a></li><li>Use the Australian Record Finder for research opportunities. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Australia_Record_Finder\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Australia Record Finder</span></a></li><br><li>Explore resources on the <a class=\"lk\" href=\"https://www.familyhistorydirectory.co.uk/australia/queensland/\" target=\"_blank\">Family History Directory</a> site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Archives and Libraries",
+        "name": "Archives and Libraries",
+        "section_name": "Learn about Queensland archives and libraries.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Queensland archives and libraries.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for archives and libraries. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-aus-qld-lib.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://en.wikipedia.org/wiki/Brisbane#/media/File:State_Library_of_Queensland_building,_Brisbane,_Queensland_03.jpg\" target=\"_blank\"><img src=\"../img/x-aus-qld-lib.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"></a><li>Learn about archives and libraries in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Queensland_Archives_and_Libraries\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Queensland Archives and Libraries</span></a></li><br><li>Learn how to access and use Queensland Government archive records. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.qld.gov.au/law/births-deaths-marriages-and-divorces/family-history-research/information-and-how-to-access-and-order-records/information-you-can-access\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">QG—Information You Can Access</span></a></li><br><li>Learn about directories and almanacs for research in Queensland. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://www.slq.qld.gov.au/resources/family-history/directories\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">SLQ—Directories, Almanacs, and Gazetteers</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Queensland city directories.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore resources for directories in Queensland. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Queensland_Directories\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki:—Queensland Directories</span></a></li><br></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Vital and Census Records",
+        "name": "Vital and Census Records",
+        "section_name": "Learn about Queensland vital records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Queensland vital and BMD records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for vital and BMD records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-aus-qld-vit.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://en.wikipedia.org/wiki/File:Queensland_Children%27s_Hospital_in_Brisbane,_November_2019.jpg\" target=\"_blank\"><img src=\"../img/x-aus-qld-vit.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"></a><li>Learn about Queensland BMD records in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Queensland_Births,_Marriages,_and_Deaths\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Queensland Births, Marriages, and Deaths</span></a></li><br><li>Search for <a class=\"lk\" href=\"https://www.bdm.qld.gov.au/IndexSearch/queryEntry.m?type=births\" target=\"_blank\">birth records</a> on the Queensland Government site.</li><li>Search for <a class=\"lk\" href=\"https://www.bdm.qld.gov.au/IndexSearch/queryEntry.m?type=marriages\" target=\"_blank\">marriage records</a> on the Queensland Government site.</li><li>Search for <a class=\"lk\" href=\"https://www.bdm.qld.gov.au/IndexSearch/queryEntry.m?type=deaths\" target=\"_blank\">death records</a> on the Queensland Government site.</li></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Church and Cemetery Records",
+        "name": "Church and Cemetery Records",
+        "section_name": "Learn about Queensland church, cemetery, and obituary records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore Queensland church, cemetery, and obituary records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for church, cemetery, and obituary records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-aus-qld-church.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://en.wikipedia.org/wiki/Adelaide#/media/File:St_Francis_Xavier%27s_Cathedral,_Victoria_Square.jpg\" target=\"_blank\"><img src=\"../img/x-aus-qld-church.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 350px; border:1px solid #000; padding:0px;\"></a><li>Learn about parish records available at the State Library of Queensland. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://www.slq.qld.gov.au/resources/family-history/parish\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">SLQ:—Australian Parish Records</span></a></li><br><li>Explore resources for cemeteries in Queensland. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Queensland_cemetery_records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki:—Queensland Cemetery Records</span></a></li><br><li>Explore resources for obituaries in Queensland. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Queensland_Obituaries\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki:—Queensland Obituaries</span></a></li><br><li>Search the <a class=\"lk\" href=\"http://www.findagrave.com/cgi-bin/fg.cgi?page=cs\" target=\"_blank\">Find A Grave site</a> for cemetery records.</li><li>Search the <a class=\"lk\" href=\"http://billiongraves.com/pages/search/\" target=\"_blank\">BillionGraves site</a> for cemetery records.</li></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Emigration and Immigration",
+        "name": "Emigration and Immigration",
+        "section_name": "Learn about Queensland emigration and immigration.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Queensland emigration and immigration.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-imm-ship.jpg"
+                    ],
+                    "text": "<ol><img src=\"../img/y-imm-ship.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"><li>Explore resources for immigration in Queensland. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Queensland_Emigration_and_Immigration\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki:—Queensland Emigration and Immigration</span></a></li><br></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Maps and Gazetteers",
+        "name": "Maps and Gazetteers",
+        "section_name": "Learn about Queensland maps and gazetteers.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore Queensland maps and gazetteers.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-aus-qld-map.png"
+                    ],
+                    "text": "<ol><a href=\"https://en.wikipedia.org/wiki/Queensland#/media/File:Queensland_in_Australia.svg\" target=\"_blank\"><img src=\"../img/x-aus-qld-map.png\" alt=\"\" width=\"450px\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li>Explore the <a class=\"lk\" href=\"http://www.davidrumsey.com/luna/servlet/view/search?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&amp;q=queensland&amp;search=Go\" target=\"_blank\">David Rumsey collection</a> of Queensland maps.</li><li>Explore the <a class=\"lk\" href=\"https://www.ancestry.com/search/collections/60888\" target=\"_blank\">Queensland, Australia, Bailliere's Gazetteer and Road Guide, 1876</a>.</li><li>Explore the <a class=\"lk\" href=\"http://www.lib.utexas.edu/maps/australia.html\" target=\"_blank\">Perry-Castaneda site</a> for maps of Queensland (search for Queensland on the page).</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Newspapers",
+        "name": "Newspapers",
+        "section_name": "Learn about Queensland newspapers.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore Queensland newspapers.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "  fs—wiki: queensland newspapers",
+                            "content": "<br>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/newspaper.jpg"
+                    ],
+                    "text": "<ol><img src=\"../img/newspaper.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"><li>Learn about resources for newspaper research in Queensland. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://www.slq.qld.gov.au/resources/family-history/newspapers\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">SLQ:—Newspapers</span></a></li><br><li>Explore Queensland newspapers. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Queensland_Newspapers\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Queensland Newspapers</span></a><div class=\"choice\"><br></div></li><li>Search the <a class=\"lk\" href=\"https://sites.google.com/site/onlinenewspapersite/Home/aus/qld\" target=\"_blank\">Queensland Online Historical Newspapers</a> site.</li><li>Search Queensland newspapers in the <a class=\"lk\" href=\"http://www.world-newspapers.com/queensland.html\" target=\"_blank\">world-newspapers.com</a> site.</li><li>Search Queensland newspapers in the <a class=\"lk\" href=\"http://www.abyznewslinks.com/austrqu.htm\" target=\"_blank\">ABYZ News Link</a> site.</li></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            },
+            {
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Websites",
+        "name": "Websites",
+        "section_name": "Explore additional websites for research.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "There are a number of websites with valuable resources for Queensland research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore links in <a class=\"lk\" href=\"https://www.cyndislist.com/australia/states/qld/\" target=\"_blank\">Cyndi's List</a>.</li><li>Explore links in <a class=\"lk\" href=\"http://www.genealogylinks.net/australia/queensland/index.html\" target=\"_blank\">GenealogyLinks.net</a>.</li> </ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Search Records",
+        "name": "Search Records",
+        "section_name": "Search records from Queensland.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Use QUIKLinks to quickly search record collections for Queensland.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore additional record collections.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore the <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Queensland,_Australia_Online_Genealogy_Records\" target=\"_blank\">FamilySearch page</a> for online genealogy records.</li><li>Explore additional record collections in <a class=\"lk\" href=\"https://www.ancestry.com/search/collections/catalog/?keyword=Queensland\" target=\"_blank\">Ancestry</a>.</li><li>Explore additional record collections in <a class=\"lk\" href=\"https://search.findmypast.com/historical-records?page=1&amp;region=australia&amp;subcountry=queensland\" target=\"_blank\">Findmypast</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Get Help",
+        "name": "Get Help",
+        "section_name": "Get help with your Queensland research.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Use Facebook pages to get answers to your questions.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/fh-help3.jpg"
+                    ],
+                    "text": "<ol><a href=\"../img/fh-help3.jpg\" target=\"_blank\"> <img src=\"../img/fh-help3.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 350px; border:1px solid #000; padding:0px;\"></a>  <li>Join the <a class=\"lk\" href=\"https://www.facebook.com/groups/1411974805727245/\" target=\"_blank\">Queensland Genealogy Group</a> on Facebook.</li><li>Visit the <a class=\"lk\" href=\"https://www.facebook.com/groups/GenQldAus/about/\" target=\"_blank\">Genealogy Queensland Australia page</a> on Facebook.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Join a mailing list or message board for Queensland research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore the <a class=\"lk\" href=\"http://www.rootschat.com/forum/australia/\" target=\"_blank\">RootsChat forum</a> and post questions about Queensland research.</li><li>Explore <a class=\"lk\" href=\"https://www.ancestry.com/boards/localities.oceania.australia.wa.general/mb.ashx?q=Queensland\" target=\"_blank\">Ancestry message boards</a> for Queensland research.</li><li>Search the <a class=\"lk\" href=\"http://bigfile.rootsweb.ancestry.com/cgi-bin/listsearch\" target=\"_blank\">RootsWeb site </a> for Queensland research mailing lists.</li><li>Explore the <a class=\"lk\" href=\"https://www.cyndislist.com/australia/states/qld/social/\" target=\"_blank\"> Queensland research mailing lists</a> on Cyndi's List.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Queensland genealogy societies.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Find genealogy sites on the <a class=\"lk\" href=\"http://www.genealogylinks.net/australia/queensland/qld-soc.htm\" target=\"_blank\">GenealogyLinks</a> website.</li><li>Explore <a class=\"lk\" href=\"https://www.cyndislist.com/australia/states/qld/societies/\" target=\"_blank\">Queensland genealogy society sites</a> on Cyndi's list.</li><li>Get help at a <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Category:Queensland_Family_History_Centres\" target=\"_blank\">family history center in Queensland</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

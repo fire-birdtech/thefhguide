@@ -1,0 +1,435 @@
+[
+    {
+        "nav_name": "Research",
+        "name": "Research",
+        "section_name": "Learn about research in Sweden.Vault",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=c1_1nYZKMvQ\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Explore Swedish research.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=A1hpHfPzXC4#t=0m53s\" target=\"_blank\">Immigration history</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=A1hpHfPzXC4#t=2m44s\" target=\"_blank\">Immigration routes</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=A1hpHfPzXC4#t=5m27s\" target=\"_blank\">Census and naturalization</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=A1hpHfPzXC4#t=9m19s\" target=\"_blank\">Passenger lists</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=A1hpHfPzXC4#t=21m09s\" target=\"_blank\">Family and other records</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=A1hpHfPzXC4#t=23m15s\" target=\"_blank\">Challenges</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=A1hpHfPzXC4#t=27m13s\" target=\"_blank\">Researching Swedish records</a></li></ul></span>"
+                        },
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=n5j1iXj88dU#t=0m19s\" target=\"_blank\">Swedish alphabet</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=n5j1iXj88dU#t=0m55s\" target=\"_blank\">Where do I start?</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=n5j1iXj88dU#t=2m28s\" target=\"_blank\">A few good books</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=n5j1iXj88dU#t=3m19s\" target=\"_blank\">Swedish parish registers</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=n5j1iXj88dU#t=6m56s\" target=\"_blank\">Five online resources</a></li></ul></span>"
+                        },
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=E30gEfuYAh8#t=0m45s\" target=\"_blank\">Learning Center, Ancestry Wiki</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=E30gEfuYAh8#t=1m37s\" target=\"_blank\">Diocese</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=E30gEfuYAh8#t=4m8s\" target=\"_blank\">Parish</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=E30gEfuYAh8#t=6m08s\" target=\"_blank\">Chapelry</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=E30gEfuYAh8#t=7m15s\" target=\"_blank\">Parish boundary evolution</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=E30gEfuYAh8#t=9m18s\" target=\"_blank\">Parish records</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=E30gEfuYAh8#t=10m26s\" target=\"_blank\">Civil jurisdictions</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=E30gEfuYAh8#t=10m54s\" target=\"_blank\">County</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=E30gEfuYAh8#t=16m25s\" target=\"_blank\">Judicial jurisdictions</a></li></ul></span>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for research resources. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-swe-over.jpg"
+                    ],
+                    "text": "<ol><a href=\"img/x-swe-over.jpg\" target=\"_blank\"> <img src=\"img/x-swe-over.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a>  <li><span class=\"g\">FamilySearch</span>: Learn about Swedish research on the FamilySearch Wiki site. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Sweden_Genealogy\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Sweden Genealogy</span></a></li><br><li>Here's an article on Swedish family history for beginners, using FamilySearch. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/blog/en/swedish-family-history-beginners/?cid=bl-fsup-8151\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Swedish Family History for Beginners - 2018</span></a></li><br><li><span class=\"g\">Archives.com</span>: Get an overview of Swedish family history on the Archives.com site. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.archives.com/genealogy/family-heritage-swedish.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">AR—Swedish Family History</span></a></li><br><li><span class=\"g\">Get Started</span>: Get started finding Swedish ancestors.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=A1hpHfPzXC4\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">AC—Beginning Swedish Research—35:45 - 2014</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('begin');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"begin\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=A1hpHfPzXC4#t=0m53s\" target=\"_blank\">Immigration history</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=A1hpHfPzXC4#t=2m44s\" target=\"_blank\">Immigration routes</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=A1hpHfPzXC4#t=5m27s\" target=\"_blank\">Census and naturalization</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=A1hpHfPzXC4#t=9m19s\" target=\"_blank\">Passenger lists</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=A1hpHfPzXC4#t=21m09s\" target=\"_blank\">Family and other records</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=A1hpHfPzXC4#t=23m15s\" target=\"_blank\">Challenges</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=A1hpHfPzXC4#t=27m13s\" target=\"_blank\">Researching Swedish records</a></li></ul></span></div><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/A1hpHfPzXC4?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=n5j1iXj88dU\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">BYU—Swedish Research Tips—17:35 - 2014</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('tips');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"tips\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=n5j1iXj88dU#t=0m19s\" target=\"_blank\">Swedish alphabet</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=n5j1iXj88dU#t=0m55s\" target=\"_blank\">Where do I start?</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=n5j1iXj88dU#t=2m28s\" target=\"_blank\">A few good books</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=n5j1iXj88dU#t=3m19s\" target=\"_blank\">Swedish parish registers</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=n5j1iXj88dU#t=6m56s\" target=\"_blank\">Five online resources</a></li></ul></span></div><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/n5j1iXj88dU?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li>Learn more about Swedish genealogy in the guide from American Ancestors. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.americanancestors.org/tools/swedish-genealogy\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">AA—Swedish Genealogy</span></a></li><br><li>Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.barbsnow.net/Sweden.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Your Guide to Researching Swedish Ancestors</a> by Barb Snow. </li><br><li>Learn about methods for extending paternal lines in your Swedish research. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/help/helpcenter/lessons/find-the-unknown-father-in-sweden\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Find the Unknown Father in Sweden—65:18 - 2019</span></a></li><br></ol><ol><h5>Swedish Records</h5><li><span class=\"g\">Record Finder</span>: Use the Sweden Record Finder to understand record types for research. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Sweden_Record_Finder\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Sweden Record Finder</span></a></li><br><li><span class=\"g\">ArkivDigital</span>: Learn how to use the ArkivDigital record source, available for free at family history centers. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/using-name-searchable-databases-in-arkivdigital\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Using Name Searchable Databases in ArkivDigital—53:54</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/how-to-use-swedish-collections-in-arkivdigital\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—How to Use Swedish Collections in ArkivDigital—55:26</span></a></li><br><li>Learn about jurisdictions and records for Swedish research.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=E30gEfuYAh8\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">RT—Jurisdictions and Records for Swedish Genealogy—19:29 - 2022</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('juris');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"juris\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=E30gEfuYAh8#t=0m45s\" target=\"_blank\">Learning Center, Ancestry Wiki</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=E30gEfuYAh8#t=1m37s\" target=\"_blank\">Diocese</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=E30gEfuYAh8#t=4m8s\" target=\"_blank\">Parish</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=E30gEfuYAh8#t=6m08s\" target=\"_blank\">Chapelry</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=E30gEfuYAh8#t=7m15s\" target=\"_blank\">Parish boundary evolution</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=E30gEfuYAh8#t=9m18s\" target=\"_blank\">Parish records</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=E30gEfuYAh8#t=10m26s\" target=\"_blank\">Civil jurisdictions</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=E30gEfuYAh8#t=10m54s\" target=\"_blank\">County</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=E30gEfuYAh8#t=16m25s\" target=\"_blank\">Judicial jurisdictions</a></li></ul></span></div><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/E30gEfuYAh8?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><li><span class=\"g\">Swedish Roots</span>: Explore the <a class=\"lk\" href=\"https://www.genealogi.se/swedish-roots\" target=\"_blank\">Swedish Roots site</a> for help in getting started with Swedish research.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://forebears.io/sweden\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Forebears.io site</a> for research records.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Swedish names and genealogy terms.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=Y1yNb4BOIec#t=0m44s\" target=\"_blank\">Spelling</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=Y1yNb4BOIec#t=2m59s\" target=\"_blank\">Symbols and abbreviations</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=Y1yNb4BOIec#t=3m32s\" target=\"_blank\">Understand some phonetics</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=Y1yNb4BOIec#t=4m52s\" target=\"_blank\">Vowel phonetics</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=Y1yNb4BOIec#t=6m12s\" target=\"_blank\">Letter J</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=Y1yNb4BOIec#t=7m19s\" target=\"_blank\">Look for the root word</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=Y1yNb4BOIec#t=8m31s\" target=\"_blank\">Swedish Historical Dictionary database</a></li></ul></span>"
+                        },
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Sweden_Names,_Personal#Surnames\" target=\"_blank\">Surnames</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Sweden_Names,_Personal#Given_Names\" target=\"_blank\">Given Names</a></li></ul></span><br><a href=\"https://www.genealogi.se/faktabanken/personnamn/\" target=\"_blank\"></a> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Swedish Roots: Personal Names</span> "
+                        },
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=UL0wFoBaCXs#t=1m23s\" target=\"_blank\">Swedish alphabet</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=UL0wFoBaCXs#t=1m40s\" target=\"_blank\">Parish book example, 1778</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=UL0wFoBaCXs#t=6m16s\" target=\"_blank\">Letter A</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=UL0wFoBaCXs#t=7m06s\" target=\"_blank\">Letters B and L</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=UL0wFoBaCXs#t=7m33s\" target=\"_blank\">Letter D</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=UL0wFoBaCXs#t=8m14s\" target=\"_blank\">Letter E</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=UL0wFoBaCXs#t=9m4s\" target=\"_blank\">Letters E, N, and U (and more)</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=UL0wFoBaCXs#t=13m29s\" target=\"_blank\">Swedish alphabet samples</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=UL0wFoBaCXs#t=14m18s\" target=\"_blank\">Process of writing</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=UL0wFoBaCXs#t=16m33s\" target=\"_blank\">Learn by doing</a></li></ul></span>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for language resources. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-swe-name.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/x-swe-name.jpg\" alt=\"\" width=\"250px\" style=\"float:right; margin-top: 8px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li><span class=\"g\">Words</span>: Learn the Swedish words you'll need for research.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Swedish_Genealogical_Word_List\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\">&nbsp;&nbsp;<span class=\"re\">FS—Swedish Genealogical Words</span></a><br><span class=\"star notranslate\">☆</span><a href=\"http://www.ancestry.com/learn/learningcenters/default.aspx?section=SV_EN\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\">  <span class=\"re\">AC—Swedish Dictionary and Abbreviations</span></a></li><br><li><span class=\"g\">Spelling &amp; Phonetics</span>: Understand spelling and phonetics for Swedish genealogy.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=Y1yNb4BOIec\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">Spelling and Phonetics for Swedish Genealogy—12:20 - 2015</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('spell');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"spell\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=Y1yNb4BOIec#t=0m44s\" target=\"_blank\">Spelling</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=Y1yNb4BOIec#t=2m59s\" target=\"_blank\">Symbols and abbreviations</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=Y1yNb4BOIec#t=3m32s\" target=\"_blank\">Understand some phonetics</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=Y1yNb4BOIec#t=4m52s\" target=\"_blank\">Vowel phonetics</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=Y1yNb4BOIec#t=6m12s\" target=\"_blank\">Letter J</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=Y1yNb4BOIec#t=7m19s\" target=\"_blank\">Look for the root word</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=Y1yNb4BOIec#t=8m31s\" target=\"_blank\">Swedish Historical Dictionary database</a></li></ul></span></div><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/Y1yNb4BOIec?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br> </ol><h5>Names</h5><ol><li>Learn about Swedish naming customs.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Sweden_Names,_Personal\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Sweden Names</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('usa1-a1');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"usa1-a1\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Sweden_Names,_Personal#Surnames\" target=\"_blank\">Surnames</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Sweden_Names,_Personal#Given_Names\" target=\"_blank\">Given Names</a></li></ul></span><br><a href=\"https://www.genealogi.se/faktabanken/personnamn/\" target=\"_blank\"></a> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Swedish Roots: Personal Names</span> </div></li><br><li>Watch this video to learn more about naming customs.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/help/helpcenter/lessons/swedish-naming-customs\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Swedish Naming Customs—66:45 - 2017</span></a> </li><br><li>Learn more about Swedish surnames in this blog post.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/blog/en/swedish-surnames/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Swedish Surnames - 2018</span></a> </li><br><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.geneanet.org/country/search-Sweden-SWE\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Geneanet site</a> for Sweden surnames.</li><li>Search for <a class=\"lk\" href=\"http://www.geneaservice.nl/navigator/sweden/index.html\" target=\"_blank\">Swedish surnames</a> in a number of databases.</li></ol><h5>Records and Handwriting</h5><ol><li>See examples of how to read Swedish records.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://support.ancestry.com/s/article/Researching-Swedish-Records\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">AC—Reading Swedish Ancestry</span></a></li><br> <li>Learn the basics of Swedish language and handwriting.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=8760HTS5O5Q\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">Swedish Language and Handwriting—17:55 - 2020</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/8760HTS5O5Q?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br> <li> Learn how to read Gothic handwriting for Swedish records.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://youtu.be/UL0wFoBaCXs\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">Reading Gothic Handwriting, Part 1—17:57 - 2015</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('gothic1');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"gothic1\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=UL0wFoBaCXs#t=1m23s\" target=\"_blank\">Swedish alphabet</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=UL0wFoBaCXs#t=1m40s\" target=\"_blank\">Parish book example, 1778</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=UL0wFoBaCXs#t=6m16s\" target=\"_blank\">Letter A</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=UL0wFoBaCXs#t=7m06s\" target=\"_blank\">Letters B and L</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=UL0wFoBaCXs#t=7m33s\" target=\"_blank\">Letter D</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=UL0wFoBaCXs#t=8m14s\" target=\"_blank\">Letter E</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=UL0wFoBaCXs#t=9m4s\" target=\"_blank\">Letters E, N, and U (and more)</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=UL0wFoBaCXs#t=13m29s\" target=\"_blank\">Swedish alphabet samples</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=UL0wFoBaCXs#t=14m18s\" target=\"_blank\">Process of writing</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=UL0wFoBaCXs#t=16m33s\" target=\"_blank\">Learn by doing</a></li></ul></span></div><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/UL0wFoBaCXs?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=eBN4XbXosGU\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">Reading Gothic Handwriting, Part 3—10:34 - 2016</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/eBN4XbXosGU?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br> </ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Swedish case studies.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-research2.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/y-research2.jpg\" width=\"300px\" style=\"float:right; margin-left: 16px; margin-top: 8px; border:1px solid #000; padding:0px;\">    <li>Follow along with the actual research done to find Swedish ancestors in a family and extend the tree. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Beyond_Parish_Registers:A_Case_Study\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Beyond Parish Registers</span></a></li><br><li>Examine this Swedish case study from Thoughtco and Ancestry Magazine.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://books.google.com/books?id=avzU7p-D7G8C&amp;pg=PT31&amp;dq=%22finding+grandpa+svenson%22+ancestry+magazine&amp;hl=en&amp;sa=X&amp;ei=vIoNUYveCfSw0AHliYCQBA&amp;ved=0CDoQ6AEwAA#v=onepage&amp;q=%22finding%20grandpa%20svenson%22%20ancestry%20magazine&amp;f=false\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">AC—Finding Grandpa Svenson</span></a></li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Archives and Libraries",
+        "name": "Archives and Libraries",
+        "section_name": "Learn about Sweden archives and libraries.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=c1_1nYZKMvQ\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Sweden archives and libraries.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Sweden_Archives_and_Libraries#National_Archives\" target=\"_blank\">National Archives</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Sweden_Archives_and_Libraries#Provincial_Archives\" target=\"_blank\">Provincial Archives</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Sweden_Archives_and_Libraries#City_Archives\" target=\"_blank\">City Archives</a></li></ul></span>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for archives and libraries. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-swe-lib.jpg"
+                    ],
+                    "text": "<ol><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/National_Library_of_Sweden#/media/File:National_library_of_sweden.jpg\" target=\"_blank\"> <img src=\"img/x-swe-lib.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a> <li><span class=\"g\">FamilySearch</span>: Learn about Sweden archives and libraries in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Sweden_Archives_and_Libraries\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Sweden Archives and Libraries</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('usa');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"usa\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Sweden_Archives_and_Libraries#National_Archives\" target=\"_blank\">National Archives</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Sweden_Archives_and_Libraries#Provincial_Archives\" target=\"_blank\">Provincial Archives</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Sweden_Archives_and_Libraries#City_Archives\" target=\"_blank\">City Archives</a></li></ul></span></div></li><br><li>Access the <a class=\"lk\" href=\"https://riksarkivet.se/startpage\" target=\"_blank\">Riksarkivet National Archives site</a> for genealogy resources.</li><li>See also the <a class=\"lk\" href=\"https://familysearch.org/wiki/en/Swedish_Research_Websites#Archives\" target=\"_blank\">Archives web links</a> in the Wiki.</li><li><span class=\"g\">List</span>: See a list of Swedish archives in the Swedish Genealogy Guide. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://swedishgenealogyguide.com/links\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Swedish Genealogy Guide Links</span></a></li><br><li><span class=\"g\">Archives Portal</span>: Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.archivesportaleurope.net/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Archives Portal Europe</a> site. Click the Directories link and select Sweden.</li><li><span class=\"g\">Books We Own</span>: Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.rootsweb.ancestry.com/~bwo/sweden.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Books We Own site</a> for books that can be checked out or researched for you by others.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Vital Records",
+        "name": "Vital Records",
+        "section_name": "Learn about Swedish vital records.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=c1_1nYZKMvQ\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Swedish birth and christening records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=ge7vsmb0ngQ#t=0m32s\" target=\"_blank\">Swedish birth and christening records</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=ge7vsmb0ngQ#t=0m52s\" target=\"_blank\">Choose a record provider</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=ge7vsmb0ngQ#t=2m03s\" target=\"_blank\">Must know the parish</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=ge7vsmb0ngQ#t=3m58s\" target=\"_blank\">Typing Swedish letters</a></li></ul></span>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for vital records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-swe-flag.png"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/flag-swedish-sweden-national-257636/\" target=\"_blank\"> <img src=\"img/x-swe-flag.png\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 350px;; border:1px solid #000; padding:0px;\"></a> <li><span class=\"g\">Birth &amp; Christening</span>: Learn about Swedish birth and christening records.<br><br><span class=\"star notranslate\">☆</span><a href=\"http://swedishgenealogyguide.com/archives/682\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Birth and Christening Records for Swedish Genealogy - 2015</span></a> <br><span class=\"star notranslate\">☆</span><a href=\"https://youtu.be/ge7vsmb0ngQ\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">Birth and Christening Records for Swedish Genealogy—9:17 - 2015</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('birth');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"birth\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=ge7vsmb0ngQ#t=0m32s\" target=\"_blank\">Swedish birth and christening records</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=ge7vsmb0ngQ#t=0m52s\" target=\"_blank\">Choose a record provider</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=ge7vsmb0ngQ#t=2m03s\" target=\"_blank\">Must know the parish</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=ge7vsmb0ngQ#t=3m58s\" target=\"_blank\">Typing Swedish letters</a></li></ul></span></div><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/ge7vsmb0ngQ?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li>Learn more about birth and christening records, by <br>timeframe.<ul style=\"margin-left:-88px;\"><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://youtu.be/fj1bdkhi8ng\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">Reading Birth and Christening Records, 1893—7:16 - 2015</span></a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://youtu.be/nLS0zRxvbss\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">Reading Birth and Christening Records, 1854—4:50 - 2015</span></a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://youtu.be/lcXgfbDIfpM\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">Reading Birth and Christening Records, 1834—5:01 - 2015</span></a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://youtu.be/MP8xTy-IAPE\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">Reading Birth and Christening Records, 1803—7:42 - 2015</span></a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://youtu.be/KcLdSHQjyu0\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">Reading Birth and Christening Records, 1792—11:23 - 2015</span></a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://youtu.be/VZgh-3v2Vhw\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">Reading Birth and Christening Records, 1771—9:20 - 2015</span></a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://youtu.be/VszQTkluERk\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">Reading Birth and Christening Records, 1752—9:08 - 2015</span></a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://youtu.be/rMIUyk19Q5Q\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">Reading Birth and Christening Records, 1717—7:50 - 2015</span></a></li></ul></li><br><li>Learn more about finding and using Swedish birth records.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=ujX-RPO3JvM\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">Birth Records—16:06 - 2020</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/ujX-RPO3JvM?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br> </ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Swedish marriage and death records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for vital records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>Learn about using Swedish marriage records in your research.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=pfqDkXFm7Wc\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">Marriage Records—12:35 - 2020</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/pfqDkXFm7Wc?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br> <li>Learn about using Swedish death records in your research.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=NDSQP_r31jw\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">Death Records—5:38 - 2020</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/NDSQP_r31jw?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br> </ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Swedish vital records and civil registration.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn how to find Swedish birth, marriage, and death records online.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/en/wiki/How_to_Find_Birth,_Marriage,_and_Death_Records_in_Sweden_Online\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—How_to_Find_Birth,_Marriage,_and_Death_Records_in_Sweden_Online</span></a></li><br> <li>Learn about Swedish population registers.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/en/wiki/Sweden_Population_Registration_Files\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Sweden Population Registers</span></a></li><br> </ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Church and Cemetery Records",
+        "name": "Church and Cemetery Records",
+        "section_name": "Learn about Sweden church and cemetery records.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=c1_1nYZKMvQ\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Sweden church records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Sweden_Church_Records#History_of_the_Swedish_Church_Records\" target=\"_blank\">History</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Sweden_Church_Records#Parish_Record_Collections\" target=\"_blank\">Parish Record Collections</a></li> <li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Sweden_Church_Records#Extracts_from_Church_Books_.5BUtdrag_ur_Ministerialb.C3.B6cker.5D\" target=\"_blank\">Extracts from Church Books</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Sweden_Church_Records#Access_to_Swedish_Church_Records\" target=\"_blank\">Access to Swedish Church Records</a></li></ul></span>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for church records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-swe-church.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/v%C3%A4rmland-sweden-church-cemetery-98109/\" target=\"_blank\"><img src=\"img/x-swe-church.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"></a> <li><span class=\"g\">FamilySearch</span>: Learn about Sweden church records in these articles.<br><br><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Sweden_Church_Records\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"><span class=\"re\">FS—Wiki: Sweden Church Records</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('usa');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"usa\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Sweden_Church_Records#History_of_the_Swedish_Church_Records\" target=\"_blank\">History</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Sweden_Church_Records#Parish_Record_Collections\" target=\"_blank\">Parish Record Collections</a></li> <li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Sweden_Church_Records#Extracts_from_Church_Books_.5BUtdrag_ur_Ministerialb.C3.B6cker.5D\" target=\"_blank\">Extracts from Church Books</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Sweden_Church_Records#Access_to_Swedish_Church_Records\" target=\"_blank\">Access to Swedish Church Records</a></li></ul></span></div><br><a class=\"lk\" href=\"https://www.familysearch.org/blog/en/swedish-church-records\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Types of Swedish Church Records - 2018</span></a></li><br><li>Explore the <a class=\"lk\" href=\"https://familysearch.org/wiki/en/Swedish_Research_Websites#Church_Records\" target=\"_blank\">Church Records web links</a> in the FamilySearch Wiki page.</li><li>Explore the <a class=\"lk\" href=\"https://bloodandfrogs.com/encyclopedia/sweden\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Jewish Genealogy Encyclopedia</a> for Jewish resources in Sweden.</li></ol><h5>Parish Records</h5><ol><li>Search for church parishes in Sweden.<br><br><a class=\"lk\" href=\"https://www.genealogi.se/faktabanken/socken-sok\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Swedish Roots: Parish Search</span></a> </li><br><li>Learn about parish records substitution in Sweden.<br><br><a class=\"lk\" href=\"https://www.familysearch.org/help/helpcenter/lessons/parish-records-substituion-in-sweden\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Parish Records Substitution in Sweden—62:48 - 2016</span></a> </li><br><li><span class=\"g\">Explore</span>: Search the <a class=\"lk\" href=\"https://register.slaktdata.org/regsearch/\" target=\"_blank\">Slaktdata.org database</a> for online church registers.</li><li><span class=\"g\">Moving Records</span>: Learn about \"moving in and out\" records in Sweden, created when people moved in and out of parishes.<br><br><a class=\"lk\" href=\"https://www.familysearch.org/help/helpcenter/lessons/swedish-moving-in-and-out-records\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Swedish Moving In and Out Records—20:51 - 2018</span></a> </li><br><li><span class=\"g\">Links</span>: See also the links in the <a class=\"lk\" href=\"https://familysearch.org/wiki/en/Sweden_Church_Records#Parish_Record_Collections\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Parish Record Collections</a> section of the page.</li></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p><p style=\"margin-left:44px; font-size:15px;\"><a class=\"lk\" href=\"javascript:toggleDiv('q1');\">QUIKLinks by Location</a></p>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Sweden Household Examination records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for household examination records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-swe-house.jpg"
+                    ],
+                    "text": "<p>Household Examination Records are church books containing information about all the people who lived in a specific parish.</p><ol><img src=\"img/x-swe-house.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"><li><span class=\"g\">FamilySearch</span>: Learn about Sweden Household Examination records in this FamilySearch Wiki article. <br><br><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Sweden_Household_Examination_Records_(Husf%C3%B6rh%C3%B6rsl%C3%A4ngder)\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Sweden Household Examination Records</span></a></li><br><li>Use this FamilySearch Wiki article for vocabulary tips when dealing with Sweden Household Examination records. <br><br><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Sweden:_Household_Examination_Vocabulary\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Sweden Household Examination Vocabulary</span></a></li><br><li>Learn more about household examination records in these videos.<br><br><a href=\"https://www.youtube.com/watch?v=wkzJhwONVvk\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">Household Examinations (Part 1)—21:06 - 2020</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/wkzJhwONVvk?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br><a href=\"https://www.youtube.com/watch?v=2Srdn6eHra8\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">Household Examinations (Part 2)—24:03 - 2020</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/2Srdn6eHra8?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></li><br> <li><span class=\"g\">Example</span>: See an example of a Household Examination record on Arkivdigital. <br><br><a class=\"lk\" href=\"https://www.arkivdigital.net/blog/search-for-household-record-and-reading-example/\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Late 1800’s Household Examination Record Example</span></a></li><br><li>Explore Sweden Household Examination Records on <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Sweden,_Household_Examination_Books_-_FamilySearch_Historical_Records\" target=\"_blank\">FamilySearch</a> or <a class=\"lk\" href=\"https://www.myheritage.com/research/collection-10180/sweden-household-examination-books-1860-1920\" target=\"_blank\">MyHeritage</a>.</li></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Sweden cemetery records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for cemetery records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-swe-cem.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/x-swe-cem.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"><li><span class=\"g\">FamilySearch</span>: Learn about Sweden cemetery records in this FamilySearch Wiki article. <br><br><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Cemeteries_in_Sweden\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Sweden Cemetery Records</span></a></li><br><li>See also the <a class=\"lk\" href=\"https://familysearch.org/wiki/en/Cemeteries_in_Sweden#Well_known_Cemeteries.E2.80.99_in_Sweden\" target=\"_blank\">Well-Known Cemeteries in Sweden</a> section of the page.</li><li><span class=\"g\">Gravestones</span>: Search for gravestone information in Swedish cemeteries. <br><br><a class=\"lk\" href=\"http://grav.genealogi.se/Gravsoklist.php\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Swedish Roots: Gravestones</span></a> </li><br><li><span class=\"g\">Find A Grave</span>: Search the <a class=\"lk\" href=\"https://www.findagrave.com/cemetery-browse/Sweden?id=country_66\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Find A Grave site</a> for cemetery records.</li><li><span class=\"g\">BillionGraves</span>: Search the <a class=\"lk\" href=\"https://billiongraves.com/site-map?country=Sweden\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">BillionGraves site</a> for cemetery records.</li></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Emigration and Immigration",
+        "name": "Emigration and Immigration",
+        "section_name": "Learn about Swedish emigration and immigration.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=c1_1nYZKMvQ\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Swedish emigration and immigration.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Sweden_Emigration_and_Immigration#Passenger_Lists\" target=\"_blank\">Passenger Lists</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Sweden_Emigration_and_Immigration#Extracts_of_Parish_Records\" target=\"_blank\">Extracts of Parish Records</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Sweden_Emigration_and_Immigration#Records_of_Sweden_Emigrants_in_Their_Destination_Countries\" target=\"_blank\">Records of Sweden Emigrants</a></li></ul></span>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-swe-imm1.jpg"
+                    ],
+                    "text": "<ol><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Swedish_emigration_to_the_United_States#/media/File:Birgit_Ridderstedt_%26_sons_Lars_%26_Stefan_emigrating_1950.jpg\" target=\"_blank\"><img src=\"img/x-swe-imm1.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a> <li><span class=\"g\">Overview</span>: Learn about Sweden emigration and immigration in this FamilySearch Wiki article. <br><br><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Sweden_Emigration_and_Immigration\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Sweden Emigration and Immigration</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('usa');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"usa\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Sweden_Emigration_and_Immigration#Passenger_Lists\" target=\"_blank\">Passenger Lists</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Sweden_Emigration_and_Immigration#Extracts_of_Parish_Records\" target=\"_blank\">Extracts of Parish Records</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Sweden_Emigration_and_Immigration#Records_of_Sweden_Emigrants_in_Their_Destination_Countries\" target=\"_blank\">Records of Sweden Emigrants</a></li></ul></span></div></li><br><li>Learn about immigration history and demographics in this Wikipedia article.<br><br><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Swedish_Americans\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Wikipedia: Swedish Americans</span></a></li><br><li>Here's an overview of Swedish emigration history and records. See more information in the links on the right side of the linked page. <br><br><a class=\"lk\" href=\"http://www.european-emigration.com/se/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">European Emigration: Sweden</span></a></li><br><li><span class=\"g\">Passengers</span>: Learn about Swedish passenger lists available on Arkivdigital. <br><br><a class=\"lk\" href=\"https://www.arkivdigital.net/swedish-genealogy/passanger-ship-manifests\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Introduction to Swedish Passenger Ship Manifests</span></a></li><br><li>Learn how to find your ancestor in Swedish passenger lists. <br><br><a class=\"lk\" href=\"https://www.theswedishgenealogist.com/passenger-lists/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">How to Find Your Swedish Ancestor in Passenger Lists</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Swedish emigration resources.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-swe-imm.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/photos/sailing-vessel-archipelago-sweden-960728/\" target=\"_blank\"> <img src=\"img/x-swe-imm.jpg\" width=\"100%\" ;=\"\" style=\"float:right; margin-top: 8px; margin-left: 16px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a>    <li><span class=\"g\">Travel Papers</span>: Learn about using Swedish migration travel papers in research.<br><br><a href=\"https://www.familysearch.org/help/helpcenter/lessons/migration-travel-papers\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Migration Travel Papers—63:05 - 2016</span></a></li><br><li><span class=\"g\">Sites</span>: Explore the <a class=\"lk\" href=\"http://www.swedesintexas.com/\" target=\"_blank\">Swedish America Heritage site</a> for emigration information information.</li><li>Explore the <a class=\"lk\" href=\"https://familysearch.org/wiki/en/Swedish_Research_Websites#Emigration_and_Immigration_Sweden\" target=\"_blank\">Emigration and Immigration web links</a> in the Wiki.</li><li><span class=\"g\">Immigrant Ships</span>: Explore the  <a class=\"lk\" href=\"http://immigrantships.net/index2.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Immigrant Ship site</a>. Select a Volume, then choose Sweden as the departure or arrival location.</li><li><span class=\"g\">Church Resources</span>: Learn about using Swedish church resources for immigrants to the United States.<br><br><a href=\"https://content.ldschurch.org/family-history/bc/rootstech/salt-lake/2019-conference-syllabi/RT3459_Swedish_American_Church_Books_Great_Genealogical_Source.pdf\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">RT—Swedish-American Parishes—Great Genealogical Source! - 2019</span></a></li><br></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Military Records",
+        "name": "Military Records",
+        "section_name": "Learn about Sweden military records.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=c1_1nYZKMvQ\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Sweden military records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=swRmlfi5IRA#t=1m19s\" target=\"_blank\">Allotment system</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=swRmlfi5IRA#t=2m09s\" target=\"_blank\">Providing for the soldier</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=swRmlfi5IRA#t=2m53s\" target=\"_blank\">Soldier names</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=swRmlfi5IRA#t=5m48s\" target=\"_blank\">Providing for the soldier</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=swRmlfi5IRA#t=6m20s\" target=\"_blank\">Muster roll information</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=swRmlfi5IRA#t=7m05s\" target=\"_blank\">Gather information</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=swRmlfi5IRA#t=8m46s\" target=\"_blank\">The Grill</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=swRmlfi5IRA#t=14m55s\" target=\"_blank\">Rote contracts for soldiers and sailors</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=swRmlfi5IRA#t=15m45s\" target=\"_blank\">Finding a sailor in the General Muster Roll</a></li></ul></span>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-swe-mil.jpg"
+                    ],
+                    "text": "<ol><a href=\"img/x-swe-mil.jpg\" target=\"_blank\"> <img src=\"img/x-swe-mil.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a> <li><span class=\"g\">FamilySearch</span>: Learn about Sweden Military Records in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Sweden_Military_Records\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Sweden Military Records</span></a> </li><br><li><span class=\"g\">ArkivDigital</span>: Learn about accessing military service cards in ArkivDigital. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://blog.arkivdigital.net/military-service-cards-stamkort-search-index/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Military Service Cards (Stamkort) Search Index - 2018</span></a> <br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://nordicfamilyhistory.com/swedish-military-records-indexed/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Swedish Military Records Indexed - 2018</span></a></li><br><li>Here are some additional tips for finding military records in ArkivDigital. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://blog.arkivdigital.net/category/military-records/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Find a soldier in the general muster rolls - 2021</span></a> </li><br><li>Learn more about using Swedish general muster rolls. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=swRmlfi5IRA\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">RT—Records Analysis: Finding Your Unknown Soldier-Swedish General Muster Rolls—23:02 - 2021</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('muster');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"muster\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=swRmlfi5IRA#t=1m19s\" target=\"_blank\">Allotment system</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=swRmlfi5IRA#t=2m09s\" target=\"_blank\">Providing for the soldier</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=swRmlfi5IRA#t=2m53s\" target=\"_blank\">Soldier names</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=swRmlfi5IRA#t=5m48s\" target=\"_blank\">Providing for the soldier</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=swRmlfi5IRA#t=6m20s\" target=\"_blank\">Muster roll information</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=swRmlfi5IRA#t=7m05s\" target=\"_blank\">Gather information</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=swRmlfi5IRA#t=8m46s\" target=\"_blank\">The Grill</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=swRmlfi5IRA#t=14m55s\" target=\"_blank\">Rote contracts for soldiers and sailors</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=swRmlfi5IRA#t=15m45s\" target=\"_blank\">Finding a sailor in the General Muster Roll</a></li></ul></span></div><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/swRmlfi5IRA?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.hhogman.se/soldiers_research.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Research of Soldiers site</a> for a variety of Swedish military research resources.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Swedish_Research_Websites#Military\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Military web links</a> in the Wiki. </li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Probate Records",
+        "name": "Probate Records",
+        "section_name": "Learn about Sweden probate and court records.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=c1_1nYZKMvQ\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Sweden probate and court records.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-swe-land.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/bornholm-sweden-the-old-city-alley-687242/\" target=\"_blank\"> <img src=\"img/x-swe-land.jpg\" alt=\"\" width=\"400px\" style=\"float:right; margin-left: 6px; margin-top: 6px; margin-left: 16px; border:1px solid #000; padding:0px;\"></a> <li><span class=\"g\">FamilySearch</span>: Learn about Sweden probate records.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Sweden_Probate_Records\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Sweden Probate Records</span></a><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.facebook.com/watch/live/?ref=watch_permalink&amp;v=577989937243420\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Understanding Swedish Probate Records</span></a></li><br><li><span class=\"g\">Laws &amp; Customs</span>: Learn about Swedish probate laws and customs.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/probate-laws-and-customs-for-swedish-genealogy\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Probate Laws and Customs for Swedish Genealogy—57:34 - 2017</span></a></li><br></ol><ol><h5>Land and Property</h5><li><span class=\"g\">FamilySearch</span>: Learn about Sweden land and property records in this FamilySearch Wiki article.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Sweden_Land_and_Property\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Sweden Land and Property</span></a></li><br><li><span class=\"g\">Farms</span>: Learn about types of Swedish farms and their records.<br><br><span class=\"star notranslate\">☆</span><a href=\"http://swedishgenealogyguide.com/archives/315\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Types of Farms in Swedish Research - 2014</span></a><br><span class=\"star notranslate\">☆</span><a href=\"http://swedishgenealogyguide.com/archives/329\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\">  <span class=\"re\">Torps in Sweden - 2014</span></a></li><br><li>Learn about records for estate inventories in Sweden.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/help/helpcenter/lessons/introduction-to-swedish-estate-inventories\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Introduction to Swedish Estate Inventories—52:52</span></a></li><br><li><span class=\"g\">Taxation</span>: Learn how to use Swedish taxation records in your research.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/Sweden_Taxation\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Sweden Taxation</span> </a></li><br><li>Learn how to use Swedish mantal taxation records in your research.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/swedish-mantals-tax-records\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Swedish Mantals Tax Records—60:58 - 2019</span></a></li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Maps and Gazetteers",
+        "name": "Maps and Gazetteers",
+        "section_name": "Learn about Sweden maps and gazetteers.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=c1_1nYZKMvQ\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Sweden maps and gazetteers.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-swe-map.png"
+                    ],
+                    "text": "<ol><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Counties_of_Sweden#/media/File:Sweden_provinces_and_counties_overlayed.svg\" target=\"_blank\"> <img src=\"img/x-swe-map.png\" alt=\"\" width=\"250px\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"></a>   <li><span class=\"g\">Maps</span>: Learn about Sweden maps in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Sweden_Maps\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Sweden Maps</span></a></li><br><li>See also the links in the <a class=\"lk\" href=\"https://familysearch.org/wiki/en/Sweden_Maps#Websites\" target=\"_blank\">Websites</a> section of the page.</li><li>See an <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Sweden_Genealogy#Sweden_Clickable_Map\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">interactive map</a> for Swedish provinces.</li><li><span class=\"g\">Jurisdictions</span>: Learn about Swedish legal jurisdictions.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/swedish-jurisdictions\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Swedish Legal Jurisdictions—52:04 - 2016</span></a></li><br><li><span class=\"g\">Gazetteers</span>: Learn about Sweden gazetteers in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Sweden_Gazetteers\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Sweden Gazetteers</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Sweden map resources.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li><span class=\"g\">Place Names</span>: Learn to decipher Sweden place names. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/File:Figure_Out_Place_Names_for_Swedish_Genealogy.pdf\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Place Names for Swedish Genealogy—4 pgs.</span></a> <br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/figure-out-swedish-place-names\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Figure Out Swedish Place Names—59:09 - 2016</span></a></li><br><li><span class=\"g\">Maps</span>: Explore the <a class=\"lk\" href=\"https://familysearch.org/wiki/en/Swedish_Research_Websites#Maps\" target=\"_blank\">Maps web links</a> in the FamilySearch Wiki.</li><li>Explore maps and drawings available in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://riksarkivet.se/maps-and-drawings\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">National Archives</a>.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.davidrumsey.com/luna/servlet/view/search?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&amp;q=sweden&amp;search=Go\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">David Rumsey collection</a> of Swedish maps.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.oldmapsonline.org/en/Sweden\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Old Maps Online site</a> for Sweden maps.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://commons.wikimedia.org/wiki/Atlas_of_Sweden\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Atlas of Sweden</a> on the Wikipedia site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://commons.wikimedia.org/wiki/Category:Old_maps_of_Sweden\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Old Maps of Sweden</a> on the Wikipedia site.</li><li>Explore a <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.fallingrain.com/world/SW/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">directory of Sweden cities, towns, and regions</a> in the Falling Rain site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Newspapers",
+        "name": "Newspapers",
+        "section_name": "Learn about Sweden newspapers.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=c1_1nYZKMvQ\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Explore Swedish newspapers for ancestor research.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-swe-news.png"
+                    ],
+                    "text": "<ol><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Aftonbladet#/media/File:Aftonbladet_no1_1830-12-06.png\" target=\"_blank\"> <img src=\"img/x-swe-news.png\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a> <li>Learn about doing research with Swedish newspapers. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.pricegen.com/swedish-research-using-newspaper-collections/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">PR—Swedish Research Using Newspaper Collections</span></a></li><br><li>Find links to <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Wikipedia:List_of_online_newspaper_archives#Sweden\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Swedish newspapers</a> on the Wikipedia site.</li> <li>Search Swedish newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.onlinenewspapers.com/sweden.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">onlinenewspapers.com</a> site.</li><li>Search Swedish newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.world-newspapers.com/sweden.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">world-newspapers.com</a> site.</li><li>Search Swedish newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.abyznewslinks.com/swede.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">ABYZ News Links</a> site.</li><li>Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.mnhs.org/newspapers/swedishamerican\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Swedish American newspapers</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Websites",
+        "name": "Websites",
+        "section_name": "Explore additional websites for research.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=c1_1nYZKMvQ\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "There are a number of websites with valuable resources for Swedish research.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/laptop-fingers1.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/laptop-fingers1.jpg\" alt=\"\" width=\"350px\" style=\"float:right; margin-top: 6px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Explore links in the <a class=\"lk\" href=\"https://www.familysearch.org/en/wiki/Sweden_Websites\" target=\"_blank\">FamilySearch Wiki</a>.</li><li>Explore links in <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cyndislist.com/sweden\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Cyndi's List</a>.</li><li>Explore links in <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genealogylinks.net/europe/sweden/index.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Genealogylinks.net</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Search Records",
+        "name": "Search Records",
+        "section_name": "Search records from Sweden.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=c1_1nYZKMvQ\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Use QUIKLinks, Partners, and GenealogyInTime to quickly search the most common record collections for Sweden.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/laptop-hands.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/laptop-hands.jpg\" alt=\"\" width=\"350px\" style=\"float:right; margin-top: 6px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>QUIKLinks are indicated by lightning-bolt icons in the Goals above.They point to collections with 50,000 or more records. When you click a QUIKLink icon, scroll down on the resulting page to see the QUIKLinks.</li><li>In the Partners section (near the top of the page), explore additional record collections in FamilySearch, Ancestry, Findmypast and MyHeritage.</li><li>1. Explore the FamilySearch page for <a class=\"lk\" href=\"https://familysearch.org/wiki/en/Sweden_Online_Genealogy_Records\" target=\"_blank\">Swedish online record collections</a>.</li><li>Explore the <a class=\"lk\" href=\"http://www.genealogyintime.com/records/Europe-genealogy-records.html\" target=\"_blank\">Europe page</a> of the GenealogyInTime website. Record collections are listed and described in order from newest to oldest additions, including FamilySearch, Ancestry, and many other sources.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Get Help",
+        "name": "Get Help",
+        "section_name": "Get help with your Sweden research.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=c1_1nYZKMvQ\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Use Facebook pages to get answers to your questions.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/fh-help3.jpg"
+                    ],
+                    "text": "<ol><a href=\"img/fh-help3.jpg\" target=\"_blank\"> <img src=\"img/fh-help3.jpg\" alt=\"\" width=\"250px\" style=\"float:right; margin-top: 8px; margin-left: 16px\"></a> <li>Visit the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.facebook.com/groups/27992586276/about/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Swedish Genealogy page</a> on Facebook.</li><li>Visit the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.facebook.com/groups/NorthernEuropeGenealogyResearchCommunity/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Northern European Research</a> Facebook page for FamilySearch.</li><li>Visit the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.facebook.com/groups/239433885078/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Swedish American Genealogy group</a> on Facebook.</li><li>Visit the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.facebook.com/groups/377732726146/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Swedish Heart Genealogy group</a> on Facebook.</li><li>See the <a class=\"lk\" href=\"http://socialmediagenealogy.com/genealogy-on-facebook-list/\" target=\"_blank\">Genealogy on Facebook list</a> of Facebook groups dedicated to helping with research for Sweden.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Join a mailing list, community, or message board for Sweden research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://community.familysearch.org/s/group/0F93A000000LfVxSAK/nordic-countries\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">FamilySearch community</a> for Swedish (Nordic Countries) research.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cyndislist.com/sweden/social/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Sweden research mailing lists</a> on Cyndi's List.</li><li>Use the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ancestry.com/boards/localities.scan-balt.sweden/mb.ashx\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Ancestry message boards</a> to read or post questions about Sweden research.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Sweden genealogy societies.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about Sweden genealogy societies in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Sweden_Societies\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Sweden Societies</span></a></li><br><li>Explore <a class=\"lk\" href=\"http://www.cyndislist.com/sweden/societies/\" target=\"_blank\">Sweden genealogy society sites</a> on Cyndi's List.</li><li>Get help at a <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Category:Sweden_Family_History_Centers\" target=\"_blank\">family history center in Sweden</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Geo/Culture/History",
+        "name": "Geography, Culture, History",
+        "section_name": "Learn about the geography, culture, and history of Sweden. \n\t\t\t\t\t\t\n\t\t\t\t\t\t",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=c1_1nYZKMvQ\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Explore websites and videos.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/c-sweden.jpg"
+                    ],
+                    "text": "<h5>Reference</h5><ol><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Sweden_History\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">FamilySearch: History</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/History_of_Swedish_Counties\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">FamilySearch: History of Swedish Counties</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Sweden\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Wikipedia</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.britannica.com/place/Sweden\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Encyclopedia Britannica</a></li></ol><h5>For Kids</h5><ol><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://kids.nationalgeographic.com/explore/countries/sweden/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">NatGeo for Kids</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ducksters.com/geography/country/sweden.php\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Ducksters</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=Y9VIUMBFw44\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">YouTube: Animated History of Sweden</a></li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

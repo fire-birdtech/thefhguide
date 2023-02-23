@@ -1,0 +1,252 @@
+[
+    {
+        "nav_name": "Research",
+        "name": "Research and Records",
+        "section_name": "Learn about Slovenian research.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=FMQWdvkpgOY\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Slovenian genealogy.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for research resources. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-slv-over.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/crni-vrh-slovenia-village-houses-139938/\" target=\"_blank\"> <img src=\"img/x-slv-over.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; \"></a>   <li><span class=\"g\">Introduction</span>: Learn about beginning research in Slovenia. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Slovenia_Beginning_Research\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki:—Slovenia Beginning Research</span></a></li><br><li>Watch this video for an introduction to Slovenian research. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=raABUPbLsfY&amp;t=6m25s\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">BYU—Introduction to Slovenian Research—60:03 - 2018</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/raABUPbLsfY?start=385;rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li><span class=\"g\">Roots</span>: Learn how to find your Slovenian roots and relatives. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=WBUFO6mgos0\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">Find your Slovenian roots and relatives—3:06 - 2013</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/WBUFO6mgos0?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li><span class=\"g\">Correspondence</span>: Use this guide for corresponding with Slovenian organizations about genealogy resources. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Slovenia_Letter_Writing_Guide\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Slovenia Letter-Writing Guide</span></a></li><br><li><span class=\"g\">Emigration</span>: Learn about Slovenia emigration and immigration in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Slovenia_Emigration_and_Immigration\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Slovenia Emigration and Immigration</span></a></li><br><li>Learn about immigration history and demographics in this Wikipedia article.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Slovene_Americans\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Wikipedia: Slovene Americans</span></a></li><br></ol><h5>Records</h5><ol><li><span class=\"g\">Record Finder</span>: Use the Slovenia Record Finder to understand record types for research. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Slovenia_Record_Finder\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Slovenia Record Finder</span></a></li><br><li><span class=\"g\">Sites</span>: Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://feefhs.org/resource/slovenia\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Slovenia Genealogy Resources</a> on the FEEFHS site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www2.arnes.si/~rzjtopl/rod/rod-an.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Slovenian Genealogy</a> site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://forebears.io/slovenia\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Forebears.io site</a> for research records.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Find Slovenian language and name resources for your research.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-slv-over1.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/photos/churchyard-cemetery-ruins-graveyard-380913/\" target=\"_blank\"> <img src=\"img/x-slv-over1.jpg\" width=\"100%\" ;=\"\" style=\"float:right; margin-top: 8px; margin-left: 16px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a>    <li>Learn about the Slovenian languages in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Slovenia_Language_and_Languages\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Slovenia Languages</span></a> </li><br><li>Learn about <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www2.arnes.si/~rzjtopl/rod/viri/priimki.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Slovenian surnames and first names</a> for research.</li><br><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.geneanet.org/country/search-Slovenia-SVN\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Geneanet site</a> for Slovenian surnames.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Civil Registration",
+        "name": "Civil Registration",
+        "section_name": "Learn about Slovenia census records and civil registration.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=FMQWdvkpgOY\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Slovenia census records.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ire-census.png"
+                    ],
+                    "text": "<ol><img src=\"img/x-ire-census.png\" alt=\"\" width=\"400px\" style=\"float:right; margin-left: 10px; border:1px solid #000; padding:0px;\"><li>Learn about Slovenia census records in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Slovenia_Census\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Slovenia Census</span></a></li><br><li>Learn about Slovenia civil registration in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Slovenia_Civil_Registration\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Slovenia Civil Registration</span></a></li><br><li>Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www2.arnes.si/~rzjtopl/rod/viri/maticne.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Slovenian vital record sources</a>.</li></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Archives and Libraries",
+        "name": "Archives and Libraries",
+        "section_name": "Learn about Slovenia archives and libraries.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=FMQWdvkpgOY\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Slovenia archives and libraries.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-slv-lib.jpg"
+                    ],
+                    "text": "<ol> <img src=\"img/x-slv-lib.jpg\" alt=\"\" width=\"400px\" style=\"float:right; margin-left: 10px; border:1px solid #000; padding:0px;\"><li><span class=\"g\">FamilySearch</span>: Learn about Slovenia archives and libraries records in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Slovenia_Archives_and_Libraries\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Slovenia Archives and Libraries</span></a></li><br><li><span class=\"g\">Sites</span>: Explore the <a class=\"lk\" href=\"http://www.arhiv.gov.si/en/\" target=\"_blank\">Archives of the Republic of Slovenia</a> online.</li><li> Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www2.arnes.si/~rzjtopl/rod/viri/naslovi.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Slovenian archive</a> resources for research.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.archivesportaleurope.net/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Archives Portal Europe</a> site. Click the Directories link and then select Slovenia.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Church Records",
+        "name": "Church Records",
+        "section_name": "Learn about Slovenia church and cemetery records.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=FMQWdvkpgOY\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Slovenian church records.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-slv-church.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/slovenia-church-faith-religion-sky-173582/\" target=\"_blank\"> <img src=\"img/x-slv-church.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a>  <li><span class=\"g\">FamilySearch</span>: Learn about Slovenia church records in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Slovenia_Church_Records\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Slovenia Church Records</span></a></li><br><li><span class=\"g\">Parishes</span>: Explore <a class=\"lk\" href=\"http://www2.arnes.si/~rzjtopl/rod/viri/zupnije.htm\" target=\"_blank\">parish record in Slovenia</a>.</li><li>Find information on <a class=\"lk\" href=\"http://www.majcgenealogy-slovenia.com/about-majc-genealogy-slovenia/churches-in-slovenia/\" target=\"_blank\">church and parish records</a> in Slovenia.</li><li><span class=\"g\">Jewish</span>: Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://bloodandfrogs.com/encyclopedia/slovenia\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Jewish Genealogy Encyclopedia</a> for Jewish resources in Slovenia.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Slovenian cemetery records.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.majcgenealogy-slovenia.com/cemeteries/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Slovenian cemetery records</a>.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www2.arnes.si/~rzjtopl/rod/viri/pokopal.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Slovenian Genealogy site</a> for cemetery records.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.findagrave.com/cgi-bin/fg.cgi?page=cshttps://www.findagrave.com/cemetery-browse/Slovenia?id=country_87\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Find A Grave site</a> for cemetery records.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://billiongraves.com/site-map?country=Slovenia\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">BillionGraves site</a> for cemetery records.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Military Records",
+        "name": "Military Records",
+        "section_name": "Learn about Slovenia military records.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=FMQWdvkpgOY\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Slovenian military records.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-slv-flag.png"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/vectors/slovenia-flag-national-flag-nation-162422/\" target=\"_blank\"> <img src=\"img/x-slv-flag.png\" width=\"100%\" ;=\"\" style=\"float:right; margin-top: 8px; margin-left: 16px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a>    <li>Learn about Slovenia military records in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Slovenia_Military_Records\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Slovenia Military Records</span></a></li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Maps and Gazetteers",
+        "name": "Maps and Gazetteers",
+        "section_name": "Learn about Slovenia maps and gazetteers.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=FMQWdvkpgOY\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Explore Slovenia map resources.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-slv-map.png"
+                    ],
+                    "text": "<ol><img src=\"img/x-slv-map.png\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\">  <li>Learn about Slovenia maps in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Slovenia_Maps\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Slovenia Maps</span></a></li><br><li>See a <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Slovenia_Genealogy#Slovenia_Map\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">map of Slovenia regions</a>.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.davidrumsey.com/luna/servlet/view/search?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&amp;q=Slovenia&amp;search=Go\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">David Rumsey collection</a> of Slovenia maps.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.oldmapsonline.org/en/Slovenia\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Old Maps Online site</a> for Slovenia maps.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://commons.wikimedia.org/wiki/Atlas_of_Slovenia\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Atlas of Slovenia</a> on the Wikipedia site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://commons.wikimedia.org/wiki/Category:Old_maps_of_Slovenia\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Old Maps of Slovenia</a> on the Wikipedia site.</li><li>Explore a <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.fallingrain.com/world/SI/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">directory of Slovenia cities, towns, and regions</a> in the Falling Rain site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Newspapers",
+        "name": "Newspapers",
+        "section_name": "Learn about Slovenia newspapers.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=FMQWdvkpgOY\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Slovenia newspapers.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Find links to <a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Wikipedia:List_of_online_newspaper_archives#Slovenia\" target=\"_blank\"> Slovenian newspapers</a> on the Wikipedia site.</li> <li>Search Slovenian newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.onlinenewspapers.com/slovenia.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">onlinenewspapers.com</a> site.</li> <li>Search Slovenian newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.world-newspapers.com/slovenia.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">world-newspapers.com</a> site.</li><li>Search Slovenian newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.abyznewslinks.com/slove.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">ABYZ News Links</a> site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Websites",
+        "name": "Websites",
+        "section_name": "Explore additional websites for research.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=FMQWdvkpgOY\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "There are a number of websites with valuable resources for Slovenian research.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/laptop-fingers1.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/laptop-fingers1.jpg\" alt=\"\" width=\"350px\" style=\"float:right; margin-top: 6px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Explore links in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Slovenia_Websites\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">FamilySearch Wiki page</a>.</li><li>Explore links in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.rootsweb.ancestry.com/~svnwgw/index.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Slovenia GenWeb page</a>.</li><li>Explore links in <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genealogylinks.net/europe/slovenia/index.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Genealogylinks.net</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Search Records",
+        "name": "Search Records",
+        "section_name": "Search records from Slovenia.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=FMQWdvkpgOY\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Use QUIKLinks, Partners, and other resources to quickly search the most common record collections for Slovenia.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/laptop-hands.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/laptop-hands.jpg\" alt=\"\" width=\"350px\" style=\"float:right; margin-top: 6px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>QUIKLinks are indicated by lightning-bolt icons in the Goals above.They point to collections with 50,000 or more records. When you click a QUIKLink icon, scroll down on the resulting page to see the QUIKLinks.</li><li>In the Partners section (near the top of the page), explore additional record collections in FamilySearch, Ancestry, Findmypast and MyHeritage.</li><li>Explore the FamilySearch page for <a class=\"lk\" href=\"https://familysearch.org/wiki/en/Slovenia_Online_Genealogy_Records\" target=\"_blank\">Slovenian online record collections</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Get Help",
+        "name": "Get Help",
+        "section_name": "Get help with your Slovenia research.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=FMQWdvkpgOY\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Use Facebook pages to get answers to your questions.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/fh-help.jpg"
+                    ],
+                    "text": "<ol><a href=\"img/fh-help.jpg\" target=\"_blank\"> <img src=\"img/fh-help.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"></a> <li>See the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.facebook.com/groups/183735961660531/?ref=br_rs\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Slovenian Genealogy Group</a> on Facebook.</li><li>See the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.facebook.com/groups/sloveniangenealogy/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Slovenian Genealogy Society International</a> Facebook page.</li><li>Visit the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.facebook.com/groups/CentralEuropeGenealogyResearchCommunity/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Central Europe Genealogy Research Community</a> on Facebook.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Join a mailing list, community, or message board for Slovenia research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://community.familysearch.org/s/group/0F93A000000LfUCSA0/austrohungarian-empire\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">FamilySearch community</a> for Slovenian (Austro-Hungarian) research.</li><li>Explore the <a class=\"lk\" href=\"http://www.cyndislist.com/eastern-europe/social/\" target=\"_blank\"> Slovenia research mailing lists</a> on Cyndi's List.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Slovenia genealogy societies.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Visit the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www2.arnes.si/~rzjtopl/rod/drustvo/predst-an.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Slovenian Genealogical Society</a> website.</li><li>Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cyndislist.com/eastern-europe/societies/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Slovenia genealogy society sites</a> on Cyndi's List.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Geo/Culture/History",
+        "name": "Geography, Culture, History",
+        "section_name": "Learn about the geography, culture, and history of Slovenia. \n\t\t\t\t\t\t\n\t\t\t\t\t\t",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=FMQWdvkpgOY\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Explore websites and videos.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/c-slovenia.jpg"
+                    ],
+                    "text": "<h5>Reference</h5><ol><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Slovenia_History\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">FamilySearch: History</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Slovenia_Historical_Geography\" target=\"_blank\">FamilySearch: Historical Geography</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Slovenia\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Wikipedia</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.britannica.com/place/Slovenia\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Encyclopedia Britannica</a></li><br><h5>For Kids</h5><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ducksters.com/geography/country.php?country=Slovenia\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Ducksters</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=R5CWlmTQmC8\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">YouTube: Facts You Should Know about Slovenia</a></li></ol><h5>For Kids</h5>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

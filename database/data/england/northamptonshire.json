@@ -1,0 +1,246 @@
+[
+    {
+        "nav_name": "Research and Records",
+        "name": "Research and Records",
+        "section_name": "Learn about Northamptonshire research and records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Get started with research for your Northamptonshire ancestors.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": " blearn about the history of northamptonshire.",
+                            "content": "<br><ol><li>Learn about Northamptonshire history on Wikipedia. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://en.wikipedia.org/wiki/History_of_Northamptonshire/\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">History of Northamptonshire</span></a></li><br><li>Go into more depth with Northamptonshire history on the British History Online site.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.british-history.ac.uk/vch/northants\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Victoria County History series</span></a></li><br></ol><br><a class=\"lk\" href=\"javascript:toggleDiv('a1-ax');\">Exercises</a><div id=\"a1-ax\" class=\"hidden\"><ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for research resources. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\"></div><br><br>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for research resources. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>Learn about finding your ancestors in Northamptonshire. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Northamptonshire,_England_Genealogy\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki: Northamptonshire England Genealogy</span></a></li><br><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.dustydocs.com/county/27/northamptonshire.html?country_id=1\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">Dusty Docs site</a> for Northamptonshire research.</li><li>Explore a variety of records on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ukbmd.org.uk/index.php?county=125&amp;form_action=county\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">UK BMD site</a>.</li><li>Explore lists of <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.genuki.org.uk/big/eng/NTH/parishes\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">towns and parishes</a> on the GenUKI site.</li><li>Explore Northamptonshire resources on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familyhistorydirectory.co.uk/england/northamptonshire/\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">Family History Directory site</a>.</li></ol><ol><li>Learn about Northamptonshire history on Wikipedia. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://en.wikipedia.org/wiki/History_of_Northamptonshire/\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">History of Northamptonshire</span></a></li><br><li>Go into more depth with Northamptonshire history on the British History Online site.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.british-history.ac.uk/vch/northants\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Victoria County History series</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about the history of Northamptonshire.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for research resources. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>Learn about Northamptonshire history on Wikipedia. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://en.wikipedia.org/wiki/History_of_Northamptonshire/\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">History of Northamptonshire</span></a></li><br><li>Go into more depth with Northamptonshire history on the British History Online site.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.british-history.ac.uk/vch/northants\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Victoria County History series</span></a></li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Archives and Libraries",
+        "name": "Archives and Libraries",
+        "section_name": "Learn about Northamptonshire archives and libraries.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Northamptonshire archives and libraries.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for archives and libraries. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>Search for <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://books.familysearch.org/primo_library/libweb/action/search.do?fn=search&amp;ct=search&amp;mode=Basic&amp;tab=default_tab&amp;indx=1&amp;dum=true&amp;srt=rank&amp;vid=FHD_PUBLIC&amp;frbg=&amp;vl%28freeText0%29=northamptonshire+england\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">free online books on Northamptonshire research</a> on the FamilySearch site.</li><li>Search the <a class=\"lk\" href=\"http://nro.adlibhosting.com/search/simple\" target=\"_blank\">Northamptonshire Archives</a> for a variety of genealogy records.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Vital and Census Records",
+        "name": "Vital and Census Records",
+        "section_name": "Learn about Northamptonshire civil registration, BMD, and census records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore Northamptonshire civil registration.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/eng/northam-sessions.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://en.wikipedia.org/wiki/Northampton#/media/File:SessionsHouse.JPG\" target=\"_blank\"><img src=\"../img/eng/northam-sessions.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"></a><li>See a <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Northamptonshire_Parishes\" target=\"_blank\">list of civil parishes with links</a> on the FamilySearch Wiki.</li><li>Explore Northamptonshire civil registration on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genuki.org.uk/big/eng/NTH/#CivilReg\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">Gen UKI site</a>.</li><li>Browse the <a class=\"lk\" href=\"http://www.ukbmd.org.uk/genuki/reg/nth.html\" target=\"_blank\">Northamptonshire registration districts</a> on the Gen UKI site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://joinermarriageindex.co.uk/marriage-records/Northamptonshire/\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">Joiner Marriage Index</a> for Northamptonshire.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.freebmd.org.uk/search\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">FreeBMD UK site</a> for BMD records.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Northamptonshire census records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for civil registration and other records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>Learn about Northamptonshire Census Surname Indexes in FamilySearch. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Northamptonshire_Census_Surname_Indexes_at_the_Family_History_Library\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki: Census Surname Indexes</span></a></li><br><li>Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.freecen.org.uk/\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">Northamptonshire census records </a> on the FreeCen site.</li></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Church and Cemetery Records",
+        "name": "Church and Cemetery Records",
+        "section_name": "Learn about Northamptonshire church and cemetery records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore Northamptonshire cemetery records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for cemetery records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.findagrave.com/cemetery/search?cemetery-name=&amp;cemetery-loc=Northamptonshire%2C+England&amp;only-with-cemeteries=cemOnly&amp;locationId=state_4234\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">Find a Grave site</a> for cemetery records.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://billiongraves.com/pages/search/\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">BillionGraves site</a> for cemetery records.</li></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Probate, Land and Court",
+        "name": "Probate, Land and Court Records",
+        "section_name": "Learn about Northamptonshire probate and land records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Northamptonshire probate and land records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for probate and land records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-en-nth-land.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://commons.wikimedia.org/wiki/File:Neale(1818)_p3.184_-_Wicken_Park,_Northamptonshire.jpg\" target=\"_blank\"><img src=\"../img/x-en-nth-land.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"></a><li>Learn about Northamptonshire probate records in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Northamptonshire_Probate_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Northamptonshire Probate Records</span></a></li><br><li>Explore deeds by surname on the <a class=\"lk\" href=\"http://www.familydeeds.org/northants.php\" target=\"_blank\">FamilyDeeds site</a>.</li><li>Explore poor law records at the <a class=\"lk\" href=\"https://www.northants-fhs.org/wp-content/uploads/2020/04/poor_law.pdf\" target=\"_blank\">Northamptonshire Archives</a> site.</li></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Maps and Gazetteers",
+        "name": "Maps and Gazetteers",
+        "section_name": "Learn about Northamptonshire maps and gazetteers.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore Northamptonshire maps and gazetteers.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about Northamptonshire maps in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Northamptonshire_Maps\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Northamptonshire Maps</span></a></li><br><li>Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://freepages.rootsweb.com/~genmaps/genealogy/genfiles/COU_Pages/ENG_pages/nth.htm\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">historical maps</a> on the GenMaps site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.davidrumsey.com/luna/servlet/view/search?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&amp;q=northamptonshire&amp;search=Go\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">David Rumsey collection</a> of Northamptonshire maps.</li><li>Explore the online <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genuki.org.uk/big/Gazetteers\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">Gazetteer</a> on the GenUKI site.</li><li>Locate <a class=\"lk\" href=\"https://www.northants-fhs.org/wp-content/uploads/2020/03/MapPlace-name-index.pdf\" target=\"_blank\">place names in Northamptonshire</a>.</li><li>Explore maps at the <a class=\"lk\" href=\"https://www.northants-fhs.org/wp-content/uploads/2020/04/maps.pdf\" target=\"_blank\">Northamptonshire Archives</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Newspapers",
+        "name": "Newspapers",
+        "section_name": "Learn about Northamptonshire newspapers.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore Northamptonshire newspapers.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about Northamptonshire newspapers. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Northamptonshire_Newspapers\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Northamptonshire Newspapers</span></a></li><br><li>Search Northamptonshire newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.abyznewslinks.com/ukingem.htm\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">ABYZ News Link</a> site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Websites",
+        "name": "Websites",
+        "section_name": "Explore additional websites for research.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "There are a number of websites with valuable resources for Northamptonshire research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore links in <a class=\"lk\" href=\"http://www.cyndislist.com/uk/eng/counties/nth/\" target=\"_blank\">Cyndi's List</a>.</li><li>Explore links in <a class=\"lk\" href=\"http://www.genealogylinks.net/uk/england/northamptonshire/index.html\" target=\"_blank\">GenealogyLinks.net</a>.</li> </ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Search Records",
+        "name": "Search Records",
+        "section_name": "Search records from Northamptonshire.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore record collections.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Use the England Record Selection Table to decide on records to search. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/England_Record_Selection_Table\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—England Record Selection Table</span></a></li><br><li>Explore the <a class=\"lk\" href=\"https://familysearch.org/wiki/en/Northamptonshire,_England_Online_Genealogy_Records\" target=\"_blank\">FamilySearch page</a> for online genealogy records.</li><li>Explore additional record collections in <a class=\"lk\" href=\"https://www.ancestry.com/search/collections/catalog/?keyword=Northamptonshire,%20England\" target=\"_blank\">Ancestry</a>.</li><li>Explore additional record collections in <a class=\"lk\" href=\"https://search.findmypast.com/historical-records?page=1&amp;region=england&amp;subcountry=northamptonshire\" target=\"_blank\">Findmypast</a>.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Use QUIKLinks to quickly search record collections for Northamptonshire.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Get Help",
+        "name": "Get Help",
+        "section_name": "Get help with your Northamptonshire research.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Join a mailing list or message board for Northamptonshire research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Join the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.rootschat.com/forum/england/\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">RootsChat forum</a> and post questions about Northamptonshire research.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://bigfile.rootsweb.ancestry.com/cgi-bin/listsearch\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">RootsWeb site </a> for Northamptonshire research mailing lists.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cyndislist.com/uk/eng/counties/nth/social/\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\"> Northamptonshire research mailing lists</a> on Cyndi's List.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Northamptonshire genealogy societies.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about genealogy societies in Northamptonshire in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Northamptonshire_Societies\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Northamptonshire Societies</span></a></li><br><li>Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genuki.org.uk/big/eng/NTH#Societies\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">genealogy societies</a> on the GenUKI Northamptonshire site.</li><li>Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cyndislist.com/uk/eng/counties/nth/societies/\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">English genealogy society sites</a> on Cyndi's list.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

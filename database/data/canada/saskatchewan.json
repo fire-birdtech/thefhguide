@@ -1,0 +1,331 @@
+[
+    {
+        "nav_name": "Research and Records",
+        "name": "Research and Records",
+        "section_name": "Learn about Saskatchewan research and records",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Get started with research for your Saskatchewan ancestors.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for research resources. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-sask-over.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/train-station-canada-railway-1400657/\" target=\"_blank\"> <img src=\"../img/x-ca-sask-over.jpg\" alt=\"\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\" width=\"450px\" border=\"1\"></a><li>Learn about finding your ancestors in Saskatchewan. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Saskatchewan,_Canada_Genealogy\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki:—Saskatchewan—Finding Your Ancestors</span></a></li><br><li>Get started with your research on the Saskatchewan GenWeb site. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://sites.rootsweb.com/~cansk/Saskatchewan/gettingstarted.html\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki:—Get Started</span></a></li><br><li>Explore resources for Saskatchewan research on Ancestry. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://search.ancestry.com/search/cardcatalog.aspx#ccat=hc=…p;dbSort=1&amp;sbo=1&amp;title=&amp;keyword=Saskatchewan&amp;\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">AC—Saskatchewan Resources</span></a></li><br><li>Learn about online resources for research in Saskatchewan. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://ukcdngenealogy.blogspot.com/2019/09/free-online-saskatchewan-genealogy.html\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Free Online Saskatchewan Genealogy Resources</span></a></li><br><li>Use the Saskatchewan Record Selection Table to decide on records to search. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Saskatchewan_Record_Selection_Table\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Saskatchewan Record Selection Table</span></a></li><br><li>Explore a variety of records on the <a class=\"lk\" href=\"https://sites.google.com/site/freecanadianancestry/home/saskatchewan\" target=\"_blank\">FreeCanadianAncestry</a> site. </li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Archives and Libraries",
+        "name": "Archives and Libraries",
+        "section_name": "Learn about Saskatchewan archives and libraries.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Saskatchewan archives and libraries.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for archives and libraries. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-sask-lib.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/building-legislature-regina-993771/\" target=\"_blank\"> <img src=\"../img/x-ca-sask-lib.jpg\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li>Learn about Saskatchewan archives and libraries in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Saskatchewan_Archives_and_Libraries\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Saskatchewan Archives and Libraries</span></a></li><br><li>Learn about Saskatchewan provincial records. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Saskatchewan_Provincial_Records_-_FamilySearch_Historical_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Saskatchewan Provincial Records</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Saskatchewan city directories.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about Saskatchewan city directories in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Saskatchewan_Directories\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Saskatchewan Directories</span></a></li><br><li>Explore city directories in Saskatchewan on the <a class=\"lk\" href=\"http://www.cangenealogy.com/saskatchewan-directories.html\" target=\"_blank\">CanGenealogy site</a>.</li><br><li>Learn about phone books for prairie provinces in this article. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://ukcdngenealogy.blogspot.com/2018/05/phone-books-for-canadian-prairies.html\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Phone Books for Canadian Prairies Genealogy</span></a></li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Vital and Census Records",
+        "name": "Vital and Census Records",
+        "section_name": "Learn about Saskatchewan vital and census records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Saskatchewan vital and birth records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for vital and birth records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-sask-flag.png"
+                    ],
+                    "text": "<ol><img src=\"../img/x-ca-sask-flag.png\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Learn about Saskatchewan vital records in this article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Saskatchewan_Vital_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Saskatchewan Vital Records</span></a></li><br><li>Explore birth record resources on the <a class=\"lk\" href=\"http://genealogy.ehealthsask.ca/vsgs_srch.aspx\" target=\"_blank\">eHealth Saskatchewan</a> site.</li><li>Explore birth, marriage, and death records on the <a class=\"lk\" href=\"https://www.saskarchives.com/using-archives/family-history-research/birth-marriage-and-death-records\" target=\"_blank\">Provincial Archives of Saskatchewan</a> site.</li><li>Explore birth, marriage, and death records on the <a class=\"lk\" href=\"https://sites.rootsweb.com/~cansk/Saskatchewan/bmd.html\" target=\"_blank\">Saskatchewan GenWeb</a> site.</li><li>Learn about adoption records on the <a class=\"lk\" href=\"http://www.originscanada.org/adoption-records/by-province/saskatchewan-adoption-records/\" target=\"_blank\">OriginsCanada</a> site.</li><li>Explore adoption records on the <a class=\"lk\" href=\"https://sites.rootsweb.com/~cansk/Saskatchewan/adoption.html\" target=\"_blank\">Saskatchewan GenWeb</a> site.</li></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Saskatchewan death records.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore Saskatchewan obituaries on the <a class=\"lk\" href=\"https://www.inmemoriam.ca/directory/province/sk-saskatchewan/1/\" target=\"_blank\">In Memoriam</a> site.</li> </ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Saskatchewan census records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for census records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>Explore the <a class=\"lk\" href=\"https://sites.rootsweb.com/~cansk/census/census-index.html\" target=\"_blank\">Saskatchewan GenWeb site</a> for Saskatchewan census records.</li></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Church and Cemetery Records",
+        "name": "Church and Cemetery Records",
+        "section_name": "Learn about Saskatchewan church and cemetery records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Saskatchewan church records.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-sask-church.jpg"
+                    ],
+                    "text": "<ol><a href=\"http://digital.scaa.sk.ca/gallery/postcards/solr?query=Place%3A%22Canada!!Saskatchewan%22|ProjectSubject%3A%22Buildings%20and%20Architecture%20--%20Churches%2C%20Synagogues%2C%20Places%20of%20Worship%20--%20Roman%20Catholic%22&amp;start=0&amp;rows=10&amp;mode=view&amp;pos=9\" target=\"_blank\"> <img src=\"../img/x-ca-sask-church.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 350px;\"></a>  <li>Get an overview of Saskatchewan church records in this article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Saskatchewan_Church_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Saskatchewan Church Records</span></a></li><br><li>Explore church records on the <a class=\"lk\" href=\"https://sites.rootsweb.com/~cansk/Saskatchewan/church.html\" target=\"_blank\">Saskatchewan GenWeb</a> site.</li><li>Explore church records on the <a class=\"lk\" href=\"https://www.saskarchives.com/using-archives/family-history-research/church-records\" target=\"_blank\">Provincial Archives of Saskatchewan</a> site.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Saskatchewan cemetery records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for church and cemetery records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-sask-cem.jpg"
+                    ],
+                    "text": "<ol><span class=\"star notranslate\">☆</span><a href=\"http://sain.scaa.sk.ca/items/index.php/graves-of-metis-killed-at-batoche-batoche-cemetery;rad\" target=\"_blank\"> <img src=\"../img/x-ca-sask-cem.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 350px;></a>  <li>Explore Saskatchewan cemetery records in this article. <br><br><a href=\" https:=\"\" familysearch.org=\"\" wiki=\"\" en=\"\" saskatchewan_cemeteries\"=\"\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Saskatchewan Cemetery Records</span></a> <br><li>Learn about and search Saskatchewan cemetery transcripts. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/Saskatchewan_Cemetery_Transcripts_-_FamilySearch_Historical_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS: Saskatchewan Cemetery Transcripts</span></a></li><br><li>Browse the <a class=\"lk\" href=\"http://www.interment.net/can/sk/index.htm\" target=\"_blank\">Interment.net site</a> for Saskatchewan cemetery records.</li><li>Browse the <a class=\"lk\" href=\"http://www.idreamof.com/canada/cemetery/saskatchewan.html\" target=\"_blank\">I Dream of Genealogy</a> site for Saskatchewan cemetery records.</li><li>Search the <a class=\"lk\" href=\"http://www.findagrave.com/cgi-bin/fg.cgi?page=cs\" target=\"_blank\">Find A Grave site</a> for cemetery records.</li><li>Search the <a class=\"lk\" href=\"http://billiongraves.com/pages/search/\" target=\"_blank\">BillionGraves site</a> for cemetery records.</li></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Emigration and Immigration",
+        "name": "Emigration and Immigration",
+        "section_name": "Learn about Saskatchewan emigration and immigration.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Saskatchewan emigration and immigration.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about Saskatchewan emigration and immigration in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Saskatchewan_Emigration_and_Immigration\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Saskatchewan Emigration and Immigration</span></a></li><br><li>Explore immigration resources on the <a class=\"lk\" href=\"https://sites.rootsweb.com/~cansk/Saskatchewan/passenger.html\" target=\"_blank\">Saskatchewan GenWeb site</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Probate, Land and Court",
+        "name": "Probate, Land and Court Records",
+        "section_name": "Learn about Saskatchewan probate and land records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Saskatchewan probate and land records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for probate and land records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-sask-land.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/farm-ranch-ranching-cattle-beef-174177/\" target=\"_blank\"> <img src=\"../img/x-ca-sask-land.jpg\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li>Learn about Saskatchewan probate records in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Saskatchewan_Probate_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Saskatchewan Probate Records</span></a></li><br><li>Learn about Saskatchewan land and property records. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Saskatchewan_Land_and_Property\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Saskatchewan Land and Property Records</span></a></li><br><li>Explore homestead and land records on the <a class=\"lk\" href=\"https://sites.rootsweb.com/~cansk/Saskatchewan/homestead.html\" target=\"_blank\">Saskatchewan GenWeb site</a>.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Saskatchewan court records.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><ol><li>Learn about court records in this FamilySearch Wiki article.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/Ontario_Court_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Ontario Court Records</span></a></li><br><li>Learn more about Saskatchewan Judicial District Court Records on the Saskatchewan GenWeb site.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://sites.rootsweb.com/~cansk/Saskatchewan/court.html\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Saskatchewan Court Records</span></a></li><br><li>Explore Saskatchewan wills on the <a class=\"lk\" href=\"https://sasklawcourts.ca/index.php/home/court-of-queen-s-bench/wills-and-estates\" target=\"_blank\">Courts of Saskatchewan</a> site.</li></ol></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Maps and Gazetteers",
+        "name": "Maps and Gazetteers",
+        "section_name": "Learn about Saskatchewan maps and gazetteers.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore Saskatchewan maps and gazetteers.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-sask-map.gif"
+                    ],
+                    "text": "<ol><a href=\"http://ian.macky.net/pat/map/ca/sk/sk_blk.gif\" target=\"_blank\"> <img src=\"../img/x-ca-sask-map.gif\" alt=\"\" width=\"250px\" border=\"1\" style=\"float:right; margin-left: 16px\"></a><li>Explore the <a class=\"lk\" href=\"http://www.davidrumsey.com/luna/servlet/view/search?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&amp;q=saskatchewan&amp;search=Go\" target=\"_blank\">David Rumsey collection</a> of Saskatchewan maps.</li><li>Explore the <a class=\"lk\" href=\"https://www.canadiana.ca/search/?so=alphabetical&amp;q1.0=AND&amp;q0.0=%22Maps+of+the+National+Topographic+System+of+Canada%22&amp;q2.0=%22Saskatchewan%22\">Canadiana maps collection</a>.</li><li>Explore the <a class=\"lk\" href=\"http://www.lib.utexas.edu/maps/canada.html\" target=\"_blank\">Perry-Castaneda site</a> for maps of Saskatchewan (search for Saskatchewan on the page).</li><li>Explore map resources on the <a class=\"lk\" href=\"https://sites.rootsweb.com/~cansk/Saskatchewan/map.html\" target=\"_blank\">Saskatchewan GenWeb site</a>.</li><li>Explore map resources on the <a class=\"lk\" href=\"https://sites.rootsweb.com/~cansk/Saskatchewan/map.html\" target=\"_blank\">Saskatchewan GenWeb site</a>.</li><li>Explore <a class=\"lk\" href=\"http://www.historicmapworks.com/Browse/Maps/\" target=\"_blank\">historical Saskatchewan maps</a> on the Historic Map Works site. Select North America, Canada, and Saskatchewan in the drop-down menus.</li><li>Look up Saskatchewan place names on the <a class=\"lk\" href=\"https://sites.rootsweb.com/~cansk/Saskatchewan/Saskatchewan.html\" target=\"_blank\">Saskatchewan GenWeb site</a>.</li><li>Find Saskatchewan towns and communities on the <a class=\"lk\" href=\"https://roadsidethoughts.com/sk/index-a.htm\" target=\"_blank\">RoadsideThoughts site</a>.</li><li>Search for Saskatchewan place names on the <a class=\"lk\" href=\"https://www.johncardinal.com/ca/sk/places.htm\" target=\"_blank\">John Cardinal site</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Newspapers",
+        "name": "Newspapers",
+        "section_name": "Learn about Saskatchewan newspapers.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Saskatchewan newspapers.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "  fs—wiki: saskatchewan newspapers",
+                            "content": "<br>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-sask-news.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://en.wikipedia.org/wiki/Regina_Leader-Post#/media/File:The_first_Leader_building.jpg\" target=\"_blank\"> <img src=\"../img/x-ca-sask-news.jpg\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li>Learn about Saskatchewan newspapers in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Saskatchewan_Newspapers\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Saskatchewan Newspapers</span></a><div class=\"choice\"><br></div></li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Saskatchewan newspapers.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Find links to <a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Wikipedia:List_of_online_newspaper_archives#Saskatchewan\" target=\"_blank\"> Saskatchewan newspapers</a> on the Wikipedia site.</li> <li>Explore Saskatchewan newspaper resources on the <a class=\"lk\" href=\"http://www.cangenealogy.com/saskatchewan-news.html\" target=\"_blank\">CanGenealogy</a> site.</li><li>Search Saskatchewan newspapers in the <a class=\"lk\" href=\"http://www.onlinenewspapers.com/canadasa.htm\" target=\"_blank\">onlinenewspapers.com</a> site.</li><li>Search Saskatchewan newspapers in the <a class=\"lk\" href=\"http://www.world-newspapers.com/saskatchewan.html\" target=\"_blank\">world-newspapers.com</a> site.</li><li>Search Saskatchewan newspapers in the <a class=\"lk\" href=\"http://www.abyznewslinks.com/canadsk.htm\" target=\"_blank\">ABYZ News Link</a> site.</li><li>Explore Saskatchewan newspaper resources on the <a class=\"lk\" href=\"http://www.theancestorhunt.com/blog/saskatchewan-online-historical-newspapers-summary\" target=\"_blank\">Ancestor Hunt</a> site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Websites",
+        "name": "Websites",
+        "section_name": "Explore additional websites for research.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "There are a number of websites with valuable resources for Saskatchewan research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore links on the <a class=\"lk\" href=\"http://www.cangenealogy.com/saskatchewan.html\" target=\"_blank\">CanGenealogy</a> site.</li><li>Explore links in <a class=\"lk\" href=\"http://www.cyndislist.com/canada/provinces/sk/\" target=\"_blank\">Cyndi's List</a>.</li><li>Explore links in <a class=\"lk\" href=\"http://www.genealogylinks.net/canada/saskatchewan/index.html\" target=\"_blank\">GenealogyLinks.net</a>.</li> </ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Search Records",
+        "name": "Search Records",
+        "section_name": "Search records from Saskatchewan.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Use QUIKLinks to quickly search record collections for Saskatchewan.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ul><li>QUIKLinks are indicated by lightning-bolt icons in the Goal header area and in the page.</li><li>QUIKLinks point to collections with 50,000 or more records.</li></ul>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore additional record collections.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore the <a class=\"lk\" href=\"https://familysearch.org/wiki/en/Saskatchewan_Online_Genealogy_Records\" target=\"_blank\">FamilySearch page</a> for online genealogy records.</li><li>Explore additional record collections in <a class=\"lk\" href=\"https://www.ancestry.com/search/collections/catalog/?keyword=Saskatchewan\" target=\"_blank\">Ancestry</a>.</li><li>Explore additional record collections in <a class=\"lk\" href=\"https://search.findmypast.com/historical-records?page=1&amp;region=canada&amp;subcountry=saskatchewan\" target=\"_blank\">Findmypast</a>.</li><li>Explore additional record collections in <a class=\"lk\" href=\"https://www.myheritage.com/research/catalog?location=Saskatchewan&amp;s=257937091\" target=\"_blank\">MyHeritage</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Get Help",
+        "name": "Get Help",
+        "section_name": "Get help with your Saskatchewan research.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Use Facebook pages to get answers to your questions.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/fh-help3.jpg"
+                    ],
+                    "text": "<ol><a href=\"../img/fh-help3.jpg\" target=\"_blank\"> <img src=\"../img/fh-help3.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 350px;\"></a>  <li>Visit the <a class=\"lk\" href=\"https://www.facebook.com/groups/805637286215465/\" target=\"_blank\">Saskatchewan Genealogy network page</a> on Facebook.</li><li>Visit the <a class=\"lk\" href=\"https://www.facebook.com/Saskatchewan-Genealogical-Society-216892188363312/\" target=\"_blank\">Saskatchewan Genealogical Society page</a> on Facebook.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Join a mailing list or message board for Saskatchewan research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Join the <a class=\"lk\" href=\"http://www.rootschat.com/forum/canada/\" target=\"_blank\">RootsChat forum</a> and post questions about Saskatchewan research.</li><li>Search the <a class=\"lk\" href=\"http://bigfile.rootsweb.ancestry.com/cgi-bin/listsearch\" target=\"_blank\">RootsWeb site </a> for Saskatchewan research mailing lists.</li><li>Explore the <a class=\"lk\" href=\"http://www.cyndislist.com/canada/provinces/sk/social/\" target=\"_blank\"> Saskatchewan research mailing lists</a> on Cyndi's List.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Saskatchewan genealogy societies.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about genealogy societies in Saskatchewan in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Saskatchewan_Societies\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Saskatchewan Societies</span></a></li><br><li>Explore <a class=\"lk\" href=\"http://www.cyndislist.com/canada/provinces/sk/societies/\" target=\"_blank\">Saskatchewan genealogy society sites</a> on Cyndi's list.</li><li>Get help at a <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Category:Saskatchewan_Family_History_Centres\" target=\"_blank\">family history center in Saskatchewan</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,43 @@
+[
+    {
+        "nav_name": "Learn about Basque Research",
+        "name": "Research and Records",
+        "section_name": "Learn about Basque research.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Basque resources for research.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-basque-over.jpg"
+                    ],
+                    "text": "<p><i>Note</i> : For country-specific research, see the Spain and France pages in the Countries menu.</p><ol><img src=\"img/x-basque-over.jpg\" alt=\"\" width=\"450px\" style=\"float:right; margin-top: 6px; margin-left: 36px\"><li><span class=\"g\">Resources</span>: Explore research resources on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.euskalkultura.com/english/basque-genealogy/basque-genealogy-resources/\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">EuskalKultura site</a>.</li><li><span class=\"g\">Names</span>: Learn about researching Basque names on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.puchulutegui.com/english.html\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">uchulutegui site</a>.</li><li>Learn about Basque personal names you may encounter in your research. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/Basque_Personal_Names\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Basque Personal Names</span></a></li><br><li><span class=\"g\">Language</span>: Learn about the Basque language (Euskadi). <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/Basque_Languages\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Basque Languages</span></a></li><br><li>Find resources for learning the Basque language on the <a class=\"lk\" href=\"http://www.euskalkultura.com/english/learn-basque\" target=\"_blank\">EuskalKultura site</a>.</li><li><span class=\"g\">Discussions</span>: Find and join discussion groups for Basque research on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.euskalkazeta.com/tips-for-researching-your-basque-heritage/\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">Euskal Kazeta site</a>.</li><li><span class=\"g\">Culture</span>: Explore Basque culture on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.tota.world/culture/basque/\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">Traditions of the Ancestors site</a> (requires a free account).</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore research in various Basque locations.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-basque-flag.png"
+                    ],
+                    "text": "<ol><img src=\"img/x-basque-flag.png\" alt=\"\" width=\"300px\" style=\"float:right; margin-top: 6px; margin-left: 36px; border:1px solid #000; padding:0px;\"><li><span class=\"g\">Pais Vasco</span>: Learn about Basque research in Pais Vasco. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/finding-echeverria-in-spain-and-france-pais-vasco-spain\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Finding Echeverria in Spain and France - País Vasco, Spain—9:12</span></a></li><br><li><span class=\"g\">Navarra</span>: Learn about Basque research in Navarra, Spain. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/finding-echeverria-in-spain-and-france-navarra-spain\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Finding Echeverria in Spain and France - Navarra, Spain—2:17</span></a></li><br><li><span class=\"g\">Pyrénées-Atlantique</span>: Learn about Basque research in Pyrénées-Atlantique, France. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/finding-echeverria-in-spain-and-france-pyrenees-atlantique-france\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Finding Echeverria in Spain and France - Pyrénées-Atlantique, France—2:16</span></a></li><br><li>Explore additional resources on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://cgpa64.free.fr/joomla/index.php\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">Genealogical Center of Pyrénées-Atlantiques site</a>.</li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Basque census, church, and other records.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-basque-church.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/x-basque-church.jpg\" alt=\"\" width=\"450px\" style=\"float:right; margin-top: 6px; margin-left: 36px; border:1px solid #000; padding:0px;\"><li><span class=\"g\">Civil Registration</span>: Learn about Basque civil registration. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/finding-echeverria-in-spain-and-france-civil-registration\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Finding Echeverria in Spain and France - Civil Registration—3:22</span></a></li><br><li><span class=\"g\">Census</span>: Explore census records on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.artxibo.euskadi.eus/es\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">Euskadi Historical Archives site</a>.</li><li><span class=\"g\">Church</span>: Learn about Basque church records. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/finding-echeverria-in-spain-and-france-church-records\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Finding Echeverria in Spain and France - Church Records—2:59</span></a></li><br><li>Learn about online parish record indexes. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/dokuklik-online-parish-record-indexes-for-the-basque-country-in-spain\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS: Basque Parish Indexes—12:13</span></a></li><br><li><span class=\"g\">Notarial</span>: Learn about Basque notarial records. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/finding-echeverria-in-spain-and-france-notarial-records\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS: Finding Echeverria in Spain and France - Notarial Records—3:22</span></a></li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,325 @@
+[
+    {
+        "nav_name": "Research and Records",
+        "name": "Research and Records",
+        "section_name": "Learn about Manitoba research and records",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Get started with research for your Manitoba ancestors.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for research resources. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-man-over.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/canadian-museum-for-human-rights-1332545/\" target=\"_blank\"> <img src=\"../img/x-ca-man-over.jpg\" alt=\"\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\" width=\"450px\" border=\"1\"></a><li>Learn about finding your ancestors in Manitoba. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Manitoba,_Canada_Genealogy\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki:—Manitoba—Finding Your Ancestors</span></a></li><br><li>Explore resources for Manitoba research on Ancestry. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://search.ancestry.com/Places/Canada/Manitoba/Default.width=\" 20\"=\"\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">AC—Manitoba Resources</span></a></li><br><li>Find more resources for Manitoba research. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://ukcdngenealogy.blogspot.com/2018/06/finding-your-ancestors-in-manitoba.html\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Finding Your Ancestors in Manitoba</span></a></li><br><li>Use the Manitoba Record Selection Table to decide on records to search. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Manitoba_Record_Selection_Table\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Manitoba Record Selection Table</span></a></li><br><li>Explore a variety of records on the <a class=\"lk\" href=\"https://sites.google.com/site/freecanadianancestry/home/manitoba\" target=\"_blank\">FreeCanadianAncestry</a> site. </li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Archives and Libraries",
+        "name": "Archives and Libraries",
+        "section_name": "Learn about Manitoba archives and libraries.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Manitoba archives and libraries.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for archives and libraries. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-man-lib.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/clocktower-university-1035890/https://libraryarchitecture.wikispaces.com/William+Avenue+Branch+Library+(formerly+Carnegie+Library),+Winnipeg+Public+Library,+Winnipeg,+Manitoba+(building)\" target=\"_blank\"> <img src=\"../img/x-ca-man-lib.jpg\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li>Learn about Manitoba archives and libraries in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Manitoba_Archives_and_Libraries\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Manitoba Archives and Libraries</span></a></li><br><li>Find links for <a class=\"lk\" href=\"http://www.geneofun.on.ca/canadagenweb/manitoba/manitoba-genealogy-societies.html\" target=\"_blank\">Manitoba archives and societies</a>.</li><li>Explore resources on the <a class=\"lk\" href=\"https://www.gov.mb.ca/chc/archives/\" target=\"_blank\">Archives of Manitoba</a> site.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Manitoba city directories.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about Manitoba city directories in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Manitoba_Directories\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Manitoba Directories</span></a></li><br><li>Explore city directories in Manitoba on the <a class=\"lk\" href=\"http://www.cangenealogy.com/manitoba-directories.html\" target=\"_blank\">CanGenealogy site</a>.</li><br><li>Learn about phone books for prairie provinces in this article. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://ukcdngenealogy.blogspot.com/2018/05/phone-books-for-canadian-prairies.html\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Phone Books for Canadian Prairies Genealogy</span></a></li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Vital and Census Records",
+        "name": "Vital and Census Records",
+        "section_name": "Learn about Manitoba vital and census records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Manitoba vital and birth records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for vital and birth records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-man-flag.png"
+                    ],
+                    "text": "<ol><img src=\"../img/x-ca-man-flag.png\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Learn about Manitoba vital records in this article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Manitoba_Vital_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Manitoba Vital Records</span></a></li><br><li>Explore birth record resources on the <a class=\"lk\" href=\"http://vitalstats.gov.mb.ca/Query.php\" target=\"_blank\">Manitoba Vital Statistics Agency</a> site.</li><li>Explore BMD record resources on the <a class=\"lk\" href=\"http://www.geneofun.on.ca/canadagenweb/manitoba/manitoba-genealogy-vitals.html\" target=\"_blank\">ManitobaGenWeb</a> site.</li><li>Learn about adoption records on the <a class=\"lk\" href=\"http://www.originscanada.org/adoption-records/by-province/manitoba-adoption-records/\" target=\"_blank\">OriginsCanada</a> site.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Manitoba death records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for death records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>Explore death record resources on the <a class=\"lk\" href=\"http://vitalstats.gov.mb.ca/Query.php\" target=\"_blank\">Manitoba Vital Statistics Agency</a> site.</li><li>Explore Manitoba obituaries on the <a class=\"lk\" href=\"https://www.inmemoriam.ca/directory/province/mb-manitoba/1/\" target=\"_blank\">In Memoriam</a> site.</li> </ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Manitoba census records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for census records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>Get an overview of Manitoba censuses in this article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Manitoba_Census\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Manitoba Census</span></a></li><br><li>Learn more about Manitoba census record sources. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://www.geneofun.on.ca/canadagenweb/manitoba/manitoba-genealogy-census.html\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Manitoba Census Records</span></a></li><br><li>Explore the <a class=\"lk\" href=\"http://www.myfreecensus.com/manitoba-census-records.htm\" target=\"_blank\">MyFreeCensus site</a> for Manitoba state and county census records.</li><li>Explore the <a class=\"lk\" href=\"http://www.cangenealogy.com/manitoba.html\" target=\"_blank\">CanGenealogy site</a> for Manitoba census records.</li></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Church and Cemetery Records",
+        "name": "Church and Cemetery Records",
+        "section_name": "Learn about Manitoba church and cemetery records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Manitoba church records.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-man-church.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://commons.wikimedia.org/wiki/File:Holy_Trinity_Anglican_Church_Winnipeg_1889.jpg\" target=\"_blank\"> <img src=\"../img/x-ca-man-church.jpg\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"></a>  <li>Get an overview of Manitoba church records in this article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Manitoba_Church_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Manitoba Church Records</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Manitoba cemetery records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for church and cemetery records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>Explore Manitoba cemetery records in this article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Manitoba_Cemeteries\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Manitoba Cemetery Records</span></a> </li><br><li>Search the <a class=\"lk\" href=\"http://cemetery.canadagenweb.org/MB/\" target=\"_blank\">Canada GenWeb site</a> for Manitoba cemetery records.</li><li>Search the <a class=\"lk\" href=\"http://www.findagrave.com/cgi-bin/fg.cgi?page=cs\" target=\"_blank\">Find A Grave site</a> for cemetery records.</li><li>Search the <a class=\"lk\" href=\"http://billiongraves.com/pages/search/\" target=\"_blank\">BillionGraves site</a> for cemetery records.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Emigration and Immigration",
+        "name": "Emigration and Immigration",
+        "section_name": "Learn about Manitoba emigration and immigration.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Manitoba emigration and immigration.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about Manitoba emigration and immigration in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Manitoba_Emigration_and_Immigration\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Manitoba Emigration and Immigration</span></a></li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Probate, Land and Court",
+        "name": "Probate, Land and Court Records",
+        "section_name": "Learn about Manitoba probate and land records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Manitoba probate and land records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for probate and land records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-man-land.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/steinbach-mennonite-heritage-village-56667/\" target=\"_blank\"> <img src=\"../img/x-ca-man-land.jpg\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"></a>  <li>Learn about Manitoba probate records in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Manitoba_Probate_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Manitoba Probate Records</span></a></li><br><li>Learn about Manitoba land records in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/Manitoba_Land_and_Property_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Manitoba Probate Records</span></a></li><br><li>Explore Manitoba land records. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://www.geneofun.on.ca/canadagenweb/manitoba/manitoba-genealogy-land.html\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Manitoba Land Records</span></a></li><br><li>Search for wills on the <a class=\"lk\" href=\"https://www.gov.mb.ca/chc/archives/estate/index.html\" target=\"_blank\">Archives of Manitoba site</a>.</li><br></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Maps and Gazetteers",
+        "name": "Maps and Gazetteers",
+        "section_name": "Learn about Manitoba maps and gazetteers.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore Manitoba maps and gazetteers.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-man-map.gif"
+                    ],
+                    "text": "<ol><img src=\"../img/x-ca-man-map.gif\" alt=\"\" width=\"250px\" border=\"1\" style=\"float:right; margin-left: 16px\"><li>Explore the <a class=\"lk\" href=\"http://www.davidrumsey.com/luna/servlet/view/search?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&amp;q=manitoba&amp;search=Go\" target=\"_blank\">David Rumsey collection</a> of Manitoba maps.</li><li>Explore the <a class=\"lk\" href=\"https://www.canadiana.ca/search/?so=alphabetical&amp;q1.0=AND&amp;q0.0=%22Maps+of+the+National+Topographic+System+of+Canada%22&amp;q2.0=%22Manitoba%22\" target=\"_blank\">Canadiana maps collection</a>.</li><li>Explore the <a class=\"lk\" href=\"http://www.lib.utexas.edu/maps/canada.html\" target=\"_blank\">Perry-Castaneda site</a> for maps of Manitoba (search for Manitoba on the page).</li><li>Explore <a class=\"lk\" href=\"http://www.historicmapworks.com/Browse/Maps/\" target=\"_blank\">historical Manitoba maps</a> on the Historic Map Works site. Select North America, Canada, and Manitoba in the drop-down menus.</li><li>Find Manitoba towns and communities on the <a class=\"lk\" href=\"https://roadsidethoughts.com/mb/index-a.htm\" target=\"_blank\">RoadsideThoughts site</a>.</li><li>Search for Manitoba place names on the <a class=\"lk\" href=\"https://www.johncardinal.com/ca/mb/places.htm\" target=\"_blank\">John Cardinal site</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Newspapers",
+        "name": "Newspapers",
+        "section_name": "Learn about Manitoba newspapers.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Manitoba newspapers.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "  fs—wiki: manitoba newspapers",
+                            "content": "<br>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-man-news.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://en.wikipedia.org/wiki/Winnipeg_Free_Press#/media/File:Winnipeg_Free_Press_Building.jpg\" target=\"_blank\"> <img src=\"../img/x-ca-man-news.jpg\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"></a>  <li>Learn about Manitoba newspapers in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Manitoba_Newspapers\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Manitoba Newspapers</span></a><div class=\"choice\"><br></div></li><li>Learn about researching historical Manitoba newspapers in this tutorial from The Ancestor Hunt. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.theancestorhunt.com/blog/researching-free-newspapers-manitoba-canada\" target=\"_blank\"> <img src=\"../img/vid.png\" width=\"20\"> <span class=\"re\">Research Free Historical Manitoba Newspapers—6:10</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Manitoba newspapers.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Find links to <a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Wikipedia:List_of_online_newspaper_archives#Manitoba\" target=\"_blank\"> Manitoba newspapers</a> on the Wikipedia site.</li><li>Explore Manitoba newspaper resources on the <a class=\"lk\" href=\"http://www.cangenealogy.com/manitoba-news.html\" target=\"_blank\">CanGenealogy</a> site.</li><li>Explore Manitoba newspaper resources on the <a class=\"lk\" href=\"http://www.geneofun.on.ca/canadagenweb/manitoba/manitoba-genealogy-newspapers.html\" target=\"_blank\">ManitobaGenWeb</a> site.</li><li>Search the <a class=\"lk\" href=\"https://sites.google.com/site/onlinenewspapersite/Home/can/mb\" target=\"_blank\">Manitoba Online Historical Newspapers</a> site.</li><li>Search Manitoba newspapers in the <a class=\"lk\" href=\"http://www.onlinenewspapers.com/canadama.htm\" target=\"_blank\">onlinenewspapers.com</a> site.</li><li>Search Manitoba newspapers in the <a class=\"lk\" href=\"http://www.world-newspapers.com/manitoba.html\" target=\"_blank\">world-newspapers.com</a> site.</li><li>Search Manitoba newspapers in the <a class=\"lk\" href=\"http://www.abyznewslinks.com/canadamb.htm\" target=\"_blank\">ABYZ News Link</a> site.</li><li>Explore Manitoba newspaper resources on the <a class=\"lk\" href=\"http://www.theancestorhunt.com/blog/manitoba-online-historical-newspapers-summary\" target=\"_blank\">Ancestor Hunt</a> site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Websites",
+        "name": "Websites",
+        "section_name": "Explore additional websites for research.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "There are a number of websites with valuable resources for Manitoba research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore links on the <a class=\"lk\" href=\"http://www.cangenealogy.com/manitoba.html\" target=\"_blank\">CanGenealogy</a> site.</li><li>Explore links in <a class=\"lk\" href=\"http://www.cyndislist.com/canada/provinces/mb\" target=\"_blank\">Cyndi's List</a>.</li><li>Explore links in <a class=\"lk\" href=\"http://www.genealogylinks.net/canada/manitoba/index.html\" target=\"_blank\">GenealogyLinks.net</a>.</li> </ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Search Records",
+        "name": "Search Records",
+        "section_name": "Search records from Manitoba.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Use QUIKLinks to quickly search record collections for Manitoba.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ul><li>QUIKLinks are indicated by lightning-bolt icons in the Goal header area and in the page.</li><li>QUIKLinks point to collections with 50,000 or more records.</li></ul>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore additional record collections.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore the <a class=\"lk\" href=\"https://familysearch.org/wiki/en/Manitoba_Online_Genealogy_Records\" target=\"_blank\">FamilySearch page</a> for online genealogy records.</li><li>Explore additional record collections in <a class=\"lk\" href=\"https://www.ancestry.com/search/collections/catalog/?keyword=Manitoba\" target=\"_blank\">Ancestry</a>.</li><li>Explore additional record collections in <a class=\"lk\" href=\"https://search.findmypast.com/historical-records?page=1&amp;region=canada&amp;subcountry=manitoba\" target=\"_blank\">Findmypast</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Get Help",
+        "name": "Get Help",
+        "section_name": "Get help with your Manitoba research.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Use Facebook pages to get answers to your questions.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/fh-help3.jpg"
+                    ],
+                    "text": "<ol><a href=\"../img/fh-help3.jpg\" target=\"_blank\"> <img src=\"../img/fh-help3.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 350px;\"></a>  <li>Visit the <a class=\"lk\" href=\"https://www.facebook.com/groups/1636186383286595/\" target=\"_blank\">Manitoba Genealogy page</a> on Facebook.</li><li>Find additional Facebook pages for Manitoba genealogy on the <a class=\"lk\" href=\"http://socialmediagenealogy.com/genealogy-on-facebook-list\" target=\"_blank\">Genealogy on Facebook</a> site.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Join a mailing list or message board for Manitoba research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Join the <a class=\"lk\" href=\"http://www.rootschat.com/forum/canada/\" target=\"_blank\">RootsChat forum</a> and post questions about Manitoba research.</li><li>Search the <a class=\"lk\" href=\"http://bigfile.rootsweb.ancestry.com/cgi-bin/listsearch\" target=\"_blank\">RootsWeb site </a> for Manitoba research mailing lists.</li><li>Explore the <a class=\"lk\" href=\"http://www.cyndislist.com/canada/provinces/mb/social/\" target=\"_blank\"> Manitoba research mailing lists</a> on Cyndi's List.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Manitoba genealogy societies.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about genealogy societies in Manitoba in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Manitoba_Societies\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Manitoba Societies</span></a></li><br><li>Explore <a class=\"lk\" href=\"http://www.cyndislist.com/canada/provinces/mb/societies/\" target=\"_blank\">Manitoba genealogy society sites</a> on Cyndi's list.</li><li>Get help at a <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Category:Manitoba_Family_History_Centres\" target=\"_blank\">family history center in Manitoba</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

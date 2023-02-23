@@ -1,0 +1,248 @@
+[
+    {
+        "nav_name": "Research",
+        "name": "Research",
+        "section_name": "Learn about Lithuanian research.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=XcfRQYeAXz4\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Lithuanian genealogy.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-lit-over.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/lithuania-vilnius-churches-966145/\" target=\"_blank\"> <img src=\"img/x-lit-over.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; ; border:1px solid #000; padding:0px;\"></a><li><span class=\"g\">FamilySearch</span>: Learn about Lithuanian research in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Lithuania_Genealogy\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Lithuania Genealogy</span></a></li><br><li><span class=\"g\">Beginning</span>: Watch these videos for tips on beginning Lithuanian genealogy. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=mXVe1M5AibY&amp;t=3m16s\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">BYU—An Introduction to Lithuanian Genealogy—54:57 - 2019</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/mXVe1M5AibY?start=196;rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=r29r53VOung\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">RT—Introduction to Lithuanian Genealogy—19:03 - 2021</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/r29r53VOung?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li><span class=\"g\">Resources</span>: Learn more about Lithuanian genealogy resources in this video. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=49kPDjLKLtg&amp;t=3m31s\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">BYU—Resources for Lithuanian Genealogy—56:33 - 2019</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/49kPDjLKLtg?start=211;rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li><span class=\"g\">Inerviewing</span>: Here are some tips for interviewing Lithuanian relatives or others about genealogy. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://sites.rootsweb.com/~lithuani/html/pradedantiems_tyrinejima.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">For Beginner Researchers</span></a></li><br><li><span class=\"g\">Surnames</span>: This video explains how to understand Lithuanian last names. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=v3phmBaVXDc\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">How Lithuanian Last Names Work&amp;2:45 - 2017</span></a></li><br><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.geneanet.org/country/search-Lithuania-LTU\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Geneanet site</a> for Lithuanian surnames.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Lithuanian genealogy resources.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-lit-over1.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/photos/vilnius-lithuania-eastern-europe-1029634/\" target=\"_blank\"> <img src=\"img/x-lit-over1.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a> <li>Explore the <a class=\"lk\" href=\"http://www.genealogywise.com/group/genealogyoflithuania\" target=\"_blank\">Genealogy of Lithuania page</a> on the GenealogyWise site.</li><li>Explore resources on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://lithuaniangenealogy.org/databases/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Lithuanian Global Genealogy Society site</a>.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://forebears.io/lithuania\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Forebears.io site</a> for research records.</li><li>Learn about resources available in the LitvakSIG database. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.jgsgb.org/pdfs/Handout_Researching_Your_Lithuanian_Roots.pdf\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Researching Your Lithuanian Roots</span></a></li><br><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.litvaksig.org/search-ald/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">The LitvakSIG All Lithuania database</a>.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Lithuanian emigration and immigration.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li><span class=\"g\">Basics</span>: Learn about Lithuania emigration and immigration in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Lithuania_Emigration_and_Immigration\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Lithuania Emigration and Immigration</span></a></li><br><li><span class=\"g\">Wikipedia</span>: Learn about immigration history and demographics in this Wikipedia article.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Lithuanian_Americans\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Wikipedia: Lithuanian Americans</span></a></li><br><li>Learn how to find your Lithuanian ancestors in U.S. immigration records. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=fGeXqtgpY34\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">RT—Finding Your Lithuanian Ancestors in the U.S. Immigration Records—21:31 - 2021</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/fGeXqtgpY34?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Archives and Libraries",
+        "name": "Archives and Libraries",
+        "section_name": "Learn about Lithuanian archives and libraries.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=XcfRQYeAXz4\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Explore Lithuanian archives and libraries.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-lit-lib.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/photos/vilnius-lithuania-eastern-europe-1029643/\" target=\"_blank\"> <img src=\"img/x-lit-lib.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a> <li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.archyvai.lt/lt/genealogine-paieska.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">State Archives of Lithuania </a> for genealogy resources.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.archivesportaleurope.net/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Archives Portal Europe</a> site. Click the Directories link and then select Lithuania.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Census and Church",
+        "name": "Census and Church",
+        "section_name": "Learn about Lithuania census and church records.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=XcfRQYeAXz4\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Lithuania census records.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-lit-cen.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/photos/lithuania-house-nida-curonian-spit-3723357/\" target=\"_blank\"> <img src=\"img/x-lit-cen.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a> <li><span class=\"g\">FamilySearch</span>: Learn about Lithuania census records in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Lithuania_Census\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Lithuania Census Records</span></a></li><br><li><span class=\"g\">Lists</span>: Learn about revision lists and other census lists in Lithuania. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.litvaksig.org/types-of-records-in-the-ald/revision-lists-and-other-census-lists\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Revision Lists and Other Census Lists</span></a></li><br><li>Learn about census-like material held in the Archives of Lithuania. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://censusmosaic.demog.berkeley.edu/sites/default/files/downloads/publications/mosaicWP/MOSAIC-WP-2012-005.pdf\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Census-like Material Preserved in the Archives of Lithuania</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Lithuania church records.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-lit-chu.jpg"
+                    ],
+                    "text": "<ol><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Pal%C5%AB%C5%A1%C4%97#/media/File:Lithuania_Paluse_church.jpg\" target=\"_blank\"> <img src=\"img/x-lit-chu.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a> <li><span class=\"g\">FamilySearch</span>: Learn about Lithuania church records in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Lithuania_Church_Records\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Lithuania Church Records</span></a></li><br><li><span class=\"g\">Catholic</span>: Learn about Roman Catholic records in the Lithuanian State Historical Archives.<br><br><span class=\"star notranslate\">☆</span><a href=\"http://www.lithuaniancatholicancestorsearch.com/lithuania-rc-parish-registers--in-the-lithuanian-archives-and-online-.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Lithuania Roman Catholic Parish Registers (in the Lithuanian State Historical Archives and Online)</span></a></li><br><li>Learn about using the ePaveldas site to access Roman Catholic records.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/img_auth.php/0/06/1-Lithuania_Online_Records-Instruction.pdf\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Catholic Church Records</span></a></li><br><li><span class=\"g\">Lutheran</span>: Watch this video to learn about Lutherans in Lithuania.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=xoY83Sx3ANk\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">BYU—Lutherans in Lithuania—55:16</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/xoY83Sx3ANk?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></li><br><li><span class=\"g\">Resources</span>: Find more resources for research on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genealogywise.com/group/genealogyoflithuania\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Genealogy of Lithuania</a> site.</li><li>Explore this <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://sites.rootsweb.com/~lithuani/html/baznycios__.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">list of churches</a> from the Vilnius Archives.</li><li><span class=\"g\">Jewish</span>: Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://bloodandfrogs.com/encyclopedia/lithuania\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Jewish Genealogy Encyclopedia</a> for Jewish resources in Lithuania.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.jewishgen.org/databases/Lithuania/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">JewishGen Lithuania database</a>.</li></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Military Records",
+        "name": "Military Records",
+        "section_name": "Learn about Lithuania military records.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=XcfRQYeAXz4\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Lithuanian military records.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-lit-flag.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/x-lit-flag.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"> <li>Learn about Lithuania military records in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Lithuania_Military_Records\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Lithuania Military Records</span></a> </li><br><li>Explore military and government documents in the <a class=\"lk\" href=\"https://www.archyvai.lt/en/archives/specialarchives.html\" target=\"_blank\">Lithuanian Special Archives</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Maps and Gazetteers",
+        "name": "Maps and Gazetteers",
+        "section_name": "Learn about Lithuania maps and gazetteers.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=XcfRQYeAXz4\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Explore Lithuania maps.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-lit-map.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://commons.wikimedia.org/wiki/File:Polonia_and_Lithuania_at_the_time_of_Augustus_II_the_Strong.jpg\" target=\"_blank\"> <img src=\"img/x-lit-map.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px;\"></a> <li>See a <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Lithuania_Genealogy#Lithuania_Map\" target=\"_blank\">map of for Lithuania jurisdictions</a>.</li><li>Access an 1882 map of the <a class=\"lk\" href=\"https://feefhs.org/resource/lithuania\" target=\"_blank\">Baltic States</a>, including Lithuania.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.davidrumsey.com/luna/servlet/view/search?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&amp;q=lithuania&amp;search=Go\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">David Rumsey collection</a> of Lithuania maps.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.oldmapsonline.org/en/Lithuania\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Old Maps Online site</a> for Lithuania maps.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://commons.wikimedia.org/wiki/Atlas_of_Lithuania\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Atlas of Lithuania</a> on the Wikipedia site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://commons.wikimedia.org/wiki/Category:Old_maps_of_Lithuania\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Old Maps of Lithuania</a> on the Wikipedia site.</li><li>Explore a <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.fallingrain.com/world/LH/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">directory of Lithuania cities, towns, and regions</a> in the Falling Rain site.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Lithuania gazetteers.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about Lithuania gazetteers in this FamilySearch Wiki article.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Lithuania_Gazetteers\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Lithuania Gazetteers</span></a> </li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Newspapers",
+        "name": "Newspapers",
+        "section_name": "Learn about Lithuania newspapers.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=XcfRQYeAXz4\" target=\"_blank\">Explorations</a></h5><ol>\n\t\t\t\t\t\t<a href=\"https://commons.wikimedia.org/wiki/File:Pakajaus_paslas_1884.jpg\" target=\"_blank\"> <img src=\"img/x-lit-news.jpg\" alt=\"\" width=\"350px\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"></a> \n\t\t\t\t\t\t<br><div class=\"goal-content\" id=\"a\" style=\"position: absolute; margin-top:-220px;\"></div><a class=\"lk\"><h4 class=\"minus\"><span class=\"notranslate\">A</span>Explore Lithuania newspapers.</h4></a><div class=\"choice\"><br>\n\t\t\t\t\t\t<ol>\n\t\t\t\t\t\t<li>Find links to <a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Wikipedia:List_of_online_newspaper_archives#Lithuania\" target=\"_blank\"> Lithuanian newspapers</a> on the Wikipedia site.</li> \n\t\t\t\t\t\t<li>Search Lithuanian newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.world-newspapers.com/lithuania.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">world-newspapers.com</a> site.</li>\n\t\t\t\t\t\t<li>Search Lithuanian newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.abyznewslinks.com/latvi.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">ABYZ News Links</a> site.</li>\n\t\t\t\t\t\t</ol>\n\t\t\t\t\t\t<br><br><br><br><br><br><br>\n\n\t\t\t\t\t</div>\n\t\t\t</ol>",
+        "choices": [
+            {
+                "name": "Explore Lithuania newspapers.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Find links to <a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Wikipedia:List_of_online_newspaper_archives#Lithuania\" target=\"_blank\"> Lithuanian newspapers</a> on the Wikipedia site.</li> <li>Search Lithuanian newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.world-newspapers.com/lithuania.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">world-newspapers.com</a> site.</li><li>Search Lithuanian newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.abyznewslinks.com/latvi.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">ABYZ News Links</a> site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Websites",
+        "name": "Websites",
+        "section_name": "Explore additional websites for research.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=XcfRQYeAXz4\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "There are a number of websites with valuable resources for Lithuanian research.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/laptop-fingers1.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/laptop-fingers1.jpg\" alt=\"\" width=\"350px\" style=\"float:right; margin-top: 6px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Explore links in the <a class=\"lk\" href=\"https://www.familysearch.org/en/wiki/Lithuania_Websites\" target=\"_blank\">FamilySearch Wiki</a>.</li><li>Explore links in <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cyndislist.com/baltic/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Cyndi's List</a>.</li><li>Explore links in <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genealogylinks.net/europe/lithuania/index.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Genealogylinks.net</a>.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.findagrave.com/cemetery-browse/Lithuania?id=country_58\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Find A Grave site</a> for cemetery records.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://billiongraves.com/site-map?country=Lithuania\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">BillionGraves site</a> for cemetery records.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Search Records",
+        "name": "Search Records",
+        "section_name": "Search records from Lithuania.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=XcfRQYeAXz4\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Use QUIKLinks and Partners to quickly search the most common record collections for Lithuania.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/laptop-hands.jpg"
+                    ],
+                    "text": "",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Get Help",
+        "name": "Get Help",
+        "section_name": "Get Help with your Lithuania research.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=XcfRQYeAXz4\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Use Facebook pages to get answers to your questions.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/fh-help1.jpg"
+                    ],
+                    "text": "<ol><a href=\"img/fh-help1.jpg\" target=\"_blank\"> <img src=\"img/fh-help1.jpg\" alt=\"\" width=\"350px\" style=\"float:right; margin-top: 6px; margin-left: 16px; border:1px solid #000; padding:0px;\"></a> <li>Visit the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.facebook.com/groups/lithuanian.genealogy/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Lithuanian Global Genealogical Society page</a> on Facebook.</li><li>Visit the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.facebook.com/groups/287999691307510/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Lithuanian Genealogy page</a> on Facebook.</li><li>Visit the <a class=\"lk\" href=\"https://www.facebook.com/groups/EasternEuropeGenealogyResearchCommunity/\" target=\"_blank\">Eastern European Research</a> Facebook page for FamilySearch.</li><li>See the <a class=\"lk\" href=\"http://socialmediagenealogy.com/genealogy-on-facebook-list/\" target=\"_blank\">Genealogy on Facebook list</a> of Facebook groups dedicated to helping with research for Lithuania.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Join a mailing list, community, or message board for Lithuania research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://community.familysearch.org/s/group/0F93A000000Lj96SAC/russian-empire\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">FamilySearch community</a> for Lithuanian (Russian Empire) research.</li><li>Explore the <a class=\"lk\" href=\"http://www.cyndislist.com/eastern-europe/social/\" target=\"_blank\"> Lithuania research mailing lists</a> on Cyndi's List.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Lithuania genealogy societies.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore <a class=\"lk\" href=\"http://www.cyndislist.com/baltic/societies/\" target=\"_blank\">Lithuania genealogy society sites</a> on Cyndi's List.</li><li>Get help at a <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Category:Lithuania_Family_History_Centers\" target=\"_blank\">family history center in Lithuania</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Geo/Culture/History",
+        "name": "Geography, Culture, and History",
+        "section_name": "Learn about the geography, culture, and history of Lithuania. \n\t\t\t\t\t\t\n\t\t\t\t\t\t",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=XcfRQYeAXz4\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Explore websites and videos.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/c-lithuania.jpg"
+                    ],
+                    "text": "<h5>Reference</h5><ol><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Lithuania_History\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">FamilySearch: History</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Lithuania\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Wikipedia</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.britannica.com/place/Lithuania\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Encyclopedia Britannica</a></li><br><h5>For Kids</h5><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ducksters.com/geography/country.php?country=Lithuania\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Ducksters</a></li></ol><h5>For Kids</h5>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

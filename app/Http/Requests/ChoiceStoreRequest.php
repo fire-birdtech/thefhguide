@@ -27,7 +27,7 @@ class ChoiceStoreRequest extends FormRequest
             'name' => 'required|string',
             'goal_id' => 'required',
             'images' => 'nullable',
-            'content' => 'required'
+            'content' => 'required',
         ];
     }
 }

@@ -1,0 +1,257 @@
+[
+    {
+        "nav_name": "Research and Records",
+        "name": "Research and Records",
+        "section_name": "Learn about Western Australia research and records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Get started with research for your Western Australia ancestors.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for research resources. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-aus-wa-over.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/palms-street-perth-265160/\" target=\"_blank\"> <img src=\"../img/x-aus-wa-over.jpg\" alt=\"\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\" width=\"450px\"></a><li>Learn about finding your ancestors in Western Australia. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Western_Australia,_Australia_Genealogy\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki:—Western Australia</span></a></li><br><li>Here are tips for starting your research in Western Australia. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://cms.slwa.wa.gov.au/dead_reckoning/how_to_begin\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Dead Reckoning: How to Begin</span></a></li><br><li>Learn about 25 free resources for Western Australia research in this blog post. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.lonetester.com/2017/04/discovering-links-25-free-links-for-western-australian-genealogy-research/\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">25 Free Links for Western Australia Genealogy Research</span></a></li><br><li>Explore <a class=\"lk\" href=\"http://membership.wags.org.au/membership-mainmenu-44/members-only/wa-surnames\" target=\"_blank\">surname research</a> in Western Australia.</li><li>Use the Australian Record Finder for research opportunities. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Australia_Record_Finder\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Australia Record Finder</span></a></li><br><li>Explore resources on the <a class=\"lk\" href=\"https://www.familyhistorydirectory.co.uk/australia/western-australia/\" target=\"_blank\">Family History Directory</a> site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Archives and Libraries",
+        "name": "Archives and Libraries",
+        "section_name": "Learn about Western Australia archives and libraries.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about the State Library of Western Australia.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for archives and libraries. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/slwa.png"
+                    ],
+                    "text": "<ol><img src=\"../img/slwa.png\" alt=\"\" width=\"300px\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Learn about the State Library of Western Australia in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Western_Australia_Archives_and_Libraries\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Western Australia Archives and Libraries</span></a></li><br><li>Learn how to use government archive records in your research. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://cms.slwa.wa.gov.au/dead_reckoning/government_archival_records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Dead Reckoning: Government Archival Records</span></a></li><br><li>Explore resources at the <a class=\"lk\" href=\"http://www.slwa.wa.gov.au/explore-discover/family-history/eresources\" target=\"_blank\">State Library of Western Australia</a>.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Western Australia city directories.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore <a class=\"lk\" href=\"http://www.slwa.wa.gov.au/explore-discover/wa-heritage/post-office-directories\" target=\"_blank\">post office directories</a> in Western Australia from 1893-1949.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Vital and Census Records",
+        "name": "Vital and Census Records",
+        "section_name": "Learn about Western Australia vital records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Western Australia vital and BMD records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for vital and BMD records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-aus-wa-vit.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://en.wikipedia.org/wiki/Perth#/media/File:WAGovernmentHouse1crop_gobeirne.JPG\" target=\"_blank\"><img src=\"../img/x-aus-wa-vit.jpg\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li>Find resources for Western Australia vital records on the <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Australia_Vital_Records\" target=\"_blank\">FamilySearch Wiki</a> site.</li><li>Learn about birth, marriage, and death records in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Western_Australia_Births,_Marriages,_and_Deaths\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Western Australia Births, Marriages, and Deaths</span></a></li><br><li>Learn about the types of information contained in birth, marriage, and death certificates. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://membership.wags.org.au/membership-mainmenu-44/activities/guides/bmds-info#h1-3-marriage-certificates\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—WAGS: BMD Certificate Information</span></a></li><br><li>Do <a class=\"lk\" href=\"http://www.wamarriage.info/\" target=\"_blank\">reverse marriage lookups</a> for Western Australian marriages.</li></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Church and Cemetery Records",
+        "name": "Church and Cemetery Records",
+        "section_name": "Learn about Western Australia cemetery records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore Western Australia cemetery records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for cemetery records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-aus-wa-church.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://en.wikipedia.org/wiki/Perth#/media/File:StMarysCathedral.jpg\" target=\"_blank\"><img src=\"../img/x-aus-wa-church.jpg\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li>Explore resources for cemeteries in Western Australia. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Western_Australia_Cemeteries\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki:—Western Australia Cemeteries</span></a></li><br><li>Find <a class=\"lk\" href=\"http://membership.wags.org.au/members-data/cemetery-data\" target=\"_blank\">cemetery data</a> available for Western Australia.</li><li>Explore <a class=\"lk\" href=\"http://www.brandis.com.au/genealogy/gendata/cranbrook.html\" target=\"_blank\">cemetery information </a> for several locations in Western Australia. (Use the links on the left.)</li><li>Search the <a class=\"lk\" href=\"http://www.findagrave.com/cgi-bin/fg.cgi?page=cs\" target=\"_blank\">Find A Grave site</a> for cemetery records.</li><li>Search the <a class=\"lk\" href=\"http://billiongraves.com/pages/search/\" target=\"_blank\">BillionGraves site</a> for cemetery records.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Emigration and Immigration",
+        "name": "Emigration and Immigration",
+        "section_name": "Learn about Western Australia emigration and immigration.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Western Australia emigration and immigration.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-imm-ship.jpg"
+                    ],
+                    "text": "<p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Maps and Gazetteers",
+        "name": "Maps and Gazetteers",
+        "section_name": "Learn about Western Australia maps and gazetteers.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore Western Australia maps and gazetteers.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-aus-wa-map.png"
+                    ],
+                    "text": "",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Newspapers",
+        "name": "Newspapers",
+        "section_name": "Learn about Western Australia newspapers.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore Western Australia newspapers.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "  fs—wiki: western australia newspapers",
+                            "content": ""
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/newspaper.jpg"
+                    ],
+                    "text": "",
+                    "resources": []
+                }
+            },
+            {
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Websites",
+        "name": "Websites",
+        "section_name": "Explore additional websites for research.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "There are a number of websites with valuable resources for Western Australia research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Search Records",
+        "name": "Search Records",
+        "section_name": "Search records from Western Australia.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Use QUIKLinks to quickly search record collections for Western Australia.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore additional record collections.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore the <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Western_Australia,_Australia_Online_Genealogy_Records\" target=\"_blank\">FamilySearch page</a> for online genealogy records.</li><li>Explore additional record collections in <a class=\"lk\" href=\"https://search.ancestry.com/Places/Australia/Western-Australia/Default.aspx\" target=\"_blank\">Ancestry</a>.</li><li>Explore additional record collections in <a class=\"lk\" href=\"https://www.ancestry.com/search/collections/catalog/?keyword=Western+Australia\" target=\"_blank\">Ancestry</a>.</li><li>Explore additional record collections in <a class=\"lk\" href=\"https://search.findmypast.com/historical-records?page=1&amp;region=australia&amp;subcountry=western%20australia\" target=\"_blank\">Findmypast</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Get Help",
+        "name": "Get Help",
+        "section_name": "Get help with your Western Australia research.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Use Facebook pages to get answers to your questions.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/fh-help3.jpg"
+                    ],
+                    "text": "<ol><a href=\"../img/fh-help3.jpg\" target=\"_blank\"> <img src=\"../img/fh-help3.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 350px; border:1px solid #000; padding:0px;\"></a>  <li>Join the <a class=\"lk\" href=\"https://www.facebook.com/groups/159723854088361/about/\" target=\"_blank\">Perth and Western Australia Genealogy Group</a> on Facebook.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Join a mailing list or message board for Western Australia research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore the <a class=\"lk\" href=\"http://www.rootschat.com/forum/australia/\" target=\"_blank\">RootsChat forum</a> and post questions about Western Australia research.</li><li>Explore the <a class=\"lk\" href=\"http://membership.wags.org.au/forum/wags-forum\" target=\"_blank\">Western Australia Genealogy forum</a> and post questions about Western Australia research.</li><li>Explore <a class=\"lk\" href=\"https://www.ancestry.com/boards/localities.oceania.australia.wa.general/mb.ashx?q=Western+Australia\" target=\"_blank\">Ancestry message boards</a> for Western Australia research.</li><li>Search the <a class=\"lk\" href=\"http://bigfile.rootsweb.ancestry.com/cgi-bin/listsearch\" target=\"_blank\">RootsWeb site </a> for Western Australia research mailing lists.</li><li>Explore the <a class=\"lk\" href=\"https://www.cyndislist.com/australia/states/wa/social/\" target=\"_blank\"> Western Australia research mailing lists</a> on Cyndi's List.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Western Australia genealogy societies.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Visit the <a class=\"lk\" href=\"http://membership.wags.org.au/\" target=\"_blank\">Western Australia Genealogical Society</a> website.</li><li>Explore <a class=\"lk\" href=\"https://www.cyndislist.com/australia/states/wa/societies/\" target=\"_blank\">Western Australia genealogy society sites</a> on Cyndi's list.</li><li>Get help at a <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Category:Western_Australia_Family_History_Centres\" target=\"_blank\">family history center in Western Australia</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

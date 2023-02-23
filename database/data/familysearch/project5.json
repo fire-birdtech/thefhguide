@@ -1,0 +1,331 @@
+[
+    {
+        "nav_name": "Learn about Indexing",
+        "name": "Learn about Indexing",
+        "section_name": "Learn what indexing is and why it's essential for research.",
+        "summary": "<p>Indexing makes records searchable online. When you index, you aid researchers by typing historical documents so they can be published online.</p>",
+        "choices": [
+            {
+                "name": "Learn about the purpose of indexing.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Write down key learnings from the videos.</li><li>* Proficient: Write down key learnings from the videos and the articles.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/3-2b.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/3-2b.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 350px;; border:1px solid #000; padding:0px;\"><li>To get an introduction to indexing, watch these videos. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/indexing/about#\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—How It Works—3:00</span></a><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/indexing/about#\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS: Indexing is Vital for Researching—2:00</span></a></li><br><li>Learn more about what's going on with indexing in the <a class=\"lk\" href=\"https://familysearch.org/blog/en/indexing/\">FamilySearch Indexing Blog</a> and this FamilySearch blog: <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/blog/en/growing-power-indexed-records/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Indexing is More Important Now than Ever - 2020</span></a></li><br><li>Read this article for information on supported devices and browsers for indexing.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/article/what-browsers-and-devices-work-for-indexing\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—What browsers and devices work for indexing? - 2020</span></a> </li> <br><li>To learn how to fix indexing or transcription errors in records, read this article.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/article/how-do-i-fix-indexing-or-transcription-errors-in-historical-records\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—How do I fix indexing or transcription errors in historical records? - 2020</span></a> </li> <br><li>Learn about indexing initiatives from the BYU Family History Technology Labs.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=0EafFXQXahk\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">BYU—Indexing for Everyone—9:36 - 2022</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/0EafFXQXahk?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Get Started",
+        "name": "Get Started",
+        "section_name": "Get started with indexing.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "See a list of batches for web indexing.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/5-start.jpg"
+                    ],
+                    "text": "<p><i>Note</i> : Batches are groups of records to be indexed; projects are groups of similiar batches.</p><ol><img src=\"img/5-start.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 350px;; border:1px solid #000; padding:0px;\"><li>Read the article or watch the video for tips on getting started with web indexing.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/en/help/helpcenter/article/what-is-get-involved\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—What is Get Involved?</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=MoiZaETrnV0\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">BYU—New FamilySearch Web Indexing—17:27 - 2019</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/MoiZaETrnV0?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br> </li><br> <li>Here is a handy summary of the steps involved in indexing batches of records.<br><br><span class=\"star notranslate\">☆</span><a href=\"web_indexing_handout-2020.pdf\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Getting Started with FamilySearch Indexing</span></a> </li><br> <li>In the Get Involved menu, click <a class=\"lk\" href=\"img/5-2-a-1.JPG\" onclick=\"return popup(this, 'notes')\"><b>Indexing</b></a>. Suggested indexing batches appear in the <b>My Batches</b> area of the window, or you can click the \"Find Batches\" link (see Choice B below).</li><li>If you would like to index one of these batches, click <b>Open Batch</b> next to the batch name, and then skip ahead to Goal 3 below to start indexing. You may want to start with a batch marked as \"Beginning\".</li><li>To perform a search for other batches, go to Choice B below.</li><li>Or, to select a batch from a list of entries, click <b>Find a Project</b> (menu near the top of the screen), and then go to Choice C below.</li><li>To take a guided tour of indexing, <a class=\"lk\" href=\"https://www.familysearch.org/indexing/batch/1c1b25c3-d57a-4e41-a37a-4720bc538441\" target=\"_blank\">click here</a>.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Search for batches to index, using \"Find Batches\".",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/5-find-batches.png"
+                    ],
+                    "text": "<ol><img src=\"img/5-find-batches.png\" alt=\"\" width=\"250px\" style=\"float:right; margin-top: 8px; margin-left: 16px; margin-right: 22px; border:1px solid #000; padding:0px;\"><li>In the My Batches area, click <b>Find Batches</b>.</li><li>Scroll through the list that appears in Search Results at the right of the screen. If you find a batch you want to index, click <b>Index</b> and skip ahead to <a class=\"lk\" href=\"project-5-indexing03.html\" target=\"_blank\">Goal 3</a>.</li>  <li>To start a search for other batches, type a place or other item in the Search field.</li><li>Optionally, do any of the following to refine the search:<ul style=\"margin-left: -66px;\"><li>Check the Difficulty Level as Beginning, Intermediate, Advanced, or more than one of these.</li><li>In the <b>Search</b> field, type a location or other keyword to search for.</li><li>In the <b>Language</b> list, select a language for the indexed batch you want.</li><li>If you want to mark batches as favorites, click the stars next to their titles. Then you can toggle between \"All\" and \"Favorites\" (left pane) for your searches.</li><li>To order your search results, click <b>Sort By</b> (top of the screen) and select a sort method.</li></ul></li><li>Click <b>Search</b>.</li><li>Look over the Search Results list to see which batch or batches you would like to index.</li><li>If you want to check out multiple batches to index in a given project, in the upper right, click <b>Batches to Check Out</b> and select a number. You may have up to 10 batches reserved at a time.</li><li>If you need to search again, click <b>Reset</b> (lower left) and fill in different fields.</li><li>Once you have identified a batch to work on, click <b>Index</b> and go to <a class=\"lk\" href=\"project-5-indexing03.html\" target=\"_blank\">Goal 3</a>. Your batch must be completed by the due date or it will be returned for someone else to finish. </li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "For more information on selecting batches, read this article.",
+                                "links": [
+                                    {
+                                        "link": "https://www.familysearch.org/help/helpcenter/article/how-do-i-check-out-an-indexing-batch",
+                                        "text": "FS—How do I check out an indexing batch? - 2020",
+                                        "type": "document"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Search for batches by project, using \"Find a Project\".",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/5-projects.JPG"
+                    ],
+                    "text": "<ol><img src=\"img/5-projects.JPG\" alt=\"\" width=\"600px\" style=\"float:right; margin-top: 6px; margin-left: 16px; margin-top: 8px; margin-right: 22px; border:1px solid #000; padding:0px;\"><li>In the top menu, click <b>Find a Project</b>.</li><li>If you want to search by region, click an area on the map. Then click <b>View Projects</b> to see all the projects in that area, or click a country link to see only projects for that country.</li><li>In the Current Project area, click <b>View Project Details</b> to see a description of the record batches involved.</li><li>When you have selected a project, click <b>Index</b> and go to <a class=\"lk\" href=\"project-5-indexing03.html\" target=\"_blank\">Goal 3</a>. Your batch must be completed by the due date or it will be returned for someone else to finish.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Index Batches",
+        "name": "Indexing Batches",
+        "section_name": "Index and manage batches, and set goals.",
+        "summary": "<p>You can contribute to the worldwide indexing effort, making more record indexes available to researchers.</p>",
+        "choices": [
+            {
+                "name": "Learn about your opened batch.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/5-record.JPG"
+                    ],
+                    "text": "<p>After you have clicked <b>Index</b>, the record batch is opened for you to work on. If you decide you'd rather not index that batch, follow the instructions in Choice C below. If a notice appears that the batch has already been partially indexed, your task is to review the work done so far and complete the batch.</p><ol><a class=\"lk\" href=\"img/5-record.JPG\" target=\"_blank\"> <img src=\"img/5-record.JPG\" alt=\"\" width=\"500px\" style=\"float:right; margin-top: 6px; margin-left: 6px; margin-right: 22px; margin-top: 6px; border:1px solid #000; padding:0px;\"></a><li>Read through the Project Instructions dialog. It has important information to help you succeed with indexing your selected batch. Remember to scroll down to the end of the dialog to see all the instructions. There may be links that show helpful examples of indexed records.</li><br><p style=\"margin-left:70px;\"><i>Note </i>: If there are differences between project-specific instructions and the Guidelines, follow the project-specific instructions.</p></ol><p style=\"margin-left:70px;\"><i>Note </i>: If there are differences between project-specific instructions and the Guidelines, follow the project-specific instructions.</p>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Index the records and submit your batch.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/5-field-help.JPG"
+                    ],
+                    "text": "<ol><img src=\"img/5-field-help.JPG\" alt=\"\" width=\"200px\" style=\"float:right; margin-top: 8px; margin-left: 16px; margin-right: 16px; margin-bottom: 16px; border:1px solid #000; padding:0px;\"><li>In the open batch, read the Project Instructions for Step 1: Images, select a Yes/No value, and click <b>Next</b>. You will need to do this for all images in the batch. To get help for a field you are currently editing, click the purple question mark icon.</li><li>Fill in each of the fields in the left side of the screen—or at least the required ones (marked by asterisks). Use the Field Help question mark icon (purple) whenever needed, and click and drag the image to move it around when needed.</li><li>If needed, click the <a class=\"lk\" href=\"img/5-3-a-1.JPG\" onclick=\"return popup(this, 'notes')\"><b>plus icon</b></a> to zoom in, or the minus icon to  zoom out. You can also zoom smoothly by using the scroll wheel on the mouse.</li><li>If needed, click the <a class=\"lk\" href=\"img/5-3-a-1a.JPG\" onclick=\"return popup(this, 'notes')\"><b>adjustment icon</b></a> to rotate the image to the left or right, or adjust the brightness or contrast, or display reference images.</li><li>If a field or record is blank or unreadable, click the corresponding icon in the <b>Toolbar</b> (top of the window) to mark it as such. To understand the other icons in the Toolbar, hover over them for descriptions.</li><li>For more information, be familiar with the options in the <b>Data Entry</b> menu (Form, Table, Column, or Row Entry; International Characters; Show Toolbar; Show Ruler; Show Reference Images) and the <b>Help</b> menu (Field Help, Project Instructions, Basic Indexing Guidelines, Keyboard Shortcuts, Help Resources, Open Shared Batch, Share Batch, Labs).</li> <li>When you have finished entering the data for the record, and if there are more records shown on the image, click <b>New Record</b> and repeat the data entry process for each record in the image.</li><li>Add data for each record, in each image, until you have finished the last one in the image. If there are multiple images in the batch, click <b>Next image</b> and index each record in all the images. You can scroll between images at the bottom of the screen.</li><li>If you need to exit the batch before finishing, click the back arrow in the upper left. Your work will be saved for when you resume indexing.</li><li>Click <b>Next—Quality Check</b> to check the accuracy of your data. Correct any errors that have been found, and then click <b>Submit Batch</b>. You can then open a new batch to work on (either a similar batch, or return to Web Indexing).</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Manage indexing batches.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>To return a currently batch so someone else can work on it, click <b>Batch</b> (upper menu) and select <b>Return Batch</b>.</li><li>To return a closed batch or multiple batches, <br>a) Go to the My Batches screen and click <b>Manage</b>; <br>b) Select each unwanted batch; and <br>c) Click <b>Return (number) Selected Batches</b>. The entries you selected are now removed from your My Batches list.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Set your indexing goals and achieve them.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/speaks.jpg"
+                    ],
+                    "text": "<p>The Progress area below My Batches has a graph that shows the number of records you have indexed over time.</p><ol><img src=\"img/speaks.jpg\" alt=\"\" width=\"250px\" style=\"float:right; margin-top: 8px; margin-left: 16px; margin-bottom: 16px; border:1px solid #000; padding:0px;\"><li>Click the link next to <b>Target</b> to set a goal for the number of records to index. </li> <li>To change the timespan, click <b>Month</b> and select Quarter, Year, or All-Time. </li> <li>To view the number of records in the previous month, quarter, or year, click <b>Current</b> and select Previous. </li> <li>To switch to a list view of your indexing projects, click the <b>Projects</b> button. </li> </ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Improve Skills",
+        "name": "Improve Indexing Skills",
+        "section_name": "Improve your basic indexing skills.",
+        "summary": "<p> When you master a few essential indexing techniques, your work will go faster and smoother.</p>",
+        "choices": [
+            {
+                "name": "Work on basic indexing techniques.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Read two of the articles above and demonstrate improved skills on the topics.</li><li>* Proficient: Same as above, with four articles.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-success.jpg"
+                    ],
+                    "text": "<p>Here are some resources to help you improve your indexing skills:</p><p>If a place name is difficult to read, you can do a Google search with the characters you believe are correct, and the correct location might be displayed in the Google search results.</p>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Get help with your indexing questions.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-girl-monitor.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/y-girl-monitor.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 8px; margin-bottom: 16px; max-width:400px; margin-bottom: 16px; border:1px solid #000; padding:0px;\"><li>Access the <a class=\"lk\" href=\"https://familysearch.org/indexing/help\" target=\"_blank\"> FamilySearch Indexing Help page</a> for general indexing help.</li> <li>Read this article to learn about getting answers to indexing questions.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/article/what-types-of-online-help-are-available-while-i-index\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—What types of online help are available while I index? - 2020</span></a></li><br> <li>Visit the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://community.familysearch.org/s/group/0F93A000000LissSAC/indexing-chat\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">FamilySearch community page for indexing</a> for additional help.</li><li>Learn about known issues with FamilySearch indexing in this article.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/article/i-think-i-have-found-an-indexing-system-error-or-bug\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—I think I have found an indexing system error or bug - 2020</span></a></li><br> <li>Get helpful indexing tips in this article.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://drive.google.com/open?id=1jPXzdAV1BSMzjh29qwq-dVnMUwWPty4d\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">RIV—FamilySearch Web Indexing - 2018</span></a></li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "(Optional) Do indexing for records in other languages.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/5-languages.JPG"
+                    ],
+                    "text": "<p>If you are skilled in an additional language, there are resources available to help you start indexing those records.</p><ol><img src=\"img/5-languages.JPG\" alt=\"\" width=\"600px\" style=\"float:right; margin-top: 6px; margin-left: 36px; margin-bottom: 16px; border:1px solid #000; padding:0px;\"><li>Access the <a class=\"lk\" href=\"https://familysearch.org/indexing/help/handwriting\" target=\"_blank\">Handwriting Helps page</a> on FamilySearch.</li><li>In the Choose a Language drop-down list (upper-left), select the language you're interested in. The example to the right shows a French language selection.</li> <li>Study the Alphabet section on the right.</li> <li>To learn more about characters in the language, visit the Handwriting Helps links on the left side.</li> <li>For indexing tips and guidelines on indexing records in your selected language, visit the Language Helps links on the left side.</li> </ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Collaborate with Others",
+        "name": "Collaborate on Indexing",
+        "section_name": "Collaborate with others on indexing projects. ",
+        "summary": "<p>You can share indexing batches with others and participate in peer reviews of batches.</p>",
+        "choices": [
+            {
+                "name": "Share indexing batches.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-connect.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/y-connect.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"><li>To share a batch with someone who can provide help or feedback, open the batch, click the Help menu, and then select <b>Share Batch</b>.</li><li>Fill out the fields in the dialog. <br><br><a class=\"lk\" href=\"img/5-3-a-5.JPG\" onclick=\"return popup(this, 'notes')\"><b>Click here</b></a> for an example of the batch code, and remember to add a comma after the contact name in the dialog. </li><li>Click <b>Share</b>.</li><li>Once you have shared a batch, you can open it later by clicking the <b>Open Shared Batch</b> link at the bottom of My Batches. </li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "For more information on sharing batches, follow the steps in this article.",
+                                "links": [
+                                    {
+                                        "link": "https://www.familysearch.org/help/helpcenter/article/how-do-i-share-an-indexing-batch-with-someone",
+                                        "text": "FS—How do I share an indexing batch with someone? - 2020",
+                                        "type": "document"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Participate in peer reviews of indexing projects.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-user-discussion.jpg"
+                    ],
+                    "text": "<p>You can sign up to do a peer review of a batch that another person has worked on, to check for completeness and accuracy.</p><ol><img src=\"img/y-user-discussion.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"><li>To participate in a peer review, follow the steps in this article.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/article/what-does-a-reviewer-do-in-indexing\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—What does a reviewer do in indexing? - 2020</span></a></li><li>To track the progress of your peer reviews, go to the Progress area of the Web Indexing page; then click <b>Indexing</b> and select \"Indexing—Peer Review\". <i>Note</i> : Only the final reviewed transcriptions are shown in the final index, although all values are saved. </li><li>Learn more about reviewing indexed batches in this article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/blog/en/review-indexing-batches/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—How to Review Indexed Batches - 2019</span></a></li><br><li>Learn about correcting existing indexing mistakes. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=Em7Wf6EKRI8\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">RT—Demo: Correcting Record Transcription (Indexing) Mistakes—24:46 - 2021</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/Em7Wf6EKRI8?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Participate in indexing groups.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-team.jpg"
+                    ],
+                    "text": "<p>Indexing groups you belong to are listed in the Groups area, at the bottom of the Web Indexing page.</p><ol><img src=\"img/y-team.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"><li>To find a group to participate in, click <b>Find Groups</b> and select Find Groups in the menu.</li><li>Indexing groups are listed at the right. Click <b>Join</b> next to a group name to join the group, or click <b>Request to Join</b> to send a request to the group administrator for admission.</li><li>To view a Sub Group, click the Sub Group link. There may be additional Sub Groups under the Sub Group you select. To return to a higher level, click <b>Back</b> or use the navigation links (top of the screen).</li><li>To search for an existing group, fill in the search fields you want (left side) and click <b>Search</b>.</li><li>When you have joined a group, click its name in the Group area of the Web Indexing page. Here you can see a progress chart or project list, read group announcements, or search for members (magnifying glass icon).</li><li>To <i>send a message</i> to a member of the group, click <b>Send a Message</b>, click <b>Add Recipients</b>, select a name from the list, type your message, and click <b>Send</b>.</li><li>To <i>generate a report</i> from your group, click <b>Reports</b> in the Web Indexing page, fill in the report criteria on the left, and click <b>Generate Report</b>. To download the report, click <b>Download</b>.</li><li>To <i>create a group</i>, <br>a) Click <b>Find Group</b> and select <b>Create Group</b>; <br>b) Fill out the fields in the Group Profile screen; <br>c) If desired, click <b>Upload</b> to upload a photo for your group; and <br>d) Click <b>Save</b>.</li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "Get answers to FAQs about groups in this article.",
+                                "links": [
+                                    {
+                                        "link": "https://www.familysearch.org/help/helpcenter/article/what-are-indexing-groups",
+                                        "text": "FS—What are indexing groups? - 2020",
+                                        "type": "document"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "To learn more about group reporting, read this article.",
+                                "links": [
+                                    {
+                                        "link": "https://www.familysearch.org/help/helpcenter/article/how-do-i-create-an-indexing-report",
+                                        "text": "FS—How do I create an indexing report? - 2020",
+                                        "type": "document"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Learn more about managing indexing groups in this article.",
+                                "links": [
+                                    {
+                                        "link": "https://www.familysearch.org/help/helpcenter/article/how-do-i-make-someone-else-a-group-owner-or-administration-in-web-indexing",
+                                        "text": "FS—How do I make someone else a group owner or administration in Web Indexing? - 2020",
+                                        "type": "document"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Read Difficult Handwriting",
+        "name": "Read Difficult Handwriting",
+        "section_name": "Improve your ability to read difficult handwriting. Vault",
+        "summary": "<p>Hard-to-read handwriting is a fact of life for older records. Being able to better read it will help you make more progress with original research as well indexing records.</p>",
+        "choices": [
+            {
+                "name": "Learn the basics of deciphering handwriting.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Handwriting is unique to each person, and different regions often used different types of script.</li><li>Compare difficult-to-read words to other letters and words in the document.</li><li>Consulting others for help is also an effective strategy when you're at an impasse.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Proficient: Write down key learnings from the articles.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/5-handwriting.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/5-handwriting.jpg\" alt=\"\" width=\"200px\" style=\"float:right; margin-top: 5px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Get a quick reference for interpreting handwritten letters in various languages.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/indexing/help/handwriting\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Handwriting Helps</span></a></li><br><li>Here are examples of alphabet letters as sometimes written in earlier U.S. records.<br><br><span class=\"star notranslate\">☆</span><a href=\"http://genealogytrails.com/ill/handwritingA-T.html\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Old Handwriting</span></a></li><br><li>Learn what to do when you have difficulty reading handwriting on a record.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://family-tree-advice.blogspot.com/2019/11/unreadable-name.html\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">5 Steps to Take When Your Ancestor's Name is Unreadable</span></a></li><br><li>Study these articles to learn basic skills that help you with handwritten records. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/United_States_Handwriting\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—United States Handwriting</span></a><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.archives.com/experts/pollock-michael/reading-difficult-handwriting.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">AR—Howell To Reed Difficult Handrighting - 2011</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn more techniques for difficult handwriting.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Reading aloud slowly can help you decipher a document.</li><li>Words were often written phonetically instead of the standardized way we know them now.</li><li>Become familiar with terminology used in old times.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Write down key learnings from the articles. Then find an indexing batch from an older time period and practice your handwriting analysis.</li><li>* Proficient: Same as above, with three older indexing batches.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-manuscript.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/y-manuscript.jpg\" alt=\"\" width=\"350px\" style=\"float:right; margin-top: 5px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Hers are some useful tips in deciphering difficult handwriting.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://content.ldschurch.org/family-history/bc/rootstech/salt-lake/2019-conference-syllabi/LAB0996_Yes_You_Can_Read_That_Handwriting.pdf\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">RT—Yes! You Can Read That Handwriting! - 2019</span></a></li><br> <li>Read this article to increase your understanding of old handwriting.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://blog.findmypast.com/tips-for-2063791571.html\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FMP—11 Tips for Reading Old Handwriting</span></a></li><br> <li>Use the <a class=\"lk\" href=\"http://www.nationalarchives.gov.uk/palaeography/\" target=\"_blank\">online tutorials</a> from the British National Archives, for handwriting from 1500-1800.</li><li>Use the <a class=\"lk\" href=\"http://www.nationalarchives.gov.uk/latin/advanced/\" target=\"_blank\">online tutorials for Latin</a> from the British National Archives.</li><li>Read this article to learn about reading Elizabethan Secretary handwriting.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/article/how-do-i-read-elizabethan-secretary-hand\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—How do I read Elizabethan secretary hand? - 2020</span></a></li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "(Optional) Get online help with deciphering old or difficult handwriting.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Get free help with <a class=\"lk\" href=\"http://www.rootschat.com/forum/handwriting-deciphering-recognition/\" target=\"_blank\">handwriting deciphering</a> from members of the RootsChat forum.</li><li>Explore paleography questions in the <a class=\"lk\" href=\"https://genealogy.stackexchange.com/?tags=palaeography\" target=\"_blank\">Genealogy Stack Exchange</a>.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about scripts and paleography (the study of old handwriting).",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-old-script.png"
+                    ],
+                    "text": "<ol><img src=\"img/y-old-script.png\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"><li>Go to the <a class=\"lk\" href=\"https://script.byu.edu/Pages/choices\" target=\"_blank\">Script Tutorial site for Indexers</a> at Brigham Young University.</li><li>To learn more about paleography in general, scroll down and click the link on the left.</li><li>To learn more about paleography for a specific language, scroll down and click a link on the right to choose  English, German, Dutch, Italian, French, Spanish, or Portuguese.</li><li>Watch this video for tips on using the BYU Script Tutorials. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=fCLOCtag5kA&amp;t=2m10s\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">BYU—BYU Script Tutorials—36:16 - 2022</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/fCLOCtag5kA?start=130;rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

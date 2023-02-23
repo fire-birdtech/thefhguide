@@ -1,0 +1,639 @@
+[
+    {
+        "nav_name": "Research",
+        "name": "Research and Records",
+        "section_name": "Learn about research in Canada. Vault",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Get started with research for your Canada ancestors.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-can-over.jpg"
+                    ],
+                    "text": "<ol><a href=\"img/x-can-over.jpg\" target=\"_blank\"> <img src=\"img/x-can-over.jpg\" width=\"450px\" style=\"float:right; margin-top: 8px; margin-top: 8px;\"></a>    <li><span class=\"g\">Overview</span>: Get an overview of Canadian family history on the Archives.com site.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.archives.com/genealogy/family-heritage-canadian.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">AR—Canadian Family History</span></a></li><br><li>Get an introduction to Canadian research on the Library and Archives Canada site. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://library-archives.canada.ca/eng/collection/research-help/genealogy-family-history/pages/genealogy-family-history.aspx\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Genealogy and Family History</span></a></li><br><li><span class=\"g\">Finding Ancestors</span>: Learn how to locate your ancestor in Canada in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Canada_Genealogy\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Canadian Genealogy</span></a></li><br><li>Learn how to find Canadian ancestors in these articles.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ancestrycdn.com/support/us/2016/11/findcanadianancestors.pdf\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">AC—Finding Your Canadian Ancestors - 2016</span></a> <br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://ukcdngenealogy.blogspot.com/2017/02/finding-your-ancestors-in-canada.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Finding your Ancestors in Canada - 2017</span></a> </li><br><li>Learn about recognizing Canadian ancestors in this FamilySearch article.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/How_to_Recognize_your_Canadian_Ancestor\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: How to Recognize Your Canadian Ancestor</span></a></li><br><li><span class=\"g\">Surnames</span>: Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.geneanet.org/country/search-Canada-CAN\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">Geneanet site</a> for Canadian surnames.</li><li>Search for <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.geneaservice.nl/navigator/canada\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">Canadian surnames</a> in a number of databases.</li><li><span class=\"g\">Territories and Natives</span>: Learn about research in Yukon, the Northwest Territories, and Nunavut (see also the <a class=\"lk\" href=\"project-9-ca-territories.html\">Territories page</a>).<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://ukcdngenealogy.blogspot.com/2018/01/finding-your-ancestors-in-yukon-nwt-and.html\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Finding Your Ancestors in the Yukon, NWT and Nunavut - 2018</span></a> </li><br><li>Learn about indigenous groups in Canada.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=6_IaieY8M9o\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">RT—Canadian Indigenous Genealogy—13:57 - 2022</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/6_IaieY8M9o?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Canadian research in more depth.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/How_to_Recognize_your_Canadian_Ancestor#Steps\" target=\"_blank\">Steps</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/How_to_Recognize_your_Canadian_Ancestor#Tips\" target=\"_blank\">Tips</a></li></ul></span>"
+                        },
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=cQUxvHlhgw0#t=1m19s\" target=\"_blank\">Finding Canadian Kin</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=cQUxvHlhgw0#t=2m12s\" target=\"_blank\">LAC Resources</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=cQUxvHlhgw0#t=3m1s\" target=\"_blank\">LAC Immigration</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=cQUxvHlhgw0#t=4m54s\" target=\"_blank\">LAC censuses</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=cQUxvHlhgw0#t=5m37s\" target=\"_blank\">LAC civil registration</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=cQUxvHlhgw0#t=6m24s\" target=\"_blank\">LAC early land records</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=cQUxvHlhgw0#t=8m14s\" target=\"_blank\">Peel's Prairie Provinces</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=cQUxvHlhgw0#t=8m39s\" target=\"_blank\">LAC war records</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=cQUxvHlhgw0#t=9m44s\" target=\"_blank\">Genealogy Quebec</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=cQUxvHlhgw0#t=11m4s\" target=\"_blank\">Historical newspapers</a></li></ul></span>"
+                        },
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=mxt65A12JLY#t=3m46s\" target=\"_blank\">Basics</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=mxt65A12JLY#t=5m53s\" target=\"_blank\">Why bother with Canada?</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=mxt65A12JLY#t=7m50s\" target=\"_blank\">Things to remember</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=mxt65A12JLY#t=14m44s\" target=\"_blank\">Most important Canada-wide sites</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=mxt65A12JLY#t=26m31s\" target=\"_blank\">Sample of sites across Canada</a></li></ul></span>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for research strategies. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-can-explore.jpg"
+                    ],
+                    "text": "<ol><a href=\"img/x-can-explore.jpg\" target=\"_blank\"> <img src=\"img/x-can-explore.jpg\" width=\"450px\" style=\"float:right; margin-top: 8px; border:1px solid #000; padding:0px;\"></a>    <li><span class=\"g\">Resources</span>: Learn about record resources for Canadian research in this Thoughtco article.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.thoughtco.com/databases-and-websites-for-canadian-genealogy-1421730\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">TH—Top Databases and Websites - 2019</span></a> &nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('usb');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"usb\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/How_to_Recognize_your_Canadian_Ancestor#Steps\" target=\"_blank\">Steps</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/How_to_Recognize_your_Canadian_Ancestor#Tips\" target=\"_blank\">Tips</a></li></ul></span></div></li><br><li>Check out this overview of Canada genealogy resources. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.legacytree.com/blog/canadian-genealogy-resources\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">LT—Key Canadian Genealogy Resources East to West </span></a></li><br><li>Learn how to find resources for your Canadian research.<br><br> <span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=cQUxvHlhgw0\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">BYU—Canadian Resources—16:00 - 2016</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('resources');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"resources\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=cQUxvHlhgw0#t=1m19s\" target=\"_blank\">Finding Canadian Kin</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=cQUxvHlhgw0#t=2m12s\" target=\"_blank\">LAC Resources</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=cQUxvHlhgw0#t=3m1s\" target=\"_blank\">LAC Immigration</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=cQUxvHlhgw0#t=4m54s\" target=\"_blank\">LAC censuses</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=cQUxvHlhgw0#t=5m37s\" target=\"_blank\">LAC civil registration</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=cQUxvHlhgw0#t=6m24s\" target=\"_blank\">LAC early land records</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=cQUxvHlhgw0#t=8m14s\" target=\"_blank\">Peel's Prairie Provinces</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=cQUxvHlhgw0#t=8m39s\" target=\"_blank\">LAC war records</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=cQUxvHlhgw0#t=9m44s\" target=\"_blank\">Genealogy Quebec</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=cQUxvHlhgw0#t=11m4s\" target=\"_blank\">Historical newspapers</a></li></ul></span></div><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/cQUxvHlhgw0?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=V07l3ClCk-o\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">AF—Resource Guide to Canadian Genealogy—8:26 - 2018</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/V07l3ClCk-o?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li>Learn about online Canadian resources for research.<br><br> <span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=mxt65A12JLY&amp;t=2m7s\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">BYU—Canadian Genealogy Online—41:41 - 2021</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('online');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"online\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=mxt65A12JLY#t=3m46s\" target=\"_blank\">Basics</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=mxt65A12JLY#t=5m53s\" target=\"_blank\">Why bother with Canada?</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=mxt65A12JLY#t=7m50s\" target=\"_blank\">Things to remember</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=mxt65A12JLY#t=14m44s\" target=\"_blank\">Most important Canada-wide sites</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=mxt65A12JLY#t=26m31s\" target=\"_blank\">Sample of sites across Canada</a></li></ul></span></div><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/mxt65A12JLY?start=127;rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li>Explore resources on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://sites.google.com/site/freecanadianancestry/\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">FreeCanadianAncestry</a> site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.barbsnow.net/Canada.htm\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">Genealogy Guide to Canada research </a> by Barb Snow.</li><br></ol><h5>Records</h5><ol><li><span class=\"g\">Record Finder</span>: Use the Canada Record Finder to evaluate records for research.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Canada_Record_Finder\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Canada Record Finder</span></a></li><br><li><span class=\"g\">Forebears.io</span>: Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://forebears.io/canada\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\"> <img src=\"img/d.png\" width=\"2\">Forebears.io site</a> for research records.</li><li><span class=\"g\">Name Variations</span>: Learn about Canadian name variations in this FamilySearch article.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Name_Variations_in_Canadian_Indexes_and_Records\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Name Variations in Canadian Records</span></a> </li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Vital Records",
+        "name": "Vital Records",
+        "section_name": "Learn about Canada vital records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Canada vital records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Canada_Vital_Records#Online_Records\" target=\"_blank\">Online Records</a><br></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Canada_Vital_Records#Contents_of.C2.A0Vital_Records\" target=\"_blank\">Contents of Vital Records</a><br> </li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Canada_Vital_Records#Research_Strategies\" target=\"_blank\">Research Strategies</a><br></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Canada_Vital_Records#Locating_Vital_Records\" target=\"_blank\">Locating Vital Records</a></li></ul></span>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-can-vit.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/courthouse-flag-justice-court-1799353/\" target=\"_blank\"> <img src=\"img/x-can-vit.jpg\" width=\"450px\" style=\"float:right; margin-left: 16px; margin-top: 8px; border:1px solid #000; padding:0px;\"></a>    <li><span class=\"g\">FamilySearch</span>: Learn about Canada Vital Records in this FamilySearch Wiki article.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Canada_Vital_Records\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Canada Vital Records</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('usa');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"usa\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Canada_Vital_Records#Online_Records\" target=\"_blank\">Online Records</a><br></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Canada_Vital_Records#Contents_of.C2.A0Vital_Records\" target=\"_blank\">Contents of Vital Records</a><br> </li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Canada_Vital_Records#Research_Strategies\" target=\"_blank\">Research Strategies</a><br></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Canada_Vital_Records#Locating_Vital_Records\" target=\"_blank\">Locating Vital Records</a></li></ul></span></div></li><br><li><span class=\"g\">Provincial Resources</span>: Learn about civil registration records available in Canadian provinces.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.vpl.ca/guide/genealogy-and-family-history/civil-registration\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Civil Registration</span></a></li><br><li><span class=\"g\">Statistics</span>: Learn about vital statistics for birth, marriage, and death records in this article.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.bac-lac.gc.ca/eng/discover/vital-statistics-births-marriages-deaths/births-marriages-deaths-recorded/Pages/births-marriages-deaths-recorded.aspx\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Vital Statistics: Births, Marriages and Deaths</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about alternatives to vital records.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li><span class=\"g\">Adoption</span>: Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.originscanada.org/adoption-records/\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">Canadian adoption records</a> on the Origins Canada site.</li><li><span class=\"g\">Divorce</span>: Learn about divorce records in Canada.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.vpl.ca/guide/genealogy-and-family-history/divorce-records\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Divorce Records</span></a></li><br><li>Learn how to find <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.freerecordsregistry.com/how-to-find-divorce-records-in-canada-by-province.htm\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">Canadian divorce records</a> by province.</li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore BMD (Birth, Marriage, Death) records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for vital records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/m-l29.jpg"
+                    ],
+                    "text": "<ol><a href=\"img/x-can-vit\" target=\"_blank\"> <img src=\"img/m-l29.jpg\" width=\"450px\" style=\"float:right; margin-left: 16px; margin-top: 8px; border:1px solid #000; padding:0px;\"></a>    <li><span class=\"g\">Search Tips</span>: Get tips on searching for birth, marriage, and death records.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://thediscoverblog.com/2012/03/06/how-to-search-for-birth-marriage-and-death-records/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">How to Search for Birth, Marriage and Death Records - 2012</span></a></li><br><li><span class=\"g\">BMD Records</span>: Use the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.olivetreegenealogy.com/can/bdm/index.shtml\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">Birth, Deaths, and Marriages Exchange</a> on the Olive Tree Genealogy site. Scroll down to see BMD records for particular counties.</li><li><span class=\"g\">Death Records</span>: Access <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://ancestorsatrest.com/\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">Canadian death records</a> on the AncestorAtRest site. Scroll down to see records for eastern provinces.</li><li><span class=\"g\">Death Indexes</span>: Find <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.deathindexes.com/canada.html\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">Canadian online death indexes</a> at DeathIndexes.com.</li><li><span class=\"g\">Obituaries</span>: Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.canadianobits.com/\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">Canadian Obits</a> site for obituaries and death records in Canada.</li><li>Find additional obituary resources in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.vpl.ca/guide/genealogy-and-family-history/obituary-research\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">Vancouver Public Library</a> site.</li></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Census",
+        "name": "Census",
+        "section_name": "Learn about the Canadian census and directories.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about using Canadian census records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Canada_Census#Online_Canadian_Census_Indexes_and_Images\" target=\"_blank\">Online Canadian Censuses</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Canada_Census#National_Censuses\" target=\"_blank\">National Censuses</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Canada_Census#Indexes_to_the_National_Censuses\" target=\"_blank\">Indexes to the National Censuses</a></li> <li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Canada_Census#Colonial.2C_Provincial.2C_and_Local_Censuses\" target=\"_blank\">Colonial, Provincial, and Local Censuses</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Canada_Census#Online_Resources\" target=\"_blank\">Online Resources</a></li></ul></span>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for census research strategies. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-can-cen.jpg"
+                    ],
+                    "text": "<ol><a href=\"img/x-can-cen.jpg\" target=\"_blank\"> <img src=\"img/x-can-cen.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 350px;; border:1px solid #000; padding:0px;\"></a><li><span class=\"g\">FamilySearch</span>: Learn about the Canadian census in these articles. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Canada_Census\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: the Canadian Census</span></a> &nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('usa');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"usa\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Canada_Census#Online_Canadian_Census_Indexes_and_Images\" target=\"_blank\">Online Canadian Censuses</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Canada_Census#National_Censuses\" target=\"_blank\">National Censuses</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Canada_Census#Indexes_to_the_National_Censuses\" target=\"_blank\">Indexes to the National Censuses</a></li> <li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Canada_Census#Colonial.2C_Provincial.2C_and_Local_Censuses\" target=\"_blank\">Colonial, Provincial, and Local Censuses</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Canada_Census#Online_Resources\" target=\"_blank\">Online Resources</a></li></ul></span></div><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/en/wiki/img_auth.php/0/0a/Canadian_Census_Records.pdf\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Canadian Census Records—4 pgs. - 2017</span></a></li><br><li>Watch this video to learn more about using Canadian census records.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/canada-census-research\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS: Canada Census Research—48:47 - 2017</span></a></li><br><li><span class=\"g\">Library &amp; Archives</span>: Learn about the Canadian census in this article from the Library and Archives of Canada.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.bac-lac.gc.ca/eng/census/Pages/census.aspx\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Censuses</span></a></li><br><li><span class=\"g\">Early Records</span>: Learn about researching early census records in Canada.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://thediscoverblog.com/2018/08/21/researching-early-census-records/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Researching Early Census Records - 2018</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about each edition of the Canadian census records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for census resources. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-typing-hands.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/y-typing-hands.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 350px;; border:1px solid #000; padding:0px;\"><h5>National Census</h5><ol><li><span class=\"g\">1921</span>: <a class=\"lk\" href=\"https://www.bac-lac.gc.ca/eng/census/1921/Pages/introduction.aspx\" target=\"_blank\">Read</a>&nbsp;&nbsp;<a class=\"lk\" href=\"https://www.ancestryacademy.com/1-2-3-counting-canadians-making-sense-of-the-canadian-census/videos/1921-canadian-census\" target=\"_blank\">Watch</a>&nbsp; &nbsp;<a class=\"lk\" href=\"https://www.youtube.com/watch?v=vAbH82OzwIE\" target=\"_blank\">Tips</a>&nbsp; &nbsp;<a class=\"lk\" href=\"https://www.bac-lac.gc.ca/eng/census/1921/Pages/search.aspx\" target=\"_blank\">Search</a>&nbsp;&nbsp;</li><li><span class=\"g\">1911</span>: <a class=\"lk\" href=\"http://www.bac-lac.gc.ca/eng/census/1911/Pages/about-census.aspx\" target=\"_blank\">Read</a>&nbsp;&nbsp;<a class=\"lk\" href=\"https://www.ancestryacademy.com/1-2-3-counting-canadians-making-sense-of-the-canadian-census/videos/census-records-from-1901-to-1921\" target=\"_blank\">Watch</a>&nbsp; &nbsp;<a class=\"lk\" href=\"https://www.bac-lac.gc.ca/eng/census/1911/Pages/search.aspx\" target=\"_blank\">Search</a></li><li><span class=\"g\">1901</span>: <a class=\"lk\" href=\"http://www.bac-lac.gc.ca/eng/census/1901/Pages/about-census.aspx\" target=\"_blank\">Read</a>&nbsp;&nbsp;<a class=\"lk\" href=\"https://www.ancestryacademy.com/1-2-3-counting-canadians-making-sense-of-the-canadian-census/videos/census-records-from-1901-to-1921\" target=\"_blank\">Watch</a>&nbsp; &nbsp;<a class=\"lk\" href=\"http://www.olivetreegenealogy.com/articles/1901census.shtml\" target=\"_blank\">Tips</a>&nbsp; &nbsp;<a class=\"lk\" href=\"https://www.bac-lac.gc.ca/eng/census/1901/Pages/search.aspx\" target=\"_blank\">Search</a>&nbsp;&nbsp;<a class=\"lk\" href=\"http://www.familysearch.org/wiki/en/File:Canadian_Census_Form_1901.pdf\" target=\"_blank\">Worksheet</a></li><li><span class=\"g\">1891</span>: <a class=\"lk\" href=\"http://www.bac-lac.gc.ca/eng/census/1891/Pages/about-census.aspx\" target=\"_blank\">Read</a>&nbsp;&nbsp;<a class=\"lk\" href=\"https://www.ancestryacademy.com/1-2-3-counting-canadians-making-sense-of-the-canadian-census/videos/1891-canadian-census\" target=\"_blank\">Watch</a>&nbsp; &nbsp;<a class=\"lk\" href=\"https://www.bac-lac.gc.ca/eng/census/1891/Pages/search.aspx\" target=\"_blank\">Search</a>&nbsp; &nbsp;<a class=\"lk\" href=\"https://familysearch.org/wiki/en/File:Canadian_Census_Form_1891.pdf\" target=\"_blank\">Worksheet</a></li><li><span class=\"g\">1881</span>: <a class=\"lk\" href=\"http://www.bac-lac.gc.ca/eng/census/1881/Pages/about-census.aspx\" target=\"_blank\">Read</a>&nbsp;&nbsp;<a class=\"lk\" href=\"https://www.ancestryacademy.com/1-2-3-counting-canadians-making-sense-of-the-canadian-census/videos/1881-canadian-census\" target=\"_blank\">Watch</a>&nbsp; &nbsp;<a class=\"lk\" href=\"https://www.bac-lac.gc.ca/eng/census/1881/Pages/search.aspx\" target=\"_blank\">Search</a></li><li><span class=\"g\">1871</span>: <a class=\"lk\" href=\"http://www.bac-lac.gc.ca/eng/census/1871/Pages/about-census.aspx\" target=\"_blank\">Read</a>&nbsp;&nbsp;<a class=\"lk\" href=\"https://www.ancestryacademy.com/1-2-3-counting-canadians-making-sense-of-the-canadian-census/videos/1871-canadian-census\" target=\"_blank\">Watch</a>&nbsp; &nbsp;<a class=\"lk\" href=\"https://www.bac-lac.gc.ca/eng/census/1871/Pages/search.aspx\" target=\"_blank\">Search</a>&nbsp;&nbsp;<a class=\"lk\" href=\"https://familysearch.org/wiki/en/File:Canadian_Census_Form_1871.pdf\" target=\"_blank\">Worksheet</a></li><li><span class=\"g\">1861</span>: <a class=\"lk\" href=\"http://www.bac-lac.gc.ca/eng/census/1861/Pages/about-census.aspx\" target=\"_blank\">Read</a>&nbsp;&nbsp;<a class=\"lk\" href=\"https://www.ancestryacademy.com/1-2-3-counting-canadians-making-sense-of-the-canadian-census/videos/1861-canadian-census\" target=\"_blank\">Watch</a>&nbsp; &nbsp;<a class=\"lk\" href=\"https://www.bac-lac.gc.ca/eng/census/1861/Pages/search.aspx\" target=\"_blank\">Search</a>&nbsp;&nbsp;<a class=\"lk\" href=\"http://www.familysearch.org/wiki/en/File:Canadian_Census_Form_1861.pdf\" target=\"_blank\">Worksheet</a></li><li><span class=\"g\">1851</span>: <a class=\"lk\" href=\"http://www.bac-lac.gc.ca/eng/census/1851/Pages/about-census.aspx\" target=\"_blank\">Read</a>&nbsp;&nbsp;<a class=\"lk\" href=\"https://www.ancestryacademy.com/1-2-3-counting-canadians-making-sense-of-the-canadian-census/videos/1851-canadian-census\" target=\"_blank\">Watch</a>&nbsp; &nbsp;<a class=\"lk\" href=\"https://www.bac-lac.gc.ca/eng/census/1851/Pages/search.aspx\" target=\"_blank\">Search</a>&nbsp; &nbsp;<a class=\"lk\" href=\"https://familysearch.org/wiki/en/File:Canadian_Census_Form_1851.pdf\" target=\"_blank\">Worksheet</a></li><br></ol><br><h5>Other Censuses</h5><ol><li><a class=\"lk\" href=\"https://thediscoverblog.com/2019/05/02/why-is-that-written-there-insights-into-the-census-of-manitoba-saskatchewan-and-alberta-1926-instructions-to-commissioners-and-enumerators/\" target=\"_blank\">1926 (Manitoba, Saskatchewan and Alberta)</a></li><li><a class=\"lk\" href=\"http://www.bac-lac.gc.ca/eng/census/1871-on/Pages/about-census.aspx\" target=\"_blank\">1871</a> (Ontario)</li><li><a class=\"lk\" href=\"http://www.bac-lac.gc.ca/eng/census/1870/Pages/about-census.aspx\" target=\"_blank\">1870</a> (Manitoba)&nbsp; </li><li><a class=\"lk\" href=\"http://www.bac-lac.gc.ca/eng/census/1842-canada-west/Pages/about-census.aspx\" target=\"_blank\">1842</a> (Canada West)&nbsp;</li><li><a class=\"lk\" href=\"http://www.bac-lac.gc.ca/eng/census/1842-Canada-East/Pages/about-census.aspx\" target=\"_blank\">1842</a> (Canada East)&nbsp;&nbsp; </li><li><a class=\"lk\" href=\"http://www.bac-lac.gc.ca/eng/census/1831/Pages/about-census.aspx\" target=\"_blank\">1831</a> (Lower Canada) </li><li><a class=\"lk\" href=\"http://www.bac-lac.gc.ca/eng/census/1825/Pages/about-census.aspx\" target=\"_blank\">1825</a> (Lower Canada)</li><br></ol><br><h5>Resources</h5><ol><li><span class=\"g\">1921</span>: Here are some tips for using the 1921 Canadian Census. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=vAbH82OzwIE\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">AC—1921 Census of Canada - 2015—5:45</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/vAbH82OzwIE?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li><span class=\"g\">Resources</span>: Explore additional Canadian census resources in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.census-online.com/links/Canada/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Census-Online site</a><a> and the </a><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.genealogybranches.com/canada-census-records.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Genealogy Branches</a> site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://automatedgenealogy.com/index.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Automated Genealogy site</a> for census resources.</li><li><span class=\"g\">Early Records</span>: Explore early Canadian census resources in the AllCensusRecords site: <br><a class=\"lk\" href=\"http://allcensusrecords.com/canada/1861census.shtml\" target=\"_blank\">1861</a>&nbsp;&nbsp;&nbsp;<a class=\"lk\" href=\"http://allcensusrecords.com/canada/1848census.shtml\" target=\"_blank\">1848</a>&nbsp;&nbsp;&nbsp;<a class=\"lk\" href=\"http://allcensusrecords.com/canada/1842census.shtml\" target=\"_blank\">1842</a>&nbsp;&nbsp;&nbsp;<a class=\"lk\" href=\"http://allcensusrecords.com/canada/before1842.shtml\" target=\"_blank\">pre-1842</a></li><li><span class=\"g\">1842</span>: Here are some tips for using the 1842 Canadian Census. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://olivetreegenealogy.blogspot.com/2020/02/genealogy-tip-1842-canadian-census.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">OT—Genealogy Tip: 1842 Canadian Census Returns</span></a></li><br><li>Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.acadian-home.org/census-acadia.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Acadian census records</a> (1671-1763) on the AcadadiaGenWeb site.</li><li><span class=\"g\">1916</span>: Learn about the 1916 Census of Canadian Prairie Provinces. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.bac-lac.gc.ca/eng/census/1916/Pages/about-census.aspx\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Census of Canadian Prairie Provinces, 1916</span></a></li><br></ol><br><a class=\"lk\" href=\"javascript:toggleDiv('a1-bx');\">Exercises</a><div id=\"a1-bx\" class=\"hidden\"><ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for census resources. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\"></div><br><br></ol><h5>National Census</h5><ol><li><span class=\"g\">1921</span>: <a class=\"lk\" href=\"https://www.bac-lac.gc.ca/eng/census/1921/Pages/introduction.aspx\" target=\"_blank\">Read</a>&nbsp;&nbsp;<a class=\"lk\" href=\"https://www.ancestryacademy.com/1-2-3-counting-canadians-making-sense-of-the-canadian-census/videos/1921-canadian-census\" target=\"_blank\">Watch</a>&nbsp; &nbsp;<a class=\"lk\" href=\"https://www.youtube.com/watch?v=vAbH82OzwIE\" target=\"_blank\">Tips</a>&nbsp; &nbsp;<a class=\"lk\" href=\"https://www.bac-lac.gc.ca/eng/census/1921/Pages/search.aspx\" target=\"_blank\">Search</a>&nbsp;&nbsp;</li><li><span class=\"g\">1911</span>: <a class=\"lk\" href=\"http://www.bac-lac.gc.ca/eng/census/1911/Pages/about-census.aspx\" target=\"_blank\">Read</a>&nbsp;&nbsp;<a class=\"lk\" href=\"https://www.ancestryacademy.com/1-2-3-counting-canadians-making-sense-of-the-canadian-census/videos/census-records-from-1901-to-1921\" target=\"_blank\">Watch</a>&nbsp; &nbsp;<a class=\"lk\" href=\"https://www.bac-lac.gc.ca/eng/census/1911/Pages/search.aspx\" target=\"_blank\">Search</a></li><li><span class=\"g\">1901</span>: <a class=\"lk\" href=\"http://www.bac-lac.gc.ca/eng/census/1901/Pages/about-census.aspx\" target=\"_blank\">Read</a>&nbsp;&nbsp;<a class=\"lk\" href=\"https://www.ancestryacademy.com/1-2-3-counting-canadians-making-sense-of-the-canadian-census/videos/census-records-from-1901-to-1921\" target=\"_blank\">Watch</a>&nbsp; &nbsp;<a class=\"lk\" href=\"http://www.olivetreegenealogy.com/articles/1901census.shtml\" target=\"_blank\">Tips</a>&nbsp; &nbsp;<a class=\"lk\" href=\"https://www.bac-lac.gc.ca/eng/census/1901/Pages/search.aspx\" target=\"_blank\">Search</a>&nbsp;&nbsp;<a class=\"lk\" href=\"http://www.familysearch.org/wiki/en/File:Canadian_Census_Form_1901.pdf\" target=\"_blank\">Worksheet</a></li><li><span class=\"g\">1891</span>: <a class=\"lk\" href=\"http://www.bac-lac.gc.ca/eng/census/1891/Pages/about-census.aspx\" target=\"_blank\">Read</a>&nbsp;&nbsp;<a class=\"lk\" href=\"https://www.ancestryacademy.com/1-2-3-counting-canadians-making-sense-of-the-canadian-census/videos/1891-canadian-census\" target=\"_blank\">Watch</a>&nbsp; &nbsp;<a class=\"lk\" href=\"https://www.bac-lac.gc.ca/eng/census/1891/Pages/search.aspx\" target=\"_blank\">Search</a>&nbsp; &nbsp;<a class=\"lk\" href=\"https://familysearch.org/wiki/en/File:Canadian_Census_Form_1891.pdf\" target=\"_blank\">Worksheet</a></li><li><span class=\"g\">1881</span>: <a class=\"lk\" href=\"http://www.bac-lac.gc.ca/eng/census/1881/Pages/about-census.aspx\" target=\"_blank\">Read</a>&nbsp;&nbsp;<a class=\"lk\" href=\"https://www.ancestryacademy.com/1-2-3-counting-canadians-making-sense-of-the-canadian-census/videos/1881-canadian-census\" target=\"_blank\">Watch</a>&nbsp; &nbsp;<a class=\"lk\" href=\"https://www.bac-lac.gc.ca/eng/census/1881/Pages/search.aspx\" target=\"_blank\">Search</a></li><li><span class=\"g\">1871</span>: <a class=\"lk\" href=\"http://www.bac-lac.gc.ca/eng/census/1871/Pages/about-census.aspx\" target=\"_blank\">Read</a>&nbsp;&nbsp;<a class=\"lk\" href=\"https://www.ancestryacademy.com/1-2-3-counting-canadians-making-sense-of-the-canadian-census/videos/1871-canadian-census\" target=\"_blank\">Watch</a>&nbsp; &nbsp;<a class=\"lk\" href=\"https://www.bac-lac.gc.ca/eng/census/1871/Pages/search.aspx\" target=\"_blank\">Search</a>&nbsp;&nbsp;<a class=\"lk\" href=\"https://familysearch.org/wiki/en/File:Canadian_Census_Form_1871.pdf\" target=\"_blank\">Worksheet</a></li><li><span class=\"g\">1861</span>: <a class=\"lk\" href=\"http://www.bac-lac.gc.ca/eng/census/1861/Pages/about-census.aspx\" target=\"_blank\">Read</a>&nbsp;&nbsp;<a class=\"lk\" href=\"https://www.ancestryacademy.com/1-2-3-counting-canadians-making-sense-of-the-canadian-census/videos/1861-canadian-census\" target=\"_blank\">Watch</a>&nbsp; &nbsp;<a class=\"lk\" href=\"https://www.bac-lac.gc.ca/eng/census/1861/Pages/search.aspx\" target=\"_blank\">Search</a>&nbsp;&nbsp;<a class=\"lk\" href=\"http://www.familysearch.org/wiki/en/File:Canadian_Census_Form_1861.pdf\" target=\"_blank\">Worksheet</a></li><li><span class=\"g\">1851</span>: <a class=\"lk\" href=\"http://www.bac-lac.gc.ca/eng/census/1851/Pages/about-census.aspx\" target=\"_blank\">Read</a>&nbsp;&nbsp;<a class=\"lk\" href=\"https://www.ancestryacademy.com/1-2-3-counting-canadians-making-sense-of-the-canadian-census/videos/1851-canadian-census\" target=\"_blank\">Watch</a>&nbsp; &nbsp;<a class=\"lk\" href=\"https://www.bac-lac.gc.ca/eng/census/1851/Pages/search.aspx\" target=\"_blank\">Search</a>&nbsp; &nbsp;<a class=\"lk\" href=\"https://familysearch.org/wiki/en/File:Canadian_Census_Form_1851.pdf\" target=\"_blank\">Worksheet</a></li><br></ol><h5>Other Censuses</h5><ol><li><a class=\"lk\" href=\"https://thediscoverblog.com/2019/05/02/why-is-that-written-there-insights-into-the-census-of-manitoba-saskatchewan-and-alberta-1926-instructions-to-commissioners-and-enumerators/\" target=\"_blank\">1926 (Manitoba, Saskatchewan and Alberta)</a></li><li><a class=\"lk\" href=\"http://www.bac-lac.gc.ca/eng/census/1871-on/Pages/about-census.aspx\" target=\"_blank\">1871</a> (Ontario)</li><li><a class=\"lk\" href=\"http://www.bac-lac.gc.ca/eng/census/1870/Pages/about-census.aspx\" target=\"_blank\">1870</a> (Manitoba)&nbsp; </li><li><a class=\"lk\" href=\"http://www.bac-lac.gc.ca/eng/census/1842-canada-west/Pages/about-census.aspx\" target=\"_blank\">1842</a> (Canada West)&nbsp;</li><li><a class=\"lk\" href=\"http://www.bac-lac.gc.ca/eng/census/1842-Canada-East/Pages/about-census.aspx\" target=\"_blank\">1842</a> (Canada East)&nbsp;&nbsp; </li><li><a class=\"lk\" href=\"http://www.bac-lac.gc.ca/eng/census/1831/Pages/about-census.aspx\" target=\"_blank\">1831</a> (Lower Canada) </li><li><a class=\"lk\" href=\"http://www.bac-lac.gc.ca/eng/census/1825/Pages/about-census.aspx\" target=\"_blank\">1825</a> (Lower Canada)</li><br></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "1921: Here are some tips for using the 1921 Canadian Census.",
+                                "links": [
+                                    {
+                                        "link": "https://www.youtube.com/watch?v=vAbH82OzwIE",
+                                        "text": "AC—1921 Census of Canada - 2015—5:45",
+                                        "type": "video"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Resources: Explore additional Canadian census resources in the ",
+                                "links": [
+                                    {
+                                        "link": "http://www.census-online.com/links/Canada/",
+                                        "text": "Census-Online site",
+                                        "type": "video"
+                                    },
+                                    {
+                                        "link": "",
+                                        "text": "and the",
+                                        "type": "video"
+                                    },
+                                    {
+                                        "link": "https://www.genealogybranches.com/canada-census-records.html",
+                                        "text": "Genealogy Branches",
+                                        "type": "video"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Explore the ",
+                                "links": [
+                                    {
+                                        "link": "http://automatedgenealogy.com/index.html",
+                                        "text": "Automated Genealogy site",
+                                        "type": "video"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Early Records: Explore early Canadian census resources in the AllCensusRecords site:1861    1848    1842    pre-1842",
+                                "links": [
+                                    {
+                                        "link": "http://allcensusrecords.com/canada/1861census.shtml",
+                                        "text": "1861",
+                                        "type": "video"
+                                    },
+                                    {
+                                        "link": "http://allcensusrecords.com/canada/1848census.shtml",
+                                        "text": "1848",
+                                        "type": "video"
+                                    },
+                                    {
+                                        "link": "http://allcensusrecords.com/canada/1842census.shtml",
+                                        "text": "1842",
+                                        "type": "video"
+                                    },
+                                    {
+                                        "link": "http://allcensusrecords.com/canada/before1842.shtml",
+                                        "text": "pre-1842",
+                                        "type": "video"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "1842: Here are some tips for using the 1842 Canadian Census.",
+                                "links": [
+                                    {
+                                        "link": "http://olivetreegenealogy.blogspot.com/2020/02/genealogy-tip-1842-canadian-census.html",
+                                        "text": "OT—Genealogy Tip: 1842 Canadian Census Returns",
+                                        "type": "document"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Explore ",
+                                "links": [
+                                    {
+                                        "link": "http://www.acadian-home.org/census-acadia.html",
+                                        "text": "Acadian census records",
+                                        "type": "video"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "1916: Learn about the 1916 Census of Canadian Prairie Provinces.",
+                                "links": [
+                                    {
+                                        "link": "https://www.bac-lac.gc.ca/eng/census/1916/Pages/about-census.aspx",
+                                        "text": "Census of Canadian Prairie Provinces, 1916",
+                                        "type": "document"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Learn about using Canadian directories.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-can-dir.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/x-can-dir.jpg\" width=\"350px\" style=\"float:right; margin-left: 16px; margin-top: 8px; border:1px solid #000; padding:0px;\">    <li><span class=\"g\">FamilySearch</span>: Learn about Canadian directories in this FamilySearch Wiki article.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/Canada_Directories\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Canada Directories</span></a></li><br><li><span class=\"g\">Library and Archives Canada</span>: Explore Canadian directories on the Library and Archives Canada site. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.bac-lac.gc.ca/eng/discover/directories-collection/Pages/directories-collection.aspx\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Canadian Directories Collection</span></a></li><br></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Church, Cemetery",
+        "name": "Church and Cemetery",
+        "section_name": "Learn about Canadian church, religious, and cemetery records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Canadian church records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Canada_Church_Records#Introduction\" target=\"_blank\">Introduction</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Canada_Church_Records#Record-keeping_Practices\" target=\"_blank\">Record-Keeping Practices</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Canada_Church_Records#Locating_Church_Records\" target=\"_blank\">Locating Church Records</a></li> <li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Canada_Church_Records#Research_Strategies\" target=\"_blank\">Research Strategies</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Canada_Church_Records#Tips\" target=\"_blank\">Tips</a></li></ul></span>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for church record research. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-can-church.jpg"
+                    ],
+                    "text": "<ol><a href=\"img/x-can-church.jpg\" target=\"_blank\"> <img src=\"img/x-can-church.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"></a> <li><span class=\"g\">FamilySearch</span>: Learn about Canadian church records in this FamilySearch Wiki article.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Canada_Church_Records\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Canadian Church Records</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('usa');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"usa\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Canada_Church_Records#Introduction\" target=\"_blank\">Introduction</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Canada_Church_Records#Record-keeping_Practices\" target=\"_blank\">Record-Keeping Practices</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Canada_Church_Records#Locating_Church_Records\" target=\"_blank\">Locating Church Records</a></li> <li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Canada_Church_Records#Research_Strategies\" target=\"_blank\">Research Strategies</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Canada_Church_Records#Tips\" target=\"_blank\">Tips</a></li></ul></span></div></li><br><li><span class=\"g\">Parish Registers</span>: Learn about Canadian parish registers these articles.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.bac-lac.gc.ca/eng/discover/vital-statistics-births-marriages-deaths/Pages/church-records-indexes.aspx\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Church and Parish Registers</span></a> <br></li><br><li><span class=\"g\">Jewish</span>: Explore Jewish genealogy in Canada in this guide from the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://libguides.cjh.org/genealogyguides/canada\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Center for Jewish History site</a>.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://bloodandfrogs.com/encyclopedia/canada\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Jewish Genealogy Encyclopedia</a> for Jewish resources in Canada.</li><li><span class=\"g\">Christian Denominations</span>: For information on church records for Christian denominations Canada, see the <a class=\"lk\" href=\"faiths-catholic.html\">Catholic</a> and <a class=\"lk\" href=\"faiths-protestant.html\">Protestant</a> sections in Faiths menu.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://presbyterianarchives.ca/finding-aids/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Presbyterian Church in Canada Archives</a> site.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Canadian cemetery records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for cemetery record research. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-can-cem.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/photos/churchyard-cemetery-ruins-graveyard-380913/\" target=\"_blank\"> <img src=\"img/x-can-cem.jpg\" width=\"100%\" ;=\"\" style=\"float:right; margin-top: 8px; margin-left: 16px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a>    <li><span class=\"g\">FamilySearch</span>: Explore Canada cemetery records in this article.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Canada_Cemeteries\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Canada Cemetery Records</span></a> </li><br><li><span class=\"g\">Tombstones</span>: Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://cemetery.canadagenweb.org/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Cemetery Project</a> on the CanadaGenWeb site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.canadianheadstones.com/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Canadian Headstones</a> photo project.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.findagrave.com/cemetery-browse/Canada?id=country_10\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Find A Grave site</a> for cemetery records.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://billiongraves.com/site-map?country=Canada\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">BillionGraves site</a> for cemetery records.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://ancestorsatrest.com/cemetery_records/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">AncestorsAtRest site</a> for cemetery records. Scroll down to the Canadian section.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.interment.net/can/index.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Interment.net</a> website to search Canadian cemetery records.</li></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Emigration and Immigration",
+        "name": "Emigration and Immigration",
+        "section_name": "Learn about Canadian emigration and immigration.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Canada emigration and immigration.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Canada_Emigration_and_Immigration#Online_Records\" target=\"_blank\">Locating Online Records</a><br> </li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Canada_Emigration_and_Immigration#Emigration_and_Immigration\" target=\"_blank\">Emigration and Immigration</a><br></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Canada_Emigration_and_Immigration#Websites\" target=\"_blank\">Websites</a></li></ul></span>"
+                        },
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=u3iRnCwoJjU#t=0m36s\" target=\"_blank\">Irish immigration to Canada timeline</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=u3iRnCwoJjU#t=2m34s\" target=\"_blank\">The Great Famine</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=u3iRnCwoJjU#t=3m36s\" target=\"_blank\">A new life in Canada</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=u3iRnCwoJjU#t=5m23s\" target=\"_blank\">Coffin ships</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=u3iRnCwoJjU#t=6m37s\" target=\"_blank\">Passenger list records</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=u3iRnCwoJjU#t=13m17s\" target=\"_blank\">Grosse Ile</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=u3iRnCwoJjU#t=16m14s\" target=\"_blank\">Census records</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=u3iRnCwoJjU#t=19m47s\" target=\"_blank\">Church records</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=u3iRnCwoJjU#t=21m2s\" target=\"_blank\">Land records</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=u3iRnCwoJjU#t=22m4s\" target=\"_blank\">Newspapers</a></li></ul></span>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for immigration research. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-can-imm.jpg"
+                    ],
+                    "text": "<ol><a href=\"img/x-can-imm.jpg\" target=\"_blank\"> <img src=\"img/x-can-imm.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px;\"></a> <li><span class=\"g\">FamilySearch</span>: Learn about Canada emigration and immigration in these articles. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Canada_Emigration_and_Immigration\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Canada Emigration and Immigration</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('usa');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"usa\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Canada_Emigration_and_Immigration#Online_Records\" target=\"_blank\">Locating Online Records</a><br> </li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Canada_Emigration_and_Immigration#Emigration_and_Immigration\" target=\"_blank\">Emigration and Immigration</a><br></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Canada_Emigration_and_Immigration#Websites\" target=\"_blank\">Websites</a></li></ul></span></div><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.genguide.co.uk/source/canada-emigration/n\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">GG—Canada (Emigration)</span></a></li><br><li><span class=\"g\">Pre-1865</span>: Learn about Immigration to Canada before 1865. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.olivetreegenealogy.com/articles/immcanpre1865.shtml\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">OT—Immigration to Canada before 1865</span></a><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://thediscoverblog.com/2014/01/09/validating-your-ancestors-arrival-in-canada-before-1865/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Validating your ancestor's arrival in Canada before 1865 - 2014</span></a></li><br><li><span class=\"g\">Ships &amp; Passengers</span>: Learn about ship manifests and passenger lists.<br><br><span class=\"star notranslate\">☆</span><a href=\"http://olivetreegenealogy.blogspot.com/2020/02/finding-ships-passenger-list-in-1852.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">OT—Finding a Ships Passenger List in 1852 - 2020</span></a></li><br><li>Find more resources for passenger lists to Canada. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://nanaimofamilyhistory.ca/passenger-list-project/\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Nanaimo Family History Society: Ships Passenger Lists</span></a><br><span class=\"star notranslate\">☆</span><a href=\"http://ukcdngenealogy.blogspot.com/2018/08/genealogy-reference-passenger-lists.html\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Genealogy Reference - Passenger Lists - 2018</span></a></li><br><li><span class=\"g\">Search:</span> Explore immigrant records on <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://geneofun.on.ca/canadagenweb/itc/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">CanadaGenWeb's Immigrants to Canada List</a>.</li><li><span class=\"g\">Border Crossings</span>: Learn about Canadian border crossings to the U.S.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/united-states-immigration-and-canadian-border-crossing\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">United States Immigration and Canadian Border Crossing - 2017</span></a></li><br><li><span class=\"g\">National Land Settlement</span>: Learn how the Canadian National Land Settlement Association affected immigraion records.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://thediscoverblog.com/2019/02/07/the-story-of-the-canadian-national-land-settlement-association/\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">The Story of the Canadian National Land Settlement Association - 2019</span></a></li><br><li><span class=\"g\">Great Britain</span>: Learn about emigration from Great Britain to Canada.<br><br><span class=\"star notranslate\">☆</span><a href=\"http://ukcdngenealogy.blogspot.com/2020/02/finding-your-lost-ancestors-in-canada.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Finding Your Lost Ancestors in Canada - 2020</span></a><br><span class=\"star notranslate\">☆</span><a href=\"http://ukcdngenealogy.blogspot.com/2020/02/finding-your-lost-ancestors-in-canada.html\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">AC—Researching your British Home Children Ancestors—47:05 - 2020</span></a></li><br><li>Learn about Irish settlement in Canada.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=u3iRnCwoJjU\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">RT—Escaping the Famine: Irish Settlement in Canada—24:59 - 2022</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('famine');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"famine\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=u3iRnCwoJjU#t=0m36s\" target=\"_blank\">Irish immigration to Canada timeline</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=u3iRnCwoJjU#t=2m34s\" target=\"_blank\">The Great Famine</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=u3iRnCwoJjU#t=3m36s\" target=\"_blank\">A new life in Canada</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=u3iRnCwoJjU#t=5m23s\" target=\"_blank\">Coffin ships</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=u3iRnCwoJjU#t=6m37s\" target=\"_blank\">Passenger list records</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=u3iRnCwoJjU#t=13m17s\" target=\"_blank\">Grosse Ile</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=u3iRnCwoJjU#t=16m14s\" target=\"_blank\">Census records</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=u3iRnCwoJjU#t=19m47s\" target=\"_blank\">Church records</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=u3iRnCwoJjU#t=21m2s\" target=\"_blank\">Land records</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=u3iRnCwoJjU#t=22m4s\" target=\"_blank\">Newspapers</a></li></ul></span></div><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/u3iRnCwoJjU?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Canadian naturalization and citizenship records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for naturalization research. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-can-nat.jpg"
+                    ],
+                    "text": "<ol><a href=\"img/x-can-nat.jpg\" target=\"_blank\"> <img src=\"img/x-can-nat.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"></a><li><span class=\"g\">Library &amp; Archives</span>: Get an introduction to naturalization and citizenship in Library and Archives, Canada. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://library-archives.canada.ca/eng/collection/research-help/genealogy-family-history/immigration/pages/citizenship-naturalization.aspx\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Library and Archives, Canada</span></a></li><br><li><span class=\"g\">Naturalization</span>: Explore naturalization records, from <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.bac-lac.gc.ca/eng/discover/immigration/citizenship-naturalization-records/naturalized-records-1915-1951/Pages/search-naturalization-1915-1939.aspx\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">1915-1951</a>.</li><li>Explore naturalization records, from Upper Canada and Canada West, <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.bac-lac.gc.ca/eng/discover/immigration/citizenship-naturalization-records/naturalization-upper-western-1828-1850/Pages/search.aspx\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">1828-1850</a>.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore additional immigration resources.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/boat1.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/boat1.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"><li><span class=\"g\">FamilySearch</span>: Use the <a class=\"lk\" href=\"https://familysearch.org/wiki/en/Canada_Emigration_and_Immigration#Websites\" target=\"_blank\">Weblinks</a> section of the FamilySearch Wiki page for additional resources on emigration and immigration.</li><li>Find additional immigration sources in these articles. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://olivetreegenealogy.blogspot.com/2017/04/find-ancestor-to-canada-in-poor-law.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">OT—Find an Ancestor to Canada - 2017</span></a><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.vpl.ca/guide/genealogy-and-family-history/immigration-records\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Immigration Records</span></a></li><br><li><span class=\"g\">Immigrant Ships</span>: Explore the  <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://immigrantships.net/index2.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Immigrant Ship site</a>. Select a Volume, then choose Canada as the departure or arrival location.</li><li>Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.theshipslist.com/Research/canadarecords.shtml\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">immigration record resources</a> on TheShipsList.com site.</li><li><span class=\"g\">Chinese</span>: Explore <a class=\"lk\" href=\"https://www.vpl.ca/guide/chinese-canadian-genealogy\" target=\"_blank\">Chinese-Canadian genealogy</a> on the Vancouver Public Library site.</li><li>Learn more about Chinese-Canadian genealogy in this Ancestry video. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=W3vV9RlZR7w\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">AC—Chinese-Canadian Genealogy—43:51 - 2020</span></a></li><br><li><span class=\"g\">Facebook</span>: Visit the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.facebook.com/groups/805706553267171\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Canadian Germans of Volga Russia Ancestry</a> Facebook page.</li><li>Visit the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.facebook.com/groups/1713711875541554\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Clans And Scottish Societies Of Canada (CASSOC)</a> Facebook page.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about French-Canadian research.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-can-french.png"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/photos/canada-quebec-old-quebec-lower-town-1092352/\" target=\"_blank\"><img src=\"img/x-can-french.png\" alt=\"\" width=\"400px\" style=\"float:right; margin-left: 12px; border:1px solid #000; padding:0px;\"></a><li>Learn more about French-Canadian research in this article and video.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.thoughtco.com/researching-french-canadian-ancestors-1421727\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">TH—Researching French-Canadian Ancestors</span></a> <br><span class=\"star notranslate\">☆</span><a href=\"https://youtu.be/bU2_1VMJT-g\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">AA—French Canadian Resources at NEHGS—70:58</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/bU2_1VMJT-g?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li>Watch these videos for tips on tracing French-Canadian ancestry.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.ancestryacademy.com/tracing-french-canadian-ancestors-and-learning-their-stories\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">AAC—Tracing French-Canadian Ancestors and Learning Their Stories—Video Series (account required)</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=h-W3lktsVsg\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">GTV—French-Canadian Genealogy Research—32:23</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/h-W3lktsVsg?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li>Learn about online databases for French-Canadian research.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.thoughtco.com/online-databases-for-french-canadian-ancestry-1421729\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">TH—Online Databases for French-Canadian Ancestors</span></a></li><br><li>Learn how to overcome roadblocks in your French-Canadian research.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.legacytree.com/blog/french-canadian-research-roadblocks\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">LT—French-Canadian Research Roadblocks</span></a></li><br></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Land and Property",
+        "name": "Land and Property",
+        "section_name": "Learn about Canada land and property.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Canada land and property.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Canada_Land_and_Property#Canadian_Land_Terminology\" target=\"_blank\">Canadian Land Terminology</a></li> <li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Canada_Land_and_Property#Land_Division_Systems\" target=\"_blank\">Land Division Systems</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Canada_Land_and_Property#Records\" target=\"_blank\">Records</a></li></ul></span>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-can-land.JPG"
+                    ],
+                    "text": "<ol><a href=\"img/x-can-land.JPG\" target=\"_blank\"> <img src=\"img/x-can-land.JPG\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 350px;\"></a><li><span class=\"g\">FamilySearch</span>: Learn about Canada land and property in this FamilySearch Wiki article.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Canada_Land_and_Property\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Canada Land and Property</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('usa');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"usa\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Canada_Land_and_Property#Canadian_Land_Terminology\" target=\"_blank\">Canadian Land Terminology</a></li> <li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Canada_Land_and_Property#Land_Division_Systems\" target=\"_blank\">Land Division Systems</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Canada_Land_and_Property#Records\" target=\"_blank\">Records</a></li></ul></span></div></li><br><li><span class=\"g\">Wills &amp; Estates</span>: Learn about wills and estates on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.vpl.ca/guide/genealogy-and-family-history/wills-and-estates\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Vancouver Public Library</a> site.</li><li><span class=\"g\">Probate Records</span>: Learn about Canadian probate records in this FamilySearch Wiki article.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/Canada_Probate_Records\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Canada Probate Records</span></a></li><br><li><span class=\"g\">Land &amp; Tax Records</span>: Learn about Canada land and tax records in this Thoughtco article.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.thoughtco.com/canadian-land-and-tax-records-1422119\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">TH—Canadian Land and Tax Records - 2019</span></a></li><br><li>Explore land records on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://library-archives.canada.ca/eng/collection/research-help/genealogy-family-history/Pages/land-records.aspx\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Library and Archives Canada</a> site.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Canadian land records in the Library and Archives, Canada website.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for land and property research. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-can-land1.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/photos/british-columbia-canada-fog-foggy-3787200/\" target=\"_blank\"> <img src=\"img/x-can-land1.jpg\" width=\"100%\" ;=\"\" style=\"float:right; margin-top: 8px; margin-left: 16px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a>    <li>Access <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.bac-lac.gc.ca/eng/discover/land/Pages/land-records.aspx\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Canadian land records and resources</a>.</li><li>Explore Land Petitions of Lower Canada, <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.bac-lac.gc.ca/eng/discover/land/land-petitions-lower-canada-1764-1841/Pages/land-petitions-lower-canada.aspx\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">1764-1841</a>.</li><li>Explore Land Petitions of Upper Canada, <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.bac-lac.gc.ca/eng/discover/land/land-petitions-upper-canada-1763-1865/Pages/search-petitions-upper-canada.aspx\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">1763-1865</a>.</li><li>Explore Land Boards of Upper Canada, <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.bac-lac.gc.ca/eng/discover/land/land-boards-upper-canada/Pages/search-land-boards-upper-canada.aspx\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">1765-1804</a>.</li><li>Explore Land Grants of Western Canada, <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.bac-lac.gc.ca/eng/discover/land/land-grants-western-canada-1870-1930/Pages/search.aspx\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">1870-1930</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Military Records",
+        "name": "Military Records",
+        "section_name": "Learn about Canada military records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Canadian military records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Canada_Military_Records#Online_Records\" target=\"_blank\">Military Online Records</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Canada_Military_Records#Military_Records\" target=\"_blank\">Military Records</a></li></ul></span>"
+                        },
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=UHmzW8Ezma8#t=1m40s\" target=\"_blank\">Canada and the First World War</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=UHmzW8Ezma8#t=2m45s\" target=\"_blank\">Military service files</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=UHmzW8Ezma8#t=4m07s\" target=\"_blank\">Search demonstration</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=UHmzW8Ezma8#t=11m45s\" target=\"_blank\">Abbreviations used in service files</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=UHmzW8Ezma8#t=12m46s\" target=\"_blank\">Attestation paper</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=UHmzW8Ezma8#t=13m38s\" target=\"_blank\">Medal card</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=UHmzW8Ezma8#t=14m40s\" target=\"_blank\">Record of service</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=UHmzW8Ezma8#t=15m26s\" target=\"_blank\">Casualty form</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=UHmzW8Ezma8#t=17m57s\" target=\"_blank\">Resources for interpreting military service files</a></li></ul></span>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-can-mil.jpg"
+                    ],
+                    "text": "<ol><a href=\"img/x-can-mil.jpg\" target=\"_blank\"> <img src=\"img/x-can-mil.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 350px;; border:1px solid #000; padding:0px;\"></a><li><span class=\"g\">FamilySearch</span>: Learn about Canada military records in this FamilySearch Wiki article.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Canada_Military_Records\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20px\"> <span class=\"re\">FS—Wiki: Canada Military Records</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('usa');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"usa\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Canada_Military_Records#Online_Records\" target=\"_blank\">Military Online Records</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Canada_Military_Records#Military_Records\" target=\"_blank\">Military Records</a></li></ul></span></div></li><br><li><span class=\"g\">Women</span>: Find photographs and records for Canadian women serving in the military.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://thediscoverblog.com/2019/05/16/women-in-the-war-the-womens-royal-canadian-naval-service-wrcns/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20px\"> <span class=\"re\">Women in the War: The Women's Royal Canadian Naval Service (WRCNS)</span></a></li><br><li><span class=\"g\">Loyalists</span>: Learn about <a class=\"lk\" href=\"http://www.bac-lac.gc.ca/eng/discover/military-heritage/loyalists/Pages/introduction.aspx\" target=\"_blank\">Loyalists who settled in Canada</a> after the American Revolutionary War. </li><br><li><span class=\"g\">Resources</span>: Learn about more resources for Canadian military records.<br><br><span class=\"star notranslate\">☆</span><a href=\"http://ukcdngenealogy.blogspot.com/2017/02/finding-your-military-ancestors-in.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20px\"> <span class=\"re\">Finding Your Military Ancestors in Canada</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://www.vpl.ca/guide/genealogy-and-family-history/military-records\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20px\"> <span class=\"re\">Military Records</span></a></li><br><li>Learn about Canadian military service files.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=UHmzW8Ezma8\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">RT: In the Trenches: Military Service Files—19:52 - 2022</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('trenches');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"trenches\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=UHmzW8Ezma8#t=1m40s\" target=\"_blank\">Canada and the First World War</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=UHmzW8Ezma8#t=2m45s\" target=\"_blank\">Military service files</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=UHmzW8Ezma8#t=4m07s\" target=\"_blank\">Search demonstration</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=UHmzW8Ezma8#t=11m45s\" target=\"_blank\">Abbreviations used in service files</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=UHmzW8Ezma8#t=12m46s\" target=\"_blank\">Attestation paper</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=UHmzW8Ezma8#t=13m38s\" target=\"_blank\">Medal card</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=UHmzW8Ezma8#t=14m40s\" target=\"_blank\">Record of service</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=UHmzW8Ezma8#t=15m26s\" target=\"_blank\">Casualty form</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=UHmzW8Ezma8#t=17m57s\" target=\"_blank\">Resources for interpreting military service files</a></li></ul></span></div><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/UHmzW8Ezma8?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li></ol><h5>WWI and WWII</h5><ol><li><span class=\"g\">WWI</span>: Learn about WWI Canadian military records available online.<br><br><span class=\"star notranslate\">☆</span><a href=\"http://olivetreegenealogy.blogspot.com/2017/02/updated-canadian-ww1-soldier-files.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20px\"> <span class=\"re\">OT—Updated Canadian WWI Soldier Files</span></a></li><br><li>Here is a case study for using Canadian military records in WWI research.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://thediscoverblog.com/2019/11/09/recognition-and-remembrance-a-metis-soldier-in-the-canadian-expeditionary-force-1917-1918/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20px\"> <span class=\"re\">A Métis soldier in the Canadian Expeditionary Force, 1917–1918</span></a></li><br><li><span class=\"g\">WWII</span>: Learn about records for Canadians involved in the WWII D-Day invasion.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://thediscoverblog.com/2019/07/04/a-selection-of-records-about-d-day-and-the-normandy-campaign-june-6-to-august-30-1944/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20px\"> <span class=\"re\">A selection of records about D-Day and the Normandy Campaign, June 6 to August 30, 1944</span></a></li><br><li>Find information about Canadian war brides on the <a class=\"lk\" href=\"http://www.canadianwarbrides.com/\" target=\"_blank\">Canadian War Brides website</a>.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Canadian military records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for military research. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-can-mil1.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/photos/remembrance-day-in-canada-3542945/\" target=\"_blank\"> <img src=\"img/x-can-mil1.jpg\" width=\"100%\" ;=\"\" style=\"float:right; margin-top: 8px; margin-left: 16px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a>    <li>Explore Canadian military resources on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cangenealogy.com/military.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">CanGenealogy site</a>.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://canadianmilitaryproject.com/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Canadian Military Project</a>.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.veterans.gc.ca/eng/remembrance/memorials/canada\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Veterans Affairs Canada</a> site for Canadian memorial records.</li><li>Explore resources in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.canadiangreatwarproject.com/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\"><img src=\"img/d.png\" width=\"2\">Canadian Great War Project</a> site.</li><li>Find records for fallen soldiers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://canadianfallenheroes.com/in-memoriam/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Canadian Fallen Heroes</a> site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.casualtyforms.org/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Casualty Forms </a> and <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.rafmuseumstoryvault.com/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Story Vault</a> sections of the Royal Air Force site for records of WWI casualties.</li><li>Read wartime letters from ancestors on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://pastvoices.com/canada/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Past Voices</a> site.</li></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Maps and Gazetteers",
+        "name": "Maps and Gazetteers",
+        "section_name": "Learn about Canada maps and gazetteers.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Canada maps and gazetteers.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-can-map.png"
+                    ],
+                    "text": "<ol><a href=\"https://commons.wikimedia.org/wiki/File:Political_map_of_Canada.png\" target=\"_blank\"> <img src=\"img/x-can-map.png\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"></a> <li><span class=\"g\">Maps</span>: Learn about Canada maps in this FamilySearch Wiki article.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Canada_Maps\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Canada Maps</span></a></li><br><li>See an <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Canada_Genealogy#Canada_Clickable_Map\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">interactive map</a> for Canada provinces.</li><li><span class=\"g\">Gazetteers</span>: Learn about Canada gazetteers in this FamilySearch Wiki article.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Canada_Gazetteers\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Canada Gazetteers</span></a></li><br><li>Learn about the Canadian County Atlas Database, covering, Ontario, Quebec, and the Maritime provinces.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://fromshepherdsandshoemakers.com/2020/01/19/robert-hodgkinsons-land/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Robert Hodgkinson's Land - 2020</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Canadian map resources.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.davidrumsey.com/luna/servlet/view/search?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&amp;q=canada&amp;search=Go\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">David Rumsey collection</a> of Canada maps.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.canadiana.ca/collection-maps\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Canadiana maps collection</a>.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.nrcan.gc.ca/earth-sciences/geography/querying-canadian-geographical-names-database/9170\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Canadian Geographic Names database</a>.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.mapsofworld.com/canada/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">MapsOfWorld site</a> for maps of Canada and its provinces.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.oldmapsonline.org/en/Canada\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Old Maps Online site</a> for Canada maps.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://commons.wikimedia.org/wiki/Atlas_of_Canada\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Atlas of Canada</a> on the Wikipedia site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://commons.wikimedia.org/wiki/Category:Old_maps_of_Canada\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Old Maps of Canada</a> on the Wikipedia site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Newspapers",
+        "name": "Newspapers",
+        "section_name": "Learn about Canada newspapers.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Canada newspapers.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-can-news.jpg"
+                    ],
+                    "text": "<ol><a href=\"img/x-can-news.jpg\" target=\"_blank\"> <img src=\"img/x-can-news.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"></a><li><span class=\"g\">FamilySearch</span>: Learn about Canada newspapers in this FamilySearch Wiki article.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Canada_Newspapers\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Canada Newspapers</span></a><br><span class=\"qp1\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"><span class=\"qp\">&nbsp;&nbsp;<a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Canada_Newspapers#Nationwide_Newspapers\" target=\"_blank\">Nationwide Newspapers</a><br>&nbsp;&nbsp;<a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Canada_Newspapers#Newspapers\" target=\"_blank\">Newspapers (about)</a><br> &nbsp;&nbsp;<a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Canada_Newspapers#Online_Resources\" target=\"_blank\">Online Resources</a><br>&nbsp;&nbsp;<a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Canada_Newspapers#Births.2C_Marriages.2C_and_Obituaries\" target=\"_blank\">Births, Marriages, and Obituaries</a></span></span></li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Canada newspapers.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Browse the collection of Canadian periodicals, annuals, and newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.canadiana.ca/collection-serials\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Canadiana database</a>.</li><li>Explore historical Canadian newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://theancestorhunt.com/blog/canada-online-historical-newspaper-links/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Ancestor Hunt</a> site.</li><li>Search Canadian newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.onlinenewspapers.com/canada-province-newspapers.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">onlinenewspapers.com</a> site.</li><li>Search Canadian newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.newspapers.com/browse/#523|\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">newspapers.com</a> site.</li><li>Search Canadian newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://library-archives.canada.ca/eng/collection/research-help/pages/newspaper-collection.aspx\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Library and Archives, Canada</a> site.</li><li>Search Canadian newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.abyznewslinks.com/canad.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">ABYZ News Links</a> site.</li><li>Find links to multi-province <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Wikipedia:List_of_online_newspaper_archives#Multiprovince\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Canada newspapers</a> on the Wikipedia site.</li> </ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Record Collections",
+        "name": "Record Collections",
+        "section_name": "Learn about Canadian record collections.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Canadian record collections.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/4-canada-map.gif"
+                    ],
+                    "text": "<ol><img src=\"img/4-canada-map.gif\" alt=\"\" width=\"350px\" style=\"float:right; margin-left: 12px\"><li>Learn about Canadian record collections in this FamilySearch Wiki article.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Canada_Collections\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Canadian Record Collections</span></a></li><br><li>Learn how to search effectively for Canadian records.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.ancestryacademy.com/effective-searching-for-canadian-records\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">AAC—Effective Searching for Canadian Records</span></a></li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Archives and Libraries",
+        "name": "Archives and Libraries",
+        "section_name": "Explore Canadian archives and libraries.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore Canadian archives and Libraries.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-can-lib.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/x-can-lib.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"><li><span class=\"g\">FamilySearch</span>: Explore Canadian archives and libraries in this FamilySearch Wiki article.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Canada_Archives_and_Libraries\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Canadian Archives and Libraries</span></a> </li><br><li><span class=\"g\">Index</span>: Explore the <a class=\"lk\" href=\"https://library-archives.canada.ca/eng/collection/research-help/all-tools-guides/Pages/all-tools-guides.aspx\" target=\"_blank\">A-Z index</a> of the Library and Archives, Canada website.</li><li><span class=\"g\">Directories</span>: Learn more about Canadian directories in this article.<br><br><span class=\"star notranslate\">☆</span><a href=\"http://ukcdngenealogy.blogspot.com/2017/04/finding-your-ancestor-in-canadian.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Finding Your Ancestor in Canadian Directories</span></a> </li><br><li><span class=\"g\">Microfilm</span>: Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://heritage.canadiana.ca/search/browsable?identifier=Genealogy\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Heritage Canadiana</a> for lists of microfilm reels for research.</li><li><span class=\"g\">Books We Own</span>: Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.rootsweb.ancestry.com/~bwo/library.html#Canada\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Books We Own site</a> for books that can be checked out or researched for you by others.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Websites",
+        "name": "Websites",
+        "section_name": "Explore Canadian genealogy websites.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore Canadian websites and resources.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/laptop-fingers1.jpg"
+                    ],
+                    "text": "",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Search Records",
+        "name": "Search Records",
+        "section_name": "Search records from Canada.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Use QUIKLinks, Partners, and GenealogyInTime to quickly search the most common record collections for Canada.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/laptop-hands.jpg"
+                    ],
+                    "text": "",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Get Help",
+        "name": "Get Help",
+        "section_name": "Get help with your Canadian research.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Join a Facebook group for Canadian research.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-facebook.jpg"
+                    ],
+                    "text": "<ol><a href=\"img/y-facebook.jpg\" target=\"_blank\"> <img src=\"img/y-facebook.jpg\" alt=\"\" height=\"170px\" style=\"float:right; margin-top: 6px; margin-left: 36px\"></a> <li>Explore the <a class=\"lk\" href=\"https://www.facebook.com/groups/254254168080045/\" target=\"_blank\"> Canadian Research</a> Facebook group.</li><li>Get help with your Canadian research on the Canada GenWeb site. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://canadagenweb.org/canada-genweb-genealogy-faq.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Canadian Research F.A.Q.</span></a></li><br><li>Explore the FamilySearch <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.facebook.com/groups/855993304493098/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Canada Genealogy Research Community</a> Facebook group.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.facebook.com/ACGS.Society/?fref=ts\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">American-Canadian Genealogy Society</a> Facebook group.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.facebook.com/groups/atlcangen/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Atlantic-Canadian Genealogical Society</a> Facebook group.</li><li>See the <a class=\"lk\" href=\"http://socialmediagenealogy.com/genealogy-on-facebook-list/\" target=\"_blank\">Genealogy on Facebook list</a> of Facebook groups dedicated to helping with research for Canada.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Join a mailing list or message board for Canada research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Get free help with your <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.rootschat.com/forum/canada/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Canada research questions</a> from members of the RootsChat forum.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cyndislist.com/canada/social/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Canadian research mailing lists</a> available on Cyndi's List.</li><li>Join the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ancestry.com/boards/localities.northam.canada/mb.ashx\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Ancestry message board</a> for Canada.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Canada genealogy societies.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/fh-help3.jpg"
+                    ],
+                    "text": "<ol><a href=\"img/fh-help3.jpg\" target=\"_blank\"> <img src=\"img/fh-help3.jpg\" alt=\"\" width=\"350px\" style=\"float:right; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"></a> <span id=\"quik\"><li>Learn about Canada genealogy societies in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Canada_Societies\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Canada Societies</span></a></li><br><li>Learn about resources available through Canadian genealogy societies. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://ukcdngenealogy.blogspot.com/2017/10/find-canadian-genealogy-articles.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Find Canadian Genealogy Articles</span></a></li><br><li>Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cyndislist.com/canada/societies/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Canada genealogy society sites</a> on Cyndi's List.</li><li>Get help at a <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Category:Canada_Family_History_Centers\" target=\"_blank\">family history center in Canada</a>.</li></span></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Geo/Culture/History",
+        "name": "Geography, Culture, and History",
+        "section_name": "Learn about the geography, culture, and history of Canada. \n\t\t\t\t\t\t\n\t\t\t\t\t\t",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore websites and videos.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/c-canada.png"
+                    ],
+                    "text": "<h5>Reference</h5><ol><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Canada_History\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">FamilySearch: History</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Canada_Historical_Geography\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">FamilySearch: Historical Geography</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Canada\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Wikipedia</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.britannica.com/place/Canada\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Encyclopedia Britannica</a></li></ol><h5>For Kids</h5><ol><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.natgeokids.com/uk/discover/geography/countries/facts-about-canada/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">NatGeo for Kids</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ducksters.com/geography/country/canada.php\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Ducksters</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=taG54pZT9JU\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">YouTube: The Canada Song</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=e_okM7Mig6s\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">YouTube: Super Quick History of Canada</a></li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

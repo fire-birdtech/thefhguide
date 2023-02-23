@@ -1,0 +1,198 @@
+[
+    {
+        "nav_name": "Research",
+        "name": "Research",
+        "section_name": "Learn about Latvian research.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=wyC9x4GHvQk\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Latvian genealogy.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for research resources. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-lat-over.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/riga-latvia-city-urban-sky-clouds-102040/\" target=\"_blank\"> <img src=\"img/x-lat-over.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; ; border:1px solid #000; padding:0px;\"></a><li><span class=\"g\">Get Started</span>: Learn about Latvian research in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Latvia_Genealogy\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Latvia Genealogy</span></a></li><br><li>Get started with Latvian research. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.celmina.com/genealogy/2010/04/getting-started-with-latvian-research/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Getting Started with Latvian Research - 2010</span></a></li><br><li><span class=\"g\">Resources</span>: Find more sources for Latvian genealogy research. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.celmina.com/genealogy/2012/05/latvian-genealogy-primer-part-2/\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">Latvian Genealogy Primer – Part 2 - 2012</span></a></li><br><li>Get an overview of the resources at the Latvian State Historical Archives. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.legacytree.com/blog/legacy-tree-onsite-latvian-state-historical-archives\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">LT—The Latvian State Historical Archives</span></a></li><br><li><span class=\"g\">Record Finder</span>: Use the Latvia Record Finder to understand record types for research. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Latvia_Record_Finder\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Latvia Record Finder</span></a></li><br><li><span class=\"g\">Emigration and Immigration</span>: Learn about Brazil emigration and immigration in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Latvia_Emigration_and_Immigration\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Latvia Emigration and Immigration</span></a></li><br> <li>Learn about immigration history and demographics in this Wikipedia article.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Latvian_Americans\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Wikipedia: Latvian Americans</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore additional resources for Latvian research.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-lat-over1.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/photos/churchyard-cemetery-ruins-graveyard-380913/\" target=\"_blank\"> <img src=\"img/x-lat-over1.jpg\" width=\"100%\" ;=\"\" style=\"float:right; margin-top: 8px; margin-left: 16px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a>    <li> Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.arhivi.gov.lv/content.aspx?id=180&amp;mainId=128\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Latvian National Archives site</a>.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.celmina.com/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Latvian Genealogy</a> site for more information.</li><li>Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://feefhs.org/resource/latvia\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Latvia Genealogy Resources</a> on the FEEFHS site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://sites.rootsweb.com/~lvawgw/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Latvian GenWeb</a> site for resources.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://forebears.io/latvia\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Forebears.io site</a> for research records.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.archivesportaleurope.net/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Archives Portal Europe</a> site. Click the Directories link and then select Latvia.</li><li><span class=\"g\">Surnames</span>: Search the <a class=\"lk\" href=\"http://www.celmina.com/surnames/index.php?title=Main_Page\" target=\"_blank\">Latvian Surname Project</a>, a database of Latvian surnames (also searchable by location).</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.geneanet.org/country/search-Latvia-LVA\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Geneanet site</a> for Latvian surnames.</li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Census and Vital Records",
+        "name": "Census and Vital Records",
+        "section_name": "Learn about Latvia census and vital records.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=wyC9x4GHvQk\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Latvia vital and census records.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-lat-flag.png"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/latvia-map-land-borders-flag-1489713/\" target=\"_blank\"> <img src=\"img/x-lat-flag.png\" alt=\"\" width=\"350px\" style=\"float:right; margin-top: 6px; margin-left: 36px;\"></a><li>Learn about Latvia census records in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Latvia_Census\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Latvia Census Records</span></a></li><br><li>Learn about the Raduraksti site, in the Latvian State Historical Archives. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.freegenealogytools.com/2009/09/latvia-vital-records-of-late-19th-early.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Latvia Vital Records - 2009</span></a></li><br><li>Learn about the 1897 All-Russia Census, which included Latvia. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.jewishgen.org/databases/latvia/allrussia.htm\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">JewishGen: 1897 All-Russia Census</span></a></li><br><li>Explore the Raduraksti site for <a class=\"lk\" href=\"https://raduraksti.arhivi.lv/collections/1:8\" target=\"_blank\">Russian census records</a> in the Latvian area, and \"<a class=\"lk\" href=\"https://raduraksti.arhivi.lv/collections/1:5\" target=\"_blank\">audits of souls</a>\" in rural areas and cities.</li></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Church Records",
+        "name": "Church Records",
+        "section_name": "Learn about Latvia church and religious records.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=wyC9x4GHvQk\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Latvian church records.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-lat-church.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/latvia-riga-orthodox-church-cupolas-912349/\" target=\"_blank\"> <img src=\"img/x-lat-church.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; \"></a>  <li><span class=\"g\">FamilySearch</span>: Learn about Latvia church records in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Latvia_Church_Records\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Latvia Church Records</span></a> </li><br><li>Learn about the Raduraksti and its resources for online church records. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/en/wiki/img_auth.php/4/4a/1-Raduraksti_Online_Church_Records_-_Instruction.pdf\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Raduraksti: Online Latvian Church Records</span></a> </li><br><li>Explore the Raduraksti site for <a class=\"lk\" href=\"https://raduraksti.arhivi.lv/collections/1:4\" target=\"_blank\"> Latvian church books</a> that register vital events until 1914.</li><li><span class=\"g\">Jewish</span>: Explore Jewish genealogy in Latvia in this guide from the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://libguides.cjh.org/genealogyguides/latvia/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Center for Jewish History site</a>.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.jewishgen.org/databases/Latvia/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">JewishGen Latvia Database</a> .</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://bloodandfrogs.com/encyclopedia/latvia\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Jewish Genealogy Encyclopedia</a> for Jewish resources in Latvia.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Maps and Gazetteers",
+        "name": "Maps and Gazetteers",
+        "section_name": "Learn about Latvia maps and gazetteers.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=wyC9x4GHvQk\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Explore Latvia map resources.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-lat-map.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://commons.wikimedia.org/wiki/File:Latvia_1998_CIA_map.jpg\" target=\"_blank\"> <img src=\"img/x-lat-map.jpg\" alt=\"\" width=\"350px\" style=\"float:right; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"></a> <li>See a <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Latvia_Genealogy#Latvia_Map\" target=\"_blank\">map</a> for Latvia municipalities.</li><li>Explore the <a class=\"lk\" href=\"https://feefhs.org/resource/latvia\" target=\"_blank\">Maps and Gazetteers section</a> of the FEEFHS.org site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.davidrumsey.com/luna/servlet/view/search?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&amp;q=latvia&amp;search=Go\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">David Rumsey collection</a> of Latvia maps.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.oldmapsonline.org/en/Latvia\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Old Maps Online site</a> for Latvia maps.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://commons.wikimedia.org/wiki/Atlas_of_Latvia\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Atlas of Latvia</a> on the Wikipedia site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://commons.wikimedia.org/wiki/Category:Old_maps_of_Latvia\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Old Maps of Latvia</a> on the Wikipedia site.</li><li>Explore a <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.fallingrain.com/world/LG/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">directory of Latvia cities, towns, and regions</a> in the Falling Rain site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Newspapers",
+        "name": "Newspapers",
+        "section_name": "Learn about Latvia newspapers.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=wyC9x4GHvQk\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Explore Latvia newspapers.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-lat-news.png"
+                    ],
+                    "text": "<ol><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Diena\" target=\"_blank\"> <img src=\"img/x-lat-news.png\" alt=\"\" width=\"200px\" style=\"float:right; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"></a> <li>Find links to <a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Wikipedia:List_of_online_newspaper_archives#Latvia\" target=\"_blank\"> Latvian newspapers</a> on the Wikipedia site.</li> <li>Search Latvian newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.onlinenewspapers.com/latvia.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">onlinenewspapers.com</a> site.</li><li>Search Latvian newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.world-newspapers.com/latvia.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">world-newspapers.com</a> site.</li><li>Search Latvian newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.abyznewslinks.com/latvi.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">ABYZ News Links</a> site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Websites",
+        "name": "Websites",
+        "section_name": "Explore additional websites for research.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=wyC9x4GHvQk\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "There are a number of websites with valuable resources for Latvian research.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/laptop-fingers1.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/laptop-fingers1.jpg\" alt=\"\" width=\"350px\" style=\"float:right; margin-top: 6px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Explore links in the <a class=\"lk\" href=\"https://www.familysearch.org/en/wiki/Latvia_Websites\" target=\"_blank\">FamilySearch Wiki</a>.</li><li>Explore links in <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cyndislist.com/eastern-europe\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Cyndi's List</a>.</li><li>Explore links in <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genealogylinks.net/europe/latvia/index.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Genealogylinks.net</a>.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.findagrave.com/cemetery-browse/Latvia?id=country_94\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Find A Grave site</a> for cemetery records.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://billiongraves.com/site-map?country=Latvia\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">BillionGraves site</a> for cemetery records.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Search Records",
+        "name": "Search Records",
+        "section_name": "Search records from Latvia.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=wyC9x4GHvQk\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Use QUIKLinks or Partners to quickly search the most common record collections for Latvia.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/laptop-hands.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/laptop-hands.jpg\" alt=\"\" width=\"350px\" style=\"float:right; margin-top: 6px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>QUIKLinks are indicated by lightning-bolt icons in the Goals above.They point to collections with 50,000 or more records. When you click a QUIKLink icon, scroll down on the resulting page to see the QUIKLinks.</li><li>In the Partners section (near the top of the page), explore additional record collections in FamilySearch, Ancestry, Findmypast and MyHeritage.</li><li>Explore the FamilySearch page for <a class=\"lk\" href=\"https://familysearch.org/wiki/en/Latvia_Online_Genealogy_Records\" target=\"_blank\">Latvian online record collections</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Get Help",
+        "name": "Get Help",
+        "section_name": "Get help with your Latvia research.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=wyC9x4GHvQk\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Use Facebook pages to get answers to your questions.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/fh-help1.jpg"
+                    ],
+                    "text": "<ol><a href=\"img/fh-help1.jpg\" target=\"_blank\"> <img src=\"img/fh-help1.jpg\" alt=\"\" width=\"350px\" style=\"float:right; margin-top: 6px; margin-left: 16px; border:1px solid #000; padding:0px;\"></a> <li>See the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.facebook.com/groups/23027101669/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Latvian Genealogy</a> Facebook page.</li><li>Visit the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.facebook.com/groups/EasternEuropeGenealogyResearchCommunity/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Eastern European Research</a> Facebook page for FamilySearch.</li><li>Visit the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.facebook.com/LatvianRoots/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Discovering Latvian Roots</a> Facebook page.</li><li>See the <a class=\"lk\" href=\"http://socialmediagenealogy.com/genealogy-on-facebook-list/\" target=\"_blank\">Genealogy on Facebook list</a> of Facebook groups dedicated to helping with research for Latvia.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Join a mailing list, community, or message board for Latvia research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://community.familysearch.org/s/group/0F93A000000Lj96SAC/russian-empire\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">FamilySearch community</a> for Latvian (Russian Empire) research.</li><li>Explore the <a class=\"lk\" href=\"http://www.cyndislist.com/eastern-europe/social/\" target=\"_blank\"> Latvia research mailing lists</a> on Cyndi's List.</li><li>Get help at a <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Category:Latvia_Family_History_Centers\" target=\"_blank\">family history center in Latvia</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Geo/Culture/History",
+        "name": "Geography, Culture, and History",
+        "section_name": "Learn about the geography, culture, and history of Latvia. \n\t\t\t\t\t\t\n\t\t\t\t\t\t",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=wyC9x4GHvQk\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Explore websites and videos.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/c-latvia.jpg"
+                    ],
+                    "text": "<h5>Reference</h5><ol><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Latvia_History\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">FamilySearch: History</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Latvia\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Wikipedia</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.britannica.com/place/Latvia\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Encyclopedia Britannica</a></li><br><h5>For Kids</h5><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ducksters.com/geography/country.php?country=Latvia\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Ducksters</a></li></ol><h5>For Kids</h5>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,268 @@
+[
+    {
+        "nav_name": "Research and Records",
+        "name": "Research and Records",
+        "section_name": "Learn about Kent research and records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Get started with research for your Kent ancestors.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-en-ken-over.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/scotney-castle-england-kent-1044587/\" target=\"_blank\"> <img src=\"../img/x-en-ken-over.jpg\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li>Learn about finding your ancestors in Kent. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Kent,_England_Genealogy\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki: Kent England Genealogy</span></a></li><br><li>Get tips on starting research in Kent on the <a class=\"lk\" href=\"http://www.kent.gov.uk/leisure-and-community/history-and-heritage/kent-history-and-library-centre/family-history\" target=\"_blank\">Kent County Council site</a>.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.dustydocs.com/county/19/kent.html?country_id=1\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">Dusty Docs site</a> for Kent research.</li><li>Explore a variety of records on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ukbmd.org.uk/index.php?county=118&amp;form_action=county\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">UK BMD site</a>.</li><li>Explore lists of <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.genuki.org.uk/big/eng/KEN/parishes\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">towns and parishes</a> on the GenUKI site.</li><li>Explore Kent resources on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familyhistorydirectory.co.uk/england/kent/\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">Family History Directory site</a>.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about the history of Kent.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for research resources. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>Learn about Kent history on Wikipedia. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://en.wikipedia.org/wiki/History_of_Kent/\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">History of Kent</span></a></li><br><li>Go into more depth with Kent history on the British History Online site.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.british-history.ac.uk/vch/kent\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Victoria County History series</span></a></li><br><li>Explore the website for the <a class=\"lk\" href=\"https://www.kfhs.org.uk/kent-history\" target=\"_blank\">Kent Family History Society</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Archives and Libraries",
+        "name": "Archives and Libraries",
+        "section_name": "Learn about Kent archives and libraries.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Kent archives and libraries.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for archives and libraries. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-en-ken-lib.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://commons.wikimedia.org/wiki/File:The_Pantiles,_(Royal)_Tunbridge_Wells,_Kent,_England,_ca._1895.jpg\" target=\"_blank\"> <img src=\"../img/x-en-ken-lib.jpg\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li>Learn about Kent archives and libraries in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Kent_Archives_and_Libraries\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Kent Archives and Libraries</span></a></li><br><li>Find <a class=\"lk\" href=\"https://www.kfhs.org.uk/archives-libraries\" target=\"_blank\">archives and libraries</a> on the Kent Family History Society  site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genuki.org.uk/big/eng/KEN/index.html#Archives\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">archives and libraries link</a> on the GenUKI Kent site.</li><li>Get an overview of the record collections on the Kent County Council site. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://www.kent.gov.uk/__data/assets/pdf_file/0018/16245/New-to-our-collections.pdf\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Guide to the Archive Collections</span></a></li><br><li>Learn about the Canterbury Cathedral archives collections. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.legacytree.com/blog/onsite-canterbury-cathedral-archives\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">LT—Canterbury Cathedral Archives, England</span></a></li><br><li>Search the <a class=\"lk\" href=\"http://185.121.204.47/calmview/\" target=\"_blank\">Kent Archives Online Catalog</a>.</li><li>Search for <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://books.familysearch.org/primo_library/libweb/action/search.do?fn=search&amp;ct=search&amp;mode=Basic&amp;tab=default_tab&amp;indx=1&amp;dum=true&amp;srt=rank&amp;vid=FHD_PUBLIC&amp;frbg=&amp;vl%28freeText0%29=kent+england\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">free online books on Kent research</a> on the FamilySearch site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Vital and Census Records",
+        "name": "Vital and Census Records",
+        "section_name": "Learn about Kent civil registration, BMD, and census records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore Kent civil registration.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/eng/ken-millpond.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://en.wikipedia.org/wiki/Maidstone#/media/File:RiverLenMarch2017.jpg\" target=\"_blank\"><img src=\"../img/eng/ken-millpond.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"></a><li>Learn about civil registration districts on the Kent Family History Society site. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.kfhs.org.uk/registration-districts\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Details of civil registration districts within Kent</span></a></li><br><li>See a <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Kent_Parishes\" target=\"_blank\">list of civil parishes with links</a> on the FamilySearch Wiki.</li><li>Search the <a class=\"lk\" href=\"https://www.woodchurchancestry.org.uk/midkentmarriages/\" target=\"_blank\">Mid-Kent Marriages index</a>, 1754-1911.</li><li>Browse the <a class=\"lk\" href=\"http://www.ukbmd.org.uk/genuki/reg/ken.html\" target=\"_blank\">Kent registration districts</a> on the Gen UKI site.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.freebmd.org.uk/search\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">FreeBMD UK site</a> for BMD records.</li></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Kent census records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for civil registration and other records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>Learn about Kent Census Surname Indexes on FamilySearch. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Kent_Census_Surname_Indexes_at_the_Family_History_Library\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki: Census Surname Indexes</span></a></li><br><li>Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.freecen.org.uk/\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">Kent census records </a> on the FreeCen site.</li><li>Explore Kent census records on the <a class=\"lk\" href=\"http://www.archersoftware.co.uk/census/\" target=\"_blank\">Archer Software site</a>.</li><li>Learn about and search the Kent register of electors. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/England,_Kent,_Register_of_Electors_-_FamilySearch_Historical_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS: Kent Register of Electors</span></a></li></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Church and Cemetery Records",
+        "name": "Church and Cemetery Records",
+        "section_name": "Learn about Kent church and cemetery records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Kent church records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for church records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-en-ken-church.jpeg"
+                    ],
+                    "text": "<ol><a href=\"https://commons.wikimedia.org/wiki/File:Kent_Churches.jpeg\" target=\"_blank\"> <img src=\"../img/x-en-ken-church.jpeg\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li>Get an overview of Kent church records in this article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Kent_Church_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Kent Church Records</span></a></li><br><li>Learn about Kent parish registers. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://www.kent.gov.uk/leisure-and-community/history-and-heritage/kent-history-and-library-centre/our-collections/parish-registers\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Kent Parish Registers</span></a></li><br><li>Learn about and search Kent parish registers. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/England,_Kent,_Parish_Registers_-_FamilySearch_Historical_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS: Kent Parish Registers</span></a></li><br><li>Learn about transcripts from bishops and archdeacons in the Anglican Church. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.kentarchives.org.uk/wp-content/uploads/2017/09/New-to-archdeacons-and-bishops-transcripts-v2.pdf\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">New to archdeacons' and bishops' transcripts?</span></a><br><span class=\"star notranslate\">☆</span><a href=\"http://www.kent.gov.uk/leisure-and-community/history-and-heritage/kent-history-and-library-centre/our-collections/research-guides\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Transcripts - Bishops and Archdeacons</span></a></li><br><li>Explore <a class=\"lk\" href=\"https://www.kentarchives.org.uk/collections/parish-registers/\" target=\"_blank\">parish registers</a> on the Kent County Council site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genuki.org.uk/big/eng/KEN/#ChurchRecords\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">church records link</a> on the GenUKI Kent site.</li><li>Use this <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Kent_Parishes\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">parish page</a> to explore parish records in Kent.</li></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Kent cemetery records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for cemetery records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>Find <a class=\"lk\" href=\"https://www.kfhs.org.uk/cemeteries\" target=\"_blank\">cemetery record resources</a> on the Kent Family History Society  site.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.findagrave.com/cemetery/search?cemetery-name=&amp;cemetery-loc=Kent%2C+England&amp;only-with-cemeteries=cemOnly&amp;locationId=state_4227\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">Find a Grave site</a> for cemetery records.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://billiongraves.com/pages/search/\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">BillionGraves site</a> for cemetery records.</li></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Probate, Land and Court",
+        "name": "Probate, Land and Court Records",
+        "section_name": "Learn about Kent probate and land records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Kent probate and land records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for probate and land records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-en-ken-land.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://en.wikipedia.org/wiki/Canterbury#/media/File:Augustine_Abbey.jpg\" target=\"_blank\"><img src=\"../img/x-en-ken-land.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"></a><li>Learn about Kent probate records in these articles. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Kent_Probate_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Kent Probate Records</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://www.kentarchives.org.uk/wp-content/uploads/2018/12/New-to-probate-records-v3.pdf\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">New to Probate Records?</span></a></li><br><li>Learn about Kent wills and probate records. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://www.kent.gov.uk/leisure-and-community/history-and-heritage/kent-history-and-library-centre/our-collections/wills-probate\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Wills and Probate Records</span></a></li><br><li>Learn more about <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://freepages.genealogy.rootsweb.ancestry.com/~mrawson/probate.html\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">probate records</a> on the Kent Genealogy site.</li><li>Explore deeds by surname on the <a class=\"lk\" href=\"http://www.familydeeds.org/kent.php\" target=\"_blank\">FamilyDeeds site</a>.</li><li>Learn about Kent tithe records in this article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.kentarchives.org.uk/wp-content/uploads/2017/09/New-to-tithe-records-1.pdf\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">New to Tithe Records?</span></a></li><br></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Maps and Gazetteers",
+        "name": "Church and Cemetery Records",
+        "section_name": "Learn about Kent maps and gazetteers.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore Kent maps and gazetteers.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about Kent maps in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Kent_Maps\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Kent Maps</span></a></li><br><li>Get an overview of Kent maps and plans in this article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.kentarchives.org.uk/maps-and-plans/\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Maps and plans</span></a></li><br><li>Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://freepages.rootsweb.com/~genmaps/genealogy/genfiles/COU_Pages/ENG_pages/ken.htm\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">historical maps</a> on the GenMaps site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.davidrumsey.com/luna/servlet/view/search?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&amp;q=kent&amp;search=Go\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">David Rumsey collection</a> of Kent maps.</li><li>Explore the online <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genuki.org.uk/big/Gazetteers\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">Gazetteer</a> on the GenUKI site.</li><br><br><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Newspapers",
+        "name": "Newspapers",
+        "section_name": "Learn about Kent newspapers.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore Kent newspapers.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Search Kent newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.abyznewslinks.com/ukingse.htm\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">ABYZ News Link</a> site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genuki.org.uk/big/eng/KEN/#Newspapers\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">newspaper records link</a> on the GenUKI Kent site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Websites",
+        "name": "Websites",
+        "section_name": "Explore additional websites for research.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "There are a number of websites with valuable resources for Kent research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore links on the <a class=\"lk\" href=\"http://freepages.genealogy.rootsweb.ancestry.com/~mrawson/\" target=\"_blank\">Kent Genealogy page</a>.</li><li>Explore links in <a class=\"lk\" href=\"http://www.cyndislist.com/uk/eng/counties/ken/\" target=\"_blank\">Cyndi's List</a>.</li><li>Explore links in <a class=\"lk\" href=\"http://www.genealogylinks.net/uk/england/kent/index.html\" target=\"_blank\">GenealogyLinks.net</a>.</li> </ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Search Records",
+        "name": "Search Records",
+        "section_name": "Search records from Kent.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore record collections.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Use the England Record Selection Table to decide on records to search. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/England_Record_Selection_Table\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—England Record Selection Table</span></a></li><br><li>Explore the <a class=\"lk\" href=\"https://familysearch.org/wiki/en/Kent,_England_Online_Genealogy_Records\" target=\"_blank\">FamilySearch page</a> for online genealogy records.</li><li>Explore additional record collections in <a class=\"lk\" href=\"https://www.ancestry.com/search/collections/catalog/?keyword=Kent,%20England\" target=\"_blank\">Ancestry</a>.</li><li>Explore additional record collections in <a class=\"lk\" href=\"https://search.findmypast.com/historical-records?page=1&amp;region=england&amp;subcountry=kent\" target=\"_blank\">Findmypast</a>.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Use QUIKLinks to quickly search record collections for Kent.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Get Help",
+        "name": "Get Help",
+        "section_name": "Get help with your Kent research.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Use Facebook pages to get answers to your questions.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-facebook.jpg"
+                    ],
+                    "text": "<ol><a href=\"../img/y-facebook.jpg\" target=\"_blank\"> <img src=\"../img/y-facebook.jpg\" alt=\"\" height=\"170px\" border=\"1\" style=\"float:right; margin-top: 16px; margin-left: 36px\"></a> <li> Visit the <a class=\"lk\" href=\"https://www.facebook.com/groups/Kentancestors/\" target=\"_blank\">Kent Ancestors and Genealogy page</a> on Facebook.</li> </ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Join a mailing list or message board for Kent research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Join the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.rootschat.com/forum/england/\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">RootsChat forum</a> and post questions about Kent research.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://bigfile.rootsweb.ancestry.com/cgi-bin/listsearch\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">RootsWeb site </a> for Kent research mailing lists.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cyndislist.com/uk/eng/counties/ken/social/\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\"> Kent research mailing lists</a> on Cyndi's List.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Kent genealogy societies.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about genealogy societies in Kent in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Kent_Societies\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Kent Societies</span></a></li><br><li>Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genuki.org.uk/big/eng/KEN/#Societies\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">genealogy societies</a> on the GenUKI Kent site.</li><li>Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cyndislist.com/uk/eng/counties/ken/societies/\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">English genealogy society sites</a> on Cyndi's list.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "nav_name": "Canadian Territories",
+        "name": "Yukon, Northwest Territories, and Nunavut",
+        "section_name": "Learn about research and records for Canadian territories.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Get started with Yukon research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about finding your ancestors in Yukon. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/en/wiki/Yukon,_Canada_Genealogy\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki:—Yukon Genealogy</span></a></li><br><li>Learn about Yukon church records. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/en/wiki/Yukon_Church_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki:—Yukon Church Records</span></a></li><br><li>Learn about the history of Yukon in this Wikipedia article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/History_of_Yukon\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Yukon History</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Get started with Northwest Territories research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about finding your ancestors in the Northwest Territories. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/en/wiki/Northwest_Territories,_Canada_Genealogy\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki:—Northwest Territories Genealogy</span></a></li><br><li>Learn about Northwest Territories church records. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/en/wiki/Northwest_Territories_Church_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki:—Northwest Territories Church Records</span></a></li><br><li>Learn about the history of the Northwest Territories in this Wikipedia article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/History_of_the_Northwest_Territories\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Northwest Territories History</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Get started with Nunavut research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about finding your ancestors in Nunavut. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/en/wiki/Nunavut,_Canada_Genealogy\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki:—Nunavut Genealogy</span></a></li><br><li>Learn about Nunavut church records. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/en/wiki/Nunavut_Church_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki:—Nunavut Church Records</span></a></li><br><li>Discover Nunavut land and property records. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/en/wiki/Nunavut_Land_and_Property_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Nunavut Land and Property Records</span></a></li><br><li>Learn about the history of Nunavut in this Wikipedia article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/History_of_Nunavut\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Nunavut History</span></a></li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

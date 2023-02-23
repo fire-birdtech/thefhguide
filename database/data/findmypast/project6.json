@@ -1,0 +1,346 @@
+[
+    {
+        "nav_name": "PC Apps",
+        "name": "Learn to use PC apps.",
+        "section_name": "Learn how to use PC apps.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Use tutorials for Microsoft Word or LibreOffice Writer.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-keyboard.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/y-keyboard.jpg\" width=\"350px;\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Get started with video tutorials for <a class=\"lk\" href=\"https://support.office.com/en-us/article/word-video-training-7bcd85e6-2c3d-4c3c-a2a5-5ed8847eae73\" target=\"_blank\">Microsoft Word</a>. Learn basic skills such as writing, editing, formatting text, page layout, etc.</li><li>Use the GCFLearnFree online tutorials 1-17 for <a class=\"lk\" href=\"https://www.gcflearnfree.org/word2016/\" target=\"_blank\"> basic Microsoft Word 2016 skills</a>.</li><li>Use the GCFLearnFree online tutorials 18-24 for <a class=\"lk\" href=\"https://www.gcflearnfree.org/word2016/\" target=\"_blank\">Microsoft Word 2016 additional skills</a>.</li><li>Use the Digital Unite online tutorials for <a class=\"lk\" href=\"https://www.digitalunite.com/guides/creating-documents/microsoft-word\" target=\"_blank\">How to Use Microsoft Word</a>. Then follow the \"Next\" links (lower right) to study each additional topic. Topics include how to start and move around in a document, how to change fonts and sizes, how to copy and paste, etc.</li><li>Get started with this tutorial for Office Libre Writer. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.gofree.com/Tutorials/LibreOfficeCreateEdit.php\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">LibreOffice Tutorial #1</span></a></li><br><li>For more information on using Writer, use the LibreOffice Getting Started document. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://documentation.libreoffice.org/assets/Uploads/Documentation/en/GS5.2/PDF/GS5204-GettingStartedWithWriter.pdf\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Getting Started with Writer</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Use tutorials for Microsoft Excel or LibreOffice Calc.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-spreadsheet.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/y-spreadsheet.jpg\" width=\"350px;\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Get started with video tutorials for <a class=\"lk\" href=\"https://support.office.com/en-us/article/excel-video-training-9bc05390-e94c-46af-a5b3-d7c22f6990bb\" target=\"_blank\">Microsoft Excel</a>. Watch the \"Workbooks and cells\" series to get an intro to Excel, design workbooks, and add text and data to spreadsheets.</li><li>Use the GCFLearnFree <a class=\"lk\" href=\"https://www.gcflearnfree.org/excel2016/\" target=\"_blank\"> online tutorials 1-17 for Microsoft Excel</a> to learn basic skills.</li><li>Use the GCFLearnFree <a class=\"lk\" href=\"https://www.gcflearnfree.org/excel2016/\" target=\"_blank\"> online tutorials 18-24</a> to learn additional skills.</li><li>Use the Digital Unite online tutorials on <a class=\"lk\" href=\"https://www.digitalunite.com/guides/creating-documents/microsoft-excel\" target=\"_blank\">How to Use Microsoft Excel</a>. Then follow the \"Next\" links (lower right) to study each additional topic. Topics include learning about spreadsheets, creating a budget spreadsheet, doing sums and percentages, etc.</li><li>Get started with these tutorials for Calc. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://libreofficehelp.com/libreoffice-calc-tutorials/p\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">LibreOffice Calc Tutorials</span></a></li><br><li>For more information on using Calc, use the LibreOffice Getting Started document. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://documentation.libreoffice.org/assets/Uploads/Documentation/en/GS5.2/PDF/GS5205-GettingStartedWithCalc.pdf\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Getting Started with Calc</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Use tutorials for Microsoft PowerPoint, LibreOffice Impress, and other graphics programs.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-slides.png"
+                    ],
+                    "text": "<ol><img src=\"img/y-slides.png\" width=\"350px;\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Get started with video tutorials for <a class=\"lk\" href=\"https://support.office.com/en-us/article/powerpoint-video-training-40e8c930-cb0b-40d8-82c4-bd53d3398787\" target=\"_blank\">Microsoft PowerPoint</a>. Watch the \"Presentations and text\" series to get an intro to PowerPoint, create presentations, and add and format text.</li><li>Explore the <a class=\"lk\" href=\"https://www.gcflearnfree.org/powerpoint2016/\" target=\"_blank\">GCFLearnFree online tutorials 1-12</a> to learn basic PowerPoint skills.</li><li>Explore the <a class=\"lk\" href=\"https://www.gcflearnfree.org/powerpoint2016/\" target=\"_blank\">GCFLearnFree online tutorials 13-19</a> to learn additional PowerPoint skills.</li><li>Use the Digital Unite tutorials for <a class=\"lk\" href=\"https://www.digitalunite.com/guides/creating-documents/microsoft-powerpoint\" target=\"_blank\">How to Use Microsoft PowerPoint</a>. Follow the \"Next\" links (lower right) to study each additional topic. Topics include how to start and move around in a document, how to change fonts and sizes, how to copy and paste, etc.</li><br><li>Get started with this tutorial for Impress. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://libreofficehelp.com/create-your-first-presentation-using-libreoffice-impress/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Create Your First Presentation</span></a></li><br><li>For more information on using Impress, use the LibreOffice Getting Started document. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://documentation.libreoffice.org/assets/Uploads/Documentation/en/GS5.2/PDF/GS5206-GettingStartedWithImpress.pdf\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Getting Started with Impress</span></a></li></ol><h5>Graphics Programs</h5><ol><li>Learn about basic graphics tools. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://drive.google.com/open?id=1qyxAYZHFsx1qeg2defDocLGiDqU8FFuX\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">RIV: Basic Graphics</span></a></li><br><li>Get an overview of other graphics programs. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://drive.google.com/open?id=1kbfuInhspZIMg9mNhlYn9j3cl6xcq7i6\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">RIV: Graphics Programs</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Use tutorials for mail programs such as Microsoft Outlook and Windows Live Mail.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-email.png"
+                    ],
+                    "text": "<ol><img src=\"img/y-email.png\" width=\"350px;\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Get started with <a class=\"lk\" href=\"https://support.office.com/en-us/article/outlook-video-training-8a5b816d-9052-4190-a5eb-494512343cca\" target=\"_blank\">Microsoft Outlook</a>. Watch the \"Sending, receiving, and organizing\" series to get an intro to Outlook, send and receive emails, and organize your emails..</li><li>Follow this tutorial for using Outlook. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.siteground.com/tutorials/email/microsoft-outlook/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Outlook Tutorial</span></a></li><br> <li>Learn about Windows Live Mail. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.digitalunite.com/guides/email/what-is-windows-live-mail\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">What Is Windows Live Mail?</span></a></li><br> <li>Learn how to download Windows Live Mail. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.digitalunite.com/guides/email/how-download-windows-live-mail\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">What Is Windows Live Mail?</span></a></li><br> <li>Learn how to use Windows Live Mail. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.digitalunite.com/guides/email/how-use-windows-live-mail\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">What Is Windows Live Mail?</span></a></li><br> </ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Mac Apps",
+        "name": "Learn to use Macintosh apps.",
+        "section_name": "Learn how to use Macintosh apps.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Get started with Pages for Mac or LibreOffice Writer.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-keyboard.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/y-keyboard.jpg\" width=\"350px;\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Learn about using Pages for word processing. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.macforbeginners.com/user-guides/pages/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Pages</span></a></li><br> <li>Watch this tutorial video for using Pages on the Mac. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=npl7GVwhN0s\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">Pages Tutorial for Beginners (12:32)</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/npl7GVwhN0s?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li>Get help from the <a class=\"lk\" href=\"https://support.apple.com/pages\" target=\"_blank\">Apple site</a> for building Pages documents.</li><li>Here are some tips for using Pages.<br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.macworld.co.uk/how-to/mac-software/20-pages-for-mac-tips-how-use-pages-for-mac-3605031/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Tips for How to Use Pages for Mac - 2017</span></a>.</li><br><li>Get started with this tutorial for Writer. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.gofree.com/Tutorials/LibreOfficeCreateEdit.php\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">LibreOffice Tutorial #1</span></a>.</li><br><li>For more information on using Writer, use the LibreOffice Getting Started document. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://documentation.libreoffice.org/assets/Uploads/Documentation/en/GS5.2/PDF/GS5204-GettingStartedWithWriter.pdf\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Getting Started with Writer</span></a>.</li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Get started with Numbers for Mac.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-spreadsheet.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/y-spreadsheet.jpg\" width=\"350px;\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Watch this video for an introduction to Numbers on the Mac.<br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=6ixncpPLccw\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">Getting Started with Numbers for Mac (3:52) - 2016</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/6ixncpPLccw?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li>Get help from the <a class=\"lk\" href=\"https://support.apple.com/numbers\" target=\"_blank\">Apple site</a> for Numbers spreadsheets.</li><li>Here are some tips for using Numbers.<br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.peachpit.com/articles/article.aspx?p=2315379\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">10 Tips for Getting the Most out of Numbers - 2015</span></a>.</li><br><li>Learn how to import Microsoft Excel spreadsheets into Numbers on the Mac.<br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.macworld.com/article/230465/how-to-open-microsoft-excel-spreadsheets-using-apple-numbers.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">How to Open Excel Spreadsheets on a Mac</span></a>.</li><br><li>Get started with this tutorial for LibreOffice Calc. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.gofree.com/Tutorials/LibreOfficeCreateEdit.php\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">LibreOffice Tutorial #1</span></a></li><br><li>For more information on using Calc, use the LibreOffice Getting Started document. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://documentation.libreoffice.org/assets/Uploads/Documentation/en/GS5.2/PDF/GS5205-GettingStartedWithCalc.pdf\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Getting Started with Calc</span></a></li><br><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Get an introduction to Keynote for Mac or LibreOffice Impress.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-slides.png"
+                    ],
+                    "text": "<ol><li>Get started with the <a class=\"lk\" href=\"https://support.apple.com/keynote\" target=\"_blank\">Apple tutorial</a> for Keynote.</li><img src=\"img/y-slides.png\" width=\"350px;\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Watch this video to learn the basics of Keynote.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=tk-DxKw7080\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">Complete Beginner's Guide to Keynote (34:48)</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/tk-DxKw7080?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li>Learn how to develop skills with Keynote. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://speckyboy.com/apple-keynote-tutorials/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">20 Fantastic Tutorials for Learning Apple Keynote</span></a></li><br> <li>Get started with this tutorial for Impress. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.gofree.com/Tutorials/LibreOfficeCreateEdit.php\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">LibreOffice Tutorial #1</span></a></li><br><li>For more information on using Impress, use the LibreOffice Getting Started document. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://documentation.libreoffice.org/assets/Uploads/Documentation/en/GS5.2/PDF/GS5206-GettingStartedWithImpress.pdf\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Getting Started with Impress</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn to use Mail.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-email.png"
+                    ],
+                    "text": "<ol><img src=\"img/y-email.png\" width=\"350px;\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Get help from the <a class=\"lk\" href=\"https://support.apple.com/mail\" target=\"_blank\">Apple site</a> for Mail.</li><li>Learn about <a class=\"lk\" href=\"https://support.apple.com/en-us/HT204093\" target=\"_blank\">Setting up Mail</a> for the Mac.</li><li>Follow this tutorial for Mac Mail. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.siteground.com/tutorials/email/mac-mail/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Mac Mail Tutorial</span></a></li><br> </ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Google Apps",
+        "name": "Learn to use Google apps.",
+        "section_name": "Learn how to use Google apps.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn to use Google Docs.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-google-docs.JPG"
+                    ],
+                    "text": "<ol><img src=\"img/y-google-docs.JPG\" width=\"100px;\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Get started with the <a class=\"lk\" href=\"https://gsuite.google.com/learning-center/products/gmail/get-started/#!/\" target=\"_blank\"> GSuite Learning Center for Google Docs</a>. Topics including creating and importing documents, editing and formatting text, sharing documents and collaborating, etc.</li><li>Get started with <a class=\"lk\" href=\"https://www.gcflearnfree.org/googledocuments/\" target=\"_blank\">Google Docs</a>. Study tutorials 3 for an introduction and 8-15 for learning more skills.</li><li>Watch these videos for more help with Google Docs. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=s6V_h43-BIY\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">Tutorial 01: Learn the Basics (4:35) - 2015</span></a><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=W7wOQaGbf-A\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">Google Docs and Sheets Tutorial - 2017 (20:43)</span></a></li><br><br><li>Follow this tutorial for Google Docs. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://sites.google.com/site/gdocswebquest/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Google Docs Tutorial</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn to use Google Drive.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-google-drive.JPG"
+                    ],
+                    "text": "<ol><img src=\"img/y-google-drive.JPG\" width=\"100px;\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Get started with the <a class=\"lk\" href=\"https://gsuite.google.com/learning-center/products/drive/\" target=\"_blank\"> GSuite Learning Center for Google Drive</a>. Topics include uploading and storing files, synching and accessing files, viewing, updating, and organizing files, etc.</li><li>Get tips for Google Drive at the <a class=\"lk\" href=\"https://support.google.com/drive\" target=\"_blank\"><br>Google Support Center</a>. </li><li>Follow this Google Drive tutorial from the Google Support Center. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://support.google.com/drive/?hl=en\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Google Drive Help</span></a></li><br><li>Get started with <a class=\"lk\" href=\"https://www.gcflearnfree.org/googledocuments/\" target=\"_blank\">Google Drive</a> on the GCFLearnFree site. Study tutorials 2, 4, 5, 6, and 7 for learning more skills.</li><li>Watch this video for more help with Google Drive. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=LW9gh2myDhA\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">Google Drive Tutorial (20:02) - 2017</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/LW9gh2myDhA?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn to use Google Sheets.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-google-sheets.JPG"
+                    ],
+                    "text": "<ol><img src=\"img/y-google-sheets.JPG\" width=\"100px;\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Get started with the <a class=\"lk\" href=\"https://gsuite.google.com/learning-center/products/sheets/\" target=\"_blank\"> GSuite Learning Center for Google Sheets</a>. Topics including creating and importing spreadsheets, adding new content, working with rows, columns, and cells, etc.</li><li>Get started with <a class=\"lk\" href=\"https://www.gcflearnfree.org/googlespreadsheets/\" target=\"_blank\">Google Sheets</a>. Study tutorials 8-16 to learning more skills.</li><li>Watch this video for more help with Google Sheets. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=M3-MDhnZzPU\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">Google Sheets Tutorial (30:11) - 2017</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/M3-MDhnZzPU?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li>Follow this tutorial for Google Sheets. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.smartsheet.com/essential-google-spreadsheet-tutorial\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Essential Google Spreadsheet Tutorial</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn to use Google Slides.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-google-slides.JPG"
+                    ],
+                    "text": "<ol><img src=\"img/y-google-slides.JPG\" width=\"100px;\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Get started with the <a class=\"lk\" href=\"https://gsuite.google.com/learning-center/products/slides/\" target=\"_blank\">GSuite Learning Center for Google Slides</a>. Topics including creating and importing slides, adding and customizing content, sharing presentations, etc.</li><li>Get started with <a class=\"lk\" href=\"https://www.gcflearnfree.org/googleslides/\" target=\"_blank\">Google Slides</a>. Study tutorials 3 for an introduction and 8-14 for learning more skills.</li><li>Watch this video for more help with Google Slides. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=oPyCrrEc8SA\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">Google Slides 2017 Tutorial (13:12)</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/oPyCrrEc8SA?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li>Here are tips on how to use Google Slides. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://support.google.com/docs/answer/2763168?co=GENIE.Platform%3DDesktop&amp;hl=en\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">How to Use Google Slides</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn to use GMail.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-gmail.png"
+                    ],
+                    "text": "<ol><img src=\"img/y-gmail.png\" width=\"100px;\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Get started with the <a class=\"lk\" href=\"https://gsuite.google.com/learning-center/products/gmail/get-started/#!/\" target=\"_blank\">GSuite Learning Center for Gmail</a>. Topics including composing and sending email, replying to email, organizing your inbox, finding emails, etc.</li><li>Get started with an <a class=\"lk\" href=\"https://www.gcflearnfree.org/gmail/introduction-to-gmail/1/\" target=\"_blank\">Introduction to Gmail</a>. Then follow the \"Next\" links (lower right) to study each additional topic. Topics include setting up and signing into an account, sending and responding to emails, managing your email, etc.</li><li>Get started with an <a class=\"lk\" href=\"https://www.digitalunite.com/guides/email\" target=\"_blank\">Introduction to Gmail</a>. Then follow the \"Next\" links (lower right) to study each additional topic. Topics include setting up and signing into an account, sending and responding to emails, managing your email, etc.</li><li>If you need typing practice for creating emails, try this tutorial. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.gcflearnfree.org/typing/typing/1/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Typing Tutorial</span></a></li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Learn Social Media",
+        "name": "Learn to use social media.",
+        "section_name": "Learn how to use social media.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn to use Facebook.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/7-facebook.png"
+                    ],
+                    "text": "<ol><img src=\"img/7-facebook.png\" width=\"150px;\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Get an introduction to Facebook. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.gcflearnfree.org/facebook101/what-is-facebook/1/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">What Is Facebook?</span></a></li><br><li>Get started using Facebook. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.gcflearnfree.org/facebook101/getting-started-with-facebook/1/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Getting Started with Facebook</span></a></li><br><li>Learn about Facebook privacy and settings. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.gcflearnfree.org/facebook101/understanding-facebook-privacy/1/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Understanding Facebook Privacy</span></a><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.gcflearnfree.org/facebook101/adjusting-your-privacy-settings/1/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Adjusting Your Privacy Settings</span></a></li><br><li>Learn how to adjust your Facebook account settings. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.gcflearnfree.org/facebook101/adjusting-your-account-settings/1/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Adjust Your Account Settings</span></a></li><br><li>Learn how to share media items on Facebook. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.gcflearnfree.org/facebook101/sharing-on-facebook/1/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Sharing on Facebook</span></a></li><br><li>Use the chat and messaging features. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.gcflearnfree.org/facebook101/chat-and-messages/1/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Chat and Messages</span></a></li><br><li>Learn how to create a Facebook page. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.gcflearnfree.org/facebook101/creating-a-facebook-page/1/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Creating a Facebook Page</span></a></li><br></ol><h5>More Help</h5><ol><li>Use this Facebook tutorial from Lifewire. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.lifewire.com/tutorial-how-facebook-works-2654610\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">How Facebook Works - 2021</span></a></li><br><li>Watch this video tutorial. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=wkVf8BlE8rI\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">Facebook Basics for Beginners and Seniors (4:39) - 2016</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/wkVf8BlE8rI?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li>Use the WikiHow Facebook tutorial. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.wikihow.com/Use-Facebook\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">How to Use Facebook</span></a></li><br><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn to use Twitter.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/7-twitter.png"
+                    ],
+                    "text": "<ol><img src=\"img/7-twitter.png\" width=\"150px;\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Get an introduction to Twitter. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.gcflearnfree.org/twitter/what-is-twitter/1/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">What Is Twitter?</span></a></li><br><li>Create a Twitter account. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.gcflearnfree.org/twitter/creating-a-twitter-account/1/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Creating a Twitter Account</span></a></li><br><li>Learn how to tweet. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.gcflearnfree.org/twitter/how-to-tweet/1/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">How to Tweet</span></a></li><br><li>Learn about Twitter hashtags. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.gcflearnfree.org/twitter/what-is-a-hashtag/1/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">What Is a Hashtag?</span></a></li><br><li>Follow and connect with others on Twitter. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.gcflearnfree.org/twitter/following-and-connecting-on-twitter/1/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Following and Connecting on Twitter</span></a></li><br><li>Customize your profile and privacy settings. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.gcflearnfree.org/twitter/customizing-your-twitter-profile-and-privacy-settings/1/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Customizing Your Twitter Profile and Privacy Settings</span></a></li><br><li>Use this Twitter tutorial from Lifewire. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.lifewire.com/tutorial-intro-to-using-twitter-2654622\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Learn How to Use Twitter in 15 Minutes - 2021</span></a></li><br><li>Use the Twitter Help Center for tips. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://help.twitter.com/en/twitter-guide\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Twitter Help Center</span></a></li><br><li>Watch this video tutorial. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=ENVMQ1TRRGA\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">Twitter Tutorial for Beginners, 2018 (25:04)</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/ENVMQ1TRRGA?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn how to use Instagram.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/7-instagram.png"
+                    ],
+                    "text": "<ol><img src=\"img/7-instagram.png\" width=\"150px;\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Get started with the <a class=\"lk\" href=\"https://www.gcflearnfree.org/instagram/\" target=\"_blank\">Instagram tutorials</a> on GCFLearnFree.</li><li>Use this Instagram tutorial from Lifewire. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.lifewire.com/instagram-4102611\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Instagram Tips and Strategies</span></a></li><br><li>Use the WikiHow tutorial. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.wikihow.com/Use-Instagram\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">How to Use Instagram</span></a></li><br><li>Watch these video tutorials. <br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=SZmGnrhdHnY\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">Instagram Tutorial for Beginners (10:33) - 2017</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/SZmGnrhdHnY?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=teTNnVcsukI\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">How Does Instagram Work? (36:25) - 2017</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/teTNnVcsukI?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Social Media for Genealogy",
+        "name": "Use social media in genealogy.",
+        "section_name": "Use social media to further your family history work.",
+        "summary": "<p>There are many social media tools you can use to communicate with others and share your progress and accomplishments. To learn the basics of several social media tools, see <a class=\"lk\" href=\"project-7-tech04.html\" target=\"_blank\">Goal 4</a>. </p><p>To learn about using social media for family history, <a class=\"lk\" href=\"https://www.youtube.com/watch?v=kUUlTwa6BJc\" target=\"_blank\">watch this video</a>.</p><p></p>",
+        "choices": [
+            {
+                "name": "Use Google.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=13wdemzlir0&amp;t=23m13s\" target=\"_blank\">Google Search</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=13wdemzlir0&amp;t=33m18s\" target=\"_blank\">Google Newspaper Archives</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=13wdemzlir0&amp;t=37m01s\" target=\"_blank\">Google Drive</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=13wdemzlir0&amp;t=40m07s\" target=\"_blank\">Google Docs</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=13wdemzlir0&amp;t=43m46s\" target=\"_blank\">Google Sheets</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=13wdemzlir0&amp;t=46m24s\" target=\"_blank\">Google Forms</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=13wdemzlir0&amp;t=51m41s\" target=\"_blank\">Chrome Extensions</a></li></ul></span>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/7-google.png"
+                    ],
+                    "text": "<p class=\"note\">Note: Basic Google searches are covered in Project 4: Discover, Goal 4, Choice C.</p><ol><img src=\"img/7-google.png\" alt=\"\" width=\"220px\" border=\"1\" style=\"float:right; margin-right:0px; margin-top: 8px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li> Watch this series of videos on how to use Google effectively:<br><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=MUsaxTM7yrw\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">Part One—10:38 - 2011</span></a><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=2HOARtRHv74\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">Part Two—9:13 - 2011</span></a><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=-fKI2v4cXls\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">Part Three—7:11 - 2011</span></a><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=lA957WsqO0w\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">Part Four—6:57 - 2011</span></a><br> <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=A9UM9hGx7vE\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">Part Five—9:28 - 2011</span></a><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=cggDf3nuZL4\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">Tips and Tricks—9:15</span></a></li><br><li>Learn more about using Google tools for your genealogy. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=13wdemzlir0&amp;t=152s\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">BYU: Getting the Rest of the Gold; Google Goldmine for Genealogists—60:44 - 2019</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('gold');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"gold\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=13wdemzlir0&amp;t=23m13s\" target=\"_blank\">Google Search</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=13wdemzlir0&amp;t=33m18s\" target=\"_blank\">Google Newspaper Archives</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=13wdemzlir0&amp;t=37m01s\" target=\"_blank\">Google Drive</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=13wdemzlir0&amp;t=40m07s\" target=\"_blank\">Google Docs</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=13wdemzlir0&amp;t=43m46s\" target=\"_blank\">Google Sheets</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=13wdemzlir0&amp;t=46m24s\" target=\"_blank\">Google Forms</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=13wdemzlir0&amp;t=51m41s\" target=\"_blank\">Chrome Extensions</a></li></ul></span></div><br><br><iframe width=\"330\" height=\"220\" src=\"https://www.youtube.com/embed/13wdemzlir0?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li><span class=\"g\">Google Photos</span>: See <a class=\"lk\" href=\"https://www.thefhguide.com/project-2-memories.html\" target=\"_blank\">Choice F</a> in Goal 1 of Project 2: Memories for tips about learning and using the Google Photos app for family history.</li><br><li><span class=\"g\">Google eBooks</span>: Watch this video or read the article on using free Google eBooks for your family history. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=c_XZ3us-BZs\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">LLC—Free Google eBooks for Genealogy—3:21 - 2016</span></a><br><br><iframe width=\"330\" height=\"220\" src=\"https://www.youtube.com/embed/c_XZ3us-BZs?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br><span class=\"star notranslate\">☆</span><a href=\"https://www.legacytree.com/blog/google-books-genealogy-research\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">LT—Google Books: An Untapped Genealogy Resource</span></a></li><br></ol><h5>Google Earth</h5><ol><li>Learn about using Google Earth for family history. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.archives.com/experts/hendrickson-nancy/flying-to-the-past-with-google-earth.html\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">AR—Flying to the Past With Google Earth - 2013</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://content.ldschurch.org/family-history/bc/rootstech/salt-lake/2019-conference-syllabi/LAB5595_Google_Maps_Satellite_and_Earth.pdf\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">RT—Google for Genealogists: Maps, Satellite, and Earth - 2019</span></a></li><br><li>Watch this video for additional ideas. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=GXAXnDl54qY\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">LLC—Ways to Use Google Earth for Genealogy and Family History—61:28 - 2020</span></a><br><br><iframe width=\"330\" height=\"220\" src=\"https://www.youtube.com/embed/GXAXnDl54qY?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Use YouTube.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Youtube has many videos and lessons about a wide range of genealogical topics.</li><li>Find a speaker or company whose videos are relevant to your interest; then watch the videos and take notes to gather more information on the topics.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/7-youtube.png"
+                    ],
+                    "text": "<ol><img src=\"img/7-youtube.png\" alt=\"\" width=\"250px\" border=\"1\" style=\"float:right; margin-right:0px; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Use these resources to help with using YouTube videos for your family history. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/blog/en/started-youtube-family-history/\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Getting Started to YouTube Your Family History - 2014</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/youtube-your-family-history\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—YouTube Your Family History—44:43 - 2012</span></a></li><br><li>Learn more about YouTube and genealogy. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://content.ldschurch.org/family-history/bc/rootstech/salt-lake/2019-conference-syllabi/RT1483_YouTube_and_Genealogy.pdf\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">YouTube and Genealogy: A Visual Library of Learning and Family Bonding - 2019</span></a> </li><br><li><span class=\"g\">Channels</span>: Here is a sample list of YouTube channels with helpful videos on family history:<ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/user/AmericanAncestors\" target=\"_blank\">American Ancestors</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/user/AncestryCom\" target=\"_blank\">Ancestry</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/channel/UC7hqNOQt-2AfeVEpDuc7sCA\" target=\"_blank\">BYU Family History Library</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/user/4YourFamilyStory\" target=\"_blank\">Caroline Pointer</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/user/DearMYRTLE\" target=\"_blank\">DearMYRTLE</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/user/ashbyster\" target=\"_blank\">Devin Ashby</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/user/FamilySearch\" target=\"_blank\">FamilySearch</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/user/familytreemagazine\" target=\"_blank\">Family Tree Magazine</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/user/findmypast\" target=\"_blank\">Findmypast</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/user/GenealogyBank\" target=\"_blank\">Genealogy Bank</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/user/GenealogyTools\" target=\"_blank\">Genealogy Tools (Family Tree Maker)</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/user/legacyfamilytree\" target=\"_blank\">Legacy Family Tree Software</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/user/GenealogyGems\" target=\"_blank\">Lisa Louise Cooke's Genealogy Gems</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/user/MyHeritageLtd?spfreload=1\" target=\"_blank\">MyHeritage</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/user/PathstoYourPast\" target=\"_blank\">National Genealogical Society (NGS)</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/user/RootsMagicTV\" target=\"_blank\">RootsMagic TV</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/user/usnationalarchives\" target=\"_blank\">US National Archives</a></li></ul></li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Use Facebook.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Facebook is a great way to connect with others working on family history.</li><li>There are many genealogical groups or pages you can join to get more information or collaborate on a specific topic or research goal. </li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=VdgsOT-K9UE#t=1m15s\" target=\"_blank\">Facebook groups</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=VdgsOT-K9UE#t=10m3s\" target=\"_blank\">Reddit community</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=VdgsOT-K9UE#t=11m49s\" target=\"_blank\">Google groups</a></li></ul></span>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/7-facebook.png"
+                    ],
+                    "text": "<ol><img src=\"img/7-facebook.png\" alt=\"\" width=\"250px\" border=\"0\" style=\"float:right; margin-right:0px; margin-top: 16px; margin-left: 16px;\"><li><span class=\"g\">Introduction</span>: Get started using Facebook. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.gcflearnfree.org/facebook101/getting-started-with-facebook/1/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Getting Started with Facebook</span></a> </li><br><li>Read this article for ideas on using Facebook for your family history. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/blog/en/facebook-family-history/\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Facebook is Family History - 2014</span></a></li><br><li> Access these Facebook articles on the FamilySearch Wiki. The first is an overview of using Facebook for genealogy; the second discusses research groups on Facebook.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Facebook\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Facebook Genealogy</span></a><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Genealogy_Help_on_Facebook\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Genealogy Help on Facebook</span></a></li><br><li> Access the <a class=\"lk\" href=\"https://www.facebook.com/AncestryUS?brand_redir=1\" target=\"_blank\">Ancestry page on Facebook</a>. For an overview of the Ancestry Facebook page features, watch this video. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=nOe-1qmWSG8\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">AC—Ancestry Facebook Page—8:00 - 2012</span></a><br><br><iframe width=\"330\" height=\"220\" src=\"https://www.youtube.com/embed/nOe-1qmWSG8?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br> <li><span class=\"g\">Groups</span>: Learn how to create a Facebook group for genealogy. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=RfZtGJT09jI\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">BYU—Creating a Facebook Group—13:35 - 2014</span></a><br><br><iframe width=\"330\" height=\"220\" src=\"https://www.youtube.com/embed/RfZtGJT09jI?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/en/blog/how-to-create-a-facebook-group-as-a-genealogist\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">RT—How to Create a Facebook Group as a Genealogist - 2017</span></a></li><br> <li>Learn how to maintain a Facebook group for genealogy. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/en/blog/how-to-maintain-a-facebook-group-as-a-genealogist\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">RT—How to Maintain a Facebook Group as a Genealogist - 2018</span></a></li><br><li><span class=\"g\">Resources</span>: Reach out to your Facebook friends and collaborate with your family history projects and questions.</li><li> Use the <a class=\"lk\" href=\"http://socialmediagenealogy.com/genealogy-on-facebook-list/\" target=\"_blank\">Genealogy on Facebook</a> file to search for Facebook pages related to family history, or watch this video for ways to find Facebook groups.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=VdgsOT-K9UE\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">RT—Crowdsourcing Your Brick Walls, Part 2—13:51 - 2021</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('crowd2');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"crowd2\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=VdgsOT-K9UE#t=1m15s\" target=\"_blank\">Facebook groups</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=VdgsOT-K9UE#t=10m3s\" target=\"_blank\">Reddit community</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=VdgsOT-K9UE#t=11m49s\" target=\"_blank\">Google groups</a></li></ul></span></div><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/VdgsOT-K9UE?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Use Twitter.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Twitter can be used to connect with others doing family history and share small stories or facts about  ancestors.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/7-twitter.png"
+                    ],
+                    "text": "<ol><img src=\"img/7-twitter.png\" alt=\"\" width=\"250px\" border=\"1\" style=\"float:right; margin-right:0px; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li><span class=\"g\">Introduction</span>: Use this Twitter tutorial from Lifewire. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.lifewire.com/tutorial-intro-to-using-twitter-2654622\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Learn How to Use Twitter in 15 Minutes - 2021</span></a></li><br><li>Read this article for ideas on using Twitter for your family history. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/blog/en/grandchildren-wished-tweeted-2/\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—What Your Grandchildren Wish You Would Have Tweeted - 2014</span></a></li><br><li>Watch this Ancestry video for ideas on using Twitter in genealogy. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=QC2TAaxTMNA\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">AC—Twitter for Genealogy—30:00 - 2014</span></a><br><br><iframe width=\"330\" height=\"220\" src=\"https://www.youtube.com/embed/QC2TAaxTMNA?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li><span class=\"g\">Benefits</span>: Learn about the benefits of using Twitter with family history. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.archives.com/experts/fishman-stephanie-pitcher/twitter-and-todays-genealogist.html\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">AR—Twitter and Today's Genealogist - 2013</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Use Pinterest.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>The \"Pin It\" feature on Pinterest is a way that you can file and catalog images and websites that are relevant to your research.</li><li>You can use Pinterest to create a timeline of an ancestor's life.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/7-pinterest.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/7-pinterest.jpg\" alt=\"\" width=\"250px\" style=\"float:right; margin-right:0px; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li><span class=\"g\">Introduction</span>: Read these articles to learn how to use Pinterest with family history. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/blog/en/pin-power-pinterest-family-history/\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—The Power of Pinterest for Family History - 2014</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/blog/en/pinterest-genealogy-2/\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Can You Use Pinterest for Genealogy? - 2012</span></a></li><br><li>Learn more about Pinterest and family history in these articles. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://blogs.ancestry.com/cm/2014/06/16/8-ways-to-use-pinterest-for-genealogy-research/\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">AC—Using Pinterest for Genealogy - 2014</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://content.ldschurch.org/family-history/bc/rootstech/salt-lake/2019-conference-syllabi/RT3842_Using_Pinterest_to_Boost_Your_Genealogy_Research.pdf\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">RT—Using Pinterest to Boost Your Genealogy Research - 2019</span></a></li><br><li>To learn more about Pinterest, you can use this set of tutorial lessons. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.gcflearnfree.org/pinterest/\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Tutorial: Pinterest</span></a></li><br><li><span class=\"g\">Partner Pages</span>: Explore Pinterest pages for Partners:<br><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.pinterest.com/familysearch/\" target=\"_blank\">FamilySearch</a></li><li><a class=\"lk\" href=\"https://www.pinterest.com/ancestrycom/\" target=\"_blank\">Ancestry</a></li><li><a class=\"lk\" href=\"https://www.pinterest.com/myheritagepins/\" target=\"_blank\">MyHeritage</a></li><li><a class=\"lk\" href=\"https://www.pinterest.com/findmypastUSCA/\" target=\"_blank\">Findmypast</a></li><br></ul></li><li>Learn how to build an ancestor timeline on Pinterest. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=CMNBKrpM2es\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">BYU—Ancestor Timeline on Pinterest—8:48 - 2014</span></a><br><br><iframe width=\"330\" height=\"220\" src=\"https://www.youtube.com/embed/CMNBKrpM2es?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li>Learn about the benefits of using Pinterest with family history. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.archives.com/experts/macentee-thomas/pinning-down-your-family-history.html\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">AR—Pinning Down Your Family History - 2013</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://familyhistorydaily.com/category/free-genealogy-resources/\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FHD—Why You Should Start Using Pinterest for Genealogy Right Now (and How to Do It)</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Use Instagram.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Instagram is a website that is centered around sharing photos and videos and can be used for genealogy and information sharing.</li><li>Hashtags are a way to categorize and label posts, so use those as an organizational system for your images.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/7-instagram.png"
+                    ],
+                    "text": "<ol><img src=\"img/7-instagram.png\" alt=\"\" width=\"250px\" border=\"0\" style=\"float:right; margin-right:0px; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li><span class=\"g\">Introduction</span>: Get started with the <a class=\"lk\" href=\"https://www.gcflearnfree.org/instagram/\" target=\"_blank\">Instagram tutorials</a> on GCFLearnFree.</li><li>Learn how to use Instagram with family history. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/blog/en/3-ways-instagram-family-history/\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—3 Ways to Use Instagram for Family History - 2019</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=LqMSlxoUjCs\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">BYU—Instagram—12:50 - 2015</span></a><br><br><iframe width=\"330\" height=\"220\" src=\"https://www.youtube.com/embed/LqMSlxoUjCs?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br> </li><br><li><span class=\"g\">Tips</span>: Here are some additional tips for using Instagram with family history. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/en/blog/3-ways-to-use-instagram-for-genealogy\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—3 Ways to Use Instagram for Genealogy</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/en/blog/4-tips-for-using-instagram-in-your-family-history-research\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—4 Tips for Using Instagram in Your Family History Research</span></a></li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Technology from Findmypast (FMP)",
+        "name": "Findmypast Technology",
+        "section_name": "Use technology from Findmypast.",
+        "summary": "<p>This Goal helps you use the Findmypast mobile app and explore Findmypast on social media.</p>",
+        "choices": [
+            {
+                "name": "Download and use the free Findmypast mobile app.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-woman-laptop2.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/y-woman-laptop2.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 350px;; border:1px solid #000; padding:0px;\"><li>Get the mobile app (Android and iOS) for Findmypast.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://blog.findmypast.com/findmypast-app-2623284760.html\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FMP—Introducing the Findmypast App - 2020</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Follow Findmypast on <a class=\"lk\" href=\"http://www.facebook.com/findmypastus\" target=\"_blank\">Facebook</a>.</li><li>Follow Findmypast on <a class=\"lk\" href=\"http://twitter.com/#!/findmypastus\" target=\"_blank\">Twitter</a>.</li><li>View <a class=\"lk\" href=\"https://blog.findmypast.com/all-webinars\" target=\"_blank\">webinars</a> from Findmypast.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

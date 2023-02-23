@@ -1,0 +1,312 @@
+[
+    {
+        "nav_name": "Research and Records",
+        "name": "Research and Records",
+        "section_name": "Learn about New Brunswick research and records",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Get started with research for your New Brunswick ancestors.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for research resources. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-nb-over.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/lighthouse-sea-ocean-new-brunswick-1133144/\" target=\"_blank\"> <img src=\"../img/x-ca-nb-over.jpg\" alt=\"\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\" width=\"450px\" border=\"1\"></a><li>Learn about finding your ancestors in New Brunswick. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/New_Brunswick,_Canada_Genealogy\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki:—New Brunswick—Finding Your Ancestors</span></a></li><br><li>Explore resources for New Brunswick research on Ancestry. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://search.ancestry.com/Places/Canada/New_Brunswick/Default.aspx\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">AC—New Brunswick Resources</span></a></li><br><li>Learn about finding resources for New Brunswick ancestors. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://ukcdngenealogy.blogspot.com/2018/08/finding-your-ancestors-in-canada-new.html\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Finding Your Ancestors in Canada - New Brunswick</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://www.americanancestors.org/tools/new-brunswick\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">AA—New Brunswick Genealogy</span></a></li><br><li>Use the New Brunswick Record Selection Table to decide on records to search. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/New_Brunswick_Record_Selection_Table\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—New Brunswick Record Selection Table</span></a></li><br><li>Explore county and parish resources on the  <a class=\"lk\" href=\"http://sites.rootsweb.com/~cannb/\" target=\"_blank\">New Brunswick GenWeb site</a>.</li><li>Explore a variety of records on the <a class=\"lk\" href=\"https://sites.google.com/site/freecanadianancestry/home/new-brunswick\" target=\"_blank\">FreeCanadianAncestry</a> site. </li><li>Download free research guides for each New Brunswick county on the <a class=\"lk\" href=\"https://archives.gnb.ca/ResearchTools/CountyGuides.aspx?culture=en-CA\" target=\"_blank\">New Provincial Archives of New Brunswick site</a>.</li><li>Learn about resources for early New Brunswick research.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://thediscoverblog.com/2019/06/18/the-founding-of-new-brunswick/\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">The founding of New Brunswick</span></a></li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Archives and Libraries",
+        "name": "Archives and Libraries",
+        "section_name": "Learn about New Brunswick archives and libraries.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about New Brunswick archives and libraries.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for archives and libraries. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-nb-lib.jpg"
+                    ],
+                    "text": "<ol><a href=\"http://www.familyheritage.ca/fredericton2.html\" target=\"_blank\"> <img src=\"../img/x-ca-nb-lib.jpg\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li>Learn about New Brunswick archives and libraries in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/New_Brunswick_Archives_and_Libraries\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: New Brunswick Archives and Libraries</span></a></li><br><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about New Brunswick city directories.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about New Brunswick city directories in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/New_Brunswick_Directories\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: New Brunswick Directories</span></a></li><br><li>Explore city directories in New Brunswick on the <a class=\"lk\" href=\"http://www.cangenealogy.com/nb-directories.html\" target=\"_blank\">CanGenealogy site</a>.</li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Vital and Census Records",
+        "name": "Vital and Census Records",
+        "section_name": "Learn about New Brunswick vital and census records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about New Brunswick vital and birth records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for vital and birth records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-nb-vit.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/canada-autumn-church-season-scenic-2370225/\" target=\"_blank\"> <img src=\"../img/x-ca-nb-vit.jpg\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li>Learn about New Brunswick vital records in this article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/New_Brunswick_Vital_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: New Brunswick Vital Records</span></a></li><br><li>Learn about and search New Brunswick provincial birth records. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/New_Brunswick,_Provincial_Returns_of_Births_and_Late_Registrations_-_FamilySearch_Historical_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS: New Brunswick Provincial Returns of Births</span></a></li><br><li>Search for vital records on the <a class=\"lk\" href=\"http://archives.gnb.ca/search/VISSE/?culture=en-CA\" target=\"_blank\">New Brunswick Government Archives</a> site.</li><li>Learn about and search New Brunswick marriage records. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/New_Brunswick_Provincial_Deaths_-_FamilySearch_Historical_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">New Brunswick Provincial Deaths</span></a></li><br><li>Learn about adoption records on the <a class=\"lk\" href=\"http://www.originscanada.org/adoption-records/by-province/new-brunswick-adoption-records/\" target=\"_blank\">OriginsCanada</a> site.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore New Brunswick death records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for death records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>Learn about and search New Brunswick death records. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/New_Brunswick_Provincial_Deaths_-_FamilySearch_Historical_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS: New Brunswick Provincial Deaths</span></a></li><br><li>Explore death record resources on the <a class=\"lk\" href=\"https://www.deathindexes.com/canada.html\" target=\"_blank\">Death Indexes</a> site.</li><li>Explore New Brunswick obituaries on the <a class=\"lk\" href=\"https://www.inmemoriam.ca/directory/province/nb-new_brunswick/1/\" target=\"_blank\">In Memoriam</a> site.</li> </ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore New Brunswick census records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for census records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>Get an overview of New Brunswick censuses in this article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/New_Brunswick_Census\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—New Brunswick Census</span></a></li><br><li>Learn about and search the 1861 New Brunswick census records. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/New_Brunswick_Census,_1861_-_FamilySearch_Historical_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS: New Brunswick 1861 Census Records</span></a></li><br><li>Explore the <a class=\"lk\" href=\"http://www.myfreecensus.com/new-brunswick-census-records.htm\" target=\"_blank\">MyFreeCensus site</a> for New Brunswick state and county census records.</li></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Church and Cemetery Records",
+        "name": "Church and Cemetery Records",
+        "section_name": "Learn about New Brunswick church and cemetery records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about New Brunswick church records.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Get an overview of New Brunswick church records in this article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/New_Brunswick_Church_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—New Brunswick Church Records</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore New Brunswick cemetery records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for church and cemetery records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-nb-cem.jpg"
+                    ],
+                    "text": "<ol><img src=\"../img/x-ca-nb-cem.jpg\" alt=\"\" width=\"450px\" style=\"float:right; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\">  <li>Explore New Brunswick cemetery records in this article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/New_Brunswick_Cemeteries\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—New Brunswick Cemetery Records</span></a> </li><br><li>Browse the <a class=\"lk\" href=\"http://www.interment.net/can/nb/index.htm\" target=\"_blank\">Interment.net site</a> for New Brunswick cemetery records.</li><li>Browse the <a class=\"lk\" href=\"http://www.idreamof.com/canada/cemetery/nb.html\" target=\"_blank\">I Dream of Genealogy</a> site for New Brunswick cemetery records.</li><li>Search for records from various New Brunswick cemeteries on the <a class=\"lk\" href=\"http://www.acadian-cemeteries.acadian-home.org/frames.html\" target=\"_blank\">AcadianGenweb</a> site.</li><li>Search the <a class=\"lk\" href=\"http://www.findagrave.com/cgi-bin/fg.cgi?page=cs\" target=\"_blank\">Find A Grave site</a> for cemetery records.</li><li>Search the <a class=\"lk\" href=\"http://billiongraves.com/pages/search/\" target=\"_blank\">BillionGraves site</a> for cemetery records.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Emigration and Immigration",
+        "name": "Emigration and Immigration",
+        "section_name": "Learn about New Brunswick emigration and immigration.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about New Brunswick emigration and immigration.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about New Brunswick emigration and immigration in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/New_Brunswick_Emigration_and_Immigration\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: New Brunswick Emigration and Immigration</span></a></li><br><li>Learn about Acadian settlers in New Brunswick in this American Ancestors article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.americanancestors.org/tools/acadian-genealogy\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">AA—Acadian Genealogy</span></a></li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Probate, Land and Court",
+        "name": "Probate, Land and Court Records",
+        "section_name": "Learn about New Brunswick probate and land records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about New Brunswick probate and land records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for probate and land records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-nb-land.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/horses-pull-transportation-driving-2397030/\" target=\"_blank\"> <img src=\"../img/x-ca-nb-land.jpg\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li>Learn about New Brunswick probate records in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/New_Brunswick_Probate_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: New Brunswick Probate Records</span></a></li><br><li>Learn about probate records available in New Brunswick. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://sites.rootsweb.com/~cannb/NB_Probate.htm\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Introduction to Probate Records</span></a></li><br><li>Learn about New Brunswick land and property records. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/New_Brunswick_Land_and_Property\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—New Brunswick Land and Property Records</span></a></li><br></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Maps and Gazetteers",
+        "name": "Maps and Gazetteers",
+        "section_name": "Learn about New Brunswick maps and gazetteers.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore New Brunswick maps and gazetteers.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-nb-map.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://commons.wikimedia.org/wiki/File:1866_Mitchell_Map_of_New_Brunswick_and_Nova_Scotia,_Canada_-_Geographicus_-_NewBrunswickNovaScotia-mitchell-1866.jpg\" target=\"_blank\"> <img src=\"../img/x-ca-nb-map.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 350px;\"></a><li>Explore the <a class=\"lk\" href=\"http://www.davidrumsey.com/luna/servlet/view/search?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&amp;q=new_brunswick&amp;search=Go\" target=\"_blank\">David Rumsey collection</a> of New Brunswick maps.</li><li>Explore the <a class=\"lk\" href=\"https://www.canadiana.ca/search/?so=alphabetical&amp;q1.0=AND&amp;q0.0=%22Maps+of+the+National+Topographic+System+of+Canada%22&amp;q2.0=%22New+Brunswick%22\" target=\"_blank\">Canadiana maps collection</a>.</li><li>Explore the <a class=\"lk\" href=\"http://www.lib.utexas.edu/maps/canada.html\" target=\"_blank\">Perry-Castaneda site</a> for maps of New Brunswick (search for New Brunswick on the page).</li><li>Explore <a class=\"lk\" href=\"http://www.historicmapworks.com/Browse/Maps/\" target=\"_blank\">historical New Brunswick maps</a> on the Historic Map Works site. Select North America, Canada, and New Brunswick in the drop-down menus.</li><li>Find New Brunswick towns and communities on the <a class=\"lk\" href=\"https://roadsidethoughts.com/nb/index-a.htm\" target=\"_blank\">RoadsideThoughts site</a>.</li><li>Search for New Brunswick place names on the <a class=\"lk\" href=\"https://www.johncardinal.com/ca/nb/places.htm\" target=\"_blank\">John Cardinal site</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Newspapers",
+        "name": "Newspapers",
+        "section_name": "Learn about New Brunswick newspapers.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about New Brunswick newspapers.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-newspaper-bundle.jpg"
+                    ],
+                    "text": "<ol><img src=\"../img/y-newspaper-bundle.jpg\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Search vital statistics from New Brunswick newspapers in the <a class=\"lk\" href=\"https://familysearch.org/wiki/en/New_Brunswick_Newspapers\" target=\"_blank\">Provincial Archives of New Brunswick site.</a></li><a class=\"lk\" href=\"https://familysearch.org/wiki/en/New_Brunswick_Newspapers\" target=\"_blank\"></a></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore New Brunswick newspapers.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Find links to <a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Wikipedia:List_of_online_newspaper_archives#New_Brunswick\" target=\"_blank\"> New Brunswick newspapers</a> on the Wikipedia site.</li> <li>Explore New Brunswick newspaper resources on the <a class=\"lk\" href=\"http://www.cangenealogy.com/nb-news.html\" target=\"_blank\">CanGenealogy</a> site.</li><li>Explore the <a class=\"lk\" href=\"https://archives.gnb.ca/ResearchTools/NewspaperDirectory/?culture=en-CA\" target=\"_blank\">New Brunswick newspaper directory</a>.</li><li>Search New Brunswick newspapers in the <a class=\"lk\" href=\"http://www.onlinenewspapers.com/canadanb.htm\" target=\"_blank\">onlinenewspapers.com</a> site.</li><li>Search the <a class=\"lk\" href=\"https://sites.google.com/site/onlinenewspapersite/Home/can/nb\" target=\"_blank\">New Brunswick Online Historical Newspapers</a> site.</li><li>Search New Brunswick newspapers in the <a class=\"lk\" href=\"http://www.world-newspapers.com/new-brunswick.html\" target=\"_blank\">world-newspapers.com</a> site.</li><li>Search New Brunswick newspapers in the <a class=\"lk\" href=\"http://www.abyznewslinks.com/canadnb.htm\" target=\"_blank\">ABYZ News Link</a> site.</li><li>Explore New Brunswick newspaper resources on the <a class=\"lk\" href=\"http://www.theancestorhunt.com/blog/new-brunswick-online-historical-newspapers-summary\" target=\"_blank\">Ancestor Hunt</a> site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Websites",
+        "name": "Websites",
+        "section_name": "Explore additional websites for research.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "There are a number of websites with valuable resources for New Brunswick research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore links on the <a class=\"lk\" href=\"http://www.cangenealogy.com/nb.html\" target=\"_blank\">CanGenealogy</a> site.</li><li>Explore links in <a class=\"lk\" href=\"http://www.cyndislist.com/canada/provinces/nb\" target=\"_blank\">Cyndi's List</a>.</li><li>Explore links in <a class=\"lk\" href=\"http://www.genealogylinks.net/canada/new_brunswick/index.html\" target=\"_blank\">GenealogyLinks.net</a>.</li> </ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Search Records",
+        "name": "Search Records",
+        "section_name": "Search records from New Brunswick.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Use QUIKLinks to quickly search record collections for New Brunswick.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ul><li>QUIKLinks are indicated by lightning-bolt icons in the Goal header area and in the page.</li><li>QUIKLinks point to collections with 50,000 or more records.</li></ul>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore additional record collections.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore the <a class=\"lk\" href=\"https://familysearch.org/wiki/en/New_Brunswick_Online_Genealogy_Records\" target=\"_blank\">FamilySearch page</a> for online genealogy records.</li><li>Explore additional record collections in <a class=\"lk\" href=\"https://www.ancestry.com/search/collections/catalog/?keyword=New+Brunswick\" target=\"_blank\">Ancestry</a>.</li><li>Explore additional record collections in <a class=\"lk\" href=\"https://search.findmypast.com/historical-records?page=1&amp;region=canada&amp;subcountry=new%20brunswick\" target=\"_blank\">Findmypast</a>.</li><li>Explore additional record collections in <a class=\"lk\" href=\"https://www.myheritage.com/research/catalog?location=New-Brunswick&amp;s=257937091\" target=\"_blank\">MyHeritage</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Get Help",
+        "name": "Get Help",
+        "section_name": "Get help with your New Brunswick research.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Use Facebook pages to get answers to your questions.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/fh-help4.jpg"
+                    ],
+                    "text": "<ol><a href=\"../img/fh-help4.jpg\" target=\"_blank\"> <img src=\"../img/fh-help4.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 350px;\"></a>  <li>Visit the <a class=\"lk\" href=\"https://www.facebook.com/groups/2352980933/\" target=\"_blank\">New Brunswick Genealogy page</a> on Facebook.</li><li>Visit the <a class=\"lk\" href=\"https://www.facebook.com/groups/21078059944/\" target=\"_blank\">Bathurst New Brunswick Genealogy page</a> on Facebook.</li><li>Find additional Facebook pages for New Brunswick genealogy on the <a class=\"lk\" href=\"http://socialmediagenealogy.com/genealogy-on-facebook-list\" target=\"_blank\">Genealogy on Facebook</a> site.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Join a mailing list or message board for New Brunswick research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Join the <a class=\"lk\" href=\"http://www.rootschat.com/forum/canada/\" target=\"_blank\">RootsChat forum</a> and post questions about New Brunswick research.</li><li>Search the <a class=\"lk\" href=\"http://bigfile.rootsweb.ancestry.com/cgi-bin/listsearch\" target=\"_blank\">RootsWeb site </a> for New Brunswick research mailing lists.</li><li>Explore the <a class=\"lk\" href=\"http://www.cyndislist.com/canada/provinces/nb/social/\" target=\"_blank\"> New Brunswick research mailing lists</a> on Cyndi's List.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about New Brunswick genealogy societies.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about genealogy societies in New Brunswick in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/New_Brunswick_Societies\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: New Brunswick Societies</span></a></li><br><li>Explore <a class=\"lk\" href=\"http://www.cyndislist.com/canada/provinces/nb/societies/\" target=\"_blank\">New Brunswick genealogy society sites</a> on Cyndi's list.</li><li>Get help at a <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Category:New_Brunswick_Family_History_Centres\" target=\"_blank\">family history center in New Brunswick</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,992 @@
+[
+    {
+        "nav_name": "Navigate Your Tree",
+        "name": "Navigate Your Ancestry Tree",
+        "section_name": "Navigate your Ancestry tree. Vault",
+        "summary": "<p>Navigating your Ancestry tree is essential to finding and adding ancestors, viewing and updating their information, and producing charts and reports. For an overview of building your Ancestry tree, read <a class=\"lk\" href=\"https://support.ancestry.com/s/article/ka215000000MVOJAA4/Getting-started-on-Ancestry-Lesson-2-Building-Your-Tree-1460088563413\" target=\"_blank\">this article</a>.</p><p>Note: The Pedigree View is displayed by default. To use the Family View, see Choice B below.</p>",
+        "choices": [
+            {
+                "name": "View and print your Ancestry tree in Pedigree View.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Find your tree and move its view position.</li><li>Explore the Tree Overview page.</li><li>Zoom and print the tree view.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Open your tree, move the view around on the screen, and print the current screen.</li><li>* Proficient: Same as Good; also review each item listed in Tree Overview.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/anc-tree1.png",
+                        "https://www.thefhguide.com/img/an/tree-over.JPG"
+                    ],
+                    "text": "<ol><li>In the top menu, click <b>Trees</b> and select your tree from the list. You can also click <b>Go to Tree</b> near the top of the homepage.</li><a href=\"img/an/anc-tree1.png\" target=\"_blank\"> <img src=\"img/an/anc-tree1.png\" width=\"750px\" style=\"float:left; margin-top:16px; border:1px solid #000; padding:0px;\"></a><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><li>To move the view of the tree, click and drag, or swipe an area of the screen where the hand icon is visible.</li><img src=\"img/an/tree-over.JPG\" width=\"120px\" style=\"float:right; margin-left:22px;  margin-top:16px; border:1px solid #000; padding:0px;\"><li>In the Pedigree view, to zoom in or out, click the plus or minus icon as needed, or use the mouse scroll button.</li><li>To see an overview of your tree, click your tree name (upper left) and select \"Tree Overview\". When you are finished with the Overview, click the tree name again and select <b>View tree</b>.<br><br>Here are the basic features of the Tree Overview page:<ul style=\"margin-left:-66px\"><li>Name of tree in Tree Overview (editable)</li><li>Recent Photos (photos can be added)</li><li>Recent Stories (stories can be added)</li><li>Recent Audio</li><li>Recent Videos </li><li>Home Person </li><li>Last Viewed Person</li><li>Summary (count of people, photos, stories, etc.)</li><li>Hints (categories of hints with links)</li><li>People You've Invited (invite people to the site, manage invitations)</li></ul></li><li>To print the current view of your tree, click the printer icon (upper right) and then click <b>Print</b> and complete the print dialog instructions.</li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "For more information about printing your tree, read this article.",
+                                "links": [
+                                    {
+                                        "link": "https://support.ancestry.com/s/article/Printing-a-Family-Tree",
+                                        "text": "AC—Printing a Family Tree",
+                                        "type": "document"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "For more information about navigating your Ancestry tree, read this article.",
+                                "links": [
+                                    {
+                                        "link": "https://support.ancestry.com/s/article/Navigating-a-family-tree-on-Ancestry-1460090075044-3030",
+                                        "text": "AC—Navigating a Family Tree",
+                                        "type": "document"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Navigate to earlier generations in your tree.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Open and close branches of your tree for viewing.</li><li>Set a person in the starting position for the tree view.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Open and close each line in your tree once. Choose a line that extends farther and go back several more generations, noting the names and places on the screen.</li><li>* Proficient: Same as Good; also open the tree view for three persons.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/tree-extend.JPG",
+                        "https://www.thefhguide.com/img/an/tree-close.JPG",
+                        "https://www.thefhguide.com/img/an/tree-view1.png"
+                    ],
+                    "text": "<ol><img src=\"img/an/tree-extend.JPG\" width=\"250px\" style=\"float:right; margin-right:0px; margin-left:16px; border:1px solid #000; padding:0px;\"><li>To extend a line in your tree for viewing, click the right arrow at the end of the line, if available. In the new family tree branch that is open, you can continue clicking right arrows to navigate back to earlier generations. You can drag or swipe to see other areas of the family tree. You can still see the previous view(s) at the left of the screen.</li><img src=\"img/an/tree-close.JPG\" width=\"260px\" style=\"float:right; margin-right:0px; margin-left:16px; border:1px solid #000; padding:0px;\"><li>To close a line you have opened, click the left arrow (which used to be the right arrow you clicked previously). Note: When you open a different line, the line you previously opened is automatically closed.</li><img src=\"img/an/tree-view1.png\" width=\"300px\" style=\"float:right; margin-right:0px; margin-left:16px; border:1px solid #000; padding:0px;\"><li>To view a person's tree, with that person in the starting position, <br>a) Click the person's name in the tree; <br>b) Click the <b>Tool</b> icon; and <br>c) Select <b>View his/her family tree</b>. Person names you select for the home position, as well as those you search for, appear in a navigation path at the bottom of the screen, for quick access.</li><li>To reset the view to the original position, click the circle-arrow icon in the tool bar (left side).</li><li>To return to the home person in the tree, click the house icon in the tool bar.</li><li>For tree viewing options such as viewing all or preferred spouses, click the double-stack icon (below the circle-arrow).</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Use the Family View for your tree.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Open the Family view.</li><li>Extend lines in either direction.</li><li>Explore the Summary window for your tree view.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Open the Family View, extend a line into the past, and extend another line to see more recent generations.</li><li>* Proficient: Same as Good; also use the Summary window to view different parts of your tree.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/family-view-icon.png",
+                        "https://www.thefhguide.com/img/an/tree-family-view1.png",
+                        "https://www.thefhguide.com/img/an/tree-view-siblings.png",
+                        "https://www.thefhguide.com/img/an/tree-view-summary.JPG"
+                    ],
+                    "text": "<p>The Family View displays all the siblings for each parent in a horizontal row, with previous generations appearing higher up in the view.</p><ol><img src=\"img/an/family-view-icon.png\" width=\"40px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>In the tree view, click the <b>Family View</b> icon at the left. Spouses are connected by a pair of blue and pink lines; siblings are connected to each other and to parents by gray lines.</li><br><a href=\"img/an/tree-family-view1.png\" target=\"_blank\"> <img src=\"img/an/tree-family-view1.png\" width=\"750px\" style=\"float:left; border:1px solid #000; padding:0px;\"></a><br><br><br><br><br><br><br><br><br><br><br><br><br><br><li>To move the view, click and drag, or swipe.</li><li>To extend a family line into the past, click an up arrow (top of the view).</li><li>To extend a family line to see more recent generations, click a down arrow (bottom of the view).</li><img src=\"img/an/tree-view-siblings.png\" width=\"200px\" style=\"float:right; margin-right:0px; margin-left:16px; border:1px solid #000; padding:0px;\"><li>To show the siblings for an ancestor, click the arrow next to the ancestor's picture. You can hover over the arrow to see the number of siblings. To hide the view of the siblings, click the arrow again.</li><li>To hide the children for a home person ancestor, click the arrow directly below the person's picture. Click the arrow again to show the children.</li><br><br><img src=\"img/an/tree-view-summary.JPG\" width=\"200px\" style=\"float:right; margin-right:0px; margin-left:16px; border:1px solid #000; padding:0px;\"><li>You can use the Summary window (lower left) to help you track your location in the tree. Drag inside the Summary window to move the main tree view. The black rectangle in the Summary window represents the person with the most recently opened line. To close the Summary window, click the \"x\" icon; to open it, click the double-arrow icon.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Find people quickly in your tree.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Do two searches, each for different people in your tree.</li><li>* Proficient: Same as Good; also use the Home Person, Last Viewed, and List of All People option for one of those searches.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/tree-search.png"
+                    ],
+                    "text": "<ol><img src=\"img/an/tree-search.png\" width=\"250px\" style=\"float:right; margin-right:0px; margin-left:16px; margin-top:16px; border:1px solid #000; padding:0px;\"><li>To search for a person in your tree, <br>a) Click <b>Tree Search</b> (upper right); <br>b) Type the name in the search field; and <br>c) Select the name from the drop-down list. If you need to scroll through the results at any time, use the page controls at the bottom of the screen.</li><li>To position the tree view on the home person, clear the Search field and click <b>Home Person</b> .</li><li>To position the view on the person you last selected, click <b>Last Viewed:(name)</b> and then select <b>View in Tree</b> (left side of Profile page).</li><li>To display a list of all the people in your tree, click <b>List of All People</b>. The list includes Name, Birth information, and Death information. You can scroll ahead to other pages or set the number of people appearing on each page of the list (lower left).</li><li>You can also use filters to narrow the results. The filters are based on Ancestry's MyTreeTags™. Before using MyTreeTags, you need to apply them to people in your tree (see Choice F below for details). To select filters, <br>a) In the <b>Tree Search</b> panel, click <b>Filters</b>;<br>b) Click any of the MyTreeTag categories to display the tags, and then choose any of interest; and<br>c) Click <b>Done</b> and then click <b>List of All People</b>. The list is narrowed by each filter you selected.</li><li>To remove a selected filter item, click it and then click <b>Done</b>.</li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "For more info on finding people in your tree, watch the video or read the article.",
+                                "links": [
+                                    {
+                                        "link": "https://www.ancestryacademy.com/videos/how-do-i-find-a-person-in-my-tree",
+                                        "text": "AC—How Do I Find a Person in My Tree?—0:35",
+                                        "type": "video"
+                                    },
+                                    {
+                                        "link": "https://support.ancestry.com/s/article/Finding-People-in-Your-Tree",
+                                        "text": "AC—Finding People in Your Tree",
+                                        "type": "document"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "View details for people in your tree.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Access summary and profile information for a person in your tree.</li><li>Use the Facts tab to see a timeline of events for a person.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Open summary windows for two different people in your tree and review their Profile information.</li><li>* Proficient: Same as Good; also use review the Facts for each person and display Family Events and Historical Highlights.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/summary-indiv1.png",
+                        "https://www.thefhguide.com/img/an/tree-facts.JPG"
+                    ],
+                    "text": "<p>Note : To search for information about a selected ancestor, use the Search button as explained in <a class=\"lk\" href=\"https://www.thefhguide.com/project-4-discover-an04.html#e\" target=\"_blank\">Project 4: Goal 4</a>.</p><ol><img src=\"img/an/summary-indiv1.png\" width=\"300px\" style=\"float:right; margin-right:0px; margin-left:16px; margin-top:16px; border:1px solid #000; padding:0px;\"><li>Click a name in your tree to open a summary window with birth and death details.</li><li>Click <b>Profile</b> to see a variety of information for the person. The area at the top shows the name, birth and death dates if available, a relationship link, and a MyTreeTags link. The main part of the screen shows Facts, Sources, and Family members for the person you selected.</li><img src=\"img/an/tree-facts.JPG\" width=\"250px\" style=\"float:right; margin-right:0px; margin-left:16px; margin-top:16px; border:1px solid #000; padding:0px;\"><li>Click the <b>Facts</b> tab to see a timeline of events on the left side. The year and person's age are shown in the timeline, and person links and the following facts are shown:<ul style=\"margin-left:-88px;\"><li>Birth and death information for siblings, parents, and children</li><li>Marriage information</li><li>Other information</li></ul></li><li>To filter out family events, historical insights, or name and gender, click <b>Filter</b> and select the items to filter.</li><li>To view your relationship to the person, click the relationship link (at the top, below the birth/death dates).</li><li>To view the selected person as the \"home person\" of the family tree, click <b>View in Tree</b>.</li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "For info on adding facts to a timeline, watch this video.",
+                                "links": [
+                                    {
+                                        "link": "https://www.ancestryacademy.com/videos/adding-a-new-fact-to-your-ancestor-s-timeline",
+                                        "text": "AC—Adding Facts to a Timeline—1:02",
+                                        "type": "video"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Set up and use Ancestry MyTreeTags.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Use the default MyTreeTags for identifying people in your tree with certain characteristics.</li><li>Set up and use custom tags for ancestors.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Apply at least one MyTreeTag to four or more ancestors.</li><li>* Proficient: Same as Good, using two MyTreeTags for each. Also create one or more custom tags.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/profile-main.png",
+                        "https://www.thefhguide.com/img/an/mytreetags.png"
+                    ],
+                    "text": "<ol><img src=\"img/an/profile-main.png\" width=\"250px\" style=\"float:right; margin-right:0px; margin-left:16px; margin-top:16px; border:1px solid #000; padding:0px;\"><li>In the top section of a person's Profile, click the MyTreeTags link (plus-tag icon). A panel appears on the right with tag selection options.</li><li>Open tag categories to see which tags (oval icons) you want to apply to the current ancestor.</li><br><img src=\"img/an/mytreetags.png\" width=\"300px\" style=\"float:right; margin-right:0px; margin-left:16px; margin-top:16px; border:1px solid #000; padding:0px;\"><li>Click a tag icon to apply it, or a question mark icon to learn more.</li><li>To detach a tag from the ancestor, click the tag icon again.</li><li>To see a list of tags you have saved, click <b>View saved tags</b> (bottom of the screen).</li><li>Close the tags panel. The tag you applied now appears in the Main area of the Profile. It also appears at the bottom of the summary window that appears when you click the person's name in the tree.</li><li>To create a custom tag, <br>a) In the MyTreeTags panel, click <b>Create a custom tag</b>;<br>b) Type a tag name and description; and <br>c) Click <b>Create</b>. The new tag appears in the Custom Tags list and is applied to the current ancestor. You can click the three-dot icon at the right to edit the tag or remove it from the tree.</li><li>To add a note for the tree tag, click the <b>Notes</b> tab and type the note. It's automatically saved as you type.</li><li>To add a comment for the tree tag, click the <b>Comments</b> tab, type the comment, and click <b>Submit</b>. When the comment appears in the list, you can use the Edit or Delete link if needed.</li><li>To edit or delete a tag, in the MyTreeTags panel click the three-dot icon and select <b>Edit tag</b> or <b>Delete tag from tree</b>.</li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "For more information on setting up and using MyTreeTags, read the article or watch the video.",
+                                "links": [
+                                    {
+                                        "link": "https://support.ancestry.com/s/article/MyTreeTags",
+                                        "text": "AC—MyTreeTags™",
+                                        "type": "document"
+                                    },
+                                    {
+                                        "link": "https://www.youtube.com/watch?v=PyiDzA-beA8",
+                                        "text": "FHF—How Ancestry MyTreeTags Can Improve Your Family Tree Research—15:26 - 2019",
+                                        "type": "video"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Edit Person Information",
+        "name": "Edit Person Information",
+        "section_name": "Edit person information in your Ancestry tree.",
+        "summary": "<p>Editing facts and profile information is essential to keeping your tree up to date. You can do a Quick Edit or a Profile Edit, or you can edit facts in a Person window.</p>",
+        "choices": [
+            {
+                "name": "Do a Quick Edit of a person's information.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Do a Quick Edit for a person in your tree for whom you have additional information.</li><li>* Proficient: Do a Quick Edit for three people in your tree.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/quick-edit.JPG",
+                        "https://www.thefhguide.com/img/an/quick-edit1.JPG"
+                    ],
+                    "text": "<ol><li>Click a name in your tree to open a summary window with birth and death details.</li><img src=\"img/an/quick-edit.JPG\" width=\"250px\" style=\"float:right; margin-left:16px; margin-top:16px; border:1px solid #000; padding:0px;\"><li>Click <b>Quick edit</b>.</li><br><img src=\"img/an/quick-edit1.JPG\" width=\"500px\" style=\"float:right; margin-left:16px; margin-top:16px; border:1px solid #000; padding:0px;\"><li>Edit any of the following items:<ul style=\"margin-left:-88px;\"><li>Names (including Suffix)</li><li>Gender</li><li>Status (Deceased or Living)</li><li>Birthdate</li><li>Birthplace</li><li>Death date</li><li>Death place</li></ul></li><li>Click <b>Save</b>.</li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "For more info on changing details, watch this video.",
+                                "links": [
+                                    {
+                                        "link": "https://www.ancestryacademy.com/videos/updating-basic-facts-about-an-ancestor",
+                                        "text": "AC—Quickly Updating Basic Facts about an Ancestor—0:38",
+                                        "type": "video"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "For guidelines on standardizing the information you enter, watch this video.",
+                                "links": [
+                                    {
+                                        "link": "https://m.youtube.com/watch?v=NLVRwMDxrIE",
+                                        "text": "AC—Genealogy Standards: Names, Dates, and Places—21:05 - 2015",
+                                        "type": "video"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Edit details in a person's Profile.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Edit Profile Facts for two people in your tree.</li><li>* Proficient: Same as Good; also update the Profile picture for a person in your tree.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/edit-fact.JPG"
+                    ],
+                    "text": "<ol><li>Open a person's profile (see <a class=\"lk\" href=\"project-2-family-tree-an.html#e\">Choice E</a> in Goal 1).</li><img src=\"img/an/edit-fact.JPG\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-bottom: 16px; max-width:400px; margin-top:16px; border:1px solid #000; padding:0px;\"><li>With the <b>Facts</b> tab open, select a white rectangle from the list on the left side and click <b>Edit</b>. (To edit other facts in the list, first click the person's name to open that person's Profile.)</li><li>Type the Fact Details as needed. You can also set LifeStory options here (see Project 3, Goal 4, <a class=\"lk\" href=\"project-3-memories-an04.html#a\">Choice A</a> for details), add media items (see <a class=\"lk\" href=\"project-3-memories-an04.html\">Project 3, Goal 4</a>), or add source citations (<a class=\"lk\" href=\"project-2-family-tree-an06.html\">Project 2, Goal 6</a>).</li><li>If you want these details to generate the LifeStory content for the person, make sure the \"Automatically generate story ...\" button is set to <b>On</b>.</li><li>Click <b>Save</b>. (Or, to delete the fact click <b>Delete</b> (lower right) and confirm the deletion.</li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "To update the Profile picture for the person, watch the video or read the article.",
+                                "links": [
+                                    {
+                                        "link": "https://www.ancestryacademy.com/videos/uploading-a-profile-image",
+                                        "text": "AC—How Do I Upload a Profile Image?—0:55",
+                                        "type": "video"
+                                    },
+                                    {
+                                        "link": "https://support.ancestry.com/s/article/Adding-Profile-Images",
+                                        "text": "AC—Adding Profile Images",
+                                        "type": "document"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Add and print Facts in a person's Profile.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Proficient: Add and print Facts for three people in your tree.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/select-event.JPG",
+                        "https://www.thefhguide.com/img/an/print-facts.JPG"
+                    ],
+                    "text": "<ol><img src=\"img/an/select-event.JPG\" width=\"350px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>Click <b>Add</b> at the top of the Facts panel, or click <b>Add Fact</b> at the bottom of the Facts panel. This displays the \"Add Fact or Event\" dialog.</li><li>Click \"Select an event type\" and choose the event from the list.</li><li>Type the Fact Details as needed. You can also add media items (see <a class=\"lk\" href=\"project-3-memories-an04.html\">Project 3, Goal 4</a>), or add source citations (<a class=\"lk\" href=\"project-2-family-tree-an06.html\">Project 2, Goal 6</a>).</li><img src=\"img/an/print-facts.JPG\" width=\"250px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>Click <b>Add</b>.</li><li>To display a list of facts for the selected person, <br>a) Click the <b>Tools</b> menu (upper right) and select <b>Print</b>; <br>b) If you want to print only certain Facts in the Print page, click <b>Customize</b> (upper left) and select the Fact types from the drop-down list; and <br>c) Click <b>Print</b>.</li><li>To display all the research tools in a ribbon below the person's name in the Profile, click <b>Tools</b> and select <b>Show Research Tools</b>. To hide the ribbon, click <b>Show Research Tools</b> again.</li><br></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "For more info on printing Facts pages, watch this video.",
+                                "links": [
+                                    {
+                                        "link": "https://www.ancestryacademy.com/videos/how-do-i-print-out-a-facts-page",
+                                        "text": "AC—How Do I Print Out a Facts Page?—0:18",
+                                        "type": "video"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "For more info on adding or deleting facts or events, read this article.",
+                                "links": [
+                                    {
+                                        "link": "https://support.ancestry.com/s/article/Adding-and-Removing-Facts-or-Events-from-your-Family-Tree-1460090078329-3061",
+                                        "text": "AC—Managing Facts and Events",
+                                        "type": "document"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "To learn about adding alternate facts, read this article.",
+                                "links": [
+                                    {
+                                        "link": "https://support.ancestry.com/s/article/ka215000000MTibAAG/Adding-Alternate-Facts-in-a-Tree",
+                                        "text": "AC—Adding Alternate Facts",
+                                        "type": "document"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Add notes and comments for a person.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Proficient: Add notes and comments for two people in your tree.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/view-notes.JPG"
+                    ],
+                    "text": "<ol><img src=\"img/an/view-notes.JPG\" width=\"250px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>In a Profile page, click the <b>Tools</b> icon and select <b>View Notes</b>. The Notes / Comments window appears on the right.</li><li>With <b>Notes</b> selected, type notes for the person. The notes are saved as you type.</li><li>To add a comment, <br>a) Click <b>Comments</b>; <br>b) Type your comment for the person; and <br>c) Click <b>Submit</b>. Comments can be seen by anyone who has access to your tree. <br>You can also edit or delete comments.</li><li>When you are finished with the Notes and Comments, click the <b>X</b> to close the window.</li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "Learn more about adding comments and notes.",
+                                "links": [
+                                    {
+                                        "link": "https://www.ancestryacademy.com/videos/managing-comments-on-your-tree",
+                                        "text": "AC—Managing Comments on Your Tree—0:38",
+                                        "type": "video"
+                                    },
+                                    {
+                                        "link": "https://support.ancestry.com/s/article/ka215000000MVQFAA4/Notes-and-Comments-Viewer-1460089695855",
+                                        "text": "AC—Notes and Comments",
+                                        "type": "document"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Here are some additional resources for notes and comments.",
+                                "links": [
+                                    {
+                                        "link": "https://www.ancestryacademy.com/videos/leaving-notes-for-yourself",
+                                        "text": "AC—Leaving Notes for Yourself—0:41",
+                                        "type": "video"
+                                    },
+                                    {
+                                        "link": "https://www.ancestryacademy.com/videos/leaving-a-comment-for-another-member",
+                                        "text": "AC—Leaving a Comment for Another Member—0:47",
+                                        "type": "video"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Learn about using notes vs. comments in Ancestry.",
+                                "links": [
+                                    {
+                                        "link": "https://www.youtube.com/watch?v=ZzigMle-rAI",
+                                        "text": "AC: Ancestry Online Trees: Notes Versus Comments—24:50 - 2015",
+                                        "type": "video"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Add or Remove People",
+        "name": "Add or Remove People in the Tree",
+        "section_name": "Add or remove people in your Ancestry tree.",
+        "summary": "<p>As you add people to your tree, make sure you fill in essential information and connect them in the tree correctly. The Choices below assume that the <b>Pedigree</b> view is used.</p>",
+        "choices": [
+            {
+                "name": "Add a relative for the home person.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/3a.png"
+                    ],
+                    "text": "<ol><li>If the person who needs a relative added is not currently the home person, move the person to home position (see Choice B in Goal 2). </li> <li>At the bottom of the home person's box, click <b>Add Relative</b> (the person-plus icon). </li> <li>Select Brother, Sister, Spouse, or Child.</li> <img src=\"img/an/3a.png\" width=\"550px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>If the person to be added may already be in the tree, <br>a) Click <b>Select someone in your tree</b> (upper left); <br>b) Type the name of the person and select it from the drop-down list; <br>c) If applicable, choose the parents for the person to be added; <br>d) Select the status as deceased or living (deceased will have a field for death date and place, and living will have a filed to select the person's role in the tree; and <br>e) Click <b>Save</b>.</li> <li>If the person to be added is not in your tree, <br>a) Fill in as many details as you can (name, birth date, birthplace, etc.); <br>b) If applicable, choose the parents for the person to be added; <br>c) Select the status as deceased or living (deceased will have a field for death date and place, and living will have a filed to select the person's role in the tree; and and <br>d) Click <b>Save</b>. <i>Tip</i> : Select place names from the drop-down lists.</li> </ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "For tips on adding a person to your tree, watch the video or read the article.",
+                                "links": [
+                                    {
+                                        "link": "https://www.ancestryacademy.com/videos/how-do-i-add-a-new-person-to-my-tree",
+                                        "text": "AC—How Do I Add a New Person to My Tree?—0:45",
+                                        "type": "video"
+                                    },
+                                    {
+                                        "link": "https://support.ancestry.com/s/article/Adding-People-to-a-Tree",
+                                        "text": "AC—Adding People to a Tree",
+                                        "type": "document"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Learn how to avoid adding duplicate persons to your tree.",
+                                "links": [
+                                    {
+                                        "link": "https://support.ancestry.com/s/article/How-to-Avoid-Creating-Duplicates-in-a-Tree",
+                                        "text": "AC—How to Avoid Creating Duplicates in a Tree",
+                                        "type": "document"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Add a father or mother for a person in your tree.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Add one or both parents for a person in your tree.</li><li>* Proficient: Add one or both parents for two people in your tree. If applicable, add a second spouse for a person in your tree.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/add-parents.png",
+                        "https://www.thefhguide.com/img/an/potential-father.png"
+                    ],
+                    "text": "<ol><img src=\"img/an/add-parents.png\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"><li>At the end of one of your family lines, click an \"Add Father\" or \"Add Mother\" box.</li><li>Assuming the person to be added is not in your tree (see Choice A above), fill in as many details as you can (name, birth date, birthplace, death date, death place). Select place names from the drop-down lists as you type.</li><li>Click <b>Save</b>.</li><img src=\"img/an/potential-father.png\" width=\"250px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>To add a Potential Parent (one that Ancestry suggests, based on data it has found),<br>a) Click <b>Potential Father</b> or <b>Potential Mother</b>;<br>b) To see what Ancestry is suggesting, click <b>Review Details</b>, review the vital information and links for records, photos, and family, and then click <b>Yes</b> to add the parent. If you click <b>Maybe</b>, the \"Potential\" box remains in the tree; if you click <b>No</b>, the box is removed.<br>c) To add the parent from your own information, click <b>Add Manually</b> instead of <b>Review Details</b>.</li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "For tips on adding a parent to someone in your tree, watch this video.",
+                                "links": [
+                                    {
+                                        "link": "https://www.ancestryacademy.com/videos/how-to-add-a-parent-to-someone-in-your-tree",
+                                        "text": "AC—How to Add a Parent to Someone in Your Tree—1:04",
+                                        "type": "video"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "For more details about Potential Parents, read this article.",
+                                "links": [
+                                    {
+                                        "link": "https://support.ancestry.com/s/article/Potential-Mother-and-Father-Hints",
+                                        "text": "AC—Potential Mother and Father Hints",
+                                        "type": "document"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "To learn how to add a second spouse, watch this video.",
+                                "links": [
+                                    {
+                                        "link": "https://www.ancestryacademy.com/videos/how-to-add-a-second-spouse",
+                                        "text": "AC—How to Add a Second Spouse—0:42",
+                                        "type": "video"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Add a relative for a person in your tree.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Add a relative for two persons in your tree.</li><li>* Proficient: Same as Good, for four persons in your tree.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/add-relative3.png"
+                    ],
+                    "text": "<ol><li>Click a person in the tree who will have a family member added. The person's Summary is displayed.</li><img src=\"img/an/add-relative3.png\" width=\"200px\" style=\"float:right; margin-left:16px; margin-top:16px; border:1px solid #000; padding:0px;\"><li>Click the <b>Tools</b> icon and select <b>Add Relative</b>.</li><li>Follow steps 2-4 in Choice A above.</li><li>You can also add a family member this way: a) Click a person in the tree; <br>b) Click <b>Profile</b>; <br>c) In the Family section of the Profile (right side), click <b>Add</b>; <br>d) Select Spouse, Son, Daughter, Brother, or Sister; <br>e) Fill in the details and click <b>Save</b>.</li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "For tips on adding a child for someone in your tree, watch this video.",
+                                "links": [
+                                    {
+                                        "link": "https://www.ancestryacademy.com/videos/adding-a-new-child-to-someone-in-your-tree",
+                                        "text": "AC—Adding a New Child to Someone in Your Tree—0:44",
+                                        "type": "video"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "For tips on adding a sibling to a family in your tree, read this article.",
+                                "links": [
+                                    {
+                                        "link": "https://support.ancestry.com/s/article/Adding-Siblings-in-a-Tree",
+                                        "text": "AC—Adding Siblings in a Tree",
+                                        "type": "document"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "For Church of Jesus Christ-Ancestry Membership, connect individuals between your Ancestry and FamilySearch trees.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Connect at least three individuals between your Ancestry and FamilySearch trees.</li><li>* Proficient: Same as Good for at least four individuals, and use the \"Add up to four generations\" option for an end-of-line ancestor in your tree, if applicable.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/fs-connect.JPG",
+                        "https://www.thefhguide.com/img/an/fs-connect1.JPG"
+                    ],
+                    "text": "<p>You can link individuals between your Ancestry and FamilySearch trees so you can see FamilySearch information for them while you work in Ancestry. Certain updates made to an individual in FamilySearch will be reflected in your Ancestry tree, and you can add more relatives for a person, from the FamilySearch Family Tree. </p><ol><li>Open the Profile page for the person to be connected to FamilySearch.</li><li>Click the FamilySearch logo (next to \"Search\" on the right side). If you are not signed in to FamilySearch, you will be prompted to do so.</li><li>In the <b>Select Match</b> window, the default option is \"Find best matches\" (described in the next step). If you want to find a match person by FamilySearch ID, <br>a) Click \"Find match by FamilySearch ID\"; <br>b) Type the ID of the match person; and<br>c) Click <b>Find Match</b>.</li><img src=\"img/an/fs-connect.JPG\" width=\"600px\" style=\"float:right; margin-top:16px;  margin-left:16px; border:1px solid #000; padding:0px;\"><li>For the \"best match\" approach, select the name that appears near the top. Then compare data between the Ancestry person and possible matches on FamilySearch. If there is a match, click <b>Connect Person</b>. A check mark will appear next to the FamilySearch logo in the person's Ancestry Profile, indicating the person is now linked to FamilySearch. If there is no match, click <b>Add to FamilySearch</b> to add the person from your Ancestry tree to FamilySearch.</li><li>To view FamilySearch information for the person that you connected, in the Profile page click the blue check mark. You can see ordinance details (if available) and view or compare the FamilySearch and Ancestry information. You can also add relatives (see the next step).</li><img src=\"img/an/fs-connect1.JPG\" width=\"300px\" style=\"float:right; margin-top:16px;  margin-left:16px; border:1px solid #000; padding:0px;\"><li>To add selected relatives from FamilySearch to your Ancestry tree, <br>a) Click the FamilySeach icon and select <b>Add relatives from FamilySearch</b>; <br>b) Select a relative from the list; <br>c) Click <b>Continue</b>; and <br>d) Compare the FamilySearch information with the Ancestry individuals on the right of the screen. If there is a match, select the person's name from the Ancestry tree and click <b>Selected Person Is a Match</b> to connect the person to FamilySearch. Then click OK. Or, if there is no match, click <b>No Match, Add as a New Person</b> to add the person from FamilySearch into your tree.</li><li>To add up to four generations from FamilySearch into a new Ancestry tree, <br>a) In the Trees menu, click <b>Import tree from FamilySearch</b>; <br>b) Name your new Ancestry tree; and <br>c) Click <b>Continue</b>. The additional generations, if any, are now displayed in your new Ancestry tree.</li><li>To disconnect a person in your Ancestry tree from FamilySearch, <br>a) Click \"Disconnect person from FamilySearch; <br>b) Click <b>Disconnect</b> to remove the connection. <i>Note</i> : The disconnected person's information remains intact on both sites; only the connection is removed.</li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "To learn more about connecting Ancestry and FamilySearch names and sources, read the articles below. Note : You cannot transfer photos to and from Ancestry and FamilySearch; you must add the items individually.",
+                                "links": [
+                                    {
+                                        "link": "https://www.familysearch.org/help/helpcenter/article/how-do-i-connect-a-name-on-my-tree-on-ancestry-com-to-a-person-in-family-tree",
+                                        "text": "FS—How do I connect a name on my tree on Ancestry.com to a person in Family Tree? - 2020",
+                                        "type": "document"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Remove a person from your tree.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/add-relative4.png"
+                    ],
+                    "text": "<p><i>Note</i> : Be sure you are removing the correct person. Otherwise you will need to re-enter that person's information.</p><ol><img src=\"img/an/add-relative4.png\" width=\"200px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>In the tree view, click the name of the person to be removed. The Summary Card appears.</li><li>Click the <b>Tools</b> icon and select <b>Delete this person</b>.</li><li>Click <b>Delete</b> to remove the person from the tree.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Edit Relationships",
+        "name": "Edit Relationships",
+        "section_name": "Edit family relationships for people in your tree.Vault",
+        "summary": "<p>People lists and relationship reports help you quickly find people and see their information and relationships. This is especially helpful as your tree grows in size.</p>",
+        "choices": [
+            {
+                "name": "Edit family relationships.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Remove or change a person's relationship in a family.</li><li>Add an alternate father or mother in a family.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: If applicable, change a relationship for a person in your tree.</li><li>* Proficient: Same as Good; and if applicable, add an alternate parent or spouse to someone in your tree.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/edit-person.JPG",
+                        "https://www.thefhguide.com/img/an/edit-relationships.JPG"
+                    ],
+                    "text": "<ol><img src=\"img/an/edit-person.JPG\" width=\"150px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>In a person's Profile, click the <b>Edit</b> (pencil) icon in the upper right and select <b>Edit Relationships</b>. A list of family members for the person is shown.</li><li>To remove a person's relationship to this family (but not deleting the person from the tree), click the <b>X</b> icon next to the person's name and then click <b>Remove</b>.</li><img src=\"img/an/edit-relationships.JPG\" width=\"550px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>To change a father's, mother's or child's relationship in the family, click the drop-down list and select the option you want.</li><li>To change a spouse's relationship in the family, click the drop-down-list next to the person's name and select the option you want.</li><li>To add an alternate father for the family, click \"Add Alternate Father\" (top). If the person is already in the tree, type and select the alternate father's name and click <b>Save</b>. If the person is not in the tree, click <b>Add New Person</b>, fill out the fields, and click <b>Save</b> .</li><li>To add an alternate mother for the family, or an additional spouse or child, click the corresponding link and complete the dialog as explained in the previous step.</li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "Learn how to add a divorce relationship to your tree.",
+                                "links": [
+                                    {
+                                        "link": "https://support.ancestry.com/s/article/Divorces-in-Trees-and-Records",
+                                        "text": "AC—Divorces in Trees and Records",
+                                        "type": "document"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "For more info on changing relationships, watch the video or read the article.",
+                                "links": [
+                                    {
+                                        "link": "https://www.ancestryacademy.com/videos/how-to-change-a-relationship",
+                                        "text": "AC—How to Change a Relationship—0:52",
+                                        "type": "video"
+                                    },
+                                    {
+                                        "link": "https://support.ancestry.com/s/article/ka215000000MUUpAAO/Fixing-Relationships-in-Trees",
+                                        "text": "AC—Fixing Relationships",
+                                        "type": "document"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Explore Hints",
+        "name": "Explore Hints",
+        "section_name": "Explore hints for people in your tree.",
+        "summary": "<p>Hints are pieces of information about records, photos, stories, etc. for persons in your tree.</p>",
+        "choices": [
+            {
+                "name": "Find hints for an individual in your tree.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Find \"green leaf\" hints in Ancestry.</li><li>Review or ignore hints.</li></ul><hr style=\"margin-left: -20px;\">"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Find and briefly review two hints.</li><li>* Proficient: Find and briefly review four or more hints.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/person-hints.png",
+                        "https://www.thefhguide.com/img/an/quick-compare.png",
+                        "https://www.thefhguide.com/img/an/person-hints1.png",
+                        "https://www.thefhguide.com/img/an/hide-family.JPG"
+                    ],
+                    "text": "<ol><img src=\"img/an/person-hints.png\" width=\"350px\" style=\"float:right; margin-left:16px; margin-top:16px; border:1px solid #000; padding:0px;\"><li>In the Tree view, find a person with a green leaf next to the name.</li> <li>Click the name to show the Summary; then click the leaf in the upper-right corner of the Summary, which shows the number of available hints. (From the Summary you can also click <b>Profile</b> and then click the <b>Hints</b> tab.) The following types of information may be shown for record sources (see also the Reviewing Photos and Reviewing Stories sections in Choice C below):<ul style=\"margin-left:-88px;\"><li>Name of the source and its link</li><li>Source info—Link to summary information about the source</li><li>Quick Compare toggle (see info below)</li><li>Source details</li><li>Match indicators for the source details and your tree information (right side)—Same, Match (for spouse), Different, or New</li></ul></li> <img src=\"img/an/quick-compare.png\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-bottom: 16px; max-width:400px; margin-top:16px; border:1px solid #000; padding:0px;\"><li>To show a quick comparison between the source and your tree information, click <b>Quick Compare</b>. Differences are noted, and new information from the source (not in your tree) is indicated with a green dot.</li><br><img src=\"img/an/person-hints1.png\" width=\"500px\" style=\"float:right; margin-left:16px; margin-top:16px; border:1px solid #000; padding:0px;\"><li>To review a hint, click <b>Review</b>. For tips on reviewing hints, see Choice C below.</li><li>To ignore a hint, click <b>Ignore</b> and then click the <b>X</b> to remove the notification.</li><li>Click the link or photo for the record (left side) to display it.</li><br><img src=\"img/an/hide-family.JPG\" width=\"200px\" style=\"float:right; margin-left:16px; margin-top:16px; border:1px solid #000; padding:0px;\"><li>If your browser window is somewhat narrow, you can get more room for seeing hints by clicking <b>Hide Family</b> (right side). You can click <b>Show Family</b> to show family members again. <i>Note</i> : Clicking links in the Family section on the right displays the Facts tab (not the Hints tab).</li><li>To proceed with reviewing and attaching record hints, see Choice C below.</li> </ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "See all hints for your tree.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Find all hints for your tree.</li><li>Select the type and number of hints to display.</li></ul><hr style=\"margin-left: -20px;\">"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Proficient: Display all hints and use all the sorting and listing features described above.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/5b.png",
+                        "https://www.thefhguide.com/img/an/family-arrow.JPG"
+                    ],
+                    "text": "<ol><img src=\"img/an/5b.png\" width=\"600px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>Click the tree name (upper left) and select <b>All hints</b>. Or, in the homepage you can click \"View people with hints\". Also, you can click the leaf in the top menu bar, click \"See all recent hints in ...\" and select your tree. </li><li>To change the type of hints listed, click <b>Records</b>, <b>Photos</b>, <b>Stories</b>, <b>Member Trees</b>, or other items.</li><li>To sort your list of hints differently, click the <b>Sort By</b> button and select Most Recent, Last Name, or First Name. </li><li>To reduce the size of your list, <br>a) Click <b>Filter by Name</b>; <br>b) Type a last name or first name, or both; and <br>c) Click <b>Search</b>. </li><img src=\"img/an/family-arrow.JPG\" width=\"70px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>To view the hints, profile, or tree for a person shown in the list, click the family icon (upper right) and make your selection.</li><li>To jump to the next page of hints, click the left or right page-number arrow (top or bottom of the screen). To jump to another page, type a page number in the box and click the arrow.</li><li>To find a person, click <b>Find person</b> (upper right) and then type the name and select it from the list. (You can also choose \"Home person\" or \"List of all people.\") Then you can click the <b>Hints</b> tab in the Profile that appears.</li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "Watch this video for more information on the All Hints page.",
+                                "links": [
+                                    {
+                                        "link": "https://www.ancestryacademy.com/5-minute-finds/videos/viewing-your-hints-on-the-all-hints-page",
+                                        "text": "AAC—Viewing Your Hints On The All Hints Page—0:54",
+                                        "type": "video"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Review and attach record hints for people in your tree.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Analyze hint information.</li><li>Decide whether hint information matches up with information in your tree.</li><li>Display and share hint results.</li></ul><hr style=\"margin-left: -20px;\">"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Review and take action on two hints in your tree.</li><li>* Proficient: Review and take action on four or more hints in your tree.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/5c.png",
+                        "https://www.thefhguide.com/img/an/record-view.png"
+                    ],
+                    "text": "<ol><img src=\"img/an/5c.png\" width=\"600px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>With a record hint open (see Choice A above), review the information that appears in the right panel (\"Step 1: Evaluate record\"). You can click the <b>Compare Details</b> button to see how the record hint information compares with the information in your tree.</li><li>If the hint information does not belong in your tree, click  <b>Ignore</b>. The hint will be listed in the <b>Ignored</b> tab (beneath the Hints tab). You can then proceed to Choice D below.</li>  <li>If you're not sure whether the hint information should be saved to your tree, click <b>Maybe</b>. The hint will be listed in the <b>Undecided</b> tab so you can review it later. You can then proceed to Choice D below.</li>  <li>If this information does belong in your tree, click <b>Save to tree</b>. The hint will be listed in the <b>Accepted</b> tab.</li>  <li>If you need more information, click a name link in the right panel (with \"Compare Details\" off) to see record details for that person, or click \"View record page\" to see details for the primary person listed in the record.  </li></ol><h5>Record Page Details</h5><ol><img src=\"img/an/record-view.png\" width=\"180px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>In the \"Evaluate record\" pane at the right, click the link for the record. </li><li>Review the information on the screen for the record image you clicked, as well as the source citation information in the <b>Source</b> tab. You can click the Suggested Records links on the right side or name links in the middle of the screen.</li> <li>To examine the record that produced the hint information, if available, click the image on the left. For tips on viewing records, see Choice D below.</li><li>To see a map for the recorded event, if available, click <b>View Map</b>. The map can be dragged, and the viewing tools at the right of the screen can also be used. To save a copy of the map, click <b>Save</b> (upper right).</li><li>You can click the \"Add or update information\" beneath the image to provide alternate information (see Choice E below).</li><li>If this record is a match for the person in your tree, click <b>Yes</b> to proceed; if it is not a match, click <b>No</b>. If you are not sure, click <b>Maybe</b> to defer the matching decision to later.</li><li>If you clicked <b>Yes</b>, review the details in the right pane. You can select Record Details to include in your tree, or click \"Edit all\" to open items in your tree for editing. Then click <b>Save to tree</b>. In the confirmation pane you can select a reason for accepting the hint. Then click the \"x\" to exit the pane.</li><li>To display the record hint page in a printer-friendly view, click the printer icon (upper right).</li><li>To share the page on social media, click the Share icon and select one of the choices. Then follow the steps in the dialogs to send the page.</li></ol><h5>Reviewing Ancestry Tree Hints</h5><ol><li>Click the Ancestry Member Trees link at the top of the hints list (if available).</li><li>Scroll through the list of versions of your selected ancestor that are on member trees.</li><li>To review hints from a member's tree, click the box next to the hint (far left) and in your version (right side) click <b>Review selected tree hints</b>. </li><li>To open additional person information, click the checkbox for each family member in the list that you want to review.</li><li>To update selected information in your tree, click <b>Edit all fields</b> and make the desired changes.</li><li>To save all the new information to your tree, including all persons whose names you selected in the list, click <b>Save to your tree</b>.</li><li>If an information section does not include information you want, you can click \"Not a match\" to hide the section.</li></ol><h5>Reviewing Photo Hints</h5><ol><li>In the hints list, click the title of a member photo of interest. A larger version of the photo and additional information appear in the right panel.</li><li>To see the full-size photo, click <b>View</b>. In the upper left of the screen that appears, you can print or save the information, or view tags for the person. In the right panel you can click a contact link for the person who shared the photo, and you can see which member tree owners have saved the photo to their trees. You can also add a public comment for the photo.</li><li>Click <b>Save</b> or <b>Ignore</b>. If you save the hint to your tree, a confirmation dialog appears so you can indicate the reasons why you accepted the hint.</li></ol><h5>Reviewing Story Hints</h5><ol><li>In the hints list, click the title of a member story of interest. The story appears in the left panel.</li><li>Additional information appears in the right panel, such as the contributor, who has saved the story, and a field for adding a public comment.</li><li>In the right panel you can click <b>Save to tree</b>. If you save the hint to your tree, a confirmation dialog appears so you can indicate the reasons why you accepted the hint.</li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "For more information on Ancestry hints, read the article.",
+                                "links": [
+                                    {
+                                        "link": "https://support.ancestry.com/s/article/Ancestry-Hints-1460091979344-3686",
+                                        "text": "Ancestry Hints",
+                                        "type": "document"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "For more information about attaching records, read these articles.",
+                                "links": [
+                                    {
+                                        "link": "https://support.ancestry.com/s/article/Adding-Records-to-a-Tree",
+                                        "text": "AC—Adding Records to a Tree",
+                                        "type": "document"
+                                    },
+                                    {
+                                        "link": "https://support.ancestry.com/s/article/Attaching-a-Record-to-Multiple-People",
+                                        "text": "AC—Attaching a Record to Multiple People",
+                                        "type": "document"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "To learn how to attach a record to someone not in the current record, read this article.",
+                                "links": [
+                                    {
+                                        "link": "https://support.ancestry.com/s/article/Hints-for-the-Wrong-Person",
+                                        "text": "AC—Hints for the Wrong Person",
+                                        "type": "document"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "To learn how to detach a record you have attached by mistake, watch this video.",
+                                "links": [
+                                    {
+                                        "link": "https://www.youtube.com/watch?v=G3KuOb7-QVU",
+                                        "text": "AC—Detaching Records from Your Online Family Tree—8:41 - 2017",
+                                        "type": "video"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Get tips for viewing records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Display a record in different viewing sizes.</li><li>Navigate between records.</li><li>See details and thumbnails for images.</li><li>Use image viewing tools.</li></ul><hr style=\"margin-left: -20px;\">"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Proficient: View a hint record and use all the record-viewing tips described in this Choice.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/record-strip.JPG"
+                    ],
+                    "text": "<ol><li>Click <b>View</b> for an image in a record hint (see \"Record Page Details\" in Choice C above).</li><img src=\"img/an/record-strip.JPG\" width=\"150px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>To see thumbnail images of the record pages, click the filmstrip icon at the bottom of the page. You can select images or scroll to additional ones.</li><li>Click the tool icon in the toolbar to see the following options:<ul style=\"margin-left:-88px;\"><li>Print—Select \"Print entire image\" or \"Print zoomed view\"; then click <b>Continue</b> to display the Print dialog.</li><li>Download—Copy the image file to your download directory</li><li>Share—(See Choice C above) </li><li>Rotate left—Rotate the image left 90 degrees </li><li>Rotate right—Rotate the image right 90 degrees </li><li>Flip horizontally— Swap the left and right sides in the view</li><li>Flip vertically—Rotate 180 degrees (upside-down)</li><li>Invert colors—Swap dark for light and light for dark in the image</li><li>Settings—Mouse Wheel to Zoom (on/off); Basic Viewer (on/off); Enhanced Images (on/off)</li></ul></li><li>To exit the image view, click the \"X\" (upper right).</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "(Optional) Provide alternate information for a record hint and perform other tasks.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Open the record hints page for a person and click <b>Review</b> for a hint (other than an Ancestry Member Trees hint). </li><li>To add or update information for a record hint, a) Click the \"Add or update information\" link; <br>b) Choose an Alternate Information type from the drop-down list; <br>c) Choose a reason for the new information from the Reason drop-down menu; <br>d) Type the alternate information in the provided fields; <br>e) If desired, click \"Explain or Source your update\" and type the necessary information; and <br>f) Click <b>Submit Alternate</b>.</li><li>To report an issue with a record, <br>a) Click <b>Report Issue</b>; <br>b) Click the \"Select an issue\" drop-down list and choose \"Problem with an image ...\"; <br>c) Click <b>Continue</b> to report the image.</li> </ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Add and View Sources",
+        "name": "Add and View Sources",
+        "section_name": "Add and view sources for ancestor records.",
+        "summary": "<p>Adding sources to a person's page helps show the evidence for the dates and other information that are included.</p>",
+        "choices": [
+            {
+                "name": "Add sources to a record.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Select or create a source.</li><li>Add source citation information.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Add one or more sources for two persons in your tree.</li><li>* Proficient: Add one or more sources for four or more persons in your tree.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/6a.png",
+                        "https://www.thefhguide.com/img/an/web-link.JPG"
+                    ],
+                    "text": "<ol><li>Open a Profile window for someone in your tree.</li><img src=\"img/an/6a.png\" width=\"200px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>In the <b>Sources</b> section of the Facts tab, click <b>Add source</b>.</li><li>If you have existing sources recorded, such as those imported with a GEDCOM file, click \"Select a source\" and select your source from the drop-down list. Once you select the source, you can click \"edit this source\" to make changes to the source fields.</li><li>To create a source, click \"create a new source\" and fill in the fields for the source. If you need to create a repository entry, <br>a) Click \"create a new repository\"; <br>b) Fill in the information fields; and <br>c) Click <b>Save source</b>. </li><li>Fill in the fields for Citation to provide source details. For help with understanding source citations, click the \"Learn more\" link (right side of the page).</li><li>In the Facts or Events section, select items from the list that apply to this source.</li><li>Click <b>Submit</b>. The source now appears in the Sources list on the person's Profile page.</li><img src=\"img/an/web-link.JPG\" width=\"200px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>In the Profile page, to add a web link as a source, <br>a) Click \"Add Web Link\"; <br>b) Type or copy the web address for the source and the link name; and <br>c) Click <b>Add</b>. You can also click \"Search on Ancestry\" to look for additional sources.</li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "For tips on managing your sources, read this article.",
+                                "links": [
+                                    {
+                                        "link": "https://support.ancestry.com/s/article/ka215000000MTnlAAG/Managing-Sources-in-Trees",
+                                        "text": "AC—Managing Sources in Trees",
+                                        "type": "document"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Learn how to build source citations for Ancestry records.",
+                                "links": [
+                                    {
+                                        "link": "https://www.youtube.com/watch?v=ILGFrkONVSk",
+                                        "text": "Build a Source Citation—9:42 - 2020",
+                                        "type": "video"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "For more info on using web links, watch these videos.",
+                                "links": [
+                                    {
+                                        "link": "https://www.ancestryacademy.com/videos/adding-a-web-link-to-your-facts-page",
+                                        "text": "AC—Adding a Web Link to Your Facts Page—0:44",
+                                        "type": "video"
+                                    },
+                                    {
+                                        "link": "https://www.youtube.com/watch?v=Kl-4kh9-pZo",
+                                        "text": "AC—Ancestry Online Trees: Using Web Links—17:42 - 2018",
+                                        "type": "video"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "Learn about evaulating the information provided in Ancestry source citations, in these lessons by Elizabeth Shown Mills.",
+                                "links": [
+                                    {
+                                        "link": "https://evidenceexplained.com/content/quicklesson-25-arks-pals-paths-waypoints-citing-online-providers-digital-images",
+                                        "text": "ESM—QuickLesson 25: ARKs, PALs, Paths & Waypoints (Citing Online Providers of Digital Images) - 2017",
+                                        "type": "document"
+                                    },
+                                    {
+                                        "link": "https://evidenceexplained.com/content/quicklesson-26-thinking-through-an-ancestry.com-citation",
+                                        "text": "ESM—QuickLesson 26: Thinking Through Ancestry.com Citations - 2017",
+                                        "type": "document"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "View and edit sources for a person.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/search-sources.png"
+                    ],
+                    "text": "<ol><img src=\"img/an/search-sources.png\" width=\"200px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>To view a source record, click its description in the Source panel (center of the screen) and then click <b>View</b>. </li><li>To see citation details, click <b>Citation Details</b>. This closes the details window.</li><li>To edit a source or citation,<br>a) Click <b>Edit Citation</b> or <b>Edit Source</b>;<br>c) Edit the fields (see Choice B for details); and d) Click <b>Save Source</b> for the source, or <b>Submit</b> for the citation.</li><li>If you want to remove the source citation, click <b>Remove</b> (and again at the confirmation prompt).</li><li>To edit the facts associated with the citation, click <b>Associated Facts</b>. You can then click an \"X\" to move a fact to the \"Other Facts\" category, or click a plus icon to move a fact from the \"Other Facts\" category to the main category at the top.</li><li>To add media to the citation, <br>a) Click <b>Media</b>; <br>b) Click an item in the list to add it, if it applies; and <br>c) Click \"Add media to source\" and follow the prompts to upload a media file for the source.</li><li>To view the record, in the Ancestry record category click <b>View Record</b>. Click the \"Back\" arrow to return to the Profile screen.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Search for sources on Ancestry.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>In the Sources section of the Profile, click <b>Search on Ancestry</b>. The following information items and tools appear:<ul style=\"margin-left:-88px\"><li>Profile summary (top)</li><li>\"Your search\" (left) with sliders to set exactness of search fields and a pencil icon for changing search fields. You can also hide or show search fields and select a location for a collection to focus on.</li><li>Profile summary (top)</li><li>A sample summary for this ancestor, from another Ancestry tree. You can browse other trees who may have this ancestor.</li><li>List of possible sources to examine, with paging controls at the bottom. By default, sources you have already added or ignored are not included. You can click any of the source titles to see details, and then click <b>Save</b>, <b>Print</b> or <b>Share</b>.</li><li>Filters (left) to select a type of record collection to use.</li></ul></li><li>In the \"All results\" page that appears, hover over a record of interest in the center area to see a summary. You can then click <b>View Record</b>. </li><li>In the Details page, to save this record in your tree and attach it to the selected ancestor, click <b>Save</b> and select \"Save this record to (name)\". The source then appears in the Sources area of the person's Profile.</li><li>You can also click <b>Save</b> and select \"Save to someone in your tree\". Then select the tree, type the name of the person to attach to, and click <b>Attach</b>.</li><li>To save the source to your Ancestry Shoebox,  click <b>Save</b> and select \"Save to your Shoebox\". For more information on the Shoebox, see <a class=\"lk\" href=\"project-4-discover-an07.html#d\">Choice D in Goal 7</a>.</li><li>To print the source information, click <b>Print</b> and then print the information that appears.</li><li>To share the source, click <b>Share</b> and select Email, Facebook, or Twitter and follow the prompts.</li><li>For tips on working with search results in Ancestry, see <a class=\"lk\" href=\"project-4-discover-an06.html\">Goal 6</a> in Project 4: Research.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about sourcing and why it's important.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Primary sources: vital records, certificates, census records, newspapers, etc.</li><li>Secondary sources: histories or journals of someone who did not experience the event.</li><li>Citation: a reference that describes where to find the source information.</li><li>Sourcing helps everyone understand each other's work and helps avoid confusion and duplication of effort.</li><li>Sourcing provides authenticity to claims that are being made.</li><li>Watch for conflicting information in dates and places.</li>Genealogical Proof Standard: Conduct a reasonably exhaustive research, accurately cite sources, ensure evidence has been skillfully interpreted.<li>Become well-acquainted with the types of records you are using, including possible contradictions in them.</li></ul><hr style=\"margin-left: 20px;\">"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Study and be familiar with each of the points listed in the Summary link above.</li><li>* Proficient: Same as above; also, read at least three of the articles in this Choice and write down key learnings.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/g-m12.jpg",
+                        "https://www.thefhguide.com/img/world-globe.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/g-m12.jpg\" width=\"350px;\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Read these articles to learn about the importance of adding sources for your family history work. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/article/what-are-sources-in-family-tree\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—What are sources in Family Tree? - 2020</span></a> <br><span class=\"star notranslate\">☆</span><a href=\"http://www.genealogy.com/articles/research/94_fs-sourcing.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">GC—Sourcing: Key to Family History Detective Work</span></a>  </li><br><li>This article discusses the use of sources in FamilySearch Family Tree. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://rejoiceandbeexceedingglad.blogspot.com/2017/04/digging-into-sources-in-familysearch.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">JT—Digging into Sources in the FamilySearch Family Tree, Part 1 - 2017</span></a></li><br><li>Watch these videos to get an inside look at using sources in family history.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.ancestryacademy.com/getting-started-right-documentation-for-new-genealogists/videos/sources-a-family-history-s-raw-material\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">AAC—Sources: A Family History's Raw Material—8:45 (acct. req.)</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://www.ancestryacademy.com/getting-started-right-documentation-for-new-genealogists/videos/understand-your-sources-by-answering-five-questions\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">AAC—Understand Your Sources by Answering Five Questions—10:46 (acct. req.) </span></a></li><br><li>Learn how to determine accuracy of information in records. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://www.genealogy.com/articles/research/00000005.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">GC—Determining Accuracy of Information</span></a><br> <span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/img_auth.php/e/e3/Document_Analyzation_and_Evaluation_Handout_October_2015.pdf\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Document Analysis and Evaluation—6 pgs.</span></a></li></ol><h5>Genealogical Proof Standard</h5><ol><img src=\"img/world-globe.jpg\" width=\"350px;\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Understand the Genealogical Proof Standard for sources. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/blog/en/genealogicalproofstandardpart1/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Genealogical Proof Standard, Part 1 - 2016</span></a></li><br><li>Here's an overview of the GPS and a handy flowchart of the processes it uses. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.genealogyexplained.com/basics/genealogical-proof-standard/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">GE—Genealogical Proof Standard - 2022</span></a></li><br><li>Here is a brief review of how to use the Genealogical Proof Standard (GPS) in your research.<br><br> <span class=\"star notranslate\">☆</span><a href=\"https://www.prairierootsresearch.com/research-tips/genealogical-proof-standard/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Genealogical Proof Standard</span></a></li><br><li>Ensure that your research meets the Genealogical Proof Standard. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/blog/en/genealogicalproofstandardpart2/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Genealogical Proof Standard, Part 2 - 2016</span></a></li><br><li>Learn how to apply the Genealogical Proof Standard to sources you are evaluating. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/blog/en/genealogicalproofstandardpart3/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Genealogical Proof Standard, Part 3 - 2016</span></a></li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Tree Management",
+        "name": "Manage Your Tree",
+        "section_name": "Perform other tree management tasks.",
+        "summary": "<p>You can merge duplicate individuals in your tree, or save individuals to another tree.</p>",
+        "choices": [
+            {
+                "name": "Merge duplicate individuals in your tree.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Find possible duplicate individuals in your tree.</li><li>Study facts between possible duplicates.</li><li>Merge duplicate individuals.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Proficient: Merge duplicate individuals for one or more persons in your tree.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/merge1.JPG"
+                    ],
+                    "text": "<ol><img src=\"img/an/merge1.JPG\" width=\"200px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>To find possible duplicate individuals, generate a list of all individuals: click <b>Tree Search</b> (upper right of the family tree screen) and select \"List of All People\" and scan for duplicate information.</li> <li>Open the Profile for a person who may have duplicate entries in your tree.</li><li>Click <b>Tools</b> and select <b>Merge with Duplicate</b>. In the Merge Duplicate People screen, the person you selected in shown as Person 1, and possible duplicate individuals are shown for Person 2.</li> <li>If a name entry for Person 2 seems to be a duplicate for Person 1, click <b>Select</b> next to that person's name. Otherwise, you can type the name of the duplicate person in the \"Find a person in this tree\" box and select the name from the list.</li><li>In the Merge Duplicate People screen, study the facts for the two people. Identical facts are marked with a gray \"Same\" icon. To display more details, click the green <b>Compare</b> button. Note that all relationships and events will be combined into the Profile for Person 1 when the merge is complete.</li><li>If you decide that Person 2 is not a duplicate, you can click \"Select a different person\" to return to the selection screen; or click <b>Cancel</b>.</li><li>To merge the two individuals, click <b>Merge</b>. The Profile for Person 1 is now updated, and Person 2 is removed from the tree. When finished, click <b>Return</b> (upper left).</li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "For more info on merging duplicate individuals, read the article or watch the video.",
+                                "links": [
+                                    {
+                                        "link": "https://support.ancestry.com/s/article/ka215000000MUVnAAO/Merging-Duplicate-People",
+                                        "text": "AC—Merging Duplicate People",
+                                        "type": "document"
+                                    },
+                                    {
+                                        "link": "https://www.ancestryacademy.com/videos/how-do-i-merge-duplicate-people",
+                                        "text": "AC—How Do I Merge Duplicate People?",
+                                        "type": "video"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Save an individual to another tree.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/save-to-tree.JPG"
+                    ],
+                    "text": "<p>You can save (copy) an individual from your current tree to another tree.</p><ol><li>Open the Profile for the person you want to copy to another tree.</li><img src=\"img/an/save-to-tree.JPG\" width=\"200px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>Click <b>Tools</b> and select <b>Save to Tree</b>.</li><li>To complete the process, follow the steps in this article.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://support.ancestry.com/s/article/ka215000000MTV8AAO/Copying-People-from-Trees\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">AC—Copying People from Trees</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "(Optional) Copy or merge trees.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<p>If you have multiple accounts, you can copy a tree from one account to another.</p><ol><li>To copy your tree to another account you own, follow the steps in this article.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://support.ancestry.com/s/article/ka215000000MUnwAAG/Moving-your-family-tree-from-one-account-to-another-US-1460088590773-2547\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">AC—Moving Trees between Accounts</span></a></li><br><li>To merge duplicate trees, follow the steps in this article.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://support.ancestry.com/s/article/Merging-Family-Trees\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">AC—Merging Duplicate Family Trees</span></a></li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Keep track of who the ancestors are in your family tree.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn how to keep track of your family tree.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=dO8qWYw_pLM\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">AC—Keeping Track of Where You Are in Your Family Tree—31:47 - 2017</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/dO8qWYw_pLM?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li>Learn how to deal with errors you find in online family trees.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=CiWTx9doYvw\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">AC—Dealing With Errors in Online Family Trees—33:47 - 2017</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/CiWTx9doYvw?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

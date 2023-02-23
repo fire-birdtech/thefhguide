@@ -1,0 +1,303 @@
+[
+    {
+        "nav_name": "Research and Records",
+        "name": "Research and Records",
+        "section_name": "Learn about Newfoundland research and records",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Get started with research for your Newfoundland ancestors.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for research resources. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-bc-over.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/skyline-downtown-cityscape-edmonton-1402050/\" target=\"_blank\"> <img src=\"../img/x-ca-nf-over.jpg\" alt=\"\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\" width=\"450px\" border=\"1\"></a><li>Learn about finding your ancestors in Newfoundland. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Newfoundland_-_Finding_Your_Ancestors_(National_Institute)\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki:—Newfoundland—Finding Your Ancestors</span></a></li><br><li>Explore resources for Newfoundland research on Ancestry. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://search.ancestry.com/Places/Canada/Newfoundland-and-Labrador/Default.aspx\" width=\"20\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">AC—Newfoundland Resources</span></a></li><br><li>Learn about records for Newfoundland. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.americanancestors.org/tools/newfoundland-genealogy\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">AA—Newfoundland Guide</span></a></li><br><li>Learn about resources for finding ancestors in Newfoundland. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://ukcdngenealogy.blogspot.com/2018/04/finding-your-ancestors-in-newfoundland.html\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Finding Your Ancestors in Newfoundland and Labrador</span></a><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.americanancestors.org/education/learning-resources/read/newfoundland-guide\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">AA—Newfoundland Genealogy</span></a></li><br><li>Use the Newfoundland Record Selection Table to decide on records to search. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Newfoundland_Record_Selection_Table\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Newfoundland Record Selection Table</span></a></li><br><li>Explore a variety of records on the <a class=\"lk\" href=\"https://sites.google.com/site/freecanadianancestry/home/newfoundland\" target=\"_blank\">FreeCanadianAncestry</a> site. </li><li>Find <a class=\"lk\" href=\"http://sites.rootsweb.com/~cannf/regions.htm\" target=\"_blank\">county resources</a> for Newfoundland and Labrador research. </li><br><li>Learn about Newfoundland and Labrador military history on the <a class=\"lk\" href=\"http://sites.rootsweb.com/~cannf/military.htm\" target=\"_blank\">NL GenWeb site</a>. </li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Archives and Libraries",
+        "name": "Archives and Libraries",
+        "section_name": "Learn about Newfoundland archives and libraries.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Newfoundland archives and libraries.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for archives and libraries. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-newfoundland-lib.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://commons.wikimedia.org/wiki/File:Strathcona_Public_Library_Edmonton_Newfoundland_Canada_01.jpg\" target=\"_blank\"> <img src=\"../img/x-ca-newfoundland-lib.jpg\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-top: 16px; margin-left: 16px\"></a><li>Learn about Newfoundland archives and libraries in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Newfoundland_Archives_and_Libraries\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Newfoundland Archives and Libraries</span></a></li><br><li>Learn about Newfoundland provincial archives in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Newfoundland_Provincial_Archives_(National_Institute)\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Newfoundland Provincial Archives</span></a></li><br><li>Learn about Newfoundland museums, libraries, and archives in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Newfoundland_Provincial_Archives_(National_Institute)\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Newfoundland Provincial Archives</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Newfoundland city directories.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about Newfoundland city directories in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Newfoundland_Directories\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Newfoundland Directories</span></a></li><br><li>Explore city directories in Newfoundland and Labrador on the <a class=\"lk\" href=\"http://www.cangenealogy.com/nfld-directories.html\" target=\"_blank\">CanGenealogy site</a>.</li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Vital and Census Records",
+        "name": "Vital and Census Records",
+        "section_name": "Learn about Newfoundland vital records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Newfoundland vital and birth records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for vital and birth records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>Learn about Newfoundland vital records in this article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Newfoundland,_Canada,_Birth,_Marriage,_and_Death_Records_1870_to_the_Present\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Newfoundland Vital Records</span></a></li><br><li>Learn about and search Newfoundland vital records. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/Newfoundland_Vital_Records_-_FamilySearch_Historical_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS: Newfoundland Vital Records</span></a></li><br><li>Learn about and search Newfoundland vital statistics. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/Newfoundland,_Vital_Statistics_-_FamilySearch_Historical_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS: Newfoundland Vital Statistics</span></a></li><br><li>Explore links for birth records on the <a class=\"lk\" href=\"http://www.afhs.ab.ca/registry/regab_birth.shtml\" target=\"_blank\">Newfoundland Family Histories</a>.</li><li>Get help with adoption topics on the <a class=\"lk\" href=\"https://www.facebook.com/NewfoundlandAdoptionSearchReunion/\" target=\"_blank\">Newfoundland Adoption</a> Facebook page.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Newfoundland census records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for census records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>Get an overview of Newfoundland censuses in this article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Newfoundland_Census\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Newfoundland Census</span></a></li><br><li>Learn about and search the Newfoundland 1945 census. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/Newfoundland_Census,_1945_-_FamilySearch_Historical_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS: Newfoundland 1945 Census</span></a></li><br><li>Learn about and search the Newfoundland 1935 census. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/Newfoundland_Census,_1935_-_FamilySearch_Historical_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS: Newfoundland 1935 Census</span></a></li><br><li>Learn about and search the Newfoundland 1921 census. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/Newfoundland_Census,_1921_-_FamilySearch_Historical_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS: Newfoundland 1921 Census</span></a></li><br><li>Explore the <a class=\"lk\" href=\"http://www.myfreecensus.com/newfoundland-canada-census-records.htm\" target=\"_blank\">MyFreeCensus site</a> for Newfoundland state and county census records.</li><li>Explore <a class=\"lk\" href=\"http://www.automatedgenealogy.com/census06/\" target=\"_blank\">Newfoundland census records </a> on the Automated Genealogy site.</li><li>Explore Newfoundland census records on the <a class=\"lk\" href=\"https://www.accessgenealogy.com/newfoundland/newfoundland-census-records.htm\" target=\"_blank\">CensusFinder</a> site.</li></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Church and Cemetery Records",
+        "name": "Church and Cemetery Records",
+        "section_name": "Learn about Newfoundland church and cemetery records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Newfoundland church records.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Get an overview of Newfoundland church records in this article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Newfoundland_Church_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Newfoundland Church Records</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Newfoundland cemetery records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for church and cemetery records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-newfoundland-cem.jpg"
+                    ],
+                    "text": "<ol><a href=\"http://www.bigdoer.com/20339/then-and-now/calgary-then-and-now-heritage-park-cemetery-and-nwmp-barracks/\" target=\"_blank\"> <img src=\"../img/x-ca-newfoundland-cem.jpg\" alt=\"\" width=\"300px\" border=\"1\" style=\"float:right; margin-top: 16px; margin-left: 16px\"></a>  <li>Explore Newfoundland cemetery records in this article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Newfoundland_Cemeteries\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Newfoundland Cemetery Records</span></a> </li><br><li>Browse the <a class=\"lk\" href=\"http://www.interment.net/can/nf/index.htm\" target=\"_blank\">Interment.net site</a> for Newfoundland cemetery records.</li><li>Browse the <a class=\"lk\" href=\"http://www.idreamof.com/canada/cemetery/newfoundland.html\" target=\"_blank\">I Dream of Genealogy</a> site for Newfoundland cemetery records.</li><li>Search the <a class=\"lk\" href=\"http://www.findagrave.com/cgi-bin/fg.cgi?page=cs\" target=\"_blank\">Find A Grave site</a> for cemetery records.</li><li>Search the <a class=\"lk\" href=\"http://billiongraves.com/pages/search/\" target=\"_blank\">BillionGraves site</a> for cemetery records.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Emigration and Immigration",
+        "name": "Emigration and Immigration",
+        "section_name": "Learn about Newfoundland emigration and immigration.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Newfoundland emigration and immigration.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about Newfoundland emigration and immigration in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Newfoundland_Emigration_and_Immigration\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Newfoundland Emigration and Immigration</span></a></li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Probate, Land and Court",
+        "name": "Probate, Land and Court Records",
+        "section_name": "Learn about Newfoundland probate and land records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Newfoundland probate and land records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for probate and land records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>Learn about Newfoundland probate records in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Newfoundland_Probate_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Newfoundland Probate Records</span></a></li><br><li>Learn about Newfoundland land and property records. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Newfoundland_Land_and_Property\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Newfoundland Land and property Records</span></a></li><br><li>Explore Newfoundland and Labrador will transcriptions on the <a class=\"lk\" href=\"http://sites.rootsweb.com/~cannf/willindex.htm\" target=\"_blank\">NL GenWeb site</a>. </li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Maps and Gazetteers",
+        "name": "Maps and Gazetteers",
+        "section_name": "Learn about Newfoundland maps and gazetteers.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore Newfoundland maps and gazetteers.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore the <a class=\"lk\" href=\"http://www.davidrumsey.com/luna/servlet/view/search?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&amp;q=newfoundland&amp;search=Go\" target=\"_blank\">David Rumsey collection</a> of Newfoundland maps.</li><li>Explore the <a class=\"lk\" href=\"https://www.canadiana.ca/search/?so=alphabetical&amp;q2.0=%22Newfoundland%22&amp;q0.0=%22Maps+of+the+National+Topographic+System+of+Canada%22&amp;q1.0=AND\" target=\"_blank\">Canadiana maps collection</a>.</li><li>Explore the <a class=\"lk\" href=\"http://www.lib.utexas.edu/maps/canada.html\" target=\"_blank\">Perry-Castaneda site</a> for maps of Newfoundland (search for Newfoundland on the page).</li><li>Explore <a class=\"lk\" href=\"http://www.historicmapworks.com/Browse/Maps/\" target=\"_blank\">historical Newfoundland maps</a> on the Historic Map Works site. Select Canada and Newfoundland in the drop-down menus.</li><li>Find Newfoundland towns and communities on the <a class=\"lk\" href=\"https://roadsidethoughts.com/nl/index-a.htm\" target=\"_blank\">RoadsideThoughts site</a>.</li><li>Search for Newfoundland place names on the <a class=\"lk\" href=\"https://www.johncardinal.com/ca/nl/places.htm\" target=\"_blank\">John Cardinal site</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Newspapers",
+        "name": "Newspapers",
+        "section_name": "Learn about Newfoundland newspapers.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Newfoundland newspapers.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "  fs—wiki: newfoundland newspapers",
+                            "content": "<br>"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>Learn about Newfoundland newspapers in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Newfoundland_Newspapers\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Newfoundland Newspapers</span></a><div class=\"choice\"><br></div></li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Newfoundland newspapers.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Find links to <a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Wikipedia:List_of_online_newspaper_archives#Newfoundland_and_Labrador\" target=\"_blank\"> Newfoundland newspapers</a> on the Wikipedia site.</li> <li>Explore Newfoundland and Labrador newspaper resources on the <a class=\"lk\" href=\"http://www.cangenealogy.com/nfld-news.html\" target=\"_blank\">CanGenealogy</a> site.</li><li>Explore transcriptions of 19th-century newspapers on the <a class=\"lk\" href=\"http://sites.rootsweb.com/~cannf/news.htm\" target=\"_blank\">NL GenWeb</a> site.</li><li>Search Newfoundland newspapers in the <a class=\"lk\" href=\"http://www.onlinenewspapers.com/canadaal.htm\" target=\"_blank\">onlinenewspapers.com</a> site.</li><li>Search Newfoundland newspapers in the <a class=\"lk\" href=\"http://www.world-newspapers.com/newfoundland.html\" target=\"_blank\">world-newspapers.com</a> site.</li><li>Search Newfoundland newspapers in the <a class=\"lk\" href=\"http://www.abyznewslinks.com/canadnf.htm\" target=\"_blank\">ABYZ News Link</a> site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Websites",
+        "name": "Websites",
+        "section_name": "Explore additional websites for research.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "There are a number of websites with valuable resources for Newfoundland research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore links on the <a class=\"lk\" href=\"http://www.cangenealogy.com/newfoundland.html\" target=\"_blank\">CanGenealogy</a> site.</li><li>Explore links on the <a class=\"lk\" href=\"http://sites.rootsweb.com/~cannf/links.htm\" target=\"_blank\">NL GenWeb</a> site.</li><li>Explore links in <a class=\"lk\" href=\"http://www.cyndislist.com/canada/provinces/nf\" target=\"_blank\">Cyndi's List</a>.</li><li>Explore links in <a class=\"lk\" href=\"http://www.genealogylinks.net/canada/newfoundland/index.html\" target=\"_blank\">GenealogyLinks.net</a>.</li> </ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Search Records",
+        "name": "Search Records",
+        "section_name": "Search records from New Brunswick.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Use QUICKLinks to quickly search record collections for Newfoundland.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ul><li>QUIKLinks are indicated by lightning-bolt icons in the Goal header area and in the page.</li><li>QUIKLinks point to collections with 50,000 or more records.</li></ul>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore additional record collections.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore the <a class=\"lk\" href=\"https://familysearch.org/wiki/en/Newfoundland_Online_Genealogy_Records\" target=\"_blank\">FamilySearch page</a> for online genealogy records.</li><li>Explore additional record collections in <a class=\"lk\" href=\"https://www.ancestry.com/search/collections/catalog/?keyword=Newfoundland\" target=\"_blank\">Ancestry</a>.</li><li>Explore additional record collections in <a class=\"lk\" href=\"https://search.findmypast.com/historical-records?page=1&amp;region=canada&amp;subcountry=newfoundland\" target=\"_blank\">Findmypast</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Get Help",
+        "name": "Get Help",
+        "section_name": "Get help with your Newfoundland research.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Use Facebook pages to get answers to your questions.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/fh-help3.jpg"
+                    ],
+                    "text": "<ol><a href=\"../img/fh-help3.jpg\" target=\"_blank\"> <img src=\"../img/fh-help3.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 350px;\"></a>  <li>Visit the <a class=\"lk\" href=\"https://www.facebook.com/NewfoundlandGenealogicalSociety\" target=\"_blank\">Newfoundland Genealogical Society page</a> on Facebook.</li><li>Visit the <a class=\"lk\" href=\"https://www.facebook.com/groups/newfoundland.genealogy/\" target=\"_blank\">Newfoundland Genealogy page</a> on Facebook.</li><li>Find additional Facebook pages for Newfoundland genealogy on the <a class=\"lk\" href=\"at http://socialmediagenealogy.com/genealogy-on-facebook-list.pdf\" target=\"_blank\">Genealogy on Facebook</a> site.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Join a mailing list or message board for Newfoundland research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Join the <a class=\"lk\" href=\"http://www.rootschat.com/forum/canada/\" target=\"_blank\">RootsChat forum</a> and post questions about Newfoundland research.</li><li>Search the <a class=\"lk\" href=\"http://bigfile.rootsweb.ancestry.com/cgi-bin/listsearch\" target=\"_blank\">RootsWeb site </a> for Newfoundland research mailing lists.</li><li>Explore the <a class=\"lk\" href=\"http://www.cyndislist.com/canada/provinces/nf/social/\" target=\"_blank\"> Newfoundland research mailing lists</a> on Cyndi's List.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Newfoundland genealogy societies.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about genealogy societies in Newfoundland in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Newfoundland_Societies\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Newfoundland Societies\"</span></a></li><li>Learn about genealogy societies in Newfoundland in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Newfoundland_Societies\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Newfoundland Societies</span></a></li><br><li>Explore <a class=\"lk\" href=\"http://www.cyndislist.com/ca/al/societies/\" target=\"_blank\">Newfoundland genealogy society sites</a> on Cyndi's list.</li><li>Get help at a <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Category:Newfoundland_Family_History_Centres\" target=\"_blank\">family history center in Newfoundland</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

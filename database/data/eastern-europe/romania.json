@@ -1,0 +1,231 @@
+[
+    {
+        "nav_name": "Research",
+        "name": "Research",
+        "section_name": "Learn about Romanian research.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=ddonvOBajDM\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Romanian genealogy.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for research resources. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-rom-over.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/peles-castle-architecture-building-990718/\" target=\"_blank\"> <img src=\"img/x-rom-over.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; ; border:1px solid #000; padding:0px;\"></a>    <li><span class=\"g\">FamilySearch</span>: Learn the basics of Romanian research in these articles.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Romania_Beginning_Research\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Romania Research</span></a><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Starting_Your_Research_in_Romania\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Starting Your Romanian Research</span></a></li><br><li><span class=\"g\">Tips</span>: Here are some tips for getting started with Romanian research. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=j5ei9byn2rY\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">Researching Romanian Family History: Getting Started—3:03 - 2015</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/j5ei9byn2rY?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://romaniangenealogy.com/research/romanian-census/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Census, Civil Registration, Church Records</span></a></li><br><li>Learn more about Romanian research. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/en/wiki/img_auth.php/6/64/Romanian_Genealogical_Research.pdf\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Romanian Genealogical Research—4 pgs.</span></a></li><br><li>Here are some tips for doing genealogy searches in Romania. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://romaniatourism.com/genealogy-searches.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Romania Genealogy Searches</span></a></li><br><li><span class=\"g\">Resources</span>: Explore <a class=\"lk\" href=\"https://feefhs.org/resource/romania\" target=\"_blank\">Romania Genealogy Resources</a> on the FEEFHS site.</li><li><span class=\"g\">Correspondence</span>: Use this guide for corresponding with Romanian organizations about genealogy resources. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Romania_Letter_Writing_Guide\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Romania Letter Writing Guide</span></a></li><br><li><span class=\"g\">Immigration</span>: Learn about Romania emigration and immigration in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Romania_Emigration_and_Immigration\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Romania Emigration and Immigration</span></a> </li><li>Learn about immigration history and demographics in this Wikipedia article.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Romanian_Americans\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Wikipedia: Romanian Americans</span></a></li><br></ol><h5>Records</h5><ol><li><span class=\"g\">Record Finder</span>: Use the Romania Record Finder to understand record types for research. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Romania_Record_Finder\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Romania Record Finder</span></a></li><br><li><span class=\"g\">Forebears.io</span>: Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://forebears.io/romania\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Forebears.io site</a> for research records.</li>  </ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Romanian language, genealogy terms, and surnames.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-rom-flag.png"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/vectors/romania-country-europe-flag-1758847/\" target=\"_blank\"> <img src=\"img/x-rom-flag.png\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; margin-top: 8px;\"></a>    <li><span class=\"g\">Terms</span>: Learn about Romanian grammar and common genealogy terms in this FamilySearch Wiki article.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Romania_Language_and_Languages\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Romanian Language</span></a></li><br><li><span class=\"g\">Word List</span>: Use this Romanian word list to help you in your research.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Romanian_Genealogical_Word_List\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Romanian Genealogical Word List</span></a></li><br><li><span class=\"g\">Surnames</span>: Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.geneanet.org/country/search-Romaina-ROU\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Geneanet site</a> for Romanian surnames.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Census and Civil Registration",
+        "name": "Census and Civil Registration",
+        "section_name": "Learn about Romania census and civil registration.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=ddonvOBajDM\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Romania census records.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-rom-cen.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/peasant-farmer-farmer-romania-482727/\" target=\"_blank\"> <img src=\"img/x-rom-cen.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; \"></a>  <li><span class=\"g\">FamilySearch</span>: Learn about Romania census records in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Romania_Census\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Romania Census</span></a></li><br><li><span class=\"g\">Background</span>: Get background information on the Romanian census. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.recensamantromania.ro/rpl-2021/istoric/#1\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">List of Romanian population censuses - 2021</span></a><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.recensamantromania.ro/rpl-2021/istoric/#2\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Censuses 1859-1990 - 2021</span></a></li><br><li><span class=\"g\">Civil Registration</span>: Learn about Romania civil registration in these articles. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Romania_Civil_Registration\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Romania Civil Registration</span></a><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://coop.hypotheses.org/1311\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">The Virtual Genealogical Archive</span></a></li><br></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Archives and Libraries",
+        "name": "Archives and Libraries",
+        "section_name": "Learn about Romania archives and libraries.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=ddonvOBajDM\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Romania archives and libraries.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-rom-lib.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/national-library-of-romania-bucharest-382979/\" target=\"_blank\"> <img src=\"img/x-rom-lib.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; ; border:1px solid #000; padding:0px;\"></a><li><span class=\"g\">FamilySearch</span>: Learn about Romania archives and libraries records in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Romania_Archives_and_Libraries\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Romania Archives and Libraries</span></a></li><br><li><span class=\"g\">National Archives</span>: Learn about the Romanian National Archives at Iaşi. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.legacytree.com/blog/genealogy-research-romania\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">LT—Legacy Tree Onsite: The National Archives in Iaşi, Romania</span></a></li><br><li>Get started with research at the Romanian National Archives. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://romaniangenealogy.com/category/documents/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">National Archives of Romania</span></a></li><br><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://arhivelenationale.ro/site/cercetare/cercetare-online/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Romanian National Archives</a> site.</li><li><span class=\"g\">Archives Portal</span>: Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.archivesportaleurope.net/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Archives Portal Europe</a> site. Click the Directories link and then select Romania.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Church Records",
+        "name": "Church Records",
+        "section_name": "Learn to use Romania church and religious records.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=ddonvOBajDM\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Romanian church records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for church records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-rom-church.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/sihastria-monastery-putnei-bucovina-213765/\" target=\"_blank\"> <img src=\"img/x-rom-church.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; ; border:1px solid #000; padding:0px;\"></a>  <li><span class=\"g\">FamilySearch</span>: Learn about Romania church records in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Romania_Church_Records\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Romania Church Records</span></a> </li><br><li><span class=\"g\">Sites</span>: Explore other sites for <a class=\"lk\" href=\"https://familysearch.org/wiki/en/Romania_Websites#Church_Records\" target=\"_blank\"> Romanian church records</a>.</li><li><span class=\"g\">Jewish</span>: Explore Jewish genealogy in Romania and Moldova in this guide from the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://libguides.cjh.org/genealogyguides/romania_moldova/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Center for Jewish History site</a>.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.jewishgen.org/databases/Romania/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">JewishGen Romania database</a>.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://bloodandfrogs.com/encyclopedia/romania\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Jewish Genealogy Encyclopedia</a> for Jewish resources in Romania.</li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Maps and Gazetteers",
+        "name": "Maps and Gazetteers",
+        "section_name": "Learn about Romania maps and gazetteers.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=ddonvOBajDM\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Explore Romania maps.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-rom-map.jpg"
+                    ],
+                    "text": "<ol><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Greater_Romania\" target=\"_blank\"> <img src=\"img/x-rom-map.jpg\" alt=\"\" width=\"350px\" style=\"float:right; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"></a>   <li>See a <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Romania_Genealogy#Romania_Map\" target=\"_blank\">map of Romania counties</a>.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.davidrumsey.com/luna/servlet/view/search?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&amp;q=romania&amp;search=Go\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">David Rumsey collection</a> of Romania maps.</li><li>Explore the <a class=\"lk\" href=\"https://feefhs.org/resource/romania\" target=\"_blank\">Maps and Gazetteers section</a> of the FEEFHS.org site.</li><li>Explore other <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Romania_Maps#Web_Sites\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">maps of Romania</a> on the Internet.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.oldmapsonline.org/en/Romania\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Old Maps Online site</a> for Romania maps.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://commons.wikimedia.org/wiki/Atlas_of_Romania\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Atlas of Romania</a> on the Wikipedia site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://commons.wikimedia.org/wiki/Category:Old_maps_of_Romania\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Old Maps of Romania</a> on the Wikipedia site.</li><li>Explore a <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.fallingrain.com/world/RO/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">directory of Romania cities, towns, and regions</a> in the Falling Rain site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Newspapers",
+        "name": "Newspapers",
+        "section_name": "Learn about Romanian newspapers.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=ddonvOBajDM\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Explore Romanian newspapers for ancestor research.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-rom-news.jpg"
+                    ],
+                    "text": "<ol><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Timpul\" target=\"_blank\"> <img src=\"img/x-rom-news.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"></a>  <li>Find links to <a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Wikipedia:List_of_online_newspaper_archives#Romania\" target=\"_blank\"> Romania newspapers</a> on the Wikipedia site.</li> <li>Search Romanian newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.onlinenewspapers.com/romania.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">onlinenewspapers.com</a> site.</li> <li>Search Romanian newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.world-newspapers.com/romania.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">world-newspapers.com</a> site.</li><li>Search Romanian newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.abyznewslinks.com/roman.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">ABYZ News Links</a> site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Websites",
+        "name": "Websites",
+        "section_name": "Explore additional websites for research.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=ddonvOBajDM\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "There are a number of websites with valuable resources for Romanian research.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/laptop-fingers1.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/laptop-fingers1.jpg\" alt=\"\" width=\"350px\" style=\"float:right; margin-top: 6px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Visit these <a class=\"lk\" href=\"https://familysearch.org/wiki/en/Romania_Websites#.C2.A0Genealogy\" target=\"_blank\">Romanian genealogy sites</a> for additional research ideas.</li><li>Explore links in <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cyndislist.com/eastern-europe\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Cyndi's List</a>.</li><li>Explore links in <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genealogylinks.net/europe/romania/index.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Genealogylinks.net</a>.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.findagrave.com/cemetery-browse/Romania?id=country_6\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Find A Grave site</a> for cemetery records.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://billiongraves.com/site-map?country=Romania\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">BillionGraves site</a> for cemetery records.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Search Records",
+        "name": "Search Records",
+        "section_name": "Search records from Romania.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=ddonvOBajDM\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Use QUIKLinks and Partners to quickly search the most common record collections for Romania.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/laptop-hands.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/laptop-hands.jpg\" alt=\"\" width=\"350px\" style=\"float:right; margin-top: 6px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>QUIKLinks are indicated by lightning-bolt icons in the Goals above.They point to collections with 50,000 or more records. When you click a QUIKLink icon, scroll down on the resulting page to see the QUIKLinks.</li><li>In the Partners section (near the top of the page), explore additional record collections in FamilySearch, Ancestry, Findmypast and MyHeritage.</li><li>Explore the FamilySearch page for <a class=\"lk\" href=\"https://familysearch.org/wiki/en/Romania_Online_Genealogy_Records\" target=\"_blank\">Romanian online record collections</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Get Help",
+        "name": "Get Help",
+        "section_name": "Get help with your Romania research.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=ddonvOBajDM\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Use Facebook pages to get answers to your questions.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/fh-help3.jpg"
+                    ],
+                    "text": "<ol><a href=\"img/fh-help3.jpg\" target=\"_blank\"> <img src=\"img/fh-help3.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a> <li>Visit the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.facebook.com/RomanianGenealogySociety\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Romanian Genealogy Society</a> Facebook page.</li><li>Visit the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.facebook.com/groups/EasternEuropeGenealogyResearchCommunity/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Eastern European Research</a> Facebook page for FamilySearch.</li><li>See the <a class=\"lk\" href=\"http://socialmediagenealogy.com/genealogy-on-facebook-list/\" target=\"_blank\">Genealogy on Facebook list</a> of Facebook groups dedicated to helping with research for Romania.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Join a mailing list, community, or message board for Romania research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://community.familysearch.org/s/group/0F93A000000LfUCSA0/austrohungarian-empire\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">FamilySearch community</a> for Romanian (Austro-Hungarian Empire) research.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cyndislist.com/eastern-europe/social/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Romania research mailing lists</a> on Cyndi's List.</li><li>Explore Romaina research questions in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://genealogy.stackexchange.com/questions/tagged/romania\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Genealogy Stack Exchange</a>.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Romania genealogy societies.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore <a class=\"lk\" href=\"http://www.cyndislist.com/eastern-europe/societies/\" target=\"_blank\">Romania genealogy society sites</a> on Cyndi's List.</li><li>See the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://feefhs.org/links/romania.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Societies and Organizations</a> section of the FEEFHS site.</li><li>Get help at a <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Category:Romania_Family_History_Centers\" target=\"_blank\">family history center in Romania</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Geo/Culture/History",
+        "name": "Geography, Culture, History",
+        "section_name": "Learn about the geography, culture, and history of Romania. \n\t\t\t\t\t\t\n\t\t\t\t\t\t",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=ddonvOBajDM\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Explore websites and videos.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/c-romania.png"
+                    ],
+                    "text": "<h5>Reference</h5><ol><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Romania_History\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">FamilySearch: History</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Romania\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Wikipedia</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.britannica.com/place/Romania\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Encyclopedia Britannica</a></li></ol><h5>For Kids</h5><ol><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ducksters.com/geography/country.php?country=Romania\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Ducksters</a></li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

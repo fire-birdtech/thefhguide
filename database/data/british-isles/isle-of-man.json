@@ -1,0 +1,29 @@
+[
+    {
+        "name": "Get Started",
+        "section_name": "Get started with Isle of Man research.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Get started with Isle of Man research.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-isle-over.jpg"
+                    ],
+                    "text": "<ol><li>Learn about Isle of Man research in this FamilySearch Wiki article.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/Isle_of_Man_Genealogy\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki:—Isle of Man</span></a></li><br><li>Learn about online and library resources in the Isle of Man Family History Society site.<br><br><span class=\"star notranslate\">☆</span><a href=\"http://www.iomfhs.im/library.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">The Library and Online Resources</span></a></li><br><li>Learn about Manx family history in this article.<br><br><span class=\"star notranslate\">☆</span><a href=\"http://www.isle-of-man.com/manxnotebook/famhist/genealgy/intro.htm\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Introduction to Manx Family History</span></a></li><br><li>Learn about Genealogy in the Isle of Man and Channel Islands.<br><br><span class=\"star notranslate\">☆</span><a href=\"http://www.exploregenealogy.co.uk/genealogy-isle-man-channel-islands.html\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">EG: Genealogy in the Isle of Man and Channel Islands</span></a></li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore resources for Isle of Man research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore records on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://forebears.io/isle-of-man\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Forebears.io</a> site.</li><li>Explore the <a class=\"lk\" href=\"https://www.genuki.org.uk/big/iom\" target=\"_blank\">GENUKI</a> site for the Isle of Man.</li><li>Explore a variety of resources on the <a class=\"lk\" href=\"https://sites.google.com/site/isleofmanfreeancestry/\" target=\"_blank\">IsleofManFreeAncestry</a> site. </li><li>Explore the <a class=\"lk\" href=\"https://billiongraves.com/site-map?country=Isle+of+Man\" target=\"_blank\">BillionGraves</a> site for cemetery records in the Isle of Man.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.findagrave.com/cemetery-browse/Isle-of-Man?id=country_302\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Find A Grave</a> site for cemetery records in the Isle of Man.</li><li>Find historical maps for the Isle of Man on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.davidrumsey.com/luna/servlet/view/search/where/Isle%2Bof%2BMan?q=isle+of+man&amp;sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">David Rumsey</a> site.</li></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

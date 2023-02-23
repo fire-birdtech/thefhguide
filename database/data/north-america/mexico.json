@@ -1,0 +1,336 @@
+[
+    {
+        "nav_name": "Research",
+        "name": "Research",
+        "section_name": "Get started with Mexican research.Vault",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=oFKRHE0iCWg\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Get started with research for your Mexico ancestors.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for research resources. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-mex-over.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/el-castillo-chichen-itza-mayan-1039512/\" target=\"_blank\"> <img src=\"img/x-mex-over.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a>     <li><span class=\"g\">Get Started</span>: Read the FS Wiki \"How to\" Guides to get started with your Mexican ancestor research. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Mexico_%22How_to%22_Guides\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Mexico \"How to\" Guides</span></a></li><br><li>Read this Thoughtco article for an introduction to Mexico research.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.thoughtco.com/mexico-genealogy-basics-1422172\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">TH—Mexico Genealogy 101 - 2020</span></a></li><br><li><span class=\"g\">Beginning</span>: Here's a beginner's guide to researching Mexican ancestry.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://familyhistorydaily.com/genealogy-help-and-how-to/mexican-american-genealogy-research/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FHD—A Beginner's Guide to Researching Your Mexican Ancestry</span></a></li><br><li>Get started with Mexico research using Ancestry. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/help/helpcenter/lessons/getting-started-in-mexico-why-you-should-try-ancestry-com\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Getting Started with Mexico Research—47:28 - 2017</span></a></li><br><li><span class=\"g\">Ancestors</span>: Watch these videos for ideas on researching in Mexico.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=9v7JgWO4ePE\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">BYU—Researching Ancestors in Mexico—16:18 - 2015</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/9v7JgWO4ePE?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/i-found-my-abuela-in-mexico-now-what\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—I Found My Abuela in Mexico—48:39 - 2016</span></a></li><br><li><span class=\"g\">Record Finder</span>: Use the Mexico Record Finder to understand record types for research. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Mexico_Record_Finder\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Mexico Record Finder</span></a></li><br><li><span class=\"g\">Old Documents</span>: Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://spanishpaleographytool.org/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Spanish Paleography Tool site</a> for help with reading older documents. </li></ol><h5>Tips</h5><ol><li>Here are some tips for beginning your Mexican family history research. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=MyXkE_y6mFQ\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">AC—Getting Started with Mexico Research—23:40 - 2014</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/MyXkE_y6mFQ?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><li>Watch this video for tips on finding ancestors in Mexico. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/help/helpcenter/lessons/buscando-a-los-olvidados\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Buscando a los olvidados—56:20 - 2018</span></a></li><br><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Spanish language resources for your research.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Spanish_Genealogical_Word_List#Language_Characteristics\" target=\"_blank\">Language Characteristics</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Spanish_Genealogical_Word_List#Numbers\" target=\"_blank\">Numbers</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Spanish_Genealogical_Word_List#Dates_and_Time\" target=\"_blank\">Dates and Time</a></li> <li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Spanish_Genealogical_Word_List#Key_Words\" target=\"_blank\">Key Words</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Spanish_Genealogical_Word_List#General_Word_List\" target=\"_blank\">General Word List</a></li></ul></span>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for language resources. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-mex-name.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/photos/sombrero-old-woman-hat-woman-1082322/\" target=\"_blank\"> <img src=\"img/x-mex-name.jpg\" width=\"350px\" style=\"float:right; margin-left: 16px; margin-top: 8px; border:1px solid #000; padding:0px;\"></a>    <li><span class=\"g\">Word List</span>: Access a Spanish genealogy word list in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Spanish_Genealogical_Word_List\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Spanish Genealogy Word List</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('usa');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"usa\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Spanish_Genealogical_Word_List#Language_Characteristics\" target=\"_blank\">Language Characteristics</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Spanish_Genealogical_Word_List#Numbers\" target=\"_blank\">Numbers</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Spanish_Genealogical_Word_List#Dates_and_Time\" target=\"_blank\">Dates and Time</a></li> <li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Spanish_Genealogical_Word_List#Key_Words\" target=\"_blank\">Key Words</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Spanish_Genealogical_Word_List#General_Word_List\" target=\"_blank\">General Word List</a></li></ul></span></div></li><br><li><span class=\"g\">Surnames</span>: Learn about Hispanic surnames in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Mexico_Names,_Personal\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Mexico Names</span></a> </li><br><li>Learn about Spanish last names and their meanings. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=1WkKZFhzFVg\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">AF—Your Guide to Spanish Last Names and Their Meanings—8:10 - 2019</span></a> <br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/1WkKZFhzFVg?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.geneanet.org/country/search-Mexico-MEX\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Geneanet site</a> for Mexican surnames.</li><li>Search for <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.geneaservice.nl/navigator/mexico/index.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Mexican surnames</a> in a number of databases.</li><li><span class=\"g\">Reading Records</span>: Enhance your skills in <a class=\"lk\" href=\"https://script.byu.edu/Pages/the-spanish-documents-pages/the-spanish-documents(english)\" target=\"_blank\">reading Spanish records</a> for research. </li><li><span class=\"g\">Correspondence</span>: Use this guide for corresponding with Mexican organizations about genealogy resources. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Spanish_Letter_Writing_Guide\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Spanish Letter-Writing Guide</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore additional resources for research.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for language resources. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-mex-over1.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/photos/chichen-itza-mexico-pyramid-1025099/\" target=\"_blank\"> <img src=\"img/x-mex-over1.jpg\" width=\"350px\" style=\"float:right; margin-left: 16px; margin-top: 8px; border:1px solid #000; padding:0px;\"></a>    <li>Learn more about Mexico research methodology. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://content.ldschurch.org/family-history/bc/rootstech/salt-lake/2019-conference-syllabi/RT2528_Locating_Pancho_Villa_Mexico_Research_Methodology.pdf\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">RT—Locating Pancho Villa: Mexico Research Methodology - 2019</span></a></li><br><li><span class=\"g\">Sites</span>: Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://forebears.io/mexico\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Forebears.io site</a> for research records.</li><li>Explore the <a class=\"lk\" href=\"http://mexicangenealogy.info/resources/\" target=\"_blank\">Mexican Genealogy Info site </a> for research resources.</li><li>Explore online resources for Mexican research.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/online-resources-for-mexico\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Online Resources for Mexico—52:52 - 2016</span></a></li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Civil Registration",
+        "name": "Civil Registration",
+        "section_name": "Learn about Mexico civil registration and census records.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=oFKRHE0iCWg\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Mexico vital and census records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Mexico_Civil_Registration#Types_of_Records\" target=\"_blank\">Types of Records</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Mexico_Civil_Registration#Locating_Civil_Registration_Records\" target=\"_blank\">Locating Civil Registration Records</a></li> <li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Mexico_Civil_Registration#Writing_for_Civil_Registration_Certificates\" target=\"_blank\">Writing for Civil Registration Certificates</a></li></ul></span>"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for civil registration and census records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-mex-flag.png"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/mexico-flag-mexican-national-26989/\" target=\"_blank\"> <img src=\"img/x-mex-flag.png\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a>     <li><span class=\"g\">FamilySearch</span>: Learn about Mexico civil registration records in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Mexico_Civil_Registration\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Mexico Civil Registration Records</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('usa');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"usa\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Mexico_Civil_Registration#Types_of_Records\" target=\"_blank\">Types of Records</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Mexico_Civil_Registration#Locating_Civil_Registration_Records\" target=\"_blank\">Locating Civil Registration Records</a></li> <li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Mexico_Civil_Registration#Writing_for_Civil_Registration_Certificates\" target=\"_blank\">Writing for Civil Registration Certificates</a></li></ul></span></div></li><br><li>Watch this video for an overview of Mexican civil registrations.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.ancestryacademy.com/videos/mexican-civil-registrations\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">AAC—Mexican Civil Registrations—3:27 </span></a></li><br><li><span class=\"g\">Census</span>: Learn about the 1930 National Census. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Mexico_Census\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Mexico Census</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=FowSAHcSma8\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">AC—1930 Mexico Census—2:00 - 2011</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/FowSAHcSma8?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li>Learn more about Mexican census records for research. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.eagleknight.com/Ancestry/Mexican/Census/census.htm\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Mexican Census Records and Family Tree Ancestry</span></a> </li><br></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Archives and Libraries",
+        "name": "Archives and Libraries",
+        "section_name": "Learn about Mexico archives and libraries.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=oFKRHE0iCWg\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Explore Mexico archives and libraries.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Mexico_Archives_and_Libraries#Mexico_Archives\" target=\"_blank\">Mexico Archives</a></li> <li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Mexico_Archives_and_Libraries#Other_Archives\" target=\"_blank\">Other Archives</a></li></ul></span>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-mex-lib.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://commons.wikimedia.org/wiki/File:Unam_central_library.JPG\" target=\"_blank\"> <img src=\"img/x-mex-lib.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a><li>Learn about Mexico archives and libraries in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Mexico_Archives_and_Libraries\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Mexico Archives and Libraries</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('usa');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"usa\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Mexico_Archives_and_Libraries#Mexico_Archives\" target=\"_blank\">Mexico Archives</a></li> <li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Mexico_Archives_and_Libraries#Other_Archives\" target=\"_blank\">Other Archives</a></li></ul></span></div></li><br><li>Learn more about Mexico national and local state archives. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.earlyamericansources.org/mexican-archives\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Mexico Archives and Libraries</span></a></li><br><li>Explore additional library and archive sites on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://libguides.library.nd.edu/research-resources-mexico/libraries-mexico\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Hesburgh Libraries site</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Church and Cemetery Records",
+        "name": "Church and Census Records",
+        "section_name": "Learn about Mexican church, religious, and cemetery records.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=oFKRHE0iCWg\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Mexico church records, which include most vital records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Mexico_Church_Records#Content_of_Records\" target=\"_blank\">Content of Records</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Mexico_Church_Records#Locating_Church_Records\" target=\"_blank\">Locating Church Records</a></li> <li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Mexico_Church_Records#Reading_the_Records\" target=\"_blank\">Reading the Records</a></li></ul></span>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-mex-church.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/cathedral-of-basilica-church-55486/\" target=\"_blank\"> <img src=\"img/x-mex-church.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a> <li><span class=\"g\">FamilySearch</span>: Learn about Mexican church records in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Mexico_Church_Records\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Mexican Church Records</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('usa');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"usa\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Mexico_Church_Records#Content_of_Records\" target=\"_blank\">Content of Records</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Mexico_Church_Records#Locating_Church_Records\" target=\"_blank\">Locating Church Records</a></li> <li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Mexico_Church_Records#Reading_the_Records\" target=\"_blank\">Reading the Records</a></li></ul></span></div></li><br><li><span class=\"g\">Record Types</span>: Get a brief overview of different types of Church records for research. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.eagleknight.com/Ancestry/Mexican/Church_Records/churchrecords.htm\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Church Records as a Genealogy Source for Mexican Ancestry</span></a> </li><br><li><span class=\"g\">Catholic</span>: Learn how to find Mexican ancestors using Catholic Church records. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://mexicangenealogy.info/find-your-mexican-ancestors-using-mexican-catholic-church-records/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Mexico Catholic Church Records - 2013</span></a> <br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=znaaDF5H3OA\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">RT—A Look at Colonial Mexico Catholic Records—18:04 - 2021</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/znaaDF5H3OA?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li>Learn about Mexican Catholic baptisms, confirmations and burials in this <a class=\"lk\" href=\"https://familytreewebinars.com/webinar/mexican-catholic-parish-records-part-i-baptisms-confirmations-burials\" target=\"_blank\">Legacy Family Tree webinar</a>.</li><li><span class=\"g\">Jewish</span>: Explore Jewish genealogy in Mexico in this guide from the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://libguides.cjh.org/genealogyguides/mexico/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Center for Jewish History site</a>.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://bloodandfrogs.com/encyclopedia/mexico\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Jewish Genealogy Encyclopedia</a> for Jewish resources in Mexico.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Mexican cemetery records.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-mex-cem.jpg"
+                    ],
+                    "text": "<ol><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Pante%C3%B3n_de_Dolores#/media/File:EntranceDoloresCemetaryDF.JPG\" target=\"_blank\"> <img src=\"img/x-mex-cem.jpg\" width=\"100%\" ;=\"\" style=\"float:right; margin-top: 8px; margin-left: 16px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a>    <li>Learn about Mexico cemetery records in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Mexico_Cemeteries\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Mexico Cemetery Records</span></a> </li><br><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.findagrave.com/cemetery-browse/Mexico?id=country_45\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Find A Grave site</a> for cemetery records.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://billiongraves.com/site-map?country=Mexico\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">BillionGraves site</a> for cemetery records.</li></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Emigration and Immigration",
+        "name": "Emigration and Immigration",
+        "section_name": "Learn about Mexican emigration and immigration.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=oFKRHE0iCWg\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Mexico emigration and immigration.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for immigration resources. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-mex-imm.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://www.flickr.com/photos/grand_canyon_nps/5021872782\" target=\"_blank\"> <img src=\"img/x-mex-imm.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px;\"></a><li><span class=\"g\">FamilySearch</span>: Learn about Mexico emigration and immigration in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Mexico_Emigration_and_Immigration\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Mexico Emigration and Immigration</span></a></li><br><li><span class=\"g\">Wikipedia</span>: Learn about immigration history and demographics in this Wikipedia article.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Mexican_Americans\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Wikipedia: Mexican Americans</span></a></li><br><li><span class=\"g\">Place of Origin</span>: Learn how to find a Mexican ancestor's place of origin. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Mexico_Locating_Place_of_Origin\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Mexico, Locating Place of Origin</span></a><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.colleengreene.com/identifying-your-mexican-immigrant-ancestors-hometown/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Identifying Your Mexican Immigrant Ancestor's Hometown - 2017</span></a></li><br><li><span class=\"g\">Crossings</span>: Learn to trace hometown roots of ancestors who crossed the U.S. border.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/u-s-hispanic-immigration\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—U.S. Hispanic Immigration—51:23 - 2015</span></a></li><br><li>Watch \"Crossing the Frontera\" for information about ancestors who may have come to the U.S. from 1895 to 1957.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/crossing-the-frontera\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Crossing the Frontera (27:08)</span></a></li><br><li><span class=\"g\">Sites</span>: Explore the <a class=\"lk\" href=\"http://garyfelix.tripod.com/index1.htm\" target=\"_blank\">Genealogy of Mexico site</a> for list of early settlers of Mexico.</li><li>Explore the  <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://immigrantships.net/index2.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Immigrant Ship site</a>. Select a Volume, then choose Mexico as the departure or arrival location.</li></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Military Records",
+        "name": "Military Records",
+        "section_name": "Learn about Mexico military records.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=oFKRHE0iCWg\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Mexico military records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Mexico_Military_Records#Overview\" target=\"_blank\">Overview</a></li><br><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Mexico_Military_Records#Locating_Records\" target=\"_blank\">Locating Records</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Mexico_Military_Records#Spanish_Military_Records\" target=\"_blank\">Spanish Military Records</a></li><br> <li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Mexico_Military_Records#Military_History\" target=\"_blank\">Military History</a></li></ul></span>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-mex-mil.jpg"
+                    ],
+                    "text": "<ol><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Mexican_Armed_Forces#/media/File:Mexican_soldiers_at_ceremony_honoring_201st_Fighter_Squadron_3-6-09.jpg\" target=\"_blank\"> <img src=\"img/x-mex-mil.jpg\" alt=\"\" width=\"350px\" style=\"float:right; margin-top: 6px; margin-left: 16px\"></a> <li><span class=\"g\">FamilySearch</span>: Learn about Mexico military records in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Mexico_Military_Records\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Mexico Military Records</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('usa');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"usa\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Mexico_Military_Records#Overview\" target=\"_blank\">Overview</a></li><br><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Mexico_Military_Records#Locating_Records\" target=\"_blank\">Locating Records</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Mexico_Military_Records#Spanish_Military_Records\" target=\"_blank\">Spanish Military Records</a></li><br> <li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Mexico_Military_Records#Military_History\" target=\"_blank\">Military History</a></li></ul></span></div></li><br><li>Explore name lists for the U.S. Mexican War in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.nps.gov/paal/learn/historyculture/search-usmexwar.htm#sort=Title%20asc\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">US Mexican War Soldiers &amp; Sailors database</a>.</li><li><span class=\"g\">Archives</span>: Learn about historical archives of the Mexican military. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://mexicangenealogy.info/historical-archives-of-the-mexican-military/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Historical Archives of the Mexican Military</span></a> </li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Maps and Gazetteers",
+        "name": "Maps and Gazetteers",
+        "section_name": "Learn about Mexico maps and gazetteers.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=oFKRHE0iCWg\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Mexico maps and gazetteers.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-mex-map.png"
+                    ],
+                    "text": "<ol><a href=\"https://commons.wikimedia.org/wiki/File:Blank_map_of_Mexico_with_states_names.svg\" target=\"_blank\"> <img src=\"img/x-mex-map.png\" alt=\"\" height=\"300px\" style=\"float:right; margin-top: 6px; margin-left: 16px; border:1px solid #000; padding:0px;\"></a> <li><span class=\"g\">Maps</span>: Learn about Mexico maps in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Mexico_Maps\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Mexico Maps</span></a></li><br><li>See an <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Mexico_Genealogy#Mexico_Map\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">interactive map</a> for Mexico states.</li><li><span class=\"g\">Gazetteers</span>: Learn about Mexico gazetteers in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Mexico_Gazetteers\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Mexico Gazetteers</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Mexican map resources.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.davidrumsey.com/luna/servlet/view/search?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&amp;q=mexico&amp;search=Go\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">David Rumsey collection</a> of Mexico maps.</li><li>Explore the <a class=\"lk\" href=\"http://www.mapsofworld.com/mexico/\" target=\"_blank\">MapsOfWorld site</a> for maps of Mexico and its provinces.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.oldmapsonline.org/en/Mexico\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Old Maps Online site</a> for Mexico maps.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://commons.wikimedia.org/wiki/Atlas_of_Mexico\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Atlas of Mexico</a> on the Wikipedia site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://commons.wikimedia.org/wiki/Category:Old_maps_of_Mexico\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Old Maps of Mexico</a> on the Wikipedia site.</li><li>Explore a <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.fallingrain.com/world/MX/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">directory of Mexico cities, towns, and regions</a> in the Falling Rain site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Newspapers",
+        "name": "Newspapers",
+        "section_name": "Learn about Mexico newspapers.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=oFKRHE0iCWg\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Explore Mexico newspapers for ancestor research.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-mex-news.jpg"
+                    ],
+                    "text": "<ol><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Newspaper_hawker#/media/File:Newspaper_Vendors_in_Mexico_City_March_2010.jpg\" target=\"_blank\"> <img src=\"img/x-mex-news.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px;\"></a><li>Learn about Mexico newspapers in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Mexico_Newspapers\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Mexico Newspapers</span></a></li><br><li>Find links to <a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Wikipedia:List_of_online_newspaper_archives#Mexico\" target=\"_blank\"> Mexican newspapers</a> on the Wikipedia site.</li> <li>Search Mexican newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.onlinenewspapers.com/mexico-newspapers.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">onlinenewspapers.com</a> site.</li><li>Search Mexico newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.world-newspapers.com/mexico.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">world-newspapers.com</a> site.</li><li>Search Mexico newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.abyznewslinks.com/mexic.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">ABYZ News Links</a> site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Websites",
+        "name": "Websites",
+        "section_name": "Explore additional websites for research.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=oFKRHE0iCWg\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "There are a number of websites with valuable resources for Mexican research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore links in <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cyndislist.com/mexico\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Cyndi's List</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Search Records",
+        "name": "Search Records",
+        "section_name": "Search records from Mexico.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=oFKRHE0iCWg\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Use QUIKLinks, Partners, and GenealogyInTime to quickly search the most common record collections for Mexico.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/laptop-hands.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/laptop-hands.jpg\" alt=\"\" width=\"350px\" style=\"float:right; margin-top: 6px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>QUIKLinks are indicated by lightning-bolt icons in the Goals above.They point to collections with 50,000 or more records. When you click a QUIKLink icon, scroll down on the resulting page to see the QUIKLinks.</li><li>In the Partners section (near the top of the page), explore additional record collections in FamilySearch, Ancestry, Findmypast and MyHeritage.</li><li>Explore the <a class=\"lk\" href=\"http://www.genealogyintime.com/records/Central-America-genealogy-records.html\" target=\"_blank\">Central America page</a> of the GenealogyInTime website. Record collections, including some for Mexico, are listed and described in order from newest to oldest additions, including FamilySearch, Ancestry, and many other sources.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Get Help",
+        "name": "Get Help",
+        "section_name": "Get help with your Mexican research.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=oFKRHE0iCWg\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Use Facebook pages to get answers to your questions.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/fh-help.jpg"
+                    ],
+                    "text": "<ol><a href=\"img/fh-help.jpg\" target=\"_blank\"> <img src=\"img/fh-help.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px;\"></a><li>Visit the <a class=\"lk\" href=\"https://www.facebook.com/MexicoGenealogyResearch\" target=\"_blank\">Mexico Genealogy Research page</a> of Facebook.</li><li>Visit the <a class=\"lk\" href=\"https://www.facebook.com/groups/745657082223571/\" target=\"_blank\">Mexico-Central America Genealogy Research Community</a> Facebook page for FamilySearch.</li><li>See the <a class=\"lk\" href=\"http://socialmediagenealogy.com/genealogy-on-facebook-list/\" target=\"_blank\">Genealogy on Facebook list</a> of Facebook groups dedicated to helping with research for Mexico.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Join a mailing list or message board for Mexico research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore the <a class=\"lk\" href=\"http://www.cyndislist.com/mexico/social/\" target=\"_blank\"> Mexican research mailing lists</a> available on Cyndi's List.</li><li>Join the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ancestry.com/boards/localities.northam.mexico/mb.ashx\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Ancestry message board</a> for Mexico.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Mexico genealogy societies.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about Mexico genealogy societies in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Mexico_Societies\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Mexico Societies</span></a></li><br><li>Explore <a class=\"lk\" href=\"http://www.cyndislist.com/mexico/societies/\" target=\"_blank\">Mexico genealogy society sites</a> on Cyndi's List.</li><li>Get help at a <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Category:Mexico_Family_History_Centers\" target=\"_blank\">family history center in Mexico</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Geo/Culture/History",
+        "name": "Geography, Culture, and History",
+        "section_name": "Learn about the geography, culture, and history of Mexico. \n\t\t\t\t\t\t\n\t\t\t\t\t\t",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=oFKRHE0iCWg\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Explore websites and videos.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/c-mexico.jpg"
+                    ],
+                    "text": "<h5>Reference</h5><ol><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Mexico_History\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">FamilySearch: History</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Mexico_Indigenous_Peoples\" target=\"_blank\">FamilySearch: Indigenous Peoples</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Mexico\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Wikipedia</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.britannica.com/place/Mexico\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Encyclopedia Britannica</a></li></ol><h5>For Kids</h5><ol><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://kids.nationalgeographic.com/explore/countries/mexico/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">NatGeo for Kids</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ducksters.com/geography/country/mexico.php\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Ducksters</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=aEWQdKoHQCg\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">YouTube: Animated History of Mexico</a></li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

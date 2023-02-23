@@ -1,0 +1,255 @@
+[
+    {
+        "nav_name": "Research and Records",
+        "name": "Research and Records",
+        "section_name": "Learn about Westmorland research and records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Get started with research for your Westmorland ancestors.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-en-wes-over.JPG"
+                    ],
+                    "text": "<p><i>Note</i> : See also the pages for <a class=\"lk\" href=\"project-9-eng-cumberland.html\" target=\"_blank\">Cumberland research</a>, as they may contain additional information for Westmorland.</p><ol><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Windermere#/media/File:Windermere_Lake_District_from_hill.JPG\" target=\"_blank\"> <img src=\"../img/x-en-wes-over.JPG\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li>Learn about finding your ancestors in Westmorland. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Westmorland,_England_Genealogy\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki: Westmorland England Genealogy</span></a></li><br><li>Get an overview of research in Cumbria. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.cumbria.gov.uk/archives/familyhistory/default.asp#familytree\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Cumbria Family History</span></a></li><br><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.dustydocs.com/county/39/westmorland.html?country_id=1\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">Dusty Docs site</a> for Westmorland research.</li><li>Explore a variety of records on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ukbmd.org.uk/index.php?county=137&amp;form_action=county\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">UK BMD site</a>.</li><li>Explore lists of <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.genuki.org.uk/big/eng/WES/Towns\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">towns and parishes</a> on the GenUKI Westmorland site.</li><br><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about the history of Westmorland.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for research resources. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>Learn about Westmorland history on Wikipedia. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://en.wikipedia.org/wiki/History_of_Westmorland/\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">History of Westmorland</span></a></li><br><li>Explore the <a class=\"lk\" href=\"https://www.cumbriacountyhistory.org.uk/sites/default/files/westmorland_case_study.pdf\" target=\"_blank\">Westmorland Case Study</a> online.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Archives and Libraries",
+        "name": "Archives and Libraries",
+        "section_name": "Learn about Westmorland archives and libraries.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Westmorland archives and libraries.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for archives and libraries. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genuki.org.uk/big/eng/WES/index.html#Archives\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">archives and libraries link</a> on the GenUKI Westmorland site.</li><li>Search for <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://books.familysearch.org/primo_library/libweb/action/search.do?fn=search&amp;ct=search&amp;mode=Basic&amp;tab=default_tab&amp;indx=1&amp;dum=true&amp;srt=rank&amp;vid=FHD_PUBLIC&amp;frbg=&amp;vl%28freeText0%29=westmorland+england\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">free online books on Westmorland research</a> on the FamilySearch site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Vital and Census Records",
+        "name": "Vital and Census Records",
+        "section_name": "Learn about Westmorland civil registration, BMD, and census records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore Westmorland civil registration.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/eng/wes-carlisle.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://en.wikipedia.org/wiki/Carlisle#/media/File:The_Griffin,_Carlisle_-_geograph.org.uk_-_1537898.jpg\" target=\"_blank\"><img src=\"../img/eng/wes-carlisle.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"></a><li>See a <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Westmorland_Parishes\" target=\"_blank\">list of civil parishes with links</a> on the FamilySearch Wiki.</li><li>Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.freecen.org.uk/\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">Westmorland census records </a> on the FreeCen site.</li><li>Explore Westmorland civil registration on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genuki.org.uk/big/eng/WES/#CivilReg\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">Gen UKI site</a>.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://joinermarriageindex.co.uk/marriage-records/Westmorland/\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">Joiner Marriage Index</a> for Westmorland.</li><li>Browse the <a class=\"lk\" href=\"http://www.ukbmd.org.uk/genuki/reg/wes.html\" target=\"_blank\">Westmorland registration districts</a> on the Gen UKI site.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.freebmd.org.uk/search\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">FreeBMD UK site</a> for BMD records.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Westmorland census records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for civil registration and other records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>Learn about Westmorland Census Surname Indexes in FamilySearch. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Westmorland_Census_Surname_Indexes_at_the_Family_History_Library\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki: Census Surname Indexes</span></a></li><br><li>Explore Westmorland census records on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genuki.org.uk/big/eng/WES/#Census\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">Gen UKI site</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Church and Cemetery Records",
+        "name": "Church and Cemetery Records",
+        "section_name": "Learn about Westmorland church and cemetery records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Westmorland church records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for church records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-en-wes-church.jpg"
+                    ],
+                    "text": "<ol><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Jane_Howard,_Countess_of_Westmorland#/media/File:St_Mary%27s_church_-_geograph.org.uk_-_1400249.jpg\" target=\"_blank\"> <img src=\"../img/x-en-wes-church.jpg\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li>Get an overview of Westmorland church records in this article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Westmorland_Church_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Westmorland Church Records</span></a></li><br><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genuki.org.uk/big/eng/WES/#ChurchRecords\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">church records link</a> on the GenUKI Westmorland site.</li><li>Explore parish records on the <a class=\"lk\" href=\"https://www.freereg.org.uk/\" target=\"_blank\">FreeReg.org</a>site.</li><li>Use this <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Westmorland_Parishes\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">parish page</a> to explore parish records in Westmorland.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Westmorland cemetery records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for cemetery records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.findagrave.com/cgi-bin/fg.cgi?page=cs\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">Find a Grave site</a> for cemetery records.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://billiongraves.com/pages/search/\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">BillionGraves site</a> for cemetery records.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Probate, Land and Court",
+        "name": "Probate, Land and Court Records",
+        "section_name": "Learn about Westmorland probate and land records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Westmorland probate and land records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for probate and land records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>Learn about Westmorland probate records in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Westmorland_Probate_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Westmorland Probate Records</span></a></li><br><li>Learn more about <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genuki.org.uk/big/eng/WES/index.html#Probate\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">probate records</a> on the GenUKI Westmorland site.</li><li>Learn more about <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.genuki.org.uk/big/eng/WES#Taxation\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">taxation records</a> on the GenUKI site.</li><li>Explore deeds by surname on the <a class=\"lk\" href=\"http://www.familydeeds.org/westmorland.php\" target=\"_blank\">FamilyDeeds site</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Maps and Gazetteers",
+        "name": "Maps and Gazetteers",
+        "section_name": "Learn about Westmorland maps and gazetteers.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore Westmorland maps and gazetteers.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-en-wes-map.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://commons.wikimedia.org/wiki/File:Aikin(1800)_p091_-_Westmorland.jpg\" target=\"_blank\"> <img src=\"../img/x-en-wes-map.jpg\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li>Learn about Westmorland maps in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Westmorland_Maps\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Westmorland Maps</span></a></li><br><li>Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://freepages.rootsweb.com/~genmaps/genealogy/genfiles/COU_Pages/ENG_pages/wes.htm\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">historical maps</a> on the GenMaps site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.davidrumsey.com/luna/servlet/view/search?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&amp;q=westmorland&amp;search=Go\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">David Rumsey collection</a> of Westmorland maps.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genuki.org.uk/big/eng/WES/#Maps\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">maps link</a> on the GenUKI Westmorland site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genuki.org.uk/big/eng/WES/#Gazetteers\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">gazetteers link</a> on the GenUKI Westmorland site.</li><li>Explore the online <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genuki.org.uk/big/Gazetteers\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">Gazetteer</a> on the GenUKI site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Newspapers",
+        "name": "Newspapers",
+        "section_name": "Learn about Westmorland newspapers.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore Westmorland newspapers.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Search Westmorland (Cumbria) newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.abyznewslinks.com/ukingnw.htm\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">ABYZ News Link</a> site.</li><li>Explore old Westmorland newspapers in the <a class=\"lk\" href=\"http://www.cultrans.com/\" target=\"_blank\">Cultrans</a> site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genuki.org.uk/big/eng/WES/#Newspapers\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">newspaper records link</a> on the GenUKI Westmorland site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Websites",
+        "name": "Websites",
+        "section_name": "Explore additional websites for research.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "There are a number of websites with valuable resources for Westmorland research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore links in <a class=\"lk\" href=\"http://www.cyndislist.com/uk/eng/counties/wes/\" target=\"_blank\">Cyndi's List</a>.</li><li>Explore links in <a class=\"lk\" href=\"http://www.genealogylinks.net/uk/england/westmorland/index.html\" target=\"_blank\">GenealogyLinks.net</a>.</li> </ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Search Records",
+        "name": "Search Records",
+        "section_name": "Search records from Westmorland.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore record collections.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Use the England Record Selection Table to decide on records to search. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/England_Record_Selection_Table\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—England Record Selection Table</span></a></li><br><li>Explore the <a class=\"lk\" href=\"https://familysearch.org/wiki/en/Westmorland,_England_Online_Genealogy_Records\" target=\"_blank\">FamilySearch page</a> for online genealogy records.</li><li>Explore additional record collections in <a class=\"lk\" href=\"https://www.ancestry.com/search/collections/catalog/?keyword=Westmorland,%20England\" target=\"_blank\">Ancestry</a>.</li><li>Explore additional record collections in <a class=\"lk\" href=\"https://search.findmypast.com/historical-records?page=1&amp;region=england&amp;subcountry=westmorland\" target=\"_blank\">Findmypast</a>.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Use QUIKLinks to quickly search record collections for Westmorland.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Get Help",
+        "name": "Get Help",
+        "section_name": "Get help with your Westmorland research.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Join a mailing list or message board for Westmorland research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Join the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.rootschat.com/forum/england/\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">RootsChat forum</a> and post questions about Westmorland research.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://bigfile.rootsweb.ancestry.com/cgi-bin/listsearch\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">RootsWeb site </a> for Westmorland research mailing lists.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cyndislist.com/uk/eng/counties/wes/social/\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\"> Westmorland research mailing lists</a> on Cyndi's List.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Westmorland genealogy societies.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about genealogy societies in Westmorland in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Westmorland_Societies\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Westmorland Societies</span></a></li><br><li>Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genuki.org.uk/big/eng/WES#Societies\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">genealogy societies</a> on the GenUKI Westmorland site.</li><li>Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cyndislist.com/uk/eng/counties/wes/societies/\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">English genealogy society sites</a> on Cyndi's list.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

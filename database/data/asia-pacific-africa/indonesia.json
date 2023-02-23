@@ -1,0 +1,147 @@
+[
+    {
+        "nav_name": "Research",
+        "name": "Research",
+        "section_name": "Learn about research in Indonesia.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Indonesia research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li><span class=\"g\">Overview</span>: Get an overview of Indonesia research in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Indonesia_Genealogy\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Indonesia Genealogy</span></a> </li><br><li><span class=\"g\">Archives &amp; Libraries</span>: Learn about Indonesia archives and libraries in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Indonesia_Archives_and_Libraries\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Indonesia Archives and Libraries</span></a> </li><br><li><span class=\"g\">Books We Own</span>: Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.rootsweb.ancestry.com/~bwo/india.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Books We Own site</a> for books that can be checked out or researched for you by others. </li><li><span class=\"g\">Forebears.io</span>: Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://forebears.io/indonesia\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Forebears.io site</a> for research records.</li><li><span class=\"g\">Surnames</span>: Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.geneanet.org/country/search-Indonesia-IDN\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Geneanet site</a> for Indonesian surnames.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Emigration and Immigration",
+        "name": "Emigration and Immigration",
+        "section_name": "Learn about Indonesia emigration and immigration.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Indonesia emigration and immigration.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li><span class=\"g\">FamilySearch</span>: Learn about Indonesia emigration and immigration in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Indonesia_Emigration_and_Immigration\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Indonesia Emigration and Immigration</span></a> </li><br><li><span class=\"g\">Wikipedia</span>: Learn about immigration history and demographics in this Wikipedia article.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Indonesian_Americans\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Wikipedia: Indonesian Americans</span></a></li><br><li>See also the External Links section at the end of the article, and the Wiki page for <a class=\"lk\" href=\"https://familysearch.org/wiki/en/Indonesia_Websites\" target=\"_blank\">Indonesia Websites</a>.</li><li><span class=\"g\">Jewish</span>: Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://bloodandfrogs.com/encyclopedia/indonesia\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Jewish Genealogy Encyclopedia</a> for Jewish resources in Indonesia.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Maps",
+        "name": "Maps",
+        "section_name": "Learn about Indonesia maps.",
+        "summary": "<img src=\"img/x-ino-map.gif\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; \">",
+        "choices": [
+            {
+                "name": "Learn about Indonesia maps.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>See a <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/India_Genealogy#India_Map\" target=\"_blank\">map of Indonesia provinces</a>.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.davidrumsey.com/luna/servlet/view/search?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&amp;q=indonesia&amp;search=Go\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">David Rumsey collection</a> of Indonesia maps.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.oldmapsonline.org/en/Indonesia\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Old Maps Online site</a> for Indonesia maps.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://commons.wikimedia.org/wiki/Atlas_of_Indonesia\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Atlas of Indonesia</a> on the Wikipedia site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://commons.wikimedia.org/wiki/Category:Old_maps_of_Indonesia\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Old Maps of Indonesia</a> on the Wikipedia site.</li><li>Explore a <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.fallingrain.com/world/ID/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">directory of Indonesia cities, towns, and regions</a> in the Falling Rain site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Newspapers",
+        "name": "Newspapers",
+        "section_name": "Learn about Indonesia newspapers.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Indonesia newspapers for research.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ino-news.JPG"
+                    ],
+                    "text": "<ol><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Republika_(Indonesian_newspaper)#/media/File:Republika_editorial_office,_South_Jakarta.JPG\" target=\"_blank\"> <img src=\"img/x-ino-news.JPG\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 350px;; border:1px solid #000; padding:0px;\"></a>  <li>Learn about Indonesia newspapers in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Indonesia_Newspapers\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Indonesia Newspapers</span></a> </li><li>Search Indonesian newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.onlinenewspapers.com/india.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">onlinenewspapers.com</a> site.</li><li>Search Indonesian newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.world-newspapers.com/india.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">world-newspapers.com</a> site.</li><li>Search Indonesian newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.abyznewslinks.com/indon.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">ABYZ News Links</a> site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Search Records",
+        "name": "Search Records",
+        "section_name": "Search records from Indonesia.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Use QUIKLinks and other resources to quickly search the most common record collections for Indonesia.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/laptop-hands.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/laptop-hands.jpg\" alt=\"\" width=\"350px\" style=\"float:right; margin-top: 6px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>QUIKLinks are indicated by lightning-bolt icons in the Goals above.They point to collections with 50,000 or more records. When you click a QUIKLink icon, scroll down on the resulting page to see the QUIKLinks.</li><li>In the Partners section (near the top of the page), explore additional record collections in FamilySearch, Ancestry, Findmypast and MyHeritage.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.findagrave.com/cemetery-browse/Indonesia?id=country_83\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Find A Grave site</a> for cemetery records.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://billiongraves.com/site-map?country=Indonesia\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">BillionGraves site</a> for cemetery records.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Get Help",
+        "name": "Get Help",
+        "section_name": "Get help with your Indonesia research.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Use Facebook pages to get answers to your questions.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/fh-help2.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/girl-books-shelves-library-reading-995187/\" target=\"_blank\"> <img src=\"img/fh-help2.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-top: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a> <li>Visit the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.facebook.com/groups/367146666771463/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Asia, Africa, Pacific Genealogy Research Community</a> on Facebook.</li><li>See the <a class=\"lk\" href=\"http://socialmediagenealogy.com/genealogy-on-facebook-list/\" target=\"_blank\">Genealogy on Facebook list</a> of Facebook groups dedicated to helping with research for Indonesia.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Join a mailing list or message board for Indonesia research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cyndislist.com/asia/social/\" target=\"_blank\"> <img src=\"img/d.png\" width=\"2\">Indonesia research mailing lists</a> on Cyndi's List.</li><li>Use the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ancestry.com/boards/localities.asia.indonesia/mb.ashx\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Ancestry message boards</a> to read or post questions about Indonesia research.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Indonesian genealogy societies.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cyndislist.com/asia/societies/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Indonesian genealogy society sites</a> on Cyndi's List.</li><li>Get help at a <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Category:Indonesia_Family_History_Centers\" target=\"_blank\">family history center in Indonesia</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Geo/Culture/History",
+        "name": "Geography, Culture, and History",
+        "section_name": "Learn about the geography, culture, and history of Indonesia. \n\t\t\t\t\t\t\n\t\t\t\t\t\t",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore websites and videos.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/c-indonesia.jpg"
+                    ],
+                    "text": "<h5>Reference</h5><ol><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Indonesia_History\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">FamilySearch: History</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Indonesia\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Wikipedia</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.britannica.com/place/Indonesia\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Encyclopedia Britannica</a></li><br><h5>For Kids</h5><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://kids.nationalgeographic.com/animals/reptiles/komodo-dragon/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">NatGeo for Kids</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ducksters.com/geography/country.php?country=Indonesia\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Ducksters</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=4zNr8yVIHXE\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">YouTube: The Indonesia Song</a></li></ol><h5>For Kids</h5>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

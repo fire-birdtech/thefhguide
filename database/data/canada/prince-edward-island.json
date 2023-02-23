@@ -1,0 +1,320 @@
+[
+    {
+        "nav_name": "Research and Records",
+        "name": "Research and Records",
+        "section_name": "Learn about Prince Edward Island research and records",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Get started with research for your Prince Edward Island ancestors.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for research resources. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-pei-over.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/lighthouse-old-fishing-huts-54984/\" target=\"_blank\"> <img src=\"../img/x-ca-pei-over.jpg\" alt=\"\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\" width=\"450px\" border=\"1\"></a><li>Learn about finding your ancestors in Prince Edward Island. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Prince_Edward_Island,_Canada_Genealogy\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki:—Prince Edward Island—Finding Your Ancestors</span></a></li><br><li>Explore resources for Prince Edward Island research on Ancestry. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://search.ancestry.com/Places/Canada/Prince-Edward-Island/Default.aspx\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">AC—Prince Edward Island Resources</span></a></li><br><li>Learn about records from Prince Edward Island. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.americanancestors.org/tools/prince-edward-island-genealogy\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">AA—Prince Edward Island Genealogy</span></a></li><br><li>Use the Prince Edward Island Record Selection Table to decide on records to search. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Prince_Edward_Island_Record_Selection_Table\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Prince Edward Island Record Selection Table</span></a></li><br><li>Explore a variety of records on the <a class=\"lk\" href=\"https://sites.google.com/site/freecanadianancestry/home/prince-edward-island\" target=\"_blank\">FreeCanadianAncestry</a> site. </li><li>Search for a variety of Prince Edward Island records on the <a class=\"lk\" href=\"http://homepages.rootsweb.ancestry.com/~mvreid/pei/peidbidx.html\" target=\"_blank\">Rootsweb site</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Archives and Libraries",
+        "name": "Archives and Libraries",
+        "section_name": "Learn about Prince Edward Island archives and libraries.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Prince Edward Island archives and libraries.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for archives and libraries. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-pei-lib.JPG"
+                    ],
+                    "text": "<ol><a href=\"https://commons.wikimedia.org/wiki/File:282_-_Birthplace_of_Canada_Charlottetown_PEI.JPG\" target=\"_blank\"> <img src=\"../img/x-ca-pei-lib.JPG\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li>Learn about Prince Edward Island archives and libraries in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Prince_Edward_Island_Archives_and_Libraries\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Prince Edward Island Archives and Libraries</span></a></li><br><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Prince Edward Island city directories.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore city directories in Prince Edward Island on the <a class=\"lk\" href=\"http://www.cangenealogy.com/pei-directories.html\" target=\"_blank\">CanGenealogy site</a>.</li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Vital and Census Records",
+        "name": "Vital and Census Records",
+        "section_name": "Learn about Prince Edward Island vital and census records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Prince Edward Island vital and birth records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for vital and birth records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-pei-flag.png"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/prince-edward-island-flag-official-28546/\" target=\"_blank\"> <img src=\"../img/x-ca-pei-flag.png\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li>Learn about Prince Edward Island vital records in these articles. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Prince_Edward_Island_Vital_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Prince Edward Island Vital Records</span></a></li><li>Search for vital records on the <a class=\"lk\" href=\"https://www.princeedwardisland.ca/en/information/justice-and-public-safety/search-vital-records\" target=\"_blank\">Prince Edward Island Archives</a> site.</li><li>Learn about adoption records on the <a class=\"lk\" href=\"http://www.originscanada.org/adoption-records/by-province/prince-edward-island-adoption-records/\" target=\"_blank\">OriginsCanada</a> site.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Prince Edward Island death records.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore death record resources on the <a class=\"lk\" href=\"https://www.deathindexes.com/canada.html\" target=\"_blank\">Death Indexes</a> site.</li><li>Explore Prince Edward Island obituaries on the <a class=\"lk\" href=\"https://www.inmemoriam.ca/directory/province/nb-prince_edward_island/1/\" target=\"_blank\">In Memoriam</a> site.</li> </ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Prince Edward Island census records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for marriage and death records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>Get an overview of Prince Edward Island censuses in this article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Prince_Edward_Island_Census\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Prince Edward Island Census</span></a></li><br><li>Explore the <a class=\"lk\" href=\"http://www.myfreecensus.com/prince-edward-island-census-records.htm\" target=\"_blank\">MyFreeCensus site</a> for Prince Edward Island census records.</li></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Church and Cemetery Records",
+        "name": "Church and Cemetery Records",
+        "section_name": "Learn about Prince Edward Island church and cemetery records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Prince Edward Island church records.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Get an overview of Prince Edward Island church records in this article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Prince_Edward_Island_Church_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Prince Edward Island Church Records</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Prince Edward Island cemetery records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for church and cemetery records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-pei-church.jpg"
+                    ],
+                    "text": "<ol><img src=\"../img/x-ca-pei-church.jpg\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-top: 16px; margin-left: 16px\"><li>Explore Prince Edward Island cemetery records in this article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Prince_Edward_Island_Cemeteries\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Prince Edward Island Cemetery Records</span></a> </li><br><li>Browse the <a class=\"lk\" href=\"http://www.interment.net/can/pei/index.htm\" target=\"_blank\">Interment.net site</a> for Prince Edward Island cemetery records.</li><li>Browse the <a class=\"lk\" href=\"http://www.idreamof.com/canada/cemetery/prince_edward.html\" target=\"_blank\">I Dream of Genealogy</a> site for Prince Edward Island cemetery records.</li><li>Search the <a class=\"lk\" href=\"http://www.findagrave.com/cgi-bin/fg.cgi?page=cs\" target=\"_blank\">Find A Grave site</a> for cemetery records.</li><li>Search the <a class=\"lk\" href=\"http://billiongraves.com/pages/search/\" target=\"_blank\">BillionGraves site</a> for cemetery records.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Emigration and Immigration",
+        "name": "Emigration and Immigration",
+        "section_name": "Learn about Prince Edward Island emigration and immigration.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Prince Edward Island emigration and immigration.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about Prince Edward Island emigration and immigration in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Prince_Edward_Island_Emigration_and_Immigration\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Prince Edward Island Emigration and Immigration</span></a></li><br><li>Learn about Acadian settlers in Prince Edward Island in this American Ancestors article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.americanancestors.org/tools/acadian-genealogy\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">AA—Acadian Genealogy</span></a></li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Probate, Land and Court",
+        "name": "Probate, Land and Court Records",
+        "section_name": "Learn about Prince Edward Island probate and land records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Prince Edward Island probate and land records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for probate and land records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-pei-land.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/coastline-prince-edward-island-1591104/\" target=\"_blank\"> <img src=\"../img/x-ca-pei-land.jpg\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li>Learn about Prince Edward Island probate records in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Prince_Edward_Island_Probate_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Prince Edward Island Probate Records</span></a></li><br><li>Learn about Prince Edward Island land and property records. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/Prince_Edward_Island_Land_and_Property\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Prince Edward Island Land and property Records</span></a></li><br><li>Explore wills in the <a class=\"lk\" href=\"http://www.islandregister.com/wills/willdata.html\" target=\"_blank\">Prince Edward Island Wills</a> database.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Maps and Gazetteers",
+        "name": "Maps and Gazetteers",
+        "section_name": "Learn about Prince Edward Island maps and gazetteers.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore Prince Edward Island maps and gazetteers.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-ca-pei-map.png"
+                    ],
+                    "text": "<ol><a href=\"https://commons.wikimedia.org/wiki/File:Prince_Edward_Island_topographic_map.svg\" target=\"_blank\"> <img src=\"../img/x-ca-pei-map.png\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li>Explore the <a class=\"lk\" href=\"http://www.davidrumsey.com/luna/servlet/view/search?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&amp;q=prince_edward_island&amp;search=Go\" target=\"_blank\">David Rumsey collection</a> of Prince Edward Island maps.</li><li>Explore the <a class=\"lk\" href=\"https://www.canadiana.ca/search/?so=alphabetical&amp;q1.0=AND&amp;q2.0=%22Prince+Edward+Island%22&amp;q0.0=%22Maps+of+the+National+Topographic+System+of+Canada%22\" target=\"_blank\">Canadiana maps collection</a>.</li><li>Explore the <a class=\"lk\" href=\"http://www.lib.utexas.edu/maps/canada.html\" target=\"_blank\">Perry-Castaneda site</a> for maps of Prince Edward Island (search for Prince Edward Island on the page).</li><li>Explore <a class=\"lk\" href=\"http://www.historicmapworks.com/Browse/Maps/\" target=\"_blank\">historical Prince Edward Island maps</a> on the Historic Map Works site. Select North America, Canada, and Prince Edward Island in the drop-down menus.</li><li>Find Prince Edward Island towns and communities on the <a class=\"lk\" href=\"https://roadsidethoughts.com/pe/index-a.htm\" target=\"_blank\">RoadsideThoughts site</a>.</li><li>Search for Prince Edward Island place names on the <a class=\"lk\" href=\"https://www.johncardinal.com/ca/pe/places.htm\" target=\"_blank\">John Cardinal site</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Newspapers",
+        "name": "Newspapers",
+        "section_name": "Learn about Prince Edward Island newspapers.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about Prince Edward Island newspapers.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "  fs—wiki: prince edward island newspapers",
+                            "content": "<br>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-newspaper-bundle.jpg"
+                    ],
+                    "text": "<ol><img src=\"../img/y-newspaper-bundle.jpg\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-left: 16px\"><li>Learn about Prince Edward Island newspapers in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Prince_Edward_Island_Newspapers\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Prince Edward Island Newspapers</span></a><div class=\"choice\"><br></div></li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Prince Edward Island newspapers.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore Prince Edward Island newspaper resources on the <a class=\"lk\" href=\"http://www.cangenealogy.com/pei-news.html\" target=\"_blank\">CanGenealogy</a> site.</li><li>Search Prince Edward Island newspapers in the <a class=\"lk\" href=\"http://www.onlinenewspapers.com/canadape.htm\" target=\"_blank\">onlinenewspapers.com</a> site.</li><li>Search Prince Edward Island newspapers in the <a class=\"lk\" href=\"http://www.world-newspapers.com/prince\" target=\"_blank\">world-newspapers.com</a> site.</li><li>Search Prince Edward Island newspapers in the <a class=\"lk\" href=\"http://www.abyznewslinks.com/canadpe.htm\" target=\"_blank\">ABYZ News Link</a> site.</li><li>Explore Prince Edward Island newspaper resources on the <a class=\"lk\" href=\"http://www.theancestorhunt.com/blog/prince-edward-island-online-historical-newspapers-summary\" target=\"_blank\">Ancestor Hunt</a> site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Websites",
+        "name": "Websites",
+        "section_name": "Explore additional websites for research.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "There are a number of websites with valuable resources for Prince Edward Island research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore links on the <a class=\"lk\" href=\"http://www.cangenealogy.com/pei.html\" target=\"_blank\">CanGenealogy</a> site.</li><li>Explore links in <a class=\"lk\" href=\"http://www.cyndislist.com/canada/provinces/pe/\" target=\"_blank\">Cyndi's List</a>.</li><li>Explore links in <a class=\"lk\" href=\"http://www.genealogylinks.net/canada/prince_edward_island/index.html\" target=\"_blank\">GenealogyLinks.net</a>.</li> </ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Search Records",
+        "name": "Search Records",
+        "section_name": "Search records from Prince Edward Island.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Use QUIKLinks to quickly search record collections for Prince Edward Island.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ul><li>QUIKLinks are indicated by lightning-bolt icons in the Goal header area and in the page.</li><li>QUIKLinks point to collections with 50,000 or more records.</li></ul>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore additional record collections.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore the <a class=\"lk\" href=\"https://familysearch.org/wiki/en/Prince_Edward_Island_Online_Genealogy_Records\" target=\"_blank\">FamilySearch page</a> for online genealogy records.</li><li>Explore additional record collections in <a class=\"lk\" href=\"https://www.ancestry.com/search/collections/catalog/?keyword=Prince+Edward+Island\" target=\"_blank\">Ancestry</a>.</li><li>Explore additional record collections in <a class=\"lk\" href=\"https://search.findmypast.com/historical-records?page=1&amp;region=canada&amp;subcountry=prince%20edward%20island\" target=\"_blank\">Findmypast</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Get Help",
+        "name": "Get Help",
+        "section_name": "Get help with your Prince Edward Island research.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Use Facebook pages to get answers to your questions.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/fh-help4.jpg"
+                    ],
+                    "text": "<ol><a href=\"../img/fh-help4.jpg\" target=\"_blank\"> <img src=\"../img/fh-help4.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 350px;\"></a>  <li>Visit the <a class=\"lk\" href=\"https://www.facebook.com/groups/2256402585/?ref=br_rs\" target=\"_blank\">Prince Edward Island Genealogy page</a> on Facebook.</li><li>Find additional Facebook pages for Prince Edward Island genealogy on the <a class=\"lk\" href=\"http://socialmediagenealogy.com/genealogy-on-facebook-list\" target=\"_blank\">Genealogy on Facebook</a> site.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Join a mailing list or message board for Prince Edward Island research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Join the <a class=\"lk\" href=\"http://www.rootschat.com/forum/canada/\" target=\"_blank\">RootsChat forum</a> and post questions about Prince Edward Island research.</li><li>Search the <a class=\"lk\" href=\"http://bigfile.rootsweb.ancestry.com/cgi-bin/listsearch\" target=\"_blank\">RootsWeb site </a> for Prince Edward Island research mailing lists.</li><li>Explore the <a class=\"lk\" href=\"http://www.cyndislist.com/canada/provinces/pe/social/\" target=\"_blank\"> Prince Edward Island research mailing lists</a> on Cyndi's List.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about Prince Edward Island genealogy societies.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about genealogy societies in Prince Edward Island in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Prince_Edward_Island_Societies\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Prince Edward Island Societies</span></a></li><br><li>Explore <a class=\"lk\" href=\"http://www.cyndislist.com/canada/provinces/pe/societies/\" target=\"_blank\">Prince Edward Island genealogy society sites</a> on Cyndi's list.</li><li>Get help at a <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Category:Prince_Edward_Island_Family_History_Centres\" target=\"_blank\">family history center in Prince Edward Island</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

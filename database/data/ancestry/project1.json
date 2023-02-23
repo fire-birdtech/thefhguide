@@ -1,0 +1,332 @@
+[
+    {
+        "nav_name": "Ancestry Account and Tree",
+        "name": "Account and Tree Setup",
+        "section_name": "Choose an Ancestry account and start your tree.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Create an Ancestry account and start your family tree.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/free-trial.JPG"
+                    ],
+                    "text": "<p><i>Note </i>: This Choice helps you set up a Free Trial account. If you are using a paid account, skip ahead to Choice B below. If you are using a Church of Jesus Christ Partner account, skip ahead to Choice C below.</p><ol><img src=\"img/an/free-trial.JPG\" width=\"150px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>Go to the <a class=\"lk\" href=\"http://www.ancestry.com/cs/offers/freetrial\" target=\"_blank\">Ancestry Free Trial offer</a> to see comparisons of Ancestry membership offers and choose an offer.</li><li>Click <b>Start Free Trial</b>.</li><li>Click <b>Continue</b>.</li><li>Finish the rest of the screens to set up your Free Trial account. Remember that your Free Trial will convert to the paid membership you chose unless you cancel within 14 days.</li><li>To sign out of Ancestry when you are logged in, click your name (upper right) and select <b>Sign Out</b>. To sign in again, click <b>Sign In</b> (upper right) in the opening screen and then click the <b>Sign In</b> button.</li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "For help with starting your tree, refer to this article and video.",
+                                "links": [
+                                    {
+                                        "link": "https://support.ancestry.com/s/article/ka215000000MVO9AAO/Getting-started-on-Ancestry-Lesson-1-Starting-Your-Tree-1460088573376",
+                                        "text": "AC—Getting Started, Lesson 1: Starting Your Tree",
+                                        "type": "document"
+                                    },
+                                    {
+                                        "link": "https://www.ancestryacademy.com/getting-started-on-ancestry-starting-your-family-tree/videos/starting-your-family-tree-2",
+                                        "text": "AAC—Getting Started on Ancestry: Starting Your Family Tree—4:20",
+                                        "type": "video"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Optional: Use a GEDCOM file to populate your tree.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/upload-gedcom.JPG",
+                        "https://www.thefhguide.com/img/an/choose-upload.png"
+                    ],
+                    "text": "<p>A GEDCOM (Genealogical Data Communication) file is a text file with basic information about people in a family tree. It can be created (exported) from an existing family tree, and then imported to a new tree to populate that tree.</p><ol><p>If you have a GEDCOM file (a collection of ancestor information created with a software program), you can copy its data to your Ancestry tree.</p><p><i>Note</i> : GEDCOM files are typically taken from family trees (public or private) which may have errors. Be sure to check the accuracy and sources for the tree information before uploading it to your Ancestry tree.</p><li>Click <b>Trees</b> and select <b>Create and manage trees</b>.</li><img src=\"img/an/upload-gedcom.JPG\" width=\"450px\" style=\"float:right; margin-left:16px; margin-top:16px; border:1px solid #000; padding:0px;\"><li>Click \"Upload a GEDCOM file\".</li><br><img src=\"img/an/choose-upload.png\" width=\"350px\" style=\"float:right; margin-left:16px; margin-top:16px; border:1px solid #000; padding:0px;\"><li>Click <b>Choose file</b>, browse to your GEDCOM file and select it, and click <b>Open</b>.</li><li>Type a name for your new tree.</li><li>If you want to restrict others from seeing the tree, clear the \"Make my family tree public\" checkbox.</li><li>If desired, type a description for your tree.</li><li>Select the \"I accept the Submission Agreement\" link.</li><li>Click <b>Upload</b> to create the tree. While the tree is being loaded, keep the browser page open. When the tree is created, it appears in the <b>Trees</b> menu.</li></ol><p><i>Note</i> : GEDCOM files are typically taken from family trees (public or private) which may have errors. Be sure to check the accuracy and sources for the tree information before uploading it to your Ancestry tree.</p>",
+                    "resources": [
+                        [
+                            {
+                                "description": "This article provides an overview of GEDCOM files.",
+                                "links": [
+                                    {
+                                        "link": "https://www.thoughtco.com/genealogy-gedcom-basics-1421891",
+                                        "text": "TH—Genealogy GEDCOM 101 - 2019",
+                                        "type": "document"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Import your part of the FamilySearch tree to Ancestry.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/tree-fs-ac.jpg"
+                    ],
+                    "text": "<p>If you have family tree data in your FamilySearch account, you can import four generations of it (starting with your name) to your Ancestry tree.</p><ol><img src=\"img/tree-fs-ac.jpg\" width=\"300px\" style=\"float:right; margin-left:16px; margin-top:8px; border:1px solid #000; padding:0px;\"><li>Click <b>Trees</b> and select <b>Import tree from FamilySearch</b>. If prompted, click <b>Sign in</b> to complete FamilySearch authorization.</li><li>Name the tree.</li><li>If you want to restrict others from viewing the tree, click the checkbox.</li><li>Click <b>Save</b> and then click <b>Continue</b>.</li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "For more information on FamilySearch integration with Ancestry, read these articles.",
+                                "links": [
+                                    {
+                                        "link": "https://support.ancestry.com/s/article/Church-of-Jesus-Christ-Ancestry-Membership",
+                                        "text": "AC—Church of Jesus Christ-Ancesty Membership (scroll down)",
+                                        "type": "document"
+                                    },
+                                    {
+                                        "link": "https://www.familysearch.org/en/help/helpcenter/article/how-do-i-connect-a-name-on-my-tree-on-ancestry-com-to-a-person-in-family-tree",
+                                        "text": "FS—How do I connect a name on my tree on Ancestry.com to a person in Family Tree? - 2020",
+                                        "type": "document"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Optional: Create a free Church of Jesus Christ-Ancestry Partner account.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/partner-access.png"
+                    ],
+                    "text": "<p>If you are a member of The Church of Jesus Christ of Latter-day Saints, you can create a <a class=\"lk\" href=\"https://support.ancestry.com/s/article/Church-of-Jesus-Christ-Ancestry-Membership\" target=\"_blank\">free account on Ancestry</a>.</p><ol><img src=\"img/an/partner-access.png\" width=\"200px\" style=\"float:right; margin-left:16px; margin-top:16px; border:1px solid #000; padding:0px;\"><li>Go to the <a class=\"lk\" href=\"https://familysearch.org/partneraccess\" target=\"_blank\">Partner Access page</a> on FamilySearch.</li><li>Click <b>Join for Free</b> below the Ancestry logo.</li><li>Sign in to FamilySearch.</li><li>Click \"Create Your Free Ancestry Account\".</li><li>In the Account Creation page, fill out fields (including email and password) and click <b>Register</b>.</li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "For help with creating a Partner account, refer to this article.",
+                                "links": [
+                                    {
+                                        "link": "https://support.ancestry.com/s/article/ka215000000MUW7AAO/FamilySearch-Integration-on-Ancestry",
+                                        "text": "AC—FamilySearch Integration on Ancestry",
+                                        "type": "document"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "For help with starting your tree, refer to this article.",
+                                "links": [
+                                    {
+                                        "link": "https://support.ancestry.com/s/article/ka215000000MVO9AAO/Getting-started-on-Ancestry-Lesson-1-Starting-Your-Tree-1460088573376",
+                                        "text": "AC—Getting Started, Lesson 1: Starting Your Tree",
+                                        "type": "document"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Optional: Synchronize Data Between Ancestry and FamilySearch Partner Accounts.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/blue-check.png"
+                    ],
+                    "text": "<p>With a Church of Jesus Christ-Ancestry account, you can sync the updates you make to your Ancestry tree into your part of the FamilySearch tree. <br><i>Note</i> : For more details, see Project 2, Goal 3, <a class=\"lk\" href=\"project-2-family-tree-an03.html#d\" target=\"_blank\">Choice D</a>.</p><ol><br><li>Read this article for instructions (scroll down to \"Linking people between Ancestry and FamilySearch\"). When a person in your Ancestry tree is linked to the matching person in FamilySearch, a blue check mark appears next to the FamilySearch icon on the Profile page. If the person is not linked, the FamilySearch icon appears without the check mark. <i>Note</i> : Updates cannot be synced for living people.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://support.ancestry.com/s/article/FamilySearch-Integration-on-Ancestry\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">AC—FamilySearch Integration on Ancestry</span></a></li><br><img src=\"img/an/blue-check.png\" width=\"100px\" style=\"float:right; margin-left:16px; margin-top:16px; border:1px solid #000; padding:0px;\"><li>For more information on syncing between Ancestry and FamilySearch, watch this video.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=tyH_oEBX6h0\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">BYU—Sharing Information between FamilySearch and Ancestry—5:54 - 2016</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/tyH_oEBX6h0?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Customize Profile and Site Settings",
+        "name": "Customize Profile and Site Settings",
+        "section_name": "Customize your profile and site settings.",
+        "summary": "<p>This Goal helps you control a number of useful settings for your Ancestry account.</p>",
+        "choices": [
+            {
+                "name": "Change your profile settings as needed.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>In your profile, change your name, display name, location, or photo.</li><li>Update your personal information.</li><li>Help other Ancestry members.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/your-profile.JPG"
+                    ],
+                    "text": "<ol><img src=\"img/an/your-profile.JPG\" width=\"150px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>In the Home screen, click your name (upper right) and select <b>Your Profile</b>. Your personal profile page is displayed; only you can see this.</li><li>To update your public profile content (everyone on Ancestry can see this), <br>a) Click <b>Edit</b> (left side); <br>b) Choose your display name (real name or username); <br>c) Type your location, age group, and languages spoken and select them from the drop-down list; <br>d) Type a brief note about yourself; and <br>e) Click <b>Done</b>.</li><br><h5>Profile Photo</h5><li>To add or change the photo used in your profile page, <br>a) Click the camera icon (upper left);<br>b) Click <b>Add</b> or <b>Change photo</b> (lower right); <br>c) Navigate to the photo you want to upload and double-click it;<br>d) If adding a photo, you can drag the slider bar to zoom in or out; and <br>e) Click <b>Save</b>. To remove a profile photo, click the trashcan icon and then click <b>Remove photo</b>. </li><br><h5>Profile Completion</h5><li>If your profile is not complete, <br>a) Click the info icon (next to <b>Profile Completion</b> and the additional link in the popup;<br>b) Click <b>Continue</b>; <br>c) Fill in the information requested; and<br>d) Click <b>Save</b>.</li><br><h5>Contact Info</h5><li>To add contact information, <br>a) Click <b>Edit</b> (below your name) and select the <b>Contact</b> tab; <br>b) Fill in any of the fields on the page so others can contact you via social media or your website(s); and <br>c) Click <b>Done</b>. The contact items you add become clickable links in your Profile page.</li><br><h5>Family History Background</h5><li>To update your family history background, <br>a) Click <b>Edit</b> (below your name) and select the <b>Family History</b> tab; <br>b) Fill in values for the categories; and <br>c) Click <b>Done</b>.</li><br><h5>Research Interests</h5><li>To add one or more research interests, <br>a) Click \"Add a research interest now\"; <br>b) Click \"Add a new interest\"; <br>c) Fill in the info for last name, location, date range, and comments; and <br>d) Click <b>Save</b>. This info will appear on your profile for other Ancestry members to see (unless you clear the \"Share this information\" checkbox). Then click \"Return to profile (upper left).</li><li>To share more about yourself with other Ancestry users, <br>a) Click \"Share more about yourself\"; <br>b) Click \"Okay, got it\"; and <br>c) Answer each question that appears, clicking <b>Submit</b> for each one. </li><br><h5>Help Others</h5><li>If you would like to help other Ancestry members with their research, <br>a) Click <b>Edit</b> in the \"Help Others\" box; <br>b) Check any boxes of interest; and <br>c) Click <b>Save</b>.</li><br><h5>Public Profile Settings</h5><li>To edit your public profile settings, <br>a) Click <b>Settings</b> (below your name); and <br>b) For Frofile details, DNA Summary (if applicable), and Family History, click a right arrow (right side) to set the visibility for the option, and then click <b>Save</b> for each.</li></ol><h5>Profile Photo</h5><h5>Profile Completion</h5><h5>Contact Info</h5><h5>Family History Background</h5><h5>Research Interests</h5><h5>Help Others</h5><h5>Public Profile Settings</h5>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Change your account settings as needed.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Click your name (upper right) and select <b>Account Settings</b>.</li><li>In the <b>Account Information</b> box, select one of the following items and click <b>Edit</b> to change it: <ul style=\"margin-left:-88px;\"><li>Name</li><li>Username</li><li>Email address</li><li>Password</li><li>Two-step verification</li></ul></li><li>If you have signed up for one or more memberships with third parties and Ancestry, you can cancel or reinstate them in the <b>Membership</b> box.</li><li>In the <b>Data management</b> box, you can request to download your account data, tree data, or DNA data from Ancestry. You can also permanently delete your Ancestry account.</li><li>To edit tree settings, click <b>Trees</b> (left panel) and select a tree (from the \"Your trees\" box). The following actions are available in Your Trees:<ul style=\"margin-left:-88px;\"><li>Tree Name—Name the tree.</li><li>Tree Description—Provide a description for the tree.</li><li>Your home person—Set the home person (first position) for the tree, or set it to none.</li><li>Who you are in this tree—Identify your name in the tree, or set to none.</li></ul></li><li>In the \"Trees shared with you\" box, you can see the links for any trees that have been shared with you.</li><li>To set the background color for the tree, in the \"Background color\" box click <b>Color</b> and make a selection.<br> For more info, watch this video.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.ancestryacademy.com/videos/how-to-change-the-header-color-in-your-ancestry-member-tree\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">AC—How to Change the Header Color—0:54</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Change your site preferences as needed.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/site-preferences.JPG"
+                    ],
+                    "text": "<ol><img src=\"img/an/site-preferences.JPG\" width=\"150px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>Click your name (upper right) and select <b>Site Preferences</b>.</li><li>In Hints, if there any preferences you want to change, clear them and click <b>Save</b>.</li><li>In Community, select how you want to be contacted by other Ancestry members and click <b>Save</b>.</li><li>To use the previous (\"old\") Search style, check the box and click <b>Save</b>.</li><li>To update your Activity Preferences (what others can see about your activities), <br>a) Click \"Update your personal settings\"; <br>b) Keep or clear the checkmarks for posting and personal research (you can read more about the settings at the bottom of the page); and <br>c) Click <b>Update Your Settings</b>.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Change your notification settings as needed.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/email-preferences.JPG"
+                    ],
+                    "text": "<ol><img src=\"img/an/email-preferences.JPG\" width=\"150px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>In the Home screen, click your name (upper right) and select <b>Notification Settings</b>.</li><li>On the page, select any items of interest that you want to be notified about. Changes to your settings are recorded automatically.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Read and send email in Ancestry.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/email-message.JPG"
+                    ],
+                    "text": "<ol><li>In the Home screen, click the envelope icon (upper right). A list of messages appears. </li><img src=\"img/an/email-message.JPG\" width=\"200px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>To see a list of all your email messages, click \"See all messages\"; or click a message to open it. </li><li>To reply to an open message, type a reply and click <b>Send</b>. </li><li>To compose a new message, <br>a) Click <b>New</b> (next to messages); <br>b) Fill in the To, Subject, and Message fields; and <br>c) Click <b>Send</b>. </li><li>To delete a message, click the trash icon at the right.</li><li>To search for a keyword in either Contacts or Messages, type the keyword in the Search field and click the search icon.</li><li>To scroll to additional messages, click the arrow buttons below the list of messages. You can also select the number of messages to display per page (10, 25, or 50).</li><li>To see profile information for the person who sent a message, open the message and click the name at the top of the message area. Profile information is displayed in the right panel.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Browse Homepage",
+        "name": "Browse Your Homepage",
+        "section_name": "Browse your homepage.",
+        "summary": "<p>Your Ancestry homepage has a number of useful items that help you use Ancestry more efficiently.</p>",
+        "choices": [
+            {
+                "name": "Understand the various sections on your homepage.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>To open your homepage from any of your Ancestry screens, click the Ancestry logo (upper left).</li><li>The \"Recently Modified\" section lists the latest tree you opened, with totals for people and photos. It also has links to the profiles for the last several people you viewed in the current tree. You can click <b>Go to tree</b> to open the tree.</li><li>\"Your daily picks\" lists photos and documents that may contain information about your ancestors. You can scroll the photos that appear.</li> <li>Other categories include hints, remembrances, stories, family photos, DNA matches and tips (if you have taken an Ancestry DNA test), etc.</li> <li>The right side of the page has search fields (see Goal 4), links to tools and resources, and various services from Ancestry.</li> </ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Trees and Settings ",
+        "name": "Trees and Settings",
+        "section_name": "Customize tree settings and access.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Change your tree settings as needed.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Change your tree name or description.</li><li>Export your tree as a GEDCOM.</li><li>Remove your tree if it is no longer needed.</li><hr style=\"margin-left: -20px;\"></ul>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/tree-settings.JPG",
+                        "https://www.thefhguide.com/img/an/export-tree.JPG"
+                    ],
+                    "text": "<ol><img src=\"img/an/tree-settings.JPG\" width=\"120px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>In the Tree view, click your tree name (upper left) and select <b>Tree Settings</b>. </li><li>If you want to change your tree name or description, type the new information at the left and click <b>Save Changes</b>. For information about building stories, see Project 3: Stories and Photos.</li><li>To set the home person to someone other than yourself, <br>a) In the \"Your home person in this tree\" box (upper right), click \"change\"; <br>b) Type the name of the new home person and select it from the drop-down list (you can also browse a list of everyone in your tree to find the name you want); and <br>c) Click <b>Select</b>.</li><li>To help Ancestry send you relevant research information, <br>a) In the \"Who you are in this tree\" box, click \"Choose\" (or click \"Change\"); <br>b) Type your name and select it from the drop-down list (you can also browse a list of everyone in your tree to find the name you want); and <br>c) Click <b>Select</b>.</li><img src=\"img/an/export-tree.JPG\" width=\"300px\" style=\"float:right; margin-left:16px; border:1px solid #000; padding:0px;\"><li>To export your tree as a GEDCOM file, <br>a) Click <b>Export Tree</b>; <br>b) When the load process is finished, click <b>Download Your GEDCOM File</b>. You can keep this file as a backup or send it to others to re-create your tree.</li><li>If you are sure you no longer need your tree, you can click \"Delete your tree\" (lower right). Then click <b>Delete</b>. (If you have a GEDCOM backup, you can restore the deleted tree (minus any changes you made to it since the GEDCOM was created.) See Goal 1, Choice D above for details.</li><li>To change the privacy settings for your tree, <br>a) Click the <b>Privacy Settings</b> tab (top); <br>b) Select \"Private tree\" or \"Also prevent your tree from being found in searches\"; and <br>c) Click <b>Save Changes</b>. Be sure to read the explanations of how privacy settings affect your interactions with other Ancestry users.</li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "For more info about deleting a tree, read this article.",
+                                "links": [
+                                    {
+                                        "link": "https://support.ancestry.com/s/article/ka215000000MUW2AAO/Deleting-a-Family-Tree",
+                                        "text": "AC—Deleting a Family Tree",
+                                        "type": "document"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "For more info on privacy settings, read this article.",
+                                "links": [
+                                    {
+                                        "link": "https://support.ancestry.com/s/article/ka215000000MUoBAAW/Family-Tree-Privacy",
+                                        "text": "AC—Family Tree Privacy",
+                                        "type": "document"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "For help with managing your tree, read this article.",
+                                "links": [
+                                    {
+                                        "link": "https://support.ancestry.com/s/article/ka2150000009PAJAA2/Managing-your-Ancestry-Tree-1460088949689",
+                                        "text": "AC—Managing a Family Tree",
+                                        "type": "document"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "If you need to upload or download an existing Ancestry tree, read this article.",
+                                "links": [
+                                    {
+                                        "link": "https://support.ancestry.com/s/article/Uploading-and-Downloading-Trees",
+                                        "text": "AC—Uploading and Downloading Trees",
+                                        "type": "document"
+                                    }
+                                ]
+                            },
+                            {
+                                "description": "To learn about connecting individuals between Ancestry and FamilySearch trees, see Goal 3, Choice D in Project 2: Family Tree.",
+                                "links": [
+                                    {
+                                        "link": "https://www.thefhguide.com/project-2-family-tree-an03.html#d",
+                                        "text": "Choice D",
+                                        "type": "video"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Invite others to see your tree.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/an/sharing.JPG"
+                    ],
+                    "text": "<ol><img src=\"img/an/sharing.JPG\" width=\"120px\" style=\"float:left; margin-left:66px; margin-right:26px; border:1px solid #000; padding:0px;\"><li>Click your tree name and select <b>Sharing</b>.</li><li>In the <b>Invite link</b> screen, set the role for the person you are inviting, and determine whether that person can see living people in your tree. Then click <b>Create link</b>.</li><li>Click <b>Create link</b> and then <b>Copy link</b>. You can then send the link via social media, etc.</li><li>To invite others by email, <br>a) Click <b>Email</b>; <br>b) In the Email field, type the email address of the person to invite; <br>c) Choose a role for the person (click the Info button to see role details); <br>d) To invite additional people, click <b>Add another email</b> and specify the email address and role; <br>e) Type an optional personal message; and <br>f) Click <b>Send invites</b>.</li><li>To invite others by username, <br>a) Click <b>Username</b>; <br>b) In the Username field, type the username of the person to invite; <br>c) Choose a role for the person (click the Info button to see role details); <br>d) To invite additional people, click <b>Add Another User</b> and specify the email address and role; <br>e) Type an optional personal message; and <br>f) Click <b>Send Invites</b>.</li><li>To invite others by shareable link, <br>a) Click <b>Shareable link</b>; <br>b) In the Roles drop-down menu, choose the role (permissions) the invitees will have; <br>c) Select whether you want the invitees to see living people in your tree; <br>d) Click <b>Create link</b>; and <br>e) Click <b>Copy link</b>. You can then send the link via social media, etc.</li><li>You will be notified by email when invitees accept your invitation.</li><li>To manage your list of invitees, click the <b>Sharing</b> tab (under Tree Settings). In the <b>Manage invitees</b> screen, you can set nicknames, assign roles, control who can see living persons in your tree, remove invitees, etc.</li></ol>",
+                    "resources": [
+                        [
+                            {
+                                "description": "For more info on sharing a family tree or managing invitations, read this article.",
+                                "links": [
+                                    {
+                                        "link": "https://support.ancestry.com/s/article/ka215000000MUbRAAW/Sharing-a-Family-Tree",
+                                        "text": "AC—Sharing a Family Tree",
+                                        "type": "document"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "name": "Access other trees and tools.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>To switch to another tree you have created, click your Tree name (upper left) and select the tree in the menu.</li><li>If <b>Test tree</b> appears in the drop-down menu, you can select it to begin a test tree. A \"John Doe\" starting person is included for the tree, and you can click to add relatives and parents in the test tree. If you do not have a Test tree option, you can create a new tree by selecting <b>Create and Manage Trees</b> from the menu.</li><li>To create a family group sheet for the current person in the tree view, click your Tree name (upper left) and select <b>Family Group Sheet</b>. You can click <b>Print</b> or <b>Share</b> (upper right) to print or share the sheet.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

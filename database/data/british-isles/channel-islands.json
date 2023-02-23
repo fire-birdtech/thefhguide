@@ -1,0 +1,29 @@
+[
+    {
+        "name": "Get Started",
+        "section_name": "Get started with Channel Islands research.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Get started with Channel Islands research.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-chan-over.jpg"
+                    ],
+                    "text": "<ol><li>Learn about Channel Islands research in this FamilySearch Wiki article.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/Channel_Islands_Genealogy\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki:—Channel Islands</span></a></li><br><li>Use research guides from the U.K. National Archives.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.nationalarchives.gov.uk/help-with-your-research/research-guides/birth-marriage-death-channel-islands-and-man/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—National Archives</span></a></li><br><li>Learn more about research in the Channel Islands Family History Society website.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://jerseyfamilyhistory.org/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Channel Islands Family History Society</span></a></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore resources for Channel Islands research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore records on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://forebears.io/channel-islands\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Forebears.io</a> site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.genuki.org.uk/big/chi\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">GENUKI</a> site for the Channel Islands.</li><li>Explore a variety of resources on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://sites.google.com/site/channelislandsfreeancestry/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">ChannelIslandsAncestry</a> site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://billiongraves.com/site-map?country=Channel+Islands+-+UK\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">BillionGraves</a> site for cemetery records in the Channel Islands.</li><li>Find historical maps for the Channel Islands on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.davidrumsey.com/luna/servlet/view/search/where/Channel%2BIslands?q=channel+islands&amp;sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">David Rumsey</a> site.</li><li>Get help for your Channel Islands research in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.facebook.com/groups/333730180045581\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Jersey Family Tree</a> Facebook group.</li></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

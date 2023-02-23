@@ -1,0 +1,242 @@
+[
+    {
+        "nav_name": "Identify Lines",
+        "name": "Identifying Lines to Research",
+        "section_name": "Identify one or more lines to do Descendancy research on. Vault",
+        "summary": "<p>Descendancy research can be an efficient way to find descendants of ancestors (such as distant cousins). For a detailed look at how cousin relationships work, see \"<a class=\"lk\" href=\"https://familysearch.org/blog/en/cousins-removed/\" target=\"_blank\">Are Your Cousins Removed?</a>\" Remember that FamilySearch does not display information for living people, beyond your immediate family.</p>",
+        "choices": [
+            {
+                "name": "Learn the basics of descendancy research.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercise",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Proficient: Write down 5 key learnings about descendancy research from the article and videos in this Choice.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/3-desc-chart.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/3-desc-chart.jpg\" alt=\"\" width=\"220px\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Learn about the \"why's\" of descendancy research in this article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/img_auth.php/c/c5/Descendancy_Research_Finding_the_Past_in_the_Present.pdf\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Finding the Past in the Present</span></a></li><br><li>Learn about easy steps for descendancy research. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://broadcast2.lds.org/elearning/fhd/Community/en/FamilySearch/Descendancy/Easy%20Steps%20to%20Descendancy%20Research.pdf\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Easy Steps Handout</span></a></li><br><li>Get an overview of descendant research. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.ancestryacademy.com/5-minute-finds/videos/descendant-research\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">AAC—Descendant Research—3:34 (acct. req.)</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://www.pricegen.com/descendant-research/\" target=\"_blank\"><img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">PR—Descendant Research</span></a> </li><br><li>Learn the basic approaches for descendancy research.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=rPETE1XTEoo&amp;t=9s\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">BYU—Stategies for Finding an Ancestor Through Descendancy Research—18:14 - 2016</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/rPETE1XTEoo?start=9;rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br><span class=\"re\">Descendancy Research: Another Pathway to Genealogy—56:30 - 2016</span><br><br><iframe width=\"300\" height=\"200\" src=\"//players.brightcove.net/1241706627001/default_default/index.html?videoId=6008373079001\" allowfullscreen=\"\" frameborder=\"0\"></iframe><br></li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Choose a Descendancy ancestor.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Explore the descendant lines of one ancestor.</li><li>* Proficient: Explore the descendant lines of three ancestors.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-family-tree.png"
+                    ],
+                    "text": "<p>The articles and videos in Choice A help you decide which ancestors lend themselves well to descendancy research in FamilySearch. The basic steps are:</p><ol><img src=\"img/y-family-tree.png\" alt=\"\" width=\"250px\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>In Landscape view, find an ancestor several generations back, with a birth date around 1800 if possible. </li><li>Set that person as the first-position ancestor (click the name of the person in the tree, and then click <b>Tree</b> in the Summary card). </li><li>To switch to Descendancy view, click the <b>Landscape button</b> and select <b>Descendancy</b>.</li><li>Display the children for that ancestor.</li><li>Use the expand arrows to open up lines of descendants that you can view.</li><li>To set a person in the home position in Descendancy view, click the person's name and then click <b>Tree</b> in the Summary card.</li><li>Refer to Project 1, <a class=\"lk\" href=\"project-1-family-tree06.html\">Goals 6-9</a> to add and update information for these descendant ancestors.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Use Descendancy view to see descendant lines of the ancestor you select.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "summary",
+                            "content": "<ul><li>Use Descendancy view for an ancestor.</li><li>View multiple generations of descendants and their spouses.</li><li>Use the Options dialog to customize descendancy views.</li></ul><hr style=\"margin-left: 20px;\">"
+                        },
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Choose an ancestor born in the 1800's or 1700's and set that person to the first position. Switch to Descendancy view, and trace a descendant line. Alternate between male and female descndants until you approach the year 2000.</li><li>* Proficient: Same as above. Also, turn off the Add People and Spouses view options, notice the differences in the descendancy view, and turn them back on again. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/1-descendants.jpg"
+                    ],
+                    "text": "<ol><a class=\"lk\" href=\"img/1-descendants.jpg\" target=\"_blank\"> <img src=\"img/1-descendants.jpg\" width=\"400px;\" style=\"float:right; margin-left: 66px; margin-top: 8px; border:1px solid #000; padding:0px;\"></a><li>In Landscape view, click an ancestor name and then click <b>Tree</b>. If you choose one who was born over 100 years ago, there will be more descendants to view.</li><li>Click the Landscape menu and select <a class=\"lk\" href=\"img/1-5-c-1.JPG\" onclick=\"return popup(this, 'notes')\"><b>Descendancy</b></a>. Record Hints and other icons are available in this view. You can also click <a class=\"lk\" href=\"img/1-5-c-2.JPG\" onclick=\"return popup(this, 'notes')\"><b>Expand</b></a> (upper-left corner) to select a different home person for Descendancy view.</li><li>Set the Generations to 2, 3, or 4, instead of 1.</li><li>Use the Down arrows to collapse lines in the view, and the right arrows to expand them again.</li><li>Scroll down to see descendants and their spouses.</li><li>In the upper-right corner, click the <a class=\"lk\" href=\"img/1-1-desc.JPG\" onclick=\"return popup(this, 'notes')\"><b>Options</b></a> link. The box describes the colored icons that appear to the right of some ancestor names. You can uncheck one or more options to adjust the Descendancy view.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn more about descendancy research.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=__q7yAh8Anok#t=0m47s\" target=\"_blank\">What is descendancy research?</a><br>&nbsp;&nbsp;<a class=\"lk\" href=\"https://www.youtube.com/watch?v=_q7yAh8Anok#t=9m33s\" target=\"_blank\">How do I do descendancy research?</a><br>&nbsp;&nbsp;<a class=\"lk\" href=\"https://www.youtube.com/watch?v=_q7yAh8Anok#t=23m56s\" target=\"_blank\">Contact cousins</a><br></li></ul></span>"
+                        },
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=tiU3d1ySUk0#t=1m38s\" target=\"_blank\">How to research ancestors' children</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=tiU3d1ySUk0#t=5m18s\" target=\"_blank\">Reviewing naming patterns</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=tiU3d1ySUk0#t=11m15s\" target=\"_blank\">Putting clues in your research plan</a></li></ul></span>"
+                        },
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=FA43rRoIJV8#t=1m2s\" target=\"_blank\">Meaningful relationships</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=FA43rRoIJV80#t=2m19s\" target=\"_blank\">Think beyond the direct line</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=FA43rRoIJV8#t=3m15s\" target=\"_blank\">Biographical approach</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=FA43rRoIJV8#t=4m18s\" target=\"_blank\">Consider a diary or journal</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=FA43rRoIJV8#t=5m18s\" target=\"_blank\">Final years</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=FA43rRoIJV8#t=20m22s\" target=\"_blank\">Final words</a></li></ul></span>"
+                        },
+                        {
+                            "type": "exercise",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Proficient: Select three ancestors. Explore a descendant line in Landscape view for the first; in Portrait view for the second; and in Fan Chart view for the third.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>Find additional information on descendancy research here: <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/blog/en/9-ingredients-finding-ancestors-descendancy-view/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—9 Ingredients for Descendancy View - 2015</span></a> <br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=90rAh7__pz4\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">AC—Descendancy Research—30:23</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('fs3-1da');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"fs3-1da\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=__q7yAh8Anok#t=0m47s\" target=\"_blank\">What is descendancy research?</a><br>&nbsp;&nbsp;<a class=\"lk\" href=\"https://www.youtube.com/watch?v=_q7yAh8Anok#t=9m33s\" target=\"_blank\">How do I do descendancy research?</a><br>&nbsp;&nbsp;<a class=\"lk\" href=\"https://www.youtube.com/watch?v=_q7yAh8Anok#t=23m56s\" target=\"_blank\">Contact cousins</a><br></li></ul></span></div><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/_q7yAh8Anok?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li>For a more detailed look at descendancy research, watch these videos.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=TVIHQUFpkjk&amp;t=2m\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">BYU—Beginning Descendancy Research—53:40 - 2017</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/TVIHQUFpkjk?start=120;rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/help/helpcenter/lessons/descendancy-research\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Descendancy Research—62:10</span></a></li><br><li>Learn how to break through research brick walls using descendancy research.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=tiU3d1ySUk0\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FHF—Using Descendancy Research for Clues to Bust a Genealogy Brick Wall Research—13:23 - 2020</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('clues');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"clues\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=tiU3d1ySUk0#t=1m38s\" target=\"_blank\">How to research ancestors' children</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=tiU3d1ySUk0#t=5m18s\" target=\"_blank\">Reviewing naming patterns</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=tiU3d1ySUk0#t=11m15s\" target=\"_blank\">Putting clues in your research plan</a></li></ul></span></div><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/tiU3d1ySUk0?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=FA43rRoIJV8\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">RT—Tracing Descendants: An Essential Strategy to Solve Your Brickwall—21:28 - 2022</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('brick');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"brick\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=FA43rRoIJV8#t=1m2s\" target=\"_blank\">Meaningful relationships</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=FA43rRoIJV80#t=2m19s\" target=\"_blank\">Think beyond the direct line</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=FA43rRoIJV8#t=3m15s\" target=\"_blank\">Biographical approach</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=FA43rRoIJV8#t=4m18s\" target=\"_blank\">Consider a diary or journal</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=FA43rRoIJV8#t=5m18s\" target=\"_blank\">Final years</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=FA43rRoIJV8#t=20m22s\" target=\"_blank\">Final words</a></li></ul></span></div><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/FA43rRoIJV8?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Use collateral and cousin research to solve problems.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=6iImGYUBPEM#t=0m47s\" target=\"_blank\">What is sibling research?</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=6iImGYUBPEM#t=7m52s\" target=\"_blank\">What's in a name?</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=6iImGYUBPEM#t=8m27s\" target=\"_blank\">Search for siblings online</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=6iImGYUBPEM#t=13m52s\" target=\"_blank\">Other tips</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=6iImGYUBPEM#t=15m24s\" target=\"_blank\">Comparing siblings</a></li></ul></span>"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>Learn about collateral research, for those who are not your direct ancestors.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.ancestryacademy.com/videos/collateral-genealogy-research\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">AAC—Collateral Genealogy Research—3:15 (acct. req.)</span></a></li><br><li>Watch this video to learn more about sibling  research.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=6iImGYUBPEM\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">RT—Unlocking Answers through Sibling Research—18:22 - 2022</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('sibling');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"sibling\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=6iImGYUBPEM#t=0m47s\" target=\"_blank\">What is sibling research?</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=6iImGYUBPEM#t=7m52s\" target=\"_blank\">What's in a name?</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=6iImGYUBPEM#t=8m27s\" target=\"_blank\">Search for siblings online</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=6iImGYUBPEM#t=13m52s\" target=\"_blank\">Other tips</a></li><li><a class=\"lk\" href=\"https://www.youtube.com/watch?v=6iImGYUBPEM#t=15m24s\" target=\"_blank\">Comparing siblings</a></li></ul></span></div><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/6iImGYUBPEM?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li>Learn about researching cousins in your family lines.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/img_auth.php/4/4f/Cousin_Research.pdf\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Cousin Research</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://drive.google.com/open?id=14sGXsONH13wb1g2a9CVFobWyRTB5nPTS\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">RIV—Finding Your Cousins - 2018</span></a></li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Sourcing Tools",
+        "name": "Sourcing Tools",
+        "section_name": "Use sourcing tools in Descendancy view.",
+        "summary": "<p>Once you locate relatives in Descendancy view, you can provide sources for their records to validate and verify information.</p>",
+        "choices": [
+            {
+                "name": "Use Descendancy view to find ancestors who do not yet have sources listed for their information.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: In descendancy view, find three ancesors who need records attached.</li><li>* Proficient: In descendancy view, find 6 ancesors who need records attached.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-family-old2.jpg",
+                        "https://www.thefhguide.com/img/blue-icon.JPG"
+                    ],
+                    "text": "<ol><img src=\"img/y-family-old2.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"><li>Select an ancestor who was born between 1700 and 1900.</li><li>Switch to Descendancy view in Family Tree.</li><li>In the right side of the screen, look for a light-blue Record Hints icons. <img src=\"img/blue-icon.JPG\"> (If there are no light-blue icons, scroll down or choose a different ancestor line.) Record Hints refer to FamilySearch historical records that have been indexed by FamilySearch indexers or partners. To learn more about indexing, see <a class=\"lk\" href=\"project-5-indexing.html\">Project 5: Indexing</a>.</li><li>Click a light-blue icon.</li><li>In the Record Hints dialog, to open the Review and Attach screen, click <b>Show all</b>. Choice B below explains how to review and attach the record in your family tree.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "In Descendancy view, review and attach a source to your ancestor's Person page.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Review and attach one or more records, including reason statements, to the pages of 3 ancestors.</li><li>* Proficient: Review and attach one or more records, including reason statements, to the pages of 6 ancestors. Include reason statements.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>Continuing from the steps above, scroll about halfway down the screen and click the ancestor's name (in blue).</li><li>Review the information in the record dialog that appears, to verify your ancestor's information.</li><li>For the additional steps to follow, see <a class=\"lk\" href=\"project-1-family-tree08.html#b\" target=\"_blank\">Choice B </a> in Goal 8 of Project 1: Family Tree.</li> </ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Puzzilla",
+        "name": "Puzzilla",
+        "section_name": "Use Puzzilla.org to identify one or more lines to do Descendancy research on. Vault",
+        "summary": "<p>Puzzilla.org offers some unique views that help you view descendants of your ancestors. </p>",
+        "choices": [
+            {
+                "name": "Learn about Puzzilla and how it works.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercise",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Proficient: Write down key learnings from each of the videos in this Choice.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/3-puzzilla.JPG"
+                    ],
+                    "text": "<p><a class=\"lk\" href=\"http://www.puzzilla.org\" target=\"_blank\">Puzzilla</a> is a website that displays ancestors or descendants in a flower-tendril pattern, with information nodes for each person.</p><ol><img src=\"img/3-puzzilla.JPG\" alt=\"\" height=\"30px\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Watch these videos for an introduction to Puzzilla.<br><br><span class=\"star notranslate\">☆</span><a href=\"http://broadcast.lds.org/elearning/fhd/Local_Support/Puzzilla/Demo2.mp4\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Puzilla Demo—2:00</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://youtu.be/RrnjE1hHpYA\" target=\"_blank\"> <img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">BYU—Descendancy Research in Puzzilla—6:09 - 2016</span></a><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/RrnjE1hHpYA?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe><br></li><br><li>To explore Puzzilla features in more depth, watch these videos.<br><br><span class=\"star notranslate\">☆</span><a href=\"http://player.vimeo.com/external/117236074.hd.mp4?s=a714f3bc7609c44a665e921de3dafada\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FS—Puzzilla Training—13:23</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://www.youtube.com/watch?v=8QEMhuTEUb0?rel=0\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">FHF—Use Puzzilla.org to Find Genealogy Research Opportunities on FamilySearch.org—8:04 - 2020</span><br><br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/8QEMhuTEUb0?rel=0\" frameallow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></a></li><br><li>Watch this demonstration in using Puzzilla to explore collateral lines for research.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://puzzilla.org/videos/FindingHerman/\" target=\"_blank\"><img src=\"img/vid.png\" width=\"20\"> <span class=\"re\">Finding Herman, The Research Process: Collateral Lines In FamilySearch—9:31</span></a></li><br><li>Explore the <a class=\"lk\" href=\"https://puzzilla.org/training\" target=\"_blank\">How to Puzzilla page</a><a> for additional resources.<br><br></a></li><a><br></a></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Log in to Puzzilla.org and browse your family tree in Puzzilla.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Explore your Puzzilla tree, following each step in this Choice.</li><li>* Proficient: Same as above, for at least 3 ancestors.</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-typing1.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/y-typing1.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; margin-top: 8px; border:1px solid #000; padding:0px;\"><li>Go to <a class=\"lk\" href=\"http://www.puzzilla.org\" target=\"_blank\">www.puzzilla.org</a></li><li>In the upper-right corner, click the <b>Sign-in button</b> and sign in to FamilySearch.</li><li>Click <b>OK</b> or Accept so your FamilySearch information can be viewed by Puzzilla, and Puzzilla can contact you.</li><li>In Puzzilla, move the cursor over the tree nodes (blue and pink squares) to see ancestor information in name boxes. (To keep a name box open, click the person's dot on the screen.) In the COntrol Panel (left side of the screen), summary information appears for the ancestor, including an ancestor path.</li><li>To zoom the view, double-click the screen or use the mouse wheel.</li><li>In the name box, click <b>Ancestors</b> to move this person to the primary position and plot additional ancestors. </li><li>Change the number of Generations in the drop-down list to the left. (This may take a while to refresh.)</li><li>To hide an ancestor's branch of the tree, select the person's dot and then click the <b>Hide/Show Tree</b> button (left side). The hidden branch is replaced with an \"x.\" To restore the brance, click the button again.</li></ol><h5>Other Options</h5><ol><li>Click <b>Change ID</b> and supply the FamilySearch ID (available in the info windows) for the person you are interested in. Then choose <b>View Ancestors</b> or <b>View Descendants</b> for that person. </li><li>Click <b>Targets</b> to identify ancestors without recorded parents in FamilySearch, shown as red boxes on the screen. You can narrow the selection by entereing a location or date range below <b>Targets</b>. </li><li>Click a node and select <b>View in Family Tree</b> in the name box. This opens a new browser window in FamilySearch, with the Person Page showing for that ancestor.</li><li>In the Control Panel, click <b>Refresh All Data</b> to resync the data on your screen with FamilySearch.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Select an ancestor and go to Descendants view.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Explore a descendancy line in your Puzzilla tree, following each step in this Choice.</li><li>* Proficient: Same as above, for two ancestors who are on opposite sides of your part of the tree (paternal and maternal).</li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>Browse to an ancestor born over 100 years ago and click the colored node to keep the name box open.</li><li>In the name box, click <b>Descendants</b> to move that person to the primary spot.</li><li>Open that person's name box and click <b>Descendants</b>. A new browser window opens, and the FamilySearch descendants of that person appear in the Puzzilla ring.</li><li>Persons in your tree who died before the age of 16 are indicated in yellow; those who were born less than 110 years ago (and thus may have privacy restrictions on data) are show in gray.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Relative Finder",
+        "name": "Relative Finder",
+        "section_name": "Use the Relative Finder tool to see how you may descend from famous historical figures, or to create relative groups.",
+        "summary": "<p>It may surprise you to learn that you may be related to a wide variety of noted people. The Relative Finder tool helps you see those relationships, based on data in your part of the FamilySearch tree. You can also connect with other people who have common ancestral roots. Watch <a href=\"https://www.youtube.com/watch?v=TgWmOQuU4Q8\" target=\"_blank\">this video</a> for an overview of using Relative Finder.</p>",
+        "choices": [
+            {
+                "name": "Log in to Relative Finder and find your famous ancestors.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/3-relative-finder.JPG",
+                        "https://www.thefhguide.com/img/4A-3b.png"
+                    ],
+                    "text": "<ol><img src=\"img/3-relative-finder.JPG\" alt=\"\" height=\"30px\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Go to <a class=\"lk\" href=\"https://www.relativefinder.org/\" target=\"_blank\">Relative Finder</a> and click <b>Sign in with FamilySearch.org</b>.</li><li>Sign in to FamilySearch and agree to share your basic tree information so Relative Finder can access (but not change) your family tree data. A table of relatives appears, including columns for names, relationships, and Relative Finder groups those people belong to.</li><img src=\"img/4A-3b.png\" alt=\"\" height=\"150px\" style=\"float:right; margin-left: 12px; border:1px solid #000; padding:0px;\"><li>To sort the list, click a column heading. To see more entries, if available, click <b>Show More</b> (bottom of the page).</li><li>On the left you'll see a checklist of categories to search for. Click one or more of them to include only ancestors who fit in those groups. (The example shows relationships to U.S. Presidents.) You can also type an ancestor's name in the Search bar to find that person in the list.</li><li>To see relatives you have in common with any of the persons in the list, click the down-arrow in the Relationship column and select <b>View All Relations</b>. When the results are displayed, you can do the following things: <ul style=\"margin-left:-88px;\"><li>Search for a common ancestor in the list</li><li>In the Report Table, click \"Relation to Each Other\" to see how the selected ancestor is related to each common ancestor.</li><li>In the Report Table, click \"Mother-Father Chain to see the selected ancestor's mother-father (MF) path to each common ancestor.</li><li>Click <b>Download PDF</b> to save a report with the selected relative and that person's relationships to common ancestors.</li></ul></li><li>To save your results in a spreadsheet format, click <b>Download CSV</b>.</li><li>To view the relationship path from you to the ancestor you selected, click the ancestor's name. A group of boxes appears, with the path highlighted between paternal and maternal lines back to the ancestor you selected. </li><li>To see relatives of the selected ancestor, click <b>Masquerade</b> under the person's picture (or select it from the Relatives menu). </li><br></ol><h5>Name View Options</h5><ol><li>To view more relationship details for a relative, click the person's name link (left column). A relationship table is displayed, with the option to share the information on Twitter.</li><li>A picture pedigree chart is displayed at the bottom of the screen, showing the relationship between you and the selected ancestor. You can click any of the names to see the corresponding Person pages in FamilySearch.</li><li>To save a copy of the chart, click <b>Download Chart PDF</b>.</li><li>To use additional chart features, click <b>Chart Options</b>. <ul style=\"margin-left:-88px;\"><li>Under \"Birth Country\" click \"Show\" to display flags for each person's birth country.</li> <li>Under \"Picture\" click \"Hide\" to not display the FamilySearch portraits next to the names.</li> <li>Under \"Chart layout\" click \"Inline\" to use a more compact view for the chart.</li> <li>Under \"Chart Colors\" click \"Show\" to open a dialog for setting colors in the chart for the selected ancestor (Users), all males, all females, and text. To return to the original colors, click <b>Default Color</b>.</li> </ul></li><li>To change display options for the main table of names, click \"Show Table Options\" (near the top). You can then set the Report Table view to \"Path\" (MFMF etc.) and the Ancestors Shown view to \"Direct\" instead of all ancestors.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "(Optional) Create a Relative Finder group to invite others to see your family relationships.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>In Relative Finder, in the top menu, click <b>Groups</b> and select <b>Create</b>.</li><li>Fill out the fields on the screen, and click <b>Create Group</b>.</li><li>Notify your friends (by email, social media, etc.) and invite them to join the group you created. </li><li>To delete a group you created, <br>a) Click <b>Manage Groups</b>, <br>b) Click <b>View</b> for the group you created, <br>c) In the three-dot menu (upper right), click <b>Delete</b>; and <br>d) Click <b>OK</b>. </li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Use the Connect and Settings features in Relative Finder.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li><span class=\"g\">People Nearby</span>: In the top menu, click <b>Connect</b> and select <b>With people nearby</b>. Then click <b>Proceed to Map</b> and click \"Allow\" to let Relative Finder know your location. The map shows your relatives who are currently logged in to Relative Finder.</li><li>You can use the following map features: Map/Satellite view, Center Map, full-screen view, zoom (plus and minus icons), and street view (drag the peg man onto the map).</li><li>Hover over a person icon in the map to see name information.</li><li>To display names individually, click <b>List</b> (bottom of the screen). The following features are available: .<ul style=\"margin-left:-88px;\"><li>Search for names</li> <li>Sort by column</li> <li>Table Options: Switch to path information; Show only direct ancestors</li> </ul></li><li><span class=\"g\">Friend</span>: In the top menu, click <b>Connect</b> and select <b>With a Friend</b>. Then read the instructions on the screen and click <b>Create Session</b> to invite a friend to a session. To join a friend's session, enter the session ID you received from that person and click <b>Join</b>.</li><li><span class=\"g\">Deceased Person</span>: In the top menu, click <b>Connect</b> and select <b>With Deceased Person </b>. Then enter the person's 7-character PID (displayed in the person's chart) and click <b>Submit</b>. A relationship table appears (see Choice A above). You can sort by column heading, or filter the list by typing a name in the Search field.</li><li><span class=\"g\">Two Deceased People</span>: In the top menu, click <b>Connect</b> and select <b>Two Deceased People</b>. enter the 7-character PIDs for both people and click <b>Submit</b>. A relationship table appears (see Choice A above). You can sort by column heading, or filter the list by typing a name in the Search field.</li></ol><h5>Settings</h5><ol><li>In the <b>More</b> menu, select <b>Settings</b>.</li><li>To synchronize information between Relative Finder and FamilySearch, click <b>Update Tree</b>. </li><li>To update your display name for reports and groups, fill in the name fields and click <b>Submit Name</b>. </li><li>You can also update your email address and click <b>Submit Email</b>. </li><li>To delete your Relative Finder account, click <b>Delete Account</b> and follow the prompts. </li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Browse Relative Finder Community groups.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>In the left pane, click <b>See More Groups</b> or select Community Groups in the <b>Groups</b> menu. A list of featured groups appears.</li><li>To search the list, type an entry in the search bar and click <b>Search</b>. You can also click a letter in the alphabetical list to see additional groups.</li><li>To mark a group as a favorite, click its star in the left column. The group will appear in your main page of Relative Finder.</li><li>To view details for a group, click its name in the list. </li><li>To request that a person be added to the group of famous people, <br>a) Click <b>Request to Add Group Member</b>; <br>b) Type the FamilySearch ID of the person and click <b>Search</b>; <br>c) Write a brief reason statement for why the person should be added to the group; and <br>d) Click <b>Request to Add This Person</b>. </li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

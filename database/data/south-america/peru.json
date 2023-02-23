@@ -1,0 +1,265 @@
+[
+    {
+        "nav_name": "Research",
+        "name": "Research",
+        "section_name": "Learn about Peru research and records.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=2kUrWZPjYE4\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Use effective research methods for your Peruvian ancestors.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for research resources. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-peru-over.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/static/uploads/photo/2015/11/07/11/28/mountains-1031173_960_720.jpg\" target=\"_blank\"> <img src=\"img/x-peru-over.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a> <li><span class=\"g\">Overview</span>: Visit the FamilySearch Wiki page for an overview of Peru research and useful links. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Peru_Genealogy\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Peru</span></a></li><br><li>Use the <a class=\"lk\" href=\"https://familysearch.org/wiki/en/Peru_Quick_Start_Guide\" target=\"_blank\">Peru Quick Start Guide</a> to help you with beginning Peruvian research.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://forebears.io/peru\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Forebears.io site</a> for research records.</li><li><span class=\"g\">Record Finder</span>: Use the Peru Record Finder to understand record types for research. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Peru_Record_Finder\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Peru Record Finder</span></a></li><br><li><span class=\"g\">Correspondence</span>: Use this guide for  corresponding with Peruvian organizations about genealogy resources. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Spanish_Letter_Writing_Guide\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Spanish Letter-Writing Guide</span></a></li><br><li><span class=\"g\">Old Documents</span>: Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://spanishpaleographytool.org/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Spanish Paleography Tool site</a> for help with reading older documents. </li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about resources for your research.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-peru-name.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/photos/churchyard-cemetery-ruins-graveyard-380913/\" target=\"_blank\"> <img src=\"img/x-peru-name.jpg\" width=\"100%\" ;=\"\" style=\"float:right; margin-top: 8px; margin-left: 16px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a>    <li><span class=\"g\">Naming Customs</span>: Learn about Peruvian naming customs for research. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Peru_Language_and_Languages\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Peru Language</span></a></li><br><li><span class=\"g\">Surnames</span>: Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.geneanet.org/country/search-Peru-PER\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Geneanet site</a> for Peruvian surnames.</li><li>Search for <a class=\"lk\" href=\"http://www.geneaservice.nl/navigator/peru/index.html\" target=\"_blank\">Peruvian surnames</a> in a number of databases.</li><li><span class=\"g\">Word List</span>: Access the Spanish genealogy word list in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Spanish_Genealogical_Word_List\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Spanish Genealogical Word List</span></a></li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Archives and Libraries",
+        "name": "Archives and Libraries",
+        "section_name": "Learn about Peru archives and libraries.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=2kUrWZPjYE4\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Peru archives and libraries.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Peru_Archives_and_Libraries#Archives_in_Spain\" target=\"_blank\">Archives in Spain</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Peru_Archives_and_Libraries#National_Government_Archives_and_Libraries\" target=\"_blank\">National Government Archives and Libraries</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Peru_Archives_and_Libraries#Church_Archives\" target=\"_blank\">Church Archives</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Peru_Archives_and_Libraries#Department_Archives\" target=\"_blank\">Department Archives</a></li></ul></span>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-per-lib.jpg"
+                    ],
+                    "text": "<ol><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/San_Borja_District#/media/File:Biblioteca_Nacional_(Peru)_(14_12_2006).jpg\" target=\"_blank\"> <img src=\"img/x-per-lib.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a>  <li><span class=\"g\">FamilySearch</span>: Learn about Peru archives and libraries in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Peru_Archives_and_Libraries\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Peru Archives and Libraries</span></a>&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('usa');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"usa\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Peru_Archives_and_Libraries#Archives_in_Spain\" target=\"_blank\">Archives in Spain</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Peru_Archives_and_Libraries#National_Government_Archives_and_Libraries\" target=\"_blank\">National Government Archives and Libraries</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Peru_Archives_and_Libraries#Church_Archives\" target=\"_blank\">Church Archives</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Peru_Archives_and_Libraries#Department_Archives\" target=\"_blank\">Department Archives</a></li></ul></span></div></li><br><li><span class=\"g\">Civil Archives</span>: Learn about doing research with civil archives in Peru. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.legacytree.com/blog/legacy-tree-onsite-peruvian-genealogy-research\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">LT—The Inside Scoop on Civil Archives in Peru</span></a></li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Church and Cemetery Records",
+        "name": "Church and Cemetery Records",
+        "section_name": "Learn to use Peru church and cemetery records.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=2kUrWZPjYE4\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Peru church records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Peru_Church_Records#Information_Found_in_Records\" target=\"_blank\">Information Found in Records</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Peru_Church_Records#Locating_Records\" target=\"_blank\">Locating Records</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Peru_Church_Records#Reading_the_Records\" target=\"_blank\">Reading the Records</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Peru_Church_Records#Search_Strategies\" target=\"_blank\">Search Strategies</a></li></ul></span>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-per-church.jpg"
+                    ],
+                    "text": "<ol><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Andean_Baroque_Route#/media/File:Peru_-_Cusco_019_-_Iglesia_de_la_Compa%C3%B1ia_de_Jes%C3%BAs_(7084770355).jpg\" target=\"_blank\"> <img src=\"img/x-per-church.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a> <li><span class=\"g\">FamilySearch</span>: Learn about Peru church records in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Peru_Church_Records\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Peru Church Records</span></a> &nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('usa');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"usa\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Peru_Church_Records#Information_Found_in_Records\" target=\"_blank\">Information Found in Records</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Peru_Church_Records#Locating_Records\" target=\"_blank\">Locating Records</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Peru_Church_Records#Reading_the_Records\" target=\"_blank\">Reading the Records</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Peru_Church_Records#Search_Strategies\" target=\"_blank\">Search Strategies</a></li></ul></span></div></li><br><li><span class=\"g\">Jewish</span>: Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://bloodandfrogs.com/encyclopedia/peru\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Jewish Genealogy Encyclopedia</a> for Jewish resources in Peru.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore Peru cemetery records.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.findagrave.com/cemetery-browse/Peru?id=country_55\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Find A Grave site</a> for cemetery records.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://billiongraves.com/site-map?country=Peru\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">BillionGraves site</a> for cemetery records.</li></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Civil Registration",
+        "name": "Civil Registration",
+        "section_name": "Learn about Peru civil registration.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=2kUrWZPjYE4\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about the Peru civil registration.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-peru-flag.png"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/banner-decoration-flag-peru-sign-2024865/\" target=\"_blank\"> <img src=\"img/x-peru-flag.png\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a> <li>Learn about the Peru civil registration in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Peru_Civil_Registration\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Peru Civil Registration</span></a></li><br></ol><p style=\"margin-left:44px\"><img src=\"img/bolt1.png\" width=\"20px\"> QUIKLinks</p><p style=\"margin-left:44px; font-size:15px;\"><a class=\"lk\" href=\"javascript:toggleDiv('q1');\">QUIKLinks by Location</a></p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Emigration and Immigration",
+        "name": "Emigration and Immigration",
+        "section_name": "Learn about Peru emigration and immigration.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=2kUrWZPjYE4\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Peruvian emigration and immigration.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Peru_Emigration_and_Immigration#Finding_the_Emigrant.E2.80.99s_Town_of_Origin\" target=\"_blank\">Finding the Emigrant's Town of Origin</a></li><li><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Peru_Emigration_and_Immigration#Emigration_from_Spain\" target=\"_blank\">Emigration from Spain</a></li><li><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Peru_Emigration_and_Immigration#Emigration_from_Other_Areas\" target=\"_blank\">Emigration from Other Areas</a></li></ul></span>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-per-imm.jpg"
+                    ],
+                    "text": "<ol><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Japanese_Peruvians#/media/File:Embajada_del_Per%C3%BA_en_Tokio,_Japan.jpg\" target=\"_blank\"> <img src=\"img/x-per-imm.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a><li><span class=\"g\">FamilySearch</span>: Learn about Peru emigration and immigration in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Peru_Emigration_and_Immigration\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Peru Emigration and Immigration</span></a> &nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('usa');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"usa\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Peru_Emigration_and_Immigration#Finding_the_Emigrant.E2.80.99s_Town_of_Origin\" target=\"_blank\">Finding the Emigrant's Town of Origin</a></li><li><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Peru_Emigration_and_Immigration#Emigration_from_Spain\" target=\"_blank\">Emigration from Spain</a></li><li><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Peru_Emigration_and_Immigration#Emigration_from_Other_Areas\" target=\"_blank\">Emigration from Other Areas</a></li></ul></span></div></li><br><li><span class=\"g\">Wikipedia</span>: Learn about the history of Peru immigration in this Wikipedia article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Immigration_to_Peru\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Wikipedia—Immigration to Peru</span></a></li><br><li>Learn about Peruvian immigration history and demographics.<br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Peruvian_Americans\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Wikipedia: Peruvian Americans</span></a></li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Maps and Gazetteers",
+        "name": "Maps and Gazetteers",
+        "section_name": "Learn about Peru maps.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=2kUrWZPjYE4\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Learn about Peru maps and gazetteers.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "",
+                            "content": "<span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Peru_Maps#Using_Maps\" target=\"_blank\">Using Maps</a></li><li><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Peru_Maps#Finding_the_Specific_Town_on_the_Map\" target=\"_blank\">Finding the Specific Town on the Map</a></li><li><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Peru_Maps#Finding_Maps_and_Atlases\" target=\"_blank\">Finding Maps and Atlases</a></li></ul></span>"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-per-map.jpg"
+                    ],
+                    "text": "<ol><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Outline_of_Peru#/media/File:Un-peru.png\" target=\"_blank\"> <img src=\"img/x-per-map.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 350px;\"></a>   <li>Learn about Peru maps in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Peru_Maps\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Peru Maps</span></a>&nbsp;&nbsp;&nbsp;&nbsp;<a class=\"lk\" href=\"javascript:toggleDiv('usa1-a1');\"><img src=\"img/inf.png\" alt=\"\" width=\"20px\" border=\"0\"></a><div id=\"usa1-a1\" class=\"hidden\"><span class=\"re\"><ul style=\"margin-left:-88px;\"><li><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Peru_Maps#Using_Maps\" target=\"_blank\">Using Maps</a></li><li><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Peru_Maps#Finding_the_Specific_Town_on_the_Map\" target=\"_blank\">Finding the Specific Town on the Map</a></li><li><a class=\"lk\" href=\"https://familysearch.org/wiki/en/Peru_Maps#Finding_Maps_and_Atlases\" target=\"_blank\">Finding Maps and Atlases</a></li></ul></span></div></li><br><li>See an <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Peru_Genealogy#Peru_Clickable_Map\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">interactive map</a> for Peru regions.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.lib.utexas.edu/maps/peru.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Perry-Castaneda map collection</a> for Peru maps.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.davidrumsey.com/luna/servlet/view/search?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&amp;q=peru&amp;search=Go\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">David Rumsey collection</a> of Peru maps.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.oldmapsonline.org/en/Peru\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Old Maps Online site</a> for Peru maps.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://commons.wikimedia.org/wiki/Atlas_of_Peru\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Atlas of Peru</a> on the Wikipedia site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://commons.wikimedia.org/wiki/Category:Old_maps_of_Peru\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Old Maps of Peru</a> on the Wikipedia site.</li><li>Explore a <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.fallingrain.com/world/PE/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">directory of Peru cities, towns, and regions</a> in the Falling Rain site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Newspapers",
+        "name": "Newspapers",
+        "section_name": "Learn about Peru newspapers.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=2kUrWZPjYE4\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Explore Peru newspapers for ancestor research.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-per-news.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://commons.wikimedia.org/wiki/File:El_Comercio_Issue_1.jpg\" target=\"_blank\"> <img src=\"img/x-per-news.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 8px; margin-bottom: 16px; max-width:400px; border:1px solid #000; padding:0px;\"></a>   <li>Find links to <a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Wikipedia:List_of_online_newspaper_archives#Peru\" target=\"_blank\"> Peruvian newspapers</a> on the Wikipedia site.</li> <li>Search Peruvian newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.onlinenewspapers.com/peru.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">onlinenewspapers.com</a> site.</li> <li>Search Peruvian newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.world-newspapers.com/peru.html\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">world-newspapers.com</a> site.</li><li>Search Peru newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.abyznewslinks.com/peru.htm\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">ABYZ News Links</a> site.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Websites",
+        "name": "Websites",
+        "section_name": "Explore additional websites for research.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=2kUrWZPjYE4\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "There are a number of websites with valuable resources for Peruvian research.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/laptop-fingers1.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/laptop-fingers1.jpg\" alt=\"\" width=\"350px\" style=\"float:right; margin-top: 6px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Explore links in the <a class=\"lk\" href=\"https://familysearch.org/wiki/en/Peru_Websites\" target=\"_blank\">FamilySearch Wiki</a>.</li><li>Explore links in <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cyndislist.com/peru/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Cyndi's List</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Search Records",
+        "name": "Search Records",
+        "section_name": "Search records from Peru.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=2kUrWZPjYE4\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Use QUIKLinks, Partners, and GenealogyInTime to quickly search the most common record collections for Peru.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/laptop-hands.jpg"
+                    ],
+                    "text": "<ol><img src=\"img/laptop-hands.jpg\" alt=\"\" width=\"350px\" style=\"float:right; margin-top: 6px; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>QUIKLinks are indicated by lightning-bolt icons in the Goals above.They point to collections with 50,000 or more records. When you click a QUIKLink icon, scroll down on the resulting page to see the QUIKLinks.</li><li>In the Partners section (near the top of the page), explore additional record collections in FamilySearch, Ancestry, Findmypast and MyHeritage.</li><li>Explore the FamilySearch page for <a class=\"lk\" href=\"https://familysearch.org/wiki/en/Peru_Online_Genealogy_Records\" target=\"_blank\">Peruvian online record collections</a>.</li><li>Explore the <a class=\"lk\" href=\"http://www.genealogyintime.com/records/South-America-genealogy-records.html\" target=\"_blank\">South America page</a> of the GenealogyInTime website. Record collections are listed and described in order from newest to oldest additions, including FamilySearch, Ancestry, and many other sources.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Get Help",
+        "name": "Get Help",
+        "section_name": "Get Help with your Peru research.",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=2kUrWZPjYE4\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Use Facebook pages to get answers to your questions.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/fh-help.jpg"
+                    ],
+                    "text": "<ol><a href=\"img/fh-help.jpg\" target=\"_blank\"> <img src=\"img/fh-help.jpg\" alt=\"\" width=\"100%\" ;=\"\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px;\"></a> <li>Visit the <a class=\"lk\" href=\"https://www.facebook.com/PeruGenealogy\" target=\"_blank\">Investigacion Genealogica en Peru page</a> on Facebook.</li><li>Visit the <a class=\"lk\" href=\"https://www.facebook.com/groups/652692348167695/\" target=\"_blank\">South America Research</a> Facebook page for FamilySearch.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Join a mailing list, community, or message board for Peru research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://community.familysearch.org/s/group/0F93A000000LhFRSA0/investigacin-genealgica\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">FamilySearch community</a> for Peru research.</li><li>Explore the <a class=\"lk\" href=\"http://www.cyndislist.com/central-and-south-america/social/\" target=\"_blank\"> Peru research mailing lists</a> on Cyndi's List.</li><li>Use the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ancestry.com/boards/localities.southam.peru/mb.ashx\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Ancestry message boards</a> to read or post questions about Peru research.</li><li>Get help at a <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Category:Peru_Family_History_Centers\" target=\"_blank\">family history center in Peru</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Geo/Culture/History",
+        "name": "Geography, Culture, and History",
+        "section_name": "Learn about the geography, culture, and history of Peru. \n\t\t\t\t\t\t\n\t\t\t\t\t\t",
+        "summary": "<h5><a class=\"lk\" href=\"https://www.youtube.com/watch?v=2kUrWZPjYE4\" target=\"_blank\">Explorations</a></h5>",
+        "choices": [
+            {
+                "name": "Explore websites and videos.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/c-peru.png"
+                    ],
+                    "text": "<h5>Reference</h5><ol><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Peru_History\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">FamilySearch: History</a></li><li><a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/Peru_Historical_Geography\" target=\"_blank\">FamilySearch: Historical Geography</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Argentina\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Wikipedia</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://en.wikipedia.org/wiki/Peru\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Wikipedia</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.britannica.com/place/Peru\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Encyclopedia Britannica</a></li></ol><h5>For Kids</h5><ol><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://kids.nationalgeographic.com/explore/countries/peru/\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">NatGeo for Kids</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ducksters.com/geography/country.php?country=Peru\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">Ducksters</a></li><li><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.youtube.com/watch?v=WIsytREI6RQ\" target=\"_blank\"><img src=\"img/d.png\" width=\"2\">YouTube: Peru, the Country</a></li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]

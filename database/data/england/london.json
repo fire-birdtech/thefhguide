@@ -1,0 +1,275 @@
+[
+    {
+        "nav_name": "Research and Records",
+        "name": "Research and Records",
+        "section_name": "Learn about London research and records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Get started with research for your London ancestors.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-en-lnd-over.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/london-tower-bridge-bridge-monument-441853/\" target=\"_blank\"> <img src=\"../img/x-en-lnd-over.jpg\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li>Learn about finding your ancestors in London. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/London,_England_Genealogy\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki: London England Genealogy</span></a></li><br><li>Get an overview of English research in this guide from the Society of Genealogists. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://www.sog.org.uk/learn/help-getting-started-with-genealogy/guide-two\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Guide 1: Start Your Family History</span></a></li><br><li>Get hints and tips on London research in this guide from the Society of Genealogists. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://www.sog.org.uk/learn/education-sub-page-for-testing-navigation/hints-tips-nine-london-research\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Hints and Tips: London Research</span></a></li><br><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.dustydocs.com/county/23/london.html?country_id=1\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">Dusty Docs site</a> for London research.</li><li>Explore a variety of records on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.ukbmd.org.uk/index.php?county=122&amp;form_action=county\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">UK BMD site</a>.</li><li>Find London genealogy resources in these articles. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://bespokegenealogy.com/how-to-find-london-genealogy-resources/\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">How to Find London Genealogy Resources</span></a><br><span class=\"star notranslate\">☆</span><a href=\"https://www.family-tree.co.uk/how-to-guides/find-your-london-ancestors-for-free-with-these-online-genealogy/\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Find your London ancestors for free with these online genealogy resources</span></a></li><br><li>Explore lists of <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.genuki.org.uk/big/eng/LND/parishes\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">towns and parishes</a> on the GenUKI site.</li><li>Explore London resources on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.familyhistorydirectory.co.uk/england/london/\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">Family History Directory site</a>.</li><li>Explore resources for East London on the <a class=\"lk\" href=\"https://www.eolfhs.org.uk/\" target=\"_blank\">East of London Family History Society site</a>.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about the history of London.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for research resources. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>Learn about London history on Wikipedia. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://en.wikipedia.org/wiki/History_of_London/\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">History of London</span></a></li><br><li>Go into more depth with London history on the British History Online site.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.british-history.ac.uk/vch/london\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Victoria County History series</span></a></li><br><li>Explore the history of London on the <a class=\"lk\" href=\"https://www.London-lha.org.uk/\" target=\"_blank\">Civitatis London site</a>.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Archives and Libraries",
+        "name": "Archives and Libraries",
+        "section_name": "Learn about London archives and libraries.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about London archives and libraries.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for archives and libraries. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-en-lnd-lib.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/british-library-london-england-sky-313197/\" target=\"_blank\"> <img src=\"../img/x-en-lnd-lib.jpg\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li>Learn about London archives and libraries in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/London_Archives_and_Libraries\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: London Archives and Libraries</span></a></li><br><li>Learn more about London archives and libraries in this article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.wanderlust.co.uk/content/how-to-research-your-family-history-in-london/\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">How to research your family history in London</span></a></li><br><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genuki.org.uk/big/eng/LND/#Archives\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">archives and libraries link</a> on the GenUKI London site.</li><li>Search for <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://books.familysearch.org/primo_library/libweb/action/search.do?fn=search&amp;ct=search&amp;mode=Basic&amp;tab=default_tab&amp;indx=1&amp;dum=true&amp;srt=rank&amp;vid=FHD_PUBLIC&amp;frbg=&amp;vl%28freeText0%29=london+england\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">free online books on London research</a> on the FamilySearch site.</li></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Vital and Census Records",
+        "name": "Vital and Census Records",
+        "section_name": "Learn about London civil registration, BMD, and census records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore London civil registration.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for civil registration and other records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/eng/lon-view.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://en.wikipedia.org/wiki/London#/media/File:London_from_Primrose_Hill_May_2013.jpg\" target=\"_blank\"><img src=\"../img/eng/lon-view.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"></a><li>See a <a class=\"lk\" href=\"https://www.familysearch.org/wiki/en/London_Parishes\" target=\"_blank\">list of civil parishes with links</a> on the FamilySearch Wiki.</li><li>Explore London civil registration on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genuki.org.uk/big/eng/LND/#CivilRegistration\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">Gen UKI site</a>.</li><li>Get an overview of BMD records in this guide from the Society of Genealogists. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://www.sog.org.uk/learn/help-getting-started-with-genealogy/guide-three/\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Guide 2: Birth, Marriage, and Death Records</span></a></li><br><li>Browse the <a class=\"lk\" href=\"http://www.ukbmd.org.uk/genuki/reg/lnd.html\" target=\"_blank\">London registration districts</a> on the Gen UKI site.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.freebmd.org.uk/search\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">FreeBMD UK site</a> for BMD records.</li></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore London census records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for civil registration and other records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>Learn about London Census Surname Indexes in FamilySearch. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/London_Census_Surname_Indexes_at_the_Family_History_Library\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS Wiki: Census Surname Indexes</span></a></li><br><li>Get an overview of census research in this guide from the Society of Genealogists. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://www.sog.org.uk/learn/help-getting-started-with-genealogy/guide-four/\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Guide 3: Census Records</span></a></li><br><li>Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.freecen.org.uk/\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">London census records </a> on the FreeCen site.</li><li>Explore London census records on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genuki.org.uk/big/eng/LND/#Census\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">Gen UKI site</a>.</li><li>Learn about and search London electoral registers. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/England,_London_Electoral_Registers_-_FamilySearch_Historical_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS: London Electoral Registers</span></a></li><br><li>Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.genuki.org.uk/big/eng/LND#VotingRegisters\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">voting registers</a> on the GenUKI site.</li></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Church and Cemetery Records",
+        "name": "Church and Cemetery Records",
+        "section_name": "Learn about London church and cemetery records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about London church records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for church records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-en-lnd-church.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/en/england-london-church-1077892/\" target=\"_blank\"> <img src=\"../img/x-en-lnd-church.jpg\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-top: 16px; margin-left: 16px; border:1px solid #000; padding:0px;\"></a><li>Get an overview of London church records in this article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/London_Church_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—London Church Records</span></a></li><br><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genuki.org.uk/big/eng/LND/ChurchRecords\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">church records link</a> on the GenUKI London site.</li><li>Get an overview of parish records in this guide from the Society of Genealogists. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://www.sog.org.uk/learn/help-getting-started-with-genealogy/guide-six/\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Guide 5: Anglican Parish Registers</span></a></li><br><li>Use this <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/London_Parishes\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">parish page</a> to explore parish records in London.</li><li>Learn how to find London parish records online. <span class=\"star notranslate\">☆</span><a href=\"https://www.whodoyouthinkyouaremagazine.com/feature/where-to-find-london-parish-registers-online/\" target=\"_blank\"> <img src=\"img/doc.png\" width=\"20\"> <span class=\"re\">Where to Find London Parish Registers Online</span></a></li><li>Explore parish records on the <a class=\"lk\" href=\"https://www.freereg.org.uk/\" target=\"_blank\">FreeReg.org</a>site.</li><li>Get an overview of Non-Conformist records in this guide from the Society of Genealogists. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://www.sog.org.uk/learn/help-getting-started-with-genealogy/guide-seven/\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Guide 6: Non-Comformist Records</span></a></li><br></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Explore London cemetery records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for cemetery records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [],
+                    "text": "<ol><li>Explore London cemetery records on the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genuki.org.uk/big/eng/LND/#Cemeteries\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">Gen UKI site</a>.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.findagrave.com/cemetery/search?cemetery-name=&amp;cemetery-loc=London+Borough+of+Barking+and+Dagenham%2C+Greater+London%2C+England&amp;only-with-cemeteries=cemOnly&amp;locationId=state_4220\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">Find a Grave site</a> for cemetery records.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://billiongraves.com/pages/search/\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">BillionGraves site</a> for cemetery records.</li></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Probate, Land and Court",
+        "name": "Probate, Land and Court Records",
+        "section_name": "Learn about London probate, land, and court records.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Learn about London probate and land records.",
+                "content": {
+                    "hidden": [
+                        {
+                            "type": "exercises",
+                            "content": "<ul style=\"list-style: none; margin-left: -20px;\"><li>* Good: Using the articles and videos in this Choice, write down key learnings for probate and land records. Then use the learnings for searches for an ancestor.</li><li>* Proficient: Same as above, for two or more ancestors. </li></ul><hr style=\"margin-left: 20px;\">"
+                        }
+                    ],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-en-lon-land.jpg"
+                    ],
+                    "text": "<ol><a href=\"https://pixabay.com/photos/hampstead-fenton-house-london-4910147/\" target=\"_blank\"><img src=\"../img/x-en-lon-land.jpg\" alt=\"\" width=\"100%\" style=\"float:right; margin-left: 16px; margin-top: 8px; margin-bottom: 16px; max-width: 400px; border:1px solid #000; padding:0px;\"></a><li>Learn about London probate records in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/London_Probate_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: London Probate Records</span></a></li><br><li>Get an overview of probate records in this guide from the Society of Genealogists. <br><br><span class=\"star notranslate\">☆</span><a href=\"http://www.sog.org.uk/learn/help-getting-started-with-genealogy/guide-five/\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">Guide 4: Probate Records</span></a></li><br><li>Learn more about <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genuki.org.uk/big/eng/LND/index.html#Probate\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">probate records</a> on the GenUKI London site.</li><li>Learn about London land and property in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/England_Land_and_Property\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: London Land and Property</span></a></li><br><li>Learn more about <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.genuki.org.uk/big/eng/LND#Taxation\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">taxation records</a> on the GenUKI site.</li><li>Explore deeds by surname on the <a class=\"lk\" href=\"http://www.familydeeds.org/london.php\" target=\"_blank\">FamilyDeeds site</a>.</li><li>Learn about <a class=\"lk\" href=\"https://booth.lse.ac.uk/\" target=\"_blank\">Charles Booth's London</a>, a source for poverty maps and police notebooks from 1886-1903.</li><br><h5>Court</h5><li>Learn about London court records in this article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/London_Court_Records\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: London Court Records</span></a></li><br><li>Learn about records of the Old Bailey in London. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.familysearch.org/wiki/en/Records_of_the_Old_Bailey_in_London,_England\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: Records of the Old Bailey in London</span></a></li><br><li>Learn more about <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://www.genuki.org.uk/big/eng/LND#CourtRecords\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">court records</a> on the GenUKI site.</li></ol><h5>Court</h5><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Maps and Gazetteers",
+        "name": "Maps and Gazetteers",
+        "section_name": "Learn about London maps and gazetteers.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore London maps and gazetteers.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about London maps in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/London_Maps\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: London Maps</span></a></li><br><li>Learn about the Booth Poverty Maps for London areas.<br><br><span class=\"star notranslate\">☆</span><a href=\"https://www.legacytree.com/blog/booth-poverty-maps\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">LT—Charles Booth’s London Poverty Maps: A Glimpse Into the Lives of Your Ancestors</span></a></li><br><li>Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://freepages.rootsweb.com/~genmaps/genealogy/genfiles/COU_Pages/ENG_pages/lon.htm\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">historical maps</a> on the GenMaps site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.davidrumsey.com/luna/servlet/view/search?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&amp;q=london&amp;search=Go\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">David Rumsey collection</a> of London maps.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genuki.org.uk/big/eng/LND/#Maps\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">maps link</a> on the GenUKI London site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genuki.org.uk/big/eng/LND/#Gazetteers\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">gazetteers link</a> on the GenUKI London site.</li><li>Explore historical London maps on the <a class=\"lk\" href=\"http://www.londonancestor.com/maps/maps.htm\" target=\"_blank\">London Ancestor</a> site.</li><li>Learn about the London Picture Map in this Ancestry article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://blogs.ancestry.com/ancestry/2016/09/29/exploring-historical-london-with-the-london-picture-map/\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">AC—Exploring historical London with the London Picture Map</span></a></li><br></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Newspapers",
+        "name": "Newspapers",
+        "section_name": "Learn about London newspapers.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore London newspapers.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/x-en-lon-news.jpg"
+                    ],
+                    "text": "<ol><img src=\"../img/x-en-lon-news.jpg\" alt=\"\" width=\"450px\" border=\"1\" style=\"float:right; margin-left: 16px; border:1px solid #000; padding:0px;\"><li>Learn about London newspapers in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/London_Newspapers\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: London Maps</span></a></li><br><li>Search London newspapers in the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.abyznewslinks.com/ukinglo.htm\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">ABYZ News Link</a> site.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genuki.org.uk/big/eng/LND/#Newspapers\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">newspaper records link</a> on the GenUKI London site.</li><li>Find historical newspaper extracts on the <a class=\"lk\" href=\"http://www.londonancestor.com\" target=\"_blank\">London Ancestor</a> site.</li></ol><p style=\"margin-left:44px\"><img src=\"../img/bolt1.png\" width=\"20px\"> QUIKLinks</p>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Websites",
+        "name": "Websites",
+        "section_name": "Explore additional websites for research.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "There are a number of websites with valuable resources for London research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Explore links in the <a class=\"lk\" href=\"http://www.sog.org.uk\" target=\"_blank\">Society of Genealogists site</a>.</li><li>Explore links in <a class=\"lk\" href=\"http://www.cyndislist.com/uk/eng/counties/lnd/\" target=\"_blank\">Cyndi's List</a>.</li><li>Explore links in <a class=\"lk\" href=\"http://www.genealogylinks.net/uk/england/london/index.html\" target=\"_blank\">GenealogyLinks.net</a>.</li> </ol>",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Search Records",
+        "name": "Search Records",
+        "section_name": "Search records from London.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Explore record collections.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Use the England Record Selection Table to decide on records to search. <br><br><span class=\"star notranslate\">☆</span><a href=\"https://familysearch.org/wiki/en/England_Record_Selection_Table\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—England Record Selection Table</span></a></li><br><li>Explore the <a class=\"lk\" href=\"https://familysearch.org/wiki/en/London,_England_Online_Genealogy_Records\" target=\"_blank\">FamilySearch page</a> for online genealogy records.</li><li>Explore additional record collections in <a class=\"lk\" href=\"https://www.ancestry.com/search/collections/catalog/?keyword=London,%20England\" target=\"_blank\">Ancestry</a>.</li><li>Explore additional record collections in <a class=\"lk\" href=\"https://search.findmypast.com/historical-records?page=1&amp;region=england&amp;subcountry=london\" target=\"_blank\">Findmypast</a>.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Use QUIKLinks to quickly search record collections for London.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "",
+                    "resources": []
+                }
+            }
+        ]
+    },
+    {
+        "nav_name": "Get Help",
+        "name": "Get Help",
+        "section_name": "Get help with your London research.",
+        "summary": "",
+        "choices": [
+            {
+                "name": "Use Facebook pages to get answers to your questions.",
+                "content": {
+                    "hidden": [],
+                    "images": [
+                        "https://www.thefhguide.com/img/y-facebook.jpg"
+                    ],
+                    "text": "<ol><a href=\"../img/y-facebook.jpg\" target=\"_blank\"> <img src=\"../img/y-facebook.jpg\" alt=\"\" height=\"170px\" border=\"1\" style=\"float:right; margin-top: 16px; margin-left: 36px\"></a> <li> Visit the <a class=\"lk\" href=\"https://www.facebook.com/groups/131590346926044/\" target=\"_blank\">London and Middlesex Ancestors and Genealogy page</a> on Facebook.</li> <li> Visit the <a class=\"lk\" href=\"https://www.facebook.com/London-Family-History-137214053062983/?fref=ts\" target=\"_blank\">London Family History page</a> on Facebook.</li> </ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Join a mailing list or message board for London research.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Join the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.rootschat.com/forum/england/\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">RootsChat forum</a> and post questions about London research.</li><li>Search the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://bigfile.rootsweb.ancestry.com/cgi-bin/listsearch\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">RootsWeb site </a> for London research mailing lists.</li><li>Explore the <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cyndislist.com/uk/eng/counties/lnd/social/\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\"> London research mailing lists</a> on Cyndi's List.</li><li>Explore London research questions in the <a class=\"lk\" href=\"https://genealogy.stackexchange.com/questions/tagged/london\" target=\"_blank\">Genealogy Stack Exchange</a>.</li></ol>",
+                    "resources": []
+                }
+            },
+            {
+                "name": "Learn about London genealogy societies.",
+                "content": {
+                    "hidden": [],
+                    "images": [],
+                    "text": "<ol><li>Learn about genealogy societies in London in this FamilySearch Wiki article. <br><br><span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"https://familysearch.org/wiki/en/London_Societies\" target=\"_blank\"> <img src=\"../img/doc.png\" width=\"20\"> <span class=\"re\">FS—Wiki: London Societies</span></a></li><br><li>Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.genuki.org.uk/big/eng/LND#Societies\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">genealogy societies</a> on the GenUKI London site.</li><li>Explore <span class=\"star notranslate\">☆</span><a class=\"lk\" href=\"http://www.cyndislist.com/uk/eng/counties/lnd/societies/\" target=\"_blank\"><img src=\"../img/d.png\" width=\"2\">English genealogy society sites</a> on Cyndi's list.</li></ol>",
+                    "resources": []
+                }
+            }
+        ]
+    }
+]
