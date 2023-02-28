@@ -1,6 +1,7 @@
 <script setup>
 import { ref } from 'vue';
 import { MinusIcon, PlusIcon } from '@heroicons/vue/24/outline';
+import ResourceListItem from '@/Components/Lists/ResourceListItemPublic.vue';
 
 defineProps({
     choice: Object
@@ -15,27 +16,34 @@ const listStyleAlpha = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N',
 
 <template>
     <li>
-        <div @click="expanded = !expanded" class="flex items-center justify-between text-gray-400 text-2xl cursor-pointer">
-            <div>
-                <span class="inline-flex items-center justify-center w-10 h-10 bg-gray-400 text-gray-100 rounded-full">{{ listStyleAlpha[choice.order - 1] }}</span>
-                <span class="ml-3">{{ choice.name }}</span>
+        <div @click="expanded = !expanded" class="flex items-center justify-between text-stone-400 text-2xl cursor-pointer">
+            <div class="flex items-center">
+                <div class="inline-flex items-center flex-shrink-0 justify-center w-10 h-10 bg-stone-400 text-white font-display font-medium rounded-full">{{ listStyleAlpha[choice.order - 1] }}</div>
+                <h4 class="ml-3 font-display font-medium">{{ choice.name }}</h4>
             </div>
             <div class="flex items-center">
                 <MinusIcon v-if="expanded" class="h-8 w-8 flex-shrink-0" />
                 <PlusIcon v-if="! expanded" class="h-8 w-8 flex-shrink-0" />
             </div>
         </div>
-        <div v-show="expanded" class="py-8 prose max-w-none">
-            <button @click="showSummary = ! showSummary" class="text-gray-500 font-medium hover:underline">Summary</button>
-            <div v-show="showSummary" v-html="choice.summary" />
-            <div v-html="choice.instructions" />
-            <div v-if="choice.resources">
-                <div class="text-xl font-medium">Resources</div>
-                <div v-html="choice.resources" />
-            </div>
-            <div v-if="choice.review" v-html="choice.review" />
-            <button @click="showExercises = ! showExercises" class="text-gray-500 font-medium hover:underline">Exercises</button>
-            <div v-show="showExercises" v-html="choice.exercises" />
+        <div v-show="expanded" class="py-8 prose max-w-none space-y-6">
+            <template v-for="item in choice.content" :key="item.id">
+                <div v-if="item.type === 'summary'">
+                    <button @click="showSummary = ! showSummary" class="text-stone-500 font-medium hover:underline">Summary</button>
+                    <div v-show="showSummary" v-html="item.data" />
+                </div>
+                <div v-else-if="item.type === 'resources'">
+                    <div class="text-xl font-medium">Resources</div>
+                    <ol>
+                        <ResourceListItem v-for="(resource, index) in item.data" :key="index" :resource="resource" />
+                    </ol>
+                </div>
+                <div v-else-if="item.type === 'exercises'">
+                    <button @click="showExercises = ! showExercises" class="text-stone-500 font-medium hover:underline">Exercises</button>
+                    <div v-show="showExercises" v-html="item.data" />
+                </div>
+                <div v-else v-html="item.data" />
+            </template>
         </div>
     </li>
 </template>

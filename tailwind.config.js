@@ -12,6 +12,11 @@ module.exports = {
         extend: {
             fontFamily: {
                 sans: ['Open Sans', ...defaultTheme.fontFamily.sans],
+                display: ['Montserrat', ...defaultTheme.fontFamily.sans]
+            },
+            fontSize: {
+                '2.5xl': '1.75rem',
+                '4.5xl': '2.5rem'
             },
             minHeight: {
                 '32': '8rem',
