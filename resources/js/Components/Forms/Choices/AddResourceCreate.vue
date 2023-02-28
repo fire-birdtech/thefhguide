@@ -59,8 +59,8 @@ watch(show, (newValue, oldValue) => {
                     <input type="text" v-model="link.text" placeholder="Name" class="flex-1 border-none text-sm rounded-l-md focus:ring-transparent" autofocus>
                     <input type="text" v-model="link.link" placeholder="External URL" class="flex-1 border-none text-sm focus:ring-transparent">
                     <select id="location" v-model="link.type" name="location" class="border-none py-2 pl-3 pr-10 text-sm focus:ring-transparent">
-                        <option selected="">Document</option>
-                        <option>Video</option>
+                        <option value="document">Document</option>
+                        <option value="video">Video</option>
                     </select>
                     <div class="flex items-center ml-2 mr-1">
                         <button type="button" class="rounded hover:bg-purple-100">

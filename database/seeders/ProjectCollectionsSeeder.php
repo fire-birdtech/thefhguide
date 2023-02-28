@@ -984,19 +984,19 @@ class ProjectCollectionsSeeder extends Seeder
                         if (isset($choice->content->hidden)) {
                             foreach ($choice->content->hidden as $hidden) {
                                 if ($hidden->type === 'summary') {
-                                    array_push($choiceContent, [
+                                    $choiceContent[] = [
                                         'type' => 'summary',
                                         'data' => $hidden->content,
-                                    ]);
+                                    ];
                                 }
                             }
                         }
 
                         if (isset($choice->content->text)) {
-                            array_push($choiceContent, [
+                            $choiceContent[] = [
                                 'type' => 'text',
                                 'data' => $choice->content->text,
-                            ]);
+                            ];
                         }
 
                         if (isset($choice->content->resources[0])) {
@@ -1012,19 +1012,19 @@ class ProjectCollectionsSeeder extends Seeder
                                 ]);
                             }
 
-                            array_push($choiceContent, [
+                            $choiceContent[] = [
                                 'type' => 'resources',
                                 'data' => $resourcesList,
-                            ]);
+                            ];
                         }
 
                         if (isset($choice->content->hidden)) {
                             foreach ($choice->content->hidden as $hidden) {
                                 if ($hidden->type === 'exercises') {
-                                    array_push($choiceContent, [
+                                    $choiceContent[] = [
                                         'type' => 'exercises',
                                         'data' => $hidden->content,
-                                    ]);
+                                    ];
                                 }
                             }
                         }
@@ -1032,7 +1032,7 @@ class ProjectCollectionsSeeder extends Seeder
                         // dd(json_encode($choiceContent));
                         $newChoice = Choice::firstOrCreate([
                             'name' => $choice->name,
-                            'content' => json_encode($choiceContent),
+                            'content' => $choiceContent,
                             'goal_id' => $newGoal->id,
                         ]);
 

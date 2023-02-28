@@ -35,6 +35,7 @@ class Choice extends Model
      * @var array<string, string>
      */
     protected $casts = [
+        'content' => 'array',
         'locked' => 'boolean',
     ];
 

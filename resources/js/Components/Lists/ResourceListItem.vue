@@ -33,8 +33,8 @@ const submit = () => {
             <span class="ml-2 truncate">{{ form.description }}</span>
             <ul class="mt-3 ml-4 space-y-1">
                 <li v-for="link in form.links" :key="link" class="flex">
-                    <DocumentTextIcon v-if="link.type === 'Document'" class="h-5 w-auto flex-shrink-0 text-gray-400" aria-hidden="true" />
-                    <VideoCameraIcon v-else-if="link.type === 'Video'" class="h-5 w-auto flex-shrink-0 text-gray-400" aria-hidden="true" />
+                    <DocumentTextIcon v-if="link.type === 'document'" class="h-5 w-auto flex-shrink-0 text-gray-400" aria-hidden="true" />
+                    <VideoCameraIcon v-else-if="link.type === 'video'" class="h-5 w-auto flex-shrink-0 text-gray-400" aria-hidden="true" />
                     <a :href="link.link" class="pl-2">{{ link.text }}</a>
                 </li>
             </ul>

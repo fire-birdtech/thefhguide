@@ -5,11 +5,13 @@ import AddResourceCreate from '@/Components/Forms/Choices/AddResourceCreate.vue'
 import ResourceListWrapper from '@/Components/Lists/ResourceListWrapper.vue';
 import ResourceListItem from '@/Components/Lists/ResourceListItem.vue';
 
+const props = defineProps(['item'])
+
 const emit = defineEmits(['delete','update']);
 
 const show = ref(true);
 
-const resources = ref([]);
+const resources = ref([ ...props.item.data ]);
 
 const update = () => {
     emit('update', resources);

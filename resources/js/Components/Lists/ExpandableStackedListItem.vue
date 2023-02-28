@@ -12,6 +12,8 @@ defineProps({
 defineEmits(['reload']);
 
 let expanded = ref(false);
+
+const listStyleAlpha = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
 </script>
 
 <template>
@@ -20,9 +22,9 @@ let expanded = ref(false);
             <div class="flex items-center px-4 py-4 sm:px-6">
                 <div class="min-w-0 flex-1 sm:flex sm:items-center sm:justify-between">
                     <div class="truncate">
-                        <div class="flex text-sm">
+                        <div class="flex items-center text-sm">
+                            <div class="inline-flex items-center justify-center font-bold w-6 h-6 bg-gray-300 text-white rounded-full mr-2">{{ listStyleAlpha[item.order - 1] }}</div>
                             <p class="truncate font-medium">{{ item.name }}</p>
-                            <!-- <p class="ml-1 flex-shrink-0 font-normal text-gray-500">in {{ choice.department }}</p> -->
                         </div>
                         <!-- <div class="mt-2 flex">
                             <div class="flex items-center text-sm text-gray-500">

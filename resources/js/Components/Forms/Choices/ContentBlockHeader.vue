@@ -31,11 +31,13 @@ const closeIconStyles = {
 </script>
 
 <template>
-    <span :class="[textStyles[color], bgStyles[color], 'group inline-flex items-center rounded-t px-2 py-0.5 text-xs font-medium']">
-        <slot />
-        <button type="button" @click.prevent="$emit('remove')" :class="[textStyles[color], closeIconStyles[color], 'hidden ml-1.5 -mr-0.5 h-3.5 w-3.5 flex-shrink-0 items-center justify-center rounded group-hover:inline-flex focus:outline-none']">
-            <span class="sr-only">Remove content block</span>
-            <XMarkIcon class="h-3 w-3" />
-        </button>
-    </span>
+    <div class="block group">
+        <span :class="[textStyles[color], bgStyles[color], 'inline-flex items-center rounded-t px-2 py-0.5 text-xs leading-6 font-medium']">
+            <slot />
+            <button type="button" @click.prevent="$emit('remove')" :class="[textStyles[color], closeIconStyles[color], 'hidden ml-1.5 -mr-0.5 h-3.5 w-3.5 flex-shrink-0 items-center justify-center rounded group-hover:inline-flex focus:outline-none']">
+                <span class="sr-only">Remove content block</span>
+                <XMarkIcon class="h-3 w-3" />
+            </button>
+        </span>
+    </div>
 </template>

@@ -86,13 +86,15 @@ class ChoiceController extends Controller
      */
     public function update(Request $request, Choice $choice)
     {
-        $choice->name = $request->name;
-        $choice->summary = $request->summary;
-        $choice->instructions = $request->instructions;
-        $choice->resources = $request->resources;
-        $choice->review = $request->review;
-        $choice->exercises = $request->exercises;
-        $choice->save();
+        $content = [];
+        foreach ($request->content as $item) {
+            $content[] = $item;
+        }
+        
+        $choice->update([
+            'name' => $request->name,
+            'content' => $content
+        ]);
 
         return redirect()->back()
             ->with('notification', [
