@@ -42,10 +42,15 @@ class ChoiceController extends Controller
     {
         $goal = Goal::where('id', $request->goal_id)->first();
 
+        $content = [];
+        foreach ($request->content as $item) {
+            $content[] = $item;
+        }
+
         Choice::create([
             'name' => $request['name'],
             'goal_id' => $request['goal_id'],
-            'content' => json_encode($request['content']),
+            'content' => $content,
         ]);
 
         return redirect()->route('editor.goals.show', [$goal->slug]);
@@ -93,7 +98,7 @@ class ChoiceController extends Controller
         
         $choice->update([
             'name' => $request->name,
-            'content' => $content
+            'content' => $content,
         ]);
 
         return redirect()->back()

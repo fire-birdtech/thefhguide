@@ -19,6 +19,8 @@ import Header from '@/Components/Forms/Choices/Header.vue';
 import AddHeaderButton from '@/Components/Buttons/Choices/AddHeaderButton.vue';
 import Exercises from '@/Components/Forms/Choices/Exercises.vue';
 import AddExercisesButton from '@/Components/Buttons/Choices/AddExercisesButton.vue';
+import QUIKLinks from '@/Components/Forms/Choices/QUIKLinks.vue';
+import AddQuikLinksButton from '@/Components/Buttons/Choices/AddQuikLinksButton.vue';
 
 const props = defineProps({
     goal: String,
@@ -92,11 +94,12 @@ const submit = () => {
                                     <BreezeLabel for="name" value="Content" class="sm:mt-px sm:pt-1" />
                                     <div class="mt-1 space-y-4 sm:mt-0 sm:col-span-7">
                                         <template v-for="(item, index) in choice.content" :key="index">
-                                            <Summary v-if="item.type === 'summary'" @delete="deleteProperty(index)" @update:model-value="updateProperty(index, $event)" />
-                                            <TextBlock v-else-if="item.type === 'text'" @delete="deleteProperty(index)" @update:model-value="updateProperty(index, $event)" />
-                                            <ResourceList v-if="item.type === 'resources'" @delete="deleteProperty(index)" @update="updateProperty(index, $event)" />
-                                            <Header v-else-if="item.type === 'header'" @delete="deleteProperty(index)" @update:model-value="updateProperty(index, $event)" />
-                                            <Exercises v-else-if="item.type === 'exercises'" @delete="deleteProperty(index)" @update:model-value="updateProperty(index, $event)" />
+                                            <Summary v-if="item.type === 'summary'" @delete="deleteProperty(index)" @update="updateProperty(index, $event)" :item="item" />
+                                            <TextBlock v-else-if="item.type === 'text'" @delete="deleteProperty(index)" @update="updateProperty(index, $event)" :item="item" />
+                                            <ResourceList v-if="item.type === 'resources'" @delete="deleteProperty(index)" @update="updateProperty(index, $event)" :item="item" />
+                                            <Header v-else-if="item.type === 'header'" @delete="deleteProperty(index)" @update="updateProperty(index, $event)" :item="item" />
+                                            <Exercises v-else-if="item.type === 'exercises'" @delete="deleteProperty(index)" @update="updateProperty(index, $event)" :item="item" />
+                                            <QUIKLinks v-else-if="item.type === 'quiklinks'" @delete="deleteProperty(index)" @update="updateProperty(index, $event)" :item="item" />
                                         </template>
                                         <div class="space-x-2">
                                             <AddSummaryButton v-if="! hasSummary" @click.prevent="addProperty('summary')" />
@@ -104,6 +107,7 @@ const submit = () => {
                                             <AddResourceListButton @click.prevent="addProperty('resources')" />
                                             <AddHeaderButton @click.prevent="addProperty('header')" />
                                             <AddExercisesButton v-if="! hasExercises" @click.prevent="addProperty('exercises')" />
+                                            <AddQuikLinksButton @click.prevent="addProperty('quiklinks')" />
                                         </div>
                                     </div>
                                 </div>
