@@ -49,7 +49,6 @@ const addProperty = (type) => {
 
 const updateProperty = (index, data) => {
     choice.content[index].data = data;
-    console.log(choice.content);
 }
 
 const updateImages = (data) => {

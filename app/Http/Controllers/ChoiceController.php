@@ -6,6 +6,7 @@ use App\Http\Requests\ChoiceStoreRequest;
 use App\Http\Requests\UpdateChoiceOrderRequest;
 use App\Models\Choice;
 use App\Models\Goal;
+use App\Models\ResourceLink;
 use Illuminate\Http\Request;
 
 class ChoiceController extends Controller
@@ -47,11 +48,24 @@ class ChoiceController extends Controller
             $content[] = $item;
         }
 
-        Choice::create([
+        $choice = Choice::create([
             'name' => $request['name'],
             'goal_id' => $request['goal_id'],
             'content' => $content,
         ]);
+
+        $index = array_search('resources', array_column($content, 'type'));
+
+        foreach ($content[$index]['data'] as $resource) {
+            foreach ($resource['links'] as $link) {
+                $resourceLink = ResourceLink::updateOrCreate(
+                    ['link' => $link['link']],
+                    ['text' => $link['text'], 'type' => $link['type']]
+                );
+
+                $choice->resourceLinks()->attach($resourceLink);
+            }
+        }
 
         return redirect()->route('editor.goals.show', [$goal->slug]);
     }
