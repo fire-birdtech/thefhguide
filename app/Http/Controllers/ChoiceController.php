@@ -109,7 +109,7 @@ class ChoiceController extends Controller
         foreach ($request->content as $item) {
             $content[] = $item;
         }
-        
+
         $choice->update([
             'name' => $request->name,
             'content' => $content,
