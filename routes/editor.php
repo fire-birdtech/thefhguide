@@ -31,6 +31,6 @@ Route::group([
     Route::resource('drafts', DraftController::class);
     Route::put('drafts/{draft}/publish', [DraftController::class, 'publish'])->name('drafts.publish');
     Route::post('drafts/{draft}/publish', [DraftController::class, 'notify'])->name('drafts.notify');
-    Route::resource('resources', ResourceController::class)->except(['update']);
+    Route::resource('resources', ResourceLinkController::class)->except(['update']);
     Route::put('resources/update', [ResourceLinkController::class, 'update'])->name('resources.update');
 });
