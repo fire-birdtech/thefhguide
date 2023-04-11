@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests\CreateDraftRequest;
+use App\Http\Requests\DraftCreateRequest;
 use App\Http\Requests\DraftPublishRequest;
 use App\Http\Requests\DraftSaveRequest;
 use App\Models\Choice;
@@ -31,9 +31,12 @@ class DraftController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function create(DraftCreateRequest $request)
     {
-        //
+        return inertia('Editor/Drafts/Create', [
+            'type' => $request['type'],
+            'parent_id' => $request['parent_id'],
+        ]);
     }
 
     /**
@@ -42,7 +45,7 @@ class DraftController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(CreateDraftRequest $request)
+    public function store(Request $request)
     {
         $draft = Draft::create([
             'draftable_type' => $request['draftable_type'],

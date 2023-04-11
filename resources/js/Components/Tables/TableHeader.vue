@@ -10,7 +10,7 @@ const props = defineProps({
 });
 
 const submit = () => {
-    router.post(props.addRoute);
+    router.get(props.addRoute);
 }
 </script>
 

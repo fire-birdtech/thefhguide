@@ -4,7 +4,7 @@ namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class CreateDraftRequest extends FormRequest
+class DraftCreateRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -24,8 +24,7 @@ class CreateDraftRequest extends FormRequest
     public function rules()
     {
         return [
-            'draftable_type' => 'required|string',
-            'parent_type' => 'required|string',
+            'type' => 'required|string',
             'parent_id' => 'required|integer',
         ];
     }
