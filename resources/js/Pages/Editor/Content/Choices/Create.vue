@@ -23,12 +23,12 @@ import QUIKLinks from '@/Components/Forms/Choices/QUIKLinks.vue';
 import AddQuikLinksButton from '@/Components/Buttons/Choices/AddQuikLinksButton.vue';
 
 const props = defineProps({
-    goal: String,
+    goal: Object,
 });
 
 const choice = useForm({
     name: '',
-    goal_id: props.goal,
+    goal_id: props.goal.id,
     images: [],
     content: [],
 });
@@ -115,7 +115,7 @@ const submit = () => {
                     </div>
                     <div class="px-6 py-4">
                         <div class="flex justify-end">
-                            <SecondaryButton :href="route('editor.projects.index')" as="link">Cancel</SecondaryButton>
+                            <SecondaryButton :href="route('editor.goals.show', [goal.slug])" as="link">Cancel</SecondaryButton>
                             <PrimaryButton type="submit" class="ml-3">Save</PrimaryButton>
                         </div>
                     </div>
