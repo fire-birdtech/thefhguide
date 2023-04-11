@@ -10,12 +10,12 @@ import SecondaryButton from '@/Components/Buttons/SecondaryButton.vue';
 import Header3 from '@/Components/Headers/Header3.vue';
 
 const props = defineProps({
-    project: Number,
+    project: Object,
 });
 
 const goal = useForm({
     name: '',
-    project_id: props.project,
+    project_id: props.project.id,
     summary: null,
     show_me_video_url: '',
 });
@@ -62,7 +62,7 @@ const submit = () => {
                     </div>
                     <div class="px-6 py-4">
                         <div class="flex justify-end">
-                            <SecondaryButton :href="route('editor.projects.index')" as="link">Cancel</SecondaryButton>
+                            <SecondaryButton :href="route('editor.projects.show', [project.slug])" as="link">Cancel</SecondaryButton>
                             <PrimaryButton type="submit" class="ml-3">Save</PrimaryButton>
                         </div>
                     </div>

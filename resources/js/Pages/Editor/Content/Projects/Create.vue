@@ -10,12 +10,12 @@ import SecondaryButton from '@/Components/Buttons/SecondaryButton.vue';
 import Header3 from '@/Components/Headers/Header3.vue';
 
 const props = defineProps({
-    collection: Number,
+    collection: Object,
 });
 
 const project = useForm({
     name: "",
-    collection_id: props.collection,
+    collection_id: props.collection.id,
 });
 
 const submit = () => {
@@ -46,7 +46,7 @@ const submit = () => {
                     </div>
                     <div class="px-6 py-4">
                         <div class="flex justify-end">
-                            <SecondaryButton :href="route('editor.projects.index')" as="link">Cancel</SecondaryButton>
+                            <SecondaryButton :href="route('editor.collections.show', [collection.slug])" as="link">Cancel</SecondaryButton>
                             <PrimaryButton type="submit" class="ml-3">Save</PrimaryButton>
                         </div>
                     </div>

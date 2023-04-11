@@ -17,9 +17,7 @@ class ProjectController extends Controller
      */
     public function index()
     {
-        return inertia('Editor/Content/Projects/Index', [
-            'projects' => Project::orderBy('updated_at', 'desc')->with('collection')->get(),
-        ]);
+        //
     }
 
     /**
@@ -29,10 +27,8 @@ class ProjectController extends Controller
      */
     public function create(Request $request)
     {
-        $collections = Collection::orderBy('name', 'asc')->get();
-
         return inertia('Editor/Content/Projects/Create', [
-            'collection' => $request->collection,
+            'collection' => Collection::find($request->collection),
         ]);
     }
 
@@ -139,6 +135,6 @@ class ProjectController extends Controller
     {
         $project->delete();
 
-        return redirect()->route('editor.projects.index');
+        return redirect()->route('editor.dashboard');
     }
 }
