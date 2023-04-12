@@ -123,7 +123,7 @@ const tableActions = {
                     </dl>
                 </div>
                 <div class="mt-12">
-                    <TableHeader header="Choices" addText="Add choice" :addLink="`${route(`editor.choices.create`)}?goal=${goal.id}`" />
+                    <TableHeader header="Choices" addText="Add choice" :add-route="route('editor.drafts.create', {type: 'choice', parent_id: goal.id})" />
 
                     <StackedListWrapper class="mt-3">
                         <ExpandableStackedListItem v-for="choice in sortedChoices" :key="choice.id" :item="choice" @reload="reload" />

@@ -49,9 +49,16 @@ class DraftController extends Controller
     public function store(DraftStoreRequest $request)
     {
         $draft = Draft::create([
-            'draftable_type' => $request['draftable_type'],
+            'draftable_type' => $request['type'],
             'user_id' => $request->user()->id,
+            'name' => $request['name'],
+            'summary' => $request['summary'],
+            'show_me_video_url' => $request['show_me_video_url']
         ]);
+
+        if ($request['image'] !== null) {
+            $draft->updateCoverImage($request['image']);
+        }
 
         $parent = $this->getParentable($request['parent_type'], $request['parent_id']);
 

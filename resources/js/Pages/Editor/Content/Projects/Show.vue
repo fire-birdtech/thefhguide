@@ -141,7 +141,7 @@ const tableActions = {
                 </dl>
             </div>
             <div class="mt-12">
-                <TableHeader header="Goals" addText="Add goal" :add-route="route('editor.drafts.store', {draftable_type: 'goal', parent_type: 'project', parent_id: project.id})" />
+                <TableHeader header="Goals" addText="Add goal" :add-route="route('editor.drafts.create', {type: 'goal', parent_id: project.id})" />
                 <Table class="mt-2">
                     <TableHead :cells="goalCells" :actions="true" :order="true" />
                     <TableBody :cells="goalCells" :rows="sortedGoals" routeType="editor.goals" :actions="tableActions" :order="true" @down="moveDown($event)" @up="moveUp($event)" />
