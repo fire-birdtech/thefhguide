@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Requests\DraftCreateRequest;
 use App\Http\Requests\DraftPublishRequest;
 use App\Http\Requests\DraftSaveRequest;
+use App\Http\Requests\DraftStoreRequest;
 use App\Models\Choice;
 use App\Models\Collection;
 use App\Models\Draft;
@@ -45,8 +46,8 @@ class DraftController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
-    {return $request;
+    public function store(DraftStoreRequest $request)
+    {
         $draft = Draft::create([
             'draftable_type' => $request['draftable_type'],
             'user_id' => $request->user()->id,
