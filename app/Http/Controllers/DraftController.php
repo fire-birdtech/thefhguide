@@ -48,15 +48,23 @@ class DraftController extends Controller
      */
     public function store(DraftStoreRequest $request)
     {
+        $content = [];
+        if (isset($request->content)) {
+            foreach ($request->content as $item) {
+                $content[] = $item;
+            }
+        }
+
         $draft = Draft::create([
             'draftable_type' => $request['type'],
             'user_id' => $request->user()->id,
             'name' => $request['name'],
             'summary' => $request['summary'],
-            'show_me_video_url' => $request['show_me_video_url']
+            'show_me_video_url' => $request['show_me_video_url'],
+            'content' => count($content) ? $content : null,
         ]);
 
-        if ($request['image'] !== null) {
+        if (isset($request['image'])) {
             $draft->updateCoverImage($request['image']);
         }
 

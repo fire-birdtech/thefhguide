@@ -27,10 +27,10 @@ class DraftStoreRequest extends FormRequest
             'type' => 'required|string',
             'parent_id' => 'required|string',
             'name' => 'required|string',
-            'image' => 'nullable|string',
+            'image' => 'nullable|mimes:jpg,jpeg,png|max:1024',
             'summary' => 'nullable|string',
             'show_me_video_url' => 'nullable|string',
-            'content' => 'nullable|array',
+            'content' => 'nullable',
         ];
     }
 }
