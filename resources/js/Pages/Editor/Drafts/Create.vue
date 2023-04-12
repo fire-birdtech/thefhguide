@@ -5,15 +5,20 @@ import Header3 from '@/Components/Headers/Header3.vue';
 import PrimaryButton from '@/Components/Buttons/PrimaryButton.vue';
 import InputWithLabel from '@/Components/InputWithLabel.vue';
 import AddCoverImage from '@/Components/Forms/AddCoverImage.vue';
+import TextEditorWithLabel from '@/Components/TextEditorWithLabel.vue';
 
-defineProps({
+const props = defineProps({
     type: String,
     parent_id: String,
 });
 
 const form = useForm({
+    type: props.type,
+    parent_id: props.parent_id,
     name: '',
     image: null,
+    summary: null,
+    show_me_video_url: null,
 });
 
 const setImage = (value) => {
@@ -45,6 +50,11 @@ const submit = () => {
 
                     <template v-if="type === 'project'">
                         <AddCoverImage :message="form.errors?.image" @set="setImage($event)" />
+                    </template>
+
+                    <template v-if="type === 'goal'">
+                        <TextEditorWithLabel label="Summary" v-model="form.summary" :message="form.errors?.summary" />
+                        <InputWithLabel label='"Shoe Me" Video' v-model="form.show_me_video_url" :message="form.errors?.show_me_video_url" />
                     </template>
                 </div>
             </div>

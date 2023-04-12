@@ -46,7 +46,7 @@ class DraftController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
-    {
+    {return $request;
         $draft = Draft::create([
             'draftable_type' => $request['draftable_type'],
             'user_id' => $request->user()->id,
