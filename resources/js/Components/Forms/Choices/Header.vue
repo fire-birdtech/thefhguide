@@ -6,7 +6,7 @@ const props = defineProps(['item']);
 const emit = defineEmits(['delete', 'update']);
 
 const update = () => {
-    emit('update', props.item);
+    emit('update', props.item.data);
 }
 </script>
 
@@ -16,7 +16,7 @@ const update = () => {
             <Header color="orange" @remove="$emit('delete')">Header</Header>
         </div>
         <div class="w-full p-4 border-2 border-orange-200 rounded-b rounded-tr">
-            <input type="text" :value="item.data" @input="update" class="w-full rounded text-sm border border-orange-200 focus:border-orange-700 focus:ring-0" placeholder="Header text" autofocus>
+            <input type="text" v-model="item.data" @input="update" class="w-full rounded text-sm border border-orange-200 focus:border-orange-700 focus:ring-0" placeholder="Header text" autofocus>
         </div>
     </div>
 </template>

@@ -6,6 +6,7 @@ import PrimaryButton from '@/Components/Buttons/PrimaryButton.vue';
 import InputWithLabel from '@/Components/InputWithLabel.vue';
 import AddCoverImage from '@/Components/Forms/AddCoverImage.vue';
 import TextEditorWithLabel from '@/Components/TextEditorWithLabel.vue';
+import ChoiceContent from '@/Components/Forms/Choices/ChoiceContent.vue';
 
 const props = defineProps({
     type: String,
@@ -19,10 +20,15 @@ const form = useForm({
     image: null,
     summary: null,
     show_me_video_url: null,
+    content: null,
 });
 
 const setImage = (value) => {
     form.image = value;
+}
+
+const setContent = (value) => {
+    form.content = value;
 }
 
 const submit = () => {
@@ -55,6 +61,10 @@ const submit = () => {
                     <template v-if="type === 'goal'">
                         <TextEditorWithLabel label="Summary" v-model="form.summary" :message="form.errors?.summary" />
                         <InputWithLabel label='"Shoe Me" Video' v-model="form.show_me_video_url" :message="form.errors?.show_me_video_url" />
+                    </template>
+
+                    <template v-if="type === 'choice'">
+                        <ChoiceContent @update="setContent($event)" />
                     </template>
                 </div>
             </div>
