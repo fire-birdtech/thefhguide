@@ -42,6 +42,14 @@ const options = [
     { name: 'Publish Draft', icon: ArrowUpTrayIcon, show: props.userCanPublish, action: 'publish' },
     { name: 'Ready for Publish', icon: BellAlertIcon, show: !props.userCanPublish, action: 'notify' }
 ];
+
+const setImage = (value) => {
+    form.image = value;
+}
+
+const setContent = (value) => {
+    form.content = value;
+}
 </script>
 
 <template>
@@ -63,7 +71,12 @@ const options = [
                     <InputWithLabel label="Name" v-model="form.name" :message="form.errors?.name" />
 
                     <template v-if="draft.draftable_type === 'project'">
-                        <AddCoverImage :image_url="draft.cover_image_url" :image_path="draft.cover_image_path" :message="form.errors?.cover_image_path" />
+                        <AddCoverImage
+                            :image_url="draft.cover_image_url"
+                            :image_path="draft.cover_image_path"
+                            :message="form.errors?.cover_image_path"
+                            @set="setImage($event)"
+                        />
                     </template>
 
                     <template v-if="draft.draftable_type === 'goal'">
