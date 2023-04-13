@@ -14,9 +14,13 @@ import AddExercisesButton from '@/Components/Buttons/Choices/AddExercisesButton.
 import QUIKLinks from '@/Components/Forms/Choices/QUIKLinks.vue';
 import AddQuikLinksButton from '@/Components/Buttons/Choices/AddQuikLinksButton.vue';
 
+const props = defineProps(['content']);
+
 const emit = defineEmits(['update']);
 
-const content = ref([]);
+const content = ref(
+    props?.content ? props.content : []
+);
 
 const hasSummary = ref(false);
 const hasExercises = ref(false);

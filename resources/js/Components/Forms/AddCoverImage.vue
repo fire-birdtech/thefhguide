@@ -4,7 +4,7 @@ import BreezeInputError from '@/Components/InputError.vue';
 import BreezeLabel from '@/Components/Label.vue';
 import SecondaryButtonSmall from '@/Components/Buttons/SecondaryButtonSmall.vue';
 
-defineProps(['message']);
+defineProps(['image_path','image_url','message']);
 
 const emit = defineEmits(['set']);
 
@@ -29,13 +29,16 @@ const updatePhotoPreview = () => {
         <BreezeLabel for="cover" value="Cover image" class="sm:mt-px sm:pt-1" />
         <div class="mt-1 sm:mt-0 sm:col-span-4">
             <input ref="photoInput" type="file" class="hidden" @change="updatePhotoPreview">
+            <div v-show="! photoPreview && image_path">
+                <img :src="image_url" class="block w-full h-72 rounded-lg bg-cover bg-no-repeat bg-center object-cover pointer-events-none">
+            </div>
             <div v-show="photoPreview" class="mt-2">
                 <span
                     class="block w-full h-72 rounded-lg bg-cover bg-no-repeat bg-center"
                     :style="'background-image: url(\'' + photoPreview + '\');'"
                 />
             </div>
-            <div :class="[photoPreview ? 'mt-3' : 'mt-0', 'space-x-4']">
+            <div :class="[image_path || photoPreview ? 'mt-3' : 'mt-0', 'space-x-4']">
                 <SecondaryButtonSmall @click.prevent="$refs.photoInput.click()">
                     Select A New Cover Image
                 </SecondaryButtonSmall>

@@ -48,12 +48,7 @@ class DraftController extends Controller
      */
     public function store(DraftStoreRequest $request)
     {
-        $content = [];
-        if (isset($request->content)) {
-            foreach ($request->content as $item) {
-                $content[] = $item;
-            }
-        }
+        $content = isset($request->content) ? $this->formatContent($request) : null;
 
         $draft = Draft::create([
             'draftable_type' => $request['type'],
@@ -61,7 +56,7 @@ class DraftController extends Controller
             'name' => $request['name'],
             'summary' => $request['summary'],
             'show_me_video_url' => $request['show_me_video_url'],
-            'content' => count($content) ? $content : null,
+            'content' => $content,
         ]);
 
         if (isset($request['image'])) {
@@ -229,12 +224,24 @@ class DraftController extends Controller
 
     public function updateDraft($request, Draft $draft)
     {
+        $content = isset($request->content) ? $this->formatContent($request) : null;
+
         $draft->update([
             'name' => $request['name'],
             'summary' => $request['summary'],
-            'instructions' => $request['instructions'],
-            'review' => $request['review'],
-            'exercises' => $request['exercises'],
+            'show_me_video_url' => $request['show_me_video_url'],
+            'content' => $content,
         ]);
+    }
+
+    public function formatContent($request)
+    {
+        $content = [];
+
+        foreach ($request->content as $item) {
+            $content[] = $item;
+        }
+
+        return $content;
     }
 }

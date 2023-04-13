@@ -9,6 +9,8 @@ import TextEditorWithLabel from '@/Components/TextEditorWithLabel.vue';
 import PrimaryButtonWithDropdown from '@/Components/Buttons/PrimaryButtonWithDropdown.vue';
 import PublishModal from '@/Components/PublishModal.vue';
 import Header3 from '@/Components/Headers/Header3.vue';
+import AddCoverImage from '@/Components/Forms/AddCoverImage.vue';
+import ChoiceContent from '@/Components/Forms/Choices/ChoiceContent.vue';
 
 const props = defineProps({
     draft: Object,
@@ -60,15 +62,18 @@ const options = [
                 <form @submit.prevent="submit" class="sm:divide-y sm:divide-gray-200">
                     <InputWithLabel label="Name" v-model="form.name" :message="form.errors?.name" />
 
-                    <TextEditorWithLabel v-if="['goal','choice'].includes(draft.draftable_type)" label="Summary" v-model="form.summary" :message="form.errors?.summary" />
+                    <template v-if="draft.draftable_type === 'project'">
+                        <AddCoverImage :image_url="draft.cover_image_url" :image_path="draft.cover_image_path" :message="form.errors?.cover_image_path" />
+                    </template>
 
-                    <TextEditorWithLabel v-if="draft.draftable_type === 'choice'" label="Instructions" v-model="form.instructions" :message="form.errors?.instructions" />
+                    <template v-if="draft.draftable_type === 'goal'">
+                        <TextEditorWithLabel v-if="draft.summary" label="Summary" v-model="form.summary" :message="form.errors?.summary" />
+                        <InputWithLabel label='"Shoe Me" Video' v-model="form.show_me_video_url" :message="form.errors?.show_me_video_url" />
+                    </template>
 
-                    <TextEditorWithLabel v-if="draft.draftable_type === 'choice'" label="Resources" v-model="form.resources" :message="form.errors?.resources" />
-
-                    <TextEditorWithLabel v-if="draft.draftable_type === 'choice'" label="Review" v-model="form.review" :message="form.errors?.review" />
-
-                    <TextEditorWithLabel v-if="draft.draftable_type === 'choice'" label="Exercises" v-model="form.exercises" :message="form.errors?.exercises" />
+                    <template v-if="draft.draftable_type === 'choice'">
+                        <ChoiceContent :content="draft.content" @update="setContent($event)" />
+                    </template>
                 </form>
             </div>
         </div>
