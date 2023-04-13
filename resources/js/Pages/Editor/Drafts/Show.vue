@@ -8,6 +8,7 @@ import Header5 from '@/Components/Headers/Header5.vue';
 import SecondaryButtonSmall from '@/Components/Buttons/SecondaryButtonSmall.vue';
 import { Dialog, DialogPanel, DialogTitle, TransitionChild, TransitionRoot } from '@headlessui/vue';
 import { ArrowTopRightOnSquareIcon } from '@heroicons/vue/24/outline';
+import ResourceListItem from '@/Components/Lists/ResourceListItem.vue';
 
 defineProps(['draft']);
 
