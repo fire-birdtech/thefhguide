@@ -19,7 +19,7 @@ const props = defineProps(['content']);
 const emit = defineEmits(['update']);
 
 const content = ref(
-    props?.content ? props.content : []
+    props?.content || []
 );
 
 const hasSummary = ref(false);
