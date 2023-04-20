@@ -49,6 +49,14 @@ const removeHighlight = (resourceLinkKey, highlightKey) => {
     resource.links[resourceLinkKey].highlights = resource.links[resourceLinkKey].highlights.filter(highlight => highlight !== resource.links[resourceLinkKey].highlights[highlightKey]);
 }
 
+const addIframe = (key) => {
+    resource.links[resource.links.findIndex(link => link === resource.links[key])].iframe = "";
+}
+
+const removeIframe = (key) => {
+    delete resource.links[resource.links.findIndex(link => link === resource.links[key])].iframe;
+}
+
 watch(show, (newValue, oldValue) => {
     if (newValue === true) {
         resetResource();
@@ -86,6 +94,16 @@ watch(show, (newValue, oldValue) => {
                     </div>
                     <div v-if="link.type === 'video'" class="ml-4 mt-0.5">
                         <div class="space-y-0.5">
+                            <div v-if="link.iframe !== undefined" class="w-full">
+                                <div class="flex items-center border border-purple-200 rounded-md focus-within:border-purple-300">
+                                    <input type="text" v-model="link.iframe" placeholder="Video Iframe" class="flex-1 border-none text-xs rounded-l-md focus:ring-transparent" />
+                                    <div class="flex items-center ml-2 mr-1">
+                                        <button type="button" class="rounded hover:bg-purple-100">
+                                            <XMarkIcon class="w-5 h-5 text-purple-700" @click.prevent="removeIframe(key)" />
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
                             <div v-for="(highlight, index) in link.highlights" :key="index" class="w-full">
                                 <div class="flex items-center border border-purple-200 rounded-md focus-within:border-purple-300">
                                     <input type="text" v-model="highlight.text" placeholder="Highlight Text" class="flex-1 border-none text-xs rounded-l-md focus:ring-transparent">
@@ -99,7 +117,7 @@ watch(show, (newValue, oldValue) => {
                             </div>
                         </div>
                         <div class="space-x-1">
-                            <PrimaryButton class="px-2 py-0.5 text-xs rounded bg-purple-200 text-purple-700 hover:bg-purple-300">
+                            <PrimaryButton v-if="link.iframe === undefined" @click.prevent="addIframe(key)" class="px-2 py-0.5 text-xs rounded bg-purple-200 text-purple-700 hover:bg-purple-300">
                                 + Add video iframe
                             </PrimaryButton>
                             <PrimaryButton @click.prevent="addHighlight(key)" class="px-2 py-0.5 text-xs rounded bg-purple-200 text-purple-700 hover:bg-purple-300">
