@@ -2,6 +2,7 @@
 import { ref } from 'vue';
 import { MinusIcon, PlusIcon } from '@heroicons/vue/24/outline';
 import ResourceListItem from '@/Components/Lists/ResourceListItemPublic.vue';
+import Header5 from '@/Components/Headers/Header5.vue';
 
 defineProps({
     choice: Object
@@ -33,7 +34,7 @@ const listStyleAlpha = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N',
                     <div v-show="showSummary" v-html="item.data" />
                 </div>
                 <div v-else-if="item.type === 'resources'">
-                    <div class="text-xl font-medium">Resources</div>
+                    <Header5>Resources</Header5>
                     <ol>
                         <ResourceListItem v-for="(resource, index) in item.data" :key="index" :resource="resource" />
                     </ol>
@@ -41,6 +42,9 @@ const listStyleAlpha = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N',
                 <div v-else-if="item.type === 'exercises'">
                     <button @click="showExercises = ! showExercises" class="text-stone-500 font-medium hover:underline">Exercises</button>
                     <div v-show="showExercises" v-html="item.data" />
+                </div>
+                <div v-else-if="item.type === 'header'">
+                    <Header5>{item.data}</Header5>
                 </div>
                 <div v-else v-html="item.data" />
             </template>
