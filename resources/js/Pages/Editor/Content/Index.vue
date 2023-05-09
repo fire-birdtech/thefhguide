@@ -25,6 +25,13 @@ defineProps({
                         </div>
                     </Link>
                 </li>
+                <li v-for="project in projects" :key="project.id" class="col-span-1 border-2 border-transparent flex flex-col items-center justify-center rounded-lg bg-white text-center shadow hover:border-blue-400 hover:bg-blue-50">
+                    <Link class="p-6" :href="route('editor.projects.show', [project.slug])">
+                        <div class="flex flex-1 flex-col">
+                            <h3 class="text-sm font-medium text-gray-900">{{ project.name }}</h3>
+                        </div>
+                    </Link>
+                </li>
             </ul>
         </div>
     </AdminLayout>

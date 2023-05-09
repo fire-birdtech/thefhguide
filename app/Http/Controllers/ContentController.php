@@ -16,7 +16,7 @@ class ContentController extends Controller
     {
         return inertia('Editor/Content/Index', [
             'collections' => Collection::all(),
-            'projects' => Project::orderBy('updated_at', 'desc')->with('collection')->limit(12)->get(),
+            'projects' => Project::orderBy('slug')->with('collection')->whereIn('slug', ['canada', 'england', 'united-states'])->get(),
         ]);
     }
 }
