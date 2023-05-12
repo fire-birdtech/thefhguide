@@ -4,7 +4,7 @@ import { DialogTitle } from '@headlessui/vue';
 import { DocumentPlusIcon, EyeIcon, PencilSquareIcon, TrashIcon } from '@heroicons/vue/24/outline';
 import { ArchiveBoxIcon, PencilSquareIcon as PencilSquareIconSolid, PlusCircleIcon, WindowIcon } from '@heroicons/vue/24/solid';
 import { Head, Link, router, useForm } from '@inertiajs/vue3';
-import AdminLayout from  '@/Layouts/Admin.vue';
+import AdminLayout from '@/Layouts/Admin.vue';
 import DangerModal from '@/Components/Modals/DangerModal.vue';
 import PrimaryButton from '@/Components/Buttons/PrimaryButton.vue';
 import SecondaryButton from '@/Components/Buttons/SecondaryButton.vue';
@@ -65,6 +65,29 @@ const moveUp = (orderNumber) => {
     updateOrder(sortedChoices.value[index - 1], sortedChoices.value[index]);
 }
 
+const dragStart = (event, item) => {
+    event.dataTransfer.dropEffect = 'move';
+    event.dataTransfer.effectAllowed = 'move';
+    event.dataTransfer.setData('itemID', item.id);
+    event.target.style.opacity = '0.4';
+}
+
+const dragEnd = (event) => {
+    event.target.style.opacity = '1.0';
+}
+
+const dragEnter = (event) => {
+    event.target.style.backgroundColor = 'blue';
+}
+
+const dragLeave = (event) => {
+    event.target.style.backgroundColor = 'transparent';
+}
+
+const drop = (event) => {
+    console.log(event);
+}
+
 const actions = [
     [
         { name: 'Edit', as: 'link', icon: PencilSquareIconSolid, href: route('editor.goals.edit', [props.goal.slug]) },
@@ -108,7 +131,8 @@ const tableActions = {
                         </div>
                         <div class="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                             <dt class="text-sm font-medium text-gray-500">Summary</dt>
-                            <dd class="mt-1 prose max-w-3xl prose-a:text-blue-500 text-sm text-gray-900 sm:mt-0 sm:col-span-2" v-html="goal.summary" />
+                            <dd class="mt-1 prose max-w-3xl prose-a:text-blue-500 text-sm text-gray-900 sm:mt-0 sm:col-span-2"
+                                v-html="goal.summary" />
                         </div>
                         <div class="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                             <dt class="text-sm font-medium text-gray-500">"Show Me" Video</dt>
@@ -117,16 +141,21 @@ const tableActions = {
                         <div class="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                             <dt class="text-sm font-medium text-gray-500">Project</dt>
                             <dd class="mt-1 text-sm font-bold text-gray-900 sm:mt-0 sm:col-span-2">
-                                <Link class="hover:text-gray-600" :href="route('editor.projects.show', [goal.project.slug])"> {{ goal.project.name }} </Link>
+                                <Link class="hover:text-gray-600"
+                                    :href="route('editor.projects.show', [goal.project.slug])"> {{ goal.project.name }}
+                                </Link>
                             </dd>
                         </div>
                     </dl>
                 </div>
                 <div class="mt-12">
-                    <TableHeader header="Choices" addText="Add choice" :add-route="route('editor.drafts.create', {type: 'choice', parent_id: goal.id})" />
+                    <TableHeader header="Choices" addText="Add choice"
+                        :add-route="route('editor.drafts.create', { type: 'choice', parent_id: goal.id })" />
 
                     <StackedListWrapper class="mt-3">
-                        <ExpandableStackedListItem v-for="choice in sortedChoices" :key="choice.id" :item="choice" @reload="reload" />
+                        <ExpandableStackedListItem v-for="choice in sortedChoices" :key="choice.id" :item="choice"
+                            draggable="true" @dragstart="dragStart($event, choice)" @dragend="dragEnd($event)"
+                            @drop="drop($event)" @dragenter.prevent="dragEnter($event)" @dragleave="dragLeave($event)" />
                     </StackedListWrapper>
                 </div>
 
@@ -134,7 +163,8 @@ const tableActions = {
                     <TableHeader header="Goal Drafts" />
                     <Table class="mt-2">
                         <TableHead :cells="draftCells" :actions="true" />
-                        <TableBody :cells="draftCells" :rows="goal.child_drafts" routeType="editor.drafts" :actions="tableActions" />
+                        <TableBody :cells="draftCells" :rows="goal.child_drafts" routeType="editor.drafts"
+                            :actions="tableActions" />
                     </Table>
                 </div>
             </div>
@@ -145,8 +175,7 @@ const tableActions = {
                 <DialogTitle as="h3" class="text-lg leading-6 font-medium text-gray-900"> Archive goal </DialogTitle>
                 <div class="mt-2">
                     <p class="text-sm text-gray-500">Are you sure you want to archive {{ goal.name }}?</p>
-                </div>
-            </DangerModal>
-        </Teleport>
-    </AdminLayout>
-</template>
+            </div>
+        </DangerModal>
+    </Teleport>
+</AdminLayout></template>

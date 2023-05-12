@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from 'vue';
 import { Link } from '@inertiajs/vue3';
-import { EyeIcon, PencilSquareIcon, XMarkIcon } from '@heroicons/vue/24/solid';
+import { ArrowsUpDownIcon, EyeIcon, PencilSquareIcon, XMarkIcon } from '@heroicons/vue/24/solid';
 import ChoiceEdit from '@/Components/ChoiceEdit.vue';
 import ChoiceShow from '@/Components/ChoiceShow.vue';
 
@@ -17,7 +17,7 @@ const listStyleAlpha = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N',
 </script>
 
 <template>
-    <li class="relative overflow-hidden bg-white rounded-md shadow ring-1 ring-black ring-opacity-5">
+    <li class="relative overflow-hidden bg-white rounded-md shadow ring-1 ring-black ring-opacity-5 cursor-move">
         <div class="block h-full">
             <div class="flex items-center px-4 py-4 sm:px-6">
                 <div class="min-w-0 flex-1 sm:flex sm:items-center sm:justify-between">
@@ -26,22 +26,7 @@ const listStyleAlpha = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N',
                             <div class="inline-flex items-center justify-center font-bold w-6 h-6 bg-gray-300 text-white rounded-full mr-2">{{ listStyleAlpha[item.order - 1] }}</div>
                             <p class="truncate font-medium">{{ item.name }}</p>
                         </div>
-                        <!-- <div class="mt-2 flex">
-                            <div class="flex items-center text-sm text-gray-500">
-                                <CalendarIcon class="mr-1.5 h-5 w-5 flex-shrink-0 text-gray-400" aria-hidden="true" />
-                                <p>
-                                Closing on
-                                {{ ' ' }}
-                                <time :datetime="position.closeDate">{{ position.closeDateFull }}</time>
-                                </p>
-                            </div>
-                        </div> -->
                     </div>
-                    <!-- <div class="mt-4 flex-shrink-0 sm:mt-0 sm:ml-5">
-                        <div class="flex -space-x-1 overflow-hidden">
-                            <img v-for="applicant in position.applicants" :key="applicant.email" class="inline-block h-6 w-6 rounded-full ring-2 ring-white" :src="applicant.imageUrl" :alt="applicant.name" />
-                        </div>
-                    </div> -->
                 </div>
                 <div class="ml-5 flex flex-shrink-0 space-x-2">
                     <template v-if="!expanded">
