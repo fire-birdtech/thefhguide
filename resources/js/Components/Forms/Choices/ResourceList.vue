@@ -13,14 +13,14 @@ const show = ref(true);
 
 const resources = ref([ ...props.item.data ]);
 
-const update = () => {
-    emit('update', resources);
+const update = (event) => {
+    emit('update', event);
 }
 
 const addResource = (event) => {
     resources.value.push(event);
 
-    update();
+    update(event);
 }
 </script>
 

@@ -64,6 +64,10 @@ const updateProperty = (index, data) => {
     choice.content[index].data = data;
 }
 
+const updateResourceList = (index, data) => {
+    choice.content[index].data.push(data);
+}
+
 const updateImages = (data) => {
     choice.images = data;
 }
@@ -84,11 +88,6 @@ const submit = () => {
         preserveScroll: true,
     });
 }
-
-const addResource = (event) => {
-    choice.resourceList.push(event);
-    show.value = false;
-}
 </script>
 
 <template>
@@ -107,9 +106,9 @@ const addResource = (event) => {
                     <template v-for="(item, index) in choice.content" :key="index">
                         <Summary v-if="item.type === 'summary'" @delete="deleteProperty(index)" @update="updateProperty(index, $event)" :item="item" />
                         <TextBlock v-else-if="item.type === 'text'" @delete="deleteProperty(index)" @update="updateProperty(index, $event)" :item="item" />
-                        <ResourceList v-if="item.type === 'resources'" @delete="deleteProperty(index)" @update="updateProperty(index, $event)" :item="item" />
+                        <ResourceList v-if="item.type === 'resources'" @delete="deleteProperty(index)" @update="updateResourceList(index, $event)" :item="item" />
                         <Header v-else-if="item.type === 'header'" @delete="deleteProperty(index)" @update="updateProperty(index, $event)" :item="item" />
-                        <Exercises v-else-if="item.type === 'exercises'" @delete="deleteProperty(index)" @update="updateProperty(index, $event)" :item="item" />
+                        <Exercises v-else-if="item.type === 'exercises'" @delete="deleteProperty(index)" @update="updateResourceList(index, $event)" :item="item" />
                         <QUIKLinks v-else-if="item.type === 'quiklinks'" @delete="deleteProperty(index)" @update="updateProperty(index, $event)" :item="item" />
                     </template>
                     <div class="space-x-2">
