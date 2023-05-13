@@ -1,13 +1,9 @@
 <script setup>
 import { ref } from 'vue';
 import { useForm } from '@inertiajs/vue3';
-import { DocumentTextIcon, VideoCameraIcon } from '@heroicons/vue/24/outline'
+import { DocumentTextIcon, PencilSquareIcon, TrashIcon, VideoCameraIcon } from '@heroicons/vue/24/outline';
 import { XMarkIcon } from '@heroicons/vue/24/solid';
-import PrimaryTextButton from '@/Components/Buttons/PrimaryTextButton.vue';
-import BreezeInput from '@/Components/Input.vue';
-import BreezeLabel from '@/Components/Label.vue';
 import PrimaryButton from '@/Components/Buttons/PrimaryButton.vue';
-import SecondaryButton from '@/Components/Buttons/SecondaryButton.vue';
 
 const props = defineProps(['resource']);
 
@@ -73,8 +69,15 @@ const saveResource = () => {
                 </div>
             </form>
         </div>
-        <div v-if="view === 'show'" class="ml-4 flex-shrink-0">
-            <PrimaryTextButton @click.prevent="view = 'edit'">Edit</PrimaryTextButton>
+        <div v-if="view === 'show'" class="ml-4 flex-shrink-0 flex space-x-2">
+            <div @click="view = 'edit'" class="text-blue-600 hover:text-blue-900 cursor-pointer">
+                <PencilSquareIcon class="h-6 w-6" />
+                <span class="sr-only">View resource</span>
+            </div>
+            <div class="text-blue-600 hover:text-blue-900 cursor-pointer">
+                <TrashIcon class="h-6 w-6" />
+                <span class="sr-only">Edit resource</span>
+            </div>
         </div>
     </li>
 </template>
