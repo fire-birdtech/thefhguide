@@ -30,8 +30,8 @@ const saveResource = () => {
 
 <template>
     <li class="flex items-center justify-between py-3 pl-3 pr-4 text-sm">
-        <div v-if="view ==='show'" class="flex w-full flex-col">
-            <span class="ml-2 truncate">{{ form.description }}</span>
+        <div v-if="view ==='show'" class="flex w-full flex-col flex-wrap">
+            <span class="ml-2">{{ form.description }}</span>
             <ul class="mt-3 ml-4 space-y-1">
                 <li v-for="link in form.links" :key="link" class="flex">
                     <DocumentTextIcon v-if="link.type === 'document'" class="h-5 w-auto flex-shrink-0 text-gray-400" aria-hidden="true" />
