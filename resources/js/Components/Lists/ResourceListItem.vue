@@ -43,7 +43,7 @@ const saveResource = () => {
         <div v-if="view ==='edit'" class="flex w-full items-center">
             <form class="w-full flex flex-col items-center">
                 <div class="w-full flex items-center border border-purple-200 rounded-md focus-within:border-purple-300">
-                    <input type="text" v-model="resource.description" placeholder="Description" class="flex-1 border-none text-sm rounded-l-md focus:ring-transparent">
+                    <input type="text" v-model="form.description" placeholder="Description" class="flex-1 border-none text-sm rounded-l-md focus:ring-transparent">
                     <div class="flex items-center ml-2 mr-1 space-x-2">
                         <PrimaryButton @click.prevent="saveResource" class="px-2 py-0.5 text-xs rounded bg-purple-200 text-purple-700 hover:bg-purple-300" :disabled="resource.links.length < 1">Save</PrimaryButton>
                         <button type="button" class="rounded hover:bg-purple-100">
@@ -52,7 +52,7 @@ const saveResource = () => {
                     </div>
                 </div>
                 <div class="w-full pl-4 mt-1 space-y-1">
-                    <div v-for="(link, key) in resource.links" :key="key" class="flex items-center border border-purple-200 rounded-md focus-within:border-purple-300">
+                    <div v-for="(link, key) in form.links" :key="key" class="flex items-center border border-purple-200 rounded-md focus-within:border-purple-300">
                         <input type="text" v-model="link.text" placeholder="Name" class="flex-1 border-none text-sm rounded-l-md focus:ring-transparent" autofocus>
                         <input type="text" v-model="link.link" placeholder="External URL" class="flex-1 border-none text-sm focus:ring-transparent">
                         <select id="location" v-model="link.type" name="location" class="border-none py-2 pl-3 pr-10 text-sm focus:ring-transparent">
