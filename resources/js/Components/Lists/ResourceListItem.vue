@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from 'vue';
 import { useForm } from '@inertiajs/vue3';
-import { DocumentTextIcon, PencilSquareIcon, TrashIcon, VideoCameraIcon } from '@heroicons/vue/24/outline';
+import { CheckIcon, DocumentTextIcon, PencilSquareIcon, TrashIcon, VideoCameraIcon } from '@heroicons/vue/24/outline';
 import { XMarkIcon } from '@heroicons/vue/24/solid';
 import PrimaryButton from '@/Components/Buttons/PrimaryButton.vue';
 
@@ -60,8 +60,11 @@ const saveResource = () => {
                             <option value="video">Video</option>
                         </select>
                         <div class="flex items-center ml-2 mr-1">
-                            <button type="button" class="rounded hover:bg-purple-100">
-                                <XMarkIcon class="w-5 h-5 text-purple-700" @click.prevent="remove(key)" />
+                            <button type="button" class="rounded p-1 hover:bg-purple-100">
+                                <CheckIcon class="w-5 h-5 text-purple-700" />
+                            </button>
+                            <button type="button" class="rounded p-1 hover:bg-purple-100">
+                                <TrashIcon class="w-5 h-5 text-purple-700" @click.prevent="remove(key)" />
                             </button>
                         </div>
                     </div>
@@ -69,14 +72,14 @@ const saveResource = () => {
                 </div>
             </form>
         </div>
-        <div v-if="view === 'show'" class="ml-4 flex-shrink-0 flex space-x-2">
-            <div @click="view = 'edit'" class="text-blue-600 hover:text-blue-900 cursor-pointer">
+        <div v-if="view === 'show'" class="ml-4 flex-shrink-0 flex space-x-1">
+            <div @click="view = 'edit'" class="text-purple-600 hover:text-purple-900 cursor-pointer">
                 <PencilSquareIcon class="h-6 w-6" />
-                <span class="sr-only">View resource</span>
-            </div>
-            <div class="text-blue-600 hover:text-blue-900 cursor-pointer">
-                <TrashIcon class="h-6 w-6" />
                 <span class="sr-only">Edit resource</span>
+            </div>
+            <div class="text-purple-600 hover:text-purple-900 cursor-pointer">
+                <TrashIcon class="h-6 w-6" />
+                <span class="sr-only">Delete resource</span>
             </div>
         </div>
     </li>
