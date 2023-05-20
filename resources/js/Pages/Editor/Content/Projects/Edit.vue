@@ -46,7 +46,7 @@ const submit = () => {
     if (photoInput.value) {
         form.image = photoInput.value.files[0];
     } 
-    form.post(route('editor.projects.update', [props.project.slug]));
+    form.post(route('editor.projects.update', [props.project.id]));
 }
 
 watch(selected, (newSelected, oldSelected) => {
@@ -124,7 +124,7 @@ watch(selected, (newSelected, oldSelected) => {
                     </div>
                     <div class="px-6 py-4 mt-4 sm:border-t sm:border-gray-200">
                         <div class="flex justify-end">
-                            <SecondaryButton :href="route('editor.projects.show', [project.slug])" as="link">Cancel</SecondaryButton>
+                            <SecondaryButton :href="route('editor.projects.show', [project.id])" as="link">Cancel</SecondaryButton>
                             <PrimaryButton type="submit" class="ml-3">Save</PrimaryButton>
                         </div>
                     </div>

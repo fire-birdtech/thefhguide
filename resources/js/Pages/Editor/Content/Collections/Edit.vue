@@ -14,7 +14,7 @@ const props = defineProps({
 });
 
 const submit = () => {
-    router.put(route('editor.collections.update', [props.collection.slug]), props.collection);
+    router.put(route('editor.collections.update', [props.collection.id]), props.collection);
 }
 </script>
 
@@ -35,7 +35,7 @@ const submit = () => {
                     </div>
                     <div class="px-6 py-4 sm:border-t sm:border-gray-200">
                         <div class="flex justify-end">
-                            <SecondaryButton :href="route('editor.collections.show', [collection.slug])" as="link">Cancel</SecondaryButton>
+                            <SecondaryButton :href="route('editor.collections.show', [collection.id])" as="link">Cancel</SecondaryButton>
                             <PrimaryButton type="submit" class="ml-3">Save</PrimaryButton>
                         </div>
                     </div>

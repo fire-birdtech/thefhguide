@@ -28,7 +28,7 @@ const close = () => {
     open.value = false;
 }
 const destroy = () => {
-    router.delete(route('editor.collections.destroy', [props.collection.slug]));
+    router.delete(route('editor.collections.destroy', [props.collection.id]));
 }
 
 const updateOrder = (updated_project, sibling_project) => {
@@ -62,7 +62,7 @@ const moveUp = (orderNumber) => {
 
 const actions = [
     [
-        { name: 'Edit', as: 'link', icon: PencilSquareIcon, href: route('editor.collections.edit', [props.collection.slug]) }
+        { name: 'Edit', as: 'link', icon: PencilSquareIcon, href: route('editor.collections.edit', [props.collection.id]) }
     ],
     [
         { name: 'Archive', as: 'emitter', icon: ArchiveBoxIcon, emit: 'open' }
