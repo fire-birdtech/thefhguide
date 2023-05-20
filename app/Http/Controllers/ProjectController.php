@@ -42,7 +42,7 @@ class ProjectController extends Controller
     {
         $project = Project::create($request->validated());
 
-        return redirect()->route('editor.projects.show', [$project->slug]);
+        return redirect()->route('editor.projects.show', [$project->id]);
     }
 
     /**
@@ -102,7 +102,7 @@ class ProjectController extends Controller
             $project->updateCoverImage($request['image']);
         }
 
-        return redirect()->route('editor.projects.show', [$project->slug]);
+        return redirect()->route('editor.projects.show', [$project->id]);
     }
 
     /**

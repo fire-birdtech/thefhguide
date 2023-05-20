@@ -36,7 +36,7 @@ const close = () => {
     open.value = false;
 }
 const destroy = () => {
-    router.delete(route('editor.goals.destroy', [props.goal.slug]));
+    router.delete(route('editor.goals.destroy', [props.goal.id]));
 }
 const reload = () => {
     router.reload({ only: ['goal.choices'] });
@@ -73,9 +73,9 @@ const moveUp = (orderNumber) => {
 
 const actions = [
     [
-        { name: 'Edit', as: 'link', icon: PencilSquareIconSolid, href: route('editor.goals.edit', [props.goal.slug]) },
+        { name: 'Edit', as: 'link', icon: PencilSquareIconSolid, href: route('editor.goals.edit', [props.goal.id]) },
         { name: 'Add Assignment', as: 'link', icon: PlusCircleIcon, href: `${route('admin.assignments.create')}?assignable_id=${props.goal.id}&assignable_type=goal` },
-        { name: 'Preview Goal', as: 'link', icon: WindowIcon, href: route('editor.goals.preview', [props.goal.slug]), target: '_blank' }
+        { name: 'Preview Goal', as: 'link', icon: WindowIcon, href: route('editor.goals.preview', [props.goal.id]), target: '_blank' }
     ],
     [
         { name: 'Archive', as: 'emitter', icon: ArchiveBoxIcon, emit: 'open' }
@@ -123,7 +123,7 @@ const tableActions = {
                         <div class="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                             <dt class="text-sm font-medium text-gray-500">Project</dt>
                             <dd class="mt-1 text-sm font-bold text-gray-900 sm:mt-0 sm:col-span-2">
-                                <Link class="hover:text-gray-600" :href="route('editor.projects.show', [goal.project.slug])"> {{ goal.project.name }} </Link>
+                                <Link class="hover:text-gray-600" :href="route('editor.projects.show', [goal.project.id])"> {{ goal.project.name }} </Link>
                             </dd>
                         </div>
                     </dl>

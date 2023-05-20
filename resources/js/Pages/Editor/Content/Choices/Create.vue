@@ -115,7 +115,7 @@ const submit = () => {
                     </div>
                     <div class="px-6 py-4">
                         <div class="flex justify-end">
-                            <SecondaryButton :href="route('editor.goals.show', [goal.slug])" as="link">Cancel</SecondaryButton>
+                            <SecondaryButton :href="route('editor.goals.show', [goal.id])" as="link">Cancel</SecondaryButton>
                             <PrimaryButton type="submit" class="ml-3">Save</PrimaryButton>
                         </div>
                     </div>

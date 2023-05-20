@@ -169,7 +169,7 @@ class DraftController extends Controller
             return redirect()->route('admin.dashboard')
                 ->with('notification', [
                     'actions' => [
-                        'view' => ['href' => route("editor.{$draft->draftable_type}s.show", [$content->slug])],
+                        'view' => ['href' => route("editor.{$draft->draftable_type}s.show", [$content->id])],
                     ],
                     'message' => 'Your draft has been published',
                     'title' => 'Published successfully',
@@ -180,7 +180,7 @@ class DraftController extends Controller
         return redirect()->route('editor.dashboard')
             ->with('notification', [
                 'actions' => [
-                    'view' => ['href' => route("editor.{$draft->draftable_type}s.show", [$content->slug])],
+                    'view' => ['href' => route("editor.{$draft->draftable_type}s.show", [$content->id])],
                 ],
                 'message' => 'Your draft has been published',
                 'title' => 'Published successfully',

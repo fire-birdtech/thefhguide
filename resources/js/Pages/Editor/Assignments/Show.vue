@@ -32,7 +32,7 @@ const complete = () => {
                     </div>
                     <div class="ml-4 mt-2 space-x-2">
                         <PrimaryButtonWithDropdown
-                            :href="route(`editor.${assignment.assignable_type.split('\\')[2].toLowerCase()}s.show`, [assignment.assignable.slug])"
+                            :href="route(`editor.${assignment.assignable_type.split('\\')[2].toLowerCase()}s.show`, [assignment.assignable.id])"
                             :action="`Go to ${assignment.assignable_type.split('\\')[2]}`"
                             v-if="!assignment.completed_at"
                             :options="options"

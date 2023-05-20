@@ -93,7 +93,7 @@ class CollectionController extends Controller
         $collection->name = $request['name'];
         $collection->save();
 
-        return redirect()->route('editor.collections.show', [$collection->slug]);
+        return redirect()->route('editor.collections.show', [$collection->id]);
     }
 
     /**

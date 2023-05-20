@@ -33,11 +33,7 @@ const submit = () => {
 }
 
 const cancelLink = computed(() => {
-    if (props.assignableType === 'choice') {
-        return route('editor.' + props.assignableType + 's.show', [props.assignable.id]);
-    } else {
-        return route('editor.' + props.assignableType + 's.show', [props.assignable.slug])
-    }
+    return route('editor.' + props.assignableType + 's.show', [props.assignable.id]);
 });
 </script>
 

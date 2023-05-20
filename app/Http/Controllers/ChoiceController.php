@@ -67,7 +67,7 @@ class ChoiceController extends Controller
             }
         }
 
-        return redirect()->route('editor.goals.show', [$goal->slug]);
+        return redirect()->route('editor.goals.show', [$goal->id]);
     }
 
     /**
@@ -156,6 +156,6 @@ class ChoiceController extends Controller
 
         $choice->delete();
 
-        return redirect()->route('editor.goals.show', [$goal->slug]);
+        return redirect()->route('editor.goals.show', [$goal->id]);
     }
 }

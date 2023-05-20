@@ -42,7 +42,7 @@ class GoalController extends Controller
     {
         $goal = Goal::create($request->validated());
 
-        return redirect()->route('editor.goals.show', [$goal->slug]);
+        return redirect()->route('editor.goals.show', [$goal->id]);
     }
 
     /**
@@ -112,7 +112,7 @@ class GoalController extends Controller
         $goal->show_me_video_url = $request->show_me_video_url;
         $goal->save();
 
-        return redirect()->route('editor.goals.show', [$goal->slug]);
+        return redirect()->route('editor.goals.show', [$goal->id]);
     }
 
     /**
@@ -147,6 +147,6 @@ class GoalController extends Controller
 
         $goal->delete();
 
-        return redirect()->route('editor.projects.show', [$project->slug]);
+        return redirect()->route('editor.projects.show', [$project->id]);
     }
 }

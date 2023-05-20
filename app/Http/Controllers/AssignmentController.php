@@ -76,7 +76,7 @@ class AssignmentController extends Controller
             'user_id' => $request->user,
         ]));
 
-        return redirect()->route("editor.{$request->assignable_type}s.show", ["{$assignable->slug}"]);
+        return redirect()->route("editor.{$request->assignable_type}s.show", ["{$assignable->id}"]);
     }
 
     /**

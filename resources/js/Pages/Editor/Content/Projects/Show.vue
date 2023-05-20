@@ -33,7 +33,7 @@ const close = () => {
 const showPreview = ref(false);
 
 const destroy = () => {
-    router.delete(route('editor.projects.destroy', [props.project.slug]));
+    router.delete(route('editor.projects.destroy', [props.project.id]));
 }
 
 const updateOrder = (updated_goal, sibling_goal) => {
@@ -67,7 +67,7 @@ const moveUp = (orderNumber) => {
 
 const actions = [
     [
-        { name: 'Edit', as: 'link', icon: PencilSquareIconSolid, href: route('editor.projects.edit', [props.project.slug]) }
+        { name: 'Edit', as: 'link', icon: PencilSquareIconSolid, href: route('editor.projects.edit', [props.project.id]) }
     ],
     [
         { name: 'Archive', as: 'emitter', icon: ArchiveBoxIcon, emit: 'open' }
@@ -109,7 +109,7 @@ const tableActions = {
                     <div class="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                         <dt class="text-sm font-medium text-gray-500">Belongs to</dt>
                         <dd class="mt-1 text-sm font-bold text-gray-900 sm:mt-0 sm:col-span-2">
-                            <Link class="hover:text-gray-600" :href="route('editor.collections.show', [project.collection.slug])"> {{ project.collection.name }} </Link>
+                            <Link class="hover:text-gray-600" :href="route('editor.collections.show', [project.collection.id])"> {{ project.collection.name }} </Link>
                         </dd>
                     </div>
                     <div class="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
