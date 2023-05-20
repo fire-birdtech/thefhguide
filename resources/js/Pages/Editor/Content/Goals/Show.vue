@@ -1,9 +1,10 @@
 <script setup>
-import { computed, ref } from 'vue';
+import { computed, onMounted, onUnmounted, ref } from 'vue';
 import { DialogTitle } from '@headlessui/vue';
 import { DocumentPlusIcon, EyeIcon, PencilSquareIcon, TrashIcon } from '@heroicons/vue/24/outline';
 import { ArchiveBoxIcon, PencilSquareIcon as PencilSquareIconSolid, PlusCircleIcon, WindowIcon } from '@heroicons/vue/24/solid';
 import { Head, Link, router, useForm } from '@inertiajs/vue3';
+import { useChoicesStore } from '@/Stores/choices';
 import AdminLayout from  '@/Layouts/Admin.vue';
 import DangerModal from '@/Components/Modals/DangerModal.vue';
 import PrimaryButton from '@/Components/Buttons/PrimaryButton.vue';
@@ -23,6 +24,11 @@ const props = defineProps({
 });
 
 let sortedChoices = computed(() => props.goal.choices.sort((a, b) => a.order - b.order));
+
+const store = useChoicesStore();
+
+onMounted(() => store.$patch({ choices: sortedChoices }));
+onUnmounted(() => store.$reset());
 
 const open = ref(false);
 
