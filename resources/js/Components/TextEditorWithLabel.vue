@@ -13,7 +13,7 @@ defineEmits(['update:modelValue']);
         <BreezeLabel for="name" :value="label" class="sm:mt-px sm:pt-2" />
         <div class="mt-1 sm:mt-0 sm:col-span-4">
             <div class="border border-gray-300 rounded-md shadow-sm">
-                <TextEditor v-model="modelValue" @update:modelValue="$emit('update:modelValue', modelValue)" />
+                <TextEditor :modelValue="modelValue" @update:modelValue="$emit('update:modelValue', modelValue)" />
             </div>
             <BreezeInputError class="mt-1" :message="message" />
         </div>
