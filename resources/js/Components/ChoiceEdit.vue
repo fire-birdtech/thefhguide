@@ -1,5 +1,5 @@
 <script setup>
-import { onMounted, ref } from 'vue';
+import { onMounted, provide, ref } from 'vue';
 import { useForm } from '@inertiajs/vue3';
 import BreezeInput from '@/Components/Input.vue';
 import BreezeInputError from '@/Components/InputError.vue';
@@ -36,6 +36,8 @@ const choice = useForm({
     ...props.currentChoice
 });
 
+provide('choice', props.currentChoice);
+
 const hasSummary = ref(false);
 const hasExercises = ref(false);
 
@@ -66,6 +68,10 @@ const updateProperty = (index, data) => {
 
 const updateResourceList = (index, data) => {
     choice.content[index].data.push(data);
+}
+
+const removeResource = (index, resourceIndex) => {
+    choice.content[index].data.splice(resourceIndex, 1);
 }
 
 const updateImages = (data) => {
@@ -106,9 +112,9 @@ const submit = () => {
                     <template v-for="(item, index) in choice.content" :key="index">
                         <Summary v-if="item.type === 'summary'" @delete="deleteProperty(index)" @update="updateProperty(index, $event)" :item="item" />
                         <TextBlock v-else-if="item.type === 'text'" @delete="deleteProperty(index)" @update="updateProperty(index, $event)" :item="item" />
-                        <ResourceList v-if="item.type === 'resources'" @delete="deleteProperty(index)" @update="updateResourceList(index, $event)" :item="item" />
+                        <ResourceList v-if="item.type === 'resources'" :index="index" @delete="deleteProperty(index)" @update="updateResourceList(index, $event)" :item="item" />
                         <Header v-else-if="item.type === 'header'" @delete="deleteProperty(index)" @update="updateProperty(index, $event)" :item="item" />
-                        <Exercises v-else-if="item.type === 'exercises'" @delete="deleteProperty(index)" @update="updateResourceList(index, $event)" :item="item" />
+                        <Exercises v-else-if="item.type === 'exercises'" @delete="deleteProperty(index)" @update="updateResourceList(index, $event)" @remove="removeResource(index, $event)" :item="item" />
                         <QUIKLinks v-else-if="item.type === 'quiklinks'" @delete="deleteProperty(index)" @update="updateProperty(index, $event)" :item="item" />
                     </template>
                     <div class="space-x-2">

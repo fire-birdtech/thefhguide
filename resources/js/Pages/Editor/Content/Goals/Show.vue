@@ -14,8 +14,7 @@ import Table from '@/Components/Tables/Table.vue';
 import TableHead from '@/Components/Tables/TableHead.vue';
 import TableBody from '@/Components/Tables/TableBody.vue';
 import SecondaryButtonWithDropdown from '@/Components/Buttons/SecondaryButtonWithDropdown.vue';
-import StackedListWrapper from '@/Components/Lists/StackedListWrapper.vue';
-import ExpandableStackedListItem from '@/Components/Lists/ExpandableStackedListItem.vue';
+import ExpandableEditorChoiceItem from '@/Components/Lists/ExpandableEditorChoiceItem.vue';
 import Header3 from '@/Components/Headers/Header3.vue';
 
 const props = defineProps({
@@ -131,9 +130,9 @@ const tableActions = {
                 <div class="mt-12">
                     <TableHeader header="Choices" addText="Add choice" :add-route="route('editor.drafts.create', {type: 'choice', parent_id: goal.id})" />
 
-                    <StackedListWrapper class="mt-3">
-                        <ExpandableStackedListItem v-for="choice in sortedChoices" :key="choice.id" :item="choice" @reload="reload" />
-                    </StackedListWrapper>
+                    <ul role="list" class="mt-3 space-y-2">
+                        <ExpandableEditorChoiceItem v-for="choice in sortedChoices" :key="choice.id" :choice="choice" @reload="reload" />
+                    </ul>
                 </div>
 
                 <div class="mt-12" v-if="goal.child_drafts.length">

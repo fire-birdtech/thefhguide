@@ -7,7 +7,7 @@ import PrimaryButton from '@/Components/Buttons/PrimaryButton.vue';
 
 const props = defineProps(['resource']);
 
-const emit = defineEmits(['update'])
+const emit = defineEmits(['update', 'remove'])
 
 const view = ref('show');
 
@@ -25,6 +25,9 @@ const submit = () => {
 const saveResource = () => {
     submit();
     view.value = "show";
+}
+const removeResource = () => {
+    emit('remove');
 }
 </script>
 
@@ -77,10 +80,10 @@ const saveResource = () => {
                 <PencilSquareIcon class="h-6 w-6" />
                 <span class="sr-only">Edit resource</span>
             </div>
-            <div class="text-purple-600 hover:text-purple-900 cursor-pointer">
+            <button @click.prevent="removeResource()" class="text-purple-600 hover:text-purple-900">
                 <TrashIcon class="h-6 w-6" />
                 <span class="sr-only">Delete resource</span>
-            </div>
+            </button>
         </div>
     </li>
 </template>
