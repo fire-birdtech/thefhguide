@@ -38,16 +38,6 @@ class Collection extends Model
             ->saveSlugsTo('slug');
     }
 
-    /**
-     * Get the route key for the model.
-     *
-     * @return string
-     */
-    public function getRouteKeyName(): string
-    {
-        return 'slug';
-    }
-
     public function projects(): HasMany
     {
         return $this->HasMany(Project::class);
