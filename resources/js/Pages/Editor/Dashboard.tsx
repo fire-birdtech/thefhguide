@@ -7,6 +7,7 @@ import TableBody from "@/Components/Tables/TableBody";
 import TableHead from "@/Components/Tables/TableHead";
 import {Header3} from "@/Components/Typography/Headers";
 import NoAssignments from "@/Components/EmptyStates/NoAssignments";
+import DraftList from "@/Components/Drafts/DraftList";
 
 const cells = {
     assignable: 'Belongs to',
@@ -50,16 +51,7 @@ export default function EditorDashboard({ assignments, auth, drafts }: PageProps
                         </>
                     ) : <NoAssignments/>}
 
-                    {drafts.length ? (
-                        <div className="mt-6">
-                            <Header3>
-                                My Drafts
-                            </Header3>
-                            <div className="mt-4">
-                                {/*DraftList*/}
-                            </div>
-                        </div>
-                    ) : null}
+                    {drafts.length ? <DraftList/> : null}
                 </div>
             </Admin>
         </>
