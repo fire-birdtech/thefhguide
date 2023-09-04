@@ -10,8 +10,8 @@ export default function AdminDashboard({ auth, drafts, editors }) {
 
             <Admin user={auth.user}>
                 <div className="w-full py-8 px-4 sm:px-6 lg:px-8">
-                    {editors.length ? <EditorList/> : null}
-                    {drafts.length ? <DraftList/> : null}
+                    {editors.length ? <EditorList editors={editors}/> : null}
+                    {drafts.length ? <DraftList drafts={drafts}/> : null}
                 </div>
             </Admin>
         </>
