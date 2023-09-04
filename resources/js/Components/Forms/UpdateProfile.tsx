@@ -1,7 +1,7 @@
 import {User} from "@/types";
 import {Header3} from "@/Components/Typography/Headers";
 import {Paragraph} from "@/Components/Typography/Paragraphs";
-import TextInput from "@/Components/Forms/TextInput";
+import TextInput from "@/Components/Forms/TextInputCombined";
 import {useForm} from "@inertiajs/react";
 import PrimaryButton from "@/Components/Buttons/PrimaryButton";
 

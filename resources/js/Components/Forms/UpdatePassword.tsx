@@ -3,7 +3,7 @@ import {useForm} from "@inertiajs/react";
 import {User} from "@/types";
 import {Header3} from "@/Components/Typography/Headers";
 import {Paragraph} from "@/Components/Typography/Paragraphs";
-import TextInput from "@/Components/Forms/TextInput";
+import TextInput from "@/Components/Forms/TextInputCombined";
 import PrimaryButton from "@/Components/Buttons/PrimaryButton";
 
 export default function UpdatePassword({ user }: { user: User }) {

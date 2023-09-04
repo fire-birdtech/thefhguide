@@ -10,7 +10,7 @@ import Table from "@/Components/Tables/Table";
 import TableHead from "@/Components/Tables/TableHead";
 import TableBody from "@/Components/Tables/TableBody";
 
-export default function CollectionShow({ auth, collection, errors, success }) {
+export default function CollectionShow({ auth, collection }) {
   const [confirmCollectionArchive, setConfirmCollectionArchive] = useState(false);
 
   const updateOrder = (updatedProject, siblingProject) => {
@@ -24,9 +24,11 @@ export default function CollectionShow({ auth, collection, errors, success }) {
     });
   }
 
-  const sortedProjects = () => {
+  const sortedProjects = (): array => {
     return collection.projects.sort((a,b) => a.order - b.order);
   }
+
+  // console.log('sortedProjects',sortedProjects);
 
   const findProjectIndex = (orderNumber: number) => {
     return sortedProjects.findIndex(project => project.order === orderNumber);
@@ -85,25 +87,25 @@ export default function CollectionShow({ auth, collection, errors, success }) {
                 <Header3>
                   Collection Details: {collection.name}
                 </Header3>
-                <div className="ml-4">
-                  <SecondaryButtonWithDropdown
+              </div>
+              <div className="ml-4">
+                <SecondaryButtonWithDropdown
                     buttonText="Options"
                     actions={actions}
-                  />
+                />
+              </div>
+            </div>
+            <div className="mt-4 bg-white shadow overflow-hidden sm:rounded-lg">
+              <dl className="sm:divide-y sm:divide-gray-200">
+                <div className="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                  <dt className="text-sm font-medium text-gray-500">
+                    Name
+                  </dt>
+                  <dd className="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
+                    {collection.name}
+                  </dd>
                 </div>
-              </div>
-              <div className="mt-4 bg-white shadow overflow-hidden sm:rounded-lg">
-                <dl className="sm:divide-y sm:divide-gray-200">
-                  <div className="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-                    <dt className="text-sm font-medium text-gray-500">
-                      Name
-                    </dt>
-                    <dd className="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
-                      {collection.name}
-                    </dd>
-                  </div>
-                </dl>
-              </div>
+              </dl>
             </div>
           </div>
 
@@ -117,15 +119,15 @@ export default function CollectionShow({ auth, collection, errors, success }) {
             />
             <Table className="mt-2">
               <TableHead cells={projectCells} actions={true} order={true}/>
-              <TableBody
-                cells={projectCells}
-                rows={sortedProjects}
-                routeType="editor.projects"
-                actions={tableActions}
-                order={true}
-                moveDown={() => moveDown}
-                moveUp={() => moveUp}
-              />
+              {/*<TableBody*/}
+              {/*  cells={projectCells}*/}
+              {/*  rows={sortedProjects}*/}
+              {/*  routeType="editor.projects"*/}
+              {/*  actions={tableActions}*/}
+              {/*  order={true}*/}
+              {/*  moveDown={() => moveDown}*/}
+              {/*  moveUp={() => moveUp}*/}
+              {/*/>*/}
             </Table>
           </div>
 
@@ -142,7 +144,7 @@ export default function CollectionShow({ auth, collection, errors, success }) {
                 />
               </Table>
             </div>
-          )}
+          ) : null}
         </Container>
       </Admin>
     </>

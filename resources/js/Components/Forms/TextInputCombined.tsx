@@ -2,7 +2,7 @@ import {forwardRef, useEffect, useImperativeHandle, useRef, type HTMLAttributes,
 
 export default forwardRef(function TextInput(
   {type = 'text', className = '', isFocused = false, label, message, optional = false, ...props}: InputHTMLAttributes<HTMLInputElement> & LabelHTMLAttributes<HTMLLabelElement> & HTMLAttributes<HTMLParagraphElement> & {
-    isFocused?: boolean, message: string, label?: string
+    isFocused?: boolean, message: string, label?: string, optional?: boolean
   },
   ref
 ) {

@@ -1,7 +1,7 @@
 import { useEffect, type FormEventHandler, type ReactElement } from 'react';
 import { Head, Link, useForm } from '@inertiajs/react';
 import Guest from "@/Layouts/Guest";
-import TextInput from "@/Components/Forms/TextInput";
+import TextInput from "@/Components/Forms/TextInputCombined";
 import PrimaryButton from "@/Components/Buttons/PrimaryButton";
 
 export default function Register () {

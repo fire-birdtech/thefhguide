@@ -4,7 +4,7 @@ import {Header3} from "@/Components/Typography/Headers";
 import {Paragraph} from "@/Components/Typography/Paragraphs";
 import DangerButton from "@/Components/Buttons/DangerButton";
 import DangerModal from "@/Components/Modals/DangerModal.vue";
-import TextInput from "@/Components/Forms/TextInput";
+import TextInput from "@/Components/Forms/TextInputCombined";
 import SecondaryButton from "@/Components/Buttons/SecondaryButton";
 import {User} from "@/types";
 

@@ -30,11 +30,9 @@ export default function AssignmentsIndex({ assignments, auth }) {
                         <>
                             <TableHeader header="Assignments"/>
                             <Table className="mt-2">
-                                <TableHead cells={cells
-                                } actions={true}/>
+                                <TableHead cells={cells} actions={true}/>
                                 <TableBody
-                                    cells={cells
-                                }
+                                    cells={cells}
                                     rows={assignments}
                                     routeType="editor.assignments"
                                     adminRouteType="admin.assignments"

@@ -1,6 +1,6 @@
 import {FormEventHandler, useEffect} from "react";
 import {Head, Link, useForm} from "@inertiajs/react";
-import TextInput from "@/Components/Forms/TextInput";
+import TextInput from "@/Components/Forms/TextInputCombined";
 import Checkbox from "@/Components/Forms/Checkbox";
 import PrimaryButton from "@/Components/Buttons/PrimaryButton";
 import Guest from "@/Layouts/Guest";
