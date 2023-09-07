@@ -27,9 +27,7 @@ export default function ProjectShow({ auth, project }) {
     });
   }
 
-  const sortedGoals = () => {
-    return project.goals.sort((a,b) => a.order - b.order);
-  }
+  const sortedGoals: array = project.goals.sort((a,b) => a.order - b.order);
 
   const findGoalIndex = (orderNumber: number) => {
     return sortedGoals.findIndex(goal => goal.order === orderNumber);
@@ -147,7 +145,7 @@ export default function ProjectShow({ auth, project }) {
               <TableHead cells={goalCells} actions={true}/>
               <TableBody
                 cells={goalCells}
-                rows={}
+                rows={sortedGoals}
                 routeType="editor.goals"
                 actions={tableActions}
                 order={true}
@@ -164,13 +162,13 @@ export default function ProjectShow({ auth, project }) {
                 <TableHead cells={draftCells} actions={true}/>
                 <TableBody
                   cells={draftCells}
-                  rows={sortedGoals}
+                  rows={project.child_drafts}
                   routeType="editor.drafts"
                   actions={tableActions}
                 />
               </Table>
             </div>
-          )}
+          ) : null}
         </Container>
 
         {/*Cover Image Preview*/}

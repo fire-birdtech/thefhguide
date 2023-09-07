@@ -24,11 +24,7 @@ export default function CollectionShow({ auth, collection }) {
     });
   }
 
-  const sortedProjects = (): array => {
-    return collection.projects.sort((a,b) => a.order - b.order);
-  }
-
-  // console.log('sortedProjects',sortedProjects);
+  const sortedProjects = collection.projects.sort((a,b) => a.order - b.order);
 
   const findProjectIndex = (orderNumber: number) => {
     return sortedProjects.findIndex(project => project.order === orderNumber);
@@ -119,15 +115,15 @@ export default function CollectionShow({ auth, collection }) {
             />
             <Table className="mt-2">
               <TableHead cells={projectCells} actions={true} order={true}/>
-              {/*<TableBody*/}
-              {/*  cells={projectCells}*/}
-              {/*  rows={sortedProjects}*/}
-              {/*  routeType="editor.projects"*/}
-              {/*  actions={tableActions}*/}
-              {/*  order={true}*/}
-              {/*  moveDown={() => moveDown}*/}
-              {/*  moveUp={() => moveUp}*/}
-              {/*/>*/}
+              <TableBody
+                cells={projectCells}
+                rows={sortedProjects}
+                routeType="editor.projects"
+                actions={tableActions}
+                order={true}
+                moveDown={() => moveDown}
+                moveUp={() => moveUp}
+              />
             </Table>
           </div>
 
