@@ -1,10 +1,9 @@
+import {useState} from "react";
 import {Head, useForm} from "@inertiajs/react";
 import Admin from "@/Layouts/Admin";
 import Container from "@/Components/Container";
 import {Header3} from "@/Components/Typography/Headers";
 import SecondaryButtonWithDropdown from "@/Components/Buttons/SecondaryButtonWithDropdown";
-import {useState} from "react";
-import {ArchiveBoxIcon, PencilSquareIcon} from "@heroicons/react/24/solid";
 import TableHeader from "@/Components/Tables/TableHeader";
 import Table from "@/Components/Tables/Table";
 import TableHead from "@/Components/Tables/TableHead";
@@ -50,10 +49,10 @@ export default function CollectionShow({ auth, collection }) {
 
   const actions = [
     [
-      { name: 'Edit', as: 'link', icon: PencilSquareIcon, href: route('editor.collections.edit', [collection.id]) },
+      { name: 'Edit', as: 'link', icon: 'PencilSquareIcon', href: route('editor.collections.edit', [collection.id]) },
     ],
     [
-      { name: 'Archive', as: 'emitter', icon: ArchiveBoxIcon, emit: () => setConfirmCollectionArchive(true) },
+      { name: 'Archive', as: 'emitter', icon: 'ArchiveBoxIcon', emit: () => setConfirmCollectionArchive(true) },
     ],
   ];
 

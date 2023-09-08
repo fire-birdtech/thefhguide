@@ -1,6 +1,5 @@
 import {Fragment, useState} from "react";
 import {Dialog, Transition} from "@headlessui/react";
-import {ArchiveBoxIcon, PencilSquareIcon} from "@heroicons/react/24/solid";
 import {Head, Link, useForm} from "@inertiajs/react";
 import Admin from "@/Layouts/Admin";
 import Container from "@/Components/Container";
@@ -27,7 +26,7 @@ export default function ProjectShow({ auth, project }) {
     });
   }
 
-  const sortedGoals: array = project.goals.sort((a,b) => a.order - b.order);
+  const sortedGoals = project.goals.sort((a,b) => a.order - b.order);
 
   const findGoalIndex = (orderNumber: number) => {
     return sortedGoals.findIndex(goal => goal.order === orderNumber);
@@ -53,10 +52,10 @@ export default function ProjectShow({ auth, project }) {
 
   const actions = [
     [
-      { name: 'Edit', as: 'link', icon: PencilSquareIcon, href: route('editor.projects.edit', [project.id]) },
+      { name: 'Edit', as: 'link', icon: 'PencilSquareIcon', href: route('editor.projects.edit', [project.id]) },
     ],
     [
-      { name: 'Archive', as: 'emitter', icon: ArchiveBoxIcon, emit: () => setConfirmProjectArchive(true) },
+      { name: 'Archive', as: 'emitter', icon: 'ArchiveBoxIcon', emit: () => setConfirmProjectArchive(true) },
     ],
   ];
 

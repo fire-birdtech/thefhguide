@@ -1,11 +1,5 @@
 import {useState} from "react";
 import {Head, Link, useForm} from "@inertiajs/react";
-import {
-  ArchiveBoxIcon,
-  PencilSquareIcon as PencilSquareIconSolid,
-  PlusCircleIcon,
-  WindowIcon
-} from "@heroicons/vue/24/solid";
 import Admin from "@/Layouts/Admin";
 import Container from "@/Components/Container";
 import {Header3} from "@/Components/Typography/Headers";
@@ -29,7 +23,7 @@ export default function GoalShow({ auth, goal }) {
     });
   }
 
-  const sortedChoices =goal.choices.sort((a,b) => a.order - b.order);
+  const sortedChoices = goal.choices.sort((a,b) => a.order - b.order);
 
   const findChoiceIndex = (orderNumber: number) => {
     return sortedChoices.findIndex(choice => choice.order === orderNumber);
@@ -55,14 +49,15 @@ export default function GoalShow({ auth, goal }) {
 
   const actions = [
     [
-      { name: 'Edit', as: 'link', icon: PencilSquareIconSolid, href: route('editor.goals.edit', [goal.id]) },
-      { name: 'Add Assignment', as: 'link', icon: PlusCircleIcon, href: `${route('admin.assignments.create')}?assignable_id=${goal.id}&assignable_type=goal` },
-      { name: 'Preview Goal', as: 'link', icon: WindowIcon, href: route('editor.goals.preview', [goal.id]), target: '_blank' }
+      { name: 'Edit', as: 'link', icon: 'PencilSquareIcon', href: route('editor.goals.edit', [goal.id]) },
+      { name: 'Add Assignment', as: 'link', icon: 'PlusCircleIcon', href: `${route('admin.assignments.create')}?assignable_id=${goal.id}&assignable_type=goal` },
+      { name: 'Preview Goal', as: 'link', icon: 'WindowIcon', href: route('editor.goals.preview', [goal.id]), target: '_blank' },
     ],
     [
-      { name: 'Archive', as: 'emitter', icon: ArchiveBoxIcon, emit: 'open' }
-    ]
+      { name: 'Archive', as: 'emitter', icon: 'ArchiveBoxIcon', emit: () => setConfirmGoalArchive(true) },
+    ],
   ];
+
   const draftCells = {
     name: 'Name',
     user: 'Author',
