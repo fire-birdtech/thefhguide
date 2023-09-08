@@ -1,5 +1,5 @@
 import {useState} from "react";
-import {Head, useForm} from "@inertiajs/react";
+import {Head, useForm, usePage} from "@inertiajs/react";
 import Admin from "@/Layouts/Admin";
 import Container from "@/Components/Container";
 import {Header3} from "@/Components/Typography/Headers";
@@ -8,9 +8,12 @@ import TableHeader from "@/Components/Tables/TableHeader";
 import Table from "@/Components/Tables/Table";
 import TableHead from "@/Components/Tables/TableHead";
 import TableBody from "@/Components/Tables/TableBody";
+import {NotificationType} from "@/types";
 
 export default function CollectionShow({ auth, collection }) {
   const [confirmCollectionArchive, setConfirmCollectionArchive] = useState(false);
+
+  // const { notification }: { notification: NotificationType } = usePage().props.flash;
 
   const updateOrder = (updatedProject, siblingProject) => {
     const {data, setData, errors, put, reset, processing} = useForm({

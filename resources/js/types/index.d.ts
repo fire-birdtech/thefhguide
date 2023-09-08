@@ -27,6 +27,19 @@ export interface Draft {
   updated_at: Date;
 }
 
+export interface NotificationActions {
+  view: {
+    href: string;
+  };
+}
+
+export interface NotificationType {
+  actions: boolean | NotificationActions;
+  message: string;
+  title: string;
+  type: string;
+}
+
 export type PageProps<T extends Record<string, unknown> = Record<string, unknown>> = T & {
   auth: {
     user: User
