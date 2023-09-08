@@ -8,6 +8,7 @@ import TableHeader from "@/Components/Tables/TableHeader";
 import Table from "@/Components/Tables/Table";
 import TableHead from "@/Components/Tables/TableHead";
 import TableBody from "@/Components/Tables/TableBody";
+import Prose from "@/Components/Prose";
 
 export default function GoalShow({ auth, goal }) {
   const [confirmGoalArchive, setConfirmGoalArchive] = useState(false);
@@ -103,7 +104,7 @@ export default function GoalShow({ auth, goal }) {
                   Summary
                 </dt>
                 <dd className="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
-                  <div className="prose prose-sm" dangerouslySetInnerHTML={{ __html: goal.summary }}/>
+                  <Prose html={goal.summary}/>
                 </dd>
               </div>
               <div className="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
