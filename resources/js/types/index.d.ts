@@ -13,7 +13,7 @@ export interface Collection {
   created_at: string;
   updated_at: string;
   locked: boolean;
-  deleted_at: string;s
+  deleted_at: string;
 }
 
 export interface Project {
@@ -26,6 +26,22 @@ export interface Project {
   created_at: string;
   updated_at: string;
   collection_id: number;
+  locked: boolean;
+  order: number;
+  deleted_at: string;
+}
+
+export interface Goal {
+  id: number;
+  name: string;
+  slug: string;
+  nav_name: string;
+  section_name: string;
+  summary: string;
+  show_me_video_url: string;
+  project_id: number;
+  created_at: string;
+  updated_at: string;
   locked: boolean;
   order: number;
   deleted_at: string;
