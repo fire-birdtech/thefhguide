@@ -3,7 +3,7 @@ import {HTMLAttributes, ReactElement} from "react";
 export default function ({
   message,
   className = '',
-  ...props,
+  ...props
 }: HTMLAttributes<HTMLParagraphElement> & {
   message?: string;
 }): ReactElement | null {

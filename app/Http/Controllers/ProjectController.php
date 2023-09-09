@@ -3,10 +3,13 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\ProjectRequest;
+use App\Http\Requests\ProjectUpdateRequest;
 use App\Http\Requests\UpdateProjectOrderRequest;
 use App\Models\Collection;
 use App\Models\Project;
+use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
+use Illuminate\Http\Response;
 
 class ProjectController extends Controller
 {
@@ -48,7 +51,7 @@ class ProjectController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Project  $project
+     * @param Project $project
      * @return \Illuminate\Http\Response
      */
     public function show(Project $project)
@@ -63,7 +66,7 @@ class ProjectController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Project  $project
+     * @param Project $project
      * @return \Illuminate\Http\Response
      */
     public function edit(Request $request, Project $project)
@@ -89,11 +92,11 @@ class ProjectController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Project  $project
-     * @return \Illuminate\Http\Response
+     * @param ProjectUpdateRequest $request
+     * @param Project $project
+     * @return RedirectResponse
      */
-    public function update(ProjectRequest $request, Project $project)
+    public function update(ProjectUpdateRequest $request, Project $project): RedirectResponse
     {
         $project->name = $request->name;
         $project->save();
@@ -128,7 +131,7 @@ class ProjectController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Project  $project
+     * @param Project $project
      * @return \Illuminate\Http\Response
      */
     public function destroy(Project $project)

@@ -5,6 +5,32 @@ export interface User {
   email_verified_at: string
 }
 
+export interface Collection {
+  id: number;
+  name: string;
+  slug: string;
+  website_url: string;
+  created_at: string;
+  updated_at: string;
+  locked: boolean;
+  deleted_at: string;s
+}
+
+export interface Project {
+  id: number;
+  name: string;
+  slug: string;
+  cover_image_path: string;
+  cover_image_url: string;
+  instructions: string;
+  created_at: string;
+  updated_at: string;
+  collection_id: number;
+  locked: boolean;
+  order: number;
+  deleted_at: string;
+}
+
 export interface ChoiceContent {
   data: string;
   type: string;
