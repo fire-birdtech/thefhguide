@@ -7,7 +7,7 @@ import { router } from '@inertiajs/vue3';
 import { Head, Link } from '@inertiajs/vue3';
 import AdminLayout from '@/Layouts/Admin.vue';
 import SecondaryButton from '@/Components/Buttons/SecondaryButton.vue';
-import DangerModal from '@/Components/Modals/DangerModal.vue';
+import Danger from '@/Components/Modals/DangerModal.vue';
 import SecondaryButtonWithDropdown from '@/Components/Buttons/SecondaryButtonWithDropdown.vue';
 import Header3 from '@/Components/Headers/Header3.vue';
 

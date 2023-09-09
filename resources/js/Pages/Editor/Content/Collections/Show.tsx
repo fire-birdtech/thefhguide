@@ -1,5 +1,5 @@
-import {useState} from "react";
-import {Head, useForm, usePage} from "@inertiajs/react";
+import {FormEventHandler, useState} from "react";
+import {Head, router, useForm} from "@inertiajs/react";
 import Admin from "@/Layouts/Admin";
 import Container from "@/Components/Container";
 import {Header3} from "@/Components/Typography/Headers";
@@ -8,15 +8,14 @@ import TableHeader from "@/Components/Tables/TableHeader";
 import Table from "@/Components/Tables/Table";
 import TableHead from "@/Components/Tables/TableHead";
 import TableBody from "@/Components/Tables/TableBody";
-import {NotificationType} from "@/types";
+import DangerModal from "@/Components/Modals/Danger";
+import {Dialog} from "@headlessui/react";
 
 export default function CollectionShow({ auth, collection }) {
   const [confirmCollectionArchive, setConfirmCollectionArchive] = useState(false);
 
-  // const { notification }: { notification: NotificationType } = usePage().props.flash;
-
   const updateOrder = (updatedProject, siblingProject) => {
-    const {data, setData, errors, put, reset, processing} = useForm({
+    const {put} = useForm({
       updatedProject,
       siblingProject,
     });
@@ -24,6 +23,12 @@ export default function CollectionShow({ auth, collection }) {
     put(route('editor.projects.update-order', [updatedProject]), {
       preserveScroll: true,
     });
+  }
+
+  const archive: FormEventHandler = (e) => {
+    e.preventDefault();
+
+    router.delete(route('editor.collections.destroy', [collection.id]));
   }
 
   const sortedProjects = collection.projects.sort((a,b) => a.order - b.order);
@@ -145,6 +150,17 @@ export default function CollectionShow({ auth, collection }) {
           ) : null}
         </Container>
       </Admin>
+
+      <DangerModal dangerButtonText="Archive" open={confirmCollectionArchive} setOpen={setConfirmCollectionArchive} destroy={archive}>
+        <Dialog.Title as="h3" className="text-lg font-medium leading-6 text-gray-900">
+          Archive Collection
+        </Dialog.Title>
+        <div className="mt-2">
+          <p className="text-sm text-gray-500">
+            Are you sure you want to archive {collection.name}?
+          </p>
+        </div>
+      </DangerModal>
     </>
   );
 }

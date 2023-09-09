@@ -1,6 +1,6 @@
-import {Fragment, useState} from "react";
+import {FormEventHandler, Fragment, useState} from "react";
 import {Dialog, Transition} from "@headlessui/react";
-import {Head, Link, useForm} from "@inertiajs/react";
+import {Head, Link, router, useForm} from "@inertiajs/react";
 import Admin from "@/Layouts/Admin";
 import Container from "@/Components/Container";
 import {Header3} from "@/Components/Typography/Headers";
@@ -10,13 +10,14 @@ import TableHeader from "@/Components/Tables/TableHeader";
 import Table from "@/Components/Tables/Table";
 import TableHead from "@/Components/Tables/TableHead";
 import TableBody from "@/Components/Tables/TableBody";
+import DangerModal from "@/Components/Modals/Danger";
 
 export default function ProjectShow({ auth, project }) {
   const [confirmProjectArchive, setConfirmProjectArchive] = useState(false);
   const [showCoverImagePreview, setShowCoverImagePreview] = useState(false);
 
   const updateOrder = (updated, sibling) => {
-    const {data, setData, errors, put, reset, processing} = useForm({
+    const {put} = useForm({
       updated,
       sibling
     });
@@ -24,6 +25,12 @@ export default function ProjectShow({ auth, project }) {
     put(route('editor.goals.update-order', [updated]), {
       preserveScroll: true,
     });
+  }
+
+  const archive: FormEventHandler = (e) => {
+    e.preventDefault();
+
+    router.delete(route('editor.projects.destroy', [project.id]));
   }
 
   const sortedGoals = project.goals.sort((a,b) => a.order - b.order);
@@ -212,6 +219,17 @@ export default function ProjectShow({ auth, project }) {
           </Dialog>
         </Transition.Root>
       </Admin>
+
+      <DangerModal dangerButtonText="Archive" destroy={archive} open={confirmProjectArchive} setOpen={setConfirmProjectArchive}>
+        <Dialog.Title as="h3" className="text-lg font-medium leading-6 text-gray-900">
+          Archive Project
+        </Dialog.Title>
+        <div className="mt-2">
+          <p className="text-sm text-gray-500">
+            Are you sure you want to archive {project.name}?
+          </p>
+        </div>
+      </DangerModal>
     </>
   );
 }

@@ -1,5 +1,6 @@
-import {useState} from "react";
-import {Head, Link, useForm} from "@inertiajs/react";
+import {FormEventHandler, useState} from "react";
+import {Head, Link, router, useForm} from "@inertiajs/react";
+import {Dialog} from "@headlessui/react";
 import Admin from "@/Layouts/Admin";
 import Container from "@/Components/Container";
 import {Header3} from "@/Components/Typography/Headers";
@@ -9,12 +10,13 @@ import Table from "@/Components/Tables/Table";
 import TableHead from "@/Components/Tables/TableHead";
 import TableBody from "@/Components/Tables/TableBody";
 import Prose from "@/Components/Prose";
+import DangerModal from "@/Components/Modals/Danger";
 
 export default function GoalShow({ auth, goal }) {
   const [confirmGoalArchive, setConfirmGoalArchive] = useState(false);
 
   const updateOrder = (updated, sibling) => {
-    const {data, setData, errors, put, reset, processing} = useForm({
+    const {put} = useForm({
       updated,
       sibling,
     });
@@ -22,6 +24,12 @@ export default function GoalShow({ auth, goal }) {
     put(route('editor.choices.update-order'), {
       preserveScroll: true,
     });
+  }
+
+  const archive: FormEventHandler = (e) => {
+    e.preventDefault();
+
+    router.delete(route('editor.goals.destroy', [goal.id]));
   }
 
   const sortedChoices = goal.choices.sort((a,b) => a.order - b.order);
@@ -153,6 +161,17 @@ export default function GoalShow({ auth, goal }) {
           ) : null}
         </Container>
       </Admin>
+
+      <DangerModal dangerButtonText="Archive" destroy={archive} open={confirmGoalArchive} setOpen={setConfirmGoalArchive}>
+        <Dialog.Title as="h3" className="text-lg font-medium leading-6 text-gray-900">
+          Archive Goal
+        </Dialog.Title>
+        <div className="mt-2">
+          <p className="text-sm text-gray-500">
+            Are you sure you want to archive {goal.name}?
+          </p>
+        </div>
+      </DangerModal>
     </>
   );
 }
