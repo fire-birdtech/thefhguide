@@ -10,7 +10,7 @@ import {
   WindowIcon
 } from "@heroicons/react/24/solid";
 
-const menuItemStyles = (active) => {
+const menuItemStyles = (active: boolean): string => {
   return classNames(
     active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
     'group flex items-center px-4 py-2 text-sm',
