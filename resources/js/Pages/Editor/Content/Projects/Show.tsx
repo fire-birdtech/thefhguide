@@ -50,6 +50,10 @@ export default function ProjectShow({ auth, project }) {
     updateOrder(sortedGoals[index - 1], sortedGoal[index]);
   }
 
+  const openImagePreview = () => {
+    console.log(showCoverImagePreview);
+  }
+
   const actions = [
     [
       { name: 'Edit', as: 'link', icon: 'PencilSquareIcon', href: route('editor.projects.edit', [project.id]) },
@@ -123,7 +127,7 @@ export default function ProjectShow({ auth, project }) {
                       Show image
                     </SecondaryButtonSmall>
                   ) : (
-                    <div className="mt-1 text-sm text-gray-500 sm:mt-0 sm:col-span-2">
+                    <div className="mt-1 text-sm font-normal text-gray-500 sm:mt-0 sm:col-span-2">
                       No cover image available
                     </div>
                   )}
@@ -141,7 +145,7 @@ export default function ProjectShow({ auth, project }) {
                 {type: 'goal', parent_id: project.id})}
             />
             <Table className="mt-2">
-              <TableHead cells={goalCells} actions={true}/>
+              <TableHead cells={goalCells} order={true} actions={true}/>
               <TableBody
                 cells={goalCells}
                 rows={sortedGoals}
