@@ -1,7 +1,14 @@
 import {Menu} from "@headlessui/react";
 import classNames from "@/Utils/classNames";
 import {Link} from "@inertiajs/react";
-import {ArchiveBoxIcon, PencilSquareIcon, PlusCircleIcon, WindowIcon} from "@heroicons/react/24/solid";
+import {
+  ArchiveBoxIcon,
+  ArrowUpTrayIcon,
+  BellAlertIcon,
+  PencilSquareIcon,
+  PlusCircleIcon,
+  WindowIcon
+} from "@heroicons/react/24/solid";
 
 const menuItemStyles = (active) => {
   return classNames(
@@ -14,6 +21,8 @@ const iconStyles: string = 'mr-3 h-5 w-5 text-gray-400 group-hover:text-gray-500
 
 const icons = {
   'ArchiveBoxIcon': ArchiveBoxIcon,
+  'ArrowUpTrayIcon': ArrowUpTrayIcon,
+  'BellAlertIcon': BellAlertIcon,
   'PencilSquareIcon': PencilSquareIcon,
   'PlusCircleIcon': PlusCircleIcon,
   'WindowIcon': WindowIcon,
