@@ -9,14 +9,14 @@ const buttonStyles = "inline-flex items-center rounded-l-md rounded-r-none bg-bl
 
 export default function PrimaryButtonWithDropDown({
   action,
-  href,
   options,
+  href,
   save
 }: {
   action: string,
-  href?: string,
   options: {}[],
-  save: MouseEventHandler,
+  href?: string,
+  save?: MouseEventHandler,
 }) {
   return (
     <Menu as="div" className="relative inline-block text-left">

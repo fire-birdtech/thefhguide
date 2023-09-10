@@ -69,6 +69,17 @@ export interface Draft {
   updated_at: Date;
 }
 
+export interface Assignment {
+  id: number;
+  status: string;
+  user_id: number;
+  assignable_type: string;
+  assignable_id: string;
+  created_at: string;
+  updated_at: string;
+  completed_at: string;
+}
+
 export interface NotificationActions {
   view: {
     href: string;

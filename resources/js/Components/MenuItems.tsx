@@ -5,6 +5,7 @@ import {
   ArchiveBoxIcon,
   ArrowUpTrayIcon,
   BellAlertIcon,
+  DocumentCheckIcon,
   PencilSquareIcon,
   PlusCircleIcon,
   WindowIcon
@@ -23,6 +24,7 @@ const icons = {
   'ArchiveBoxIcon': ArchiveBoxIcon,
   'ArrowUpTrayIcon': ArrowUpTrayIcon,
   'BellAlertIcon': BellAlertIcon,
+  'DocumentCheckIcon': DocumentCheckIcon,
   'PencilSquareIcon': PencilSquareIcon,
   'PlusCircleIcon': PlusCircleIcon,
   'WindowIcon': WindowIcon,
