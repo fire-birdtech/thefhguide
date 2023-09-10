@@ -39,7 +39,7 @@ export default function EditorIndex({ auth, invitations, users }: PageProps<{
   }
   const deleteInvitation = () => {
     router.delete(route('admin.invitations.destroy', selectedInvitationToBeDeleted.id), {
-      onSuccess: () => setConfirmDeleteInvitation(false);
+      onSuccess: () => setConfirmDeleteInvitation(false),
     });
   }
   const cells = {

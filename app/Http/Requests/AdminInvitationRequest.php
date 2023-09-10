@@ -24,7 +24,7 @@ class AdminInvitationRequest extends FormRequest
     public function rules()
     {
         return [
-            'admin_id' => 'required|integer',
+            'admin' => 'required',
             'email' => 'required|email|unique:invitations',
             'name' => 'required|string',
             'role' => 'required|string',
