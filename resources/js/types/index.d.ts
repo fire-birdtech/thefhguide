@@ -80,6 +80,16 @@ export interface Assignment {
   completed_at: string;
 }
 
+export interface Invitation {
+  id: number;
+  name: string;
+  email: string;
+  role: string;
+  admin_id: number;
+  created_at: string;
+  updated_at: string;
+}
+
 export interface NotificationActions {
   view: {
     href: string;
