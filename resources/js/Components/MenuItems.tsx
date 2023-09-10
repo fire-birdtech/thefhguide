@@ -8,6 +8,7 @@ import {
   DocumentCheckIcon,
   PencilSquareIcon,
   PlusCircleIcon,
+  UserMinusIcon,
   WindowIcon
 } from "@heroicons/react/24/solid";
 
@@ -27,6 +28,7 @@ const icons = {
   'DocumentCheckIcon': DocumentCheckIcon,
   'PencilSquareIcon': PencilSquareIcon,
   'PlusCircleIcon': PlusCircleIcon,
+  'UserMinusIcon': UserMinusIcon,
   'WindowIcon': WindowIcon,
 };
 
@@ -66,6 +68,7 @@ export function ButtonMenuItem({action}) {
         <button
           type="button"
           onClick={action.emit}
+          disabled={action.disabled || false}
           className={classNames(
             menuItemStyles(active), 'w-full text-left disabled:pointer-events-none disabled:cursor-none'
           )}

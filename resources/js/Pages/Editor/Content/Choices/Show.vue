@@ -40,14 +40,14 @@ const actions = [
 
     <AdminLayout>
         <div class="w-full py-8 px-4 sm:px-6 lg:px-8">
-            <div class="-ml-4 -mt-2 flex items-center justify-between flex-wrap sm:flex-nowrap">
-                <div class="ml-4 mt-2">
-                    <Header3> Choice Details: {{ choice.name }} </Header3>
-                </div>
-                <div class="ml-4">
-                    <SecondaryButtonWithDropdown button-text="Options" :actions="actions" @open="open = true" />
-                </div>
+          <div class="-ml-4 -mt-2 flex items-center justify-between flex-wrap sm:flex-nowrap">
+            <div class="ml-4 mt-2">
+              <Header3> Choice Details: {{ choice.name }}</Header3>
             </div>
+            <div class="ml-4">
+              <SecondaryButtonWithDropdown button-text="Options" :actions="actions" @open="open = true"/>
+            </div>
+          </div>
             <div class="mt-4 bg-white shadow overflow-hidden sm:rounded-lg">
                 <dl class="sm:divide-y sm:divide-gray-200">
                     <div class="py-4 sm:py-5 sm:grid sm:grid-cols-4 sm:gap-4 sm:px-6">
