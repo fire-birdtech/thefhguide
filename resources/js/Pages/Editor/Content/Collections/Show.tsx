@@ -28,7 +28,10 @@ export default function CollectionShow({ auth, collection }) {
   const archive: FormEventHandler = (e) => {
     e.preventDefault();
 
-    router.delete(route('editor.collections.destroy', [collection.id]));
+    router.delete(route('editor.collections.destroy', [collection.id]), {
+      onSuccess: () => setConfirmCollectionArchive(false),
+      preserveState: true,
+    });
   }
 
   const sortedProjects = collection.projects.sort((a,b) => a.order - b.order);
