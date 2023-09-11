@@ -5,6 +5,15 @@ export interface User {
   email_verified_at: string
 }
 
+export interface Editor {
+  id: number;
+  name: string;
+  email: string;
+  roles: Role[];
+  unpublished_assignments: Assignment[];
+  unpublished_drafts: Draft[];
+}
+
 export interface Collection {
   id: number;
   name: string;
@@ -78,6 +87,7 @@ export interface Assignment {
   created_at: string;
   updated_at: string;
   completed_at: string;
+  assignable: Goal;
 }
 
 export interface Invitation {
