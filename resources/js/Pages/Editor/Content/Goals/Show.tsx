@@ -1,4 +1,4 @@
-import {FormEventHandler, useState} from "react";
+import {FormEventHandler, ReactElement, useState} from "react";
 import {Head, Link, router, useForm} from "@inertiajs/react";
 import {Dialog} from "@headlessui/react";
 import Admin from "@/Layouts/Admin";
@@ -11,8 +11,12 @@ import TableHead from "@/Components/Tables/TableHead";
 import TableBody from "@/Components/Tables/TableBody";
 import Prose from "@/Components/Prose";
 import DangerModal from "@/Components/Modals/Danger";
+import {type Goal, type PageProps} from "@/types";
+import ExpandableStackedListItem from "@/Components/Lists/ExpandableStackedListItem";
 
-export default function GoalShow({ auth, goal }) {
+export default function GoalShow({ auth, goal }: PageProps<{
+  goal: Goal
+}>): ReactElement {
   const [confirmGoalArchive, setConfirmGoalArchive] = useState(false);
 
   const updateOrder = (updated, sibling) => {
@@ -142,7 +146,9 @@ export default function GoalShow({ auth, goal }) {
               addText="Add choice"
               addRoute={route('editor.drafts.create', {type: 'choice', parent_id: goal.id})}
             />
-            <ul className="mt-3 space-y-2"></ul>
+            <ul className="mt-3 space-y-2">
+              {sortedChoices.map((choice) => <ExpandableStackedListItem item={choice} key={choice.id}/>)}
+            </ul>
           </div>
 
           {goal.child_drafts.length > 0 ? (

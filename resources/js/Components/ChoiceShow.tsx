@@ -1,4 +1,6 @@
+import {type ReactElement} from "react";
 import ResourceListItemPublic from "@/Components/Lists/ResourceListItemPublic";
+import {type Choice} from "@/types";
 
 const renderContent = (item, idx) => {
     if (item.type === 'summary') {
@@ -26,7 +28,9 @@ const renderContent = (item, idx) => {
     }
 }
 
-export default function ChoiceShow({choice}) {
+export default function ChoiceShow({choice}: {
+  choice: Choice;
+}): ReactElement {
     return (
         <div className="border-t border-gray-200">
             <dl className="sm:divide-y sm:divide-gray-200">

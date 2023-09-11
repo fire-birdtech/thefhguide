@@ -23,6 +23,7 @@ export interface Collection {
   updated_at: string;
   locked: boolean;
   deleted_at: string;
+  projects: Project[];
 }
 
 export interface Project {
@@ -38,6 +39,8 @@ export interface Project {
   locked: boolean;
   order: number;
   deleted_at: string;
+  collection: Collection;
+  goals: Goal[];
 }
 
 export interface Goal {
@@ -54,6 +57,22 @@ export interface Goal {
   locked: boolean;
   order: number;
   deleted_at: string;
+  project: Project;
+  choices: Choice[];
+  child_drafts: Draft[];
+}
+
+export interface Choice {
+  id: number;
+  name: string;
+  content: string;
+  goal_id: number;
+  created_at: string;
+  updated_at: string;
+  locked: boolean;
+  order: number;
+  deleted_at: string;
+  goal: Goal;
 }
 
 export interface ChoiceContent {
