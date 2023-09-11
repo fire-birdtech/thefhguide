@@ -29,7 +29,7 @@ export default function CollectionEdit({ auth, collection }) {
           </Header3>
           <div className="mt-4 bg-white shadow overflow-hidden sm:rounded-lg">
             <form onSubmit={submit} className="sm:divide-y sm:divide-gray-200">
-              <div className="px-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:items-starts sm:border-t sm:border-gray-200 sm:py-4">
+              <div className="px-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:items-start sm:py-4">
                 <TextInputCombined
                   label="Collection name"
                   value={data.name}
