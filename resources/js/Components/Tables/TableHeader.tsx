@@ -14,17 +14,19 @@ export default function TableHeader({header, addRoute = '', addText = '', submit
           {header}
         </Header3>
       </div>
-      <div className="ml-4 space-x-2">
-        {addRoute !== undefined ? (
-          <PrimaryButton href={addRoute}>
-            {addText}
-          </PrimaryButton>
-        ) : (
-          <PrimaryButton onClick={submit}>
-            {addText}
-          </PrimaryButton>
-        )}
-      </div>
+      {addText !== '' ? (
+        <div className="ml-4 space-x-2">
+          {addRoute !== undefined ? (
+            <PrimaryButton href={addRoute}>
+              {addText}
+            </PrimaryButton>
+          ) : (
+            <PrimaryButton onClick={submit}>
+              {addText}
+            </PrimaryButton>
+          )}
+        </div>
+      ) : null}
     </div>
   );
 }

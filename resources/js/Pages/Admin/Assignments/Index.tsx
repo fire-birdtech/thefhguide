@@ -8,41 +8,41 @@ import TableBody from "@/Components/Tables/TableBody";
 import NoAssignments from "@/Components/EmptyStates/NoAssignments";
 
 const cells = {
-    assignable: 'Belong to',
-    type: 'Type',
-    user: 'Assigned Editor',
-    status: 'Status',
+  assignable: 'Belong to',
+  type: 'Type',
+  user: 'Assigned Editor',
+  status: 'Status',
 };
 
 const tableActions = {
-    view: true,
-    edit: true,
+  view: true,
+  edit: true,
 };
 
-export default function AssignmentsIndex({ assignments, auth }) {
-    return (
-        <>
-            <Head title="Assignments"/>
+export default function AssignmentsIndex({assignments, auth}) {
+  return (
+    <>
+      <Head title="Assignments"/>
 
-            <Admin user={auth.user}>
-                <Container>
-                    {assignments ? (
-                        <>
-                            <TableHeader header="Assignments"/>
-                            <Table className="mt-2">
-                                <TableHead cells={cells} actions={true}/>
-                                <TableBody
-                                    cells={cells}
-                                    rows={assignments}
-                                    routeType="editor.assignments"
-                                    adminRouteType="admin.assignments"
-                                    actions={tableActions}
-                                />
-                            </Table>
-                        </>
-                    ) : <NoAssignments/>}
-                </Container>
-            </Admin>
-        </>
-    );
+      <Admin user={auth.user}>
+        <Container>
+          {assignments ? (
+            <>
+              <TableHeader header="Assignments"/>
+              <Table className="mt-2">
+                <TableHead cells={cells} actions={true}/>
+                <TableBody
+                  cells={cells}
+                  rows={assignments}
+                  routeType="editor.assignments"
+                  adminRouteType="admin.assignments"
+                  actions={tableActions}
+                />
+              </Table>
+            </>
+          ) : <NoAssignments/>}
+        </Container>
+      </Admin>
+    </>
+  );
 }
