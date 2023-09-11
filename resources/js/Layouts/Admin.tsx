@@ -7,6 +7,7 @@ import classNames from "@/Utils/classNames";
 import AdminNavigation from "@/Components/Navigation/Admin";
 import {User} from "@/types";
 import Notification from "@/Components/Notifications/Notification";
+import NotificationDropdown from "@/Components/Dropdowns/NotificationDropdown";
 
 export default function Admin({user, children}: PropsWithChildren<{ user: User }>) {
   return (
@@ -22,7 +23,7 @@ export default function Admin({user, children}: PropsWithChildren<{ user: User }
                 <div className="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex"/>
               </div>
               <div className="hidden sm:flex sm:items-center sm:ml-6 sm:space-x-3">
-                {/*Notification Dropdown*/}
+                <NotificationDropdown/>
 
                 <Menu as="div" className="relative inline-block text-left">
                   <div>
