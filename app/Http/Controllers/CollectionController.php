@@ -16,9 +16,7 @@ class CollectionController extends Controller
      */
     public function index()
     {
-        return inertia('Editor/Content/Collections/Index', [
-            'collections' => Collection::all(),
-        ]);
+        //
     }
 
     /**
@@ -28,7 +26,7 @@ class CollectionController extends Controller
      */
     public function create()
     {
-        return inertia('Editor/Content/Collections/Create');
+        //
     }
 
     /**

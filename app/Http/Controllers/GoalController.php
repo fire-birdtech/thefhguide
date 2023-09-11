@@ -27,9 +27,7 @@ class GoalController extends Controller
      */
     public function create(Request $request)
     {
-        return inertia('Editor/Content/Goals/Create', [
-            'project' => Project::find($request->project),
-        ]);
+        //
     }
 
     /**

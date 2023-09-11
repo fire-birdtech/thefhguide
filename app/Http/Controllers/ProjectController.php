@@ -30,9 +30,7 @@ class ProjectController extends Controller
      */
     public function create(Request $request)
     {
-        return inertia('Editor/Content/Projects/Create', [
-            'collection' => Collection::find($request->collection),
-        ]);
+        //
     }
 
     /**
