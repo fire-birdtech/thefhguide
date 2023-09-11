@@ -1,5 +1,5 @@
 import {type ReactElement, useState} from "react";
-import {Head} from "@inertiajs/react";
+import {Head, router} from "@inertiajs/react";
 import Admin from "@/Layouts/Admin";
 import Container from "@/Components/Container";
 import {Header3} from "@/Components/Typography/Headers";
@@ -7,9 +7,15 @@ import SecondaryButtonWithDropdown from "@/Components/Buttons/SecondaryButtonWit
 import DescriptionListItem from "@/Components/Lists/DescriptionListItem";
 import Badge from "@/Components/Badge";
 import {type PageProps, type User} from "@/types";
+import DangerModal from "@/Components/Modals/Danger";
+import {Dialog} from "@headlessui/react";
 
 export default function EditorShow({auth, user}: PageProps<{ user: User }>): ReactElement {
   const [confirmRemoveUserRole, setConfirmRemoveUserRole] = useState<boolean>(false);
+
+  const removeRole = () => {
+    router.post(route('admin.editors.remove', user.id));
+  }
 
   const usersMatch = auth.user.id === user.id;
 
@@ -56,6 +62,22 @@ export default function EditorShow({auth, user}: PageProps<{ user: User }>): Rea
           </div>
         </Container>
       </Admin>
+
+      <DangerModal
+        destroy={removeRole}
+        open={confirmRemoveUserRole}
+        setOpen={setConfirmRemoveUserRole}
+        dangerButtonText="Remove"
+      >
+        <Dialog.Title as="h3" className="text-lg font-medium leading-6 text-gray-900">
+          Remove Role
+        </Dialog.Title>
+        <div className="mt-2">
+          <p className="text-sm text-gray-500">
+            Are you sure you want to remove {user.name}&apos;s role?
+          </p>
+        </div>
+      </DangerModal>
     </>
   );
 }
