@@ -9,6 +9,8 @@ use App\Models\Goal;
 use App\Models\User;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
+use Inertia\Response;
+use Inertia\ResponseFactory;
 
 class AssignmentController extends Controller
 {
@@ -95,13 +97,13 @@ class AssignmentController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Assignment  $assignment
-     * @return \Illuminate\Http\Response
+     * @param  Assignment  $assignment
+     * @return Response|ResponseFactory
      */
-    public function edit(Assignment $assignment)
+    public function edit(Assignment $assignment): Response|ResponseFactory
     {
         return inertia('Admin/Assignments/Edit', [
-            'currentAssignment' => $assignment->load(['assignable', 'user']),
+            'assignment' => $assignment->load(['assignable', 'user']),
             'editors' => User::with('roles')->whereHas('roles', function ($q) {
                 $q->whereIn('name', ['admin', 'editor']);
             })->orderBy('name', 'desc')->get(),
