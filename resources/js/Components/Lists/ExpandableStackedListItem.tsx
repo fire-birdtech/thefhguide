@@ -53,7 +53,7 @@ export default function ExpandableStackedListItem({ item }: { item: Choice }): R
           </div>
         </div>
 
-        {expandEdit && <ChoiceEdit choice={item}/>}
+        {expandEdit && <ChoiceEdit choice={item} close={() => setExpandEdit(false)}/>}
         {expandShow && <ChoiceShow choice={item}/>}
       </div>
     </li>
