@@ -7,6 +7,7 @@ import Summary from "@/Components/Forms/Choices/Summary";
 import {type Choice} from "@/types";
 import SecondaryButton from "@/Components/Buttons/SecondaryButton";
 import PrimaryButton from "@/Components/Buttons/PrimaryButton";
+import TextBlock from "@/Components/Forms/Choices/TextBlock";
 
 export default function ChoiceEdit({choice, close}: {
   choice: Choice;
@@ -46,6 +47,7 @@ export default function ChoiceEdit({choice, close}: {
           <div className="mt-1 space-y-4 sm:mt-0 sm:col-span-7">
             {choice.content.map((item, idx): void => {
               if (item.type === 'summary') return <Summary key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)}/>
+              if (item.type === 'text') return <TextBlock key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)}/>
             })}
           </div>
         </div>
