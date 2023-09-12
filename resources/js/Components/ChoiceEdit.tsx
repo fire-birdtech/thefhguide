@@ -8,6 +8,7 @@ import {type Choice} from "@/types";
 import SecondaryButton from "@/Components/Buttons/SecondaryButton";
 import PrimaryButton from "@/Components/Buttons/PrimaryButton";
 import TextBlock from "@/Components/Forms/Choices/TextBlock";
+import Header from "@/Components/Forms/Choices/Header";
 
 export default function ChoiceEdit({choice, close}: {
   choice: Choice;
@@ -48,6 +49,7 @@ export default function ChoiceEdit({choice, close}: {
             {choice.content.map((item, idx): void => {
               if (item.type === 'summary') return <Summary key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)}/>
               if (item.type === 'text') return <TextBlock key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)}/>
+              if (item.type === 'header') return <Header key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)}/>
             })}
           </div>
         </div>
