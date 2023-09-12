@@ -10,6 +10,7 @@ import PrimaryButton from "@/Components/Buttons/PrimaryButton";
 import TextBlock from "@/Components/Forms/Choices/TextBlock";
 import Header from "@/Components/Forms/Choices/Header";
 import Exercises from "@/Components/Forms/Choices/Exercises";
+import QUIKLinks from "@/Components/Forms/Choices/QUIKLinks";
 
 export default function ChoiceEdit({choice, close}: {
   choice: Choice;
@@ -52,6 +53,7 @@ export default function ChoiceEdit({choice, close}: {
               if (item.type === 'text') return <TextBlock key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)}/>
               if (item.type === 'header') return <Header key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)}/>
               if (item.type === 'exercises') return <Exercises key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)}/>
+              if (item.type === 'quiklinks') return <QUIKLinks key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)}/>
             })}
           </div>
         </div>
