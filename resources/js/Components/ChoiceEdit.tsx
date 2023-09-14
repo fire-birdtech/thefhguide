@@ -11,6 +11,7 @@ import TextBlock from "@/Components/Forms/Choices/TextBlock";
 import Header from "@/Components/Forms/Choices/Header";
 import Exercises from "@/Components/Forms/Choices/Exercises";
 import QUIKLinks from "@/Components/Forms/Choices/QUIKLinks";
+import ResourceList from "@/Components/Forms/Choices/ResourceList";
 
 export default function ChoiceEdit({choice, close}: {
   choice: Choice;
@@ -44,31 +45,32 @@ export default function ChoiceEdit({choice, close}: {
             <InputError message={errors.name} className="mt-1"/>
           </div>
         </div>
-
-        <div className="px-6 sm:grid sm:grid-cols-8 sm:gap-4 sm:items-start sm:py-4">
-          <InputLabel label="Content" className="sm:mt-px sm:pt-2"/>
-          <div className="mt-1 space-y-4 sm:mt-0 sm:col-span-7">
-            {choice.content.map((item, idx): void => {
-              if (item.type === 'summary') return <Summary key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)}/>
-              if (item.type === 'text') return <TextBlock key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)}/>
-              if (item.type === 'header') return <Header key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)}/>
-              if (item.type === 'exercises') return <Exercises key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)}/>
-              if (item.type === 'quiklinks') return <QUIKLinks key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)}/>
-            })}
-          </div>
-        </div>
-
-        <div className="px-6 py-4">
-          <div className="flex justify-end space-x-3">
-            <SecondaryButton onClick={close}>
-              Cancel
-            </SecondaryButton>
-            <PrimaryButton type="submit">
-              Save
-            </PrimaryButton>
-          </div>
-        </div>
       </form>
+
+      <div className="px-6 sm:grid sm:grid-cols-8 sm:gap-4 sm:items-start sm:py-4">
+        <InputLabel label="Content" className="sm:mt-px sm:pt-2"/>
+        <div className="mt-1 space-y-4 sm:mt-0 sm:col-span-7">
+          {choice.content.map((item, idx): void => {
+            if (item.type === 'summary') return <Summary key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)}/>
+            if (item.type === 'text') return <TextBlock key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)}/>
+            if (item.type === 'resources') return <ResourceList key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)}/>
+            if (item.type === 'header') return <Header key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)}/>
+            if (item.type === 'exercises') return <Exercises key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)}/>
+            if (item.type === 'quiklinks') return <QUIKLinks key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)}/>
+          })}
+        </div>
+      </div>
+
+      <div className="px-6 py-4">
+        <div className="flex justify-end space-x-3">
+          <SecondaryButton onClick={close}>
+            Cancel
+          </SecondaryButton>
+          <PrimaryButton type="submit">
+            Save
+          </PrimaryButton>
+        </div>
+      </div>
     </div>
   );
 }

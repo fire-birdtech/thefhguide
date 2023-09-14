@@ -80,6 +80,24 @@ export interface ChoiceContent {
   type: string;
 }
 
+export interface Resource {
+  description: string;
+  links: ResourceLink[];
+}
+
+export interface ResourceLink {
+  text: string;
+  link?: string;
+  iframe?: string;
+  type: string;
+  highlights: Highlight[];
+}
+
+export interface Highlight {
+  text: string;
+  link: string;
+}
+
 export interface Draft {
   id: number;
   draftable_type: string;

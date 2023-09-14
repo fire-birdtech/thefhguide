@@ -76,45 +76,45 @@ export default function ({ resource }): ReactElement {
                 </button>
               </div>
             </div>
-            <div className="w-full pl-4 mt-1 space-y-1">
-              {resource.links.map((link, linkIdx) => (
-                <>
-                <div key={linkIdx} className="flex items-center border border-purple-200 rounded-md focus-within:border-purple-300">
-                  <input
-                    type="text"
-                    value={link.text}
-                    placeholder="Name"
-                    className="flex-1 border-none text-sm rounded-l-md focus:ring-transparent"
-                  />
-                  <input
-                    type="text"
-                    value={link.link}
-                    placeholder="External URL"
-                    className="flex-1 border-none text-sm focus:ring-transparent"
-                  />
-                  <select
-                    value={link.type}
-                    className="border-none py-2 pl-3 pr-10 text-sm focus:ring-transparent"
-                  >
-                    <option value="document">Document</option>
-                    <option value="video">Video</option>
-                  </select>
-                  <div className="flex items-center ml-2 mr-1">
-                    <button type="button" className="rounded hover:bg-purple-100">
-                      <XMarkIcon className="h-5 w-5 text-purple-700"/>
-                    </button>
-                  </div>
-                </div>
-                  <PrimaryButton
-                    onClick={addLink}
-                    className="px-2 py-0.5 text-xs rounded bg-purple-200 text-purple-700 hover:bg-purple-300"
-                  >
-                    &#43; Add resource link
-                  </PrimaryButton>
-                </>
-              ))}
-            </div>
           </form>
+          <div className="w-full pl-4 mt-1 space-y-1">
+            {resource.links.map((link, linkIdx) => (
+              <>
+              <div key={linkIdx} className="flex items-center border border-purple-200 rounded-md focus-within:border-purple-300">
+                <input
+                  type="text"
+                  value={link.text}
+                  placeholder="Name"
+                  className="flex-1 border-none text-sm rounded-l-md focus:ring-transparent"
+                />
+                <input
+                  type="text"
+                  value={link.link}
+                  placeholder="External URL"
+                  className="flex-1 border-none text-sm focus:ring-transparent"
+                />
+                <select
+                  value={link.type}
+                  className="border-none py-2 pl-3 pr-10 text-sm focus:ring-transparent"
+                >
+                  <option value="document">Document</option>
+                  <option value="video">Video</option>
+                </select>
+                <div className="flex items-center ml-2 mr-1">
+                  <button type="button" className="rounded hover:bg-purple-100">
+                    <XMarkIcon className="h-5 w-5 text-purple-700"/>
+                  </button>
+                </div>
+              </div>
+                <PrimaryButton
+                  onClick={addLink}
+                  className="px-2 py-0.5 text-xs rounded bg-purple-200 text-purple-700 hover:bg-purple-300"
+                >
+                  &#43; Add resource link
+                </PrimaryButton>
+              </>
+            ))}
+          </div>
         </div>
       )}
     </li>
