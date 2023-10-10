@@ -1,5 +1,5 @@
 import {type FormEventHandler, type ReactElement, useState} from "react";
-import {useForm} from "@inertiajs/react";
+import {router, useForm} from "@inertiajs/react";
 import TextInput from "@/Components/Forms/TextInput";
 import InputLabel from "@/Components/Forms/InputLabel";
 import InputError from "@/Components/Forms/InputError";
@@ -33,7 +33,10 @@ export default function ChoiceEdit({choice, close}: {
 
   const submit = (e): FormEventHandler => {
     e.preventDefault();
-    console.log(choiceData);
+
+    router.put(route('editor.choices.update', [choice]), choiceData, {
+      preserveScroll: true,
+    });
   }
 
   return (
@@ -74,7 +77,7 @@ export default function ChoiceEdit({choice, close}: {
           <SecondaryButton onClick={close}>
             Cancel
           </SecondaryButton>
-          <PrimaryButton type="submit">
+          <PrimaryButton onClick={submit}>
             Save
           </PrimaryButton>
         </div>
