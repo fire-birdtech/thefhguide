@@ -1,6 +1,6 @@
 import {type ReactElement, useState} from "react";
 import RemoveButton from "@/Components/Buttons/Choices/RemoveButton";
-import {type ResourceLink} from "@/types";
+import {Highlight, type ResourceLink} from "@/types";
 import ResourceVideoHighlight from "@/Components/Forms/Choices/ResourceVideoHighlight";
 import AddButton from "@/Components/Buttons/Choices/AddButton";
 
@@ -37,6 +37,13 @@ export default function ResourceItemLink({index, link, remove, update}: Resource
       ...resourceLink,
       highlights: highlights,
     });
+  }
+
+  const updateHighlight = (key: number, value: Highlight): void => {
+    let { highlights } = resourceLink;
+    highlights.splice(key, 1, value);
+
+    updateResource('highlights', highlights);
   }
 
   const removeHighlight = (highlightKey): void => {
@@ -95,7 +102,13 @@ export default function ResourceItemLink({index, link, remove, update}: Resource
       {resourceLink.highlights.length > 0 && (
         <div className="ml-4 space-y-1">
           {resourceLink.highlights.map((highlight, index) => (
-            <ResourceVideoHighlight key={index} highlight={highlight} remove={() => removeHighlight(index)}/>
+            <ResourceVideoHighlight
+              key={index}
+              index={index}
+              highlight={highlight}
+              remove={() => removeHighlight(index)}
+              update={(key, value) => updateHighlight(key, value)}
+            />
           ))}
         </div>
       )}

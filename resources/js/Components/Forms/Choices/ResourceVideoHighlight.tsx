@@ -1,12 +1,25 @@
 import {type ReactElement, useState} from "react";
 import {FilmIcon} from "@heroicons/react/24/outline";
 import RemoveButton from "@/Components/Buttons/Choices/RemoveButton";
+import {Highlight} from "@/types";
 
-export default function ResourceVideoHighlight({ remove }: { remove: () => {}}): ReactElement {
+export default function ResourceVideoHighlight({ index, remove, update }: { index: number, remove: () => {}, update: (key: number, value: Highlight) => {} }): ReactElement {
   const [highlight, setHighlight] = useState({
     text: '',
     link: '',
   });
+
+  const updateHighlight = (key: string, value: string): void => {
+    let updatedHighlight = {
+      ...highlight,
+      [key]: value,
+    }
+    setHighlight({
+      ...updatedHighlight,
+    });
+
+    update(index, updatedHighlight);
+  }
 
   return (
     <div className="w-full flex items-center space-x-1">
@@ -15,20 +28,18 @@ export default function ResourceVideoHighlight({ remove }: { remove: () => {}}):
         <input
           type="text"
           value={highlight.text}
-          onChange={(e) => setHighlight({
-            ...highlight,
-            text: e.target.value
-          })}
+          onChange={(e) => updateHighlight(
+            'text', e.target.value
+          )}
           placeholder="Text"
           className="flex-1 border-none text-sm rounded-l-md focus:ring-transparent"
         />
         <input
           type="text"
           value={highlight.link}
-          onChange={(e) => setHighlight({
-            ...highlight,
-            link: e.target.value
-          })}
+          onChange={(e) => updateHighlight(
+            'link', e.target.value
+          )}
           placeholder="Link"
           className="flex-1 border-none text-sm focus:ring-transparent"
         />
