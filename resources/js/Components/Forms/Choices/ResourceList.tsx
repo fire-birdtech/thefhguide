@@ -7,14 +7,11 @@ import {type Resource} from "@/types";
 export default function ResourceList({value, remove, index, update}: {
   value: Resource[],
   index: number,
-  update: (index: number, value: string) => {},
+  update: (index: number, value: string|Resource[]) => {},
   remove?: () => {}
 }): ReactElement {
-  const updateResourceList = (value: string): void => {
-    update(index, value)
-  }
-
   const addResource = (resource: Resource) => {
+    // value = value.splice(0);
     value.push(resource);
 
     update(index, value);

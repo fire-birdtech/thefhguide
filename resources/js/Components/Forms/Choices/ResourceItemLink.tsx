@@ -4,7 +4,7 @@ import {type ResourceLink} from "@/types";
 import ResourceVideoHighlight from "@/Components/Forms/Choices/ResourceVideoHighlight";
 import AddButton from "@/Components/Buttons/Choices/AddButton";
 
-export default function ResourceItemLink({index, link, remove}: ResourceLink<{ index: number, remove: (key) => {} }>): ReactElement {
+export default function ResourceItemLink({index, link, remove, update}: ResourceLink<{ index: number, remove: (key) => {}, update: (key, value) => {} }>): ReactElement {
   const [resourceLink, setResourceLink] = useState<ResourceLink>({
     text: '',
     link: '',
@@ -12,6 +12,19 @@ export default function ResourceItemLink({index, link, remove}: ResourceLink<{ i
     iframe: '',
     highlights: [],
   });
+
+  const updateResource = (key: string, value: string): void => {
+    let updatedResourceLink: ResourceLink = {
+      ...resourceLink,
+      [key]: value,
+    }
+    setResourceLink({
+      ...updatedResourceLink,
+    });
+
+    update(index, updatedResourceLink);
+
+  }
 
   const addHighlight = (): void => {
     let { highlights } = resourceLink;
@@ -42,10 +55,7 @@ export default function ResourceItemLink({index, link, remove}: ResourceLink<{ i
         <input
           type="text"
           value={resourceLink.text}
-          onChange={(e) => setResourceLink({
-            ...resourceLink,
-            text: e.target.value
-          })}
+          onChange={(e) => updateResource('text', e.target.value)}
           placeholder="Name"
           className="flex-1 border-none text-sm rounded-l-md focus:ring-transparent"
         />
@@ -53,10 +63,7 @@ export default function ResourceItemLink({index, link, remove}: ResourceLink<{ i
           <input
             type="text"
             value={resourceLink.link}
-            onChange={(e) => setResourceLink({
-              ...resourceLink,
-              link: e.target.value
-            })}
+            onChange={(e) => updateResource('link', e.target.value)}
             placeholder="External URL"
             className="flex-1 border-none text-sm focus:ring-transparent"
           />
@@ -65,20 +72,14 @@ export default function ResourceItemLink({index, link, remove}: ResourceLink<{ i
           <input
             type="text"
             value={resourceLink.iframe}
-            onChange={(e) => setResourceLink({
-              ...resourceLink,
-              iframe: e.target.value
-            })}
+            onChange={(e) => updateResource('iframe', e.target.value)}
             placeholder="IFrame"
             className="flex-1 border-none text-sm focus:ring-transparent"
           />
         )}
         <select
           value={resourceLink.type}
-          onChange={(e) => setResourceLink({
-            ...resourceLink,
-            type: e.target.value
-          })}
+          onChange={(e) => updateResource('type', e.target.value)}
           className="border-none py-2 pl-3 pr-10 text-sm focus:ring-transparent"
         >
           <option value="document">Document</option>

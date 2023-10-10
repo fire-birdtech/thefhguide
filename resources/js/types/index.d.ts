@@ -65,7 +65,7 @@ export interface Goal {
 export interface Choice {
   id: number;
   name: string;
-  content: string;
+  content: ChoiceContent[];
   goal_id: number;
   created_at: string;
   updated_at: string;
@@ -76,7 +76,7 @@ export interface Choice {
 }
 
 export interface ChoiceContent {
-  data: string;
+  data: string|Resource[];
   type: string;
 }
 

@@ -1,18 +1,26 @@
 import {type ReactElement, useState} from "react";
 import InputLabel from "@/Components/Forms/InputLabel";
-import {ResourceLink} from "@/types";
 import ResourceItemLink from "@/Components/Forms/Choices/ResourceItemLink";
 import AddButton from "@/Components/Buttons/Choices/AddButton";
 import RemoveButton from "@/Components/Buttons/Choices/RemoveButton";
+import {type Resource, type ResourceLink} from "@/types";
 
 export default function AddResourceItem({add}: {
-  add: () => {};
+  add: (resource: Resource) => {};
 }): ReactElement {
   const [displayAddResourceForm, setDisplayAddResourceForm] = useState(false);
-  const [newResourceItem, setNewResourceItem] = useState({
+  const [newResourceItem, setNewResourceItem] = useState<Resource>({
     description: '',
     links: [],
   });
+
+  const addResource = (): void => {
+    setNewResourceItem({
+      ...newResourceItem,
+    });
+    add(newResourceItem);
+    removeResource();
+  }
 
   const removeResource = () => {
     setNewResourceItem({
@@ -31,8 +39,19 @@ export default function AddResourceItem({add}: {
           text: '',
           link: '',
           type: '',
+          highlights: [],
         },
       ],
+    });
+  }
+
+  const updateLink = (key: number, value: ResourceLink): void => {
+    let { links } = newResourceItem;
+    links.splice(key, 1, value);
+
+    setNewResourceItem({
+      ...newResourceItem,
+      links,
     });
   }
 
@@ -58,6 +77,7 @@ export default function AddResourceItem({add}: {
         />
         <div className="flex items-center mx-2 space-x-2">
           <AddButton
+            onClick={() => addResource()}
             disabled={newResourceItem.links.length < 1}
           >
             Add Resource
@@ -70,7 +90,13 @@ export default function AddResourceItem({add}: {
 
       <div className="ml-4 mt-1 space-y-1">
         {newResourceItem.links && newResourceItem?.links.map((link: ResourceLink, key: number) => (
-          <ResourceItemLink key={key} index={key} link={link} remove={removeLink}/>
+          <ResourceItemLink
+            key={key}
+            index={key}
+            link={link}
+            update={(key, value) => updateLink(key, value)}
+            remove={removeLink}
+          />
         ))}
         <AddButton
           onClick={() => addLink()}
