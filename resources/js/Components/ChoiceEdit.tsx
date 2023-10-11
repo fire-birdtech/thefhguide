@@ -11,7 +11,9 @@ import Header from "@/Components/Forms/Choices/Header";
 import Exercises from "@/Components/Forms/Choices/Exercises";
 import QUIKLinks from "@/Components/Forms/Choices/QUIKLinks";
 import ResourceList from "@/Components/Forms/Choices/ResourceList";
-import {type Choice, ChoiceContent, type Resource} from "@/types";
+import DangerModal from "@/Components/Modals/Danger";
+import {type Choice, type Resource} from "@/types";
+import {Dialog} from "@headlessui/react";
 
 export default function ChoiceEdit({choice, close}: {
   choice: Choice;
@@ -20,6 +22,8 @@ export default function ChoiceEdit({choice, close}: {
   const [choiceData, setChoiceData] = useState<Choice>({
     ...choice,
   });
+  const [confirmDeleteProperty, setConfirmDeleteProperty] = useState<boolean>(false);
+  const [selectedPropertyIndexForDeletion, setSelectedPropertyIndexForDeletion] = useState<number|undefined>(undefined);
 
   const updateProperty = (index: number, value: string|Resource[]): void => {
     let { content } = choiceData;
@@ -31,6 +35,17 @@ export default function ChoiceEdit({choice, close}: {
     });
   }
 
+  const handleDelete = (index: number): void => {
+    setSelectedPropertyIndexForDeletion(index);
+    setConfirmDeleteProperty(true);
+  }
+
+  const deleteProperty = (): void => {
+    if (selectedPropertyIndexForDeletion !== undefined) {
+      choiceData.content.splice(selectedPropertyIndexForDeletion, 1);
+    }
+  }
+
   const submit = (e): FormEventHandler => {
     e.preventDefault();
 
@@ -40,7 +55,7 @@ export default function ChoiceEdit({choice, close}: {
     });
   }
 
-  return (
+  return <>
     <div className="border-t border-gray-200">
       <form onSubmit={submit} className="sm:divide-y sm:divide-gray-200">
         <div className="px-6 sm:grid sm:grid-cols-8 sm:gap-4 sm:items-start sm:py-4">
@@ -63,12 +78,12 @@ export default function ChoiceEdit({choice, close}: {
         <InputLabel label="Content" className="sm:mt-px sm:pt-2"/>
         <div className="mt-1 space-y-4 sm:mt-0 sm:col-span-7">
           {choiceData.content.map((item, idx): void => {
-            if (item.type === 'summary') return <Summary key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)}/>
-            if (item.type === 'text') return <TextBlock key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)}/>
-            if (item.type === 'resources') return <ResourceList key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)}/>
-            if (item.type === 'header') return <Header key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)}/>
-            if (item.type === 'exercises') return <Exercises key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)}/>
-            if (item.type === 'quiklinks') return <QUIKLinks key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)}/>
+            if (item.type === 'summary') return <Summary key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)} remove={(index) => handleDelete(index)}/>
+            if (item.type === 'text') return <TextBlock key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)} remove={(index) => handleDelete(index)}/>
+            if (item.type === 'resources') return <ResourceList key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)} remove={(index) => handleDelete(index)}/>
+            if (item.type === 'header') return <Header key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)} remove={(index) => handleDelete(index)}/>
+            if (item.type === 'exercises') return <Exercises key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)} remove={(index) => handleDelete(index)}/>
+            if (item.type === 'quiklinks') return <QUIKLinks key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)} remove={(index) => handleDelete(index)}/>
           })}
         </div>
       </div>
@@ -84,5 +99,21 @@ export default function ChoiceEdit({choice, close}: {
         </div>
       </div>
     </div>
-  );
+
+    <DangerModal
+      destroy={deleteProperty}
+      open={confirmDeleteProperty}
+      setOpen={setConfirmDeleteProperty}
+    >
+      <Dialog.Title as="h3" className="text-lg font-medium leading-6 text-gray-900">
+        Delete Choice Content Item
+      </Dialog.Title>
+      <div className="mt-2">
+        <p className="text-sm text-gray-500">
+          Are you sure you want to delete this data item? All data will be permanently
+          removed forever. This action cannot be undone.
+        </p>
+      </div>
+    </DangerModal>
+  </>;
 }
