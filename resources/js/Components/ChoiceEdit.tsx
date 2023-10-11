@@ -1,4 +1,5 @@
 import {type FormEventHandler, type ReactElement, useState} from "react";
+import {Dialog} from "@headlessui/react";
 import {router, useForm} from "@inertiajs/react";
 import TextInput from "@/Components/Forms/TextInput";
 import InputLabel from "@/Components/Forms/InputLabel";
@@ -12,8 +13,8 @@ import Exercises from "@/Components/Forms/Choices/Exercises";
 import QUIKLinks from "@/Components/Forms/Choices/QUIKLinks";
 import ResourceList from "@/Components/Forms/Choices/ResourceList";
 import DangerModal from "@/Components/Modals/Danger";
-import {type Choice, type Resource} from "@/types";
-import {Dialog} from "@headlessui/react";
+import AddContentButton from "@/Components/Buttons/Choices/AddContentButton";
+import {type Choice, type ChoiceContent, type Resource} from "@/types";
 
 export default function ChoiceEdit({choice, close}: {
   choice: Choice;
@@ -24,6 +25,8 @@ export default function ChoiceEdit({choice, close}: {
   });
   const [confirmDeleteProperty, setConfirmDeleteProperty] = useState<boolean>(false);
   const [selectedPropertyIndexForDeletion, setSelectedPropertyIndexForDeletion] = useState<number|undefined>(undefined);
+  const [hasSummary, setHasSummary] = useState<boolean>(!!choiceData.content.find((item: ChoiceContent): boolean => item.type === 'summary'));
+  const [hasExercises, setHasExercises] = useState<boolean>(!!choiceData.content.find((item: ChoiceContent): boolean => item.type === 'exercises'));
 
   const updateProperty = (index: number, value: string|Resource[]): void => {
     let { content } = choiceData;
@@ -85,6 +88,18 @@ export default function ChoiceEdit({choice, close}: {
             if (item.type === 'exercises') return <Exercises key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)} remove={(index) => handleDelete(index)}/>
             if (item.type === 'quiklinks') return <QUIKLinks key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)} remove={(index) => handleDelete(index)}/>
           })}
+          <div className="space-x-2">
+            {!hasSummary && (
+              <AddContentButton value="Add Summary" color="sky"/>
+            )}
+            <AddContentButton value="Add Text Block" color="red"/>
+            <AddContentButton value="Add Resource List" color="purple"/>
+            <AddContentButton value="Add Header" color="orange"/>
+            {!hasExercises && (
+              <AddContentButton value="Add Exercises" color="emerald"/>
+            )}
+            <AddContentButton value="Add QUIKLinks" color="yellow"/>
+          </div>
         </div>
       </div>
 

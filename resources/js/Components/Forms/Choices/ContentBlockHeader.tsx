@@ -1,30 +1,6 @@
 import {XMarkIcon} from "@heroicons/react/24/solid";
 import classNames from "@/Utils/classNames";
-
-const textStyles = {
-    emerald: 'text-emerald-700',
-    orange: 'text-orange-700',
-    purple: 'text-purple-700',
-    red: 'text-red-700',
-    sky: 'text-sky-700',
-    yellow: 'text-yellow-700'
-}
-const bgStyles = {
-    emerald: 'bg-emerald-200',
-    orange: 'bg-orange-200',
-    purple: 'bg-purple-200',
-    red: 'bg-red-200',
-    sky: 'bg-sky-200',
-    yellow: 'bg-yellow-200'
-}
-const closeIconStyles = {
-    emerald: 'hover:bg-emerald-300 focus:bg-emerald-400',
-    orange: 'hover:bg-orange-300 focus:bg-orange-400',
-    purple: 'hover:bg-purple-300 focus:bg-purple-400',
-    red: 'hover:bg-red-300 focus:bg-red-400',
-    sky: 'hover:bg-sky-300 focus:bg-sky-400',
-    yellow: 'hover:bg-yellow-300 focus:bg-yellow-400'
-}
+import {textStyles, bgStyles, closeIconStyles} from "@/Utils/choiceContentStyling";
 
 export default function ContentBlockHeader({children, color, remove}) {
     return (
