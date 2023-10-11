@@ -36,6 +36,7 @@ export default function ChoiceEdit({choice, close}: {
 
     router.put(route('editor.choices.update', [choice]), choiceData, {
       preserveScroll: true,
+      onSuccess: () => close(),
     });
   }
 

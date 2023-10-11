@@ -3,10 +3,10 @@ import {FilmIcon} from "@heroicons/react/24/outline";
 import RemoveButton from "@/Components/Buttons/Choices/RemoveButton";
 import {Highlight} from "@/types";
 
-export default function ResourceVideoHighlight({ index, remove, update }: { index: number, remove: () => {}, update: (key: number, value: Highlight) => {} }): ReactElement {
-  const [highlight, setHighlight] = useState({
-    text: '',
-    link: '',
+export default function ResourceVideoHighlight({ highlight, index, remove, update }: Highlight<{ index: number, remove: () => {}, update: (key: number, value: Highlight) => {} }>): ReactElement {
+  const [currentHighlight, setCurrentHighlight] = useState({
+    text: highlight.text ?? '',
+    link: highlight.link ?? '',
   });
 
   const updateHighlight = (key: string, value: string): void => {
@@ -14,7 +14,7 @@ export default function ResourceVideoHighlight({ index, remove, update }: { inde
       ...highlight,
       [key]: value,
     }
-    setHighlight({
+    setCurrentHighlight({
       ...updatedHighlight,
     });
 
@@ -27,7 +27,7 @@ export default function ResourceVideoHighlight({ index, remove, update }: { inde
       <div className="flex items-center w-full border border-purple-200 rounded-md focus-within:border-purple-300">
         <input
           type="text"
-          value={highlight.text}
+          value={currentHighlight.text}
           onChange={(e) => updateHighlight(
             'text', e.target.value
           )}
@@ -36,7 +36,7 @@ export default function ResourceVideoHighlight({ index, remove, update }: { inde
         />
         <input
           type="text"
-          value={highlight.link}
+          value={currentHighlight.link}
           onChange={(e) => updateHighlight(
             'link', e.target.value
           )}

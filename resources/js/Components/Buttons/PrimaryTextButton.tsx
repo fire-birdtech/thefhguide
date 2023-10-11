@@ -1,8 +1,8 @@
-import {ReactElement} from "react";
+import {ButtonHTMLAttributes} from "react";
 
-export default function ({ children, type = 'button'}: ReactElement) {
+export default function ({ children, type = 'button', ...props }: ButtonHTMLAttributes<HTMLButtonElement>) {
   return (
-    <button type={type} className="font-medium text-blue-600 hover:text-blue-500">
+    <button {...props} type={type} className="font-medium text-blue-600 hover:text-blue-500">
       {children}
     </button>
   );

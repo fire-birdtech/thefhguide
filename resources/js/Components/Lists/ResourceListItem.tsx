@@ -5,8 +5,10 @@ import Anchor from "@/Components/Anchor";
 import PrimaryButton from "@/Components/Buttons/PrimaryButton";
 import {XMarkIcon} from "@heroicons/react/24/solid";
 import PrimaryTextButton from "@/Components/Buttons/PrimaryTextButton";
+import CreateEditResourceForm from "@/Components/Forms/Choices/CreateEditResourceForm";
+import {Resource} from "@/types";
 
-export default function ({ resource }): ReactElement {
+export default function ({ resource }: { resource: Resource }): ReactElement {
   const [view, setView] = useState('show');
 
   const {data, setData, errors, put, processing, reset} = useForm({
@@ -20,8 +22,8 @@ export default function ({ resource }): ReactElement {
     });
   }
 
-  const saveResource: FormEventHandler = (e) => {
-    e.preventDefault();
+  const saveResource: FormEventHandler = (e): void => {
+    // e.preventDefault();
 
     submit();
     setView('show');
@@ -54,68 +56,13 @@ export default function ({ resource }): ReactElement {
           </div>
         </>
       ) : (
-        <div className="flex w-full items-center">
-          <form className="w-full flex flex-col items-center">
-            <div className="w-full flex items-center border border-purple-200 rounded-md focus-within:border-purple-300">
-              <input
-                type="text"
-                value={data.description}
-                placeholder="Description"
-                className="flex-1 border-none text-sm rounded-l-md focus:ring-transparent"
-              />
-              <div className="flex items-center ml-2 mr-1 space-x-2">
-                <PrimaryButton
-                  onClick={saveResource}
-                  className="px-2 py-0.5 text-xs rounded bg-purple-200 text-purple-700 hover:bg-purple-300"
-                  disabled={data.links.length < 1}
-                >
-                  Save
-                </PrimaryButton>
-                <button type="button" className="rounded hover:bg-purple-100">
-                  <XMarkIcon onClick={() => setView('show')} className="w-5 h-5 text-purple-700"/>
-                </button>
-              </div>
-            </div>
-          </form>
-          <div className="w-full pl-4 mt-1 space-y-1">
-            {resource.links.map((link, linkIdx) => (
-              <>
-              <div key={linkIdx} className="flex items-center border border-purple-200 rounded-md focus-within:border-purple-300">
-                <input
-                  type="text"
-                  value={link.text}
-                  placeholder="Name"
-                  className="flex-1 border-none text-sm rounded-l-md focus:ring-transparent"
-                />
-                <input
-                  type="text"
-                  value={link.link}
-                  placeholder="External URL"
-                  className="flex-1 border-none text-sm focus:ring-transparent"
-                />
-                <select
-                  value={link.type}
-                  className="border-none py-2 pl-3 pr-10 text-sm focus:ring-transparent"
-                >
-                  <option value="document">Document</option>
-                  <option value="video">Video</option>
-                </select>
-                <div className="flex items-center ml-2 mr-1">
-                  <button type="button" className="rounded hover:bg-purple-100">
-                    <XMarkIcon className="h-5 w-5 text-purple-700"/>
-                  </button>
-                </div>
-              </div>
-                <PrimaryButton
-                  onClick={addLink}
-                  className="px-2 py-0.5 text-xs rounded bg-purple-200 text-purple-700 hover:bg-purple-300"
-                >
-                  &#43; Add resource link
-                </PrimaryButton>
-              </>
-            ))}
-          </div>
-        </div>
+        <CreateEditResourceForm
+          className="w-full"
+          usage="edit"
+          resource={resource}
+          save={saveResource}
+          setDisplay={() => setView('show')}
+        />
       )}
     </li>
   );

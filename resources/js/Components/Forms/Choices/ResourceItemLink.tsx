@@ -6,11 +6,11 @@ import AddButton from "@/Components/Buttons/Choices/AddButton";
 
 export default function ResourceItemLink({index, link, remove, update}: ResourceLink<{ index: number, remove: (key) => {}, update: (key, value) => {} }>): ReactElement {
   const [resourceLink, setResourceLink] = useState<ResourceLink>({
-    text: '',
-    link: '',
-    type: 'document',
-    iframe: '',
-    highlights: [],
+    text: link.text ?? '',
+    link: link.link ?? '',
+    type: link.type ?? 'document',
+    iframe: link?.iframe ?? '',
+    highlights: link?.highlights ?? [],
   });
 
   const updateResource = (key: string, value: string): void => {
