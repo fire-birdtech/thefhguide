@@ -5,7 +5,7 @@ export default function Header({value, remove, index, update}: {
   value: string,
   index: number,
   update: (index: number, value: string) => {},
-  remove?: () => {}
+  remove?: (index: number) => {}
 }): ReactElement {
   const updateHeader = (value: string): void => {
     update(index, value)
@@ -13,7 +13,7 @@ export default function Header({value, remove, index, update}: {
 
   return (
     <div className="flex flex-col">
-      <ContentBlockHeader color="orange" remove={remove}>
+      <ContentBlockHeader color="orange" remove={() => remove(index)}>
         Header
       </ContentBlockHeader>
       <div className="w-full p-4 border-2 border-orange-200 rounded-b rounded-tr">

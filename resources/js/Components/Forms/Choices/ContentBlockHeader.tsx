@@ -2,7 +2,7 @@ import {XMarkIcon} from "@heroicons/react/24/solid";
 import classNames from "@/Utils/classNames";
 import {textStyles, bgStyles, closeIconStyles} from "@/Utils/choiceContentStyling";
 
-export default function ContentBlockHeader({children, color, remove}) {
+export default function ContentBlockHeader({children, color, remove}): { children: string, color: string, remove: () => void } {
     return (
         <div className="block group">
             <span className={classNames(

@@ -6,7 +6,7 @@ export default function Summary({value, remove, index, update}: {
   value: string,
   index: number,
   update: (index: number, value: string) => {},
-  remove?: () => {}
+  remove?: (index: number) => {}
 }): ReactElement {
   const updateSummary = (value: string): void => {
     update(index, value)
@@ -14,7 +14,7 @@ export default function Summary({value, remove, index, update}: {
 
   return (
     <div className="flex flex-col">
-      <ContentBlockHeader color="sky" remove={remove}>
+      <ContentBlockHeader color="sky" remove={() => remove(index)}>
         Summary
       </ContentBlockHeader>
       <div className="w-full border-2 border-sky-200 rounded-b rounded-tr">

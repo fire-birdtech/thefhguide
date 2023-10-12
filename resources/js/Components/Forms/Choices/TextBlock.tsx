@@ -6,7 +6,7 @@ export default function TextBlock({value, remove, index, update}: {
   value: string,
   index: number,
   update: (index: number, value: string) => {},
-  remove?: () => {}
+  remove?: (index: number) => {}
 }): ReactElement {
   const updateTextBlock = (value: string) => {
     update(index, value);
@@ -14,7 +14,7 @@ export default function TextBlock({value, remove, index, update}: {
 
   return (
     <div className="flex flex-col">
-      <ContentBlockHeader color="red" remove={remove}>
+      <ContentBlockHeader color="red" remove={() => remove(index)}>
         Text Block
       </ContentBlockHeader>
       <div className="w-full border-2 border-red-200 rounded-b rounded-tr">

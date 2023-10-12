@@ -8,7 +8,7 @@ export default function ResourceList({value, remove, index, update}: {
   value: Resource[],
   index: number,
   update: (index: number, value: string|Resource[]) => {},
-  remove?: () => {}
+  remove?: (index: number) => {}
 }): ReactElement {
   const addResource = (resource: Resource) => {
     // value = value.splice(0);
@@ -19,7 +19,7 @@ export default function ResourceList({value, remove, index, update}: {
 
   return (
     <div className="flex flex-col">
-      <ContentBlockHeader color="purple" remove={remove}>
+      <ContentBlockHeader color="purple" remove={() => remove(index)}>
         Resource List
       </ContentBlockHeader>
       <div className="w-full p-4 border-2 border-purple-200 rounded-b-md rounded-tr-md">

@@ -38,6 +38,24 @@ export default function ChoiceEdit({choice, close}: {
     });
   }
 
+  const addProperty = (type: string): void => {
+    type === 'resource'
+      ? setChoiceData({
+          ...choiceData,
+          content: [
+            ...choiceData.content,
+            {'type': type, 'data': []}
+          ]
+        })
+      : setChoiceData({
+          ...choiceData,
+          content: [
+            ...choiceData.content,
+            { 'type': type, 'data': "" }
+          ]
+        });
+  }
+
   const handleDelete = (index: number): void => {
     setSelectedPropertyIndexForDeletion(index);
     setConfirmDeleteProperty(true);
@@ -45,8 +63,13 @@ export default function ChoiceEdit({choice, close}: {
 
   const deleteProperty = (): void => {
     if (selectedPropertyIndexForDeletion !== undefined) {
-      choiceData.content.splice(selectedPropertyIndexForDeletion, 1);
+      let selectedChoice = choiceData;
+      selectedChoice.content.splice(selectedPropertyIndexForDeletion, 1);
+      setChoiceData({
+        ...selectedChoice,
+      });
     }
+    setConfirmDeleteProperty(false);
   }
 
   const submit = (e): FormEventHandler => {
@@ -90,15 +113,51 @@ export default function ChoiceEdit({choice, close}: {
           })}
           <div className="space-x-2">
             {!hasSummary && (
-              <AddContentButton value="Add Summary" color="sky"/>
+              <AddContentButton
+                value="Add Summary"
+                color="sky"
+                onClick={() => {
+                  addProperty('summary')
+                }}
+              />
             )}
-            <AddContentButton value="Add Text Block" color="red"/>
-            <AddContentButton value="Add Resource List" color="purple"/>
-            <AddContentButton value="Add Header" color="orange"/>
+            <AddContentButton
+              value="Add Text Block"
+              color="red"
+                onClick={() => {
+                  addProperty('text')
+                }}
+            />
+            <AddContentButton
+              value="Add Resource List"
+              color="purple"
+                onClick={() => {
+                  addProperty('resources')
+                }}
+            />
+            <AddContentButton
+              value="Add Header"
+              color="orange"
+                onClick={() => {
+                  addProperty('header')
+                }}
+            />
             {!hasExercises && (
-              <AddContentButton value="Add Exercises" color="emerald"/>
+              <AddContentButton
+                value="Add Exercises"
+                color="emerald"
+                onClick={() => {
+                  addProperty('exercises')
+                }}
+              />
             )}
-            <AddContentButton value="Add QUIKLinks" color="yellow"/>
+            <AddContentButton
+              value="Add QUIKLinks"
+              color="yellow"
+                onClick={() => {
+                  addProperty('quiklinks')
+                }}
+            />
           </div>
         </div>
       </div>
