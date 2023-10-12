@@ -106,6 +106,7 @@ export interface Draft {
   user_id: number;
   name: string;
   summary: string;
+  image: File;
   cover_image_path: string;
   cover_image_url: string;
   show_me_video_url: string;

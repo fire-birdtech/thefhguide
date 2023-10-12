@@ -3,6 +3,7 @@ import ContentBlockHeader from "@/Components/Forms/Choices/ContentBlockHeader";
 import ResourceListItem from "@/Components/Lists/ResourceListItem";
 import AddResourceItem from "@/Components/Forms/Choices/AddResourceItem";
 import {type Resource} from "@/types";
+import classNames from "@/Utils/classNames";
 
 export default function ResourceList({value, remove, index, update}: {
   value: Resource[],
@@ -11,7 +12,6 @@ export default function ResourceList({value, remove, index, update}: {
   remove?: (index: number) => {}
 }): ReactElement {
   const addResource = (resource: Resource) => {
-    // value = value.splice(0);
     value.push(resource);
 
     update(index, value);
@@ -23,7 +23,10 @@ export default function ResourceList({value, remove, index, update}: {
         Resource List
       </ContentBlockHeader>
       <div className="w-full p-4 border-2 border-purple-200 rounded-b-md rounded-tr-md">
-        <ul className="divide-y divide-gray-300 rounded-md border border-gray-300 mb-2">
+        <ul className={classNames(
+          value.length > 0 ? 'border border-gray-300 mb-2' : '',
+          'divide-y divide-gray-300 rounded-md'
+        )}>
           {value.map((resource, index) => (
             <ResourceListItem key={index} resource={resource}/>
           ))}
