@@ -1,13 +1,11 @@
 import {type FormEventHandler, type ReactElement, useState} from "react";
-import {Dialog} from "@headlessui/react";
 import {router} from "@inertiajs/react";
 import TextInput from "@/Components/Forms/TextInput";
 import InputLabel from "@/Components/Forms/InputLabel";
 import SecondaryButton from "@/Components/Buttons/SecondaryButton";
 import PrimaryButton from "@/Components/Buttons/PrimaryButton";
 import ChoiceContentForm from "@/Components/Forms/Choices/ChoiceContentForm";
-import DangerModal from "@/Components/Modals/Danger";
-import {type Choice, type Resource} from "@/types";
+import {type Choice, type ChoiceContent, type Resource} from "@/types";
 
 export default function ChoiceEdit({choice, close}: {
   choice: Choice;
@@ -19,48 +17,16 @@ export default function ChoiceEdit({choice, close}: {
   const [confirmDeleteProperty, setConfirmDeleteProperty] = useState<boolean>(false);
   const [selectedPropertyIndexForDeletion, setSelectedPropertyIndexForDeletion] = useState<number|undefined>(undefined);
 
-  const updateProperty = (index: number, value: string|Resource[]): void => {
+  const updateContent = (value: ChoiceContent[]): void => {
     let { content } = choiceData;
-    content[index].data = value;
-
+    content = value;
+console.log(content);
     setChoiceData({
       ...choiceData,
-      content,
+      content: [
+        ...content,
+      ],
     });
-  }
-
-  const addProperty = (type: string): void => {
-    type === 'resources'
-      ? setChoiceData({
-          ...choiceData,
-          content: [
-            ...choiceData.content,
-            {'type': type, 'data': []}
-          ]
-        })
-      : setChoiceData({
-          ...choiceData,
-          content: [
-            ...choiceData.content,
-            { 'type': type, 'data': "" }
-          ]
-        });
-  }
-
-  const handleDelete = (index: number): void => {
-    setSelectedPropertyIndexForDeletion(index);
-    setConfirmDeleteProperty(true);
-  }
-
-  const deleteProperty = (): void => {
-    if (selectedPropertyIndexForDeletion !== undefined) {
-      let selectedChoice = choiceData;
-      selectedChoice.content.splice(selectedPropertyIndexForDeletion, 1);
-      setChoiceData({
-        ...selectedChoice,
-      });
-    }
-    setConfirmDeleteProperty(false);
   }
 
   const submit = (e): FormEventHandler => {
@@ -91,7 +57,7 @@ export default function ChoiceEdit({choice, close}: {
         </div>
       </form>
 
-      <ChoiceContentForm content={choiceData.content}/>
+      <ChoiceContentForm content={choiceData.content} update={(value: ChoiceContent) => updateContent(value)}/>
 
       <div className="px-6 py-4">
         <div className="flex justify-end space-x-3">

@@ -14,9 +14,10 @@ import {type ChoiceContent, type Resource} from "@/types";
 
 interface ChoiceContentFormProps {
   content: ChoiceContent[]
+  update?: (value: ChoiceContent[]) => {}
 }
 
-export default function ChoiceContentForm({ content }: ChoiceContentFormProps): ReactElement {
+export default function ChoiceContentForm({ content, update }: ChoiceContentFormProps): ReactElement {
   const [confirmDeleteProperty, setConfirmDeleteProperty] = useState<boolean>(false);
   const [selectedPropertyIndexForDeletion, setSelectedPropertyIndexForDeletion] = useState<number|undefined>(undefined);
   const [hasSummary, setHasSummary] = useState<boolean>(!!content.find((item: ChoiceContent): boolean => item.type === 'summary'));
@@ -36,13 +37,19 @@ export default function ChoiceContentForm({ content }: ChoiceContentFormProps): 
         ...data,
         {'type': type, 'data': ""}
       ]);
+
+    update(data);
   }
 
   const updateProperty = (index: number, value: string|Resource[]): void => {
     let content = data;
     content[index].data = value;
 
-    setData([...data, content]);
+    setData([
+      ...content
+    ]);
+
+    update(data);
   }
 
   const handleDelete = (index: number): void => {
@@ -58,6 +65,8 @@ export default function ChoiceContentForm({ content }: ChoiceContentFormProps): 
         ...content,
       ]);
     }
+
+    update(data);
     setConfirmDeleteProperty(false);
   }
 
