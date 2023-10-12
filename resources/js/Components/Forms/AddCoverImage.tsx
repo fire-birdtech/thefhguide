@@ -31,9 +31,9 @@ export default function ({
   const localRef = useRef<HTMLInputElement>(null);
 
   return (
-    <div className="px-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:items-start sm:border-t sm:border-gray-200 sm:py-4">
+    <div className="px-6 sm:grid sm:grid-cols-8 sm:gap-4 sm:items-start sm:border-t sm:border-gray-200 sm:py-4">
       <InputLabel label="Cover Image" className="sm:mt-px sm:pt-1"/>
-      <div className="mt-1 sm:mt-0 sm:col-span-4">
+      <div className="mt-1 sm:mt-0 sm:col-span-7">
         <input
           type="file"
           accept="image/*"
@@ -42,7 +42,7 @@ export default function ({
           ref={localRef}
         />
 
-        {imagePreview !== undefined ? (
+        {imagePreview !== undefined && (
           <span
             className="block w-full h-72 rounded-lg bg-cover bg-no-repeat bg-center"
             style={{
@@ -52,7 +52,8 @@ export default function ({
               backgroundImage: `url('${imagePreview}')`,
             }}
           />
-        ) : (
+        )}
+        {imagePath !== undefined && (
           <img
             src={imageUrl}
             alt={name}

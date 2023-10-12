@@ -115,9 +115,9 @@ export default function DraftCreate({auth, parent_id, type}: PageProps<{ parent_
 
               {type === 'goal' ? (
                 <>
-                  <div className="px-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:items-start sm:py-4">
+                  <div className="px-6 sm:grid sm:grid-cols-8 sm:gap-4 sm:items-start sm:py-4">
                     <InputLabel label="Summary" className="sm:mt-px sm:pt-2"/>
-                    <div className="mt-1 sm:mt-0 sm:col-span-4">
+                    <div className="mt-1 sm:mt-0 sm:col-span-7">
                       <TextEditor
                         value={data.summary}
                       />
@@ -125,9 +125,9 @@ export default function DraftCreate({auth, parent_id, type}: PageProps<{ parent_
                     </div>
                   </div>
 
-                  <div className="px-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:items-start sm:py-4">
+                  <div className="px-6 sm:grid sm:grid-cols-8 sm:gap-4 sm:items-start sm:py-4">
                     <InputLabel label={`"Show Me" Video`} className="sm:mt-px sm:pt-2"/>
-                    <div className="mt-1 sm:mt-0 sm:col-span-4">
+                    <div className="mt-1 sm:mt-0 sm:col-span-7">
                       <TextInput
                         value={data.show_me_video_url}
                         className="block w-full"
