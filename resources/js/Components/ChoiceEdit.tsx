@@ -7,7 +7,7 @@ import SecondaryButton from "@/Components/Buttons/SecondaryButton";
 import PrimaryButton from "@/Components/Buttons/PrimaryButton";
 import ChoiceContentForm from "@/Components/Forms/Choices/ChoiceContentForm";
 import DangerModal from "@/Components/Modals/Danger";
-import {type Choice, type ChoiceContent, type Resource} from "@/types";
+import {type Choice, type Resource} from "@/types";
 
 export default function ChoiceEdit({choice, close}: {
   choice: Choice;
@@ -72,7 +72,7 @@ export default function ChoiceEdit({choice, close}: {
     });
   }
 
-  return <>
+  return (
     <div className="border-t border-gray-200">
       <form onSubmit={submit} className="sm:divide-y sm:divide-gray-200">
         <div className="px-6 sm:grid sm:grid-cols-8 sm:gap-4 sm:items-start sm:py-4">
@@ -91,74 +91,7 @@ export default function ChoiceEdit({choice, close}: {
         </div>
       </form>
 
-      <ChoiceContentForm
-        add={(type) => addProperty(type)}
-        content={choiceData.content}
-        delete={(index) => handleDelete(index)}
-        update={(index, value) => updateProperty(index, value)}
-      />
-
-      {/*<div className="px-6 sm:grid sm:grid-cols-8 sm:gap-4 sm:items-start sm:py-4">*/}
-      {/*  <InputLabel label="Content" className="sm:mt-px sm:pt-2"/>*/}
-      {/*  <div className="mt-1 space-y-4 sm:mt-0 sm:col-span-7">*/}
-      {/*    {choiceData.content.map((item, idx): void => {*/}
-      {/*      if (item.type === 'summary') return <Summary key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)} remove={(index) => handleDelete(index)}/>*/}
-      {/*      if (item.type === 'text') return <TextBlock key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)} remove={(index) => handleDelete(index)}/>*/}
-      {/*      if (item.type === 'resources') return <ResourceList key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)} remove={(index) => handleDelete(index)}/>*/}
-      {/*      if (item.type === 'header') return <Header key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)} remove={(index) => handleDelete(index)}/>*/}
-      {/*      if (item.type === 'exercises') return <Exercises key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)} remove={(index) => handleDelete(index)}/>*/}
-      {/*      if (item.type === 'quiklinks') return <QUIKLinks key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)} remove={(index) => handleDelete(index)}/>*/}
-      {/*    })}*/}
-      {/*    <div className="space-x-2">*/}
-      {/*      {!hasSummary && (*/}
-      {/*        <AddContentButton*/}
-      {/*          value="Add Summary"*/}
-      {/*          color="sky"*/}
-      {/*          onClick={() => {*/}
-      {/*            addProperty('summary')*/}
-      {/*          }}*/}
-      {/*        />*/}
-      {/*      )}*/}
-      {/*      <AddContentButton*/}
-      {/*        value="Add Text Block"*/}
-      {/*        color="red"*/}
-      {/*          onClick={() => {*/}
-      {/*            addProperty('text')*/}
-      {/*          }}*/}
-      {/*      />*/}
-      {/*      <AddContentButton*/}
-      {/*        value="Add Resource List"*/}
-      {/*        color="purple"*/}
-      {/*          onClick={() => {*/}
-      {/*            addProperty('resources')*/}
-      {/*          }}*/}
-      {/*      />*/}
-      {/*      <AddContentButton*/}
-      {/*        value="Add Header"*/}
-      {/*        color="orange"*/}
-      {/*          onClick={() => {*/}
-      {/*            addProperty('header')*/}
-      {/*          }}*/}
-      {/*      />*/}
-      {/*      {!hasExercises && (*/}
-      {/*        <AddContentButton*/}
-      {/*          value="Add Exercises"*/}
-      {/*          color="emerald"*/}
-      {/*          onClick={() => {*/}
-      {/*            addProperty('exercises')*/}
-      {/*          }}*/}
-      {/*        />*/}
-      {/*      )}*/}
-      {/*      <AddContentButton*/}
-      {/*        value="Add QUIKLinks"*/}
-      {/*        color="yellow"*/}
-      {/*          onClick={() => {*/}
-      {/*            addProperty('quiklinks')*/}
-      {/*          }}*/}
-      {/*      />*/}
-      {/*    </div>*/}
-      {/*  </div>*/}
-      {/*</div>*/}
+      <ChoiceContentForm content={choiceData.content}/>
 
       <div className="px-6 py-4">
         <div className="flex justify-end space-x-3">
@@ -171,21 +104,5 @@ export default function ChoiceEdit({choice, close}: {
         </div>
       </div>
     </div>
-
-    <DangerModal
-      destroy={deleteProperty}
-      open={confirmDeleteProperty}
-      setOpen={setConfirmDeleteProperty}
-    >
-      <Dialog.Title as="h3" className="text-lg font-medium leading-6 text-gray-900">
-        Delete Choice Content Item
-      </Dialog.Title>
-      <div className="mt-2">
-        <p className="text-sm text-gray-500">
-          Are you sure you want to delete this data item? All data will be permanently
-          removed forever. This action cannot be undone.
-        </p>
-      </div>
-    </DangerModal>
-  </>;
+  );
 }

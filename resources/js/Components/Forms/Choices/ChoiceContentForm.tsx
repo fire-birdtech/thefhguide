@@ -1,4 +1,6 @@
 import {type ReactElement, useState} from "react";
+import {Dialog} from "@headlessui/react";
+import {useForm} from "@inertiajs/react";
 import InputLabel from "@/Components/Forms/InputLabel";
 import Summary from "@/Components/Forms/Choices/Summary";
 import TextBlock from "@/Components/Forms/Choices/TextBlock";
@@ -7,30 +9,69 @@ import Header from "@/Components/Forms/Choices/Header";
 import Exercises from "@/Components/Forms/Choices/Exercises";
 import QUIKLinks from "@/Components/Forms/Choices/QUIKLinks";
 import AddContentButton from "@/Components/Buttons/Choices/AddContentButton";
-import {ChoiceContent} from "@/types";
+import DangerModal from "@/Components/Modals/Danger";
+import {type ChoiceContent, type Resource} from "@/types";
 
 interface ChoiceContentFormProps {
-  add: (type: string) => {}
   content: ChoiceContent[]
-  remove: (index: number) => {}
-  update: (index: number, value: string) => {}
 }
 
-export default function ChoiceContentForm({ add, content, remove, update }: ChoiceContentFormProps): ReactElement {
+export default function ChoiceContentForm({ content }: ChoiceContentFormProps): ReactElement {
+  const [confirmDeleteProperty, setConfirmDeleteProperty] = useState<boolean>(false);
+  const [selectedPropertyIndexForDeletion, setSelectedPropertyIndexForDeletion] = useState<number|undefined>(undefined);
   const [hasSummary, setHasSummary] = useState<boolean>(!!content.find((item: ChoiceContent): boolean => item.type === 'summary'));
   const [hasExercises, setHasExercises] = useState<boolean>(!!content.find((item: ChoiceContent): boolean => item.type === 'exercises'));
 
-  return (
+  const {data, setData} = useForm<ChoiceContent[]>([
+    ...content,
+  ]);
+
+  const addProperty = (type: string): void => {
+    type === 'resources'
+      ? setData([
+          ...data,
+          {'type': type, 'data': []}
+        ])
+      : setData([
+        ...data,
+        {'type': type, 'data': ""}
+      ]);
+  }
+
+  const updateProperty = (index: number, value: string|Resource[]): void => {
+    let content = data;
+    content[index].data = value;
+
+    setData([...data, content]);
+  }
+
+  const handleDelete = (index: number): void => {
+    setSelectedPropertyIndexForDeletion(index);
+    setConfirmDeleteProperty(true);
+  }
+
+  const deleteProperty = (): void => {
+    if (selectedPropertyIndexForDeletion !== undefined) {
+      let content = data;
+      data.splice(selectedPropertyIndexForDeletion, 1);
+      setData([
+        ...content,
+      ]);
+    }
+    setConfirmDeleteProperty(false);
+  }
+
+  return <>
     <div className="px-6 py-4 sm:grid sm:grid-cols-8 sm:gap-4 sm:items-start sm:pt-4">
       <InputLabel label="Content" className="sm:mt-px sm:pt-1"/>
       <div className="mt-1 space-y-4 sm:mt-0 sm:col-span-7">
-        {content.map((item, idx): void => {
-          if (item.type === 'summary') return <Summary key={idx} index={idx} value={item.data} update={(index, value) => update(index, value)} remove={(index) => remove(index)}/>
-          if (item.type === 'text') return <TextBlock key={idx} index={idx} value={item.data} update={(index, value) => update(index, value)} remove={(index) => remove(index)}/>
-          if (item.type === 'resources') return <ResourceList key={idx} index={idx} value={item.data} update={(index, value) => update(index, value)} remove={(index) => remove(index)}/>
-          if (item.type === 'header') return <Header key={idx} index={idx} value={item.data} update={(index, value) => update(index, value)} remove={(index) => remove(index)}/>
-          if (item.type === 'exercises') return <Exercises key={idx} index={idx} value={item.data} update={(index, value) => update(index, value)} remove={(index) => remove(index)}/>
-          if (item.type === 'quiklinks') return <QUIKLinks key={idx} index={idx} value={item.data} update={(index, value) => update(index, value)} remove={(index) => remove(index)}/>
+        {data.map((item, idx): void => {
+          if (item.type === 'summary') return <Summary key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)} remove={(index) => handleDelete(index)}/>
+          if (item.type === 'text') return <TextBlock key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)} remove={(index) => handleDelete(index)}/>
+          if (item.type === 'resources') return <ResourceList key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)} remove={(index) => handleDelete(index)}/>
+          if (item.type === 'header') return <Header key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)} remove={(index) => handleDelete(index)}/>
+          if (item.type === 'exercises') return <Exercises key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)} remove={(index) => handleDelete(index)}/>
+          if (item.type === 'quiklinks') return <QUIKLinks key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)} remove={(index) => handleDelete(index)}/>
         })}
         <div className="space-x-2">
           {!hasSummary && (
@@ -38,7 +79,7 @@ export default function ChoiceContentForm({ add, content, remove, update }: Choi
               value="Add Summary"
               color="sky"
               onClick={() => {
-                add('summary')
+                addProperty('summary')
               }}
             />
           )}
@@ -46,21 +87,21 @@ export default function ChoiceContentForm({ add, content, remove, update }: Choi
             value="Add Text Block"
             color="red"
             onClick={() => {
-              add('text')
+              addProperty('text')
             }}
           />
           <AddContentButton
             value="Add Resource List"
             color="purple"
             onClick={() => {
-              add('resources')
+              addProperty('resources')
             }}
           />
           <AddContentButton
             value="Add Header"
             color="orange"
             onClick={() => {
-              add('header')
+              addProperty('header')
             }}
           />
           {!hasExercises && (
@@ -68,7 +109,7 @@ export default function ChoiceContentForm({ add, content, remove, update }: Choi
               value="Add Exercises"
               color="emerald"
               onClick={() => {
-                add('exercises')
+                addProperty('exercises')
               }}
             />
           )}
@@ -76,11 +117,27 @@ export default function ChoiceContentForm({ add, content, remove, update }: Choi
             value="Add QUIKLinks"
             color="yellow"
             onClick={() => {
-              add('quiklinks')
+              addProperty('quiklinks')
             }}
           />
         </div>
       </div>
     </div>
-  );
+
+    <DangerModal
+      destroy={deleteProperty}
+      open={confirmDeleteProperty}
+      setOpen={setConfirmDeleteProperty}
+    >
+      <Dialog.Title as="h3" className="text-lg font-medium leading-6 text-gray-900">
+        Delete Choice Content Item
+      </Dialog.Title>
+      <div className="mt-2">
+        <p className="text-sm text-gray-500">
+          Are you sure you want to delete this data item? All data will be permanently
+          removed forever. This action cannot be undone.
+        </p>
+      </div>
+    </DangerModal>
+  </>;
 }

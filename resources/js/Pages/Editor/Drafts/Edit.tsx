@@ -11,6 +11,7 @@ import AddCoverImage from "@/Components/Forms/AddCoverImage";
 import {useState} from "react";
 import PublishModal from "@/Components/Modals/Publish";
 import {Dialog} from "@headlessui/react";
+import ChoiceContentForm from "@/Components/Forms/Choices/ChoiceContentForm";
 
 export default function DraftEdit({ auth, draft, userCanPublish }: PageProps<{ draft: Draft, userCanPublish: boolean }>) {
   const [confirmDraftPublish, setConfirmDraftPublish] = useState(false);
@@ -19,7 +20,8 @@ export default function DraftEdit({ auth, draft, userCanPublish }: PageProps<{ d
     name: draft.name,
     cover_image_path: draft.cover_image_path,
     summary: draft.summary,
-    show_me_video_url: draft.show_me_video_url
+    show_me_video_url: draft.show_me_video_url,
+    content: draft.content,
   });
 
   const updateCover = (value: File) => {
@@ -62,9 +64,9 @@ export default function DraftEdit({ auth, draft, userCanPublish }: PageProps<{ d
 
           <div className="mt-4 bg-white rounded-md shadow">
             <form className="sm:divide-y sm:divide-gray-200">
-              <div className="px-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:items-start sm:py-4">
+              <div className="px-6 sm:grid sm:grid-cols-8 sm:gap-4 sm:items-start sm:py-4">
                 <InputLabel label="Draft name" className="sm:mt-px sm:pt-2"/>
-                <div className="mt-1 sm:mt-0 sm:col-span-4">
+                <div className="mt-1 sm:mt-0 sm:col-span-7">
                   <TextInput
                     value={data.name}
                     className="block w-full"
@@ -90,9 +92,9 @@ export default function DraftEdit({ auth, draft, userCanPublish }: PageProps<{ d
               {draft.draftable_type === 'goal' ? (
                 // TextEditor
 
-                <div className="px-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:items-start sm:py-4">
+                <div className="px-6 sm:grid sm:grid-cols-8 sm:gap-4 sm:items-start sm:py-4">
                   <InputLabel label={`"Show Me" Video`} className="sm:mt-px sm:pt-2"/>
-                  <div className="mt-1 sm:mt-0 sm:col-span-4">
+                  <div className="mt-1 sm:mt-0 sm:col-span-7">
                     <TextInput
                       value={data.show_me_video_url}
                       className="block w-full"
@@ -106,7 +108,7 @@ export default function DraftEdit({ auth, draft, userCanPublish }: PageProps<{ d
               ) : null}
 
               {draft.draftable_type === 'choice' ? (
-                "add choice content"
+                <ChoiceContentForm content={data.content}/>
               ) : null}
             </form>
           </div>

@@ -37,32 +37,6 @@ export default function DraftCreate({auth, parent_id, type}: PageProps<{ parent_
     });
   }
 
-  const addProperty = (type: string): void => {
-    type === 'resources'
-      ? setData({
-        ...data,
-        content: [
-          ...data.content,
-          {'type': type, 'data': []}
-        ]
-      })
-      : setData({
-        ...data,
-        content: [
-          ...data.content,
-          { 'type': type, 'data': "" }
-        ]
-      });
-  }
-
-  const handleDelete = (index: number): void => {
-    let selectedChoice = data;
-    selectedChoice.content.splice(index, 1);
-    setData({
-      ...selectedChoice,
-    });
-  }
-
   const submit: FormEventHandler = (e) => {
     e.preventDefault();
     if (data.image !== typeof File) {
@@ -142,12 +116,7 @@ export default function DraftCreate({auth, parent_id, type}: PageProps<{ parent_
               ) : null}
 
               {type === 'choice' ? (
-                <ChoiceContentForm
-                  add={(type) => addProperty(type)}
-                  content={data.content}
-                  remove={(index) => handleDelete(index)}
-                  update={(index, value) => updateProperty(index, value)}
-                />
+                <ChoiceContentForm content={data.content}/>
               ) : null}
             </form>
           </div>
