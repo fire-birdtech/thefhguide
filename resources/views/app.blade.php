@@ -14,7 +14,6 @@
 
   <!-- Scripts -->
   @routes
-  @vite('resources/js/app.js')
   @viteReactRefresh
   @vite(['resources/js/app.tsx', "resources/js/Pages/{$page['component']}.tsx"])
   @inertiaHead
