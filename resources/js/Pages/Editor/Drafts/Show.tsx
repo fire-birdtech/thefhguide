@@ -10,7 +10,7 @@ import DescriptionListItem from "@/Components/Lists/DescriptionListItem";
 import SecondaryButtonSmall from "@/Components/Buttons/SecondaryButtonSmall";
 import Anchor from "@/Components/Anchor";
 import ResourceListItem from "@/Components/Lists/ResourceListItem";
-import {Draft, PageProps} from "@/types";
+import {ChoiceContentTypes, Draft, PageProps} from "@/types";
 
 export default function ({auth, draft}: PageProps<{ draft: Draft }>): ReactElement {
   const [showCoverImagePreview, setShowCoverImagePreview] = useState(false);
@@ -74,7 +74,7 @@ export default function ({auth, draft}: PageProps<{ draft: Draft }>): ReactEleme
                 {draft.content !== null && (
                   <DescriptionListItem term="Content" className="prose max-w-none space-y-6">
                     {draft?.content?.map((item, idx) =>
-                      {item.type === 'summary' && (
+                      {item.type === ChoiceContentTypes.SUMMARY && (
                         <>
                           <div className="text-stone-500 font-medium hover:underline">
                             Summary
@@ -82,7 +82,7 @@ export default function ({auth, draft}: PageProps<{ draft: Draft }>): ReactEleme
                           <div dangerouslySetInnerHTML={{ __html: item.data }}/>
                         </>
                       )
-                      item.type === 'resources' && (
+                      item.type === ChoiceContentTypes.RESOURCES && (
                         <>
                           <div className="text-xl font-medium">
                             Resources
@@ -94,7 +94,7 @@ export default function ({auth, draft}: PageProps<{ draft: Draft }>): ReactEleme
                           </ol>
                         </>
                       )
-                      item.type === 'exercises' && (
+                      item.type === ChoiceContentTypes.EXERCISES && (
                         <>
                           <div className="text-stone-500 font-medium hover:underline">
                             Exercises
@@ -102,12 +102,12 @@ export default function ({auth, draft}: PageProps<{ draft: Draft }>): ReactEleme
                           <div dangerouslySetInnerHTML={{ __html: item.data }}/>
                         </>
                       )
-                      item.type === 'header' && (
+                      item.type === ChoiceContentTypes.HEADER && (
                         <Header5>
                           {item.data}
                         </Header5>
                       )
-                      item.type === 'text' && (
+                      item.type === ChoiceContentTypes.TEXT && (
                         <div dangerouslySetInnerHTML={{ __html: item.data }}/>
                       )}
                     )}

@@ -1,5 +1,5 @@
 import {type ReactElement, useState} from "react";
-import {type Choice} from "@/types";
+import {type Choice, ChoiceContentTypes} from "@/types";
 import {MinusIcon, PlusIcon} from "@heroicons/react/24/solid";
 import {Header5} from "@/Components/Typography/Headers";
 import ResourceListItem from "@/Components/Lists/ResourceListItem";
@@ -34,7 +34,7 @@ export default function ExpandableChoiceItem({ choice }: { choice: Choice }): Re
       {expanded && (
         <div className="py-8 prose max-w-none space-y-6">
           {choice.content.map((item) => {
-            if (item.type === 'summary') {
+            if (item.type === ChoiceContentTypes.SUMMARY) {
               return <>
                 <button
                   onClick={() => setShowSummary(!showSummary)}
@@ -46,7 +46,7 @@ export default function ExpandableChoiceItem({ choice }: { choice: Choice }): Re
                   <div dangerouslySetInnerHTML={{__html: item.data}}/>
                 )}
               </>
-            } else if (item.type === 'resources') {
+            } else if (item.type === ChoiceContentTypes.RESOURCES) {
               return <>
                 <Header5>
                   Resources
@@ -57,7 +57,7 @@ export default function ExpandableChoiceItem({ choice }: { choice: Choice }): Re
                   ))}
                 </ol>
               </>
-            } else if (item.type === 'exercises') {
+            } else if (item.type === ChoiceContentTypes.EXERCISES) {
               return <>
                 <button
                   onClick={() => setShowExercises(!showExercises)}
@@ -69,7 +69,7 @@ export default function ExpandableChoiceItem({ choice }: { choice: Choice }): Re
                   <div dangerouslySetInnerHTML={{__html: item.data}}/>
                 )}
               </>
-            } else if (item.type === 'header') {
+            } else if (item.type === ChoiceContentTypes.HEADER) {
               return <Header5>{item.data}</Header5>
             } else {
               return <div dangerouslySetInnerHTML={{ __html: item.data }}/>

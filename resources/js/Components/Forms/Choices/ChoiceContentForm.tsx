@@ -10,7 +10,7 @@ import Exercises from "@/Components/Forms/Choices/Exercises";
 import QUIKLinks from "@/Components/Forms/Choices/QUIKLinks";
 import AddContentButton from "@/Components/Buttons/Choices/AddContentButton";
 import DangerModal from "@/Components/Modals/Danger";
-import {type ChoiceContent, type Resource} from "@/types";
+import {type ChoiceContent, ChoiceContentTypes, type Resource} from "@/types";
 
 interface ChoiceContentFormProps {
   content: ChoiceContent[]
@@ -20,15 +20,15 @@ interface ChoiceContentFormProps {
 export default function ChoiceContentForm({ content, update }: ChoiceContentFormProps): ReactElement {
   const [confirmDeleteProperty, setConfirmDeleteProperty] = useState<boolean>(false);
   const [selectedPropertyIndexForDeletion, setSelectedPropertyIndexForDeletion] = useState<number|undefined>(undefined);
-  const [hasSummary, setHasSummary] = useState<boolean>(!!content.find((item: ChoiceContent): boolean => item.type === 'summary'));
-  const [hasExercises, setHasExercises] = useState<boolean>(!!content.find((item: ChoiceContent): boolean => item.type === 'exercises'));
+  const [hasSummary, setHasSummary] = useState<boolean>(!!content.find((item: ChoiceContent): boolean => item.type === ChoiceContentTypes.SUMMARY));
+  const [hasExercises, setHasExercises] = useState<boolean>(!!content.find((item: ChoiceContent): boolean => item.type === ChoiceContentTypes.EXERCISES));
 
   const {data, setData} = useForm<ChoiceContent[]>([
     ...content,
   ]);
 
   const addProperty = (type: string): void => {
-    type === 'resources'
+    type === ChoiceContentTypes.RESOURCES
       ? setData([
           ...data,
           {'type': type, 'data': []}
@@ -75,12 +75,12 @@ export default function ChoiceContentForm({ content, update }: ChoiceContentForm
       <InputLabel label="Content" className="sm:mt-px sm:pt-1"/>
       <div className="mt-1 space-y-4 sm:mt-0 sm:col-span-7">
         {data.map((item, idx): void => {
-          if (item.type === 'summary') return <Summary key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)} remove={(index) => handleDelete(index)}/>
-          if (item.type === 'text') return <TextBlock key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)} remove={(index) => handleDelete(index)}/>
-          if (item.type === 'resources') return <ResourceList key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)} remove={(index) => handleDelete(index)}/>
-          if (item.type === 'header') return <Header key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)} remove={(index) => handleDelete(index)}/>
-          if (item.type === 'exercises') return <Exercises key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)} remove={(index) => handleDelete(index)}/>
-          if (item.type === 'quiklinks') return <QUIKLinks key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)} remove={(index) => handleDelete(index)}/>
+          if (item.type === ChoiceContentTypes.SUMMARY) return <Summary key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)} remove={(index) => handleDelete(index)}/>
+          if (item.type === ChoiceContentTypes.TEXT) return <TextBlock key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)} remove={(index) => handleDelete(index)}/>
+          if (item.type === ChoiceContentTypes.RESOURCES) return <ResourceList key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)} remove={(index) => handleDelete(index)}/>
+          if (item.type === ChoiceContentTypes.HEADER) return <Header key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)} remove={(index) => handleDelete(index)}/>
+          if (item.type === ChoiceContentTypes.EXERCISES) return <Exercises key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)} remove={(index) => handleDelete(index)}/>
+          if (item.type === ChoiceContentTypes.QUIKLINKS) return <QUIKLinks key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)} remove={(index) => handleDelete(index)}/>
         })}
         <div className="space-x-2">
           {!hasSummary && (
@@ -88,7 +88,7 @@ export default function ChoiceContentForm({ content, update }: ChoiceContentForm
               value="Add Summary"
               color="sky"
               onClick={() => {
-                addProperty('summary')
+                addProperty(ChoiceContentTypes.SUMMARY)
               }}
             />
           )}
@@ -96,21 +96,21 @@ export default function ChoiceContentForm({ content, update }: ChoiceContentForm
             value="Add Text Block"
             color="red"
             onClick={() => {
-              addProperty('text')
+              addProperty(ChoiceContentTypes.TEXT)
             }}
           />
           <AddContentButton
             value="Add Resource List"
             color="purple"
             onClick={() => {
-              addProperty('resources')
+              addProperty(ChoiceContentTypes.RESOURCES)
             }}
           />
           <AddContentButton
             value="Add Header"
             color="orange"
             onClick={() => {
-              addProperty('header')
+              addProperty(ChoiceContentTypes.HEADER)
             }}
           />
           {!hasExercises && (
@@ -118,7 +118,7 @@ export default function ChoiceContentForm({ content, update }: ChoiceContentForm
               value="Add Exercises"
               color="emerald"
               onClick={() => {
-                addProperty('exercises')
+                addProperty(ChoiceContentTypes.EXERCISES)
               }}
             />
           )}
@@ -126,7 +126,7 @@ export default function ChoiceContentForm({ content, update }: ChoiceContentForm
             value="Add QUIKLinks"
             color="yellow"
             onClick={() => {
-              addProperty('quiklinks')
+              addProperty(ChoiceContentTypes.QUIKLINKS)
             }}
           />
         </div>

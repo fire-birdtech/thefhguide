@@ -1,9 +1,9 @@
 import {type ReactElement} from "react";
 import ResourceListItemPublic from "@/Components/Lists/ResourceListItemPublic";
-import {type Choice} from "@/types";
+import {type Choice, ChoiceContentTypes} from "@/types";
 
 const renderContent = (item, idx) => {
-  if (item.type === 'summary') {
+  if (item.type === ChoiceContentTypes.SUMMARY) {
     return (
       <template key={idx}>
         <div className="text-gray-500 font-medium hover:underline">
@@ -12,11 +12,11 @@ const renderContent = (item, idx) => {
         <div dangerouslySetInnerHTML={{__html: item.data}}/>
       </template>
     );
-  } else if (item.type === 'resources') {
+  } else if (item.type === ChoiceContentTypes.RESOURCES) {
     item.data.forEach((resource) => (
       <ResourceListItemPublic key={idx} resource={resource}/>
     ))
-  } else if (item.type === 'exercises') {
+  } else if (item.type === ChoiceContentTypes.EXERCISES) {
     return (
       <template key={idx}>
         <div className="text-gray-500 font-medium hover:underline">
