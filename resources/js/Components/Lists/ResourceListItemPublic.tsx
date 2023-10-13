@@ -1,6 +1,7 @@
 import ResourceLink from "@/Components/Lists/ResourceLink";
+import {Resource} from "@/types";
 
-export default function ResourceListItemPublic({resource}) {
+export default function ResourceListItemPublic({resource}: { resource: Resource }) {
   console.log('resource', resource);
   return (
     <li>

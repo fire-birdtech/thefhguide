@@ -5,7 +5,7 @@ import {SparklesIcon} from "@heroicons/react/24/outline";
 import PrimaryButton from "@/Components/Buttons/PrimaryButton";
 import SecondaryButton from "@/Components/Buttons/SecondaryButton";
 
-export default function PublishModal({ children, publish, open, setOpen }: PropsWithChildren<{ publish: MouseEventHandler, open: boolean, setOpen: () => {} }>): ReactElement {
+export default function PublishModal({ children, publish, open, setOpen }: PropsWithChildren<{ publish: MouseEventHandler, open: boolean, setOpen: () => void }>): ReactElement {
   return (
     <Transition.Root show={open} as={Fragment}>
       <Dialog as="div" className="relative z-10" onClose={setOpen}>
@@ -37,7 +37,7 @@ export default function PublishModal({ children, publish, open, setOpen }: Props
                   <button
                     type="button"
                     className="rounded-md bg-white text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
-                    onClick={() => setOpen(false)}
+                    onClick={() => setOpen()}
                   >
                     <span className="sr-only">Close</span>
                     <XMarkIcon className="h-6 w-6" aria-hidden="true" />
@@ -55,7 +55,7 @@ export default function PublishModal({ children, publish, open, setOpen }: Props
                   <PrimaryButton className="ml-3" onClick={publish}>
                     Publish
                   </PrimaryButton>
-                  <SecondaryButton className="mt-3 sm:mt-0" onClick={() => setOpen(false)}>
+                  <SecondaryButton className="mt-3 sm:mt-0" onClick={() => setOpen()}>
                     Cancel
                   </SecondaryButton>
                 </div>

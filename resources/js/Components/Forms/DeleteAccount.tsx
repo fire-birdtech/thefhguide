@@ -4,9 +4,11 @@ import {Dialog} from "@headlessui/react";
 import {Header3} from "@/Components/Typography/Headers";
 import {Paragraph} from "@/Components/Typography/Paragraphs";
 import DangerButton from "@/Components/Buttons/DangerButton";
-import TextInput from "@/Components/Forms/TextInputCombined";
+import TextInput from "@/Components/Forms/TextInput";
 import DangerModal from "@/Components/Modals/Danger";
 import {User} from "@/types";
+import InputLabel from "@/Components/Forms/InputLabel";
+import InputError from "@/Components/Forms/InputError";
 
 export default function DeleteAccount({hasRoles, user}: { hasRoles: boolean, user: User }) {
   const [confirmingUserDeletion, setConfirmingUserDeletion] = useState(false)
@@ -86,17 +88,19 @@ export default function DeleteAccount({hasRoles, user}: { hasRoles: boolean, use
           </p>
         </div>
         <form className="mt-4">
+          <InputLabel label="Password"/>
           <TextInput
-            label="Password"
             type="password"
             ref={passwordInput}
             value={data.password}
-            onChange={(e) => { setData('password', e.target.value) }}
+            onChange={(e) => {
+              setData('password', e.target.value)
+            }}
             className="block w-full"
             isFocused
             placeholder="Password"
-            message={errors.password}
           />
+          <InputError message={errors.password}/>
         </form>
       </DangerModal>
     </>

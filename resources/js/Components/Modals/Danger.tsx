@@ -15,7 +15,7 @@ export default function Danger({
 }: PropsWithChildren<{
   destroy: MouseEventHandler,
   open: boolean,
-  setOpen: CallableFunction,
+  setOpen(value: boolean): void,
   dangerButtonText?: string,
   maxWidthClass?: string,
 }>): ReactElement {

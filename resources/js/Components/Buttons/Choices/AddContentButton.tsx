@@ -2,13 +2,17 @@ import {type ButtonHTMLAttributes, type ReactElement} from "react";
 import classNames from "@/Utils/classNames";
 import {textStyles, bgStyles, bgHoverStyles, ringFocusStyles} from "@/Utils/choiceContentStyling";
 
+type AddContentButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
+  color: string;
+}
+
 export default function AddContentButton({
   value,
   disabled,
   color,
   type = 'button',
   ...props
-}: ButtonHTMLAttributes<HTMLButtonElement & { color: string }>): ReactElement {
+}: AddContentButtonProps): ReactElement {
   return (
     <button
       {...props}

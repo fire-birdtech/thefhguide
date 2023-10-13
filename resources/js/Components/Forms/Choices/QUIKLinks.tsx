@@ -14,7 +14,7 @@ export default function QUIKLinks({value, remove, index, update}: {
 
   return (
     <div className="flex flex-col">
-      <ContentBlockHeader color="yellow" remove={() => remove(index)}>
+      <ContentBlockHeader color="yellow" remove={() => remove!(index)}>
         QUIKLinks
       </ContentBlockHeader>
       <div className="w-full border-2 border-yellow-200 rounded-b rounded-tr">

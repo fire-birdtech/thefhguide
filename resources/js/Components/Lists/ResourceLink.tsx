@@ -1,6 +1,7 @@
 import {DocumentTextIcon, StarIcon, VideoCameraIcon} from "@heroicons/react/24/outline";
+import {type ResourceLink} from "@/types";
 
-export default function ResourceLink({ resource }) {
+export default function ResourceLink({ resource }: { resource: ResourceLink}) {
     return (
         <li className="flex items-center space-x-2">
             <StarIcon className="h-5 w-5 flex-shrink-0"/>

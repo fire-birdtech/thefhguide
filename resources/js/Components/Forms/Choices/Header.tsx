@@ -13,7 +13,7 @@ export default function Header({value, remove, index, update}: {
 
   return (
     <div className="flex flex-col">
-      <ContentBlockHeader color="orange" remove={() => remove(index)}>
+      <ContentBlockHeader color="orange" remove={() => remove!(index)}>
         Header
       </ContentBlockHeader>
       <div className="w-full p-4 border-2 border-orange-200 rounded-b rounded-tr">

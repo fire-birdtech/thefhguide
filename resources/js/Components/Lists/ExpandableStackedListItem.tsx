@@ -8,8 +8,8 @@ import ChoiceEdit from "@/Components/ChoiceEdit";
 const listStyleAlpha = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
 
 export default function ExpandableStackedListItem({ item }: { item: Choice }): ReactElement {
-  const [expandEdit, setExpandEdit] = useState(false);
-  const [expandShow, setExpandShow] = useState(false);
+  const [expandEdit, setExpandEdit] = useState<boolean>(false);
+  const [expandShow, setExpandShow] = useState<boolean>(false);
 
   const close = () => {
     setExpandEdit(false);

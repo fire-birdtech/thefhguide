@@ -12,6 +12,8 @@ export interface User {
   name: string
   email: string
   email_verified_at: string
+  roles: Role[]
+  admin: User
 }
 
 export interface Editor {
@@ -33,6 +35,7 @@ export interface Collection {
   locked: boolean;
   deleted_at: string;
   projects: Project[];
+  child_drafts: Draft[];
 }
 
 export interface Project {
@@ -135,6 +138,8 @@ export interface Assignment {
   updated_at: string;
   completed_at: string;
   assignable: Goal;
+  editor: User;
+  user: User;
 }
 
 export interface Invitation {
@@ -165,6 +170,14 @@ export interface NotificationType {
   message: string;
   title: string;
   type: string;
+}
+
+export interface Cells {
+  [key: string]: string
+}
+
+export interface Actions {
+  [key: string]: boolean
 }
 
 export type PageProps<T extends Record<string, unknown> = Record<string, unknown>> = T & {

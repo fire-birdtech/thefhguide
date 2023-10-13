@@ -6,7 +6,7 @@ export default function Exercises({value, remove, index, update}: {
   value: string,
   index: number,
   update: (index: number, value: string) => {},
-  remove?: (index: number) => {}
+  remove?: (index: number) => void
 }): ReactElement {
   const updateExercises = (value: string) => {
     update(index, value)
@@ -14,11 +14,11 @@ export default function Exercises({value, remove, index, update}: {
 
   return (
     <div className="flex flex-col">
-      <ContentBlockHeader color="emerald" remove={() => remove(index)}>
+      <ContentBlockHeader color="emerald" remove={() => remove!(index)}>
         Exercises
       </ContentBlockHeader>
       <div className="w-full border-2 border-emerald-200 rounded-b-md rounded-tr-md">
-        <TextEditor value={value} update={updateExercises}/>
+        <TextEditor value={value} update={(value) => updateExercises(value)}/>
       </div>
     </div>
   );

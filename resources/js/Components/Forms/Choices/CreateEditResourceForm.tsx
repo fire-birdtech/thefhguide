@@ -5,15 +5,15 @@ import ResourceItemLink from "@/Components/Forms/Choices/ResourceItemLink";
 import {Resource, ResourceLink} from "@/types";
 
 interface CreateEditResourceFormProps {
-  className: string
+  className?: string
   resource?: Resource
-  save: (resource: Resource) => {}
+  save: (resource: Resource) => void
   setDisplay: () => void
   usage: string
 }
 
 export default function CreateEditResourceForm({
-  className, resource, save, setDisplay, usage,
+  className = '', resource, save, setDisplay, usage,
 }: CreateEditResourceFormProps): ReactElement {
   const [currentResource, setCurrentResource] = useState<Resource>({
     description: resource?.description ?? '',

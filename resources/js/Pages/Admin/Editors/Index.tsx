@@ -20,7 +20,7 @@ export default function EditorIndex({ auth, invitations, users }: PageProps<{
   const [selectedInvitationToBeDeleted, setSelectedInvitationToBeDeleted] = useState<Invitation|undefined>(undefined);
 
   const findInvitationById = (id: number): Invitation => {
-    return invitations.find(invitation => invitation.id === id);
+    return invitations.find(invitation => invitation.id === id) as Invitation;
   }
   const selectInvitationForDeletion = (id: number): void => {
     setSelectedInvitationToBeDeleted(findInvitationById(id));
@@ -38,7 +38,7 @@ export default function EditorIndex({ auth, invitations, users }: PageProps<{
     router.post(route('admin.invitations.resend', [invitation]));
   }
   const deleteInvitation = () => {
-    router.delete(route('admin.invitations.destroy', selectedInvitationToBeDeleted.id), {
+    router.delete(route('admin.invitations.destroy', selectedInvitationToBeDeleted?.id), {
       onSuccess: () => setConfirmDeleteInvitation(false),
     });
   }
@@ -94,7 +94,7 @@ export default function EditorIndex({ auth, invitations, users }: PageProps<{
                           </div>
                           <div className="flex items-center space-x-2">
                             {invitationIsExpired(invitation.updated_at) === true ? (
-                              <SecondaryButton onClick={resendInvitation(invitation)}>
+                              <SecondaryButton onClick={() => resendInvitation(invitation)}>
                                 Resend
                               </SecondaryButton>
                             ) : null}

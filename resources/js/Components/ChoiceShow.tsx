@@ -1,8 +1,8 @@
 import {type ReactElement} from "react";
 import ResourceListItemPublic from "@/Components/Lists/ResourceListItemPublic";
-import {type Choice, ChoiceContentTypes} from "@/types";
+import {type Choice, ChoiceContent, ChoiceContentTypes, Resource} from "@/types";
 
-const renderContent = (item, idx) => {
+const renderContent = (item: ChoiceContent, idx: number) => {
   if (item.type === ChoiceContentTypes.SUMMARY) {
     return (
       <template key={idx}>
@@ -13,8 +13,8 @@ const renderContent = (item, idx) => {
       </template>
     );
   } else if (item.type === ChoiceContentTypes.RESOURCES) {
-    item.data.forEach((resource) => (
-      <ResourceListItemPublic key={idx} resource={resource}/>
+    item.data.map((resource: Resource, index: number) => (
+      <ResourceListItemPublic key={index} resource={resource}/>
     ))
   } else if (item.type === ChoiceContentTypes.EXERCISES) {
     return (

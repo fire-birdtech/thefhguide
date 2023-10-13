@@ -3,7 +3,7 @@ import {FilmIcon} from "@heroicons/react/24/outline";
 import RemoveButton from "@/Components/Buttons/Choices/RemoveButton";
 import {Highlight} from "@/types";
 
-export default function ResourceVideoHighlight({ highlight, index, remove, update }: Highlight<{ index: number, remove: () => {}, update: (key: number, value: Highlight) => {} }>): ReactElement {
+export default function ResourceVideoHighlight({ highlight, index, remove, update }: { highlight: Highlight, index: number, remove: () => {}, update: (key: number, value: Highlight) => {} }): ReactElement {
   const [currentHighlight, setCurrentHighlight] = useState({
     text: highlight.text ?? '',
     link: highlight.link ?? '',

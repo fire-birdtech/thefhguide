@@ -1,5 +1,5 @@
 import {type ReactElement, useState} from "react";
-import {type Choice, ChoiceContentTypes} from "@/types";
+import {type Choice, ChoiceContentTypes, Resource} from "@/types";
 import {MinusIcon, PlusIcon} from "@heroicons/react/24/solid";
 import {Header5} from "@/Components/Typography/Headers";
 import ResourceListItem from "@/Components/Lists/ResourceListItem";
@@ -52,8 +52,8 @@ export default function ExpandableChoiceItem({ choice }: { choice: Choice }): Re
                   Resources
                 </Header5>
                 <ol>
-                  {item.data.map((resource, index) => (
-                    <ResourceListItem resource={resource}/>
+                  {item.data.map((resource: Resource, index: number) => (
+                    <ResourceListItem key={index} resource={resource}/>
                   ))}
                 </ol>
               </>

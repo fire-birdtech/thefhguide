@@ -14,7 +14,7 @@ import {type ChoiceContent, ChoiceContentTypes, type Resource} from "@/types";
 
 interface ChoiceContentFormProps {
   content: ChoiceContent[]
-  update?: (value: ChoiceContent[]) => {}
+  update?: (value: ChoiceContent[]) => void
 }
 
 export default function ChoiceContentForm({ content, update }: ChoiceContentFormProps): ReactElement {

@@ -2,8 +2,8 @@ import {Link} from "@inertiajs/react";
 import {PropsWithChildren} from "react";
 import classNames from "@/Utils/classNames";
 
-export default function SecondaryButtonSmall({ children, onClick, className, href, type = 'button' }: PropsWithChildren<{
-  className: string,
+export default function SecondaryButtonSmall({ children, onClick, className = '', href = '', type = 'button' }: PropsWithChildren<{
+  className?: string,
   href?: string,
   type?: "button" | "submit" | "reset" | undefined,
   onClick: () => void

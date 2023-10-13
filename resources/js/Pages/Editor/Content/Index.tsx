@@ -2,8 +2,9 @@ import {Head} from "@inertiajs/react";
 import Admin from "@/Layouts/Admin";
 import {Header3} from "@/Components/Typography/Headers";
 import ContentCard from "@/Components/Cards/Editor/ContentCard";
+import {type Collection, type PageProps, type Project} from "@/types";
 
-export default function ContentIndex({ auth, collections, projects }) {
+export default function ContentIndex({ auth, collections, projects }: PageProps<{ collections: Collection[], projects: Project[] }>) {
   return (
     <>
       <Head title="Site Content"/>

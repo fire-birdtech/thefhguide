@@ -22,9 +22,7 @@ export default function ({ resource }: { resource: Resource }): ReactElement {
     });
   }
 
-  const saveResource: FormEventHandler = (e): void => {
-    // e.preventDefault();
-
+  const saveResource: FormEventHandler = (): void => {
     submit();
     setView('show');
   }

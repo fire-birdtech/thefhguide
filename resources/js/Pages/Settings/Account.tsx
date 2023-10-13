@@ -4,7 +4,7 @@ import Settings from "@/Layouts/Settings";
 import DeleteAccount from "@/Components/Forms/DeleteAccount";
 import {PageProps} from "@/types";
 
-export default function Account({ auth, hasRoles }: PageProps) {
+export default function Account({ auth, hasRoles }: PageProps<{ hasRoles: boolean }>) {
     return (
         <>
             <Head title="Account"/>

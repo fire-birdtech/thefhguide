@@ -5,7 +5,7 @@ import classNames from "@/Utils/classNames";
 
 const extensions = [StarterKit];
 
-export default function ({className, update, value}: { className: string, index: number, update: (html: string) => {}, value: string }): ReactElement {
+export default function ({ update, value, className = ''}: { className?: string, update: (html: string) => void, value: string }): ReactElement {
   const editor = useEditor({
     extensions,
     content: value,

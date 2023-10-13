@@ -1,4 +1,5 @@
-import {FormEventHandler, useState} from "react";
+import {FormEventHandler, type ReactElement, useState} from "react";
+import {Dialog} from "@headlessui/react";
 import {Head, router, useForm} from "@inertiajs/react";
 import Admin from "@/Layouts/Admin";
 import Container from "@/Components/Container";
@@ -9,12 +10,12 @@ import Table from "@/Components/Tables/Table";
 import TableHead from "@/Components/Tables/TableHead";
 import TableBody from "@/Components/Tables/TableBody";
 import DangerModal from "@/Components/Modals/Danger";
-import {Dialog} from "@headlessui/react";
+import {type Actions, type Cells, type Collection, type PageProps, type Project} from "@/types";
 
-export default function CollectionShow({ auth, collection }) {
+export default function CollectionShow({ auth, collection }: PageProps<{ collection: Collection }>): ReactElement {
   const [confirmCollectionArchive, setConfirmCollectionArchive] = useState(false);
 
-  const updateOrder = (updatedProject, siblingProject) => {
+  const updateOrder = (updatedProject: Project, siblingProject: Project): void => {
     const {put} = useForm({
       updatedProject,
       siblingProject,
@@ -67,16 +68,16 @@ export default function CollectionShow({ auth, collection }) {
     ],
   ];
 
-  const projectCells = {
+  const projectCells: Cells = {
     name: 'Name',
   };
-  const draftCells = {
+  const draftCells: Cells = {
     name: 'Name',
     user: 'Author',
     updated_at: 'Last Updated',
   };
 
-  const tableActions = {
+  const tableActions: Actions = {
     view: true,
     edit: true,
   };

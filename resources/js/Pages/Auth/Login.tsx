@@ -1,9 +1,12 @@
 import {FormEventHandler, useEffect} from "react";
 import {Head, Link, useForm} from "@inertiajs/react";
-import TextInput from "@/Components/Forms/TextInputCombined";
+import TextInputCombined from "@/Components/Forms/TextInputCombined";
 import Checkbox from "@/Components/Forms/Checkbox";
 import PrimaryButton from "@/Components/Buttons/PrimaryButton";
 import Guest from "@/Layouts/Guest";
+import InputLabel from "@/Components/Forms/InputLabel";
+import TextInput from "@/Components/Forms/TextInput";
+import InputError from "@/Components/Forms/InputError";
 
 export default function Login({status, canResetPassword}: {
     status?: string
@@ -34,27 +37,32 @@ export default function Login({status, canResetPassword}: {
             {status !== null && <div className="mb-4 font-medium text-sm text-green-600">{status}</div>}
 
             <form className="space-y-4" onSubmit={submit}>
-                <TextInput
-                    label="Email"
-                    type="email"
-                    value={data.email}
-                    className="mt-1 block w-full"
-                    isFocused={true}
-                    message={errors.email}
-                    onChange={(e) => {
-                        setData('email', e.target.value)
-                    }}
-                />
+                <div>
+                    <InputLabel label="Email"/>
+                    <TextInput
+                      type="email"
+                      value={data.email}
+                      className="mt-1 block w-full"
+                      isFocused={true}
+                      onChange={(e) => {
+                          setData('email', e.target.value)
+                      }}
+                    />
+                    <InputError message={errors.email} className="mt-1"/>
+                </div>
 
-                <TextInput
-                    label="Password"
-                    type="password"
-                    value={data.password}
-                    className="mt-1 block w-full"
-                    onChange={(e) => {
-                        setData('password', e.target.value)
-                    }}
-                />
+                <div>
+                    <InputLabel label="Password"/>
+                    <TextInput
+                      type="password"
+                      value={data.password}
+                      className="mt-1 block w-full"
+                      onChange={(e) => {
+                          setData('password', e.target.value)
+                      }}
+                    />
+                    <InputError message={errors.password} className="mt-1"/>
+                </div>
 
                 <div className="block mt-4">
                     <label className="flex items-center">

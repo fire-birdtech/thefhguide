@@ -1,6 +1,7 @@
 import classNames from "@/Utils/classNames";
+import {Actions, Cells} from "@/types";
 
-export default function TableHead({ cells, actions, order }) {
+export default function TableHead({ cells, actions = false, order = false }: { cells: Cells, actions?: boolean, order?: boolean }) {
     return (
         <thead className="bg-gray-50">
             <tr>

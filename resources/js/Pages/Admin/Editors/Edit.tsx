@@ -12,7 +12,7 @@ import {type PageProps, type Role, type User} from "@/types";
 import SecondaryButton from "@/Components/Buttons/SecondaryButton";
 import PrimaryButton from "@/Components/Buttons/PrimaryButton";
 
-export default function EditorEdit({ admins, auth, roles, user }: PageProps<{ roles: Role[], user: User }>): ReactElement {
+export default function EditorEdit({ admins, auth, roles, user }: PageProps<{ admins: User[], roles: Role[], user: User }>): ReactElement {
   const {data, setData, errors, put, processing} = useForm({
     roles: user.roles,
     admin: user.admin
@@ -21,13 +21,13 @@ export default function EditorEdit({ admins, auth, roles, user }: PageProps<{ ro
   const upperCaseRole = () => user.roles[0].name.charAt(0).toUpperCase() + user.roles[0].name.slice(1);
 
   const findRole = (roleName: string) => {
-    return user.roles.find(role => role.name === roleName);
+    return !!user.roles.find(role => role.name === roleName);
   }
 
   const updateUserRoles = (role: Role) => {
     findRole(role.name) ?
       user.roles.splice(
-        user.roles.indexOf(r => r.id === role.id), 1
+        user.roles.indexOf(role), 1
       ) :
       user.roles.push(role);
   }

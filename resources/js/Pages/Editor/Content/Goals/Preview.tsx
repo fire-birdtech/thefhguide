@@ -1,8 +1,9 @@
 import {type ReactElement} from "react";
 import {Head} from "@inertiajs/react";
 import ExpandableChoiceItem from "@/Components/Lists/ExpandableChoiceItem";
+import {Goal} from "@/types";
 
-export default function GoalPreview({ goal }): ReactElement {
+export default function GoalPreview({ goal }: { goal: Goal }): ReactElement {
   return <>
     <Head title={`Preview of ${goal.name}`}/>
 

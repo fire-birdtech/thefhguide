@@ -21,7 +21,7 @@ export default function TableHeader({header, addRoute = '', addText = '', submit
               {addText}
             </PrimaryButton>
           ) : (
-            <PrimaryButton onClick={submit}>
+            <PrimaryButton onClick={() => submit!()}>
               {addText}
             </PrimaryButton>
           )}

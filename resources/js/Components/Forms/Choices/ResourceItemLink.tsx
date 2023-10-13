@@ -4,7 +4,7 @@ import {Highlight, type ResourceLink} from "@/types";
 import ResourceVideoHighlight from "@/Components/Forms/Choices/ResourceVideoHighlight";
 import AddButton from "@/Components/Buttons/Choices/AddButton";
 
-export default function ResourceItemLink({index, link, remove, update}: ResourceLink<{ index: number, remove: (key) => {}, update: (key, value) => {} }>): ReactElement {
+export default function ResourceItemLink({index, link, remove, update}: { index: number, link: ResourceLink, remove: (key: number) => {}, update: (key: number, value: ResourceLink) => {} }): ReactElement {
   const [resourceLink, setResourceLink] = useState<ResourceLink>({
     text: link.text ?? '',
     link: link.link ?? '',
@@ -13,7 +13,7 @@ export default function ResourceItemLink({index, link, remove, update}: Resource
     highlights: link?.highlights ?? [],
   });
 
-  const updateResource = (key: string, value: string): void => {
+  const updateResource = (key: string, value: string|Highlight[]): void => {
     let updatedResourceLink: ResourceLink = {
       ...resourceLink,
       [key]: value,
@@ -46,7 +46,7 @@ export default function ResourceItemLink({index, link, remove, update}: Resource
     updateResource('highlights', highlights);
   }
 
-  const removeHighlight = (highlightKey): void => {
+  const removeHighlight = (highlightKey: number): void => {
     let { highlights } = resourceLink;
     delete highlights[highlightKey];
 
@@ -107,7 +107,7 @@ export default function ResourceItemLink({index, link, remove, update}: Resource
               index={index}
               highlight={highlight}
               remove={() => removeHighlight(index)}
-              update={(key, value) => updateHighlight(key, value)}
+              update={(key: number, value: Highlight) => updateHighlight(key, value)}
             />
           ))}
         </div>

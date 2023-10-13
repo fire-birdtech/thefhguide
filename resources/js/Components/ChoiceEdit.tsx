@@ -9,7 +9,7 @@ import {type Choice, type ChoiceContent, type Resource} from "@/types";
 
 export default function ChoiceEdit({choice, close}: {
   choice: Choice;
-  close: () => {};
+  close: () => void;
 }): ReactElement {
   const [choiceData, setChoiceData] = useState<Choice>({
     ...choice,
@@ -20,7 +20,7 @@ export default function ChoiceEdit({choice, close}: {
   const updateContent = (value: ChoiceContent[]): void => {
     let { content } = choiceData;
     content = value;
-console.log(content);
+
     setChoiceData({
       ...choiceData,
       content: [
@@ -29,7 +29,7 @@ console.log(content);
     });
   }
 
-  const submit = (e): FormEventHandler => {
+  const submit = (e): void => {
     e.preventDefault();
 
     router.put(route('editor.choices.update', [choice]), choiceData, {
@@ -57,7 +57,7 @@ console.log(content);
         </div>
       </form>
 
-      <ChoiceContentForm content={choiceData.content} update={(value: ChoiceContent) => updateContent(value)}/>
+      <ChoiceContentForm content={choiceData.content} update={(value: ChoiceContent[]) => updateContent(value)}/>
 
       <div className="px-6 py-4">
         <div className="flex justify-end space-x-3">

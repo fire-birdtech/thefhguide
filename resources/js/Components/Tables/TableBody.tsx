@@ -3,12 +3,23 @@ import {Link} from "@inertiajs/react";
 import Badge from "@/Components/Badge";
 import {ArrowDownIcon, ArrowUpIcon} from "@heroicons/react/20/solid";
 import {EyeIcon, PencilSquareIcon} from "@heroicons/react/24/solid";
+import {Actions, Assignment, Cells, Draft, Project, User} from "@/types";
+
+interface TableBodyProps {
+  actions: Actions
+  cells: Cells
+  rows: Assignment[] | Project[] | Draft[] | User[]
+  adminRouteType?: string
+  routeType?: string
+  order?: boolean
+  moveDown?: () => void
+  moveUp?: () => void
+}
 
 const convertModel = (model: string) => model.split('\\')[2];
 
-const renderTableData = (cellIdx, cellKey, routeType, row) => {
-  if (cellIdx === 0 && cellKey !== 'assignable') return <Link href={route(`${routeType}.show`, [row.id])}
-                                                              className="text-gray-900 hover:text-gray-700 font-semibold">{row[cellKey]}</Link>
+const renderTableData = (cellIdx: number, cellKey: string, routeType: string, row) => {
+  if (cellIdx === 0 && cellKey !== 'assignable') return <Link href={route(`${routeType}.show`, [row.id])} className="text-gray-900 hover:text-gray-700 font-semibold">{row[cellKey]}</Link>
   else if (cellIdx === 0 && cellKey === 'assignable') return row[cellKey].name
   else if (cellKey === 'type') return convertModel(row.assignable_type)
   else if (cellKey === 'status') return <Badge text={row.status}/>
@@ -18,9 +29,9 @@ const renderTableData = (cellIdx, cellKey, routeType, row) => {
   else return row[cellKey]
 }
 
-export default function TableBody({actions, adminRouteType, cells, routeType, rows, order = false}) {
-  const editRoute = (row) => routeType !== null ?
-    route(`${adminRouteType || routeType}.edit`, [row.id]) : null;
+export default function TableBody({actions, cells, rows, adminRouteType = '', routeType = '', order = false}: TableBodyProps) {
+  const editRoute = (row): string => routeType !== null ?
+    route(`${adminRouteType || routeType}.edit`, [row.id]) : "#";
 
   return (
     <tbody className="bg-white">
@@ -42,7 +53,7 @@ export default function TableBody({actions, adminRouteType, cells, routeType, ro
         ))}
         {order ? (
           <td className="relative w-8 pl-4">
-            <div className={classNames(rowIdx === rows.length - 1 && 'pl-4', 'inline-flex')}>
+            <div className={classNames(rowIdx === rows.length - 1 ? 'pl-4' : '', 'inline-flex')}>
               {rowIdx !== rows.length - 1 && <ArrowDownIcon className="h-4 w-4 text-gray-500 hover:text-gray-600 cursor-pointer"/>}
               {rowIdx > 0 && <ArrowUpIcon className="h-4 w-4 text-gray-500 hover:text-gray-600 cursor-pointer"/>}
             </div>

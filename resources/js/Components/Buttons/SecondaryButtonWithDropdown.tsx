@@ -5,7 +5,7 @@ import classNames from "@/Utils/classNames";
 import {Link} from "@inertiajs/react";
 import {ButtonMenuItem, ExternalLinkMenuItem, InternalLinkMenuItem} from "@/Components/MenuItems";
 
-const menuItemStyles = (active) => {
+const menuItemStyles = (active: boolean) => {
   return classNames(
     active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
     'group flex items-center px-4 py-2 text-sm',
@@ -14,33 +14,7 @@ const menuItemStyles = (active) => {
 
 const iconStyles: string = 'mr-3 h-5 w-5 text-gray-400 group-hover:text-gray-500';
 
-function renderMenuItem(item, active) {
-  if (item.target) {
-    return (
-      <a href={item.href} target="_blank" className={menuItemStyles(active)}>
-        <item.icon className={iconStyles} aria-hidden="true"/>
-        {item.name}
-      </a>
-    );
-  } else if (item.as === 'link') {
-    return (
-      <Link href={item.href} className={menuItemStyles(active)}>
-        <item.icon className={iconStyles} aria-hidden="true"/>
-        {item.name}
-      </Link>
-    );
-  } else if (item.as === 'emitter') {
-    return (
-      <button onClick={item.emit}
-              className={classNames(menuItemStyles(active), 'w-full text-left disabled:pointer-events-none disabled:cursor-none')}>
-        <item.icon className={iconStyles} aria-hidden="true"/>
-        {item.name}
-      </button>
-    );
-  }
-}
-
-export default function SecondaryButtonWithDropdown({actions, buttonText}) {
+export default function SecondaryButtonWithDropdown({actions, buttonText}: { actions: any[], buttonText:string }) {
   return (
     <Menu as="div" className="relative inline-block text-left">
       <div>
@@ -64,7 +38,7 @@ export default function SecondaryButtonWithDropdown({actions, buttonText}) {
           className="absolute right-0 z-10 mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
           {actions.map((actionGroup, agIdx) => (
             <div className="py-1" key={agIdx}>
-              {actionGroup.map((action, actionIdx) => {
+              {actionGroup.map((action: any, actionIdx: number) => {
                 if (action.target !== undefined) return <ExternalLinkMenuItem key={actionIdx} action={action}/>
                 else if (action.as === 'link') return <InternalLinkMenuItem key={actionIdx} action={action}/>
                 else if (action.as === 'emitter') return <ButtonMenuItem key={actionIdx} action={action}/>

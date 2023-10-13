@@ -1,71 +1,86 @@
-import { useEffect, type FormEventHandler} from 'react'
-import { Head, useForm } from '@inertiajs/react'
+import {type FormEventHandler, useEffect} from 'react'
+import {Head, useForm} from '@inertiajs/react'
 import Guest from '@/Layouts/Guest'
 import PrimaryButton from '@/Components/Buttons/PrimaryButton'
-import TextInput from '@/Components/Forms/TextInputCombined'
+import TextInputCombined from '@/Components/Forms/TextInputCombined'
+import InputLabel from "@/Components/Forms/InputLabel";
+import TextInput from "@/Components/Forms/TextInput";
+import InputError from "@/Components/Forms/InputError";
 
-export default function ResetPassword ({ token, email }: { token: string, email: string }) {
-    const { data, setData, post, processing, errors, reset } = useForm({
-        token,
-        email,
-        password: '',
-        password_confirmation: ''
-    })
+export default function ResetPassword({token, email}: {
+  token: string,
+  email: string
+}) {
+  const {data, setData, post, processing, errors, reset} = useForm({
+    token,
+    email,
+    password: '',
+    password_confirmation: ''
+  })
 
-    useEffect(() => {
-        return () => {
-            reset('password', 'password_confirmation')
-        }
-    }, [])
-
-    const submit: FormEventHandler = (e) => {
-        e.preventDefault()
-
-        post(route('password.store'))
+  useEffect(() => {
+    return () => {
+      reset('password', 'password_confirmation')
     }
+  }, [])
 
-    return (
-        <Guest>
-            <Head title="Reset Password"/>
+  const submit: FormEventHandler = (e) => {
+    e.preventDefault()
 
-            <form className="space-y-4" onSubmit={submit}>
-                <TextInput
-                    label="Email"
-                    type="email"
-                    value={data.email}
-                    className="mt-1 block w-full"
-                    onChange={(e) => {
-                        setData('email', e.target.value)
-                    }}
-                />
+    post(route('password.store'))
+  }
 
-                <TextInput
-                    label="Password"
-                    type="password"
-                    value={data.password}
-                    className="mt-1 block w-full"
-                    isFocused={true}
-                    onChange={(e) => {
-                        setData('password', e.target.value)
-                    }}
-                />
+  return (
+    <Guest>
+      <Head title="Reset Password"/>
 
-                <TextInput
-                    label="Confirm Password"
-                    type="password"
-                    value={data.password_confirmation}
-                    className="mt-1 block w-full"
-                    onChange={(e) => {
-                        setData('password_confirmation', e.target.value)
-                    }}
-                />
+      <form className="space-y-4" onSubmit={submit}>
+        <div>
+          <InputLabel label="Email"/>
+          <TextInput
+            type="email"
+            value={data.email}
+            className="mt-1 block w-full"
+            onChange={(e) => {
+              setData('email', e.target.value)
+            }}
+            required
+          />
+          <InputError message={errors.email} className="mt-1"/>
+        </div>
 
-                <div className="flex items-center justify-end mt-4">
-                    <PrimaryButton className="ml-4" disabled={processing}>
-                        Reset Password
-                    </PrimaryButton>
-                </div>
-            </form>
-        </Guest>
-    )
+        <div>
+          <InputLabel label="Password"/>
+          <TextInput
+            type="password"
+            value={data.password}
+            className="mt-1 block w-full"
+            onChange={(e) => {
+              setData('password', e.target.value)
+            }}
+            required
+          />
+        </div>
+
+        <div>
+          <InputLabel label="Confirm Password"/>
+          <TextInput
+            type="password"
+            value={data.password_confirmation}
+            className="mt-1 block w-full"
+            onChange={(e) => {
+              setData('password_confirmation', e.target.value)
+            }}
+            required
+          />
+        </div>
+
+        <div className="flex items-center justify-end mt-4">
+          <PrimaryButton className="ml-4" disabled={processing}>
+            Reset Password
+          </PrimaryButton>
+        </div>
+      </form>
+    </Guest>
+  )
 }

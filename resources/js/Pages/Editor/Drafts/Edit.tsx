@@ -121,7 +121,7 @@ export default function DraftEdit({ auth, draft, userCanPublish }: PageProps<{ d
         </Container>
       </Admin>
 
-      <PublishModal open={confirmDraftPublish} setOpen={setConfirmDraftPublish} publish={publish}>
+      <PublishModal open={confirmDraftPublish} setOpen={() => setConfirmDraftPublish(false)} publish={publish}>
         <Dialog.Title as="h3" className="text-lg leading-6 font-medium text-gray-900">
           Publish Draft
         </Dialog.Title>

@@ -5,7 +5,7 @@ import CreateEditResourceForm from "@/Components/Forms/Choices/CreateEditResourc
 import {Header5} from "@/Components/Typography/Headers";
 
 export default function AddResourceItem({add}: {
-  add: (resource: Resource) => {};
+  add: (resource: Resource) => void;
 }): ReactElement {
   const [displayAddResourceForm, setDisplayAddResourceForm] = useState(false);
 

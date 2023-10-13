@@ -10,7 +10,7 @@ import SecondaryButton from "@/Components/Buttons/SecondaryButton";
 import PrimaryButton from "@/Components/Buttons/PrimaryButton";
 import {type Goal, type PageProps} from "@/types";
 
-export default function GoalEdit({ auth, goal }: PageProps<Goal>): ReactElement {
+export default function GoalEdit({ auth, goal }: PageProps<{ goal: Goal }>): ReactElement {
   const {data, setData, errors, put, processing} = useForm({
     name: goal.name,
     summary: goal.summary,

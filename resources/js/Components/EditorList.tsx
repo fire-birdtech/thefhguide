@@ -6,7 +6,7 @@ import {type Editor} from "@/types";
 export default function ({editors}: {
   editors: Editor[];
 }): ReactElement {
-  <>
+  return <>
     <Header3>
       My Editors
     </Header3>

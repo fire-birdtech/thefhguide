@@ -11,7 +11,7 @@ export default function SecurityPage({ auth }: PageProps) {
 
             <Authenticated user={auth.user}>
                 <Settings>
-                    <UpdatePassword/>
+                    <UpdatePassword user={auth.user}/>
                 </Settings>
             </Authenticated>
         </>

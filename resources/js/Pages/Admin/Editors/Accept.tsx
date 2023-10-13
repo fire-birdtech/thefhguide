@@ -3,9 +3,17 @@ import {Head, useForm} from "@inertiajs/react";
 import Guest from "@/Layouts/Guest";
 import PrimaryButtonFullWidth from "@/Components/Buttons/PrimaryButtonFullWidth";
 import TextInputCombined from "@/Components/Forms/TextInputCombined";
-import TextInput from "@/Components/Forms/TextInputCombined";
+import {type Invitation} from "@/types";
+import InputLabel from "@/Components/Forms/InputLabel";
+import TextInput from "@/Components/Forms/TextInput";
+import InputError from "@/Components/Forms/InputError";
 
-export default function EditorAccept({ invitation, hasAccount }): ReactElement {
+interface EditorAcceptProps {
+  invitation: Invitation
+  hasAccount: boolean
+}
+
+export default function EditorAccept({ invitation, hasAccount }: EditorAcceptProps): ReactElement {
   const {
     post: postAccept,
     processing: processingAccept,
@@ -78,51 +86,68 @@ export default function EditorAccept({ invitation, hasAccount }): ReactElement {
                 Please complete your account by adding a password.
               </p>
               <form onSubmit={submitRegister} className="mt-3 mb-1 space-y-3">
-                <TextInput
-                  label="Name"
-                  value={data.name}
-                  className="mt-1 block w-full"
-                  isFocused
-                  message={errors.name}
-                  onChange={(e) => {
-                    setData('name', e.target.value)
-                  }}
-                  required
-                />
+                <div>
+                  <InputLabel label="Name"/>
+                  <div>
+                    <TextInput
+                      value={data.name}
+                      className="mt-1 block w-full"
+                      onChange={(e) => {
+                        setData('name', e.target.value)
+                      }}
+                      required
+                    />
+                    <InputError message={errors.name}/>
+                  </div>
+                </div>
 
-                <TextInput
-                  label="Email"
-                  type="email"
-                  value={data.email}
-                  className="mt-1 block w-full"
-                  message={errors.email}
-                  onChange={(e) => {
-                    setData('email', e.target.value)
-                  }}
-                  required
-                />
+                <div>
+                  <InputLabel label="Email"/>
+                  <div>
+                    <TextInput
+                      type="email"
+                      value={data.email}
+                      className="mt-1 block w-full"
+                      onChange={(e) => {
+                        setData('email', e.target.value)
+                      }}
+                      required
+                    />
+                    <InputError message={errors.email}/>
+                  </div>
+                </div>
 
-                <TextInput
-                  label="Password"
-                  type="password"
-                  value={data.password}
-                  className="mt-1 block w-full"
-                  onChange={(e) => {
-                    setData('password', e.target.value)
-                  }}
-                  required
-                />
+                <div>
+                  <InputLabel label="Password"/>
+                  <div>
+                    <TextInput
+                      type="password"
+                      value={data.password}
+                      className="mt-1 block w-full"
+                      onChange={(e) => {
+                        setData('password', e.target.value)
+                      }}
+                      required
+                    />
+                    <InputError message={errors.password}/>
+                  </div>
+                </div>
 
-                <TextInput
-                  label="Confirm Password"
-                  type="password"
-                  value={data.password_confirmation}
-                  className="mt-1 block w-full"
-                  onChange={(e) => {
-                    setData('password_confirmation', e.target.value)
-                  }}
-                  required
-                />
+                <div>
+                  <InputLabel label="Confirm Password"/>
+                  <div>
+                    <TextInput
+                      type="password"
+                      value={data.password_confirmation}
+                      className="mt-1 block w-full"
+                      onChange={(e) => {
+                        setData('password_confirmation', e.target.value)
+                      }}
+                      required
+                    />
+                    <InputError message={errors.password_confirmation}/>
+                  </div>
+                </div>
 
                 <div className="mt-8">
                   <PrimaryButtonFullWidth>
