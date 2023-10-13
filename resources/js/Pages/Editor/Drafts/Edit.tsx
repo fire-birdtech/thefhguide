@@ -12,6 +12,7 @@ import {useState} from "react";
 import PublishModal from "@/Components/Modals/Publish";
 import {Dialog} from "@headlessui/react";
 import ChoiceContentForm from "@/Components/Forms/Choices/ChoiceContentForm";
+import TextEditor from "@/Components/Forms/TextEditor";
 
 export default function DraftEdit({ auth, draft, userCanPublish }: PageProps<{ draft: Draft, userCanPublish: boolean }>) {
   const [confirmDraftPublish, setConfirmDraftPublish] = useState(false);
@@ -89,8 +90,13 @@ export default function DraftEdit({ auth, draft, userCanPublish }: PageProps<{ d
                 />
               ) : null}
 
-              {draft.draftable_type === 'goal' ? (
-                // TextEditor
+              {draft.draftable_type === 'goal' ? <>
+                <div className="px-6 sm:grid sm:grid-cols-8 sm:gap-4 sm:items-start sm:py-4">
+                  <InputLabel label="Summary" className="sm:mt-px sm:pt-2"/>
+                  <div className="mt-1 border border-gray-300 rounded-md sm:mt-0 sm:col-span-7">
+                    <TextEditor className="rounded-md focus:ring-4 focus:ring-blue-200 focus:ring-opacity-50"/>
+                  </div>
+                </div>
 
                 <div className="px-6 sm:grid sm:grid-cols-8 sm:gap-4 sm:items-start sm:py-4">
                   <InputLabel label={`"Show Me" Video`} className="sm:mt-px sm:pt-2"/>
@@ -105,7 +111,7 @@ export default function DraftEdit({ auth, draft, userCanPublish }: PageProps<{ d
                     <InputError message={errors.show_me_video_url}/>
                   </div>
                 </div>
-              ) : null}
+              </> : null}
 
               {draft.draftable_type === 'choice' ? (
                 <ChoiceContentForm content={data.content}/>

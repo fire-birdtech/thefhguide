@@ -1,10 +1,11 @@
-import {FormEventHandler, type ReactElement} from "react";
-import {FloatingMenu, BubbleMenu, useEditor, EditorContent} from '@tiptap/react';
+import {type ReactElement} from "react";
+import {FloatingMenu, useEditor, EditorContent} from '@tiptap/react';
 import StarterKit from '@tiptap/starter-kit';
+import classNames from "@/Utils/classNames";
 
 const extensions = [StarterKit];
 
-export default function ({update, value}: { index: number, update: (html: string) => {}, value: string }): ReactElement {
+export default function ({className, update, value}: { className: string, index: number, update: (html: string) => {}, value: string }): ReactElement {
   const editor = useEditor({
     extensions,
     content: value,
@@ -13,15 +14,18 @@ export default function ({update, value}: { index: number, update: (html: string
     },
     editorProps: {
       attributes: {
-        class: 'prose prose-sm max-w-6xl prose-a:text-blue-500 text-sm p-4 min-h-32 border-gray-300 overflow-auto focus:outline-none',
+        class: classNames(
+          className,
+          'prose prose-sm max-w-6xl prose-a:text-blue-500 text-sm p-3.5 min-h-32 overflow-auto focus:outline-none'
+        ),
       },
     },
   });
   return (
     <>
       <EditorContent spellCheck={false} editor={editor}/>
-      <FloatingMenu editor={editor}>This is a floating menu</FloatingMenu>
-      <BubbleMenu editor={editor}>This is a bubble menu</BubbleMenu>
+      {/*<FloatingMenu editor={editor} className="border border-gray-300 rounded-md p-1 shadow">This is a floating menu</FloatingMenu>*/}
+      {/*<BubbleMenu editor={editor}>This is a bubble menu</BubbleMenu>*/}
     </>
   );
 }
