@@ -6,17 +6,9 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [
     laravel({
-      input: 'resources/js/app.js',
+      input: 'resources/js/app.tsx',
       ssr: 'resources/js/ssr.js',
       refresh: true,
-    }),
-    vue({
-      template: {
-        transformAssetUrls: {
-          base: null,
-          includeAbsolute: false,
-        },
-      },
     }),
     react(),
   ],

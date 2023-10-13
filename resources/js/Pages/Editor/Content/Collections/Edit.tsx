@@ -35,6 +35,7 @@ export default function CollectionEdit({ auth, collection }) {
                   value={data.name}
                   className="mt-1 block w-full"
                   onChange={(e) => setData('name', e.target.value)}
+                />
               </div>
               <div className="px-6 py-4 sm:border-t sm:border-gray-200">
                 <div className="flex justify-end space-x-3">
