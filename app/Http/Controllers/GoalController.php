@@ -5,7 +5,6 @@ namespace App\Http\Controllers;
 use App\Http\Requests\GoalRequest;
 use App\Http\Requests\UpdateGoalOrderRequest;
 use App\Models\Goal;
-use App\Models\Project;
 use Illuminate\Http\Request;
 
 class GoalController extends Controller

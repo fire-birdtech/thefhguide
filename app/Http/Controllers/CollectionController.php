@@ -98,8 +98,8 @@ class CollectionController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param Request $request
-     * @param Collection $collection
+     * @param  Request  $request
+     * @param  Collection  $collection
      * @return RedirectResponse
      */
     public function destroy(Request $request, Collection $collection): RedirectResponse

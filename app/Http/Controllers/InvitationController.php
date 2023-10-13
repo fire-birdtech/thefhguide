@@ -26,10 +26,10 @@ class InvitationController extends Controller
     public function store(AdminInvitationRequest $request)
     {
         $invitation = Invitation::create([
-          'admin_id' => $request->admin['id'],
-          'email' => $request->email,
-          'name' => $request->name,
-          'role' => $request->role,
+            'admin_id' => $request->admin['id'],
+            'email' => $request->email,
+            'name' => $request->name,
+            'role' => $request->role,
         ]);
         $this->sendInvitationEmail($invitation);
 

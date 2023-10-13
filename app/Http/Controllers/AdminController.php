@@ -72,8 +72,8 @@ class AdminController extends Controller
     {
         return inertia('Admin/Editors/Edit', [
             'admins' => User::role('admin')->with('roles')->get(),
-            'roles' => Role::whereNotIn('name', ['super admin','developer'])->get(),
-            'user' => $user->load(['admin','roles']),
+            'roles' => Role::whereNotIn('name', ['super admin', 'developer'])->get(),
+            'user' => $user->load(['admin', 'roles']),
         ]);
     }
 

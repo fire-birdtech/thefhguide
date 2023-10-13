@@ -49,7 +49,7 @@ class ProjectController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param Project $project
+     * @param  Project  $project
      * @return \Illuminate\Http\Response
      */
     public function show(Project $project)
@@ -64,7 +64,7 @@ class ProjectController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param Project $project
+     * @param  Project  $project
      * @return \Illuminate\Http\Response
      */
     public function edit(Request $request, Project $project)
@@ -90,8 +90,8 @@ class ProjectController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param ProjectUpdateRequest $request
-     * @param Project $project
+     * @param  ProjectUpdateRequest  $request
+     * @param  Project  $project
      * @return RedirectResponse
      */
     public function update(ProjectUpdateRequest $request, Project $project): RedirectResponse
@@ -129,7 +129,7 @@ class ProjectController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param Project $project
+     * @param  Project  $project
      * @return \Illuminate\Http\Response
      */
     public function destroy(Project $project)
