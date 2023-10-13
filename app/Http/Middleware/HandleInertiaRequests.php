@@ -32,11 +32,11 @@ class HandleInertiaRequests extends Middleware
      * @param  \Illuminate\Http\Request  $request
      * @return array
      */
-    public function share(Request $request)
+    public function share(Request $request): array
     {
         return array_merge(parent::share($request), [
             'auth' => [
-                'user' => fn () => auth()->user() ? $request->user()->load('roles') : '',
+                'user' => fn () => auth()->user() ? $request->user()->load('roles') : null,
             ],
             'currentUserRole' => fn () => auth()->user() && count($request->user()->roles) ? $request->user()?->roles[0]->name : null,
             'canManageEditors' => fn () => auth()->user() ? $request->user()->can('manage editors') : null,

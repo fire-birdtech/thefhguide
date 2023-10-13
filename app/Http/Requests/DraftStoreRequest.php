@@ -11,7 +11,7 @@ class DraftStoreRequest extends FormRequest
      *
      * @return bool
      */
-    public function authorize()
+    public function authorize(): bool
     {
         return $this->user()->can('draft content');
     }
@@ -21,13 +21,13 @@ class DraftStoreRequest extends FormRequest
      *
      * @return array<string, mixed>
      */
-    public function rules()
+    public function rules(): array
     {
         return [
             'type' => 'required|string',
             'parent_id' => 'required|string',
             'name' => 'required|string',
-            'image' => 'nullable|mimes:jpg,jpeg,png|max:1024',
+            'image' => 'nullable|mimes:jpg,jpeg,png,text/plain|max:1024',
             'summary' => 'nullable|string',
             'show_me_video_url' => 'nullable|string',
             'content' => 'nullable',

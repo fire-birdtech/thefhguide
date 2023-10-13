@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\CollectionRequest;
 use App\Models\Collection;
+use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 
 class CollectionController extends Controller
@@ -15,9 +16,7 @@ class CollectionController extends Controller
      */
     public function index()
     {
-        return inertia('Editor/Content/Collections/Index', [
-            'collections' => Collection::all(),
-        ]);
+        //
     }
 
     /**
@@ -27,7 +26,7 @@ class CollectionController extends Controller
      */
     public function create()
     {
-        return inertia('Editor/Content/Collections/Create');
+        //
     }
 
     /**
@@ -99,11 +98,22 @@ class CollectionController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Collection  $collection
-     * @return \Illuminate\Http\Response
+     * @param  Request  $request
+     * @param  Collection  $collection
+     * @return RedirectResponse
      */
-    public function destroy(Collection $collection)
+    public function destroy(Request $request, Collection $collection): RedirectResponse
     {
+        if ($request->user()->cannot('delete', $collection)) {
+            return redirect()->back()
+                ->with('notification', [
+                    'actions' => false,
+                    'message' => 'You do not have the required permissions to archive this collection.',
+                    'title' => 'Access error',
+                    'type' => 'error',
+                ]);
+        }
+
         $collection->delete();
 
         return redirect()->route('editor.collections.index');

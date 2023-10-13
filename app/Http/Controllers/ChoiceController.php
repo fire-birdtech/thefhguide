@@ -28,9 +28,7 @@ class ChoiceController extends Controller
      */
     public function create(Request $request)
     {
-        return inertia('Editor/Content/Choices/Create', [
-            'goal' => Goal::find($request->goal),
-        ]);
+        //
     }
 
     /**

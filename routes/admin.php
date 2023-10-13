@@ -20,9 +20,9 @@ Route::group([
     Route::get('dashboard', [DashboardController::class, 'admin'])->name('dashboard');
     Route::get('editors', [AdminController::class, 'index'])->name('editors.index');
     Route::get('editors/create', [AdminController::class, 'create'])->name('editors.create');
-    Route::get('editors/show/{user}', [AdminController::class, 'show'])->name('editors.show');
-    Route::get('editors/edit/{user}', [AdminController::class, 'edit'])->name('editors.edit');
-    Route::put('editors/edit/{user}', [AdminController::class, 'update'])->name('editors.update');
+    Route::get('editors/{user}', [AdminController::class, 'show'])->name('editors.show');
+    Route::get('editors/{user}/edit', [AdminController::class, 'edit'])->name('editors.edit');
+    Route::put('editors/{user}', [AdminController::class, 'update'])->name('editors.update');
     Route::delete('editors/remove/{user}', [AdminController::class, 'remove'])->name('editors.remove');
     Route::post('editors/invite', [InvitationController::class, 'store'])->name('editors.invite');
     Route::resource('invitations', InvitationController::class);

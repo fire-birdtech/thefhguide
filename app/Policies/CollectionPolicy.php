@@ -75,11 +75,15 @@ class CollectionPolicy
      *
      * @param  \App\Models\User  $user
      * @param  \App\Models\Collection  $collection
-     * @return \Illuminate\Auth\Access\Response|bool
+     * @return bool
      */
-    public function delete(User $user, Collection $collection)
+    public function delete(User $user, Collection $collection): bool
     {
-        //
+        if ($user->hasRole('admin')) {
+            return true;
+        }
+
+        return false;
     }
 
     /**

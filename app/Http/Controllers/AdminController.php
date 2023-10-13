@@ -5,8 +5,11 @@ namespace App\Http\Controllers;
 use App\Mail\AdminInvitation;
 use App\Models\Invitation;
 use App\Models\User;
+use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
+use Inertia\Response;
+use Inertia\ResponseFactory;
 use Spatie\Permission\Models\Role;
 
 class AdminController extends Controller
@@ -62,15 +65,15 @@ class AdminController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Project  $project
-     * @return \Illuminate\Http\Response
+     * @param  User  $user
+     * @return Response|ResponseFactory
      */
-    public function edit(User $user)
+    public function edit(User $user): Response|ResponseFactory
     {
         return inertia('Admin/Editors/Edit', [
             'admins' => User::role('admin')->with('roles')->get(),
-            'roles' => Role::whereNotIn('name', ['super admin'])->get(),
-            'user' => $user->load('roles'),
+            'roles' => Role::whereNotIn('name', ['super admin', 'developer'])->get(),
+            'user' => $user->load(['admin', 'roles']),
         ]);
     }
 
@@ -78,17 +81,11 @@ class AdminController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\User  $user
-     * @return \Illuminate\Http\Response
+     * @param  User  $user
+     * @return RedirectResponse
      */
-    public function update(Request $request, User $user)
+    public function update(Request $request, User $user): RedirectResponse
     {
-        $user->update([
-            'name' => $request['name'],
-            'email' => $request['email'],
-        ]);
-        // $user->save();
-
         $roleNames = [];
         foreach ($request->roles as $role) {
             $roleNames[] = $role['name'];

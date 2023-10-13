@@ -25,7 +25,12 @@ class InvitationController extends Controller
      */
     public function store(AdminInvitationRequest $request)
     {
-        $invitation = Invitation::create($request->validated());
+        $invitation = Invitation::create([
+            'admin_id' => $request->admin['id'],
+            'email' => $request->email,
+            'name' => $request->name,
+            'role' => $request->role,
+        ]);
         $this->sendInvitationEmail($invitation);
 
         return redirect()->route('admin.editors.index');
