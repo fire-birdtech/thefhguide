@@ -2,12 +2,14 @@ import { Head, Link } from '@inertiajs/react'
 import ApplicationLogo from '@/Components/ApplicationLogo'
 import { type PageProps } from '@/types'
 import { type ReactElement } from 'react'
+import MainNavigation from "@/Components/Navigation/Main";
 
 export default function Welcome ({ auth }: PageProps): ReactElement {
   return (
     <>
       <Head title="Welcome" />
 
+      <MainNavigation/>
       <div className="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
         <div className="hidden fixed top-0 right-0 px-6 py-4 sm:block">
           {auth.user !== null
