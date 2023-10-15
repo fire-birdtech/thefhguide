@@ -1,59 +1,58 @@
-import {type ReactElement, useState} from "react";
-import RemoveButton from "@/Components/Buttons/Choices/RemoveButton";
-import {Highlight, type ResourceLink} from "@/types";
-import ResourceVideoHighlight from "@/Components/Forms/Choices/ResourceVideoHighlight";
-import AddButton from "@/Components/Buttons/Choices/AddButton";
+import { type ReactElement, useState } from 'react'
+import RemoveButton from '@/Components/Buttons/Choices/RemoveButton'
+import ResourceVideoHighlight from '@/Components/Forms/Choices/ResourceVideoHighlight'
+import AddButton from '@/Components/Buttons/Choices/AddButton'
+import { type Highlight, type ResourceLink } from '@/types'
 
-export default function ResourceItemLink({index, link, remove, update}: { index: number, link: ResourceLink, remove: (key: number) => {}, update: (key: number, value: ResourceLink) => {} }): ReactElement {
+export default function ResourceItemLink ({ index, link, remove, update }: { index: number, link: ResourceLink, remove: (key: number) => void, update: (key: number, value: ResourceLink) => void }): ReactElement {
   const [resourceLink, setResourceLink] = useState<ResourceLink>({
     text: link.text ?? '',
     link: link.link ?? '',
     type: link.type ?? 'document',
     iframe: link?.iframe ?? '',
-    highlights: link?.highlights ?? [],
-  });
+    highlights: link?.highlights ?? []
+  })
 
-  const updateResource = (key: string, value: string|Highlight[]): void => {
-    let updatedResourceLink: ResourceLink = {
+  const updateResource = (key: string, value: string | Highlight[]): void => {
+    const updatedResourceLink: ResourceLink = {
       ...resourceLink,
-      [key]: value,
+      [key]: value
     }
     setResourceLink({
-      ...updatedResourceLink,
-    });
+      ...updatedResourceLink
+    })
 
-    update(index, updatedResourceLink);
-
+    update(index, updatedResourceLink)
   }
 
   const addHighlight = (): void => {
-    let { highlights } = resourceLink;
+    const { highlights } = resourceLink
     highlights.push({
       text: '',
-      link: '',
-    });
+      link: ''
+    })
 
     setResourceLink({
       ...resourceLink,
-      highlights: highlights,
-    });
+      highlights
+    })
   }
 
   const updateHighlight = (key: number, value: Highlight): void => {
-    let { highlights } = resourceLink;
-    highlights.splice(key, 1, value);
+    const { highlights } = resourceLink
+    highlights.splice(key, 1, value)
 
-    updateResource('highlights', highlights);
+    updateResource('highlights', highlights)
   }
 
   const removeHighlight = (highlightKey: number): void => {
-    let { highlights } = resourceLink;
-    delete highlights[highlightKey];
+    const { highlights } = resourceLink
+    delete highlights[highlightKey]
 
     setResourceLink({
       ...resourceLink,
-      highlights: highlights,
-    });
+      highlights
+    })
   }
 
   return (
@@ -62,7 +61,9 @@ export default function ResourceItemLink({index, link, remove, update}: { index:
         <input
           type="text"
           value={resourceLink.text}
-          onChange={(e) => updateResource('text', e.target.value)}
+          onChange={(e) => {
+            updateResource('text', e.target.value)
+          }}
           placeholder="Name"
           className="flex-1 border-none text-sm rounded-l-md focus:ring-transparent"
         />
@@ -70,7 +71,9 @@ export default function ResourceItemLink({index, link, remove, update}: { index:
           <input
             type="text"
             value={resourceLink.link}
-            onChange={(e) => updateResource('link', e.target.value)}
+            onChange={(e) => {
+              updateResource('link', e.target.value)
+            }}
             placeholder="External URL"
             className="flex-1 border-none text-sm focus:ring-transparent"
           />
@@ -79,14 +82,18 @@ export default function ResourceItemLink({index, link, remove, update}: { index:
           <input
             type="text"
             value={resourceLink.iframe}
-            onChange={(e) => updateResource('iframe', e.target.value)}
+            onChange={(e) => {
+              updateResource('iframe', e.target.value)
+            }}
             placeholder="IFrame"
             className="flex-1 border-none text-sm focus:ring-transparent"
           />
         )}
         <select
           value={resourceLink.type}
-          onChange={(e) => updateResource('type', e.target.value)}
+          onChange={(e) => {
+            updateResource('type', e.target.value)
+          }}
           className="border-none py-2 pl-3 pr-10 text-sm focus:ring-transparent"
         >
           <option value="document">Document</option>
@@ -94,7 +101,7 @@ export default function ResourceItemLink({index, link, remove, update}: { index:
         </select>
         <div className="flex items-center mx-2">
           <RemoveButton
-            onClick={() => remove(index)}
+            onClick={() => { remove(index) }}
           />
         </div>
       </div>
@@ -106,8 +113,12 @@ export default function ResourceItemLink({index, link, remove, update}: { index:
               key={index}
               index={index}
               highlight={highlight}
-              remove={() => removeHighlight(index)}
-              update={(key: number, value: Highlight) => updateHighlight(key, value)}
+              remove={() => {
+                removeHighlight(index)
+              }}
+              update={(key: number, value: Highlight) => {
+                updateHighlight(key, value)
+              }}
             />
           ))}
         </div>
@@ -116,12 +127,14 @@ export default function ResourceItemLink({index, link, remove, update}: { index:
       {resourceLink.type === 'video' && (
         <div className="ml-4">
           <AddButton
-            onClick={() => addHighlight()}
+            onClick={() => {
+              addHighlight()
+            }}
           >
             &#43; Add video highlight
           </AddButton>
         </div>
       )}
     </>
-  );
+  )
 }

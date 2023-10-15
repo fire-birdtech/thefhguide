@@ -1,48 +1,48 @@
-import {Head, useForm} from "@inertiajs/react";
-import {FormEventHandler} from "react";
-import Admin from "@/Layouts/Admin";
-import Container from "@/Components/Container";
-import {Header3} from "@/Components/Typography/Headers";
-import PrimaryButton from "@/Components/Buttons/PrimaryButton";
-import AddCoverImage from "@/Components/Forms/AddCoverImage";
-import TextEditor from "@/Components/Forms/TextEditor";
-import InputLabel from "@/Components/Forms/InputLabel";
-import TextInput from "@/Components/Forms/TextInput";
-import InputError from "@/Components/Forms/InputError";
-import ChoiceContentForm from "@/Components/Forms/Choices/ChoiceContentForm";
-import {type Draft, type PageProps, type Resource} from "@/types";
+import { type FormEventHandler, type ReactElement } from 'react'
+import { Head, useForm } from '@inertiajs/react'
+import Admin from '@/Layouts/Admin'
+import Container from '@/Components/Container'
+import { Header3 } from '@/Components/Typography/Headers'
+import PrimaryButton from '@/Components/Buttons/PrimaryButton'
+import AddCoverImage from '@/Components/Forms/AddCoverImage'
+import TextEditor from '@/Components/Forms/TextEditor'
+import InputLabel from '@/Components/Forms/InputLabel'
+import TextInput from '@/Components/Forms/TextInput'
+import InputError from '@/Components/Forms/InputError'
+import ChoiceContentForm from '@/Components/Forms/Choices/ChoiceContentForm'
+import { type Draft, type PageProps, type Resource } from '@/types'
 
-export default function DraftCreate({auth, parent_id, type}: PageProps<{ parent_id: number, type: string }>) {
-  const {data, setData, post, errors, reset, processing} = useForm<Draft>({
+export default function DraftCreate ({ auth, parentId, type }: PageProps<{ parent_id: number, type: string }>): ReactElement {
+  const { data, setData, post, errors, processing } = useForm<Draft>({
     type,
-    parent_id,
+    parentId,
     name: '',
     image: {},
     summary: null,
     show_me_video_url: null,
-    content: [],
-  });
+    content: []
+  })
 
-  const updateCover = (value: File) => {
-    setData('image', value);
-  };
+  const updateCover = (value: File): void => {
+    setData('image', value)
+  }
 
-  const updateProperty = (index: number, value: string|Resource[]): void => {
-    let { content } = data;
-    content[index].data = value;
+  const updateProperty = (index: number, value: string | Resource[]): void => {
+    const { content } = data
+    content[index].data = value
 
     setData({
       ...data,
-      content,
-    });
+      content
+    })
   }
 
   const submit: FormEventHandler = (e) => {
-    e.preventDefault();
-    if (data.image !== typeof File) {
-      delete data.image;
+    e.preventDefault()
+    if (data.image !== typeof 'object') {
+      delete data.image
     }
-    post(route('editor.drafts.store'));
+    post(route('editor.drafts.store'))
   }
 
   return (
@@ -83,7 +83,7 @@ export default function DraftCreate({auth, parent_id, type}: PageProps<{ parent_
                   errorMessage={errors.image}
                   imagePath={data?.cover_image_path}
                   imageUrl={data?.cover_image_url}
-                  onChange={(value) => updateCover(value)}
+                  onChange={(value) => { updateCover(value) }}
                 />
               ) : null}
 
@@ -94,13 +94,16 @@ export default function DraftCreate({auth, parent_id, type}: PageProps<{ parent_
                     <div className="mt-1 sm:mt-0 sm:col-span-7">
                       <TextEditor
                         value={data.summary}
+                        update={(value) => {
+                          setData('summary', value)
+                        }}
                       />
                       <InputError message={errors.summary}/>
                     </div>
                   </div>
 
                   <div className="px-6 sm:grid sm:grid-cols-8 sm:gap-4 sm:items-start sm:py-4">
-                    <InputLabel label={`"Show Me" Video`} className="sm:mt-px sm:pt-2"/>
+                    <InputLabel label={'"Show Me" Video'} className="sm:mt-px sm:pt-2"/>
                     <div className="mt-1 sm:mt-0 sm:col-span-7">
                       <TextInput
                         value={data.show_me_video_url}
@@ -123,5 +126,5 @@ export default function DraftCreate({auth, parent_id, type}: PageProps<{ parent_
         </Container>
       </Admin>
     </>
-  );
+  )
 }

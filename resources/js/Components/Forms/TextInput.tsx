@@ -1,30 +1,30 @@
 import {
   forwardRef,
-  HTMLAttributes,
-  InputHTMLAttributes,
-  LabelHTMLAttributes,
+  type HTMLAttributes,
+  type InputHTMLAttributes,
+  type LabelHTMLAttributes,
   useEffect,
   useImperativeHandle,
   useRef
-} from "react";
+} from 'react'
 
-export default forwardRef(function TextInput(
-  {type = 'text', className = '', isFocused = false, ...props}: InputHTMLAttributes<HTMLInputElement> & LabelHTMLAttributes<HTMLLabelElement> & HTMLAttributes<HTMLParagraphElement> & {
+export default forwardRef(function TextInput (
+  { type = 'text', className = '', isFocused = false, ...props }: InputHTMLAttributes<HTMLInputElement> & LabelHTMLAttributes<HTMLLabelElement> & HTMLAttributes<HTMLParagraphElement> & {
     isFocused?: boolean
   },
   ref
 ) {
-  const localRef = useRef<HTMLInputElement>(null);
+  const localRef = useRef<HTMLInputElement>(null)
 
   useImperativeHandle(ref, () => ({
     focus: () => localRef.current?.focus()
-  }));
+  }))
 
   useEffect(() => {
     if (isFocused) {
-      localRef.current?.focus();
+      localRef.current?.focus()
     }
-  }, []);
+  }, [])
 
   return (
     <input
@@ -35,5 +35,5 @@ export default forwardRef(function TextInput(
       }
       ref={localRef}
     />
-  );
-});
+  )
+})

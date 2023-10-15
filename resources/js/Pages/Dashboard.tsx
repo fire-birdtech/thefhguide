@@ -4,7 +4,7 @@ import Authenticated from '@/Layouts/Authenticated'
 import { type PageProps } from '@/types'
 
 export default function Dashboard ({ auth }: PageProps): ReactElement {
-    return (
+  return (
         <Authenticated
             user={auth.user}
             header={<h2 className="font-semibold text-xl text-gray-800 leading-tight">Dashboard</h2>}
@@ -19,5 +19,5 @@ export default function Dashboard ({ auth }: PageProps): ReactElement {
                 </div>
             </div>
         </Authenticated>
-    )
+  )
 }

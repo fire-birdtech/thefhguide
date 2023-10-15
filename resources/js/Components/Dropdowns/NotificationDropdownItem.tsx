@@ -1,17 +1,18 @@
-import {type ReactElement} from "react";
-import {Menu} from "@headlessui/react";
-import {Link} from "@inertiajs/react";
-import classNames from "@/Utils/classNames";
-import moment from "moment";
+import { type ReactElement } from 'react'
+import { Menu } from '@headlessui/react'
+import { Link } from '@inertiajs/react'
+import classNames from '@/Utils/classNames'
+import moment from 'moment'
+import { type AppNotification } from '@/types'
 
-export default function NotificationDropdownItem({ notification }): ReactElement {
-  const readableDate: string = moment(notification.updated_at).fromNow();
+export default function NotificationDropdownItem ({ notification }: { notification: AppNotification }): ReactElement {
+  const readableDate: string = moment(notification.updated_at).fromNow()
 
   return (
     <Menu.Item>
-      {({active}) => (
+      {({ active }) => (
         <Link
-          href={route('notifications.read', notification)}
+          href={route('notifications.read', notification.id)}
           className={classNames(
             active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
             notification.read_at === null ? 'font-bold' : 'font-normal',
@@ -25,5 +26,5 @@ export default function NotificationDropdownItem({ notification }): ReactElement
         </Link>
       )}
     </Menu.Item>
-  );
+  )
 }

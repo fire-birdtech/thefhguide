@@ -1,6 +1,6 @@
-import {type ButtonHTMLAttributes, type ReactElement} from "react";
+import { type ButtonHTMLAttributes, type ReactElement } from 'react'
 
-export default function AddButton({
+export default function AddButton ({
   children,
   disabled,
   type = 'button',
@@ -15,5 +15,5 @@ export default function AddButton({
     >
       {children}
     </button>
-  );
+  )
 }

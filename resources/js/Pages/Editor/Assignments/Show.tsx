@@ -1,21 +1,21 @@
-import {type ReactElement} from "react";
-import {type Assignment, type PageProps} from "@/types";
-import {Head, router} from "@inertiajs/react";
-import Admin from "@/Layouts/Admin";
-import Container from "@/Components/Container";
-import {Header3} from "@/Components/Typography/Headers";
-import PrimaryButtonWithDropDown from "@/Components/Buttons/PrimaryButtonWithDropdown";
-import DescriptionListItem from "@/Components/Lists/DescriptionListItem";
-import Badge from "@/Components/Badge";
+import { type ReactElement } from 'react'
+import { type Assignment, type PageProps } from '@/types'
+import { Head, router } from '@inertiajs/react'
+import Admin from '@/Layouts/Admin'
+import Container from '@/Components/Container'
+import { Header3 } from '@/Components/Typography/Headers'
+import PrimaryButtonWithDropDown from '@/Components/Buttons/PrimaryButtonWithDropdown'
+import DescriptionListItem from '@/Components/Lists/DescriptionListItem'
+import Badge from '@/Components/Badge'
 
-export default function AssignmentShow({ auth, assignment }: PageProps<{ assignment: Assignment }>): ReactElement {
-  const completeAssignment = () => {
-    router.put(route('editor.assignments.mark-complete', [assignment.id]));
+export default function AssignmentShow ({ auth, assignment }: PageProps<{ assignment: Assignment }>): ReactElement {
+  const completeAssignment = (): void => {
+    router.put(route('editor.assignments.mark-complete', [assignment.id]))
   }
 
   const options = [
-    { name: 'Mark Complete', icon: 'DocumentCheckIcon', show: true, action: () => completeAssignment() },
-  ];
+    { name: 'Mark Complete', icon: 'DocumentCheckIcon', show: true, action: () => { completeAssignment() } }
+  ]
 
   return (
     <>
@@ -50,21 +50,21 @@ export default function AssignmentShow({ auth, assignment }: PageProps<{ assignm
 
           <div className="mt-3 ml-4 flex flex-col space-y-1">
             <small className="text-gray-500">
-              Created: {new Date(assignment.created_at).toLocaleDateString('en-us', { weekday:"long", year:"numeric", month:"short", day:"numeric"})}
+              Created: {new Date(assignment.created_at).toLocaleDateString('en-us', { weekday: 'long', year: 'numeric', month: 'short', day: 'numeric' })}
             </small>
             {assignment.updated_at !== assignment.created_at ? (
               <small className="text-gray-500">
-                Updated: {new Date(assignment.updated_at).toLocaleDateString('en-us', { weekday:"long", year:"numeric", month:"short", day:"numeric"})}
+                Updated: {new Date(assignment.updated_at).toLocaleDateString('en-us', { weekday: 'long', year: 'numeric', month: 'short', day: 'numeric' })}
               </small>
             ) : null}
             {assignment.completed_at !== null ? (
               <small className="text-gray-500">
-                Completed: {new Date(assignment.completed_at).toLocaleDateString('en-us', { weekday:"long", year:"numeric", month:"short", day:"numeric"})}
+                Completed: {new Date(assignment.completed_at).toLocaleDateString('en-us', { weekday: 'long', year: 'numeric', month: 'short', day: 'numeric' })}
               </small>
             ) : null}
           </div>
         </Container>
       </Admin>
     </>
-  );
+  )
 }

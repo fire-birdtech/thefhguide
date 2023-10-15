@@ -1,17 +1,16 @@
-import {type FormEventHandler, useEffect} from 'react'
-import {Head, useForm} from '@inertiajs/react'
+import { type FormEventHandler, type ReactElement, useEffect } from 'react'
+import { Head, useForm } from '@inertiajs/react'
 import Guest from '@/Layouts/Guest'
 import PrimaryButton from '@/Components/Buttons/PrimaryButton'
-import TextInputCombined from '@/Components/Forms/TextInputCombined'
-import InputLabel from "@/Components/Forms/InputLabel";
-import TextInput from "@/Components/Forms/TextInput";
-import InputError from "@/Components/Forms/InputError";
+import InputLabel from '@/Components/Forms/InputLabel'
+import TextInput from '@/Components/Forms/TextInput'
+import InputError from '@/Components/Forms/InputError'
 
-export default function ResetPassword({token, email}: {
-  token: string,
+export default function ResetPassword ({ token, email }: {
+  token: string
   email: string
-}) {
-  const {data, setData, post, processing, errors, reset} = useForm({
+}): ReactElement {
+  const { data, setData, post, processing, errors, reset } = useForm({
     token,
     email,
     password: '',

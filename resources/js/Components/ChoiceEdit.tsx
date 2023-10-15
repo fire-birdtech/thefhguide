@@ -1,41 +1,39 @@
-import {type FormEventHandler, type ReactElement, useState} from "react";
-import {router} from "@inertiajs/react";
-import TextInput from "@/Components/Forms/TextInput";
-import InputLabel from "@/Components/Forms/InputLabel";
-import SecondaryButton from "@/Components/Buttons/SecondaryButton";
-import PrimaryButton from "@/Components/Buttons/PrimaryButton";
-import ChoiceContentForm from "@/Components/Forms/Choices/ChoiceContentForm";
-import {type Choice, type ChoiceContent, type Resource} from "@/types";
+import { type ReactElement, useState } from 'react'
+import { router } from '@inertiajs/react'
+import TextInput from '@/Components/Forms/TextInput'
+import InputLabel from '@/Components/Forms/InputLabel'
+import SecondaryButton from '@/Components/Buttons/SecondaryButton'
+import PrimaryButton from '@/Components/Buttons/PrimaryButton'
+import ChoiceContentForm from '@/Components/Forms/Choices/ChoiceContentForm'
+import { type Choice, type ChoiceContent } from '@/types'
 
-export default function ChoiceEdit({choice, close}: {
-  choice: Choice;
-  close: () => void;
+export default function ChoiceEdit ({ choice, close }: {
+  choice: Choice
+  close: () => void
 }): ReactElement {
   const [choiceData, setChoiceData] = useState<Choice>({
-    ...choice,
-  });
-  const [confirmDeleteProperty, setConfirmDeleteProperty] = useState<boolean>(false);
-  const [selectedPropertyIndexForDeletion, setSelectedPropertyIndexForDeletion] = useState<number|undefined>(undefined);
+    ...choice
+  })
 
   const updateContent = (value: ChoiceContent[]): void => {
-    let { content } = choiceData;
-    content = value;
+    let { content } = choiceData
+    content = value
 
     setChoiceData({
       ...choiceData,
       content: [
-        ...content,
-      ],
-    });
+        ...content
+      ]
+    })
   }
 
   const submit = (e): void => {
-    e.preventDefault();
+    e.preventDefault()
 
     router.put(route('editor.choices.update', [choice]), choiceData, {
       preserveScroll: true,
-      onSuccess: () => close(),
-    });
+      onSuccess: () => { close() }
+    })
   }
 
   return (
@@ -48,16 +46,18 @@ export default function ChoiceEdit({choice, close}: {
               value={choiceData.name}
               className="block w-full"
               isFocused
-              onChange={(e) => setChoiceData({
-                ...choiceData,
-                name: e.target.value,
-              })}
+              onChange={(e) => {
+                setChoiceData({
+                  ...choiceData,
+                  name: e.target.value
+                })
+              }}
             />
           </div>
         </div>
       </form>
 
-      <ChoiceContentForm content={choiceData.content} update={(value: ChoiceContent[]) => updateContent(value)}/>
+      <ChoiceContentForm content={choiceData.content} update={(value: ChoiceContent[]) => { updateContent(value) }}/>
 
       <div className="px-6 py-4">
         <div className="flex justify-end space-x-3">
@@ -70,5 +70,5 @@ export default function ChoiceEdit({choice, close}: {
         </div>
       </div>
     </div>
-  );
+  )
 }

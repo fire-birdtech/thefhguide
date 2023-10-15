@@ -1,15 +1,15 @@
-import {Fragment, PropsWithChildren} from "react";
-import {Link} from "@inertiajs/react";
-import {Menu, Transition} from "@headlessui/react";
-import {ChevronDownIcon} from "@heroicons/react/24/solid";
-import ApplicationLogo from "@/Components/ApplicationLogo";
-import classNames from "@/Utils/classNames";
-import AdminNavigation from "@/Components/Navigation/Admin";
-import {User} from "@/types";
-import Notification from "@/Components/Notifications/Notification";
-import NotificationDropdown from "@/Components/Dropdowns/NotificationDropdown";
+import { Fragment, type PropsWithChildren, type ReactElement } from 'react'
+import { Link } from '@inertiajs/react'
+import { Menu, Transition } from '@headlessui/react'
+import { ChevronDownIcon } from '@heroicons/react/24/solid'
+import ApplicationLogo from '@/Components/ApplicationLogo'
+import classNames from '@/Utils/classNames'
+import AdminNavigation from '@/Components/Navigation/Admin'
+import { type User } from '@/types'
+import Notification from '@/Components/Notifications/Notification'
+import NotificationDropdown from '@/Components/Dropdowns/NotificationDropdown'
 
-export default function Admin({user, children}: PropsWithChildren<{ user: User }>) {
+export default function Admin ({ user, children }: PropsWithChildren<{ user: User }>): ReactElement {
   return (
     <>
       <div className="min-h-screen bg-gray-100">
@@ -47,7 +47,7 @@ export default function Admin({user, children}: PropsWithChildren<{ user: User }
                       className="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
                       <div className="py-1">
                         <Menu.Item>
-                          {({active}) => (
+                          {({ active }) => (
                             <Link
                               href={route('settings.profile')}
                               className={classNames(
@@ -60,7 +60,7 @@ export default function Admin({user, children}: PropsWithChildren<{ user: User }
                           )}
                         </Menu.Item>
                         <Menu.Item>
-                          {({active}) => (
+                          {({ active }) => (
                             <Link
                               href={route('logout')}
                               method="post"
@@ -79,11 +79,11 @@ export default function Admin({user, children}: PropsWithChildren<{ user: User }
                 </Menu>
               </div>
 
-              {/*Hamburger*/}
+              {/* Hamburger */}
             </div>
           </div>
 
-          {/*Responsive Navigation Menu*/}
+          {/* Responsive Navigation Menu */}
         </nav>
 
         <main className="flex">
@@ -94,5 +94,5 @@ export default function Admin({user, children}: PropsWithChildren<{ user: User }
 
       <Notification/>
     </>
-  );
+  )
 }

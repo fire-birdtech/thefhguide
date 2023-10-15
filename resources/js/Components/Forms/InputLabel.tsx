@@ -1,4 +1,5 @@
-import classNames from "@/Utils/classNames";
+import { type ReactElement } from 'react'
+import classNames from '@/Utils/classNames'
 
 interface InputLabelProps {
   label: string
@@ -6,7 +7,7 @@ interface InputLabelProps {
   optional?: boolean
 }
 
-export default function InputLabel({label, className = '', optional = false}: InputLabelProps) {
+export default function InputLabel ({ label, className = '', optional = false }: InputLabelProps): ReactElement {
   return (
     <label className={classNames(
       className,
@@ -19,5 +20,5 @@ export default function InputLabel({label, className = '', optional = false}: In
         </span>
       ) : null}
     </label>
-  );
+  )
 }

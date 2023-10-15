@@ -1,8 +1,8 @@
-import {ReactElement, useState} from "react";
-import AddButton from "@/Components/Buttons/Choices/AddButton";
-import RemoveButton from "@/Components/Buttons/Choices/RemoveButton";
-import ResourceItemLink from "@/Components/Forms/Choices/ResourceItemLink";
-import {Resource, ResourceLink} from "@/types";
+import { type ReactElement, useState } from 'react'
+import AddButton from '@/Components/Buttons/Choices/AddButton'
+import RemoveButton from '@/Components/Buttons/Choices/RemoveButton'
+import ResourceItemLink from '@/Components/Forms/Choices/ResourceItemLink'
+import { type Resource, type ResourceLink } from '@/types'
 
 interface CreateEditResourceFormProps {
   className?: string
@@ -12,32 +12,32 @@ interface CreateEditResourceFormProps {
   usage: string
 }
 
-export default function CreateEditResourceForm({
-  className = '', resource, save, setDisplay, usage,
+export default function CreateEditResourceForm ({
+  className = '', resource, save, setDisplay, usage
 }: CreateEditResourceFormProps): ReactElement {
   const [currentResource, setCurrentResource] = useState<Resource>({
     description: resource?.description ?? '',
-    links: resource?.links ?? [],
-  });
+    links: resource?.links ?? []
+  })
 
   const addResource = (): void => {
     setCurrentResource({
-      ...currentResource,
-    });
-    save(currentResource);
-    removeResource();
+      ...currentResource
+    })
+    save(currentResource)
+    removeResource()
   }
 
   const removeResource = (): void => {
     setCurrentResource({
       description: '',
-      links: [],
-    });
-    setDisplay();
+      links: []
+    })
+    setDisplay()
   }
 
   const cancelEditResource = (): void => {
-    setDisplay();
+    setDisplay()
   }
 
   const addLink = (): void => {
@@ -49,29 +49,29 @@ export default function CreateEditResourceForm({
           text: '',
           link: '',
           type: '',
-          highlights: [],
-        },
-      ],
-    });
+          highlights: []
+        }
+      ]
+    })
   }
 
   const updateLink = (key: number, value: ResourceLink): void => {
-    let { links } = currentResource;
-    links.splice(key, 1, value);
+    const { links } = currentResource
+    links.splice(key, 1, value)
 
     setCurrentResource({
       ...currentResource,
-      links,
-    });
+      links
+    })
   }
 
   const removeLink = (key: number): void => {
-    let links: ResourceLink[] = currentResource.links;
-    links.splice(key, 1);
+    const links: ResourceLink[] = currentResource.links
+    links.splice(key, 1)
     setCurrentResource({
       ...currentResource,
-      links,
-    });
+      links
+    })
   }
 
   return (
@@ -81,24 +81,24 @@ export default function CreateEditResourceForm({
           type="text"
           placeholder="Description"
           value={currentResource.description}
-          onChange={(e) => setCurrentResource({...currentResource, description: e.target.value})}
+          onChange={(e) => { setCurrentResource({ ...currentResource, description: e.target.value }) }}
           className="flex-1 border-none text-sm rounded-l-md focus:ring-transparent"
         />
         <div className="flex items-center mx-2 space-x-2">
           {usage === 'create' && <>
             <AddButton
-              onClick={() => addResource()}
+              onClick={() => { addResource() }}
               disabled={currentResource.links.length < 1}
             >
               Add Resource
             </AddButton>
             <RemoveButton
-              onClick={() => removeResource()}
+              onClick={() => { removeResource() }}
             />
           </>}
           {usage === 'edit' && <>
             <AddButton
-              onClick={() => addResource()}
+              onClick={() => { addResource() }}
             >
               Save
             </AddButton>
@@ -115,17 +115,17 @@ export default function CreateEditResourceForm({
             key={key}
             index={key}
             link={link}
-            update={(key, value) => updateLink(key, value)}
+            update={(key, value) => { updateLink(key, value) }}
             remove={removeLink}
           />
         ))}
         <AddButton
-          onClick={() => addLink()}
+          onClick={() => { addLink() }}
           disabled={false}
         >
           + Add resource link
         </AddButton>
       </div>
     </form>
-  );
+  )
 }

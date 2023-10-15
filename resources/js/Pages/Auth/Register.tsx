@@ -1,31 +1,30 @@
-import {type FormEventHandler, useEffect} from 'react';
-import {Head, Link, useForm} from '@inertiajs/react';
-import Guest from "@/Layouts/Guest";
-import TextInputCombined from "@/Components/Forms/TextInputCombined";
-import PrimaryButton from "@/Components/Buttons/PrimaryButton";
-import InputLabel from "@/Components/Forms/InputLabel";
-import TextInput from "@/Components/Forms/TextInput";
-import InputError from "@/Components/Forms/InputError";
+import { type FormEventHandler, type ReactElement, useEffect } from 'react'
+import { Head, Link, useForm } from '@inertiajs/react'
+import Guest from '@/Layouts/Guest'
+import PrimaryButton from '@/Components/Buttons/PrimaryButton'
+import InputLabel from '@/Components/Forms/InputLabel'
+import TextInput from '@/Components/Forms/TextInput'
+import InputError from '@/Components/Forms/InputError'
 
-export default function Register() {
-  const {data, setData, post, processing, errors, reset} = useForm({
+export default function Register (): ReactElement {
+  const { data, setData, post, processing, errors, reset } = useForm({
     name: '',
     email: '',
     password: '',
     password_confirmation: ''
-  });
+  })
 
   useEffect(() => {
     return () => {
       reset('password', 'password_confirmation')
     }
-  }, []);
+  }, [])
 
   const submit: FormEventHandler = (e) => {
     e.preventDefault()
 
     post(route('register'))
-  };
+  }
 
   return (
     <Guest>
@@ -100,5 +99,5 @@ export default function Register() {
         </div>
       </form>
     </Guest>
-  );
+  )
 }

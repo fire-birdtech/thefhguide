@@ -1,13 +1,13 @@
-import {type FormEventHandler} from 'react';
-import {Head, useForm} from '@inertiajs/react';
-import Guest from '@/Layouts/Guest';
-import PrimaryButton from '@/Components/Buttons/PrimaryButton';
-import TextInput from '@/Components/Forms/TextInput';
-import InputLabel from "@/Components/Forms/InputLabel";
-import InputError from "@/Components/Forms/InputError";
+import { type FormEventHandler, type ReactElement } from 'react'
+import { Head, useForm } from '@inertiajs/react'
+import Guest from '@/Layouts/Guest'
+import PrimaryButton from '@/Components/Buttons/PrimaryButton'
+import TextInput from '@/Components/Forms/TextInput'
+import InputLabel from '@/Components/Forms/InputLabel'
+import InputError from '@/Components/Forms/InputError'
 
-export default function ForgotPassword({status}: { status?: string }) {
-  const {data, setData, post, processing, errors} = useForm({
+export default function ForgotPassword ({ status }: { status?: string }): ReactElement {
+  const { data, setData, post, processing, errors } = useForm({
     email: ''
   })
 

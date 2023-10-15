@@ -1,12 +1,12 @@
-import {type ReactElement} from "react";
-import ContentBlockHeader from "@/Components/Forms/Choices/ContentBlockHeader";
-import TextEditor from "@/Components/Forms/TextEditor";
+import { type ReactElement } from 'react'
+import ContentBlockHeader from '@/Components/Forms/Choices/ContentBlockHeader'
+import TextEditor from '@/Components/Forms/TextEditor'
 
-export default function QUIKLinks({value, remove, index, update}: {
-  value: string,
-  index: number,
-  update: (index: number, value: string) => {},
-  remove?: (index: number) => {}
+export default function QUIKLinks ({ value, remove, index, update }: {
+  value: string
+  index: number
+  update: (index: number, value: string) => void
+  remove?: (index: number) => void
 }): ReactElement {
   const updateQuiklinks = (value: string): void => {
     update(index, value)
@@ -14,12 +14,12 @@ export default function QUIKLinks({value, remove, index, update}: {
 
   return (
     <div className="flex flex-col">
-      <ContentBlockHeader color="yellow" remove={() => remove!(index)}>
+      <ContentBlockHeader color="yellow" remove={() => { remove(index) }}>
         QUIKLinks
       </ContentBlockHeader>
       <div className="w-full border-2 border-yellow-200 rounded-b rounded-tr">
         <TextEditor value={value} update={updateQuiklinks}/>
       </div>
     </div>
-  );
+  )
 }

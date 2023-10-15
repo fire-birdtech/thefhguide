@@ -1,8 +1,8 @@
-import {ReactElement, ReactNode} from "react";
+import { type ReactElement, type ReactNode } from 'react'
 
-export default function ({
+export default function DescriptionListItem ({
   term, children, className, details
-}: {term: string, children?: ReactElement, className?: string, details?: string|ReactNode}): ReactElement {
+}: { term: string, children?: ReactElement, className?: string, details?: string | ReactNode }): ReactElement {
   return (
     <div className="py-4 sm:py-5 sm:grid sm:grid-cols-8 sm:gap-4 sm:px-6">
       <dt className="text-sm font-medium text-gray-500">
@@ -12,5 +12,5 @@ export default function ({
         {details ?? children}
       </dd>
     </div>
-  );
+  )
 }

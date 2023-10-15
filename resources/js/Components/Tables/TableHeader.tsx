@@ -1,12 +1,13 @@
-import {Header3} from "@/Components/Typography/Headers";
-import PrimaryButton from "@/Components/Buttons/PrimaryButton";
+import { Header3 } from '@/Components/Typography/Headers'
+import PrimaryButton from '@/Components/Buttons/PrimaryButton'
+import { type ReactElement } from 'react'
 
-export default function TableHeader({header, addRoute = '', addText = '', submit}: {
-  header: string,
-  addRoute?: string,
-  addText?: string,
-  submit?: CallableFunction,
-}) {
+export default function TableHeader ({ header, addRoute = '', addText = '', submit }: {
+  header: string
+  addRoute?: string
+  addText?: string
+  submit?: CallableFunction
+}): ReactElement {
   return (
     <div className="sm:flex sm:items-center">
       <div className="sm:flex-auto">
@@ -21,12 +22,12 @@ export default function TableHeader({header, addRoute = '', addText = '', submit
               {addText}
             </PrimaryButton>
           ) : (
-            <PrimaryButton onClick={() => submit!()}>
+            <PrimaryButton onClick={() => submit}>
               {addText}
             </PrimaryButton>
           )}
         </div>
       ) : null}
     </div>
-  );
+  )
 }

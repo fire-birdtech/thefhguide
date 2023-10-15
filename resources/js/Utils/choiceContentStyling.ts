@@ -1,6 +1,4 @@
-interface Styles {
-  [key: string]: string
-}
+type Styles = Record<string, string>
 
 export const textStyles: Styles = {
   emerald: 'text-emerald-800',

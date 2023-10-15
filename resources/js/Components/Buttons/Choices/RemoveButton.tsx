@@ -1,7 +1,7 @@
-import {ButtonHTMLAttributes, ReactElement} from "react";
-import {XMarkIcon} from "@heroicons/react/24/solid";
+import { type ButtonHTMLAttributes, type ReactElement } from 'react'
+import { XMarkIcon } from '@heroicons/react/24/solid'
 
-export default function RemoveButton({...props}: ButtonHTMLAttributes<HTMLButtonElement>): ReactElement {
+export default function RemoveButton ({ ...props }: ButtonHTMLAttributes<HTMLButtonElement>): ReactElement {
   return (
     <button
       {...props}
@@ -10,5 +10,5 @@ export default function RemoveButton({...props}: ButtonHTMLAttributes<HTMLButton
     >
       <XMarkIcon className="w-5 h-5 text-purple-700"/>
     </button>
-  );
+  )
 }

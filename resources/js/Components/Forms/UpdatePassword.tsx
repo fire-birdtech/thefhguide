@@ -1,25 +1,25 @@
-import {FormEventHandler, useRef} from "react";
-import {useForm} from "@inertiajs/react";
-import {User} from "@/types";
-import {Header3} from "@/Components/Typography/Headers";
-import {Paragraph} from "@/Components/Typography/Paragraphs";
-import TextInput from "@/Components/Forms/TextInput";
-import PrimaryButton from "@/Components/Buttons/PrimaryButton";
-import InputLabel from "@/Components/Forms/InputLabel";
-import InputError from "@/Components/Forms/InputError";
+import { type FormEventHandler, type ReactElement, useRef } from 'react'
+import { useForm } from '@inertiajs/react'
+import { type User } from '@/types'
+import { Header3 } from '@/Components/Typography/Headers'
+import { Paragraph } from '@/Components/Typography/Paragraphs'
+import TextInput from '@/Components/Forms/TextInput'
+import PrimaryButton from '@/Components/Buttons/PrimaryButton'
+import InputLabel from '@/Components/Forms/InputLabel'
+import InputError from '@/Components/Forms/InputError'
 
-export default function UpdatePassword({user}: { user: User }) {
-  const passwordInput = useRef<HTMLInputElement>();
-  const currentPasswordInput = useRef<HTMLInputElement>();
+export default function UpdatePassword ({ user }: { user: User }): ReactElement {
+  const passwordInput = useRef<HTMLInputElement>()
+  const currentPasswordInput = useRef<HTMLInputElement>()
 
-  const {data, setData, errors, put, reset, processing, recentlySuccessful} = useForm({
+  const { data, setData, errors, put, reset, processing } = useForm({
     current_password: '',
     password: '',
     password_confirmation: ''
-  });
+  })
 
   const updatePassword: FormEventHandler = (e) => {
-    e.preventDefault();
+    e.preventDefault()
 
     put(route('settings.update-password'), {
       preserveScroll: true,
@@ -37,7 +37,7 @@ export default function UpdatePassword({user}: { user: User }) {
           currentPasswordInput.current?.focus()
         }
       }
-    });
+    })
   }
 
   return (
@@ -93,7 +93,7 @@ export default function UpdatePassword({user}: { user: User }) {
             <InputError message={errors.current_password} className="mt-1"/>
           </div>
 
-          <PrimaryButton>
+          <PrimaryButton disabled={processing}>
             Update Password
           </PrimaryButton>
         </div>

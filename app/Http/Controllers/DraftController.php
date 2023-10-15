@@ -14,15 +14,14 @@ use App\Models\Project;
 use App\Notifications\DraftReady;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
-use Illuminate\Http\Response;
+use Inertia\Response;
+use Inertia\ResponseFactory;
 use stdClass;
 
 class DraftController extends Controller
 {
     /**
      * Display a listing of the resource.
-     *
-     * @return Response
      */
     public function index()
     {
@@ -31,22 +30,17 @@ class DraftController extends Controller
 
     /**
      * Show the form for creating a new resource.
-     *
-     * @return Response
      */
-    public function create(DraftCreateRequest $request)
+    public function create(DraftCreateRequest $request): Response|ResponseFactory
     {
         return inertia('Editor/Drafts/Create', [
             'type' => $request['type'],
-            'parent_id' => $request['parent_id'],
+            'parentId' => $request['parent_id'],
         ]);
     }
 
     /**
      * Store a newly created resource in storage.
-     *
-     * @param  DraftStoreRequest  $request
-     * @return RedirectResponse
      */
     public function store(DraftStoreRequest $request): RedirectResponse
     {
@@ -65,7 +59,7 @@ class DraftController extends Controller
             $draft->updateCoverImage($request['image']);
         }
 
-        $parent = $this->getParentable($request['parent_type'], $request['parent_id']);
+        $parent = $this->getParentable($request['parent_type'], $request['parentId']);
 
         if (isset($parent)) {
             $parent->childDrafts()->save($draft);
@@ -76,11 +70,8 @@ class DraftController extends Controller
 
     /**
      * Display the specified resource.
-     *
-     * @param  \App\Models\Draft  $draft
-     * @return Response
      */
-    public function show(Draft $draft)
+    public function show(Draft $draft): Response|ResponseFactory
     {
         return inertia('Editor/Drafts/Show', [
             'draft' => $draft,
@@ -89,9 +80,6 @@ class DraftController extends Controller
 
     /**
      * Show the form for editing the specified resource.
-     *
-     * @param  \App\Models\Draft  $draft
-     * @return Response
      */
     public function edit(Draft $draft, Request $request)
     {
@@ -103,10 +91,6 @@ class DraftController extends Controller
 
     /**
      * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Draft  $draft
-     * @return Response
      */
     public function update(DraftSaveRequest $request, Draft $draft)
     {
@@ -123,9 +107,6 @@ class DraftController extends Controller
 
     /**
      * Publish the specified draft to its draftable model
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Draft  $draft
      */
     public function publish(DraftPublishRequest $request, Draft $draft)
     {
@@ -201,9 +182,6 @@ class DraftController extends Controller
 
     /**
      * Remove the specified resource from storage.
-     *
-     * @param  \App\Models\Draft  $draft
-     * @return Response
      */
     public function destroy(Draft $draft)
     {

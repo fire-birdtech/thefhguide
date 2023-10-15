@@ -1,33 +1,29 @@
-import {FormEventHandler, ReactElement, useState} from "react";
-import {useForm} from "@inertiajs/react";
-import {DocumentTextIcon, VideoCameraIcon} from "@heroicons/react/24/outline";
-import Anchor from "@/Components/Anchor";
-import PrimaryButton from "@/Components/Buttons/PrimaryButton";
-import {XMarkIcon} from "@heroicons/react/24/solid";
-import PrimaryTextButton from "@/Components/Buttons/PrimaryTextButton";
-import CreateEditResourceForm from "@/Components/Forms/Choices/CreateEditResourceForm";
-import {Resource} from "@/types";
+import { type FormEventHandler, type ReactElement, useState } from 'react'
+import { useForm } from '@inertiajs/react'
+import { DocumentTextIcon, VideoCameraIcon } from '@heroicons/react/24/outline'
+import Anchor from '@/Components/Anchor'
+import PrimaryTextButton from '@/Components/Buttons/PrimaryTextButton'
+import CreateEditResourceForm from '@/Components/Forms/Choices/CreateEditResourceForm'
+import { type Resource } from '@/types'
 
-export default function ({ resource }: { resource: Resource }): ReactElement {
-  const [view, setView] = useState('show');
+export default function ResourceListItem ({ resource }: { resource: Resource }): ReactElement {
+  const [view, setView] = useState('show')
 
-  const {data, setData, errors, put, processing, reset} = useForm({
-    ...resource,
-  });
+  const { data, put } = useForm({
+    ...resource
+  })
 
-  const submit = () => {
+  const submit = (): void => {
     put(route('editor.resources.update'), {
       preserveScroll: true,
-      preserveState: true,
-    });
+      preserveState: true
+    })
   }
 
   const saveResource: FormEventHandler = (): void => {
-    submit();
-    setView('show');
+    submit()
+    setView('show')
   }
-
-  const addLink = () => { }
 
   return (
     <li className="flex items-center justify-between py-3 pl-3 pr-4 text-sm">
@@ -48,7 +44,7 @@ export default function ({ resource }: { resource: Resource }): ReactElement {
             </ul>
           </div>
           <div className="ml-4 flex-shrink-0">
-            <PrimaryTextButton onClick={() => setView('edit')}>
+            <PrimaryTextButton onClick={() => { setView('edit') }}>
               Edit
             </PrimaryTextButton>
           </div>
@@ -59,9 +55,9 @@ export default function ({ resource }: { resource: Resource }): ReactElement {
           usage="edit"
           resource={resource}
           save={saveResource}
-          setDisplay={() => setView('show')}
+          setDisplay={() => { setView('show') }}
         />
       )}
     </li>
-  );
+  )
 }

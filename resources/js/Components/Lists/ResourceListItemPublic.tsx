@@ -1,8 +1,9 @@
-import ResourceLink from "@/Components/Lists/ResourceLink";
-import {Resource} from "@/types";
+import { type ReactElement } from 'react'
+import ResourceLink from '@/Components/Lists/ResourceLink'
+import { type Resource } from '@/types'
 
-export default function ResourceListItemPublic({resource}: { resource: Resource }) {
-  console.log('resource', resource);
+export default function ResourceListItemPublic ({ resource }: { resource: Resource }): ReactElement {
+  console.log('resource', resource)
   return (
     <li>
       <span>
@@ -14,5 +15,5 @@ export default function ResourceListItemPublic({resource}: { resource: Resource 
         ))}
       </ul>
     </li>
-  );
+  )
 }

@@ -1,17 +1,29 @@
-import {User} from "@/types";
-import {Header3} from "@/Components/Typography/Headers";
-import {Paragraph} from "@/Components/Typography/Paragraphs";
-import TextInput from "@/Components/Forms/TextInput";
-import {useForm} from "@inertiajs/react";
-import PrimaryButton from "@/Components/Buttons/PrimaryButton";
-import InputLabel from "@/Components/Forms/InputLabel";
-import InputError from "@/Components/Forms/InputError";
+import { type FormEventHandler, type ReactElement } from 'react'
+import { useForm } from '@inertiajs/react'
+import { Header3 } from '@/Components/Typography/Headers'
+import { Paragraph } from '@/Components/Typography/Paragraphs'
+import TextInput from '@/Components/Forms/TextInput'
+import PrimaryButton from '@/Components/Buttons/PrimaryButton'
+import InputLabel from '@/Components/Forms/InputLabel'
+import InputError from '@/Components/Forms/InputError'
+import { type User } from '@/types'
 
-export default function UpdateProfile({user}: { user: User }) {
-  const {data, setData, post, processing, errors, reset} = useForm({
+export default function UpdateProfile ({ user }: { user: User }): ReactElement {
+  const { data, setData, put, processing, errors, reset } = useForm({
     name: user.name,
-    email: user.email,
-  });
+    email: user.email
+  })
+
+  const updateProfile: FormEventHandler = (e): void => {
+    e.preventDefault()
+
+    put(route('settings.update-profile'), {
+      preserveScroll: true,
+      onSuccess: () => {
+        reset()
+      }
+    })
+  }
 
   return (
     <div className="space-y-6 sm:space-y-5">
@@ -23,7 +35,7 @@ export default function UpdateProfile({user}: { user: User }) {
           This information will be displayed publicly so be careful what you share.
         </Paragraph>
       </div>
-      <form className="pt-4 border-t border-gray-200">
+      <form onSubmit={updateProfile} className="pt-4 border-t border-gray-200">
         <div className="max-w-md space-y-6 sm:space-y-5">
           <div>
             <InputLabel label="Name"/>
@@ -59,5 +71,5 @@ export default function UpdateProfile({user}: { user: User }) {
         </div>
       </form>
     </div>
-  );
+  )
 }

@@ -1,75 +1,75 @@
 import {
-    useState,
-    createContext,
-    useContext,
-    Fragment,
-    type PropsWithChildren,
-    type Dispatch,
-    type SetStateAction, type ReactElement
+  useState,
+  createContext,
+  useContext,
+  Fragment,
+  type PropsWithChildren,
+  type Dispatch,
+  type SetStateAction, type ReactElement
 } from 'react'
 import { Link, type InertiaLinkProps } from '@inertiajs/react'
 import { Transition } from '@headlessui/react'
 
 const DropDownContext = createContext<{
-    open: boolean
-    setOpen: Dispatch<SetStateAction<boolean>>
-    toggleOpen: () => void
+  open: boolean
+  setOpen: Dispatch<SetStateAction<boolean>>
+  toggleOpen: () => void
 }>({
-    open: false,
-    setOpen: (): void => {},
-    toggleOpen: (): void => {}
-})
+      open: false,
+      setOpen: (): void => {},
+      toggleOpen: (): void => {}
+    })
 
-const Dropdown = ({ children }: PropsWithChildren) => {
-    const [open, setOpen] = useState(false)
+const Dropdown = ({ children }: PropsWithChildren): ReactElement => {
+  const [open, setOpen] = useState(false)
 
-    const toggleOpen = (): void => {
-        setOpen((previousState) => !previousState)
-    }
+  const toggleOpen = (): void => {
+    setOpen((previousState) => !previousState)
+  }
 
-    return (
+  return (
         <DropDownContext.Provider value={{ open, setOpen, toggleOpen }}>
             <div className="relative">{children}</div>
         </DropDownContext.Provider>
-    )
+  )
 }
 
-const Trigger = ({ children }: PropsWithChildren) => {
-    const { open, setOpen, toggleOpen } = useContext(DropDownContext)
+const Trigger = ({ children }: PropsWithChildren): ReactElement => {
+  const { open, setOpen, toggleOpen } = useContext(DropDownContext)
 
-    return (
+  return (
         <>
             <div onClick={toggleOpen}>{children}</div>
 
             {open && <div className="fixed inset-0 z-40" onClick={() => {
-                setOpen(false)
+              setOpen(false)
             }}></div>}
         </>
-    )
+  )
 }
 
 const Content = ({ align = 'right', width = '48', contentClasses = 'py-1 bg-white', children }: PropsWithChildren<{
-    align?: 'left' | 'right'
-    width?: '48'
-    contentClasses?: string
+  align?: 'left' | 'right'
+  width?: '48'
+  contentClasses?: string
 }>): ReactElement => {
-    const { open, setOpen } = useContext(DropDownContext)
+  const { open, setOpen } = useContext(DropDownContext)
 
-    let alignmentClasses = 'origin-top'
+  let alignmentClasses = 'origin-top'
 
-    if (align === 'left') {
-        alignmentClasses = 'origin-top-left left-0'
-    } else if (align === 'right') {
-        alignmentClasses = 'origin-top-right right-0'
-    }
+  if (align === 'left') {
+    alignmentClasses = 'origin-top-left left-0'
+  } else if (align === 'right') {
+    alignmentClasses = 'origin-top-right right-0'
+  }
 
-    let widthClasses = ''
+  let widthClasses = ''
 
-    if (width === '48') {
-        widthClasses = 'w-48'
-    }
+  if (width === '48') {
+    widthClasses = 'w-48'
+  }
 
-    return (
+  return (
         <>
             <Transition
                 as={Fragment}
@@ -84,18 +84,18 @@ const Content = ({ align = 'right', width = '48', contentClasses = 'py-1 bg-whit
                 <div
                     className={`absolute z-50 mt-2 rounded-md shadow-lg ${alignmentClasses} ${widthClasses}`}
                     onClick={() => {
-                        setOpen(false)
+                      setOpen(false)
                     }}
                 >
                     <div className={'rounded-md ring-1 ring-black ring-opacity-5 ' + contentClasses}>{children}</div>
                 </div>
             </Transition>
         </>
-    )
+  )
 }
 
 const DropdownLink = ({ className = '', children, ...props }: InertiaLinkProps): ReactElement => {
-    return (
+  return (
         <Link
             {...props}
             className={
@@ -105,7 +105,7 @@ const DropdownLink = ({ className = '', children, ...props }: InertiaLinkProps):
         >
             {children}
         </Link>
-    )
+  )
 }
 
 Dropdown.Trigger = Trigger

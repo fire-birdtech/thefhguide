@@ -1,33 +1,32 @@
-import {FormEventHandler, type ReactElement} from "react";
-import {Head, useForm} from "@inertiajs/react";
-import Guest from "@/Layouts/Guest";
-import PrimaryButtonFullWidth from "@/Components/Buttons/PrimaryButtonFullWidth";
-import TextInputCombined from "@/Components/Forms/TextInputCombined";
-import {type Invitation} from "@/types";
-import InputLabel from "@/Components/Forms/InputLabel";
-import TextInput from "@/Components/Forms/TextInput";
-import InputError from "@/Components/Forms/InputError";
+import { type FormEventHandler, type ReactElement } from 'react'
+import { Head, useForm } from '@inertiajs/react'
+import Guest from '@/Layouts/Guest'
+import PrimaryButtonFullWidth from '@/Components/Buttons/PrimaryButtonFullWidth'
+import { type Invitation } from '@/types'
+import InputLabel from '@/Components/Forms/InputLabel'
+import TextInput from '@/Components/Forms/TextInput'
+import InputError from '@/Components/Forms/InputError'
 
 interface EditorAcceptProps {
   invitation: Invitation
   hasAccount: boolean
 }
 
-export default function EditorAccept({ invitation, hasAccount }: EditorAcceptProps): ReactElement {
+export default function EditorAccept ({ invitation, hasAccount }: EditorAcceptProps): ReactElement {
   const {
     post: postAccept,
-    processing: processingAccept,
+    processing: processingAccept
   } = useForm({
     email: invitation.email,
     role: invitation.role,
     admin_id: invitation.admin_id,
-    id: invitation.id,
-  });
+    id: invitation.id
+  })
 
   const submitAccept: FormEventHandler = (e) => {
-    e.preventDefault();
+    e.preventDefault()
 
-    postAccept(route('invitations.accept'));
+    postAccept(route('invitations.accept'))
   }
 
   const {
@@ -36,7 +35,7 @@ export default function EditorAccept({ invitation, hasAccount }: EditorAcceptPro
     reset,
     errors,
     post: postRegister,
-    processing: processingRegister,
+    processing: processingRegister
   } = useForm({
     name: invitation.name,
     email: invitation.email,
@@ -44,15 +43,15 @@ export default function EditorAccept({ invitation, hasAccount }: EditorAcceptPro
     role: invitation.role,
     admin_id: invitation.admin_id,
     password: '',
-    password_confirmation: '',
-  });
+    password_confirmation: ''
+  })
 
   const submitRegister: FormEventHandler = (e) => {
-    e.preventDefault();
+    e.preventDefault()
 
     postRegister(route('invitations.register'), {
-      onFinish: () => reset('password', 'password_confirmation'),
-    });
+      onFinish: () => { reset('password', 'password_confirmation') }
+    })
   }
 
   return (
@@ -150,7 +149,7 @@ export default function EditorAccept({ invitation, hasAccount }: EditorAcceptPro
                 </div>
 
                 <div className="mt-8">
-                  <PrimaryButtonFullWidth>
+                  <PrimaryButtonFullWidth disabled={processingRegister}>
                     Register &amp; Accept Invitation
                   </PrimaryButtonFullWidth>
                 </div>
@@ -160,5 +159,5 @@ export default function EditorAccept({ invitation, hasAccount }: EditorAcceptPro
         </div>
       </Guest>
     </>
-  );
+  )
 }

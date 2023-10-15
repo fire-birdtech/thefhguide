@@ -1,9 +1,9 @@
-import {type ReactElement} from "react";
-import {Head} from "@inertiajs/react";
-import ExpandableChoiceItem from "@/Components/Lists/ExpandableChoiceItem";
-import {Goal} from "@/types";
+import { type ReactElement } from 'react'
+import { Head } from '@inertiajs/react'
+import ExpandableChoiceItem from '@/Components/Lists/ExpandableChoiceItem'
+import { type Goal } from '@/types'
 
-export default function GoalPreview({ goal }: { goal: Goal }): ReactElement {
+export default function GoalPreview ({ goal }: { goal: Goal }): ReactElement {
   return <>
     <Head title={`Preview of ${goal.name}`}/>
 
@@ -39,10 +39,10 @@ export default function GoalPreview({ goal }: { goal: Goal }): ReactElement {
         Choices
       </h4>
       <ul className="mt-8 space-y-8">
-        {goal.choices.map((choice) => (
-          <ExpandableChoiceItem choice={choice}/>
+        {goal.choices.map((choice: Choice, index: number) => (
+          <ExpandableChoiceItem key={index} choice={choice}/>
         ))}
       </ul>
     </div>
-  </>;
+  </>
 }

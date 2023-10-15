@@ -1,10 +1,10 @@
-import {type ReactElement} from "react";
-import {Link} from "@inertiajs/react";
-import {DocumentTextIcon} from "@heroicons/react/24/outline";
-import {type Draft} from "@/types";
+import { type ReactElement } from 'react'
+import { Link } from '@inertiajs/react'
+import { DocumentTextIcon } from '@heroicons/react/24/outline'
+import { type Draft } from '@/types'
 
-export default function DraftItem({draft}: {
-  draft: Draft;
+export default function DraftItem ({ draft }: {
+  draft: Draft
 }): ReactElement {
   return (
     <li className="col-span-1">
@@ -19,7 +19,7 @@ export default function DraftItem({draft}: {
                 {draft.name}
               </h3>
               <p className="mt-1 truncate text-xs text-left text-gray-500">
-                Last update {new Date(draft.updated_at).toLocaleDateString('en-us', {weekday: "long", year: "numeric", month: "short", day: "numeric"})}
+                Last update {new Date(draft.updated_at).toLocaleDateString('en-us', { weekday: 'long', year: 'numeric', month: 'short', day: 'numeric' })}
               </p>
             </div>
             <div className="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-md bg-blue-400 text-white">
@@ -29,5 +29,5 @@ export default function DraftItem({draft}: {
         </div>
       </Link>
     </li>
-  );
+  )
 }

@@ -1,33 +1,19 @@
-import {Fragment, ReactElement, useEffect, useState} from "react";
-import {Transition} from "@headlessui/react";
-import {Link, usePage} from "@inertiajs/react";
-import {CheckCircleIcon, XCircleIcon, XMarkIcon} from "@heroicons/react/24/solid";
-import classNames from "@/Utils/classNames";
+import { Fragment, type ReactElement, useEffect, useState } from 'react'
+import { Transition } from '@headlessui/react'
+import { Link, usePage } from '@inertiajs/react'
+import { CheckCircleIcon, XCircleIcon, XMarkIcon } from '@heroicons/react/24/solid'
 
-interface NotificationActions {
-  view: {
-    href: string;
-  };
-}
-
-interface NotificationType {
-  actions: boolean | NotificationActions;
-  message: string;
-  title: string;
-  type: string;
-}
-
-export default function Notification(): ReactElement|null {
-  const [showNotification, setShowNotification] = useState(true);
-  let { notification } = usePage().props.flash;
+export default function Notification (): ReactElement | null {
+  const [showNotification, setShowNotification] = useState(true)
+  let { notification } = usePage().props.flash
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      notification = null;
-      setShowNotification(false);
-    }, 5000);
-    return () => clearTimeout(timer);
-  }, []);
+      notification = null
+      setShowNotification(false)
+    }, 5000)
+    return () => { clearTimeout(timer) }
+  }, [])
 
   return showNotification && notification !== null ? (
     <div aria-live="assertive" className="pointer-events-none fixed inset-0 flex items-end px-6 py-6 sm:items-start sm:p-6">
@@ -58,7 +44,7 @@ export default function Notification(): ReactElement|null {
                   </p>
                   {notification?.actions !== false && (
                     <div className="mt-3 flex space-x-7">
-                      {notification?.actions.view && (
+                      {notification?.actions.view !== undefined && (
                         <Link
                           href={notification?.actions.view.href}
                           className="rounded-md bg-white text-sm text-blue-400 hover:text-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
@@ -72,7 +58,7 @@ export default function Notification(): ReactElement|null {
                 <div className="ml-4 flex flex-shrink-0">
                   <button
                     type="button"
-                    onClick={() => setShowNotification(false)}
+                    onClick={() => { setShowNotification(false) }}
                     className="inline-flex rounded-md bg-white text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
                   >
                     <span className="sr-only">Close</span>
@@ -85,5 +71,5 @@ export default function Notification(): ReactElement|null {
         </Transition>
       </div>
     </div>
-  ) : null;
+  ) : null
 }

@@ -1,17 +1,16 @@
-import {useState, type PropsWithChildren, type ReactNode} from 'react'
-import {Link, usePage} from '@inertiajs/react'
+import { useState, type PropsWithChildren, type ReactNode, type ReactElement } from 'react'
+import { Link } from '@inertiajs/react'
 import ApplicationLogo from '@/Components/ApplicationLogo'
 import Dropdown from '@/Components/Dropdown'
 import NavLink from '@/Components/NavLink'
 import ResponsiveNavLink from '@/Components/ResponsiveNavLink'
-import {type User} from '@/types'
-import Notification from "@/Components/Notifications/Notification";
+import { type User } from '@/types'
 
-export default function Authenticated({user, header, children}: PropsWithChildren<{
+export default function Authenticated ({ user, header, children }: PropsWithChildren<{
   user: User
   header?: ReactNode
-}>) {
-  const [showingNavigationDropdown, setShowingNavigationDropdown] = useState(false);
+}>): ReactElement {
+  const [showingNavigationDropdown, setShowingNavigationDropdown] = useState(false)
 
   return (
     <div className="min-h-screen bg-gray-100">

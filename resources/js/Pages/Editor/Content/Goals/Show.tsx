@@ -1,75 +1,75 @@
-import {FormEventHandler, ReactElement, useState} from "react";
-import {Head, Link, router, useForm} from "@inertiajs/react";
-import {Dialog} from "@headlessui/react";
-import Admin from "@/Layouts/Admin";
-import Container from "@/Components/Container";
-import {Header3} from "@/Components/Typography/Headers";
-import SecondaryButtonWithDropdown from "@/Components/Buttons/SecondaryButtonWithDropdown";
-import TableHeader from "@/Components/Tables/TableHeader";
-import Table from "@/Components/Tables/Table";
-import TableHead from "@/Components/Tables/TableHead";
-import TableBody from "@/Components/Tables/TableBody";
-import Prose from "@/Components/Prose";
-import DangerModal from "@/Components/Modals/Danger";
-import {type Goal, type PageProps} from "@/types";
-import ExpandableStackedListItem from "@/Components/Lists/ExpandableStackedListItem";
+import { type FormEventHandler, type ReactElement, useState } from 'react'
+import { Head, Link, router, useForm } from '@inertiajs/react'
+import { Dialog } from '@headlessui/react'
+import Admin from '@/Layouts/Admin'
+import Container from '@/Components/Container'
+import { Header3 } from '@/Components/Typography/Headers'
+import SecondaryButtonWithDropdown from '@/Components/Buttons/SecondaryButtonWithDropdown'
+import TableHeader from '@/Components/Tables/TableHeader'
+import Table from '@/Components/Tables/Table'
+import TableHead from '@/Components/Tables/TableHead'
+import TableBody from '@/Components/Tables/TableBody'
+import Prose from '@/Components/Prose'
+import DangerModal from '@/Components/Modals/Danger'
+import { type Choice, type Goal, type PageProps } from '@/types'
+import ExpandableStackedListItem from '@/Components/Lists/ExpandableStackedListItem'
 
-export default function GoalShow({ auth, goal }: PageProps<{
+export default function GoalShow ({ auth, goal }: PageProps<{
   goal: Goal
 }>): ReactElement {
-  const [confirmGoalArchive, setConfirmGoalArchive] = useState(false);
+  const [confirmGoalArchive, setConfirmGoalArchive] = useState(false)
 
-  const updateOrder = (updated, sibling) => {
-    const {put} = useForm({
+  const updateOrder = (updated: Choice, sibling: Choice): void => {
+    const { put } = useForm({
       updated,
-      sibling,
-    });
+      sibling
+    })
 
     put(route('editor.choices.update-order'), {
-      preserveScroll: true,
-    });
+      preserveScroll: true
+    })
   }
 
   const archive: FormEventHandler = (e) => {
-    e.preventDefault();
+    e.preventDefault()
 
-    router.delete(route('editor.goals.destroy', [goal.id]));
+    router.delete(route('editor.goals.destroy', [goal.id]))
   }
 
-  const sortedChoices = goal.choices.sort((a,b) => a.order - b.order);
+  const sortedChoices = goal.choices.sort((a, b) => a.order - b.order)
 
-  const findChoiceIndex = (orderNumber: number) => {
-    return sortedChoices.findIndex(choice => choice.order === orderNumber);
-  };
-
-  const moveDown = (orderNumber: number) => {
-    let index = findChoiceIndex(orderNumber);
-
-    sortedChoices[index].order++;
-    sortedChoices[index + 1].order--;
-
-    updateOrder(sortedChoices[index + 1], sortedChoices[index]);
+  const findChoiceIndex = (orderNumber: number): number => {
+    return sortedChoices.findIndex(choice => choice.order === orderNumber)
   }
 
-  const moveUp = (orderNumber: number) => {
-    let index = findChoiceIndex(orderNumber);
+  const moveDown = (orderNumber: number): void => {
+    const index = findChoiceIndex(orderNumber)
 
-    sortedChoices[index].order--;
-    sortedChoices[index - 1].order++;
+    sortedChoices[index].order++
+    sortedChoices[index + 1].order--
 
-    updateOrder(sortedChoices[index - 1], sortedChoices[index]);
+    updateOrder(sortedChoices[index + 1], sortedChoices[index])
+  }
+
+  const moveUp = (orderNumber: number): void => {
+    const index = findChoiceIndex(orderNumber)
+
+    sortedChoices[index].order--
+    sortedChoices[index - 1].order++
+
+    updateOrder(sortedChoices[index - 1], sortedChoices[index])
   }
 
   const actions = [
     [
       { name: 'Edit', as: 'link', icon: 'PencilSquareIcon', href: route('editor.goals.edit', [goal.id]) },
       { name: 'Add Assignment', as: 'link', icon: 'PlusCircleIcon', href: `${route('admin.assignments.create')}?assignable_id=${goal.id}&assignable_type=goal` },
-      { name: 'Preview Goal', as: 'link', icon: 'WindowIcon', href: route('editor.goals.preview', [goal.id]), target: '_blank' },
+      { name: 'Preview Goal', as: 'link', icon: 'WindowIcon', href: route('editor.goals.preview', [goal.id]), target: '_blank' }
     ],
     [
-      { name: 'Archive', as: 'emitter', icon: 'ArchiveBoxIcon', emit: () => setConfirmGoalArchive(true) },
-    ],
-  ];
+      { name: 'Archive', as: 'emitter', icon: 'ArchiveBoxIcon', emit: () => { setConfirmGoalArchive(true) } }
+    ]
+  ]
 
   const draftCells = {
     name: 'Name',
@@ -121,7 +121,7 @@ export default function GoalShow({ auth, goal }: PageProps<{
               </div>
               <div className="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                 <dt className="text-sm font-medium text-gray-500">
-                  "Show Me" Video
+                  &apos;Show Me&apos; Video
                 </dt>
                 <dd className="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
                   {goal.show_me_video_url}
@@ -144,7 +144,7 @@ export default function GoalShow({ auth, goal }: PageProps<{
             <TableHeader
               header="Choices"
               addText="Add choice"
-              addRoute={route('editor.drafts.create', {type: 'choice', parent_id: goal.id})}
+              addRoute={route('editor.drafts.create', { type: 'choice', parent_id: goal.id })}
             />
             <ul className="mt-3 space-y-2">
               {sortedChoices.map((choice) => <ExpandableStackedListItem item={choice} key={choice.id}/>)}
@@ -179,5 +179,5 @@ export default function GoalShow({ auth, goal }: PageProps<{
         </div>
       </DangerModal>
     </>
-  );
+  )
 }

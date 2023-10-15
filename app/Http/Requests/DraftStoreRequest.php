@@ -25,7 +25,7 @@ class DraftStoreRequest extends FormRequest
     {
         return [
             'type' => 'required|string',
-            'parent_id' => 'required|string',
+            'parentId' => 'required|string',
             'name' => 'required|string',
             'image' => 'nullable|mimes:jpg,jpeg,png,text/plain|max:1024',
             'summary' => 'nullable|string',

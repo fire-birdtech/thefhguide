@@ -1,27 +1,28 @@
-import {FormEventHandler, Fragment, type ReactElement} from "react";
-import {Head, useForm} from "@inertiajs/react";
-import {Listbox, Transition} from "@headlessui/react";
-import Admin from "@/Layouts/Admin";
-import Container from "@/Components/Container";
-import {Header3} from "@/Components/Typography/Headers";
-import {type Assignment, type PageProps, type User} from "@/types";
-import {CheckIcon, ChevronUpDownIcon} from "@heroicons/react/24/solid";
-import classNames from "@/Utils/classNames";
-import InputError from "@/Components/Forms/InputError";
-import InputLabel from "@/Components/Forms/InputLabel";
-import FormText from "@/Components/Forms/FormText";
-import SecondaryButton from "@/Components/Buttons/SecondaryButton";
-import PrimaryButton from "@/Components/Buttons/PrimaryButton";
+import { type FormEventHandler, Fragment, type ReactElement } from 'react'
+import { Listbox, Transition } from '@headlessui/react'
+import { CheckIcon, ChevronUpDownIcon } from '@heroicons/react/24/solid'
+import { Head, useForm } from '@inertiajs/react'
+import Admin from '@/Layouts/Admin'
+import Container from '@/Components/Container'
+import { Header3 } from '@/Components/Typography/Headers'
+import InputError from '@/Components/Forms/InputError'
+import InputLabel from '@/Components/Forms/InputLabel'
+import FormText from '@/Components/Forms/FormText'
+import SecondaryButton from '@/Components/Buttons/SecondaryButton'
+import PrimaryButton from '@/Components/Buttons/PrimaryButton'
+import classNames from '@/Utils/classNames'
+import { type Assignment, type PageProps, type User } from '@/types'
 
-export default function AssignmentEdit({ auth, assignment, editors }: PageProps<{ assignment: Assignment, editors: User[] }>): ReactElement {
-  const findEditor = () => {}
-
-  const {data, setData, errors} = useForm({
-    editor: assignment.user,
-  });
+export default function AssignmentEdit ({ auth, assignment, editors }: PageProps<{
+  assignment: Assignment
+  editors: User[]
+}>): ReactElement {
+  const { data, setData, errors } = useForm({
+    editor: assignment.user
+  })
 
   const submit: FormEventHandler = (e) => {
-    e.preventDefault();
+    e.preventDefault()
   }
 
   return (
@@ -36,14 +37,17 @@ export default function AssignmentEdit({ auth, assignment, editors }: PageProps<
           <div className="mt-4 bg-white shadow sm:rounded-lg">
             <form onSubmit={submit} className="sm:divide-y sm:divide-gray-200">
               <div className="px-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:items-start sm:py-4">
-                <Listbox value={data.editor} onChange={(value) => setData('editor', value)}>
-                  {({open}) => (
+                <Listbox value={data.editor} onChange={(value) => {
+                  setData('editor', value)
+                }}>
+                  {({ open }) => (
                     <>
                       <Listbox.Label className="block text-sm font-medium leading-6 text-gray-700 sm:mt-px sm:pt-1.5">
                         Editor
                       </Listbox.Label>
                       <div className="relative mt-1 sm:mt-0 sm:col-span-2">
-                        <Listbox.Button className="relative w-full bg-white border border-gray-300 rounded-md shadow-sm pl-3 pr-10 py-2 text-left cursor-default focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500 sm:text-sm">
+                        <Listbox.Button
+                          className="relative w-full bg-white border border-gray-300 rounded-md shadow-sm pl-3 pr-10 py-2 text-left cursor-default focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500 sm:text-sm">
                           {data.editor !== null ? (
                             <span className="block truncate">
                               {data.editor.name}
@@ -65,7 +69,8 @@ export default function AssignmentEdit({ auth, assignment, editors }: PageProps<
                           leaveFrom="opacity-100"
                           leaveTo="opacity-0"
                         >
-                          <Listbox.Options className="absolute z-10 mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm">
+                          <Listbox.Options
+                            className="absolute z-10 mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm">
                             {editors.map((editor) => (
                               <Listbox.Option
                                 key={editor.id}
@@ -77,9 +82,10 @@ export default function AssignmentEdit({ auth, assignment, editors }: PageProps<
                                 }
                                 value={editor}
                               >
-                                {({active, selected}) => (
+                                {({ active, selected }) => (
                                   <>
-                                    <span className={classNames(selected ? 'font-semibold' : 'font-normal', 'block truncate')}>
+                                    <span
+                                      className={classNames(selected ? 'font-semibold' : 'font-normal', 'block truncate')}>
                                       {editor.name}
                                     </span>
 
@@ -90,7 +96,7 @@ export default function AssignmentEdit({ auth, assignment, editors }: PageProps<
                                           'absolute inset-y-0 right-0 flex items-center pr-4'
                                         )}
                                       >
-                                        <CheckIcon className="h-5 w-5" aria-hidden="true" />
+                                        <CheckIcon className="h-5 w-5" aria-hidden="true"/>
                                       </span>
                                     ) : null}
                                   </>
@@ -128,5 +134,5 @@ export default function AssignmentEdit({ auth, assignment, editors }: PageProps<
         </Container>
       </Admin>
     </>
-  );
+  )
 }

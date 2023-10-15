@@ -1,8 +1,8 @@
-import { type PropsWithChildren } from 'react'
-import {Link} from "@inertiajs/react";
-import ApplicationLogo from "@/Components/ApplicationLogo";
+import { type PropsWithChildren, type ReactElement } from 'react'
+import { Link } from '@inertiajs/react'
+import ApplicationLogo from '@/Components/ApplicationLogo'
 
-export default function Guest({ children }: PropsWithChildren) {
+export default function Guest ({ children }: PropsWithChildren): ReactElement {
   return (
     <div className="min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0 bg-gray-100">
       <div>
@@ -15,5 +15,5 @@ export default function Guest({ children }: PropsWithChildren) {
         {children}
       </div>
     </div>
-  );
+  )
 }

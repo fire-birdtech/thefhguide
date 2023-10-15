@@ -1,15 +1,16 @@
-import {type ReactElement, useState} from "react";
-import {type Choice, ChoiceContentTypes, Resource} from "@/types";
-import {MinusIcon, PlusIcon} from "@heroicons/react/24/solid";
-import {Header5} from "@/Components/Typography/Headers";
-import ResourceListItem from "@/Components/Lists/ResourceListItem";
+import { type ReactElement, useState } from 'react'
+import { MinusIcon, PlusIcon } from '@heroicons/react/24/solid'
+import { Header5 } from '@/Components/Typography/Headers'
+import ResourceListItem from '@/Components/Lists/ResourceListItem'
+import { ChoiceContentTypes } from '@/enums'
+import { type Choice, type Resource } from '@/types'
 
-const listStyleAlpha = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
+const listStyleAlpha = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
 
-export default function ExpandableChoiceItem({ choice }: { choice: Choice }): ReactElement {
-  const [expanded, setExpanded] = useState<boolean>(true);
-  const [showSummary, setShowSummary] = useState<boolean>(false);
-  const [showExercises, setShowExercises] = useState<boolean>(false);
+export default function ExpandableChoiceItem ({ choice }: { choice: Choice }): ReactElement {
+  const [expanded, setExpanded] = useState<boolean>(true)
+  const [showSummary, setShowSummary] = useState<boolean>(false)
+  const [showExercises, setShowExercises] = useState<boolean>(false)
 
   return (
     <li>
@@ -33,17 +34,17 @@ export default function ExpandableChoiceItem({ choice }: { choice: Choice }): Re
 
       {expanded && (
         <div className="py-8 prose max-w-none space-y-6">
-          {choice.content.map((item) => {
+          {choice.content.map((item, index: number) => {
             if (item.type === ChoiceContentTypes.SUMMARY) {
               return <>
                 <button
-                  onClick={() => setShowSummary(!showSummary)}
+                  onClick={() => { setShowSummary(!showSummary) }}
                   className="text-stone-500 font-medium hover:underline"
                 >
                   Summary
                 </button>
                 {showSummary && (
-                  <div dangerouslySetInnerHTML={{__html: item.data}}/>
+                  <div dangerouslySetInnerHTML={{ __html: item.data }}/>
                 )}
               </>
             } else if (item.type === ChoiceContentTypes.RESOURCES) {
@@ -60,23 +61,23 @@ export default function ExpandableChoiceItem({ choice }: { choice: Choice }): Re
             } else if (item.type === ChoiceContentTypes.EXERCISES) {
               return <>
                 <button
-                  onClick={() => setShowExercises(!showExercises)}
+                  onClick={() => { setShowExercises(!showExercises) }}
                   className="text-stone-500 font-medium hover:underline"
                 >
                   Exercises
                 </button>
                 {showExercises && (
-                  <div dangerouslySetInnerHTML={{__html: item.data}}/>
+                  <div dangerouslySetInnerHTML={{ __html: item.data }}/>
                 )}
               </>
             } else if (item.type === ChoiceContentTypes.HEADER) {
-              return <Header5>{item.data}</Header5>
+              return <Header5 key={index}>{item.data}</Header5>
             } else {
-              return <div dangerouslySetInnerHTML={{ __html: item.data }}/>
+              return <div key={index} dangerouslySetInnerHTML={{ __html: item.data }}/>
             }
           })}
         </div>
       )}
     </li>
-  );
+  )
 }

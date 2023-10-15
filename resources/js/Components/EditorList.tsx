@@ -1,10 +1,10 @@
-import {type ReactElement} from "react";
-import {Header3} from "@/Components/Typography/Headers";
-import EditorCard from "@/Components/Cards/Admin/Dashboard/EditorCard";
-import {type Editor} from "@/types";
+import { type ReactElement } from 'react'
+import { Header3 } from '@/Components/Typography/Headers'
+import EditorCard from '@/Components/Cards/Admin/Dashboard/EditorCard'
+import { type Editor } from '@/types'
 
-export default function ({editors}: {
-  editors: Editor[];
+export default function EditorList ({ editors }: {
+  editors: Editor[]
 }): ReactElement {
   return <>
     <Header3>

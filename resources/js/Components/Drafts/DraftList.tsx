@@ -1,10 +1,10 @@
-import {type ReactElement} from "react";
-import DraftItem from "@/Components/Drafts/DraftItem";
-import {Header3} from "@/Components/Typography/Headers";
-import {type Draft} from "@/types";
+import { type ReactElement } from 'react'
+import DraftItem from '@/Components/Drafts/DraftItem'
+import { Header3 } from '@/Components/Typography/Headers'
+import { type Draft } from '@/types'
 
-export default function DraftList({drafts}: {
-  drafts: Draft[];
+export default function DraftList ({ drafts }: {
+  drafts: Draft[]
 }): ReactElement {
   return (
     <div className="mt-6">
@@ -17,5 +17,5 @@ export default function DraftList({drafts}: {
         </ul>
       </div>
     </div>
-  );
+  )
 }

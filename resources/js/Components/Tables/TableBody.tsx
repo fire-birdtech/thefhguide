@@ -1,9 +1,10 @@
-import classNames from "@/Utils/classNames";
-import {Link} from "@inertiajs/react";
-import Badge from "@/Components/Badge";
-import {ArrowDownIcon, ArrowUpIcon} from "@heroicons/react/20/solid";
-import {EyeIcon, PencilSquareIcon} from "@heroicons/react/24/solid";
-import {Actions, Assignment, Cells, Draft, Project, User} from "@/types";
+import classNames from '@/Utils/classNames'
+import { Link } from '@inertiajs/react'
+import Badge from '@/Components/Badge'
+import { ArrowDownIcon, ArrowUpIcon } from '@heroicons/react/20/solid'
+import { EyeIcon, PencilSquareIcon } from '@heroicons/react/24/solid'
+import { type Actions, type Assignment, type Cells, type Draft, type Project, type User } from '@/types'
+import { type ReactElement } from 'react'
 
 interface TableBodyProps {
   actions: Actions
@@ -16,22 +17,22 @@ interface TableBodyProps {
   moveUp?: () => void
 }
 
-const convertModel = (model: string) => model.split('\\')[2];
+const convertModel = (model: string): string => model.split('\\')[2]
 
-const renderTableData = (cellIdx: number, cellKey: string, routeType: string, row) => {
+const renderTableData = (cellIdx: number, cellKey: string, routeType: string, row): ReactElement | string => {
   if (cellIdx === 0 && cellKey !== 'assignable') return <Link href={route(`${routeType}.show`, [row.id])} className="text-gray-900 hover:text-gray-700 font-semibold">{row[cellKey]}</Link>
   else if (cellIdx === 0 && cellKey === 'assignable') return row[cellKey].name
   else if (cellKey === 'type') return convertModel(row.assignable_type)
   else if (cellKey === 'status') return <Badge text={row.status}/>
   else if (cellKey === 'role') return <Badge text={row.roles[0].name}/>
   else if (cellKey === 'assignable' || cellKey === 'user') return row[cellKey].name
-  else if (cellKey.includes('_at')) return new Date(row[cellKey]).toLocaleDateString('en-us', {weekday: "long", year: "numeric", month: "short", day: "numeric"})
+  else if (cellKey.includes('_at')) return new Date(row[cellKey]).toLocaleDateString('en-us', { weekday: 'long', year: 'numeric', month: 'short', day: 'numeric' })
   else return row[cellKey]
 }
 
-export default function TableBody({actions, cells, rows, adminRouteType = '', routeType = '', order = false}: TableBodyProps) {
-  const editRoute = (row): string => routeType !== null ?
-    route(`${adminRouteType || routeType}.edit`, [row.id]) : "#";
+export default function TableBody ({ actions, cells, rows, adminRouteType = '', routeType = '', order = false }: TableBodyProps): ReactElement {
+  const editRoute = (row): string => routeType !== null
+    ? route(`${adminRouteType || routeType}.edit`, [row.id]) : '#'
 
   return (
     <tbody className="bg-white">
@@ -45,7 +46,7 @@ export default function TableBody({actions, cells, rows, adminRouteType = '', ro
             key={index}
             className={classNames(
               index === 0 ? 'pl-4 pr-3 sm:pl-6' : 'px-3',
-              'whitespace-nowrap py-2.5 text-sm text-gray-500',
+              'whitespace-nowrap py-2.5 text-sm text-gray-500'
             )}
           >
             {renderTableData(index, cellKey, routeType, row)}
@@ -59,7 +60,7 @@ export default function TableBody({actions, cells, rows, adminRouteType = '', ro
             </div>
           </td>
         ) : null}
-        {actions ? (
+        {actions !== undefined ? (
           <td
             className="flex justify-end whitespace-nowrap py-3 pl-3 pr-4 text-right text-sm font-medium space-x-2 sm:pr-6">
             {actions.view ? (
@@ -79,5 +80,5 @@ export default function TableBody({actions, cells, rows, adminRouteType = '', ro
       </tr>
     ))}
     </tbody>
-  );
+  )
 }

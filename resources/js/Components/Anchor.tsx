@@ -1,8 +1,8 @@
-import {PropsWithChildren, ReactElement} from "react";
+import { type PropsWithChildren, type ReactElement } from 'react'
 
-export default function ({
-  children, className, href, target,
-}: PropsWithChildren<{className: string, href?: string, target?: string}>): ReactElement {
+export default function Anchor ({
+  children, className, href, target
+}: PropsWithChildren<{ className: string, href?: string, target?: string }>): ReactElement {
   return (
     <a
       href={href}
@@ -12,5 +12,5 @@ export default function ({
     >
       {children}
     </a>
-  );
+  )
 }

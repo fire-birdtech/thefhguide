@@ -1,24 +1,29 @@
-import {type ReactElement, useState} from "react";
-import {FilmIcon} from "@heroicons/react/24/outline";
-import RemoveButton from "@/Components/Buttons/Choices/RemoveButton";
-import {Highlight} from "@/types";
+import { type ReactElement, useState } from 'react'
+import { FilmIcon } from '@heroicons/react/24/outline'
+import RemoveButton from '@/Components/Buttons/Choices/RemoveButton'
+import { type Highlight } from '@/types'
 
-export default function ResourceVideoHighlight({ highlight, index, remove, update }: { highlight: Highlight, index: number, remove: () => {}, update: (key: number, value: Highlight) => {} }): ReactElement {
+export default function ResourceVideoHighlight ({ highlight, index, remove, update }: {
+  highlight: Highlight
+  index: number
+  remove: () => void
+  update: (key: number, value: Highlight) => void
+}): ReactElement {
   const [currentHighlight, setCurrentHighlight] = useState({
     text: highlight.text ?? '',
-    link: highlight.link ?? '',
-  });
+    link: highlight.link ?? ''
+  })
 
   const updateHighlight = (key: string, value: string): void => {
-    let updatedHighlight = {
+    const updatedHighlight = {
       ...highlight,
-      [key]: value,
+      [key]: value
     }
     setCurrentHighlight({
-      ...updatedHighlight,
-    });
+      ...updatedHighlight
+    })
 
-    update(index, updatedHighlight);
+    update(index, updatedHighlight)
   }
 
   return (
@@ -28,18 +33,22 @@ export default function ResourceVideoHighlight({ highlight, index, remove, updat
         <input
           type="text"
           value={currentHighlight.text}
-          onChange={(e) => updateHighlight(
-            'text', e.target.value
-          )}
+          onChange={(e) => {
+            updateHighlight(
+              'text', e.target.value
+            )
+          }}
           placeholder="Text"
           className="flex-1 border-none text-sm rounded-l-md focus:ring-transparent"
         />
         <input
           type="text"
           value={currentHighlight.link}
-          onChange={(e) => updateHighlight(
-            'link', e.target.value
-          )}
+          onChange={(e) => {
+            updateHighlight(
+              'link', e.target.value
+            )
+          }}
           placeholder="Link"
           className="flex-1 border-none text-sm focus:ring-transparent"
         />
@@ -50,5 +59,5 @@ export default function ResourceVideoHighlight({ highlight, index, remove, updat
         </div>
       </div>
     </div>
-  );
+  )
 }

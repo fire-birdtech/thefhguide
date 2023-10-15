@@ -1,12 +1,12 @@
-import {Fragment, type ReactElement} from "react";
-import {Menu, Transition} from "@headlessui/react";
-import {BellIcon} from "@heroicons/react/24/outline";
-import {usePage} from "@inertiajs/react";
-import {InboxIcon} from "@heroicons/react/24/solid";
-import NotificationDropdownItem from "@/Components/Dropdowns/NotificationDropdownItem";
+import { Fragment, type ReactElement } from 'react'
+import { Menu, Transition } from '@headlessui/react'
+import { BellIcon } from '@heroicons/react/24/outline'
+import { usePage } from '@inertiajs/react'
+import { InboxIcon } from '@heroicons/react/24/solid'
+import NotificationDropdownItem from '@/Components/Dropdowns/NotificationDropdownItem'
 
-export default function NotificationDropdown(): ReactElement {
-  const { notifications } = usePage().props;
+export default function NotificationDropdown (): ReactElement {
+  const { notifications } = usePage().props
 
   return (
     <Menu as="div" className="relative inline-block text-left">
@@ -14,7 +14,7 @@ export default function NotificationDropdown(): ReactElement {
         <Menu.Button className="flex items-center rounded-full text-gray-400 hover:text-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500">
           <span className="sr-only">View Notifications</span>
           <BellIcon className="h-6 w-6" aria-hidden="true"/>
-          {notifications.filter(n => n.read_at === null).length ? (
+          {notifications.filter(n => n.read_at === null).length > 0 ? (
             <span className="absolute top-0 right-0 block h-2 w-2 rounded-full bg-blue-400 ring-2 ring-white"/>
           ) : null}
         </Menu.Button>
@@ -30,7 +30,7 @@ export default function NotificationDropdown(): ReactElement {
         leaveTo="transform opacity-0 scale-95"
       >
         <Menu.Items className="absolute -right-4 z-10 mt-2 w-72 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
-          {notifications.length ? (
+          {notifications.length > 0 ? (
             <div className="py-1">
               {notifications.map((notification) => (
                 <NotificationDropdownItem
@@ -53,5 +53,5 @@ export default function NotificationDropdown(): ReactElement {
         </Menu.Items>
       </Transition>
     </Menu>
-  );
+  )
 }

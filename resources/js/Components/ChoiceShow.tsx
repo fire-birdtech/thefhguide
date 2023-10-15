@@ -1,37 +1,9 @@
-import {type ReactElement} from "react";
-import ResourceListItemPublic from "@/Components/Lists/ResourceListItemPublic";
-import {type Choice, ChoiceContent, ChoiceContentTypes, Resource} from "@/types";
+import { type ReactElement } from 'react'
+import ChoiceContentDisplay from '@/Components/ChoiceContentDisplay'
+import { type Choice } from '@/types'
 
-const renderContent = (item: ChoiceContent, idx: number) => {
-  if (item.type === ChoiceContentTypes.SUMMARY) {
-    return (
-      <template key={idx}>
-        <div className="text-gray-500 font-medium hover:underline">
-          Summary
-        </div>
-        <div dangerouslySetInnerHTML={{__html: item.data}}/>
-      </template>
-    );
-  } else if (item.type === ChoiceContentTypes.RESOURCES) {
-    item.data.map((resource: Resource, index: number) => (
-      <ResourceListItemPublic key={index} resource={resource}/>
-    ))
-  } else if (item.type === ChoiceContentTypes.EXERCISES) {
-    return (
-      <template key={idx}>
-        <div className="text-gray-500 font-medium hover:underline">
-          Exercises
-        </div>
-        <div dangerouslySetInnerHTML={{__html: item.data}}/>
-      </template>
-    );
-  } else {
-    return <div key={idx} dangerouslySetInnerHTML={{__html: item.data}}/>;
-  }
-}
-
-export default function ChoiceShow({choice}: {
-  choice: Choice;
+export default function ChoiceShow ({ choice }: {
+  choice: Choice
 }): ReactElement {
   return (
     <div className="border-t border-gray-200">
@@ -49,10 +21,10 @@ export default function ChoiceShow({choice}: {
             Content
           </dt>
           <dd className="mt-1 text-sm text-gray-900 prose max-w-none space-y-6 sm:mt-0 sm:col-span-7">
-            {choice.content.map((item, idx) => renderContent(item, idx))}
+            {choice.content.map((item, idx) => <ChoiceContentDisplay item={item} key={idx} idx={idx}/>)}
           </dd>
         </div>
       </dl>
     </div>
-  );
+  )
 }

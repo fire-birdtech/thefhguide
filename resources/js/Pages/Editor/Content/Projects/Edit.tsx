@@ -1,33 +1,33 @@
-import {FormEventHandler, type ReactElement} from "react";
-import {Head, useForm} from "@inertiajs/react";
-import Admin from "@/Layouts/Admin";
-import Container from "@/Components/Container";
-import {Header3} from "@/Components/Typography/Headers";
-import AddCoverImage from "@/Components/Forms/AddCoverImage";
-import InputLabel from "@/Components/Forms/InputLabel";
-import TextInput from "@/Components/Forms/TextInput";
-import InputError from "@/Components/Forms/InputError";
-import SecondaryButton from "@/Components/Buttons/SecondaryButton";
-import PrimaryButton from "@/Components/Buttons/PrimaryButton";
-import {type Collection, type PageProps, type Project} from "@/types";
+import { type FormEventHandler, type ReactElement } from 'react'
+import { Head, useForm } from '@inertiajs/react'
+import Admin from '@/Layouts/Admin'
+import Container from '@/Components/Container'
+import { Header3 } from '@/Components/Typography/Headers'
+import AddCoverImage from '@/Components/Forms/AddCoverImage'
+import InputLabel from '@/Components/Forms/InputLabel'
+import TextInput from '@/Components/Forms/TextInput'
+import InputError from '@/Components/Forms/InputError'
+import SecondaryButton from '@/Components/Buttons/SecondaryButton'
+import PrimaryButton from '@/Components/Buttons/PrimaryButton'
+import { type Collection, type PageProps, type Project } from '@/types'
 
-export default function ProjectEdit({ auth, collections, project }: PageProps<{
-  collections: Collection[],
-  project: Project,
+export default function ProjectEdit ({ auth, collections, project }: PageProps<{
+  collections: Collection[]
+  project: Project
 }>): ReactElement {
-  const {data, setData, errors, put, processing} = useForm({
+  const { data, setData, errors, put } = useForm({
     name: project.name,
-    image: {},
-  });
+    image: {}
+  })
 
-  const updateCover = (value: File) => {
-    setData('image', value);
-  };
+  const updateCover = (value: File): void => {
+    setData('image', value)
+  }
 
   const submit: FormEventHandler = (e) => {
-    e.preventDefault();
+    e.preventDefault()
 
-    put(route('editor.projects.update'), [project.id]);
+    put(route('editor.projects.update'), [project.id])
   }
 
   return (
@@ -60,7 +60,7 @@ export default function ProjectEdit({ auth, collections, project }: PageProps<{
                 errorMessage={errors.image}
                 imagePath={project.cover_image_path}
                 imageUrl={project.cover_image_url}
-                onChange={(value) => updateCover(value)}
+                onChange={(value) => { updateCover(value) }}
               />
               <div className="px-6 py-4">
                 <div className="flex justify-end space-x-3">
@@ -77,5 +77,5 @@ export default function ProjectEdit({ auth, collections, project }: PageProps<{
         </Container>
       </Admin>
     </>
-  );
+  )
 }

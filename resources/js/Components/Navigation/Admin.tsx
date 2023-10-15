@@ -1,37 +1,38 @@
-import {Link, usePage} from "@inertiajs/react";
-import classNames from "@/Utils/classNames";
+import { type ReactElement } from 'react'
+import { Link, usePage } from '@inertiajs/react'
+import classNames from '@/Utils/classNames'
 
-export default function AdminNavigation() {
-  const {component} = usePage();
-  const {canManageEditors, currentUserRole: role} = usePage().props;
+export default function AdminNavigation (): ReactElement {
+  const { component } = usePage()
+  const { canManageEditors, currentUserRole: role } = usePage().props
 
   const dashboardLink: string = (role === 'admin' || role === 'super admin' || role === 'developer')
-    ? route('admin.dashboard') : route('editor.dashboard');
+    ? route('admin.dashboard') : route('editor.dashboard')
 
   const contentComponents: string[] = [
     'Editor/Content/Index',
     'Editor/Content/Collections/Index', 'Editor/Content/Collections/Create', 'Editor/Content/Collections/Show', 'Editor/Content/Collections/Edit',
     'Editor/Content/Projects/Index', 'Editor/Content/Projects/Create', 'Editor/Content/Projects/Show', 'Editor/Content/Projects/Edit',
     'Editor/Content/Goals/Index', 'Editor/Content/Goals/Create', 'Editor/Content/Goals/Show', 'Editor/Content/Goals/Edit',
-    'Editor/Content/Choices/Index', 'Editor/Content/Choices/Create', 'Editor/Content/Choices/Show', 'Editor/Content/Choices/Edit',
-  ];
+    'Editor/Content/Choices/Index', 'Editor/Content/Choices/Create', 'Editor/Content/Choices/Show', 'Editor/Content/Choices/Edit'
+  ]
 
   const assignmentComponents: string[] = [
-    'Admin/Assignments/Index','Admin/Assignments/Create','Admin/Assignments/Edit','Editor/Assignments/Show',
-  ];
+    'Admin/Assignments/Index', 'Admin/Assignments/Create', 'Admin/Assignments/Edit', 'Editor/Assignments/Show'
+  ]
 
   const editorManagementComponents: string[] = [
-    'Admin/Editors/Index','Admin/Editors/Create','Admin/Editors/Show','Admin/Editors/Edit'
-  ];
+    'Admin/Editors/Index', 'Admin/Editors/Create', 'Admin/Editors/Show', 'Admin/Editors/Edit'
+  ]
 
   const navigation = [
-    {name: 'Dashboard', href: dashboardLink, show: true, components: ['Admin/Dashboard', 'Editor/Dashboard']},
-    {name: 'Content', href: route('editor.content.index'), show: true, components: contentComponents},
-    {name: 'Assignments', href: route('admin.assignments.index'), show: canManageEditors, components: assignmentComponents},
-    {name: 'Admins & Editors', href: route('admin.editors.index'), show: canManageEditors, components: editorManagementComponents},
-  ];
+    { name: 'Dashboard', href: dashboardLink, show: true, components: ['Admin/Dashboard', 'Editor/Dashboard'] },
+    { name: 'Content', href: route('editor.content.index'), show: true, components: contentComponents },
+    { name: 'Assignments', href: route('admin.assignments.index'), show: canManageEditors, components: assignmentComponents },
+    { name: 'Admins & Editors', href: route('admin.editors.index'), show: canManageEditors, components: editorManagementComponents }
+  ]
 
-  const filteredNavigation = navigation.filter(item => item.show === true);
+  const filteredNavigation = navigation.filter(item => item.show === true)
 
   return (
     <aside className="hidden lg:flex lg:flex-shrink-0">
@@ -56,5 +57,5 @@ export default function AdminNavigation() {
         </div>
       </div>
     </aside>
-  );
+  )
 }

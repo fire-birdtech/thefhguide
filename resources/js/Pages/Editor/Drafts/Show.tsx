@@ -1,19 +1,20 @@
-import {Fragment, ReactElement, useState} from "react";
-import {Dialog, Transition} from "@headlessui/react";
-import {ArrowTopRightOnSquareIcon} from "@heroicons/react/24/outline";
-import {Head} from "@inertiajs/react";
-import Admin from "@/Layouts/Admin";
-import Container from "@/Components/Container";
-import {Header3, Header5} from "@/Components/Typography/Headers";
-import PrimaryButton from "@/Components/Buttons/PrimaryButton";
-import DescriptionListItem from "@/Components/Lists/DescriptionListItem";
-import SecondaryButtonSmall from "@/Components/Buttons/SecondaryButtonSmall";
-import Anchor from "@/Components/Anchor";
-import ResourceListItem from "@/Components/Lists/ResourceListItem";
-import {ChoiceContentTypes, Draft, PageProps} from "@/types";
+import { Fragment, type ReactElement, useState } from 'react'
+import { Dialog, Transition } from '@headlessui/react'
+import { ArrowTopRightOnSquareIcon } from '@heroicons/react/24/outline'
+import { Head } from '@inertiajs/react'
+import Admin from '@/Layouts/Admin'
+import Container from '@/Components/Container'
+import { Header3 } from '@/Components/Typography/Headers'
+import PrimaryButton from '@/Components/Buttons/PrimaryButton'
+import DescriptionListItem from '@/Components/Lists/DescriptionListItem'
+import SecondaryButtonSmall from '@/Components/Buttons/SecondaryButtonSmall'
+import Anchor from '@/Components/Anchor'
+import ChoiceContentDisplay from '@/Components/ChoiceContentDisplay'
+import { type ChoiceContent, type Draft, type PageProps } from '@/types'
+import Prose from '@/Components/Prose'
 
-export default function ({auth, draft}: PageProps<{ draft: Draft }>): ReactElement {
-  const [showCoverImagePreview, setShowCoverImagePreview] = useState(false);
+export default function DraftShow ({ auth, draft }: PageProps<{ draft: Draft }>): ReactElement {
+  const [showCoverImagePreview, setShowCoverImagePreview] = useState(false)
 
   return (
     <>
@@ -41,17 +42,7 @@ export default function ({auth, draft}: PageProps<{ draft: Draft }>): ReactEleme
                 {draft.cover_image_path !== null && (
                   <DescriptionListItem term="Cover Image">
                     <SecondaryButtonSmall
-                      onClick={() => setShowCoverImagePreview(true)}
-                      className="-my-2 sm:-my-2.5"
-                    >
-                      Show image
-                    </SecondaryButtonSmall>
-                  </DescriptionListItem>
-                )}
-                {draft.cover_image_path !== null && (
-                  <DescriptionListItem term="Cover Image">
-                    <SecondaryButtonSmall
-                      onClick={() => setShowCoverImagePreview(true)}
+                      onClick={() => { setShowCoverImagePreview(true) }}
                       className="-my-2 sm:-my-2.5"
                     >
                       Show image
@@ -60,11 +51,11 @@ export default function ({auth, draft}: PageProps<{ draft: Draft }>): ReactEleme
                 )}
                 {draft.summary !== null && (
                   <DescriptionListItem term="Summary" className="prose max-w-3xl prose-a:text-blue-500">
-                    <div dangerouslySetInnerHTML={{ __html: draft.summary }}/>
+                    <Prose html={draft.summary}/>
                   </DescriptionListItem>
                 )}
                 {draft.show_me_video_url !== null && (
-                  <DescriptionListItem term={`"Show Me" Video`} className="hover:text-gray-700">
+                  <DescriptionListItem term={'"Show Me" Video'} className="hover:text-gray-700">
                     <Anchor href={draft.show_me_video_url} target="_blank" className="flex items-center group">
                       <span>{draft.show_me_video_url}</span>
                       <ArrowTopRightOnSquareIcon className="ml-3 flex-shrink-0 h-4 w-4"/>
@@ -72,46 +63,11 @@ export default function ({auth, draft}: PageProps<{ draft: Draft }>): ReactEleme
                   </DescriptionListItem>
                 )}
                 {draft.content !== null && (
-                  <DescriptionListItem term="Content" className="prose max-w-none space-y-6">
-                    {draft?.content?.map((item, idx) =>
-                      {item.type === ChoiceContentTypes.SUMMARY && (
-                        <>
-                          <div className="text-stone-500 font-medium hover:underline">
-                            Summary
-                          </div>
-                          <div dangerouslySetInnerHTML={{ __html: item.data }}/>
-                        </>
-                      )
-                      item.type === ChoiceContentTypes.RESOURCES && (
-                        <>
-                          <div className="text-xl font-medium">
-                            Resources
-                          </div>
-                          <ol>
-                            {item.data.map((resource, resourceIdx) => (
-                              <ResourceListItem key={resourceIdx} resource={resource}/>
-                            ))}
-                          </ol>
-                        </>
-                      )
-                      item.type === ChoiceContentTypes.EXERCISES && (
-                        <>
-                          <div className="text-stone-500 font-medium hover:underline">
-                            Exercises
-                          </div>
-                          <div dangerouslySetInnerHTML={{ __html: item.data }}/>
-                        </>
-                      )
-                      item.type === ChoiceContentTypes.HEADER && (
-                        <Header5>
-                          {item.data}
-                        </Header5>
-                      )
-                      item.type === ChoiceContentTypes.TEXT && (
-                        <div dangerouslySetInnerHTML={{ __html: item.data }}/>
-                      )}
-                    )}
-                  </DescriptionListItem>
+                  <DescriptionListItem
+                    term="Content"
+                    className="prose max-w-none space-y-6"
+                    details={draft.content.map((item: ChoiceContent, idx: number) => <ChoiceContentDisplay item={item} idx={idx} key={idx}/>)}
+                  />
                 )}
               </dl>
             </div>
@@ -119,7 +75,7 @@ export default function ({auth, draft}: PageProps<{ draft: Draft }>): ReactEleme
         </Container>
       </Admin>
 
-      {/*Cover Image Preview*/}
+      {/* Cover Image Preview */}
       <Transition.Root
         show={showCoverImagePreview}
         as={Fragment}
@@ -157,5 +113,5 @@ export default function ({auth, draft}: PageProps<{ draft: Draft }>): ReactEleme
         </Dialog>
       </Transition.Root>
     </>
-  );
+  )
 }

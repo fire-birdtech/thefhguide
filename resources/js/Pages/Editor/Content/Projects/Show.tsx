@@ -1,88 +1,85 @@
-import {FormEventHandler, Fragment, useState} from "react";
-import {Dialog, Transition} from "@headlessui/react";
-import {Head, Link, router, useForm} from "@inertiajs/react";
-import Admin from "@/Layouts/Admin";
-import Container from "@/Components/Container";
-import {Header3} from "@/Components/Typography/Headers";
-import SecondaryButtonWithDropdown from "@/Components/Buttons/SecondaryButtonWithDropdown";
-import SecondaryButtonSmall from "@/Components/Buttons/SecondaryButtonSmall";
-import TableHeader from "@/Components/Tables/TableHeader";
-import Table from "@/Components/Tables/Table";
-import TableHead from "@/Components/Tables/TableHead";
-import TableBody from "@/Components/Tables/TableBody";
-import DangerModal from "@/Components/Modals/Danger";
+import { type FormEventHandler, Fragment, type ReactElement, useState } from 'react'
+import { Dialog, Transition } from '@headlessui/react'
+import { Head, Link, router, useForm } from '@inertiajs/react'
+import Admin from '@/Layouts/Admin'
+import Container from '@/Components/Container'
+import { Header3 } from '@/Components/Typography/Headers'
+import SecondaryButtonWithDropdown from '@/Components/Buttons/SecondaryButtonWithDropdown'
+import SecondaryButtonSmall from '@/Components/Buttons/SecondaryButtonSmall'
+import TableHeader from '@/Components/Tables/TableHeader'
+import Table from '@/Components/Tables/Table'
+import TableHead from '@/Components/Tables/TableHead'
+import TableBody from '@/Components/Tables/TableBody'
+import DangerModal from '@/Components/Modals/Danger'
+import { type Goal, type PageProps, type Project } from '@/types'
 
-export default function ProjectShow({ auth, project }) {
-  const [confirmProjectArchive, setConfirmProjectArchive] = useState(false);
-  const [showCoverImagePreview, setShowCoverImagePreview] = useState(false);
+export default function ProjectShow ({ auth, project }: PageProps<{ project: Project }>): ReactElement {
+  const [confirmProjectArchive, setConfirmProjectArchive] = useState(false)
+  const [showCoverImagePreview, setShowCoverImagePreview] = useState(false)
 
-  const updateOrder = (updated, sibling) => {
-    const {put} = useForm({
+  const updateOrder = (updated: Goal, sibling: Goal): void => {
+    const { put } = useForm({
       updated,
       sibling
-    });
+    })
 
     put(route('editor.goals.update-order', [updated]), {
-      preserveScroll: true,
-    });
+      preserveScroll: true
+    })
   }
 
   const archive: FormEventHandler = (e) => {
-    e.preventDefault();
+    e.preventDefault()
 
-    router.delete(route('editor.projects.destroy', [project.id]));
+    router.delete(route('editor.projects.destroy', [project.id]))
   }
 
-  const sortedGoals = project.goals.sort((a,b) => a.order - b.order);
+  const sortedGoals = project.goals.sort((a, b) => a.order - b.order)
 
-  const findGoalIndex = (orderNumber: number) => {
-    return sortedGoals.findIndex(goal => goal.order === orderNumber);
-  };
-
-  const moveDown = (orderNumber: number) => {
-    let index = findGoalIndex(orderNumber);
-
-    sortedGoals[index].order++;
-    sortedGoals[index + 1].order--;
-
-    updateOrder(sortedGoals[index + 1], sortedGoals[index]);
+  const findGoalIndex = (orderNumber: number): number => {
+    return sortedGoals.findIndex(goal => goal.order === orderNumber)
   }
 
-  const moveUp = (orderNumber: number) => {
-    let index = findGoalIndex(orderNumber);
+  const moveDown = (orderNumber: number): void => {
+    const index = findGoalIndex(orderNumber)
 
-    sortedGoals[index].order--;
-    sortedGoals[index - 1].order++;
+    sortedGoals[index].order++
+    sortedGoals[index + 1].order--
 
-    updateOrder(sortedGoals[index - 1], sortedGoal[index]);
+    updateOrder(sortedGoals[index + 1], sortedGoals[index])
   }
 
-  const openImagePreview = () => {
-    console.log(showCoverImagePreview);
+  const moveUp = (orderNumber: number): void => {
+    const index = findGoalIndex(orderNumber)
+
+    sortedGoals[index].order--
+    sortedGoals[index - 1].order++
+
+    updateOrder(sortedGoals[index - 1], sortedGoals[index])
   }
 
   const actions = [
     [
-      { name: 'Edit', as: 'link', icon: 'PencilSquareIcon', href: route('editor.projects.edit', [project.id]) },
+      { name: 'Edit', as: 'link', icon: 'PencilSquareIcon', href: route('editor.projects.edit', [project.id]) }
     ],
     [
-      { name: 'Archive', as: 'emitter', icon: 'ArchiveBoxIcon', emit: () => setConfirmProjectArchive(true) },
-    ],
-  ];
+      { name: 'Archive', as: 'emitter', icon: 'ArchiveBoxIcon', emit: () => { setConfirmProjectArchive(true) } }
+    ]
+  ]
 
   const goalCells = {
-    name: 'Name',
-  };
+    name: 'Name'
+  }
   const draftCells = {
     name: 'Name',
     user: 'Author',
-    updated_at: 'Last Updated',
-  };
+    updated_at: 'Last Updated'
+  }
 
   const tableActions = {
     view: true,
-    edit: true,
-  };
+    edit: true
+  }
 
   return (
     <>
@@ -129,8 +126,8 @@ export default function ProjectShow({ auth, project }) {
                   Cover Image
                 </dt>
                 <dd className="mt-1 text-sm font-bold text-gray-900 sm:mt-0 sm:col-span-2">
-                  {project.cover_image_path ? (
-                    <SecondaryButtonSmall className="-my-2 sm:-my-2.5" onClick={() => setShowCoverImagePreview(true)}>
+                  {project.cover_image_path !== undefined ? (
+                    <SecondaryButtonSmall className="-my-2 sm:-my-2.5" onClick={() => { setShowCoverImagePreview(true) }}>
                       Show image
                     </SecondaryButtonSmall>
                   ) : (
@@ -149,7 +146,7 @@ export default function ProjectShow({ auth, project }) {
               addText="Add goal"
               addRoute={route(
                 'editor.drafts.create',
-                {type: 'goal', parent_id: project.id})}
+                { type: 'goal', parent_id: project.id })}
             />
             <Table className="mt-2">
               <TableHead cells={goalCells} order={true} actions={true}/>
@@ -181,7 +178,7 @@ export default function ProjectShow({ auth, project }) {
           ) : null}
         </Container>
 
-        {/*Cover Image Preview*/}
+        {/* Cover Image Preview */}
         <Transition.Root
           show={showCoverImagePreview}
           as={Fragment}
@@ -231,5 +228,5 @@ export default function ProjectShow({ auth, project }) {
         </div>
       </DangerModal>
     </>
-  );
+  )
 }

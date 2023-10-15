@@ -1,23 +1,23 @@
-import {Fragment, MouseEventHandler, PropsWithChildren, ReactElement} from "react";
-import {Dialog, Transition} from "@headlessui/react";
-import {XMarkIcon, ExclamationTriangleIcon} from "@heroicons/react/24/solid";
-import SecondaryButton from "@/Components/Buttons/SecondaryButton";
-import DangerButton from "@/Components/Buttons/DangerButton";
-import classNames from "@/Utils/classNames";
+import { Fragment, type MouseEventHandler, type PropsWithChildren, type ReactElement } from 'react'
+import { Dialog, Transition } from '@headlessui/react'
+import { XMarkIcon, ExclamationTriangleIcon } from '@heroicons/react/24/solid'
+import SecondaryButton from '@/Components/Buttons/SecondaryButton'
+import DangerButton from '@/Components/Buttons/DangerButton'
+import classNames from '@/Utils/classNames'
 
-export default function Danger({
+export default function Danger ({
   children,
   destroy,
   open,
   setOpen,
   dangerButtonText = 'Delete',
-  maxWidthClass = 'sm:max-w-lg',
+  maxWidthClass = 'sm:max-w-lg'
 }: PropsWithChildren<{
-  destroy: MouseEventHandler,
-  open: boolean,
-  setOpen(value: boolean): void,
-  dangerButtonText?: string,
-  maxWidthClass?: string,
+  destroy: MouseEventHandler
+  open: boolean
+  setOpen: (value: boolean) => void
+  dangerButtonText?: string
+  maxWidthClass?: string
 }>): ReactElement {
   return (
     <Transition show={open} as={Fragment} leave="duration-200">
@@ -54,7 +54,7 @@ export default function Danger({
                   <button
                     type="button"
                     className="rounded-md bg-white text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2"
-                    onClick={() => setOpen(false)}
+                    onClick={() => { setOpen(false) }}
                   >
                     <span className="sr-only">Close</span>
                     <XMarkIcon className="h-6 w-6" aria-hidden="true"/>
@@ -73,7 +73,7 @@ export default function Danger({
                   <DangerButton className="ml-3" onClick={destroy}>
                     {dangerButtonText}
                   </DangerButton>
-                  <SecondaryButton className="mt-3 sm:mt-0" onClick={() => setOpen(false)}>
+                  <SecondaryButton className="mt-3 sm:mt-0" onClick={() => { setOpen(false) }}>
                     Cancel
                   </SecondaryButton>
                 </div>
@@ -83,5 +83,5 @@ export default function Danger({
         </div>
       </Dialog>
     </Transition>
-  );
+  )
 }

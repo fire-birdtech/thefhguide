@@ -1,24 +1,24 @@
-import {FormEventHandler} from "react";
-import {Head, useForm} from "@inertiajs/react";
-import Admin from "@/Layouts/Admin";
-import Container from "@/Components/Container";
-import {Header3} from "@/Components/Typography/Headers";
-import SecondaryButton from "@/Components/Buttons/SecondaryButton";
-import PrimaryButton from "@/Components/Buttons/PrimaryButton";
-import InputLabel from "@/Components/Forms/InputLabel";
-import TextInput from "@/Components/Forms/TextInput";
-import InputError from "@/Components/Forms/InputError";
-import {type Collection, type PageProps} from "@/types";
+import { type FormEventHandler, type ReactElement } from 'react'
+import { Head, useForm } from '@inertiajs/react'
+import Admin from '@/Layouts/Admin'
+import Container from '@/Components/Container'
+import { Header3 } from '@/Components/Typography/Headers'
+import SecondaryButton from '@/Components/Buttons/SecondaryButton'
+import PrimaryButton from '@/Components/Buttons/PrimaryButton'
+import InputLabel from '@/Components/Forms/InputLabel'
+import TextInput from '@/Components/Forms/TextInput'
+import InputError from '@/Components/Forms/InputError'
+import { type Collection, type PageProps } from '@/types'
 
-export default function CollectionEdit({ auth, collection }: PageProps<{ collection: Collection }>) {
-  const { data, setData, put, processing, errors, reset } = useForm<Collection>({
-    ...collection,
-  });
+export default function CollectionEdit ({ auth, collection }: PageProps<{ collection: Collection }>): ReactElement {
+  const { data, setData, put, errors } = useForm<Collection>({
+    ...collection
+  })
 
   const submit: FormEventHandler = (e) => {
-    e.preventDefault();
+    e.preventDefault()
 
-    put(route('editor.collections.update', [collection.id]));
+    put(route('editor.collections.update', [collection.id]))
   }
 
   return (
@@ -38,7 +38,7 @@ export default function CollectionEdit({ auth, collection }: PageProps<{ collect
                   <TextInput
                     value={data.name}
                     className="mt-1 block w-full"
-                    onChange={(e) => setData('name', e.target.value)}
+                    onChange={(e) => { setData('name', e.target.value) }}
                     isFocused
                   />
                   <InputError message={errors.name} className="mt-1"/>
@@ -59,5 +59,5 @@ export default function CollectionEdit({ auth, collection }: PageProps<{ collect
         </Container>
       </Admin>
     </>
-  );
+  )
 }

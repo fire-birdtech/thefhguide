@@ -1,73 +1,74 @@
-import {type ReactElement, useState} from "react";
-import {Dialog} from "@headlessui/react";
-import {useForm} from "@inertiajs/react";
-import InputLabel from "@/Components/Forms/InputLabel";
-import Summary from "@/Components/Forms/Choices/Summary";
-import TextBlock from "@/Components/Forms/Choices/TextBlock";
-import ResourceList from "@/Components/Forms/Choices/ResourceList";
-import Header from "@/Components/Forms/Choices/Header";
-import Exercises from "@/Components/Forms/Choices/Exercises";
-import QUIKLinks from "@/Components/Forms/Choices/QUIKLinks";
-import AddContentButton from "@/Components/Buttons/Choices/AddContentButton";
-import DangerModal from "@/Components/Modals/Danger";
-import {type ChoiceContent, ChoiceContentTypes, type Resource} from "@/types";
+import { type ReactElement, useState } from 'react'
+import { Dialog } from '@headlessui/react'
+import { useForm } from '@inertiajs/react'
+import InputLabel from '@/Components/Forms/InputLabel'
+import Summary from '@/Components/Forms/Choices/Summary'
+import TextBlock from '@/Components/Forms/Choices/TextBlock'
+import ResourceList from '@/Components/Forms/Choices/ResourceList'
+import Header from '@/Components/Forms/Choices/Header'
+import Exercises from '@/Components/Forms/Choices/Exercises'
+import QUIKLinks from '@/Components/Forms/Choices/QUIKLinks'
+import AddContentButton from '@/Components/Buttons/Choices/AddContentButton'
+import DangerModal from '@/Components/Modals/Danger'
+import { ChoiceContentTypes } from '@/enums'
+import { type ChoiceContent, type Resource } from '@/types'
 
 interface ChoiceContentFormProps {
   content: ChoiceContent[]
   update?: (value: ChoiceContent[]) => void
 }
 
-export default function ChoiceContentForm({ content, update }: ChoiceContentFormProps): ReactElement {
-  const [confirmDeleteProperty, setConfirmDeleteProperty] = useState<boolean>(false);
-  const [selectedPropertyIndexForDeletion, setSelectedPropertyIndexForDeletion] = useState<number|undefined>(undefined);
-  const [hasSummary, setHasSummary] = useState<boolean>(!!content.find((item: ChoiceContent): boolean => item.type === ChoiceContentTypes.SUMMARY));
-  const [hasExercises, setHasExercises] = useState<boolean>(!!content.find((item: ChoiceContent): boolean => item.type === ChoiceContentTypes.EXERCISES));
+export default function ChoiceContentForm ({ content, update }: ChoiceContentFormProps): ReactElement {
+  const [confirmDeleteProperty, setConfirmDeleteProperty] = useState<boolean>(false)
+  const [selectedPropertyIndexForDeletion, setSelectedPropertyIndexForDeletion] = useState<number | undefined>(undefined)
+  const [hasSummary] = useState<boolean>(!!content.find((item: ChoiceContent): boolean => item.type === ChoiceContentTypes.SUMMARY))
+  const [hasExercises] = useState<boolean>(!!content.find((item: ChoiceContent): boolean => item.type === ChoiceContentTypes.EXERCISES))
 
-  const {data, setData} = useForm<ChoiceContent[]>([
-    ...content,
-  ]);
+  const { data, setData } = useForm<ChoiceContent[]>([
+    ...content
+  ])
 
   const addProperty = (type: string): void => {
     type === ChoiceContentTypes.RESOURCES
       ? setData([
-          ...data,
-          {'type': type, 'data': []}
-        ])
+        ...data,
+        { type, data: [] }
+      ])
       : setData([
         ...data,
-        {'type': type, 'data': ""}
-      ]);
+        { type, data: '' }
+      ])
 
-    update(data);
+    update(data)
   }
 
-  const updateProperty = (index: number, value: string|Resource[]): void => {
-    let content = data;
-    content[index].data = value;
+  const updateProperty = (index: number, value: string | Resource[]): void => {
+    const content = data
+    content[index].data = value
 
     setData([
       ...content
-    ]);
+    ])
 
-    update(data);
+    update(data)
   }
 
   const handleDelete = (index: number): void => {
-    setSelectedPropertyIndexForDeletion(index);
-    setConfirmDeleteProperty(true);
+    setSelectedPropertyIndexForDeletion(index)
+    setConfirmDeleteProperty(true)
   }
 
   const deleteProperty = (): void => {
     if (selectedPropertyIndexForDeletion !== undefined) {
-      let content = data;
-      data.splice(selectedPropertyIndexForDeletion, 1);
+      const content = data
+      data.splice(selectedPropertyIndexForDeletion, 1)
       setData([
-        ...content,
-      ]);
+        ...content
+      ])
     }
 
-    update(data);
-    setConfirmDeleteProperty(false);
+    update(data)
+    setConfirmDeleteProperty(false)
   }
 
   return <>
@@ -75,12 +76,12 @@ export default function ChoiceContentForm({ content, update }: ChoiceContentForm
       <InputLabel label="Content" className="sm:mt-px sm:pt-1"/>
       <div className="mt-1 space-y-4 sm:mt-0 sm:col-span-7">
         {data.map((item, idx): void => {
-          if (item.type === ChoiceContentTypes.SUMMARY) return <Summary key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)} remove={(index) => handleDelete(index)}/>
-          if (item.type === ChoiceContentTypes.TEXT) return <TextBlock key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)} remove={(index) => handleDelete(index)}/>
-          if (item.type === ChoiceContentTypes.RESOURCES) return <ResourceList key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)} remove={(index) => handleDelete(index)}/>
-          if (item.type === ChoiceContentTypes.HEADER) return <Header key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)} remove={(index) => handleDelete(index)}/>
-          if (item.type === ChoiceContentTypes.EXERCISES) return <Exercises key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)} remove={(index) => handleDelete(index)}/>
-          if (item.type === ChoiceContentTypes.QUIKLINKS) return <QUIKLinks key={idx} index={idx} value={item.data} update={(index, value) => updateProperty(index, value)} remove={(index) => handleDelete(index)}/>
+          if (item.type === ChoiceContentTypes.SUMMARY) return <Summary key={idx} index={idx} value={item.data} update={(index, value) => { updateProperty(index, value) }} remove={(index) => { handleDelete(index) }}/>
+          if (item.type === ChoiceContentTypes.TEXT) return <TextBlock key={idx} index={idx} value={item.data} update={(index, value) => { updateProperty(index, value) }} remove={(index) => { handleDelete(index) }}/>
+          if (item.type === ChoiceContentTypes.RESOURCES) return <ResourceList key={idx} index={idx} value={item.data} update={(index, value) => { updateProperty(index, value) }} remove={(index) => { handleDelete(index) }}/>
+          if (item.type === ChoiceContentTypes.HEADER) return <Header key={idx} index={idx} value={item.data} update={(index, value) => { updateProperty(index, value) }} remove={(index) => { handleDelete(index) }}/>
+          if (item.type === ChoiceContentTypes.EXERCISES) return <Exercises key={idx} index={idx} value={item.data} update={(index, value) => { updateProperty(index, value) }} remove={(index) => { handleDelete(index) }}/>
+          if (item.type === ChoiceContentTypes.QUIKLINKS) return <QUIKLinks key={idx} index={idx} value={item.data} update={(index, value) => { updateProperty(index, value) }} remove={(index) => { handleDelete(index) }}/>
         })}
         <div className="space-x-2">
           {!hasSummary && (
@@ -148,5 +149,5 @@ export default function ChoiceContentForm({ content, update }: ChoiceContentForm
         </p>
       </div>
     </DangerModal>
-  </>;
+  </>
 }

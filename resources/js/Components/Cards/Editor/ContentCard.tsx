@@ -1,10 +1,10 @@
-import {type ReactElement} from "react";
-import {Link} from "@inertiajs/react";
-import {type Collection, type Project} from "@/types";
+import { type ReactElement } from 'react'
+import { Link } from '@inertiajs/react'
+import { type Collection, type Project } from '@/types'
 
-export default function ContentCard({ content, type }: {
-  content: Collection|Project;
-  type: string;
+export default function ContentCard ({ content, type }: {
+  content: Collection | Project
+  type: string
 }): ReactElement {
   return (
     <li className="col-span-1 border-2 border-transparent flex flex-col items-center justify-center rounded-lg bg-white text-center shadow hover:border-blue-400 hover:bg-blue-50">
@@ -16,5 +16,5 @@ export default function ContentCard({ content, type }: {
         </div>
       </Link>
     </li>
-  );
+  )
 }

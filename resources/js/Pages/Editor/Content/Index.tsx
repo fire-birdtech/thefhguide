@@ -1,10 +1,11 @@
-import {Head} from "@inertiajs/react";
-import Admin from "@/Layouts/Admin";
-import {Header3} from "@/Components/Typography/Headers";
-import ContentCard from "@/Components/Cards/Editor/ContentCard";
-import {type Collection, type PageProps, type Project} from "@/types";
+import { Head } from '@inertiajs/react'
+import Admin from '@/Layouts/Admin'
+import { Header3 } from '@/Components/Typography/Headers'
+import ContentCard from '@/Components/Cards/Editor/ContentCard'
+import { type Collection, type PageProps, type Project } from '@/types'
+import { type ReactElement } from 'react'
 
-export default function ContentIndex({ auth, collections, projects }: PageProps<{ collections: Collection[], projects: Project[] }>) {
+export default function ContentIndex ({ auth, collections, projects }: PageProps<{ collections: Collection[], projects: Project[] }>): ReactElement {
   return (
     <>
       <Head title="Site Content"/>
@@ -25,5 +26,5 @@ export default function ContentIndex({ auth, collections, projects }: PageProps<
         </div>
       </Admin>
     </>
-  );
+  )
 }

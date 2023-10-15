@@ -1,33 +1,33 @@
-import {FormEventHandler, Fragment, type ReactElement} from "react";
-import {Assignment, type Goal, type PageProps, type User} from "@/types";
-import {Head, useForm} from "@inertiajs/react";
-import Admin from "@/Layouts/Admin";
-import Container from "@/Components/Container";
-import {Header3} from "@/Components/Typography/Headers";
-import {Listbox, Transition} from "@headlessui/react";
-import {CheckIcon, ChevronUpDownIcon} from "@heroicons/react/24/solid";
-import classNames from "@/Utils/classNames";
-import InputError from "@/Components/Forms/InputError";
-import InputLabel from "@/Components/Forms/InputLabel";
-import FormText from "@/Components/Forms/FormText";
-import SecondaryButton from "@/Components/Buttons/SecondaryButton";
-import PrimaryButton from "@/Components/Buttons/PrimaryButton";
+import { type FormEventHandler, Fragment, type ReactElement } from 'react'
+import { Listbox, Transition } from '@headlessui/react'
+import { CheckIcon, ChevronUpDownIcon } from '@heroicons/react/24/solid'
+import { Head, useForm } from '@inertiajs/react'
+import Admin from '@/Layouts/Admin'
+import Container from '@/Components/Container'
+import { Header3 } from '@/Components/Typography/Headers'
+import InputError from '@/Components/Forms/InputError'
+import InputLabel from '@/Components/Forms/InputLabel'
+import FormText from '@/Components/Forms/FormText'
+import SecondaryButton from '@/Components/Buttons/SecondaryButton'
+import PrimaryButton from '@/Components/Buttons/PrimaryButton'
+import classNames from '@/Utils/classNames'
+import { type Goal, type PageProps, type User } from '@/types'
 
-export default function AssignmentCreate({ auth, assignable, assignableType, editors }: PageProps<{
-  assignable: Goal;
-  assignableType: string;
-  editors: User[];
+export default function AssignmentCreate ({ auth, assignable, assignableType, editors }: PageProps<{
+  assignable: Goal
+  assignableType: string
+  editors: User[]
 }>): ReactElement {
-  const {data, setData, post, errors} = useForm({
+  const { data, setData, post, errors } = useForm({
     editor: null,
     assignable_id: assignable.id,
-    assignable_type: assignableType,
-  });
+    assignable_type: assignableType
+  })
 
   const submit: FormEventHandler = (e) => {
-    e.preventDefault();
+    e.preventDefault()
 
-    post(route(`editor.${assignableType}s.show`, assignable.id));
+    post(route(`editor.${assignableType}s.show`, assignable.id))
   }
 
   return (
@@ -42,8 +42,8 @@ export default function AssignmentCreate({ auth, assignable, assignableType, edi
           <div className="mt-4 bg-white shadow sm:rounded-lg">
             <form onSubmit={submit} className="sm:divide-y sm:divide-gray-200">
               <div className="px-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:items-start sm:py-4">
-                <Listbox value={data.editor} onChange={(value) => setData('editor', value)}>
-                  {({open}) => (
+                <Listbox value={data.editor} onChange={(value) => { setData('editor', value) }}>
+                  {({ open }) => (
                     <>
                       <Listbox.Label className="block text-sm font-medium leading-6 text-gray-700 sm:mt-px sm:pt-1.5">
                         Editor
@@ -83,7 +83,7 @@ export default function AssignmentCreate({ auth, assignable, assignableType, edi
                                 }
                                 value={editor}
                               >
-                                {({active, selected}) => (
+                                {({ active, selected }) => (
                                   <>
                                     <span className={classNames(selected ? 'font-semibold' : 'font-normal', 'block truncate')}>
                                       {editor.name}
@@ -134,5 +134,5 @@ export default function AssignmentCreate({ auth, assignable, assignableType, edi
         </Container>
       </Admin>
     </>
-  );
+  )
 }

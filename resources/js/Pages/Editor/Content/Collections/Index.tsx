@@ -1,13 +1,13 @@
-import {type ReactElement} from "react";
-import {Head, Link} from "@inertiajs/react";
-import Admin from "@/Layouts/Admin";
-import Container from "@/Components/Container";
-import PrimaryButton from "@/Components/Buttons/PrimaryButton";
-import {EyeIcon} from "@heroicons/react/24/outline";
-import {PencilSquareIcon} from "@heroicons/react/24/solid";
-import {type Collection, type PageProps} from "@/types";
+import { type ReactElement } from 'react'
+import { Head, Link } from '@inertiajs/react'
+import Admin from '@/Layouts/Admin'
+import Container from '@/Components/Container'
+import PrimaryButton from '@/Components/Buttons/PrimaryButton'
+import { EyeIcon } from '@heroicons/react/24/outline'
+import { PencilSquareIcon } from '@heroicons/react/24/solid'
+import { type Collection, type PageProps } from '@/types'
 
-export default function CollectionIndex({ auth, collections }: PageProps<{ collections: Collection[] }>): ReactElement {
+export default function CollectionIndex ({ auth, collections }: PageProps<{ collections: Collection[] }>): ReactElement {
   return (
     <>
       <Head title="Admin - Collections"/>
@@ -73,5 +73,5 @@ export default function CollectionIndex({ auth, collections }: PageProps<{ colle
         </Container>
       </Admin>
     </>
-  );
+  )
 }

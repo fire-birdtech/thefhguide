@@ -1,13 +1,13 @@
-import {type ReactElement} from "react";
-import {Head} from "@inertiajs/react";
-import Admin from "@/Layouts/Admin";
-import DraftList from "@/Components/Drafts/DraftList";
-import EditorList from "@/Components/EditorList";
-import {type Draft, type Editor, type PageProps} from "@/types";
+import { type ReactElement } from 'react'
+import { Head } from '@inertiajs/react'
+import Admin from '@/Layouts/Admin'
+import DraftList from '@/Components/Drafts/DraftList'
+import EditorList from '@/Components/EditorList'
+import { type Draft, type Editor, type PageProps } from '@/types'
 
-export default function AdminDashboard({auth, drafts, editors}: PageProps<{
-  drafts: Draft[];
-  editors: Editor[];
+export default function AdminDashboard ({ auth, drafts, editors }: PageProps<{
+  drafts: Draft[]
+  editors: Editor[]
 }>): ReactElement {
   return (
     <>
@@ -20,5 +20,5 @@ export default function AdminDashboard({auth, drafts, editors}: PageProps<{
         </div>
       </Admin>
     </>
-  );
+  )
 }

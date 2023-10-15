@@ -1,41 +1,41 @@
-import {type FormEventHandler, Fragment, type ReactElement} from "react";
-import {Head, useForm} from "@inertiajs/react";
-import Admin from "@/Layouts/Admin";
-import Container from "@/Components/Container";
-import {Header3} from "@/Components/Typography/Headers";
-import InputLabel from "@/Components/Forms/InputLabel";
-import InputError from "@/Components/Forms/InputError";
-import {Listbox, Transition} from "@headlessui/react";
-import {CheckIcon, ChevronUpDownIcon} from "@heroicons/react/24/solid";
-import classNames from "@/Utils/classNames";
-import {type PageProps, type Role, type User} from "@/types";
-import SecondaryButton from "@/Components/Buttons/SecondaryButton";
-import PrimaryButton from "@/Components/Buttons/PrimaryButton";
+import { type FormEventHandler, Fragment, type ReactElement } from 'react'
+import { Head, useForm } from '@inertiajs/react'
+import Admin from '@/Layouts/Admin'
+import Container from '@/Components/Container'
+import { Header3 } from '@/Components/Typography/Headers'
+import InputLabel from '@/Components/Forms/InputLabel'
+import InputError from '@/Components/Forms/InputError'
+import { Listbox, Transition } from '@headlessui/react'
+import { CheckIcon, ChevronUpDownIcon } from '@heroicons/react/24/solid'
+import classNames from '@/Utils/classNames'
+import { type PageProps, type Role, type User } from '@/types'
+import SecondaryButton from '@/Components/Buttons/SecondaryButton'
+import PrimaryButton from '@/Components/Buttons/PrimaryButton'
 
-export default function EditorEdit({ admins, auth, roles, user }: PageProps<{ admins: User[], roles: Role[], user: User }>): ReactElement {
-  const {data, setData, errors, put, processing} = useForm({
+export default function EditorEdit ({ admins, auth, roles, user }: PageProps<{ admins: User[], roles: Role[], user: User }>): ReactElement {
+  const { data, setData, errors, put } = useForm({
     roles: user.roles,
     admin: user.admin
-  });
+  })
 
-  const upperCaseRole = () => user.roles[0].name.charAt(0).toUpperCase() + user.roles[0].name.slice(1);
+  const upperCaseRole = (): string => user.roles[0].name.charAt(0).toUpperCase() + user.roles[0].name.slice(1)
 
-  const findRole = (roleName: string) => {
-    return !!user.roles.find(role => role.name === roleName);
+  const findRole = (roleName: string): Role | undefined => {
+    return user?.roles.find(role => role.name === roleName)
   }
 
-  const updateUserRoles = (role: Role) => {
-    findRole(role.name) ?
-      user.roles.splice(
+  const updateUserRoles = (role: Role): void => {
+    findRole(role.name)
+      ? user.roles.splice(
         user.roles.indexOf(role), 1
-      ) :
-      user.roles.push(role);
+      )
+      : user.roles.push(role)
   }
 
   const submit: FormEventHandler = (e) => {
-    e.preventDefault();
+    e.preventDefault()
 
-    put(route('admin.editors.update', [user.id]));
+    put(route('admin.editors.update', [user.id]))
   }
 
   return (
@@ -59,7 +59,7 @@ export default function EditorEdit({ admins, auth, roles, user }: PageProps<{ ad
                           <input
                             type="checkbox"
                             checked={findRole(role.name)}
-                            onChange={() => updateUserRoles(role)}
+                            onChange={() => { updateUserRoles(role) }}
                             className="h-4 w-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500"
                           />
                         </div>
@@ -76,8 +76,8 @@ export default function EditorEdit({ admins, auth, roles, user }: PageProps<{ ad
               </div>
 
               <div className="px-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:items-start sm:py-4">
-                <Listbox value={data.admin} onChange={(value) => setData('admin', value)}>
-                  {({open}) => (
+                <Listbox value={data.admin} onChange={(value) => { setData('admin', value) }}>
+                  {({ open }) => (
                     <>
                       <Listbox.Label className="block text-sm font-medium leading-6 text-gray-700 sm:mt-px sm:pt-1.5">
                         Admin
@@ -86,7 +86,7 @@ export default function EditorEdit({ admins, auth, roles, user }: PageProps<{ ad
                         <Listbox.Button className="relative w-full bg-white border border-gray-300 rounded-md shadow-sm pl-3 pr-10 py-2 text-left cursor-default focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500 sm:text-sm">
                           {data.admin !== null ? (
                             <span className="block truncate">
-                              {(data.admin?.name.charAt(0) + data.admin?.name.slice(1)) || ''}
+                              {(data.admin?.name.charAt(0) + data.admin?.name.slice(1)) ?? ''}
                             </span>
                           ) : (
                             <span className="block truncate text-gray-500">
@@ -117,7 +117,7 @@ export default function EditorEdit({ admins, auth, roles, user }: PageProps<{ ad
                                 }
                                 value={admin}
                               >
-                                {({active, selected}) => (
+                                {({ active, selected }) => (
                                   <>
                                     <span className={classNames(selected ? 'font-semibold' : 'font-normal', 'block truncate')}>
                                       {admin.name}
@@ -161,5 +161,5 @@ export default function EditorEdit({ admins, auth, roles, user }: PageProps<{ ad
         </Container>
       </Admin>
     </>
-  );
+  )
 }

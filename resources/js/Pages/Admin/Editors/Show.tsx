@@ -1,34 +1,34 @@
-import {type ReactElement, useState} from "react";
-import {Head, router} from "@inertiajs/react";
-import Admin from "@/Layouts/Admin";
-import Container from "@/Components/Container";
-import {Header3} from "@/Components/Typography/Headers";
-import SecondaryButtonWithDropdown from "@/Components/Buttons/SecondaryButtonWithDropdown";
-import DescriptionListItem from "@/Components/Lists/DescriptionListItem";
-import Badge from "@/Components/Badge";
-import {type PageProps, type User} from "@/types";
-import DangerModal from "@/Components/Modals/Danger";
-import {Dialog} from "@headlessui/react";
+import { type ReactElement, useState } from 'react'
+import { Head, router } from '@inertiajs/react'
+import Admin from '@/Layouts/Admin'
+import Container from '@/Components/Container'
+import { Header3 } from '@/Components/Typography/Headers'
+import SecondaryButtonWithDropdown from '@/Components/Buttons/SecondaryButtonWithDropdown'
+import DescriptionListItem from '@/Components/Lists/DescriptionListItem'
+import Badge from '@/Components/Badge'
+import { type PageProps, type User } from '@/types'
+import DangerModal from '@/Components/Modals/Danger'
+import { Dialog } from '@headlessui/react'
 
-export default function EditorShow({auth, user}: PageProps<{ user: User }>): ReactElement {
-  const [confirmRemoveUserRole, setConfirmRemoveUserRole] = useState<boolean>(false);
+export default function EditorShow ({ auth, user }: PageProps<{ user: User }>): ReactElement {
+  const [confirmRemoveUserRole, setConfirmRemoveUserRole] = useState<boolean>(false)
 
-  const removeRole = () => {
-    router.post(route('admin.editors.remove', user.id));
+  const removeRole = (): void => {
+    router.post(route('admin.editors.remove', user.id))
   }
 
-  const usersMatch = auth.user.id === user.id;
+  const usersMatch = auth.user.id === user.id
 
-  const upperCaseRole = () => user.roles[0].name.charAt(0).toUpperCase() + user.roles[0].name.slice(1);
+  const upperCaseRole = (): string => user.roles[0].name.charAt(0).toUpperCase() + user.roles[0].name.slice(1)
 
   const actions = [
     [
       { name: 'Edit', as: 'link', icon: 'PencilSquareIcon', href: route('admin.editors.edit', [user.id]) }
     ],
     [
-      { name: `Remove ${upperCaseRole()}`, as: 'emitter', icon: 'UserMinusIcon', emit: () => setConfirmRemoveUserRole(true), disabled: usersMatch }
+      { name: `Remove ${upperCaseRole()}`, as: 'emitter', icon: 'UserMinusIcon', emit: () => { setConfirmRemoveUserRole(true) }, disabled: usersMatch }
     ]
-  ];
+  ]
 
   return (
     <>
@@ -79,5 +79,5 @@ export default function EditorShow({auth, user}: PageProps<{ user: User }>): Rea
         </div>
       </DangerModal>
     </>
-  );
+  )
 }

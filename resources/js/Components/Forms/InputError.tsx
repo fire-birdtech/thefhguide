@@ -1,15 +1,15 @@
-import {HTMLAttributes, ReactElement} from "react";
+import { type HTMLAttributes, type ReactElement } from 'react'
 
-export default function ({
+export default function InputError ({
   message,
   className = '',
   ...props
 }: HTMLAttributes<HTMLParagraphElement> & {
-  message?: string;
+  message?: string
 }): ReactElement | null {
-  return message ? (
+  return message !== undefined ? (
     <p {...props} className={`text-sm text-red-400 ${className}`}>
       {message}
     </p>
-  ) : null;
+  ) : null
 }

@@ -1,8 +1,8 @@
-import {type ReactElement} from "react";
-import {Head, Link} from "@inertiajs/react";
-import Error from "@/Layouts/Error";
+import { type ReactElement } from 'react'
+import { Head, Link } from '@inertiajs/react'
+import Error from '@/Layouts/Error'
 
-export default function ExpiredPage(): ReactElement {
+export default function ExpiredPage (): ReactElement {
   return (
     <>
       <Head title="Page Expired"/>
@@ -32,5 +32,5 @@ export default function ExpiredPage(): ReactElement {
         </div>
       </Error>
     </>
-  );
+  )
 }

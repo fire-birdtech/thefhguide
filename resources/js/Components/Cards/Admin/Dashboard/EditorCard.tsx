@@ -1,10 +1,10 @@
-import {type ReactElement} from "react";
-import {UserCircleIcon} from "@heroicons/react/24/solid";
-import Badge from "@/Components/Badge";
-import {type Editor} from "@/types";
+import { type ReactElement } from 'react'
+import { UserCircleIcon } from '@heroicons/react/24/solid'
+import Badge from '@/Components/Badge'
+import { type Editor } from '@/types'
 
-export default function EditorCard({editor}: {
-  editor: Editor;
+export default function EditorCard ({ editor }: {
+  editor: Editor
 }): ReactElement {
   return (
     <div
@@ -23,10 +23,10 @@ export default function EditorCard({editor}: {
         </div>
       </div>
       <div className="w-full">
-        {editor.unpublished_assignments.length || editor.unpublished_drafts.length ? (
+        {(editor.unpublished_assignments.length > 0) || (editor.unpublished_drafts.length > 0) ? (
           <div className="w-full pb-3 space-y-3">
             <div className="flex flex-col w-full overflow-hidden">
-              {editor.unpublished_assignments.length ? (
+              {(editor.unpublished_assignments.length > 0) ? (
                 <>
                   <div className="w-full flex flex-col items-start">
                     <h4 className="truncate text-sm font-medium text-gray-900 px-4">
@@ -51,5 +51,5 @@ export default function EditorCard({editor}: {
         ) : null}
       </div>
     </div>
-  );
+  )
 }

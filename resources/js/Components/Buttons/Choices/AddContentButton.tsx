@@ -1,12 +1,12 @@
-import {type ButtonHTMLAttributes, type ReactElement} from "react";
-import classNames from "@/Utils/classNames";
-import {textStyles, bgStyles, bgHoverStyles, ringFocusStyles} from "@/Utils/choiceContentStyling";
+import { type ButtonHTMLAttributes, type ReactElement } from 'react'
+import classNames from '@/Utils/classNames'
+import { textStyles, bgStyles, bgHoverStyles, ringFocusStyles } from '@/Utils/choiceContentStyling'
 
 type AddContentButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
-  color: string;
+  color: string
 }
 
-export default function AddContentButton({
+export default function AddContentButton ({
   value,
   disabled,
   color,
@@ -28,5 +28,5 @@ export default function AddContentButton({
     >
       {value}
     </button>
-  );
+  )
 }

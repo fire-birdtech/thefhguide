@@ -1,13 +1,13 @@
-import {type FormEventHandler, useEffect} from 'react';
-import {Head, useForm} from '@inertiajs/react';
-import Guest from '@/Layouts/Guest';
-import PrimaryButton from '@/Components/Buttons/PrimaryButton';
-import TextInput from '@/Components/Forms/TextInput';
-import InputLabel from "@/Components/Forms/InputLabel";
-import InputError from "@/Components/Forms/InputError";
+import { type FormEventHandler, type ReactElement, useEffect } from 'react'
+import { Head, useForm } from '@inertiajs/react'
+import Guest from '@/Layouts/Guest'
+import PrimaryButton from '@/Components/Buttons/PrimaryButton'
+import TextInput from '@/Components/Forms/TextInput'
+import InputLabel from '@/Components/Forms/InputLabel'
+import InputError from '@/Components/Forms/InputError'
 
-export default function ConfirmPassword() {
-  const {data, setData, post, processing, errors, reset} = useForm({
+export default function ConfirmPassword (): ReactElement {
+  const { data, setData, post, processing, errors, reset } = useForm({
     password: ''
   })
 

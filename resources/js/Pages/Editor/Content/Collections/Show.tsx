@@ -1,86 +1,86 @@
-import {FormEventHandler, type ReactElement, useState} from "react";
-import {Dialog} from "@headlessui/react";
-import {Head, router, useForm} from "@inertiajs/react";
-import Admin from "@/Layouts/Admin";
-import Container from "@/Components/Container";
-import {Header3} from "@/Components/Typography/Headers";
-import SecondaryButtonWithDropdown from "@/Components/Buttons/SecondaryButtonWithDropdown";
-import TableHeader from "@/Components/Tables/TableHeader";
-import Table from "@/Components/Tables/Table";
-import TableHead from "@/Components/Tables/TableHead";
-import TableBody from "@/Components/Tables/TableBody";
-import DangerModal from "@/Components/Modals/Danger";
-import {type Actions, type Cells, type Collection, type PageProps, type Project} from "@/types";
+import { type FormEventHandler, type ReactElement, useState } from 'react'
+import { Dialog } from '@headlessui/react'
+import { Head, router, useForm } from '@inertiajs/react'
+import Admin from '@/Layouts/Admin'
+import Container from '@/Components/Container'
+import { Header3 } from '@/Components/Typography/Headers'
+import SecondaryButtonWithDropdown from '@/Components/Buttons/SecondaryButtonWithDropdown'
+import TableHeader from '@/Components/Tables/TableHeader'
+import Table from '@/Components/Tables/Table'
+import TableHead from '@/Components/Tables/TableHead'
+import TableBody from '@/Components/Tables/TableBody'
+import DangerModal from '@/Components/Modals/Danger'
+import { type Actions, type Cells, type Collection, type PageProps, type Project } from '@/types'
 
-export default function CollectionShow({ auth, collection }: PageProps<{ collection: Collection }>): ReactElement {
-  const [confirmCollectionArchive, setConfirmCollectionArchive] = useState(false);
+export default function CollectionShow ({ auth, collection }: PageProps<{ collection: Collection }>): ReactElement {
+  const [confirmCollectionArchive, setConfirmCollectionArchive] = useState(false)
 
   const updateOrder = (updatedProject: Project, siblingProject: Project): void => {
-    const {put} = useForm({
+    const { put } = useForm({
       updatedProject,
-      siblingProject,
-    });
+      siblingProject
+    })
 
     put(route('editor.projects.update-order', [updatedProject]), {
-      preserveScroll: true,
-    });
+      preserveScroll: true
+    })
   }
 
   const archive: FormEventHandler = (e) => {
-    e.preventDefault();
+    e.preventDefault()
 
     router.delete(route('editor.collections.destroy', [collection.id]), {
-      onSuccess: () => setConfirmCollectionArchive(false),
-      preserveState: true,
-    });
+      onSuccess: () => { setConfirmCollectionArchive(false) },
+      preserveState: true
+    })
   }
 
-  const sortedProjects = collection.projects.sort((a,b) => a.order - b.order);
+  const sortedProjects = collection.projects.sort((a, b) => a.order - b.order)
 
-  const findProjectIndex = (orderNumber: number) => {
-    return sortedProjects.findIndex(project => project.order === orderNumber);
-  };
-
-  const moveDown = (orderNumber: number) => {
-    let index = findProjectIndex(orderNumber);
-
-    sortedProjects[index].order++;
-    sortedProjects[index + 1].order--;
-
-    updateOrder(sortedProjects[index + 1], sortedProjects[index]);
+  const findProjectIndex = (orderNumber: number): number => {
+    return sortedProjects.findIndex(project => project.order === orderNumber)
   }
 
-  const moveUp = (orderNumber: number) => {
-    let index = findProjectIndex(orderNumber);
+  const moveDown = (orderNumber: number): void => {
+    const index = findProjectIndex(orderNumber)
 
-    sortedProjects[index].order--;
-    sortedProjects[index - 1].order++;
+    sortedProjects[index].order++
+    sortedProjects[index + 1].order--
 
-    updateOrder(sortedProjects[index - 1], sortedProjects[index]);
+    updateOrder(sortedProjects[index + 1], sortedProjects[index])
+  }
+
+  const moveUp = (orderNumber: number): void => {
+    const index = findProjectIndex(orderNumber)
+
+    sortedProjects[index].order--
+    sortedProjects[index - 1].order++
+
+    updateOrder(sortedProjects[index - 1], sortedProjects[index])
   }
 
   const actions = [
     [
-      { name: 'Edit', as: 'link', icon: 'PencilSquareIcon', href: route('editor.collections.edit', [collection.id]) },
+      { name: 'Edit', as: 'link', icon: 'PencilSquareIcon', href: route('editor.collections.edit', [collection.id]) }
     ],
     [
-      { name: 'Archive', as: 'emitter', icon: 'ArchiveBoxIcon', emit: () => setConfirmCollectionArchive(true) },
-    ],
-  ];
+      { name: 'Archive', as: 'emitter', icon: 'ArchiveBoxIcon', emit: () => { setConfirmCollectionArchive(true) } }
+    ]
+  ]
 
   const projectCells: Cells = {
-    name: 'Name',
-  };
+    name: 'Name'
+  }
   const draftCells: Cells = {
     name: 'Name',
     user: 'Author',
-    updated_at: 'Last Updated',
-  };
+    updated_at: 'Last Updated'
+  }
 
   const tableActions: Actions = {
     view: true,
-    edit: true,
-  };
+    edit: true
+  }
 
   return (
     <>
@@ -122,7 +122,7 @@ export default function CollectionShow({ auth, collection }: PageProps<{ collect
               addText="Add project"
               addRoute={route(
                 'editor.drafts.create',
-                {type: 'project', parent_id: collection.id})}
+                { type: 'project', parent_id: collection.id })}
             />
             <Table className="mt-2">
               <TableHead cells={projectCells} actions={true} order={true}/>
@@ -166,5 +166,5 @@ export default function CollectionShow({ auth, collection }: PageProps<{ collect
         </div>
       </DangerModal>
     </>
-  );
+  )
 }

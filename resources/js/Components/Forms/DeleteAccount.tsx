@@ -1,16 +1,16 @@
-import {FormEventHandler, useRef, useState} from "react";
-import {router, useForm} from "@inertiajs/react";
-import {Dialog} from "@headlessui/react";
-import {Header3} from "@/Components/Typography/Headers";
-import {Paragraph} from "@/Components/Typography/Paragraphs";
-import DangerButton from "@/Components/Buttons/DangerButton";
-import TextInput from "@/Components/Forms/TextInput";
-import DangerModal from "@/Components/Modals/Danger";
-import {User} from "@/types";
-import InputLabel from "@/Components/Forms/InputLabel";
-import InputError from "@/Components/Forms/InputError";
+import { type FormEventHandler, type ReactElement, useRef, useState } from 'react'
+import { useForm } from '@inertiajs/react'
+import { Dialog } from '@headlessui/react'
+import { Header3 } from '@/Components/Typography/Headers'
+import { Paragraph } from '@/Components/Typography/Paragraphs'
+import DangerButton from '@/Components/Buttons/DangerButton'
+import TextInput from '@/Components/Forms/TextInput'
+import DangerModal from '@/Components/Modals/Danger'
+import { type User } from '@/types'
+import InputLabel from '@/Components/Forms/InputLabel'
+import InputError from '@/Components/Forms/InputError'
 
-export default function DeleteAccount({hasRoles, user}: { hasRoles: boolean, user: User }) {
+export default function DeleteAccount ({ hasRoles, user }: { hasRoles: boolean, user: User }): ReactElement {
   const [confirmingUserDeletion, setConfirmingUserDeletion] = useState(false)
   const passwordInput = useRef<HTMLInputElement>()
 
@@ -18,7 +18,6 @@ export default function DeleteAccount({hasRoles, user}: { hasRoles: boolean, use
     data,
     setData,
     delete: destroy,
-    processing,
     reset,
     errors
   } = useForm({
@@ -104,5 +103,5 @@ export default function DeleteAccount({hasRoles, user}: { hasRoles: boolean, use
         </form>
       </DangerModal>
     </>
-  );
+  )
 }

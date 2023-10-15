@@ -1,46 +1,46 @@
-import {type ReactElement, useState} from "react";
-import {Dialog} from "@headlessui/react";
-import {TrashIcon} from "@heroicons/react/24/solid";
-import {Head, router} from "@inertiajs/react";
-import Admin from "@/Layouts/Admin";
-import Container from "@/Components/Container";
-import TableHeader from "@/Components/Tables/TableHeader";
-import Table from "@/Components/Tables/Table";
-import TableHead from "@/Components/Tables/TableHead";
-import TableBody from "@/Components/Tables/TableBody";
-import SecondaryButton from "@/Components/Buttons/SecondaryButton";
-import DangerModal from "@/Components/Modals/Danger";
-import {type Invitation, type PageProps, type User} from "@/types";
+import { type ReactElement, useState } from 'react'
+import { Dialog } from '@headlessui/react'
+import { TrashIcon } from '@heroicons/react/24/solid'
+import { Head, router } from '@inertiajs/react'
+import Admin from '@/Layouts/Admin'
+import Container from '@/Components/Container'
+import TableHeader from '@/Components/Tables/TableHeader'
+import Table from '@/Components/Tables/Table'
+import TableHead from '@/Components/Tables/TableHead'
+import TableBody from '@/Components/Tables/TableBody'
+import SecondaryButton from '@/Components/Buttons/SecondaryButton'
+import DangerModal from '@/Components/Modals/Danger'
+import { type Invitation, type PageProps, type User } from '@/types'
 
-export default function EditorIndex({ auth, invitations, users }: PageProps<{
-  invitations: Invitation[];
-  users: User[];
+export default function EditorIndex ({ auth, invitations, users }: PageProps<{
+  invitations: Invitation[]
+  users: User[]
 }>): ReactElement {
-  const [confirmDeleteInvitation, setConfirmDeleteInvitation] = useState<boolean>(false);
-  const [selectedInvitationToBeDeleted, setSelectedInvitationToBeDeleted] = useState<Invitation|undefined>(undefined);
+  const [confirmDeleteInvitation, setConfirmDeleteInvitation] = useState<boolean>(false)
+  const [selectedInvitationToBeDeleted, setSelectedInvitationToBeDeleted] = useState<Invitation | undefined>(undefined)
 
   const findInvitationById = (id: number): Invitation => {
-    return invitations.find(invitation => invitation.id === id) as Invitation;
+    return invitations.find(invitation => invitation.id === id) as Invitation
   }
   const selectInvitationForDeletion = (id: number): void => {
-    setSelectedInvitationToBeDeleted(findInvitationById(id));
-    setConfirmDeleteInvitation(true);
+    setSelectedInvitationToBeDeleted(findInvitationById(id))
+    setConfirmDeleteInvitation(true)
   }
 
   const remainingTime = (time: string): number => {
-    return Date.now() - new Date(time).getTime();
+    return Date.now() - new Date(time).getTime()
   }
   const invitationIsExpired = (time: string): boolean => {
-    return remainingTime(time) > 86400000;
+    return remainingTime(time) > 86400000
   }
 
   const resendInvitation = (invitation: Invitation): void => {
-    router.post(route('admin.invitations.resend', [invitation]));
+    router.post(route('admin.invitations.resend', [invitation]))
   }
-  const deleteInvitation = () => {
+  const deleteInvitation = (): void => {
     router.delete(route('admin.invitations.destroy', selectedInvitationToBeDeleted?.id), {
-      onSuccess: () => setConfirmDeleteInvitation(false),
-    });
+      onSuccess: () => { setConfirmDeleteInvitation(false) }
+    })
   }
   const cells = {
     name: 'Name',
@@ -93,12 +93,12 @@ export default function EditorIndex({ auth, invitations, users }: PageProps<{
                             </p>
                           </div>
                           <div className="flex items-center space-x-2">
-                            {invitationIsExpired(invitation.updated_at) === true ? (
-                              <SecondaryButton onClick={() => resendInvitation(invitation)}>
+                            {invitationIsExpired(invitation.updated_at) ? (
+                              <SecondaryButton onClick={() => { resendInvitation(invitation) }}>
                                 Resend
                               </SecondaryButton>
                             ) : null}
-                              <SecondaryButton onClick={() => selectInvitationForDeletion(invitation.id)}>
+                              <SecondaryButton onClick={() => { selectInvitationForDeletion(invitation.id) }}>
                                 <TrashIcon className="h-5 w-5"/>
                                 <span className="sr-only">
                                     Delete invitation for {invitation.name}
@@ -134,5 +134,5 @@ export default function EditorIndex({ auth, invitations, users }: PageProps<{
         </div>
       </DangerModal>
     </>
-  );
+  )
 }

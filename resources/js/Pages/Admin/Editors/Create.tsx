@@ -1,33 +1,33 @@
-import {FormEventHandler, Fragment, type ReactElement, useState} from "react";
-import {type PageProps, type Role, type User} from "@/types";
-import {Head, useForm} from "@inertiajs/react";
-import Admin from "@/Layouts/Admin";
-import Container from "@/Components/Container";
-import {Header3} from "@/Components/Typography/Headers";
-import InputLabel from "@/Components/Forms/InputLabel";
-import TextInput from "@/Components/Forms/TextInput";
-import InputError from "@/Components/Forms/InputError";
-import {Listbox, Transition} from "@headlessui/react";
-import {CheckIcon, ChevronUpDownIcon} from "@heroicons/react/24/solid";
-import classNames from "@/Utils/classNames";
-import SecondaryButton from "@/Components/Buttons/SecondaryButton";
-import PrimaryButton from "@/Components/Buttons/PrimaryButton";
+import { type FormEventHandler, Fragment, type ReactElement } from 'react'
+import { type PageProps, type Role, type User } from '@/types'
+import { Head, useForm } from '@inertiajs/react'
+import Admin from '@/Layouts/Admin'
+import Container from '@/Components/Container'
+import { Header3 } from '@/Components/Typography/Headers'
+import InputLabel from '@/Components/Forms/InputLabel'
+import TextInput from '@/Components/Forms/TextInput'
+import InputError from '@/Components/Forms/InputError'
+import { Listbox, Transition } from '@headlessui/react'
+import { CheckIcon, ChevronUpDownIcon } from '@heroicons/react/24/solid'
+import classNames from '@/Utils/classNames'
+import SecondaryButton from '@/Components/Buttons/SecondaryButton'
+import PrimaryButton from '@/Components/Buttons/PrimaryButton'
 
-export default function EditorCreate({ admins, auth, roles }: PageProps<{
-  admins: User[];
-  roles: Role[];
+export default function EditorCreate ({ admins, auth, roles }: PageProps<{
+  admins: User[]
+  roles: Role[]
 }>): ReactElement {
-  const {data, setData, errors, post, processing, reset} = useForm({
+  const { data, setData, errors, post } = useForm({
     admin: null,
     email: '',
     name: '',
-    role: 'editor',
-  });
+    role: 'editor'
+  })
 
   const submit: FormEventHandler = (e) => {
-    e.preventDefault();
+    e.preventDefault()
 
-    post(route('admin.editors.invite'));
+    post(route('admin.editors.invite'))
   }
 
   return (
@@ -49,7 +49,7 @@ export default function EditorCreate({ admins, auth, roles }: PageProps<{
                     className="block w-full"
                     isFocused
                     value={data.name}
-                    onChange={(e) => setData('name', e.target.value)}
+                    onChange={(e) => { setData('name', e.target.value) }}
                   />
                   <InputError message={errors.name} className="mt-1"/>
                 </div>
@@ -62,15 +62,15 @@ export default function EditorCreate({ admins, auth, roles }: PageProps<{
                     type="email"
                     className="block w-full"
                     value={data.email}
-                    onChange={(e) => setData('email', e.target.value)}
+                    onChange={(e) => { setData('email', e.target.value) }}
                   />
                   <InputError message={errors.email} className="mt-1"/>
                 </div>
               </div>
 
               <div className="px-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:items-start sm:py-4">
-                <Listbox value={data.admin} onChange={(value) => setData('admin', value)}>
-                  {({open}) => (
+                <Listbox value={data.admin} onChange={(value) => { setData('admin', value) }}>
+                  {({ open }) => (
                     <>
                       <Listbox.Label className="block text-sm font-medium leading-6 text-gray-700 sm:mt-px sm:pt-1.5">
                         Admin
@@ -79,7 +79,7 @@ export default function EditorCreate({ admins, auth, roles }: PageProps<{
                         <Listbox.Button className="relative w-full bg-white border border-gray-300 rounded-md shadow-sm pl-3 pr-10 py-2 text-left cursor-default focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500 sm:text-sm">
                           {data.admin !== null ? (
                             <span className="block truncate">
-                              {(data.admin?.name.charAt(0) + data.admin?.name.slice(1)) || ''}
+                              {(data.admin?.name.charAt(0) + data.admin?.name.slice(1)) ?? ''}
                             </span>
                           ) : (
                             <span className="block truncate text-gray-500">
@@ -110,7 +110,7 @@ export default function EditorCreate({ admins, auth, roles }: PageProps<{
                                 }
                                 value={admin}
                               >
-                                {({active, selected}) => (
+                                {({ active, selected }) => (
                                   <>
                                     <span className={classNames(selected ? 'font-semibold' : 'font-normal', 'block truncate')}>
                                       {admin.name}
@@ -153,5 +153,5 @@ export default function EditorCreate({ admins, auth, roles }: PageProps<{
         </Container>
       </Admin>
     </>
-  );
+  )
 }
