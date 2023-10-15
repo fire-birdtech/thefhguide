@@ -110,7 +110,7 @@ export default function CreateEditResourceForm ({
       </div>
 
       <div className="ml-4 mt-1 space-y-1">
-        {currentResource.links && currentResource?.links.map((link: ResourceLink, key: number) => (
+        {currentResource?.links.map((link: ResourceLink, key: number) => (
           <ResourceItemLink
             key={key}
             index={key}

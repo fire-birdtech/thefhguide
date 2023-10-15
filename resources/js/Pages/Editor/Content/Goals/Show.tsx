@@ -1,5 +1,5 @@
 import { type FormEventHandler, type ReactElement, useState } from 'react'
-import { Head, Link, router, useForm } from '@inertiajs/react'
+import { Head, Link, router } from '@inertiajs/react'
 import { Dialog } from '@headlessui/react'
 import Admin from '@/Layouts/Admin'
 import Container from '@/Components/Container'
@@ -11,24 +11,13 @@ import TableHead from '@/Components/Tables/TableHead'
 import TableBody from '@/Components/Tables/TableBody'
 import Prose from '@/Components/Prose'
 import DangerModal from '@/Components/Modals/Danger'
-import { type Choice, type Goal, type PageProps } from '@/types'
 import ExpandableStackedListItem from '@/Components/Lists/ExpandableStackedListItem'
+import { type Goal, type PageProps } from '@/types'
 
 export default function GoalShow ({ auth, goal }: PageProps<{
   goal: Goal
 }>): ReactElement {
   const [confirmGoalArchive, setConfirmGoalArchive] = useState(false)
-
-  const updateOrder = (updated: Choice, sibling: Choice): void => {
-    const { put } = useForm({
-      updated,
-      sibling
-    })
-
-    put(route('editor.choices.update-order'), {
-      preserveScroll: true
-    })
-  }
 
   const archive: FormEventHandler = (e) => {
     e.preventDefault()
@@ -37,28 +26,6 @@ export default function GoalShow ({ auth, goal }: PageProps<{
   }
 
   const sortedChoices = goal.choices.sort((a, b) => a.order - b.order)
-
-  const findChoiceIndex = (orderNumber: number): number => {
-    return sortedChoices.findIndex(choice => choice.order === orderNumber)
-  }
-
-  const moveDown = (orderNumber: number): void => {
-    const index = findChoiceIndex(orderNumber)
-
-    sortedChoices[index].order++
-    sortedChoices[index + 1].order--
-
-    updateOrder(sortedChoices[index + 1], sortedChoices[index])
-  }
-
-  const moveUp = (orderNumber: number): void => {
-    const index = findChoiceIndex(orderNumber)
-
-    sortedChoices[index].order--
-    sortedChoices[index - 1].order++
-
-    updateOrder(sortedChoices[index - 1], sortedChoices[index])
-  }
 
   const actions = [
     [

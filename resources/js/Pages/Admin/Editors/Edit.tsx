@@ -25,7 +25,7 @@ export default function EditorEdit ({ admins, auth, roles, user }: PageProps<{ a
   }
 
   const updateUserRoles = (role: Role): void => {
-    findRole(role.name)
+    findRole(role.name) !== undefined
       ? user.roles.splice(
         user.roles.indexOf(role), 1
       )

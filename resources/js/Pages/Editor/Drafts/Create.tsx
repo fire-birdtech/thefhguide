@@ -10,10 +10,10 @@ import InputLabel from '@/Components/Forms/InputLabel'
 import TextInput from '@/Components/Forms/TextInput'
 import InputError from '@/Components/Forms/InputError'
 import ChoiceContentForm from '@/Components/Forms/Choices/ChoiceContentForm'
-import { type Draft, type PageProps, type Resource } from '@/types'
+import { type PageProps } from '@/types'
 
 export default function DraftCreate ({ auth, parentId, type }: PageProps<{ parent_id: number, type: string }>): ReactElement {
-  const { data, setData, post, errors, processing } = useForm<Draft>({
+  const { data, setData, post, errors, processing } = useForm({
     type,
     parentId,
     name: '',
@@ -27,19 +27,9 @@ export default function DraftCreate ({ auth, parentId, type }: PageProps<{ paren
     setData('image', value)
   }
 
-  const updateProperty = (index: number, value: string | Resource[]): void => {
-    const { content } = data
-    content[index].data = value
-
-    setData({
-      ...data,
-      content
-    })
-  }
-
   const submit: FormEventHandler = (e) => {
     e.preventDefault()
-    if (data.image !== typeof 'object') {
+    if (typeof data.image !== 'object') {
       delete data.image
     }
     post(route('editor.drafts.store'))

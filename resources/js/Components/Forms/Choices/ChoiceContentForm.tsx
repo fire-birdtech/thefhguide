@@ -21,8 +21,8 @@ interface ChoiceContentFormProps {
 export default function ChoiceContentForm ({ content, update }: ChoiceContentFormProps): ReactElement {
   const [confirmDeleteProperty, setConfirmDeleteProperty] = useState<boolean>(false)
   const [selectedPropertyIndexForDeletion, setSelectedPropertyIndexForDeletion] = useState<number | undefined>(undefined)
-  const [hasSummary] = useState<boolean>(!!content.find((item: ChoiceContent): boolean => item.type === ChoiceContentTypes.SUMMARY))
-  const [hasExercises] = useState<boolean>(!!content.find((item: ChoiceContent): boolean => item.type === ChoiceContentTypes.EXERCISES))
+  const [hasSummary] = useState(content.find((item: ChoiceContent): boolean => item.type === ChoiceContentTypes.SUMMARY))
+  const [hasExercises] = useState(content.find((item: ChoiceContent): boolean => item.type === ChoiceContentTypes.EXERCISES))
 
   const { data, setData } = useForm<ChoiceContent[]>([
     ...content
@@ -39,7 +39,9 @@ export default function ChoiceContentForm ({ content, update }: ChoiceContentFor
         { type, data: '' }
       ])
 
-    update(data)
+    if (update !== undefined) {
+      update(data)
+    }
   }
 
   const updateProperty = (index: number, value: string | Resource[]): void => {
@@ -50,7 +52,9 @@ export default function ChoiceContentForm ({ content, update }: ChoiceContentFor
       ...content
     ])
 
-    update(data)
+    if (update !== undefined) {
+      update(data)
+    }
   }
 
   const handleDelete = (index: number): void => {
@@ -67,7 +71,9 @@ export default function ChoiceContentForm ({ content, update }: ChoiceContentFor
       ])
     }
 
-    update(data)
+    if (update !== undefined) {
+      update(data)
+    }
     setConfirmDeleteProperty(false)
   }
 
@@ -84,7 +90,7 @@ export default function ChoiceContentForm ({ content, update }: ChoiceContentFor
           if (item.type === ChoiceContentTypes.QUIKLINKS) return <QUIKLinks key={idx} index={idx} value={item.data} update={(index, value) => { updateProperty(index, value) }} remove={(index) => { handleDelete(index) }}/>
         })}
         <div className="space-x-2">
-          {!hasSummary && (
+          {hasSummary !== true && (
             <AddContentButton
               value="Add Summary"
               color="sky"
@@ -114,7 +120,7 @@ export default function ChoiceContentForm ({ content, update }: ChoiceContentFor
               addProperty(ChoiceContentTypes.HEADER)
             }}
           />
-          {!hasExercises && (
+          {hasExercises !== true && (
             <AddContentButton
               value="Add Exercises"
               color="emerald"

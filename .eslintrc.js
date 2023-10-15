@@ -28,6 +28,8 @@ module.exports = {
         "react"
     ],
     "rules": {
+        "@typescript-eslint/no-dynamic-delete": "warn",
+        "array-callback-return": "warn",
         "react/react-in-jsx-scope": "off",
         "multiline-ternary": "off",
     },
