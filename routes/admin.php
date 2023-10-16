@@ -10,6 +10,7 @@ use App\Http\Controllers\AdminController;
 use App\Http\Controllers\AssignmentController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\InvitationController;
+use App\Http\Controllers\NavigationController;
 use Illuminate\Support\Facades\Route;
 
 Route::group([
@@ -32,4 +33,5 @@ Route::group([
     Route::post('assignments', [AssignmentController::class, 'store'])->name('assignments.store');
     Route::get('assignments/{assignment}/edit', [AssignmentController::class, 'edit'])->name('assignments.edit');
     Route::put('assignments/{assignment}', [AssignmentController::class, 'update'])->name('assignments.update');
+    Route::get('navigation', [NavigationController::class, 'index'])->name('navigation.index');
 });

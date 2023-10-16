@@ -29,7 +29,8 @@ export default function AdminNavigation (): ReactElement {
     { name: 'Dashboard', href: dashboardLink, show: true, components: ['Admin/Dashboard', 'Editor/Dashboard'] },
     { name: 'Content', href: route('editor.content.index'), show: true, components: contentComponents },
     { name: 'Assignments', href: route('admin.assignments.index'), show: canManageEditors, components: assignmentComponents },
-    { name: 'Admins & Editors', href: route('admin.editors.index'), show: canManageEditors, components: editorManagementComponents }
+    { name: 'Admins & Editors', href: route('admin.editors.index'), show: canManageEditors, components: editorManagementComponents },
+    { name: 'Navigation', href: route('admin.navigation.index'), show: canManageEditors, components: ['Admin/Navigation/Index'] }
   ]
 
   const filteredNavigation = navigation.filter(item => item.show === true)

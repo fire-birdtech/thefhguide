@@ -49,111 +49,111 @@ class HandleInertiaRequests extends Middleware
                     'menuItems' => [
                         [
                             'name' => '1: Family Tree',
-                            'link' => '#'
-                        ],[
+                            'link' => '#',
+                        ], [
                             'name' => '2: Memories',
-                            'link' => '#'
-                        ],[
+                            'link' => '#',
+                        ], [
                             'name' => '3: Descendants',
-                            'link' => '#'
-                        ],[
+                            'link' => '#',
+                        ], [
                             'name' => '4: Discover',
-                            'link' => '#'
-                        ],[
+                            'link' => '#',
+                        ], [
                             'name' => '5: Indexing',
-                            'link' => '#'
-                        ],[
+                            'link' => '#',
+                        ], [
                             'name' => '6: Help',
-                            'link' => '#'
-                        ],[
+                            'link' => '#',
+                        ], [
                             'name' => '7: Technology',
-                            'link' => '#'
-                        ],[
+                            'link' => '#',
+                        ], [
                             'name' => '8: DNA',
-                            'link' => '#'
-                        ]
-                    ]
+                            'link' => '#',
+                        ],
+                    ],
                 ],
                 [
                     'name' => 'Ancestry',
                     'menuItems' => [
                         [
                             'name' => '1: Get Started',
-                            'link' => '#'
-                        ],[
+                            'link' => '#',
+                        ], [
                             'name' => '2: Family Tree',
-                            'link' => '#'
-                        ],[
+                            'link' => '#',
+                        ], [
                             'name' => '3: Docs, Stories, Photos',
-                            'link' => '#'
-                        ],[
+                            'link' => '#',
+                        ], [
                             'name' => '4: Research',
-                            'link' => '#'
-                        ],[
+                            'link' => '#',
+                        ], [
                             'name' => '5: Help',
-                            'link' => '#'
-                        ],[
+                            'link' => '#',
+                        ], [
                             'name' => '6: Technology',
-                            'link' => '#'
-                        ],[
+                            'link' => '#',
+                        ], [
                             'name' => '7: DNA',
-                            'link' => '#'
-                        ]
-                    ]
+                            'link' => '#',
+                        ],
+                    ],
                 ],
                 [
                     'name' => 'MyHeritage',
                     'menuItems' => [
                         [
                             'name' => '1: Get Started',
-                            'link' => '#'
-                        ],[
+                            'link' => '#',
+                        ], [
                             'name' => '2: Family Tree',
-                            'link' => '#'
-                        ],[
+                            'link' => '#',
+                        ], [
                             'name' => '3: Docs, Photos',
-                            'link' => '#'
-                        ],[
+                            'link' => '#',
+                        ], [
                             'name' => '4: Research',
-                            'link' => '#'
-                        ],[
+                            'link' => '#',
+                        ], [
                             'name' => '5: Help',
-                            'link' => '#'
-                        ],[
+                            'link' => '#',
+                        ], [
                             'name' => '6: Technology',
-                            'link' => '#'
-                        ],[
+                            'link' => '#',
+                        ], [
                             'name' => '7: DNA',
-                            'link' => '#'
-                        ]
-                    ]
+                            'link' => '#',
+                        ],
+                    ],
                 ],
                 [
                     'name' => 'Findmypast',
                     'menuItems' => [
                         [
                             'name' => '1: Get Started',
-                            'link' => '#'
-                        ],[
+                            'link' => '#',
+                        ], [
                             'name' => '2: Family Tree',
-                            'link' => '#'
-                        ],[
+                            'link' => '#',
+                        ], [
                             'name' => '3: Docs, Photos',
-                            'link' => '#'
-                        ],[
+                            'link' => '#',
+                        ], [
                             'name' => '4: Research',
-                            'link' => '#'
-                        ],[
+                            'link' => '#',
+                        ], [
                             'name' => '5: Help',
-                            'link' => '#'
-                        ],[
+                            'link' => '#',
+                        ], [
                             'name' => '6: Technology',
-                            'link' => '#'
-                        ],[
+                            'link' => '#',
+                        ], [
                             'name' => '7: DNA',
-                            'link' => '#'
-                        ]
-                    ]
+                            'link' => '#',
+                        ],
+                    ],
                 ],
             ],
             'notifications' => fn () => auth()->user() ? $request->user()->notifications->take(10) : null,

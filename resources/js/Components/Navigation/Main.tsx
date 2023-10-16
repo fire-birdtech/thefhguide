@@ -4,7 +4,6 @@ import ApplicationLogo from "@/Components/ApplicationLogo";
 import {Bars3Icon, XMarkIcon} from "@heroicons/react/24/outline";
 import {Dialog, Disclosure, Popover, Transition} from "@headlessui/react";
 import {ChevronDownIcon} from "@heroicons/react/24/solid";
-import PrimaryButton from "@/Components/Buttons/PrimaryButton";
 import classNames from "@/Utils/classNames";
 
 export default function MainNavigation (): ReactElement {
