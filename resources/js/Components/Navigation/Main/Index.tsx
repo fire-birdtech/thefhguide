@@ -30,7 +30,7 @@ export default function MainNavigation (): ReactElement {
           </button>
         </div>
         <Popover.Group className="hidden lg:flex">
-          {navigation.map((item: {name: string, menuItems: any[]}) => (
+          {navigation.map((item: {name: string, children: any[]}) => (
             <Popover className="relative">
               <Popover.Button className="inline-flex items-center gap-x-1 px-2 py-2.5 text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-100 focus:outline-none focus:bg-gray-200">
                 <span>{item.name}</span>
@@ -48,7 +48,7 @@ export default function MainNavigation (): ReactElement {
               >
                 <Popover.Panel className="absolute left-1/2 z-10 mt-1 flex w-screen max-w-min -translate-x-1/2 px-4">
                   <div className="w-56 shrink rounded-xl bg-white py-3 text-sm font-semibold leading-6 text-gray-900 shadow-lg ring-1 ring-gray-900/5">
-                    {item.menuItems.map((link: {name: string, link: string}, index: number) => (
+                    {item.children.map((link: {name: string, link: string}, index: number) => (
                       <Link key={index} href={link.link} className="block px-5 py-2 hover:bg-gray-100">
                         {link.name}
                       </Link>

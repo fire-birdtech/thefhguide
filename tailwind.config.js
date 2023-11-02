@@ -22,6 +22,9 @@ module.exports = {
             minHeight: {
                 '32': '8rem',
             },
+            boxShadow: {
+                'action': '0 0 0 2px rgba(255, 255, 255, 0), 0 0px 0px 2px rgba(76, 159, 254, 0)'
+            }
         },
     },
 
