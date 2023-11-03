@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\InvitationController;
 use App\Http\Controllers\NotificationController;
+use App\Http\Controllers\PageController;
 use App\Http\Controllers\SettingsController;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
@@ -55,3 +56,5 @@ require __DIR__.'/admin.php';
 Route::get('expired', fn () => inertia('Errors/Expired'))->name('expired');
 
 require __DIR__.'/auth.php';
+
+Route::get('{page}', [PageController::class, 'show'])->name('pages.show');
