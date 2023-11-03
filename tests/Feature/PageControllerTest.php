@@ -9,13 +9,28 @@ use Tests\TestCase;
 
 class PageControllerTest extends TestCase
 {
+    use RefreshDatabase;
+
     public function testAPageCanBeLoaded(): void
     {
-        Page::factory()->create([
+        $page = Page::factory()->create([
             'slug' => 'page-name',
+            'uri' => 'page-name',
         ]);
 
-        $response = $this->get('/page-name');
+        $response = $this->get($page->uri);
+
+        $response->assertStatus(200);
+    }
+
+    public function testAPageWithAParentUriCanBeLoaded(): void
+    {
+        $page = Page::factory()->create([
+            'slug' => 'page-slug',
+            'uri' => "parent-slug/page-slug",
+        ]);
+
+        $response = $this->get($page->uri);
 
         $response->assertStatus(200);
     }
