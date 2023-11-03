@@ -2,8 +2,10 @@
 
 namespace Tests\Feature;
 
+use App\Models\Goal;
 use App\Models\GoalPage;
 use App\Models\Page;
+use App\Models\Project;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Inertia\Testing\AssertableInertia as Assert;
 use Tests\TestCase;
@@ -44,11 +46,15 @@ class PageControllerTest extends TestCase
             'slug' => 'page-name',
             'uri' => 'page-name',
         ]);
+        Goal::factory()->create([
+            'page_id' => $page->id,
+        ]);
 
         $response = $this->get($page->uri);
 
         $response->assertInertia(fn (Assert $page) => $page
             ->component('Pages/Goal')
+            ->has('goal')
         );
     }
 }

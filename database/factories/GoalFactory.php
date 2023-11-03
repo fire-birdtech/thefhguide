@@ -2,6 +2,7 @@
 
 namespace Database\Factories;
 
+use App\Models\Project;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
@@ -17,7 +18,9 @@ class GoalFactory extends Factory
     public function definition()
     {
         return [
-            //
+            'name' => $this->faker->words(2, true),
+            'summary' => $this->faker->paragraph(4, true),
+            'project_id' => Project::factory()->create()->id,
         ];
     }
 }

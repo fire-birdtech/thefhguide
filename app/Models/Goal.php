@@ -58,11 +58,6 @@ class Goal extends Model
         return $this->belongsTo(Project::class);
     }
 
-    /**
-     * The method to retrieve the choices that belong to the model
-     *
-     * @return \Illuminate\Database\Eloquent\Relations\HasMany
-     */
     public function choices(): HasMany
     {
         return $this->hasMany(Choice::class);
@@ -71,5 +66,10 @@ class Goal extends Model
     public function assignment(): MorphOne
     {
         return $this->morphOne(Assignment::class, 'assignable');
+    }
+
+    public function page(): BelongsTo
+    {
+        return $this->belongsTo(Page::class);
     }
 }
