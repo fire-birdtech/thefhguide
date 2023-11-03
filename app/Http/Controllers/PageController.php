@@ -7,8 +7,8 @@ use Illuminate\Http\Request;
 
 class PageController extends Controller
 {
-    public function show(string $page)
+    public function show(Page $page)
     {
-        return Page::where('uri', $page)->first();
+        //
     }
 }
