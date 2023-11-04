@@ -981,7 +981,7 @@ class ProjectCollectionsSeeder extends Seeder
                         'uri' => "{$newCollection->slug}/{$newProject->slug}/{$newGoal->slug}",
                     ]);
 
-                    $newGoal->page()->associate($page);
+                    $page->goal()->save($newGoal);
 
                     foreach ($goal->choices as $choice) {
                         if (! isset($choice->name)) {
