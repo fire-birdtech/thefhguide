@@ -5,6 +5,7 @@ namespace Database\Seeders;
 use App\Models\Choice;
 use App\Models\Collection;
 use App\Models\Goal;
+use App\Models\GoalPage;
 use App\Models\Project;
 use App\Models\ResourceLink;
 use Illuminate\Database\Seeder;
@@ -12,7 +13,7 @@ use Illuminate\Support\Facades\File;
 
 class ProjectCollectionsSeeder extends Seeder
 {
-    private $collections = [
+    private array $collections = [
         [
             'name' => 'FamilySearch',
             'website_url' => 'https://www.familysearch.org/',
@@ -946,7 +947,7 @@ class ProjectCollectionsSeeder extends Seeder
      *
      * @return void
      */
-    public function run()
+    public function run(): void
     {
         collect($this->collections)->each(function ($collection) {
             $newCollection = Collection::firstOrCreate([
@@ -974,6 +975,13 @@ class ProjectCollectionsSeeder extends Seeder
                         'summary' => $goal->summary,
                         'project_id' => $newProject->id,
                     ]);
+
+                    $page = GoalPage::create([
+                        'slug' => $newGoal->slug,
+                        'uri' => "{$newCollection->slug}/{$newProject->slug}/{$newGoal->slug}",
+                    ]);
+
+                    $newGoal->page()->associate($page);
 
                     foreach ($goal->choices as $choice) {
                         if (! isset($choice->name)) {
