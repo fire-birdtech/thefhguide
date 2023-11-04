@@ -2,6 +2,7 @@
 
 namespace App\Http\Middleware;
 
+use App\Models\Collection;
 use Illuminate\Http\Request;
 use Inertia\Middleware;
 use Tightenco\Ziggy\Ziggy;
@@ -43,123 +44,70 @@ class HandleInertiaRequests extends Middleware
             'flash' => [
                 'notification' => fn () => $request->session()->get('notification'),
             ],
-            'navigation' => [
-                [
-                    'name' => 'FamilySearch',
-                    'menuItems' => [
-                        [
-                            'name' => '1: Family Tree',
-                            'link' => '#',
-                        ], [
-                            'name' => '2: Memories',
-                            'link' => '#',
-                        ], [
-                            'name' => '3: Descendants',
-                            'link' => '#',
-                        ], [
-                            'name' => '4: Discover',
-                            'link' => '#',
-                        ], [
-                            'name' => '5: Indexing',
-                            'link' => '#',
-                        ], [
-                            'name' => '6: Help',
-                            'link' => '#',
-                        ], [
-                            'name' => '7: Technology',
-                            'link' => '#',
-                        ], [
-                            'name' => '8: DNA',
-                            'link' => '#',
-                        ],
-                    ],
-                ],
-                [
-                    'name' => 'Ancestry',
-                    'menuItems' => [
-                        [
-                            'name' => '1: Get Started',
-                            'link' => '#',
-                        ], [
-                            'name' => '2: Family Tree',
-                            'link' => '#',
-                        ], [
-                            'name' => '3: Docs, Stories, Photos',
-                            'link' => '#',
-                        ], [
-                            'name' => '4: Research',
-                            'link' => '#',
-                        ], [
-                            'name' => '5: Help',
-                            'link' => '#',
-                        ], [
-                            'name' => '6: Technology',
-                            'link' => '#',
-                        ], [
-                            'name' => '7: DNA',
-                            'link' => '#',
-                        ],
-                    ],
-                ],
-                [
-                    'name' => 'MyHeritage',
-                    'menuItems' => [
-                        [
-                            'name' => '1: Get Started',
-                            'link' => '#',
-                        ], [
-                            'name' => '2: Family Tree',
-                            'link' => '#',
-                        ], [
-                            'name' => '3: Docs, Photos',
-                            'link' => '#',
-                        ], [
-                            'name' => '4: Research',
-                            'link' => '#',
-                        ], [
-                            'name' => '5: Help',
-                            'link' => '#',
-                        ], [
-                            'name' => '6: Technology',
-                            'link' => '#',
-                        ], [
-                            'name' => '7: DNA',
-                            'link' => '#',
-                        ],
-                    ],
-                ],
-                [
-                    'name' => 'Findmypast',
-                    'menuItems' => [
-                        [
-                            'name' => '1: Get Started',
-                            'link' => '#',
-                        ], [
-                            'name' => '2: Family Tree',
-                            'link' => '#',
-                        ], [
-                            'name' => '3: Docs, Photos',
-                            'link' => '#',
-                        ], [
-                            'name' => '4: Research',
-                            'link' => '#',
-                        ], [
-                            'name' => '5: Help',
-                            'link' => '#',
-                        ], [
-                            'name' => '6: Technology',
-                            'link' => '#',
-                        ], [
-                            'name' => '7: DNA',
-                            'link' => '#',
-                        ],
-                    ],
-                ],
-            ],
+            'navigation' => $this->setupNavigation(),
             'notifications' => fn () => auth()->user() ? $request->user()->notifications->take(10) : null,
             'ziggy' => function () {
                 return (new Ziggy)->toArray();
             },
         ]);
+    }
+
+    public function setupNavigation(): array
+    {
+        $navigation = [];
+
+        $familysearch = Collection::where('slug', 'familysearch')->with('projects')->first();
+        $familysearchNav = [];
+        foreach ($familysearch?->projects as $project) {
+            $familysearchNav[] = [
+                'name' => "{$project->order}: {$project->name}",
+                'link' => route('pages.show', [$project->goals()->first()->page->uri]),
+            ];
+        }
+        $navigation[] = [
+            'name' => $familysearch->name,
+            'menuItems' => $familysearchNav,
+        ];
+
+        $ancestry = Collection::where('slug', 'ancestry')->with('projects')->first();
+        $ancestryNav = [];
+        foreach ($ancestry?->projects as $project) {
+            $ancestryNav[] = [
+                'name' => "{$project->order}: {$project->name}",
+                'link' => route('pages.show', [$project->goals()->first()->page->uri]),
+            ];
+        }
+        $navigation[] = [
+            'name' => $ancestry->name,
+            'menuItems' => $ancestryNav,
+        ];
+
+        $myheritage = Collection::where('slug', 'myheritage')->with('projects')->first();
+        $myheritageNav = [];
+        foreach ($myheritage?->projects as $project) {
+            $myheritageNav[] = [
+                'name' => "{$project->order}: {$project->name}",
+                'link' => route('pages.show', [$project->goals()->first()->page->uri]),
+            ];
+        }
+        $navigation[] = [
+            'name' => $myheritage->name,
+            'menuItems' => $myheritageNav,
+        ];
+
+        $findmypast = Collection::where('slug', 'findmypast')->with('projects')->first();
+        $findmypastNav = [];
+        foreach ($findmypast?->projects as $project) {
+            $findmypastNav[] = [
+                'name' => "{$project->order}: {$project->name}",
+                'link' => route('pages.show', [$project->goals()->first()->page->uri]),
+            ];
+        }
+        $navigation[] = [
+            'name' => $findmypast->name,
+            'menuItems' => $findmypastNav,
+        ];
+
+        return $navigation;
     }
 }
