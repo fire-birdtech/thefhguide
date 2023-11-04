@@ -14,7 +14,7 @@ class PageController extends Controller
     public function __invoke(Page $page): Response|ResponseFactory|null
     {
         if ($page->type === GoalPage::class) {
-            $goal = Goal::where('page_id', $page->id)->with('project.collection')->first();
+            $goal = Goal::where('page_id', $page->id)->with(['project.collection', 'choices'])->first();
             return inertia('Pages/Goal', [
                 'goal' => $goal,
                 'title' => "{$goal->name}: {$goal->project->collection->name} Project {$goal->project->order}, Goal {$goal->order}",

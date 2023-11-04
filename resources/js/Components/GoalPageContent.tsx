@@ -1,5 +1,6 @@
-import {Goal} from "@/types";
+import {Choice, Goal} from "@/types";
 import {ReactElement} from "react";
+import ExpandableChoiceItem from "@/Components/Lists/ExpandableChoiceItem";
 
 export default function GoalPageContent({ goal }: { goal: Goal }): ReactElement {
   return (
@@ -11,6 +12,12 @@ export default function GoalPageContent({ goal }: { goal: Goal }): ReactElement 
       <h4 className="mt-16 text-2xl font-display font-medium leading-8 text-stone-900 sm:truncate sm:tracking-tight">
         Choices
       </h4>
+
+      <ul className="mt-8 space-y-8">
+        {goal?.choices.map((choice: Choice, index: number) => (
+          <ExpandableChoiceItem key={index} choice={choice}/>
+        ))}
+      </ul>
     </div>
   );
 }
