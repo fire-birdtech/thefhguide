@@ -15,11 +15,13 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        User::create([
-            'name' => env('ADMIN_NAME'),
-            'email' => env('ADMIN_EMAIL'),
-            'password' => Hash::make(env('ADMIN_PASSWORD')),
-        ])->markEmailAsVerified();
+        if (env('APP_ENV' === 'local')) {
+            User::create([
+                'name' => env('ADMIN_NAME'),
+                'email' => env('ADMIN_EMAIL'),
+                'password' => Hash::make(env('ADMIN_PASSWORD')),
+            ])->markEmailAsVerified();
+        }
         $this->call(RolesAndPermissionsSeeder::class);
         $this->call(ProjectCollectionsSeeder::class);
     }
