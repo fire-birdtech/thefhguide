@@ -4,15 +4,17 @@ import {Head} from "@inertiajs/react";
 import MainNavigation from "@/Components/Navigation/Main";
 import GoalPageHeader from "@/Components/GoalPageHeader";
 import GoalPageContent from "@/Components/GoalPageContent";
+import ProjectNavigation from "@/Components/Navigation/Project";
 
-export default function GoalPage({ auth, goal, title }: PageProps<{ goal: Goal, title: string }>): ReactElement {
+export default function GoalPage({ auth, goal, project_navigation, title }: PageProps<{ goal: Goal, project_navigation: [{ name: string; link: string; }], title: string }>): ReactElement {
   return (
     <>
       <Head title={title}/>
 
       <MainNavigation/>
+      <ProjectNavigation navigation={project_navigation}/>
 
-      <div className="pt-16">
+      <div className="pt-36">
         <GoalPageHeader goal={goal}/>
         <GoalPageContent goal={goal}/>
       </div>
