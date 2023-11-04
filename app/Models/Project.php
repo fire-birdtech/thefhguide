@@ -36,7 +36,8 @@ class Project extends Model
     {
         return SlugOptions::create()
             ->generateSlugsFrom('name')
-            ->saveSlugsTo('slug');
+            ->saveSlugsTo('slug')
+            ->allowDuplicateSlugs();
     }
 
     protected $guarded = ['id'];
