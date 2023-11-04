@@ -11,7 +11,7 @@ export default function MainNavigation (): ReactElement {
   const { navigation } = usePage().props
 
   return (
-    <header className="fixed inset-x-0 z-50 bg-white">
+    <header className="fixed inset-x-0 z-50 bg-gray-50">
       <nav className="mx-auto flex items-center justify-between px-4 py-3 lg:px-8 lg:py-0" aria-label="Global">
         <div className="flex lg:flex-1">
           <Link href={route('home')} className="-m-1.5 p-1.5">
