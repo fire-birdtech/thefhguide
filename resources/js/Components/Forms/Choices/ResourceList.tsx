@@ -1,6 +1,6 @@
 import { type ReactElement } from 'react'
 import ContentBlockHeader from '@/Components/Forms/Choices/ContentBlockHeader'
-import ResourceListItem from '@/Components/Lists/ResourceListItem'
+import EditableResourceListItem from '@/Components/Lists/EditableResourceListItem'
 import AddResourceItem from '@/Components/Forms/Choices/AddResourceItem'
 import classNames from '@/Utils/classNames'
 import { type Resource } from '@/types'
@@ -28,7 +28,7 @@ export default function ResourceList ({ value, remove, index, update }: {
           'divide-y divide-gray-300 rounded-md'
         )}>
           {value.map((resource, index) => (
-            <ResourceListItem key={index} resource={resource}/>
+            <EditableResourceListItem key={index} resource={resource}/>
           ))}
         </ul>
         <AddResourceItem add={(resource: Resource) => { addResource(resource) }}/>

@@ -1,9 +1,9 @@
 import { type ReactElement, useState } from 'react'
 import { MinusIcon, PlusIcon } from '@heroicons/react/24/solid'
 import { Header5 } from '@/Components/Typography/Headers'
-import ResourceListItem from '@/Components/Lists/ResourceListItem'
 import { ChoiceContentTypes } from '@/enums'
 import { type Choice, type Resource } from '@/types'
+import ResourceListItem from "@/Components/Lists/ResourceListItem";
 
 const listStyleAlpha = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
 
@@ -52,7 +52,7 @@ export default function ExpandableChoiceItem ({ choice }: { choice: Choice }): R
                 <Header5>
                   Resources
                 </Header5>
-                <ol>
+                <ol className="my-0">
                   {item.data.map((resource: Resource, index: number) => (
                     <ResourceListItem key={index} resource={resource}/>
                   ))}
