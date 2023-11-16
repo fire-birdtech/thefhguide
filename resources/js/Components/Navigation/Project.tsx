@@ -18,6 +18,7 @@ export default function ProjectNavigation({ navigation }: ProjectNavigationProps
         {navigation.map((item, index) => (
           <Link key={index} href={item.link} className={classNames(
             window.location.toString() === item.link ? 'font-bold' : '',
+            'hover:text-[#ff9f1c]'
           )}>
             {item.name}
           </Link>
