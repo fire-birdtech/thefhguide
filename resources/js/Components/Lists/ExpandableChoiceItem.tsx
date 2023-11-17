@@ -48,16 +48,18 @@ export default function ExpandableChoiceItem ({ choice }: { choice: Choice }): R
                 )}
               </>
             } else if (item.type === ChoiceContentTypes.RESOURCES) {
-              return <>
-                <Header5>
-                  Resources
-                </Header5>
-                <ol className="my-0">
-                  {item.data.map((resource: Resource, index: number) => (
-                    <ResourceListItem key={index} resource={resource}/>
-                  ))}
-                </ol>
-              </>
+              return (
+                <section>
+                  <Header5>
+                    Resources
+                  </Header5>
+                  <ol className="my-0 py-2 pl-0 list-decimal">
+                    {item.data.map((resource: Resource, index: number) => (
+                      <ResourceListItem key={index} resource={resource}/>
+                    ))}
+                  </ol>
+                </section>
+              )
             } else if (item.type === ChoiceContentTypes.EXERCISES) {
               return <>
                 <button

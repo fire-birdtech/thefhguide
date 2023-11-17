@@ -14,7 +14,7 @@ use App\Http\Controllers\NavigationController;
 use Illuminate\Support\Facades\Route;
 
 Route::group([
-    'middleware' => ['auth', 'verified', 'role:admin|super admin'],
+    'middleware' => ['auth', 'verified', 'role:admin|developer|super admin'],
     'prefix' => 'admin',
     'as' => 'admin.',
 ], function () {
