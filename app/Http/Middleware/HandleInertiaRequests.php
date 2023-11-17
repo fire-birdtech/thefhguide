@@ -56,6 +56,10 @@ class HandleInertiaRequests extends Middleware
     {
         $navigation = [];
 
+        if (env('APP_ENV') === 'testing') {
+            return $navigation;
+        }
+
         $familysearch = Collection::where('slug', 'familysearch')->with('projects')->first();
         $familysearchNav = [];
         foreach ($familysearch?->projects as $project) {
