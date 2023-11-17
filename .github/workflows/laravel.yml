@@ -3,6 +3,8 @@ name: Laravel
 on:
   pull_request:
     branches: [ "develop" ]
+  push:
+    branches: [ "develop" ]
 
 jobs:
   laravel-pint:
