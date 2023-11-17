@@ -9,37 +9,15 @@ use App\Models\Collection;
 use App\Models\Project;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
-use Illuminate\Http\Response;
+use Inertia\Response;
+use Inertia\ResponseFactory;
 
 class ProjectController extends Controller
 {
     /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function index()
-    {
-        //
-    }
-
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create(Request $request)
-    {
-        //
-    }
-
-    /**
      * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
      */
-    public function store(ProjectRequest $request)
+    public function store(ProjectRequest $request): RedirectResponse
     {
         $project = Project::create($request->validated());
 
@@ -48,10 +26,8 @@ class ProjectController extends Controller
 
     /**
      * Display the specified resource.
-     *
-     * @return \Illuminate\Http\Response
      */
-    public function show(Project $project)
+    public function show(Project $project): Response|ResponseFactory
     {
         return inertia('Editor/Content/Projects/Show', [
             'project' => $project->load(['childDrafts.user', 'collection', 'goals' => function ($q) {
@@ -62,10 +38,8 @@ class ProjectController extends Controller
 
     /**
      * Show the form for editing the specified resource.
-     *
-     * @return \Illuminate\Http\Response
      */
-    public function edit(Request $request, Project $project)
+    public function edit(Request $request, Project $project): Response|ResponseFactory|RedirectResponse
     {
         if ($request->user()->cannot('update', $project)) {
             return redirect()->back()
@@ -102,10 +76,8 @@ class ProjectController extends Controller
 
     /**
      * Update the order of projects
-     *
-     * @return Response
      */
-    public function updateProjectOrder(UpdateProjectOrderRequest $request, Project $project)
+    public function updateProjectOrder(UpdateProjectOrderRequest $request, Project $project): RedirectResponse
     {
         $project->update([
             'order' => $request['updated_project']['order'],
@@ -120,10 +92,8 @@ class ProjectController extends Controller
 
     /**
      * Remove the specified resource from storage.
-     *
-     * @return \Illuminate\Http\Response
      */
-    public function destroy(Project $project)
+    public function destroy(Project $project): RedirectResponse
     {
         $project->delete();
 

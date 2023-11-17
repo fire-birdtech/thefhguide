@@ -6,36 +6,15 @@ use App\Http\Requests\CollectionRequest;
 use App\Models\Collection;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
+use Inertia\Response;
+use Inertia\ResponseFactory;
 
 class CollectionController extends Controller
 {
     /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function index()
-    {
-        //
-    }
-
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
-    {
-        //
-    }
-
-    /**
      * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
      */
-    public function store(CollectionRequest $request)
+    public function store(CollectionRequest $request): RedirectResponse
     {
         Collection::create($request->validated());
 
@@ -44,10 +23,8 @@ class CollectionController extends Controller
 
     /**
      * Display the specified resource.
-     *
-     * @return \Illuminate\Http\Response
      */
-    public function show(Collection $collection)
+    public function show(Collection $collection): Response|ResponseFactory
     {
         return inertia('Editor/Content/Collections/Show', [
             'collection' => $collection->load(['childDrafts.user', 'projects' => function ($q) {
@@ -58,10 +35,8 @@ class CollectionController extends Controller
 
     /**
      * Show the form for editing the specified resource.
-     *
-     * @return \Illuminate\Http\Response
      */
-    public function edit(Request $request, Collection $collection)
+    public function edit(Request $request, Collection $collection): Response|ResponseFactory|RedirectResponse
     {
         if ($request->user()->cannot('update', $collection)) {
             return redirect()->back()
@@ -80,11 +55,8 @@ class CollectionController extends Controller
 
     /**
      * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
      */
-    public function update(CollectionRequest $request, Collection $collection)
+    public function update(CollectionRequest $request, Collection $collection): RedirectResponse
     {
         $collection->name = $request['name'];
         $collection->save();

@@ -21,14 +21,6 @@ use stdClass;
 class DraftController extends Controller
 {
     /**
-     * Display a listing of the resource.
-     */
-    public function index()
-    {
-        //
-    }
-
-    /**
      * Show the form for creating a new resource.
      */
     public function create(DraftCreateRequest $request): Response|ResponseFactory
@@ -81,7 +73,7 @@ class DraftController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Draft $draft, Request $request)
+    public function edit(Draft $draft, Request $request): Response|ResponseFactory
     {
         return inertia('Editor/Drafts/Edit', [
             'draft' => $draft,
@@ -92,7 +84,7 @@ class DraftController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(DraftSaveRequest $request, Draft $draft)
+    public function update(DraftSaveRequest $request, Draft $draft): RedirectResponse
     {
         $this->updateDraft($request, $draft);
 
@@ -108,7 +100,7 @@ class DraftController extends Controller
     /**
      * Publish the specified draft to its draftable model
      */
-    public function publish(DraftPublishRequest $request, Draft $draft)
+    public function publish(DraftPublishRequest $request, Draft $draft): RedirectResponse
     {
         $this->updateDraft($request, $draft);
 
@@ -171,7 +163,7 @@ class DraftController extends Controller
             ]);
     }
 
-    public function notify(Request $request, Draft $draft)
+    public function notify(Request $request, Draft $draft): RedirectResponse
     {
         $this->updateDraft($request, $draft);
 
@@ -180,29 +172,17 @@ class DraftController extends Controller
         return redirect()->route('editor.dashboard');
     }
 
-    /**
-     * Remove the specified resource from storage.
-     */
-    public function destroy(Draft $draft)
-    {
-        //
-    }
-
     public function getParentable($type, $id)
     {
-        switch ($type) {
-            case 'collection':
-                return Collection::find($id);
-            case 'project':
-                return Project::find($id);
-            case 'goal':
-                return Goal::find($id);
-            default:
-                return;
-        }
+        return match ($type) {
+            'collection' => Collection::find($id),
+            'project' => Project::find($id),
+            'goal' => Goal::find($id),
+            default => null,
+        };
     }
 
-    public function updateDraft($request, Draft $draft)
+    public function updateDraft($request, Draft $draft): void
     {
         $content = isset($request->content) ? $this->formatContent($request) : null;
 
@@ -214,7 +194,7 @@ class DraftController extends Controller
         ]);
     }
 
-    public function formatContent($request)
+    public function formatContent($request): array
     {
         $content = [];
 

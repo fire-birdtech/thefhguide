@@ -5,18 +5,22 @@ namespace App\Http\Controllers;
 use App\Http\Requests\UpdateUserPasswordRequest;
 use App\Http\Requests\UpdateUserProfileRequest;
 use App\Models\User;
+use Illuminate\Http\RedirectResponse;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
+use Inertia\Response;
+use Inertia\ResponseFactory;
 
 class SettingsController extends Controller
 {
-    public function profile()
+    public function profile(): Response|ResponseFactory
     {
         return inertia('Settings/Profile', [
             'user' => auth()->user(),
         ]);
     }
 
-    public function updateProfile(UpdateUserProfileRequest $request, User $user)
+    public function updateProfile(UpdateUserProfileRequest $request, User $user): RedirectResponse
     {
         $user->update($request->validated());
 
@@ -29,14 +33,14 @@ class SettingsController extends Controller
             ]);
     }
 
-    public function security()
+    public function security(): Response|ResponseFactory
     {
         return inertia('Settings/Security', [
             'user' => auth()->user(),
         ]);
     }
 
-    public function updatePassword(UpdateUserPasswordRequest $request, User $user)
+    public function updatePassword(UpdateUserPasswordRequest $request, User $user): RedirectResponse
     {
         $user->update([
             'password' => Hash::make($request['password']),
@@ -51,15 +55,15 @@ class SettingsController extends Controller
             ]);
     }
 
-    public function account()
+    public function account(Request $request): Response|ResponseFactory
     {
         return inertia('Settings/Account', [
             'user' => auth()->user(),
-            'hasRoles' => count(auth()->user()->roles) ? true : false,
+            'hasRoles' => (bool)count($request->user()->roles),
         ]);
     }
 
-    public function deleteAccount(User $user)
+    public function deleteAccount(User $user): string
     {
         return "You're deleted!";
     }

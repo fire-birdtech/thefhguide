@@ -11,7 +11,7 @@ class ChoiceStoreRequest extends FormRequest
      *
      * @return bool
      */
-    public function authorize()
+    public function authorize(): bool
     {
         return $this->user()->can('create choices') || $this->user()->can('update choices');
     }
@@ -21,7 +21,7 @@ class ChoiceStoreRequest extends FormRequest
      *
      * @return array<string, mixed>
      */
-    public function rules()
+    public function rules(): array
     {
         return [
             'name' => 'required|string',

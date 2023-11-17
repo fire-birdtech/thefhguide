@@ -10,20 +10,22 @@ use App\Models\User;
 use App\Notifications\EditorInvitationAccepted;
 use App\Providers\RouteServiceProvider;
 use Illuminate\Auth\Events\Registered;
+use Illuminate\Foundation\Application;
+use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
+use Illuminate\Routing\Redirector;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Mail;
+use Inertia\Response;
+use Inertia\ResponseFactory;
 
 class InvitationController extends Controller
 {
     /**
      * Store a newly created invitation resource in storage.
-     *
-     * @param  \App\Http\Requests\AdminRequest  $request
-     * @return \Illuminate\Http\Response
      */
-    public function store(AdminInvitationRequest $request)
+    public function store(AdminInvitationRequest $request): RedirectResponse
     {
         $invitation = Invitation::create([
             'admin_id' => $request->admin['id'],
@@ -38,17 +40,15 @@ class InvitationController extends Controller
 
     /**
      * Remove the specified resource from storage.
-     *
-     * @return \Illuminate\Http\Response
      */
-    public function destroy(Invitation $invitation)
+    public function destroy(Invitation $invitation): RedirectResponse
     {
         $invitation->delete();
 
         return redirect()->route('admin.editors.index');
     }
 
-    public function resend(Request $request)
+    public function resend(Request $request): RedirectResponse
     {
         $invitation = Invitation::find($request->id);
         $this->sendInvitationEmail($invitation);
@@ -57,14 +57,14 @@ class InvitationController extends Controller
         return redirect()->route('admin.editors.index');
     }
 
-    public function accept(Request $request)
+    public function accept(Request $request): Response|ResponseFactory|RedirectResponse
     {
         $invitation = Invitation::find($request->invitation);
         if (! $request->hasValidSignature() || ! $invitation) {
             return redirect()->route('expired');
         }
 
-        $hasAccount = User::where('email', $invitation->email)->first() ? true : false;
+        $hasAccount = (bool) User::where('email', $invitation->email)->first();
 
         return inertia('Admin/Editors/Accept', [
             'invitation' => $invitation,
@@ -72,7 +72,7 @@ class InvitationController extends Controller
         ]);
     }
 
-    public function register(InvitationRegisterRequest $request)
+    public function register(InvitationRegisterRequest $request): Application|Redirector|RedirectResponse|\Illuminate\Contracts\Foundation\Application
     {
         $user = User::create([
             'name' => $request->name,
@@ -100,7 +100,7 @@ class InvitationController extends Controller
         return redirect(RouteServiceProvider::EDITORHOME);
     }
 
-    public function process(Request $request)
+    public function process(Request $request): Application|Redirector|RedirectResponse|\Illuminate\Contracts\Foundation\Application
     {
         $user = User::where('email', $request->email)->first();
 
@@ -125,19 +125,17 @@ class InvitationController extends Controller
     }
 
     /**
-     * Send an email to invite a new admin
+     * Email invite a new admin
      */
-    public function sendInvitationEmail(Invitation $invitation)
+    public function sendInvitationEmail(Invitation $invitation): void
     {
         Mail::to($invitation->email)->send(new AdminInvitation($invitation));
     }
 
     /**
      * Assign appropriate role(s) to user
-     *
-     * @param  string  $role
      */
-    public function assignRoles(User $user, $role)
+    public function assignRoles(User $user, string $role): void
     {
         if ($role === 'admin') {
             $user->assignRole(['admin', 'editor']);

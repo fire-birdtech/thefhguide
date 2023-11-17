@@ -7,37 +7,17 @@ use App\Http\Requests\UpdateChoiceOrderRequest;
 use App\Models\Choice;
 use App\Models\Goal;
 use App\Models\ResourceLink;
+use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
+use Inertia\Response;
+use Inertia\ResponseFactory;
 
 class ChoiceController extends Controller
 {
     /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function index()
-    {
-        //
-    }
-
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create(Request $request)
-    {
-        //
-    }
-
-    /**
      * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
      */
-    public function store(ChoiceStoreRequest $request)
+    public function store(ChoiceStoreRequest $request): RedirectResponse
     {
         $goal = Goal::where('id', $request->goal_id)->first();
 
@@ -70,10 +50,8 @@ class ChoiceController extends Controller
 
     /**
      * Display the specified resource.
-     *
-     * @return \Illuminate\Http\Response
      */
-    public function show(Choice $choice)
+    public function show(Choice $choice): Response|ResponseFactory
     {
         return inertia('Editor/Content/Choices/Show', [
             'choice' => $choice->load('goal'),
@@ -82,10 +60,8 @@ class ChoiceController extends Controller
 
     /**
      * Show the form for editing the specified resource.
-     *
-     * @return \Illuminate\Http\Response
      */
-    public function edit(Choice $choice)
+    public function edit(Choice $choice): Response|ResponseFactory
     {
         return inertia('Editor/Content/Choices/Edit', [
             'choice' => $choice,
@@ -94,10 +70,8 @@ class ChoiceController extends Controller
 
     /**
      * Update the specified resource in storage.
-     *
-     * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Choice $choice)
+    public function update(Request $request, Choice $choice): RedirectResponse
     {
         $content = [];
         foreach ($request->content as $item) {
@@ -120,10 +94,8 @@ class ChoiceController extends Controller
 
     /**
      * Update the order of choices
-     *
-     * @return Response
      */
-    public function updateChoiceOrder(UpdateChoiceOrderRequest $request, Choice $choice)
+    public function updateChoiceOrder(UpdateChoiceOrderRequest $request, Choice $choice): RedirectResponse
     {
         $choice->update([
             'order' => $request['updated_choice']['order'],
@@ -138,10 +110,8 @@ class ChoiceController extends Controller
 
     /**
      * Remove the specified resource from storage.
-     *
-     * @return \Illuminate\Http\Response
      */
-    public function destroy(Choice $choice)
+    public function destroy(Choice $choice): RedirectResponse
     {
         $goal = $choice->goal;
 

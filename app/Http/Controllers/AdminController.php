@@ -26,10 +26,8 @@ class AdminController extends Controller
 
     /**
      * Display a listing of the resource.
-     *
-     * @return \Inertia\ResponseFactory|\Inertia\Response
      */
-    public function index()
+    public function index(): Response|ResponseFactory
     {
         return inertia('Admin/Editors/Index', [
             'users' => User::role(['admin', 'editor'])->with('roles')->get(),
@@ -39,10 +37,8 @@ class AdminController extends Controller
 
     /**
      * Show the form for creating a new resource.
-     *
-     * @return \Inertia\ResponseFactory|\Inertia\Response
      */
-    public function create()
+    public function create(): Response|ResponseFactory
     {
         return inertia('Admin/Editors/Create', [
             'admins' => User::role('admin')->with('roles')->orderBy('name', 'asc')->get(),
@@ -51,10 +47,8 @@ class AdminController extends Controller
 
     /**
      * Display the specified resource.
-     *
-     * @return \Illuminate\Http\Response
      */
-    public function show(User $user)
+    public function show(User $user): Response|ResponseFactory
     {
         return inertia('Admin/Editors/Show', [
             'user' => $user->load(['admin', 'roles']),
@@ -92,10 +86,8 @@ class AdminController extends Controller
 
     /**
      * Remove role so user is no longer an editor
-     *
-     * @return \Illuminate\Http\Response
      */
-    public function remove(Request $request, User $user)
+    public function remove(Request $request, User $user): RedirectResponse
     {
         $user->assignments->each(function ($assignment) use ($user) {
             $assignment->update([
@@ -112,9 +104,9 @@ class AdminController extends Controller
     }
 
     /**
-     * Send an email to invite a new admin
+     * Email invite a new admin
      */
-    public function sendInvitationEmail(Invitation $invitation)
+    public function sendInvitationEmail(Invitation $invitation): void
     {
         Mail::to($invitation->email)->send(new AdminInvitation($invitation));
     }

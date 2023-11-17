@@ -5,37 +5,17 @@ namespace App\Http\Controllers;
 use App\Http\Requests\GoalRequest;
 use App\Http\Requests\UpdateGoalOrderRequest;
 use App\Models\Goal;
+use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
+use Inertia\Response;
+use Inertia\ResponseFactory;
 
 class GoalController extends Controller
 {
     /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function index()
-    {
-        //
-    }
-
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create(Request $request)
-    {
-        //
-    }
-
-    /**
      * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
      */
-    public function store(GoalRequest $request)
+    public function store(GoalRequest $request): RedirectResponse
     {
         $goal = Goal::create($request->validated());
 
@@ -44,10 +24,8 @@ class GoalController extends Controller
 
     /**
      * Display the specified resource.
-     *
-     * @return \Illuminate\Http\Response
      */
-    public function show(Goal $goal)
+    public function show(Goal $goal): Response|ResponseFactory
     {
         return inertia('Editor/Content/Goals/Show', [
             'goal' => $goal->load(['childDrafts.user', 'project', 'choices.resourceLinks', 'choices.goal' => function ($q) {
@@ -58,10 +36,8 @@ class GoalController extends Controller
 
     /**
      * Preview the specified resource
-     *
-     * @return \Illuminate\Http\Response
      */
-    public function preview(Goal $goal)
+    public function preview(Goal $goal): Response|ResponseFactory
     {
         return inertia('Editor/Content/Goals/Preview', [
             'goal' => $goal->load(['project.goals', 'choices.goal' => function ($q) {
@@ -72,10 +48,8 @@ class GoalController extends Controller
 
     /**
      * Show the form for editing the specified resource.
-     *
-     * @return \Illuminate\Http\Response
      */
-    public function edit(Request $request, Goal $goal)
+    public function edit(Request $request, Goal $goal): Response|ResponseFactory|RedirectResponse
     {
         if ($request->user()->cannot('update', $goal)) {
             return redirect()->back()
@@ -94,11 +68,8 @@ class GoalController extends Controller
 
     /**
      * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
      */
-    public function update(GoalRequest $request, Goal $goal)
+    public function update(GoalRequest $request, Goal $goal): RedirectResponse
     {
         $goal->name = $request->name;
         $goal->summary = $request->summary;
@@ -110,10 +81,8 @@ class GoalController extends Controller
 
     /**
      * Update the order of goals
-     *
-     * @return Response
      */
-    public function updateGoalOrder(UpdateGoalOrderRequest $request, Goal $goal)
+    public function updateGoalOrder(UpdateGoalOrderRequest $request, Goal $goal): RedirectResponse
     {
         $goal->update([
             'order' => $request['updated_goal']['order'],
@@ -128,10 +97,8 @@ class GoalController extends Controller
 
     /**
      * Remove the specified resource from storage.
-     *
-     * @return \Illuminate\Http\Response
      */
-    public function destroy(Goal $goal)
+    public function destroy(Goal $goal): RedirectResponse
     {
         $project = $goal->project;
 

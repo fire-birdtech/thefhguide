@@ -8,6 +8,7 @@ use App\Models\Assignment;
 use App\Models\Goal;
 use App\Models\User;
 use Carbon\Carbon;
+use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Inertia\Response;
 use Inertia\ResponseFactory;
@@ -27,10 +28,8 @@ class AssignmentController extends Controller
 
     /**
      * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
      */
-    public function index(Request $request)
+    public function index(Request $request): Response|ResponseFactory
     {
         return inertia('Admin/Assignments/Index', [
             'assignments' => $request->user()->hasRole('admin')
@@ -41,10 +40,8 @@ class AssignmentController extends Controller
 
     /**
      * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
      */
-    public function create(Request $request)
+    public function create(Request $request): Response|ResponseFactory|RedirectResponse
     {
         if ($assignment = $this->getAssignable($request->assignable_type, $request->assignable_id)->assignment) {
             return redirect()->back()
@@ -67,10 +64,8 @@ class AssignmentController extends Controller
 
     /**
      * Store a newly created resource in storage.
-     *
-     * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(Request $request): RedirectResponse
     {
         $assignable = $this->getAssignable($request->assignable_type, $request->assignable_id);
         $assignable->assignment()->save(new Assignment([
@@ -82,10 +77,8 @@ class AssignmentController extends Controller
 
     /**
      * Display the specified resource.
-     *
-     * @return \Illuminate\Http\Response
      */
-    public function show(Assignment $assignment)
+    public function show(Assignment $assignment): Response|ResponseFactory
     {
         return inertia('Editor/Assignments/Show', [
             'assignment' => $assignment->load(['assignable', 'user']),
@@ -107,11 +100,8 @@ class AssignmentController extends Controller
 
     /**
      * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
      */
-    public function update(AssignmentUpdateRequest $request, Assignment $assignment)
+    public function update(AssignmentUpdateRequest $request, Assignment $assignment): RedirectResponse
     {
         $assignment->update([
             'summary' => $request['summary'],
@@ -122,7 +112,7 @@ class AssignmentController extends Controller
         return redirect()->route('admin.assignments.index');
     }
 
-    public function markComplete(Assignment $assignment)
+    public function markComplete(Assignment $assignment): RedirectResponse
     {
         $assignment->update([
             'status' => AssignmentStatus::COMPLETE,
@@ -140,19 +130,18 @@ class AssignmentController extends Controller
 
     /**
      * Remove the specified resource from storage.
-     *
-     * @return \Illuminate\Http\Response
      */
-    public function destroy(Assignment $assignment)
+    public function destroy(Assignment $assignment): void
     {
         //
     }
 
-    public function getAssignable($type, $id)
+    public function getAssignable($type, $id): Goal|null
     {
-        switch ($type) {
-            case 'goal':
-                return Goal::where('id', $id)->first();
+        if ($type == 'goal') {
+            return Goal::where('id', $id)->first();
         }
+
+        return null;
     }
 }
