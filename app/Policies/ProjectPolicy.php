@@ -10,17 +10,13 @@ class ProjectPolicy
 {
     use HandlesAuthorization;
 
-    /**
-     * Perform pre-authorization checks.
-     *
-     * @param  string  $ability
-     * @return void|bool
-     */
-    public function before(User $user, $ability)
+    public function before(User $user, string $ability): bool
     {
         if ($user->hasRole('admin')) {
             return true;
         }
+
+        return false;
     }
 
     /**
