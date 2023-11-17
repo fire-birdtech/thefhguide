@@ -8,9 +8,6 @@ class DashboardController extends Controller
 {
     /**
      * Display the admin dashboard
-     *
-     *
-     * @param  Request  $request
      */
     public function admin(Request $request)
     {
@@ -22,8 +19,6 @@ class DashboardController extends Controller
 
     /**
      * Display the editor dashboard
-     *
-     * @param  Request  $request
      */
     public function editor(Request $request)
     {

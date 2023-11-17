@@ -45,7 +45,6 @@ class CollectionController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Collection  $collection
      * @return \Illuminate\Http\Response
      */
     public function show(Collection $collection)
@@ -60,7 +59,6 @@ class CollectionController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Collection  $collection
      * @return \Illuminate\Http\Response
      */
     public function edit(Request $request, Collection $collection)
@@ -84,7 +82,6 @@ class CollectionController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Collection  $collection
      * @return \Illuminate\Http\Response
      */
     public function update(CollectionRequest $request, Collection $collection)
@@ -97,10 +94,6 @@ class CollectionController extends Controller
 
     /**
      * Remove the specified resource from storage.
-     *
-     * @param  Request  $request
-     * @param  Collection  $collection
-     * @return RedirectResponse
      */
     public function destroy(Request $request, Collection $collection): RedirectResponse
     {

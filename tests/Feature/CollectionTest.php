@@ -16,8 +16,6 @@ class CollectionTest extends TestCase
 
     /**
      * Setup for all collection tests.
-     *
-     * @return void
      */
     public function setUp(): void
     {
@@ -30,8 +28,6 @@ class CollectionTest extends TestCase
 
     /**
      * A test for creating a collection.
-     *
-     * @return void
      */
     public function test_a_collection_can_be_created(): void
     {
@@ -43,8 +39,6 @@ class CollectionTest extends TestCase
 
     /**
      * A test to make sure the slug matches the name.
-     *
-     * @return void
      */
     public function test_collection_slug_and_name_match(): void
     {
@@ -53,8 +47,6 @@ class CollectionTest extends TestCase
 
     /**
      * A test for updating a collection
-     *
-     * @return void
      */
     public function test_a_collection_can_be_updated(): void
     {
@@ -68,8 +60,6 @@ class CollectionTest extends TestCase
 
     /**
      * A test for deleting a collection.
-     *
-     * @return void
      */
     public function test_a_collection_can_be_deleted(): void
     {

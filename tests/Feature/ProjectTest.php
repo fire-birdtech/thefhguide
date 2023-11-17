@@ -16,8 +16,6 @@ class ProjectTest extends TestCase
 
     /**
      * Setup for all project tests.
-     *
-     * @return void
      */
     public function setUp(): void
     {
@@ -30,8 +28,6 @@ class ProjectTest extends TestCase
 
     /**
      * A test for creating a project.
-     *
-     * @return void
      */
     public function test_a_project_can_be_created(): void
     {
@@ -43,8 +39,6 @@ class ProjectTest extends TestCase
 
     /**
      * A test to make sure the slug matches the name.
-     *
-     * @return void
      */
     public function test_project_slug_and_name_match(): void
     {
@@ -53,8 +47,6 @@ class ProjectTest extends TestCase
 
     /**
      * A test for updating a project
-     *
-     * @return void
      */
     public function test_a_project_can_be_updated(): void
     {
@@ -68,8 +60,6 @@ class ProjectTest extends TestCase
 
     /**
      * A test for deleting a project.
-     *
-     * @return void
      */
     public function test_a_project_can_be_deleted(): void
     {

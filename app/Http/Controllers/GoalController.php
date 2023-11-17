@@ -45,7 +45,6 @@ class GoalController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Goal  $goal
      * @return \Illuminate\Http\Response
      */
     public function show(Goal $goal)
@@ -60,7 +59,6 @@ class GoalController extends Controller
     /**
      * Preview the specified resource
      *
-     * @param  \App\Models\Goal  $goal
      * @return \Illuminate\Http\Response
      */
     public function preview(Goal $goal)
@@ -75,7 +73,6 @@ class GoalController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Goal  $goal
      * @return \Illuminate\Http\Response
      */
     public function edit(Request $request, Goal $goal)
@@ -99,7 +96,6 @@ class GoalController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Goal  $goal
      * @return \Illuminate\Http\Response
      */
     public function update(GoalRequest $request, Goal $goal)
@@ -115,8 +111,6 @@ class GoalController extends Controller
     /**
      * Update the order of goals
      *
-     * @param  UpdateGoalOrderRequest  $request
-     * @param  Goal  $goal
      * @return Response
      */
     public function updateGoalOrder(UpdateGoalOrderRequest $request, Goal $goal)
@@ -135,7 +129,6 @@ class GoalController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Goal  $goal
      * @return \Illuminate\Http\Response
      */
     public function destroy(Goal $goal)

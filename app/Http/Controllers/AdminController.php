@@ -52,7 +52,6 @@ class AdminController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\User  $user
      * @return \Illuminate\Http\Response
      */
     public function show(User $user)
@@ -64,9 +63,6 @@ class AdminController extends Controller
 
     /**
      * Show the form for editing the specified resource.
-     *
-     * @param  User  $user
-     * @return Response|ResponseFactory
      */
     public function edit(User $user): Response|ResponseFactory
     {
@@ -79,10 +75,6 @@ class AdminController extends Controller
 
     /**
      * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  User  $user
-     * @return RedirectResponse
      */
     public function update(Request $request, User $user): RedirectResponse
     {
@@ -101,8 +93,6 @@ class AdminController extends Controller
     /**
      * Remove role so user is no longer an editor
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\User  $user
      * @return \Illuminate\Http\Response
      */
     public function remove(Request $request, User $user)
@@ -123,8 +113,6 @@ class AdminController extends Controller
 
     /**
      * Send an email to invite a new admin
-     *
-     * @param  \App\Models\Invitation  $invitation
      */
     public function sendInvitationEmail(Invitation $invitation)
     {

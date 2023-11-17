@@ -19,9 +19,9 @@ return new class extends Migration
             $table->longText('details')->nullable();
             $table->string('status')->default('waiting');
             $table->foreignId('user_id')
-                  ->constrained()
-                  ->cascadeOnDelete()
-                  ->cascadeOnUpdate();
+                ->constrained()
+                ->cascadeOnDelete()
+                ->cascadeOnUpdate();
             $table->morphs('assignable');
             $table->timestamps();
         });

@@ -71,7 +71,6 @@ class ChoiceController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Choice  $choice
      * @return \Illuminate\Http\Response
      */
     public function show(Choice $choice)
@@ -84,7 +83,6 @@ class ChoiceController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Choice  $choice
      * @return \Illuminate\Http\Response
      */
     public function edit(Choice $choice)
@@ -97,8 +95,6 @@ class ChoiceController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Choice  $choice
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, Choice $choice)
@@ -125,8 +121,6 @@ class ChoiceController extends Controller
     /**
      * Update the order of choices
      *
-     * @param  UpdateChoiceOrderRequest  $request
-     * @param  Choice  $choice
      * @return Response
      */
     public function updateChoiceOrder(UpdateChoiceOrderRequest $request, Choice $choice)
@@ -145,7 +139,6 @@ class ChoiceController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Choice  $choice
      * @return \Illuminate\Http\Response
      */
     public function destroy(Choice $choice)

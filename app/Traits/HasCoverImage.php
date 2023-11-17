@@ -10,7 +10,6 @@ trait HasCoverImage
     /**
      * Update the resource's cover image.
      *
-     * @param  \Illuminate\Http\UploadedFile  $photo
      * @return void
      */
     public function updateCoverImage(UploadedFile $photo)

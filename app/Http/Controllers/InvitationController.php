@@ -39,7 +39,6 @@ class InvitationController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Invitation  $invitation
      * @return \Illuminate\Http\Response
      */
     public function destroy(Invitation $invitation)
@@ -127,8 +126,6 @@ class InvitationController extends Controller
 
     /**
      * Send an email to invite a new admin
-     *
-     * @param  \App\Models\Invitation  $invitation
      */
     public function sendInvitationEmail(Invitation $invitation)
     {
@@ -138,7 +135,6 @@ class InvitationController extends Controller
     /**
      * Assign appropriate role(s) to user
      *
-     * @param  User  $user
      * @param  string  $role
      */
     public function assignRoles(User $user, $role)
@@ -152,10 +148,6 @@ class InvitationController extends Controller
 
     /**
      * Notify admins when a new editor accepts their invitation
-     *
-     * @param  int  $invitationId
-     * @param  User  $user
-     * @return void
      */
     public function notifyAdmins(int $invitationId, User $user): void
     {

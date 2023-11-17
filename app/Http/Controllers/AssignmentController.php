@@ -68,7 +68,6 @@ class AssignmentController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
@@ -84,7 +83,6 @@ class AssignmentController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Assignment  $assignment
      * @return \Illuminate\Http\Response
      */
     public function show(Assignment $assignment)
@@ -96,9 +94,6 @@ class AssignmentController extends Controller
 
     /**
      * Show the form for editing the specified resource.
-     *
-     * @param  Assignment  $assignment
-     * @return Response|ResponseFactory
      */
     public function edit(Assignment $assignment): Response|ResponseFactory
     {
@@ -114,7 +109,6 @@ class AssignmentController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Assignment  $assignment
      * @return \Illuminate\Http\Response
      */
     public function update(AssignmentUpdateRequest $request, Assignment $assignment)
@@ -147,7 +141,6 @@ class AssignmentController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Assignment  $assignment
      * @return \Illuminate\Http\Response
      */
     public function destroy(Assignment $assignment)

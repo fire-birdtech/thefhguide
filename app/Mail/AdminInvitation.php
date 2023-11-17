@@ -39,10 +39,10 @@ class AdminInvitation extends Mailable
     public function build()
     {
         return $this->from('noreply@thefhguide.com')
-                    ->markdown('emails.admin-invitation', [
-                        'name' => $this->invitation->name,
-                        'role' => $this->invitation->role,
-                        'signedRoute' => $this->signedRoute,
-                    ]);
+            ->markdown('emails.admin-invitation', [
+                'name' => $this->invitation->name,
+                'role' => $this->invitation->role,
+                'signedRoute' => $this->signedRoute,
+            ]);
     }
 }

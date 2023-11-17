@@ -41,8 +41,6 @@ class Choice extends Model
 
     /**
      * The method for retrieving the goal which the model belongs to
-     *
-     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
      */
     public function goal(): BelongsTo
     {
