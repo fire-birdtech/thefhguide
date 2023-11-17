@@ -10,6 +10,8 @@ class DraftReady extends Notification
 {
     use Queueable;
 
+    protected Draft $draft;
+
     /**
      * Create a new notification instance.
      *
@@ -22,22 +24,16 @@ class DraftReady extends Notification
 
     /**
      * Get the notification's delivery channels.
-     *
-     * @param  mixed  $notifiable
-     * @return array
      */
-    public function via($notifiable)
+    public function via(mixed $notifiable): array
     {
         return ['database'];
     }
 
     /**
      * Get the array representation of the notification.
-     *
-     * @param  mixed  $notifiable
-     * @return array
      */
-    public function toArray($notifiable)
+    public function toArray(mixed $notifiable): array
     {
         return [
             'message' => "Updates by {$this->draft->user->name} are ready to publish for {$this->draft->draftable->name}",

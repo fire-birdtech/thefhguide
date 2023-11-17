@@ -11,6 +11,9 @@ class EditorInvitationAccepted extends Notification
 {
     use Queueable;
 
+    protected Invitation $invitation;
+    protected User $user;
+
     /**
      * Create a new notification instance.
      *
@@ -24,22 +27,16 @@ class EditorInvitationAccepted extends Notification
 
     /**
      * Get the notification's delivery channels.
-     *
-     * @param  mixed  $notifiable
-     * @return array
      */
-    public function via($notifiable)
+    public function via(mixed $notifiable): array
     {
         return ['database'];
     }
 
     /**
      * Get the array representation of the notification.
-     *
-     * @param  mixed  $notifiable
-     * @return array
      */
-    public function toArray($notifiable)
+    public function toArray(mixed $notifiable): array
     {
         return [
             'message' => "{$this->invitation->name} has accepted the invitation to be an {$this->invitation->role}",
