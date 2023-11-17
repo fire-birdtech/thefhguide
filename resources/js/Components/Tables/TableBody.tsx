@@ -32,7 +32,7 @@ const renderTableData = (cellIdx: number, cellKey: string, routeType: string, ro
 
 export default function TableBody ({ actions, cells, rows, adminRouteType = '', routeType = '', order = false }: TableBodyProps): ReactElement {
   const editRoute = (row): string => routeType !== null
-    ? route(`${adminRouteType ?? routeType}.edit`, [row.id]) : ''
+    ? route(`${routeType ?? adminRouteType}.edit`, [row.id]) : ''
 
   return (
     <tbody className="bg-white">
