@@ -17,21 +17,13 @@ class Goal extends Model
 {
     use HasChildDrafts, HasFactory, HasRevisions, HasSlug, SoftDeletes;
 
-    /**
-     * The "booted" method of the model.
-     *
-     * @return void
-     */
-    protected static function booted()
+    protected static function booted(): void
     {
         static::creating(function ($goal) {
             $goal->order = count($goal->project->goals) + 1;
         });
     }
 
-    /**
-     * Get the options for generating the slug.
-     */
     public function getSlugOptions(): SlugOptions
     {
         return SlugOptions::create()
@@ -44,11 +36,6 @@ class Goal extends Model
 
     protected $dontKeepRevisionOf = ['locked'];
 
-    /**
-     * The attributes that should be cast.
-     *
-     * @var array<string, string>
-     */
     protected $casts = [
         'locked' => 'boolean',
     ];

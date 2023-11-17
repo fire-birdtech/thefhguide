@@ -16,13 +16,6 @@ class User extends Authenticatable
 {
     use HasApiTokens, HasFactory, HasRoles, Notifiable;
 
-    protected $guard_name = 'web';
-
-    /**
-     * The attributes that are mass assignable.
-     *
-     * @var array<int, string>
-     */
     protected $fillable = [
         'name',
         'email',
@@ -30,21 +23,11 @@ class User extends Authenticatable
         'type',
     ];
 
-    /**
-     * The attributes that should be hidden for serialization.
-     *
-     * @var array<int, string>
-     */
     protected $hidden = [
         'password',
         'remember_token',
     ];
 
-    /**
-     * The attributes that should be cast.
-     *
-     * @var array<string, string>
-     */
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
@@ -64,7 +47,7 @@ class User extends Authenticatable
         return $this->hasMany(Draft::class);
     }
 
-    public function scopeUnpublishedDrafts()
+    public function scopeUnpublishedDrafts(): HasMany
     {
         return $this->drafts()->where('publish_date', null)->orderBy('updated_at', 'desc');
     }
@@ -74,7 +57,7 @@ class User extends Authenticatable
         return $this->hasMany(Assignment::class);
     }
 
-    public function scopeUnpublishedAssignments($query)
+    public function scopeUnpublishedAssignments($query): HasMany
     {
         return $this->assignments()->where('status', '!=', AssignmentStatus::COMPLETE)->with('assignable')->orderBy('updated_at', 'desc');
     }
@@ -85,7 +68,7 @@ class User extends Authenticatable
             ->with(['assignable', 'user']);
     }
 
-    public function scopeUnpublishedEditorAssignments($query)
+    public function scopeUnpublishedEditorAssignments($query): HasManyThrough
     {
         return $this->editorAssignments()->where('status', '!=', AssignmentStatus::COMPLETE);
     }

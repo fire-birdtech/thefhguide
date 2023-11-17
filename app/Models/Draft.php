@@ -14,20 +14,10 @@ class Draft extends Model
 
     protected $guarded = ['id'];
 
-    /**
-     * The accessors to append to the model's array form.
-     *
-     * @var array
-     */
     protected $appends = [
         'cover_image_url',
     ];
 
-    /**
-     * The attributes that should be cast.
-     *
-     * @var array<string, string>
-     */
     protected $casts = [
         'content' => 'array',
     ];
