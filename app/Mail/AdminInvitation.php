@@ -12,15 +12,10 @@ class AdminInvitation extends Mailable
 {
     use Queueable, SerializesModels;
 
-    public $invitation;
+    public Invitation $invitation;
 
-    public $signedRoute;
+    public string $signedRoute;
 
-    /**
-     * Create a new message instance.
-     *
-     * @return void
-     */
     public function __construct(Invitation $invitation)
     {
         $this->invitation = $invitation;
@@ -31,12 +26,7 @@ class AdminInvitation extends Mailable
         );
     }
 
-    /**
-     * Build the message.
-     *
-     * @return $this
-     */
-    public function build()
+    public function build(): static
     {
         return $this->from('noreply@thefhguide.com')
             ->markdown('emails.admin-invitation', [
