@@ -136,7 +136,7 @@ class AssignmentController extends Controller
         //
     }
 
-    public function getAssignable($type, $id): Goal|null
+    public function getAssignable($type, $id): ?Goal
     {
         if ($type == 'goal') {
             return Goal::where('id', $id)->first();

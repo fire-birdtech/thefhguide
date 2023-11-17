@@ -59,7 +59,7 @@ class SettingsController extends Controller
     {
         return inertia('Settings/Account', [
             'user' => auth()->user(),
-            'hasRoles' => (bool)count($request->user()->roles),
+            'hasRoles' => (bool) count($request->user()->roles),
         ]);
     }
 

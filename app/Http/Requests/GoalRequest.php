@@ -8,10 +8,8 @@ class GoalRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
-     *
-     * @return bool
      */
-    public function authorize()
+    public function authorize(): bool
     {
         return $this->user()->can('create goals') || $this->user()->can('update goals');
     }
@@ -21,7 +19,7 @@ class GoalRequest extends FormRequest
      *
      * @return array<string, mixed>
      */
-    public function rules()
+    public function rules(): array
     {
         return [
             'name' => 'string|required',
