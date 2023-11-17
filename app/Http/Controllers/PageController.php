@@ -6,7 +6,6 @@ use App\Models\Goal;
 use App\Models\GoalPage;
 use App\Models\Page;
 use App\Models\Project;
-use Illuminate\Http\Request;
 use Inertia\Response;
 use Inertia\ResponseFactory;
 
@@ -16,6 +15,7 @@ class PageController extends Controller
     {
         if ($page->type === GoalPage::class) {
             $goal = Goal::where('page_id', $page->id)->with(['project.collection', 'choices'])->first();
+
             return inertia('Pages/Goal', [
                 'goal' => $goal,
                 'project_navigation' => $this->getProjectNavigation($goal->project),
@@ -33,7 +33,7 @@ class PageController extends Controller
         foreach ($project->goals as $goal) {
             $navigation[] = [
                 'name' => "{$goal->order}: {$goal->nav_name}",
-                'link' => route('pages.show', [$goal->page->uri])
+                'link' => route('pages.show', [$goal->page->uri]),
             ];
         }
 

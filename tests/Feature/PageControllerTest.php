@@ -5,7 +5,6 @@ namespace Tests\Feature;
 use App\Models\Goal;
 use App\Models\GoalPage;
 use App\Models\Page;
-use App\Models\Project;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Inertia\Testing\AssertableInertia as Assert;
 use Tests\TestCase;
@@ -31,7 +30,7 @@ class PageControllerTest extends TestCase
     {
         $page = Page::factory()->create([
             'slug' => 'page-slug',
-            'uri' => "parent-slug/page-slug",
+            'uri' => 'parent-slug/page-slug',
             'type' => Page::class,
         ]);
 

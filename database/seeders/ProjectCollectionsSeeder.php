@@ -1001,7 +1001,7 @@ class ProjectCollectionsSeeder extends Seeder
                 [
                     'name' => 'Rutland',
                     'cover_image' => 'https://thefhguide.com/img/x-en-rut-over.jpg',
-                    'file' => 'england/rutland.json'
+                    'file' => 'england/rutland.json',
                 ],
                 [
                     'name' => 'Shropshire',
@@ -1178,10 +1178,10 @@ class ProjectCollectionsSeeder extends Seeder
                     'collection_id' => $newCollection->id,
                 ]);
 
-                if (!empty($project['cover_image'])) {
+                if (! empty($project['cover_image'])) {
                     $info = pathinfo($project['cover_image']);
                     $contents = file_get_contents($project['cover_image']);
-                    $file = '/tmp/' . $info['basename'];
+                    $file = '/tmp/'.$info['basename'];
                     file_put_contents($file, $contents);
                     $newProject->updateCoverImage(new UploadedFile($file, $info['basename']));
                 }

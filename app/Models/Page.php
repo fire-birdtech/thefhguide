@@ -11,7 +11,7 @@ class Page extends Model
     use HasChildren, HasFactory;
 
     protected $fillable = [
-        'type'
+        'type',
     ];
 
     public function getRouteKeyName(): string
