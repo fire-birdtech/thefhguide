@@ -7,12 +7,7 @@ use Illuminate\Support\Facades\Storage;
 
 trait HasCoverImage
 {
-    /**
-     * Update the resource's cover image.
-     *
-     * @return void
-     */
-    public function updateCoverImage(UploadedFile $photo)
+    public function updateCoverImage(UploadedFile $photo): void
     {
         tap($this->cover_image_path, function ($previous) use ($photo) {
             $this->forceFill([
@@ -27,12 +22,7 @@ trait HasCoverImage
         });
     }
 
-    /**
-     * Delete the resource's cover image.
-     *
-     * @return void
-     */
-    public function deleteCoverImage()
+    public function deleteCoverImage(): void
     {
         Storage::disk($this->coverImageDisk())->delete($this->cover_image_path);
 
@@ -41,24 +31,14 @@ trait HasCoverImage
         ])->save();
     }
 
-    /**
-     * Get the URL to the resource's cover image.
-     *
-     * @return string
-     */
-    public function getCoverImageUrlAttribute()
+    public function getCoverImageUrlAttribute(): ?string
     {
         return $this->cover_image_path
                     ? Storage::disk($this->coverImageDisk())->url($this->cover_image_path)
                     : null;
     }
 
-    /**
-     * Get the disk that cover images should be stored on.
-     *
-     * @return string
-     */
-    protected function coverImageDisk()
+    protected function coverImageDisk(): string
     {
         return 'public';
     }
