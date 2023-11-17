@@ -12,6 +12,7 @@ class EditorInvitationAccepted extends Notification
     use Queueable;
 
     protected Invitation $invitation;
+
     protected User $user;
 
     /**
