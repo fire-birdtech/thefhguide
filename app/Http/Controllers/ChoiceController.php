@@ -22,7 +22,7 @@ class ChoiceController extends Controller
         $goal = Goal::where('id', $request->goal_id)->first();
 
         $content = [];
-        foreach ($request->content as $item) {
+        foreach ($request->details as $item) {
             $content[] = $item;
         }
 

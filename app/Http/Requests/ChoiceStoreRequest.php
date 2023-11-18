@@ -6,6 +6,9 @@ use Illuminate\Foundation\Http\FormRequest;
 
 class ChoiceStoreRequest extends FormRequest
 {
+    public int $goal_id;
+    public array $details;
+
     /**
      * Determine if the user is authorized to make this request.
      */
@@ -25,7 +28,7 @@ class ChoiceStoreRequest extends FormRequest
             'name' => 'required|string',
             'goal_id' => 'required',
             'images' => 'nullable',
-            'content' => 'required',
+            'details' => 'required',
         ];
     }
 }
