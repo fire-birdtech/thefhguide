@@ -28,11 +28,11 @@ class MediaControllerTest extends TestCase
         $response = $this->actingAs($this->user)
             ->post(route('editor.media.store'), [
                 'name' => 'test image',
-                'file' => $file = UploadedFile::fake()->image('test.jpg')
+                'file' => $file = UploadedFile::fake()->image('test.jpg'),
             ]);
 
-        $this->assertEquals('media/' . $file->name, Media::latest()->first()->path);
+        $this->assertEquals('media/'.$file->name, Media::latest()->first()->path);
 
-        Storage::disk('public')->assertExists('media/' . $file->name);
+        Storage::disk('public')->assertExists('media/'.$file->name);
     }
 }
