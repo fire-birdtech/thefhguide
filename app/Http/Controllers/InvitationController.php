@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Enums\AllowedUserRoles;
 use App\Http\Requests\AdminInvitationRequest;
 use App\Http\Requests\InvitationRegisterRequest;
 use App\Mail\AdminInvitation;
@@ -138,9 +139,9 @@ class InvitationController extends Controller
     public function assignRoles(User $user, string $role): void
     {
         if ($role === 'admin') {
-            $user->assignRole(['admin', 'editor']);
+            $user->assignRole([AllowedUserRoles::ADMIN->value, AllowedUserRoles::EDITOR->value]);
         } elseif ($role === 'editor') {
-            $user->assignRole('editor');
+            $user->assignRole(AllowedUserRoles::EDITOR->value);
         }
     }
 

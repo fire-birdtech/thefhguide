@@ -2,6 +2,7 @@
 
 namespace App\Console\Commands;
 
+use App\Enums\AllowedUserRoles;
 use App\Models\User;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Hash;
@@ -24,10 +25,8 @@ class CreateAdmin extends Command
 
     /**
      * Execute the console command.
-     *
-     * @return int
      */
-    public function handle()
+    public function handle(): void
     {
         $name = $this->ask('Name');
         $email = $this->ask('Email address');
@@ -39,7 +38,7 @@ class CreateAdmin extends Command
             'password' => Hash::make($password),
         ]);
 
-        $user->assignRole('super admin');
+        $user->assignRole(AllowedUserRoles::SUPER_ADMIN->value);
 
         $this->info('Admin successfully created.');
     }

@@ -2,6 +2,7 @@
 
 namespace Tests\Feature;
 
+use App\Enums\AllowedUserRoles;
 use App\Mail\AdminInvitation;
 use App\Models\Invitation;
 use App\Models\User;
@@ -25,7 +26,7 @@ class InvitationTest extends TestCase
         $this->seed(RolesAndPermissionsSeeder::class);
 
         $this->admin = User::factory()->create();
-        $this->admin->assignRole('admin');
+        $this->admin->assignRole(AllowedUserRoles::ADMIN->value);
 
         Mail::fake();
     }
