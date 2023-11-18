@@ -17,20 +17,9 @@ class DraftControllerTest extends TestCase
 {
     use RefreshDatabase, WithFaker;
 
-    protected User $user;
-
     public function setUp(): void
     {
         parent::setUp();
-
-        $this->user = User::factory()->create();
-
-        $permission = Permission::create([
-            'name' => 'draft content',
-        ]);
-        Role::create([
-            'name' => AllowedUserRoles::EDITOR->value,
-        ])->givePermissionTo($permission);
 
         $this->user->assignRole(AllowedUserRoles::EDITOR->value);
     }
