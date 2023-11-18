@@ -7,6 +7,7 @@ use App\Http\Controllers\ContentController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\DraftController;
 use App\Http\Controllers\GoalController;
+use App\Http\Controllers\MediaController;
 use App\Http\Controllers\ProjectController;
 use App\Http\Controllers\ResourceLinkController;
 use Illuminate\Support\Facades\Route;
@@ -33,4 +34,5 @@ Route::group([
     Route::post('drafts/{draft}/publish', [DraftController::class, 'notify'])->name('drafts.notify');
     Route::resource('resources', ResourceLinkController::class)->except(['update']);
     Route::put('resources/update', [ResourceLinkController::class, 'update'])->name('resources.update');
+    Route::post('media/store', [MediaController::class, 'store'])->name('media.store');
 });
