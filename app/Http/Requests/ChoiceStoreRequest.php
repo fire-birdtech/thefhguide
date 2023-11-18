@@ -7,6 +7,7 @@ use Illuminate\Foundation\Http\FormRequest;
 class ChoiceStoreRequest extends FormRequest
 {
     public int $goal_id;
+
     public array $details;
 
     /**
