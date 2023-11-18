@@ -20,7 +20,7 @@ export default function DraftCreate ({ auth, parentId, type }: PageProps<{ paren
     image: {},
     summary: null,
     show_me_video_url: null,
-    content: []
+    details: []
   })
 
   const updateCover = (value: File): void => {
@@ -109,7 +109,7 @@ export default function DraftCreate ({ auth, parentId, type }: PageProps<{ paren
               ) : null}
 
               {type === 'choice' ? (
-                <ChoiceContentForm content={data.content}/>
+                <ChoiceContentForm content={data.details}/>
               ) : null}
             </form>
           </div>

@@ -32,12 +32,9 @@ class DraftController extends Controller
         ]);
     }
 
-    /**
-     * Store a newly created resource in storage.
-     */
     public function store(DraftStoreRequest $request): RedirectResponse
     {
-        $content = isset($request->content) ? $this->formatContent($request) : null;
+        $content = isset($request->details) ? $this->formatContent($request) : null;
 
         $draft = Draft::create([
             'draftable_type' => $request['type'],
@@ -52,11 +49,9 @@ class DraftController extends Controller
             $draft->updateCoverImage($request['image']);
         }
 
-        $parent = $this->getParentable($request['parent_type'], $request['parentId']);
+        $parent = $this->getParentable($request['type'], $request['parentId']);
 
-        if (isset($parent)) {
-            $parent->childDrafts()->save($draft);
-        }
+        $parent?->childDrafts()->save($draft);
 
         return redirect()->route('editor.drafts.edit', [$draft->id]);
     }
@@ -176,9 +171,9 @@ class DraftController extends Controller
     public function getParentable($type, $id)
     {
         return match ($type) {
-            'collection' => Collection::find($id),
-            'project' => Project::find($id),
-            'goal' => Goal::find($id),
+            'project' => Collection::where('id',$id),
+            'goal' => Project::where('id',$id),
+            'choice' => Goal::where('id',$id),
             default => null,
         };
     }
@@ -199,7 +194,7 @@ class DraftController extends Controller
     {
         $content = [];
 
-        foreach ($request->content as $item) {
+        foreach ($request->details as $item) {
             $content[] = $item;
         }
 
