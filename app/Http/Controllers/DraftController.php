@@ -171,9 +171,9 @@ class DraftController extends Controller
     public function getParentable($type, $id)
     {
         return match ($type) {
-            'project' => Collection::where('id',$id),
-            'goal' => Project::where('id',$id),
-            'choice' => Goal::where('id',$id),
+            'project' => Collection::where('id', $id),
+            'goal' => Project::where('id', $id),
+            'choice' => Goal::where('id', $id),
             default => null,
         };
     }
