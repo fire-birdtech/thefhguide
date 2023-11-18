@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Enums\ContentType;
 use App\Http\Requests\DraftCreateRequest;
 use App\Http\Requests\DraftPublishRequest;
 use App\Http\Requests\DraftSaveRequest;
@@ -106,20 +107,20 @@ class DraftController extends Controller
 
         $content = new stdClass();
 
-        if ($draft->draftable_type === 'collection') {
+        if ($draft->draftable_type === ContentType::COLLECTION) {
             $content = Collection::create([
                 'name' => $request['name'],
             ]);
         }
 
-        if ($draft->draftable_type === 'project') {
+        if ($draft->draftable_type === ContentType::PROJECT) {
             $content = Project::create([
                 'name' => $request['name'],
                 'collection_id' => $draft->parentable_id,
             ]);
         }
 
-        if ($draft->draftable_type === 'goal') {
+        if ($draft->draftable_type === ContentType::GOAL) {
             $content = Goal::create([
                 'name' => $request['name'],
                 'summary' => $request['summary'],
@@ -127,7 +128,7 @@ class DraftController extends Controller
             ]);
         }
 
-        if ($draft->draftable_type === 'choice') {
+        if ($draft->draftable_type === ContentType::CHOICE) {
             $content = Choice::create([
                 'name' => $request['name'],
                 'summary' => $request['summary'],
