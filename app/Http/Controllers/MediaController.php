@@ -14,6 +14,11 @@ class MediaController extends Controller
         return inertia('Media/Index');
     }
 
+    public function create(): Response|ResponseFactory
+    {
+        return inertia('Media/Create');
+    }
+
     public function store(Request $request): void
     {
         Media::create([

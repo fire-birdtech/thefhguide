@@ -35,5 +35,6 @@ Route::group([
     Route::resource('resources', ResourceLinkController::class)->except(['update']);
     Route::put('resources/update', [ResourceLinkController::class, 'update'])->name('resources.update');
     Route::get('media', [MediaController::class, 'index'])->name('media.index');
+    Route::get('media/create', [MediaController::class, 'create'])->name('media.create');
     Route::post('media/store', [MediaController::class, 'store'])->name('media.store');
 });
