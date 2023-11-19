@@ -34,5 +34,6 @@ Route::group([
     Route::post('drafts/{draft}/publish', [DraftController::class, 'notify'])->name('drafts.notify');
     Route::resource('resources', ResourceLinkController::class)->except(['update']);
     Route::put('resources/update', [ResourceLinkController::class, 'update'])->name('resources.update');
+    Route::get('media', [MediaController::class, 'index'])->name('media.index');
     Route::post('media/store', [MediaController::class, 'store'])->name('media.store');
 });
