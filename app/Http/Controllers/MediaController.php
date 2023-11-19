@@ -12,14 +12,14 @@ class MediaController extends Controller
 {
     public function index(): Response|ResponseFactory
     {
-        return inertia('Media/Index', [
+        return inertia('Editor/Media/Index', [
             'files' => Media::latest()->get(),
         ]);
     }
 
     public function create(): Response|ResponseFactory
     {
-        return inertia('Media/Create');
+        return inertia('Editor/Media/Create');
     }
 
     public function store(Request $request): RedirectResponse

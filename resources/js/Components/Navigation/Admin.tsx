@@ -18,7 +18,7 @@ export default function AdminNavigation (): ReactElement {
   ]
 
   const mediaComponents: string[] = [
-    'Media/Index', 'Media/Create'
+    'Editor/Media/Index', 'Editor/Media/Create'
   ]
 
   const assignmentComponents: string[] = [
