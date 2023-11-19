@@ -4,7 +4,6 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Facades\Storage;
 
 class Media extends Model
@@ -19,7 +18,7 @@ class Media extends Model
     ];
 
     protected $appends = [
-        'url'
+        'url',
     ];
 
     public function getUrlAttribute(): ?string
