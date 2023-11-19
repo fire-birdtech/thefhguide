@@ -11,7 +11,7 @@ import InputError from "@/Components/Forms/InputError";
 import FileInput from "@/Components/Forms/FileInput";
 
 export default function MediaCreate ({ auth }: PageProps): ReactElement {
-  const {data, setData, errors, processing} = useForm({
+  const {data, setData, errors, processing, post} = useForm({
     name: '',
     file: {},
   });
@@ -24,6 +24,12 @@ export default function MediaCreate ({ auth }: PageProps): ReactElement {
     }
   }
 
+  const submit = (e) => {
+    e.preventDefault()
+
+    post(route('editor.media.store'))
+  }
+
   return (
     <>
       <Head title="Add Media"/>
@@ -34,7 +40,7 @@ export default function MediaCreate ({ auth }: PageProps): ReactElement {
             <Header3>
               Add Media
             </Header3>
-            <PrimaryButton disabled={processing}>
+            <PrimaryButton onClick={submit} disabled={processing}>
               Save
             </PrimaryButton>
           </div>

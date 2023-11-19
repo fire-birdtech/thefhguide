@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Media;
+use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Inertia\Response;
 use Inertia\ResponseFactory;
@@ -19,7 +20,7 @@ class MediaController extends Controller
         return inertia('Media/Create');
     }
 
-    public function store(Request $request): void
+    public function store(Request $request): RedirectResponse
     {
         Media::create([
             'name' => $request->name,
@@ -29,5 +30,7 @@ class MediaController extends Controller
                 ['disk' => 'public']
             ),
         ]);
+
+        return redirect()->route('editor.media.index');
     }
 }

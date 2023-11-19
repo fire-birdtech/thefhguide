@@ -27,7 +27,7 @@ export default function ProjectEdit ({ auth, collections, project }: PageProps<{
   const submit: FormEventHandler = (e) => {
     e.preventDefault()
 
-    put(route('editor.projects.update'), [project.id])
+    put(route('editor.projects.update', [project.id]))
   }
 
   return (
