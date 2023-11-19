@@ -17,6 +17,10 @@ export default function AdminNavigation (): ReactElement {
     'Editor/Content/Choices/Index', 'Editor/Content/Choices/Create', 'Editor/Content/Choices/Show', 'Editor/Content/Choices/Edit'
   ]
 
+  const mediaComponents: string[] = [
+    'Media/Index', 'Media/Create'
+  ]
+
   const assignmentComponents: string[] = [
     'Admin/Assignments/Index', 'Admin/Assignments/Create', 'Admin/Assignments/Edit', 'Editor/Assignments/Show'
   ]
@@ -28,6 +32,7 @@ export default function AdminNavigation (): ReactElement {
   const navigation = [
     { name: 'Dashboard', href: dashboardLink, show: true, components: ['Admin/Dashboard', 'Editor/Dashboard'] },
     { name: 'Content', href: route('editor.content.index'), show: true, components: contentComponents },
+    { name: 'Media Library', href: route('editor.media.index'), show: true, components: mediaComponents },
     { name: 'Assignments', href: route('admin.assignments.index'), show: canManageEditors, components: assignmentComponents },
     { name: 'Admins & Editors', href: route('admin.editors.index'), show: canManageEditors, components: editorManagementComponents },
     { name: 'Navigation', href: route('admin.navigation.index'), show: canManageEditors, components: ['Admin/Navigation/Index'] }
