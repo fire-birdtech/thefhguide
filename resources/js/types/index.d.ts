@@ -177,6 +177,13 @@ export interface AppNotification {
   updated_at: string
 }
 
+export interface MediaFile {
+  id: number
+  name: string
+  path: string
+  url: string
+}
+
 export type Cells = Record<string, string>
 
 export type Actions = Record<string, boolean>
