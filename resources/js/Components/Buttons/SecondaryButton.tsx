@@ -12,7 +12,7 @@ export default function SecondaryButton ({
   ...props
 }: ButtonHTMLAttributes<HTMLButtonElement> & { href?: string, locked?: boolean }): ReactElement {
   const baseStyles = `relative inline-flex bg-white py-2 px-4 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 hover:bg-gray-50 focus:ring focus:ring-gray-300 focus:ring-opacity-40 sm:w-auto ${className}`
-  return href !== undefined ? (
+  return href !== '' ? (
     <Link
       href={href}
       className={classNames(

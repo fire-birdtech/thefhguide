@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Requests\GoalRequest;
 use App\Http\Requests\UpdateGoalOrderRequest;
 use App\Models\Goal;
+use App\Models\Media;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Inertia\Response;
@@ -31,6 +32,7 @@ class GoalController extends Controller
             'goal' => $goal->load(['childDrafts.user', 'project', 'choices.resourceLinks', 'choices.goal' => function ($q) {
                 $q->orderBy('order', 'asc');
             }]),
+            'files' => Media::latest()->take(8)->get(),
         ]);
     }
 

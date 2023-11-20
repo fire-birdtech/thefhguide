@@ -1,4 +1,4 @@
-import { type FormEventHandler, type ReactElement, useState } from 'react'
+import {type FormEventHandler, type ReactElement, useState} from 'react'
 import { Head, Link, router } from '@inertiajs/react'
 import { Dialog } from '@headlessui/react'
 import Admin from '@/Layouts/Admin'
@@ -12,10 +12,11 @@ import TableBody from '@/Components/Tables/TableBody'
 import Prose from '@/Components/Prose'
 import DangerModal from '@/Components/Modals/Danger'
 import ExpandableStackedListItem from '@/Components/Lists/ExpandableStackedListItem'
-import { type Goal, type PageProps } from '@/types'
+import {type Goal, MediaFile, type PageProps} from '@/types'
+import {MediaFilesProvider} from "@/contexts/MediaFilesContext"
 
-export default function GoalShow ({ auth, goal }: PageProps<{
-  goal: Goal
+export default function GoalShow ({ auth, goal, files }: PageProps<{
+  goal: Goal, files: MediaFile[]
 }>): ReactElement {
   const [confirmGoalArchive, setConfirmGoalArchive] = useState(false)
 
@@ -113,9 +114,11 @@ export default function GoalShow ({ auth, goal }: PageProps<{
               addText="Add choice"
               addRoute={route('editor.drafts.create', { type: 'choice', parent_id: goal.id })}
             />
-            <ul className="mt-3 space-y-2">
-              {sortedChoices.map((choice) => <ExpandableStackedListItem item={choice} key={choice.id}/>)}
-            </ul>
+            <MediaFilesProvider initialFiles={files}>
+              <ul className="mt-3 space-y-2">
+                {sortedChoices.map((choice) => <ExpandableStackedListItem item={choice} key={choice.id}/>)}
+              </ul>
+            </MediaFilesProvider>
           </div>
 
           {goal.child_drafts.length > 0 ? (
