@@ -24,13 +24,14 @@ class MediaController extends Controller
 
     public function store(Request $request): RedirectResponse
     {
-        Media::create([
+        $media = Media::create([
             'name' => $request->name,
             'path' => $file = $request->file('file')->storePubliclyAs(
                 'media',
                 pathinfo($request->file('file')->getClientOriginalName(), PATHINFO_BASENAME),
                 ['disk' => 'public']
             ),
+            'uploaded_by_user_id' => $request->user()->id,
         ]);
 
         return redirect()->route('editor.media.index');

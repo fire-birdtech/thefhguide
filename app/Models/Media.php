@@ -17,6 +17,7 @@ class Media extends Model
     protected $fillable = [
         'name',
         'path',
+        'uploaded_by_user_id',
     ];
 
     protected $appends = [
