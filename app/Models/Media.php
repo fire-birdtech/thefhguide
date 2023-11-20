@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasOne;
-use Illuminate\Database\Eloquent\Relations\MorphTo;
+use Illuminate\Database\Eloquent\Relations\MorphToMany;
 use Illuminate\Support\Facades\Storage;
 
 class Media extends Model
@@ -36,9 +36,9 @@ class Media extends Model
             : null;
     }
 
-    public function mediaable(): MorphTo
+    public function choices(): MorphToMany
     {
-        return $this->morphTo();
+        return $this->morphedByMany(Choice::class, 'mediaable');
     }
 
     public function user(): HasOne

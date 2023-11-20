@@ -37,4 +37,5 @@ Route::group([
     Route::get('media', [MediaController::class, 'index'])->name('media.index');
     Route::get('media/create', [MediaController::class, 'create'])->name('media.create');
     Route::post('media/store', [MediaController::class, 'store'])->name('media.store');
+    Route::post('media/{media}/attach', [MediaController::class, 'attach'])->name('media.attach');
 });

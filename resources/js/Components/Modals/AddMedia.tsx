@@ -1,11 +1,26 @@
 import { Fragment, type ReactElement } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 import { XMarkIcon } from '@heroicons/react/24/solid'
-import PrimaryButton from '@/Components/Buttons/PrimaryButton'
-import SecondaryButton from '@/Components/Buttons/SecondaryButton'
-import {MediaFile} from "@/types";
+import {type MediaFile} from "@/types"
+import {useForm} from "@inertiajs/react";
 
-export default function AddMediaModal ({ files, open, setOpen }: { files: MediaFile[],open: boolean, setOpen: () => void }): ReactElement {
+export default function AddMediaModal ({
+  files, mediaableId, mediaableType, open, setOpen
+}: {
+  files: MediaFile[], mediaableId: number, mediaableType: string, open: boolean, setOpen: () => void
+}): ReactElement {
+  const {post} = useForm({
+    mediaableId,
+    mediaableType,
+  });
+
+  const submit = (id: number) => {
+    post(route('editor.media.attach', [id]), {
+      preserveState: true,
+      preserveScroll: true,
+    })
+  }
+
   return (
     <Transition.Root show={open} as={Fragment}>
       <Dialog as="div" className="relative z-10" onClose={setOpen}>
@@ -52,7 +67,7 @@ export default function AddMediaModal ({ files, open, setOpen }: { files: MediaF
                       <li key={file.id} className="relative">
                         <div className="group aspect-h-7 aspect-w-10 block w-full overflow-hidden rounded-lg bg-gray-100 focus-within:ring-2 focus-within:ring-blue-500 focus-within:ring-offset-2 focus-within:ring-offset-gray-100">
                           <img src={file.url} alt="" className="pointer-events-none object-cover group-hover:opacity-75" />
-                          <button type="button" className="absolute inset-0 focus:outline-none">
+                          <button type="button" onClick={() => submit(file.id)} className="absolute inset-0 focus:outline-none">
                             <span className="sr-only">View details for {file.name}</span>
                           </button>
                         </div>
@@ -61,14 +76,6 @@ export default function AddMediaModal ({ files, open, setOpen }: { files: MediaF
                     ))}
                   </ul>
                 </div>
-                {/*<div className="mt-5 sm:flex sm:flex-row-reverse">*/}
-                {/*  <PrimaryButton className="ml-3">*/}
-                {/*    Publish*/}
-                {/*  </PrimaryButton>*/}
-                {/*  <SecondaryButton className="mt-3 sm:mt-0" onClick={() => { setOpen() }}>*/}
-                {/*    Cancel*/}
-                {/*  </SecondaryButton>*/}
-                {/*</div>*/}
               </Dialog.Panel>
             </Transition.Child>
           </div>

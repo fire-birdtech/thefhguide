@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Media;
+use App\Services\MediaService;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Inertia\Response;
@@ -35,5 +36,12 @@ class MediaController extends Controller
         ]);
 
         return redirect()->route('editor.media.index');
+    }
+
+    public function attach(Request $request, Media $media, MediaService $mediaService): RedirectResponse
+    {
+        $mediaService->attachMediaable($media, $request->mediaableId, $request->mediaableType);
+
+        return back();
     }
 }

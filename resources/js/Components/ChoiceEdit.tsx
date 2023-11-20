@@ -74,7 +74,12 @@ export default function ChoiceEdit ({ choice, close }: {
           </div>
         </div>
 
-        <ChoiceContentForm content={choiceData.content} update={(value: ChoiceContent[]) => { updateContent(value) }}/>
+        <ChoiceContentForm
+          content={choiceData.content}
+          update={(value: ChoiceContent[]) => {
+            updateContent(value)
+          }}
+        />
 
         <div className="px-6 py-4">
           <div className="flex justify-end space-x-3">
@@ -88,7 +93,13 @@ export default function ChoiceEdit ({ choice, close }: {
         </div>
       </div>
 
-      <AddMediaModal files={files} open={addImages} setOpen={() => setAddImages(false)}/>
+      <AddMediaModal
+        files={files}
+        mediaableId={choice.id}
+        mediaableType="choice"
+        open={addImages}
+        setOpen={() => setAddImages(false)}
+      />
     </>
   )
 }
