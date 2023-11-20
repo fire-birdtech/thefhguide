@@ -65,7 +65,7 @@ export default function ChoiceEdit ({ choice, close }: {
 
         <div>
           <div className="px-6 sm:grid sm:grid-cols-8 sm:gap-4 sm:items-start sm:py-4">
-            <InputLabel label="Images" className="sm:mt-px sm:pt-2"/>
+            <InputLabel label="Media" className="sm:mt-px sm:pt-2"/>
             <div className="mt-1 space-y-4 sm:mt-0 sm:col-span-7">
               <SecondaryButton onClick={() => setAddImages(true)}>
                 Select
