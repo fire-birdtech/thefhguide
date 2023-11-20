@@ -9,7 +9,7 @@ export default function AddMediaModal ({
 }: {
   files: MediaFile[], mediaableId: number, mediaableType: string, open: boolean, setOpen: () => void
 }): ReactElement {
-  const {post} = useForm({
+  const {post, errors, clearErrors} = useForm({
     mediaableId,
     mediaableType,
   });
@@ -21,9 +21,14 @@ export default function AddMediaModal ({
     })
   }
 
+  const onClose = () => {
+    setOpen()
+    clearErrors()
+  }
+
   return (
     <Transition.Root show={open} as={Fragment}>
-      <Dialog as="div" className="relative z-10" onClose={setOpen}>
+      <Dialog as="div" className="relative z-10" onClose={onClose}>
         <Transition.Child
           as={Fragment}
           enter="ease-out duration-300"
@@ -52,16 +57,29 @@ export default function AddMediaModal ({
                   <button
                     type="button"
                     className="rounded-md bg-white text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
-                    onClick={() => { setOpen() }}
+                    onClick={onClose}
                   >
                     <span className="sr-only">Close</span>
                     <XMarkIcon className="h-6 w-6" aria-hidden="true" />
                   </button>
                 </div>
                 <div>
-                  <Dialog.Title as="h3" className="text-lg leading-6 font-medium text-gray-900">
-                    Select Media
-                  </Dialog.Title>
+                  <div className="flex items-center space-x-3">
+                    <Dialog.Title as="h3" className="text-lg leading-6 font-medium text-gray-900">
+                      Select Media
+                    </Dialog.Title>
+                    <Transition
+                      show={errors?.mediaableId !== null}
+                      enter="transition ease-in-out duration-150"
+                      enterFrom="opacity-0"
+                      leave="transition ease-in-out duration-150"
+                      leaveTo="opacity-0"
+                    >
+                      <p className="text-sm text-red-600">
+                        {errors?.mediaableId}
+                      </p>
+                    </Transition>
+                  </div>
                   <ul role="list" className="mt-6 grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-3 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8">
                     {files.map((file) => (
                       <li key={file.id} className="relative">

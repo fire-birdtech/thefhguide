@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Exceptions\MediaAttachmentAlreadyExistsException;
 use App\Models\Media;
 use App\Services\MediaService;
 use Illuminate\Http\RedirectResponse;
@@ -40,8 +41,12 @@ class MediaController extends Controller
 
     public function attach(Request $request, Media $media, MediaService $mediaService): RedirectResponse
     {
-        $mediaService->attachMediaable($media, $request->mediaableId, $request->mediaableType);
+        try {
+            $mediaService->attachMediaable($media, $request->mediaableId, $request->mediaableType);
 
-        return back();
+            return back();
+        } catch (MediaAttachmentAlreadyExistsException $exception) {
+            return back()->withErrors(['mediaableId' => $exception->getMessage()])->withInput();
+        }
     }
 }
