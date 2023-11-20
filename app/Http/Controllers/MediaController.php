@@ -13,7 +13,7 @@ class MediaController extends Controller
     public function index(): Response|ResponseFactory
     {
         return inertia('Editor/Media/Index', [
-            'files' => Media::latest()->get(),
+            'files' => Media::latest()->with('mediaable')->get(),
         ]);
     }
 

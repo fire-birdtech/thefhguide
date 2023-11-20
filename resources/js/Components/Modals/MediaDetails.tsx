@@ -1,7 +1,7 @@
 import { Fragment, type ReactElement } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 import { XMarkIcon } from '@heroicons/react/24/solid'
-import {MediaFile} from "@/types";
+import {MediaFile} from "@/types"
 
 export default function MediaDetailsModal ({ file, open, setOpen }: { file?: MediaFile, open: boolean, setOpen: () => void }): ReactElement {
   return (
@@ -75,6 +75,15 @@ export default function MediaDetailsModal ({ file, open, setOpen }: { file?: Med
                           <dd className="whitespace-nowrap text-gray-900">{file?.updated_at}</dd>
                         </div>
                       </dl>
+                    </div>
+
+                    <div>
+                      <h3 className="font-medium text-gray-900">Usages</h3>
+                      {file?.mediaable !== null ? (
+                        <ul role="list" className="mt-2 divide-y divide-gray-200 border-y border-gray-200"></ul>
+                      ) : (
+                        <p className="mt-1 text-sm text-gray-500">No current usages</p>
+                      )}
                     </div>
                   </div>
                 </div>
