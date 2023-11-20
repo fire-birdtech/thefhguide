@@ -183,6 +183,7 @@ export interface MediaFile {
   path: string
   url: string
   mediaable?: any[]
+  user: User
   created_at: string
   updated_at: string
 }

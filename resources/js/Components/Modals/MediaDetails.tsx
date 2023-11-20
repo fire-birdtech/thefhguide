@@ -62,7 +62,7 @@ export default function MediaDetailsModal ({ file, open, setOpen }: { file?: Med
                       <dl className="mt-2 divide-y divide-gray-200 border-b border-t border-gray-200">
                         <div className="flex justify-between py-3 text-sm font-medium">
                           <dt className="text-gray-500">Uploaded By</dt>
-                          <dd className="whitespace-nowrap text-gray-900">Marie Culver</dd>
+                          <dd className="whitespace-nowrap text-gray-900">{file?.user.name}</dd>
                         </div>
 
                         <div className="flex justify-between py-3 text-sm font-medium">

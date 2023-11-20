@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Illuminate\Support\Facades\Storage;
 
@@ -37,5 +38,10 @@ class Media extends Model
     public function mediaable(): MorphTo
     {
         return $this->morphTo();
+    }
+
+    public function user(): HasOne
+    {
+        return $this->hasOne(User::class, 'id', 'uploaded_by_user_id');
     }
 }
