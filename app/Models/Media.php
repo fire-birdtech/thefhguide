@@ -21,6 +21,11 @@ class Media extends Model
         'url',
     ];
 
+    protected $casts = [
+        'created_at' => 'datetime:F j, Y',
+        'updated_at' => 'datetime:F j, Y',
+    ];
+
     public function getUrlAttribute(): ?string
     {
         return $this->path
