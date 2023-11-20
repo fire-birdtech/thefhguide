@@ -29,7 +29,7 @@ class GoalController extends Controller
     public function show(Goal $goal): Response|ResponseFactory
     {
         return inertia('Editor/Content/Goals/Show', [
-            'goal' => $goal->load(['childDrafts.user', 'project', 'choices.resourceLinks', 'choices.goal' => function ($q) {
+            'goal' => $goal->load(['childDrafts.user', 'project', 'choices.resourceLinks', 'choices.media', 'choices.goal' => function ($q) {
                 $q->orderBy('order', 'asc');
             }]),
             'files' => Media::latest()->take(8)->get(),

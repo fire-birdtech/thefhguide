@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
+use Illuminate\Database\Eloquent\Relations\MorphToMany;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Venturecraft\Revisionable\RevisionableTrait as HasRevisions;
 
@@ -40,8 +41,8 @@ class Choice extends Model
         return $this->belongsToMany(ResourceLink::class);
     }
 
-    public function media(): MorphMany
+    public function media(): MorphToMany
     {
-        return $this->morphMany(Media::class, 'mediaable');
+        return $this->morphToMany(Media::class, 'mediaable');
     }
 }

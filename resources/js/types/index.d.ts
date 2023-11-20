@@ -76,6 +76,7 @@ export interface Choice {
   order: number
   deleted_at: string
   goal: Goal
+  media: MediaFile[]
 }
 
 export interface ChoiceContent {
