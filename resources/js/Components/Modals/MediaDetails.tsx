@@ -79,7 +79,7 @@ export default function MediaDetailsModal ({ file, open, setOpen }: { file?: Med
 
                     <div>
                       <h3 className="font-medium text-gray-900">Usages</h3>
-                      {file?.mediaable !== null ? (
+                      {file?.choices.length > 0 ? (
                         <ul role="list" className="mt-2 divide-y divide-gray-200 border-y border-gray-200"></ul>
                       ) : (
                         <p className="mt-1 text-sm text-gray-500">No current usages</p>
