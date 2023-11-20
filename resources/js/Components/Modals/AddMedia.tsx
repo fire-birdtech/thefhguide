@@ -9,7 +9,7 @@ export default function AddMediaModal ({
 }: {
   files: MediaFile[], mediaableId: number, mediaableType: string, open: boolean, setOpen: () => void
 }): ReactElement {
-  const {post, errors, clearErrors} = useForm({
+  const {post, errors, clearErrors, recentlySuccessful} = useForm({
     mediaableId,
     mediaableType,
   });
@@ -77,6 +77,17 @@ export default function AddMediaModal ({
                     >
                       <p className="text-sm text-red-600">
                         {errors?.mediaableId}
+                      </p>
+                    </Transition>
+                    <Transition
+                      show={recentlySuccessful}
+                      enter="transition ease-in-out duration-150"
+                      enterFrom="opacity-0"
+                      leave="transition ease-in-out duration-150"
+                      leaveTo="opacity-0"
+                    >
+                      <p className="text-sm text-green-600">
+                        Image attached
                       </p>
                     </Transition>
                   </div>
