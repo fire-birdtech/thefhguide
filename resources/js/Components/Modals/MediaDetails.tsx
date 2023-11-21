@@ -79,8 +79,16 @@ export default function MediaDetailsModal ({ file, open, setOpen }: { file?: Med
 
                     <div>
                       <h3 className="font-medium text-gray-900">Usages</h3>
-                      {file?.choices.length > 0 ? (
-                        <ul role="list" className="mt-2 divide-y divide-gray-200 border-y border-gray-200"></ul>
+                      {file?.choices && file.choices.length > 0 ? (
+                        <ul role="list" className="mt-2 divide-y divide-gray-200 border-y border-gray-200">
+                          {file.choices.map((choice) => (
+                            <li key={choice.id} className="flex items-center justify-between py-3 w-full">
+                              <div className="w-full">
+                                <p className="text-sm font-medium text-gray-900 truncate">{choice.name}</p>
+                              </div>
+                            </li>
+                          ))}
+                        </ul>
                       ) : (
                         <p className="mt-1 text-sm text-gray-500">No current usages</p>
                       )}

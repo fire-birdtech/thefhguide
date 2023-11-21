@@ -183,7 +183,7 @@ export interface MediaFile {
   name: string
   path: string
   url: string
-  mediaable?: any[]
+  choices: Choice[]
   user: User
   created_at: string
   updated_at: string
