@@ -33,7 +33,7 @@ export default function ExpandableChoiceItem ({ choice }: { choice: Choice }): R
       </div>
 
       {expanded && (
-        <div className="py-8 prose max-w-none space-y-6">
+        <article className="py-8 prose max-w-none space-y-6">
           {choice.content.map((item, index: number) => {
             if (item.type === ChoiceContentTypes.SUMMARY) {
               return <>
@@ -75,10 +75,24 @@ export default function ExpandableChoiceItem ({ choice }: { choice: Choice }): R
             } else if (item.type === ChoiceContentTypes.HEADER) {
               return <Header5 key={index}>{item.data}</Header5>
             } else {
-              return <div key={index} dangerouslySetInnerHTML={{ __html: item.data }}/>
+              return <div>
+                {choice.media.length > 0 ? (
+                  <div className="not-prose float-right">
+                    {choice.media.map((mediaItem) => (
+                      <div className="group block w-full h-auto max-w-md ml-3 mb-3 overflow-hidden rounded-lg bg-gray-100 focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 focus-within:ring-offset-gray-100">
+                        <img src={mediaItem.url} alt={mediaItem.name} className="pointer-events-none object-cover group-hover:opacity-75" />
+                        <button type="button" className="absolute inset-0 focus:outline-none">
+                          <span className="sr-only">View details for {mediaItem.name}</span>
+                        </button>
+                      </div>
+                    ))}
+                  </div>
+                ) : null}
+                <div key={index} dangerouslySetInnerHTML={{ __html: item.data }}/>
+              </div>
             }
           })}
-        </div>
+        </article>
       )}
     </li>
   )
