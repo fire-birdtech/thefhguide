@@ -12,7 +12,7 @@ export default function GoalPage({ auth, goal, project_navigation, title }: Page
       <Head title={title}/>
 
       <MainNavigation/>
-      <ProjectNavigation navigation={project_navigation}/>
+      <ProjectNavigation navigation={project_navigation} collectionSlug={goal.project.collection.slug}/>
 
       <div className="pt-36">
         <GoalPageHeader goal={goal}/>
