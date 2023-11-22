@@ -24,6 +24,7 @@ export interface Collection {
   created_at: string
   updated_at: string
   locked: boolean
+  type: string
   deleted_at: string
   projects: Project[]
   child_drafts: Draft[]

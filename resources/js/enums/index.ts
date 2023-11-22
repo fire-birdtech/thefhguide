@@ -7,3 +7,8 @@ export enum ChoiceContentTypes {
   SUMMARY = 'summary',
   TEXT = 'text'
 }
+
+export enum CollectionType {
+  PROJECT = 'project',
+  PAGE = 'page'
+}

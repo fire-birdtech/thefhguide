@@ -11,6 +11,7 @@ import TableHead from '@/Components/Tables/TableHead'
 import TableBody from '@/Components/Tables/TableBody'
 import DangerModal from '@/Components/Modals/Danger'
 import { type Actions, type Cells, type Collection, type PageProps, type Project } from '@/types'
+import {CollectionType} from "@/enums";
 
 export default function CollectionShow ({ auth, collection }: PageProps<{ collection: Collection }>): ReactElement {
   const [confirmCollectionArchive, setConfirmCollectionArchive] = useState(false)
@@ -116,27 +117,38 @@ export default function CollectionShow ({ auth, collection }: PageProps<{ collec
             </div>
           </div>
 
-          <div className="mt-12">
-            <TableHeader
-              header="Projects"
-              addText="Add project"
-              addRoute={route(
-                'editor.drafts.create',
-                { type: 'project', parent_id: collection.id })}
-            />
-            <Table className="mt-2">
-              <TableHead cells={projectCells} actions={true} order={true}/>
-              <TableBody
-                cells={projectCells}
-                rows={sortedProjects}
-                routeType="editor.projects"
-                actions={tableActions}
-                order={true}
-                moveDown={() => moveDown}
-                moveUp={() => moveUp}
+          {collection.type === CollectionType.PROJECT ? (
+            <div className="mt-12">
+              <TableHeader
+                header="Projects"
+                addText="Add project"
+                addRoute={route(
+                  'editor.drafts.create',
+                  { type: 'project', parent_id: collection.id })}
               />
-            </Table>
-          </div>
+              <Table className="mt-2">
+                <TableHead cells={projectCells} actions={true} order={true}/>
+                <TableBody
+                  cells={projectCells}
+                  rows={sortedProjects}
+                  routeType="editor.projects"
+                  actions={tableActions}
+                  order={true}
+                  moveDown={() => moveDown}
+                  moveUp={() => moveUp}
+                />
+              </Table>
+            </div>
+          ) : null}
+
+          {collection.type === CollectionType.PAGE ? (
+            <div className="mt-12">
+              <TableHeader
+                header="Pages"
+                addText="Add page"
+              />
+            </div>
+          ) : null}
 
           {collection.child_drafts.length > 0 ? (
             <div className="mt-12">
