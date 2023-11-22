@@ -2,6 +2,7 @@
 
 namespace Database\Factories;
 
+use App\Enums\CollectionType;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
@@ -18,6 +19,7 @@ class CollectionFactory extends Factory
     {
         return [
             'name' => $this->faker->words(3, true),
+            'type' => CollectionType::PROJECT,
         ];
     }
 }
