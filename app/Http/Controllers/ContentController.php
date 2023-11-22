@@ -15,8 +15,9 @@ class ContentController extends Controller
     public function index(): Response|ResponseFactory
     {
         return inertia('Editor/Content/Index', [
-            'collections' => Collection::all(),
+            'collections' => Collection::projectCollections()->get(),
             'projects' => Project::orderBy('slug')->with('collection')->whereIn('slug', ['canada', 'england', 'united-states'])->get(),
+            'pageCollections' => Collection::pageCollections()->get(),
         ]);
     }
 }

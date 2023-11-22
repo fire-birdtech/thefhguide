@@ -2,7 +2,9 @@
 
 namespace App\Models;
 
+use App\Enums\CollectionType;
 use App\Traits\HasChildDrafts;
+use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
@@ -33,5 +35,15 @@ class Collection extends Model
     public function projects(): HasMany
     {
         return $this->HasMany(Project::class);
+    }
+
+    public function scopeProjectCollections(Builder $query): void
+    {
+        $query->where('type', CollectionType::PROJECT);
+    }
+
+    public function scopePageCollections(Builder $query): void
+    {
+        $query->where('type', CollectionType::PAGE);
     }
 }
