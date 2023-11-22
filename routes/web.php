@@ -57,4 +57,8 @@ Route::get('expired', fn () => inertia('Errors/Expired'))->name('expired');
 
 require __DIR__.'/auth.php';
 
+Route::get('test', function () {
+    return inertia('Pages/Test');
+});
+
 Route::get('{page}', PageController::class)->where('page', '.*')->name('pages.show');
