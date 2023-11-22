@@ -23,7 +23,10 @@ class PageController extends Controller
             ]);
         }
 
-        return null;
+        return inertia('Pages/Show', [
+            'page' => $page,
+            'title' => $page->name,
+        ]);
     }
 
     public function getProjectNavigation(Project $project): array

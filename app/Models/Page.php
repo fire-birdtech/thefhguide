@@ -12,6 +12,7 @@ class Page extends Model
 
     protected $fillable = [
         'collection_id',
+        'name',
         'type',
     ];
 

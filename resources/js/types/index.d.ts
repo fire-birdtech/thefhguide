@@ -190,6 +190,10 @@ export interface MediaFile {
   updated_at: string
 }
 
+export interface Page {
+  name: string
+}
+
 export type Cells = Record<string, string>
 
 export type Actions = Record<string, boolean>
