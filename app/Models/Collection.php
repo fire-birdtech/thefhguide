@@ -37,6 +37,11 @@ class Collection extends Model
         return $this->HasMany(Project::class);
     }
 
+    public function pages(): HasMany
+    {
+        return $this->hasMany(Page::class);
+    }
+
     public function scopeProjectCollections(Builder $query): void
     {
         $query->where('type', CollectionType::PROJECT);

@@ -27,7 +27,7 @@ class CollectionController extends Controller
     public function show(Collection $collection): Response|ResponseFactory
     {
         return inertia('Editor/Content/Collections/Show', [
-            'collection' => $collection->load(['childDrafts.user', 'projects' => function ($q) {
+            'collection' => $collection->load(['childDrafts.user', 'pages', 'projects' => function ($q) {
                 $q->orderBy('order', 'asc');
             }]),
         ]);

@@ -11,6 +11,7 @@ class Page extends Model
     use HasChildren, HasFactory;
 
     protected $fillable = [
+        'collection_id',
         'type',
     ];
 
