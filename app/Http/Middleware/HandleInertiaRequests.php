@@ -56,6 +56,15 @@ class HandleInertiaRequests extends Middleware
             return $navigation;
         }
 
+        $groupOne = [];
+        $introNav = [];
+        $groupOne[] = [
+            'name' => 'Intro',
+            'menuItems' => $introNav,
+        ];
+        $navigation[] = $groupOne;
+
+        $groupTwo = [];
         $familysearch = Collection::where('slug', 'familysearch')->with('projects')->first();
         $familysearchNav = [];
         foreach ($familysearch?->projects as $project) {
@@ -64,7 +73,7 @@ class HandleInertiaRequests extends Middleware
                 'link' => route('pages.show', [$project->goals()->first()->page->uri]),
             ];
         }
-        $navigation[] = [
+        $groupTwo[] = [
             'name' => $familysearch->name,
             'menuItems' => $familysearchNav,
         ];
@@ -77,7 +86,7 @@ class HandleInertiaRequests extends Middleware
                 'link' => route('pages.show', [$project->goals()->first()->page->uri]),
             ];
         }
-        $navigation[] = [
+        $groupTwo[] = [
             'name' => $ancestry->name,
             'menuItems' => $ancestryNav,
         ];
@@ -90,7 +99,7 @@ class HandleInertiaRequests extends Middleware
                 'link' => route('pages.show', [$project->goals()->first()->page->uri]),
             ];
         }
-        $navigation[] = [
+        $groupTwo[] = [
             'name' => $myheritage->name,
             'menuItems' => $myheritageNav,
         ];
@@ -103,10 +112,75 @@ class HandleInertiaRequests extends Middleware
                 'link' => route('pages.show', [$project->goals()->first()->page->uri]),
             ];
         }
-        $navigation[] = [
+        $groupTwo[] = [
             'name' => $findmypast->name,
             'menuItems' => $findmypastNav,
         ];
+
+        $navigation[] = $groupTwo;
+
+        $groupThree = [];
+        $trainersNav = [];
+        $groupThree[] = [
+            'name' => 'Trainers',
+            'menuItems' => $trainersNav,
+        ];
+
+        $activitiesNav = [];
+        $groupThree[] = [
+            'name' => 'Activities',
+            'menuItems' => $activitiesNav,
+        ];
+
+        $youthNav = [];
+        $groupThree[] = [
+            'name' => 'Youth',
+            'menuItems' => $youthNav,
+        ];
+
+        $mediaNav = [];
+        $groupThree[] = [
+            'name' => 'Media',
+            'menuItems' => $mediaNav,
+        ];
+
+        $faithsNav = [];
+        $groupThree[] = [
+            'name' => 'Faiths',
+            'menuItems' => $faithsNav,
+        ];
+
+        $navigation[] = $groupThree;
+
+        $groupFour = [];
+        $countriesNav = [];
+        $groupFour[] = [
+            'name' => 'Countries',
+            'menuItems' => $countriesNav,
+        ];
+
+        $vaultNav = [];
+        $groupFour[] = [
+            'name' => 'Vault',
+            'menuItems' => $vaultNav,
+        ];
+
+        $trackerNav = [];
+        $groupFour[] = [
+            'name' => 'Tracker',
+            'menuItems' => $trackerNav,
+        ];
+
+        $navigation[] = $groupFour;
+
+        $groupFive = [];
+        $miscNav = [];
+        $groupFive[] = [
+            'name' => 'Misc',
+            'menuItems' => $miscNav,
+        ];
+
+        $navigation[] = $groupFive;
 
         return $navigation;
     }
