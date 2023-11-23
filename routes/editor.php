@@ -8,6 +8,7 @@ use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\DraftController;
 use App\Http\Controllers\GoalController;
 use App\Http\Controllers\MediaController;
+use App\Http\Controllers\PageController;
 use App\Http\Controllers\ProjectController;
 use App\Http\Controllers\ResourceLinkController;
 use Illuminate\Support\Facades\Route;
@@ -38,4 +39,6 @@ Route::group([
     Route::get('media/create', [MediaController::class, 'create'])->name('media.create');
     Route::post('media/store', [MediaController::class, 'store'])->name('media.store');
     Route::post('media/{media}/attach', [MediaController::class, 'attach'])->name('media.attach');
+    Route::get('pages/{page:slug}/edit', [PageController::class, 'edit'])->name('pages.edit');
+    Route::put('pages/{page:slug}', [PageController::class, 'update'])->name('pages.update');
 });

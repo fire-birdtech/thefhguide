@@ -6,12 +6,13 @@ use App\Models\Goal;
 use App\Models\GoalPage;
 use App\Models\Page;
 use App\Models\Project;
+use Illuminate\Http\Request;
 use Inertia\Response;
 use Inertia\ResponseFactory;
 
 class PageController extends Controller
 {
-    public function __invoke(Page $page): Response|ResponseFactory|null
+    public function __invoke(Page $page): Response|ResponseFactory
     {
         if ($page->type === GoalPage::class) {
             $goal = Goal::where('page_id', $page->id)->with(['project.collection', 'choices.media'])->first();
@@ -27,6 +28,20 @@ class PageController extends Controller
             'page' => $page,
             'title' => $page->name,
         ]);
+    }
+
+    public function edit(Page $page): Response
+    {
+        return inertia('Editor/Content/Pages/Edit', [
+            'page' => $page,
+        ]);
+    }
+
+    public function update(Request $request, Page $page)
+    {
+        $page->update($request->all());
+
+        return back();
     }
 
     public function getProjectNavigation(Project $project): array

@@ -1,6 +1,6 @@
 import { type FormEventHandler, type ReactElement, useState } from 'react'
 import { Dialog } from '@headlessui/react'
-import { Head, router, useForm } from '@inertiajs/react'
+import {Head, Link, router, useForm} from '@inertiajs/react'
 import Admin from '@/Layouts/Admin'
 import Container from '@/Components/Container'
 import { Header3 } from '@/Components/Typography/Headers'
@@ -147,6 +147,11 @@ export default function CollectionShow ({ auth, collection }: PageProps<{ collec
                 header="Pages"
                 addText="Add page"
               />
+              {collection.pages.map((page) => (
+                <Link href={route('editor.pages.edit', [page])}>
+                  {page.name}
+                </Link>
+              ))}
             </div>
           ) : null}
 
