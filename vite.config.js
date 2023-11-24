@@ -13,7 +13,8 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
-      '@': '/resources/js'
+      '@': '/resources/js',
+      '@images': '/resources/images'
     }
   },
   ssr: {
