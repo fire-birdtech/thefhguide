@@ -9,6 +9,7 @@ export default function SecondaryButton ({
   children,
   href = '',
   locked,
+  type = 'button',
   ...props
 }: ButtonHTMLAttributes<HTMLButtonElement> & { href?: string, locked?: boolean }): ReactElement {
   const baseStyles = `relative inline-flex bg-white py-2 px-4 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 hover:bg-gray-50 focus:ring focus:ring-gray-300 focus:ring-opacity-40 sm:w-auto ${className}`
@@ -32,6 +33,7 @@ export default function SecondaryButton ({
   ) : (
     <button
       {...props}
+      type={type}
       className={classNames(
         locked === true ? 'pointer-events-none cursor-default' : '',
         baseStyles

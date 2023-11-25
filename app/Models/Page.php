@@ -16,6 +16,10 @@ class Page extends Model
         'type',
     ];
 
+    protected $casts = [
+        'content' => 'array'
+    ];
+
     public function getRouteKeyName(): string
     {
         return 'uri';

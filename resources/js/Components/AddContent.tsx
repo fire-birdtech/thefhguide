@@ -22,7 +22,7 @@ export default function AddContent ({ add }: { add: (value: string) => void }): 
                 <img src={button.image} alt="" className="absolute inset-0 h-full w-full"/>
               </div>
               <h4 className="mt-2 text-sm font-medium text-gray-500 group-hover:text-blue-600">
-                <button title={`Add ${button.label}`} onClick={() => add(button.slug)}>
+                <button type="button" title={`Add ${button.label}`} onClick={() => add(button.slug)}>
                   <span className="absolute -inset-2.5 z-10"/>
                   <span className="relative">
                     {button.label}

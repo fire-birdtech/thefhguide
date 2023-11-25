@@ -193,6 +193,10 @@ export interface MediaFile {
 export interface Page {
   name: string
   slug: string
+  content: {
+    data: string
+    type: string
+  }[]
 }
 
 export type Cells = Record<string, string>

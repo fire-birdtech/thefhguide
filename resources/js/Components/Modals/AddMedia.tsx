@@ -9,10 +9,10 @@ export default function AddMediaModal ({
   files: MediaFile[],
   open: boolean,
   close: () => void,
-  errors: Partial<Record<"mediaableId" | "mediaableType", string>>,
+  errors?: Partial<Record<"mediaableId" | "mediaableType", string>>,
   recentlySuccessful: boolean,
   onSubmit: (id: number) => void,
-  clearErrors: () => void
+  clearErrors?: () => void
 }): ReactElement {
   const onClose = () => {
     close()

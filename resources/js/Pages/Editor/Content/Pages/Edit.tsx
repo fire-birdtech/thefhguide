@@ -12,12 +12,14 @@ import PrimaryButton from "@/Components/Buttons/PrimaryButton"
 import AddContent from "@/Components/AddContent";
 import {MediaFilesProvider} from "@/contexts/MediaFilesContext";
 import FullWidthHero from "@/Components/Content/Forms/FullWidthHero";
+import {ContentSlug} from "@/enums";
 
 export default function PagesEdit ({ auth, files, page }: PageProps<{ files: MediaFile[], page: Page }>): ReactElement {
   const [addContent, setAddContent] = useState<boolean>(true)
 
   const {data, setData, errors, put} = useForm({
     name: page.name,
+    content: page.content
   })
 
   const submit: FormEventHandler = (e) => {
@@ -27,7 +29,23 @@ export default function PagesEdit ({ auth, files, page }: PageProps<{ files: Med
   }
 
   const add = (value: string) => {
-    console.log(value)
+    let { content } = data
+    content = [
+      ...content,
+      {
+        data: '',
+        type: value,
+      }
+    ]
+
+    setData({
+      ...data,
+      content: [
+        ...content
+      ],
+    })
+
+    setAddContent(false)
   }
 
   return (
@@ -60,13 +78,15 @@ export default function PagesEdit ({ auth, files, page }: PageProps<{ files: Med
                 <InputLabel label="Content" className="sm:mt-px sm:pt-2"/>
                 <MediaFilesProvider initialFiles={files}>
                   <div className="mt-1 py-2 space-y-4 sm:mt-0 sm:col-span-4">
-                    <FullWidthHero/>
+                    {data.content.map((item, index) => {
+                      if (item.type === ContentSlug.HERO_FULL_WIDTH) return <FullWidthHero key={index}/>
+                    })}
                     {addContent ? (
-                        <AddContent add={(value: string) => {
-                          add(value)
-                        }}/>
+                      <AddContent add={(value: string) => {
+                        add(value)
+                      }}/>
                     ) : (
-                      <SecondaryButton>
+                      <SecondaryButton onClick={() => setAddContent(true)}>
                         Add content
                       </SecondaryButton>
                     )}
