@@ -1,6 +1,6 @@
 import {type ReactElement} from "react"
 
-export default function FullWidthHero({ hero }: { hero: { image_url?: string, title: string } }): ReactElement {
+export default function FullWidthHero({ hero }: { hero: { image_url: string, title: string } }): ReactElement {
   return (
     <div>
       <div className="relative overflow-hidden bg-gray-900 px-6 py-20 sm:px-10 sm:py-16 md:px-12 lg:px-20">
