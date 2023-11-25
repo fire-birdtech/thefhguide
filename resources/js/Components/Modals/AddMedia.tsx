@@ -2,27 +2,20 @@ import { Fragment, type ReactElement } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 import { XMarkIcon } from '@heroicons/react/24/solid'
 import {type MediaFile} from "@/types"
-import {useForm} from "@inertiajs/react";
 
 export default function AddMediaModal ({
-  files, mediaableId, mediaableType, open, setOpen
+  files, open, close, errors, recentlySuccessful, onSubmit, clearErrors
 }: {
-  files: MediaFile[], mediaableId: number, mediaableType: string, open: boolean, setOpen: () => void
+  files: MediaFile[],
+  open: boolean,
+  close: () => void,
+  errors: Partial<Record<"mediaableId" | "mediaableType", string>>,
+  recentlySuccessful: boolean,
+  onSubmit: (id: number) => void,
+  clearErrors: () => void
 }): ReactElement {
-  const {post, errors, clearErrors, recentlySuccessful} = useForm({
-    mediaableId,
-    mediaableType,
-  });
-
-  const submit = (id: number) => {
-    post(route('editor.media.attach', [id]), {
-      preserveState: true,
-      preserveScroll: true,
-    })
-  }
-
   const onClose = () => {
-    setOpen()
+    close()
     clearErrors()
   }
 
@@ -96,7 +89,7 @@ export default function AddMediaModal ({
                       <li key={file.id} className="relative">
                         <div className="group aspect-h-7 aspect-w-10 block w-full overflow-hidden rounded-lg bg-gray-100 focus-within:ring-2 focus-within:ring-blue-500 focus-within:ring-offset-2 focus-within:ring-offset-gray-100">
                           <img src={file.url} alt="" className="pointer-events-none object-cover group-hover:opacity-75" />
-                          <button type="button" onClick={() => submit(file.id)} className="absolute inset-0 focus:outline-none">
+                          <button type="button" onClick={() => onSubmit(file.id)} className="absolute inset-0 focus:outline-none">
                             <span className="sr-only">View details for {file.name}</span>
                           </button>
                         </div>

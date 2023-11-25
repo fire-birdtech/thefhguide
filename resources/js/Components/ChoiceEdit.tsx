@@ -1,13 +1,14 @@
 import {type ReactElement, useState} from 'react'
-import { router } from '@inertiajs/react'
+import {router, useForm} from '@inertiajs/react'
 import TextInput from '@/Components/Forms/TextInput'
 import InputLabel from '@/Components/Forms/InputLabel'
 import SecondaryButton from '@/Components/Buttons/SecondaryButton'
 import PrimaryButton from '@/Components/Buttons/PrimaryButton'
 import ChoiceContentForm from '@/Components/Forms/Choices/ChoiceContentForm'
 import { type Choice, type ChoiceContent } from '@/types'
-import AddMediaModal from "@/Components/Modals/AddMedia";
-import {useMediaFiles} from "@/contexts/MediaFilesContext";
+import AddMediaModal from "@/Components/Modals/AddMedia"
+import {useMediaFiles} from "@/contexts/MediaFilesContext"
+import {MediaableType} from "@/enums";
 
 export default function ChoiceEdit ({ choice, close }: {
   choice: Choice
@@ -38,6 +39,18 @@ export default function ChoiceEdit ({ choice, close }: {
     router.put(route('editor.choices.update', [choice]), choiceData, {
       preserveScroll: true,
       onSuccess: () => { close() }
+    })
+  }
+
+  const {post, errors, clearErrors, recentlySuccessful} = useForm({
+    mediaableId: choice.id,
+    mediaableType: MediaableType.CHOICE,
+  });
+
+  const attachImage = (id: number) => {
+    post(route('editor.media.attach', [id]), {
+      preserveState: true,
+      preserveScroll: true,
     })
   }
 
@@ -110,10 +123,12 @@ export default function ChoiceEdit ({ choice, close }: {
 
       <AddMediaModal
         files={files}
-        mediaableId={choice.id}
-        mediaableType="choice"
         open={addImages}
-        setOpen={() => setAddImages(false)}
+        close={() => setAddImages(false)}
+        errors={errors}
+        recentlySuccessful={recentlySuccessful}
+        onSubmit={(id: number) => attachImage(id)}
+        clearErrors={clearErrors}
       />
     </>
   )
