@@ -16,7 +16,9 @@ export default function AddMediaModal ({
 }): ReactElement {
   const onClose = () => {
     close()
-    clearErrors()
+    if (clearErrors !== undefined) {
+      clearErrors()
+    }
   }
 
   return (

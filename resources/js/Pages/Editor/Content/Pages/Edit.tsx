@@ -1,5 +1,5 @@
 import {type FormEventHandler, type ReactElement, useState} from "react"
-import {type Page, type PageProps} from "@/types"
+import {MediaFile, type Page, type PageProps} from "@/types"
 import {Head, useForm} from "@inertiajs/react"
 import Admin from "@/Layouts/Admin"
 import Container from "@/Components/Container"
@@ -10,8 +10,10 @@ import InputError from "@/Components/Forms/InputError"
 import SecondaryButton from "@/Components/Buttons/SecondaryButton"
 import PrimaryButton from "@/Components/Buttons/PrimaryButton"
 import AddContent from "@/Components/AddContent";
+import {MediaFilesProvider} from "@/contexts/MediaFilesContext";
+import FullWidthHero from "@/Components/Content/Forms/FullWidthHero";
 
-export default function PagesEdit ({ auth, page }: PageProps<{ page: Page }>): ReactElement {
+export default function PagesEdit ({ auth, files, page }: PageProps<{ files: MediaFile[], page: Page }>): ReactElement {
   const [addContent, setAddContent] = useState<boolean>(true)
 
   const {data, setData, errors, put} = useForm({
@@ -23,6 +25,11 @@ export default function PagesEdit ({ auth, page }: PageProps<{ page: Page }>): R
 
     put(route('editor.pages.update', [page.slug]))
   }
+
+  const add = (value: string) => {
+    console.log(value)
+  }
+
   return (
     <>
       <Head title="Edit Page"/>
@@ -51,15 +58,20 @@ export default function PagesEdit ({ auth, page }: PageProps<{ page: Page }>): R
 
               <div className="px-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:items-start sm:py-4">
                 <InputLabel label="Content" className="sm:mt-px sm:pt-2"/>
-                <div className="mt-1 py-2 sm:mt-0 sm:col-span-4">
-                  {addContent ? (
-                    <AddContent/>
-                  ) : (
-                    <SecondaryButton>
-                      Add content
-                    </SecondaryButton>
-                  )}
-                </div>
+                <MediaFilesProvider initialFiles={files}>
+                  <div className="mt-1 py-2 space-y-4 sm:mt-0 sm:col-span-4">
+                    <FullWidthHero/>
+                    {addContent ? (
+                        <AddContent add={(value: string) => {
+                          add(value)
+                        }}/>
+                    ) : (
+                      <SecondaryButton>
+                        Add content
+                      </SecondaryButton>
+                    )}
+                  </div>
+                </MediaFilesProvider>
               </div>
 
               <div className="px-6 py-4">

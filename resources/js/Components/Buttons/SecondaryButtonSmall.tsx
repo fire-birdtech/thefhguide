@@ -8,7 +8,7 @@ export default function SecondaryButtonSmall ({ children, onClick, className = '
     className
   )
 
-  return href !== undefined ? (
+  return href !== '' ? (
     <Link href={href} className={styles}>
       {children}
     </Link>

@@ -1,6 +1,7 @@
 type Styles = Record<string, string>
 
 export const textStyles: Styles = {
+  blue: 'text-blue-800',
   emerald: 'text-emerald-800',
   orange: 'text-orange-800',
   purple: 'text-purple-800',
@@ -9,6 +10,7 @@ export const textStyles: Styles = {
   yellow: 'text-yellow-800'
 }
 export const bgStyles: Styles = {
+  blue: 'bg-blue-200',
   emerald: 'bg-emerald-200',
   orange: 'bg-orange-200',
   purple: 'bg-purple-200',
@@ -17,6 +19,7 @@ export const bgStyles: Styles = {
   yellow: 'bg-yellow-200'
 }
 export const bgHoverStyles: Styles = {
+  blue: 'hover:bg-blue-300',
   emerald: 'hover:bg-emerald-300',
   orange: 'hover:bg-orange-300',
   purple: 'hover:bg-purple-300',
@@ -25,6 +28,7 @@ export const bgHoverStyles: Styles = {
   yellow: 'hover:bg-yellow-300'
 }
 export const closeIconStyles: Styles = {
+  blue: 'hover:bg-blue-300 focus:bg-blue-400',
   emerald: 'hover:bg-emerald-300 focus:bg-emerald-400',
   orange: 'hover:bg-orange-300 focus:bg-orange-400',
   purple: 'hover:bg-purple-300 focus:bg-purple-400',
@@ -33,6 +37,7 @@ export const closeIconStyles: Styles = {
   yellow: 'hover:bg-yellow-300 focus:bg-yellow-400'
 }
 export const ringFocusStyles: Styles = {
+  blue: 'focus:ring-blue-300',
   emerald: 'focus:ring-emerald-300',
   orange: 'focus:ring-orange-300',
   purple: 'focus:ring-purple-300',

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Goal;
 use App\Models\GoalPage;
+use App\Models\Media;
 use App\Models\Page;
 use App\Models\Project;
 use Illuminate\Http\Request;
@@ -34,6 +35,7 @@ class PageController extends Controller
     {
         return inertia('Editor/Content/Pages/Edit', [
             'page' => $page,
+            'files' => Media::latest()->take(8)->get(),
         ]);
     }
 

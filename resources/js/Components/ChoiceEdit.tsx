@@ -5,7 +5,7 @@ import InputLabel from '@/Components/Forms/InputLabel'
 import SecondaryButton from '@/Components/Buttons/SecondaryButton'
 import PrimaryButton from '@/Components/Buttons/PrimaryButton'
 import ChoiceContentForm from '@/Components/Forms/Choices/ChoiceContentForm'
-import { type Choice, type ChoiceContent } from '@/types'
+import {type Choice, type ChoiceContent} from '@/types'
 import AddMediaModal from "@/Components/Modals/AddMedia"
 import {useMediaFiles} from "@/contexts/MediaFilesContext"
 import {MediaableType} from "@/enums";
