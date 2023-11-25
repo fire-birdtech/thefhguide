@@ -4,10 +4,11 @@ import AddMediaModal from "@/Components/Modals/AddMedia"
 import {useMediaFiles} from "@/contexts/MediaFilesContext"
 import SecondaryButtonSmall from "@/Components/Buttons/SecondaryButtonSmall"
 import {MediaFile} from "@/types"
+import InputLabel from "@/Components/Forms/InputLabel"
+import TextInput from "@/Components/Forms/TextInput"
 
-export default function FullWidthHero ({ hero, onChange }: { hero: { image_url?: string }, onChange: (value: any) => void }): ReactElement {
+export default function FullWidthHero ({ hero, onChange }: { hero: { image_url?: string, title: string }, onChange: (value: any) => void }): ReactElement {
   const [addImage, setAddImage] = useState<boolean>(false)
-  // const [image, setImage] = useState<MediaFile|undefined>(undefined)
   const files = useMediaFiles()
 
   const onClose = () => {
@@ -17,6 +18,11 @@ export default function FullWidthHero ({ hero, onChange }: { hero: { image_url?:
   const attachFile = (id: number): void => {
     let file = files?.find((file: MediaFile) => file.id === id)
     hero.image_url = file.url
+    onChange(hero)
+  }
+
+  const update = (key: string, value: string) => {
+    hero[key] = value
     onChange(hero)
   }
 
@@ -30,7 +36,7 @@ export default function FullWidthHero ({ hero, onChange }: { hero: { image_url?:
         >
           Full Width Hero
         </ContentBlockHeader>
-        <div className="w-full p-4 border-2 border-blue-200 rounded-b rounded-tr">
+        <div className="w-full p-4 border-2 border-blue-200 rounded-b rounded-tr space-y-4">
           <div>
             {hero.image_url !== undefined ? (
               <img src={hero.image_url} alt=""/>
@@ -42,6 +48,17 @@ export default function FullWidthHero ({ hero, onChange }: { hero: { image_url?:
                 Select image
               </SecondaryButtonSmall>
             )}
+          </div>
+
+          <div>
+            <InputLabel label="Hero Title"/>
+            <div>
+              <TextInput
+                value={hero.title}
+                className="block w-full"
+                onChange={(e) => update('title', e.target.value)}
+              />
+            </div>
           </div>
         </div>
       </div>
