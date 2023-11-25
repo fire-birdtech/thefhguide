@@ -41,7 +41,14 @@ class PageController extends Controller
 
     public function update(Request $request, Page $page)
     {
-        $page->update($request->all());
+        $content = [];
+        foreach ($request->details as $item) {
+            $content[] = $item;
+        }
+        $page->content = $content;
+        $page->name = $request->name;
+
+        $page->save();
 
         return back();
     }

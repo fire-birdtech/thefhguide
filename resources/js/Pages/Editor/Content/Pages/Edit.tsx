@@ -15,11 +15,11 @@ import FullWidthHero from "@/Components/Content/Forms/FullWidthHero";
 import {ContentSlug} from "@/enums";
 
 export default function PagesEdit ({ auth, files, page }: PageProps<{ files: MediaFile[], page: Page }>): ReactElement {
-  const [addContent, setAddContent] = useState<boolean>(true)
+  const [addContent, setAddContent] = useState<boolean>(false)
 
   const {data, setData, errors, put} = useForm({
     name: page.name,
-    content: page.content
+    details: page.content
   })
 
   const submit: FormEventHandler = (e) => {
@@ -29,9 +29,9 @@ export default function PagesEdit ({ auth, files, page }: PageProps<{ files: Med
   }
 
   const add = (value: string) => {
-    let { content } = data
-    content = [
-      ...content,
+    let { details } = data
+    details = [
+      ...details,
       {
         data: '',
         type: value,
@@ -40,12 +40,24 @@ export default function PagesEdit ({ auth, files, page }: PageProps<{ files: Med
 
     setData({
       ...data,
-      content: [
-        ...content
+      details: [
+        ...details
       ],
     })
 
     setAddContent(false)
+  }
+
+  const update = (value: any, index: number) => {
+    let { details } = data
+    details[index] = value
+
+    setData({
+      ...data,
+      details: [
+        ...details,
+      ]
+    })
   }
 
   return (
@@ -78,8 +90,8 @@ export default function PagesEdit ({ auth, files, page }: PageProps<{ files: Med
                 <InputLabel label="Content" className="sm:mt-px sm:pt-2"/>
                 <MediaFilesProvider initialFiles={files}>
                   <div className="mt-1 py-2 space-y-4 sm:mt-0 sm:col-span-4">
-                    {data.content.map((item, index) => {
-                      if (item.type === ContentSlug.HERO_FULL_WIDTH) return <FullWidthHero key={index}/>
+                    {data.details.map((item, index) => {
+                      if (item.type === ContentSlug.HERO_FULL_WIDTH) return <FullWidthHero key={index} hero={item} onChange={(value) => { update(value, index) }}/>
                     })}
                     {addContent ? (
                       <AddContent add={(value: string) => {

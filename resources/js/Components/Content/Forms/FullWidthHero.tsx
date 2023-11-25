@@ -5,9 +5,9 @@ import {useMediaFiles} from "@/contexts/MediaFilesContext"
 import SecondaryButtonSmall from "@/Components/Buttons/SecondaryButtonSmall"
 import {MediaFile} from "@/types"
 
-export default function FullWidthHero (): ReactElement {
+export default function FullWidthHero ({ hero, onChange }: { hero: { image_url?: string }, onChange: (value: any) => void }): ReactElement {
   const [addImage, setAddImage] = useState<boolean>(false)
-  const [image, setImage] = useState<MediaFile|undefined>(undefined)
+  // const [image, setImage] = useState<MediaFile|undefined>(undefined)
   const files = useMediaFiles()
 
   const onClose = () => {
@@ -15,7 +15,9 @@ export default function FullWidthHero (): ReactElement {
   }
 
   const attachFile = (id: number): void => {
-    setImage(files?.find((file: MediaFile) => file.id === id))
+    let file = files?.find((file: MediaFile) => file.id === id)
+    hero.image_url = file.url
+    onChange(hero)
   }
 
   return (
@@ -30,8 +32,8 @@ export default function FullWidthHero (): ReactElement {
         </ContentBlockHeader>
         <div className="w-full p-4 border-2 border-blue-200 rounded-b rounded-tr">
           <div>
-            {image !== undefined ? (
-              <img src={image.url} alt=""/>
+            {hero.image_url !== undefined ? (
+              <img src={hero.image_url} alt=""/>
             ) : (
               <SecondaryButtonSmall onClick={(e) => {
                 e.preventDefault()
