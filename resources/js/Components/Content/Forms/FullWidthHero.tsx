@@ -8,7 +8,7 @@ import InputLabel from "@/Components/Forms/InputLabel"
 import TextInput from "@/Components/Forms/TextInput"
 import HeroButton from "@/Components/Content/Forms/HeroButton";
 
-export default function FullWidthHero ({ hero, onChange }: { hero: { image_url: string, title: string, button?: { text: string, link: string } }, onChange: (value: any) => void }): ReactElement {
+export default function FullWidthHero ({ hero, onChange }: { hero: { image_url: string, title: string, button?: HeroButtonType }, onChange: (value: any) => void }): ReactElement {
   const [addImage, setAddImage] = useState<boolean>(false)
   const files = useMediaFiles()
 
