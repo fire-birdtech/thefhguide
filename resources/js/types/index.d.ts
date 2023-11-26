@@ -200,6 +200,11 @@ export interface Page {
   }[]
 }
 
+export interface HeroButton {
+  text: string
+  link: string
+}
+
 export type Cells = Record<string, string>
 
 export type Actions = Record<string, boolean>

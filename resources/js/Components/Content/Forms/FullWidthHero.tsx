@@ -3,11 +3,12 @@ import ContentBlockHeader from "@/Components/Forms/Choices/ContentBlockHeader"
 import AddMediaModal from "@/Components/Modals/AddMedia"
 import {useMediaFiles} from "@/contexts/MediaFilesContext"
 import SecondaryButtonSmall from "@/Components/Buttons/SecondaryButtonSmall"
-import {MediaFile} from "@/types"
+import {MediaFile, HeroButton as HeroButtonType} from "@/types"
 import InputLabel from "@/Components/Forms/InputLabel"
 import TextInput from "@/Components/Forms/TextInput"
+import HeroButton from "@/Components/Content/Forms/HeroButton";
 
-export default function FullWidthHero ({ hero, onChange }: { hero: { image_url?: string, title: string }, onChange: (value: any) => void }): ReactElement {
+export default function FullWidthHero ({ hero, onChange }: { hero: { image_url: string, title: string, button?: { text: string, link: string } }, onChange: (value: any) => void }): ReactElement {
   const [addImage, setAddImage] = useState<boolean>(false)
   const files = useMediaFiles()
 
@@ -21,9 +22,20 @@ export default function FullWidthHero ({ hero, onChange }: { hero: { image_url?:
     onChange(hero)
   }
 
-  const update = (key: string, value: string) => {
-    hero[key] = value
+  const addHeroButton = (): void => {
+    hero.button = {
+      text: '',
+      link: '',
+    }
     onChange(hero)
+  }
+
+  const update = (key: "image_url"|"title"|"button", value: string|HeroButtonType) => {
+    let updatedHero = {
+      ...hero,
+      [key]: value
+    }
+    onChange(updatedHero)
   }
 
   return (
@@ -52,7 +64,7 @@ export default function FullWidthHero ({ hero, onChange }: { hero: { image_url?:
 
           <div>
             <InputLabel label="Hero Title"/>
-            <div>
+            <div className="mt-1">
               <TextInput
                 value={hero.title}
                 className="block w-full"
@@ -60,6 +72,16 @@ export default function FullWidthHero ({ hero, onChange }: { hero: { image_url?:
               />
             </div>
           </div>
+
+          {hero.button !== undefined ? (
+            <HeroButton button={hero.button} update={update}/>
+          ) : null}
+
+          {hero.button === undefined ? (
+            <button type="button" onClick={() => addHeroButton()} className="rounded bg-white px-2 py-1 text-xs font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50">
+              Add hero button
+            </button>
+          ) : null}
         </div>
       </div>
 
