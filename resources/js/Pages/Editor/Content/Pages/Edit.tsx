@@ -13,6 +13,7 @@ import AddContent from "@/Components/AddContent";
 import {MediaFilesProvider} from "@/contexts/MediaFilesContext";
 import FullWidthHero from "@/Components/Content/Forms/FullWidthHero";
 import {ContentSlug} from "@/enums";
+import ContentRightImage from "@/Components/Content/Forms/ContentRightImage";
 
 export default function PagesEdit ({ auth, files, page }: PageProps<{ files: MediaFile[], page: Page }>): ReactElement {
   const [addContent, setAddContent] = useState<boolean>(false)
@@ -25,7 +26,9 @@ export default function PagesEdit ({ auth, files, page }: PageProps<{ files: Med
   const submit: FormEventHandler = (e) => {
     e.preventDefault()
 
-    put(route('editor.pages.update', [page.slug]))
+    put(route('editor.pages.update', [page.slug]), {
+      preserveScroll: true,
+    })
   }
 
   const add = (value: string) => {
@@ -107,6 +110,7 @@ export default function PagesEdit ({ auth, files, page }: PageProps<{ files: Med
                   <div className="mt-1 py-2 space-y-4 sm:mt-0 sm:col-span-4">
                     {data.details.map((item, index) => {
                       if (item.type === ContentSlug.HERO_FULL_WIDTH) return <FullWidthHero key={index} hero={item} onChange={(value) => { update(value, index) }}/>
+                      if (item.type === ContentSlug.CONTENT_RIGHT_IMAGE) return <ContentRightImage key={index} content={item} onChange={(value) => { update(value, index) }}/>
                     })}
                     {addContent ? (
                       <AddContent add={(value: string) => {
