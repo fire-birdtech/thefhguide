@@ -30,13 +30,28 @@ export default function PagesEdit ({ auth, files, page }: PageProps<{ files: Med
 
   const add = (value: string) => {
     let { details } = data
-    details = [
-      ...details,
-      {
-        data: '',
-        type: value,
-      }
-    ]
+
+    if (value === ContentSlug.HERO_FULL_WIDTH) {
+      details = [
+        ...details,
+        {
+          type: value,
+          image_url: '',
+          title: '',
+        }
+      ]
+    }
+    if (value === ContentSlug.CONTENT_RIGHT_IMAGE) {
+      details = [
+        ...details,
+        {
+          type: value,
+          image_url: '',
+          title: '',
+          body: '',
+        }
+      ]
+    }
 
     setData({
       ...data,

@@ -197,6 +197,8 @@ export interface Page {
     data?: string
     type?: string
     image_url?: string
+    title?: string
+    body?: strings
   }[]
 }
 
