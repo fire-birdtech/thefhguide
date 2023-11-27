@@ -17,6 +17,7 @@ export enum ContentSlug {
   HERO_FULL_WIDTH = 'hero-full-width',
   HERO_TWO_COLUMN = 'hero-two-column',
   IMAGE_LINK_GRID = 'image-link-grid',
+  CONTENT_RIGHT_IMAGE = 'content-right-aligned-image'
 }
 
 export enum MediaableType {
