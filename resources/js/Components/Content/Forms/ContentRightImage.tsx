@@ -4,14 +4,16 @@ import {useForm} from "@inertiajs/react";
 import InputLabel from "@/Components/Forms/InputLabel";
 import TextInput from "@/Components/Forms/TextInput";
 
-export default function ContentRightImage({ content, onChange }: {content: { type?: string, image_url?: string, title?: string, body?: string, }, onChange: (value: any) => void }): ReactElement {
+export default function ContentRightImage({ content, onChange }: {content: { type?: string, image_url?: string, title?: string, body?: string }, onChange: (value: any) => void }): ReactElement {
   const {data, setData} = useForm({
     ...content,
   })
 
   const update = (key: "title", value: string) => {
-    setData(key, value)
-    onChange(data)
+    let updatedContent = data
+    updatedContent[key] = value
+    setData({ ...updatedContent })
+    onChange(updatedContent)
   }
 
   return (
