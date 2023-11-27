@@ -7,6 +7,7 @@ import {useMediaFiles} from "@/contexts/MediaFilesContext";
 import AddMediaModal from "@/Components/Modals/AddMedia";
 import {MediaFile} from "@/types";
 import SecondaryButtonSmall from "@/Components/Buttons/SecondaryButtonSmall";
+import TextEditor from "@/Components/Forms/TextEditor";
 
 export default function ContentRightImage({ content, onChange }: {content: { type?: string, image_url?: string, title?: string, body?: string }, onChange: (value: any) => void }): ReactElement {
   const [addImage, setAddImage] = useState<boolean>(false)
@@ -28,7 +29,7 @@ export default function ContentRightImage({ content, onChange }: {content: { typ
     onChange(updatedContent)
   }
 
-  const update = (key: "title", value: string) => {
+  const update = (key: "title"|"body", value: string) => {
     let updatedContent = data
     updatedContent[key] = value
     setData({ ...updatedContent })
@@ -70,6 +71,13 @@ export default function ContentRightImage({ content, onChange }: {content: { typ
                 Select image
               </SecondaryButtonSmall>
             )}
+          </div>
+
+          <div>
+            <InputLabel label="Content Body"/>
+            <div className="mt-1">
+              <TextEditor update={(value) => update("body", value)} value={data.body}/>
+            </div>
           </div>
         </div>
       </div>
