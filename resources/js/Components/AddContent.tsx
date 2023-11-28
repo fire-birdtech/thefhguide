@@ -5,12 +5,14 @@ import HeroFullWidth from "@images/hero-full-width.png"
 import HeroTwoColumn from "@images/hero-two-column.png"
 import ImageLinkGrid from "@images/image-link-grid.png"
 import ContentRightAlignedImage from "@images/content-with-right-aligned-image.png"
+import SimpleContent from "@images/simple-content.png"
 
 const buttons = [
   { label: 'Hero Full Width', slug: ContentSlug.HERO_FULL_WIDTH, image: HeroFullWidth },
   { label: 'Hero Two Column', slug: ContentSlug.HERO_TWO_COLUMN, image: HeroTwoColumn },
   { label: 'Image Link Grid', slug: ContentSlug.IMAGE_LINK_GRID, image: ImageLinkGrid },
   { label: 'Content (Right-aligned image)', slug: ContentSlug.CONTENT_RIGHT_IMAGE, image: ContentRightAlignedImage },
+  { label: 'Simple Content', slug: ContentSlug.SIMPLE_CONTENT, image: SimpleContent },
 ]
 
 export default function AddContent ({ add }: { add: (value: string) => void }): ReactElement {

@@ -14,6 +14,7 @@ import {MediaFilesProvider} from "@/contexts/MediaFilesContext";
 import FullWidthHero from "@/Components/Content/Forms/FullWidthHero";
 import {ContentSlug} from "@/enums";
 import ContentRightImage from "@/Components/Content/Forms/ContentRightImage";
+import SimpleContent from "@/Components/Content/Forms/SimpleContent";
 
 export default function PagesEdit ({ auth, files, page }: PageProps<{ files: MediaFile[], page: Page }>): ReactElement {
   const [addContent, setAddContent] = useState<boolean>(false)
@@ -50,6 +51,16 @@ export default function PagesEdit ({ auth, files, page }: PageProps<{ files: Med
         {
           type: value,
           image_url: '',
+          title: '',
+          body: '',
+        }
+      ]
+    }
+    if (value === ContentSlug.SIMPLE_CONTENT) {
+      details = [
+        ...details,
+        {
+          type: value,
           title: '',
           body: '',
         }
@@ -111,6 +122,7 @@ export default function PagesEdit ({ auth, files, page }: PageProps<{ files: Med
                     {data.details.map((item, index) => {
                       if (item.type === ContentSlug.HERO_FULL_WIDTH) return <FullWidthHero key={index} hero={item} onChange={(value) => { update(value, index) }}/>
                       if (item.type === ContentSlug.CONTENT_RIGHT_IMAGE) return <ContentRightImage key={index} content={item} onChange={(value) => { update(value, index) }}/>
+                      if (item.type === ContentSlug.SIMPLE_CONTENT) return <SimpleContent key={index} content={item} onChange={(value) => { update(value, index) }}/>
                     })}
                     {addContent ? (
                       <AddContent add={(value: string) => {
