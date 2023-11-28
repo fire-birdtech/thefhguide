@@ -197,6 +197,7 @@ export interface Page {
     data?: string
     type?: string
     image_url?: string
+    image_width?: string
     title?: string
     body?: string
   }[]

@@ -8,9 +8,12 @@ import AddMediaModal from "@/Components/Modals/AddMedia";
 import {MediaFile} from "@/types";
 import SecondaryButtonSmall from "@/Components/Buttons/SecondaryButtonSmall";
 import TextEditor from "@/Components/Forms/TextEditor";
+import InputError from "@/Components/Forms/InputError";
 
-export default function ContentRightImage({ content, onChange }: {content: { type?: string, image_url?: string, title?: string, body?: string }, onChange: (value: any) => void }): ReactElement {
+export default function ContentRightImage({ content, onChange }: { content: { type?: string, image_url?: string, image_width?: string, title?: string, body?: string }, onChange: (value: any) => void }): ReactElement {
   const [addImage, setAddImage] = useState<boolean>(false)
+  const [showImageWidthErrorMessage, setShowImageWidthErrorMessage] = useState<boolean>(false)
+
   const files = useMediaFiles()
 
   const {data, setData} = useForm({
@@ -29,7 +32,12 @@ export default function ContentRightImage({ content, onChange }: {content: { typ
     onChange(updatedContent)
   }
 
-  const update = (key: "title"|"body", value: string) => {
+  const update = (key: "title"|"body"|"image_width", value: string) => {
+    if (key === "image_width" && parseInt(value) > 500) {
+      setShowImageWidthErrorMessage(true)
+    } else if (key === "image_width" && parseInt(value) < 500) {
+      setShowImageWidthErrorMessage(false)
+    }
     let updatedContent = data
     updatedContent[key] = value
     setData({ ...updatedContent })
@@ -61,8 +69,25 @@ export default function ContentRightImage({ content, onChange }: {content: { typ
 
           <div>
             <InputLabel label="Image" className="mb-1"/>
-            {data.image_url !== null ? (
-              <img src={data.image_url} alt="" width="300"/>
+            {data.image_url !== '' ? (
+              <>
+                <img src={data.image_url} alt="" width="300" className="border border-black"/>
+                <div className="mt-2">
+                  <InputLabel label="Image width"/>
+                  <div className="mt-1">
+                    <TextInput
+                      value={data.image_width}
+                      className="block w-full"
+                      onChange={(e) => {
+                        update('image_width', e.target.value)
+                      }}
+                    />
+                    {showImageWidthErrorMessage ? (
+                      <InputError message="Image cannot be wider than 500" className="mt-1"/>
+                    ) : null}
+                  </div>
+                </div>
+              </>
             ) : (
               <SecondaryButtonSmall onClick={(e) => {
                 e.preventDefault()

@@ -51,6 +51,7 @@ export default function PagesEdit ({ auth, files, page }: PageProps<{ files: Med
         {
           type: value,
           image_url: '',
+          image_width: '',
           title: '',
           body: '',
         }
