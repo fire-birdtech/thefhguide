@@ -6,6 +6,7 @@ import {ContentSlug} from "@/enums";
 import FullWidthHero from "@/Components/Content/Display/FullWidthHero";
 import ContentRightImage from "@/Components/Content/Display/ContentRightImage";
 import ArticleWrapper from "@/Components/Content/Forms/ArticleWrapper";
+import SimpleContent from "@/Components/Content/Display/SimpleContent";
 
 export default function PagesShow({ page, title }: { page: Page, title: string }): ReactElement {
   const hero = page.content.find((item) => item.type === ContentSlug.HERO_FULL_WIDTH)
@@ -23,6 +24,7 @@ export default function PagesShow({ page, title }: { page: Page, title: string }
         <ArticleWrapper>
           {page.content.map((item, index) => {
             if (item.type === ContentSlug.CONTENT_RIGHT_IMAGE) return <ContentRightImage key={index} content={item}/>
+            if (item.type === ContentSlug.SIMPLE_CONTENT) return <SimpleContent key={index} content={item}/>
           })}
         </ArticleWrapper>
       </div>
