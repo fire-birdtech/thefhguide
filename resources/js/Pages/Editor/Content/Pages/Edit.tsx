@@ -1,4 +1,4 @@
-import {type FormEventHandler, type ReactElement, useState} from "react"
+import {type FormEventHandler, type ReactElement} from "react"
 import {MediaFile, type Page, type PageProps} from "@/types"
 import {Head, useForm} from "@inertiajs/react"
 import Admin from "@/Layouts/Admin"
@@ -9,16 +9,11 @@ import TextInput from "@/Components/Forms/TextInput"
 import InputError from "@/Components/Forms/InputError"
 import SecondaryButton from "@/Components/Buttons/SecondaryButton"
 import PrimaryButton from "@/Components/Buttons/PrimaryButton"
-import AddContent from "@/Components/AddContent";
 import {MediaFilesProvider} from "@/contexts/MediaFilesContext";
-import FullWidthHero from "@/Components/Content/Forms/FullWidthHero";
 import {ContentSlug} from "@/enums";
-import ContentRightImage from "@/Components/Content/Forms/ContentRightImage";
-import SimpleContent from "@/Components/Content/Forms/SimpleContent";
+import ContentSectionEdit from "@/Components/ContentSectionEdit";
 
 export default function PagesEdit ({ auth, files, page }: PageProps<{ files: MediaFile[], page: Page }>): ReactElement {
-  const [addContent, setAddContent] = useState<boolean>(false)
-
   const {data, setData, errors, put} = useForm({
     name: page.name,
     details: page.content
@@ -29,6 +24,23 @@ export default function PagesEdit ({ auth, files, page }: PageProps<{ files: Med
 
     put(route('editor.pages.update', [page.slug]), {
       preserveScroll: true,
+    })
+  }
+
+  const addContent = () => {
+    let { details } = data
+    details = [
+      ...details,
+      {
+        title: '',
+      }
+    ]
+
+    setData({
+      ...data,
+      details: [
+        ...details
+      ],
     })
   }
 
@@ -74,8 +86,6 @@ export default function PagesEdit ({ auth, files, page }: PageProps<{ files: Med
         ...details
       ],
     })
-
-    setAddContent(false)
   }
 
   const update = (value: any, index: number) => {
@@ -119,21 +129,13 @@ export default function PagesEdit ({ auth, files, page }: PageProps<{ files: Med
               <div className="px-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:items-start sm:py-4">
                 <InputLabel label="Content" className="sm:mt-px sm:pt-2"/>
                 <MediaFilesProvider initialFiles={files}>
-                  <div className="mt-1 py-2 space-y-4 sm:mt-0 sm:col-span-4">
-                    {data.details.map((item, index) => {
-                      if (item.type === ContentSlug.HERO_FULL_WIDTH) return <FullWidthHero key={index} hero={item} onChange={(value) => { update(value, index) }}/>
-                      if (item.type === ContentSlug.CONTENT_RIGHT_IMAGE) return <ContentRightImage key={index} content={item} onChange={(value) => { update(value, index) }}/>
-                      if (item.type === ContentSlug.SIMPLE_CONTENT) return <SimpleContent key={index} content={item} onChange={(value) => { update(value, index) }}/>
-                    })}
-                    {addContent ? (
-                      <AddContent add={(value: string) => {
-                        add(value)
-                      }}/>
-                    ) : (
-                      <SecondaryButton onClick={() => setAddContent(true)}>
-                        Add content
-                      </SecondaryButton>
-                    )}
+                  <div className="mt-1 space-y-4 sm:mt-0 sm:col-span-4">
+                    {data.details.map((item, index) => (
+                      <ContentSectionEdit key={index} content={item} onChange={(value) => { update(value, index) }}/>
+                    ))}
+                    <SecondaryButton onClick={() => addContent()}>
+                      Add content
+                    </SecondaryButton>
                   </div>
                 </MediaFilesProvider>
               </div>

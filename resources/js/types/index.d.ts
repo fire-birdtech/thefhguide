@@ -193,15 +193,19 @@ export interface MediaFile {
 export interface Page {
   name: string
   slug: string
-  content: {
-    data?: string
-    type?: string
-    image_url?: string
-    image_width?: string
-    title?: string
-    body?: string
-  }[]
+  content: PageContent[]
 }
+
+export interface PageContent {
+  type?: string
+  image_url?: string
+  image_width?: string
+  title?: string
+  body?: string
+}
+
+
+export type ContentKeys = "title"|"body"|"image_url"|"image_width"
 
 export interface HeroButton {
   text: string
