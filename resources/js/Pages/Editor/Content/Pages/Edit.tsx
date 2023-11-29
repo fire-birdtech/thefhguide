@@ -31,9 +31,7 @@ export default function PagesEdit ({ auth, files, page }: PageProps<{ files: Med
     let { details } = data
     details = [
       ...details,
-      {
-        title: '',
-      }
+      {}
     ]
 
     setData({
@@ -134,7 +132,7 @@ export default function PagesEdit ({ auth, files, page }: PageProps<{ files: Med
                       <ContentSectionEdit key={index} content={item} onChange={(value) => { update(value, index) }}/>
                     ))}
                     <SecondaryButton onClick={() => addContent()}>
-                      Add content
+                      Add section
                     </SecondaryButton>
                   </div>
                 </MediaFilesProvider>
