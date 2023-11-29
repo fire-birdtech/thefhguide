@@ -1,14 +1,15 @@
 import {Fragment, type ReactElement} from "react"
 import {Dialog, Transition} from "@headlessui/react";
 import {XMarkIcon} from "@heroicons/react/24/solid";
-import {ContentKeys} from "@/types";
+import {ContentElementKey} from "@/enums";
+import {ElementKey} from "@/types";
 
 export default function AddContentElementModal ({ add, open, close }: {
-  add: (key: ContentKeys) => void,
+  add: (key: ElementKey) => void,
   open: boolean,
   close: () => void,
 }): ReactElement {
-  const handleClick = (key: ContentKeys) => {
+  const handleClick = (key: ElementKey) => {
     add(key)
     close()
   }
@@ -57,7 +58,7 @@ export default function AddContentElementModal ({ add, open, close }: {
                 </Dialog.Title>
                 <Dialog.Description className="p-4">
                   <div className="grid gap-2 sm:grid-cols-2 md:grid-cols-3">
-                    <button onClick={() => handleClick("title")} className="bg-white p-4 transition duration-300 rounded-lg text-left hover:bg-gray-100">
+                    <button onClick={() => handleClick(ContentElementKey.TITLE)} className="bg-white p-4 transition duration-300 rounded-lg text-left hover:bg-gray-100">
                       <div className="flex">
                         <div className="mt-1.5 flex justify-center flex-shrink-0 rounded-s-xl">
                           <svg className="h-6 w-6 text-gray-500" width="16px" height="16px" viewBox="0 0 16 16">
@@ -82,7 +83,7 @@ export default function AddContentElementModal ({ add, open, close }: {
                       </div>
                     </button>
 
-                    <button className="bg-white p-4 transition duration-300 rounded-lg text-left hover:bg-gray-100">
+                    <button onClick={() => handleClick(ContentElementKey.RIGHT_ALIGNED_IMAGE)} className="bg-white p-4 transition duration-300 rounded-lg text-left hover:bg-gray-100">
                       <div className="flex">
                         <div className="mt-1.5 flex justify-center flex-shrink-0 rounded-s-xl">
                           <svg className="h-6 w-6 text-gray-500" width="16px" height="16px" viewBox="0 0 16 16">

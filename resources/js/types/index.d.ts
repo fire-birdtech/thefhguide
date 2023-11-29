@@ -1,3 +1,5 @@
+import {ContentElementKey} from "@/enums";
+
 export interface User {
   id: number
   name: string
@@ -196,16 +198,14 @@ export interface Page {
   content: PageContent[]
 }
 
-export interface PageContent {
-  type?: string
-  image_url?: string
-  image_width?: string
-  title?: string
-  body?: string
+export type PageContent = {
+  [key in ContentElementKey]: string|ContentImage;
 }
 
-
-export type ContentKeys = "title"|"body"|"image_url"|"image_width"
+export interface ContentImage {
+  url: string
+  width: string
+}
 
 export interface HeroButton {
   text: string
