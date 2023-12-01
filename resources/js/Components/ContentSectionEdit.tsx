@@ -7,6 +7,7 @@ import SecondaryButtonSmall from "@/Components/Buttons/SecondaryButtonSmall";
 import AddContentElementModal from "@/Components/Modals/AddContentElement";
 import {ContentElementKey} from "@/enums";
 import RightAlignedImage from "@/Components/Forms/RightAlignedImage";
+import Text from "@/Components/Forms/Text";
 
 export default function ContentSectionEdit({ content, onChange }: { content: PageContent, onChange: (value: any) => void  }): ReactElement {
   const [addElement, setAddElement] = useState<boolean>(false)
@@ -47,6 +48,7 @@ export default function ContentSectionEdit({ content, onChange }: { content: Pag
           {Object.entries(content).map(([key, value]) => {
             if (key === ContentElementKey.TITLE) return <SectionTitle key={key} title={value} onChange={(value) => update(key as ElementKey, value)}/>
             if (key === ContentElementKey.RIGHT_ALIGNED_IMAGE) return <RightAlignedImage key={key} image={value} onChange={(value: ContentImage) => update(key as ElementKey, value)}/>
+            if (key === ContentElementKey.TEXT) return <Text text={value} onChange={(value) => update(key as ElementKey, value)}/>
           })}
 
           <SecondaryButtonSmall onClick={() => setAddElement(true)}>

@@ -24,6 +24,7 @@ export enum ContentSlug {
 export enum ContentElementKey {
   TITLE = 'title',
   RIGHT_ALIGNED_IMAGE = 'right-aligned-image',
+  TEXT = 'text',
 }
 
 export enum MediaableType {

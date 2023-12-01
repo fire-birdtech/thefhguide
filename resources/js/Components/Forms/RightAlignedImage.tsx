@@ -23,7 +23,7 @@ export default function RightAlignedImage({ image, onChange }: { image: ContentI
   }
 
   const update = (key: "url"|"width", value: number|string): void => {
-    (key === "width" && parseInt(value) > 500)
+    (key === "width" && parseInt(value as string) > 500)
       ? setShowImageWidthErrorMessage(true)
       : setShowImageWidthErrorMessage(false)
     let file = files?.find((file: MediaFile) => file.id === value)
