@@ -204,7 +204,7 @@ export interface PageContentSection {
 
 export interface PageContentElement {
   type: ContentElementType
-  data: string
+  data: string|ContentImage
 }
 
 export interface ContentImage {

@@ -19,12 +19,16 @@ export default function ContentSectionEdit({ section, index, onChange }: { secti
 
   const add = (type: ContentElementType) => {
     let updatedContent = data
-    updatedContent.push({ type: type, data: '' })
+    if (type === ContentElementType.RIGHT_ALIGNED_IMAGE) {
+      updatedContent.push({ type: type, data: { url: '', width: '' }})
+    } else {
+      updatedContent.push({ type: type, data: '' })
+    }
     setData(updatedContent)
     onChange(updatedContent)
   }
 
-  const update = (index: number, value: string) => {
+  const update = (index: number, value: string|ContentImage) => {
     let updatedContent = data
     updatedContent[index].data = value
     setData(updatedContent)
@@ -43,7 +47,7 @@ export default function ContentSectionEdit({ section, index, onChange }: { secti
         <div className="w-full p-4 border-2 border-blue-200 rounded-b-md rounded-tr-md space-y-4">
           {data.map((element, index) => {
             if (element.type === ContentElementType.TITLE) return <SectionTitle key={index} title={element.data} onChange={(value) => update(index, value)}/>
-            if (element.type === ContentElementType.RIGHT_ALIGNED_IMAGE) return <RightAlignedImage key={index} image={value} onChange={(value: ContentImage) => update(key as ElementKey, value)}/>
+            if (element.type === ContentElementType.RIGHT_ALIGNED_IMAGE) return <RightAlignedImage key={index} image={element.data} onChange={(value: ContentImage) => update(index, value)}/>
             if (element.type === ContentElementType.TEXT) return <Text key={index} text={value} onChange={(value) => update(key as ElementKey, value)}/>
           })}
 
