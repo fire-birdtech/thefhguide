@@ -1,4 +1,4 @@
-import {ContentElementKey} from "@/enums";
+import {ContentElementType} from "@/enums";
 
 export interface User {
   id: number
@@ -195,11 +195,16 @@ export interface MediaFile {
 export interface Page {
   name: string
   slug: string
-  content: PageContent[]
+  content: PageContentElement[][]
 }
 
-export type PageContent = {
-  [key in ContentElementKey]: string|ContentImage;
+export interface PageContentSection {
+  [key: number]: PageContentElement[]
+}
+
+export interface PageContentElement {
+  type: ContentElementType
+  data: string
 }
 
 export interface ContentImage {

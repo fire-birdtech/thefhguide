@@ -21,7 +21,7 @@ export enum ContentSlug {
   SIMPLE_CONTENT = 'simple-content'
 }
 
-export enum ContentElementKey {
+export enum ContentElementType {
   TITLE = 'title',
   RIGHT_ALIGNED_IMAGE = 'right-aligned-image',
   TEXT = 'text',

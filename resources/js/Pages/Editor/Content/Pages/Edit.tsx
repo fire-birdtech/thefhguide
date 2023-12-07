@@ -10,7 +10,6 @@ import InputError from "@/Components/Forms/InputError"
 import SecondaryButton from "@/Components/Buttons/SecondaryButton"
 import PrimaryButton from "@/Components/Buttons/PrimaryButton"
 import {MediaFilesProvider} from "@/contexts/MediaFilesContext";
-import {ContentSlug} from "@/enums";
 import ContentSectionEdit from "@/Components/ContentSectionEdit";
 
 export default function PagesEdit ({ auth, files, page }: PageProps<{ files: MediaFile[], page: Page }>): ReactElement {
@@ -31,52 +30,8 @@ export default function PagesEdit ({ auth, files, page }: PageProps<{ files: Med
     let { details } = data
     details = [
       ...details,
-      {}
+      []
     ]
-
-    setData({
-      ...data,
-      details: [
-        ...details
-      ],
-    })
-  }
-
-  const add = (value: string) => {
-    let { details } = data
-
-    if (value === ContentSlug.HERO_FULL_WIDTH) {
-      details = [
-        ...details,
-        {
-          type: value,
-          image_url: '',
-          title: '',
-        }
-      ]
-    }
-    if (value === ContentSlug.CONTENT_RIGHT_IMAGE) {
-      details = [
-        ...details,
-        {
-          type: value,
-          image_url: '',
-          image_width: '',
-          title: '',
-          body: '',
-        }
-      ]
-    }
-    if (value === ContentSlug.SIMPLE_CONTENT) {
-      details = [
-        ...details,
-        {
-          type: value,
-          title: '',
-          body: '',
-        }
-      ]
-    }
 
     setData({
       ...data,
@@ -129,7 +84,7 @@ export default function PagesEdit ({ auth, files, page }: PageProps<{ files: Med
                 <MediaFilesProvider initialFiles={files}>
                   <div className="mt-1 space-y-4 sm:mt-0 sm:col-span-4">
                     {data.details.map((item, index) => (
-                      <ContentSectionEdit key={index} content={item} onChange={(value) => { update(value, index) }}/>
+                      <ContentSectionEdit key={index} section={item} index={index} onChange={(value) => { update(value, index) }}/>
                     ))}
                     <SecondaryButton onClick={() => addContent()}>
                       Add section

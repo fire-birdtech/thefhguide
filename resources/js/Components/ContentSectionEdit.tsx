@@ -1,37 +1,33 @@
 import {type ReactElement, useState} from "react"
 import ContentBlockHeader from "@/Components/Forms/Choices/ContentBlockHeader";
-import {ContentImage, type ElementKey, type PageContent} from "@/types"
+import {ContentImage, PageContentElement} from "@/types"
 import {useForm} from "@inertiajs/react";
 import SectionTitle from "@/Components/Forms/SectionTitle";
 import SecondaryButtonSmall from "@/Components/Buttons/SecondaryButtonSmall";
 import AddContentElementModal from "@/Components/Modals/AddContentElement";
-import {ContentElementKey} from "@/enums";
+import {ContentElementType} from "@/enums";
 import RightAlignedImage from "@/Components/Forms/RightAlignedImage";
 import Text from "@/Components/Forms/Text";
 
-export default function ContentSectionEdit({ content, onChange }: { content: PageContent, onChange: (value: any) => void  }): ReactElement {
+export default function ContentSectionEdit({ section, index, onChange }: { section: PageContentElement[], index: number, onChange: (value: any) => void  }): ReactElement {
   const [addElement, setAddElement] = useState<boolean>(false)
-  const {data, setData} = useForm({
-    ...content,
-  })
+  const {data, setData} = useForm(section)
 
   const onClose = () => {
     setAddElement(false)
   }
 
-  const add = (key: ElementKey) => {
+  const add = (type: ContentElementType) => {
     let updatedContent = data
-    key === ContentElementKey.RIGHT_ALIGNED_IMAGE
-      ? updatedContent[key] = { url: '', width: '' }
-      : updatedContent[key] = ''
-    setData({ ...updatedContent })
+    updatedContent.push({ type: type, data: '' })
+    setData(updatedContent)
     onChange(updatedContent)
   }
 
-  const update = (key: ElementKey, value: string|ContentImage) => {
+  const update = (index: number, value: string) => {
     let updatedContent = data
-    updatedContent[key] = value
-    setData({ ...updatedContent })
+    updatedContent[index].data = value
+    setData(updatedContent)
     onChange(updatedContent)
   }
 
@@ -45,10 +41,10 @@ export default function ContentSectionEdit({ content, onChange }: { content: Pag
           Content Section
         </ContentBlockHeader>
         <div className="w-full p-4 border-2 border-blue-200 rounded-b-md rounded-tr-md space-y-4">
-          {Object.entries(content).map(([key, value]) => {
-            if (key === ContentElementKey.TITLE) return <SectionTitle key={key} title={value} onChange={(value) => update(key as ElementKey, value)}/>
-            if (key === ContentElementKey.RIGHT_ALIGNED_IMAGE) return <RightAlignedImage key={key} image={value} onChange={(value: ContentImage) => update(key as ElementKey, value)}/>
-            if (key === ContentElementKey.TEXT) return <Text text={value} onChange={(value) => update(key as ElementKey, value)}/>
+          {data.map((element, index) => {
+            if (element.type === ContentElementType.TITLE) return <SectionTitle key={index} title={element.data} onChange={(value) => update(index, value)}/>
+            if (element.type === ContentElementType.RIGHT_ALIGNED_IMAGE) return <RightAlignedImage key={index} image={value} onChange={(value: ContentImage) => update(key as ElementKey, value)}/>
+            if (element.type === ContentElementType.TEXT) return <Text key={index} text={value} onChange={(value) => update(key as ElementKey, value)}/>
           })}
 
           <SecondaryButtonSmall onClick={() => setAddElement(true)}>
