@@ -48,7 +48,7 @@ export default function ContentSectionEdit({ section, index, onChange }: { secti
           {data.map((element, index) => {
             if (element.type === ContentElementType.TITLE) return <SectionTitle key={index} title={element.data} onChange={(value) => update(index, value)}/>
             if (element.type === ContentElementType.RIGHT_ALIGNED_IMAGE) return <RightAlignedImage key={index} image={element.data} onChange={(value: ContentImage) => update(index, value)}/>
-            if (element.type === ContentElementType.TEXT) return <Text key={index} text={value} onChange={(value) => update(key as ElementKey, value)}/>
+            if (element.type === ContentElementType.TEXT) return <Text key={index} text={element.data} onChange={(value) => update(index, value)}/>
           })}
 
           <SecondaryButtonSmall onClick={() => setAddElement(true)}>
