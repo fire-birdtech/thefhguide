@@ -16,7 +16,7 @@ export default function TextEditor ({ update, value, className = '' }: { classNa
       attributes: {
         class: classNames(
           className,
-          'prose prose-sm max-w-6xl border border-gray-300 prose-a:text-blue-500 rounded-md shadow-sm text-sm p-3.5 min-h-32 overflow-auto focus:outline-none focus-within:border-blue-300 focus-within:ring focus-within:ring-blue-200 focus-within:ring-opacity-50'
+          'prose prose-sm max-w-6xl border border-gray-300 prose-a:text-blue-500 rounded-md shadow-sm text-sm p-3.5 min-h-16 overflow-auto focus:outline-none focus-within:border-blue-300 focus-within:ring focus-within:ring-blue-200 focus-within:ring-opacity-50'
         )
       }
     }
