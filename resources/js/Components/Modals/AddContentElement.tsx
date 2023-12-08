@@ -135,6 +135,35 @@ export default function AddContentElementModal ({ add, open, close }: {
                         </div>
                       </div>
                     </button>
+                    <button onClick={() => handleClick(ContentElementType.RESOURCE_LIST)} className="bg-white p-4 transition duration-300 rounded-lg text-left hover:bg-gray-100">
+                      <div className="flex">
+                        <div className="mt-1.5 flex justify-center flex-shrink-0 rounded-s-xl">
+                          <svg className="h-6 w-6 text-gray-500" width="16px" height="16px" viewBox="0 0 16 16">
+                            <g stroke="currentColor" strokeWidth="1" fill="none" fillRule="evenodd">
+                              <path d="M1,15 L1,2 C1,1.44771525 1.44771525,1 2,1 L14,1 C14.5522847,1 15,1.44771525 15,2 L15,15 L15,15"></path>
+                              <line x1="4" y1="3" x2="12" y2="3" stroke="#2563EB" strokeLinecap="round"></line>
+                              <path d="M4.4394,4.5403875 C4.4618,4.4865375 4.5382,4.4865375 4.5606,4.5403875 L4.6647,4.7907375 L4.9349,4.8123875 C4.9931,4.8170375 5.0167,4.8896375 4.97235,4.9276375 L4.7665,5.1039875 L4.82935,5.3676375 C4.8429,5.4244375 4.78115,5.4692875 4.73135,5.4388875 L4.5,5.2975875 L4.26865,5.4388875 C4.21885,5.4692875 4.1571,5.4243875 4.17065,5.3676375 L4.2335,5.1039875 L4.02765,4.9276375 C3.9833,4.8896375 4.0069,4.8170375 4.0651,4.8123875 L4.3353,4.7907375 L4.4394,4.5404375 L4.4394,4.5403875 Z" fill="#2563EB" fillRule="nonzero"></path>
+                              <line x1="6" y1="5" x2="11" y2="5" stroke="#2563EB" strokeLinecap="round"></line>
+                              <line x1="4" y1="7.5" x2="10" y2="7.5" stroke="#2563EB" strokeLinecap="round"></line>
+                              <path d="M4.4394,9.0403875 C4.4618,8.9865375 4.5382,8.9865375 4.5606,9.0403875 L4.6647,9.2907375 L4.9349,9.3123875 C4.9931,9.3170375 5.0167,9.3896375 4.97235,9.4276375 L4.7665,9.6039875 L4.82935,9.8676375 C4.8429,9.9244375 4.78115,9.9692875 4.73135,9.9388875 L4.5,9.7975875 L4.26865,9.9388875 C4.21885,9.9692875 4.1571,9.9243875 4.17065,9.8676375 L4.2335,9.6039875 L4.02765,9.4276375 C3.9833,9.3896375 4.0069,9.3170375 4.0651,9.3123875 L4.3353,9.2907375 L4.4394,9.0404375 L4.4394,9.0403875 Z" fill="#2563EB" fillRule="nonzero"></path>
+                              <line x1="6" y1="9.5" x2="11" y2="9.5" stroke="#2563EB" strokeLinecap="round"></line>
+                              <line x1="4" y1="12" x2="10" y2="12" stroke="#2563EB" strokeLinecap="round"></line>
+                              <path d="M4.4394,13.5403875 C4.4618,13.4865375 4.5382,13.4865375 4.5606,13.5403875 L4.6647,13.7907375 L4.9349,13.8123875 C4.9931,13.8170375 5.0167,13.8896375 4.97235,13.9276375 L4.7665,14.1039875 L4.82935,14.3676375 C4.8429,14.4244375 4.78115,14.4692875 4.73135,14.4388875 L4.5,14.2975875 L4.26865,14.4388875 C4.21885,14.4692875 4.1571,14.4243875 4.17065,14.3676375 L4.2335,14.1039875 L4.02765,13.9276375 C3.9833,13.8896375 4.0069,13.8170375 4.0651,13.8123875 L4.3353,13.7907375 L4.4394,13.5404375 L4.4394,13.5403875 Z" fill="#2563EB" fillRule="nonzero"></path>
+                              <line x1="6" y1="14" x2="11" y2="14" stroke="#2563EB" strokeLinecap="round"></line>
+                            </g>
+                          </svg>
+                        </div>
+
+                        <div className="grow ms-6">
+                          <h3 className="text-sm font-semibold text-blue-600">
+                            Resource List
+                          </h3>
+                          <p className="mt-1 text-sm text-gray-600">
+                            A framework for building web user interfaces.
+                          </p>
+                        </div>
+                      </div>
+                    </button>
                   </div>
                 </Dialog.Description>
               </Dialog.Panel>
