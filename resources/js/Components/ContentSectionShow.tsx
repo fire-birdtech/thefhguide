@@ -3,6 +3,7 @@ import {type PageContentElement} from "@/types";
 import {ContentElementType} from "@/enums";
 import SectionTitle from "@/Components/Content/SectionTitle";
 import RightAlignedImage from "@/Components/Content/RightAlignedImage";
+import Text from "@/Components/Content/Text";
 
 export default function ContentSectionShow ({ section }: { section: PageContentElement[] }): ReactElement {
   return (
@@ -10,6 +11,7 @@ export default function ContentSectionShow ({ section }: { section: PageContentE
       {section.map((element: PageContentElement, index: number) => {
         if (element.type === ContentElementType.TITLE) return <SectionTitle key={index} title={element.data}/>
         if (element.type === ContentElementType.RIGHT_ALIGNED_IMAGE) return <RightAlignedImage key={index} image={element.data}/>
+        if (element.type === ContentElementType.TEXT) return <Text key={index} text={element.data}/>
       })}
     </div>
   )
