@@ -13,7 +13,7 @@ import {MediaFilesProvider} from "@/contexts/MediaFilesContext";
 import ContentSectionEdit from "@/Components/ContentSectionEdit";
 
 export default function PagesEdit ({ auth, files, page }: PageProps<{ files: MediaFile[], page: Page }>): ReactElement {
-  const {data, setData, errors, put} = useForm({
+  const {data, setData, errors, put, processing} = useForm({
     name: page.name,
     details: page.content
   })
@@ -59,9 +59,19 @@ export default function PagesEdit ({ auth, files, page }: PageProps<{ files: Med
 
       <Admin user={auth.user}>
         <Container>
-          <Header3>
-            Edit Page: {page.name}
-          </Header3>
+          <div className="flex items-center justify-between">
+            <Header3>
+              Edit Page: {page.name}
+            </Header3>
+            <div className="flex justify-end space-x-3">
+              <SecondaryButton href="#">
+                Cancel
+              </SecondaryButton>
+              <PrimaryButton type="button" onClick={submit} disabled={processing}>
+                Save
+              </PrimaryButton>
+            </div>
+          </div>
           <div className="mt-4 bg-white rounded-md shadow">
             <form onSubmit={submit} className="sm:divide-y sm:divide-gray-200">
               <div className="px-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:items-start sm:py-4">
@@ -98,7 +108,7 @@ export default function PagesEdit ({ auth, files, page }: PageProps<{ files: Med
                   <SecondaryButton href="#">
                     Cancel
                   </SecondaryButton>
-                  <PrimaryButton type="submit">
+                  <PrimaryButton type="submit" disabled={processing}>
                     Save
                   </PrimaryButton>
                 </div>
