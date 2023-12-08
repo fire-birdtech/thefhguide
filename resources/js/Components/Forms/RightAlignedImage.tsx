@@ -39,31 +39,42 @@ export default function RightAlignedImage({ image, onChange }: { image: ContentI
         <InputLabel label="Right Aligned Image"/>
         <div className="mt-1">
           {data.url !== '' ? (
-            <div className="flex gap-x-4">
-              <img src={data.url} alt="" width="300" className="border border-black"/>
-              <div className="flex-1 overflow-hidden rounded bg-gray-100">
-                <div className="p-4">
-                  <h3 className="text-xs font-semibold leading-2 tracking-wide text-gray-900 uppercase">Image Options</h3>
-                  <div className="mt-2">
-                    <div>
-                      <InputLabel label="Width"/>
-                      <div className="mt-1">
-                        <TextInput
-                          value={data.width}
-                          className="block w-full"
-                          onChange={(e) => {
-                            update('width', e.target.value)
-                          }}
-                        />
-                        {showImageWidthErrorMessage ? (
-                          <InputError message="Image cannot be wider than 500" className="mt-1"/>
-                        ) : null}
+            <>
+              <div className="flex gap-x-4">
+                <img src={data.url} alt="" width="300" className="border border-black"/>
+                <div className="flex-1 overflow-hidden rounded bg-gray-100">
+                  <div className="p-4">
+                    <h3 className="text-xs font-semibold leading-2 tracking-wide text-gray-900 uppercase">Image Options</h3>
+                    <div className="mt-2">
+                      <div>
+                        <InputLabel label="Width"/>
+                        <div className="mt-1">
+                          <TextInput
+                            value={data.width}
+                            className="block w-full"
+                            onChange={(e) => {
+                              update('width', e.target.value)
+                            }}
+                          />
+                          {showImageWidthErrorMessage ? (
+                            <InputError message="Image cannot be wider than 500" className="mt-1"/>
+                          ) : null}
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
+              <div className="mt-2">
+                <SecondaryButtonSmall
+                  onClick={() => {
+                    setAddImage(true)
+                  }}
+                >
+                  Change image
+                </SecondaryButtonSmall>
+              </div>
+            </>
           ) : (
             <SecondaryButtonSmall
               onClick={() => {
