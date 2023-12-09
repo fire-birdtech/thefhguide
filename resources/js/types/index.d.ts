@@ -94,10 +94,11 @@ export interface Resource {
 
 export interface ResourceLink {
   text: string
+  type: string
+  star: boolean
   link?: string
   iframe?: string
-  type: string
-  highlights: Highlight[]
+  highlights?: Highlight[]
 }
 
 export interface Highlight {
@@ -204,7 +205,7 @@ export interface PageContentSection {
 
 export interface PageContentElement {
   type: ContentElementType
-  data: string|ContentImage
+  data: string|ContentImage|Resource[]
 }
 
 export interface ContentImage {

@@ -1,6 +1,6 @@
 import {type ReactElement, useState} from "react"
 import ContentBlockHeader from "@/Components/Forms/Choices/ContentBlockHeader";
-import {ContentImage, PageContentElement} from "@/types"
+import {ContentImage, PageContentElement, Resource} from "@/types"
 import {useForm} from "@inertiajs/react";
 import SectionTitle from "@/Components/Forms/SectionTitle";
 import SecondaryButtonSmall from "@/Components/Buttons/SecondaryButtonSmall";
@@ -8,6 +8,7 @@ import AddContentElementModal from "@/Components/Modals/AddContentElement";
 import {ContentElementType} from "@/enums";
 import RightAlignedImage from "@/Components/Forms/RightAlignedImage";
 import Text from "@/Components/Forms/Text";
+import ResourceList from "@/Components/Content/ResourceList";
 
 export default function ContentSectionEdit({ section, index, onChange }: { section: PageContentElement[], index: number, onChange: (value: any) => void  }): ReactElement {
   const [addElement, setAddElement] = useState<boolean>(false)
@@ -21,6 +22,8 @@ export default function ContentSectionEdit({ section, index, onChange }: { secti
     let updatedContent = data
     if (type === ContentElementType.RIGHT_ALIGNED_IMAGE) {
       updatedContent.push({ type: type, data: { url: '', width: '' }})
+    } else if (type === ContentElementType.RESOURCE_LIST) {
+      updatedContent.push({ type: type, data: [] })
     } else {
       updatedContent.push({ type: type, data: '' })
     }
@@ -47,6 +50,8 @@ export default function ContentSectionEdit({ section, index, onChange }: { secti
         <div className="w-full p-4 border-2 border-blue-200 rounded-b-md rounded-tr-md space-y-4">
           {data.map((element, index) => {
             switch (element.type) {
+              case ContentElementType.RESOURCE_LIST:
+                return <ResourceList resources={element.data} onChange={(value: Resource[]) => update(index, value)}/>
               case ContentElementType.RIGHT_ALIGNED_IMAGE:
                 return <RightAlignedImage key={index} image={element.data} onChange={(value: ContentImage) => update(index, value)}/>
               case ContentElementType.TEXT:
