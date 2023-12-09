@@ -8,7 +8,7 @@ import AddContentElementModal from "@/Components/Modals/AddContentElement";
 import {ContentElementType} from "@/enums";
 import RightAlignedImage from "@/Components/Forms/RightAlignedImage";
 import Text from "@/Components/Forms/Text";
-import ResourceList from "@/Components/Content/ResourceList";
+import ResourceList from "@/Components/Content/Forms/ResourceList";
 
 export default function ContentSectionEdit({ section, index, onChange }: { section: PageContentElement[], index: number, onChange: (value: any) => void  }): ReactElement {
   const [addElement, setAddElement] = useState<boolean>(false)

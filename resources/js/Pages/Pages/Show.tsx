@@ -2,7 +2,7 @@ import {type ReactElement} from "react"
 import {Head} from "@inertiajs/react"
 import MainNavigation from "@/Components/Navigation/Main"
 import {type Page} from "@/types"
-import ArticleWrapper from "@/Components/Content/Forms/ArticleWrapper";
+import ArticleWrapper from "@/Components/Content/Display/ArticleWrapper";
 import ContentSectionShow from "@/Components/ContentSectionShow";
 
 export default function PagesShow({ page, title }: { page: Page, title: string }): ReactElement {
