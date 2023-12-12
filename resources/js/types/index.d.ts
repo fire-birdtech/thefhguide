@@ -216,6 +216,7 @@ export interface ContentImage {
 
 export interface Hero {
   image_url: string
+  title: string
   type: HeroType
 }
 

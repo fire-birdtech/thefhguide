@@ -9,6 +9,7 @@ import ContentBlockHeader from "@/Components/Forms/Choices/ContentBlockHeader";
 import InputLabel from "@/Components/Forms/InputLabel";
 import SecondaryButtonSmall from "@/Components/Buttons/SecondaryButtonSmall";
 import AddMediaModal from "@/Components/Modals/AddMedia";
+import TextInput from "@/Components/Forms/TextInput";
 
 export default function PageHero ({ hero, onChange }: { hero: Hero, onChange: (value: Hero) => void }): ReactElement {
   const [open, setOpen] = useState<boolean>(false)
@@ -34,12 +35,14 @@ export default function PageHero ({ hero, onChange }: { hero: Hero, onChange: (v
       updatedHero = {
         type: HeroType.HERO_FULL_WIDTH,
         image_url: '',
+        title: '',
       }
     }
     if (value === HeroType.HERO_TWO_COLUMN) {
       updatedHero = {
         type: HeroType.HERO_TWO_COLUMN,
         image_url: '',
+        title: '',
       }
     }
 
@@ -48,7 +51,7 @@ export default function PageHero ({ hero, onChange }: { hero: Hero, onChange: (v
     onClose()
   }
 
-  const update = (key: "image_url", value: number) => {
+  const update = (key: "image_url"|"title", value: number) => {
     let file = files?.find((file: MediaFile) => file.id === value)
     let updatedHeroData = data
     updatedHeroData[key] = file !== undefined ? file.url : value
@@ -84,6 +87,19 @@ export default function PageHero ({ hero, onChange }: { hero: Hero, onChange: (v
                 Select image
               </SecondaryButtonSmall>
             )}
+          </div>
+
+          <div>
+            <InputLabel label="Title"/>
+            <div className="mt-1">
+              <TextInput
+                className="block w-full"
+                value={hero.title}
+                onChange={(e) => {
+                  update('title', e.target.value)
+                }}
+              />
+            </div>
           </div>
         </div>
       </div>
