@@ -19,7 +19,7 @@ class Page extends Model
 
     protected $casts = [
         'content' => 'array',
-        'hero' => 'array'
+        'hero' => 'array',
     ];
 
     public function getRouteKeyName(): string
