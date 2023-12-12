@@ -51,7 +51,7 @@ export default function PageHero ({ hero, onChange }: { hero: Hero, onChange: (v
     onClose()
   }
 
-  const update = (key: "image_url"|"title", value: number) => {
+  const update = (key: "button_link"|"button_text"|"image_url"|"title", value: number) => {
     let file = files?.find((file: MediaFile) => file.id === value)
     let updatedHeroData = data
     updatedHeroData[key] = file !== undefined ? file.url : value
@@ -77,7 +77,7 @@ export default function PageHero ({ hero, onChange }: { hero: Hero, onChange: (v
             <InputLabel label="Image"/>
             {data.image_url !== '' ? (
               <div className="mt-1">
-                <img src={hero.image_url} alt=""/>
+                <img src={data.image_url} alt=""/>
                 <SecondaryButtonSmall className="mt-2" onClick={() => setMediaOpen(true)}>
                   Change image
                 </SecondaryButtonSmall>
@@ -94,9 +94,31 @@ export default function PageHero ({ hero, onChange }: { hero: Hero, onChange: (v
             <div className="mt-1">
               <TextInput
                 className="block w-full"
-                value={hero.title}
+                value={data.title}
                 onChange={(e) => {
                   update('title', e.target.value)
+                }}
+              />
+            </div>
+          </div>
+
+          <div>
+            <InputLabel label="Action button"/>
+            <div className="mt-1 space-y-2">
+              <TextInput
+                className="block w-full"
+                placeholder="Text"
+                value={data.button_text}
+                onChange={(e) => {
+                  update('button_text', e.target.value)
+                }}
+              />
+              <TextInput
+                className="block w-full"
+                placeholder="Link"
+                value={data.button_link}
+                onChange={(e) => {
+                  update('button_link', e.target.value)
                 }}
               />
             </div>
