@@ -5,6 +5,7 @@ import {type Page} from "@/types"
 import ArticleWrapper from "@/Components/Content/Display/ArticleWrapper";
 import ContentSectionShow from "@/Components/ContentSectionShow";
 import PageHero from "@/Components/Content/Display/PageHero";
+import SiteFooter from "@/Components/SiteFooter";
 
 export default function PagesShow({ page, title }: { page: Page, title: string }): ReactElement {
   // const hero = page.content.find((item) => item.type === ContentSlug.HERO_FULL_WIDTH)
@@ -25,6 +26,8 @@ export default function PagesShow({ page, title }: { page: Page, title: string }
           ))}
         </ArticleWrapper>
       </div>
+
+      <SiteFooter/>
     </>
   )
 }
