@@ -51,7 +51,7 @@ export default function ContentSectionEdit({ section, index, onChange }: { secti
           {data.map((element, index) => {
             switch (element.type) {
               case ContentElementType.RESOURCE_LIST:
-                return <ResourceList resources={element.data} onChange={(value: Resource[]) => update(index, value)}/>
+                return <ResourceList key={index} resources={element.data} onChange={(value: Resource[]) => update(index, value)}/>
               case ContentElementType.RIGHT_ALIGNED_IMAGE:
                 return <RightAlignedImage key={index} image={element.data} onChange={(value: ContentImage) => update(index, value)}/>
               case ContentElementType.TEXT:
