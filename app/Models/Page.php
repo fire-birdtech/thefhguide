@@ -12,12 +12,14 @@ class Page extends Model
 
     protected $fillable = [
         'collection_id',
+        'hero',
         'name',
         'type',
     ];
 
     protected $casts = [
         'content' => 'array',
+        'hero' => 'array'
     ];
 
     public function getRouteKeyName(): string

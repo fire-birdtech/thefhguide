@@ -46,6 +46,7 @@ class PageController extends Controller
             $content[] = $item;
         }
         $page->content = $content;
+        $page->hero = $request->hero;
         $page->name = $request->name;
 
         $page->save();

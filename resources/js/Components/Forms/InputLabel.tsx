@@ -11,11 +11,11 @@ export default function InputLabel ({ label, className = '', optional = false }:
   return (
     <label className={classNames(
       className,
-      'block font-medium text-sm text-gray-700'
+      'flex items-center font-medium text-sm text-gray-700'
     )}>
       {label}
       {optional ? (
-        <span className="mt-2 block text-xs font-medium uppercase text-gray-500">
+        <span className="ml-3 block text-xs font-medium uppercase text-gray-500">
             Optional
         </span>
       ) : null}

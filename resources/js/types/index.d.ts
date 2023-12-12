@@ -1,4 +1,4 @@
-import {ContentElementType} from "@/enums";
+import {ContentElementType, HeroType} from "@/enums";
 
 export interface User {
   id: number
@@ -196,6 +196,7 @@ export interface MediaFile {
 export interface Page {
   name: string
   slug: string
+  hero: Hero
   content: PageContentElement[][]
 }
 
@@ -211,6 +212,11 @@ export interface PageContentElement {
 export interface ContentImage {
   url: string
   width: string
+}
+
+export interface Hero {
+  image_url: string
+  type: HeroType
 }
 
 export interface HeroButton {

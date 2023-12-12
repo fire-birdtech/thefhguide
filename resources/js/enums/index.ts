@@ -21,6 +21,11 @@ export enum ContentSlug {
   SIMPLE_CONTENT = 'simple-content'
 }
 
+export enum HeroType {
+  HERO_FULL_WIDTH = 'hero-full-width',
+  HERO_TWO_COLUMN = 'hero-two-column',
+}
+
 export enum ContentElementType {
   TITLE = 'title',
   RIGHT_ALIGNED_IMAGE = 'right-aligned-image',

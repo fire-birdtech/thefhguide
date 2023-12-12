@@ -1,5 +1,5 @@
 import {type FormEventHandler, type ReactElement} from "react"
-import {MediaFile, type Page, type PageProps} from "@/types"
+import {Hero, MediaFile, type Page, type PageProps} from "@/types"
 import {Head, useForm} from "@inertiajs/react"
 import Admin from "@/Layouts/Admin"
 import Container from "@/Components/Container"
@@ -11,10 +11,12 @@ import SecondaryButton from "@/Components/Buttons/SecondaryButton"
 import PrimaryButton from "@/Components/Buttons/PrimaryButton"
 import {MediaFilesProvider} from "@/contexts/MediaFilesContext";
 import ContentSectionEdit from "@/Components/ContentSectionEdit";
+import PageHero from "@/Components/Content/Forms/PageHero";
 
 export default function PagesEdit ({ auth, files, page }: PageProps<{ files: MediaFile[], page: Page }>): ReactElement {
   const {data, setData, errors, put, processing} = useForm({
     name: page.name,
+    hero: page.hero,
     details: page.content
   })
 
@@ -23,6 +25,13 @@ export default function PagesEdit ({ auth, files, page }: PageProps<{ files: Med
 
     put(route('editor.pages.update', [page.slug]), {
       preserveScroll: true,
+    })
+  }
+
+  const updateHero = (value: Hero) => {
+    setData({
+      ...data,
+      hero: value,
     })
   }
 
@@ -41,7 +50,7 @@ export default function PagesEdit ({ auth, files, page }: PageProps<{ files: Med
     })
   }
 
-  const update = (value: any, index: number) => {
+  const updateContent = (value: any, index: number) => {
     let { details } = data
     details[index] = value
 
@@ -90,11 +99,20 @@ export default function PagesEdit ({ auth, files, page }: PageProps<{ files: Med
               </div>
 
               <div className="px-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:items-start sm:py-4">
+                <InputLabel label="Hero" optional={true} className="sm:mt-px sm:pt-2"/>
+                <MediaFilesProvider initialFiles={files}>
+                  <div className="mt-1 sm:mt-0 sm:col-span-4">
+                    <PageHero hero={data.hero} onChange={(value: Hero) => updateHero(value)}/>
+                  </div>
+                </MediaFilesProvider>
+              </div>
+
+              <div className="px-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:items-start sm:py-4">
                 <InputLabel label="Content" className="sm:mt-px sm:pt-2"/>
                 <MediaFilesProvider initialFiles={files}>
                   <div className="mt-1 space-y-4 sm:mt-0 sm:col-span-4">
                     {data.details.map((item, index) => (
-                      <ContentSectionEdit key={index} section={item} index={index} onChange={(value) => { update(value, index) }}/>
+                      <ContentSectionEdit key={index} section={item} index={index} onChange={(value) => { updateContent(value, index) }}/>
                     ))}
                     <SecondaryButton onClick={() => addContent()}>
                       Add section
