@@ -1,24 +1,24 @@
 import {type ReactElement} from "react";
 import {type Resource} from "@/types";
-import {DocumentTextIcon} from "@heroicons/react/24/outline";
-import {PlayCircleIcon} from "@heroicons/react/24/solid";
+import DocumentTextIcon from '@images/doc.png'
+import PlayCircleIcon from '@images/vid.png'
 
 export default function ResourceList ({ resources }: { resources: Resource[] }): ReactElement {
   return (
-    <ul>
+    <ul className="not-prose space-y-6">
       {resources.map((resource, index) => (
         <li key={index}>
           <span>{resource.description}</span>
-          <ul className="prose-li:list-none">
+          <ul className="pt-6">
             {resource.links.map((link, linkIdx) => (
               <li key={linkIdx}>
-                <a href={link.link} className="flex items-center gap-x-1">
+                <a href={link.link} className="flex items-center gap-x-1 hover:underline">
                   {link.type === 'document' ? (
-                    <DocumentTextIcon className="h-5 w-5" aria-hidden="true"/>
+                    <img src={DocumentTextIcon} className="h-auto w-5" aria-hidden="true" alt="document text icon"/>
                   ) : (
-                    <PlayCircleIcon className="h-5 w-5" aria-hidden="true"/>
+                    <img src={PlayCircleIcon} className="h-auto w-5" aria-hidden="true" alt="play circle icon"/>
                   )}
-                  <span>{link.text}</span>
+                  <span className="text-teal-600">{link.text}</span>
                 </a>
               </li>
             ))}

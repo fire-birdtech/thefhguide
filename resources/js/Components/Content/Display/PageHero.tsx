@@ -10,7 +10,7 @@ export default function PageHero ({ hero }: { hero: Hero }): ReactElement {
           src={hero.image_url}
           alt=""
         />
-        <div className="relative mx-auto max-w-5xl pt-28 space-y-2">
+        <div className="relative mx-auto max-w-body pt-28 space-y-2">
           <h1 className="text-[#2ec4b6] font-bold text-[2.5rem] leading-[3rem] font-display">
             {hero.title}
           </h1>
