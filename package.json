@@ -31,6 +31,7 @@
         "@heroicons/react": "^2.0.18",
         "@inertiajs/react": "^1.0.11",
         "@tailwindcss/aspect-ratio": "^0.4.2",
+        "@tiptap/extension-link": "^2.1.13",
         "@tiptap/pm": "^2.1.8",
         "@tiptap/react": "^2.1.8",
         "@tiptap/starter-kit": "^2.1.8",

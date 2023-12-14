@@ -4,7 +4,7 @@ import {Dialog, Transition} from "@headlessui/react";
 export default function ModalWrapper ({ children, close, open }: PropsWithChildren<{ close: () => void, open: boolean }>): ReactElement {
   return (
     <Transition.Root show={open} as={Fragment}>
-      <Dialog as="div" className="relative z-10" onClose={close}>
+      <Dialog as="div" className="relative z-30" onClose={close}>
         <Transition.Child
           as={Fragment}
           enter="ease-out duration-300"
