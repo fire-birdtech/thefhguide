@@ -111,7 +111,7 @@ export default function PagesEdit ({ auth, files, page }: PageProps<{ files: Med
                 <InputLabel label="Content" className="sm:mt-px sm:pt-2"/>
                 <MediaFilesProvider initialFiles={files}>
                   <div className="mt-1 space-y-4 sm:mt-0 sm:col-span-4">
-                    {data.details.map((item, index) => (
+                    {data.details && data.details.map((item, index) => (
                       <ContentSectionEdit key={index} section={item} index={index} onChange={(value) => { updateContent(value, index) }}/>
                     ))}
                     <SecondaryButton onClick={() => addContent()}>
