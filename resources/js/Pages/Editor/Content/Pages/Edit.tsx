@@ -37,10 +37,12 @@ export default function PagesEdit ({ auth, files, page }: PageProps<{ files: Med
 
   const addContent = () => {
     let { details } = data
-    details = [
-      ...details,
-      []
-    ]
+    details !== null
+      ? details = [
+          ...details,
+          []
+        ]
+      : details = [[]]
 
     setData({
       ...data,
