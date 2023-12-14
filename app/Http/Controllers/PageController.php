@@ -42,8 +42,10 @@ class PageController extends Controller
     public function update(Request $request, Page $page)
     {
         $content = [];
-        foreach ($request->details as $item) {
-            $content[] = $item;
+        if (!empty($request->details)) {
+            foreach ($request->details as $item) {
+                $content[] = $item;
+            }
         }
         $page->content = $content;
         $page->hero = $request->hero;
