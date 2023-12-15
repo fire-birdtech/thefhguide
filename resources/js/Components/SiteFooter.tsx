@@ -15,20 +15,20 @@ import ExternalLink from "@/Components/ExternalLink";
 export default function SiteFooter (): ReactElement {
   return (
     <footer className="bg-[#eeeeee] pt-12 pb-4">
-      <div className="max-w-5xl mx-auto space-y-4 py-4">
-        <div className="flex items-center justify-around">
+      <div className="max-w-6xl mx-auto px-10 py-4">
+        <div className="flex items-center justify-around px-14">
           <a href="#">
-            <img src={donate} alt="Donate to the Family History Guide Association"/>
+            <img src={donate} width={150} alt="Donate to the Family History Guide Association"/>
           </a>
           <a href="#">
             <img src={association} alt="The Family History Guide Association"/>
           </a>
           <ExternalLink href="https://www.youtube.com/@thefamilyhistoryguide">
-            <img className="border border-gray-900" src={youtube} alt="The Family History Guide YouTube channel"/>
+            <img className="border border-gray-900" src={youtube} width={150} alt="The Family History Guide YouTube channel"/>
           </ExternalLink>
         </div>
 
-        <div className="flex items-center justify-around">
+        <div className="flex items-center justify-around px-8">
           <ExternalLink href="https://www.facebook.com/TheFamilyHistoryGuide/">
             <img className="h-12" src={facebook} alt="The Family History Guide Facebook page"/>
           </ExternalLink>
@@ -38,7 +38,7 @@ export default function SiteFooter (): ReactElement {
           <ExternalLink href="https://pinterest.com/thefamilyhistoryguide">
             <img className="h-12" src={pinterest} alt="The Family History Guide Pinterest Profile"/>
           </ExternalLink>
-          <ExternalLink href="http://www.instagram.com/thefhguide">
+          <ExternalLink href="https://www.instagram.com/thefhguide">
             <img className="h-12 border border-gray-900" src={instagram} alt="The Family History Guide Instragram Profile"/>
           </ExternalLink>
           <ExternalLink href="https://twitter.com/seethefhguide">
@@ -46,16 +46,16 @@ export default function SiteFooter (): ReactElement {
           </ExternalLink>
         </div>
 
-        <div className="border-t border-gray-900/10 pt-4">
+        <div className="border-t border-gray-900/10 pt-4 mt-4">
           <div className="text-center">
             <ExternalLink
               href="https://form.jotform.com/81444529105151"
-              className="font-extrabold text-[#17a08f] hover:text-[#ff9f1c] uppercase text-sm"
+              className="font-bold text-[#17a08f] hover:text-[#ff9f1c] uppercase text-[13px]"
             >
               Contact Us
             </ExternalLink>
           </div>
-          <div className="mt-4 text-center text-gray-800 text-sm">
+          <div className="mt-6 text-center text-gray-800 text-[0.8125rem]">
             <p>
               Copyright 2023 The Family History Guide Association, a 501(c)(3) public charity organization. All rights reserved.
             </p>
