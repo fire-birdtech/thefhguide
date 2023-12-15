@@ -1,0 +1,14 @@
+name: Deploy
+
+on: workflow_dispatch
+
+jobs:
+  forge-deploy:
+    name: 'Laravel Forge Deploy'
+    runs-on: self-hosted
+
+    steps:
+      # Trigger Laravel Forge Deploy
+      - uses: jbrooksuk/laravel-forge-action@v1.0.4
+        with:
+          trigger_url: ${{ secrets.TRIGGER_URL }}
