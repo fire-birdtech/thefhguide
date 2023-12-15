@@ -43,6 +43,11 @@ export default function AddResourceModal ({ close, open, save }: { close: () => 
   const submit = () => {
     save(data)
     close()
+    let resetData = {
+      description: '',
+      links: []
+    }
+    setTimeout(() => setData(resetData), 1000)
   }
 
   return (
@@ -94,7 +99,7 @@ export default function AddResourceModal ({ close, open, save }: { close: () => 
             Save
           </PrimaryButton>
           <SecondaryButton
-            onClick={() => close}
+            onClick={close}
           >
             Cancel
           </SecondaryButton>
