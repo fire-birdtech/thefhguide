@@ -1,10 +1,11 @@
-import {type ReactElement, useState} from 'react'
+import {type ReactElement, useState, Fragment} from 'react'
 import {useEditor, EditorContent, BubbleMenu} from '@tiptap/react'
 import StarterKit from '@tiptap/starter-kit'
 import Link from '@tiptap/extension-link'
 import classNames from '@/Utils/classNames'
 import EditorButton from "@/Components/Buttons/EditorButton";
 import AddLinkModal from "@/Components/Modals/AddLink";
+import {Menu, Transition} from "@headlessui/react";
 
 const extensions = [StarterKit, Link]
 
@@ -40,7 +41,7 @@ export default function TextEditor ({ update, value, className = '' }: { classNa
     <>
       <EditorContent spellCheck={false} editor={editor}/>
       {/* <FloatingMenu editor={editor} className="border border-gray-300 rounded-md p-1 shadow">This is a floating menu</FloatingMenu> */}
-      {editor && <BubbleMenu className="bg-white p-1 rounded-md shadow border border-neutral-300" editor={editor} tippyOptions={{ duration: 100, zIndex: 10 }}>
+      {editor && <BubbleMenu className="bg-white p-1 rounded-md shadow-lg ring-1 ring-black ring-opacity-5" editor={editor} tippyOptions={{ duration: 100, zIndex: 10 }}>
         <EditorButton
           onClick={() => editor.chain().focus().toggleBold().run()}
           className={editor.isActive('bold') ? 'is-active' : ''}
@@ -71,6 +72,72 @@ export default function TextEditor ({ update, value, className = '' }: { classNa
         >
           <svg className="flex-shrink-0 w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="8" x2="21" y1="6" y2="6"/><line x1="8" x2="21" y1="12" y2="12"/><line x1="8" x2="21" y1="18" y2="18"/><line x1="3" x2="3.01" y1="6" y2="6"/><line x1="3" x2="3.01" y1="12" y2="12"/><line x1="3" x2="3.01" y1="18" y2="18"/></svg>
         </EditorButton>
+          <Menu as="div" className="relative inline-block text-left">
+            <div>
+              <Menu.Button>
+                <EditorButton className="" onClick={() => {}}>
+                  <svg className="flex-shrink-0 w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round"><path d="M7 12h10"/><path d="M7 5v14"/><path d="M17 5v14"/><path d="M15 19h4"/><path d="M15 5h4"/><path d="M5 19h4"/><path d="M5 5h4"/></svg>
+                </EditorButton>
+              </Menu.Button>
+
+              <Transition
+                as={Fragment}
+                enter="transition ease-out duration-100"
+                enterFrom="transform opacity-0 scale-95"
+                enterTo="transform opacity-100 scale-100"
+                leave="transition ease-in duration-75"
+                leaveFrom="transform opacity-100 scale-100"
+                leaveTo="transform opacity-0 scale-95"
+              >
+                <Menu.Items className="absolute right-0 z-10 mt-2 w-32 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+                  <div className="py-1">
+                    <Menu.Item>
+                      {({ active }) => (
+                        <button
+                          type="button"
+                          onClick={() => editor.chain().focus().toggleHeading({ level: 2 }).run()}
+                          className={classNames(
+                            active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+                            'w-full block px-4 py-2 text-sm text-left'
+                          )}
+                        >
+                          Heading 2
+                        </button>
+                      )}
+                    </Menu.Item>
+                    <Menu.Item>
+                      {({ active }) => (
+                        <button
+                          type="button"
+                          onClick={() => editor.chain().focus().toggleHeading({ level: 3 }).run()}
+                          className={classNames(
+                            active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+                            'w-full block px-4 py-2 text-sm text-left'
+                          )}
+                        >
+                          Heading 3
+                        </button>
+                      )}
+                    </Menu.Item>
+                    <Menu.Item>
+                      {({ active }) => (
+                        <button
+                          type="button"
+                          onClick={() => editor.chain().focus().toggleHeading({ level: 4 }).run()}
+                          className={classNames(
+                            active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+                            'w-full block px-4 py-2 text-sm text-left'
+                          )}
+                        >
+                          Heading 4
+                        </button>
+                      )}
+                    </Menu.Item>
+                  </div>
+                </Menu.Items>
+              </Transition>
+            </div>
+          </Menu>
       </BubbleMenu>}
 
       <AddLinkModal

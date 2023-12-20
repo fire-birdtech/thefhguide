@@ -194,6 +194,7 @@ export interface MediaFile {
 }
 
 export interface Page {
+  id: number
   name: string
   slug: string
   hero: Hero

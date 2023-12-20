@@ -21,7 +21,7 @@ export default function PagesShow({ page, title }: { page: Page, title: string }
           <PageHero hero={page.hero}/>
         ) : null}
         <ArticleWrapper>
-          {page.content.map((item, index) => (
+          {page.content !== null && page.content.map((item, index) => (
             <ContentSectionShow key={index} section={item}/>
           ))}
         </ArticleWrapper>

@@ -23,7 +23,7 @@ export default function PagesEdit ({ auth, files, page }: PageProps<{ files: Med
   const submit: FormEventHandler = (e) => {
     e.preventDefault()
 
-    put(route('editor.pages.update', [page.slug]), {
+    put(route('editor.pages.update', [page.id]), {
       preserveScroll: true,
     })
   }
@@ -114,7 +114,7 @@ export default function PagesEdit ({ auth, files, page }: PageProps<{ files: Med
                 <MediaFilesProvider initialFiles={files}>
                   <div className="mt-1 space-y-4 sm:mt-0 sm:col-span-4">
                     {data.details && data.details.map((item, index) => (
-                      <ContentSectionEdit key={index} section={item} index={index} onChange={(value) => { updateContent(value, index) }}/>
+                      <ContentSectionEdit key={index} section={item} onChange={(value) => { updateContent(value, index) }}/>
                     ))}
                     <SecondaryButton onClick={() => addContent()}>
                       Add section
