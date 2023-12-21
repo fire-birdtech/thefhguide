@@ -164,32 +164,6 @@ export default function AddContentElementModal ({ add, open, close }: {
                         </div>
                       </div>
                     </button>
-                    <button onClick={() => handleClick(ContentElementType.HEADING)} className="bg-white p-4 transition duration-300 rounded-lg text-left hover:bg-gray-100">
-                      <div className="flex">
-                        <div className="mt-1.5 flex justify-center flex-shrink-0 rounded-s-xl">
-                          <svg className="h-6 w-6 text-gray-500" width="16px" height="16px" viewBox="0 0 16 16">
-                            <g stroke="currentColor" strokeWidth="1" fill="none" fillRule="evenodd">
-                              <path d="M1,15 L1,2 C1,1.44771525 1.44771525,1 2,1 L14,1 C14.5522847,1 15,1.44771525 15,2 L15,15 L15,15"/>
-                              <line x1="4" y1="3" x2="12" y2="3" id="Path-20" strokeLinecap="round"/>
-                              <line x1="4" y1="5" x2="11" y2="5" id="Path-21" strokeLinecap="round"/>
-                              <line x1="4" y1="7" x2="9" y2="7" id="Path-22" strokeLinecap="round"/>
-                              <line x1="4" y1="12" x2="12" y2="12" id="Path-22" strokeLinecap="round"/>
-                              <line x1="4" y1="14" x2="10" y2="14" id="Path-22" strokeLinecap="round"/>
-                              <line x1="4" y1="10" x2="10" y2="10" id="Path-22" stroke="#2563EB" strokeLinecap="round"/>
-                            </g>
-                          </svg>
-                        </div>
-
-                        <div className="grow ms-6">
-                          <h3 className="text-sm font-semibold text-blue-600">
-                            Resource List
-                          </h3>
-                          <p className="mt-1 text-sm text-gray-600">
-                            A framework for building web user interfaces.
-                          </p>
-                        </div>
-                      </div>
-                    </button>
                   </div>
                 </Dialog.Description>
               </Dialog.Panel>

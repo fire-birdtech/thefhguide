@@ -27,7 +27,6 @@ export enum HeroType {
 }
 
 export enum ContentElementType {
-  HEADING = 'heading',
   TITLE = 'title',
   RIGHT_ALIGNED_IMAGE = 'right-aligned-image',
   TEXT = 'text',
