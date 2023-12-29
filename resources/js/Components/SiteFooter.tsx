@@ -14,9 +14,9 @@ import ExternalLink from "@/Components/ExternalLink";
 
 export default function SiteFooter (): ReactElement {
   return (
-    <footer className="bg-[#eeeeee] pt-12 pb-4">
-      <div className="max-w-6xl mx-auto px-10 py-4">
-        <div className="flex items-center justify-around px-14">
+    <footer className="bg-[#eeeeee] py-4 md:pt-12">
+      <div className="max-w-6xl mx-auto px-4 py-4 space-y-3 md:px-10">
+        <div className="flex flex-col items-center justify-around px-14 space-y-2 md:flex-row">
           <a href="#">
             <img src={donate} width={150} alt="Donate to the Family History Guide Association"/>
           </a>
@@ -28,7 +28,7 @@ export default function SiteFooter (): ReactElement {
           </ExternalLink>
         </div>
 
-        <div className="flex items-center justify-around px-8">
+        <div className="flex items-center justify-around md:px-8">
           <ExternalLink href="https://www.facebook.com/TheFamilyHistoryGuide/">
             <img className="h-12" src={facebook} alt="The Family History Guide Facebook page"/>
           </ExternalLink>
@@ -75,7 +75,7 @@ export default function SiteFooter (): ReactElement {
       </div>
 
       <div className="border-t border-gray-900/10 py-4">
-        <div className="max-w-7xl mx-auto flex items-center justify-around">
+        <div className="max-w-7xl mx-auto flex flex-col items-center justify-around space-y-3 md:flex-row">
           <img className="w-72 border border-gray-900" src={sorenson} alt="Sorenson Legacy Foundation"/>
           <img className="w-72 border border-gray-900" src={miller} alt="Larry H. & Gail Miller Family Foundation"/>
           <img className="w-52 border border-gray-900" src={ashton} alt="Ashton Family Foundation"/>
