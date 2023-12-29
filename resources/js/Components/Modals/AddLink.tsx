@@ -1,11 +1,17 @@
-import {type ReactElement, useState} from "react";
+import {type ReactElement, useEffect, useState} from "react";
 import ModalWrapper from "@/Components/Modals/Wrapper";
 import TextInput from "@/Components/Forms/TextInput";
 import PrimaryButtonFullWidth from "@/Components/Buttons/PrimaryButtonFullWidth";
 import { Dialog } from "@headlessui/react";
 
-export default function AddLinkModal ({ add, close, open }: { add: (value: string) => void, close: () => void, open: boolean }): ReactElement {
+export default function AddLinkModal ({ add, close, open, previousHref }: { add: (value: string) => void, close: () => void, open: boolean, previousHref?: string }): ReactElement {
   const [url, setUrl] = useState<string>('')
+
+  useEffect(() => {
+    if (previousHref) {
+      setUrl(previousHref)
+    }
+  }, [previousHref]);
 
   const onAdd = () => {
     add(url)
