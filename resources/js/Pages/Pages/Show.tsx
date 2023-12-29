@@ -16,7 +16,7 @@ export default function PagesShow({ page, title }: { page: Page, title: string }
 
       <MainNavigation/>
 
-      <div className="pt-[8.5rem]">
+      <div className="pt-[8.5rem] px-4 sm:px-0">
         {page.hero !== null ? (
           <PageHero hero={page.hero}/>
         ) : null}
