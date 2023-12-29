@@ -201,18 +201,21 @@ export interface Page {
   content: PageContentElement[][]
 }
 
-export interface PageContentSection {
-  [key: number]: PageContentElement[]
-}
-
 export interface PageContentElement {
   type: ContentElementType
-  data: string|ContentImage|Resource[]
+  data: string|ContentImage|Resource[]|GridImage[]
 }
 
 export interface ContentImage {
   url: string
   width: string
+}
+
+export interface GridImage {
+  image_url: string
+  text: string
+  link: string
+  title: string
 }
 
 export interface Hero {
@@ -221,11 +224,6 @@ export interface Hero {
   image_url: string
   title: string
   type: HeroType
-}
-
-export interface HeroButton {
-  text: string
-  link: string
 }
 
 export type Cells = Record<string, string>

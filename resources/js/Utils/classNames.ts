@@ -1,3 +1,5 @@
-export default function classNames (...classes: string[]): string {
+type Class = string | undefined
+
+export default function classNames (...classes: Class[]): string {
   return classes.filter(Boolean).join(' ')
 }
