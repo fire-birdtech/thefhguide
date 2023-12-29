@@ -7,9 +7,10 @@ export default function ({ images }: { images: GridImage[] }) {
       {images.map((image, index) => (
         <div className="w-full sm:px-4">
           <article key={index} className="not-prose group relative flex flex-col items-start justify-between lg:w-[120%]">
-            <div className="relative">
+            <div className="w-auto relative">
               <Image
                 src={image.image_url}
+                border={image.border}
                 className="aspect-[3/2] object-cover sm:max-w-[200px]"
               />
               <div className="flex items-center absolute top-0 bottom-0 z-10 -ml-4 mr-2 my-auto opacity-0 transition-opacity ease-in-out duration-500 group-hover:opacity-100">
@@ -24,7 +25,7 @@ export default function ({ images }: { images: GridImage[] }) {
               <h3 className="text-lg font-bold leading-6 text-[#006666] hover:text-[#0056B3] hover:underline">
                 <a href={image.link} target="_blank">
                   <span className="absolute inset-0 z-20" />
-                  {image.title}
+                  {image.title || ''}
                 </a>
               </h3>
             </div>

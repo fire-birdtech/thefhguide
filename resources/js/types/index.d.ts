@@ -215,7 +215,8 @@ export interface GridImage {
   image_url: string
   text: string
   link: string
-  title: string
+  title?: string
+  border?: boolean
 }
 
 export interface Hero {

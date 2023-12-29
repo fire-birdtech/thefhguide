@@ -17,6 +17,7 @@ export default function ImageGrid ({ images, onChange }: { images: GridImage[], 
       text: '',
       link: '',
       title: '',
+      border: true
     })
 
     setData([...updatedData])

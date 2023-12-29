@@ -1,4 +1,4 @@
-export default function Image ({ className, src, width }: { className?: string, src: string, width?: string }) {
+export default function Image ({ border, className, src, width }: { border?: boolean, className?: string, src: string, width?: string }) {
   return (
     <>
       <img
@@ -7,7 +7,7 @@ export default function Image ({ className, src, width }: { className?: string, 
         alt=""
         width={width}
       />
-      <div className="absolute inset-0 ring-1 ring-inset ring-black" />
+      {border && <div className="absolute inset-0 ring-1 ring-inset ring-black" />}
     </>
   )
 }

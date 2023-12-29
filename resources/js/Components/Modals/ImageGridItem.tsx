@@ -7,6 +7,7 @@ import {GridImage, MediaFile} from "@/types";
 import {useForm} from "@inertiajs/react";
 import TextArea from "@/Components/Forms/TextArea";
 import PrimaryButton from "@/Components/Buttons/PrimaryButton";
+import Checkbox from "@/Components/Forms/Checkbox";
 
 interface ImageGridItemModalProps {
   close: () => void
@@ -31,7 +32,7 @@ export default function ImageGridItemModal ({ close, files, item, onChange, open
     setSelectImage(false)
   }
 
-  const update = (key: "text"|"link"|"title", value: string) => {
+  const update = (key: "text"|"title"|"link"|"border", value: string|boolean) => {
     const updatedData = data
     console.log("modal", updatedData)
     updatedData[key] = value
@@ -67,12 +68,25 @@ export default function ImageGridItemModal ({ close, files, item, onChange, open
           <form className="space-y-3">
             <div className="space-y-1">
               <InputLabel label="Image" />
-              <img src={data.image_url} alt="" className="w-48" />
-              <SecondaryButtonSmall
-                onClick={() => setSelectImage(true)}
-              >
-                Select image
-              </SecondaryButtonSmall>
+              <div className="flex gap-x-4">
+                <div className="space-y-1">
+                  <img src={data.image_url} alt="" className="w-48" />
+                  <SecondaryButtonSmall
+                    onClick={() => setSelectImage(true)}
+                  >
+                    Select image
+                  </SecondaryButtonSmall>
+                </div>
+                <div>
+                  <Checkbox
+                    checked={data.border}
+                    onChange={(e) => {
+                      setData('border', e.target.checked)
+                    }}
+                  />
+                  <span className="ml-2 text-sm text-gray-600">Display border around image</span>
+                </div>
+              </div>
             </div>
 
             <div>
