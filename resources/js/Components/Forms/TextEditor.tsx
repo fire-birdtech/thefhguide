@@ -6,6 +6,7 @@ import classNames from '@/Utils/classNames'
 import EditorButton from "@/Components/Buttons/EditorButton";
 import AddLinkModal from "@/Components/Modals/AddLink";
 import {Menu, Transition} from "@headlessui/react";
+import Prose from "@/Components/Content/Display/prose";
 
 const extensions = [StarterKit, Link.configure({openOnClick: false})]
 
@@ -27,7 +28,7 @@ export default function TextEditor ({ update, value, className = '' }: { classNa
       attributes: {
         class: classNames(
           className,
-          'prose prose-sm max-w-6xl border border-gray-300 prose-a:text-blue-500 rounded-md shadow-sm text-sm p-3.5 min-h-16 overflow-auto focus:outline-none focus-within:border-blue-300 focus-within:ring focus-within:ring-blue-200 focus-within:ring-opacity-50'
+          'border border-gray-300 rounded-md shadow-sm text-sm p-3.5 min-h-16 overflow-auto focus:outline-none focus-within:border-blue-300 focus-within:ring focus-within:ring-blue-200 focus-within:ring-opacity-50'
         )
       }
     }
@@ -49,7 +50,9 @@ export default function TextEditor ({ update, value, className = '' }: { classNa
 
   return (
     <>
-      <EditorContent spellCheck={false} editor={editor}/>
+      <Prose className="max-w-6xl">
+        <EditorContent spellCheck={false} editor={editor}/>
+      </Prose>
       {/* <FloatingMenu editor={editor} className="border border-gray-300 rounded-md p-1 shadow">This is a floating menu</FloatingMenu> */}
       {editor && <BubbleMenu className="bg-white p-1 rounded-md shadow-lg ring-1 ring-black ring-opacity-5" editor={editor} tippyOptions={{ duration: 100, zIndex: 10 }}>
         <EditorButton
