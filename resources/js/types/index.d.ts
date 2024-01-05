@@ -221,11 +221,12 @@ export interface GridImage {
 }
 
 export interface Hero {
-  button_link: string
-  button_text: string
   image_url: string
   title: string
   type: HeroType
+  button_link?: string
+  button_text?: string
+  subtitle?: string
 }
 
 export type Cells = Record<string, string>

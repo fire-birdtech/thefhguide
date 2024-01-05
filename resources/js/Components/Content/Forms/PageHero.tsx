@@ -31,16 +31,9 @@ export default function PageHero ({ hero, onChange }: { hero: Hero, onChange: (v
 
   const addHero = (value: string) => {
     let updatedHero = data
-    if (value === HeroType.HERO_FULL_WIDTH) {
+    if (value in HeroType) {
       updatedHero = {
-        type: HeroType.HERO_FULL_WIDTH,
-        image_url: '',
-        title: '',
-      }
-    }
-    if (value === HeroType.HERO_TWO_COLUMN) {
-      updatedHero = {
-        type: HeroType.HERO_TWO_COLUMN,
+        type: value as HeroType,
         image_url: '',
         title: '',
       }
@@ -51,7 +44,7 @@ export default function PageHero ({ hero, onChange }: { hero: Hero, onChange: (v
     onClose()
   }
 
-  const update = (key: "button_link"|"button_text"|"image_url"|"title", value: number) => {
+  const update = (key: keyof Hero, value: number|string) => {
     let file = files?.find((file: MediaFile) => file.id === value)
     let updatedHeroData = data
     updatedHeroData[key] = file !== undefined ? file.url : value
@@ -102,26 +95,70 @@ export default function PageHero ({ hero, onChange }: { hero: Hero, onChange: (v
             </div>
           </div>
 
-          <div>
-            <InputLabel label="Action button"/>
-            <div className="mt-1 space-y-2">
-              <TextInput
-                className="block w-full"
-                placeholder="Text"
-                value={data.button_text}
-                onChange={(e) => {
-                  update('button_text', e.target.value)
+          {Object.keys(data).map((key, index) => {
+            switch (key as keyof Hero) {
+              case "button_text":
+                return (
+                  <div key={index}>
+                    <InputLabel label="Action button"/>
+                    <div className="mt-1 space-y-2">
+                      <TextInput
+                        className="block w-full"
+                        placeholder="Text"
+                        value={data.button_text}
+                        onChange={(e) => {
+                          update('button_text', e.target.value)
+                        }}
+                      />
+                      <TextInput
+                        className="block w-full"
+                        placeholder="Link"
+                        value={data.button_link}
+                        onChange={(e) => {
+                          update('button_link', e.target.value)
+                        }}
+                      />
+                    </div>
+                  </div>
+                )
+              case "subtitle":
+                return (
+                  <div key={index}>
+                    <InputLabel label="Subtitle"/>
+                    <div className="mt-1 space-y-2">
+                      <TextInput
+                        className="block w-full"
+                        value={data.subtitle}
+                        onChange={(e) => {
+                          update('subtitle', e.target.value)
+                        }}
+                      />
+                    </div>
+                  </div>
+                )
+            }
+          })}
+
+          <div className="space-x-2">
+            {! ("button_text" in data) ? (
+              <SecondaryButtonSmall
+                onClick={() => {
+                  update('button_text', '')
+                  update('button_link', '')
                 }}
-              />
-              <TextInput
-                className="block w-full"
-                placeholder="Link"
-                value={data.button_link}
-                onChange={(e) => {
-                  update('button_link', e.target.value)
+              >
+                Add action button
+              </SecondaryButtonSmall>
+            ): null}
+            {! ("subtitle" in data) ? (
+              <SecondaryButtonSmall
+                onClick={() =>  {
+                  update('subtitle', '')
                 }}
-              />
-            </div>
+              >
+                Add subtitle
+              </SecondaryButtonSmall>
+            ): null}
           </div>
         </div>
       </div>
