@@ -18,6 +18,6 @@ class InfoPage extends Page
 
     public function generateUri(): string
     {
-        return $this->collection->slug . '/' . $this->slug;
+        return $this->collection->slug.'/'.$this->slug;
     }
 }

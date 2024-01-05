@@ -4,7 +4,6 @@ namespace Tests\Feature;
 
 use App\Models\Goal;
 use App\Models\GoalPage;
-use App\Models\Page;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Inertia\Testing\AssertableInertia as Assert;
 use Tests\TestCase;

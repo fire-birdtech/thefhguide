@@ -22,7 +22,7 @@ class InfoPageFactory extends Factory
     public function definition(): array
     {
         return [
-            'name' => Str::title($this->faker->words(3, true))
+            'name' => Str::title($this->faker->words(3, true)),
         ];
     }
 }
