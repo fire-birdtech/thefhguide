@@ -146,6 +146,9 @@ export default function CollectionShow ({ auth, collection }: PageProps<{ collec
               <TableHeader
                 header="Pages"
                 addText="Add page"
+                addRoute={route(
+                  'editor.pages.create',
+                  { collectionId: collection.id })}
               />
               {collection.pages.map((page) => (
                 <Link href={route('editor.pages.edit', [page])}>

@@ -2,11 +2,15 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\CreatePageRequest;
+use App\Http\Requests\StorePageRequest;
 use App\Models\Goal;
 use App\Models\GoalPage;
+use App\Models\InfoPage;
 use App\Models\Media;
 use App\Models\Page;
 use App\Models\Project;
+use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Inertia\Response;
 use Inertia\ResponseFactory;
@@ -31,6 +35,33 @@ class PageController extends Controller
         ]);
     }
 
+    public function create(CreatePageRequest $request): Response
+    {
+        return inertia('Editor/Content/Pages/Create', [
+            'collectionId' => intval($request['collectionId']),
+            'files' => Media::latest()->take(8)->get(),
+        ]);
+    }
+
+    public function store(StorePageRequest $request): RedirectResponse
+    {
+        $content = [];
+        if (! empty($request->details)) {
+            foreach ($request->details as $item) {
+                $content[] = $item;
+            }
+        }
+
+        InfoPage::create([
+            'name' => $request->name,
+            'hero' => $request->hero,
+            'content' => $content,
+            'collection_id' => $request->collectionId
+        ]);
+
+        return back();
+    }
+
     public function edit(Page $page): Response
     {
         return inertia('Editor/Content/Pages/Edit', [
@@ -39,7 +70,7 @@ class PageController extends Controller
         ]);
     }
 
-    public function update(Request $request, Page $page)
+    public function update(Request $request, Page $page): RedirectResponse
     {
         $content = [];
         if (! empty($request->details)) {

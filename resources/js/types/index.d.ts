@@ -30,6 +30,7 @@ export interface Collection {
   deleted_at: string
   projects: Project[]
   child_drafts: Draft[]
+  pages: Page[]
 }
 
 export interface Project {
@@ -194,10 +195,10 @@ export interface MediaFile {
 }
 
 export interface Page {
-  id: number
+  id?: number
   name: string
-  slug: string
-  hero: Hero
+  slug?: string
+  hero: Hero|null
   content: PageContentElement[][]
 }
 

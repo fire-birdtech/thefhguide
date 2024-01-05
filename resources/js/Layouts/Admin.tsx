@@ -12,7 +12,7 @@ import NotificationDropdown from '@/Components/Dropdowns/NotificationDropdown'
 export default function Admin ({ user, children }: PropsWithChildren<{ user: User }>): ReactElement {
   return (
     <>
-      <div className="min-h-screen bg-gray-100">
+      <div className="min-h-screen bg-gray-100 antialiased">
         <nav className="bg-white border-b border-gray-100">
           <div className="px-4 sm:px-6 lg:px-8">
             <div className="flex justify-between h-16">
