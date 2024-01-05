@@ -38,20 +38,8 @@ class Page extends Model
         return 'uri';
     }
 
-    public static function booted()
-    {
-        static::creating(function (Page $page) {
-            $page->uri = $page->generateUri();
-        });
-    }
-
     public function collection(): BelongsTo
     {
         return $this->belongsTo(Collection::class);
-    }
-
-    public function generateUri()
-    {
-        return $this->collection->slug.$this->slug;
     }
 }

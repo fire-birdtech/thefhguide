@@ -13,32 +13,6 @@ class PageControllerTest extends TestCase
 {
     use RefreshDatabase;
 
-    public function testAPageCanBeLoaded(): void
-    {
-        $page = Page::factory()->create([
-            'slug' => 'page-name',
-            'uri' => 'page-name',
-            'type' => Page::class,
-        ]);
-
-        $response = $this->get($page->uri);
-
-        $response->assertStatus(200);
-    }
-
-    public function testAPageWithAParentUriCanBeLoaded(): void
-    {
-        $page = Page::factory()->create([
-            'slug' => 'page-slug',
-            'uri' => 'parent-slug/page-slug',
-            'type' => Page::class,
-        ]);
-
-        $response = $this->get($page->uri);
-
-        $response->assertStatus(200);
-    }
-
     public function testPagesCanHaveAGoalType(): void
     {
         $page = GoalPage::factory()->create([

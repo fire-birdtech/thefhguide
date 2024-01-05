@@ -2,13 +2,18 @@
 
 namespace Database\Factories;
 
+use App\Models\InfoPage;
 use Illuminate\Database\Eloquent\Factories\Factory;
+use Illuminate\Foundation\Testing\WithFaker;
+use Illuminate\Support\Str;
 
 /**
- * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Page>
+ * @extends Factory<InfoPage>
  */
-class PageFactory extends Factory
+class InfoPageFactory extends Factory
 {
+    use WithFaker;
+
     /**
      * Define the model's default state.
      *
@@ -17,7 +22,7 @@ class PageFactory extends Factory
     public function definition(): array
     {
         return [
-            //
+            'name' => Str::title($this->faker->words(3, true))
         ];
     }
 }
