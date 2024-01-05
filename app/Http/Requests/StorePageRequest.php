@@ -26,7 +26,7 @@ class StorePageRequest extends FormRequest
             'collectionId' => 'required|integer',
             'name' => 'required|string',
             'hero' => 'nullable',
-            'details' => 'nullable'
+            'details' => 'nullable',
         ];
     }
 }

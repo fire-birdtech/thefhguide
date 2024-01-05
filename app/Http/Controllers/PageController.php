@@ -56,7 +56,7 @@ class PageController extends Controller
             'name' => $request->name,
             'hero' => $request->hero,
             'content' => $content,
-            'collection_id' => $request->collectionId
+            'collection_id' => $request->collectionId,
         ]);
 
         return back();

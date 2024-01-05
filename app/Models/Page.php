@@ -52,6 +52,6 @@ class Page extends Model
 
     public function generateUri()
     {
-        return $this->collection->slug . $this->slug;
+        return $this->collection->slug.$this->slug;
     }
 }
