@@ -10,6 +10,7 @@ import RightAlignedImage from "@/Components/Forms/RightAlignedImage";
 import Text from "@/Components/Forms/Text";
 import ResourceList from "@/Components/Content/Forms/ResourceList";
 import ImageGrid from "@/Components/Content/Forms/ImageGrid";
+import LeftAlignedImage from "@/Components/LeftAlignedImage";
 
 export default function ContentSectionEdit({ section, onChange }: { section: PageContentElement[], onChange: (value: any) => void  }): ReactElement {
   const [addElement, setAddElement] = useState<boolean>(false)
@@ -21,7 +22,7 @@ export default function ContentSectionEdit({ section, onChange }: { section: Pag
 
   const add = (type: ContentElementType) => {
     let updatedContent = data
-    if (type === ContentElementType.RIGHT_ALIGNED_IMAGE) {
+    if (type === ContentElementType.RIGHT_ALIGNED_IMAGE || type === ContentElementType.LEFT_ALIGNED_IMAGE) {
       updatedContent.push({ type: type, data: { url: '', width: '' }})
     } else if (type === ContentElementType.RESOURCE_LIST || type === ContentElementType.IMAGE_GRID) {
       updatedContent.push({ type: type, data: [] })
@@ -53,6 +54,8 @@ export default function ContentSectionEdit({ section, onChange }: { section: Pag
             switch (element.type) {
               case ContentElementType.IMAGE_GRID:
                 return <ImageGrid key={index} images={element.data as GridImage[]} onChange={(value: GridImage[]) => update(index, value)}/>
+              case ContentElementType.LEFT_ALIGNED_IMAGE:
+                return <LeftAlignedImage key={index} image={element.data as ContentImage} onChange={(value: ContentImage) => update(index, value)}/>
               case ContentElementType.RESOURCE_LIST:
                 return <ResourceList key={index} resources={element.data as Resource[]} onChange={(value: Resource[]) => update(index, value)}/>
               case ContentElementType.RIGHT_ALIGNED_IMAGE:

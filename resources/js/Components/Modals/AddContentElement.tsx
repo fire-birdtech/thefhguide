@@ -192,6 +192,33 @@ export default function AddContentElementModal ({ add, open, close }: {
                         </div>
                       </div>
                     </button>
+                    <button onClick={() => handleClick(ContentElementType.LEFT_ALIGNED_IMAGE)} className="bg-white p-4 transition duration-300 rounded-lg text-left hover:bg-gray-100">
+                      <div className="flex">
+                        <div className="mt-1.5 flex justify-center flex-shrink-0 rounded-s-xl">
+                          <svg className="h-6 w-6 text-gray-500" width="16px" height="16px" viewBox="0 0 16 16">
+                            <g stroke="currentColor" strokeWidth="1" fill="none" fillRule="evenodd">
+                              <path d="M1,15 L1,2 C1,1.44771525 1.44771525,1 2,1 L14,1 C14.5522847,1 15,1.44771525 15,2 L15,15 L15,15"/>
+                              <path d="M5,3 L7,3 C7.55228475,3 8,3.44771525 8,4 L8,6 C8,6.55228475 7.55228475,7 7,7 L5,7 C4.44771525,7 4,6.55228475 4,6 L4,4 C4,3.44771525 4.44771525,3 5,3 Z" stroke="#2563EB"/>
+                              <line x1="4" y1="9" x2="12" y2="9" id="Path-22" strokeLinecap="round"/>
+                              <line x1="4" y1="11" x2="12" y2="11" id="Path-22" strokeLinecap="round"/>
+                              <line x1="4" y1="13" x2="10" y2="13" id="Path-22" strokeLinecap="round"/>
+                              <line x1="10" y1="3" x2="12" y2="3" id="Path-20" strokeLinecap="round"/>
+                              <line x1="10" y1="5" x2="12" y2="5" id="Path-21" strokeLinecap="round"/>
+                              <line x1="10" y1="7" x2="12" y2="7" id="Path-22" strokeLinecap="round"/>
+                            </g>
+                          </svg>
+                        </div>
+
+                        <div className="grow ms-6">
+                          <h3 className="text-sm font-semibold text-blue-600">
+                            Left Aligned Image
+                          </h3>
+                          <p className="mt-1 text-sm text-gray-600">
+                            A framework for building web user interfaces.
+                          </p>
+                        </div>
+                      </div>
+                    </button>
                   </div>
                 </Dialog.Description>
               </Dialog.Panel>

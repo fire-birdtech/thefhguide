@@ -8,7 +8,7 @@ import {ContentImage, MediaFile} from "@/types";
 import TextInput from "@/Components/Forms/TextInput";
 import InputError from "@/Components/Forms/InputError";
 
-export default function RightAlignedImage({ image, onChange }: { image: ContentImage, onChange: (value: ContentImage) => void  }): ReactElement {
+export default function RightAlignedImage({ image, onChange }: { image: ContentImage, onChange: (value: ContentImage) => void }): ReactElement {
   const [addImage, setAddImage] = useState<boolean>(false)
   const [showImageWidthErrorMessage, setShowImageWidthErrorMessage] = useState<boolean>(false)
 

@@ -32,6 +32,7 @@ export enum ContentElementType {
   RIGHT_ALIGNED_IMAGE = 'right-aligned-image',
   TEXT = 'text',
   RESOURCE_LIST = 'resource-list',
+  LEFT_ALIGNED_IMAGE = 'left-aligned-image',
 }
 
 export enum MediaableType {

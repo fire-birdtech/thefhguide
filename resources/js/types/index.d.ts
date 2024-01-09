@@ -209,7 +209,7 @@ export interface PageContentElement {
 
 export interface ContentImage {
   url: string
-  width: string
+  width?: string
 }
 
 export interface GridImage {
