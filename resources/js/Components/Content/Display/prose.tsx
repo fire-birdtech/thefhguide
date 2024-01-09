@@ -7,7 +7,7 @@ export default function Prose ({ className, ...props }: PropsWithChildren & { cl
   const h3Styles = 'prose-h3:font-bold prose-h3:text-2xl prose-h3:font-sans prose-h3:first:mt-0'
   const h4Styles = 'prose-h4:text-2xl'
   const paragraphStyles = 'prose-p:text-base prose-p:leading-6 prose-p:font-normal prose-p:mt-0 prose-p:mb-4 last:prose-p:mb-0'
-  const imageStyles = 'prose-img:float-right prose-img:border prose-img:border-black prose-img:ml-4 prose-img:max-w-md'
+  const imageStyles = 'prose-img:border prose-img:border-black'
   const listStyles = 'prose-li:pl-0 prose-li:my-0'
 
   return (
