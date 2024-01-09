@@ -41,7 +41,7 @@ export default function RightAlignedImage({ image, onChange }: { image: ContentI
           {data.url !== '' ? (
             <>
               <div className="flex gap-x-4">
-                <img src={data.url} alt="" width="300" className="border border-black"/>
+                <img src={data.url} alt="" width="300" className="border border-black object-cover"/>
                 <div className="flex-1 overflow-hidden rounded bg-gray-100">
                   <div className="p-4">
                     <h3 className="text-xs font-semibold leading-2 tracking-wide text-gray-900 uppercase">Image Options</h3>
