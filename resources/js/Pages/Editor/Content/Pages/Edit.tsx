@@ -75,7 +75,7 @@ export default function PagesEdit ({ auth, files, page }: PageProps<{ files: Med
               Edit Page: {page.name}
             </Header3>
             <div className="flex justify-end space-x-3">
-              <SecondaryButton href="#">
+              <SecondaryButton href={route('editor.pages.show', [page])}>
                 Cancel
               </SecondaryButton>
               <PrimaryButton type="button" onClick={submit} disabled={processing}>
