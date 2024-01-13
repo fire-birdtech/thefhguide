@@ -9,7 +9,7 @@ import { type ReactElement } from 'react'
 interface TableBodyProps {
   actions: Actions
   cells: Cells
-  rows: Assignment[] | Project[] | Draft[] | User[]
+  rows: Assignment[] | Project[] | Draft[] | User[] | Page[]
   adminRouteType?: string
   routeType?: string
   order?: boolean

@@ -40,6 +40,7 @@ Route::group([
     Route::post('media/store', [MediaController::class, 'store'])->name('media.store');
     Route::post('media/{media}/attach', [MediaController::class, 'attach'])->name('media.attach');
     Route::get('pages/create', [PageController::class, 'create'])->name('pages.create');
+    Route::get('pages/{page:id}', [PageController::class, 'show'])->name('pages.show');
     Route::post('pages/store', [PageController::class, 'store'])->name('pages.store');
     Route::get('pages/{page:id}/edit', [PageController::class, 'edit'])->name('pages.edit');
     Route::put('pages/{page:id}', [PageController::class, 'update'])->name('pages.update');
