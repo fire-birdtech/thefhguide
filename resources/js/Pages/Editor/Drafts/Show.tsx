@@ -6,7 +6,7 @@ import Admin from '@/Layouts/Admin'
 import Container from '@/Components/Container'
 import { Header3 } from '@/Components/Typography/Headers'
 import PrimaryButton from '@/Components/Buttons/PrimaryButton'
-import DescriptionListItem from '@/Components/Lists/DescriptionListItem'
+import { DescriptionList, DescriptionListItem } from '@/Components/DescriptionList'
 import SecondaryButtonSmall from '@/Components/Buttons/SecondaryButtonSmall'
 import Anchor from '@/Components/Anchor'
 import ChoiceContentDisplay from '@/Components/ChoiceContentDisplay'
@@ -37,7 +37,7 @@ export default function DraftShow ({ auth, draft }: PageProps<{ draft: Draft }>)
             </div>
 
             <div className="mt-4 bg-white shadow overflow-hidden sm:rounded-lg">
-              <dl className="sm:divide-y sm:divide-gray-200">
+              <DescriptionList>
                 <DescriptionListItem term="Name" details={draft.name}/>
                 {draft.cover_image_path !== null && (
                   <DescriptionListItem term="Cover Image">
@@ -69,7 +69,7 @@ export default function DraftShow ({ auth, draft }: PageProps<{ draft: Draft }>)
                     details={draft.content.map((item: ChoiceContent, idx: number) => <ChoiceContentDisplay item={item} idx={idx} key={idx}/>)}
                   />
                 )}
-              </dl>
+              </DescriptionList>
             </div>
           </div>
         </Container>

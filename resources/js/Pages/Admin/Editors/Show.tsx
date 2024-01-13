@@ -4,7 +4,7 @@ import Admin from '@/Layouts/Admin'
 import Container from '@/Components/Container'
 import { Header3 } from '@/Components/Typography/Headers'
 import SecondaryButtonWithDropdown from '@/Components/Buttons/SecondaryButtonWithDropdown'
-import DescriptionListItem from '@/Components/Lists/DescriptionListItem'
+import { DescriptionList, DescriptionListItem } from '@/Components/DescriptionList'
 import Badge from '@/Components/Badge'
 import { type PageProps, type User } from '@/types'
 import DangerModal from '@/Components/Modals/Danger'
@@ -51,14 +51,14 @@ export default function EditorShow ({ auth, user }: PageProps<{ user: User }>): 
           </div>
 
           <div className="mt-4 bg-white shadow overflow-hidden sm:rounded-lg">
-            <dl className="sm:divide-y sm:divide-gray-200">
+            <DescriptionList>
               <DescriptionListItem term="Name" details={user.name}/>
               <DescriptionListItem term="Email" details={user.email}/>
               <DescriptionListItem term="Role" details={<Badge text={user.roles[0].name}/>}/>
               {user.admin !== null ? (
                 <DescriptionListItem term="Admin" details={user.admin.name}/>
               ) : null}
-            </dl>
+            </DescriptionList>
           </div>
         </Container>
       </Admin>

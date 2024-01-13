@@ -5,7 +5,7 @@ import Admin from '@/Layouts/Admin'
 import Container from '@/Components/Container'
 import { Header3 } from '@/Components/Typography/Headers'
 import PrimaryButtonWithDropDown from '@/Components/Buttons/PrimaryButtonWithDropdown'
-import DescriptionListItem from '@/Components/Lists/DescriptionListItem'
+import { DescriptionList, DescriptionListItem } from '@/Components/DescriptionList'
 import Badge from '@/Components/Badge'
 
 export default function AssignmentShow ({ auth, assignment }: PageProps<{ assignment: Assignment }>): ReactElement {
@@ -41,11 +41,11 @@ export default function AssignmentShow ({ auth, assignment }: PageProps<{ assign
           </div>
 
           <div className="mt-4 bg-white shadow overflow-hidden sm:rounded-lg">
-            <dl className="sm:divide-y sm:divide-gray-200">
+            <DescriptionList>
               <DescriptionListItem term="Belongs to" details={assignment.assignable.name}/>
               <DescriptionListItem term="Status" details={<Badge text={assignment.status}/>}/>
               <DescriptionListItem term="Assigned to" details={assignment.user.name}/>
-            </dl>
+            </DescriptionList>
           </div>
 
           <div className="mt-3 ml-4 flex flex-col space-y-1">

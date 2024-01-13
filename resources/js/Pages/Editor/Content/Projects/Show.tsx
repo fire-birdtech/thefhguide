@@ -11,8 +11,8 @@ import Table from '@/Components/Tables/Table'
 import TableHead from '@/Components/Tables/TableHead'
 import TableBody from '@/Components/Tables/TableBody'
 import DangerModal from '@/Components/Modals/Danger'
+import { DescriptionList, DescriptionListItem } from '@/Components/DescriptionList'
 import { type Goal, type PageProps, type Project } from '@/types'
-import DescriptionListItem from "@/Components/Lists/DescriptionListItem";
 
 export default function ProjectShow ({ auth, project }: PageProps<{ project: Project }>): ReactElement {
   const [confirmProjectArchive, setConfirmProjectArchive] = useState(false)
@@ -103,7 +103,7 @@ export default function ProjectShow ({ auth, project }: PageProps<{ project: Pro
           </div>
 
           <div className="mt-4 bg-white shadow overflow-hidden sm:rounded-lg">
-            <dl className="sm:divide-y sm:divide-gray-200">
+            <DescriptionList>
               <DescriptionListItem term="Name" details={project.name}/>
               <DescriptionListItem term="Belongs to">
                 <Link className="text-gray-900 font-bold hover:text-gray-600" href={route('editor.collections.show', [project.collection_id])}>
@@ -121,7 +121,7 @@ export default function ProjectShow ({ auth, project }: PageProps<{ project: Pro
                   </div>
                 )}
               </DescriptionListItem>
-            </dl>
+            </DescriptionList>
           </div>
 
           <div className="mt-12">

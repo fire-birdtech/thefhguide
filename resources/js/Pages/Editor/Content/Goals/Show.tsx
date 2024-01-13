@@ -1,4 +1,4 @@
-import {type FormEventHandler, type ReactElement, useState} from 'react'
+import { type FormEventHandler, type ReactElement, useState } from 'react'
 import { Head, Link, router } from '@inertiajs/react'
 import { Dialog } from '@headlessui/react'
 import Admin from '@/Layouts/Admin'
@@ -12,11 +12,13 @@ import TableBody from '@/Components/Tables/TableBody'
 import Prose from '@/Components/Prose'
 import DangerModal from '@/Components/Modals/Danger'
 import ExpandableStackedListItem from '@/Components/Lists/ExpandableStackedListItem'
-import {type Goal, MediaFile, type PageProps} from '@/types'
-import {MediaFilesProvider} from "@/contexts/MediaFilesContext"
+import { DescriptionList, DescriptionListItem } from '@/Components/DescriptionList'
+import { type Goal, type MediaFile, type PageProps } from '@/types'
+import { MediaFilesProvider } from '@/contexts/MediaFilesContext'
 
 export default function GoalShow ({ auth, goal, files }: PageProps<{
-  goal: Goal, files: MediaFile[]
+  goal: Goal
+  files: MediaFile[]
 }>): ReactElement {
   const [confirmGoalArchive, setConfirmGoalArchive] = useState(false)
 
@@ -70,42 +72,18 @@ export default function GoalShow ({ auth, goal, files }: PageProps<{
           </div>
 
           <div className="mt-4 bg-white shadow overflow-hidden sm:rounded-lg">
-            <dl className="sm:divide-y sm:divide-gray-200">
-              <div className="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-                <dt className="text-sm font-medium text-gray-500">
-                  Name
-                </dt>
-                <dd className="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
-                  {goal.name}
-                </dd>
-              </div>
-              <div className="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-                <dt className="text-sm font-medium text-gray-500">
-                  Summary
-                </dt>
-                <dd className="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
-                  <Prose html={goal.summary}/>
-                </dd>
-              </div>
-              <div className="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-                <dt className="text-sm font-medium text-gray-500">
-                  &apos;Show Me&apos; Video
-                </dt>
-                <dd className="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
-                  {goal.show_me_video_url}
-                </dd>
-              </div>
-              <div className="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-                <dt className="text-sm font-medium text-gray-500">
-                  Belongs to
-                </dt>
-                <dd className="mt-1 text-sm font-bold text-gray-900 sm:mt-0 sm:col-span-2">
-                  <Link className="hover:text-gray-600" href={route('editor.projects.show', [goal.project_id])}>
-                    {goal.project.name}
-                  </Link>
-                </dd>
-              </div>
-            </dl>
+            <DescriptionList>
+              <DescriptionListItem term="Name" details={goal.name}/>
+              <DescriptionListItem term="Summary">
+                <Prose html={goal.summary}/>
+              </DescriptionListItem>
+              <DescriptionListItem term={'"Show Me" Video'} details={goal.show_me_video_url}/>
+              <DescriptionListItem term="Belongs to">
+                <Link className="text-gray-900 font-bold hover:text-gray-600" href={route('editor.projects.show', [goal.project_id])}>
+                  {goal.project.name}
+                </Link>
+              </DescriptionListItem>
+            </DescriptionList>
           </div>
 
           <div className="mt-12">

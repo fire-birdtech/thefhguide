@@ -29,6 +29,7 @@ module.exports = {
     ],
     "rules": {
         "@typescript-eslint/no-dynamic-delete": "warn",
+        "@typescript-eslint/prefer-optional-chain": "warn",
         "array-callback-return": "warn",
         "react/react-in-jsx-scope": "off",
         "multiline-ternary": "off",

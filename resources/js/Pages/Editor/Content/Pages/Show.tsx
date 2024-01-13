@@ -1,14 +1,14 @@
-import {type ReactElement} from "react";
-import {type Page, type PageProps} from "@/types";
-import {Head, Link} from "@inertiajs/react";
-import Admin from "@/Layouts/Admin";
-import Container from "@/Components/Container";
-import {Header3} from "@/Components/Typography/Headers";
-import SecondaryButtonWithDropdown from "@/Components/Buttons/SecondaryButtonWithDropdown";
-import PageHero from "@/Components/Content/Display/PageHero";
-import DescriptionListItem from "@/Components/Lists/DescriptionListItem";
-import ArticleWrapper from "@/Components/Content/Display/ArticleWrapper";
-import ContentSectionShow from "@/Components/ContentSectionShow";
+import { type ReactElement } from 'react'
+import { type Page, type PageProps } from '@/types'
+import { Head, Link } from '@inertiajs/react'
+import Admin from '@/Layouts/Admin'
+import Container from '@/Components/Container'
+import { Header3 } from '@/Components/Typography/Headers'
+import SecondaryButtonWithDropdown from '@/Components/Buttons/SecondaryButtonWithDropdown'
+import PageHero from '@/Components/Content/Display/PageHero'
+import { DescriptionList, DescriptionListItem } from '@/Components/DescriptionList'
+import ArticleWrapper from '@/Components/Content/Display/ArticleWrapper'
+import ContentSectionShow from '@/Components/ContentSectionShow'
 
 type PageShowProps = {
   page: Page
@@ -45,7 +45,7 @@ export default function PageShow ({ auth, page }: PageShowProps): ReactElement {
           </div>
 
           <div className="mt-4 bg-white shadow overflow-hidden sm:rounded-lg">
-            <dl className="sm:divide-y sm:divide-gray-200">
+            <DescriptionList>
               <DescriptionListItem term="Name" details={page.name}/>
               <DescriptionListItem term="Collection">
                 <Link className="text-gray-900 font-bold hover:text-gray-600" href={route('editor.collections.show', [page.collection.id])}>
@@ -59,12 +59,12 @@ export default function PageShow ({ auth, page }: PageShowProps): ReactElement {
               )}
               <DescriptionListItem term="Content">
                 <ArticleWrapper>
-                  {page.content !== null && page.content.map((item, index) => (
+                  {page?.content !== null && page.content.map((item, index) => (
                     <ContentSectionShow key={index} section={item}/>
                   ))}
                 </ArticleWrapper>
               </DescriptionListItem>
-            </dl>
+            </DescriptionList>
           </div>
         </Container>
       </Admin>

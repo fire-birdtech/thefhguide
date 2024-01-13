@@ -1,6 +1,6 @@
 import { type FormEventHandler, type ReactElement, useState } from 'react'
 import { Dialog } from '@headlessui/react'
-import {Head, router, useForm} from '@inertiajs/react'
+import { Head, router, useForm } from '@inertiajs/react'
 import Admin from '@/Layouts/Admin'
 import Container from '@/Components/Container'
 import { Header3 } from '@/Components/Typography/Headers'
@@ -10,8 +10,9 @@ import Table from '@/Components/Tables/Table'
 import TableHead from '@/Components/Tables/TableHead'
 import TableBody from '@/Components/Tables/TableBody'
 import DangerModal from '@/Components/Modals/Danger'
+import { DescriptionList, DescriptionListItem } from '@/Components/DescriptionList'
 import { type Actions, type Cells, type Collection, type PageProps, type Project } from '@/types'
-import {CollectionType} from "@/enums";
+import { CollectionType } from '@/enums'
 
 export default function CollectionShow ({ auth, collection }: PageProps<{ collection: Collection }>): ReactElement {
   const [confirmCollectionArchive, setConfirmCollectionArchive] = useState(false)
@@ -107,16 +108,9 @@ export default function CollectionShow ({ auth, collection }: PageProps<{ collec
               </div>
             </div>
             <div className="mt-4 bg-white shadow overflow-hidden sm:rounded-lg">
-              <dl className="sm:divide-y sm:divide-gray-200">
-                <div className="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-                  <dt className="text-sm font-medium text-gray-500">
-                    Name
-                  </dt>
-                  <dd className="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
-                    {collection.name}
-                  </dd>
-                </div>
-              </dl>
+              <DescriptionList>
+                <DescriptionListItem term="Name" details={collection.name}/>
+              </DescriptionList>
             </div>
           </div>
 
