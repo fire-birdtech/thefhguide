@@ -48,6 +48,7 @@ export interface Project {
   deleted_at: string
   collection: Collection
   goals: Goal[]
+  child_drafts: Draft[]
 }
 
 export interface Goal {
