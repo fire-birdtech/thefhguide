@@ -1,6 +1,6 @@
 import {type ReactElement} from "react";
 import {type Page, type PageProps} from "@/types";
-import {Head} from "@inertiajs/react";
+import {Head, Link} from "@inertiajs/react";
 import Admin from "@/Layouts/Admin";
 import Container from "@/Components/Container";
 import {Header3} from "@/Components/Typography/Headers";
@@ -47,6 +47,11 @@ export default function PageShow ({ auth, page }: PageShowProps): ReactElement {
           <div className="mt-4 bg-white shadow overflow-hidden sm:rounded-lg">
             <dl className="sm:divide-y sm:divide-gray-200">
               <DescriptionListItem term="Name" details={page.name}/>
+              <DescriptionListItem term="Collection">
+                <Link className="text-gray-900 font-bold hover:text-gray-600" href={route('editor.collections.show', [page.collection.id])}>
+                  {page.collection.name}
+                </Link>
+              </DescriptionListItem>
               {page.hero !== null && (
                 <DescriptionListItem term="Hero">
                   <PageHero hero={page.hero}/>

@@ -200,6 +200,7 @@ export interface Page {
   slug?: string
   hero: Hero|null
   content: PageContentElement[][]
+  collection: Collection
 }
 
 export interface PageContentElement {

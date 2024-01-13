@@ -65,7 +65,7 @@ class PageController extends Controller
     public function show(Page $page): Response
     {
         return inertia('Editor/Content/Pages/Show', [
-            'page' => $page,
+            'page' => $page->load('collection'),
         ]);
     }
 
