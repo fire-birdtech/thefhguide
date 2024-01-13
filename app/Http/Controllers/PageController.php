@@ -62,6 +62,13 @@ class PageController extends Controller
         return back();
     }
 
+    public function show(Page $page): Response
+    {
+        return inertia('Editor/Content/Pages/Show', [
+            'page' => $page,
+        ]);
+    }
+
     public function edit(Page $page): Response
     {
         return inertia('Editor/Content/Pages/Edit', [
