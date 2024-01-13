@@ -12,6 +12,7 @@ import TableHead from '@/Components/Tables/TableHead'
 import TableBody from '@/Components/Tables/TableBody'
 import DangerModal from '@/Components/Modals/Danger'
 import { type Goal, type PageProps, type Project } from '@/types'
+import DescriptionListItem from "@/Components/Lists/DescriptionListItem";
 
 export default function ProjectShow ({ auth, project }: PageProps<{ project: Project }>): ReactElement {
   const [confirmProjectArchive, setConfirmProjectArchive] = useState(false)
@@ -103,40 +104,23 @@ export default function ProjectShow ({ auth, project }: PageProps<{ project: Pro
 
           <div className="mt-4 bg-white shadow overflow-hidden sm:rounded-lg">
             <dl className="sm:divide-y sm:divide-gray-200">
-              <div className="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-                <dt className="text-sm font-medium text-gray-500">
-                  Name
-                </dt>
-                <dd className="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
-                  {project.name}
-                </dd>
-              </div>
-              <div className="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-                <dt className="text-sm font-medium text-gray-500">
-                  Belongs to
-                </dt>
-                <dd className="mt-1 text-sm font-bold text-gray-900 sm:mt-0 sm:col-span-2">
-                  <Link className="hover:text-gray-600" href={route('editor.collections.show', [project.collection_id])}>
-                    {project.collection.name}
-                  </Link>
-                </dd>
-              </div>
-              <div className="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-                <dt className="text-sm font-medium text-gray-500">
-                  Cover Image
-                </dt>
-                <dd className="mt-1 text-sm font-bold text-gray-900 sm:mt-0 sm:col-span-2">
-                  {project.cover_image_path !== undefined ? (
-                    <SecondaryButtonSmall className="-my-2 sm:-my-2.5" onClick={() => { setShowCoverImagePreview(true) }}>
-                      Show image
-                    </SecondaryButtonSmall>
-                  ) : (
-                    <div className="mt-1 text-sm font-normal text-gray-500 sm:mt-0 sm:col-span-2">
-                      No cover image available
-                    </div>
-                  )}
-                </dd>
-              </div>
+              <DescriptionListItem term="Name" details={project.name}/>
+              <DescriptionListItem term="Belongs to">
+                <Link className="text-gray-900 font-bold hover:text-gray-600" href={route('editor.collections.show', [project.collection_id])}>
+                  {project.collection.name}
+                </Link>
+              </DescriptionListItem>
+              <DescriptionListItem term="Cover Image">
+                {project.cover_image_path !== undefined ? (
+                  <SecondaryButtonSmall className="-my-2 sm:-my-2.5" onClick={() => { setShowCoverImagePreview(true) }}>
+                    Show image
+                  </SecondaryButtonSmall>
+                ) : (
+                  <div className="mt-1 text-sm font-normal text-gray-500 sm:mt-0 sm:col-span-2">
+                    No cover image available
+                  </div>
+                )}
+              </DescriptionListItem>
             </dl>
           </div>
 
