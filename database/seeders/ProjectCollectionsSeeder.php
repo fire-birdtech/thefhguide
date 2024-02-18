@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Enums\CollectionType;
 use App\Models\Choice;
 use App\Models\Collection;
 use App\Models\Goal;
@@ -1167,6 +1168,7 @@ class ProjectCollectionsSeeder extends Seeder
         collect($this->collections)->each(function ($collection) {
             $newCollection = Collection::firstOrCreate([
                 'name' => $collection['name'],
+                'type' => CollectionType::PROJECT,
                 'website_url' => $collection['website_url'],
             ]);
 
