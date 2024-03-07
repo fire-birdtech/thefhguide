@@ -1,12 +1,29 @@
+import { type ReactElement, useState } from 'react'
 import { Head } from '@inertiajs/react'
 import Admin from '@/Layouts/Admin'
 import { Header3 } from '@/Components/Typography/Headers'
 import ContentCard from '@/Components/Cards/Editor/ContentCard'
+import Container from '@/Components/Container'
 import { type Collection, type PageProps, type Project } from '@/types'
-import { type ReactElement } from 'react'
-import Container from "@/Components/Container";
+import PrimaryButton from '@/Components/Buttons/PrimaryButton'
+import AddCollectionModal from '@/Components/Modals/AddCollection'
+import { CollectionType } from '@/enums'
 
-export default function ContentIndex ({ auth, collections, pageCollections, projects }: PageProps<{ collections: Collection[], pageCollections: Collection[], projects: Project[] }>): ReactElement {
+type ContextIndexProps = {
+  collections: Collection[]
+  pageCollections: Collection[]
+  projects: Project[]
+} & PageProps
+
+export default function ContentIndex ({ auth, collections, pageCollections, projects }: ContextIndexProps): ReactElement {
+  const [confirmNewCollection, setConfirmNewCollection] = useState(false)
+  const [newCollectionType, setNewCollectionType] = useState<CollectionType | null>(null)
+
+  const addCollection = (type: CollectionType): void => {
+    setNewCollectionType(type)
+    setConfirmNewCollection(true)
+  }
+
   return (
     <>
       <Head title="Site Content"/>
@@ -28,16 +45,37 @@ export default function ContentIndex ({ auth, collections, pageCollections, proj
           </div>
 
           <Container>
-            <Header3>
-              Pages
-            </Header3>
+            <div className="md:flex md:items-center md:justify-between">
+              <div className="min-w-0 flex-1">
+                <Header3>
+                  Pages
+                </Header3>
+              </div>
+              <div className="mt-4 flex md:ml-4 md:mt-0">
+                <PrimaryButton
+                  onClick={() => {
+                    addCollection(CollectionType.PAGE)
+                  }}
+                >
+                  Add
+                </PrimaryButton>
+              </div>
+            </div>
             <div className="mt-4 grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-7">
               {pageCollections.length > 0 ? pageCollections.map((collection) => (
                 <ContentCard key={collection.id} content={collection} type="collection"/>
-              )): null}
+              )) : null}
             </div>
           </Container>
         </div>
+
+        <AddCollectionModal
+          close={() => {
+            setConfirmNewCollection(false)
+          }}
+          open={confirmNewCollection}
+          type={newCollectionType}
+        />
       </Admin>
     </>
   )
