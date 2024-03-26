@@ -1,4 +1,5 @@
-import {ContentElementType, HeroType} from "@/enums";
+import { type Config } from 'ziggy-js'
+import { type ContentElementType, type HeroType } from '@/enums'
 
 export interface User {
   id: number
@@ -199,14 +200,14 @@ export interface Page {
   id?: number
   name: string
   slug?: string
-  hero: Hero|null
+  hero: Hero | null
   content: PageContentElement[][]
   collection: Collection
 }
 
 export interface PageContentElement {
   type: ContentElementType
-  data: string|ContentImage|Resource[]|GridImage[]
+  data: string | ContentImage | Resource[] | GridImage[]
 }
 
 export interface ContentImage {
@@ -239,4 +240,5 @@ export type PageProps<T extends Record<string, unknown> = Record<string, unknown
   auth: {
     user: User
   }
+  ziggy: Config & { location: string }
 }

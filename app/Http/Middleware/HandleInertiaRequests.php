@@ -5,7 +5,6 @@ namespace App\Http\Middleware;
 use App\Models\Collection;
 use Illuminate\Http\Request;
 use Inertia\Middleware;
-use Tightenco\Ziggy\Ziggy;
 
 class HandleInertiaRequests extends Middleware
 {
@@ -19,9 +18,10 @@ class HandleInertiaRequests extends Middleware
     /**
      * Determine the current asset version.
      *
+     * @param Request $request
      * @return string|null
      */
-    public function version(Request $request)
+    public function version(Request $request): ?string
     {
         return parent::version($request);
     }
@@ -42,9 +42,6 @@ class HandleInertiaRequests extends Middleware
             ],
             'navigation' => $this->setupNavigation(),
             'notifications' => fn () => auth()->user() ? $request->user()->notifications->take(10) : null,
-            'ziggy' => function () {
-                return (new Ziggy)->toArray();
-            },
         ]);
     }
 
