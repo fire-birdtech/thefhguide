@@ -24,7 +24,7 @@ class PageController extends Controller
 
             return inertia('Pages/Goal', [
                 'goal' => $goal,
-                'project_navigation' => $this->getProjectNavigation($goal->project),
+                'projectNavigation' => $this->getProjectNavigation($goal->project),
                 'title' => "{$goal->name}: {$goal->project->collection->name} Project {$goal->project->order}, Goal {$goal->order}",
             ]);
         }

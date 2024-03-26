@@ -1,18 +1,18 @@
-import {type PropsWithChildren, type ReactElement, ReactNode} from 'react'
+import { type PropsWithChildren, type ReactElement, type ReactNode } from 'react'
 import classNames from '@/Utils/classNames'
 
-type DescriptionListItemProps = {
-  term: string,
-  children?: ReactElement,
-  className?: string,
+interface DescriptionListItemProps {
+  term: string
+  children?: ReactElement
+  className?: string
   details?: string | ReactNode
 }
 
-export function DescriptionList({ children }: PropsWithChildren): ReactElement {
+export function DescriptionList ({ children }: PropsWithChildren): ReactElement {
   return <dl className="sm:divide-y sm:divide-gray-200">{children}</dl>
 }
 
-export function DescriptionListItem({ term, children, className, details }: DescriptionListItemProps): ReactElement {
+export function DescriptionListItem ({ term, children, className, details }: DescriptionListItemProps): ReactElement {
   return (
     <div className="py-4 sm:py-5 sm:grid sm:grid-cols-8 sm:gap-4 sm:px-6">
       <dt className="text-sm font-medium text-gray-500">

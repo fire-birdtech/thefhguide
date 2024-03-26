@@ -1,11 +1,12 @@
-import {GridImage} from "@/types";
-import Image from "@/Components/image";
+import { type ReactElement } from 'react'
+import { type GridImage } from '@/types'
+import Image from '@/Components/image'
 
-export default function ({ images }: { images: GridImage[] }) {
+export default function ImageGrid ({ images }: { images: GridImage[] }): ReactElement {
   return (
     <div className="mx-auto grid max-w-2xl grid-cols-1 gap-y-8 mt-4 mb-6 lg:-mx-[15px] lg:max-w-none lg:grid-cols-4">
       {images.map((image, index) => (
-        <div className="w-full sm:px-4">
+        <div key={index} className="w-full sm:px-4">
           <article key={index} className="not-prose group relative flex flex-col items-start justify-between lg:w-[120%]">
             <div className="w-auto relative">
               <Image
@@ -23,9 +24,9 @@ export default function ({ images }: { images: GridImage[] }) {
             </div>
             <div className="max-w-xl">
               <h3 className="text-lg font-bold leading-6 text-[#006666] hover:text-[#0056B3] hover:underline">
-                <a href={image.link} target="_blank">
+                <a href={image.link} target="_blank" rel="noreferrer">
                   <span className="absolute inset-0 z-20" />
-                  {image.title || ''}
+                  {image?.title ?? ''}
                 </a>
               </h3>
             </div>

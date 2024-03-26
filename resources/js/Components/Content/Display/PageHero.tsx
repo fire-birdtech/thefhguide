@@ -1,6 +1,6 @@
-import {type ReactElement} from "react";
-import {type Hero} from "@/types";
-import {HeroType} from "@/enums";
+import { type ReactElement } from 'react'
+import { type Hero } from '@/types'
+import { HeroType } from '@/enums'
 
 function FullWidth ({ hero }: { hero: Hero }): ReactElement {
   return (

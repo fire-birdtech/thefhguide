@@ -1,14 +1,14 @@
-import {type ReactElement, useState} from 'react'
-import {router, useForm} from '@inertiajs/react'
+import { type ReactElement, useState } from 'react'
+import { router, useForm } from '@inertiajs/react'
 import TextInput from '@/Components/Forms/TextInput'
 import InputLabel from '@/Components/Forms/InputLabel'
 import SecondaryButton from '@/Components/Buttons/SecondaryButton'
 import PrimaryButton from '@/Components/Buttons/PrimaryButton'
 import ChoiceContentForm from '@/Components/Forms/Choices/ChoiceContentForm'
-import {type Choice, type ChoiceContent} from '@/types'
-import AddMediaModal from "@/Components/Modals/AddMedia"
-import {useMediaFiles} from "@/contexts/MediaFilesContext"
-import {MediaableType} from "@/enums";
+import { type Choice, type ChoiceContent } from '@/types'
+import AddMediaModal from '@/Components/Modals/AddMedia'
+import { useMediaFiles } from '@/contexts/MediaFilesContext'
+import { MediaableType } from '@/enums'
 
 export default function ChoiceEdit ({ choice, close }: {
   choice: Choice
@@ -42,15 +42,15 @@ export default function ChoiceEdit ({ choice, close }: {
     })
   }
 
-  const {post, errors, clearErrors, recentlySuccessful} = useForm({
+  const { post, errors, clearErrors, recentlySuccessful } = useForm({
     mediaableId: choice.id,
-    mediaableType: MediaableType.CHOICE,
-  });
+    mediaableType: MediaableType.CHOICE
+  })
 
-  const attachImage = (id: number) => {
+  const attachImage = (id: number): void => {
     post(route('editor.media.attach', [id]), {
       preserveState: true,
-      preserveScroll: true,
+      preserveScroll: true
     })
   }
 
@@ -80,7 +80,7 @@ export default function ChoiceEdit ({ choice, close }: {
           <div className="px-6 sm:grid sm:grid-cols-8 sm:gap-4 sm:items-start sm:py-4">
             <InputLabel label="Media" className="sm:mt-px sm:pt-2"/>
             <div className="mt-1 space-y-4 sm:mt-0 sm:col-span-7">
-              <SecondaryButton onClick={() => setAddImages(true)}>
+              <SecondaryButton onClick={() => { setAddImages(true) }}>
                 Select
               </SecondaryButton>
               <div className="mt-4">
@@ -124,10 +124,10 @@ export default function ChoiceEdit ({ choice, close }: {
       <AddMediaModal
         files={files}
         open={addImages}
-        close={() => setAddImages(false)}
+        close={() => { setAddImages(false) }}
         errors={errors}
         recentlySuccessful={recentlySuccessful}
-        onSubmit={(id: number) => attachImage(id)}
+        onSubmit={(id: number) => { attachImage(id) }}
         clearErrors={clearErrors}
       />
     </>

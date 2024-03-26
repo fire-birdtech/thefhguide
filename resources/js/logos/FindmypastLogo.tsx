@@ -1,4 +1,6 @@
-export default function FindmypastLogo({ className }: { className: string }) {
+import { type ReactElement } from 'react'
+
+export default function FindmypastLogo ({ className }: { className: string }): ReactElement {
   return (
     <svg className={className} viewBox="0 0 176.5 97.21">
       <g className="logoMy" fill="#e6716e">

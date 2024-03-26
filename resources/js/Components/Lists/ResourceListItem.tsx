@@ -1,9 +1,9 @@
-import {ReactElement} from "react";
-import {Resource} from "@/types";
-import {DocumentTextIcon, VideoCameraIcon} from "@heroicons/react/24/outline";
-import Anchor from "@/Components/Anchor";
+import { type ReactElement } from 'react'
+import { type Resource } from '@/types'
+import { DocumentTextIcon, VideoCameraIcon } from '@heroicons/react/24/outline'
+import Anchor from '@/Components/Anchor'
 
-export default function ResourceListItem({ resource }: { resource: Resource }): ReactElement {
+export default function ResourceListItem ({ resource }: { resource: Resource }): ReactElement {
   return (
     <li className="flex items-center justify-between text-sm">
       <div className="flex w-full flex-col">
@@ -21,5 +21,5 @@ export default function ResourceListItem({ resource }: { resource: Resource }): 
         </ul>
       </div>
     </li>
-  );
+  )
 }

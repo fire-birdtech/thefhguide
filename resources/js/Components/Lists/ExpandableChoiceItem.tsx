@@ -3,7 +3,7 @@ import { MinusIcon, PlusIcon } from '@heroicons/react/24/solid'
 import { Header5 } from '@/Components/Typography/Headers'
 import { ChoiceContentTypes } from '@/enums'
 import { type Choice, type Resource } from '@/types'
-import ResourceListItem from "@/Components/Lists/ResourceListItem";
+import ResourceListItem from '@/Components/Lists/ResourceListItem'
 
 const listStyleAlpha = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
 
@@ -49,7 +49,7 @@ export default function ExpandableChoiceItem ({ choice }: { choice: Choice }): R
               </>
             } else if (item.type === ChoiceContentTypes.RESOURCES) {
               return (
-                <section>
+                <section key={index}>
                   <Header5>
                     Resources
                   </Header5>
@@ -75,11 +75,11 @@ export default function ExpandableChoiceItem ({ choice }: { choice: Choice }): R
             } else if (item.type === ChoiceContentTypes.HEADER) {
               return <Header5 key={index}>{item.data}</Header5>
             } else {
-              return <div>
+              return <div key={index}>
                 {choice.media.length > 0 ? (
                   <div className="not-prose float-right">
-                    {choice.media.map((mediaItem) => (
-                      <div className="group block w-full h-auto max-w-md ml-3 mb-3 overflow-hidden rounded-lg bg-gray-100 focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 focus-within:ring-offset-gray-100">
+                    {choice.media.map((mediaItem, mediaItemIdx) => (
+                      <div key={mediaItemIdx} className="group block w-full h-auto max-w-md ml-3 mb-3 overflow-hidden rounded-lg bg-gray-100 focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 focus-within:ring-offset-gray-100">
                         <img src={mediaItem.url} alt={mediaItem.name} className="pointer-events-none object-cover group-hover:opacity-75" />
                         <button type="button" className="absolute inset-0 focus:outline-none">
                           <span className="sr-only">View details for {mediaItem.name}</span>

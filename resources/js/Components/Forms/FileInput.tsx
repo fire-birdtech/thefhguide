@@ -1,13 +1,13 @@
 import {
-  forwardRef, HTMLAttributes,
-  InputHTMLAttributes,
-  LabelHTMLAttributes,
+  forwardRef, type HTMLAttributes,
+  type InputHTMLAttributes,
+  type LabelHTMLAttributes,
   type ReactElement,
   useEffect,
   useImperativeHandle,
   useRef
-} from "react"
-import classNames from "@/Utils/classNames";
+} from 'react'
+import classNames from '@/Utils/classNames'
 
 export default forwardRef(function FileInput (
   { type = 'file', className = '', isFocused = false, ...props }: InputHTMLAttributes<HTMLInputElement> & LabelHTMLAttributes<HTMLLabelElement> & HTMLAttributes<HTMLParagraphElement> & {
@@ -25,7 +25,7 @@ export default forwardRef(function FileInput (
     if (isFocused) {
       localRef.current?.focus()
     }
-  }, []);
+  }, [])
 
   return (
     <input

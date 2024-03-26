@@ -1,20 +1,20 @@
-import {type ReactElement, useEffect, useState} from "react";
-import {useMediaFiles} from "@/contexts/MediaFilesContext";
-import {useForm} from "@inertiajs/react";
-import {GridImage} from "@/types";
-import ImageGridItemModal from "@/Components/Modals/ImageGridItem";
+import { type ReactElement, useEffect, useState } from 'react'
+import { useMediaFiles } from '@/contexts/MediaFilesContext'
+import { useForm } from '@inertiajs/react'
+import { type GridImage } from '@/types'
+import ImageGridItemModal from '@/Components/Modals/ImageGridItem'
 
 export default function ImageGridItem ({ image, onChange }: { image: GridImage, onChange: (value: GridImage) => void }): ReactElement {
-  const {data, setData} = useForm<GridImage>({
+  const { data, setData } = useForm<GridImage>({
     ...image
   })
 
   const [open, setOpen] = useState<boolean>(false)
 
-  const onClose = () => setOpen(false)
+  const onClose = (): void => { setOpen(false) }
 
-  const update = (value: GridImage) => {
-    setData({...value})
+  const update = (value: GridImage): void => {
+    setData({ ...value })
     onChange(value)
   }
 
@@ -24,7 +24,7 @@ export default function ImageGridItem ({ image, onChange }: { image: GridImage, 
         setOpen(true)
       }, 300)
     }
-  }, []);
+  }, [])
 
   const files = useMediaFiles()
 
@@ -37,7 +37,7 @@ export default function ImageGridItem ({ image, onChange }: { image: GridImage, 
               <img className="h-16 w-16 rounded object-cover" src={data.image_url} alt="" />
             </div>
             <div className="min-w-0 w-full flex-1 flex items-center overflow-hidden">
-              <button className="text-left focus:outline-none" onClick={() => setOpen(true)}>
+              <button className="text-left focus:outline-none" onClick={() => { setOpen(true) }}>
                 <span className="absolute inset-0" aria-hidden="true" />
                 <p className="text-xs font-medium text-gray-900">{data.title}</p>
                 <p className="mt-1 text-xs text-gray-600 line-clamp-3">{data.text}</p>

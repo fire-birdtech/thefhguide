@@ -1,4 +1,4 @@
-import {type ReactElement} from "react";
+import { type ReactElement } from 'react'
 import donate from '@images/footer/donate-small.png'
 import association from '@images/footer/logo-long-a1-small.png'
 import youtube from '@images/footer/youtube1-small.png'
@@ -10,7 +10,7 @@ import twitter from '@images/footer/twitter-icon-small.png'
 import sorenson from '@images/footer/sorenson-logo.png'
 import miller from '@images/footer/miller.png'
 import ashton from '@images/footer/ashton.jpg'
-import ExternalLink from "@/Components/ExternalLink";
+import ExternalLink from '@/Components/ExternalLink'
 
 export default function SiteFooter (): ReactElement {
   return (

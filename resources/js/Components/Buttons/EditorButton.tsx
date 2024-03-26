@@ -1,5 +1,5 @@
-import {type PropsWithChildren, type ReactElement} from "react";
-import classNames from "@/Utils/classNames";
+import { type PropsWithChildren, type ReactElement } from 'react'
+import classNames from '@/Utils/classNames'
 
 export default function EditorButton ({ children, className, onClick }: PropsWithChildren<{ className: string, onClick: () => void }>): ReactElement {
   return (

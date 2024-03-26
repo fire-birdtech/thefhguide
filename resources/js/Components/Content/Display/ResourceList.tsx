@@ -1,5 +1,5 @@
-import {type ReactElement} from "react";
-import {type Resource} from "@/types";
+import { type ReactElement } from 'react'
+import { type Resource } from '@/types'
 import DocumentTextIcon from '@images/doc.png'
 import PlayCircleIcon from '@images/vid.png'
 

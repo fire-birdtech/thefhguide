@@ -1,4 +1,6 @@
-export default function FamilySearchLogo({ className }: { className: string }) {
+import { type ReactElement } from 'react'
+
+export default function FamilySearchLogo ({ className }: { className: string }): ReactElement {
   return (
     <svg className={className} viewBox="0 0 132 34" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path

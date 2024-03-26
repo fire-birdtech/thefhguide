@@ -1,25 +1,25 @@
-import {Head, useForm} from "@inertiajs/react";
-import Admin from "@/Layouts/Admin";
-import {Hero, MediaFile, PageContentElement, PageProps} from "@/types";
-import Container from "@/Components/Container";
-import {Header3} from "@/Components/Typography/Headers";
-import PrimaryButton from "@/Components/Buttons/PrimaryButton";
-import InputLabel from "@/Components/Forms/InputLabel";
-import TextInput from "@/Components/Forms/TextInput";
-import InputError from "@/Components/Forms/InputError";
-import {MediaFilesProvider} from "@/contexts/MediaFilesContext";
-import PageHero from "@/Components/Content/Forms/PageHero";
-import ContentSectionEdit from "@/Components/ContentSectionEdit";
-import SecondaryButton from "@/Components/Buttons/SecondaryButton";
-import {FormEventHandler} from "react";
+import { type FormEventHandler, type ReactElement } from 'react'
+import { Head, useForm } from '@inertiajs/react'
+import Admin from '@/Layouts/Admin'
+import { type Hero, type MediaFile, type PageContentElement, type PageProps } from '@/types'
+import Container from '@/Components/Container'
+import { Header3 } from '@/Components/Typography/Headers'
+import PrimaryButton from '@/Components/Buttons/PrimaryButton'
+import InputLabel from '@/Components/Forms/InputLabel'
+import TextInput from '@/Components/Forms/TextInput'
+import InputError from '@/Components/Forms/InputError'
+import { MediaFilesProvider } from '@/contexts/MediaFilesContext'
+import PageHero from '@/Components/Content/Forms/PageHero'
+import ContentSectionEdit from '@/Components/ContentSectionEdit'
+import SecondaryButton from '@/Components/Buttons/SecondaryButton'
 
-export default function PagesCreate ({ auth, collectionId, files }: PageProps<{ collectionId: number, files: MediaFile[] }>) {
-  const {data, setData, errors, post, processing} = useForm({
+export default function PagesCreate ({ auth, collectionId, files }: PageProps<{ collectionId: number, files: MediaFile[] }>): ReactElement {
+  const { data, setData, errors, post, processing } = useForm({
     name: '',
     hero: null,
     details: [],
     type: 'info',
-    collectionId,
+    collectionId
   })
 
   const submit: FormEventHandler = (e) => {
@@ -28,32 +28,32 @@ export default function PagesCreate ({ auth, collectionId, files }: PageProps<{ 
     post(route('editor.pages.store'))
   }
 
-  const updateHero = (value: Hero) => {
+  const updateHero = (value: Hero): void => {
     setData({
       ...data,
-      hero: value,
+      hero: value
     })
   }
 
-  const addContent = () => {
-    let details: PageContentElement[][] = [[]]
+  const addContent = (): void => {
+    const details: PageContentElement[][] = [[]]
 
     setData({
       ...data,
       details: [
         ...details
-      ],
+      ]
     })
   }
 
-  const updateContent = (value: any, index: number) => {
-    let { details } = data
+  const updateContent = (value: any, index: number): void => {
+    const { details } = data
     details[index] = value
 
     setData({
       ...data,
       details: [
-        ...details,
+        ...details
       ]
     })
   }
@@ -107,10 +107,10 @@ export default function PagesCreate ({ auth, collectionId, files }: PageProps<{ 
                 <InputLabel label="Content" className="sm:mt-px sm:pt-2"/>
                 <MediaFilesProvider initialFiles={files}>
                   <div className="mt-1 space-y-4 sm:mt-0 sm:col-span-4">
-                    {data.details && data.details.map((item, index) => (
+                    {data?.details.map((item, index) => (
                       <ContentSectionEdit key={index} section={item} onChange={(value) => { updateContent(value, index) }}/>
                     ))}
-                    <SecondaryButton onClick={() => addContent()}>
+                    <SecondaryButton onClick={() => { addContent() }}>
                       Add section
                     </SecondaryButton>
                   </div>

@@ -1,28 +1,28 @@
-import {type ReactElement, useState} from "react";
-import InputLabel from "@/Components/Forms/InputLabel";
-import SecondaryButtonSmall from "@/Components/Buttons/SecondaryButtonSmall";
-import {useMediaFiles} from "@/contexts/MediaFilesContext";
-import AddMediaModal from "@/Components/Modals/AddMedia";
-import {useForm} from "@inertiajs/react";
-import {type ContentImage, type MediaFile} from "@/types";
-import TextInput from "@/Components/Forms/TextInput";
+import { type ReactElement, useState } from 'react'
+import InputLabel from '@/Components/Forms/InputLabel'
+import SecondaryButtonSmall from '@/Components/Buttons/SecondaryButtonSmall'
+import { useMediaFiles } from '@/contexts/MediaFilesContext'
+import AddMediaModal from '@/Components/Modals/AddMedia'
+import { useForm } from '@inertiajs/react'
+import { type ContentImage, type MediaFile } from '@/types'
+import TextInput from '@/Components/Forms/TextInput'
 
 export default function LeftAlignedImage ({ image, onChange }: { image: ContentImage, onChange: (value: ContentImage) => void }): ReactElement {
   const [addImage, setAddImage] = useState<boolean>(false)
 
-  const {data, setData} = useForm({
+  const { data, setData } = useForm({
     ...image
   })
 
   const files = useMediaFiles()
 
-  const onClose = () => {
+  const onClose = (): void => {
     setAddImage(false)
   }
 
-  const update = (key: "url"|"width", value: number): void => {
-    let file = files?.find((file: MediaFile) => file.id === value)
-    let updatedImageData = data
+  const update = (key: 'url' | 'width', value: number): void => {
+    const file = files?.find((file: MediaFile) => file.id === value)
+    const updatedImageData = data
     updatedImageData[key] = file.url
     setData({ ...updatedImageData })
     onChange(updatedImageData)
@@ -85,7 +85,7 @@ export default function LeftAlignedImage ({ image, onChange }: { image: ContentI
         close={onClose}
         recentlySuccessful={false}
         onSubmit={(id: number) => {
-          update("url", id)
+          update('url', id)
         }}
       />
     </>

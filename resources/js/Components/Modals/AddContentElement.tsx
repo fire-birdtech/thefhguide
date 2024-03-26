@@ -1,14 +1,14 @@
-import {Fragment, type ReactElement} from "react"
-import {Dialog, Transition} from "@headlessui/react";
-import {XMarkIcon} from "@heroicons/react/24/solid";
-import {ContentElementType} from "@/enums";
+import { Fragment, type ReactElement } from 'react'
+import { Dialog, Transition } from '@headlessui/react'
+import { XMarkIcon } from '@heroicons/react/24/solid'
+import { ContentElementType } from '@/enums'
 
 export default function AddContentElementModal ({ add, open, close }: {
-  add: (key: ContentElementType) => void,
-  open: boolean,
-  close: () => void,
+  add: (key: ContentElementType) => void
+  open: boolean
+  close: () => void
 }): ReactElement {
-  const handleClick = (key: ContentElementType) => {
+  const handleClick = (key: ContentElementType): void => {
     add(key)
     close()
   }
@@ -57,7 +57,7 @@ export default function AddContentElementModal ({ add, open, close }: {
                 </Dialog.Title>
                 <Dialog.Description className="p-4">
                   <div className="grid gap-2 sm:grid-cols-2 md:grid-cols-3">
-                    <button onClick={() => handleClick(ContentElementType.TITLE)} className="bg-white p-4 transition duration-300 rounded-lg text-left hover:bg-gray-100">
+                    <button onClick={() => { handleClick(ContentElementType.TITLE) }} className="bg-white p-4 transition duration-300 rounded-lg text-left hover:bg-gray-100">
                       <div className="flex">
                         <div className="mt-1.5 flex justify-center flex-shrink-0 rounded-s-xl">
                           <svg className="h-6 w-6 text-gray-500" width="16px" height="16px" viewBox="0 0 16 16">
@@ -82,7 +82,7 @@ export default function AddContentElementModal ({ add, open, close }: {
                       </div>
                     </button>
 
-                    <button onClick={() => handleClick(ContentElementType.RIGHT_ALIGNED_IMAGE)} className="bg-white p-4 transition duration-300 rounded-lg text-left hover:bg-gray-100">
+                    <button onClick={() => { handleClick(ContentElementType.RIGHT_ALIGNED_IMAGE) }} className="bg-white p-4 transition duration-300 rounded-lg text-left hover:bg-gray-100">
                       <div className="flex">
                         <div className="mt-1.5 flex justify-center flex-shrink-0 rounded-s-xl">
                           <svg className="h-6 w-6 text-gray-500" width="16px" height="16px" viewBox="0 0 16 16">
@@ -109,7 +109,7 @@ export default function AddContentElementModal ({ add, open, close }: {
                         </div>
                       </div>
                     </button>
-                    <button onClick={() => handleClick(ContentElementType.TEXT)} className="bg-white p-4 transition duration-300 rounded-lg text-left hover:bg-gray-100">
+                    <button onClick={() => { handleClick(ContentElementType.TEXT) }} className="bg-white p-4 transition duration-300 rounded-lg text-left hover:bg-gray-100">
                       <div className="flex">
                         <div className="mt-1.5 flex justify-center flex-shrink-0 rounded-s-xl">
                           <svg className="h-6 w-6 text-gray-500" width="16px" height="16px" viewBox="0 0 16 16">
@@ -135,7 +135,7 @@ export default function AddContentElementModal ({ add, open, close }: {
                         </div>
                       </div>
                     </button>
-                    <button onClick={() => handleClick(ContentElementType.RESOURCE_LIST)} className="bg-white p-4 transition duration-300 rounded-lg text-left hover:bg-gray-100">
+                    <button onClick={() => { handleClick(ContentElementType.RESOURCE_LIST) }} className="bg-white p-4 transition duration-300 rounded-lg text-left hover:bg-gray-100">
                       <div className="flex">
                         <div className="mt-1.5 flex justify-center flex-shrink-0 rounded-s-xl">
                           <svg className="h-6 w-6 text-gray-500" width="16px" height="16px" viewBox="0 0 16 16">
@@ -164,7 +164,7 @@ export default function AddContentElementModal ({ add, open, close }: {
                         </div>
                       </div>
                     </button>
-                    <button onClick={() => handleClick(ContentElementType.IMAGE_GRID)} className="bg-white p-4 transition duration-300 rounded-lg text-left hover:bg-gray-100">
+                    <button onClick={() => { handleClick(ContentElementType.IMAGE_GRID) }} className="bg-white p-4 transition duration-300 rounded-lg text-left hover:bg-gray-100">
                       <div className="flex">
                         <div className="mt-1.5 flex justify-center flex-shrink-0 rounded-s-xl">
                           <svg className="h-6 w-6 text-gray-500" width="16px" height="16px" viewBox="0 0 16 16">
@@ -192,7 +192,7 @@ export default function AddContentElementModal ({ add, open, close }: {
                         </div>
                       </div>
                     </button>
-                    <button onClick={() => handleClick(ContentElementType.LEFT_ALIGNED_IMAGE)} className="bg-white p-4 transition duration-300 rounded-lg text-left hover:bg-gray-100">
+                    <button onClick={() => { handleClick(ContentElementType.LEFT_ALIGNED_IMAGE) }} className="bg-white p-4 transition duration-300 rounded-lg text-left hover:bg-gray-100">
                       <div className="flex">
                         <div className="mt-1.5 flex justify-center flex-shrink-0 rounded-s-xl">
                           <svg className="h-6 w-6 text-gray-500" width="16px" height="16px" viewBox="0 0 16 16">

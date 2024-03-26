@@ -1,12 +1,12 @@
-import {type ReactElement} from "react";
-import {ContentImage, GridImage, type PageContentElement} from "@/types";
-import {ContentElementType} from "@/enums";
-import SectionTitle from "@/Components/Content/SectionTitle";
-import RightAlignedImage from "@/Components/Content/RightAlignedImage";
-import Text from "@/Components/Content/Text";
-import ResourceList from "@/Components/Content/Display/ResourceList";
-import ImageGrid from "@/Components/Content/Display/ImageGrid";
-import LeftAlignedImage from "@/Components/Content/Display/LeftAlignedImage";
+import { type ReactElement } from 'react'
+import { type ContentImage, type GridImage, type PageContentElement } from '@/types'
+import { ContentElementType } from '@/enums'
+import SectionTitle from '@/Components/Content/SectionTitle'
+import RightAlignedImage from '@/Components/Content/RightAlignedImage'
+import Text from '@/Components/Content/Text'
+import ResourceList from '@/Components/Content/Display/ResourceList'
+import ImageGrid from '@/Components/Content/Display/ImageGrid'
+import LeftAlignedImage from '@/Components/Content/Display/LeftAlignedImage'
 
 export default function ContentSectionShow ({ section }: { section: PageContentElement[] }): ReactElement {
   return (

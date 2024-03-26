@@ -1,25 +1,25 @@
-import {type ReactElement, useState} from "react";
-import {type Resource} from "@/types";
-import InputLabel from "@/Components/Forms/InputLabel";
-import SecondaryButtonSmall from "@/Components/Buttons/SecondaryButtonSmall";
-import {useForm} from "@inertiajs/react";
-import AddResourceModal from "@/Components/Modals/AddResource";
-import {DocumentTextIcon} from "@heroicons/react/24/outline";
-import {PlayCircleIcon} from "@heroicons/react/24/solid";
+import { type ReactElement, useState } from 'react'
+import { type Resource } from '@/types'
+import InputLabel from '@/Components/Forms/InputLabel'
+import SecondaryButtonSmall from '@/Components/Buttons/SecondaryButtonSmall'
+import { useForm } from '@inertiajs/react'
+import AddResourceModal from '@/Components/Modals/AddResource'
+import { DocumentTextIcon } from '@heroicons/react/24/outline'
+import { PlayCircleIcon } from '@heroicons/react/24/solid'
 
 export default function ResourceList ({ onChange, resources }: { onChange: (value: Resource[]) => void, resources: Resource[] }): ReactElement {
   const [addResource, setAddResource] = useState<boolean>(false)
 
-  const {data, setData} = useForm([
+  const { data, setData } = useForm([
     ...resources
   ])
 
-  const onClose = () => {
+  const onClose = (): void => {
     setAddResource(false)
   }
 
-  const add = (value: Resource) => {
-    let updatedResources = data
+  const add = (value: Resource): void => {
+    const updatedResources = data
     updatedResources.push(value)
     setData([...updatedResources])
     onChange(updatedResources)
@@ -54,14 +54,14 @@ export default function ResourceList ({ onChange, resources }: { onChange: (valu
           </ul>
           ) : null}
           <SecondaryButtonSmall
-            onClick={() => setAddResource(true)}
+            onClick={() => { setAddResource(true) }}
           >
             Add a resource
           </SecondaryButtonSmall>
         </div>
       </div>
 
-      <AddResourceModal close={onClose} open={addResource} save={(value: Resource) => add(value)}/>
+      <AddResourceModal close={onClose} open={addResource} save={(value: Resource) => { add(value) }}/>
     </>
   )
 }

@@ -1,20 +1,20 @@
-import {type FormEventHandler, type ReactElement} from "react"
-import {Hero, MediaFile, type Page, type PageProps} from "@/types"
-import {Head, useForm} from "@inertiajs/react"
-import Admin from "@/Layouts/Admin"
-import Container from "@/Components/Container"
-import {Header3} from "@/Components/Typography/Headers"
-import InputLabel from "@/Components/Forms/InputLabel"
-import TextInput from "@/Components/Forms/TextInput"
-import InputError from "@/Components/Forms/InputError"
-import SecondaryButton from "@/Components/Buttons/SecondaryButton"
-import PrimaryButton from "@/Components/Buttons/PrimaryButton"
-import {MediaFilesProvider} from "@/contexts/MediaFilesContext";
-import ContentSectionEdit from "@/Components/ContentSectionEdit";
-import PageHero from "@/Components/Content/Forms/PageHero";
+import { type FormEventHandler, type ReactElement } from 'react'
+import { type Hero, type MediaFile, type Page, type PageProps } from '@/types'
+import { Head, useForm } from '@inertiajs/react'
+import Admin from '@/Layouts/Admin'
+import Container from '@/Components/Container'
+import { Header3 } from '@/Components/Typography/Headers'
+import InputLabel from '@/Components/Forms/InputLabel'
+import TextInput from '@/Components/Forms/TextInput'
+import InputError from '@/Components/Forms/InputError'
+import SecondaryButton from '@/Components/Buttons/SecondaryButton'
+import PrimaryButton from '@/Components/Buttons/PrimaryButton'
+import { MediaFilesProvider } from '@/contexts/MediaFilesContext'
+import ContentSectionEdit from '@/Components/ContentSectionEdit'
+import PageHero from '@/Components/Content/Forms/PageHero'
 
 export default function PagesEdit ({ auth, files, page }: PageProps<{ files: MediaFile[], page: Page }>): ReactElement {
-  const {data, setData, errors, put, processing} = useForm({
+  const { data, setData, errors, put, processing } = useForm({
     name: page.name,
     hero: page.hero,
     details: page.content
@@ -24,42 +24,42 @@ export default function PagesEdit ({ auth, files, page }: PageProps<{ files: Med
     e.preventDefault()
 
     put(route('editor.pages.update', [page.id]), {
-      preserveScroll: true,
+      preserveScroll: true
     })
   }
 
-  const updateHero = (value: Hero) => {
+  const updateHero = (value: Hero): void => {
     setData({
       ...data,
-      hero: value,
+      hero: value
     })
   }
 
-  const addContent = () => {
+  const addContent = (): void => {
     let { details } = data
     details !== null
       ? details = [
-          ...details,
-          []
-        ]
+        ...details,
+        []
+      ]
       : details = [[]]
 
     setData({
       ...data,
       details: [
         ...details
-      ],
+      ]
     })
   }
 
-  const updateContent = (value: any, index: number) => {
-    let { details } = data
+  const updateContent = (value: any, index: number): void => {
+    const { details } = data
     details[index] = value
 
     setData({
       ...data,
       details: [
-        ...details,
+        ...details
       ]
     })
   }
@@ -104,7 +104,7 @@ export default function PagesEdit ({ auth, files, page }: PageProps<{ files: Med
                 <InputLabel label="Hero" optional={true} className="sm:mt-px sm:pt-2"/>
                 <MediaFilesProvider initialFiles={files}>
                   <div className="mt-1 sm:mt-0 sm:col-span-4">
-                    <PageHero hero={data.hero} onChange={(value: Hero) => updateHero(value)}/>
+                    <PageHero hero={data.hero} onChange={(value: Hero) => { updateHero(value) }}/>
                   </div>
                 </MediaFilesProvider>
               </div>
@@ -113,10 +113,10 @@ export default function PagesEdit ({ auth, files, page }: PageProps<{ files: Med
                 <InputLabel label="Content" className="sm:mt-px sm:pt-2"/>
                 <MediaFilesProvider initialFiles={files}>
                   <div className="mt-1 space-y-4 sm:mt-0 sm:col-span-4">
-                    {data.details && data.details.map((item, index) => (
+                    {data?.details.map((item, index) => (
                       <ContentSectionEdit key={index} section={item} onChange={(value) => { updateContent(value, index) }}/>
                     ))}
-                    <SecondaryButton onClick={() => addContent()}>
+                    <SecondaryButton onClick={() => { addContent() }}>
                       Add section
                     </SecondaryButton>
                   </div>

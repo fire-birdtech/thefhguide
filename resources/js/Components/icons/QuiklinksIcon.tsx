@@ -1,4 +1,6 @@
-export default function QuiklinksIcon() {
+import { type ReactElement } from 'react'
+
+export default function QuiklinksIcon (): ReactElement {
   return (
     <svg viewBox="0 0 241 354">
       <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">

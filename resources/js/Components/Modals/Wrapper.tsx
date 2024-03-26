@@ -1,5 +1,5 @@
-import {Fragment, PropsWithChildren, type ReactElement} from "react";
-import {Dialog, Transition} from "@headlessui/react";
+import { Fragment, type PropsWithChildren, type ReactElement } from 'react'
+import { Dialog, Transition } from '@headlessui/react'
 
 export default function ModalWrapper ({ children, close, open }: PropsWithChildren<{ close: () => void, open: boolean }>): ReactElement {
   return (

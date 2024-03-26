@@ -1,9 +1,9 @@
 import { type ReactElement } from 'react'
-import {Head, usePage} from '@inertiajs/react'
+import { Head, usePage } from '@inertiajs/react'
 import Admin from '@/Layouts/Admin'
-import Container from "@/Components/Container";
+import Container from '@/Components/Container'
 import { type PageProps } from '@/types'
-import {XMarkIcon} from "@heroicons/react/24/solid";
+import { XMarkIcon } from '@heroicons/react/24/solid'
 
 export default function NavigationIndex ({ auth }: PageProps): ReactElement {
   const { navigation } = usePage().props

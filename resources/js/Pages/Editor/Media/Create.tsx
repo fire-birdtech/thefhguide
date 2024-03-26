@@ -1,22 +1,22 @@
-import {ChangeEvent, type ReactElement} from "react"
-import {type PageProps} from "@/types"
-import {Head, useForm} from "@inertiajs/react";
-import Admin from "@/Layouts/Admin";
-import Container from "@/Components/Container";
-import {Header3} from "@/Components/Typography/Headers";
-import PrimaryButton from "@/Components/Buttons/PrimaryButton";
-import InputLabel from "@/Components/Forms/InputLabel";
-import TextInput from "@/Components/Forms/TextInput";
-import InputError from "@/Components/Forms/InputError";
-import FileInput from "@/Components/Forms/FileInput";
+import { type ChangeEvent, type ReactElement } from 'react'
+import { type PageProps } from '@/types'
+import { Head, useForm } from '@inertiajs/react'
+import Admin from '@/Layouts/Admin'
+import Container from '@/Components/Container'
+import { Header3 } from '@/Components/Typography/Headers'
+import PrimaryButton from '@/Components/Buttons/PrimaryButton'
+import InputLabel from '@/Components/Forms/InputLabel'
+import TextInput from '@/Components/Forms/TextInput'
+import InputError from '@/Components/Forms/InputError'
+import FileInput from '@/Components/Forms/FileInput'
 
 export default function MediaCreate ({ auth }: PageProps): ReactElement {
-  const {data, setData, errors, processing, post} = useForm({
+  const { data, setData, errors, processing, post } = useForm({
     name: '',
-    file: {},
-  });
+    file: {}
+  })
 
-  const handleFileChange = (e: ChangeEvent<HTMLInputElement>) => {
+  const handleFileChange = (e: ChangeEvent<HTMLInputElement>): void => {
     const { files } = e.target
 
     if (files !== null) {
@@ -24,7 +24,7 @@ export default function MediaCreate ({ auth }: PageProps): ReactElement {
     }
   }
 
-  const submit = (e) => {
+  const submit = (e): void => {
     e.preventDefault()
 
     post(route('editor.media.store'))

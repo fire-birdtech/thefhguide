@@ -7,6 +7,7 @@ module.exports = {
         "standard-with-typescript",
         "plugin:react/recommended"
     ],
+    "ignorePatterns": ["resources/js/__tests__/**"],
     "overrides": [
         {
             "env": {

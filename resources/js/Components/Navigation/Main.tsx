@@ -1,10 +1,10 @@
-import {Fragment, ReactElement, useState} from "react";
-import {Link, usePage} from "@inertiajs/react";
-import ApplicationLogo from "@/Components/ApplicationLogo";
-import {Bars3Icon, XMarkIcon} from "@heroicons/react/24/outline";
-import {Dialog, Disclosure, Popover, Transition} from "@headlessui/react";
-import {ChevronDownIcon} from "@heroicons/react/24/solid";
-import classNames from "@/Utils/classNames";
+import { Fragment, type ReactElement, useState } from 'react'
+import { Link, usePage } from '@inertiajs/react'
+import ApplicationLogo from '@/Components/ApplicationLogo'
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import { Dialog, Disclosure, Popover, Transition } from '@headlessui/react'
+import { ChevronDownIcon } from '@heroicons/react/24/solid'
+import classNames from '@/Utils/classNames'
 
 export default function MainNavigation (): ReactElement {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -23,7 +23,7 @@ export default function MainNavigation (): ReactElement {
           <button
             type="button"
             className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
-            onClick={() => setMobileMenuOpen(true)}
+            onClick={() => { setMobileMenuOpen(true) }}
           >
             <span className="sr-only">Open main menu</span>
             <Bars3Icon className="h-6 w-6" aria-hidden="true" />
@@ -32,8 +32,8 @@ export default function MainNavigation (): ReactElement {
         <Popover.Group className="hidden divide-x divide-[#888888] divide-dashed lg:flex lg:py-2 lg:ml-8">
           {navigation.map((group: any[], index: number) => (
             <div key={index} className="flex items-center">
-              {group.map((item: {name: string, menuItems: any[]}) => (
-                <Popover className="relative">
+              {group.map((item: { name: string, menuItems: any[] }, index) => (
+                <Popover key={index} className="relative">
                   <Popover.Button className="inline-flex items-center gap-x-1 px-2 py-2.5 text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-100 focus:outline-none focus:bg-gray-200">
                     <span>{item.name}</span>
                     <ChevronDownIcon className="h-3 w-3 stroke-gray-400" aria-hidden="true" />
@@ -50,7 +50,7 @@ export default function MainNavigation (): ReactElement {
                   >
                     <Popover.Panel className="absolute left-1/2 z-10 mt-1 flex w-screen max-w-min -translate-x-1/2 px-4">
                       <div className="w-56 shrink rounded-xl bg-white py-3 text-sm font-semibold leading-6 text-gray-900 shadow-lg ring-1 ring-gray-900/5">
-                        {item.menuItems.map((link: {name: string, link: string}, index: number) => (
+                        {item.menuItems.map((link: { name: string, link: string }, index: number) => (
                           <Link key={index} href={link.link} className="block px-5 py-2 hover:bg-gray-100">
                             {link.name}
                           </Link>
@@ -81,7 +81,7 @@ export default function MainNavigation (): ReactElement {
             <button
               type="button"
               className="-m-2.5 rounded-md p-2.5 text-gray-700"
-              onClick={() => setMobileMenuOpen(false)}
+              onClick={() => { setMobileMenuOpen(false) }}
             >
               <span className="sr-only">Close menu</span>
               <XMarkIcon className="h-6 w-6" aria-hidden="true" />
@@ -91,11 +91,11 @@ export default function MainNavigation (): ReactElement {
           <div className="mt-6 flow-root">
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6 divide-y divide-[#888888] divide-dashed">
-                {navigation.map((group: any[], index: number)  => (
+                {navigation.map((group: any[], index: number) => (
                   <div key={index}>
-                    {group.map((item: {name: string, menuItems: any[]}) => (
-                      <Disclosure as="div" className="-mx-3">
-                        {({open}) => (
+                    {group.map((item: { name: string, menuItems: any[] }, index) => (
+                      <Disclosure key={index} as="div" className="-mx-3">
+                        {({ open }) => (
                           <>
                             <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
                               {item.name}
@@ -105,7 +105,7 @@ export default function MainNavigation (): ReactElement {
                               />
                             </Disclosure.Button>
                             <Disclosure.Panel className="mt-2 space-y-2">
-                              {item.menuItems.map((link: {name: string, link: string}, index: number) => (
+                              {item.menuItems.map((link: { name: string, link: string }, index: number) => (
                                 <Disclosure.Button
                                   key={index}
                                   as="a"
@@ -128,5 +128,5 @@ export default function MainNavigation (): ReactElement {
         </Dialog.Panel>
       </Dialog>
     </header>
-  );
+  )
 }

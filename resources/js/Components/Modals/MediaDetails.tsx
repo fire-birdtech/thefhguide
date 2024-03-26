@@ -1,7 +1,7 @@
 import { Fragment, type ReactElement } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 import { XMarkIcon } from '@heroicons/react/24/solid'
-import {MediaFile} from "@/types"
+import { type MediaFile } from '@/types'
 
 export default function MediaDetailsModal ({ file, open, setOpen }: { file?: MediaFile, open: boolean, setOpen: () => void }): ReactElement {
   return (
@@ -79,7 +79,7 @@ export default function MediaDetailsModal ({ file, open, setOpen }: { file?: Med
 
                     <div>
                       <h3 className="font-medium text-gray-900">Usages</h3>
-                      {file?.choices && file.choices.length > 0 ? (
+                      {file?.choices !== undefined && file.choices.length > 0 ? (
                         <ul role="list" className="mt-2 divide-y divide-gray-200 border-y border-gray-200">
                           {file.choices.map((choice) => (
                             <li key={choice.id} className="flex items-center justify-between py-3 w-full">

@@ -1,4 +1,4 @@
-import {type PropsWithChildren, type ReactElement} from "react";
+import { type PropsWithChildren, type ReactElement } from 'react'
 
 export default function ExternalLink ({ children, className, href }: PropsWithChildren<{ className?: string, href: string }>): ReactElement {
   return (

@@ -1,16 +1,16 @@
-import {type ReactElement} from "react"
-import InputLabel from "@/Components/Forms/InputLabel";
-import SecondaryButtonSmall from "@/Components/Buttons/SecondaryButtonSmall";
-import {GridImage} from "@/types";
-import {useForm} from "@inertiajs/react";
-import ImageGridItem from "@/Components/Content/Forms/ImageGridItem";
+import { type ReactElement } from 'react'
+import InputLabel from '@/Components/Forms/InputLabel'
+import SecondaryButtonSmall from '@/Components/Buttons/SecondaryButtonSmall'
+import { type GridImage } from '@/types'
+import { useForm } from '@inertiajs/react'
+import ImageGridItem from '@/Components/Content/Forms/ImageGridItem'
 
 export default function ImageGrid ({ images, onChange }: { images: GridImage[], onChange: (value: any[]) => void }): ReactElement {
-  const {data, setData} = useForm([
+  const { data, setData } = useForm([
     ...images
   ])
 
-  const addImage = () => {
+  const addImage = (): void => {
     const updatedData = data
     updatedData.push({
       image_url: '',
@@ -24,7 +24,7 @@ export default function ImageGrid ({ images, onChange }: { images: GridImage[], 
     onChange(updatedData)
   }
 
-  const update = (index: number, value: GridImage) => {
+  const update = (index: number, value: GridImage): void => {
     const updatedData = data
     updatedData[index] = value
     setData([...updatedData])

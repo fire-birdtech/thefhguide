@@ -1,24 +1,19 @@
-import {type ReactElement, useState} from "react"
-import {MediaFile, type PageProps} from "@/types"
-import {Head} from "@inertiajs/react"
-import Admin from "@/Layouts/Admin"
-import {Header3} from "@/Components/Typography/Headers"
-import PrimaryButton from "@/Components/Buttons/PrimaryButton";
-import Container from "@/Components/Container";
-import MediaDetailsModal from "@/Components/Modals/MediaDetails";
+import { type ReactElement, useState } from 'react'
+import { type MediaFile, type PageProps } from '@/types'
+import { Head } from '@inertiajs/react'
+import Admin from '@/Layouts/Admin'
+import { Header3 } from '@/Components/Typography/Headers'
+import PrimaryButton from '@/Components/Buttons/PrimaryButton'
+import Container from '@/Components/Container'
+import MediaDetailsModal from '@/Components/Modals/MediaDetails'
 
 export default function MediaIndex ({ auth, files }: PageProps<{ files: MediaFile[] }>): ReactElement {
   const [open, setOpen] = useState<boolean>(false)
-  const [selectedFile, setSelectedFile] = useState<MediaFile|undefined>(undefined)
+  const [selectedFile, setSelectedFile] = useState<MediaFile | undefined>(undefined)
 
-  const viewDetails = (file: MediaFile) => {
+  const viewDetails = (file: MediaFile): void => {
     setSelectedFile(file)
     setOpen(true)
-  }
-
-  const onClose = () => {
-    setOpen(false)
-    setSelectedFile(undefined)
   }
 
   return (
@@ -45,7 +40,7 @@ export default function MediaIndex ({ auth, files }: PageProps<{ files: MediaFil
               <li key={file.id} className="relative">
                 <div className="group aspect-h-7 aspect-w-10 block w-full overflow-hidden rounded-lg bg-gray-100 focus-within:ring-2 focus-within:ring-blue-600 focus-within:ring-offset-2 focus-within:ring-offset-gray-100">
                   <img src={file.url} alt="" className="pointer-events-none object-cover group-hover:opacity-75" />
-                  <button type="button" onClick={() => viewDetails(file)} className="absolute inset-0 focus:outline-none">
+                  <button type="button" onClick={() => { viewDetails(file) }} className="absolute inset-0 focus:outline-none">
                     <span className="sr-only">View details for {file.name}</span>
                   </button>
                 </div>
@@ -55,7 +50,7 @@ export default function MediaIndex ({ auth, files }: PageProps<{ files: MediaFil
           </ul>
         </Container>
 
-        <MediaDetailsModal file={selectedFile} open={open} setOpen={() => setOpen(false)}/>
+        <MediaDetailsModal file={selectedFile} open={open} setOpen={() => { setOpen(false) }}/>
       </Admin>
     </>
   )

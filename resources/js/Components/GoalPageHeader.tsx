@@ -1,7 +1,7 @@
-import {ReactElement} from "react";
-import {Goal} from "@/types";
+import { type ReactElement } from 'react'
+import { type Goal } from '@/types'
 
-export default function GoalPageHeader({ goal }: { goal: Goal }): ReactElement {
+export default function GoalPageHeader ({ goal }: { goal: Goal }): ReactElement {
   return (
     <div className="relative bg-stone-100">
       <div className="h-56 sm:h-96 md:absolute md:right-0 md:h-full md:w-1/2">
@@ -25,5 +25,5 @@ export default function GoalPageHeader({ goal }: { goal: Goal }): ReactElement {
         </div>
       </div>
     </div>
-  );
+  )
 }

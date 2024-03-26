@@ -1,20 +1,20 @@
-import {type ReactElement} from "react";
-import {RadioGroup} from "@headlessui/react";
-import {ResourceLink} from "@/types";
-import {useForm} from "@inertiajs/react";
-import classNames from "@/Utils/classNames";
-import InputLabel from "@/Components/Forms/InputLabel";
-import TextInput from "@/Components/Forms/TextInput";
+import { type ReactElement } from 'react'
+import { RadioGroup } from '@headlessui/react'
+import { type ResourceLink } from '@/types'
+import { useForm } from '@inertiajs/react'
+import classNames from '@/Utils/classNames'
+import InputLabel from '@/Components/Forms/InputLabel'
+import TextInput from '@/Components/Forms/TextInput'
 
 const linkTypes = ['document', 'video']
 
 export default function ContentResourceLink ({ link, onChange }: { link: ResourceLink, onChange: (value: ResourceLink) => void }): ReactElement {
-  const {data, setData} = useForm<ResourceLink>({ ...link })
+  const { data, setData } = useForm<ResourceLink>({ ...link })
 
-  const update = (key: "text"|"type"|"star", value: string|boolean) => {
+  const update = (key: 'text' | 'type' | 'star', value: string | boolean): void => {
     const updatedLink = data
     data[key] = value
-    setData({...updatedLink})
+    setData({ ...updatedLink })
     onChange(updatedLink)
   }
 
@@ -24,7 +24,7 @@ export default function ContentResourceLink ({ link, onChange }: { link: Resourc
         <InputLabel label="Select resource link type"/>
         <RadioGroup
           value={data.type}
-          onChange={(value) => update('type', value)}
+          onChange={(value) => { update('type', value) }}
           className="mt-1"
         >
           <RadioGroup.Label className="sr-only">Choose a type</RadioGroup.Label>

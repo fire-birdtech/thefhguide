@@ -1,7 +1,7 @@
-import {type PropsWithChildren} from "react";
-import classNames from "@/Utils/classNames";
+import { type PropsWithChildren, type ReactElement } from 'react'
+import classNames from '@/Utils/classNames'
 
-export default function Prose ({ className, ...props }: PropsWithChildren & { className?: string } ) {
+export default function Prose ({ className, ...props }: PropsWithChildren & { className?: string }): ReactElement {
   const headingStyles = 'prose-headings:font-display prose-headings:font-normal prose-headings:mb-2 prose-headings:leading-tight'
   const h2Styles = 'prose-h2:mt-0 prose-h2:text-[2rem]'
   const h3Styles = 'prose-h3:font-bold prose-h3:text-2xl prose-h3:font-sans prose-h3:first:mt-0'

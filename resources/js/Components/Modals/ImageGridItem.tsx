@@ -1,13 +1,13 @@
-import {type ReactElement, useState} from "react";
-import {Dialog, DialogActions, DialogBody, DialogTitle} from "@/Components/Modals/dialog";
-import InputLabel from "@/Components/Forms/InputLabel";
-import SecondaryButtonSmall from "@/Components/Buttons/SecondaryButtonSmall";
-import TextInput from "@/Components/Forms/TextInput";
-import {GridImage, MediaFile} from "@/types";
-import {useForm} from "@inertiajs/react";
-import TextArea from "@/Components/Forms/TextArea";
-import PrimaryButton from "@/Components/Buttons/PrimaryButton";
-import Checkbox from "@/Components/Forms/Checkbox";
+import { type ReactElement, useState } from 'react'
+import { Dialog, DialogActions, DialogBody, DialogTitle } from '@/Components/Modals/dialog'
+import InputLabel from '@/Components/Forms/InputLabel'
+import SecondaryButtonSmall from '@/Components/Buttons/SecondaryButtonSmall'
+import TextInput from '@/Components/Forms/TextInput'
+import { type GridImage, type MediaFile } from '@/types'
+import { useForm } from '@inertiajs/react'
+import TextArea from '@/Components/Forms/TextArea'
+import PrimaryButton from '@/Components/Buttons/PrimaryButton'
+import Checkbox from '@/Components/Forms/Checkbox'
 
 interface ImageGridItemModalProps {
   close: () => void
@@ -20,23 +20,23 @@ interface ImageGridItemModalProps {
 export default function ImageGridItemModal ({ close, files, item, onChange, open }: ImageGridItemModalProps): ReactElement {
   const [selectImage, setSelectImage] = useState<boolean>(false)
 
-  const {data, setData} = useForm({
+  const { data, setData } = useForm({
     ...item
   })
 
-  const updateImage = (url: string) => {
+  const updateImage = (url: string): void => {
     const updatedData = data
     data.image_url = url
-    setData({...updatedData})
+    setData({ ...updatedData })
     onChange(updatedData)
     setSelectImage(false)
   }
 
-  const update = (key: "text"|"title"|"link"|"border", value: string|boolean) => {
+  const update = (key: 'text' | 'title' | 'link' | 'border', value: string | boolean): void => {
     const updatedData = data
-    console.log("modal", updatedData)
+    console.log('modal', updatedData)
     updatedData[key] = value
-    setData({...updatedData})
+    setData({ ...updatedData })
     onChange(updatedData)
   }
 
@@ -72,7 +72,7 @@ export default function ImageGridItemModal ({ close, files, item, onChange, open
                 <div className="space-y-1">
                   <img src={data.image_url} alt="" className="w-48" />
                   <SecondaryButtonSmall
-                    onClick={() => setSelectImage(true)}
+                    onClick={() => { setSelectImage(true) }}
                   >
                     Select image
                   </SecondaryButtonSmall>

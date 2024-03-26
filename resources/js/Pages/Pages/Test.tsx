@@ -1,6 +1,6 @@
-import {type ReactElement} from "react"
-import {Head, Link} from "@inertiajs/react"
-import MainNavigation from "@/Components/Navigation/Main"
+import { type ReactElement } from 'react'
+import { Head, Link } from '@inertiajs/react'
+import MainNavigation from '@/Components/Navigation/Main'
 
 export default function TestPage (): ReactElement {
   return (
@@ -81,10 +81,10 @@ export default function TestPage (): ReactElement {
             <li>Family history resources for faiths, including members of The Church of Jesus Christ of Latter-day Saints, Catholics, Protestants, and those of Jewish heritage</li>
           </ul>
           <p>
-            <strong>FamilySearch Connection</strong>: The FamilySearch article <a href="https://www.familysearch.org/en/fieldops/article/family-tree-basics" target="_blank">"Family Tree Essentials"</a> points to The Family History Guide as a trusted learning resource.
+            <strong>FamilySearch Connection</strong>: The FamilySearch article <a href="https://www.familysearch.org/en/fieldops/article/family-tree-basics" target="_blank" rel="noreferrer">"Family Tree Essentials"</a> points to The Family History Guide as a trusted learning resource.
           </p>
           <p>
-            <strong>Overview</strong>: For an overview article about The Family History Guide, <a href="https://rejoiceandbeexceedingglad.blogspot.com/2019/01/what-is-family-history-guide.html" target="_blank">click here</a>.
+            <strong>Overview</strong>: For an overview article about The Family History Guide, <a href="https://rejoiceandbeexceedingglad.blogspot.com/2019/01/what-is-family-history-guide.html" target="_blank" rel="noreferrer">click here</a>.
           </p>
         </section>
 

@@ -59,7 +59,7 @@ export default function PageShow ({ auth, page }: PageShowProps): ReactElement {
               )}
               <DescriptionListItem term="Content">
                 <ArticleWrapper>
-                  {page?.content !== null && page.content.map((item, index) => (
+                  {page?.content.map((item, index) => (
                     <ContentSectionShow key={index} section={item}/>
                   ))}
                 </ArticleWrapper>

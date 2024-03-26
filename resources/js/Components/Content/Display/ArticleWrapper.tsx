@@ -1,7 +1,7 @@
-import {PropsWithChildren, type ReactElement} from "react"
-import Prose from "@/Components/Content/Display/prose";
+import { type PropsWithChildren, type ReactElement } from 'react'
+import Prose from '@/Components/Content/Display/prose'
 
-export default function ArticleWrapper({ children }: PropsWithChildren): ReactElement {
+export default function ArticleWrapper ({ children }: PropsWithChildren): ReactElement {
   return (
     <article className="pb-12">
       <Prose className="mx-auto max-w-body">

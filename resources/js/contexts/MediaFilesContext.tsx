@@ -1,10 +1,10 @@
-import {createContext, type PropsWithChildren, useContext, useReducer} from "react"
-import {type MediaFile} from "@/types"
+import { createContext, type PropsWithChildren, useContext, useReducer } from 'react'
+import { type MediaFile } from '@/types'
 
 const MediaFilesContext = createContext(null)
 const MediaFilesDispatchContext = createContext(null)
 
-export function MediaFilesProvider({ children, initialFiles }: PropsWithChildren<{ initialFiles: MediaFile[] }>) {
+export function MediaFilesProvider ({ children, initialFiles }: PropsWithChildren<{ initialFiles: MediaFile[] }>) {
   const [files, dispatch] = useReducer(filesReducer, initialFiles)
 
   return (
@@ -16,8 +16,8 @@ export function MediaFilesProvider({ children, initialFiles }: PropsWithChildren
   )
 }
 
-export function useMediaFiles() {
+export function useMediaFiles () {
   return useContext(MediaFilesContext)
 }
 
-function filesReducer() {}
+function filesReducer () {}

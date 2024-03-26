@@ -1,14 +1,14 @@
-import {type ReactElement} from "react";
-import ModalWrapper from "@/Components/Modals/Wrapper";
-import {Dialog} from "@headlessui/react";
-import {ContentSlug} from "@/enums";
+import { type ReactElement } from 'react'
+import ModalWrapper from '@/Components/Modals/Wrapper'
+import { Dialog } from '@headlessui/react'
+import { ContentSlug } from '@/enums'
 
 import HeroFullWidth from '@images/hero-full-width.png'
 import HeroTwoColumn from '@images/hero-two-column.png'
 
 const heroes = [
   { label: 'Hero Full Width', slug: ContentSlug.HERO_FULL_WIDTH, image: HeroFullWidth },
-  { label: 'Hero Two Column', slug: ContentSlug.HERO_TWO_COLUMN, image: HeroTwoColumn },
+  { label: 'Hero Two Column', slug: ContentSlug.HERO_TWO_COLUMN, image: HeroTwoColumn }
 ]
 
 export default function AddHeroModal ({ add, close, open }: { add: (value: string) => void, close: () => void, open: boolean }): ReactElement {
@@ -30,7 +30,7 @@ export default function AddHeroModal ({ add, close, open }: { add: (value: strin
                     <img src={hero.image} alt="" className="absolute inset-0 h-full w-full"/>
                   </div>
                   <h4 className="mt-2 text-sm font-medium text-gray-500 group-hover:text-blue-600">
-                    <button type="button" title={`Add ${hero.label}`} onClick={() => add(hero.slug)}>
+                    <button type="button" title={`Add ${hero.label}`} onClick={() => { add(hero.slug) }}>
                       <span className="absolute -inset-2.5 z-10"/>
                       <span className="relative">
                         {hero.label}

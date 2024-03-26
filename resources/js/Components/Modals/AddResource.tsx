@@ -1,53 +1,53 @@
-import {type ReactElement} from "react";
-import ModalWrapper from "@/Components/Modals/Wrapper";
-import {Dialog} from "@headlessui/react";
-import InputLabel from "@/Components/Forms/InputLabel";
-import TextInput from "@/Components/Forms/TextInput";
-import {useForm} from "@inertiajs/react";
-import SecondaryButtonSmall from "@/Components/Buttons/SecondaryButtonSmall";
-import {Resource, ResourceLink as ResourceLinkType} from "@/types";
-import ResourceLink from "@/Components/Content/ResourceLink";
-import PrimaryButton from "@/Components/Buttons/PrimaryButton";
-import SecondaryButton from "@/Components/Buttons/SecondaryButton";
+import { type ReactElement } from 'react'
+import ModalWrapper from '@/Components/Modals/Wrapper'
+import { Dialog } from '@headlessui/react'
+import InputLabel from '@/Components/Forms/InputLabel'
+import TextInput from '@/Components/Forms/TextInput'
+import { useForm } from '@inertiajs/react'
+import SecondaryButtonSmall from '@/Components/Buttons/SecondaryButtonSmall'
+import { type Resource, type ResourceLink as ResourceLinkType } from '@/types'
+import ResourceLink from '@/Components/Content/ResourceLink'
+import PrimaryButton from '@/Components/Buttons/PrimaryButton'
+import SecondaryButton from '@/Components/Buttons/SecondaryButton'
 
 const linkTypes = ['document', 'video']
 
 export default function AddResourceModal ({ close, open, save }: { close: () => void, open: boolean, save: (value: Resource) => void }): ReactElement {
-  const {data, setData} = useForm<Resource>({
+  const { data, setData } = useForm<Resource>({
     description: '',
-    links: [],
+    links: []
   })
 
-  const addLink = () => {
+  const addLink = (): void => {
     const { links } = data
     links.push({
       text: '',
       type: linkTypes[0],
-      star: true,
+      star: true
     })
     setData({
       ...data,
-      links: links,
+      links
     })
   }
 
-  const updateLink = (index: number, updatedLink: ResourceLinkType) => {
+  const updateLink = (index: number, updatedLink: ResourceLinkType): void => {
     const { links } = data
     links[index] = updatedLink
     setData({
       ...data,
-      links: links,
+      links
     })
   }
 
-  const submit = () => {
+  const submit = (): void => {
     save(data)
     close()
-    let resetData = {
+    const resetData = {
       description: '',
       links: []
     }
-    setTimeout(() => setData(resetData), 1000)
+    setTimeout(() => { setData(resetData) }, 1000)
   }
 
   return (
@@ -79,13 +79,13 @@ export default function AddResourceModal ({ close, open, save }: { close: () => 
               {data.links.length > 0 ? (
                 <div className="mt-1">
                   {data.links.map((link, index) => (
-                    <ResourceLink link={link} onChange={(value: ResourceLinkType) => updateLink(index, value)}/>
+                    <ResourceLink key={index} link={link} onChange={(value: ResourceLinkType) => { updateLink(index, value) }}/>
                   ))}
                 </div>
               ) : null}
               <SecondaryButtonSmall
                 className="mt-1"
-                onClick={() => addLink()}
+                onClick={() => { addLink() }}
               >
                 Add a resource link
               </SecondaryButtonSmall>

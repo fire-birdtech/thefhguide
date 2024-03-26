@@ -1,52 +1,52 @@
-import {type ReactElement, useState} from "react";
-import SecondaryButton from "@/Components/Buttons/SecondaryButton";
-import {type Hero, MediaFile} from "@/types";
-import AddHeroModal from "@/Components/Modals/AddHero";
-import {useForm} from "@inertiajs/react";
-import {useMediaFiles} from "@/contexts/MediaFilesContext";
-import {HeroType} from "@/enums";
-import ContentBlockHeader from "@/Components/Forms/Choices/ContentBlockHeader";
-import InputLabel from "@/Components/Forms/InputLabel";
-import SecondaryButtonSmall from "@/Components/Buttons/SecondaryButtonSmall";
-import AddMediaModal from "@/Components/Modals/AddMedia";
-import TextInput from "@/Components/Forms/TextInput";
+import { type ReactElement, useState } from 'react'
+import SecondaryButton from '@/Components/Buttons/SecondaryButton'
+import { type Hero, type MediaFile } from '@/types'
+import AddHeroModal from '@/Components/Modals/AddHero'
+import { useForm } from '@inertiajs/react'
+import { useMediaFiles } from '@/contexts/MediaFilesContext'
+import { HeroType } from '@/enums'
+import ContentBlockHeader from '@/Components/Forms/Choices/ContentBlockHeader'
+import InputLabel from '@/Components/Forms/InputLabel'
+import SecondaryButtonSmall from '@/Components/Buttons/SecondaryButtonSmall'
+import AddMediaModal from '@/Components/Modals/AddMedia'
+import TextInput from '@/Components/Forms/TextInput'
 
 export default function PageHero ({ hero, onChange }: { hero: Hero, onChange: (value: Hero) => void }): ReactElement {
   const [open, setOpen] = useState<boolean>(false)
   const [mediaOpen, setMediaOpen] = useState<boolean>(false)
 
-  const {data, setData} = useForm<Hero>({
+  const { data, setData } = useForm<Hero>({
     ...hero
   })
 
   const files = useMediaFiles()
 
-  const onClose = () => {
+  const onClose = (): void => {
     setOpen(false)
   }
 
-  const onMediaClose = () => {
+  const onMediaClose = (): void => {
     setMediaOpen(false)
   }
 
-  const addHero = (value: string) => {
+  const addHero = (value: string): void => {
     let updatedHero = data
     if (value in HeroType) {
       updatedHero = {
         type: value as HeroType,
         image_url: '',
-        title: '',
+        title: ''
       }
     }
 
-    setData({...updatedHero})
+    setData({ ...updatedHero })
     onChange(updatedHero)
     onClose()
   }
 
-  const update = (key: keyof Hero, value: number|string) => {
-    let file = files?.find((file: MediaFile) => file.id === value)
-    let updatedHeroData = data
+  const update = (key: keyof Hero, value: number | string): void => {
+    const file = files?.find((file: MediaFile) => file.id === value)
+    const updatedHeroData = data
     updatedHeroData[key] = file !== undefined ? file.url : value
     setData({ ...updatedHeroData })
     onChange(updatedHeroData)
@@ -71,12 +71,12 @@ export default function PageHero ({ hero, onChange }: { hero: Hero, onChange: (v
             {data.image_url !== '' ? (
               <div className="mt-1">
                 <img src={data.image_url} alt=""/>
-                <SecondaryButtonSmall className="mt-2" onClick={() => setMediaOpen(true)}>
+                <SecondaryButtonSmall className="mt-2" onClick={() => { setMediaOpen(true) }}>
                   Change image
                 </SecondaryButtonSmall>
               </div>
             ) : (
-              <SecondaryButtonSmall className="mt-1" onClick={() => setMediaOpen(true)}>
+              <SecondaryButtonSmall className="mt-1" onClick={() => { setMediaOpen(true) }}>
                 Select image
               </SecondaryButtonSmall>
             )}
@@ -97,7 +97,7 @@ export default function PageHero ({ hero, onChange }: { hero: Hero, onChange: (v
 
           {Object.keys(data).map((key, index) => {
             switch (key as keyof Hero) {
-              case "button_text":
+              case 'button_text':
                 return (
                   <div key={index}>
                     <InputLabel label="Action button"/>
@@ -121,7 +121,7 @@ export default function PageHero ({ hero, onChange }: { hero: Hero, onChange: (v
                     </div>
                   </div>
                 )
-              case "subtitle":
+              case 'subtitle':
                 return (
                   <div key={index}>
                     <InputLabel label="Subtitle"/>
@@ -140,7 +140,7 @@ export default function PageHero ({ hero, onChange }: { hero: Hero, onChange: (v
           })}
 
           <div className="space-x-2">
-            {! ("button_text" in data) ? (
+            {!('button_text' in data) ? (
               <SecondaryButtonSmall
                 onClick={() => {
                   update('button_text', '')
@@ -149,33 +149,33 @@ export default function PageHero ({ hero, onChange }: { hero: Hero, onChange: (v
               >
                 Add action button
               </SecondaryButtonSmall>
-            ): null}
-            {! ("subtitle" in data) ? (
+            ) : null}
+            {!('subtitle' in data) ? (
               <SecondaryButtonSmall
-                onClick={() =>  {
+                onClick={() => {
                   update('subtitle', '')
                 }}
               >
                 Add subtitle
               </SecondaryButtonSmall>
-            ): null}
+            ) : null}
           </div>
         </div>
       </div>
     ) : (
       <SecondaryButton
-        onClick={() => setOpen(true)}
+        onClick={() => { setOpen(true) }}
       >
         Add hero
       </SecondaryButton>
     )}
 
     <AddHeroModal
-      add={(value: string) => addHero(value)}
+      add={(value: string) => { addHero(value) }}
       close={onClose}
       open={open}
     />
 
-    <AddMediaModal files={files} open={mediaOpen} close={onMediaClose} recentlySuccessful={false} onSubmit={(id: number) => update('image_url', id)}/>
+    <AddMediaModal files={files} open={mediaOpen} close={onMediaClose} recentlySuccessful={false} onSubmit={(id: number) => { update('image_url', id) }}/>
   </>
 }

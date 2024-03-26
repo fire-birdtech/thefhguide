@@ -1,8 +1,8 @@
-import {Choice, Goal} from "@/types";
-import {ReactElement} from "react";
-import ExpandableChoiceItem from "@/Components/Lists/ExpandableChoiceItem";
+import { type Choice, type Goal } from '@/types'
+import { type ReactElement } from 'react'
+import ExpandableChoiceItem from '@/Components/Lists/ExpandableChoiceItem'
 
-export default function GoalPageContent({ goal }: { goal: Goal }): ReactElement {
+export default function GoalPageContent ({ goal }: { goal: Goal }): ReactElement {
   return (
     <div className="my-8 bg-stone-100 max-w-5xl mx-auto px-4 py-5 sm:px-12">
       <h4 className="text-2xl font-display font-medium leading-8 text-stone-900 sm:truncate sm:tracking-tight">
@@ -19,5 +19,5 @@ export default function GoalPageContent({ goal }: { goal: Goal }): ReactElement 
         ))}
       </ul>
     </div>
-  );
+  )
 }

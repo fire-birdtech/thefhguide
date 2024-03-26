@@ -1,10 +1,10 @@
-import {ReactElement} from "react";
-import {Link} from "@inertiajs/react";
-import classNames from "@/Utils/classNames";
-import FamilySearchLogo from "@/logos/FamilySearchLogo";
-import AncestryLogo from "@/logos/AncestryLogo";
-import MyHeritageLogo from "@/logos/MyHeritageLogo";
-import FindmypastLogo from "@/logos/FindmypastLogo";
+import { type ReactElement } from 'react'
+import { Link } from '@inertiajs/react'
+import classNames from '@/Utils/classNames'
+import FamilySearchLogo from '@/logos/FamilySearchLogo'
+import AncestryLogo from '@/logos/AncestryLogo'
+import MyHeritageLogo from '@/logos/MyHeritageLogo'
+import FindmypastLogo from '@/logos/FindmypastLogo'
 
 const logos = {
   familysearch: FamilySearchLogo,
@@ -23,14 +23,14 @@ const links = {
 export interface ProjectNavigationProps {
   navigation: [
     {
-      name: string,
-      link: string,
+      name: string
+      link: string
     }
-  ],
-  collectionSlug: string,
+  ]
+  collectionSlug: string
 }
 
-export default function ProjectNavigation({ navigation, collectionSlug }: ProjectNavigationProps): ReactElement {
+export default function ProjectNavigation ({ navigation, collectionSlug }: ProjectNavigationProps): ReactElement {
   const LogoComponent = logos[collectionSlug]
 
   return (
@@ -45,7 +45,7 @@ export default function ProjectNavigation({ navigation, collectionSlug }: Projec
           </Link>
         ))}
         <div className="ml-4">
-          {Object.keys(logos).indexOf(collectionSlug) >= 0 ? (
+          {Object.keys(logos).includes(collectionSlug) ? (
             <a href={links[collectionSlug]} target="_blank" rel="noopener noreferrer nofollow">
               <LogoComponent className="h-5" />
             </a>
@@ -53,5 +53,5 @@ export default function ProjectNavigation({ navigation, collectionSlug }: Projec
         </div>
       </nav>
     </header>
-  );
+  )
 }

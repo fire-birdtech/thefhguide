@@ -4,13 +4,13 @@ import {
   type ReactElement,
   type ReactNode,
   useEffect, useState
-} from "react";
+} from 'react'
 import {
   type DialogProps as HeadlessDialogProps,
   Dialog as HeadlessDialog,
   Transition as HeadlessTransition
-} from "@headlessui/react";
-import classNames from "@/Utils/classNames";
+} from '@headlessui/react'
+import classNames from '@/Utils/classNames'
 
 export const sizes = {
   xs: 'sm:max-w-xs',
@@ -21,7 +21,7 @@ export const sizes = {
   '2xl': 'sm:max-w-2xl',
   '3xl': 'sm:max-w-3xl',
   '4xl': 'sm:max-w-4xl',
-  '5xl': 'sm:max-w-5xl',
+  '5xl': 'sm:max-w-5xl'
 }
 
 export function Dialog ({
@@ -31,7 +31,7 @@ export function Dialog ({
   className,
   children,
   ...props
-}: { size?: keyof typeof sizes; children: ReactNode } & HeadlessDialogProps<any>): ReactElement {
+}: { size?: keyof typeof sizes, children: ReactNode } & HeadlessDialogProps<any>): ReactElement {
   const [modalWidth, setModalWidth] = useState(size)
 
   useEffect(() => {
@@ -81,7 +81,7 @@ export function Dialog ({
   )
 }
 
-export function DialogTitle ({ className, ...props }: ComponentPropsWithoutRef<'div'>) {
+export function DialogTitle ({ className, ...props }: ComponentPropsWithoutRef<'div'>): ReactElement {
   return (
     <HeadlessDialog.Title
       {...props}
@@ -94,19 +94,19 @@ export function DialogTitle ({ className, ...props }: ComponentPropsWithoutRef<'
   )
 }
 
-export function DialogDescription ({ className, ...props }: ComponentPropsWithoutRef<'div'>) {
+export function DialogDescription ({ className, ...props }: ComponentPropsWithoutRef<'div'>): ReactElement {
   return (
     <HeadlessDialog.Description {...props} className={className} />
   )
 }
 
-export function DialogBody ({ className, ...props }: ComponentPropsWithoutRef<'div'>) {
+export function DialogBody ({ className, ...props }: ComponentPropsWithoutRef<'div'>): ReactElement {
   return (
     <div {...props} className={className} />
   )
 }
 
-export function DialogActions ({ className, ...props }: ComponentPropsWithoutRef<'div'>) {
+export function DialogActions ({ className, ...props }: ComponentPropsWithoutRef<'div'>): ReactElement {
   return (
     <div
       {...props}

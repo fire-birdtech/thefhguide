@@ -2,7 +2,7 @@ import { Head, Link } from '@inertiajs/react'
 import ApplicationLogo from '@/Components/ApplicationLogo'
 import { type PageProps } from '@/types'
 import { type ReactElement } from 'react'
-import MainNavigation from "@/Components/Navigation/Main";
+import MainNavigation from '@/Components/Navigation/Main'
 
 export default function Welcome ({ auth }: PageProps): ReactElement {
   return (
