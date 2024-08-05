@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use App\Enums\AllowedUserRoles;
 use App\Models\Collection;
 use App\Models\Goal;
 use App\Models\Project;
@@ -30,7 +31,10 @@ class AuthServiceProvider extends ServiceProvider
     public function boot(): void
     {
         Gate::after(function ($user) {
-            return $user->hasRole(['developer', 'super admin']);
+            return $user->hasRole([
+                AllowedUserRoles::DEVELOPER,
+                AllowedUserRoles::SUPER_ADMIN,
+            ]) ? true : null;
         });
     }
 }
