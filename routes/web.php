@@ -34,7 +34,7 @@ Route::middleware('guest')->group(function () {
     Route::post('invitations/register', [InvitationController::class, 'register'])->name('invitations.register');
 });
 
-Route::get('/dashboard', function () {
+Route::get('/tracker', function () {
     return Inertia::render('Dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
