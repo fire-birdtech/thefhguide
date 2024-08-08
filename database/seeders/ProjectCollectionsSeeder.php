@@ -251,6 +251,11 @@ class ProjectCollectionsSeeder extends Seeder
             'website_url' => null,
             'projects' => [
                 [
+                    'name' => 'United States',
+                    'cover_image' => 'https://thefhguide.com/img/hero-us.jpg',
+                    'file' => 'north-america/united-states.json',
+                ],
+                [
                     'name' => 'Canada',
                     'cover_image' => 'https://thefhguide.com/img/hero-canada.jpg',
                     'file' => 'north-america/canada.json',
@@ -284,11 +289,6 @@ class ProjectCollectionsSeeder extends Seeder
                     'name' => 'Mexico',
                     'cover_image' => 'https://thefhguide.com/img/hero-mexico.jpg',
                     'file' => 'north-america/mexico.json',
-                ],
-                [
-                    'name' => 'United States',
-                    'cover_image' => 'https://thefhguide.com/img/hero-us.jpg',
-                    'file' => 'north-america/united-states.json',
                 ],
             ],
         ],
