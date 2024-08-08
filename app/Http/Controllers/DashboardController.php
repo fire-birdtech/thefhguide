@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Collection;
 use Illuminate\Http\Request;
 use Inertia\Response;
 use Inertia\ResponseFactory;
@@ -27,6 +28,16 @@ class DashboardController extends Controller
         return inertia('Editor/Dashboard', [
             'assignments' => $request->user()->unpublishedAssignments()->get(),
             'drafts' => $request->user()->unpublishedDrafts()->get(),
+        ]);
+    }
+
+    /**
+     * Display the online progress tracker dashboard
+     */
+    public function onlineTracker(Request $request): Response|ResponseFactory
+    {
+        return inertia('Dashboard', [
+            'collections' => Collection::with('projects')->get(),
         ]);
     }
 }
