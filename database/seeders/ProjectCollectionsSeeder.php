@@ -1166,14 +1166,14 @@ class ProjectCollectionsSeeder extends Seeder
     public function run(): void
     {
         collect($this->collections)->each(function ($collection) {
-            $newCollection = Collection::firstOrCreate([
+            $newCollection = Collection::query()->firstOrCreate([
                 'name' => $collection['name'],
                 'type' => CollectionType::PROJECT,
                 'website_url' => $collection['website_url'],
             ]);
 
             foreach ($collection['projects'] as $project) {
-                $newProject = Project::firstOrCreate([
+                $newProject = Project::query()->firstOrCreate([
                     'name' => $project['name'],
                     'collection_id' => $newCollection->id,
                 ]);
@@ -1192,7 +1192,7 @@ class ProjectCollectionsSeeder extends Seeder
                 $goals = json_decode($file);
 
                 foreach ($goals as $goal) {
-                    $newGoal = Goal::firstOrCreate([
+                    $newGoal = Goal::query()->firstOrCreate([
                         'name' => $goal->name,
                         'nav_name' => $goal->nav_name ?? $goal->name,
                         'section_name' => $goal->section_name,
@@ -1200,7 +1200,7 @@ class ProjectCollectionsSeeder extends Seeder
                         'project_id' => $newProject->id,
                     ]);
 
-                    $page = GoalPage::create([
+                    $page = GoalPage::query()->create([
                         'slug' => $newGoal->slug,
                         'uri' => "{$newCollection->slug}/{$newProject->slug}/{$newGoal->slug}",
                     ]);
@@ -1261,7 +1261,7 @@ class ProjectCollectionsSeeder extends Seeder
                             }
                         }
 
-                        $newChoice = Choice::firstOrCreate([
+                        $newChoice = Choice::query()->firstOrCreate([
                             'name' => $choice->name,
                             'content' => $choiceContent,
                             'goal_id' => $newGoal->id,
@@ -1271,7 +1271,7 @@ class ProjectCollectionsSeeder extends Seeder
                         if (isset($choice->content->resources[0])) {
                             foreach ($choice->content->resources[0] as $resource) {
                                 foreach ($resource->links as $link) {
-                                    $newResourceLink = ResourceLink::firstOrCreate([
+                                    $newResourceLink = ResourceLink::query()->firstOrCreate([
                                         'link' => $link->link,
                                     ], [
                                         'text' => $link->text,
