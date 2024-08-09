@@ -21,7 +21,7 @@ function LearningPathCollection ({ collection }: { collection: Collection }): Re
             <span>
               Project {project.order}:{' '}
             </span>
-            <Link href="#" className="text-[#17a08f] hover:text-[#0056b3] hover:underline">
+            <Link href={route('tracker.project', [project])} className="text-[#17a08f] hover:text-[#0056b3] hover:underline">
               {project.name}
             </Link>
           </li>
