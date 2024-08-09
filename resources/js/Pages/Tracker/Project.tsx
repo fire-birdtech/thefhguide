@@ -100,7 +100,7 @@ export default function TrackerProject ({auth, project}: Props): ReactElement {
           </Heading>
           <div className="border-t border-gray-300 p-4 space-y-4">
             {project.goals.map((goal) => (
-              <div>
+              <div key={goal.id}>
                 <SectionHeader goal={goal}/>
                 <SectionBody goal={goal}/>
               </div>
