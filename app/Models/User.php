@@ -5,6 +5,7 @@ namespace App\Models;
 use App\Enums\AssignmentStatus;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\HasManyThrough;
 use Illuminate\Foundation\Auth\User as Authenticatable;
@@ -70,5 +71,11 @@ class User extends Authenticatable
     public function scopeUnpublishedEditorAssignments($query): HasManyThrough
     {
         return $this->editorAssignments()->where('status', '!=', AssignmentStatus::COMPLETE);
+    }
+
+    public function choice(): BelongsToMany
+    {
+        return $this->belongsToMany(Choice::class)
+            ->using(ChoiceUser::class);
     }
 }

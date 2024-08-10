@@ -44,4 +44,10 @@ class Choice extends Model
     {
         return $this->morphToMany(Media::class, 'mediaable');
     }
+
+    public function user(): BelongsToMany
+    {
+        return $this->belongsToMany(User::class)
+            ->using(ChoiceUser::class);
+    }
 }
