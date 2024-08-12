@@ -75,7 +75,7 @@ export default function Groups ({ auth, groups }: Props): ReactElement {
                 <ul className="ml-6 list-disc">
                   {groups.map((group) => (
                     <li key={group.id}>
-                      <Link href="#" className="text-[#17A08F] hover:text-[#0056B3] hover:underline">
+                      <Link href={route('groups.show', [group])} className="text-[#17A08F] hover:text-[#0056B3] hover:underline">
                         {group.name}
                       </Link>
                     </li>

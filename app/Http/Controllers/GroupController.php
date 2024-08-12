@@ -27,4 +27,20 @@ class GroupController extends Controller
 
         return redirect()->back();
     }
+
+    public function show(Group $group): Response
+    {
+        return inertia('Groups/Show', [
+            'group' => $group->load('owner'),
+        ]);
+    }
+
+    public function update(Request $request, Group $group): RedirectResponse
+    {
+        $group->update([
+            'name' => $request->get('name'),
+        ]);
+
+        return redirect()->back();
+    }
 }

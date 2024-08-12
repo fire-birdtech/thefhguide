@@ -47,6 +47,8 @@ Route::group(['middleware' => ['auth', 'verified']], function () {
     Route::post('/tracker', [TrackerController::class, 'store'])->name('tracker.store');
     Route::get('groups', [GroupController::class, 'index'])->name('groups');
     Route::post('groups/create', [GroupController::class, 'store'])->name('groups.store');
+    Route::get('groups/{group}', [GroupController::class, 'show'])->name('groups.show');
+    Route::put('groups/{group}', [GroupController::class, 'update'])->name('groups.update');
     Route::get('settings/profile', [SettingsController::class, 'profile'])->name('settings.profile');
     Route::put('settings/profile/{user}', [SettingsController::class, 'updateProfile'])->name('settings.update-profile');
     Route::get('settings/security', [SettingsController::class, 'security'])->name('settings.security');
