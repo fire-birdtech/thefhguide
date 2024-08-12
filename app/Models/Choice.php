@@ -45,9 +45,10 @@ class Choice extends Model
         return $this->morphToMany(Media::class, 'mediaable');
     }
 
-    public function user(): BelongsToMany
+    public function users(): BelongsToMany
     {
         return $this->belongsToMany(User::class)
-            ->using(ChoiceUser::class);
+            ->using(ChoiceUser::class)
+            ->withPivot(['status', 'notes', 'updated_at']);
     }
 }

@@ -12,4 +12,8 @@ class ChoiceUser extends Pivot
         'notes',
         'status',
     ];
+
+    protected $casts = [
+        'updated_at' => 'datetime:M d Y'
+    ];
 }

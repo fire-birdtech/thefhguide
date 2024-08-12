@@ -8,6 +8,7 @@ export interface User {
   email_verified_at: string
   roles: Role[]
   admin: User
+  pivot?: ChoicePivot
 }
 
 export interface Editor {
@@ -83,6 +84,15 @@ export interface Choice {
   deleted_at: string
   goal: Goal
   media: MediaFile[]
+  users: User[]
+}
+
+interface ChoicePivot {
+  choice_id: number
+  notes: string
+  status: string
+  updated_at: string
+  user_id: number
 }
 
 export interface ChoiceContent {

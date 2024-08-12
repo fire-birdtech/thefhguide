@@ -73,7 +73,7 @@ class User extends Authenticatable
         return $this->editorAssignments()->where('status', '!=', AssignmentStatus::COMPLETE);
     }
 
-    public function choice(): BelongsToMany
+    public function choices(): BelongsToMany
     {
         return $this->belongsToMany(Choice::class)
             ->using(ChoiceUser::class);

@@ -1,15 +1,14 @@
 import { type ReactElement } from 'react'
-import {Choice, Goal, type PageProps, type Project} from '@/types'
+import { type Goal, type PageProps, type Project } from '@/types'
 import Authenticated from '@/Layouts/Authenticated'
 import OnlineTrackerNavigation from '@/Components/Navigation/online-tracker'
 import { Head } from '@inertiajs/react'
-import {Heading} from "@/Components/Typography/Headers";
+import { Heading } from '@/Components/Typography/Headers'
+import ChoiceItem from '@/Pages/Tracker/partials/ChoiceItem'
 
 type Props = {
   project: Project
 } & PageProps
-
-const listStyleAlpha = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
 
 function SectionHeader ({ goal }: { goal: Goal }): ReactElement {
   const header = `Goal ${goal.order}: ${goal.name}`
@@ -54,36 +53,7 @@ function SectionBody ({ goal }: { goal: Goal }): ReactElement {
   </>
 }
 
-function ChoiceItem ({ choice }: { choice: Choice }): ReactElement {
-  return (
-    <div className="grid grid-cols-10 items-center gap-x-4">
-      <div className="col-span-3">
-        {`${listStyleAlpha[choice.order - 1]}: ${choice.name}`}
-      </div>
-      <div className="col-span-3">
-        <textarea name="" id="" className="w-full rounded-sm" rows={3}></textarea>
-      </div>
-      <div className="col-span-3">
-        <div className="flex items-center">
-          <div>
-            <input type="range" min={0} max={3} value={0}/>
-            <div className="flex justify-between px-1">
-              <span>0</span>
-              <span>1</span>
-              <span>2</span>
-              <span>3</span>
-            </div>
-          </div>
-          <div className="ml-8">
-            Not Started
-          </div>
-        </div>
-      </div>
-    </div>
-  )
-}
-
-export default function TrackerProject ({auth, project}: Props): ReactElement {
+export default function TrackerProject ({ auth, project }: Props): ReactElement {
   const header = `${project.collection.name} Project ${project.order}: ${project.name}`
 
   return (
