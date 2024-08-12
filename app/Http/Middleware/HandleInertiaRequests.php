@@ -51,7 +51,26 @@ class HandleInertiaRequests extends Middleware
         }
 
         $groupOne = [];
-        $introNav = [];
+        $introNav = [
+            [ 'name' => 'Get Started', 'link' => '#' ],
+            [ 'name' => '15 Minutes', 'link' => '#' ],
+            [ 'name' => 'About TFHG', 'link' => '#' ],
+            [ 'name' => 'FAQs', 'link' => '#' ],
+
+            [ 'name' => 'Beginner\'s Path', 'link' => '#' ],
+            [ 'name' => 'Computer Basics', 'link' => '#' ],
+
+            [ 'name' => 'The Learning System', 'link' => '#' ],
+            [ 'name' => 'Features Help', 'link' => '#' ],
+            [ 'name' => 'The Q&A Center', 'link' => '#' ],
+            [ 'name' => 'Quizzes', 'link' => '#' ],
+            [ 'name' => 'Music', 'link' => '#' ],
+
+            [ 'name' => 'TFHG Partners', 'link' => '#' ],
+
+            [ 'name' => 'Topics', 'link' => '#' ],
+            [ 'name' => 'TFHG Association', 'link' => '#' ],
+        ];
         $groupOne[] = [
             'name' => 'Intro',
             'menuItems' => $introNav,
@@ -59,119 +78,156 @@ class HandleInertiaRequests extends Middleware
         $navigation[] = $groupOne;
 
         $groupTwo = [];
-        $familysearch = Collection::where('slug', 'familysearch')->with('projects')->first();
-        $familysearchNav = [];
-        foreach ($familysearch?->projects as $project) {
-            $familysearchNav[] = [
-                'name' => "{$project->order}: {$project->name}",
-                'link' => route('pages.show', [$project->goals()->first()->page->uri]),
-            ];
-        }
-        $groupTwo[] = [
-            'name' => $familysearch->name,
-            'menuItems' => $familysearchNav,
+
+        $learningPathNav = [
+            [ 'name' => 'FamilySearch', 'link' => '#' ],
+            [ 'name' => 'Ancestry', 'link' => '#' ],
+            [ 'name' => 'MyHeritage', 'link' => '#' ],
+            [ 'name' => 'Findmypast', 'link' => '#' ],
         ];
 
-        $ancestry = Collection::where('slug', 'ancestry')->with('projects')->first();
-        $ancestryNav = [];
-        foreach ($ancestry?->projects as $project) {
-            $ancestryNav[] = [
-                'name' => "{$project->order}: {$project->name}",
-                'link' => route('pages.show', [$project->goals()->first()->page->uri]),
-            ];
-        }
         $groupTwo[] = [
-            'name' => $ancestry->name,
-            'menuItems' => $ancestryNav,
-        ];
-
-        $myheritage = Collection::where('slug', 'myheritage')->with('projects')->first();
-        $myheritageNav = [];
-        foreach ($myheritage?->projects as $project) {
-            $myheritageNav[] = [
-                'name' => "{$project->order}: {$project->name}",
-                'link' => route('pages.show', [$project->goals()->first()->page->uri]),
-            ];
-        }
-        $groupTwo[] = [
-            'name' => $myheritage->name,
-            'menuItems' => $myheritageNav,
-        ];
-
-        $findmypast = Collection::where('slug', 'findmypast')->with('projects')->first();
-        $findmypastNav = [];
-        foreach ($findmypast?->projects as $project) {
-            $findmypastNav[] = [
-                'name' => "{$project->order}: {$project->name}",
-                'link' => route('pages.show', [$project->goals()->first()->page->uri]),
-            ];
-        }
-        $groupTwo[] = [
-            'name' => $findmypast->name,
-            'menuItems' => $findmypastNav,
+            'name' => 'Learning Path',
+            'menuItems' => $learningPathNav,
         ];
 
         $navigation[] = $groupTwo;
 
         $groupThree = [];
-        $trainersNav = [];
-        $groupThree[] = [
-            'name' => 'Trainers',
-            'menuItems' => $trainersNav,
+        $countriesNav = [
+            [ 'name' => 'All Countries', 'link' => '#' ],
+            [ 'name' => 'United States', 'link' => '#' ],
+            [ 'name' => 'England', 'link' => '#' ],
+            [ 'name' => 'Canada', 'link' => '#' ],
+            [ 'name' => 'Mexico', 'link' => '#' ],
+
+            [ 'name' => 'Caribbean', 'link' => '#' ],
+            [ 'name' => 'Central America', 'link' => '#' ],
+            [ 'name' => 'British Isles', 'link' => '#' ],
+            [ 'name' => 'Scandinavia', 'link' => '#' ],
+            [ 'name' => 'Central Europe', 'link' => '#' ],
+            [ 'name' => 'Western/So. Europe', 'link' => '#' ],
+            [ 'name' => 'Eastern Europe', 'link' => '#' ],
+            [ 'name' => 'Asia/Pacific', 'link' => '#' ],
+            [ 'name' => 'Africa', 'link' => '#' ],
+            [ 'name' => 'South America', 'link' => '#' ],
+            [ 'name' => 'International', 'link' => '#' ],
+
+            [ 'name' => 'Ethnic', 'link' => '#' ],
+            [ 'name' => 'Countries KB', 'link' => '#' ],
         ];
 
-        $activitiesNav = [];
         $groupThree[] = [
-            'name' => 'Activities',
-            'menuItems' => $activitiesNav,
-        ];
-
-        $youthNav = [];
-        $groupThree[] = [
-            'name' => 'Youth',
-            'menuItems' => $youthNav,
-        ];
-
-        $mediaNav = [];
-        $groupThree[] = [
-            'name' => 'Media',
-            'menuItems' => $mediaNav,
-        ];
-
-        $faithsNav = [];
-        $groupThree[] = [
-            'name' => 'Faiths',
-            'menuItems' => $faithsNav,
+            'name' => 'Countries',
+            'menuItems' => $countriesNav,
         ];
 
         $navigation[] = $groupThree;
 
         $groupFour = [];
-        $countriesNav = [];
+        $trainersNav = [
+            [ 'name' => 'Home', 'link' => '#' ],
+            [ 'name' => 'Presenting TFHG', 'link' => '#' ],
+            [ 'name' => '2-Minute Demos', 'link' => '#' ],
+            [ 'name' => 'TFHG on Paper', 'link' => '#' ],
+            [ 'name' => 'Class Outlines', 'link' => '#' ],
+            [ 'name' => 'Practice Exercises', 'link' => '#' ],
+
+            [ 'name' => 'Trainer\'s Corner', 'link' => '#' ],
+            [ 'name' => 'Consultant Training Tools', 'link' => '#' ],
+            [ 'name' => 'Audiences', 'link' => '#' ],
+            [ 'name' => 'The Q&A Center', 'link' => '#' ],
+            [ 'name' => 'Show Me Slides', 'link' => '#' ],
+            [ 'name' => 'Quizzes', 'link' => '#' ],
+
+            [ 'name' => 'Libraries', 'link' => '#' ],
+        ];
         $groupFour[] = [
-            'name' => 'Countries',
-            'menuItems' => $countriesNav,
+            'name' => 'Trainers',
+            'menuItems' => $trainersNav,
         ];
 
-        $vaultNav = [];
+        $activitiesNav = [
+            [ 'name' => 'Home', 'link' => '#' ],
+            [ 'name' => 'Family', 'link' => '#' ],
+            [ 'name' => 'Individuals', 'link' => '#' ],
+            [ 'name' => 'Youth', 'link' => '#' ],
+            [ 'name' => 'Kids Corner', 'link' => '#' ],
+
+            [ 'name' => 'Index - General', 'link' => '#' ],
+            [ 'name' => 'Index - Latter-day Saints', 'link' => '#' ],
+            [ 'name' => 'Planning Sheet', 'link' => '#' ],
+
+            [ 'name' => 'Home School', 'link' => '#' ],
+        ];
         $groupFour[] = [
-            'name' => 'Vault',
-            'menuItems' => $vaultNav,
+            'name' => 'Activities',
+            'menuItems' => $activitiesNav,
         ];
 
-        $trackerNav = [];
+        $youthNav = [
+            [ 'name' => 'Home', 'link' => '#' ],
+            [ 'name' => 'Photos and Stories', 'link' => '#' ],
+            [ 'name' => 'Activities', 'link' => '#' ],
+            [ 'name' => 'Family Tree', 'link' => '#' ],
+            [ 'name' => 'Places and Cultures', 'link' => '#' ],
+            [ 'name' => 'Indexing', 'link' => '#' ],
+            [ 'name' => 'Apps and Sites', 'link' => '#' ],
+
+            [ 'name' => 'Latter-day Saints', 'link' => '#' ],
+        ];
         $groupFour[] = [
-            'name' => 'Tracker',
-            'menuItems' => $trackerNav,
+            'name' => 'Youth',
+            'menuItems' => $youthNav,
+        ];
+
+        $mediaNav = [
+            [ 'name' => 'Blog', 'link' => '#' ],
+            [ 'name' => 'Facebook', 'link' => '#' ],
+            [ 'name' => 'YouTube', 'link' => '#' ],
+            [ 'name' => 'QRB Links', 'link' => '#' ],
+            [ 'name' => 'X (Twitter)', 'link' => '#' ],
+            [ 'name' => 'Pinterest', 'link' => '#' ],
+            [ 'name' => 'Instagram', 'link' => '#' ],
+
+            [ 'name' => 'Media Resources', 'link' => '#' ],
+            [ 'name' => 'Learn Social Media', 'link' => '#' ],
+        ];
+        $groupFour[] = [
+            'name' => 'Media',
+            'menuItems' => $mediaNav,
+        ];
+
+        $faithsNav = [
+            [ 'name' => 'Church of Jesus Christ', 'link' => '#' ],
+            [ 'name' => 'Weekly Family History Activities', 'link' => '#' ],
+            [ 'name' => 'Youth Pages', 'link' => '#' ],
+            [ 'name' => 'Catholic', 'link' => '#' ],
+            [ 'name' => 'Protestant', 'link' => '#' ],
+            [ 'name' => 'Jewish', 'link' => '#' ],
+        ];
+        $groupFour[] = [
+            'name' => 'Faiths',
+            'menuItems' => $faithsNav,
         ];
 
         $navigation[] = $groupFour;
 
         $groupFive = [];
-        $miscNav = [];
+
+        $toolsNav = [
+            [ 'name' => 'Vault', 'link' => '#' ],
+            [ 'name' => 'Online Tracker', 'link' => route('dashboard') ],
+
+            [ 'name' => 'Contact Us', 'link' => '#' ],
+            [ 'name' => 'Tip of the Day', 'link' => '#' ],
+            [ 'name' => 'Quotes', 'link' => '#' ],
+            [ 'name' => 'Languages', 'link' => '#' ],
+            [ 'name' => 'Terms of Use', 'link' => '#' ],
+        ];
         $groupFive[] = [
-            'name' => 'Misc',
-            'menuItems' => $miscNav,
+            'name' => 'Tools',
+            'menuItems' => $toolsNav,
         ];
 
         $navigation[] = $groupFive;

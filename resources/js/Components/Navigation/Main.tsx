@@ -12,8 +12,8 @@ export default function MainNavigation (): ReactElement {
 
   return (
     <header className="fixed inset-x-0 z-50 bg-gray-50">
-      <nav className="mx-auto flex items-center justify-between px-4 py-3 lg:py-0" aria-label="Global">
-        <div className="flex lg:flex-1">
+      <nav className="mx-auto flex items-center justify-between px-4 py-3 lg:py-0 lg:justify-start" aria-label="Global">
+        <div className="flex">
           <Link href={route('home')} className="flex-shrink-0 -m-1.5 p-1.5">
             <span className="sr-only">The Family History Guide</span>
             <ApplicationLogo className="flex-shrink-0 h-8 w-auto"/>
@@ -63,11 +63,11 @@ export default function MainNavigation (): ReactElement {
             </div>
           ))}
         </Popover.Group>
-        <div className="hidden lg:flex lg:flex-1 lg:items-center lg:justify-end lg:gap-x-4">
-          <Link href={route('login')} className="text-sm font-semibold leading-6 text-gray-900 hover:text-blue-600">
-            Log in <span aria-hidden="true">&rarr;</span>
-          </Link>
-        </div>
+        {/*<div className="hidden lg:flex lg:flex-1 lg:items-center lg:justify-end lg:gap-x-4">*/}
+        {/*  <Link href={route('login')} className="text-sm font-semibold leading-6 text-gray-900 hover:text-blue-600">*/}
+        {/*    Log in <span aria-hidden="true">&rarr;</span>*/}
+        {/*  </Link>*/}
+        {/*</div>*/}
       </nav>
 
       <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
