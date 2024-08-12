@@ -37,7 +37,10 @@ class DashboardController extends Controller
     public function onlineTracker(Request $request): Response|ResponseFactory
     {
         return inertia('Dashboard', [
-            'collections' => Collection::with('projects')->get(),
+            'collections' => Collection::query()
+                ->select('id', 'name')
+                ->with('projects')
+                ->get(),
         ]);
     }
 }
