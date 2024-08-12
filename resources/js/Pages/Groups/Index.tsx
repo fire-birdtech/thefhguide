@@ -1,15 +1,20 @@
 import { type ReactElement } from 'react'
 import Authenticated from '@/Layouts/Authenticated'
-import { type PageProps } from '@/types'
+import { type Group, type PageProps } from '@/types'
 import OnlineTrackerNavigation from '@/Components/Navigation/online-tracker'
-import { Head } from '@inertiajs/react'
-import {Heading} from "@/Components/Typography/Headers";
-import TextInput from "@/Components/Forms/TextInput";
-import InputLabel from "@/Components/Forms/InputLabel";
-import PrimaryButton from "@/Components/Buttons/PrimaryButton";
-import TextArea from "@/Components/Forms/TextArea";
+import {Head, Link} from '@inertiajs/react'
+import { Heading } from '@/Components/Typography/Headers'
+import TextInput from '@/Components/Forms/TextInput'
+import InputLabel from '@/Components/Forms/InputLabel'
+import PrimaryButton from '@/Components/Buttons/PrimaryButton'
+import TextArea from '@/Components/Forms/TextArea'
+import CreateGroup from "@/Pages/Groups/partials/create-group";
 
-export default function Groups ({ auth }: PageProps): ReactElement {
+type Props = {
+  groups: Group[]
+} & PageProps
+
+export default function Groups ({ auth, groups }: Props): ReactElement {
   return (
     <Authenticated
       user={auth.user}
@@ -31,18 +36,7 @@ export default function Groups ({ auth }: PageProps): ReactElement {
             </p>
             <div className="mt-4 grid grid-cols-12 gap-x-4">
               <div className="col-span-4">
-                <form>
-                  <fieldset className="border-2 border-neutral-100 p-4 m-2">
-                    <legend className="text-xl">
-                      Create New Group
-                    </legend>
-                    <InputLabel label="Name of Group" />
-                    <TextInput className="mt-1 w-full" />
-                    <PrimaryButton className="mt-3">
-                      Create
-                    </PrimaryButton>
-                  </fieldset>
-                </form>
+                <CreateGroup />
               </div>
               <div className="col-span-8">
                 <form>
@@ -78,6 +72,15 @@ export default function Groups ({ auth }: PageProps): ReactElement {
                 <p>
                   These are the groups you have access to see.
                 </p>
+                <ul className="ml-6 list-disc">
+                  {groups.map((group) => (
+                    <li key={group.id}>
+                      <Link href="#" className="text-[#17A08F] hover:text-[#0056B3] hover:underline">
+                        {group.name}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
               </div>
 
               <div className="col-span-4">

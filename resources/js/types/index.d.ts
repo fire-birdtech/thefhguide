@@ -246,6 +246,13 @@ export type Cells = Record<string, string>
 
 export type Actions = Record<string, boolean>
 
+export interface Group {
+  id: number
+  name: string
+  owner_id: number
+  users: User[]
+}
+
 export type PageProps<T extends Record<string, unknown> = Record<string, unknown>> = T & {
   auth: {
     user: User

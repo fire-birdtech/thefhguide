@@ -78,4 +78,9 @@ class User extends Authenticatable
         return $this->belongsToMany(Choice::class)
             ->using(ChoiceUser::class);
     }
+
+    public function groups(): BelongsToMany
+    {
+        return $this->belongsToMany(Group::class);
+    }
 }
