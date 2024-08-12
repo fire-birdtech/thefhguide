@@ -11,9 +11,9 @@ const styles = {
     ]
   },
   size: [
-    [],
+    [], // index offset since there is no <h0>
     ['text-2xl/8 font-display font-medium sm:text-4xl/8'],
-    [],
+    ['text-xl/8 font-display font-medium sm:text-2xl/8'],
     ['text-lg/8 font-sans font-bold'],
     ['text-base/6 font-sans font-bold'],
     [],

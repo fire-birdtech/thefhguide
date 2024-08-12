@@ -17,13 +17,13 @@ interface Props {
 const primaryNav: Navigation[] = [
   { label: 'Tracker Home', href: route('dashboard'), components: ['Dashboard'] },
   { label: 'My Account', href: '#', components: [] },
-  { label: 'Groups', href: '#', components: [] },
+  { label: 'Groups', href: route('groups'), components: ['Groups/Index'] },
   { label: 'Reports', href: '#', components: [] },
   { label: 'Stars', href: '#', components: [] }
 ]
 
 export default function OnlineTrackerNavigation ({ additionalNav = [] }: Props): ReactElement {
-  const {component: currentComponent, url} = usePage()
+  const { component: currentComponent, url } = usePage()
 
   const navigation = [...primaryNav, ...additionalNav]
 
