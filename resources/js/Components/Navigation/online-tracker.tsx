@@ -16,7 +16,7 @@ interface Props {
 
 const primaryNav: Navigation[] = [
   { label: 'Tracker Home', href: route('dashboard'), components: ['Dashboard'] },
-  { label: 'My Account', href: '#', components: [] },
+  { label: 'My Account', href: route('settings.profile'), components: ['Settings/Account', 'Settings/Profile', 'Settings/Security'] },
   { label: 'Groups', href: route('groups'), components: ['Groups/Index', 'Groups/Show'] },
   { label: 'Reports', href: '#', components: [] },
   { label: 'Stars', href: '#', components: [] }

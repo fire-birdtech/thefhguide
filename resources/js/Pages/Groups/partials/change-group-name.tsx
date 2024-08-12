@@ -3,7 +3,7 @@ import InputLabel from '@/Components/Forms/InputLabel'
 import TextInput from '@/Components/Forms/TextInput'
 import { useForm } from '@inertiajs/react'
 import PrimaryButton from '@/Components/Buttons/PrimaryButton'
-import {Group} from "@/types";
+import { type Group } from '@/types'
 
 export default function ChangeGroupName ({ group }: { group: Group }): ReactElement {
   const { data, setData, put } = useForm({
