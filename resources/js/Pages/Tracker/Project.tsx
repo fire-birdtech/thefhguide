@@ -56,10 +56,20 @@ function SectionBody ({ goal }: { goal: Goal }): ReactElement {
 export default function TrackerProject ({ auth, project }: Props): ReactElement {
   const header = `${project.collection.name} Project ${project.order}: ${project.name}`
 
+  const collectionNavigation = project.collection.projects.map((project) => {
+    return {
+      label: project.name,
+      href: route('tracker.project', [project]),
+      components: [],
+      order: project.order,
+      id: project.id
+    }
+  })
+
   return (
     <Authenticated
       user={auth.user}
-      header={<OnlineTrackerNavigation/>}
+      header={<OnlineTrackerNavigation additionalNav={collectionNavigation}/>}
     >
       <Head title={`Online Progress Tracker: ${project.name}`}/>
 
