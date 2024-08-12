@@ -13,7 +13,7 @@ class TrackerController extends Controller
     public function show(Project $project): Response
     {
         return inertia('Tracker/Project', [
-//            'project' => $project->load(['collection', 'goals.choices']),
+            //            'project' => $project->load(['collection', 'goals.choices']),
             'project' => Project::query()
                 ->where('id', $project->getAttribute('id'))
                 ->with(['collection', 'goals', 'goals.choices' => function ($query) {
@@ -21,7 +21,7 @@ class TrackerController extends Controller
                         $query->where('id', Auth::id());
                     }]);
                 }])
-                ->first()
+                ->first(),
         ]);
     }
 

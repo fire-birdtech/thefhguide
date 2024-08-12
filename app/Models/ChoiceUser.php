@@ -14,6 +14,6 @@ class ChoiceUser extends Pivot
     ];
 
     protected $casts = [
-        'updated_at' => 'datetime:M d Y'
+        'updated_at' => 'datetime:M d Y',
     ];
 }
