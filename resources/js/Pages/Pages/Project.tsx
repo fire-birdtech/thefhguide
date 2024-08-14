@@ -1,11 +1,12 @@
 import { type ReactElement } from 'react'
-import {Head, Link} from '@inertiajs/react'
+import { Head } from '@inertiajs/react'
+import { Link } from '@/Components/link'
 import { type Project } from '@/types'
 import MainNavigation from '@/Components/Navigation/Main'
-import ProjectNavigation from "@/Components/Navigation/Project";
-import LearningSystemHeader from "@/Components/learning-system-header";
-import {Heading} from "@/Components/Typography/Headers";
-import {listStyleAlpha} from "@/Utils/string";
+import ProjectNavigation from '@/Components/Navigation/Project'
+import LearningSystemHeader from '@/Components/learning-system-header'
+import { Heading } from '@/Components/Typography/Headers'
+import { listStyleAlpha } from '@/Utils/string'
 
 interface Props {
   collectionNavigation: [{ name: string, link: string }]

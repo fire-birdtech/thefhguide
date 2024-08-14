@@ -1,11 +1,14 @@
-import { type ReactElement } from 'react'
-import { Link, usePage } from '@inertiajs/react'
-import classNames from '@/Utils/classNames'
+import { type ComponentPropsWithoutRef, type ForwardedRef, type ReactElement, forwardRef } from 'react'
+import { usePage } from '@inertiajs/react'
+import { Link } from '@/Components/link'
+import * as Headless from '@headlessui/react'
+import { Link as InertiaLink, type InertiaLinkProps } from '@inertiajs/react'
+import clsx from 'clsx'
 
 interface Navigation {
-  label: string
+  label?: string
   href: string
-  components: string[]
+  components?: string[]
   order?: number
   id?: number
 }
@@ -22,33 +25,48 @@ const primaryNav: Navigation[] = [
   { label: 'Stars', href: '#', components: [] }
 ]
 
-export default function OnlineTrackerNavigation ({ additionalNav = [] }: Props): ReactElement {
+const NavItem = forwardRef(function NavItem (
+  props: InertiaLinkProps & ComponentPropsWithoutRef<'a'> & Navigation,
+  ref: ForwardedRef<HTMLAnchorElement>
+) {
   const { component: currentComponent, url } = usePage()
+  const { components, id, order, label } = props
 
+  return (
+    <Headless.DataInteractive>
+      <InertiaLink
+        {...props}
+        className={clsx(
+          props.className,
+          (components !== undefined && components.includes(currentComponent)) ||
+          (id !== undefined && url.endsWith(`/project/${id}`))
+            ? 'bg-[#149f8e]'
+            : '',
+          'flex items-center p-2 rounded-full hover:bg-[#ff9f1c]'
+        )}
+        ref={ref}
+      >
+        {order !== undefined && (
+          <span className="bg-white rounded-full w-6 h-6 text-sm text-[#2ec4b6] text-center flex items-center justify-center mr-1.5">
+            {order}
+          </span>
+        )}
+        {label}
+      </InertiaLink>
+    </Headless.DataInteractive>
+  )
+})
+
+export default function OnlineTrackerNavigation ({ additionalNav = [] }: Props): ReactElement {
   const navigation = [...primaryNav, ...additionalNav]
 
   return (
     <nav className="flex items-center flex-wrap py-2 px-12 gap-x-8 bg-[#2ec4b6] text-neutral-50">
       {navigation.map((item, index) => (
-        <Link key={index} href={item.href} className={classNames(
-          item.components.includes(currentComponent) ||
-          (item?.id !== undefined && url.endsWith(`/project/${item.id}`))
-            ? 'bg-[#149f8e]'
-            : '',
-          'flex items-center p-2 rounded-full hover:bg-[#ff9f1c]'
-        )}>
-          {item.order !== undefined && (
-            <span className="bg-white rounded-full w-6 h-6 text-sm text-[#2ec4b6] text-center flex items-center justify-center mr-1.5">
-              {item.order}
-            </span>
-          )}
-          {item.label}
-        </Link>
+        <NavItem key={item.id} {...item} />
       ))}
       <div className="ml-auto flex items-center">
-        <Link href={route('logout')} method="post" as="button" className="p-2 rounded-full hover:bg-[#ff9f1c]">
-          Logout
-        </Link>
+        <NavItem href={route('logout')} method="post" as="button" label="Logout" />
       </div>
     </nav>
   )
