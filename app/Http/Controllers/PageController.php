@@ -4,12 +4,14 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\CreatePageRequest;
 use App\Http\Requests\StorePageRequest;
+use App\Models\Collection;
 use App\Models\Goal;
 use App\Models\GoalPage;
 use App\Models\InfoPage;
 use App\Models\Media;
 use App\Models\Page;
 use App\Models\Project;
+use App\Models\ProjectPage;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Inertia\Response;
@@ -17,7 +19,7 @@ use Inertia\ResponseFactory;
 
 class PageController extends Controller
 {
-    public function __invoke(Page $page): Response|ResponseFactory
+    public function __invoke(Page $page): Response
     {
         if ($page->type === GoalPage::class) {
             $goal = Goal::where('page_id', $page->id)->with(['project.collection', 'choices.media'])->first();
@@ -26,6 +28,20 @@ class PageController extends Controller
                 'goal' => $goal,
                 'projectNavigation' => $this->getProjectNavigation($goal->project),
                 'title' => "{$goal->name}: {$goal->project->collection->name} Project {$goal->project->order}, Goal {$goal->order}",
+            ]);
+        }
+
+        if ($page->getAttribute('type') === ProjectPage::class) {
+            $project = Project::query()
+                ->where('page_id', $page->getAttribute('id'))
+                ->with('goals.choices')
+                ->withCount('goals')
+                ->first();
+
+            return inertia('Pages/Project', [
+                'project' => $project,
+                'collectionNavigation' => $this->getCollectionNavigation($project->collection),
+                'title' => "{$project->name}: {$project->collection->name} Project {$project->order}",
             ]);
         }
 
@@ -102,6 +118,20 @@ class PageController extends Controller
             $navigation[] = [
                 'name' => "{$goal->order}: {$goal->nav_name}",
                 'link' => route('pages.show', [$goal->page->uri]),
+            ];
+        }
+
+        return $navigation;
+    }
+
+    public function getCollectionNavigation(Collection $collection): array
+    {
+        $navigation = [];
+
+        foreach ($collection->projects as $project) {
+            $navigation[] = [
+                'name' => "{$project->order}: {$project->name}",
+                'link' => route('pages.show', [$project->page->uri]),
             ];
         }
 

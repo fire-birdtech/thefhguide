@@ -50,6 +50,7 @@ export interface Project {
   deleted_at: string
   collection: Collection
   goals: Goal[]
+  goals_count: number
   child_drafts: Draft[]
 }
 

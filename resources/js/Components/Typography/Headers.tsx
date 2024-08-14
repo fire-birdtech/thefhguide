@@ -10,28 +10,35 @@ const styles = {
       'text-zinc-950'
     ]
   },
+  fontFamily: {
+    display: ['font-display'],
+    sans: ['font-sans']
+  },
   size: [
     [], // index offset since there is no <h0>
-    ['text-2xl/8 font-display font-medium sm:text-4xl/8'],
-    ['text-xl/8 font-display font-medium sm:text-2xl/8'],
-    ['text-lg/8 font-sans font-bold'],
-    ['text-base/6 font-sans font-bold'],
-    [],
+    ['text-2xl font-medium sm:text-4xl'],
+    ['text-xl font-medium sm:text-3xl'],
+    ['text-lg/8 font-bold'],
+    ['text-base/6 font-bold'],
+    ['text-sm font-bold'],
     []
   ]
 }
 
-type HeadingProps = { level?: 1 | 2 | 3 | 4 | 5 | 6, color?: keyof typeof styles.colors } & ComponentPropsWithoutRef<
-'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6'
->
+type HeadingProps = {
+  level?: 1 | 2 | 3 | 4 | 5 | 6
+  color?: keyof typeof styles.colors
+  fontFamily?: keyof typeof styles.fontFamily
+} & ComponentPropsWithoutRef<'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6'>
 
-export function Heading ({ className, level = 1, color, ...props }: HeadingProps): ReactElement {
+export function Heading ({ className, level = 1, color, fontFamily = 'display', ...props }: HeadingProps): ReactElement {
   const Element: `h${typeof level}` = `h${level}`
 
   const classes = clsx(
     className,
     color !== undefined ? styles.colors[color] : styles.colors.zinc,
-    styles.size[level]
+    styles.size[level],
+    styles.fontFamily[fontFamily]
   )
 
   return (

@@ -53,4 +53,9 @@ class Project extends Model
     {
         return $this->hasMany(Goal::class);
     }
+
+    public function page(): BelongsTo
+    {
+        return $this->belongsTo(ProjectPage::class);
+    }
 }

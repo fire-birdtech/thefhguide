@@ -7,7 +7,9 @@ use App\Models\Choice;
 use App\Models\Collection;
 use App\Models\Goal;
 use App\Models\GoalPage;
+use App\Models\Page;
 use App\Models\Project;
+use App\Models\ProjectPage;
 use App\Models\ResourceLink;
 use Illuminate\Database\Seeder;
 use Illuminate\Http\UploadedFile;
@@ -1185,6 +1187,13 @@ class ProjectCollectionsSeeder extends Seeder
                     file_put_contents($file, $contents);
                     $newProject->updateCoverImage(new UploadedFile($file, $info['basename']));
                 }
+
+                $page = ProjectPage::query()->firstOrCreate([
+                    'slug' => $newProject['slug'],
+                    'uri' => "{$newCollection->getAttribute('slug')}/{$newProject->getAttribute('slug')}",
+                ]);
+
+                $page->project()->save($newProject);
 
                 var_dump('Reading '.$project['file']);
 
