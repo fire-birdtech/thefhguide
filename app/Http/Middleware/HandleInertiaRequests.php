@@ -79,10 +79,10 @@ class HandleInertiaRequests extends Middleware
         $groupTwo = [];
 
         $learningPathNav = [
-            ['name' => 'FamilySearch', 'link' => '#'],
-            ['name' => 'Ancestry', 'link' => '#'],
-            ['name' => 'MyHeritage', 'link' => '#'],
-            ['name' => 'Findmypast', 'link' => '#'],
+            ['name' => 'FamilySearch', 'link' => route('pages.show', ['familysearch/family-tree'])],
+            ['name' => 'Ancestry', 'link' => route('pages.show', ['ancestry/get-started'])],
+            ['name' => 'MyHeritage', 'link' => route('pages.show', ['myheritage/account'])],
+            ['name' => 'Findmypast', 'link' => route('pages.show', ['findmypast/account'])],
         ];
 
         $groupTwo[] = [
