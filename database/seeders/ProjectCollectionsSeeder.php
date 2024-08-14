@@ -7,7 +7,6 @@ use App\Models\Choice;
 use App\Models\Collection;
 use App\Models\Goal;
 use App\Models\GoalPage;
-use App\Models\Page;
 use App\Models\Project;
 use App\Models\ProjectPage;
 use App\Models\ResourceLink;

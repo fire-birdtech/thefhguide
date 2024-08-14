@@ -15,7 +15,6 @@ use App\Models\ProjectPage;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Inertia\Response;
-use Inertia\ResponseFactory;
 
 class PageController extends Controller
 {

@@ -2,7 +2,6 @@
 
 namespace App\Http\Middleware;
 
-use App\Models\Collection;
 use Illuminate\Http\Request;
 use Inertia\Middleware;
 
@@ -52,24 +51,24 @@ class HandleInertiaRequests extends Middleware
 
         $groupOne = [];
         $introNav = [
-            [ 'name' => 'Get Started', 'link' => '#' ],
-            [ 'name' => '15 Minutes', 'link' => '#' ],
-            [ 'name' => 'About TFHG', 'link' => '#' ],
-            [ 'name' => 'FAQs', 'link' => '#' ],
+            ['name' => 'Get Started', 'link' => '#'],
+            ['name' => '15 Minutes', 'link' => '#'],
+            ['name' => 'About TFHG', 'link' => '#'],
+            ['name' => 'FAQs', 'link' => '#'],
 
-            [ 'name' => 'Beginner\'s Path', 'link' => '#' ],
-            [ 'name' => 'Computer Basics', 'link' => '#' ],
+            ['name' => 'Beginner\'s Path', 'link' => '#'],
+            ['name' => 'Computer Basics', 'link' => '#'],
 
-            [ 'name' => 'The Learning System', 'link' => '#' ],
-            [ 'name' => 'Features Help', 'link' => '#' ],
-            [ 'name' => 'The Q&A Center', 'link' => '#' ],
-            [ 'name' => 'Quizzes', 'link' => '#' ],
-            [ 'name' => 'Music', 'link' => '#' ],
+            ['name' => 'The Learning System', 'link' => '#'],
+            ['name' => 'Features Help', 'link' => '#'],
+            ['name' => 'The Q&A Center', 'link' => '#'],
+            ['name' => 'Quizzes', 'link' => '#'],
+            ['name' => 'Music', 'link' => '#'],
 
-            [ 'name' => 'TFHG Partners', 'link' => '#' ],
+            ['name' => 'TFHG Partners', 'link' => '#'],
 
-            [ 'name' => 'Topics', 'link' => '#' ],
-            [ 'name' => 'TFHG Association', 'link' => '#' ],
+            ['name' => 'Topics', 'link' => '#'],
+            ['name' => 'TFHG Association', 'link' => '#'],
         ];
         $groupOne[] = [
             'name' => 'Intro',
@@ -80,10 +79,10 @@ class HandleInertiaRequests extends Middleware
         $groupTwo = [];
 
         $learningPathNav = [
-            [ 'name' => 'FamilySearch', 'link' => '#' ],
-            [ 'name' => 'Ancestry', 'link' => '#' ],
-            [ 'name' => 'MyHeritage', 'link' => '#' ],
-            [ 'name' => 'Findmypast', 'link' => '#' ],
+            ['name' => 'FamilySearch', 'link' => '#'],
+            ['name' => 'Ancestry', 'link' => '#'],
+            ['name' => 'MyHeritage', 'link' => '#'],
+            ['name' => 'Findmypast', 'link' => '#'],
         ];
 
         $groupTwo[] = [
@@ -95,26 +94,26 @@ class HandleInertiaRequests extends Middleware
 
         $groupThree = [];
         $countriesNav = [
-            [ 'name' => 'All Countries', 'link' => '#' ],
-            [ 'name' => 'United States', 'link' => '#' ],
-            [ 'name' => 'England', 'link' => '#' ],
-            [ 'name' => 'Canada', 'link' => '#' ],
-            [ 'name' => 'Mexico', 'link' => '#' ],
+            ['name' => 'All Countries', 'link' => '#'],
+            ['name' => 'United States', 'link' => '#'],
+            ['name' => 'England', 'link' => '#'],
+            ['name' => 'Canada', 'link' => '#'],
+            ['name' => 'Mexico', 'link' => '#'],
 
-            [ 'name' => 'Caribbean', 'link' => '#' ],
-            [ 'name' => 'Central America', 'link' => '#' ],
-            [ 'name' => 'British Isles', 'link' => '#' ],
-            [ 'name' => 'Scandinavia', 'link' => '#' ],
-            [ 'name' => 'Central Europe', 'link' => '#' ],
-            [ 'name' => 'Western/So. Europe', 'link' => '#' ],
-            [ 'name' => 'Eastern Europe', 'link' => '#' ],
-            [ 'name' => 'Asia/Pacific', 'link' => '#' ],
-            [ 'name' => 'Africa', 'link' => '#' ],
-            [ 'name' => 'South America', 'link' => '#' ],
-            [ 'name' => 'International', 'link' => '#' ],
+            ['name' => 'Caribbean', 'link' => '#'],
+            ['name' => 'Central America', 'link' => '#'],
+            ['name' => 'British Isles', 'link' => '#'],
+            ['name' => 'Scandinavia', 'link' => '#'],
+            ['name' => 'Central Europe', 'link' => '#'],
+            ['name' => 'Western/So. Europe', 'link' => '#'],
+            ['name' => 'Eastern Europe', 'link' => '#'],
+            ['name' => 'Asia/Pacific', 'link' => '#'],
+            ['name' => 'Africa', 'link' => '#'],
+            ['name' => 'South America', 'link' => '#'],
+            ['name' => 'International', 'link' => '#'],
 
-            [ 'name' => 'Ethnic', 'link' => '#' ],
-            [ 'name' => 'Countries KB', 'link' => '#' ],
+            ['name' => 'Ethnic', 'link' => '#'],
+            ['name' => 'Countries KB', 'link' => '#'],
         ];
 
         $groupThree[] = [
@@ -126,21 +125,21 @@ class HandleInertiaRequests extends Middleware
 
         $groupFour = [];
         $trainersNav = [
-            [ 'name' => 'Home', 'link' => '#' ],
-            [ 'name' => 'Presenting TFHG', 'link' => '#' ],
-            [ 'name' => '2-Minute Demos', 'link' => '#' ],
-            [ 'name' => 'TFHG on Paper', 'link' => '#' ],
-            [ 'name' => 'Class Outlines', 'link' => '#' ],
-            [ 'name' => 'Practice Exercises', 'link' => '#' ],
+            ['name' => 'Home', 'link' => '#'],
+            ['name' => 'Presenting TFHG', 'link' => '#'],
+            ['name' => '2-Minute Demos', 'link' => '#'],
+            ['name' => 'TFHG on Paper', 'link' => '#'],
+            ['name' => 'Class Outlines', 'link' => '#'],
+            ['name' => 'Practice Exercises', 'link' => '#'],
 
-            [ 'name' => 'Trainer\'s Corner', 'link' => '#' ],
-            [ 'name' => 'Consultant Training Tools', 'link' => '#' ],
-            [ 'name' => 'Audiences', 'link' => '#' ],
-            [ 'name' => 'The Q&A Center', 'link' => '#' ],
-            [ 'name' => 'Show Me Slides', 'link' => '#' ],
-            [ 'name' => 'Quizzes', 'link' => '#' ],
+            ['name' => 'Trainer\'s Corner', 'link' => '#'],
+            ['name' => 'Consultant Training Tools', 'link' => '#'],
+            ['name' => 'Audiences', 'link' => '#'],
+            ['name' => 'The Q&A Center', 'link' => '#'],
+            ['name' => 'Show Me Slides', 'link' => '#'],
+            ['name' => 'Quizzes', 'link' => '#'],
 
-            [ 'name' => 'Libraries', 'link' => '#' ],
+            ['name' => 'Libraries', 'link' => '#'],
         ];
         $groupFour[] = [
             'name' => 'Trainers',
@@ -148,17 +147,17 @@ class HandleInertiaRequests extends Middleware
         ];
 
         $activitiesNav = [
-            [ 'name' => 'Home', 'link' => '#' ],
-            [ 'name' => 'Family', 'link' => '#' ],
-            [ 'name' => 'Individuals', 'link' => '#' ],
-            [ 'name' => 'Youth', 'link' => '#' ],
-            [ 'name' => 'Kids Corner', 'link' => '#' ],
+            ['name' => 'Home', 'link' => '#'],
+            ['name' => 'Family', 'link' => '#'],
+            ['name' => 'Individuals', 'link' => '#'],
+            ['name' => 'Youth', 'link' => '#'],
+            ['name' => 'Kids Corner', 'link' => '#'],
 
-            [ 'name' => 'Index - General', 'link' => '#' ],
-            [ 'name' => 'Index - Latter-day Saints', 'link' => '#' ],
-            [ 'name' => 'Planning Sheet', 'link' => '#' ],
+            ['name' => 'Index - General', 'link' => '#'],
+            ['name' => 'Index - Latter-day Saints', 'link' => '#'],
+            ['name' => 'Planning Sheet', 'link' => '#'],
 
-            [ 'name' => 'Home School', 'link' => '#' ],
+            ['name' => 'Home School', 'link' => '#'],
         ];
         $groupFour[] = [
             'name' => 'Activities',
@@ -166,15 +165,15 @@ class HandleInertiaRequests extends Middleware
         ];
 
         $youthNav = [
-            [ 'name' => 'Home', 'link' => '#' ],
-            [ 'name' => 'Photos and Stories', 'link' => '#' ],
-            [ 'name' => 'Activities', 'link' => '#' ],
-            [ 'name' => 'Family Tree', 'link' => '#' ],
-            [ 'name' => 'Places and Cultures', 'link' => '#' ],
-            [ 'name' => 'Indexing', 'link' => '#' ],
-            [ 'name' => 'Apps and Sites', 'link' => '#' ],
+            ['name' => 'Home', 'link' => '#'],
+            ['name' => 'Photos and Stories', 'link' => '#'],
+            ['name' => 'Activities', 'link' => '#'],
+            ['name' => 'Family Tree', 'link' => '#'],
+            ['name' => 'Places and Cultures', 'link' => '#'],
+            ['name' => 'Indexing', 'link' => '#'],
+            ['name' => 'Apps and Sites', 'link' => '#'],
 
-            [ 'name' => 'Latter-day Saints', 'link' => '#' ],
+            ['name' => 'Latter-day Saints', 'link' => '#'],
         ];
         $groupFour[] = [
             'name' => 'Youth',
@@ -182,16 +181,16 @@ class HandleInertiaRequests extends Middleware
         ];
 
         $mediaNav = [
-            [ 'name' => 'Blog', 'link' => '#' ],
-            [ 'name' => 'Facebook', 'link' => '#' ],
-            [ 'name' => 'YouTube', 'link' => '#' ],
-            [ 'name' => 'QRB Links', 'link' => '#' ],
-            [ 'name' => 'X (Twitter)', 'link' => '#' ],
-            [ 'name' => 'Pinterest', 'link' => '#' ],
-            [ 'name' => 'Instagram', 'link' => '#' ],
+            ['name' => 'Blog', 'link' => '#'],
+            ['name' => 'Facebook', 'link' => '#'],
+            ['name' => 'YouTube', 'link' => '#'],
+            ['name' => 'QRB Links', 'link' => '#'],
+            ['name' => 'X (Twitter)', 'link' => '#'],
+            ['name' => 'Pinterest', 'link' => '#'],
+            ['name' => 'Instagram', 'link' => '#'],
 
-            [ 'name' => 'Media Resources', 'link' => '#' ],
-            [ 'name' => 'Learn Social Media', 'link' => '#' ],
+            ['name' => 'Media Resources', 'link' => '#'],
+            ['name' => 'Learn Social Media', 'link' => '#'],
         ];
         $groupFour[] = [
             'name' => 'Media',
@@ -199,12 +198,12 @@ class HandleInertiaRequests extends Middleware
         ];
 
         $faithsNav = [
-            [ 'name' => 'Church of Jesus Christ', 'link' => '#' ],
-            [ 'name' => 'Weekly Family History Activities', 'link' => '#' ],
-            [ 'name' => 'Youth Pages', 'link' => '#' ],
-            [ 'name' => 'Catholic', 'link' => '#' ],
-            [ 'name' => 'Protestant', 'link' => '#' ],
-            [ 'name' => 'Jewish', 'link' => '#' ],
+            ['name' => 'Church of Jesus Christ', 'link' => '#'],
+            ['name' => 'Weekly Family History Activities', 'link' => '#'],
+            ['name' => 'Youth Pages', 'link' => '#'],
+            ['name' => 'Catholic', 'link' => '#'],
+            ['name' => 'Protestant', 'link' => '#'],
+            ['name' => 'Jewish', 'link' => '#'],
         ];
         $groupFour[] = [
             'name' => 'Faiths',
@@ -216,14 +215,14 @@ class HandleInertiaRequests extends Middleware
         $groupFive = [];
 
         $toolsNav = [
-            [ 'name' => 'Vault', 'link' => '#' ],
-            [ 'name' => 'Online Tracker', 'link' => route('dashboard') ],
+            ['name' => 'Vault', 'link' => '#'],
+            ['name' => 'Online Tracker', 'link' => route('dashboard')],
 
-            [ 'name' => 'Contact Us', 'link' => '#' ],
-            [ 'name' => 'Tip of the Day', 'link' => '#' ],
-            [ 'name' => 'Quotes', 'link' => '#' ],
-            [ 'name' => 'Languages', 'link' => '#' ],
-            [ 'name' => 'Terms of Use', 'link' => '#' ],
+            ['name' => 'Contact Us', 'link' => '#'],
+            ['name' => 'Tip of the Day', 'link' => '#'],
+            ['name' => 'Quotes', 'link' => '#'],
+            ['name' => 'Languages', 'link' => '#'],
+            ['name' => 'Terms of Use', 'link' => '#'],
         ];
         $groupFive[] = [
             'name' => 'Tools',
