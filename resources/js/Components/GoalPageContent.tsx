@@ -13,7 +13,7 @@ export default function GoalPageContent ({ goal }: { goal: Goal }): ReactElement
         Choices
       </h4>
 
-      <ul className="mt-8 space-y-8">
+      <ul className="mt-8 space-y-8 snap-y">
         {goal?.choices.map((choice: Choice, index: number) => (
           <ExpandableChoiceItem key={index} choice={choice}/>
         ))}

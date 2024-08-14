@@ -61,7 +61,7 @@ export default function ProjectPage ({ collectionNavigation, project, title }: P
               <ul className="mt-1 list-disc ml-5 space-y-1">
                 {goal.choices.map((choice) => (
                   <li key={choice.id} className="text-sm">
-                    <Link href="#">
+                    <Link href={`${route('pages.show', goal.page.uri)}#${listStyleAlpha[choice.order - 1].toLowerCase()}`}>
                       {listStyleAlpha[choice.order - 1]}: {choice.name}
                     </Link>
                   </li>

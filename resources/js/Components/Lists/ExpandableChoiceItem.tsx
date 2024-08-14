@@ -4,8 +4,7 @@ import { Header5 } from '@/Components/Typography/Headers'
 import { ChoiceContentTypes } from '@/enums'
 import { type Choice, type Resource } from '@/types'
 import ResourceListItem from '@/Components/Lists/ResourceListItem'
-
-const listStyleAlpha = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+import { listStyleAlpha } from '@/Utils/string'
 
 export default function ExpandableChoiceItem ({ choice }: { choice: Choice }): ReactElement {
   const [expanded, setExpanded] = useState<boolean>(true)
@@ -13,7 +12,7 @@ export default function ExpandableChoiceItem ({ choice }: { choice: Choice }): R
   const [showExercises, setShowExercises] = useState<boolean>(false)
 
   return (
-    <li>
+    <li id={listStyleAlpha[choice.order - 1].toLowerCase()} className="scroll-mt-40">
       <div onClick={() => { setExpanded(!expanded) }} className="flex items-center justify-between text-stone-400 text-2xl cursor-pointer">
         <div className="flex items-center">
           <div className="inline-flex items-center flex-shrink-0 justify-center w-10 h-10 bg-stone-400 text-white font-display font-medium rounded-full">

@@ -71,6 +71,7 @@ export interface Goal {
   project: Project
   choices: Choice[]
   child_drafts: Draft[]
+  page: Page
 }
 
 export interface Choice {
@@ -214,6 +215,7 @@ export interface Page {
   hero: Hero | null
   content: PageContentElement[][]
   collection: Collection
+  uri: string
 }
 
 export interface PageContentElement {

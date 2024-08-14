@@ -33,7 +33,7 @@ class PageController extends Controller
         if ($page->getAttribute('type') === ProjectPage::class) {
             $project = Project::query()
                 ->where('page_id', $page->getAttribute('id'))
-                ->with('goals.choices')
+                ->with(['goals.choices', 'goals.page'])
                 ->withCount('goals')
                 ->first();
 
