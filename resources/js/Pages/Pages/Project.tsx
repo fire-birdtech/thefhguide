@@ -42,10 +42,10 @@ export default function ProjectPage ({ collectionNavigation, project, title }: P
 
       <div className="max-w-5xl mx-auto px-4 py-5 sm:p-12">
         <p>
-          Welcome to FamilySearch <strong>Project {project.order}: {project.name}</strong>. The {project.goals_count}{' '}
-          Goals for learning are included below. Each Goal has links to Choices that you can work on, with steps,
-          articles, and videos. You can start with Goal 1 and go Choice by Choice, or you can skip to any Choice
-          you&apos;re interested in. To select a different Project, use the Project links above.
+          Welcome to {project.collection.name} <strong>Project {project.order}: {project.name}</strong>. The{' '}
+          {project.goals_count} Goals for learning are included below. Each Goal has links to Choices that you can work
+          on, with steps, articles, and videos. You can start with Goal 1 and go Choice by Choice, or you can skip to
+          any Choice you&apos;re interested in. To select a different Project, use the Project links above.
         </p>
 
         <div className="mt-10 grid grid-cols-3 gap-6">
