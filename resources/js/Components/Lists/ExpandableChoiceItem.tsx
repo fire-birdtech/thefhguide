@@ -75,7 +75,7 @@ export default function ExpandableChoiceItem ({ choice }: { choice: Choice }): R
               return <Header5 key={index}>{item.data}</Header5>
             } else {
               return <div key={index}>
-                {choice.media.length > 0 ? (
+                {choice?.media?.length > 0 ? (
                   <div className="not-prose float-right">
                     {choice.media.map((mediaItem, mediaItemIdx) => (
                       <div key={mediaItemIdx} className="group block w-full h-auto max-w-md ml-3 mb-3 overflow-hidden rounded-lg bg-gray-100 focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 focus-within:ring-offset-gray-100">
