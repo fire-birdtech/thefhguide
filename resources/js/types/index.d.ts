@@ -258,6 +258,13 @@ export interface Group {
   users: User[]
 }
 
+export interface DailyTip {
+  title: string
+  body: string
+  published_at: string
+  created_at: string
+}
+
 export type PageProps<T extends Record<string, unknown> = Record<string, unknown>> = T & {
   auth: {
     user: User

@@ -6,6 +6,7 @@ use App\Http\Controllers\CollectionController;
 use App\Http\Controllers\ContentController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\DraftController;
+use App\Http\Controllers\Editor\DailyTipsController;
 use App\Http\Controllers\GoalController;
 use App\Http\Controllers\MediaController;
 use App\Http\Controllers\PageController;
@@ -44,4 +45,6 @@ Route::group([
     Route::post('pages/store', [PageController::class, 'store'])->name('pages.store');
     Route::get('pages/{page:id}/edit', [PageController::class, 'edit'])->name('pages.edit');
     Route::put('pages/{page:id}', [PageController::class, 'update'])->name('pages.update');
+    Route::get('daily-tips', [DailyTipsController::class, 'index'])->name('daily-tips.index');
+    Route::post('daily-tips', [DailyTipsController::class, 'store'])->name('daily-tips.store');
 });

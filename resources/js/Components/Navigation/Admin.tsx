@@ -33,6 +33,7 @@ export default function AdminNavigation (): ReactElement {
     { name: 'Dashboard', href: dashboardLink, show: true, components: ['Admin/Dashboard', 'Editor/Dashboard'] },
     { name: 'Content', href: route('editor.content.index'), show: true, components: contentComponents },
     { name: 'Media Library', href: route('editor.media.index'), show: true, components: mediaComponents },
+    { name: 'Daily Tips', href: route('editor.daily-tips.index'), show: true, components: ['Editor/DailyTips/Index'] },
     { name: 'Assignments', href: route('admin.assignments.index'), show: canManageEditors, components: assignmentComponents },
     { name: 'Admins & Editors', href: route('admin.editors.index'), show: canManageEditors, components: editorManagementComponents },
     { name: 'Navigation', href: route('admin.navigation.index'), show: canManageEditors, components: ['Admin/Navigation/Index'] }
