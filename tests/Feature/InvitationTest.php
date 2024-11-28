@@ -19,7 +19,7 @@ class InvitationTest extends TestCase
 
     private $admin;
 
-    public function setUp(): void
+    protected function setUp(): void
     {
         parent::setUp();
 

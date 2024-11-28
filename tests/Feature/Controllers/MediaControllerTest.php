@@ -14,14 +14,14 @@ class MediaControllerTest extends TestCase
 {
     use RefreshDatabase, WithFaker;
 
-    public function setUp(): void
+    protected function setUp(): void
     {
         parent::setUp();
 
         $this->user->assignRole(AllowedUserRoles::EDITOR->value);
     }
 
-    public function testStoreNewUploadedImage(): void
+    public function test_store_new_uploaded_image(): void
     {
         Storage::fake('public');
 

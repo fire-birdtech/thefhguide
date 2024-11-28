@@ -14,14 +14,14 @@ class DraftControllerTest extends TestCase
 {
     use RefreshDatabase, WithFaker;
 
-    public function setUp(): void
+    protected function setUp(): void
     {
         parent::setUp();
 
         $this->user->assignRole(AllowedUserRoles::EDITOR->value);
     }
 
-    public function testANewDraftCanBeStored(): void
+    public function test_a_new_draft_can_be_stored(): void
     {
         $name = $this->faker()->word();
 

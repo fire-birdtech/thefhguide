@@ -12,7 +12,7 @@ class PageControllerTest extends TestCase
 {
     use RefreshDatabase;
 
-    public function testPagesCanHaveAGoalType(): void
+    public function test_pages_can_have_a_goal_type(): void
     {
         $page = GoalPage::factory()->create([
             'slug' => 'page-name',

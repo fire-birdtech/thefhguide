@@ -100,7 +100,7 @@ class DraftController extends Controller
     {
         $this->updateDraft($request, $draft);
 
-        $content = new stdClass();
+        $content = new stdClass;
 
         if ($draft->draftable_type === ContentType::COLLECTION) {
             $content = Collection::create([

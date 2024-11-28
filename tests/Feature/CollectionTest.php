@@ -17,7 +17,7 @@ class CollectionTest extends TestCase
     /**
      * Setup for all collection tests.
      */
-    public function setUp(): void
+    protected function setUp(): void
     {
         parent::setUp();
 

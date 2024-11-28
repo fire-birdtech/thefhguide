@@ -11,7 +11,7 @@ class InfoPageTest extends TestCase
 {
     use RefreshDatabase;
 
-    public function testInfoPageLoaded(): void
+    public function test_info_page_loaded(): void
     {
         $collection = Collection::factory()->create();
 

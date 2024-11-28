@@ -17,7 +17,7 @@ class ProjectTest extends TestCase
     /**
      * Setup for all project tests.
      */
-    public function setUp(): void
+    protected function setUp(): void
     {
         parent::setUp();
 
