@@ -1,0 +1,14 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class UserDataAccess extends Model
+{
+    protected $fillable = [
+        'sender_id',
+        'receiver_id',
+        'access_granted',
+    ];
+}
