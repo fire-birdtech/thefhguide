@@ -3,10 +3,8 @@ import Admin from '@/Layouts/Admin'
 import { type DailyTip, type PageProps } from '@/types'
 import { Head } from '@inertiajs/react'
 import { Heading } from '@/Components/Typography/Headers'
-import InputLabel from '@/Components/Forms/InputLabel'
-import TextInput from '@/Components/Forms/TextInput'
-import TextArea from '@/Components/Forms/TextArea'
-import CreateTip from "@/Pages/Editor/DailyTips/partials/create-tip";
+import CreateTip from '@/Pages/Editor/DailyTips/partials/create-tip'
+import TipList from '@/Pages/Editor/DailyTips/partials/tip-list'
 
 type Props = {
   tips: DailyTip[]
@@ -24,6 +22,10 @@ export default function DailyTips ({ auth, tips }: Props): ReactElement {
 
         <div className="mt-4">
           <CreateTip />
+        </div>
+
+        <div className="mt-6">
+          <TipList tips={tips} />
         </div>
       </div>
     </Admin>

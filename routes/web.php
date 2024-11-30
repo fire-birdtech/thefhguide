@@ -37,9 +37,9 @@ Route::middleware('guest')->group(function () {
     Route::post('invitations/register', [InvitationController::class, 'register'])->name('invitations.register');
 });
 
-Route::get('/tracker', function () {
-    return Inertia::render('Dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
+//Route::get('/tracker', function () {
+//    return Inertia::render('Dashboard');
+//})->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::group(['middleware' => ['auth', 'verified']], function () {
     Route::get('/tracker', [DashboardController::class, 'onlineTracker'])->name('dashboard');

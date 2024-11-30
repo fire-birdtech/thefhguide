@@ -259,6 +259,7 @@ export interface Group {
 }
 
 export interface DailyTip {
+  id: number
   title: string
   body: string
   published_at: string
