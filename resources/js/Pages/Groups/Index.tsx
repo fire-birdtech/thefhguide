@@ -2,13 +2,10 @@ import { type ReactElement } from 'react'
 import Authenticated from '@/Layouts/Authenticated'
 import { type Group, type PageProps } from '@/types'
 import OnlineTrackerNavigation from '@/Components/Navigation/online-tracker'
-import {Head, Link} from '@inertiajs/react'
+import { Head, Link } from '@inertiajs/react'
 import { Heading } from '@/Components/Typography/Headers'
-import TextInput from '@/Components/Forms/TextInput'
-import InputLabel from '@/Components/Forms/InputLabel'
-import PrimaryButton from '@/Components/Buttons/PrimaryButton'
-import TextArea from '@/Components/Forms/TextArea'
-import CreateGroup from "@/Pages/Groups/partials/create-group";
+import CreateGroup from '@/Pages/Groups/partials/create-group'
+import RequestUserDataAccess from '@/Pages/Groups/partials/request-user-data-access'
 
 type Props = {
   groups: Group[]
@@ -39,28 +36,7 @@ export default function Groups ({ auth, groups }: Props): ReactElement {
                 <CreateGroup />
               </div>
               <div className="col-span-8">
-                <form>
-                  <fieldset className="border-2 border-neutral-100 p-4 m-2">
-                    <legend className="text-xl">
-                      Request Access to Another User&apos;s Data
-                    </legend>
-                    <p>
-                      Input the email address that the user has associated with his/her account. Users will be asked
-                      whether to grant you access to their data. If they accept, you will be able to add them to Groups.
-                    </p>
-                    <div className="mt-3">
-                      <InputLabel label="User's Email Address" />
-                      <TextInput type="email" className="mt-1 w-96" />
-                    </div>
-                    <div className="mt-3">
-                      <InputLabel label="Message (optional)" />
-                      <TextArea className="mt-1 w-full"></TextArea>
-                    </div>
-                    <PrimaryButton className="mt-3">
-                      Request
-                    </PrimaryButton>
-                  </fieldset>
-                </form>
+                <RequestUserDataAccess />
               </div>
             </div>
 

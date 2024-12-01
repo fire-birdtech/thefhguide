@@ -7,6 +7,7 @@ use App\Http\Controllers\NotificationController;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\SettingsController;
 use App\Http\Controllers\TrackerController;
+use App\Http\Controllers\UserDataAccessController;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
@@ -37,10 +38,6 @@ Route::middleware('guest')->group(function () {
     Route::post('invitations/register', [InvitationController::class, 'register'])->name('invitations.register');
 });
 
-//Route::get('/tracker', function () {
-//    return Inertia::render('Dashboard');
-//})->middleware(['auth', 'verified'])->name('dashboard');
-
 Route::group(['middleware' => ['auth', 'verified']], function () {
     Route::get('/tracker', [DashboardController::class, 'onlineTracker'])->name('dashboard');
     Route::get('/tracker/project/{project}', [TrackerController::class, 'show'])->name('tracker.project');
@@ -55,6 +52,7 @@ Route::group(['middleware' => ['auth', 'verified']], function () {
     Route::put('settings/password/{user}', [SettingsController::class, 'updatePassword'])->name('settings.update-password');
     Route::get('settings/account', [SettingsController::class, 'account'])->name('settings.account');
     Route::delete('settings/account/{user}', [SettingsController::class, 'deleteAccount'])->name('settings.delete-account');
+    Route::post('user-data-access', [UserDataAccessController::class, 'store'])->name('user-data-access.store');
 });
 
 Route::get('/notifications/{id}/read', [NotificationController::class, 'update'])->middleware(['auth', 'verified'])->name('notifications.read');
