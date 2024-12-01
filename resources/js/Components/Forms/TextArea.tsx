@@ -22,7 +22,7 @@ const TextArea = forwardRef((
     <textarea
       {...props}
       className={
-        'border-gray-300 text-gray-900 focus:border-blue-500 focus:ring-blue-500 rounded-md shadow-sm text-sm dark:bg-gray-800 dark:border-gray-600 dark:text-gray-200 ' +
+        'border-gray-300 text-gray-900 focus:border-blue-500 focus:ring-blue-500 rounded-md shadow-sm text-sm ' +
         className
       }
       rows={4}
