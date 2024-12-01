@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id();
             $table->unsignedBigInteger('sender_id');
             $table->unsignedBigInteger('receiver_id');
+            $table->string('message')->nullable();
             $table->boolean('access_granted')->default(false);
             $table->timestamps();
         });
