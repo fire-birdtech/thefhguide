@@ -3,8 +3,8 @@ import { type ReactElement } from 'react'
 import Authenticated from '@/Layouts/Authenticated'
 import OnlineTrackerNavigation from '@/Components/Navigation/online-tracker'
 import { Head } from '@inertiajs/react'
-import {Heading} from "@/Components/Typography/Headers";
-import ChangeGroupName from "@/Pages/Groups/partials/change-group-name";
+import { Heading } from '@/Components/Typography/Headers'
+import ChangeGroupName from '@/Pages/Groups/partials/change-group-name'
 
 type Props = {
   group: Group

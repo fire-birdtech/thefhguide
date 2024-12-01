@@ -1,17 +1,21 @@
 import { type ReactElement } from 'react'
 import Authenticated from '@/Layouts/Authenticated'
-import { type Group, type PageProps } from '@/types'
+import { type Group, type PageProps, type UserDataAccess } from '@/types'
 import OnlineTrackerNavigation from '@/Components/Navigation/online-tracker'
 import { Head, Link } from '@inertiajs/react'
 import { Heading } from '@/Components/Typography/Headers'
 import CreateGroup from '@/Pages/Groups/partials/create-group'
 import RequestUserDataAccess from '@/Pages/Groups/partials/request-user-data-access'
+import MyDataRequests from '@/Pages/Groups/partials/my-data-requests'
+import DataRequestsForMe from '@/Pages/Groups/partials/data-requests-for-me'
 
 type Props = {
+  dataRequests: UserDataAccess[]
+  dataRequestsForMe: UserDataAccess[]
   groups: Group[]
 } & PageProps
 
-export default function Groups ({ auth, groups }: Props): ReactElement {
+export default function Groups ({ auth, dataRequests, dataRequestsForMe, groups }: Props): ReactElement {
   return (
     <Authenticated
       user={auth.user}
@@ -60,24 +64,11 @@ export default function Groups ({ auth, groups }: Props): ReactElement {
               </div>
 
               <div className="col-span-4">
-                <Heading level={2}>
-                  Request to View Others&apos; Data:
-                </Heading>
-                <p>
-                  These are users to whom you have sent data requests.
-                </p>
+                <MyDataRequests requests={dataRequests} />
               </div>
 
               <div className="col-span-4">
-                <Heading level={2}>
-                  Requests to View Your Data:
-                </Heading>
-                <p>
-                  These are users with whom you have shared your Online Tracker data, or who are requesting access to
-                  your data. When you approve a request, the requesting user can add your slider-bar data to their
-                  Reports. Or, click No Thanks if you do not want to grant access to the requesting user. To remove
-                  access to your account data by a user you previously approved, click Revoke.
-                </p>
+                <DataRequestsForMe requests={dataRequestsForMe} />
               </div>
             </div>
           </div>

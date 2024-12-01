@@ -13,6 +13,8 @@ class GroupController extends Controller
     {
         return inertia('Groups/Index', [
             'groups' => $request->user()->groups,
+            'dataRequests' => $request->user()->dataRequests,
+            'dataRequestsForMe' => $request->user()->dataRequestsForMe,
         ]);
     }
 

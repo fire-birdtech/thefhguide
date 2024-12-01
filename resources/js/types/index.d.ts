@@ -266,6 +266,18 @@ export interface DailyTip {
   created_at: string
 }
 
+export interface UserDataAccess {
+  id: number
+  name: string
+  pivot: {
+    access_granted: boolean
+    created_at: string
+    receiver_id: number
+    sender_id: number
+    message?: string
+  }
+}
+
 export type PageProps<T extends Record<string, unknown> = Record<string, unknown>> = T & {
   auth: {
     user: User

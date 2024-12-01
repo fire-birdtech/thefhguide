@@ -2,7 +2,7 @@ import { type ReactElement } from 'react'
 import InputLabel from '@/Components/Forms/InputLabel'
 import TextInput from '@/Components/Forms/TextInput'
 import PrimaryButton from '@/Components/Buttons/PrimaryButton'
-import {useForm} from "@inertiajs/react";
+import { useForm } from '@inertiajs/react'
 
 export default function CreateGroup (): ReactElement {
   const { data, setData, post } = useForm({

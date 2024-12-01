@@ -83,4 +83,16 @@ class User extends Authenticatable
     {
         return $this->belongsToMany(Group::class);
     }
+
+    public function dataRequests(): BelongsToMany
+    {
+        return $this->belongsToMany(User::class, 'user_data_accesses', 'sender_id', 'receiver_id')
+            ->withPivot(['message', 'access_granted', 'created_at']);
+    }
+
+    public function dataRequestsForMe(): BelongsToMany
+    {
+        return $this->belongsToMany(User::class, 'user_data_accesses', 'receiver_id', 'sender_id')
+            ->withPivot(['message', 'access_granted', 'created_at']);
+    }
 }

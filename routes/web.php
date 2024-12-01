@@ -53,6 +53,7 @@ Route::group(['middleware' => ['auth', 'verified']], function () {
     Route::get('settings/account', [SettingsController::class, 'account'])->name('settings.account');
     Route::delete('settings/account/{user}', [SettingsController::class, 'deleteAccount'])->name('settings.delete-account');
     Route::post('user-data-access', [UserDataAccessController::class, 'store'])->name('user-data-access.store');
+    Route::put('user-data-access/approve', [UserDataAccessController::class, 'update'])->name('user-data-access.update');
 });
 
 Route::get('/notifications/{id}/read', [NotificationController::class, 'update'])->middleware(['auth', 'verified'])->name('notifications.read');
