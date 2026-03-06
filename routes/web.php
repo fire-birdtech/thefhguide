@@ -5,6 +5,7 @@ use App\Http\Controllers\GroupController;
 use App\Http\Controllers\InvitationController;
 use App\Http\Controllers\NotificationController;
 use App\Http\Controllers\PageController;
+use App\Http\Controllers\ReportsController;
 use App\Http\Controllers\SettingsController;
 use App\Http\Controllers\TrackerController;
 use App\Http\Controllers\UserDataAccessController;
@@ -46,6 +47,7 @@ Route::group(['middleware' => ['auth', 'verified']], function () {
     Route::post('groups/create', [GroupController::class, 'store'])->name('groups.store');
     Route::get('groups/{group}', [GroupController::class, 'show'])->name('groups.show');
     Route::put('groups/{group}', [GroupController::class, 'update'])->name('groups.update');
+    Route::get('reports', [ReportsController::class, 'index'])->name('reports');
     Route::get('settings/profile', [SettingsController::class, 'profile'])->name('settings.profile');
     Route::put('settings/profile/{user}', [SettingsController::class, 'updateProfile'])->name('settings.update-profile');
     Route::get('settings/security', [SettingsController::class, 'security'])->name('settings.security');

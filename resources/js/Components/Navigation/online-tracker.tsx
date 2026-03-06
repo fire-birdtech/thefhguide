@@ -21,7 +21,7 @@ const primaryNav: Navigation[] = [
   { label: 'Tracker Home', href: route('dashboard'), components: ['Dashboard'] },
   { label: 'My Account', href: route('settings.profile'), components: ['Settings/Account', 'Settings/Profile', 'Settings/Security'] },
   { label: 'Groups', href: route('groups'), components: ['Groups/Index', 'Groups/Show'] },
-  { label: 'Reports', href: '#', components: [] },
+  { label: 'Reports', href: route('reports'), components: ['Reports/Index'] },
   { label: 'Stars', href: '#', components: [] }
 ]
 
