@@ -5,12 +5,17 @@ import PrimaryButton from '@/Components/Buttons/PrimaryButton'
 import { useForm } from '@inertiajs/react'
 
 export default function CreateGroup (): ReactElement {
-  const { data, setData, post } = useForm({
+  const { data, setData, post, reset } = useForm({
     name: ''
   })
 
-  const submit = (): void => {
-    post(route('groups.store'))
+  const submit = (e): void => {
+    e.preventDefault()
+    post(route('groups.store'), {
+      onFinish: () => {
+        reset()
+      }
+    })
   }
 
   return (
